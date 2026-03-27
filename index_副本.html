@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 动态简报 · Latent Space · 2026-03-25</title>
+  <style>
+    /* ─── Design Tokens (design-system.md · Waste Not Inspired) ─── */
+    :root {
+      --bg-primary:          #FDFBF6;   /* 泛黄复古白 */
+      --bg-secondary:        #FAFAFA;
+      --bg-card:             #FFFFFF;
+      --text-primary:        #111111;
+      --text-secondary:      #333333;
+      --text-muted:          #888888;
+      --accent-interactive:  #00885E;
+      --accent-tag-bg:       #F0F0F0;
+      --border-color:        #DDDDDD;
+      --border-color-muted:  #E8E6E0;
+      --shadow-none:         none;
+      --radius-card:         2px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text',
+                   'Helvetica Neue', Arial, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ─── HEADER (components.md · main-header) ──────────────────── */
+    .main-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: calc(48px + 2vw) 24px calc(16px + 1vw);
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: calc(40px + 2vw);
+    }
+    .header-eyebrow {
+      font-family: 'Times New Roman', Times, Georgia, serif;
+      font-size: calc(12px + 0.1vw);
+      color: var(--text-muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+    }
+    .header-title {
+      font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+      font-size: calc(22px + 0.5vw);
+      color: var(--text-primary);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      margin-bottom: 18px;
+    }
+    .header-meta {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .meta-item {
+      font-family: Helvetica, sans-serif;
+      font-size: 12px;
+      color: var(--text-muted);
+      letter-spacing: .03em;
+    }
+    .meta-count {
+      font-family: Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent-interactive);
+      letter-spacing: .05em;
+    }
+
+    /* ─── MAIN ───────────────────────────────────────────────────── */
+    .main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+
+    /* ─── FLAT MEDIA CARD (components.md §1 · 左图右文) ─────────── */
+    .list-item {
+      display: flex;
+      gap: 24px;
+      background: var(--bg-card);
+      /* 仅中间分割线，首尾无边框 */
+      border-bottom: 1px solid var(--border-color);
+      padding: 28px 0;
+      cursor: pointer;
+      position: relative;
+      transition: background 0.2s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+    /* 去掉顶部边框 */
+    .list-item:first-child {
+      border-top: none;
+    }
+    /* 去掉底部边框 */
+    .list-item:last-child {
+      border-bottom: none;
+    }
+    .list-item:hover { background: var(--bg-secondary); }
+
+    /* 左侧封面图（16:9） */
+    .item-cover {
+      width: 30%;
+      max-width: 220px;
+      flex-shrink: 0;
+      aspect-ratio: 16 / 9;
+      border-radius: var(--radius-card);
+      border: 1px solid var(--border-color-muted);
+      overflow: hidden;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .item-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+      display: block;
+    }
+
+    /* 右侧内容区 */
+    .item-content {
+      flex-grow: 1;
+      padding-right: 36px;
+      min-width: 0;
+    }
+
+    /* 作者行 */
+    .author-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+      font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+    }
+    .author-row .avatar-img {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      border: 1px solid var(--border-color);
+      object-fit: cover;
+      flex-shrink: 0;
+      background: var(--bg-secondary);
+    }
+    .author-row .author-name {
+      font-weight: 600;
+      font-size: 14px;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* 平台标签 */
+    .tags {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+    .tag {
+      background: var(--accent-tag-bg);
+      color: var(--text-secondary);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .04em;
+      font-family: Helvetica, sans-serif;
+    }
+
+    /* 双语正文 */
+    .desc-zh {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: var(--text-primary);
+      line-height: 1.65;
+      margin: 0 0 8px 0;
+      text-align: justify;
+    }
+    .desc-en {
+      font-family: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13px;
+      color: var(--text-muted);
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    /* 右上角跳转箭头（⟶ 硬朗箭头，严禁任何边框/背景） */
+    .jump-arrow {
+      position: absolute;
+      top: 28px;
+      right: 0;
+      border: none;
+      outline: none;
+      background: none;
+      font-family: Helvetica, sans-serif;
+      font-size: calc(16px + 0.3vw);
+      color: var(--text-muted);
+      transition: color .18s ease, transform .18s ease;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+    .list-item:hover .jump-arrow {
+      color: var(--accent-interactive);
+      transform: translateX(3px);
+    }
+
+    /* ─── FOOTER ─────────────────────────────────────────────────── */
+    /* 去掉 border-top */
+    .site-footer {
+      padding: 28px 24px 40px;
+      text-align: center;
+    }
+    .footer-text {
+      font-size: 11px;
+      color: var(--text-muted);
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    /* ─── Responsive ─────────────────────────────────────────────── */
+    @media (max-width: 600px) {
+      .main-header { padding: 36px 16px 20px; margin-bottom: 28px; }
+      .main { padding: 0 16px 60px; }
+      .item-cover {
+        width: 28%;
+        max-width: 110px;
+      }
+      .item-content { padding-right: 28px; }
+      .desc-zh { font-size: 14px; }
+      .desc-en { font-size: 12px; }
+    }
+    @media (max-width: 380px) {
+      .item-cover { max-width: 88px; }
+      .author-name { font-size: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══ HEADER (main-header · components.md) ════════════════════ -->
+  <header class="main-header">
+    <div class="header-eyebrow">AI Industry Tracker · Latent Space</div>
+    <div class="header-title">AI 动态简报</div>
+    <div class="header-meta">
+      <span class="meta-item">2026-03-25</span>
+      <span class="meta-item">Swyx · Latent Space</span>
+      <span class="meta-count">2 条动态</span>
+    </div>
+  </header>
+
+  <!-- ══ MAIN LIST ════════════════════════════════════════════════ -->
+  <main class="main">
+
+    <!-- ── 动态 1 · OpenAI 关闭 Sora ─────────────────────────── -->
+    <a class="list-item"
+       href="https://x.com/swyx/status/2036533647659143630"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <div class="item-cover">
+        <!--
+          使用 microlink.io 截图 API 拉取推文真实预览图；
+          加载失败时降级为 og:image 代理（card.ly），再失败隐藏。
+        -->
+        <img
+          src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fswyx%2Fstatus%2F2036533647659143630&screenshot=true&meta=false&embed=screenshot.url"
+          alt="tweet preview"
+          loading="lazy"
+          onerror="this.src='https://t3.ftcdn.net/jpg/03/45/05/92/360_F_345059232_CPieT8RIWOUk4JqBkkWkIETYAkmz2b9L.jpg'; this.onerror=null;">
+      </div>
+
+      <div class="item-content">
+        <div class="author-row">
+          <!-- 从 X 平台拉取 @swyx 真实头像 -->
+          <img class="avatar-img"
+               src="https://unavatar.io/x/swyx"
+               alt="Swyx avatar"
+               onerror="this.style.display='none'">
+          <span class="author-name">Swyx (@cognition · Latent Space)</span>
+        </div>
+
+        <div class="tags">
+          <span class="tag">Twitter / X</span>
+          <span class="tag">OpenAI</span>
+          <span class="tag">Sora</span>
+        </div>
+
+        <div class="bilingual-desc">
+          <p class="desc-zh">Swyx 宣布 OpenAI 已关闭 Sora，称其为"OpenAI 打压旁支项目的第一个牺牲品"。</p>
+          <p class="desc-en">Swyx announces OpenAI has killed Sora, calling it the "first casualty of OpenAI's crackdown on Side Quests."</p>
+        </div>
+      </div>
+
+      <div class="jump-arrow">⟶</div>
+    </a>
+
+    <!-- ── 动态 2 · 效率工具 3–8× ──────────────────────────────── -->
+    <a class="list-item"
+       href="https://x.com/swyx/status/2036565584515899445"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <div class="item-cover">
+        <img
+          src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fswyx%2Fstatus%2F2036565584515899445&screenshot=true&meta=false&embed=screenshot.url"
+          alt="tweet preview"
+          loading="lazy"
+          onerror="this.src='https://t3.ftcdn.net/jpg/03/45/05/92/360_F_345059232_CPieT8RIWOUk4JqBkkWkIETYAkmz2b9L.jpg'; this.onerror=null;">
+      </div>
+
+      <div class="item-content">
+        <div class="author-row">
+          <img class="avatar-img"
+               src="https://unavatar.io/x/swyx"
+               alt="Swyx avatar"
+               onerror="this.style.display='none'">
+          <span class="author-name">Swyx (@cognition · Latent Space)</span>
+        </div>
+
+        <div class="tags">
+          <span class="tag">Twitter / X</span>
+          <span class="tag">效率工具</span>
+          <span class="tag">Workflow</span>
+        </div>
+
+        <div class="bilingual-desc">
+          <p class="desc-zh">他还盛赞一款每天为他节省 3–8 倍时间的工具，称其真正改变了他的工作流。</p>
+          <p class="desc-en">He also praises a tool that saves him 3–8x time per day, crediting it with legitimately changing his workflow.</p>
+        </div>
+      </div>
+
+      <div class="jump-arrow">⟶</div>
+    </a>
+
+  </main>
+
+  <!-- ══ FOOTER ═══════════════════════════════════════════════════ -->
+  <!-- 去掉 border-top，仅保留版权文字 -->
+  <footer class="site-footer">
+    <p class="footer-text">AI Report Builder · Latent Space / Swyx · 2026-03-25</p>
+  </footer>
+
+  <!-- ── 淡入动画（无依赖）──────────────────────────────────────── -->
+  <script>
+    (function () {
+      var items = document.querySelectorAll('.list-item');
+      if (!window.IntersectionObserver) {
+        items.forEach(function (el) { el.style.opacity = '1'; });
+        return;
+      }
+      items.forEach(function (el) {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(10px)';
+        el.style.transition = 'opacity .45s ease, transform .45s ease';
+      });
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) {
+            e.target.style.opacity = '1';
+            e.target.style.transform = 'translateY(0)';
+            io.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.08 });
+      items.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
+
+</body>
+</html>
