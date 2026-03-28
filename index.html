@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ai Builders Digest · 2026-03-25</title>
   <style>
-    /* ── Design Tokens (design-system.md · Modernist) ─────────────── */
     :root {
       --bg-primary:    #F4F4F4;
       --bg-card:       transparent;
@@ -13,1026 +12,470 @@
       --text-secondary:#555555;
       --border-color:  #111111;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     body {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       background: var(--bg-primary);
       color: var(--text-primary);
       -webkit-font-smoothing: antialiased;
     }
-
-    /* ── 页面容器 ─────────────────────────────────────────────────── */
-    .page-wrapper {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-
-    /* ── HEADER (components.md §1 · Brutalist Header) ──────────────── */
+    .page-wrapper { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
     .main-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
-      padding-bottom: 24px;
-      border-bottom: 1px solid var(--border-color);
+      display: flex; justify-content: space-between; align-items: flex-end;
+      padding-bottom: 24px; border-bottom: 1px solid var(--border-color);
     }
-
     .header-title {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: calc(32px + 2vw);
-      font-weight: 800;
-      line-height: 0.9;
-      color: var(--text-primary);
-      letter-spacing: -1px;
-      white-space: nowrap;
+      font-size: calc(32px + 2vw); font-weight: 800; line-height: 0.9;
+      letter-spacing: -1px; white-space: nowrap;
     }
-
     .header-date-badge {
-      border: 1px solid var(--border-color);
-      border-radius: 20px;
-      padding: 6px 16px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 11px;
-      font-weight: 700;
-      text-transform: uppercase;
-      color: var(--text-primary);
-      white-space: nowrap;
+      border: 1px solid var(--border-color); border-radius: 20px;
+      padding: 6px 16px; font-size: 11px; font-weight: 700;
+      text-transform: uppercase; white-space: nowrap;
     }
-
-    /* ── LIST CONTAINER (components.md §3) ─────────────────────────── */
-    .list-container {
-      border-bottom: 1px solid var(--border-color);
-    }
-
-    /* ── LIST ITEM (components.md §2 · Modernist List Item) ────────── */
+    .list-container { border-bottom: 1px solid var(--border-color); }
     .list-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 4%;
-      padding: 32px 0;
-      border-top: 1px solid var(--border-color);
-      cursor: pointer;
-      position: relative;
-      text-decoration: none;
-      color: inherit;
-      background: var(--bg-card);
+      display: flex; align-items: flex-start; gap: 4%;
+      padding: 32px 0; border-top: 1px solid var(--border-color);
+      cursor: pointer; position: relative; text-decoration: none;
+      color: inherit; background: var(--bg-card);
     }
-
-    /* 封面图 38%，4:3 比例 */
-    .item-cover {
-      width: 38%;
-      flex-shrink: 0;
-      background: var(--bg-primary);
-      aspect-ratio: 4 / 3;
-      overflow: hidden;
-    }
-
-    .item-cover img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: top center;
-      display: block;
-    }
-
-    .item-cover img.is-fallback {
-      object-fit: contain;
-      object-position: center;
-    }
-
-    /* 右侧内容区 */
-    .item-content {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      position: relative;
-      padding-right: 40px;
-    }
-
-    /* 右上角跳转箭头 —— 纯文字，零边框零背景 */
-    .jump-arrow {
-      position: absolute;
-      top: 0;
-      right: 0;
-      font-size: 24px;
-      color: var(--text-primary);
-      line-height: 1;
-      font-family: Arial, sans-serif;
-      border: none;
-      background: none;
-      outline: none;
-    }
-
-    /* 中文主标题 */
-    .item-title-zh {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: calc(18px + 0.8vw);
-      font-weight: 700;
-      color: var(--text-primary);
-      line-height: 1.3;
-      margin-bottom: 12px;
-    }
-
-    /* 英文副描述 */
-    .item-desc-en {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: calc(12px + 0.2vw);
-      font-weight: 500;
-      color: var(--text-secondary);
-      line-height: 1.4;
-      text-transform: uppercase;
-    }
-
-    /* 底部 Meta 行 */
+    .item-cover { width: 38%; flex-shrink: 0; background: var(--bg-primary); aspect-ratio: 4 / 3; overflow: hidden; }
+    .item-cover img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
+    .item-cover img.is-fallback { object-fit: contain; object-position: center; }
+    .item-content { flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; position: relative; padding-right: 40px; }
+    .jump-arrow { position: absolute; top: 0; right: 0; font-size: 24px; line-height: 1; font-family: Arial, sans-serif; }
+    .item-title-zh { font-size: calc(18px + 0.8vw); font-weight: 700; line-height: 1.3; margin-bottom: 12px; }
+    .item-desc-en { font-size: calc(12px + 0.2vw); font-weight: 500; color: var(--text-secondary); line-height: 1.4; text-transform: uppercase; }
     .meta-row {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 11px;
-      font-weight: 800;
-      color: var(--text-primary);
-      letter-spacing: 0.5px;
-      margin-top: 24px;
-      flex-wrap: wrap;
+      display: flex; align-items: center; gap: 10px;
+      font-size: 11px; font-weight: 800; letter-spacing: 0.5px;
+      margin-top: 24px; flex-wrap: wrap;
     }
-
-    .meta-row .avatar-img {
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      object-fit: cover;
-      flex-shrink: 0;
-    }
-
-    /* ── FOOTER ─────────────────────────────────────────────────────── */
-    .site-footer {
-      padding: 28px 0 0;
-      text-align: center;
-    }
-
-    .footer-text {
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      font-size: 11px;
-      color: var(--text-secondary);
-      letter-spacing: .08em;
-      text-transform: uppercase;
-    }
-
-    /* ── Responsive ─────────────────────────────────────────────────── */
+    .meta-row .avatar-img { width: 20px; height: 20px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
     @media (max-width: 600px) {
       .page-wrapper { padding: 36px 16px; }
-      .header-title { letter-spacing: -0.5px; }
       .item-cover { width: 35%; }
       .item-content { padding-right: 28px; }
       .item-title-zh { font-size: calc(15px + 0.8vw); }
       .item-desc-en { font-size: 11px; }
     }
-
-    @media (max-width: 380px) {
-      .item-cover { width: 32%; }
-    }
+    @media (max-width: 380px) { .item-cover { width: 32%; } }
   </style>
   <script>
   (function(){
-    'use strict';
-    function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
-    function H(s){for(var h=0,i=0;i<s.length;i++)h=((h<<5)-h+s.charCodeAt(i))|0;return Math.abs(h)}
-    function fs(n,mx){return Math.min(mx,Math.floor(350/Math.max(n.length,1)*1.5))}
-    function trunc(s,len){return s.length>len?s.slice(0,len)+'…':s}
-
-    /* ── Topic icon SVG snippets (24x24 viewBox) ── */
-    var ICO={
-      shield:'<path d="M12,2L4,6V12C4,17,8,21,12,22C16,21,20,17,20,12V6Z"/>',
-      bolt:'<path d="M13,2L6,13H11L10,22L18,11H13Z"/>',
-      code:'<path d="M8,5L2,12L8,19M16,5L22,12L16,19"/>',
-      rocket:'<path d="M12,2C8,6,7,12,7,16L12,20L17,16C17,12,16,6,12,2Z"/><circle cx="12" cy="11" r="2"/>',
-      mic:'<rect x="9" y="2" width="6" height="10" rx="3"/><path d="M6,11C6,15,9,18,12,18S18,15,18,11"/><line x1="12" y1="18" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/>',
-      gear:'<circle cx="12" cy="12" r="4"/><path d="M12,1V4M12,20V23M1,12H4M20,12H23M4.9,4.9L7,7M17,17L19.1,19.1M4.9,19.1L7,17M17,7L19.1,4.9"/>',
-      chat:'<path d="M4,4H20V16H12L7,21V16H4Z"/>',
-      star:'<path d="M12,2L14.5,9H22L16,13.5L18,21L12,17L6,21L8,13.5L2,9H9.5Z"/>'
-    };
-    function icon(type,x,y,sz,cl){
-      var s=sz/24;
-      return '<g transform="translate('+(x-12*s)+','+(y-12*s)+') scale('+s+')" fill="none" stroke="'+cl+'" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">'+ICO[type]+'</g>';
-    }
+    var PAL=[{bg:"#F4F4F4",tx:"#111",ac:"#111",s1:"#111",s2:"#F4F4F4"}];
+    function esc(s){return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+    function trunc(s,n){s=String(s||"");return s.length>n?s.slice(0,n-1)+"…":s;}
+    function H(s){s=String(s||"");var h=0;for(var i=0;i<s.length;i++){h=(h*31+s.charCodeAt(i))>>>0;}return h;}
     function tagIcon(tg){
-      var t=String(tg).toLowerCase().replace(/[·•]/g,' ').replace(/\s+/g,' ').trim();
-      if(t.indexOf('security')>=0||t.indexOf('safety')>=0)return'shield';
-      if(t.indexOf('culture')>=0||t.indexOf('every')>=0||t.indexOf('productivity')>=0)return'chat';
-      if(t.indexOf('openai')>=0||t.indexOf('anthropic')>=0||t==='ai agents'||t.indexOf('ai agents')>=0)return'bolt';
-      if(t.indexOf('code')>=0||t.indexOf('github')>=0||t.indexOf('dev')>=0)return'code';
-      if(t.indexOf('product')>=0||t.indexOf('combinator')>=0||t.indexOf('vercel')>=0||t.indexOf('linear')>=0||t.indexOf('replit')>=0||t.indexOf('box')>=0||t.indexOf('google')>=0)return'rocket';
-      if(t.indexOf('podcast')>=0||t.indexOf('materials')>=0)return'mic';
-      if(t.indexOf('robot')>=0||t.indexOf('openclaw')>=0)return'gear';
-      return'star';
+      var t=String(tg||"").toLowerCase().replace(/[·•]/g," ").replace(/\s+/g," ").trim();
+      if(t.indexOf("security")>=0||t.indexOf("safety")>=0)return "shield";
+      if(t.indexOf("podcast")>=0||t.indexOf("youtube")>=0)return "mic";
+      if(t.indexOf("openai")>=0||t.indexOf("anthropic")>=0||t.indexOf("ai agents")>=0)return "bolt";
+      return "star";
     }
-
-    var PAL=[
-      {bg:'#F5F0EB',bd:'#222',sh:['#E63946','#F4A261','#2A9D8F','#264653','#E9C46A','#7B2D8E'],tx:'#111'},
-      {bg:'#F0F4F8',bd:'#2D3748',sh:['#3D5A80','#98C1D9','#EE6C4D','#293241','#6B48FF','#48BF84'],tx:'#1A1A2E'},
-      {bg:'#FDF6EC',bd:'#5D4037',sh:['#D4A373','#8D6E63','#A1887F','#6D4C41','#BCAAA4','#795548'],tx:'#3E2723'},
-      {bg:'#F5EFEB',st:['#C4704B','#D4956A','#E8B98A','#A0522D','#DEB887','#CD853F','#8B4513'],ac:'#D32F2F'},
-      {bg:'#EFF5F7',st:['#1565C0','#1976D2','#1E88E5','#2196F3','#42A5F5','#64B5F6','#0D47A1'],ac:'#00695C'},
-      {bg:'#F8F0F5',st:['#7B1FA2','#8E24AA','#9C27B0','#AB47BC','#BA68C8','#CE93D8','#6A1B9A'],ac:'#AD1457'},
-      {hb:'#B3D4FC',hs:'#5C6BC0',cb:'#E8D5F5',bl:'#7E57C2',bg:'#F5F5FF',tx:'#37474F'},
-      {hb:'#B2DFDB',hs:'#00897B',cb:'#C8E6C9',bl:'#388E3C',bg:'#F0FFF4',tx:'#1B5E20'},
-      {hb:'#FFE0B2',hs:'#F57C00',cb:'#FFCCBC',bl:'#E64A19',bg:'#FFFAF0',tx:'#BF360C'},
-      {ml:'#B8D8E8',bo:'#4A7C59',ac:'#2C3E7B',tx:'#2C3340'},
-      {ml:'#E8D0F0',bo:'#C2185B',ac:'#4A148C',tx:'#311B47'},
-      {ml:'#B2EBF2',bo:'#F9A825',ac:'#006064',tx:'#004D40'},
-      {pb:'#DDD6FE',tx:'#1E1040'},{pb:'#A7F3D0',tx:'#064E3B'},{pb:'#FECACA',tx:'#7F1D1D'},
-      {pb:'#FEF3C7',tx:'#78350F'},{pb:'#BAE6FD',tx:'#0C4A6E'},
-      {bg:'#FFF8E8',fb:'#D4A030',pl:['#4CAF50','#E91E63','#FF9800','#FDD835'],tx:'#333'},
-      {bg:'#F0F4FF',fb:'#5C6BC0',pl:['#29B6F6','#AB47BC','#26A69A','#FF7043'],tx:'#1A237E'},
-      {bg:'#FFFDF0',fb:'#43A047',pl:['#FF5252','#448AFF','#69F0AE','#FFD740'],tx:'#212121'},
-      {s1:'#C084FC',s2:'#FB923C',tx:'#1A1A1A'},{s1:'#60A5FA',s2:'#FBBF24',tx:'#1A1A1A'},
-      {s1:'#4ADE80',s2:'#F472B6',tx:'#1A1A1A'},{s1:'#2DD4BF',s2:'#FB7185',tx:'#1A1A1A'}
-    ];
-    var RNG=[[0,2],[3,5],[6,8],[9,11],[12,16],[17,19],[20,23]];
-
-    /* ── T0: Yard Sale — line-art geometry + excerpt ── */
+    function icon(name,x,y,sz,fill){
+      var p="";
+      if(name==="shield")p="M12 2l7 4v6c0 5-3 9-7 12C8 21 5 17 5 12V6l7-4z";
+      else if(name==="mic")p="M12 14a3 3 0 003-3V6a3 3 0 00-6 0v5a3 3 0 003 3zm5-3a5 5 0 01-10 0H5a7 7 0 0014 0h-2z";
+      else if(name==="bolt")p="M13 2L6 13h5l-1 9 8-11h-5z";
+      else p="M12 17.3l-6.18 3.7 1.64-7.03L2 9.24l7.19-.61L12 2l2.81 6.63 7.19.61-5.46 4.73L18.18 21z";
+      return '<path d="'+p+'" transform="translate('+x+','+y+') scale('+(sz/24)+')" fill="'+fill+'"/>';
+    }
     function t0(n,tg,c,ex,ic){
-      var f=fs(n,28);
       return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">'
       +'<rect width="400" height="300" fill="'+c.bg+'"/>'
-      +'<rect x="8" y="8" width="384" height="284" fill="none" stroke="'+c.bd+'" stroke-width="1"/>'
-      +icon(ic,200,148,44,c.sh[0])
-      +'<circle cx="80" cy="180" r="24" fill="none" stroke="'+c.sh[1]+'" stroke-width="2.5"/>'
-      +'<polygon points="315,120 340,165 290,165" fill="none" stroke="'+c.sh[2]+'" stroke-width="2.5"/>'
-      +'<rect x="60" y="100" width="36" height="36" fill="none" stroke="'+c.sh[3]+'" stroke-width="2.5" transform="rotate(15,78,118)"/>'
-      +'<polygon points="320,210 340,228 320,248 300,228" fill="none" stroke="'+c.sh[4]+'" stroke-width="2.5"/>'
-      +'<polygon points="90,232 104,224 118,232 118,248 104,256 90,248" fill="none" stroke="'+c.sh[5]+'" stroke-width="2.5"/>'
-      +'<text x="200" y="42" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="'+f+'" font-weight="800" fill="'+c.tx+'" text-anchor="middle">'+esc(String(n).toUpperCase())+'</text>'
-      +'<text x="200" y="64" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="'+c.tx+'" text-anchor="middle" opacity="0.55">'+esc(ex)+'</text>'
-      +'<text x="24" y="278" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="'+c.tx+'" letter-spacing="1.5">'+esc(tg)+'</text>'
-      +'<text x="376" y="278" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="'+c.tx+'" text-anchor="end" letter-spacing="1.5">X.COM</text>'
+      +'<rect x="24" y="24" width="352" height="252" fill="#FFF" opacity="0.9" stroke="'+c.ac+'" stroke-width="1"/>'
+      +icon(ic,40,44,22,"#777")
+      +'<text x="70" y="60" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="800" fill="#666" letter-spacing="2">'+esc(tg)+'</text>'
+      +'<text x="40" y="120" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="22" font-weight="800" fill="'+c.tx+'">'+esc(String(n).toUpperCase())+'</text>'
+      +'<text x="40" y="150" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#666">'+esc(ex)+'</text>'
       +'</svg>';
     }
-
-    /* ── T1: Brunch — vertical strip collage + excerpt ── */
-    function t1(n,tg,c,ex,ic){
-      var s='',yo=[62,38,72,48,58,42,68];
-      for(var i=0;i<c.st.length;i++){var y=yo[i%7];s+='<rect x="'+(75+i*36)+'" y="'+y+'" width="28" height="'+(300-y*2)+'" fill="'+c.st[i]+'" rx="3"/>';}
-      var f=fs(n,24);
-      return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">'
-      +'<rect width="400" height="300" fill="'+c.bg+'"/>'
-      +s
-      +icon(ic,42,268,22,c.ac)
-      +'<text x="22" y="32" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="'+f+'" font-weight="800" fill="'+c.ac+'">'+esc(String(n).toUpperCase())+'</text>'
-      +'<text x="22" y="50" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="'+c.ac+'" opacity="0.6">'+esc(ex)+'</text>'
-      +'<text x="378" y="278" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="18" font-weight="800" fill="'+c.ac+'" text-anchor="end">'+esc(tg)+'</text>'
-      +'</svg>';
-    }
-
-    /* ── T2: Cards — card matrix + excerpt ── */
-    function t2(n,tg,c,ex,ic){
-      return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">'
-      +'<rect width="400" height="300" fill="'+c.bg+'"/>'
-      +'<rect x="80" y="18" width="240" height="55" rx="12" fill="'+c.hb+'"/>'
-      +icon(ic,118,45,26,c.hs)
-      +'<rect x="148" y="38" width="145" height="14" rx="7" fill="'+c.hs+'"/>'
-      +'<line x1="130" y1="80" x2="130" y2="118" stroke="'+c.tx+'" stroke-width="1.5"/><polygon points="125,114 130,124 135,114" fill="'+c.tx+'"/>'
-      +'<line x1="200" y1="80" x2="200" y2="118" stroke="'+c.tx+'" stroke-width="1.5"/><polygon points="195,114 200,124 205,114" fill="'+c.tx+'"/>'
-      +'<line x1="270" y1="80" x2="270" y2="118" stroke="'+c.tx+'" stroke-width="1.5"/><polygon points="265,114 270,124 275,114" fill="'+c.tx+'"/>'
-      +'<rect x="40" y="130" width="88" height="78" rx="8" fill="'+c.cb+'"/>'
-      +'<rect x="50" y="140" width="68" height="10" rx="4" fill="'+c.bl+'"/><rect x="50" y="158" width="26" height="26" rx="4" fill="'+c.bl+'"/>'
-      +'<rect x="156" y="130" width="88" height="78" rx="8" fill="'+c.cb+'"/>'
-      +'<rect x="166" y="140" width="68" height="10" rx="4" fill="'+c.bl+'"/><rect x="196" y="158" width="26" height="26" rx="4" fill="'+c.bl+'"/>'
-      +'<rect x="272" y="130" width="88" height="78" rx="8" fill="'+c.cb+'"/>'
-      +'<rect x="282" y="140" width="68" height="10" rx="4" fill="'+c.bl+'"/><rect x="282" y="168" width="26" height="26" rx="4" fill="'+c.bl+'"/>'
-      +'<text x="200" y="240" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="12" font-weight="700" fill="'+c.tx+'" text-anchor="middle">'+esc(String(n).toUpperCase())+' • '+esc(tg)+'</text>'
-      +'<text x="200" y="260" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="'+c.tx+'" text-anchor="middle" opacity="0.5">'+esc(ex)+'</text>'
-      +'</svg>';
-    }
-
-    /* ── T3: Material — wave blobs + excerpt ── */
-    function t3(n,tg,c,ex,ic){
-      var f=fs(n,28);
-      return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">'
-      +'<rect width="400" height="300" rx="16" fill="'+c.ml+'"/>'
-      +'<path d="M240,0 Q310,50 360,120 Q400,180 385,240 Q370,290 310,300 L400,300 L400,0 Z" fill="'+c.bo+'"/>'
-      +'<path d="M0,220 Q35,195 55,235 Q70,265 40,300 L0,300 Z" fill="'+c.ac+'"/>'
-      +'<path d="M0,0 L0,75 Q25,55 20,25 Z" fill="'+c.ac+'"/>'
-      +'<path d="M365,0 L400,0 L400,45 Q385,20 365,0 Z" fill="'+c.ac+'"/>'
-      +'<path d="M400,260 Q375,275 400,300 Z" fill="'+c.ac+'"/>'
-      +icon(ic,30,110,24,c.tx)
-      +'<text x="30" y="150" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="'+f+'" font-weight="800" fill="'+c.tx+'">'+esc(String(n).toUpperCase())+'</text>'
-      +'<text x="30" y="174" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="600" fill="'+c.tx+'" opacity="0.55" letter-spacing="1">'+esc(tg)+'</text>'
-      +'<text x="30" y="200" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="'+c.tx+'" opacity="0.45">'+esc(ex)+'</text>'
-      +'</svg>';
-    }
-
-    /* ── T4: Sunday — pastel + giant type + excerpt ── */
-    function t4(n,tg,c,ex,ic){
-      var f=fs(n,56);
-      return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">'
-      +'<rect width="400" height="300" rx="14" fill="'+c.pb+'"/>'
-      +icon(ic,200,80,32,c.tx)
-      +'<text x="200" y="172" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="'+f+'" font-weight="900" fill="'+c.tx+'" text-anchor="middle">'+esc(String(n).toUpperCase())+'</text>'
-      +'<text x="200" y="198" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="'+c.tx+'" text-anchor="middle" opacity="0.45">'+esc(ex)+'</text>'
-      +'<text x="22" y="26" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="'+c.tx+'" opacity="0.4" letter-spacing="1.5">TWITTER / X</text>'
-      +'<text x="378" y="26" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="'+c.tx+'" text-anchor="end" opacity="0.4" letter-spacing="1.5">2026</text>'
-      +'<text x="22" y="286" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="'+c.tx+'" opacity="0.4" letter-spacing="1.5">'+esc(tg)+'</text>'
-      +'<text x="378" y="286" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="'+c.tx+'" text-anchor="end" opacity="0.4" letter-spacing="1.5">AI BUILDERS</text>'
-      +'</svg>';
-    }
-
-    /* ── T5: Taskora — pills + excerpt ── */
-    function t5(n,tg,c,ex,ic){
-      var p=c.pl,f=Math.min(15,Math.floor(155/Math.max(n.length,1)*1.5));
-      return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">'
-      +'<rect width="400" height="300" fill="'+c.bg+'"/>'
-      +'<rect x="6" y="6" width="388" height="288" fill="none" stroke="'+c.fb+'" stroke-width="3" rx="2"/>'
-      +'<rect x="24" y="28" width="170" height="38" rx="19" fill="'+p[0]+'"/>'
-      +icon(ic,225,47,22,'#FFF')
-      +'<rect x="255" y="28" width="115" height="38" rx="19" fill="'+p[2]+'"/>'
-      +'<rect x="44" y="82" width="130" height="38" rx="19" fill="'+p[3]+'"/>'
-      +'<rect x="190" y="82" width="175" height="38" rx="19" fill="'+p[1]+'"/>'
-      +'<rect x="24" y="136" width="155" height="38" rx="19" fill="'+p[2]+'"/>'
-      +'<circle cx="210" cy="155" r="19" fill="'+p[0]+'"/>'
-      +'<rect x="240" y="136" width="130" height="38" rx="19" fill="'+p[3]+'"/>'
-      +'<text x="108" y="53" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="'+f+'" font-weight="800" fill="#FFF" text-anchor="middle">'+esc(String(n).toUpperCase())+'</text>'
-      +'<text x="200" y="218" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="22" font-weight="800" fill="'+c.tx+'" text-anchor="middle">'+esc(tg)+'</text>'
-      +'<text x="200" y="242" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="'+c.tx+'" text-anchor="middle" opacity="0.5">'+esc(ex)+'</text>'
-      +'<text x="200" y="272" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#AAA" text-anchor="middle" letter-spacing="1">X.COM</text>'
-      +'</svg>';
-    }
-
-    /* ── T6: Stripes — stripe pattern + excerpt ── */
-    function t6(n,tg,c,ex,ic){
-      var f=fs(n,26);
-      return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">'
-      +'<defs><pattern id="sp" width="16" height="300" patternUnits="userSpaceOnUse">'
-      +'<rect width="8" height="300" fill="'+c.s1+'"/><rect x="8" width="8" height="300" fill="'+c.s2+'"/>'
-      +'</pattern></defs>'
-      +'<rect width="400" height="300" fill="url(#sp)"/>'
-      +'<rect x="28" y="115" width="344" height="160" rx="10" fill="#FFF" opacity="0.95"/>'
-      +icon(ic,56,142,20,'#999')
-      +'<text x="72" y="147" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="700" fill="#888" letter-spacing="2">'+esc(tg)+'</text>'
-      +'<text x="50" y="195" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="'+f+'" font-weight="800" fill="'+c.tx+'">'+esc(String(n).toUpperCase())+'</text>'
-      +'<text x="50" y="225" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#666">'+esc(ex)+'</text>'
-      +'<text x="50" y="258" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="600" fill="#999" letter-spacing="1">AI BUILDERS DIGEST</text>'
-      +'</svg>';
-    }
-
-    var TPL=[t0,t1,t2,t3,t4,t5,t6];
-
+    var TPL=[t0];
     var _idx=0;
-
-    // 统一右侧 meta 分隔符：避免出现 · / • 混用
-    document.addEventListener('DOMContentLoaded', function(){
-      var spans=document.querySelectorAll('.meta-row span');
-      for(var i=0;i<spans.length;i++){
-        spans[i].textContent=spans[i].textContent.replace(/·/g,'•');
-      }
-    });
-
     window.handleImgError=function(img){
       img.onerror=null;
-      img.classList.add('is-fallback');
-      var li=img.closest('.list-item');
-      if(!li)return;
-      var spans=li.querySelectorAll('.meta-row span'),parts=[];
-      for(var i=0;i<spans.length;i++){
-        var t=spans[i].textContent.trim();
-        if(t!=='·'&&t!=='•')parts.push(t);
-      }
-      var n=parts[0]||'AI',tg=parts[parts.length-1]||'NEWS';
-      var titleEl=li.querySelector('.item-title-zh');
-      var ex=titleEl?trunc(titleEl.textContent.trim(),18):'';
+      img.classList.add("is-fallback");
+      var li=img.closest(".list-item"); if(!li) return;
+      var spans=li.querySelectorAll(".meta-row span"),parts=[];
+      for(var i=0;i<spans.length;i++){var t=spans[i].textContent.trim(); if(t!=="·"&&t!=="•") parts.push(t);}
+      var n=parts[0]||"AI", tg=parts[parts.length-1]||"NEWS";
+      var titleEl=li.querySelector(".item-title-zh");
+      var ex=titleEl?trunc(titleEl.textContent.trim(),18):"";
       var ic=tagIcon(tg);
-      var ci=_idx++;
-      var ti=ci%7,r=RNG[ti],si=r[0]+(H(n)%(r[1]-r[0]+1));
-      img.src='data:image/svg+xml,'+encodeURIComponent(TPL[ti](n,tg,PAL[si],ex,ic));
+      var ci=_idx++, si=0;
+      img.src="data:image/svg+xml,"+encodeURIComponent(TPL[0](n,tg,PAL[si],ex,ic));
     };
   })();
   </script>
 </head>
 <body>
-
   <div class="page-wrapper">
-
-    <!-- ══ HEADER (Brutalist Header · components.md §1) ════════════ -->
     <header class="main-header">
-      <div class="header-title">
-        Ai Builders Digest
-      </div>
+      <div class="header-title">Ai Builders Digest</div>
       <div class="header-date-badge">2026-03-25</div>
     </header>
-
-    <!-- ══ LIST (Modernist List · components.md §2 & §3) ═══════════ -->
     <div class="list-container">
 
-      <!-- ── 01 · Andrej Karpathy · 供应链攻击 ─────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/karpathy/status/2036487306585268612"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/karpathy/status/2036487306585268612" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fkarpathy%2Fstatus%2F2036487306585268612&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fkarpathy%2Fstatus%2F2036487306585268612&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">供应链攻击警告：PyPI 上出现了恶意的 litellm 包，安装后会窃取 SSH 密钥和 AWS 凭证。Karpathy 将此称为"软件噩梦"——仅仅执行 pip install litellm 就足以中招。</div>
-            <div class="item-desc-en">Supply chain attack warning: a malicious litellm PyPI package exfiltrates SSH keys and AWS credentials on install. Karpathy flags this as a "software horror" moment.</div>
+            <div class="item-title-zh">供应链攻击警告：PyPI 上出现了恶意的 litellm 包，安装后会窃取 SSH 密钥和 AWS 凭证。 Karpathy 将此称为&quot;软件噩梦&quot;——仅仅执行 pip install litellm 就足以中招。</div>
+            <div class="item-desc-en">ANDREJ KARPATHY SUPPLY CHAIN ATTACK WARNING: A MALICIOUS VERSION OF THE LITELLM PYPI PACKAGE WAS PUBLISHED TO EXFILTRATE SSH KEYS AND AWS CREDENTIALS ON INSTALL. KARPATHY FLAGS THIS AS A &QUOT;SOFTWARE HORROR&QUOT; MOMENT — SIMPLE PIP INSTALL LITELLM WAS ENOUGH TO GET COMPROMISED.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/karpathy" alt="Andrej Karpathy" onerror="this.style.display='none'">
-            <span>Andrej Karpathy</span><span>·</span><span>Twitter / X</span><span>·</span><span>Security</span>
+            <img class="avatar-img" src="https://unavatar.io/x/karpathy" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 02 · Swyx · OpenAI 关闭 Sora ──────────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/swyx/status/2036533647659143630"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/swyx/status/2036533647659143630" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fswyx%2Fstatus%2F2036533647659143630&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fswyx%2Fstatus%2F2036533647659143630&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Swyx 宣布 OpenAI 已关闭 Sora，称其为"OpenAI 打压旁支项目的第一个牺牲品"。</div>
-            <div class="item-desc-en">Swyx announces OpenAI has killed Sora, calling it the "first casualty of OpenAI's crackdown on Side Quests."</div>
+            <div class="item-title-zh">Swyx 宣布 OpenAI 已关闭 Sora，称其为&quot;OpenAI 打压旁支项目的第一个牺牲品&quot;。 他还盛赞一款每天为他节省 3–8 倍时间的工具，称其真正改变了他的工作流。</div>
+            <div class="item-desc-en">SWYX（@COGNITION / LATENT SPACE） SWYX ANNOUNCES OPENAI HAS KILLED SORA, CALLING IT THE &QUOT;FIRST CASUALTY OF OPENAI&#39;S CRACKDOWN ON SIDE QUESTS.&QUOT; HE ALSO PRAISES A TOOL THAT SAVES HIM 3–8X TIME PER DAY, CREDITING IT WITH LEGITIMATELY CHANGING HIS WORKFLOW. HTTPS://X.COM/SWYX/STATUS/2036565584515899445</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/swyx" alt="Swyx" onerror="this.style.display='none'">
-            <span>Swyx</span><span>·</span><span>Twitter / X</span><span>·</span><span>OpenAI · Sora</span>
+            <img class="avatar-img" src="https://unavatar.io/x/swyx" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 03 · Swyx · 效率工具 3–8× ─────────────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/swyx/status/2036565584515899445"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/joshwoodward/status/2036513009661780291" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fswyx%2Fstatus%2F2036565584515899445&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fjoshwoodward%2Fstatus%2F2036513009661780291&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">他还盛赞一款每天为他节省 3–8 倍时间的工具，称其真正改变了他的工作流。</div>
-            <div class="item-desc-en">He also praises a tool that saves him 3–8x time per day, crediting it with legitimately changing his workflow.</div>
+            <div class="item-title-zh">Josh Woodward 谈 Google 现状：&quot;我从实习就在 Google，从未见过比现在更令人兴奋的时刻。这里充满活力。&quot;</div>
+            <div class="item-desc-en">JOSH WOODWARD（GOOGLE LABS） JOSH WOODWARD ON THE CURRENT MOMENT AT GOOGLE: &QUOT;I&#39;VE BEEN AT GOOGLE SINCE I WAS AN INTERN, AND THERE&#39;S NEVER BEEN A MORE EXCITING TIME. THE PLACE IS PULSATING.&QUOT;</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/swyx" alt="Swyx" onerror="this.style.display='none'">
-            <span>Swyx</span><span>·</span><span>Twitter / X</span><span>·</span><span>Productivity</span>
+            <img class="avatar-img" src="https://unavatar.io/x/joshwoodward" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 04 · Josh Woodward · Google 充满活力 ─────────────────── -->
-      <a class="list-item"
-         href="https://x.com/joshwoodward/status/2036513009661780291"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/petergyang/status/2036664048700600706" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fjoshwoodward%2Fstatus%2F2036513009661780291&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fpetergyang%2Fstatus%2F2036664048700600706&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Josh Woodward 谈 Google 现状："我从实习就在 Google，从未见过比现在更令人兴奋的时刻。这里充满活力。"</div>
-            <div class="item-desc-en">Josh Woodward on the current moment at Google: "I've been at Google since I was an intern, and there's never been a more exciting time. The place is pulsating."</div>
+            <div class="item-title-zh">Peter Yang 谈 AI 原生通讯的新现实：&quot;我的 Telegram 里只有和 OpenClaw、Claude bot 的对话，还没和任何真人说过话。&quot; 他希望 AI agent 能帮助团队不再执着于需求文档、设计稿、路线图和战略文档——直接去做就行。</div>
+            <div class="item-desc-en">PETER YANG（ROBLOX PRODUCT） PETER YANG ON THE NEW REALITY OF AI-NATIVE COMMUNICATION: &QUOT;MY TELEGRAM IS JUST CHATS WITH MY OPENCLAW AND NOW CLAUDE BOTS. HAVEN&#39;T TALKED TO A SINGLE HUMAN YET.&QUOT; HE HOPES AI AGENTS WILL HELP TEAMS STOP OBSESSING OVER SPECS, DESIGNS, ROADMAPS, AND STRATEGY DOCS — AND JUST SHIP. HTTPS://X.COM/PETERGYANG/STATUS/2036621615086309468</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/joshwoodward" alt="Josh Woodward" onerror="this.style.display='none'">
-            <span>Josh Woodward</span><span>·</span><span>Twitter / X</span><span>·</span><span>Google Labs</span>
+            <img class="avatar-img" src="https://unavatar.io/x/petergyang" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 05 · Peter Yang · AI 原生通讯 ─────────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/petergyang/status/2036664048700600706"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/thenanyu/status/2036549647267709110" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fpetergyang%2Fstatus%2F2036664048700600706&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fthenanyu%2Fstatus%2F2036549647267709110&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Peter Yang 谈 AI 原生通讯的新现实："我的 Telegram 里只有和 OpenClaw、Claude bot 的对话，还没和任何真人说过话。"</div>
-            <div class="item-desc-en">Peter Yang on the new reality of AI-native communication: "My Telegram is just chats with my OpenClaw and now Claude bots. Haven't talked to a single human yet."</div>
+            <div class="item-title-zh">Nan Yu 谈新的工作方式：&quot;我已经好几个月没有手写 PRD、通过表单提 issue、或者手写代码了。但产出量却大幅提升了。&quot;</div>
+            <div class="item-desc-en">NAN YU（LINEAR HEAD OF PRODUCT） NAN YU ON THE NEW WAY OF WORKING: &QUOT;I HAVEN&#39;T WRITTEN A PRD BY HAND, FILED AN ISSUE THROUGH A FORM, OR HAND-WRITTEN ANY CODE IN MONTHS. BUT THE VOLUME OF OUTPUT HAS GONE UP DRAMATICALLY.&QUOT;</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/petergyang" alt="Peter Yang" onerror="this.style.display='none'">
-            <span>Peter Yang</span><span>·</span><span>Twitter / X</span><span>·</span><span>AI Agents</span>
+            <img class="avatar-img" src="https://unavatar.io/x/thenanyu" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 06 · Peter Yang · 直接去做就行 ───────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/petergyang/status/2036621615086309468"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/_catwu/status/2036594646370210229" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fpetergyang%2Fstatus%2F2036621615086309468&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2F_catwu%2Fstatus%2F2036594646370210229&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">他希望 AI agent 能帮助团队不再执着于需求文档、设计稿、路线图和战略文档——直接去做就行。</div>
-            <div class="item-desc-en">He hopes AI agents will help teams stop obsessing over specs, designs, roadmaps, and strategy docs — and just ship.</div>
+            <div class="item-title-zh">Cat Wu 预告即将举行的&quot;Code with Claude&quot;活动，向社区征集今年最想听的话题。</div>
+            <div class="item-desc-en">CAT WU（ANTHROPIC） CAT WU TEASES THE UPCOMING &QUOT;CODE WITH CLAUDE&QUOT; EVENT, ASKING THE COMMUNITY WHAT THEY WANT TO HEAR ABOUT THIS YEAR.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/petergyang" alt="Peter Yang" onerror="this.style.display='none'">
-            <span>Peter Yang</span><span>·</span><span>Twitter / X</span><span>·</span><span>Product</span>
+            <img class="avatar-img" src="https://unavatar.io/x/_catwu" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 07 · Nan Yu · 新的工作方式 ─────────────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/thenanyu/status/2036549647267709110"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/trq212/status/2036515949617037711" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fthenanyu%2Fstatus%2F2036549647267709110&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Ftrq212%2Fstatus%2F2036515949617037711&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Nan Yu 谈新的工作方式："我已经好几个月没有手写 PRD、通过表单提 issue、或者手写代码了。但产出量却大幅提升了。"</div>
-            <div class="item-desc-en">Nan Yu on the new way of working: "I haven't written a PRD by hand, filed an issue through a form, or hand-written any code in months. But the volume of output has gone up dramatically."</div>
+            <div class="item-title-zh">Thariq 宣布 Claude Code 的 computer use 功能已登陆 Microsoft Teams，并计划扩展到更多平台。 他还对 Anthropic 的安全定位发表了一句精准评论：&quot;事实证明，作为一家 AI 安全公司，在你需要确保 AI 能安全运行时非常有用。&quot;</div>
+            <div class="item-desc-en">THARIQ（CLAUDE CODE, ANTHROPIC） THARIQ ANNOUNCES CLAUDE CODE COMPUTER USE IS NOW AVAILABLE ON MICROSOFT TEAMS, WITH PLANS TO SCALE TO MORE PLATFORMS. HE ALSO DROPS A SHARP LINE ON ANTHROPIC&#39;S SAFETY FOCUS: &QUOT;TURNS OUT BEING AN AI SAFETY COMPANY IS USEFUL FOR WHEN YOU NEED TO MAKE SURE AIS CAN RUN SAFELY.&QUOT; HTTPS://X.COM/TRQ212/STATUS/2036513038983995820</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/thenanyu" alt="Nan Yu" onerror="this.style.display='none'">
-            <span>Nan Yu</span><span>·</span><span>Twitter / X</span><span>·</span><span>Linear</span>
+            <img class="avatar-img" src="https://unavatar.io/x/trq212" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 08 · Cat Wu · Code with Claude 活动 ───────────────────── -->
-      <a class="list-item"
-         href="https://x.com/_catwu/status/2036594646370210229"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/amasad/status/2036427267296067875" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2F_catwu%2Fstatus%2F2036594646370210229&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Cat Wu 预告即将举行的"Code with Claude"活动，向社区征集今年最想听的话题。</div>
-            <div class="item-desc-en">Cat Wu teases the upcoming "Code with Claude" event, asking the community what they want to hear about this year.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/_catwu" alt="Cat Wu" onerror="this.style.display='none'">
-            <span>Cat Wu</span><span>·</span><span>Twitter / X</span><span>·</span><span>Anthropic</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- ── 09 · Thariq · Claude Code 登陆 Teams ──────────────────── -->
-      <a class="list-item"
-         href="https://x.com/trq212/status/2036515949617037711"
-         target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Ftrq212%2Fstatus%2F2036515949617037711&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Thariq 宣布 Claude Code 的 computer use 功能已登陆 Microsoft Teams，并计划扩展到更多平台。</div>
-            <div class="item-desc-en">Thariq announces Claude Code computer use is now available on Microsoft Teams, with plans to scale to more platforms.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/trq212" alt="Thariq" onerror="this.style.display='none'">
-            <span>Thariq</span><span>·</span><span>Twitter / X</span><span>·</span><span>Claude Code</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- ── 10 · Thariq · AI 安全公司的价值 ──────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/trq212/status/2036513038983995820"
-         target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Ftrq212%2Fstatus%2F2036513038983995820&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">"事实证明，作为一家 AI 安全公司，在你需要确保 AI 能安全运行时非常有用。"</div>
-            <div class="item-desc-en">"Turns out being an AI safety company is useful for when you need to make sure AIs can run safely."</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/trq212" alt="Thariq" onerror="this.style.display='none'">
-            <span>Thariq</span><span>·</span><span>Twitter / X</span><span>·</span><span>AI Safety</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- ── 11 · Amjad Masad · Replit AI 构建历程 ─────────────────── -->
-      <a class="list-item"
-         href="https://x.com/amasad/status/2036427267296067875"
-         target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Famasad%2Fstatus%2F2036427267296067875&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Famasad%2Fstatus%2F2036427267296067875&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh">Replit CEO Amjad Masad 分享了一位内容创作者用 AI 构建产品的真实历程——没有炒作，只有真实成果。</div>
-            <div class="item-desc-en">Replit CEO Amjad Masad highlights a content creator's genuine journey building with AI — no hype, just real results.</div>
+            <div class="item-desc-en">AMJAD MASAD（REPLIT CEO） REPLIT CEO AMJAD MASAD HIGHLIGHTS A CONTENT CREATOR&#39;S GENUINE JOURNEY BUILDING WITH AI — NO HYPE, JUST REAL RESULTS.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/amasad" alt="Amjad Masad" onerror="this.style.display='none'">
-            <span>Amjad Masad</span><span>·</span><span>Twitter / X</span><span>·</span><span>Replit</span>
+            <img class="avatar-img" src="https://unavatar.io/x/amasad" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 12 · Guillermo Rauch · 智能硬件选择 ───────────────────── -->
-      <a class="list-item"
-         href="https://x.com/rauchg/status/2036584870995173678"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/rauchg/status/2036584870995173678" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Frauchg%2Fstatus%2F2036584870995173678&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Frauchg%2Fstatus%2F2036584870995173678&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Vercel 现在能够智能选择最适合你构建任务的硬件，专为 Turbopack 等基于 Rust 的编译器优化。</div>
-            <div class="item-desc-en">Vercel can now intelligently pick the right hardware for your build, optimized for Rust-based compilers like Turbopack.</div>
+            <div class="item-title-zh">Vercel CEO Guillermo Rauch 带来两大更新。其一：Vercel 现在能够智能选择最适合你构建任务的硬件，专为 Turbopack 等基于 Rust 的编译器优化。 其二：&quot;Vercel 内部几乎所有 SaaS 应用都已被生成式应用或 agent 界面取代，并部署在 Vercel 上。&quot; 真正在规模化地自我验证。</div>
+            <div class="item-desc-en">GUILLERMO RAUCH（VERCEL CEO） TWO BIG UPDATES FROM VERCEL CEO GUILLERMO RAUCH. FIRST: VERCEL CAN NOW INTELLIGENTLY PICK THE RIGHT HARDWARE FOR YOUR BUILD, OPTIMIZED FOR RUST-BASED COMPILERS LIKE TURBOPACK. SECOND: &QUOT;ALMOST EVERY SAAS APP INSIDE VERCEL HAS NOW BEEN REPLACED WITH A GENERATED APP OR AGENT INTERFACE, DEPLOYED ON VERCEL.&QUOT; EATING YOUR OWN DOG FOOD, AT SCALE. HTTPS://X.COM/RAUCHG/STATUS/2036447879985037495</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/rauchg" alt="Guillermo Rauch" onerror="this.style.display='none'">
-            <span>Guillermo Rauch</span><span>·</span><span>Twitter / X</span><span>·</span><span>Vercel</span>
+            <img class="avatar-img" src="https://unavatar.io/x/rauchg" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 13 · Guillermo Rauch · SaaS 全面 AI 化 ────────────────── -->
-      <a class="list-item"
-         href="https://x.com/rauchg/status/2036447879985037495"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/alexalbert__/status/2036510206155432293" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Frauchg%2Fstatus%2F2036447879985037495&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">"Vercel 内部几乎所有 SaaS 应用都已被生成式应用或 agent 界面取代，并部署在 Vercel 上。" 真正在规模化地自我验证。</div>
-            <div class="item-desc-en">"Almost every SaaS app inside Vercel has now been replaced with a generated app or agent interface, deployed on Vercel." Eating your own dog food, at scale.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/rauchg" alt="Guillermo Rauch" onerror="this.style.display='none'">
-            <span>Guillermo Rauch</span><span>·</span><span>Twitter / X</span><span>·</span><span>Vercel</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- ── 14 · Alex Albert · Claude Code auto mode ───────────────── -->
-      <a class="list-item"
-         href="https://x.com/alexalbert__/status/2036510206155432293"
-         target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Falexalbert__%2Fstatus%2F2036510206155432293&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Falexalbert__%2Fstatus%2F2036510206155432293&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh">Claude Code 发布重要 UX 变更：告别 --dangerously-skip-permissions，迎来 auto mode。</div>
-            <div class="item-desc-en">Claude Code ships a major UX change: goodbye --dangerously-skip-permissions, hello auto mode.</div>
+            <div class="item-desc-en">ALEX ALBERT（ANTHROPIC RESEARCH） CLAUDE CODE SHIPS A MAJOR UX CHANGE: GOODBYE --DANGEROUSLY-SKIP-PERMISSIONS, HELLO AUTO MODE.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/alexalbert__" alt="Alex Albert" onerror="this.style.display='none'">
-            <span>Alex Albert</span><span>·</span><span>Twitter / X</span><span>·</span><span>Claude Code</span>
+            <img class="avatar-img" src="https://unavatar.io/x/alexalbert__" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 15 · Aaron Levie · Agent 兼容软件浪潮 ─────────────────── -->
-      <a class="list-item"
-         href="https://x.com/levie/status/2036478998667207012"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/levie/status/2036478998667207012" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Flevie%2Fstatus%2F2036478998667207012&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Flevie%2Fstatus%2F2036478998667207012&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Box CEO Aaron Levie 谈即将到来的 agent 兼容软件浪潮："我们也在迁离那些 API 糟糕、缓慢、过时且不一致的遗留系统。" 建议：从第一天起就为 agent 设计软件。</div>
-            <div class="item-desc-en">Aaron Levie on the coming wave of agent-compatible software. His message to builders: design software for agents from day one — the legacy API debt will be a real bottleneck.</div>
+            <div class="item-title-zh">Box CEO Aaron Levie 谈即将到来的 agent 兼容软件浪潮：&quot;我们也在迁离那些 API 糟糕、缓慢、过时且不一致的遗留系统。&quot; 他对开发者的建议：从第一天起就为 agent 设计软件——遗留 API 的技术债将成为真正的瓶颈。</div>
+            <div class="item-desc-en">AARON LEVIE（BOX CEO） AARON LEVIE ON THE COMING WAVE OF AGENT-COMPATIBLE SOFTWARE: &QUOT;WE&#39;VE ALSO BEEN MOVING OFF LEGACY SYSTEMS WITH POOR, SLOW, OUTDATED, AND INCONSISTENT APIS.&QUOT; HIS MESSAGE TO BUILDERS: DESIGN SOFTWARE FOR AGENTS FROM DAY ONE — THE LEGACY API DEBT WILL BE A REAL BOTTLENECK.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/levie" alt="Aaron Levie" onerror="this.style.display='none'">
-            <span>Aaron Levie</span><span>·</span><span>Twitter / X</span><span>·</span><span>Box</span>
+            <img class="avatar-img" src="https://unavatar.io/x/levie" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 16 · Garry Tan · 产出 90 倍 ───────────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/garrytan/status/2036674371855823153"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/garrytan/status/2036674371855823153" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fgarrytan%2Fstatus%2F2036674371855823153&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fgarrytan%2Fstatus%2F2036674371855823153&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">YC CEO Garry Tan 谈 AI 辅助开发："一旦你说'替代开发者'，思路就走偏了。汽车没有取代步行，你还是得走几步路的。" 他预测自己的产出将是 2013 年的 90 倍。</div>
-            <div class="item-desc-en">YC CEO Garry Tan on AI-assisted development: "Once you say 'replace developers' it's the wrong ideaspace. Cars didn't replace walking." He predicts 90x his 2013 output.</div>
+            <div class="item-title-zh">YC CEO Garry Tan 谈 AI 辅助开发：&quot;一旦你说&#39;替代开发者&#39;，思路就走偏了。汽车没有取代步行，你还是得走几步路的。&quot; 他预测自己的产出将是 2013 年的 90 倍。</div>
+            <div class="item-desc-en">GARRY TAN（Y COMBINATOR CEO） YC CEO GARRY TAN ON AI-ASSISTED DEVELOPMENT: &QUOT;ONCE YOU SAY &#39;REPLACE DEVELOPERS&#39; IT&#39;S THE WRONG IDEASPACE. CARS DIDN&#39;T REPLACE WALKING, YOU STILL HAVE TO WALK A LITTLE.&QUOT; HE PREDICTS HIS OUTPUT WILL BE 90X WHAT IT WAS IN 2013. HTTPS://X.COM/GARRYTAN/STATUS/2036675789819953347</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/garrytan" alt="Garry Tan" onerror="this.style.display='none'">
-            <span>Garry Tan</span><span>·</span><span>Twitter / X</span><span>·</span><span>Y Combinator</span>
+            <img class="avatar-img" src="https://unavatar.io/x/garrytan" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 17 · Matt Turck · 错别字的新含义 ───────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/mattturck/status/2036488357077717094"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/mattturck/status/2036488357077717094" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fmattturck%2Fstatus%2F2036488357077717094&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fmattturck%2Fstatus%2F2036488357077717094&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Matt Turck 敏锐地观察到错别字含义的转变："以前打错字意味着：你工作马虎！今天打错字意味着：你写了真实的、非 AI 生成的内容！太棒了。"</div>
-            <div class="item-desc-en">Matt Turck with a sharp observation on the shifting meaning of typos: "Typo, before: you did sloppy work! Typo, today: you wrote authentic, non-AI generated content! That's awesome."</div>
+            <div class="item-title-zh">Matt Turck 敏锐地观察到错别字含义的转变：&quot;以前打错字意味着：你工作马虎！今天打错字意味着：你写了真实的、非 AI 生成的内容！太棒了。&quot;</div>
+            <div class="item-desc-en">MATT TURCK（FIRSTMARK CAPITAL） MATT TURCK WITH A SHARP OBSERVATION ON THE SHIFTING MEANING OF TYPOS: &QUOT;TYPO, BEFORE: YOU DID SLOPPY WORK! TYPO, TODAY: YOU WROTE AUTHENTIC, NON-AI GENERATED CONTENT! THAT&#39;S AWESOME.&QUOT;</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/mattturck" alt="Matt Turck" onerror="this.style.display='none'">
-            <span>Matt Turck</span><span>·</span><span>Twitter / X</span><span>·</span><span>AI Culture</span>
+            <img class="avatar-img" src="https://unavatar.io/x/mattturck" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 18 · Zara Zhang · GitHub 是新的 Substack ───────────────── -->
-      <a class="list-item"
-         href="https://x.com/zarazhangrui/status/2036675965003411514"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/zarazhangrui/status/2036675965003411514" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fzarazhangrui%2Fstatus%2F2036675965003411514&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fzarazhangrui%2Fstatus%2F2036675965003411514&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Zara Zhang 发表大胆观点："GitHub 是新的 Substack。代码是一种自我表达的方式。"</div>
-            <div class="item-desc-en">Zara Zhang with a bold take: "GitHub is the new Substack. Code is a form of self-expression."</div>
+            <div class="item-title-zh">Zara Zhang（科技写作者） Zara Zhang 发表大胆观点：&quot;GitHub 是新的 Substack。代码是一种自我表达的方式。&quot; 她还分享了自己的成长历程：去年几乎不会用 GitHub，如今已积累 1.3 万+ star。</div>
+            <div class="item-desc-en">ZARA ZHANG WITH A BOLD TAKE: &QUOT;GITHUB IS THE NEW SUBSTACK. CODE IS A FORM OF SELF-EXPRESSION.&QUOT; SHE ALSO SHARES HER OWN JOURNEY: BARELY KNEW HOW GITHUB WORKED LAST YEAR, NOW HAS 13K+ STARS. HTTPS://X.COM/ZARAZHANGRUI/STATUS/2036590721927618988</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/zarazhangrui" alt="Zara Zhang" onerror="this.style.display='none'">
-            <span>Zara Zhang</span><span>·</span><span>Twitter / X</span><span>·</span><span>GitHub</span>
+            <img class="avatar-img" src="https://unavatar.io/x/zarazhangrui" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 19 · Zara Zhang · 从 0 到 1.3 万 star ─────────────────── -->
-      <a class="list-item"
-         href="https://x.com/zarazhangrui/status/2036590721927618988"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/nikunj/status/2036572222081606065" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fzarazhangrui%2Fstatus%2F2036590721927618988&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">她还分享了自己的成长历程：去年几乎不会用 GitHub，如今已积累 1.3 万+ star。</div>
-            <div class="item-desc-en">She also shares her own journey: barely knew how GitHub worked last year, now has 13k+ stars.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/zarazhangrui" alt="Zara Zhang" onerror="this.style.display='none'">
-            <span>Zara Zhang</span><span>·</span><span>Twitter / X</span><span>·</span><span>Dev Culture</span>
-          </div>
-        </div>
-      </a>
-
-      <!-- ── 20 · Nikunj Kothari · SOC II 的真实价值 ───────────────── -->
-      <a class="list-item"
-         href="https://x.com/nikunj/status/2036572222081606065"
-         target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fnikunj%2Fstatus%2F2036572222081606065&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fnikunj%2Fstatus%2F2036572222081606065&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh">FPV Ventures 合伙人 Nikunj Kothari 谈 SOC II：它常被批评为走形式，但有一个真实价值——子处理商追踪，迫使你维护一份动态的供应商清单。</div>
-            <div class="item-desc-en">FPV Ventures partner Nikunj Kothari on SOC II: often dismissed as security theater, but subprocessor tracking forces you to maintain a living inventory of your vendors.</div>
+            <div class="item-desc-en">NIKUNJ KOTHARI（FPV VENTURES） FPV VENTURES PARTNER NIKUNJ KOTHARI ON SOC II: IT&#39;S OFTEN DISMISSED AS SECURITY THEATER, BUT IT HAS A REAL USE CASE — SUBPROCESSOR TRACKING, WHICH FORCES YOU TO MAINTAIN A LIVING INVENTORY OF YOUR VENDORS.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/nikunj" alt="Nikunj Kothari" onerror="this.style.display='none'">
-            <span>Nikunj Kothari</span><span>·</span><span>Twitter / X</span><span>·</span><span>Security</span>
+            <img class="avatar-img" src="https://unavatar.io/x/nikunj" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 21 · Peter Steinberger · OpenClaw 门卫事件 ───────────── -->
-      <a class="list-item"
-         href="https://x.com/steipete/status/2036486352964035013"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/steipete/status/2036486352964035013" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fsteipete%2Fstatus%2F2036486352964035013&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fsteipete%2Fstatus%2F2036486352964035013&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh">Peter Steinberger 分享了一个搞笑瞬间：给朋友发 WhatsApp，结果被 OpenClaw 门卫拦截了。他的建议：用独立号码 + WhatsApp Business 来避免这种情况。</div>
-            <div class="item-desc-en">Peter Steinberger shares a funny moment: messaged a friend on WhatsApp, got greeted by the OpenClaw doorman instead. Tip: use a separate number + WhatsApp Business.</div>
+            <div class="item-desc-en">PETER STEINBERGER（OPENCLAW） PETER STEINBERGER SHARES A FUNNY MOMENT: MESSAGED A FRIEND ON WHATSAPP, GOT GREETED BY THE OPENCLAW DOORMAN INSTEAD. HIS TIP: USE A SEPARATE NUMBER + WHATSAPP BUSINESS TO AVOID THIS.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/steipete" alt="Peter Steinberger" onerror="this.style.display='none'">
-            <span>Peter Steinberger</span><span>·</span><span>Twitter / X</span><span>·</span><span>OpenClaw</span>
+            <img class="avatar-img" src="https://unavatar.io/x/steipete" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 22 · Dan Shipper · Every 贴纸 ─────────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/danshipper/status/2036501111394148578"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/danshipper/status/2036501111394148578" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fdanshipper%2Fstatus%2F2036501111394148578&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fdanshipper%2Fstatus%2F2036501111394148578&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh">Every CEO Dan Shipper 发布了新款 Every 贴纸，专为运行 OpenClaw 的 Mac mini 设计——向越来越多在家运行 AI agent 的人致敬。</div>
-            <div class="item-desc-en">Every CEO Dan Shipper drops new Every stickers for your Mac mini running OpenClaw — a fun nod to the growing community of people running AI agents at home.</div>
+            <div class="item-desc-en">DAN SHIPPER（EVERY CEO） EVERY CEO DAN SHIPPER DROPS NEW EVERY STICKERS FOR YOUR MAC MINI RUNNING OPENCLAW — A FUN NOD TO THE GROWING COMMUNITY OF PEOPLE RUNNING AI AGENTS AT HOME.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/danshipper" alt="Dan Shipper" onerror="this.style.display='none'">
-            <span>Dan Shipper</span><span>·</span><span>Twitter / X</span><span>·</span><span>Every</span>
+            <img class="avatar-img" src="https://unavatar.io/x/danshipper" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 23 · Aditya Agarwal · 机器人硬件已就绪 ───────────────── -->
-      <a class="list-item"
-         href="https://x.com/adityaag/status/2036426693930291334"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/adityaag/status/2036426693930291334" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fadityaag%2Fstatus%2F2036426693930291334&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fadityaag%2Fstatus%2F2036426693930291334&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">South Park Commons GP Aditya Agarwal 谈机器人技术："机器人硬件已经就绪。我们只需要让软件达到足够可靠的程度。"</div>
-            <div class="item-desc-en">South Park Commons GP Aditya Agarwal on robotics: "The hardware for robotics is ready. We just need to get the software to a point where it is reliable enough."</div>
+            <div class="item-title-zh">South Park Commons GP Aditya Agarwal 谈机器人技术：&quot;机器人硬件已经就绪。我们只需要让软件达到足够可靠的程度。&quot;</div>
+            <div class="item-desc-en">ADITYA AGARWAL（SOUTH PARK COMMONS） SOUTH PARK COMMONS GP ADITYA AGARWAL ON ROBOTICS: &QUOT;THE HARDWARE FOR ROBOTICS IS READY. WE JUST NEED TO GET THE SOFTWARE TO A POINT WHERE IT IS RELIABLE ENOUGH.&QUOT;</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/adityaag" alt="Aditya Agarwal" onerror="this.style.display='none'">
-            <span>Aditya Agarwal</span><span>·</span><span>Twitter / X</span><span>·</span><span>Robotics</span>
+            <img class="avatar-img" src="https://unavatar.io/x/adityaag" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 24 · Sam Altman · 众包新词 ───────────────────────────── -->
-      <a class="list-item"
-         href="https://x.com/sama/status/2036489823792607273"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/sama/status/2036489823792607273" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fsama%2Fstatus%2F2036489823792607273&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fsama%2Fstatus%2F2036489823792607273&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">OpenAI CEO Sam Altman 在众包一个新词：他想用一个词描述"把我能想到的所有上下文都塞进去"这个动作——即向 LLM prompt 倾倒所有可用上下文的行为。</div>
-            <div class="item-desc-en">Sam Altman is crowdsourcing a new word for "throw it into the maw with every bit of context I can think of" — describing the act of dumping all available context into an LLM prompt.</div>
+            <div class="item-title-zh">OpenAI CEO Sam Altman 在众包一个新词：他想用一个词描述&quot;把我能想到的所有上下文都塞进去&quot;这个动作——即向 LLM prompt 倾倒所有可用上下文的行为。</div>
+            <div class="item-desc-en">SAM ALTMAN（OPENAI CEO） SAM ALTMAN IS CROWDSOURCING A NEW WORD: HE WANTS A SINGLE TERM FOR THE PHRASE &QUOT;THROW IT INTO THE MAW WITH EVERY BIT OF CONTEXT I CAN THINK OF&QUOT; — DESCRIBING THE ACT OF DUMPING ALL AVAILABLE CONTEXT INTO AN LLM PROMPT.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/sama" alt="Sam Altman" onerror="this.style.display='none'">
-            <span>Sam Altman</span><span>·</span><span>Twitter / X</span><span>·</span><span>OpenAI</span>
+            <img class="avatar-img" src="https://unavatar.io/x/sama" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 25 · Claude · 桌面应用 computer use ───────────────────── -->
-      <a class="list-item"
-         href="https://x.com/claudeai/status/2036195792101212445"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://x.com/claudeai/status/2036195792101212445" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fclaudeai%2Fstatus%2F2036195792101212445&embed=image.url"
-               alt="tweet preview" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fclaudeai%2Fstatus%2F2036195792101212445&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh">Claude 官方账号重点介绍桌面应用中的 computer use 功能：Claude 现在优先调用已连接的应用（Slack、日历等），当没有对应连接器时，会请求权限直接在屏幕上打开应用。</div>
-            <div class="item-desc-en">Claude's official account highlights computer use in the desktop app: Claude can now use connected apps first (Slack, Calendar, etc.), and request permission to open any app directly on your screen.</div>
+            <div class="item-desc-en">CLAUDE（ANTHROPIC） CLAUDE&#39;S OFFICIAL ACCOUNT HIGHLIGHTS COMPUTER USE IN THE DESKTOP APP: CLAUDE CAN NOW USE CONNECTED APPS FIRST (SLACK, CALENDAR, ETC.), AND REQUEST PERMISSION TO OPEN ANY APP DIRECTLY ON YOUR SCREEN WHEN NO CONNECTOR EXISTS.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/claudeai" alt="Claude" onerror="this.style.display='none'">
-            <span>Claude</span><span>·</span><span>Twitter / X</span><span>·</span><span>Anthropic</span>
+            <img class="avatar-img" src="https://unavatar.io/x/claudeai" alt="🐦 X / Twitter" onerror="this.style.display='none'">
+            <span>🐦 X / Twitter</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
           </div>
         </div>
       </a>
 
-      <!-- ── 26 · Podcast · Latent Space · AlphaFold for Materials ─── -->
-      <a class="list-item"
-         href="https://youtube.com/watch?v=KSCCKCz2x04"
-         target="_blank" rel="noopener noreferrer">
+      <a class="list-item" href="https://youtube.com/watch?v=KSCCKCz2x04" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://img.youtube.com/vi/KSCCKCz2x04/maxresdefault.jpg"
-               alt="podcast cover" loading="lazy"
-               onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fyoutube.com%2Fwatch%3Fv%3DKSCCKCz2x04&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">MIT 教授 Heather Kulik 解释了为什么材料科学缺少属于自己的"AlphaFold 时刻"。核心洞察：最大的瓶颈不是模型质量，而是数据——大多数失败的材料实验从未发表，导致训练集中存在巨大的选择性偏差。</div>
-            <div class="item-desc-en">There Is No AlphaFold for Materials — AI for Materials Discovery with Heather Kulik. Biggest bottleneck isn't model quality, it's data selection bias from unpublished failed experiments.</div>
+            <div class="item-title-zh">MIT 教授 Heather Kulik 解释了为什么材料科学缺少属于自己的&quot;AlphaFold 时刻&quot;——该领域比蛋白质折叠复杂得多，设计空间远更庞大，真实数据也更难获取。 她介绍了自己的实验室如何用机器学习加速发现用于碳捕获、电池和药物递送的新材料——不是替代物理规律，而是大幅缩小搜索空间。 核心洞察：最大的瓶颈不是模型质量，而是数据。大多数失败的材料实验从未发表，导致训练集中存在巨大的选择性偏差。</div>
+            <div class="item-desc-en">LATENT SPACE：THERE IS NO ALPHAFOLD FOR MATERIALS — AI FOR MATERIALS DISCOVERY WITH HEATHER KULIK MIT PROFESSOR HEATHER KULIK EXPLAINS WHY MATERIALS SCIENCE LACKS ITS &QUOT;ALPHAFOLD MOMENT&QUOT; — THE FIELD IS FAR MORE COMPLEX THAN PROTEIN FOLDING, WITH VASTLY LARGER DESIGN SPACES AND HARDER-TO-OBTAIN GROUND TRUTH DATA. SHE DESCRIBES HOW HER LAB USES ML TO ACCELERATE THE DISCOVERY OF NEW MATERIALS FOR CARBON CAPTURE, BATTERIES, AND DRUG DELIVERY — NOT REPLACING PHYSICS, BUT NARROWING THE SEARCH SPACE DRAMATICALLY. KEY INSIGHT: THE BIGGEST BOTTLENECK ISN&#39;T MODEL QUALITY, IT&#39;S DATA. MOST MATERIALS EXPERIMENTS ARE NEVER PUBLISHED IF THEY FAIL, CREATING MASSIVE SELECTION BIAS IN TRAINING SETS.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/latentspacepod" alt="Latent Space" onerror="this.style.display='none'">
-            <span>Latent Space</span><span>·</span><span>Podcast</span><span>·</span><span>Materials AI</span>
+            <img class="avatar-img" src="https://unavatar.io/x/%F0%9F%8E%99%EF%B8%8F%20%E6%92%AD%E5%AE%A2%20Podcast" alt="🎙️ 播客 Podcast" onerror="this.style.display='none'">
+            <span>🎙️ 播客 Podcast</span><span>·</span><span>YouTube</span><span>·</span><span>Podcast</span>
           </div>
         </div>
       </a>
-
-    </div><!-- /.list-container -->
-
-    <!-- ══ FOOTER ══════════════════════════════════════════════════ -->
-    <footer class="site-footer">
-      <p class="footer-text">Ai Builders Digest · 2026-03-25 · 20 Builders · 1 Podcast · 41 Posts</p>
-    </footer>
-
-  </div><!-- /.page-wrapper -->
-
-  <!-- 淡入动画（无依赖）-->
-  <script>
-    (function () {
-      var items = document.querySelectorAll('.list-item');
-      if (!window.IntersectionObserver) {
-        items.forEach(function (el) { el.style.opacity = '1'; });
-        return;
-      }
-      items.forEach(function (el) {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(10px)';
-        el.style.transition = 'opacity .45s ease, transform .45s ease';
-      });
-      var io = new IntersectionObserver(function (entries) {
-        entries.forEach(function (e) {
-          if (e.isIntersecting) {
-            e.target.style.opacity = '1';
-            e.target.style.transform = 'translateY(0)';
-            io.unobserve(e.target);
-          }
-        });
-      }, { threshold: 0.08 });
-      items.forEach(function (el) { io.observe(el); });
-    })();
-  </script>
-
+    </div>
+  </div>
 </body>
 </html>
