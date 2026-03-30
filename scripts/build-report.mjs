@@ -626,71 +626,67 @@ function buildPodcastListRow(it) {
 }
 
 function parseItems(text) {
-  const blocks = text.split(/\n{2,}/g).map((b) => b.trim()).filter(Boolean);
+  const urlRe = /^https?:\/\//i;
 
-  const header = blocks[0] || "";
+  // Preferred format:
+  // - entries are separated by a line that is exactly "---"
+  // - inside each entry, content is separated by blank lines
+  //
+  // Old implementation split on /\n{2,}/, which breaks this format by
+  // turning each sentence into a standalone “block”. Then only the URL
+  // block contains a URL, so zh/original become empty.
+  const hasDelimiter = /^\s*---\s*$/m.test(text);
+  const parts = hasDelimiter ? text.split(/^\s*---\s*$/gm) : text.split(/\n{2,}/g);
+
+  const header = parts[0] || "";
   const date = firstDateLike(header) || firstDateLike(text) || new Date().toISOString().slice(0, 10);
 
   const items = [];
-  let currentAuthor = null;
 
-  for (const block of blocks.slice(1)) {
-    const rawBlock = block;
-    const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
+  for (const rawBlock of parts.slice(1)) {
+    const raw = String(rawBlock ?? "").trim();
+    if (!raw) continue;
+
+    const lines = raw.split("\n").map((l) => l.trim()).filter(Boolean);
     if (lines.length === 0) continue;
 
+    if (lines.length === 1 && isDigestSectionLine(lines[0])) continue;
     if (lines.length === 1 && lines[0].startsWith("（") && lines[0].endsWith("）")) continue;
 
-    if (lines.length === 1 && !/^https?:\/\//i.test(lines[0])) {
-      if (isDigestSectionLine(lines[0])) continue;
-      if (lines[0].length <= 40) {
-        currentAuthor = lines[0];
-      }
-      continue;
-    }
-
-    const urls = lines.filter((l) => /^https?:\/\//i.test(l));
+    const urls = lines.filter((l) => urlRe.test(l));
     if (urls.length === 0) continue;
 
     const url = urls[0];
-    let contentLines = lines.filter((l) => !urls.includes(l));
+    const contentLines = lines.filter((l) => !urlRe.test(l));
 
-    let author = currentAuthor;
-    if (!author) {
-      const maybe = contentLines[0] || "";
-      const m = maybe.match(/^(.+?)(（.+）|\(.+\))$/);
-      if (m) author = m[1].trim();
+    // Current data format uses: [author] -> [en] -> [zh] -> ... -> [url]
+    // So treat the first line as author when it looks like a compact latin name.
+    let author = contentLines[0] || "";
+    let tweetLines = contentLines;
+    if (
+      author &&
+      author.length <= 52 &&
+      !hasCjk(author) &&
+      !author.includes("：") &&
+      !author.includes(":")
+    ) {
+      tweetLines = contentLines.slice(1);
+    } else if (!author) {
+      author = "Unknown";
     }
-
-    if (contentLines.length >= 2) {
-      const head = contentLines[0];
-      const h = head.trim();
-      if (
-        h.length > 0 &&
-        h.length <= 52 &&
-        !/^https?:/i.test(h) &&
-        !hasCjk(h) &&
-        !h.includes("：") &&
-        !h.includes(":")
-      ) {
-        author = h;
-        contentLines = contentLines.slice(1);
-      }
-    }
-
-    if (!author) author = "Unknown";
 
     const { label, topic } = classifySource(url);
     const isPodcast = isPodcastUrl(url);
 
     if (isPodcast) {
-      const headLine = (contentLines[0] || "").trim();
+      // For podcasts, keep all non-url lines as contentLines.
+      const headLine = (tweetLines[0] || "").trim();
       let showName = author;
       if (headLine && (/[：:]/.test(headLine) || headLine.length > 8)) {
-        const parts = headLine.split(/[：:]/);
-        if (parts.length >= 2 && parts[0].trim().length <= 40) showName = parts[0].trim();
+        const seg = headLine.split(/[：:]/);
+        if (seg.length >= 2 && seg[0].trim().length <= 40) showName = seg[0].trim();
       }
-      const pod = parsePodcastBlock(rawBlock, contentLines, headLine || author);
+      const pod = parsePodcastBlock(raw, tweetLines, headLine || author);
       items.push({
         kind: "podcast",
         author: showName,
@@ -705,7 +701,7 @@ function parseItems(text) {
         teaserEn: pod.teaserEn,
       });
     } else {
-      const { zh, original } = parseTweetContent(rawBlock, contentLines, author);
+      const { zh, original } = parseTweetContent(raw, tweetLines, author);
       items.push({
         kind: "tweet",
         author,
