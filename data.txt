@@ -1,75 +1,78 @@
-AI Builders 日报 · 2026-03-25
-今日追踪 20 位构建者动态 + 1 期播客，共 41 条推文。Today's digest covers 20 builders and 1 podcast episode, 41 posts total.
-
-🐦 X / Twitter
+AI Builders 日报 · 2026-03-30
 
 Andrej Karpathy
-Supply chain attack warning: a malicious version of the litellm PyPI package was published to exfiltrate SSH keys and AWS credentials on install.供应链攻击警告：PyPI 上出现了恶意的 litellm 包，安装后会窃取 SSH 密钥和 AWS 凭证。Karpathy flags this as a "software horror" moment — simple pip install litellm was enough to get compromised.Karpathy 将此称为"软件噩梦"——仅仅执行 pip install litellm 就足以中招。https://x.com/karpathy/status/2036487306585268612
+Karpathy spent 4 hours refining a blog post with an LLM, then asked it to argue the opposite — the model immediately demolished his entire argument.
+Karpathy 花了4小时借助 LLM 打磨一篇博文，然后让模型论证相反观点——模型立刻把他的整篇论证推翻了。
+The LLMs may elicit an opinion when asked but are extremely competent in arguing almost any direction.
+LLM 被要求时会给出意见，但它们极其擅长论证几乎任何方向。
+He recommends using LLMs to form opinions, but warns to always ask for multiple directions and stay alert to sycophancy.
+他建议将 LLM 用作形成观点的工具，但提醒始终让它论证多个方向，并警惕讨好性倾向。
+https://x.com/karpathy/status/2037921699824607591
 
-Swyx（@cognition / Latent Space）
-Swyx announces OpenAI has killed Sora, calling it the "first casualty of OpenAI's crackdown on Side Quests."Swyx 宣布 OpenAI 已关闭 Sora，称其为"OpenAI 打压旁支项目的第一个牺牲品"。https://x.com/swyx/status/2036533647659143630
-He also praises a tool that saves him 3–8x time per day, crediting it with legitimately changing his workflow.他还盛赞一款每天为他节省 3–8 倍时间的工具，称其真正改变了他的工作流。https://x.com/swyx/status/2036565584515899445
+Swyx
+Swyx argued that false equivalence — treating multiple things as equally important — is a silent killer of companies and careers.
+Swyx 指出，虚假等价——把多件事情都视为同等重要——是公司和职业生涯的隐形杀手。
+False equivalence killed my first devtools startup. False equivalence makes you underpay your top performers and spend too much time on lost causes.
+虚假等价葬送了我的第一家开发者工具初创公司，让你给顶尖人才开低薪，却在无望项目上浪费大量时间。
+His rules: bet on very few things, don't hedge but keep reversibility, set triggers to know when you're wrong, and double down early when you're more right than expected.
+他的原则：押注极少数事情，不对冲但保留可逆性，设置触发器监控判断是否失误，一旦发现比预期更正确就尽早加注。
+https://x.com/swyx/status/2037969691910848941
 
-Josh Woodward（Google Labs）
-Josh Woodward on the current moment at Google: "I've been at Google since I was an intern, and there's never been a more exciting time. The place is pulsating."Josh Woodward 谈 Google 现状："我从实习就在 Google，从未见过比现在更令人兴奋的时刻。这里充满活力。"https://x.com/joshwoodward/status/2036513009661780291
+Josh Woodward
+Josh Woodward (VP at Google Labs, Gemini App) noted strong weekend uptake on a recent Google project.
+谷歌 Labs 及 Gemini App 副总裁 Josh Woodward 近期分享了某 Google 项目获得强劲周末用量，鼓励大家尝试。
+https://x.com/joshwoodward/status/2037940551400735224
 
-Peter Yang（Roblox Product）
-Peter Yang on the new reality of AI-native communication: "My Telegram is just chats with my OpenClaw and now Claude bots. Haven't talked to a single human yet."Peter Yang 谈 AI 原生通讯的新现实："我的 Telegram 里只有和 OpenClaw、Claude bot 的对话，还没和任何真人说过话。"https://x.com/petergyang/status/2036664048700600706
-He hopes AI agents will help teams stop obsessing over specs, designs, roadmaps, and strategy docs — and just ship.他希望 AI agent 能帮助团队不再执着于需求文档、设计稿、路线图和战略文档——直接去做就行。https://x.com/petergyang/status/2036621615086309468
+Peter Yang
+Peter Yang observed that fast-growing companies like Linear and Ramp hiring ex-founders as PMs is a meaningful talent signal.
+Roblox 产品经理、AI 博主 Peter Yang 指出，Linear 和 Ramp 等快速增长公司招聘前创业者担任 PM，是一个有意义的人才信号。
+Do founders want to work here? Do they have the agency to make real impact or will they get lost in your org?
+创业者愿意来这里工作吗？他们能在你的组织里产生真正的影响力，还是会迷失其中？
+He also noted X is still full of AI slop and called out the platform for hiding the thumbs-down button from original posts.
+他还指出 X 平台仍充斥 AI 垃圾内容，批评平台把踩按钮藏在回复中而非原帖上。
+https://x.com/petergyang/status/2038058600715935817
 
-Nan Yu（Linear Head of Product）
-Nan Yu on the new way of working: "I haven't written a PRD by hand, filed an issue through a form, or hand-written any code in months. But the volume of output has gone up dramatically."Nan Yu 谈新的工作方式："我已经好几个月没有手写 PRD、通过表单提 issue、或者手写代码了。但产出量却大幅提升了。"https://x.com/thenanyu/status/2036549647267709110
+Amjad Masad
+Amjad Masad (CEO of Replit) articulated the clearest version of his 1000x engineer thesis applied to the AI era.
+Replit CEO Amjad Masad 对其「1000x 工程师」理论在 AI 时代的诠释做出了最清晰的表达。
+AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what's possible.
+AI 让每个人都能构建应用，这使得最优秀的工程师得以聚焦更深的底层，做更有雄心的事情来推进平台本身、拓展可能性的边界。
+This is the positive-sum vision: democratization at the surface, deeper ambition at the frontier.
+这是正和博弈的愿景：表层民主化，前沿更深入。
+https://x.com/amasad/status/2037951485418344835
 
-Cat Wu（Anthropic）
-Cat Wu teases the upcoming "Code with Claude" event, asking the community what they want to hear about this year.Cat Wu 预告即将举行的"Code with Claude"活动，向社区征集今年最想听的话题。https://x.com/_catwu/status/2036594646370210229
+Guillermo Rauch
+Guillermo Rauch (CEO of Vercel) dropped a pointed one-liner riffing on Stewart Brand's classic maxim: the network agent is the computer.
+Vercel CEO Guillermo Rauch 发布了一个精准的金句，戏谑改写斯图尔特·布兰德的经典论断：网络→agent 即计算机。
+He also celebrated finally shipping the text layout of his dreams, hinting at a new Vercel advanced typography capability.
+他还庆祝终于实现了梦想中的文本排版，暗示 Vercel 推出了先进排版的新能力。
+https://x.com/rauchg/status/2037935190073569326
 
-Thariq（Claude Code, Anthropic）
-Thariq announces Claude Code computer use is now available on Microsoft Teams, with plans to scale to more platforms.Thariq 宣布 Claude Code 的 computer use 功能已登陆 Microsoft Teams，并计划扩展到更多平台。He also drops a sharp line on Anthropic's safety focus: "Turns out being an AI safety company is useful for when you need to make sure AIs can run safely."他还对 Anthropic 的安全定位发表了一句精准评论："事实证明，作为一家 AI 安全公司，在你需要确保 AI 能安全运行时非常有用。"https://x.com/trq212/status/2036515949617037711https://x.com/trq212/status/2036513038983995820
+Garry Tan
+Garry Tan (President & CEO of Y Combinator) shared the Richmond camera story: after disabling Flock license plate cameras to protect immigrants, car thefts jumped 33% and immigrant shopkeepers begged to bring the cameras back.
+YC 总裁兼 CEO Garry Tan 分享了里士满摄像头事件：该市因「保护移民」关闭车牌识别摄像头，导致汽车盗窃率飙升33%，移民店主反而请求恢复摄像头。
+Opposing safety cameras is a luxury belief.
+「反对安全摄像头是一种奢侈的信仰。」
+He also endorsed boiling the ocean as a valid strategy for truly transformative startups, and noted his GStack project continues to grow daily.
+他还为「煮沸海洋」式的创业策略背书，并指出他的 GStack 项目每天持续增长。
+https://x.com/garrytan/status/2038054087451885747
 
-Amjad Masad（Replit CEO）
-Replit CEO Amjad Masad highlights a content creator's genuine journey building with AI — no hype, just real results.Replit CEO Amjad Masad 分享了一位内容创作者用 AI 构建产品的真实历程——没有炒作，只有真实成果。https://x.com/amasad/status/2036427267296067875
+Zara Zhang
+Zara Zhang posted two sharp observations on agent products and human cognitive limits.
+Builder Zara Zhang 发布了两条关于 agent 产品与人类认知极限的犀利见解。
+A good agent product should be able to do things that its creator did not think it could do.
+一个好的 agent 产品应该能够完成其创造者没有预料到它能做的事情。
+For internet-era products you design all functionality; for agent products you unleash it and it surprises you with things you didn't think were possible.
+互联网时代产品，你设计所有功能；agent 产品，你释放它，它会以你认为不可能的方式带来惊喜。
+She also observed: human context window is the new wall — as AI output expands, our own ability to absorb it becomes the bottleneck.
+她还指出：人类的上下文窗口是新的瓶颈——随着 AI 输出扩展，我们自身吸收信息的能力成为瓶颈。
+https://x.com/zarazhangrui/status/2038144755478237654
 
-Guillermo Rauch（Vercel CEO）
-Two big updates from Vercel CEO Guillermo Rauch. First: Vercel can now intelligently pick the right hardware for your build, optimized for Rust-based compilers like Turbopack.Vercel CEO Guillermo Rauch 带来两大更新。其一：Vercel 现在能够智能选择最适合你构建任务的硬件，专为 Turbopack 等基于 Rust 的编译器优化。https://x.com/rauchg/status/2036584870995173678
-Second: "Almost every SaaS app inside Vercel has now been replaced with a generated app or agent interface, deployed on Vercel." Eating your own dog food, at scale.其二："Vercel 内部几乎所有 SaaS 应用都已被生成式应用或 agent 界面取代，并部署在 Vercel 上。" 真正在规模化地自我验证。https://x.com/rauchg/status/2036447879985037495
-
-Alex Albert（Anthropic Research）
-Claude Code ships a major UX change: goodbye --dangerously-skip-permissions, hello auto mode.Claude Code 发布重要 UX 变更：告别 --dangerously-skip-permissions，迎来 auto mode。https://x.com/alexalbert__/status/2036510206155432293
-
-Aaron Levie（Box CEO）
-Aaron Levie on the coming wave of agent-compatible software: "We've also been moving off legacy systems with poor, slow, outdated, and inconsistent APIs."Box CEO Aaron Levie 谈即将到来的 agent 兼容软件浪潮："我们也在迁离那些 API 糟糕、缓慢、过时且不一致的遗留系统。"His message to builders: design software for agents from day one — the legacy API debt will be a real bottleneck.他对开发者的建议：从第一天起就为 agent 设计软件——遗留 API 的技术债将成为真正的瓶颈。https://x.com/levie/status/2036478998667207012
-
-Garry Tan（Y Combinator CEO）
-YC CEO Garry Tan on AI-assisted development: "Once you say 'replace developers' it's the wrong ideaspace. Cars didn't replace walking, you still have to walk a little."YC CEO Garry Tan 谈 AI 辅助开发："一旦你说'替代开发者'，思路就走偏了。汽车没有取代步行，你还是得走几步路的。"He predicts his output will be 90x what it was in 2013.他预测自己的产出将是 2013 年的 90 倍。https://x.com/garrytan/status/2036674371855823153https://x.com/garrytan/status/2036675789819953347
-
-Matt Turck（FirstMark Capital）
-Matt Turck with a sharp observation on the shifting meaning of typos: "Typo, before: you did sloppy work! Typo, today: you wrote authentic, non-AI generated content! That's awesome."Matt Turck 敏锐地观察到错别字含义的转变："以前打错字意味着：你工作马虎！今天打错字意味着：你写了真实的、非 AI 生成的内容！太棒了。"https://x.com/mattturck/status/2036488357077717094
-
-Zara Zhang（follow-builders 作者）
-Zara Zhang with a bold take: "GitHub is the new Substack. Code is a form of self-expression."Zara Zhang 发表大胆观点："GitHub 是新的 Substack。代码是一种自我表达的方式。"She also shares her own journey: barely knew how GitHub worked last year, now has 13k+ stars.她还分享了自己的成长历程：去年几乎不会用 GitHub，如今已积累 1.3 万+ star。https://x.com/zarazhangrui/status/2036675965003411514https://x.com/zarazhangrui/status/2036590721927618988
-
-Nikunj Kothari（FPV Ventures）
-FPV Ventures partner Nikunj Kothari on SOC II: it's often dismissed as security theater, but it has a real use case — subprocessor tracking, which forces you to maintain a living inventory of your vendors.FPV Ventures 合伙人 Nikunj Kothari 谈 SOC II：它常被批评为走形式，但有一个真实价值——子处理商追踪，迫使你维护一份动态的供应商清单。https://x.com/nikunj/status/2036572222081606065
-
-Peter Steinberger（OpenClaw）
-Peter Steinberger shares a funny moment: messaged a friend on WhatsApp, got greeted by the OpenClaw doorman instead. His tip: use a separate number + WhatsApp Business to avoid this.Peter Steinberger 分享了一个搞笑瞬间：给朋友发 WhatsApp，结果被 OpenClaw 门卫拦截了。他的建议：用独立号码 + WhatsApp Business 来避免这种情况。https://x.com/steipete/status/2036486352964035013
-
-Dan Shipper（Every CEO）
-Every CEO Dan Shipper drops new Every stickers for your Mac mini running OpenClaw — a fun nod to the growing community of people running AI agents at home.Every CEO Dan Shipper 发布了新款 Every 贴纸，专为运行 OpenClaw 的 Mac mini 设计——向越来越多在家运行 AI agent 的人致敬。https://x.com/danshipper/status/2036501111394148578
-
-Aditya Agarwal（South Park Commons）
-South Park Commons GP Aditya Agarwal on robotics: "The hardware for robotics is ready. We just need to get the software to a point where it is reliable enough."South Park Commons GP Aditya Agarwal 谈机器人技术："机器人硬件已经就绪。我们只需要让软件达到足够可靠的程度。"https://x.com/adityaag/status/2036426693930291334
-
-Sam Altman（OpenAI CEO）
-Sam Altman is crowdsourcing a new word: he wants a single term for the phrase "throw it into the maw with every bit of context I can think of" — describing the act of dumping all available context into an LLM prompt.OpenAI CEO Sam Altman 在众包一个新词：他想用一个词描述"把我能想到的所有上下文都塞进去"这个动作——即向 LLM prompt 倾倒所有可用上下文的行为。https://x.com/sama/status/2036489823792607273
-
-Claude（Anthropic）
-Claude's official account highlights computer use in the desktop app: Claude can now use connected apps first (Slack, Calendar, etc.), and request permission to open any app directly on your screen when no connector exists.Claude 官方账号重点介绍桌面应用中的 computer use 功能：Claude 现在优先调用已连接的应用（Slack、日历等），当没有对应连接器时，会请求权限直接在屏幕上打开应用。https://x.com/claudeai/status/2036195792101212445
-
-🎙️ 播客 Podcast
-
-Latent Space：There Is No AlphaFold for Materials — AI for Materials Discovery with Heather Kulik
-MIT professor Heather Kulik explains why materials science lacks its "AlphaFold moment" — the field is far more complex than protein folding, with vastly larger design spaces and harder-to-obtain ground truth data.MIT 教授 Heather Kulik 解释了为什么材料科学缺少属于自己的"AlphaFold 时刻"——该领域比蛋白质折叠复杂得多，设计空间远更庞大，真实数据也更难获取。She describes how her lab uses ML to accelerate the discovery of new materials for carbon capture, batteries, and drug delivery — not replacing physics, but narrowing the search space dramatically.她介绍了自己的实验室如何用机器学习加速发现用于碳捕获、电池和药物递送的新材料——不是替代物理规律，而是大幅缩小搜索空间。Key insight: the biggest bottleneck isn't model quality, it's data. Most materials experiments are never published if they fail, creating massive selection bias in training sets.核心洞察：最大的瓶颈不是模型质量，而是数据。大多数失败的材料实验从未发表，导致训练集中存在巨大的选择性偏差。https://youtube.com/watch?v=KSCCKCz2x04
+Peter Steinberger
+Peter Steinberger (steipete) shipped MCPorter 0.8.0, the MCP-to-CLI bridge tool, with stronger OAuth handling, valid JSON on fallback paths, better call behavior, improved object-valued arg handling, and keep-alive reliability.
+Peter Steinberger（steipete）发布了 MCPorter 0.8.0 MCP 转 CLI 桥接工具，带来更强的 OAuth 处理、备用路径有效 JSON 输出、更好的 call 行为、对象值参数处理改进，以及 keep-alive 可靠性提升。
+He also reflected on the emotional cost of open source maintainership — needing to develop thick skin (or an exoskeleton) when fielding criticism on successful projects.
+他还反思了开源维护者的情感代价——面对成功开源项目的批评时，需要锻炼出厚脸皮（或者「外骨骼」）。
+https://x.com/steipete/status/2038074759527981416
 
 Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
-
