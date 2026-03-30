@@ -3,7 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ai Builders Digest · 2026-03-30</title>
+  <title>AI Builders 日报 · 2026-03-30</title>
+  <meta name="description" content="共 9 条精选 · 推文 9 · 2026-03-30" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="AI Builders 日报" />
+  <meta property="og:description" content="2026-03-30" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AI Builders 日报" />
+  <meta name="twitter:description" content="2026-03-30" />
+  <meta property="og:image" content="og-card.svg" />
+  <meta name="twitter:image" content="og-card.svg" />
   <style>
     :root {
       --bg-primary:    #F4F4F4;
@@ -11,6 +20,8 @@
       --text-primary:  #111111;
       --text-secondary:#555555;
       --border-color:  #111111;
+      --card-bg:       #FFFFFF;
+      --accent:        #1a7f37;
     }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -19,34 +30,184 @@
       color: var(--text-primary);
       -webkit-font-smoothing: antialiased;
     }
-    .page-wrapper { max-width: 900px; margin: 0 auto; padding: 60px 20px; }
-    .main-header {
-      display: flex; justify-content: space-between; align-items: flex-end;
-      padding-bottom: 24px; border-bottom: 1px solid var(--border-color);
+    .page-wrapper { max-width: 900px; margin: 0 auto; padding: 0 20px 60px; }
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      border-top: 1px solid var(--border-color);
+      transition: box-shadow 0.2s ease;
     }
+    .site-header.is-scrolled {
+      box-shadow: 0 6px 16px rgba(17, 17, 17, 0.06);
+    }
+    .site-header__top {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      gap: 28px;
+      transition: padding 0.28s ease;
+    }
+    .site-header.is-scrolled .site-header__top {
+      padding: 12px 20px 14px;
+      align-items: center;
+    }
+    .site-header__left { flex: 1; min-width: 0; }
     .header-title {
-      font-size: calc(32px + 2vw); font-weight: 800; line-height: 0.9;
-      letter-spacing: -1px; white-space: nowrap;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      color: #000;
     }
-    .header-date-badge {
-      border: 1px solid var(--border-color); border-radius: 20px;
-      padding: 6px 16px; font-size: 11px; font-weight: 700;
-      text-transform: uppercase; white-space: nowrap;
+    .header-subtitle {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.3;
+      color: rgba(0, 0, 0, 0.4);
+      margin-top: 8px;
+      letter-spacing: 0;
     }
-    .list-container { border-bottom: 1px solid var(--border-color); }
+    .digest-nav {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      padding: 0 0 2px;
+      margin-bottom: 2px;
+    }
+    .digest-nav__btn {
+      font-family: inherit;
+      font-size: 24px;
+      font-weight: 500;
+      letter-spacing: 0;
+      text-transform: none;
+      background: none;
+      border: none;
+      padding: 4px 0;
+      cursor: pointer;
+      color: rgba(0, 0, 0, 0.4);
+      transition: color 0.15s;
+    }
+    .digest-nav__btn:hover:not(:disabled) { color: rgba(0, 0, 0, 0.55); }
+    .digest-nav__btn.is-active { color: #000; font-weight: 700; }
+    .digest-nav__btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    .header-rule {
+      width: 100vw;
+      margin-left: calc(50% - 50vw);
+      height: 1px;
+      background: var(--border-color);
+      border: 0;
+      padding: 0;
+    }
+    .list-container .list-item:first-child { border-top: none; }
     .list-item {
       display: flex; align-items: flex-start; gap: 4%;
+      min-width: 0;
       padding: 32px 0; border-top: 1px solid var(--border-color);
       cursor: pointer; position: relative; text-decoration: none;
       color: inherit; background: var(--bg-card);
     }
-    .item-cover { width: 38%; flex-shrink: 0; background: var(--bg-primary); aspect-ratio: 4 / 3; overflow: hidden; }
-    .item-cover img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
-    .item-cover img.is-fallback { object-fit: contain; object-position: center; }
-    .item-content { flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; position: relative; padding-right: 40px; }
+    .digest-view { display: none; }
+    .digest-view.is-active { display: block; }
+    #view-tweets.list-container,
+    #view-podcasts.list-container { padding-top: 36px; }
+    .digest-empty { padding: 48px 0; text-align: center; color: var(--text-secondary); font-size: 15px; }
+    .pd-wrap--embed {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+    .pd-hero-title { font-size: clamp(1.35rem, 4vw, 1.75rem); font-weight: 800; letter-spacing: -0.03em; margin-bottom: 20px; }
+    .pd-source-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 28px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #ccc;
+    }
+    .pd-source-k { font-weight: 800; font-size: 13px; }
+    .pd-source-name { font-size: 14px; color: var(--text-secondary); }
+    .pd-jump {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--text-primary);
+      white-space: nowrap;
+    }
+    .pd-jump:hover { text-decoration: underline; }
+    .pd-block { margin-bottom: 0; margin-top: 36px; }
+    .pd-block:first-of-type { margin-top: 0; }
+    .pd-block__title {
+      font-size: calc(18px + 0.8vw);
+      font-weight: 700;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+      color: var(--text-primary);
+    }
+    .pd-block__body { padding-left: 0; }
+    .pd-prose, .pd-ul {
+      font-size: calc(12px + 0.2vw);
+      font-weight: 500;
+      line-height: 1.45;
+      color: var(--text-primary);
+    }
+    .pd-ul { margin: 0; padding-left: 1.15em; }
+    .pd-ul li { margin-bottom: 8px; }
+    .pd-date { font-size: 12px; color: var(--text-secondary); margin-top: 16px; }
+    .item-cover {
+      flex: 0 0 38%;
+      min-width: 0;
+      max-width: 38%;
+      background: var(--bg-primary);
+      aspect-ratio: 4 / 3;
+      overflow: hidden;
+    }
+    .item-cover img {
+      width: 100%;
+      height: 100%;
+      max-width: 100%;
+      min-width: 0;
+      object-fit: cover;
+      object-position: top center;
+      display: block;
+    }
+    /* 根 svg 已写死 width/height=viewBox；cover 铺满列表缩略区，与 preview-fallbacks 全宽观感一致 */
+    .item-cover img.is-fallback { object-fit: cover; object-position: center; }
+    .item-content {
+      flex: 1 1 0;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      padding-right: 40px;
+    }
     .jump-arrow { position: absolute; top: 0; right: 0; font-size: 24px; line-height: 1; font-family: Arial, sans-serif; }
-    .item-title-zh { font-size: calc(18px + 0.8vw); font-weight: 700; line-height: 1.3; margin-bottom: 12px; }
-    .item-desc-en { font-size: calc(12px + 0.2vw); font-weight: 500; color: var(--text-secondary); line-height: 1.4; text-transform: uppercase; }
+    .item-title-zh {
+      font-size: calc(18px + 0.8vw); font-weight: 700; line-height: 1.35; margin-bottom: 10px;
+      display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
+    }
+    .item-desc-en {
+      font-size: calc(12px + 0.2vw); font-weight: 500; color: var(--text-secondary); line-height: 1.45;
+      display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden;
+      text-transform: none;
+      letter-spacing: 0;
+    }
+    .item-desc-original { color: #333; }
     .meta-row {
       display: flex; align-items: center; gap: 10px;
       font-size: 11px; font-weight: 800; letter-spacing: 0.5px;
@@ -54,47 +215,209 @@
     }
     .meta-row .avatar-img { width: 20px; height: 20px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
     @media (max-width: 600px) {
-      .page-wrapper { padding: 36px 16px; }
-      .item-cover { width: 35%; }
+      .page-wrapper { padding: 0 16px 48px; }
+      .site-header__top {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 32px 16px 16px;
+        gap: 18px;
+      }
+      .site-header.is-scrolled .site-header__top { padding: 10px 16px 12px; align-items: stretch; }
+      .digest-nav { justify-content: flex-start; gap: 22px; margin-bottom: 0; }
+      .digest-nav__btn { font-size: 24px; }
+      .item-cover { flex: 0 0 35%; max-width: 35%; }
       .item-content { padding-right: 28px; }
       .item-title-zh { font-size: calc(15px + 0.8vw); }
       .item-desc-en { font-size: 11px; }
     }
-    @media (max-width: 380px) { .item-cover { width: 32%; } }
+    @media (max-width: 380px) { .item-cover { flex: 0 0 32%; max-width: 32%; } }
   </style>
+  <script type="application/json" id="digest-fallback-lib">[{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23FFFAF0%22%2F%3E%3Crect%20x%3D%2280%22%20y%3D%2218%22%20width%3D%22240%22%20height%3D%2255%22%20rx%3D%2212%22%20fill%3D%22%23FFE0B2%22%2F%3E%3Cg%20transform%3D%22translate(105%2C32)%20scale(1.0833333333333333)%22%20fill%3D%22none%22%20stroke%3D%22%23F57C00%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%2C2C8%2C6%2C7%2C12%2C7%2C16L12%2C20L17%2C16C17%2C12%2C16%2C6%2C12%2C2Z%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2211%22%20r%3D%222%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%22148%22%20y%3D%2238%22%20width%3D%22145%22%20height%3D%2214%22%20rx%3D%227%22%20fill%3D%22%23F57C00%22%2F%3E%3Cline%20x1%3D%22130%22%20y1%3D%2280%22%20x2%3D%22130%22%20y2%3D%22118%22%20stroke%3D%22%23BF360C%22%20stroke-width%3D%221.5%22%2F%3E%3Cpolygon%20points%3D%22125%2C114%20130%2C124%20135%2C114%22%20fill%3D%22%23BF360C%22%2F%3E%3Cline%20x1%3D%22200%22%20y1%3D%2280%22%20x2%3D%22200%22%20y2%3D%22118%22%20stroke%3D%22%23BF360C%22%20stroke-width%3D%221.5%22%2F%3E%3Cpolygon%20points%3D%22195%2C114%20200%2C124%20205%2C114%22%20fill%3D%22%23BF360C%22%2F%3E%3Cline%20x1%3D%22270%22%20y1%3D%2280%22%20x2%3D%22270%22%20y2%3D%22118%22%20stroke%3D%22%23BF360C%22%20stroke-width%3D%221.5%22%2F%3E%3Cpolygon%20points%3D%22265%2C114%20270%2C124%20275%2C114%22%20fill%3D%22%23BF360C%22%2F%3E%3Crect%20x%3D%2240%22%20y%3D%22130%22%20width%3D%2288%22%20height%3D%2278%22%20rx%3D%228%22%20fill%3D%22%23FFCCBC%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%22140%22%20width%3D%2268%22%20height%3D%2210%22%20rx%3D%224%22%20fill%3D%22%23E64A19%22%2F%3E%3Crect%20x%3D%2250%22%20y%3D%22158%22%20width%3D%2226%22%20height%3D%2226%22%20rx%3D%224%22%20fill%3D%22%23E64A19%22%2F%3E%3Crect%20x%3D%22156%22%20y%3D%22130%22%20width%3D%2288%22%20height%3D%2278%22%20rx%3D%228%22%20fill%3D%22%23FFCCBC%22%2F%3E%3Crect%20x%3D%22166%22%20y%3D%22140%22%20width%3D%2268%22%20height%3D%2210%22%20rx%3D%224%22%20fill%3D%22%23E64A19%22%2F%3E%3Crect%20x%3D%22196%22%20y%3D%22158%22%20width%3D%2226%22%20height%3D%2226%22%20rx%3D%224%22%20fill%3D%22%23E64A19%22%2F%3E%3Crect%20x%3D%22272%22%20y%3D%22130%22%20width%3D%2288%22%20height%3D%2278%22%20rx%3D%228%22%20fill%3D%22%23FFCCBC%22%2F%3E%3Crect%20x%3D%22282%22%20y%3D%22140%22%20width%3D%2268%22%20height%3D%2210%22%20rx%3D%224%22%20fill%3D%22%23E64A19%22%2F%3E%3Crect%20x%3D%22282%22%20y%3D%22168%22%20width%3D%2226%22%20height%3D%2226%22%20rx%3D%224%22%20fill%3D%22%23E64A19%22%2F%3E%3Ctext%20x%3D%22200%22%20y%3D%22240%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22700%22%20fill%3D%22%23BF360C%22%20text-anchor%3D%22middle%22%3ESwyx%20%C2%B7%20Productivity%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22260%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22500%22%20fill%3D%22%23BF360C%22%20text-anchor%3D%22middle%22%20opacity%3D%220.5%22%3E%E4%BB%96%E8%BF%98%E7%9B%9B%E8%B5%9E%E4%B8%80%E6%AC%BE%E6%AF%8F%E5%A4%A9%E4%B8%BA%E4%BB%96%E8%8A%82%E7%9C%81%203-8%20%E5%80%8D%E2%80%A6%3C%2Ftext%3E%3C%2Fsvg%3E","a":"SWYX","t":"PRODUCTIVITY"},{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20rx%3D%2216%22%20fill%3D%22%23B2EBF2%22%2F%3E%3Cpath%20d%3D%22M240%2C0%20Q310%2C50%20360%2C120%20Q400%2C180%20385%2C240%20Q370%2C290%20310%2C300%20L400%2C300%20L400%2C0%20Z%22%20fill%3D%22%23F9A825%22%2F%3E%3Cpath%20d%3D%22M0%2C220%20Q35%2C195%2055%2C235%20Q70%2C265%2040%2C300%20L0%2C300%20Z%22%20fill%3D%22%23006064%22%2F%3E%3Cpath%20d%3D%22M0%2C0%20L0%2C75%20Q25%2C55%2020%2C25%20Z%22%20fill%3D%22%23006064%22%2F%3E%3Cpath%20d%3D%22M365%2C0%20L400%2C0%20L400%2C45%20Q385%2C20%20365%2C0%20Z%22%20fill%3D%22%23006064%22%2F%3E%3Cpath%20d%3D%22M400%2C260%20Q375%2C275%20400%2C300%20Z%22%20fill%3D%22%23006064%22%2F%3E%3Cg%20transform%3D%22translate(18%2C98)%20scale(1)%22%20fill%3D%22none%22%20stroke%3D%22%23004D40%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%2C2C8%2C6%2C7%2C12%2C7%2C16L12%2C20L17%2C16C17%2C12%2C16%2C6%2C12%2C2Z%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2211%22%20r%3D%222%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%2230%22%20y%3D%22150%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22800%22%20fill%3D%22%23004D40%22%3EJOSH%20WOODWARD%3C%2Ftext%3E%3Ctext%20x%3D%2230%22%20y%3D%22174%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22600%22%20fill%3D%22%23004D40%22%20opacity%3D%220.55%22%20letter-spacing%3D%221%22%3EGOOGLE%20LABS%3C%2Ftext%3E%3Ctext%20x%3D%2230%22%20y%3D%22200%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22500%22%20fill%3D%22%23004D40%22%20opacity%3D%220.45%22%3EJosh%20Woodward%20%E8%B0%88%20Go%E2%80%A6%3C%2Ftext%3E%3C%2Fsvg%3E","a":"JOSH WOODWARD","t":"GOOGLE LABS"},{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23FFF8E8%22%2F%3E%3Crect%20x%3D%2224%22%20y%3D%2228%22%20width%3D%22170%22%20height%3D%2238%22%20rx%3D%2219%22%20fill%3D%22%234CAF50%22%2F%3E%3Cg%20transform%3D%22translate(214%2C36)%20scale(0.9166666666666666)%22%20fill%3D%22none%22%20stroke%3D%22%23FFF%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%2C2C8%2C6%2C7%2C12%2C7%2C16L12%2C20L17%2C16C17%2C12%2C16%2C6%2C12%2C2Z%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2211%22%20r%3D%222%22%2F%3E%3C%2Fg%3E%3Crect%20x%3D%22255%22%20y%3D%2228%22%20width%3D%22115%22%20height%3D%2238%22%20rx%3D%2219%22%20fill%3D%22%23FF9800%22%2F%3E%3Crect%20x%3D%2244%22%20y%3D%2282%22%20width%3D%22130%22%20height%3D%2238%22%20rx%3D%2219%22%20fill%3D%22%23FDD835%22%2F%3E%3Crect%20x%3D%22190%22%20y%3D%2282%22%20width%3D%22175%22%20height%3D%2238%22%20rx%3D%2219%22%20fill%3D%22%23E91E63%22%2F%3E%3Crect%20x%3D%2224%22%20y%3D%22136%22%20width%3D%22155%22%20height%3D%2238%22%20rx%3D%2219%22%20fill%3D%22%23FF9800%22%2F%3E%3Ccircle%20cx%3D%22210%22%20cy%3D%22155%22%20r%3D%2219%22%20fill%3D%22%234CAF50%22%2F%3E%3Crect%20x%3D%22240%22%20y%3D%22136%22%20width%3D%22130%22%20height%3D%2238%22%20rx%3D%2219%22%20fill%3D%22%23FDD835%22%2F%3E%3Ctext%20x%3D%22108%22%20y%3D%2253%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2215%22%20font-weight%3D%22800%22%20fill%3D%22%23FFF%22%20text-anchor%3D%22middle%22%3EPETER%20YANG%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22218%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%20fill%3D%22%23333%22%20text-anchor%3D%22middle%22%3EPRODUCT%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22242%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22500%22%20fill%3D%22%23333%22%20text-anchor%3D%22middle%22%20opacity%3D%220.5%22%3E%E4%BB%96%E5%B8%8C%E6%9C%9B%20AI%20agent%20%E8%83%BD%E5%B8%AE%E5%8A%A9%E5%9B%A2%E9%98%9F%E2%80%A6%3C%2Ftext%3E%3Ctext%20x%3D%22200%22%20y%3D%22272%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22600%22%20fill%3D%22%23AAA%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221%22%3Ex.com%3C%2Ftext%3E%3C%2Fsvg%3E","a":"PETER YANG","t":"PRODUCT"},{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%3Cdefs%3E%3Cpattern%20id%3D%22sp%22%20width%3D%2216%22%20height%3D%22300%22%20patternUnits%3D%22userSpaceOnUse%22%3E%3Crect%20width%3D%228%22%20height%3D%22300%22%20fill%3D%22%232DD4BF%22%2F%3E%3Crect%20x%3D%228%22%20width%3D%228%22%20height%3D%22300%22%20fill%3D%22%23FB7185%22%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22url(%23sp)%22%2F%3E%3Crect%20x%3D%2228%22%20y%3D%22115%22%20width%3D%22344%22%20height%3D%22160%22%20rx%3D%2210%22%20fill%3D%22%23FFF%22%20opacity%3D%220.95%22%2F%3E%3Cg%20transform%3D%22translate(46%2C132)%20scale(0.8333333333333334)%22%20fill%3D%22none%22%20stroke%3D%22%23999%22%20stroke-width%3D%221.5%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M12%2C2C8%2C6%2C7%2C12%2C7%2C16L12%2C20L17%2C16C17%2C12%2C16%2C6%2C12%2C2Z%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2211%22%20r%3D%222%22%2F%3E%3C%2Fg%3E%3Ctext%20x%3D%2272%22%20y%3D%22147%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22700%22%20fill%3D%22%23888%22%20letter-spacing%3D%222%22%3ELINEAR%3C%2Ftext%3E%3Ctext%20x%3D%2250%22%20y%3D%22195%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2226%22%20font-weight%3D%22800%22%20fill%3D%22%231A1A1A%22%3ENAN%20YU%3C%2Ftext%3E%3Ctext%20x%3D%2250%22%20y%3D%22225%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22500%22%20fill%3D%22%23666%22%3ENan%20Yu%20%E8%B0%88%E6%96%B0%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%96%B9%E5%BC%8F%EF%BC%9A%E5%B7%B2%E7%BB%8F%E5%A5%BD%E2%80%A6%3C%2Ftext%3E%3Ctext%20x%3D%2250%22%20y%3D%22258%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22600%22%20fill%3D%22%23999%22%20letter-spacing%3D%221%22%3EAI%20BUILDERS%20DIGEST%3C%2Ftext%3E%3C%2Fsvg%3E","a":"NAN YU","t":"LINEAR"},{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%235A7AA5%22%2F%3E%0A%3Crect%20x%3D%2288%22%20y%3D%2222%22%20width%3D%22224%22%20height%3D%22256%22%20rx%3D%222%22%20fill%3D%22%23fff%22%2F%3E%0A%3Crect%20x%3D%22100%22%20y%3D%2234%22%20width%3D%22200%22%20height%3D%22132%22%20fill%3D%22%230062AD%22%2F%3E%0A%3Ccircle%20cx%3D%22166%22%20cy%3D%22108%22%20r%3D%2229%22%20fill%3D%22%23FFFEF2%22%2F%3E%0A%3Ccircle%20cx%3D%22222%22%20cy%3D%22102%22%20r%3D%2225%22%20fill%3D%22%23FFFEF2%22%2F%3E%0A%3Ccircle%20cx%3D%22178%22%20cy%3D%22112%22%20r%3D%227%22%20fill%3D%22%23111%22%2F%3E%0A%3Ccircle%20cx%3D%22228%22%20cy%3D%2296%22%20r%3D%226.5%22%20fill%3D%22%23111%22%2F%3E%0A%3Ctext%20x%3D%22100%22%20y%3D%22198%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2222%22%20font-weight%3D%22800%22%20fill%3D%22%23111%22%20text-anchor%3D%22start%22%3ESWATCH%20CARD%3C%2Ftext%3E%0A%3Ctext%20x%3D%22100%22%20y%3D%22222%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22500%22%20fill%3D%22%23222%22%20text-anchor%3D%22start%22%3ECOLOR%20LAB%3C%2Ftext%3E%0A%3Ctext%20x%3D%22100%22%20y%3D%22246%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22400%22%20fill%3D%22%23333%22%20text-anchor%3D%22start%22%20opacity%3D%220.45%22%20textLength%3D%22200%22%20lengthAdjust%3D%22spacingAndGlyphs%22%3EOne-line%20summary%20for%20the%20digest%20preview%20card%20placeholder%20text.%3C%2Ftext%3E%0A%3Ctext%20x%3D%22100%22%20y%3D%22272%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22500%22%20fill%3D%22%23444%22%20text-anchor%3D%22start%22%3EAI%20DIGEST%3C%2Ftext%3E%0A%3C%2Fsvg%3E","a":"SWATCH CARD","t":"COLOR LAB"},{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23F5F3F0%22%2F%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2256%22%20font-family%3D%22Georgia%2CTimes%20New%20Roman%2Cserif%22%20font-size%3D%2240%22%20font-weight%3D%22900%22%20fill%3D%22%23000%22%20text-anchor%3D%22middle%22%3EYARD%20SALE%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2278%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%227.5%22%20font-weight%3D%22700%22%20fill%3D%22%23000%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.2%22%20textLength%3D%22360%22%20lengthAdjust%3D%22spacingAndGlyphs%22%3EBOOKS%2C%20VINTAGE%20CLOTHING%2C%20RECORDS%2C%20FURNITURE%20AND%20MORE!%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22172%22%20font-size%3D%2240%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2CApple%20Color%20Emoji%2CSegoe%20UI%20Emoji%2CNoto%20Color%20Emoji%2Csans-serif%22%3E%F0%9F%93%9A%F0%9F%96%BC%EF%B8%8F%F0%9F%91%95%F0%9F%AA%B4%F0%9F%92%A1%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22500%22%20fill%3D%22%23222%22%20text-anchor%3D%22middle%22%20opacity%3D%220.45%22%20textLength%3D%22320%22%20lengthAdjust%3D%22spacingAndGlyphs%22%3EEverything%20must%20go%20%E2%80%94%20your%20article%20summary%20appears%20on%20this%20line.%3C%2Ftext%3E%0A%3Ctext%20x%3D%22-80%22%20y%3D%22-20%22%20font-size%3D%221%22%20fill%3D%22transparent%22%3EVINTAGE%20FINDS%3C%2Ftext%3E%0A%3C%2Fsvg%3E","a":"YARD SALE","t":"VINTAGE FINDS"},{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23ECEFF1%22%2F%3E%0A%3Crect%20x%3D%2236%22%20y%3D%2228%22%20width%3D%22328%22%20height%3D%22244%22%20rx%3D%2222%22%20fill%3D%22%23fff%22%2F%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2262%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2218%22%20font-weight%3D%22800%22%20fill%3D%22%23000%22%20text-anchor%3D%22middle%22%3EMOSCOW%20LIST%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%2288%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22500%22%20fill%3D%22%23444%22%20text-anchor%3D%22middle%22%20opacity%3D%220.45%22%20textLength%3D%22280%22%20lengthAdjust%3D%22spacingAndGlyphs%22%3EPriority%20rows%20with%20emoji%20markers%20%E2%80%94%20excerpt%20here.%3C%2Ftext%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22118%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22700%22%20fill%3D%22%23000%22%3EMust%2C%3C%2Ftext%3E%0A%3Ctext%20x%3D%22292%22%20y%3D%22122%22%20font-size%3D%2226%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2CApple%20Color%20Emoji%2CSegoe%20UI%20Emoji%2CNoto%20Color%20Emoji%2Csans-serif%22%3E%F0%9F%94%B4%3C%2Ftext%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22164%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22700%22%20fill%3D%22%23000%22%3EShould%2C%3C%2Ftext%3E%0A%3Ctext%20x%3D%22292%22%20y%3D%22168%22%20font-size%3D%2226%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2CApple%20Color%20Emoji%2CSegoe%20UI%20Emoji%2CNoto%20Color%20Emoji%2Csans-serif%22%3E%E2%9A%A0%EF%B8%8F%3C%2Ftext%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22210%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22700%22%20fill%3D%22%23000%22%3ECould%2C%3C%2Ftext%3E%0A%3Ctext%20x%3D%22292%22%20y%3D%22214%22%20font-size%3D%2226%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2CApple%20Color%20Emoji%2CSegoe%20UI%20Emoji%2CNoto%20Color%20Emoji%2Csans-serif%22%3E%E2%9C%85%3C%2Ftext%3E%0A%3Ctext%20x%3D%2264%22%20y%3D%22256%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2220%22%20font-weight%3D%22700%22%20fill%3D%22%23000%22%3EWon't.%3C%2Ftext%3E%0A%3Ctext%20x%3D%22292%22%20y%3D%22260%22%20font-size%3D%2226%22%20text-anchor%3D%22middle%22%20font-family%3D%22system-ui%2CApple%20Color%20Emoji%2CSegoe%20UI%20Emoji%2CNoto%20Color%20Emoji%2Csans-serif%22%3E%F0%9F%9A%AB%3C%2Ftext%3E%0A%3Ctext%20x%3D%22-80%22%20y%3D%22-40%22%20font-size%3D%221%22%20fill%3D%22transparent%22%3EBACKLOG%3C%2Ftext%3E%0A%3C%2Fsvg%3E","a":"MOSCOW LIST","t":"BACKLOG"},{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Cdefs%3E%0A%3ClinearGradient%20id%3D%22gf4%22%20x1%3D%220%25%22%20y1%3D%22100%25%22%20x2%3D%22100%25%22%20y2%3D%220%25%22%3E%0A%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23C5D0D8%22%2F%3E%0A%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23E8F0A8%22%2F%3E%0A%3C%2FlinearGradient%3E%0A%3Cfilter%20id%3D%22grain4%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.9%22%20numOctaves%3D%223%22%20stitchTiles%3D%22stitch%22%20result%3D%22n%22%2F%3E%0A%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220%200%200%200%200%20%200%200%200%200%200%20%200%200%200%200%200%20%200%200%200%200.12%200%22%20in%3D%22n%22%20result%3D%22a%22%2F%3E%0A%3CfeBlend%20in%3D%22SourceGraphic%22%20in2%3D%22a%22%20mode%3D%22multiply%22%2F%3E%0A%3C%2Ffilter%3E%0A%3C%2Fdefs%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22url(%23gf4)%22%20filter%3D%22url(%23grain4)%22%2F%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%221%22%2F%3E%0A%3Ccircle%20cx%3D%22154%22%20cy%3D%2246%22%20r%3D%227%22%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.4%22%2F%3E%0A%3Cline%20x1%3D%22148%22%20y1%3D%2249%22%20x2%3D%22160%22%20y2%3D%2249%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.2%22%2F%3E%0A%3Cline%20x1%3D%22148%22%20y1%3D%2252%22%20x2%3D%22160%22%20y2%3D%2252%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.2%22%2F%3E%0A%3Cline%20x1%3D%22148%22%20y1%3D%2255%22%20x2%3D%22160%22%20y2%3D%2255%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.2%22%2F%3E%0A%3Ctext%20x%3D%22168%22%20y%3D%2252%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22800%22%20fill%3D%22%23111%22%20text-anchor%3D%22start%22%3EALTURA%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22128%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2236%22%20font-weight%3D%22900%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%3ESpring%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22168%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22900%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%3ERelease%20Notes%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22206%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2214%22%20font-weight%3D%22600%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%20opacity%3D%220.55%22%3ERELEASE%20NOTES%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22248%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22500%22%20fill%3D%22%23333%22%20text-anchor%3D%22middle%22%20opacity%3D%220.45%22%20textLength%3D%22300%22%20lengthAdjust%3D%22spacingAndGlyphs%22%3EGrainy%20gradient%20title%20card%20%E2%80%94%20excerpt%20text%20replaces%20this%20sentence.%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22276%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22700%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%20letter-spacing%3D%221.5%22%3E%E2%80%A2%20LIVE%20STREAM%3C%2Ftext%3E%0A%3C%2Fsvg%3E","a":"ALTURA","t":"RELEASE NOTES"},{"e":"%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20300%22%3E%0A%3Crect%20width%3D%22400%22%20height%3D%22300%22%20fill%3D%22%23fff%22%2F%3E%0A%3Cg%20fill%3D%22none%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.3%22%3E%0A%3Crect%20x%3D%2238%22%20y%3D%2228%22%20width%3D%2272%22%20height%3D%2222%22%20rx%3D%225%22%20fill%3D%22%23fff%22%2F%3E%0A%3Cpath%20d%3D%22M58%2050%20L52%2060%20L68%2050%22%2F%3E%0A%3Crect%20x%3D%22118%22%20y%3D%2222%22%20width%3D%2276%22%20height%3D%2222%22%20rx%3D%225%22%20fill%3D%22%23fff%22%2F%3E%0A%3Cpath%20d%3D%22M148%2044%20L142%2054%20L158%2044%22%2F%3E%0A%3Crect%20x%3D%22206%22%20y%3D%2230%22%20width%3D%2288%22%20height%3D%2222%22%20rx%3D%225%22%20fill%3D%22%23fff%22%2F%3E%0A%3Cpath%20d%3D%22M232%2052%20L226%2062%20L244%2052%22%2F%3E%0A%3Crect%20x%3D%22302%22%20y%3D%2226%22%20width%3D%2256%22%20height%3D%2222%22%20rx%3D%225%22%20fill%3D%22%23fff%22%2F%3E%0A%3Cpath%20d%3D%22M322%2048%20L316%2058%20L332%2048%22%2F%3E%0A%3C%2Fg%3E%0A%3Ctext%20x%3D%2274%22%20y%3D%2244%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%228%22%20font-weight%3D%22700%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%3EShinny%20here%3C%2Ftext%3E%0A%3Ctext%20x%3D%22156%22%20y%3D%2238%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%228%22%20font-weight%3D%22700%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%3EI'm%20Lume%3C%2Ftext%3E%0A%3Ctext%20x%3D%22250%22%20y%3D%2246%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%227.5%22%20font-weight%3D%22700%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%3ESup%2C%20I'm%20Spark%3C%2Ftext%3E%0A%3Ctext%20x%3D%22330%22%20y%3D%2242%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%229%22%20font-weight%3D%22700%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%3EGlow%3C%2Ftext%3E%0A%3Ccircle%20cx%3D%2288%22%20cy%3D%22168%22%20r%3D%2236%22%20fill%3D%22%23FFF9C4%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cellipse%20cx%3D%2282%22%20cy%3D%22162%22%20rx%3D%222.2%22%20ry%3D%223.5%22%20fill%3D%22%23111%22%2F%3E%0A%3Cellipse%20cx%3D%2294%22%20cy%3D%22162%22%20rx%3D%222.2%22%20ry%3D%223.5%22%20fill%3D%22%23111%22%2F%3E%0A%3Cline%20x1%3D%2278%22%20y1%3D%22198%22%20x2%3D%2278%22%20y2%3D%22212%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cline%20x1%3D%2298%22%20y1%3D%22198%22%20x2%3D%2298%22%20y2%3D%22212%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cg%20transform%3D%22translate(142%2C132)%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%20fill%3D%22%23FF9800%22%3E%0A%3Cpath%20d%3D%22M40%2036%20L48%208%20L56%2036%20L72%2028%20L58%2044%20L68%2060%20L48%2050%20L28%2060%20L38%2044%20L24%2028%20Z%22%2F%3E%0A%3C%2Fg%3E%0A%3Cellipse%20cx%3D%22188%22%20cy%3D%22158%22%20rx%3D%222%22%20ry%3D%223%22%20fill%3D%22%23111%22%2F%3E%0A%3Cellipse%20cx%3D%22196%22%20cy%3D%22158%22%20rx%3D%222%22%20ry%3D%223%22%20fill%3D%22%23111%22%2F%3E%0A%3Cline%20x1%3D%22182%22%20y1%3D%22188%22%20x2%3D%22182%22%20y2%3D%22200%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cline%20x1%3D%22198%22%20y1%3D%22188%22%20x2%3D%22198%22%20y2%3D%22200%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cpath%20d%3D%22M248%20200%20L270%20140%20L292%20200%20L260%20188%20Z%22%20fill%3D%22%231565C0%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cellipse%20cx%3D%22268%22%20cy%3D%22168%22%20rx%3D%222%22%20ry%3D%223%22%20fill%3D%22%23111%22%2F%3E%0A%3Cellipse%20cx%3D%22276%22%20cy%3D%22168%22%20rx%3D%222%22%20ry%3D%223%22%20fill%3D%22%23111%22%2F%3E%0A%3Cline%20x1%3D%22262%22%20y1%3D%22192%22%20x2%3D%22262%22%20y2%3D%22204%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cline%20x1%3D%22278%22%20y1%3D%22192%22%20x2%3D%22278%22%20y2%3D%22204%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Ccircle%20cx%3D%22330%22%20cy%3D%22168%22%20r%3D%2232%22%20fill%3D%22%23CE93D8%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cellipse%20cx%3D%22324%22%20cy%3D%22162%22%20rx%3D%222%22%20ry%3D%222.5%22%20fill%3D%22%23111%22%2F%3E%0A%3Cellipse%20cx%3D%22336%22%20cy%3D%22162%22%20rx%3D%222%22%20ry%3D%222.5%22%20fill%3D%22%23111%22%2F%3E%0A%3Cline%20x1%3D%22318%22%20y1%3D%22196%22%20x2%3D%22318%22%20y2%3D%22208%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Cline%20x1%3D%22342%22%20y1%3D%22196%22%20x2%3D%22342%22%20y2%3D%22208%22%20stroke%3D%22%23111%22%20stroke-width%3D%221.5%22%2F%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22258%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2211%22%20font-weight%3D%22700%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%3ELUME%20TEAM%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22278%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22600%22%20fill%3D%22%23111%22%20text-anchor%3D%22middle%22%20opacity%3D%220.5%22%3ESPARK%20CHAT%3C%2Ftext%3E%0A%3Ctext%20x%3D%22200%22%20y%3D%22292%22%20font-family%3D%22Helvetica%20Neue%2CHelvetica%2CArial%2Csans-serif%22%20font-size%3D%2210%22%20font-weight%3D%22500%22%20fill%3D%22%23333%22%20text-anchor%3D%22middle%22%20opacity%3D%220.45%22%20textLength%3D%22340%22%20lengthAdjust%3D%22spacingAndGlyphs%22%3EFriendly%20crew%20row%20%E2%80%94%20digest%20excerpt%20replaces%20this%20line.%3C%2Ftext%3E%0A%3C%2Fsvg%3E","a":"LUME TEAM","t":"SPARK CHAT"}]</script>
   <script>
   (function(){
     var PAL=[{bg:"#F4F4F4",tx:"#111",ac:"#111",s1:"#111",s2:"#F4F4F4"}];
+    var LIB=[];
+    try{var _je=document.getElementById("digest-fallback-lib");if(_je)LIB=JSON.parse(_je.textContent);}catch(_e){LIB=[];}
     function esc(s){return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
     function trunc(s,n){s=String(s||"");return s.length>n?s.slice(0,n-1)+"…":s;}
-    function H(s){s=String(s||"");var h=0;for(var i=0;i<s.length;i++){h=(h*31+s.charCodeAt(i))>>>0;}return h;}
+    /** 画廊大标题区：去掉尾部「（职务）」避免 52px 下超长触发 textLength 叠字。 */
+    function stripAuthorDisplay(s){
+      return String(s||"").trim().replace(/（[^）]*）\s*$/,"").replace(/\([^)]*\)\s*$/,"").trim();
+    }
+    function hashStr(s){
+      var h=2166136261>>>0,k=String(s||"");
+      for(var i=0;i<k.length;i++)h=Math.imul(h^k.charCodeAt(i),16777619)>>>0;
+      return h;
+    }
+    function fallbackBg(n,tg){
+      var BGS=["F5F0EB","E8EDF2","EDE8E4","EEF4EA","F2EBF5","EAF4F2","F0EBF4","E6F0EC"];
+      return "#"+BGS[hashStr(String(n)+"|"+String(tg))%BGS.length];
+    }
     function tagIcon(tg){
       var t=String(tg||"").toLowerCase().replace(/[·•]/g," ").replace(/\s+/g," ").trim();
       if(t.indexOf("security")>=0||t.indexOf("safety")>=0)return "shield";
-      if(t.indexOf("podcast")>=0||t.indexOf("youtube")>=0)return "mic";
+      if(t.indexOf("podcast")>=0||t.indexOf("youtube")>=0||t.indexOf("materials")>=0)return "mic";
       if(t.indexOf("openai")>=0||t.indexOf("anthropic")>=0||t.indexOf("ai agents")>=0)return "bolt";
+      if(t.indexOf("culture")>=0||t.indexOf("every")>=0||t.indexOf("productivity")>=0)return "chat";
+      if(t.indexOf("code")>=0||t.indexOf("github")>=0||t.indexOf("dev")>=0)return "code";
+      if(t.indexOf("robot")>=0||t.indexOf("openclaw")>=0)return "gear";
+      if(t.indexOf("product")>=0||t.indexOf("combinator")>=0||t.indexOf("vercel")>=0||t.indexOf("linear")>=0||t.indexOf("replit")>=0||t.indexOf("box")>=0||t.indexOf("google")>=0)return "rocket";
       return "star";
     }
     function icon(name,x,y,sz,fill){
+      var sc=(sz/24).toFixed(6);
+      var g='transform="translate('+x+','+y+') scale('+sc+')"';
+      if(name==="code"){
+        return '<g '+g+' fill="none" stroke="'+fill+'" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8 5 2 12 8 19"/><path d="M16 5 22 12 16 19"/></g>';
+      }
+      if(name==="chat"){
+        return '<g '+g+'><path d="M4 3h16v9H11l-5 5.5V12H4V3z" fill="'+fill+'"/></g>';
+      }
+      if(name==="rocket"){
+        return '<g '+g+'><path d="M12 2.5C9.2 7.8 8.5 11.2 8.5 14.5h7c0-3.3-.7-6.7-3.5-12z" fill="'+fill+'"/></g>';
+      }
+      if(name==="gear"){
+        return '<g '+g+' fill="none" stroke="'+fill+'" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v2m0 18v2M4.2 4.2l1.4 1.4m12.8 12.8 1.4 1.4M1 12h2m18 0h2M4.2 19.8l1.4-1.4M18.4 5.8l1.4-1.4"/></g>';
+      }
       var p="";
       if(name==="shield")p="M12 2l7 4v6c0 5-3 9-7 12C8 21 5 17 5 12V6l7-4z";
       else if(name==="mic")p="M12 14a3 3 0 003-3V6a3 3 0 00-6 0v5a3 3 0 003 3zm5-3a5 5 0 01-10 0H5a7 7 0 0014 0h-2z";
       else if(name==="bolt")p="M13 2L6 13h5l-1 9 8-11h-5z";
       else p="M12 17.3l-6.18 3.7 1.64-7.03L2 9.24l7.19-.61L12 2l2.81 6.63 7.19.61-5.46 4.73L18.18 21z";
-      return '<path d="'+p+'" transform="translate('+x+','+y+') scale('+(sz/24)+')" fill="'+fill+'"/>';
+      return '<path d="'+p+'" transform="translate('+x+','+y+') scale('+sc+')" fill="'+fill+'"/>';
     }
+    /** Microlink 失败时内联 SVG：内容裁剪在框内，标题截断，底色随作者+主题变化以便区分条目。 */
     function t0(n,tg,c,ex,ic){
-      return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">'
-      +'<rect width="400" height="300" fill="'+c.bg+'"/>'
-      +'<rect x="24" y="24" width="352" height="252" fill="#FFF" opacity="0.9" stroke="'+c.ac+'" stroke-width="1"/>'
-      +icon(ic,40,44,22,"#777")
-      +'<text x="70" y="60" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="800" fill="#666" letter-spacing="2">'+esc(tg)+'</text>'
-      +'<text x="40" y="120" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="22" font-weight="800" fill="'+c.tx+'">'+esc(String(n).toUpperCase())+'</text>'
-      +'<text x="40" y="150" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="12" font-weight="500" fill="#666">'+esc(ex)+'</text>'
-      +'</svg>';
+      var bg=fallbackBg(n,tg);
+      var name=esc(trunc(String(stripAuthorDisplay(n)||"").toUpperCase(),26));
+      var topic=esc(trunc(String(tg).toUpperCase(),18));
+      var line=esc(trunc(String(ex||""),44));
+      return '<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid meet">'
+      +'<defs><clipPath id="fbc"><rect x="10" y="10" width="380" height="280"/></clipPath></defs>'
+      +'<rect width="400" height="300" fill="'+bg+'"/>'
+      +'<g clip-path="url(#fbc)">'
+      +'<rect x="10" y="10" width="380" height="280" fill="none" stroke="#222" stroke-width="1"/>'
+      +'<text x="200" y="40" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="17" font-weight="800" fill="#111" text-anchor="middle" textLength="360" lengthAdjust="spacing">'+name+'</text>'
+      +'<text x="200" y="58" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10" font-weight="500" fill="#111" text-anchor="middle" opacity="0.55" textLength="360" lengthAdjust="spacing">'+line+'</text>'
+      +icon(ic,178,118,40,"#E63946")
+      +'<circle cx="80" cy="182" r="22" fill="none" stroke="#F4A261" stroke-width="2.5"/>'
+      +'<polygon points="315,118 338,158 292,158" fill="none" stroke="#2A9D8F" stroke-width="2.5"/>'
+      +'<text x="22" y="276" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="#111" letter-spacing="1.2" textLength="200" lengthAdjust="spacing">'+topic+'</text>'
+      +'<text x="378" y="276" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="9" font-weight="700" fill="#111" text-anchor="end" letter-spacing="1.2">X.COM</text>'
+      +'</g></svg>';
     }
     var TPL=[t0];
-    var _idx=0;
+    function normKey(s){
+      return String(s||"").replace(/[·•]/g," ").replace(/\s+/g," ").trim().toUpperCase();
+    }
+    function setSvgText(el,s){
+      var ts=el.querySelectorAll("tspan");
+      if(ts.length){ ts[0].textContent=s; for(var k=1;k<ts.length;k++){ ts[k].textContent=""; } }
+      else el.textContent=s;
+    }
+    function isFooterGlyph(el,t){
+      var y=parseFloat(el.getAttribute("y")||"0");
+      if(y>262||y<26) return true;
+      var u=String(t||"").trim().toUpperCase();
+      if(u==="X.COM"||u==="AI BUILDERS"||u==="AI BUILDERS DIGEST") return true;
+      if(/^TWITTER/.test(u)) return true;
+      if(/^\d{4}$/.test(String(t||"").trim())) return true;
+      return false;
+    }
+    function pickExcerptEl(texts,nameU,tgU){
+      var best=null,bestScore=-1,i,el,t,u,fs,op;
+      for(i=0;i<texts.length;i++){
+        el=texts[i];
+        t=el.textContent.replace(/\s+/g," ").trim();
+        if(!t) continue;
+        u=normKey(t);
+        if(u===normKey(nameU)||u===normKey(tgU)) continue;
+        fs=parseFloat(el.getAttribute("font-size")||"99");
+        op=parseFloat(el.getAttribute("opacity")||"1");
+        if(fs>13||fs<8) continue;
+        var opMuted=(op>=0.42&&op<=0.66);
+        var opDefaultLong=(op>=0.94&&t.length>22);
+        if(!opMuted&&!opDefaultLong) continue;
+        if(isFooterGlyph(el,t)) continue;
+        var score=t.length*20-Math.abs(op-0.47)*3;
+        if(score>bestScore){ bestScore=score; best=el; }
+      }
+      return best;
+    }
+    /** 估算 text 在 SVG 用户单位下的宽度，用于避免对短标题滥用 textLength+spacingAndGlyphs（会把整字拉扁拉宽）。 */
+    function approxTextWidth(t,fs){
+      var w=0,i,c;
+      t=String(t||"");
+      for(i=0;i<t.length;i++){
+        c=t.charCodeAt(i);
+        w+=(c>=0x2e80)?fs*0.96:fs*0.52;
+      }
+      return w;
+    }
+    function fitSvgText(el){
+      var t=el.textContent.replace(/\s+/g," ").trim();
+      if(!t||isFooterGlyph(el,t)) return;
+      var fs=parseFloat(el.getAttribute("font-size")||"0");
+      if(fs<6) return;
+      var x=parseFloat(el.getAttribute("x")||"0");
+      var ta=el.getAttribute("text-anchor")||"start";
+      var vb=400,m=18,maxW;
+      if(ta==="middle") maxW=Math.min(2*Math.min(x,vb-x)-2*m,368);
+      else if(ta==="end") maxW=Math.min(Math.max(x-m,120),368);
+      else maxW=Math.min(vb-x-m,368);
+      maxW=Math.max(120,Math.min(372,maxW));
+      var aw=approxTextWidth(t,fs);
+      el.removeAttribute("textLength");
+      el.removeAttribute("lengthAdjust");
+      if(aw<=maxW) return;
+      var ell="…",s=t;
+      while(s.length>1&&approxTextWidth(s+ell,fs)>maxW) s=s.slice(0,-1);
+      if(approxTextWidth(s+ell,fs)>maxW) s="";
+      setSvgText(el,s+ell);
+    }
+    /** 仅替换与模版占位完全一致的 svg:text 节点，避免整串 split 误伤 COGNITION 等词；仅过长文案才用 textLength 收紧。 */
+    function applyGalleryCard(card,n,tg,raw){
+      var dec=decodeURIComponent(card.e);
+      if(card.a&&dec.indexOf(card.a)<0) return "";
+      var nameU=String(stripAuthorDisplay(n)||"").trim().replace(/\s+/g," ").toUpperCase();
+      var tgU=String(tg||"").trim().replace(/\s+/g," ").toUpperCase();
+      var excerpt=trunc(raw||"",56);
+      var doc=(new DOMParser()).parseFromString(dec,"image/svg+xml");
+      if(doc.querySelector("parsererror")||!doc.documentElement||doc.documentElement.localName!=="svg") return "";
+      var texts=doc.querySelectorAll("text");
+      var ak=normKey(card.a), tk=normKey(card.t);
+      /** 这些版式的首行「占位作者名」实为模版标题（如 MOSCOW LIST），不应换成当前条目作者。 */
+      var keepLayoutTitle={"MOSCOW LIST":1,"SWATCH CARD":1,"YARD SALE":1,"ALTURA":1,"LUME TEAM":1};
+      var i,el,t,matchedA=false;
+      for(i=0;i<texts.length;i++){
+        el=texts[i];
+        t=normKey(el.textContent);
+        if(card.a&&t===ak){
+          if(!keepLayoutTitle[ak]) setSvgText(el,nameU);
+          matchedA=true;
+        }
+      }
+      if(card.a&&!matchedA) return "";
+      for(i=0;i<texts.length;i++){
+        el=texts[i];
+        t=normKey(el.textContent);
+        if(card.t&&t===tk) setSvgText(el,tgU);
+      }
+      var exEl=pickExcerptEl(texts,nameU,tgU);
+      if(exEl) setSvgText(exEl,excerpt);
+      for(i=0;i<texts.length;i++) fitSvgText(texts[i]);
+      var rootSvg=doc.documentElement;
+      if(rootSvg&&rootSvg.localName==="svg"){
+        var vb=(rootSvg.getAttribute("viewBox")||"").trim().split(/\s+/),sw=400,sh=300;
+        if(vb.length===4){ sw=parseFloat(vb[2])||sw; sh=parseFloat(vb[3])||sh; }
+        rootSvg.setAttribute("width",String(sw));
+        rootSvg.setAttribute("height",String(sh));
+        if(!rootSvg.getAttribute("preserveAspectRatio")) rootSvg.setAttribute("preserveAspectRatio","xMidYMid meet");
+      }
+      var out=(new XMLSerializer()).serializeToString(doc.documentElement);
+      return out.indexOf("<svg")===0?out:"";
+    }
+    /* 列表封面：src 为 Microlink 远程图，仅加载失败时 onerror 进入此逻辑，再依次尝试画廊模版与 t0。 */
     window.handleImgError=function(img){
       img.onerror=null;
       img.classList.add("is-fallback");
@@ -102,32 +425,55 @@
       var spans=li.querySelectorAll(".meta-row span"),parts=[];
       for(var i=0;i<spans.length;i++){var t=spans[i].textContent.trim(); if(t!=="·"&&t!=="•") parts.push(t);}
       var n=parts[0]||"AI", tg=parts[parts.length-1]||"NEWS";
+      var descEl=li.querySelector(".item-desc-en");
       var titleEl=li.querySelector(".item-title-zh");
-      var ex=titleEl?trunc(titleEl.textContent.trim(),18):"";
+      var raw=(descEl&&descEl.textContent.trim())?descEl.textContent.trim():(titleEl?titleEl.textContent.trim():"");
+      var ex=trunc(raw,48);
       var ic=tagIcon(tg);
-      var ci=_idx++, si=0;
-      img.src="data:image/svg+xml,"+encodeURIComponent(TPL[0](n,tg,PAL[si],ex,ic));
+      if(LIB&&LIB.length){
+        var base=hashStr(n+"|"+tg)+hashStr(raw);
+        for(var k=0;k<LIB.length;k++){
+          var c=LIB[(base+k)%LIB.length];
+          try{
+            var svg=applyGalleryCard(c,n,tg,raw);
+            if(svg&&svg.indexOf("<svg")>=0){
+              img.src="data:image/svg+xml,"+encodeURIComponent(svg);
+              return;
+            }
+          }catch(_err){}
+        }
+      }
+      img.src="data:image/svg+xml,"+encodeURIComponent(TPL[0](n,tg,PAL[0],ex,ic));
     };
   })();
   </script>
 </head>
 <body>
+  <header class="site-header" id="site-header" role="banner">
+    <div class="site-header__top">
+      <div class="site-header__left">
+        <div class="header-title">AI Builders 日报</div>
+        <div class="header-subtitle">更新时间：2026-03-30</div>
+      </div>
+      <nav class="digest-nav" aria-label="内容切换">
+        <button type="button" class="digest-nav__btn is-active" data-view="tweets" id="nav-tweets">推文9</button>
+        <button type="button" class="digest-nav__btn" data-view="podcasts" id="nav-podcasts" disabled>播客0</button>
+      </nav>
+    </div>
+    <div class="header-rule" role="presentation"></div>
+  </header>
   <div class="page-wrapper">
-    <header class="main-header">
-      <div class="header-title">Ai Builders Digest</div>
-      <div class="header-date-badge">2026-03-30</div>
-    </header>
-    <div class="list-container">
+    <div id="view-tweets" class="digest-view is-active list-container" data-digest-view="tweets">
 
-      <a class="list-item" href="https://x.com/karpathy/status/2037921699824607591" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/karpathy/status/2037921699824607591" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fkarpathy%2Fstatus%2F2037921699824607591&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fkarpathy%2Fstatus%2F2037921699824607591&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/karpathy" alt="Andrej Karpathy" onerror="this.style.display='none'">
@@ -136,15 +482,15 @@
         </div>
       </a>
 
-      <a class="list-item" href="https://x.com/swyx/status/2037969691910848941" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/swyx/status/2037969691910848941" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fswyx%2Fstatus%2F2037969691910848941&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fswyx%2Fstatus%2F2037969691910848941&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/swyx" alt="Swyx" onerror="this.style.display='none'">
@@ -153,15 +499,15 @@
         </div>
       </a>
 
-      <a class="list-item" href="https://x.com/joshwoodward/status/2037940551400735224" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/joshwoodward/status/2037940551400735224" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fjoshwoodward%2Fstatus%2F2037940551400735224&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fjoshwoodward%2Fstatus%2F2037940551400735224&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/joshwoodward" alt="Josh Woodward" onerror="this.style.display='none'">
@@ -170,15 +516,15 @@
         </div>
       </a>
 
-      <a class="list-item" href="https://x.com/petergyang/status/2038058600715935817" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/petergyang/status/2038058600715935817" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fpetergyang%2Fstatus%2F2038058600715935817&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fpetergyang%2Fstatus%2F2038058600715935817&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/petergyang" alt="Peter Yang" onerror="this.style.display='none'">
@@ -187,15 +533,15 @@
         </div>
       </a>
 
-      <a class="list-item" href="https://x.com/amasad/status/2037951485418344835" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/amasad/status/2037951485418344835" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Famasad%2Fstatus%2F2037951485418344835&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Famasad%2Fstatus%2F2037951485418344835&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/amasad" alt="Amjad Masad" onerror="this.style.display='none'">
@@ -204,15 +550,15 @@
         </div>
       </a>
 
-      <a class="list-item" href="https://x.com/rauchg/status/2037935190073569326" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/rauchg/status/2037935190073569326" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Frauchg%2Fstatus%2F2037935190073569326&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Frauchg%2Fstatus%2F2037935190073569326&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/rauchg" alt="Guillermo Rauch" onerror="this.style.display='none'">
@@ -221,15 +567,15 @@
         </div>
       </a>
 
-      <a class="list-item" href="https://x.com/garrytan/status/2038054087451885747" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/garrytan/status/2038054087451885747" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fgarrytan%2Fstatus%2F2038054087451885747&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fgarrytan%2Fstatus%2F2038054087451885747&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/garrytan" alt="Garry Tan" onerror="this.style.display='none'">
@@ -238,15 +584,15 @@
         </div>
       </a>
 
-      <a class="list-item" href="https://x.com/zarazhangrui/status/2038144755478237654" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/zarazhangrui/status/2038144755478237654" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fzarazhangrui%2Fstatus%2F2038144755478237654&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fzarazhangrui%2Fstatus%2F2038144755478237654&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/zarazhangrui" alt="Zara Zhang" onerror="this.style.display='none'">
@@ -255,15 +601,15 @@
         </div>
       </a>
 
-      <a class="list-item" href="https://x.com/steipete/status/2038074759527981416" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://x.com/steipete/status/2038074759527981416" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fsteipete%2Fstatus%2F2038074759527981416&embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fsteipete%2Fstatus%2F2038074759527981416&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
-          <div class="jump-arrow">&rarr;</div>
+          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
             <div class="item-title-zh"></div>
-            <div class="item-desc-en"></div>
+            <div class="item-desc-en item-desc-original" lang="en"></div>
           </div>
           <div class="meta-row">
             <img class="avatar-img" src="https://unavatar.io/x/steipete" alt="Peter Steinberger" onerror="this.style.display='none'">
@@ -272,6 +618,42 @@
         </div>
       </a>
     </div>
+    <div id="view-podcasts" class="digest-view list-container" data-digest-view="podcasts">
+<p class="digest-empty">本期暂无播客条目。</p>
+    </div>
   </div>
+  <script>
+  (function(){
+    var el=document.getElementById("site-header");
+    if(el){
+      function tick(){
+        var y=window.scrollY||document.documentElement.scrollTop;
+        el.classList.toggle("is-scrolled",y>6);
+      }
+      window.addEventListener("scroll",tick,{passive:true});
+      tick();
+    }
+    var vT=document.getElementById("view-tweets");
+    var vP=document.getElementById("view-podcasts");
+    var bT=document.getElementById("nav-tweets");
+    var bP=document.getElementById("nav-podcasts");
+    function show(which){
+      if(which==="podcasts"&&bP&&bP.disabled) which="tweets";
+      if(vT) vT.classList.toggle("is-active",which==="tweets");
+      if(vP) vP.classList.toggle("is-active",which==="podcasts");
+      if(bT) bT.classList.toggle("is-active",which==="tweets");
+      if(bP) bP.classList.toggle("is-active",which==="podcasts");
+      var h=which==="podcasts"?"#podcasts":"";
+      if(location.hash!==h) history.replaceState(null,"",location.pathname+location.search+h);
+    }
+    function fromHash(){
+      return location.hash==="#podcasts"?"podcasts":"tweets";
+    }
+    if(bT) bT.addEventListener("click",function(){ show("tweets"); });
+    if(bP) bP.addEventListener("click",function(){ show("podcasts"); });
+    window.addEventListener("hashchange",function(){ show(fromHash()); });
+    show(fromHash());
+  })();
+  </script>
 </body>
 </html>
