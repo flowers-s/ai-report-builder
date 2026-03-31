@@ -5,13 +5,12 @@ AI Builders 日报 · 2026-03-31
 Andrej Karpathy
 
 Karpathy spent four hours using an LLM to meticulously refine a blog post's argument — and found it extremely convincing.
-Karpathy 花了四个小时用大语言模型精心打磨一篇博文的论点，结果发现文章说服力极强。
+AI 四小时打磨博文论点，文章说服力极强
 
 When he asked the same model to argue the opposite, it demolished his original argument entirely.
-当他让同一个模型论证相反观点时，模型彻底摧毁了他原来的论点。
+反手让它驳自己——原论点被秒杀，警惕大模型的讨好倾向
 
 His takeaway: LLMs are powerful tools for forming your own opinions — but ask them to argue multiple sides and stay alert to sycophancy.
-他的结论：大模型是帮助你形成自己观点的强大工具——但要主动让它论证多个立场，并警惕模型的讨好倾向。
 
 https://x.com/karpathy/status/2037921699824607591
 
@@ -20,16 +19,10 @@ https://x.com/karpathy/status/2037921699824607591
 Swyx
 
 Swyx shared a sharp warning about the trap of false equivalence in strategy and business.
-Swyx 分享了一个关于"虚假对等"在策略与商业中的危险警示。
+"虚假对等"害死了他第一家创业公司——把所有事情视为同等重要，是最贵的战略错误
 
-Treating priorities as equally important — spreading effort evenly across a, b, c, d — is a costly mistake because the world runs on power laws.
-将优先事项视为同等重要——把精力均匀分配给 a、b、c、d——是一个代价高昂的错误，因为世界遵循幂律法则。
-
-False equivalence killed his first devtools startup, plagues policymaking, and leads companies to underpay top performers.
-虚假对等曾葬送了他的第一家开发工具创业公司，在政策制定中普遍存在，还导致企业低估顶尖人才的价值。
-
-His rules: bet on a very small set of things, don't hedge but preserve reversibility, and double down early when you're more right than expected.
-他的原则：押注极少数事项，不要对冲但保留可逆性，在你比预期更正确时尽早加倍投入。
+The world runs on power laws: bet on a very small set of things, don't hedge, and double down early when you're more right than expected.
+他的原则：押注极少数事项，不对冲但保留可逆性，一旦发现自己判断对了就果断加倍
 
 https://x.com/swyx/status/2037969691910848941
 
@@ -37,8 +30,10 @@ https://x.com/swyx/status/2037969691910848941
 
 Josh Woodward
 
-Josh Woodward, VP at Google Labs / Gemini / AI Studio, reported strong weekend adoption on a recent Google product launch, encouraging followers to give it a try.
-谷歌实验室、Gemini 和 AI Studio 副总裁 Josh Woodward 报告了近期谷歌产品发布后的强劲用户增长，鼓励关注者亲身体验。
+Gemini new feature: import memory & chats from other chatbots directly into Settings.
+Gemini 新功能！其他 AI 的聊天记录和记忆可以一键导入，用户反馈导入体验出奇顺滑 👏
+
+Strong weekend adoption — give it a try this weekend!
 
 https://x.com/joshwoodward/status/2037940551400735224
 
@@ -46,17 +41,12 @@ https://x.com/joshwoodward/status/2037940551400735224
 
 Peter Yang
 
-Peter Yang, Roblox product manager and AI newsletter author, had three notable posts.
-Roblox 产品经理、AI 通讯作者 Peter Yang 发布了三条值得关注的推文。
+Peter Yang had three notable posts on AI, feeds, and hiring.
+想让 Grok 帮他分析 X 收藏夹——简单但超高价值的个人知识管理场景
 
-He wants Grok to analyze his X bookmarks — a simple but high-value AI use case for personal knowledge management.
-他希望 Grok 能分析他在 X 上的收藏帖子——这是一个简单却极具价值的个人知识管理 AI 应用场景。
+AI 劣质内容泛滥，他建议"踩"按钮应对原帖开放，不只是回复
 
-He also flagged the ongoing problem of AI slop in feeds and suggested the thumbs-down button should appear on original posts, not just replies.
-他还指出信息流中 AI 生成劣质内容的持续问题，建议"踩"按钮应对原帖开放，而非仅限于回复。
-
-On hiring: fast-growing companies like Linear and Ramp seek ex-founders as PMs — a litmus test for whether your company offers real agency to top talent.
-在招聘方面：Linear 和 Ramp 等高速增长的公司积极寻求前创始人担任 PM——这是衡量公司能否给顶尖人才真正授权的试金石。
+Linear、Ramp 这类高速公司专招前创始人做 PM——是否给顶尖人才真正授权的试金石
 
 https://x.com/petergyang/status/2038058600715935817
 
@@ -65,13 +55,9 @@ https://x.com/petergyang/status/2038058600715935817
 Amjad Masad
 
 Amjad Masad, CEO of Replit, shared a vision of where AI takes software engineering.
-Replit CEO Amjad Masad 分享了他对 AI 将软件工程带向何方的愿景。
+AI 让人人都能做 App，最顶尖的工程师反而得以去做更深层的事——推动平台本身进化
 
-As AI enables everyone to build apps, it frees the best engineers to work a layer deeper — pushing platforms forward and expanding what's possible.
-随着 AI 让每个人都能构建应用，最优秀的工程师得以在更深的层次上工作——推动平台本身的进步，拓展可能性的边界。
-
-This, he says, is what he meant four years ago when he introduced the concept of the "1000x engineer."
-他说，这正是他四年前提出"千倍工程师"概念时的本意。
+这就是他 4 年前说的"千倍工程师"的真正含义
 
 https://x.com/amasad/status/2037951485418344835
 
@@ -79,14 +65,10 @@ https://x.com/amasad/status/2037951485418344835
 
 Guillermo Rauch
 
-Guillermo Rauch, CEO of Vercel, posted from the company's Arizona offsite with three sharp signals.
-Vercel CEO Guillermo Rauch 在公司亚利桑那年会期间发布了三条颇具信息量的推文。
+Guillermo Rauch posted three sharp signals from Vercel's Arizona offsite.
+抛出了 AI 时代新金句："The agent is the computer"（智能体即计算机）
 
-He teased a text layout feature he can "finally ship," and dropped a memorable reframe on the agentic AI era.
-他预告了他终于可以发布的文本排版功能，并抛出了一个令人印象深刻的 AI 时代新格言。
-
-"The agent is the computer" — a deliberate riff on Sun Microsystems' classic "the network is the computer," updated for the age of AI agents.
-"智能体即计算机"——这是对 Sun Microsystems 经典口号"网络即计算机"的致敬与更新，升华至 AI 智能体时代。
+致敬 Sun Microsystems 的"网络即计算机"，宣告 AI 智能体时代到来；还预告了即将发布的文本排版新功能
 
 https://x.com/rauchg/status/2037935190073569326
 
@@ -94,14 +76,10 @@ https://x.com/rauchg/status/2037935190073569326
 
 Garry Tan
 
-Garry Tan, President and CEO of Y Combinator, posted on policy, ambition, and his product GStack.
-Y Combinator 总裁兼 CEO Garry Tan 就政策、雄心和他的产品 GStack 发帖。
+Garry Tan posted on policy, ambition, and his product GStack.
+加州某市为保护移民关掉监控，结果汽车盗窃案猛增 33%，移民店主自己反而求恢复摄像头
 
-He highlighted a data point from Richmond, CA: after the city disabled surveillance cameras to protect immigrants, car thefts jumped 33%, and immigrant shopkeepers themselves begged to have them restored.
-他引用了加州里士满市的数据：该市为保护移民关闭监控摄像头后，汽车盗窃案增加 33%，而移民店主们自己却强烈要求恢复摄像头。
-
-"Opposing safety cameras is a luxury belief." He also called on builders to embrace boiling the ocean — tackling audaciously large problems.
-"反对安全摄像头是一种奢侈的信念。" 他还号召建设者们拥抱"煮沸海洋"——勇于挑战极其宏大的问题。
+他的金句："反对安全摄像头是一种奢侈的信念"；还号召创业者敢于挑战"煮沸海洋"级别的大问题
 
 https://x.com/garrytan/status/2038054087451885747
 
@@ -109,14 +87,10 @@ https://x.com/garrytan/status/2038054087451885747
 
 Zara Zhang
 
-Zara Zhang, the creator of Follow Builders, shared two sharp observations about the agent product paradigm.
-Follow Builders 创作者 Zara Zhang 分享了两个关于智能体产品范式的深刻洞察。
+Zara Zhang shared two sharp observations about the agent product paradigm.
+好的智能体产品，应该能做到连创造者都没想到的事——这和互联网时代"按设计运行才是好产品"完全不同
 
-A great agent product should do things its creator never imagined — unlike internet-era products where "good" means working exactly as designed.
-优秀的智能体产品应该能做到连创造者都未曾预料的事情——这与互联网时代"好产品"即完全按设计运行的定义截然不同。
-
-She also coined a striking framing: "Human context window is the new wall" — the real bottleneck in the age of infinite AI output is now human attention and comprehension capacity.
-她还提出了一个引人深思的概念："人类上下文窗口是新的墙"——在 AI 输出无限膨胀的时代，真正的瓶颈已转移到人类的注意力和理解能力上。
+她提出新概念："人类上下文窗口是新的墙"——AI 时代真正的瓶颈，已经转移到人类自己的注意力和理解能力上
 
 https://x.com/zarazhangrui/status/2038144755478237654
 
@@ -124,14 +98,10 @@ https://x.com/zarazhangrui/status/2038144755478237654
 
 Peter Steinberger
 
-Peter Steinberger, the "ClawFather" of OpenClaw, announced MCPorter 0.8.0 — his MCP-to-CLI tool.
-OpenClaw 的"ClawFather" Peter Steinberger 宣布了他的 MCP 转 CLI 工具 MCPorter 0.8.0 版本发布。
+Peter Steinberger announced MCPorter 0.8.0 — his MCP-to-CLI tool.
+MCPorter 0.8.0 发布！更强的 OAuth 支持、更好的错误处理、守护进程更稳——MCP 转 CLI 工具持续进化
 
-Key updates include stronger OAuth handling, valid JSON on fallback paths, better error handling in mcporter call, improved object-valued argument support in generated CLIs, and enhanced keep-alive/daemon reliability.
-主要更新包括：更强的 OAuth 处理、备用路径有效 JSON 输出、更好的错误处理、生成 CLI 对对象参数的改进支持，以及增强的保活/守护进程可靠性。
-
-He also reflected on the thick skin needed to maintain popular open source — when your work reaches a wide audience, criticism is constant.
-他还反思了维护热门开源项目所需的"厚脸皮"——当你的作品触达广泛用户时，批评是家常便饭。
+顺便聊了维护热门开源项目的心态：触达越多用户，批评越是家常便饭，厚脸皮是必修课
 
 https://x.com/steipete/status/2038074759527981416
 
