@@ -1,7 +1,7 @@
 # AI Tracker to Interactive HTML - ListView Version
 
 ## 技能描述
-将 AI 行业动态文本（纯文本或链接）转化为极简、学术风、左图右文列表式单页 HTML 简报。  
+将 AI 行业动态文本（纯文本或链接）转化为极简、学术风、左图右文列表式单页 HTML 简报。
 本 Skill 的输入可由另一个 Skill 或脚本动态生成（例如日报、摘要类上游），然后落盘为 `data.txt`。
 
 ## 触发短语
@@ -32,8 +32,27 @@
    - 优先渲染真实封面图 URL（从文本中提取）；无图再用占位图。
 4. **简洁至上**：
    - 禁止时间轴布局。
-   - 禁止“本期动态 · UPDATES”之类冗余区块。
+   - 禁止"本期动态 · UPDATES"之类冗余区块。
 5. **双语对照**：中文主标题 + 英文副描述，分层清晰。
+
+## 中文摘要写作规则（必须遵守）
+
+每条推文/播客的中文摘要，统一按以下规则生成：
+
+1. **新闻标题式，去掉主语**
+   - ❌ "Karpathy 花了四小时用大语言模型打磨博文"
+   - ✅ "AI 四小时打磨博文论点，文章说服力极强"
+
+2. **直接说事，不介绍人**
+   - ❌ "谷歌 VP Josh Woodward 报告了强劲用户增长"
+   - ✅ "Gemini 新功能！其他 AI 聊天记录可一键导入 👏"
+
+3. **突出最有冲击力的事件、数据或金句**
+   - 如果原文有数字、引用、金句，优先放进中文摘要
+
+4. **控制在 25 字以内**（一行能看完），内容丰富时可拆成 2 条要点行
+
+5. **播客同样适用**：不写"某某分享了深度解析"，直接写"这期核心观点是什么"
 
 ## 数据处理流程
 1. **读取最新输入**：加载 `data.txt` 并做文本归一化（空白、控制字符、重复换行）。
@@ -49,7 +68,7 @@
 若已安装某上游日报/摘要类 Skill，再安装本仓库 [ai-report-builder](https://github.com/flowers-s/ai-report-builder) 后，**两者不会自动合并**。需要由 Agent 在**同一次执行**（或你手动说一句话）里**串起来**：先拿到上游正文，再写入 `data.txt`、生成 `index.html`、推送到 GitHub，最后把 **Pages 公网链接**发给你。
 
 ### 你要的最终效果
-用户在 OpenClaw 里收到的不只是纯文本摘要，而是**同一份内容对应的网页**，例如：  
+用户在 OpenClaw 里收到的不只是纯文本摘要，而是**同一份内容对应的网页**，例如：
 `https://<你的用户名>.github.io/ai-report-builder/`（以你仓库实际 Pages 地址为准）。
 
 ### 推荐目录约定（与上游 Skill 并列）
@@ -68,7 +87,7 @@ cd ~/skills/ai-report-builder && git add data.txt index.html && git commit -m "D
 然后向用户发送一行：**今日 HTML：** + 你的 GitHub Pages URL。
 
 ### OpenClaw 定时任务（cron）怎么写
-不要用两条互不相干的 cron 各跑一个 Skill。应使用 **一条** `openclaw cron add`，在 `--message` 里写清整段工作流，例如：  
+不要用两条互不相干的 cron 各跑一个 Skill。应使用 **一条** `openclaw cron add`，在 `--message` 里写清整段工作流，例如：
 「先按上游 Skill 的说明生成当日摘要（如为双语则保持原样）；再把**完整摘要文本**写入 `~/skills/ai-report-builder/data.txt`；再执行上面的 `node scripts/build-report.mjs` 与 `git push`；最后把 Pages 链接发给用户。」
 
 （OpenClaw 侧 cron 语法见 OpenClaw 官方文档，或见你所用上游 Skill 自带的定时任务说明。）
