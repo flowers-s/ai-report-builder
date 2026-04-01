@@ -15,10 +15,10 @@
   <rect x="80" y="78" width="1040" height="12" rx="10" fill="url(#accent)"/>
 
   <text x="120" y="210" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="64" font-weight="800" fill="#000">AI Builders 日报</text>
-  <text x="120" y="280" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="rgba(0,0,0,0.45)">更新时间：2026-03-31</text>
+  <text x="120" y="280" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="28" font-weight="600" fill="rgba(0,0,0,0.45)">更新时间：2026-04-01</text>
 
-  <text x="120" y="360" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#111">共 9 条精选</text>
-  <text x="120" y="430" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="rgba(17,17,17,0.55)">推文 9 · 播客/视频 0</text>
+  <text x="120" y="360" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#111">共 5 条精选</text>
+  <text x="120" y="430" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="rgba(17,17,17,0.55)">推文 4 · 播客/视频 1</text>
 
   <text x="120" y="520" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="rgba(0,0,0,0.35)">AI-Report-Builder</text>
 </svg>

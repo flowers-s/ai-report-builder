@@ -627,6 +627,8 @@ function buildPodcastListRow(it) {
 
 function parseItems(text) {
   const urlRe = /^https?:\/\//i;
+  // Strip leading emoji/icon prefixes like "🔗 " before URL matching
+  const stripUrlPrefix = (line) => String(line).replace(/^[^\w\s]*\s*(?=https?:\/\/)/i, '').trim();
 
   // Preferred format:
   // - entries are separated by a line that is exactly "---"
@@ -647,7 +649,7 @@ function parseItems(text) {
     const raw = String(rawBlock ?? "").trim();
     if (!raw) continue;
 
-    const lines = raw.split("\n").map((l) => l.trim()).filter(Boolean);
+    const lines = raw.split("\n").map((l) => stripUrlPrefix(l.trim())).filter(Boolean);
     if (lines.length === 0) continue;
 
     if (lines.length === 1 && isDigestSectionLine(lines[0])) continue;
