@@ -1,110 +1,72 @@
-AI Builders 日报 · 2026-03-31
+AI Builders 日报 · 2026-04-01
+
+Today's digest covers 4 AI builders and 1 podcast episode from March 31, 2026. From Microsoft's bold AI agent hire to developer writing meetups, CodexBar multi-account support, and the timeless truth that taste matters more than age — here's what the builders are saying.
+
+今日日报汇聚了2026年3月31日的4位AI创造者动态与1期播客。从微软重磅任命AI智能体高管，到开发者写作聚会的突破，再到CodexBar多账号测试功能上线——以下是创造者们的最新声音。
 
 ---
 
-Andrej Karpathy
+**Swyx (@swyx)**
 
-Karpathy spent four hours using an LLM to meticulously refine a blog post's argument — and found it extremely convincing.
-AI 四小时打磨博文论点，文章说服力极强
+Swyx shared two noteworthy updates from March 31st. First, he celebrated community organizer Sarah for pulling off what he called "the most impossible developer event" — getting developers at a writers meetup to actually sit down and write.
+*"sarah achieves the most impossible developer events - she got a bunch of developers at a writers meetup to sit together…. … and actually write 🤯"*
+他盛赞社区组织者 Sarah 做到了"最不可能的开发者活动"——让一群开发者在写作聚会上真的坐下来动笔写作，令人惊叹。
 
-When he asked the same model to argue the opposite, it demolished his original argument entirely.
-反手让它驳自己——原论点被秒杀，警惕大模型的讨好倾向
+Second, and more significantly, Swyx flagged a major signal in the AI industry: Microsoft has appointed a Corporate Vice President whose entire job is focused on AI agents.
+*"wow. @Microsoft just appointed a CVP whose entire job is OpenClaw."*
+更值得关注的是，微软任命了一位副总裁，其全部职责就是专注于AI智能体方向——这是大厂对Agent赛道战略级押注的强烈信号。
 
-His takeaway: LLMs are powerful tools for forming your own opinions — but ask them to argue multiple sides and stay alert to sycophancy.
-
-https://x.com/karpathy/status/2037921699824607591
-
----
-
-Swyx
-
-Swyx shared a sharp warning about the trap of false equivalence in strategy and business.
-"虚假对等"害死了他第一家创业公司——把所有事情视为同等重要，是最贵的战略错误
-
-The world runs on power laws: bet on a very small set of things, don't hedge, and double down early when you're more right than expected.
-他的原则：押注极少数事项，不对冲但保留可逆性，一旦发现自己判断对了就果断加倍
-
-https://x.com/swyx/status/2037969691910848941
+🔗 https://x.com/swyx/status/2039075139741241517
+🔗 https://x.com/swyx/status/2039073658552062189
 
 ---
 
-Josh Woodward
+**Garry Tan (@garrytan)**
 
-Gemini new feature: import memory & chats from other chatbots directly into Settings.
-Gemini 新功能！其他 AI 的聊天记录和记忆可以一键导入，用户反馈导入体验出奇顺滑 👏
+Garry Tan delivered a crisp, optimistic take on the democratizing power of AI agents: when you can direct agents to do magic for you, and you have taste and agency, your age simply doesn't matter anymore.
+*"If you can make the agents do magic for you and you have taste and agency, then you could be 16, 20, 30, or 45 or 60 and it doesn't matter"*
+他简洁有力地阐述了AI智能体的平权潜力：只要你能驱使智能体为你"施展魔法"，且具备品味与主动性，年龄就不再是任何壁垒——无论你是16岁还是60岁。
 
-Strong weekend adoption — give it a try this weekend!
-
-https://x.com/joshwoodward/status/2037940551400735224
-
----
-
-Peter Yang
-
-Peter Yang had three notable posts on AI, feeds, and hiring.
-想让 Grok 帮他分析 X 收藏夹——简单但超高价值的个人知识管理场景
-
-AI 劣质内容泛滥，他建议"踩"按钮应对原帖开放，不只是回复
-
-Linear、Ramp 这类高速公司专招前创始人做 PM——是否给顶尖人才真正授权的试金石
-
-https://x.com/petergyang/status/2038058600715935817
+🔗 https://x.com/garrytan/status/2039130252212154720
 
 ---
 
-Amjad Masad
+**Peter Steinberger (@steipete)**
 
-Amjad Masad, CEO of Replit, shared a vision of where AI takes software engineering.
-AI 让人人都能做 App，最顶尖的工程师反而得以去做更深层的事——推动平台本身进化
+Peter had two notable posts. His first — a quote-tweet that gained over 1,200 likes — teased something becoming "more relevant" with a cryptic emoji, hinting at timely commentary on a resurfaced topic in the AI developer space.
+*"this just became more relevant 🙃"*
+他的一条引用推文获得超过1200个点赞，用神秘的表情暗示某件事"变得更加相关了"——引发广泛讨论，颇具玩味。
 
-这就是他 4 年前说的"千倍工程师"的真正含义
+More concretely, he announced that the new CodexBar beta now includes experimental multi-account support for Codex, which is a practical win for developers juggling multiple workspaces.
+*"New CodexBar beta has experimental multi-account support for codex."*
+他还宣布 CodexBar 新测试版加入了对 Codex 的多账号实验性支持，对需要管理多个工作区的开发者来说是一个实用的好消息。
 
-https://x.com/amasad/status/2037951485418344835
-
----
-
-Guillermo Rauch
-
-Guillermo Rauch posted three sharp signals from Vercel's Arizona offsite.
-抛出了 AI 时代新金句："The agent is the computer"（智能体即计算机）
-
-致敬 Sun Microsystems 的"网络即计算机"，宣告 AI 智能体时代到来；还预告了即将发布的文本排版新功能
-
-https://x.com/rauchg/status/2037935190073569326
+🔗 https://x.com/steipete/status/2039043198329528446
+🔗 https://x.com/steipete/status/2039019069257756735
 
 ---
 
-Garry Tan
+**Dan Shipper (@danshipper)**
 
-Garry Tan posted on policy, ambition, and his product GStack.
-加州某市为保护移民关掉监控，结果汽车盗窃案猛增 33%，移民店主自己反而求恢复摄像头
+Dan Shipper had two posts reflecting his compound engineering philosophy. He announced a new compound engineering release — continuing his exploration of AI systems that combine multiple models and components in sophisticated pipelines.
+*"New compound engineering release!"*
+他宣布了新一期的复合工程（compound engineering）发布，延续其将多模型与组件深度结合的AI系统探索方向。
 
-他的金句："反对安全摄像头是一种奢侈的信念"；还号召创业者敢于挑战"煮沸海洋"级别的大问题
+He also shared a characteristically witty take on hiring: he just wants personal assistants who are, in his words, "extremely Claude pilled" — i.e., deeply aligned with and enthusiastic about using Claude/AI.
+*"To be clear, I just want PAs who are extremely Claude pilled"*
+他还幽默表态：他只想要那些"极度Claude信仰者"担任个人助理——言下之意，是对Claude/AI深度认同并热情使用的人才。
 
-https://x.com/garrytan/status/2038054087451885747
-
----
-
-Zara Zhang
-
-Zara Zhang shared two sharp observations about the agent product paradigm.
-好的智能体产品，应该能做到连创造者都没想到的事——这和互联网时代"按设计运行才是好产品"完全不同
-
-她提出新概念："人类上下文窗口是新的墙"——AI 时代真正的瓶颈，已经转移到人类自己的注意力和理解能力上
-
-https://x.com/zarazhangrui/status/2038144755478237654
+🔗 https://x.com/danshipper/status/2038952867030036572
+🔗 https://x.com/danshipper/status/2038947336047468643
 
 ---
 
-Peter Steinberger
+**🎙️ Podcast: Latent Space**
 
-Peter Steinberger announced MCPorter 0.8.0 — his MCP-to-CLI tool.
-MCPorter 0.8.0 发布！更强的 OAuth 支持、更好的错误处理、守护进程更稳——MCP 转 CLI 工具持续进化
+Episode: *The Stove Guy: Sam D'Amico Shows New AI Cooking Features on America's Most Powerful Stove at Impulse*
 
-顺便聊了维护热门开源项目的心态：触达越多用户，批评越是家常便饭，厚脸皮是必修课
+This episode features Sam D'Amico demoing AI-powered cooking features on the Impulse Cooktop — billed as the highest-performance stove on the market. The episode showcases how Claude (Anthropic's AI) is being used to provide real-time cooking guidance, including precise temperature recommendations.
+*"Thank you, Claude, for telling me the temperature. Useful for everything from deciding where air defense sites are in Iran to scallops, apparently."*
+本期节目展示了在"Impulse Cooktop"——号称市场上性能最强的灶具——上运行的AI烹饪功能。Claude被用于实时提供烹饪温度指导，引发了关于AI在日常生活场景中落地应用的趣味讨论。这句玩笑话也戳中了AI能力边界与现实应用之间有趣的反差。
 
-https://x.com/steipete/status/2038074759527981416
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+🔗 https://youtube.com/watch?v=obEWFoLfWD4
