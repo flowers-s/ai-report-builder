@@ -1,79 +1,176 @@
-AI Builders 日报 · 2026-04-01
+AI Builders 日报 · 2026-04-02
+
+AI Builders Digest — 2026-04-02
+AI Builders 日报 · 2026-04-02
 
 ---
 
-Swyx (swyx on X) — affiliated with @dxtipshq, @cognition, @temporalio, @aidotengineer, and @latentspacepod — noticed a stall in Codex growth during March, posting a pointed observation about the trend.
-Swyx（关联 @dxtipshq、@cognition、@temporalio、@aidotengineer 及 @latentspacepod）注意到 Codex 在三月份出现增长停滞，发推表达了对这一趋势的关注与疑问。
+## X / TWITTER
+
+---
+
+### Swyx (swyx on X)
+
+Swyx — AI researcher and developer — noticed something puzzling: OpenAI's Codex appears to have seen zero growth in March.
+Swyx（AI 研究员与开发者）发现了一个令人困惑的现象：OpenAI 的 Codex 在三月份似乎出现了零增长。
+
+*"hmm. what happened? no Codex growth in March?"*
+
 https://x.com/swyx/status/2039222156815716437
 
 ---
 
-OpenAI VP of Science Kevin Weil highlighted that AI is not only solving more open mathematical problems, but doing so with increasingly elegant proofs as models improve.
-OpenAI 科学副总裁 Kevin Weil 指出，AI 不仅正在解决越来越多的开放性数学问题，而且随着模型能力提升，其给出的证明也愈发优雅。
+### Kevin Weil (kevinweil on X) — OpenAI Chief Product Officer
+
+AI is not just solving harder math problems — the proofs themselves are becoming more elegant as models improve.
+AI 不只是在解决更难的数学问题，随着模型持续进步，证明本身也变得越来越优雅。
+
+*"Not only is AI solving more open problems—its proofs are getting more elegant as the models improve"*
+
 https://x.com/kevinweil/status/2039200605672284572
 
 ---
 
-Linear Head of Product Nan Yu shared two pointed observations: first, reaffirming a prior take that "still holds true" on product thinking; second, telling the community to "apologize to DHH" — a nod to a vindicated contrarian stance on software development practices.
-Linear 产品负责人 Nan Yu 发布了两条颇具锋芒的推文：一条是重申此前对产品思维的某个观点"依然成立"；另一条则呼吁大家"向 DHH 道歉"，暗指某个关于软件开发实践的反主流观点已被证明正确。
+### Nan Yu (thenanyu on X) — AI builder
+
+Nan Yu shared two pointed observations this week.
+Nan Yu 本周分享了两个犀利的观察。
+
+First, he signaled that a certain argument or position is "still true" — implying a view he's held that continues to hold up.
+首先，他表示某个论点或立场"依然成立"，暗示他一直坚持的某个观点仍然经得起检验。
+
+Second, he called on the community to apologize to DHH (David Heinemeier Hansson), suggesting that DHH's contrarian stance on some tech topic has been vindicated.
+其次，他呼吁社区向 DHH（David Heinemeier Hansson）道歉，暗示 DHH 对某个技术话题的反主流立场已经得到了印证。
+
 https://x.com/thenanyu/status/2039169970278400157
 https://x.com/thenanyu/status/2039167941225111754
 
 ---
 
-Thariq, who works on Claude Code at Anthropic (prev YC W20, MIT Media Lab), launched a viral moment with a "/buddy" post that garnered over 1,800 likes and 246 replies — suggesting a significant product interaction or feature reveal. He also joked about receiving a "snail" reaction from a colleague.
-Thariq 在 Anthropic 负责 Claude Code（曾入选 YC W20，来自 MIT 媒体实验室），其一条"/buddy"推文迅速走红，获得超过 1,800 个点赞和 246 条回复，疑似涉及某项重要的产品互动或功能亮相。他还调侃自己收到了同事的"蜗牛"表情回应。
-https://x.com/trq212/status/2039201498996035924
+### Thariq (trq212 on X) — AI builder
+
+Thariq's recent posts were light on technical substance — casual social exchanges and a shared link.
+Thariq 最近的帖子技术内容较少，主要是轻松的社交互动和分享链接。
+
+近期无重要动态。
+
 https://x.com/trq212/status/2039201699907469344
+https://x.com/trq212/status/2039201498996035924
 
 ---
 
-Replit CEO Amjad Masad shared two items: one calling out a fresh "psyop" in the AI discourse, and another enthusiastically boosting a community project or demo he found impressive.
-Replit CEO Amjad Masad 发布了两条推文：一条揭示 AI 话语圈中新出现的"心理战"操作，另一条则热情转推了他认为令人印象深刻的社区项目或 demo。
-https://x.com/amasad/status/2039194288777478259
+### Amjad Masad (amasad on X) — Replit CEO
+
+Amjad Masad's posts this cycle were mostly reactions — short expressions of enthusiasm and a cryptic reference to a "new psyop."
+Amjad Masad 本周期的帖子主要是反应性内容——简短的热情表达，以及对一个神秘"新 psyop"的暗示。
+
+近期无重要动态。
+
 https://x.com/amasad/status/2039214420585492863
+https://x.com/amasad/status/2039194288777478259
 
 ---
 
-Box CEO Aaron Levie delivered a sharp enterprise reality check: the real rate limiter on AI agent productivity gains will be security, compliance, governance, and the ability to review agent work against regulations. He pushed back on the "vibe coding" fantasy for enterprises, arguing there's no free lunch — companies must build systems and controls to govern what agents can access and do.
-Box CEO Aaron Levie 发表了一篇犀利的企业现实警示：AI agent 带来生产力提升的真正瓶颈，将是安全、合规、治理，以及对 agent 工作成果的人工审查能力。他直接反驳了企业"随心编码"的幻想，强调没有免费午餐——企业必须构建完善的系统、流程和管控机制，约束 agent 对数据和操作的访问权限。
+### Aaron Levie (levie on X) — Box CEO
+
+Aaron Levie delivered a sharp reality check on AI agent adoption in the enterprise.
+Aaron Levie（Box CEO）对企业中 AI agent 的落地提出了清醒的现实检验。
+
+He argues that security, compliance, governance, and review capabilities will be the ultimate rate limiters on how much productivity gain enterprises can actually realize from AI agents.
+他认为，安全、合规、治理以及审查能力，将成为企业从 AI agent 中实际获得生产力提升的终极限速器。
+
+*"The ultimate rate limiter on productivity gains from agents will be on critical stuff like security, compliance, governance, the ability to review the work of the agent, ensure that it's compatible with regulations, and so on."*
+
+He pushed back on the hype around enterprise "vibe coding," arguing that companies won't blindly absorb every risk that comes with every piece of AI technology.
+他对企业"vibe coding"的热潮提出了质疑，认为企业不会盲目承担每一项 AI 技术所带来的所有风险。
+
+*"We've been living in a little bit of la-la land around how much software enterprises are going to ultimately want to vibe code themselves."*
+
+There's no free lunch with AI productivity — companies need to build the systems, processes, and controls to ensure agents can't run loose on sensitive data.
+AI 生产力没有免费午餐——企业需要建立系统、流程和控制机制，确保 agent 不会在敏感数据上横冲直撞。
+
 https://x.com/levie/status/2039216522028257549
 
 ---
 
-Y Combinator President & CEO Garry Tan was active with several short-form reactions: he noted "many such cases" in response to an emerging trend, quipped "let's boil an ocean" with apparent irony, and shared a link with brief commentary — typical of his rapid-fire engagement style on X.
-Y Combinator 总裁兼 CEO Garry Tan 在 X 上保持了活跃的快速互动风格：他对一个新兴趋势评论"这种情况比比皆是"，用带有反讽意味的"那就来做不可能的事吧"回应某议题，并配上简短评语分享了一则链接。
+### Garry Tan (garrytan on X) — Y Combinator CEO
+
+Garry Tan posted three times but primarily shared links with minimal commentary — brief reactions to content rather than original analysis.
+Garry Tan 发帖三次，但主要是附带简短评论的链接分享，属于对内容的快速反应，而非原创分析。
+
+近期无重要动态。
+
 https://x.com/garrytan/status/2039240608435572881
 https://x.com/garrytan/status/2039237008338595850
 https://x.com/garrytan/status/2039235860143739070
 
 ---
 
-Peter Steinberger (steipete on X), the self-described "Polyagentmorous ClawFather" behind OpenClaw, wryly asked whether AI companies are now "vibing the takedown requests too" — a sardonic comment on AI-generated legal compliance, which drew 300 likes and 28 replies.
-Peter Steinberger（OpenClaw 背后的"Polyagentmorous ClawFather"）辛辣地调侃道，AI 公司是否连下架请求也开始"随心生成"了——一句讽刺 AI 驱动法律合规的评论，引发了 300 个点赞和 28 条回复。
+### Peter Steinberger (steipete on X) — PSPDFKit / Apryse founder
+
+Peter Steinberger took a sardonic swipe at AI-assisted legal processes, questioning whether takedown requests themselves are being "vibed" — i.e., generated by AI.
+Peter Steinberger（PSPDFKit / Apryse 创始人）对 AI 辅助法律流程发出了讽刺性的质疑，暗示连下架请求本身都可能是由 AI"vibe"生成的。
+
+*"are they vibing the takedown requests too?"*
+
 https://x.com/steipete/status/2039156882041123035
 
 ---
 
-Every CEO Dan Shipper recommended trying "Proof," a tool or product he clearly believes in, sharing a link with genuine enthusiasm and encouraging his followers to check it out.
-Every CEO Dan Shipper 热情推荐了一款名为"Proof"的产品或工具，附上链接并真诚鼓励关注者尝试使用。
+### Dan Shipper (danshipper on X) — Every.to CEO
+
+Dan Shipper gave a personal endorsement to Proof, an AI tool he's been trying.
+Dan Shipper（Every.to CEO）对他正在试用的 AI 工具 Proof 给予了亲身推荐。
+
+*"if you haven't tried proof, you should!"*
+
 https://x.com/danshipper/status/2039149696166318320
 
 ---
 
-South Park Commons General Partner and former Dropbox CTO Aditya Agarwal posed a provocative analogy: just as early Facebook's "fix bugs in production" philosophy once seemed reckless, maybe the modern equivalent is simply making source code public. In an era of hyper-dynamic software, he wonders aloud whether open source isn't just pragmatic — or whether the idea is "totally batshit crazy."
-South Park Commons 普通合伙人、前 Dropbox CTO Aditya Agarwal 抛出了一个颇具挑衅性的类比：早期 Facebook"在生产环境修 bug"的做法曾被视为疯狂，而今天的等价物或许就是直接将源代码公开。在软件高度动态演进的时代，他自问：开放源码究竟是务实之举，还是"彻底的疯话"？
+### Aditya Agarwal (adityaag on X) — former CTO of Dropbox
+
+Aditya Agarwal drew a provocative parallel between early Facebook's "fix bugs in production" philosophy and the idea of making source code fully public in an AI-driven world.
+Aditya Agarwal（前 Dropbox CTO）在早期 Facebook "在生产环境修 bug"的理念与 AI 时代完全公开源代码的想法之间，画出了一个发人深省的类比。
+
+He asks: if software is now so dynamic and AI-generated, maybe open-sourcing everything isn't so crazy after all — or maybe it is.
+他追问：如果软件现在如此动态、如此依赖 AI 生成，也许把一切都开源也没那么疯狂——或者也许确实疯狂透顶。
+
+*"Looking back, early Facebook's philosophy of 'fixing bugs in production' sounded crazy to most people. Maybe the modern version of that is, just let your source code be public."*
+
 https://x.com/adityaag/status/2039198010681565665
 
 ---
 
-🎙️ Podcast: Data Driven NYC — "Can One Person Build a Billion-Dollar Startup? — The General Intelligence Company of New York"
+## PODCASTS
 
-Andrew, CEO of General Intelligence (founded in New York ~1 year ago), presented a bold vision: enabling the one-person billion-dollar company by building AI-powered organizational infrastructure. His first product, Co-Founder, helped over 8,000 startups automate operations using a state-of-the-art memory-enabled agent. Now he's launching Co-Founder CTO — described as the first fully autonomous engineering department in the cloud. It uses Claude for coding, Browserbase for browser testing, and Vercel for preview deployments, with a manager agent orchestrating the full feature lifecycle: write code, spin up a PR, deploy to preview, run browser tests, merge if successful, and monitor infrastructure. The team reports 25 PRs per engineer per day and sometimes spends more on AI tokens than salaries. The roadmap extends to autonomous customer support and a full CRO/sales stack by summer.
+---
 
-Andrew 是 General Intelligence（约一年前在纽约创立）的 CEO，他在演讲中提出了一个大胆愿景：通过构建 AI 驱动的组织基础设施，实现"一人独立运营十亿美元公司"。其首款产品 Co-Founder 已帮助超过 8,000 家初创公司自动化运营，具备先进的记忆能力。现在他们推出了 Co-Founder CTO——号称首个完全自主的云端工程部门。该系统以 Claude 负责代码生成，Browserbase 负责浏览器测试，Vercel 负责预览部署，由管理 agent 全程协调功能开发生命周期：写代码、创建 PR、部署到预览环境、运行浏览器测试、通过后自动合并，并持续监控基础设施。团队目前每位工程师每天平均合并 25 个 PR，某些时候 AI token 的花费甚至超过了人力薪资。未来半年的路线图还包括自主客户支持和完整的 CRO/销售自动化栈。
+### Data Driven NYC: "Can One Person Build a Billion-Dollar Startup?"
+### Data Driven NYC：《一个人能建立十亿美元的初创公司吗？》
 
 https://youtube.com/watch?v=rX3CxlGm-00
+
+Andrew, co-founder of the General Intelligence Company (New York), argues that AI agents are about to make the one-person billion-dollar company a reality.
+Andrew 是 General Intelligence Company（纽约）的联合创始人，他认为 AI agent 即将让"单人十亿美元公司"成为现实。
+
+The company's mission is to build organizations that run themselves with AI — focusing specifically on the manager agent layer that coordinates specialized vertical agents below it.
+该公司的使命是用 AI 构建自我运转的组织，专注于协调底层各类垂直 agent 的管理者 agent 层。
+
+Their first product, Co-founder, was an AI assistant for cloud-based computer automation with state-of-the-art memory — over 8,000 startups used it to automate operations.
+他们的第一款产品 Co-founder 是一款具备最先进 memory 能力的云端计算机自动化 AI 助手，超过 8,000 家初创公司用它来自动化运营。
+
+But an assistant is not a company: the team realized they needed to go further and model the full lifecycle of a product-based company — create, sell, support, operate.
+但助手不等于公司：团队意识到需要走得更远，对产品型公司的完整生命周期建模——创建、销售、支持、运营。
+
+Their new product, Co-founder CTO, is a fully autonomous engineering department in the cloud: it builds features, tests them with browser agents, deploys them (e.g. via Vercel), and manages infrastructure — all autonomously.
+他们的新产品 Co-founder CTO 是一个完全自主的云端工程部门：它构建功能、用 browser agent 测试、部署（例如通过 Vercel），并自主管理基础设施。
+
+The UI intentionally resembles a strategy game (think Starcraft or Civilization) — agents are like units you dispatch, and a manager agent coordinates the whole operation.
+UI 有意设计成策略游戏风格（类似 Starcraft 或 Civilization）——agent 就像你派遣的单位，而管理者 agent 协调整个操作。
+
+The vision scales upward: one manager agent over another, building toward a "super optimization" layer where an AI-run company can genuinely operate with minimal human input.
+愿景向上延伸：一个管理者 agent 统领另一个，构建"超级优化"层，让 AI 运营的公司真正能以极少的人工介入运转。
 
 ---
 
