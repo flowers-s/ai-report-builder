@@ -1,176 +1,286 @@
-AI Builders 日报 · 2026-04-02
+AI Builders 日报 · 2026-04-03
 
-AI Builders Digest — 2026-04-02
-AI Builders 日报 · 2026-04-02
+---
+
+## OFFICIAL BLOGS 官方博客
+
+### Anthropic Engineering
+
+**Quantifying infrastructure noise in agentic coding evals**
+Agentic coding benchmarks like SWE-bench and Terminal-Bench are commonly used to compare frontier model capabilities—but infrastructure configuration alone can swing scores by 6 percentage points.
+智能编程基准测试（如 SWE-bench 和 Terminal-Bench）常用于比较前沿模型能力——但仅基础设施配置差异就能造成 6 个百分点的分数浮动。
+
+In internal experiments on Terminal-Bench 2.0, Anthropic found that tighter container resource limits caused more pod crashes, inflating failure rates by up to 5.8%.
+Anthropic 在 Terminal-Bench 2.0 的内部实验中发现，更严格的容器资源限制导致更多 Pod 崩溃，故障率最高可达 5.8%。
+
+The key insight: a single pinned resource spec sets the guaranteed allocation equal to the hard kill threshold, leaving zero headroom for transient spikes.
+关键发现：单一固定资源配置会让保证分配量等于强制终止阈值，不留任何应对瞬时峰值的余量。
+
+They recommend specifying both a guaranteed floor and a separate hard ceiling per task—calibrated so scores at floor and ceiling fall within noise of each other.
+他们建议为每个任务分别设定保证下限和独立的硬性上限——并校准确保两者分数差异在噪声范围内。
+
+Takeaway for benchmark consumers: leaderboard differences below 3 percentage points deserve skepticism until eval configuration is fully documented.
+对基准测试使用者的建议：在评测配置完整记录之前，3 个百分点以内的排行榜差异应持怀疑态度。
+
+🔗 https://www.anthropic.com/engineering/infrastructure-noise
+
+---
+
+**Harness design for long-running application development**
+Anthropic Engineering published a deep-dive into harness design for agentic coding tasks that run for extended periods—addressing how scaffolding impacts reliability and reproducibility.
+Anthropic Engineering 发布了一篇深度文章，探讨长时间运行的智能编程任务的测试框架设计——重点讨论脚手架如何影响可靠性和可重现性。
+
+Long-running agentic tasks introduce unique challenges: the model may need to install dependencies, spawn subprocesses, iterate over many turns, and manage resource constraints throughout.
+长时间运行的智能任务带来独特挑战：模型可能需要安装依赖项、派生子进程、进行多轮迭代，并全程管理资源约束。
+
+The piece covers harness architecture patterns that minimize infrastructure-induced noise and enable fair, reproducible comparisons across models.
+文章介绍了能最小化基础设施噪声、实现公平可重现的跨模型对比的框架架构模式。
+
+🔗 https://www.anthropic.com/engineering/harness-design-long-running-apps
+
+---
+
+### Claude Blog
+
+**Claude now creates interactive charts, diagrams and visualizations**
+Claude can now generate interactive charts, diagrams, and data visualizations directly in the chat interface—no code required.
+Claude 现在可以直接在聊天界面生成交互式图表、示意图和数据可视化——无需编写代码。
+
+Users can ask Claude to visualize data, create flowcharts, or build diagrams, and Claude will render them as live, interactive artifacts.
+用户可以要求 Claude 可视化数据、创建流程图或构建示意图，Claude 会将其渲染为实时交互式成果物。
+
+🔗 https://claude.com/blog/claude-builds-visuals
+
+---
+
+**How enterprises are building AI agents in 2026**
+Anthropic surveyed enterprise customers to understand how organizations are deploying AI agents in production in 2026.
+Anthropic 对企业客户进行了调查，了解 2026 年各组织如何在生产环境中部署 AI 智能体。
+
+Key findings: multi-agent orchestration, tool use, and human-in-the-loop workflows are now standard; the biggest challenges remain reliability and evaluation at scale.
+主要发现：多智能体编排、工具调用和人在回路工作流现已成为标配；最大挑战仍是大规模的可靠性和评测。
+
+🔗 https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
+
+---
+
+**Improving frontend design through Skills**
+Claude's Skills system can be extended to improve UI/frontend design work—combining vision capabilities with coding to produce better, more polished interfaces.
+Claude 的 Skills 系统可以扩展用于改进 UI/前端设计工作——结合视觉能力和编码能力，产出更精良的界面。
+
+The post walks through concrete workflows where Claude critiques designs, suggests improvements, and iterates on visual output.
+文章详细介绍了 Claude 评估设计方案、提出改进建议并对视觉输出进行迭代的具体工作流。
+
+🔗 https://claude.com/blog/improving-frontend-design-through-skills
 
 ---
 
 ## X / TWITTER
 
----
+### Swyx (swyx on X) — AI Engineer, Latent Space, Cognition/Temporal
 
-### Swyx (swyx on X)
+Swyx quoted a timeless Kennedy line on ambition and challenge, which resonated widely with the AI builder community as a rallying call.
+Swyx 引用了肯尼迪那句关于雄心与挑战的经典名言，在 AI 构建者社区引发广泛共鸣，成为一声集结号。
 
-Swyx — AI researcher and developer — noticed something puzzling: OpenAI's Codex appears to have seen zero growth in March.
-Swyx（AI 研究员与开发者）发现了一个令人困惑的现象：OpenAI 的 Codex 在三月份似乎出现了零增长。
+*"We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard."*
+*"我们选择在这个十年登上月球并做其他事情，不是因为它们容易，而是因为它们困难。"*
 
-*"hmm. what happened? no Codex growth in March?"*
+He also flagged an upcoming AI Engineer event worth bookmarking for next week.
+他还提醒大家将一个下周即将举行的 AI Engineer 活动加入书签。
 
-https://x.com/swyx/status/2039222156815716437
-
----
-
-### Kevin Weil (kevinweil on X) — OpenAI Chief Product Officer
-
-AI is not just solving harder math problems — the proofs themselves are becoming more elegant as models improve.
-AI 不只是在解决更难的数学问题，随着模型持续进步，证明本身也变得越来越优雅。
-
-*"Not only is AI solving more open problems—its proofs are getting more elegant as the models improve"*
-
-https://x.com/kevinweil/status/2039200605672284572
+🔗 https://x.com/swyx/status/2039472186600427903
+🔗 https://x.com/swyx/status/2039597048585167265
 
 ---
 
-### Nan Yu (thenanyu on X) — AI builder
+### Peter Yang (petergyang on X) — Product at Roblox, AI Newsletter Author
 
-Nan Yu shared two pointed observations this week.
-Nan Yu 本周分享了两个犀利的观察。
+Peter Yang voiced concern about how the combination of mobile devices and short-form video is affecting younger generations.
+Peter Yang 对移动设备与短视频组合对年轻一代的影响表达了担忧。
 
-First, he signaled that a certain argument or position is "still true" — implying a view he's held that continues to hold up.
-首先，他表示某个论点或立场"依然成立"，暗示他一直坚持的某个观点仍然经得起检验。
+*"I think the combination of mobile and short video has rotted the brains of an entire generation of kids."*
+*"我认为移动设备与短视频的结合，正在侵蚀整整一代孩子的大脑。"*
 
-Second, he called on the community to apologize to DHH (David Heinemeier Hansson), suggesting that DHH's contrarian stance on some tech topic has been vindicated.
-其次，他呼吁社区向 DHH（David Heinemeier Hansson）道歉，暗示 DHH 对某个技术话题的反主流立场已经得到了印证。
+He shared a candid moment preparing for Disneyland Shanghai—a brief human glimpse from a usually AI-focused feed.
+他还分享了前往上海迪士尼乐园的温馨时刻——在通常以 AI 为主的动态中难得一见的生活片段。
 
-https://x.com/thenanyu/status/2039169970278400157
-https://x.com/thenanyu/status/2039167941225111754
-
----
-
-### Thariq (trq212 on X) — AI builder
-
-Thariq's recent posts were light on technical substance — casual social exchanges and a shared link.
-Thariq 最近的帖子技术内容较少，主要是轻松的社交互动和分享链接。
-
-近期无重要动态。
-
-https://x.com/trq212/status/2039201699907469344
-https://x.com/trq212/status/2039201498996035924
+🔗 https://x.com/petergyang/status/2039563521885901091
+🔗 https://x.com/petergyang/status/2039463035992191283
 
 ---
 
-### Amjad Masad (amasad on X) — Replit CEO
+### Nan Yu (thenanyu on X) — Head of Product at Linear
 
-Amjad Masad's posts this cycle were mostly reactions — short expressions of enthusiasm and a cryptic reference to a "new psyop."
-Amjad Masad 本周期的帖子主要是反应性内容——简短的热情表达，以及对一个神秘"新 psyop"的暗示。
+Nan Yu highlighted a compelling use case for AI agents in product work: using Linear Agent to read source code and answer questions about default app settings—no engineering handoff required.
+Nan Yu 重点介绍了 AI 智能体在产品工作中的一个引人注目的用例：使用 Linear Agent 读取源代码并回答应用默认设置相关问题——无需工程师介入。
 
-近期无重要动态。
+*"You never need to ask an engineer again for this kind of thing, because Linear Agent can just read the code and tell you."*
+*"你再也不需要为这类问题去打扰工程师了，因为 Linear Agent 可以直接读取代码告诉你答案。"*
 
-https://x.com/amasad/status/2039214420585492863
-https://x.com/amasad/status/2039194288777478259
+This reflects Linear's broader thesis: agents are becoming first-class users of the same tools humans use.
+这体现了 Linear 更宏观的理念：智能体正在成为与人类使用相同工具的一等用户。
 
----
-
-### Aaron Levie (levie on X) — Box CEO
-
-Aaron Levie delivered a sharp reality check on AI agent adoption in the enterprise.
-Aaron Levie（Box CEO）对企业中 AI agent 的落地提出了清醒的现实检验。
-
-He argues that security, compliance, governance, and review capabilities will be the ultimate rate limiters on how much productivity gain enterprises can actually realize from AI agents.
-他认为，安全、合规、治理以及审查能力，将成为企业从 AI agent 中实际获得生产力提升的终极限速器。
-
-*"The ultimate rate limiter on productivity gains from agents will be on critical stuff like security, compliance, governance, the ability to review the work of the agent, ensure that it's compatible with regulations, and so on."*
-
-He pushed back on the hype around enterprise "vibe coding," arguing that companies won't blindly absorb every risk that comes with every piece of AI technology.
-他对企业"vibe coding"的热潮提出了质疑，认为企业不会盲目承担每一项 AI 技术所带来的所有风险。
-
-*"We've been living in a little bit of la-la land around how much software enterprises are going to ultimately want to vibe code themselves."*
-
-There's no free lunch with AI productivity — companies need to build the systems, processes, and controls to ensure agents can't run loose on sensitive data.
-AI 生产力没有免费午餐——企业需要建立系统、流程和控制机制，确保 agent 不会在敏感数据上横冲直撞。
-
-https://x.com/levie/status/2039216522028257549
+🔗 https://x.com/thenanyu/status/2039490349941526770
 
 ---
 
-### Garry Tan (garrytan on X) — Y Combinator CEO
+### Cat Wu (_catwu on X) — Claude Code + Cowork at Anthropic
 
-Garry Tan posted three times but primarily shared links with minimal commentary — brief reactions to content rather than original analysis.
-Garry Tan 发帖三次，但主要是附带简短评论的链接分享，属于对内容的快速反应，而非原创分析。
+Cat Wu showcased a key Claude Code workflow: firing off ideas from the Claude mobile app and seamlessly teleporting the session back to your local CLI on laptop.
+Cat Wu 展示了 Claude Code 的核心工作流：在 Claude 移动端发起想法，然后无缝将会话"传送"回笔记本电脑的本地 CLI。
 
-近期无重要动态。
+*"I love using Claude Code on Claude mobile app to fire off ideas on the go, then pick them up on my laptop later."*
+*"我喜欢用 Claude 移动端随时随地触发创意，然后再在笔记本上继续推进。"*
 
-https://x.com/garrytan/status/2039240608435572881
-https://x.com/garrytan/status/2039237008338595850
-https://x.com/garrytan/status/2039235860143739070
+The feature bridges mobile spontaneity with desktop-level development depth.
+该功能将移动端的即兴创意与桌面级开发深度连接起来。
 
----
-
-### Peter Steinberger (steipete on X) — PSPDFKit / Apryse founder
-
-Peter Steinberger took a sardonic swipe at AI-assisted legal processes, questioning whether takedown requests themselves are being "vibed" — i.e., generated by AI.
-Peter Steinberger（PSPDFKit / Apryse 创始人）对 AI 辅助法律流程发出了讽刺性的质疑，暗示连下架请求本身都可能是由 AI"vibe"生成的。
-
-*"are they vibing the takedown requests too?"*
-
-https://x.com/steipete/status/2039156882041123035
+🔗 https://x.com/_catwu/status/2039421527935033854
 
 ---
 
-### Dan Shipper (danshipper on X) — Every.to CEO
+### Thariq (trq212 on X) — Claude Code at Anthropic
 
-Dan Shipper gave a personal endorsement to Proof, an AI tool he's been trying.
-Dan Shipper（Every.to CEO）对他正在试用的 AI 工具 Proof 给予了亲身推荐。
+Thariq announced a significant Claude Code renderer overhaul: a new virtual viewport that lets you use your mouse, keeps the prompt input pinned at the bottom, and brings a host of long-requested UX improvements.
+Thariq 宣布了 Claude Code 渲染器的重大更新：全新虚拟视口支持鼠标操作，提示输入框固定在底部，并带来大量用户期待已久的 UX 改进。
 
-*"if you haven't tried proof, you should!"*
+*"not an April Fools joke, we rewrote the Claude Code renderer to use a virtual viewport"*
+*"这不是愚人节玩笑，我们重写了 Claude Code 渲染器，采用了虚拟视口"*
 
-https://x.com/danshipper/status/2039149696166318320
+The update is experimental and the team is actively collecting user feedback.
+该更新目前为实验性功能，团队正在积极收集用户反馈。
+
+🔗 https://x.com/trq212/status/2039453692592873587
 
 ---
 
-### Aditya Agarwal (adityaag on X) — former CTO of Dropbox
+### Amjad Masad (amasad on X) — CEO at Replit
 
-Aditya Agarwal drew a provocative parallel between early Facebook's "fix bugs in production" philosophy and the idea of making source code fully public in an AI-driven world.
-Aditya Agarwal（前 Dropbox CTO）在早期 Facebook "在生产环境修 bug"的理念与 AI 时代完全公开源代码的想法之间，画出了一个发人深省的类比。
+Amjad Masad shared two notable signals: first, that we're in an unprecedented era of rapid wealth creation driven by AI; second, that Replit Agent 4 has transformed Replit into a customizable OS-like platform via skills.
+Amjad Masad 分享了两个重要信号：一是我们正处于 AI 驱动的史无前例的财富快速创造时代；二是 Replit Agent 4 已将 Replit 通过技能体系改造成一个可定制的类操作系统平台。
 
-He asks: if software is now so dynamic and AI-generated, maybe open-sourcing everything isn't so crazy after all — or maybe it is.
-他追问：如果软件现在如此动态、如此依赖 AI 生成，也许把一切都开源也没那么疯狂——或者也许确实疯狂透顶。
+*"Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills."*
+*"Agent 4 将 Replit 变成了某种操作系统。你可以用技能无限定制这个平台。"*
 
-*"Looking back, early Facebook's philosophy of 'fixing bugs in production' sounded crazy to most people. Maybe the modern version of that is, just let your source code be public."*
+🔗 https://x.com/amasad/status/2039552681493336250
+🔗 https://x.com/amasad/status/2039429759344730549
 
-https://x.com/adityaag/status/2039198010681565665
+---
+
+### Guillermo Rauch (rauchg on X) — CEO at Vercel
+
+Guillermo Rauch dropped a striking growth metric: Vercel signups are now growing at 52% month-over-month, up from 23%, up from 17%.
+Guillermo Rauch 公布了一个亮眼的增长数据：Vercel 注册量现在以每月 52% 的速度增长，此前为 23%，再之前为 17%。
+
+The acceleration reflects the AI-driven boom in web development and deployment tooling.
+这一加速增长反映了 AI 驱动的 Web 开发和部署工具需求爆发式增长。
+
+🔗 https://x.com/rauchg/status/2039493013043626427
+
+---
+
+### Aaron Levie (levie on X) — CEO at Box
+
+Aaron Levie teased an upcoming Box product announcement on April 1st, admitting his team might not be thrilled about the early reveal.
+Aaron Levie 在 4 月 1 日预告了一项即将发布的 Box 新产品，坦言团队可能对他提前透露并不十分高兴。
+
+*"My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon."*
+*"我的团队可能会因为我分享这个而想杀了我，但今天是 4 月 1 日，为什么不呢。即将到来。"*
+
+🔗 https://x.com/levie/status/2039414479084278239
+
+---
+
+### Garry Tan (garrytan on X) — President & CEO at Y Combinator
+
+Garry Tan endorsed local models as a very positive development for the AI ecosystem, signaling YC's continued support for open/local AI infrastructure.
+Garry Tan 为本地模型点赞，认为这对 AI 生态系统是一个非常积极的发展，表明 YC 持续支持开放/本地 AI 基础设施。
+
+*"Local models are a very very good thing."*
+*"本地模型是非常非常好的事情。"*
+
+🔗 https://x.com/garrytan/status/2039568811440128137
+
+---
+
+### Zara Zhang (zarazhangrui on X) — Builder, GitHub: zarazhangrui
+
+Zara Zhang had an aha moment with OpenClaw: replacing her to-do list with brain-dumping tasks directly to her AI agent.
+Zara Zhang 在使用 OpenClaw 时获得了顿悟：将待办事项清单替换为直接向 AI 智能体"脑力倾倒"任务。
+
+*"Not only will it record those tasks, but it will actually DO those tasks. Every morning it sends me a report of what tasks are already done, and highlights the ones that need my attention."*
+*"它不仅会记录这些任务，还会真正去执行它们。每天早上它都会向我发送已完成任务的报告，并重点标出需要我关注的任务。"*
+
+She also announced and promoted the "Follow Builders" skill—a curated feed of 25 top AI builder accounts on X, now widely used with 2k+ GitHub stars.
+她还发布并推广了"Follow Builders"技能——一个精心策划的 25 个顶级 AI 构建者 X 账号精选订阅源，目前已在 GitHub 获得 2000+ star。
+
+*"Introducing the 'Follow builders' skill: the best way to stay on top of the insane happenings in AI"*
+*"推出'关注构建者'技能：掌握 AI 领域疯狂进展的最佳方式"*
+
+🔗 https://x.com/zarazhangrui/status/2039599038358814961
+🔗 https://x.com/zarazhangrui/status/2039368866741277074
+
+---
+
+### Peter Steinberger (steipete on X) — ClawFather at OpenClaw
+
+Peter Steinberger took a strong stance on coding agent UX: he never uses plan mode, arguing it was added primarily for users habituated to other tools, not as the optimal workflow.
+Peter Steinberger 对编程智能体 UX 表达了鲜明观点：他从不使用 Plan 模式，认为该功能主要是为其他工具的习惯用户添加的，并非最优工作流。
+
+*"I never use plan mode. The main reason this was added to codex is for claude-pilled people who struggle with changing their habits. just talk with your agent."*
+*"我从不使用 plan 模式。它被加入 Codex 的主要原因是为那些难以改变习惯的 Claude 用户服务。直接和你的智能体对话就好。"*
+
+This sparked significant discussion (1726 likes, 225 replies), highlighting ongoing debates about how humans should best collaborate with coding agents.
+此帖引发了大量讨论（1726 点赞，225 回复），凸显了关于人类如何与编程智能体最佳协作的持续争论。
+
+🔗 https://x.com/steipete/status/2039551079621566812
+
+---
+
+### Dan Shipper (danshipper on X) — CEO at Every
+
+Dan Shipper published an in-depth interview with Linear's cofounder and CEO Karri Saarinen about how Linear evolved into an agent-native SaaS product.
+Dan Shipper 发布了一篇与 Linear 联合创始人兼 CEO Karri Saarinen 的深度对话，探讨 Linear 如何演变为一款智能体原生 SaaS 产品。
+
+Key themes: speed means decisions matter more, not less; don't lose sight of your mission amid AI hype; and agents are now first-class users of Linear alongside human engineers.
+核心主题：速度让决策更加重要而非更不重要；不要在 AI 热潮中迷失使命；智能体现在与人类工程师一起成为 Linear 的一等用户。
+
+*"SaaS isn't dead, it just needs to become agent-native."*
+*"SaaS 并未消亡，它只需要变得智能体原生。"*
+
+Companies like Codex, Coinbase, and Brex now run their agents on Linear—a concrete signal that the bet on agent-native tooling is paying off.
+Codex、Coinbase 和 Brex 等公司现在都在 Linear 上运行他们的智能体——这是押注智能体原生工具正在获得回报的具体信号。
+
+🔗 https://x.com/danshipper/status/2039357127903350960
 
 ---
 
 ## PODCASTS
 
----
+### Latent Space — "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample"
 
-### Data Driven NYC: "Can One Person Build a Billion-Dollar Startup?"
-### Data Driven NYC：《一个人能建立十亿美元的初创公司吗？》
+Mistral released Voxtral TTS, their first text-to-speech audio model—a 3B-parameter model built on the Ministral backbone with a novel auto-regressive flow-matching architecture.
+Mistral 发布了 Voxtral TTS，这是他们的首个文字转语音音频模型——一个基于 Ministral 主干、采用新颖自回归流匹配架构的 30 亿参数模型。
 
-https://youtube.com/watch?v=rX3CxlGm-00
+The model uses an in-house neural audio codec that converts audio into 12.5 Hz latent tokens (semantic + acoustic), enabling high quality at a fraction of the cost of competitors.
+该模型使用内部自研的神经音频编解码器，将音频转换为 12.5 Hz 潜在令牌（语义 + 声学），以远低于竞争对手的成本实现高质量输出。
 
-Andrew, co-founder of the General Intelligence Company (New York), argues that AI agents are about to make the one-person billion-dollar company a reality.
-Andrew 是 General Intelligence Company（纽约）的联合创始人，他认为 AI agent 即将让"单人十亿美元公司"成为现实。
+Unlike depth-transformer approaches that require K autoregressive steps per frame, Voxtral's flow-matching head cuts inference down to 4–16 steps—crucial for real-time voice agents.
+与每帧需要 K 个自回归步骤的深度变换器方法不同，Voxtral 的流匹配头将推理步骤减少到 4-16 步——这对实时语音智能体至关重要。
 
-The company's mission is to build organizations that run themselves with AI — focusing specifically on the manager agent layer that coordinates specialized vertical agents below it.
-该公司的使命是用 AI 构建自我运转的组织，专注于协调底层各类垂直 agent 的管理者 agent 层。
+Guillaume Lample explained Mistral's broader Forge platform: helping enterprises fine-tune models on their proprietary data using the same battle-tested training infrastructure Mistral uses internally.
+Guillaume Lample 阐述了 Mistral 更广泛的 Forge 平台：帮助企业使用 Mistral 内部使用的久经考验的训练基础设施，基于其专有数据微调模型。
 
-Their first product, Co-founder, was an AI assistant for cloud-based computer automation with state-of-the-art memory — over 8,000 startups used it to automate operations.
-他们的第一款产品 Co-founder 是一款具备最先进 memory 能力的云端计算机自动化 AI 助手，超过 8,000 家初创公司用它来自动化运营。
+*"When customers use this off-the-shelf closed model, what's very sad is that they are not leveraging the data they have been collecting for years or sometimes decades."*
+*"当客户使用现成的闭源模型时，非常遗憾的是，他们并没有利用多年甚至几十年积累的数据。"*
 
-But an assistant is not a company: the team realized they needed to go further and model the full lifecycle of a product-based company — create, sell, support, operate.
-但助手不等于公司：团队意识到需要走得更远，对产品型公司的完整生命周期建模——创建、销售、支持、运营。
+Leanstral was also discussed: Mistral's formal math proving project using the Lean proof assistant, positioned as a testbed for long-horizon reasoning research and software verification.
+还讨论了 Leanstral：Mistral 使用 Lean 证明助手的形式化数学证明项目，定位为长程推理研究和软件验证的测试平台。
 
-Their new product, Co-founder CTO, is a fully autonomous engineering department in the cloud: it builds features, tests them with browser agents, deploys them (e.g. via Vercel), and manages infrastructure — all autonomously.
-他们的新产品 Co-founder CTO 是一个完全自主的云端工程部门：它构建功能、用 browser agent 测试、部署（例如通过 Vercel），并自主管理基础设施。
+The team previewed Mistral 4, described as a major step in pre-training that merges capabilities from separate specialized models (coding, reasoning, vision, audio) into one unified mixture-of-experts architecture.
+团队预告了 Mistral 4，被描述为预训练的重大飞跃，将独立专业模型（编程、推理、视觉、音频）的能力整合到一个统一的专家混合架构中。
 
-The UI intentionally resembles a strategy game (think Starcraft or Civilization) — agents are like units you dispatch, and a manager agent coordinates the whole operation.
-UI 有意设计成策略游戏风格（类似 Starcraft 或 Civilization）——agent 就像你派遣的单位，而管理者 agent 协调整个操作。
-
-The vision scales upward: one manager agent over another, building toward a "super optimization" layer where an AI-run company can genuinely operate with minimal human input.
-愿景向上延伸：一个管理者 agent 统领另一个，构建"超级优化"层，让 AI 运营的公司真正能以极少的人工介入运转。
+🔗 https://youtube.com/watch?v=SUjA25ijcNs
 
 ---
 
