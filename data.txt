@@ -1,286 +1,245 @@
-AI Builders 日报 · 2026-04-03
+AI Builders 日报 · 2026-04-04
 
----
-
-## OFFICIAL BLOGS 官方博客
-
-### Anthropic Engineering
-
-**Quantifying infrastructure noise in agentic coding evals**
-Agentic coding benchmarks like SWE-bench and Terminal-Bench are commonly used to compare frontier model capabilities—but infrastructure configuration alone can swing scores by 6 percentage points.
-智能编程基准测试（如 SWE-bench 和 Terminal-Bench）常用于比较前沿模型能力——但仅基础设施配置差异就能造成 6 个百分点的分数浮动。
-
-In internal experiments on Terminal-Bench 2.0, Anthropic found that tighter container resource limits caused more pod crashes, inflating failure rates by up to 5.8%.
-Anthropic 在 Terminal-Bench 2.0 的内部实验中发现，更严格的容器资源限制导致更多 Pod 崩溃，故障率最高可达 5.8%。
-
-The key insight: a single pinned resource spec sets the guaranteed allocation equal to the hard kill threshold, leaving zero headroom for transient spikes.
-关键发现：单一固定资源配置会让保证分配量等于强制终止阈值，不留任何应对瞬时峰值的余量。
-
-They recommend specifying both a guaranteed floor and a separate hard ceiling per task—calibrated so scores at floor and ceiling fall within noise of each other.
-他们建议为每个任务分别设定保证下限和独立的硬性上限——并校准确保两者分数差异在噪声范围内。
-
-Takeaway for benchmark consumers: leaderboard differences below 3 percentage points deserve skepticism until eval configuration is fully documented.
-对基准测试使用者的建议：在评测配置完整记录之前，3 个百分点以内的排行榜差异应持怀疑态度。
-
-🔗 https://www.anthropic.com/engineering/infrastructure-noise
-
----
-
-**Harness design for long-running application development**
-Anthropic Engineering published a deep-dive into harness design for agentic coding tasks that run for extended periods—addressing how scaffolding impacts reliability and reproducibility.
-Anthropic Engineering 发布了一篇深度文章，探讨长时间运行的智能编程任务的测试框架设计——重点讨论脚手架如何影响可靠性和可重现性。
-
-Long-running agentic tasks introduce unique challenges: the model may need to install dependencies, spawn subprocesses, iterate over many turns, and manage resource constraints throughout.
-长时间运行的智能任务带来独特挑战：模型可能需要安装依赖项、派生子进程、进行多轮迭代，并全程管理资源约束。
-
-The piece covers harness architecture patterns that minimize infrastructure-induced noise and enable fair, reproducible comparisons across models.
-文章介绍了能最小化基础设施噪声、实现公平可重现的跨模型对比的框架架构模式。
-
-🔗 https://www.anthropic.com/engineering/harness-design-long-running-apps
-
----
-
-### Claude Blog
-
-**Claude now creates interactive charts, diagrams and visualizations**
-Claude can now generate interactive charts, diagrams, and data visualizations directly in the chat interface—no code required.
-Claude 现在可以直接在聊天界面生成交互式图表、示意图和数据可视化——无需编写代码。
-
-Users can ask Claude to visualize data, create flowcharts, or build diagrams, and Claude will render them as live, interactive artifacts.
-用户可以要求 Claude 可视化数据、创建流程图或构建示意图，Claude 会将其渲染为实时交互式成果物。
-
-🔗 https://claude.com/blog/claude-builds-visuals
-
----
-
-**How enterprises are building AI agents in 2026**
-Anthropic surveyed enterprise customers to understand how organizations are deploying AI agents in production in 2026.
-Anthropic 对企业客户进行了调查，了解 2026 年各组织如何在生产环境中部署 AI 智能体。
-
-Key findings: multi-agent orchestration, tool use, and human-in-the-loop workflows are now standard; the biggest challenges remain reliability and evaluation at scale.
-主要发现：多智能体编排、工具调用和人在回路工作流现已成为标配；最大挑战仍是大规模的可靠性和评测。
-
-🔗 https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026
-
----
-
-**Improving frontend design through Skills**
-Claude's Skills system can be extended to improve UI/frontend design work—combining vision capabilities with coding to produce better, more polished interfaces.
-Claude 的 Skills 系统可以扩展用于改进 UI/前端设计工作——结合视觉能力和编码能力，产出更精良的界面。
-
-The post walks through concrete workflows where Claude critiques designs, suggests improvements, and iterates on visual output.
-文章详细介绍了 Claude 评估设计方案、提出改进建议并对视觉输出进行迭代的具体工作流。
-
-🔗 https://claude.com/blog/improving-frontend-design-through-skills
+AI Builders Digest — 2026-04-04
+AI Builders 日报 — 2026-04-04
 
 ---
 
 ## X / TWITTER
 
-### Swyx (swyx on X) — AI Engineer, Latent Space, Cognition/Temporal
+---
 
-Swyx quoted a timeless Kennedy line on ambition and challenge, which resonated widely with the AI builder community as a rallying call.
-Swyx 引用了肯尼迪那句关于雄心与挑战的经典名言，在 AI 构建者社区引发广泛共鸣，成为一声集结号。
+### Andrej Karpathy (karpathy on X) — formerly Director of AI @Tesla, founding team @OpenAI
 
-*"We choose to go to the Moon in this decade and do the other things, not because they are easy, but because they are hard."*
-*"我们选择在这个十年登上月球并做其他事情，不是因为它们容易，而是因为它们困难。"*
+Karpathy shared a detailed workflow for building personal LLM-powered knowledge bases.
+Karpathy 分享了一套详细的工作流，用于构建个人 LLM 驱动的知识库。
 
-He also flagged an upcoming AI Engineer event worth bookmarking for next week.
-他还提醒大家将一个下周即将举行的 AI Engineer 活动加入书签。
+He collects source documents into a raw/ directory, then uses an LLM to incrementally compile them into a markdown wiki with summaries, backlinks, and categorized articles.
+他将源文档收集到 raw/ 目录，然后用 LLM 将其逐步"编译"成带有摘要、反向链接和分类文章的 markdown wiki。
 
-🔗 https://x.com/swyx/status/2039472186600427903
-🔗 https://x.com/swyx/status/2039597048585167265
+He uses Obsidian as the IDE frontend for viewing and navigating the wiki, while the LLM maintains all wiki content automatically.
+他使用 Obsidian 作为 IDE 前端来浏览和导航 wiki，而 LLM 自动维护所有 wiki 内容。
+
+Once the wiki grows large enough (~100 articles, ~400K words), he runs complex Q&A queries against it, getting output as markdown files, slideshows, or matplotlib images.
+一旦 wiki 足够大（约 100 篇文章，约 40 万字），他就可以对其执行复杂的 Q&A 查询，输出结果为 markdown 文件、幻灯片或 matplotlib 图表。
+
+He also runs LLM "health checks" to find inconsistencies, impute missing data, and discover new article candidates.
+他还运行 LLM "健康检查"，以发现不一致之处、补全缺失数据、挖掘新文章候选。
+
+*"I think there is room here for an incredible new product instead of a hacky collection of scripts."*
+他认为这个方向有潜力诞生一款出色的新产品，而不仅仅是一堆临时脚本的拼凑。
+
+He also extrapolated that every frontier LLM query could spawn a whole team of LLMs to build an ephemeral wiki, lint it, loop, and write a full report — "Way beyond a .decode()."
+他进一步推断，每个前沿 LLM 的查询都可能派生出一整个 LLM 团队，去构建一个临时 wiki、进行 lint、循环迭代并生成完整报告 — "远不止一个 .decode() 那么简单。"
+
+https://x.com/karpathy/status/2039805659525644595
+https://x.com/karpathy/status/2039808711452246261
 
 ---
 
-### Peter Yang (petergyang on X) — Product at Roblox, AI Newsletter Author
+### Aaron Levie (levie on X) — CEO @Box
 
-Peter Yang voiced concern about how the combination of mobile devices and short-form video is affecting younger generations.
-Peter Yang 对移动设备与短视频组合对年轻一代的影响表达了担忧。
+Levie shared a hard-won lesson from building AI agents: you must be "brutally unsentimental" about your architecture.
+Levie 分享了构建 AI agent 的一条惨痛教训：你必须对自己的架构"毫不留情地抛弃旧情"。
 
-*"I think the combination of mobile and short video has rotted the brains of an entire generation of kids."*
-*"我认为移动设备与短视频的结合，正在侵蚀整整一代孩子的大脑。"*
+The rough loop he described: build scaffolding around the LLM → models improve and render scaffolding redundant → remove old tech to unlock new gains → new harder problems emerge → repeat.
+他描述的粗略循环是：围绕 LLM 构建脚手架 → 模型改进，脚手架变得冗余 → 移除旧技术以解锁新收益 → 出现新的更难问题 → 重复。
 
-He shared a candid moment preparing for Disneyland Shanghai—a brief human glimpse from a usually AI-focused feed.
-他还分享了前往上海迪士尼乐园的温馨时刻——在通常以 AI 为主的动态中难得一见的生活片段。
+For Box Agent specifically, multiple components of the agent harness had to be overhauled because early mitigations (like custom chunking or retrieval tricks) started *hurting* performance once models got better at reasoning and context handling.
+具体到 Box Agent，由于模型在推理和上下文处理方面的提升，早期的一些缓解措施（如自定义 chunking 或检索技巧）反而开始*损害*性能，多个 agent 组件不得不进行大改。
 
-🔗 https://x.com/petergyang/status/2039563521885901091
-🔗 https://x.com/petergyang/status/2039463035992191283
+*"The main lesson is always make sure you're taking advantage of the frontier capabilities and don't become nostalgic around the tech you've already built."*
+"核心教训是：始终确保你在利用前沿能力，不要对自己已构建的技术恋恋不舍。"
 
----
-
-### Nan Yu (thenanyu on X) — Head of Product at Linear
-
-Nan Yu highlighted a compelling use case for AI agents in product work: using Linear Agent to read source code and answer questions about default app settings—no engineering handoff required.
-Nan Yu 重点介绍了 AI 智能体在产品工作中的一个引人注目的用例：使用 Linear Agent 读取源代码并回答应用默认设置相关问题——无需工程师介入。
-
-*"You never need to ask an engineer again for this kind of thing, because Linear Agent can just read the code and tell you."*
-*"你再也不需要为这类问题去打扰工程师了，因为 Linear Agent 可以直接读取代码告诉你答案。"*
-
-This reflects Linear's broader thesis: agents are becoming first-class users of the same tools humans use.
-这体现了 Linear 更宏观的理念：智能体正在成为与人类使用相同工具的一等用户。
-
-🔗 https://x.com/thenanyu/status/2039490349941526770
+https://x.com/levie/status/2039931799414194621
 
 ---
 
-### Cat Wu (_catwu on X) — Claude Code + Cowork at Anthropic
+### Ryo Lu (ryolu_ on X) — Design @Cursor AI
 
-Cat Wu showcased a key Claude Code workflow: firing off ideas from the Claude mobile app and seamlessly teleporting the session back to your local CLI on laptop.
-Cat Wu 展示了 Claude Code 的核心工作流：在 Claude 移动端发起想法，然后无缝将会话"传送"回笔记本电脑的本地 CLI。
+Ryo published a design philosophy essay for Cursor 3, centered on the concept of "glass vs. black box."
+Ryo 发表了一篇关于 Cursor 3 的设计哲学文章，核心概念是"玻璃 vs. 黑盒"。
 
-*"I love using Claude Code on Claude mobile app to fire off ideas on the go, then pick them up on my laptop later."*
-*"我喜欢用 Claude 移动端随时随地触发创意，然后再在笔记本上继续推进。"*
+His argument: the terminal was a black box, and early AI kept that black box while making it more addictive — you type a wish, pull the lever, accept or reject the whole output, and "see less and think less as the model became better."
+他的论点是：终端是黑盒，早期 AI 保留了这个黑盒并让它更令人上瘾 — 你输入愿望，拉动杠杆，接受或拒绝全部输出，随着模型变得更好，你"看得更少，思考得更少"。
 
-The feature bridges mobile spontaneity with desktop-level development depth.
-该功能将移动端的即兴创意与桌面级开发深度连接起来。
+Cursor's answer is "glass": agents are visible, diffs are there, plans are editable, state is clear — you can go as deep as you want or stay as high as you need.
+Cursor 的答案是"玻璃"：agent 是可见的，diff 就在那里，计划是可编辑的，状态是清晰的 — 你可以深入到任何程度，也可以保持在你需要的高度。
 
-🔗 https://x.com/_catwu/status/2039421527935033854
+*"As AI gets more powerful, glass gets more important. Not because you need to watch every move. But because the best work happens when you know you can."*
+"随着 AI 越来越强大，'玻璃'变得越来越重要。不是因为你需要监视每一步，而是因为当你知道自己可以的时候，最好的工作才会发生。"
 
----
+He also announced Cursor 3 launch: simpler interface, works across local and cloud projects, starts simple then unfolds more tools when needed.
+他还宣布了 Cursor 3 的发布：界面更简洁，支持本地和云端项目，从简单开始，按需展开更多工具。
 
-### Thariq (trq212 on X) — Claude Code at Anthropic
-
-Thariq announced a significant Claude Code renderer overhaul: a new virtual viewport that lets you use your mouse, keeps the prompt input pinned at the bottom, and brings a host of long-requested UX improvements.
-Thariq 宣布了 Claude Code 渲染器的重大更新：全新虚拟视口支持鼠标操作，提示输入框固定在底部，并带来大量用户期待已久的 UX 改进。
-
-*"not an April Fools joke, we rewrote the Claude Code renderer to use a virtual viewport"*
-*"这不是愚人节玩笑，我们重写了 Claude Code 渲染器，采用了虚拟视口"*
-
-The update is experimental and the team is actively collecting user feedback.
-该更新目前为实验性功能，团队正在积极收集用户反馈。
-
-🔗 https://x.com/trq212/status/2039453692592873587
+https://x.com/ryolu_/status/2039895634313187619
+https://x.com/ryolu_/status/2039780768847958359
 
 ---
 
-### Amjad Masad (amasad on X) — CEO at Replit
+### Amjad Masad (amasad on X) — CEO @Replit
 
-Amjad Masad shared two notable signals: first, that we're in an unprecedented era of rapid wealth creation driven by AI; second, that Replit Agent 4 has transformed Replit into a customizable OS-like platform via skills.
-Amjad Masad 分享了两个重要信号：一是我们正处于 AI 驱动的史无前例的财富快速创造时代；二是 Replit Agent 4 已将 Replit 通过技能体系改造成一个可定制的类操作系统平台。
+Replit announced an enterprise-grade auth solution with no setup required.
+Replit 宣布了一个无需配置的企业级认证解决方案。
 
-*"Agent 4 made Replit into an OS of sorts. You can endlessly customize the platform with skills."*
-*"Agent 4 将 Replit 变成了某种操作系统。你可以用技能无限定制这个平台。"*
+Amjad also announced Replit is opening a sales office in Salt Lake City, Utah, and is hiring there.
+Amjad 还宣布 Replit 正在犹他州盐湖城开设销售办公室并招聘。
 
-🔗 https://x.com/amasad/status/2039552681493336250
-🔗 https://x.com/amasad/status/2039429759344730549
+He highlighted that Replit can now SEO audit your site — pointing to a new agent capability.
+他强调 Replit 现在可以对你的网站进行 SEO 审计，展示了一项新的 agent 能力。
 
----
-
-### Guillermo Rauch (rauchg on X) — CEO at Vercel
-
-Guillermo Rauch dropped a striking growth metric: Vercel signups are now growing at 52% month-over-month, up from 23%, up from 17%.
-Guillermo Rauch 公布了一个亮眼的增长数据：Vercel 注册量现在以每月 52% 的速度增长，此前为 23%，再之前为 17%。
-
-The acceleration reflects the AI-driven boom in web development and deployment tooling.
-这一加速增长反映了 AI 驱动的 Web 开发和部署工具需求爆发式增长。
-
-🔗 https://x.com/rauchg/status/2039493013043626427
+https://x.com/amasad/status/2039777772701413396
+https://x.com/amasad/status/2039774118443421887
+https://x.com/amasad/status/2039838798671126728
 
 ---
 
-### Aaron Levie (levie on X) — CEO at Box
+### Peter Steinberger (steipete on X) — Co-founder @OpenClaw
 
-Aaron Levie teased an upcoming Box product announcement on April 1st, admitting his team might not be thrilled about the early reveal.
-Aaron Levie 在 4 月 1 日预告了一项即将发布的 Box 新产品，坦言团队可能对他提前透露并不十分高兴。
+Steipete flagged a serious signal: Linux kernel maintainers are now receiving 5–10 AI-generated security reports *per day*, up from 2–3 per week two years ago.
+Steipete 标记了一个严重信号：Linux 内核维护者现在每天收到 5-10 份 AI 生成的安全报告，而两年前每周只有 2-3 份。
 
-*"My team is going to kill me for sharing this, but it's April 1st so why not. Coming very soon."*
-*"我的团队可能会因为我分享这个而想杀了我，但今天是 4 月 1 日，为什么不呢。即将到来。"*
+Most reports are reportedly correct, requiring the kernel team to bring in more maintainers to handle the volume — but the flood of AI-generated reports risks overwhelming open source projects.
+据报道大多数报告是正确的，但这迫使内核团队引入更多维护者来处理这些报告 — AI 生成报告的洪流有压垮开源项目的风险。
 
-🔗 https://x.com/levie/status/2039414479084278239
+*"Prediction: This is gonna kill some oss projects."*
+"预言：这将会压垮一些开源项目。"
 
----
-
-### Garry Tan (garrytan on X) — President & CEO at Y Combinator
-
-Garry Tan endorsed local models as a very positive development for the AI ecosystem, signaling YC's continued support for open/local AI infrastructure.
-Garry Tan 为本地模型点赞，认为这对 AI 生态系统是一个非常积极的发展，表明 YC 持续支持开放/本地 AI 基础设施。
-
-*"Local models are a very very good thing."*
-*"本地模型是非常非常好的事情。"*
-
-🔗 https://x.com/garrytan/status/2039568811440128137
+https://x.com/steipete/status/2039782190838686088
 
 ---
 
-### Zara Zhang (zarazhangrui on X) — Builder, GitHub: zarazhangrui
+### Claude (claudeai on X) — AI assistant by @Anthropic
 
-Zara Zhang had an aha moment with OpenClaw: replacing her to-do list with brain-dumping tasks directly to her AI agent.
-Zara Zhang 在使用 OpenClaw 时获得了顿悟：将待办事项清单替换为直接向 AI 智能体"脑力倾倒"任务。
+Claude's computer use feature in Claude Code Desktop and Claude Cowork is now available on Windows.
+Claude 在 Claude Code Desktop 和 Claude Cowork 中的计算机使用功能现已在 Windows 上可用。
 
-*"Not only will it record those tasks, but it will actually DO those tasks. Every morning it sends me a report of what tasks are already done, and highlights the ones that need my attention."*
-*"它不仅会记录这些任务，还会真正去执行它们。每天早上它都会向我发送已完成任务的报告，并重点标出需要我关注的任务。"*
-
-She also announced and promoted the "Follow Builders" skill—a curated feed of 25 top AI builder accounts on X, now widely used with 2k+ GitHub stars.
-她还发布并推广了"Follow Builders"技能——一个精心策划的 25 个顶级 AI 构建者 X 账号精选订阅源，目前已在 GitHub 获得 2000+ star。
-
-*"Introducing the 'Follow builders' skill: the best way to stay on top of the insane happenings in AI"*
-*"推出'关注构建者'技能：掌握 AI 领域疯狂进展的最佳方式"*
-
-🔗 https://x.com/zarazhangrui/status/2039599038358814961
-🔗 https://x.com/zarazhangrui/status/2039368866741277074
+https://x.com/claudeai/status/2039836891508261106
 
 ---
 
-### Peter Steinberger (steipete on X) — ClawFather at OpenClaw
+### Sam Altman (sama on X) — CEO @OpenAI
 
-Peter Steinberger took a strong stance on coding agent UX: he never uses plan mode, arguing it was added primarily for users habituated to other tools, not as the optimal workflow.
-Peter Steinberger 对编程智能体 UX 表达了鲜明观点：他从不使用 Plan 模式，认为该功能主要是为其他工具的习惯用户添加的，并非最优工作流。
+Sam commented on OpenAI's investment in TBPN (the tech show), saying it's his favorite tech show and he doesn't expect them to go easier on OpenAI.
+Sam 评论了 OpenAI 对 TBPN（科技节目）的投资，称这是他最喜欢的科技节目，他不期望他们对 OpenAI 手下留情。
 
-*"I never use plan mode. The main reason this was added to codex is for claude-pilled people who struggle with changing their habits. just talk with your agent."*
-*"我从不使用 plan 模式。它被加入 Codex 的主要原因是为那些难以改变习惯的 Claude 用户服务。直接和你的智能体对话就好。"*
+*"I don't expect them to go any easier on us, am sure I'll do my part to help enable that with occasional stupid decisions."*
+"我不期望他们对我们更客气，我确信我会时不时做出愚蠢的决定来配合他们。"
 
-This sparked significant discussion (1726 likes, 225 replies), highlighting ongoing debates about how humans should best collaborate with coding agents.
-此帖引发了大量讨论（1726 点赞，225 回复），凸显了关于人类如何与编程智能体最佳协作的持续争论。
-
-🔗 https://x.com/steipete/status/2039551079621566812
+https://x.com/sama/status/2039773740586918137
 
 ---
 
-### Dan Shipper (danshipper on X) — CEO at Every
+### Dan Shipper (danshipper on X) — CEO @Every
 
-Dan Shipper published an in-depth interview with Linear's cofounder and CEO Karri Saarinen about how Linear evolved into an agent-native SaaS product.
-Dan Shipper 发布了一篇与 Linear 联合创始人兼 CEO Karri Saarinen 的深度对话，探讨 Linear 如何演变为一款智能体原生 SaaS 产品。
+Dan and his team have been testing Cursor 3.0 for a week and published a full vibe check.
+Dan 和他的团队测试 Cursor 3.0 已有一周，并发布了完整的体验评测。
 
-Key themes: speed means decisions matter more, not less; don't lose sight of your mission amid AI hype; and agents are now first-class users of Linear alongside human engineers.
-核心主题：速度让决策更加重要而非更不重要；不要在 AI 热潮中迷失使命；智能体现在与人类工程师一起成为 Linear 的一等用户。
+近期其他动态较为轻松，主要是对产品进展表达支持和鼓励。
+Recent other activity was mostly light encouragement for product progress.
 
-*"SaaS isn't dead, it just needs to become agent-native."*
-*"SaaS 并未消亡，它只需要变得智能体原生。"*
+https://x.com/danshipper/status/2039770244361662920
 
-Companies like Codex, Coinbase, and Brex now run their agents on Linear—a concrete signal that the bet on agent-native tooling is paying off.
-Codex、Coinbase 和 Brex 等公司现在都在 Linear 上运行他们的智能体——这是押注智能体原生工具正在获得回报的具体信号。
+---
 
-🔗 https://x.com/danshipper/status/2039357127903350960
+### Garry Tan (garrytan on X) — President & CEO @Y Combinator
+
+Garry flagged Perplexity Computer as "quite special."
+Garry 称 Perplexity Computer "相当特别"。
+
+He also shared the classic sentiment: if you love your work, you never work a day in your life.
+他也分享了经典感悟：如果你热爱自己的工作，你就从未工作过一天。
+
+https://x.com/garrytan/status/2039943351278190840
+https://x.com/garrytan/status/2039948180977316164
+
+---
+
+### Nan Yu (thenanyu on X) — Head of Product @Linear
+
+近期无重要动态。
+No substantive content this cycle.
+
+---
+
+### Peter Yang (petergyang on X) — Product @Roblox, AI newsletter (140K+ readers)
+
+Peter shared tips from visiting 3 Disneylands (LA, Tokyo, Shanghai) on how to survive and avoid 3-hour lines — early access, premier passes, nap strategy during peak hours, late-night ride window after fireworks.
+Peter 分享了他参观三个迪士尼乐园（洛杉矶、东京、上海）的经验，如何避开三小时排队 — 早鸟入场、快速通道、高峰时段午休策略、烟火后趁机玩热门项目。
+
+He also tried Cursor 3's new interface, calling it much better than the old one, and wondering why the new mode isn't the default.
+他还试用了 Cursor 3 的新界面，称其比旧版本好得多，并疑惑为何新模式不是默认界面。
+
+https://x.com/petergyang/status/2039850011044016291
+https://x.com/petergyang/status/2039898958814974021
+
+---
+
+### Swyx (swyx on X) — @AI dot engineer, @latentspacepod
+
+Swyx reacted to OpenAI's investment in TBPN, asking if it's time for a Dario x Dwarkesh collab podcast.
+Swyx 对 OpenAI 投资 TBPN 做出回应，询问是否是时候推出 Dario x Dwarkesh 联合播客了。
+
+He also posted cryptic commentary on macro volatility: *"HOW LOW IS LOW / HOW LOW / IS LOW"* — likely reacting to market conditions.
+他还发布了关于宏观波动的神秘评论："HOW LOW IS LOW / HOW LOW / IS LOW" — 可能是在回应市场行情。
+
+https://x.com/swyx/status/2039773480980480431
+https://x.com/swyx/status/2039812100206604787
 
 ---
 
 ## PODCASTS
 
-### Latent Space — "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample"
+---
 
-Mistral released Voxtral TTS, their first text-to-speech audio model—a 3B-parameter model built on the Ministral backbone with a novel auto-regressive flow-matching architecture.
-Mistral 发布了 Voxtral TTS，这是他们的首个文字转语音音频模型——一个基于 Ministral 主干、采用新颖自回归流匹配架构的 30 亿参数模型。
+### Training Data — "How Autonomous Labs Will Transform Scientific Research: Ginkgo Bioworks' Jason Kelly"
 
-The model uses an in-house neural audio codec that converts audio into 12.5 Hz latent tokens (semantic + acoustic), enabling high quality at a fraction of the cost of competitors.
-该模型使用内部自研的神经音频编解码器，将音频转换为 12.5 Hz 潜在令牌（语义 + 声学），以远低于竞争对手的成本实现高质量输出。
+Published: March 24, 2026
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
-Unlike depth-transformer approaches that require K autoregressive steps per frame, Voxtral's flow-matching head cuts inference down to 4–16 steps—crucial for real-time voice agents.
-与每帧需要 K 个自回归步骤的深度变换器方法不同，Voxtral 的流匹配头将推理步骤减少到 4-16 步——这对实时语音智能体至关重要。
+This episode features Jason Kelly, founder and CEO of Ginkgo Bioworks, on how autonomous labs and AI reasoning models will fundamentally transform how science is done.
+本期节目采访了 Ginkgo Bioworks 创始人兼 CEO Jason Kelly，探讨自主实验室和 AI 推理模型将如何从根本上改变科学研究的方式。
 
-Guillaume Lample explained Mistral's broader Forge platform: helping enterprises fine-tune models on their proprietary data using the same battle-tested training infrastructure Mistral uses internally.
-Guillaume Lample 阐述了 Mistral 更广泛的 Forge 平台：帮助企业使用 Mistral 内部使用的久经考验的训练基础设施，基于其专有数据微调模型。
+**Core argument:** Every previous tech revolution (Internet, social media) was irrelevant to biotech — "just back office IT crap." AI is different: it will change the fundamentals of how science is done.
+**核心论点：** 以往每一次技术革命（互联网、社交媒体）对生物技术都无关紧要 — "不过是后台 IT 垃圾"。AI 不同：它将改变科学研究的基本方式。
 
-*"When customers use this off-the-shelf closed model, what's very sad is that they are not leveraging the data they have been collecting for years or sometimes decades."*
-*"当客户使用现成的闭源模型时，非常遗憾的是，他们并没有利用多年甚至几十年积累的数据。"*
+**Autonomous lab breakthrough with OpenAI:** Ginkgo ran a project where an AI reasoning model was given a robotic lab and tasked with optimizing cell-free protein synthesis.
+**与 OpenAI 的自主实验室突破：** Ginkgo 开展了一个项目，让 AI 推理模型掌控机器人实验室，任务是优化无细胞蛋白质合成。
 
-Leanstral was also discussed: Mistral's formal math proving project using the Lean proof assistant, positioned as a testbed for long-horizon reasoning research and software verification.
-还讨论了 Leanstral：Mistral 使用 Lean 证明助手的形式化数学证明项目，定位为长程推理研究和软件验证的测试平台。
+After 4 rounds (~30,000 experiments), they beat the state of the art; after 6 rounds, they beat it by 40%.
+经过 4 轮（约 30,000 次实验），他们超越了最先进水平；经过 6 轮，超出了 40%。
 
-The team previewed Mistral 4, described as a major step in pre-training that merges capabilities from separate specialized models (coding, reasoning, vision, audio) into one unified mixture-of-experts architecture.
-团队预告了 Mistral 4，被描述为预训练的重大飞跃，将独立专业模型（编程、推理、视觉、音频）的能力整合到一个统一的专家混合架构中。
+Kelly's thesis: the AI didn't need to be smarter — it just needed to run experiments 24/7 and share data across 100 parallel hypothesis threads daily, something human labs structurally cannot do.
+Kelly 的论点是：AI 不需要更聪明 — 它只需要 7×24 小时运行实验，并在 100 个并行假设线程之间每天共享数据，这是人类实验室在结构上无法做到的。
 
-🔗 https://youtube.com/watch?v=SUjA25ijcNs
+**Why autonomous labs beat human labs (two unfair advantages):**
+**自主实验室为何胜过人类实验室（两大不公平优势）：**
+
+1. Information sharing: 100 AI scientists can share raw experimental data daily across all hypotheses, vs. human labs exchanging distilled papers every 1–2 years.
+1. 信息共享：100 个 AI 科学家可以每天在所有假设之间共享原始实验数据，而人类实验室每 1-2 年才交换一次精炼论文。
+
+2. Cost structure: today, <5% of research spending goes to reagents (the actual science); the rest is overhead (people, lab space). Autonomous labs flip this ratio toward ~90% reagents — a 10x improvement in data per dollar.
+2. 成本结构：如今，不到 5% 的研究支出用于试剂（实际科学）；其余都是管理费用（人员、实验室空间）。自主实验室将这一比例翻转为约 90% 试剂 — 每美元数据量提升 10 倍。
+
+**The "autonomous lab vs. cloud lab" distinction:** The key insight is that this isn't just automation — it's *autonomous* (flexible, high-variability work), analogous to how Waymo is not just a subway (fixed automation) but fully autonomous driving.
+**"自主实验室 vs. 云实验室"的区别：** 关键洞察是这不仅仅是自动化 — 而是*自主*的（灵活、高变异性工作），类比于 Waymo 不只是地铁（固定自动化），而是完全自动驾驶。
+
+**Coding models as lab UX:** Jason described mandating Claude Code/Codex for all lab protocol submissions — scientists write in plain language, the model handles the code, and mistakes get added to the skills file so they never repeat.
+**编程模型作为实验室 UX：** Jason 描述了强制要求所有实验室协议提交使用 Claude Code/Codex — 科学家用自然语言写作，模型处理代码，错误被添加到技能文件中以避免重复。
+
+**Project Genesis (DOE):** Ginkgo sold 97 robots to the Department of Energy for the White House's AI-for-science initiative, targeting doubling the pace of scientific discovery.
+**创世纪项目（DOE）：** Ginkgo 向美国能源部出售了 97 台机器人，用于白宫的 AI 科学倡议，目标是将科学发现的速度翻倍。
+
+**Geopolitical urgency:** China now accounts for 40%+ of biotech drug discoveries acquired by big pharma (up from <5% three years ago) — driven by having more experimentalists at lower cost.
+**地缘政治紧迫性：** 中国现在占大型制药公司收购的生物技术药物发现的 40%+（三年前不足 5%）— 驱动因素是拥有更多成本更低的实验人员。
+
+**Forward-looking signal:** If autonomous labs + reasoning models crack the experimental cycle, Kelly believes it won't just improve drug discovery — it could democratize science itself, letting anyone run experiments for as little as $39 (Ginkgo's current Cloud Lab pricing).
+**前瞻性信号：** 如果自主实验室 + 推理模型破解了实验循环，Kelly 认为这不仅会改善药物发现 — 还可能使科学民主化，让任何人都能以低至 39 美元的价格运行实验（Ginkgo 目前的 Cloud Lab 定价）。
+
+*"All of the previous revolutions in tech — Internet, social media — have been totally meaningless to biotechnology. Not this. This is actually gonna change the fundamentals of how we do science."*
+"以往所有的技术革命 — 互联网、社交媒体 — 对生物技术都毫无意义。这次不同。这将真正改变我们做科学的基本方式。"
+
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
 ---
 
