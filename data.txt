@@ -1,217 +1,155 @@
-AI Builders 日报 · 2026-04-05
+AI Builders 日报 · 2026-04-06
+
+AI Builders Digest — 2026-04-06
+AI Builders 日报 — 2026-04-06
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+X / TWITTER
 
 ---
 
-🎙️ PODCASTS
+Andrej Karpathy (former OpenAI founding member, AI educator)
 
-**Latent Space — Marc Andreessen introspects on The Death of the Browser, Pi + OpenClaw, and Why "This Time Is Different"**
-Published: 2026-04-03 | https://www.youtube.com/@LatentSpacePod
+Karpathy shared three substantive ideas today, all revolving around a central theme: personal AI empowerment through explicit, user-controlled knowledge artifacts.
+Karpathy 今日分享了三个实质性洞见，核心主题是：通过显式、用户可控的知识载体实现个人 AI 赋能。
 
-Marc Andreessen joins Latent Space to reflect on 80 years of AI development, the architectural brilliance of OpenClaw/Pi, and why he believes AI agents with bank accounts represent the logical next step.
-Marc Andreessen 加入 Latent Space，回顾 AI 发展的 80 年历程，深入探讨 OpenClaw/Pi 的架构突破，并阐释为何他认为拥有银行账户的 AI agent 是合乎逻辑的下一步。
+First, he praised "Farzapedia" — a personal wiki built by Farza — as a great example of his "Wiki LLM" concept.
+首先，他称赞了 Farza 创建的个人维基"Farzapedia"，将其视为"Wiki LLM"理念的优秀范例。
 
-**Core Thesis (核心论点)**
+He outlined why explicit, file-based memory beats the "AI silently learns about you" model: it's visible, yours to own, in universal formats, and provider-agnostic — *"you can use whatever AI you want to 'plug into' this information."*
+他阐释了为什么显式的、基于文件的记忆优于"AI 悄悄了解你"的模式：可见、可拥有、采用通用格式、不绑定特定提供商——*"你可以使用任何你想要的 AI 来'接入'这些信息。"*
 
-The current AI moment is an "80-year overnight success" — decades of neural network research suddenly unlocked by the Transformer and scaled compute.
-当前的 AI 时代是"80 年的一夜成功"——数十年的神经网络研究，因 Transformer 和算力扩展而突然迸发。
+He called "agent proficiency" a core 21st-century skill, saying agents speak English and handle the computer work — so now is the time to build that muscle.
+他将"agent 熟练度"称为 21 世纪的核心技能，指出 agent 能说英语、能操作电脑，现在正是培养这种能力的时候。
 
-The real architectural breakthrough of OpenClaw/Pi is combining the language model mindset with the Unix shell mindset: LLM + shell + filesystem + markdown + cron = agent.
-OpenClaw/Pi 的真正架构突破，在于将语言模型思维与 Unix Shell 思维融合：LLM + shell + 文件系统 + markdown + cron = agent。
+Second, he posted a bold take on AI and government accountability: AI will finally let citizens make their governments as legible to them as governments have always tried to make citizens legible to the state.
+其次，他发表了一个大胆观点：AI 将最终让公民能够像政府一直试图让公民变得"可读"一样，让政府对公民变得透明可见。
 
-**Key Insights (关键洞察)**
+*"Government accountability has not been constrained by access… it has been constrained by intelligence."*
+*"政府问责制的瓶颈不在于获取数据的渠道……而在于处理数据的智能。"*
 
-The agent is just its files — swap out the LLM underneath and all state, memories and capabilities persist.
-Agent 的本质就是它的文件——替换底层 LLM，所有状态、记忆和能力都得以保留。
+He sees AI dissolving the bottleneck that once limited government oversight to investigative journalists — opening it up to far broader civic participation.
+他认为 AI 将打破曾经只有调查记者才能突破的瓶颈，让更广泛的公民参与政府监督成为可能。
 
-Self-extension is the mind-blowing capability: you can tell your agent to add a new feature to itself, and it will go find what it needs, write the code, and install it.
-自我扩展是最令人震撼的能力：你可以让 agent 为自己新增某项功能，它会自行查找所需内容、编写代码并完成安装。
+Third, he shared an "idea file" gist for building a personal LLM wiki, arguing that in the agent era you share the *idea*, not the code — and your agent builds it for you.
+第三，他分享了一个构建个人 LLM 维基的"想法文件"，并指出在 agent 时代，你分享的是*想法*而非代码——你的 agent 会帮你实现它。
 
-Human-readable text protocols (HTTP, HTML) were a conscious design choice for early browsers — the same philosophy now powers agents that communicate in plain language files.
-人类可读的文本协议（HTTP、HTML）是早期浏览器的有意设计选择——同样的哲学如今驱动着以纯文本文件沟通的 agent。
-
-On open source AI: DeepSeek's R1 paper/code was "a gift to the world" because it taught everyone how chain-of-thought reasoning works, causing every other model to add reasoning within months.
-关于开源 AI：DeepSeek 的 R1 论文/代码是"送给世界的礼物"，因为它教会了所有人链式推理的工作原理，使得其他模型在数月内纷纷跟进。
-
-AI + crypto grand unification: AI agents will need money to act autonomously — stablecoins are the natural rails. The HTTP 402 "payment required" error code, long neglected, is finally coming into its own.
-AI + 加密货币的大融合：AI agent 要自主行动就需要资金——稳定币是天然的支付轨道。长期被忽视的 HTTP 402"payment required"错误码，如今终将大显身手。
-
-**Most Forward-Looking Signal (最值得关注的信号)**
-
-When software generation becomes infinite and free, the scarcest resource flips from code to intent — the person who knows *what* they want built wins, not the person who knows *how* to build it.
-当软件生成变得无限且免费，最稀缺的资源将从代码转变为意图——知道*要做什么*的人将胜出，而非知道*怎么做*的人。
+Sources:
+https://x.com/karpathy/status/2040572272944324650
+https://x.com/karpathy/status/2040549459193704852
+https://x.com/karpathy/status/2040470801506541998
 
 ---
 
-🐦 X / TWITTER
+Aaron Levie, Box CEO
 
-**Swyx (swyx — AI engineer, Latent Space, Cognition, Temporal)**
+Levie posted two detailed takes on enterprise AI architecture, both sharp and grounded in Box's actual product work.
+Levie 发布了两篇关于企业 AI 架构的深度见解，均基于 Box 的实际产品实践，观点犀利且接地气。
 
-Swyx announced that he achieved "agentic self-improvement" with Devin AI: he simply copy-pastes blog posts and tweets into Devin, and it oneshots complete feature implementations — even out of distribution of the underlying Gemini Flash Lite model.
-Swyx 宣布用 Devin AI 实现了"agent 自我进化"：他只需将博客文章和推文复制粘贴给 Devin，后者就能一次性完成完整的功能实现——甚至超出了底层 Gemini Flash Lite 模型的分布范围。
+On the knowledge problem: even the most advanced AI models can't be useful in enterprises without a context layer, because every employee has different access permissions, different workflows, and different data — and you can't train a model to "keep secrets" per user.
+关于知识问题：即使是最先进的 AI 模型，在企业中没有上下文层也无法有效运作，因为每位员工拥有不同的访问权限、工作流程和数据——而且无法训练模型按用户"保守秘密"。
 
-*"We have achieved agentic self improvement — I can just copy paste blogposts and tweets into Devin and it oneshots the complete implementation. Jaw dropped when it did."*
-"我们实现了 agent 自我进化——只需将博文和推文复制粘贴给 Devin，它就能一次性完成完整实现。当这真的发生时，我下巴都要掉了。"
+*"This is why the context layer is going to always be the core part of the AI stack for applied use cases."*
+*"这就是为什么上下文层将始终是 AI 技术栈中应用场景的核心部分。"*
 
-He also shared a pointed comment on AI hype culture, noting "this is why nobody takes ai twitter seriously."
-他还对 AI 炒作文化发表了一针见血的评论："这就是为什么没有人认真对待 AI Twitter。"
+On agent design evolution: a year ago, building document-processing agents required chunking + embedding + similarity search as workarounds for small context windows.
+关于 agent 设计的演进：一年前，构建文档处理 agent 需要通过分块 + 嵌入 + 相似度搜索来绕过小上下文窗口的限制。
 
-Source: https://x.com/swyx/status/2040181076237443299 | https://x.com/swyx/status/2040209263025611105
+Today, better context accuracy, tool calling, and reasoning let agents work more like humans — searching, reading full documents, re-querying when something feels off.
+如今，更好的上下文精度、工具调用和推理能力让 agent 能够更像人类一样工作——搜索、阅读完整文档、在感觉有误时重新查询。
 
----
+*"As model progress continues on the dimensions of context accuracy, tool calling, advanced reasoning, and coding, agents are going to become insanely powerful."*
+*"随着模型在上下文精度、工具调用、高级推理和编码等维度持续进步，agent 将变得无比强大。"*
 
-**Peter Yang (petergyang — AI content creator, 140K+ newsletter readers)**
-
-Peter is preparing a deep-dive episode on OpenClaw Codex, timed to coincide with major OpenClaw news.
-Peter 正在准备一期关于 OpenClaw Codex 的深度节目，与 OpenClaw 的重大新闻同步发布。
-
-He also shared a practical prompt for personalizing an AI assistant's soul.md — giving it warm tone, strong opinions, and dry humor.
-他还分享了一个实用提示词，用于定制 AI 助手的 soul.md——赋予其温暖的语气、鲜明的观点和干性幽默。
-
-*"Vibe: Warm, sharp, dry humor. Not a chatbot — a person. Skip 'Great question!' — just help."*
-"风格：温暖、犀利、干性幽默。不是聊天机器人——是一个人。省略'好问题！'——直接帮忙。"
-
-Source: https://x.com/petergyang/status/2040269162719887610 | https://x.com/petergyang/status/2040265600820469938
+Sources:
+https://x.com/levie/status/2040650799550722243
+https://x.com/levie/status/2040528801386361128
 
 ---
 
-**Nan Yu (thenanyu — Head of Product, Linear)**
+Garry Tan, YC President & CEO
 
-Nan offered crisp product org design opinions: design should not report into product management — when merged, design explorations become shallow and brand/aesthetics suffer.
-Nan 对产品组织设计发表了简洁的看法：设计不应该向产品管理汇报——一旦合并，设计探索会变得肤浅，品牌和美学也会受损。
+Garry is heads-down building GStack, his AI-powered software factory vision.
+Garry 正在全力构建 GStack，这是他的 AI 驱动软件工厂愿景。
 
-Product Marketing Management (PMM), however, *is* a natural fit with product management — they are "two sides of the same coin."
-然而，产品营销管理（PMM）与产品管理才是天然的组合——它们是"同一枚硬币的两面"。
+14 security bug fixes just landed, with half contributed as community PRs — a signal that the project is gaining traction beyond just YC.
+14 个安全漏洞修复已落地，其中一半来自社区 PR——这表明该项目正在 YC 之外获得广泛关注。
 
-He also made a case for Linear's project/issue grouping features — noting that engineers who roll their eyes at issue tracking eventually come around when they have 40 incomplete issues to organize.
-他还为 Linear 的项目/议题分组功能做了辩护——指出那些对议题追踪嗤之以鼻的工程师，最终在面对 40 个未完成议题需要整理时都会回心转意。
+He's also working on making code reviews adaptive and smarter, part of what he calls the march toward an "L8 software factory."
+他还在致力于让代码审查更加自适应和智能化，这是他所称的迈向"L8 软件工厂"愿景的一部分。
 
-Source: https://x.com/thenanyu/status/2040206778751750255 | https://x.com/thenanyu/status/2040177368187212157
+Separately, he posted about a political fight he's involved in — *"We are fighting to stop this"* — directing followers to join "Garry's List" for updates.
+另外，他还发帖提及自己参与的一场政治斗争——*"我们正在努力阻止这件事"*——并引导关注者加入"Garry's List"获取最新动态。
 
----
-
-**Thariq (trq212 — Claude Code, Anthropic)**
-
-Thariq offered users a month of free credits as compensation for bearing with recent issues — a goodwill gesture from the Claude Code team at Anthropic.
-Thariq 为用户提供了一个月的免费额度，以感谢他们在近期问题中的耐心——这是 Anthropic Claude Code 团队的一次善意举措。
-
-Source: https://x.com/trq212/status/2040215427931156595
+Sources:
+https://x.com/garrytan/status/2040667535490863254
+https://x.com/garrytan/status/2040658880586522783
+https://x.com/garrytan/status/2040581964156342768
 
 ---
 
-**Amjad Masad (amasad — CEO, Replit)**
+Zara Zhang (zarazhangrui on X)
 
-Amjad highlighted remarkable builder velocity: an impressive milestone achieved in under a month of building.
-Amjad 展示了惊人的构建速度：不到一个月就达成了令人印象深刻的里程碑。
+One crisp prompting tip shared today, attributed to Peter Steinberger: after giving the model your task, ask it *"Do you have any questions?"*
+今日分享了一条简洁的提示技巧，来自 Peter Steinberger：在给模型布置任务后，问它*"你有任何问题吗？"*
 
-Source: https://x.com/amasad/status/2040304136412115111
+It's a small habit that surfaces model uncertainty before you get a confident but wrong output.
+这是一个小习惯，能在模型给出自信但错误的输出之前，提前暴露其不确定性。
 
----
-
-**Aaron Levie (levie — CEO, Box)**
-
-Aaron shared an insight on organizational design and AI agent management: there are inherent limits on human cognition — no matter how good someone is, they can't hold an unlimited number of things in their head simultaneously.
-Aaron 分享了一个关于组织设计与 AI agent 管理的洞察：人类认知存在固有限制——无论一个人多么优秀，都无法同时在脑中持有无限数量的事物。
-
-*"There is a limit on human cognition. Even if you're not reviewing everything they're doing, how much you can hold in your head at one time."*
-"人类认知是有上限的。即便你不审查他们所做的一切，你同一时间能在脑中记住的东西也是有限的。"
-
-This is why hierarchical management structures emerged — the same principle will likely apply to managing fleets of AI agents.
-这正是为什么分层管理结构会出现——同样的原则很可能适用于管理大规模 AI agent 集群。
-
-Source: https://x.com/levie/status/2040264454982480138
+Source:
+https://x.com/zarazhangrui/status/2040565939100676382
 
 ---
 
-**Ryo Lu (ryolu_ — Design, Cursor)**
+Peter Steinberger (steipete on X), PSPDFKit / iOS developer
 
-Ryo announced Cursor's new interface with a refreshed icon set this weekend, offering 2x usage on Composer 2.
-Ryo 宣布 Cursor 本周末推出新界面和全新图标集，Composer 2 提供双倍使用量。
+Shared a link with the caption *"There's a big wave coming"* — the linked content points to significant AI disruption on the horizon.
+分享了一条链接，配文为*"有一股大浪正在到来"*——链接内容指向即将到来的重大 AI 颠覆性变化。
 
-*"new interface. new icon set. made with care and character."*
-"新界面。新图标集。用心打造，独具特色。"
-
-He also shared a design philosophy reminder: "simpler is better."
-他还分享了一个设计理念提醒："简洁即是美。"
-
-Source: https://x.com/ryolu_/status/2040272055673999730 | https://x.com/ryolu_/status/2040270917637648749
+Source:
+https://x.com/steipete/status/2040492573819904026
 
 ---
 
-**Garry Tan (garrytan — President & CEO, Y Combinator)**
-
-Garry achieved a 95 PageSpeed score on Garry's List, his personal codegen-built tool, taking a friendly swipe at "codegen luddites."
-Garry 让他用代码生成工具构建的 Garry's List 达到了 95 分的 PageSpeed 成绩，顺带友好地调侃了一下"代码生成卢德分子"。
-
-He also released a new GStack tool `/plan-devex-review` — inspired by Addy Osmani's DX framework — to help teams create better developer experiences.
-他还发布了一个新的 GStack 工具 `/plan-devex-review`——受 Addy Osmani 的 DX 框架启发——帮助团队创造更好的开发者体验。
-
-Source: https://x.com/garrytan/status/2040228442130850008 | https://x.com/garrytan/status/2040211569775395042
+PODCASTS
 
 ---
 
-**Zara Zhang (zarazhangrui — Builder)**
+No Priors — AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus
 
-Zara spotted a new trend: people are distilling colleagues, influencers, and even their exes into agent skills — a sign of how personal and intimate the agent-building space is becoming.
-Zara 观察到一个新趋势：人们正在将同事、网红甚至前任提炼成 agent 技能——这预示着 agent 构建领域正变得越来越个人化和亲密化。
+This episode features Liam Fedus, co-creator of ChatGPT and former VP of Post-Training at OpenAI, who left to found Periodic Labs — an AI foundation lab focused on materials science and chemistry.
+本期节目邀请了 Liam Fedus，ChatGPT 的联合创造者、OpenAI 前训练后处理副总裁，他离职后创立了 Periodic Labs——一个专注于材料科学和化学的 AI 基础实验室。
 
-She also agreed with Nan Yu that product management and product marketing should be one job.
-她也认同 Nan Yu 的观点：产品管理和产品营销应该是同一份工作。
+**核心论点 | Core Thesis**
 
-Source: https://x.com/zarazhangrui/status/2040211603875074512 | https://x.com/zarazhangrui/status/2040319135507480921
+While most AI investment flows into software and language, Fedus argues the next frontier is the physical world — atoms, molecules, materials.
+当大多数 AI 投资涌入软件和语言领域时，Fedus 认为下一个前沿是物理世界——原子、分子、材料。
 
----
+AI foundation models trained on physics and chemistry data could compress decades of materials discovery into years.
+在物理和化学数据上训练的 AI 基础模型，有望将数十年的材料发现压缩至数年内完成。
 
-**Nikunj Kothari (nikunj — Partner, FPV Ventures)**
+**关键洞察 | Key Insights**
 
-Nikunj joked about a new type of "Claude Code eyes" — the glassy stare of developers who've burned through their token budget and are suffering through the anxiety of watching the meter run.
-Nikunj 开玩笑说出现了一种新的"Claude Code 眼神"——那是开发者用光了 token 预算、眼睁睁看着计费跳动时那副空洞的凝视。
+• Fedus traces a through-line from his physics undergrad (dark matter research) → Google Brain → OpenAI → now materials AI. The physicists-in-AI pattern is not coincidental — physical intuition and mathematical rigor transfer directly.
+  Fedus 的职业轨迹从物理本科（暗物质研究）→ Google Brain → OpenAI → 如今的材料 AI，一脉相承。物理学家涌入 AI 领域并非偶然——物理直觉和数学严谨性可以直接迁移。
 
-Source: https://x.com/nikunj/status/2040209921690804611
+• The post-training era at OpenAI (which Fedus led) established that how you train a model *after* pretraining — via RLHF, instruction tuning, etc. — is as consequential as the pretraining itself. He now applies this philosophy to scientific domains.
+  Fedus 主导的 OpenAI 训练后处理时代证明：预训练*之后*如何训练模型（通过 RLHF、指令微调等）与预训练本身同等重要。他现在将这一哲学应用于科学领域。
 
----
+• Materials science is uniquely data-starved compared to language — but that's a moat, not a bloat. Building the right training data infrastructure is itself a defensible competitive advantage.
+  与语言领域相比，材料科学的数据极度匮乏——但这是护城河，而非负担。构建正确的训练数据基础设施本身就是可防御的竞争优势。
 
-**Peter Steinberger (steipete — "ClawFather," AI builder)**
+• The podcast discusses how model architectures from LLMs may not directly transfer to atomic/molecular simulation — new model families may be needed for different physical scales.
+  播客讨论了 LLM 的模型架构可能无法直接迁移至原子/分子模拟——不同的物理尺度可能需要全新的模型家族。
 
-Peter had a busy day reacting to Anthropic's decision to lock third-party harnesses out of Claude Code (Claude Code going closed).
-Peter 度过了忙碌的一天，对 Anthropic 将 Claude Code 封闭、锁定第三方集成的决定作出了回应。
+**最值得关注的信号 | Forward-Looking Signal**
 
-*"woke up and my mentions are full of these. Both me and Dave Morin tried to talk sense into Anthropic, best we managed was delaying this for a week."*
-"一觉醒来，我的提及里全是这些。我和 Dave Morin 都试图劝说 Anthropic，我们能争取到的最好结果是延迟了一周。"
+The "AI for atoms" thesis is early but the talent is arriving: if someone with Fedus's pedigree (literally co-created ChatGPT) is going all-in on materials AI, the scientific computing wave may be closer than mainstream AI discourse suggests.
+"原子 AI"命题尚处早期，但顶尖人才已开始入场：如果像 Fedus 这样背景的人（字面意义上的 ChatGPT 联合创造者）正在全力押注材料 AI，那么科学计算浪潮或许比主流 AI 讨论所暗示的更近。
 
-He gave credit to Boris for softening the impact — today's release includes fixes for better cache use to lower API costs.
-他对 Boris 软化影响给予了肯定——今天的版本包含了更好缓存利用的修复，以降低 API 成本。
-
-He also flagged a structural limitation: GitHub's API keeps hitting quota limits, and it was clearly not designed with agents in mind.
-他还指出了一个结构性限制：GitHub 的 API 不断触碰配额上限，显然当初设计时根本没有考虑到 agent 的使用场景。
-
-Source: https://x.com/steipete/status/2040209434019082522 | https://x.com/steipete/status/2040298884787032103 | https://x.com/steipete/status/2040067429242675523
-
----
-
-**Dan Shipper (danshipper — CEO, Every)**
-
-近期无重要动态。(No substantive new content this cycle.)
-
----
-
-**Aditya Agarwal (adityaag — GP, South Park Commons; Co-founder, Bevel Health; ex-CTO Dropbox)**
-
-Aditya called out a $10B company (WHOOP) for suing Bevel Health over app "look and feel" — and responded by leaning into the mission: bringing great health to *everyone* for free, not resorting to lawfare.
-Aditya 公开批评一家市值 100 亿美元的公司（WHOOP）因应用"外观和感觉"起诉 Bevel Health——并以坚守使命回应：为*所有人*免费提供优质健康服务，而不是诉诸法律战。
-
-*"We will build, not resort to lawfare."*
-"我们选择继续构建，而不是诉诸法律战。"
-
-Source: https://x.com/adityaag/status/2040107083841053145
-
----
-
-**Claude AI (claudeai — Anthropic)**
-
-Microsoft 365 connectors are now available on every Claude plan — connect Outlook, OneDrive, and SharePoint to bring email, docs, and files directly into the Claude conversation.
-Microsoft 365 连接器现已面向所有 Claude 套餐开放——连接 Outlook、OneDrive 和 SharePoint，将邮件、文档和文件直接引入 Claude 对话。
-
-Source: https://x.com/claudeai/status/2040086268562842097
+Note: This episode was available via the No Priors YouTube channel. A direct video link was not available in the feed data; find the episode at https://www.youtube.com/@NoPriorsPodcast
+注：本期节目可通过 No Priors YouTube 频道获取。Feed 数据中未提供直接视频链接，请访问 https://www.youtube.com/@NoPriorsPodcast 查找该集。
 
 ---
 
