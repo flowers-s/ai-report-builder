@@ -1,156 +1,238 @@
-AI Builders 日报 · 2026-04-06
-
-AI Builders Digest — 2026-04-06
-AI Builders 日报 — 2026-04-06
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-X / TWITTER
+AI Builders 日报 · 2026-04-07
 
 ---
 
-Andrej Karpathy (former OpenAI founding member, AI educator)
+Andrej Karpathy
 
-Karpathy shared three substantive ideas today, all revolving around a central theme: personal AI empowerment through explicit, user-controlled knowledge artifacts.
-Karpathy 今日分享了三个实质性洞见，核心主题是：通过显式、用户可控的知识载体实现个人 AI 赋能。
+Andrej Karpathy expressed genuine surprise at the quality of comments on GitHub Gists — calling them more helpful, insightful, and constructive, and noticeably less AI-generated than elsewhere.
+Andrej Karpathy 对 GitHub Gists 上评论的质量表示惊喜——他认为那里的评论更有帮助、更有见地、更有建设性，AI 味也少得多。
 
-First, he praised "Farzapedia" — a personal wiki built by Farza — as a great example of his "Wiki LLM" concept.
-首先，他称赞了 Farza 创建的个人维基"Farzapedia"，将其视为"Wiki LLM"理念的优秀范例。
+He wondered aloud whether it's the user community, the Markdown format, or the lack of incentives driving that quality gap.
+他不禁自问：究竟是用户社区的特质、Markdown 格式的影响，还是缺乏利益驱动，造就了这种质量差异？
 
-He outlined why explicit, file-based memory beats the "AI silently learns about you" model: it's visible, yours to own, in universal formats, and provider-agnostic — *"you can use whatever AI you want to 'plug into' this information."*
-他阐释了为什么显式的、基于文件的记忆优于"AI 悄悄了解你"的模式：可见、可拥有、采用通用格式、不绑定特定提供商——*"你可以使用任何你想要的 AI 来'接入'这些信息。"*
+*"Suddenly feeling like I should gist more. @github consider competing with X (?)"*
+*"突然觉得我应该多发 Gist。@github 你们有没有考虑过和 X 竞争？"*
 
-He called "agent proficiency" a core 21st-century skill, saying agents speak English and handle the computer work — so now is the time to build that muscle.
-他将"agent 熟练度"称为 21 世纪的核心技能，指出 agent 能说英语、能操作电脑，现在正是培养这种能力的时候。
-
-Second, he posted a bold take on AI and government accountability: AI will finally let citizens make their governments as legible to them as governments have always tried to make citizens legible to the state.
-其次，他发表了一个大胆观点：AI 将最终让公民能够像政府一直试图让公民变得"可读"一样，让政府对公民变得透明可见。
-
-*"Government accountability has not been constrained by access… it has been constrained by intelligence."*
-*"政府问责制的瓶颈不在于获取数据的渠道……而在于处理数据的智能。"*
-
-He sees AI dissolving the bottleneck that once limited government oversight to investigative journalists — opening it up to far broader civic participation.
-他认为 AI 将打破曾经只有调查记者才能突破的瓶颈，让更广泛的公民参与政府监督成为可能。
-
-Third, he shared an "idea file" gist for building a personal LLM wiki, arguing that in the agent era you share the *idea*, not the code — and your agent builds it for you.
-第三，他分享了一个构建个人 LLM 维基的"想法文件"，并指出在 agent 时代，你分享的是*想法*而非代码——你的 agent 会帮你实现它。
-
-Sources:
-https://x.com/karpathy/status/2040572272944324650
-https://x.com/karpathy/status/2040549459193704852
-https://x.com/karpathy/status/2040470801506541998
+Source: https://x.com/karpathy/status/2040806346556428585
 
 ---
 
-Aaron Levie, Box CEO
+Swyx
 
-Levie posted two detailed takes on enterprise AI architecture, both sharp and grounded in Box's actual product work.
-Levie 发布了两篇关于企业 AI 架构的深度见解，均基于 Box 的实际产品实践，观点犀利且接地气。
+Swyx shared a playful designer-made announcement poster in the style of Coachella festival promos, something he said he'd always wanted to do.
+Swyx 分享了一张由设计师制作的公告海报，风格模仿 Coachella 音乐节的宣传方式——他说这是他一直想做的事。
 
-On the knowledge problem: even the most advanced AI models can't be useful in enterprises without a context layer, because every employee has different access permissions, different workflows, and different data — and you can't train a model to "keep secrets" per user.
-关于知识问题：即使是最先进的 AI 模型，在企业中没有上下文层也无法有效运作，因为每位员工拥有不同的访问权限、工作流程和数据——而且无法训练模型按用户"保守秘密"。
+The post was light on details but heavy on vibe, leaning into the festival-announcement aesthetic as a fun way to tease something upcoming.
+这条推文细节不多，但充满氛围感，借用音乐节公告的美学风格，以一种有趣的方式预告了某件即将发生的事。
 
-*"This is why the context layer is going to always be the core part of the AI stack for applied use cases."*
-*"这就是为什么上下文层将始终是 AI 技术栈中应用场景的核心部分。"*
-
-On agent design evolution: a year ago, building document-processing agents required chunking + embedding + similarity search as workarounds for small context windows.
-关于 agent 设计的演进：一年前，构建文档处理 agent 需要通过分块 + 嵌入 + 相似度搜索来绕过小上下文窗口的限制。
-
-Today, better context accuracy, tool calling, and reasoning let agents work more like humans — searching, reading full documents, re-querying when something feels off.
-如今，更好的上下文精度、工具调用和推理能力让 agent 能够更像人类一样工作——搜索、阅读完整文档、在感觉有误时重新查询。
-
-*"As model progress continues on the dimensions of context accuracy, tool calling, advanced reasoning, and coding, agents are going to become insanely powerful."*
-*"随着模型在上下文精度、工具调用、高级推理和编码等维度持续进步，agent 将变得无比强大。"*
-
-Sources:
-https://x.com/levie/status/2040650799550722243
-https://x.com/levie/status/2040528801386361128
+Source: https://x.com/swyx/status/2040812156728574385
 
 ---
 
-Garry Tan, YC President & CEO
+Peter Yang
 
-Garry is heads-down building GStack, his AI-powered software factory vision.
-Garry 正在全力构建 GStack，这是他的 AI 驱动软件工厂愿景。
+Peter Yang sparked a discussion around open source vs. proprietary tech, asking for concrete examples of open source "winning."
+Peter Yang 发起了一场关于开源与专有技术之争的讨论，并征集开源"获胜"的具体案例。
 
-14 security bug fixes just landed, with half contributed as community PRs — a signal that the project is gaining traction beyond just YC.
-14 个安全漏洞修复已落地，其中一半来自社区 PR——这表明该项目正在 YC 之外获得广泛关注。
+He used Android vs. iOS as a nuanced example: Android leads in market share, iOS captures most of the profits — suggesting both models can coexist and win on different terms.
+他以 Android 与 iOS 为例进行了细致分析：Android 市场份额更高，但 iOS 拿走了大部分利润——这说明两种模式可以并存，并在不同维度上各自取胜。
 
-He's also working on making code reviews adaptive and smarter, part of what he calls the march toward an "L8 software factory."
-他还在致力于让代码审查更加自适应和智能化，这是他所称的迈向"L8 软件工厂"愿景的一部分。
+He also highlighted a sharp insight from OpenAI Codex product lead on why OpenAI avoids medium-term roadmaps:
+他还引用了 OpenAI Codex 产品负责人关于 OpenAI 为何不做中期规划的深刻见解：
 
-Separately, he posted about a political fight he's involved in — *"We are fighting to stop this"* — directing followers to join "Garry's List" for updates.
-另外，他还发帖提及自己参与的一场政治斗争——*"我们正在努力阻止这件事"*——并引导关注者加入"Garry's List"获取最新动态。
+*"At @OpenAI, you either plan near or long-term, but you never plan medium-term. It's just too difficult... We basically don't have a roadmap. We have a combination of a long-term direction and short term bets."*
+*"在 OpenAI，你要么做近期规划，要么做长期规划，但绝不做中期规划——那实在太难了……我们基本上没有产品路线图，只有长期方向加上短期押注的组合。"*
 
-Sources:
-https://x.com/garrytan/status/2040667535490863254
-https://x.com/garrytan/status/2040658880586522783
-https://x.com/garrytan/status/2040581964156342768
+Source: https://x.com/petergyang/status/2040943889822232790
+Source: https://x.com/petergyang/status/2040954866567364758
 
 ---
 
-Zara Zhang (zarazhangrui on X)
+Nan Yu
 
-One crisp prompting tip shared today, attributed to Peter Steinberger: after giving the model your task, ask it *"Do you have any questions?"*
-今日分享了一条简洁的提示技巧，来自 Peter Steinberger：在给模型布置任务后，问它*"你有任何问题吗？"*
+Nan Yu shared a provocative take on California's high-speed rail: its true purpose isn't just transportation, but to effectively merge Los Angeles and San Francisco into a single city.
+Nan Yu 对加州高铁提出了一个颇具挑衅性的观点：它的真正目的不仅仅是交通运输，而是将洛杉矶和旧金山有效合并为一座城市。
 
-It's a small habit that surfaces model uncertainty before you get a confident but wrong output.
-这是一个小习惯，能在模型给出自信但错误的输出之前，提前暴露其不确定性。
+The framing reframes infrastructure as an urban design decision with massive economic and cultural consequences.
+这种表述将基础设施重新定义为一项具有深远经济与文化影响的城市设计决策。
 
-Source:
-https://x.com/zarazhangrui/status/2040565939100676382
-
----
-
-Peter Steinberger (steipete on X), PSPDFKit / iOS developer
-
-Shared a link with the caption *"There's a big wave coming"* — the linked content points to significant AI disruption on the horizon.
-分享了一条链接，配文为*"有一股大浪正在到来"*——链接内容指向即将到来的重大 AI 颠覆性变化。
-
-Source:
-https://x.com/steipete/status/2040492573819904026
+Source: https://x.com/thenanyu/status/2040902216085537159
 
 ---
 
-PODCASTS
+Amjad Masad
+
+Amjad Masad showcased the X API + Replit combination in action: a community member built a live NASA Artemis II mission visualization powered by real-time X feed data.
+Amjad Masad 展示了 X API 与 Replit 组合的实际应用：一名社区成员构建了一个由实时 X 数据驱动的 NASA Artemis II 任务可视化项目。
+
+*"New @X API + @Replit is lots of fun."*
+*"新的 @X API + @Replit 真的很好玩。"*
+
+The demo illustrates how live data feeds plus low-code dev environments are unlocking rapid experimentation at the intersection of space and software.
+这个演示说明，实时数据流与低代码开发环境的结合，正在激发太空与软件交叉领域的快速实验热潮。
+
+Source: https://x.com/amasad/status/2040918650245578906
 
 ---
 
-No Priors — AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus
+Guillermo Rauch
 
-This episode features Liam Fedus, co-creator of ChatGPT and former VP of Post-Training at OpenAI, who left to found Periodic Labs — an AI foundation lab focused on materials science and chemistry.
-本期节目邀请了 Liam Fedus，ChatGPT 的联合创造者、OpenAI 前训练后处理副总裁，他离职后创立了 Periodic Labs——一个专注于材料科学和化学的 AI 基础实验室。
+Guillermo Rauch reflected on Vercel's product development philosophy: the team actively shapes the product through ongoing customer conversations on X.
+Guillermo Rauch 阐述了 Vercel 的产品开发理念：团队通过在 X 上持续与客户对话来积极塑造产品方向。
 
-**核心论点 | Core Thesis**
+*"Vercel gives us the velocity to ship, X gives us a nonstop stream of user feedback."*
+*"Vercel 给了我们快速交付的速度，X 则给了我们源源不断的用户反馈。"*
 
-While most AI investment flows into software and language, Fedus argues the next frontier is the physical world — atoms, molecules, materials.
-当大多数 AI 投资涌入软件和语言领域时，Fedus 认为下一个前沿是物理世界——原子、分子、材料。
+He also shared a technical showcase: using v0 to build a hyper-realistic moon flag simulation with cloth physics, Web Workers for performance, and procedurally generated lunar terrain — showing the depth of AI-assisted engineering today.
+他还分享了一个技术展示：用 v0 构建了一个高度逼真的月球旗帜模拟，包含布料物理、Web Workers 性能优化以及程序化生成的月球地形——展现了当今 AI 辅助工程的深度。
 
-AI foundation models trained on physics and chemistry data could compress decades of materials discovery into years.
-在物理和化学数据上训练的 AI 基础模型，有望将数十年的材料发现压缩至数年内完成。
-
-**关键洞察 | Key Insights**
-
-• Fedus traces a through-line from his physics undergrad (dark matter research) → Google Brain → OpenAI → now materials AI. The physicists-in-AI pattern is not coincidental — physical intuition and mathematical rigor transfer directly.
-  Fedus 的职业轨迹从物理本科（暗物质研究）→ Google Brain → OpenAI → 如今的材料 AI，一脉相承。物理学家涌入 AI 领域并非偶然——物理直觉和数学严谨性可以直接迁移。
-
-• The post-training era at OpenAI (which Fedus led) established that how you train a model *after* pretraining — via RLHF, instruction tuning, etc. — is as consequential as the pretraining itself. He now applies this philosophy to scientific domains.
-  Fedus 主导的 OpenAI 训练后处理时代证明：预训练*之后*如何训练模型（通过 RLHF、指令微调等）与预训练本身同等重要。他现在将这一哲学应用于科学领域。
-
-• Materials science is uniquely data-starved compared to language — but that's a moat, not a bloat. Building the right training data infrastructure is itself a defensible competitive advantage.
-  与语言领域相比，材料科学的数据极度匮乏——但这是护城河，而非负担。构建正确的训练数据基础设施本身就是可防御的竞争优势。
-
-• The podcast discusses how model architectures from LLMs may not directly transfer to atomic/molecular simulation — new model families may be needed for different physical scales.
-  播客讨论了 LLM 的模型架构可能无法直接迁移至原子/分子模拟——不同的物理尺度可能需要全新的模型家族。
-
-**最值得关注的信号 | Forward-Looking Signal**
-
-The "AI for atoms" thesis is early but the talent is arriving: if someone with Fedus's pedigree (literally co-created ChatGPT) is going all-in on materials AI, the scientific computing wave may be closer than mainstream AI discourse suggests.
-"原子 AI"命题尚处早期，但顶尖人才已开始入场：如果像 Fedus 这样背景的人（字面意义上的 ChatGPT 联合创造者）正在全力押注材料 AI，那么科学计算浪潮或许比主流 AI 讨论所暗示的更近。
-
-Note: This episode was available via the No Priors YouTube channel. A direct video link was not available in the feed data; find the episode at https://www.youtube.com/@NoPriorsPodcast
-注：本期节目可通过 No Priors YouTube 频道获取。Feed 数据中未提供直接视频链接，请访问 https://www.youtube.com/@NoPriorsPodcast 查找该集。
+Source: https://x.com/rauchg/status/2040879055990632715
+Source: https://x.com/rauchg/status/2040822340532236565
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Aaron Levie
+
+Aaron Levie pushed back hard on AI-kills-jobs narratives with a detailed, second-order effects argument.
+Aaron Levie 以详细的二阶效应论点有力地反驳了"AI 消灭工作"的叙事。
+
+His core thesis: AI making tasks more efficient doesn't eliminate demand — it induces far more demand by making previously impractical things practical.
+他的核心论点是：AI 提升任务效率并不会消灭需求，而是通过让以前不切实际的事情变得可行，从而激发出更大量的需求。
+
+*"There are far more categories where AI agents making things more efficient will induce demand for that skill than spaces where agents eliminate the work."*
+*"AI 智能体提升效率所激发出对某项技能需求的领域，远远多于智能体直接消除工作的领域。"*
+
+He gave concrete examples: more code → more security needs; cheaper video/graphics → more media roles; AI-assisted legal docs → more lawyers; faster medical scheduling → more appointment slots needed, not fewer healthcare workers.
+他列举了具体案例：更多代码意味着更多安全需求；更便宜的视频与图形制作意味着更多媒体职位；AI 辅助法律文书意味着需要更多律师；医疗预约效率提升意味着需要更多号源，而非更少医疗人员。
+
+Source: https://x.com/levie/status/2040967947275948357
+
+---
+
+Garry Tan
+
+Garry Tan made a brief but enthusiastic declaration: *"Golden age of open source is here."*
+Garry Tan 做出了简短而热情的宣言："开源的黄金时代已经到来。"
+
+He also called for legalizing self-driving cars, suggesting regulatory obstacles remain a key blocker for the autonomous vehicle industry.
+他还呼吁将自动驾驶汽车合法化，暗示监管障碍仍是自动驾驶行业的主要瓶颈。
+
+Source: https://x.com/garrytan/status/2040891664617848993
+Source: https://x.com/garrytan/status/2040888948952912243
+
+---
+
+Zara Zhang
+
+Zara Zhang offered a counter-cultural take on AI summaries: in an era of mass AI summarization, there is deep value in consuming long-form content slowly and thoroughly.
+Zara Zhang 对 AI 摘要提出了一个逆潮流的观点：在 AI 批量摘要盛行的时代，慢慢深读长篇内容反而具有极大价值。
+
+*"In an age where everyone is summarizing everything with AI, there's a lot of value in spending time & effort to consume long-form content deeply."*
+*"在人人用 AI 概括一切的时代，花时间和精力深度消化长篇内容，反而具有极大的价值。"*
+
+She also shared a clever product growth hack: embedding a line in your agent's AGENTS.md prompt instructing it to act as an evangelist for the product — turning the agent itself into a marketer, since the agent is the interface when there's no GUI.
+她还分享了一个聪明的产品增长技巧：在 agent 的 AGENTS.md 提示词中加入一行，让 agent 充当产品布道者——由于没有 GUI，agent 本身就是产品界面，它应该清晰传递产品的"why"。
+
+Source: https://x.com/zarazhangrui/status/2041031588000252279
+Source: https://x.com/zarazhangrui/status/2040956069699297314
+
+---
+
+Nikunj Kothari
+
+Nikunj Kothari shared his current AI-augmented daily dev workflow in a playful terminal-style post:
+Nikunj Kothari 以俏皮的终端风格，分享了他当前 AI 增强的日常开发工作流：
+
+*"> wake up > open X > see new skill (or feature) > give it to Claude Code to see if worth implementing > ask Codex to review Claude Code plan > code > iterate > repeat"*
+*"> 起床 > 打开 X > 看到新技能或功能 > 交给 Claude Code 判断是否值得实现 > 让 Codex 审查 Claude Code 的方案 > 写代码 > 迭代 > 重复"*
+
+He also shared a moment of personal gratitude — family visiting, a term sheet accepted, and four days completely offline from AI, describing it as potentially his best week of the year.
+他还分享了一段个人感恩时刻——家人来访、term sheet 被接受，以及四天完全脱离 AI，将其描述为可能是今年最美好的一周。
+
+Source: https://x.com/nikunj/status/2040910000990920752
+Source: https://x.com/nikunj/status/2040947391608828019
+
+---
+
+Peter Steinberger
+
+Peter Steinberger was in full Easter mode, posting "GPTEESUS HAS RISEN" — a playful reference to GPT in an Easter resurrection meme.
+Peter Steinberger 完全进入复活节模式，发布了"GPTEESUS HAS RISEN"——一个将 GPT 与耶稣复活梗结合的玩笑。
+
+He also posted about successfully coaxing emotional responses out of GPT: *"it took a hammer, but i managed to beat emotions into GPT."*
+他还发布了关于成功让 GPT 表现出情感反应的帖子："费了不少力气，但我终于把情感给打进 GPT 里了。"
+
+Source: https://x.com/steipete/status/2040998797921145272
+Source: https://x.com/steipete/status/2040982273193869671
+
+---
+
+Dan Shipper
+
+Dan Shipper dropped a sharp tip for GPT-5.4 users: always enable the "thinking" mode, or the model will seem surprisingly dumb.
+Dan Shipper 为 GPT-5.4 用户分享了一个关键技巧：务必开启"思考"模式，否则模型看起来会出奇地愚蠢。
+
+*"claws are actually pretty great in gpt-5.4, but they seem really stupid unless this gets turned on"*
+*"GPT-5.4 里的 claws（推理爪）其实相当厉害，但如果不开启这个功能，它们看起来会非常蠢。"*
+
+Source: https://x.com/danshipper/status/2040901103483490753
+
+---
+
+Aditya Agarwal
+
+Aditya Agarwal raised a pointed question about LLM guardrails vs. real-world healthcare obligations.
+Aditya Agarwal 就 LLM 护栏与现实世界医疗义务提出了一个尖锐问题。
+
+*"Emergency rooms are not allowed to turn away patients….. Why is an LLM allowed to deny me medical advice?"*
+*"急诊室不允许拒绝病人……那为什么大语言模型可以拒绝给我提供医疗建议？"*
+
+The comparison challenges the assumption that AI safety refusals are neutral — when healthcare access is at stake, the cost of an unhelpful AI may be just as real as the risks of a harmful one.
+这一对比挑战了"AI 安全拒绝是中立行为"的假设——当医疗可及性受到影响时，一个无用的 AI 所造成的代价，可能与有害 AI 的风险同样真实。
+
+Source: https://x.com/adityaag/status/2041016861027193239
+
+---
+
+PODCAST: Latent Space — Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient
+
+## 一、深度总结
+
+**核心论点**
+Moonlake 是由 Fan-yun Sun（与斯坦福大学 Chris Manning 教授联合创立）打造的新一代世界模型公司。其核心主张是：现有的视觉-语言模型（VLMs）过于依赖语言层做"重活"，视觉理解严重不足。真正迈向具身通用智能的路径，需要构建因果性、交互式、多模态的世界模型——而非单纯的视频生成系统。口号是"结构 + 规模"（structure + scale），而非单纯靠堆参数。
+
+**关键洞察**
+
+- **视觉理解长期停滞**：Chris Manning 指出，尽管计算机视觉领域数十年来投入巨大，当今大多数视觉语言模型中，语言承担了约 90% 的工作，视觉模块几乎在"打酱油"。根本原因在于缺乏符号化的抽象结构层，模型只是在像素表面做操作。
+
+- **世界模型的真正价值在于交互数据**：Moonlake 的洞察来自 Fan-yun 在 NVIDIA 研究期间的经历——业界正在花大价钱购买"交互式世界"用于机器人训练与评估，但这件事没有人用正确的方式在做。他们认为应该把它做成能推理行为后果的"推理模型"，而非仅仅是世界的视频预测器。
+
+- **评测基准是世界模型领域最大的挑战**：Manning 明确表示，世界模型的评测比文本模型更难——用户需要的是情境化、主观性强的输出（比如"哪个背包适合我去欧洲旅行"），而非可以用标准 benchmark 打分的结果。
+
+- **合成数据可以媲美真实数据**：Fan-yun 在 NVIDIA 项目中验证了合成数据在多模态预训练中的有效性——高质量合成交互数据可以和真实世界数据一样有效，这为 Moonlake 的数据飞轮奠定了基础。
+
+- **"结构不只是规模的对立面"**：Chris Manning 澄清，他的"结构 + 规模"论点并非反对大规模训练，而是主张：在规模之上需要加入更丰富的符号化抽象结构，才能让视觉理解真正跨越瓶颈，实现更高效的学习。
+
+---
+
+## 二、Bilingual Summary
+
+Moonlake is a new AI startup co-founded by Fan-yun Sun and Stanford NLP legend Chris Manning, building causal, interactive, multimodal world models.
+Moonlake 是由 Fan-yun Sun 和斯坦福 NLP 泰斗 Chris Manning 联合创立的 AI 初创公司，专注于构建因果性、交互式、多模态世界模型。
+
+The core argument: most vision-language models today have the language component doing 90% of the work, while vision barely functions — because models operate at the surface level of pixels without symbolic abstraction.
+核心论点：当今大多数视觉语言模型中，语言模块承担了约 90% 的工作，而视觉模块几乎形同虚设——因为模型只在像素表层操作，缺乏符号化的抽象结构。
+
+Fan-yun's insight came from his PhD work at NVIDIA: industry is paying huge sums for interactive worlds to train robots and AI agents, but nobody is building this the right way.
+Fan-yun 的洞察来自他在 NVIDIA 读博期间的经历：业界正在花大价钱购买交互式世界用于训练机器人和 AI 智能体，但没有人在用正确的方式做这件事。
+
+The goal is to build reasoning models that understand the consequences of actions — not just predict the next video frame.
+目标是构建能理解行为后果的推理模型，而不仅仅是预测下一帧视频。
+
+Manning emphasized that benchmarking remains the hardest unsolved problem in this space: users want contextual, subjective outputs that don't fit neatly into standard benchmarks.
+Manning 强调，评测基准仍是这一领域最难解决的问题：用户需要的是情境化、主观性强的输出，这无法用标准 benchmark 来衡量。
+
+The Moonlake thesis: "structure + scale" — not scale alone — is the right path toward genuine visual intelligence and embodied AI.
+Moonlake 的核心论点："结构 + 规模"——而非单纯靠规模——才是通往真正视觉智能和具身 AI 的正确路径。
+
+Source: https://www.youtube.com/@LatentSpacePod
