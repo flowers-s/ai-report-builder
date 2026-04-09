@@ -1,238 +1,230 @@
-AI Builders 日报 · 2026-04-07
+AI Builders 日报 · 2026-04-09
 
 ---
 
-Andrej Karpathy
-
-Andrej Karpathy expressed genuine surprise at the quality of comments on GitHub Gists — calling them more helpful, insightful, and constructive, and noticeably less AI-generated than elsewhere.
-Andrej Karpathy 对 GitHub Gists 上评论的质量表示惊喜——他认为那里的评论更有帮助、更有见地、更有建设性，AI 味也少得多。
-
-He wondered aloud whether it's the user community, the Markdown format, or the lack of incentives driving that quality gap.
-他不禁自问：究竟是用户社区的特质、Markdown 格式的影响，还是缺乏利益驱动，造就了这种质量差异？
-
-*"Suddenly feeling like I should gist more. @github consider competing with X (?)"*
-*"突然觉得我应该多发 Gist。@github 你们有没有考虑过和 X 竞争？"*
-
-Source: https://x.com/karpathy/status/2040806346556428585
+## X / TWITTER
 
 ---
 
-Swyx
+**Sam Altman (sama on X) — OpenAI CEO**
 
-Swyx shared a playful designer-made announcement poster in the style of Coachella festival promos, something he said he'd always wanted to do.
-Swyx 分享了一张由设计师制作的公告海报，风格模仿 Coachella 音乐节的宣传方式——他说这是他一直想做的事。
+To celebrate 3 million weekly Codex users, OpenAI is resetting usage limits, and will do so for every additional million users up to 10 million.
+为庆祝 Codex 每周用户突破 300 万，OpenAI 宣布重置使用限额，并承诺每新增 100 万用户就重置一次，直至达到 1000 万用户为止。
 
-The post was light on details but heavy on vibe, leaning into the festival-announcement aesthetic as a fun way to tease something upcoming.
-这条推文细节不多，但充满氛围感，借用音乐节公告的美学风格，以一种有趣的方式预告了某件即将发生的事。
+*"To celebrate 3 million weekly codex users, we are resetting usage limits. We will do this every million users up to 10 million. Happy building!"*
 
-Source: https://x.com/swyx/status/2040812156728574385
-
----
-
-Peter Yang
-
-Peter Yang sparked a discussion around open source vs. proprietary tech, asking for concrete examples of open source "winning."
-Peter Yang 发起了一场关于开源与专有技术之争的讨论，并征集开源"获胜"的具体案例。
-
-He used Android vs. iOS as a nuanced example: Android leads in market share, iOS captures most of the profits — suggesting both models can coexist and win on different terms.
-他以 Android 与 iOS 为例进行了细致分析：Android 市场份额更高，但 iOS 拿走了大部分利润——这说明两种模式可以并存，并在不同维度上各自取胜。
-
-He also highlighted a sharp insight from OpenAI Codex product lead on why OpenAI avoids medium-term roadmaps:
-他还引用了 OpenAI Codex 产品负责人关于 OpenAI 为何不做中期规划的深刻见解：
-
-*"At @OpenAI, you either plan near or long-term, but you never plan medium-term. It's just too difficult... We basically don't have a roadmap. We have a combination of a long-term direction and short term bets."*
-*"在 OpenAI，你要么做近期规划，要么做长期规划，但绝不做中期规划——那实在太难了……我们基本上没有产品路线图，只有长期方向加上短期押注的组合。"*
-
-Source: https://x.com/petergyang/status/2040943889822232790
-Source: https://x.com/petergyang/status/2040954866567364758
+https://x.com/sama/status/2041658719839383945
 
 ---
 
-Nan Yu
+**Alex Albert (alexalbert__ on X) — Anthropic Research**
 
-Nan Yu shared a provocative take on California's high-speed rail: its true purpose isn't just transportation, but to effectively merge Los Angeles and San Francisco into a single city.
-Nan Yu 对加州高铁提出了一个颇具挑衅性的观点：它的真正目的不仅仅是交通运输，而是将洛杉矶和旧金山有效合并为一座城市。
+Anthropic has announced Claude Mythos Preview, a new model described as possibly the most consequential event in AI since Alex joined the company nearly three years ago.
+Anthropic 发布了 Claude Mythos Preview 新模型，Alex Albert 称这是他加入 Anthropic 近三年来见证的最具历史意义的 AI 时刻。
 
-The framing reframes infrastructure as an urban design decision with massive economic and cultural consequences.
-这种表述将基础设施重新定义为一项具有深远经济与文化影响的城市设计决策。
+*"Glasswing is possibly the most consequential event in the AI industry I've seen up close since joining Anthropic almost 3 years ago. It feels like we're at a turning point in history."*
 
-Source: https://x.com/thenanyu/status/2040902216085537159
+The model is currently available to launch partners in Project Glasswing.
+该模型目前已向 Project Glasswing 的发布合作伙伴开放。
 
----
-
-Amjad Masad
-
-Amjad Masad showcased the X API + Replit combination in action: a community member built a live NASA Artemis II mission visualization powered by real-time X feed data.
-Amjad Masad 展示了 X API 与 Replit 组合的实际应用：一名社区成员构建了一个由实时 X 数据驱动的 NASA Artemis II 任务可视化项目。
-
-*"New @X API + @Replit is lots of fun."*
-*"新的 @X API + @Replit 真的很好玩。"*
-
-The demo illustrates how live data feeds plus low-code dev environments are unlocking rapid experimentation at the intersection of space and software.
-这个演示说明，实时数据流与低代码开发环境的结合，正在激发太空与软件交叉领域的快速实验热潮。
-
-Source: https://x.com/amasad/status/2040918650245578906
+https://x.com/alexalbert__/status/2041579938537775160
+https://x.com/alexalbert__/status/2041578743769280811
+https://x.com/alexalbert__/status/2041579950332113155
 
 ---
 
-Guillermo Rauch
+**Kevin Weil (kevinweil on X) — OpenAI VP of Science**
 
-Guillermo Rauch reflected on Vercel's product development philosophy: the team actively shapes the product through ongoing customer conversations on X.
-Guillermo Rauch 阐述了 Vercel 的产品开发理念：团队通过在 X 上持续与客户对话来积极塑造产品方向。
+OpenAI launched Paper Review, a new AI tool built on Codex that functions as a careful technical reviewer — checking for issues in math, derivations, notation, units, and whether claims are actually supported.
+OpenAI 推出了 Paper Review 工具，基于 Codex 构建，能像严格的技术审稿人一样检查论文中的数学推导、符号标注、单位及论点支撑等问题，而不只是做语法校正。
 
-*"Vercel gives us the velocity to ship, X gives us a nonstop stream of user feedback."*
-*"Vercel 给了我们快速交付的速度，X 则给了我们源源不断的用户反馈。"*
+The tool was built by Hemal as a simple skill in a few hours, showcasing how Codex enables rapid product development.
+该工具由工程师 Hemal 仅用数小时构建完成，充分展示了 Codex 赋能快速产品开发的能力。
 
-He also shared a technical showcase: using v0 to build a hyper-realistic moon flag simulation with cloth physics, Web Workers for performance, and procedurally generated lunar terrain — showing the depth of AI-assisted engineering today.
-他还分享了一个技术展示：用 v0 构建了一个高度逼真的月球旗帜模拟，包含布料物理、Web Workers 性能优化以及程序化生成的月球地形——展现了当今 AI 辅助工程的深度。
+You can try it at https://prism.openai.com today.
+你现在可以在 https://prism.openai.com 上体验。
 
-Source: https://x.com/rauchg/status/2040879055990632715
-Source: https://x.com/rauchg/status/2040822340532236565
-
----
-
-Aaron Levie
-
-Aaron Levie pushed back hard on AI-kills-jobs narratives with a detailed, second-order effects argument.
-Aaron Levie 以详细的二阶效应论点有力地反驳了"AI 消灭工作"的叙事。
-
-His core thesis: AI making tasks more efficient doesn't eliminate demand — it induces far more demand by making previously impractical things practical.
-他的核心论点是：AI 提升任务效率并不会消灭需求，而是通过让以前不切实际的事情变得可行，从而激发出更大量的需求。
-
-*"There are far more categories where AI agents making things more efficient will induce demand for that skill than spaces where agents eliminate the work."*
-*"AI 智能体提升效率所激发出对某项技能需求的领域，远远多于智能体直接消除工作的领域。"*
-
-He gave concrete examples: more code → more security needs; cheaper video/graphics → more media roles; AI-assisted legal docs → more lawyers; faster medical scheduling → more appointment slots needed, not fewer healthcare workers.
-他列举了具体案例：更多代码意味着更多安全需求；更便宜的视频与图形制作意味着更多媒体职位；AI 辅助法律文书意味着需要更多律师；医疗预约效率提升意味着需要更多号源，而非更少医疗人员。
-
-Source: https://x.com/levie/status/2040967947275948357
+https://x.com/kevinweil/status/2041573802212303053
+https://x.com/kevinweil/status/2041573804145799346
+https://x.com/kevinweil/status/2041592093718749659
 
 ---
 
-Garry Tan
+**Cat Wu (_catwu on X) — Anthropic, Claude Code**
 
-Garry Tan made a brief but enthusiastic declaration: *"Golden age of open source is here."*
-Garry Tan 做出了简短而热情的宣言："开源的黄金时代已经到来。"
+Cat shared a tip: run /powerup in Claude Code CLI to discover the team's favorite power features.
+Cat 分享了一个实用技巧：在 Claude Code CLI 中运行 /powerup，即可解锁团队最喜爱的强大功能。
 
-He also called for legalizing self-driving cars, suggesting regulatory obstacles remain a key blocker for the autonomous vehicle industry.
-他还呼吁将自动驾驶汽车合法化，暗示监管障碍仍是自动驾驶行业的主要瓶颈。
-
-Source: https://x.com/garrytan/status/2040891664617848993
-Source: https://x.com/garrytan/status/2040888948952912243
+https://x.com/_catwu/status/2041655441864978552
 
 ---
 
-Zara Zhang
+**Thariq (trq212 on X) — Anthropic, Claude Code**
 
-Zara Zhang offered a counter-cultural take on AI summaries: in an era of mass AI summarization, there is deep value in consuming long-form content slowly and thoroughly.
-Zara Zhang 对 AI 摘要提出了一个逆潮流的观点：在 AI 批量摘要盛行的时代，慢慢深读长篇内容反而具有极大价值。
+After reviewing 10+ user calls and transcripts, Thariq found that open-ended verification loops burn a lot of tokens without actually increasing confidence — a key lesson for building efficient AI agents.
+Thariq 在分析了超过 10 次用户通话和记录后发现，开放式验证循环会消耗大量 Token，却并不能真正提升可信度——这是构建高效 AI Agent 的重要教训。
 
-*"In an age where everyone is summarizing everything with AI, there's a lot of value in spending time & effort to consume long-form content deeply."*
-*"在人人用 AI 概括一切的时代，花时间和精力深度消化长篇内容，反而具有极大的价值。"*
+*"It's very easy to spend a lot of tokens on open ended verification that doesn't make you more confident."*
 
-She also shared a clever product growth hack: embedding a line in your agent's AGENTS.md prompt instructing it to act as an evangelist for the product — turning the agent itself into a marketer, since the agent is the interface when there's no GUI.
-她还分享了一个聪明的产品增长技巧：在 agent 的 AGENTS.md 提示词中加入一行，让 agent 充当产品布道者——由于没有 GUI，agent 本身就是产品界面，它应该清晰传递产品的"why"。
+He's also hosting a technical writing workshop in SF in two weeks, co-hosted with swyx.
+他还将在两周后与 swyx 在旧金山联合举办一场技术写作工作坊。
 
-Source: https://x.com/zarazhangrui/status/2041031588000252279
-Source: https://x.com/zarazhangrui/status/2040956069699297314
-
----
-
-Nikunj Kothari
-
-Nikunj Kothari shared his current AI-augmented daily dev workflow in a playful terminal-style post:
-Nikunj Kothari 以俏皮的终端风格，分享了他当前 AI 增强的日常开发工作流：
-
-*"> wake up > open X > see new skill (or feature) > give it to Claude Code to see if worth implementing > ask Codex to review Claude Code plan > code > iterate > repeat"*
-*"> 起床 > 打开 X > 看到新技能或功能 > 交给 Claude Code 判断是否值得实现 > 让 Codex 审查 Claude Code 的方案 > 写代码 > 迭代 > 重复"*
-
-He also shared a moment of personal gratitude — family visiting, a term sheet accepted, and four days completely offline from AI, describing it as potentially his best week of the year.
-他还分享了一段个人感恩时刻——家人来访、term sheet 被接受，以及四天完全脱离 AI，将其描述为可能是今年最美好的一周。
-
-Source: https://x.com/nikunj/status/2040910000990920752
-Source: https://x.com/nikunj/status/2040947391608828019
+https://x.com/trq212/status/2041722125510377705
+https://x.com/trq212/status/2041677067117588871
 
 ---
 
-Peter Steinberger
+**Guillermo Rauch (rauchg on X) — Vercel CEO**
 
-Peter Steinberger was in full Easter mode, posting "GPTEESUS HAS RISEN" — a playful reference to GPT in an Easter resurrection meme.
-Peter Steinberger 完全进入复活节模式，发布了"GPTEESUS HAS RISEN"——一个将 GPT 与耶稣复活梗结合的玩笑。
+Guillermo spoke at Y Combinator and expressed strong conviction about the current moment for building.
+Guillermo 在 Y Combinator 发表演讲，对当前创业建设的时代机遇表达了极大热情。
 
-He also posted about successfully coaxing emotional responses out of GPT: *"it took a hammer, but i managed to beat emotions into GPT."*
-他还发布了关于成功让 GPT 表现出情感反应的帖子："费了不少力气，但我终于把情感给打进 GPT 里了。"
+*"More bullish than ever. Exceptional founders. Best city, best time, best opportunity to build in generations."*
 
-Source: https://x.com/steipete/status/2040998797921145272
-Source: https://x.com/steipete/status/2040982273193869671
+https://x.com/rauchg/status/2041720266154504351
 
 ---
 
-Dan Shipper
+**Aaron Levie (levie on X) — Box CEO**
 
-Dan Shipper dropped a sharp tip for GPT-5.4 users: always enable the "thinking" mode, or the model will seem surprisingly dumb.
-Dan Shipper 为 GPT-5.4 用户分享了一个关键技巧：务必开启"思考"模式，否则模型看起来会出奇地愚蠢。
+Aaron commented that Anthropic's Claude Mythos is a clear signal there's no ceiling on model capability progress right now, with meaningful double-digit benchmark gains.
+Aaron 指出，Anthropic 的 Claude Mythos 再次证明当前模型能力提升没有天花板，在关键基准测试上取得了明显的两位数增长。
 
-*"claws are actually pretty great in gpt-5.4, but they seem really stupid unless this gets turned on"*
-*"GPT-5.4 里的 claws（推理爪）其实相当厉害，但如果不开启这个功能，它们看起来会非常蠢。"*
+*"Mythos from Anthropic is another clear reminder that there's absolutely no wall in model capability progress right now."*
 
-Source: https://x.com/danshipper/status/2040901103483490753
+He also argued that the same AI agent productivity gains seen in coding are now moving into the broader knowledge economy.
+他还指出，AI Agent 在编程领域带来的生产力提升，正在向整个知识经济领域扩展。
 
----
-
-Aditya Agarwal
-
-Aditya Agarwal raised a pointed question about LLM guardrails vs. real-world healthcare obligations.
-Aditya Agarwal 就 LLM 护栏与现实世界医疗义务提出了一个尖锐问题。
-
-*"Emergency rooms are not allowed to turn away patients….. Why is an LLM allowed to deny me medical advice?"*
-*"急诊室不允许拒绝病人……那为什么大语言模型可以拒绝给我提供医疗建议？"*
-
-The comparison challenges the assumption that AI safety refusals are neutral — when healthcare access is at stake, the cost of an unhelpful AI may be just as real as the risks of a harmful one.
-这一对比挑战了"AI 安全拒绝是中立行为"的假设——当医疗可及性受到影响时，一个无用的 AI 所造成的代价，可能与有害 AI 的风险同样真实。
-
-Source: https://x.com/adityaag/status/2041016861027193239
+https://x.com/levie/status/2041732610179703100
+https://x.com/levie/status/2041512156693201176
 
 ---
 
-PODCAST: Latent Space — Moonlake: Causal World Models should be Multimodal, Interactive, and Efficient
+**Nan Yu (thenanyu on X) — Head of Product, Linear**
 
-## 一、深度总结
+Nan shared a key product management observation: designers and engineers tend to jump straight into building when asked to think through product problems — the IDE or Figma tool needs to be taken away first to get genuine strategic thinking.
+Nan 分享了一个产品管理洞察：当被要求思考产品问题时，设计师和工程师往往会直接跳入执行层——必须先把 IDE 或 Figma 拿走，才能引导出真正的战略思考。
 
-**核心论点**
-Moonlake 是由 Fan-yun Sun（与斯坦福大学 Chris Manning 教授联合创立）打造的新一代世界模型公司。其核心主张是：现有的视觉-语言模型（VLMs）过于依赖语言层做"重活"，视觉理解严重不足。真正迈向具身通用智能的路径，需要构建因果性、交互式、多模态的世界模型——而非单纯的视频生成系统。口号是"结构 + 规模"（structure + scale），而非单纯靠堆参数。
-
-**关键洞察**
-
-- **视觉理解长期停滞**：Chris Manning 指出，尽管计算机视觉领域数十年来投入巨大，当今大多数视觉语言模型中，语言承担了约 90% 的工作，视觉模块几乎在"打酱油"。根本原因在于缺乏符号化的抽象结构层，模型只是在像素表面做操作。
-
-- **世界模型的真正价值在于交互数据**：Moonlake 的洞察来自 Fan-yun 在 NVIDIA 研究期间的经历——业界正在花大价钱购买"交互式世界"用于机器人训练与评估，但这件事没有人用正确的方式在做。他们认为应该把它做成能推理行为后果的"推理模型"，而非仅仅是世界的视频预测器。
-
-- **评测基准是世界模型领域最大的挑战**：Manning 明确表示，世界模型的评测比文本模型更难——用户需要的是情境化、主观性强的输出（比如"哪个背包适合我去欧洲旅行"），而非可以用标准 benchmark 打分的结果。
-
-- **合成数据可以媲美真实数据**：Fan-yun 在 NVIDIA 项目中验证了合成数据在多模态预训练中的有效性——高质量合成交互数据可以和真实世界数据一样有效，这为 Moonlake 的数据飞轮奠定了基础。
-
-- **"结构不只是规模的对立面"**：Chris Manning 澄清，他的"结构 + 规模"论点并非反对大规模训练，而是主张：在规模之上需要加入更丰富的符号化抽象结构，才能让视觉理解真正跨越瓶颈，实现更高效的学习。
+https://x.com/thenanyu/status/2041495924682244275
 
 ---
 
-## 二、Bilingual Summary
+**Ryo Lu (ryolu_ on X) — Designer at Cursor**
 
-Moonlake is a new AI startup co-founded by Fan-yun Sun and Stanford NLP legend Chris Manning, building causal, interactive, multimodal world models.
-Moonlake 是由 Fan-yun Sun 和斯坦福 NLP 泰斗 Chris Manning 联合创立的 AI 初创公司，专注于构建因果性、交互式、多模态世界模型。
+Ryo shared a demo of a new Cursor interaction: no extra buttons — just click, draw, and chat, staying fully in flow.
+Ryo 展示了 Cursor 的新交互方式：无需额外按钮，只需点击、绘制、对话，完全沉浸在心流状态中。
 
-The core argument: most vision-language models today have the language component doing 90% of the work, while vision barely functions — because models operate at the surface level of pixels without symbolic abstraction.
-核心论点：当今大多数视觉语言模型中，语言模块承担了约 90% 的工作，而视觉模块几乎形同虚设——因为模型只在像素表层操作，缺乏符号化的抽象结构。
+https://x.com/ryolu_/status/2041564082034372956
 
-Fan-yun's insight came from his PhD work at NVIDIA: industry is paying huge sums for interactive worlds to train robots and AI agents, but nobody is building this the right way.
-Fan-yun 的洞察来自他在 NVIDIA 读博期间的经历：业界正在花大价钱购买交互式世界用于训练机器人和 AI 智能体，但没有人在用正确的方式做这件事。
+---
 
-The goal is to build reasoning models that understand the consequences of actions — not just predict the next video frame.
-目标是构建能理解行为后果的推理模型，而不仅仅是预测下一帧视频。
+**Garry Tan (garrytan on X) — Y Combinator President & CEO**
 
-Manning emphasized that benchmarking remains the hardest unsolved problem in this space: users want contextual, subjective outputs that don't fit neatly into standard benchmarks.
-Manning 强调，评测基准仍是这一领域最难解决的问题：用户需要的是情境化、主观性强的输出，这无法用标准 benchmark 来衡量。
+Garry observed that Claude Code's bash access creates an interesting security quirk: the agent can't use the Write File tool outside its workspace, but can still write to any file via `cat >>`.
+Garry 发现 Claude Code 的 bash 访问权限存在一个有趣的安全漏洞：Agent 虽然无法用 Write File 工具写入工作区外的文件，但仍可通过 `cat >>` 命令写入系统任意位置。
 
-The Moonlake thesis: "structure + scale" — not scale alone — is the right path toward genuine visual intelligence and embodied AI.
-Moonlake 的核心论点："结构 + 规模"——而非单纯靠规模——才是通往真正视觉智能和具身 AI 的正确路径。
+He also mused that we live in "LISPy times" — code is data and data is code again, but the weird part is it's all Markdown now.
+他还感慨我们正处于"LISP 时代"的回归——代码即数据、数据即代码，只不过这次载体是 Markdown。
 
-Source: https://www.youtube.com/@LatentSpacePod
+https://x.com/garrytan/status/2041654662764609735
+https://x.com/garrytan/status/2041653129020936328
+
+---
+
+**Zara Zhang (zarazhangrui on X) — Builder**
+
+Zara announced the Personalized Podcast skill: turn anything into a podcast with two AI hosts, publish it as an RSS feed, and listen in your favorite podcast app.
+Zara 发布了个性化播客技能：可将任意内容转化为由两位 AI 主持人主持的播客节目，发布为 RSS 订阅源，并在你喜爱的播客应用中收听。
+
+https://x.com/zarazhangrui/status/2041736869998948528
+https://x.com/zarazhangrui/status/2041736976630739000
+
+---
+
+**Nikunj Kothari (nikunj on X) — Partner, FPV Ventures**
+
+Nikunj warned that too many early-stage founders are now optimizing for views and funding rather than product and retention — and it's starting to show in their metrics.
+Nikunj 警告称，越来越多的早期创业者开始优化曝光度和融资，而非产品与留存——这已经开始在数据中显现出来。
+
+https://x.com/nikunj/status/2041757065354293760
+
+---
+
+**Peter Steinberger (steipete on X) — CodexBar creator**
+
+CodexBar 0.20 is out with new providers (Perplexity + OpenCode Go), the ability to switch Codex accounts without re-login, a fix for Claude token/cost inflation from duplicate sessions, and improved cost history that merges session usage into a proper timeline.
+CodexBar 0.20 发布：新增 Perplexity 和 OpenCode Go 两个供应商，支持无需重新登录切换 Codex 账户，修复了因重复 session 导致 Claude token/费用虚高的问题，并优化了费用历史，能正确合并 session 使用记录。
+
+https://x.com/steipete/status/2041731875241066517
+https://x.com/steipete/status/2041719008953606148
+
+---
+
+**Swyx (swyx on X) — Latent Space, AI Engineer**
+
+Swyx flagged a discussion about security naming conventions, highlighting Simon Willison's take on why "prompt injection" is self-evidently named while "lethal trifecta" is not.
+Swyx 分享了一场关于安全术语命名的讨论，着重介绍了 Simon Willison 对"prompt injection"这个名称为何一目了然、而"lethal trifecta"则不然的见解。
+
+He also noticed Amazon's new moves in AI and said he's going to try it out.
+他还注意到亚马逊在 AI 领域的新动作，并表示会亲自尝试。
+
+https://x.com/swyx/status/2041739250421436591
+https://x.com/swyx/status/2041675995665612954
+
+---
+
+**Peter Yang (petergyang on X) — AI educator, 140K+ newsletter readers**
+
+Peter shared curiosity about whether Anthropic has been using Mythos internally to fuel their recent shipping velocity.
+Peter 对 Anthropic 是否一直在内部使用 Mythos 来驱动其近期惊人的发布速度表示好奇。
+
+https://x.com/petergyang/status/2041678988318543908
+
+---
+
+**Aditya Agarwal (adityaag on X) — General Partner, South Park Commons; Ex-CTO Dropbox**
+
+Aditya reacted to Claude Mythos with excitement, calling it "absurd" and urging both investors and builders to appreciate the moment.
+Aditya 对 Claude Mythos 的发布感到震撼，称之为"离谱"，并鼓励投资者和开发者都应珍惜和感受这个历史时刻。
+
+He also drew a parallel to the Web 2.0 era's read/write vision: we're now living through that for all software — everything can potentially be forked, changed, and remixed.
+他还将当下类比于 Web 2.0 时代的"可读可写"愿景：如今这一理念正在所有软件层面成真——任何软件都有可能被 fork、修改和重组。
+
+https://x.com/adityaag/status/2041771160359375001
+https://x.com/adityaag/status/2041658196813869414
+
+---
+
+**Dan Shipper (danshipper on X) — CEO, Every**
+
+Dan shared a concept of being a "model manager" and gave a glimpse of what AI dreams might look like in a visual experiment.
+Dan 分享了"模型管理者"的概念，并展示了一个关于 AI 梦境可视化的有趣实验。
+
+https://x.com/danshipper/status/2041624900046106907
+https://x.com/danshipper/status/2041514123683418545
+
+---
+
+## PODCASTS
+
+---
+
+**Latent Space — Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony**
+
+Ryan Lopopolo from OpenAI's Frontier team explains "Harness Engineering" — a radical methodology where AI agents do 100% of the coding and code review, with zero human-written or human-reviewed code in a 1M+ line codebase.
+OpenAI Frontier 团队的 Ryan Lopopolo 详解"Harness Engineering"——一种激进的工程方法论：在超过 100 万行代码的代码库中，所有代码均由 AI Agent 编写和审查，零人工编写、零人工审查。
+
+Over five months, his team shipped an internal beta product consuming over 1 billion tokens per day (~$2–3k/day), iterating through multiple Codex model generations.
+五个月内，他的团队发布了一款内部 Beta 产品，每天消耗超过 10 亿 Token（约合每日 2000-3000 美元），并历经多代 Codex 模型的迭代。
+
+A key lesson: when the agent fails, don't prompt it harder — instead ask "what capability, context, or structure is missing?" and build smaller building blocks.
+核心经验：当 Agent 失败时，不要强迫它"再试一次"，而应追问"缺少什么能力、上下文或结构？"，然后拆解成更小的构建模块。
+
+The resulting open-source project Symphony is a "ghost library" reference Elixir implementation that sets up a massive system of Codex agents.
+最终产出的开源项目 Symphony 是一个"幽灵库"参考实现（Elixir），可搭建大规模 Codex Agent 协作体系。
+
+https://www.youtube.com/watch?v=O_IMsEg91g8
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
