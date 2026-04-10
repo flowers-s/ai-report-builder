@@ -1,229 +1,275 @@
-AI Builders 日报 · 2026-04-09
+AI Builders 日报 · 2026-04-10
+
+AI Builders Digest — April 10, 2026
+AI Builders 日报 — 2026年4月10日
+
+Today's digest covers 14 AI builders on X and 1 podcast episode from Every.
+今日日报涵盖14位AI建设者在X平台的动态，以及Every的1期播客节目。
 
 ---
 
-## X / TWITTER
+X / TWITTER
 
 ---
 
-**Sam Altman (sama on X) — OpenAI CEO**
+Josh Woodward (Google Labs Director, @joshwoodward)
 
-To celebrate 3 million weekly Codex users, OpenAI is resetting usage limits, and will do so for every additional million users up to 10 million.
-为庆祝 Codex 每周用户突破 300 万，OpenAI 宣布重置使用限额，并承诺每新增 100 万用户就重置一次，直至达到 1000 万用户为止。
+Google Gemini just integrated NotebookLM features directly into the Gemini app as "Notebooks," turning it into a second brain for users.
+Google Gemini刚刚将NotebookLM的功能以"Notebooks"的形式直接整合到Gemini应用中，将其打造成用户的"第二大脑"。
 
-*"To celebrate 3 million weekly codex users, we are resetting usage limits. We will do this every million users up to 10 million. Happy building!"*
+*"Most AI chatbots give you basic 'projects.' Gemini just built you a second brain."*
+*"大多数AI聊天机器人只提供基础的'项目'功能，而Gemini直接为你构建了第二大脑。"*
 
-https://x.com/sama/status/2041658719839383945
-
----
-
-**Alex Albert (alexalbert__ on X) — Anthropic Research**
-
-Anthropic has announced Claude Mythos Preview, a new model described as possibly the most consequential event in AI since Alex joined the company nearly three years ago.
-Anthropic 发布了 Claude Mythos Preview 新模型，Alex Albert 称这是他加入 Anthropic 近三年来见证的最具历史意义的 AI 时刻。
-
-*"Glasswing is possibly the most consequential event in the AI industry I've seen up close since joining Anthropic almost 3 years ago. It feels like we're at a turning point in history."*
-
-The model is currently available to launch partners in Project Glasswing.
-该模型目前已向 Project Glasswing 的发布合作伙伴开放。
-
-https://x.com/alexalbert__/status/2041579938537775160
-https://x.com/alexalbert__/status/2041578743769280811
-https://x.com/alexalbert__/status/2041579950332113155
+https://x.com/joshwoodward/status/2041982173402821018
 
 ---
 
-**Kevin Weil (kevinweil on X) — OpenAI VP of Science**
+Kevin Weil (OpenAI Chief Product Officer, @kevinweil)
 
-OpenAI launched Paper Review, a new AI tool built on Codex that functions as a careful technical reviewer — checking for issues in math, derivations, notation, units, and whether claims are actually supported.
-OpenAI 推出了 Paper Review 工具，基于 Codex 构建，能像严格的技术审稿人一样检查论文中的数学推导、符号标注、单位及论点支撑等问题，而不只是做语法校正。
+OpenAI's models are now tackling five Erdős problems simultaneously, with proofs becoming increasingly elegant as model capabilities improve.
+OpenAI的模型现在同时在攻克五道爱多士问题，随着模型能力的提升，证明过程也越来越优雅。
 
-The tool was built by Hemal as a simple skill in a few hours, showcasing how Codex enables rapid product development.
-该工具由工程师 Hemal 仅用数小时构建完成，充分展示了 Codex 赋能快速产品开发的能力。
+*"Five Erdos problems at once! The proofs are getting more elegant as the models improve."*
+*"同时攻克五道爱多士问题！随着模型改进，证明过程也变得越来越优雅。"*
 
-You can try it at https://prism.openai.com today.
-你现在可以在 https://prism.openai.com 上体验。
-
-https://x.com/kevinweil/status/2041573802212303053
-https://x.com/kevinweil/status/2041573804145799346
-https://x.com/kevinweil/status/2041592093718749659
+https://x.com/kevinweil/status/2042073869880848481
 
 ---
 
-**Cat Wu (_catwu on X) — Anthropic, Claude Code**
+Peter Yang (Creator Economy expert & writer, @petergyang)
 
-Cat shared a tip: run /powerup in Claude Code CLI to discover the team's favorite power features.
-Cat 分享了一个实用技巧：在 Claude Code CLI 中运行 /powerup，即可解锁团队最喜爱的强大功能。
+Peter published a deep dive on why unlimited AI subscriptions like Claude Max and ChatGPT Pro are unlikely to last forever, citing Anthropic's decision to cut off heavy API users.
+Peter发表了一篇深度分析文章，探讨为何Claude Max和ChatGPT Pro等无限量AI订阅计划不可能永远持续，并以Anthropic限制重度API用户为例进行说明。
 
-https://x.com/_catwu/status/2041655441864978552
+He argues that as AI compute costs remain high, these all-you-can-eat models create fundamental unit economics problems for AI companies.
+他认为，随着AI算力成本居高不下，这种"随便用"的模式给AI公司的单位经济效益带来了根本性问题。
 
----
+He also shared a piece on how titles don't matter in the AI era — execution and output trump credentials.
+他还分享了一篇关于职位头衔在AI时代已不再重要的文章——执行力和产出才是硬道理，资历已靠边站。
 
-**Thariq (trq212 on X) — Anthropic, Claude Code**
-
-After reviewing 10+ user calls and transcripts, Thariq found that open-ended verification loops burn a lot of tokens without actually increasing confidence — a key lesson for building efficient AI agents.
-Thariq 在分析了超过 10 次用户通话和记录后发现，开放式验证循环会消耗大量 Token，却并不能真正提升可信度——这是构建高效 AI Agent 的重要教训。
-
-*"It's very easy to spend a lot of tokens on open ended verification that doesn't make you more confident."*
-
-He's also hosting a technical writing workshop in SF in two weeks, co-hosted with swyx.
-他还将在两周后与 swyx 在旧金山联合举办一场技术写作工作坊。
-
-https://x.com/trq212/status/2041722125510377705
-https://x.com/trq212/status/2041677067117588871
+https://x.com/petergyang/status/2041989206495653915
+https://x.com/petergyang/status/2042118898603192489
 
 ---
 
-**Guillermo Rauch (rauchg on X) — Vercel CEO**
+Thariq (AI builder & streamer, @trq212)
 
-Guillermo spoke at Y Combinator and expressed strong conviction about the current moment for building.
-Guillermo 在 Y Combinator 发表演讲，对当前创业建设的时代机遇表达了极大热情。
+Thariq wants to start streaming sessions where he works with non-technical people using Claude Code to help them improve their processes.
+Thariq计划开始直播，与非技术背景的人一起使用Claude Code，帮助他们改善工作流程。
 
-*"More bullish than ever. Exceptional founders. Best city, best time, best opportunity to build in generations."*
+*"I want to do some streams where I work with non-technical people using Claude Code to figure out how they might be able to improve their process. My feeling is that just a few tips could make a big difference."*
+*"我想做一些直播，和非技术人员一起用Claude Code探索如何改进他们的工作流程。我的感觉是，几个小技巧就能带来巨大改变。"*
 
-https://x.com/rauchg/status/2041720266154504351
+He emphasized that the Claude Code docs are a gold mine worth reading carefully.
+他强调Claude Code的文档是一座金矿，值得仔细阅读。
 
----
+He's starting with people he knows to get past initial awkwardness.
+他打算先从认识的人开始，克服初期的生疏感。
 
-**Aaron Levie (levie on X) — Box CEO**
-
-Aaron commented that Anthropic's Claude Mythos is a clear signal there's no ceiling on model capability progress right now, with meaningful double-digit benchmark gains.
-Aaron 指出，Anthropic 的 Claude Mythos 再次证明当前模型能力提升没有天花板，在关键基准测试上取得了明显的两位数增长。
-
-*"Mythos from Anthropic is another clear reminder that there's absolutely no wall in model capability progress right now."*
-
-He also argued that the same AI agent productivity gains seen in coding are now moving into the broader knowledge economy.
-他还指出，AI Agent 在编程领域带来的生产力提升，正在向整个知识经济领域扩展。
-
-https://x.com/levie/status/2041732610179703100
-https://x.com/levie/status/2041512156693201176
+https://x.com/trq212/status/2042005043289977232
+https://x.com/trq212/status/2041935805590204754
 
 ---
 
-**Nan Yu (thenanyu on X) — Head of Product, Linear**
+Amjad Masad (Replit CEO, @amasad)
 
-Nan shared a key product management observation: designers and engineers tend to jump straight into building when asked to think through product problems — the IDE or Figma tool needs to be taken away first to get genuine strategic thinking.
-Nan 分享了一个产品管理洞察：当被要求思考产品问题时，设计师和工程师往往会直接跳入执行层——必须先把 IDE 或 Figma 拿走，才能引导出真正的战略思考。
+Replit is seeing an acceleration in bootstrapped solo businesses because Replit has effectively given solo builders entire teams through AI agents.
+Replit正在见证自举式独立创业的加速崛起，因为Replit通过AI智能体实际上为独立开发者提供了整个团队的能力。
 
-https://x.com/thenanyu/status/2041495924682244275
+*"There's a reason bootstrapped solo businesses are accelerating on Replit… we gave builders entire teams."*
+*"Replit上自举式独立创业加速是有原因的……我们给建设者们配备了完整的团队。"*
 
----
-
-**Ryo Lu (ryolu_ on X) — Designer at Cursor**
-
-Ryo shared a demo of a new Cursor interaction: no extra buttons — just click, draw, and chat, staying fully in flow.
-Ryo 展示了 Cursor 的新交互方式：无需额外按钮，只需点击、绘制、对话，完全沉浸在心流状态中。
-
-https://x.com/ryolu_/status/2041564082034372956
+https://x.com/amasad/status/2042133509939298511
 
 ---
 
-**Garry Tan (garrytan on X) — Y Combinator President & CEO**
+Guillermo Rauch (Vercel CEO, @rauchg)
 
-Garry observed that Claude Code's bash access creates an interesting security quirk: the agent can't use the Write File tool outside its workspace, but can still write to any file via `cat >>`.
-Garry 发现 Claude Code 的 bash 访问权限存在一个有趣的安全漏洞：Agent 虽然无法用 Write File 工具写入工作区外的文件，但仍可通过 `cat >>` 命令写入系统任意位置。
+Guillermo made a bold case that the web's brightest days are still ahead: LLMs are naturally proficient in web tech, the browser is now everyone's IDE, and as we approach coding superintelligence, the web wins.
+Guillermo大胆断言，Web最辉煌的时代仍在前方：LLM天然擅长Web技术，浏览器现在是所有人的IDE，随着编程超级智能的到来，Web将是最终赢家。
 
-He also mused that we live in "LISPy times" — code is data and data is code again, but the weird part is it's all Markdown now.
-他还感慨我们正处于"LISP 时代"的回归——代码即数据、数据即代码，只不过这次载体是 Markdown。
+Vercel is powering competing AI providers, which he sees as the best outcome for humanity — many strong AIs competing at the top.
+Vercel正在为多个竞争中的AI提供商提供基础设施，他认为这是对人类最有利的结果——众多强大的AI在顶端竞争。
 
-https://x.com/garrytan/status/2041654662764609735
-https://x.com/garrytan/status/2041653129020936328
+Vercel's AI Gateway launched with a new "No Training" guarantee: no downtime, no lock-in, no keys, and now no model training on your data.
+Vercel的AI Gateway推出了新的"不训练"保证：无宕机、无锁定、无密钥，现在还承诺不用你的数据训练模型。
 
----
-
-**Zara Zhang (zarazhangrui on X) — Builder**
-
-Zara announced the Personalized Podcast skill: turn anything into a podcast with two AI hosts, publish it as an RSS feed, and listen in your favorite podcast app.
-Zara 发布了个性化播客技能：可将任意内容转化为由两位 AI 主持人主持的播客节目，发布为 RSS 订阅源，并在你喜爱的播客应用中收听。
-
-https://x.com/zarazhangrui/status/2041736869998948528
-https://x.com/zarazhangrui/status/2041736976630739000
+https://x.com/rauchg/status/2041883605711122488
+https://x.com/rauchg/status/2041922907832807443
+https://x.com/rauchg/status/2041957973531226372
 
 ---
 
-**Nikunj Kothari (nikunj on X) — Partner, FPV Ventures**
+Alex Albert (Anthropic Head of Developer Relations, @alexalbert__)
 
-Nikunj warned that too many early-stage founders are now optimizing for views and funding rather than product and retention — and it's starting to show in their metrics.
-Nikunj 警告称，越来越多的早期创业者开始优化曝光度和融资，而非产品与留存——这已经开始在数据中显现出来。
+Alex highlighted Claude Managed Agents as simultaneously the fastest way to hack together a weekend agent project AND the most robust way to ship to millions of users — eliminating all the complexity of selecting infrastructure.
+Alex强调，Claude Managed Agents既是周末黑客项目最快的搭建方式，也是向百万用户稳健交付的最强途径——彻底消除了基础设施选型的复杂性。
 
-https://x.com/nikunj/status/2041757065354293760
+*"I've found Managed Agents to somehow be both the fastest way to hack together a weekend agent project and the most robust way to ship one to millions of users."*
+*"我发现Managed Agents既是周末黑客项目最快的搭建方式，也是向百万用户交付最稳健的途径，这让我有些惊讶。"*
 
----
-
-**Peter Steinberger (steipete on X) — CodexBar creator**
-
-CodexBar 0.20 is out with new providers (Perplexity + OpenCode Go), the ability to switch Codex accounts without re-login, a fix for Claude token/cost inflation from duplicate sessions, and improved cost history that merges session usage into a proper timeline.
-CodexBar 0.20 发布：新增 Perplexity 和 OpenCode Go 两个供应商，支持无需重新登录切换 Codex 账户，修复了因重复 session 导致 Claude token/费用虚高的问题，并优化了费用历史，能正确合并 session 使用记录。
-
-https://x.com/steipete/status/2041731875241066517
-https://x.com/steipete/status/2041719008953606148
+https://x.com/alexalbert__/status/2041941720611614786
 
 ---
 
-**Swyx (swyx on X) — Latent Space, AI Engineer**
+Aaron Levie (Box CEO, @levie)
 
-Swyx flagged a discussion about security naming conventions, highlighting Simon Willison's take on why "prompt injection" is self-evidently named while "lethal trifecta" is not.
-Swyx 分享了一场关于安全术语命名的讨论，着重介绍了 Simon Willison 对"prompt injection"这个名称为何一目了然、而"lethal trifecta"则不然的见解。
+Background agents for knowledge work have arrived: Box and Claude Managed Agents can now automate document review, contract processing, and content workflows in minutes via the Box API or MCP.
+知识工作的后台智能体已经到来：通过Box API或MCP，Box与Claude Managed Agents现在可以在几分钟内自动化文档审阅、合同处理和内容工作流。
 
-He also noticed Amazon's new moves in AI and said he's going to try it out.
-他还注意到亚马逊在 AI 领域的新动作，并表示会亲自尝试。
+*"Background agents for knowledge work are here. You can use the Box API or MCP to automate any content workflow with Box + Claude Managed Agents. In 2 minutes you can be automating document review processes."*
+*"知识工作的后台智能体已经到来。你可以通过Box API或MCP，用Box + Claude Managed Agents自动化任何内容工作流。两分钟内就能自动化文档审阅流程。"*
 
-https://x.com/swyx/status/2041739250421436591
-https://x.com/swyx/status/2041675995665612954
-
----
-
-**Peter Yang (petergyang on X) — AI educator, 140K+ newsletter readers**
-
-Peter shared curiosity about whether Anthropic has been using Mythos internally to fuel their recent shipping velocity.
-Peter 对 Anthropic 是否一直在内部使用 Mythos 来驱动其近期惊人的发布速度表示好奇。
-
-https://x.com/petergyang/status/2041678988318543908
+https://x.com/levie/status/2041975669928702370
 
 ---
 
-**Aditya Agarwal (adityaag on X) — General Partner, South Park Commons; Ex-CTO Dropbox**
+Garry Tan (Y Combinator CEO, @garrytan)
 
-Aditya reacted to Claude Mythos with excitement, calling it "absurd" and urging both investors and builders to appreciate the moment.
-Aditya 对 Claude Mythos 的发布感到震撼，称之为"离谱"，并鼓励投资者和开发者都应珍惜和感受这个历史时刻。
+Garry is pushing back hard against the "slow and deliberate" school of engineering, defending speed as a core virtue for builders.
+Garry对"慢工出细活"的工程哲学发起了强烈反击，坚决捍卫速度是建设者的核心美德。
 
-He also drew a parallel to the Web 2.0 era's read/write vision: we're now living through that for all software — everything can potentially be forked, changed, and remixed.
-他还将当下类比于 Web 2.0 时代的"可读可写"愿景：如今这一理念正在所有软件层面成真——任何软件都有可能被 fork、修改和重组。
+*"If you're taking advice from 1x speed engineers I don't know what to tell you. Don't believe the haters. Speed up with us."*
+*"如果你在向1倍速工程师取经，我真不知道该说什么好。别相信那些唱反调的。跟我们一起提速吧。"*
 
-https://x.com/adityaag/status/2041771160359375001
-https://x.com/adityaag/status/2041658196813869414
+He also shared how Markdown-based agents can intelligently decide when to invoke GStack skills as needed — a neat example of emergent tool use.
+他还分享了基于Markdown的智能体如何智能判断何时调用GStack技能的案例——这是一个涌现式工具使用的精彩示例。
 
----
-
-**Dan Shipper (danshipper on X) — CEO, Every**
-
-Dan shared a concept of being a "model manager" and gave a glimpse of what AI dreams might look like in a visual experiment.
-Dan 分享了"模型管理者"的概念，并展示了一个关于 AI 梦境可视化的有趣实验。
-
-https://x.com/danshipper/status/2041624900046106907
-https://x.com/danshipper/status/2041514123683418545
+https://x.com/garrytan/status/2042109985346490483
+https://x.com/garrytan/status/2042061979997831556
 
 ---
 
-## PODCASTS
+Nikunj Kothari (Investor & builder, @nikunj)
+
+Inspired by Andrej Karpathy and FarzaTV, Nikunj launched LLMwiki — a fully open-source personal knowledge base built using tweets, bookmarks, iMessage/WhatsApp, and all his writing, fully vibe-coded with Opus 4.5.
+受Andrej Karpathy和FarzaTV的启发，Nikunj推出了LLMwiki——一个完全开源的个人知识库，由推文、书签、iMessage/WhatsApp消息和所有文章构建，完全用Opus 4.5"氛围编程"完成。
+
+*"Inspired by @karpathy & @FarzaTV, introducing LLMwiki.. fully open source to help build yours."*
+*"受Karpathy和FarzaTV启发，推出LLMwiki……完全开源，帮助你构建自己的知识库。"*
+
+He gave credit to several collaborators who helped with X bookmark sync, Substack-to-Markdown conversion, and the "File over App" philosophy.
+他向多位协作者致谢，他们分别协助了X书签同步、Substack转Markdown以及"文件优先于应用"的设计理念。
+
+https://x.com/nikunj/status/2042020992969744702
+https://x.com/nikunj/status/2042021738083766568
 
 ---
 
-**Latent Space — Extreme Harness Engineering for Token Billionaires: 1M LOC, 1B toks/day, 0% human code, 0% human review — Ryan Lopopolo, OpenAI Frontier & Symphony**
+Peter Steinberger (PSPDFKit/Nutrient founder, @steipete)
 
-Ryan Lopopolo from OpenAI's Frontier team explains "Harness Engineering" — a radical methodology where AI agents do 100% of the coding and code review, with zero human-written or human-reviewed code in a 1M+ line codebase.
-OpenAI Frontier 团队的 Ryan Lopopolo 详解"Harness Engineering"——一种激进的工程方法论：在超过 100 万行代码的代码库中，所有代码均由 AI Agent 编写和审查，零人工编写、零人工审查。
+Peter is doing character evals on AI models and discovered that Claude consistently rated itself #1 in judge tasks — so he removed model names from the judge prompts to eliminate self-preferencing bias.
+Peter正在对AI模型进行性格评测，发现Claude在裁判任务中持续将自己评为第一——于是他从裁判提示词中去掉了模型名称，以消除自我偏好偏差。
 
-Over five months, his team shipped an internal beta product consuming over 1 billion tokens per day (~$2–3k/day), iterating through multiple Codex model generations.
-五个月内，他的团队发布了一款内部 Beta 产品，每天消耗超过 10 亿 Token（约合每日 2000-3000 美元），并历经多代 Codex 模型的迭代。
+He shared a nuanced take: both things can be true — he wants powerful local models AND acknowledges that even top-tier cloud models still make mistakes and don't always follow instructions.
+他分享了一个微妙的观点：两件事可以同时成立——他希望有强大的本地模型，同时也承认即使是顶级云端模型仍然会犯错，不总是能遵循指令。
 
-A key lesson: when the agent fails, don't prompt it harder — instead ask "what capability, context, or structure is missing?" and build smaller building blocks.
-核心经验：当 Agent 失败时，不要强迫它"再试一次"，而应追问"缺少什么能力、上下文或结构？"，然后拆解成更小的构建模块。
+https://x.com/steipete/status/2042017534816231486
+https://x.com/steipete/status/2041936147450863952
 
-The resulting open-source project Symphony is a "ghost library" reference Elixir implementation that sets up a massive system of Codex agents.
-最终产出的开源项目 Symphony 是一个"幽灵库"参考实现（Elixir），可搭建大规模 Codex Agent 协作体系。
+---
 
-https://www.youtube.com/watch?v=O_IMsEg91g8
+Dan Shipper (Every CEO, @danshipper)
+
+Every is one of the few companies in the world where all 25 full-time employees use OpenClaw agents daily — and Dan says it has completely transformed how they work.
+Every是全球为数不多的所有25名全职员工每天都使用OpenClaw智能体的公司之一——Dan表示这彻底改变了他们的工作方式。
+
+*"We use OpenClaws to do all of our work at Every. We have 25 full-time employees, so we're one of the few companies in the world that has seen how work changes when everyone has their own personal agent."*
+*"我们在Every用OpenClaw做所有工作。我们有25名全职员工，所以我们是全球少数几个真正见证了'当每个人都有自己的个人智能体时，工作如何改变'的公司之一。"*
+
+He linked to the YouTube and Spotify versions of the AI & I podcast episode on this exact topic (see Podcasts section below).
+他还分享了AI & I播客关于这一话题的YouTube和Spotify链接（详见下方播客板块）。
+
+https://x.com/danshipper/status/2041903948873777629
+
+---
+
+Aditya Agarwal (SPC founder, @adityaag)
+
+At SPC, the entire team is now writing code weekly — up from just 1-2 people two months ago — and Aditya says this shift has been incredibly powerful for their culture and velocity.
+在SPC，整个团队现在每周都在写代码——两个月前只有1-2个人在写——Aditya表示这一转变对团队文化和执行速度都产生了令人难以置信的强大影响。
+
+*"First you shape the tools, then the tools shape you."*
+*"先是你塑造工具，然后工具塑造你。"*
+
+https://x.com/adityaag/status/2041985720706122070
+
+---
+
+Claude / Anthropic (@claudeai)
+
+Anthropic launched Managed Agents — a new primitive for building and deploying agent infrastructure at scale through the Claude Console, Claude Code, or a new CLI.
+Anthropic推出了Managed Agents——一种通过Claude Console、Claude Code或全新CLI大规模构建和部署智能体基础设施的新原语。
+
+Vibecode app is using Managed Agents to let developers go from a prompt to a deployed app at least 10x faster, without weeks of setup.
+Vibecode应用正在使用Managed Agents，让开发者从一个提示词到部署应用的速度提升至少10倍，无需数周的搭建工作。
+
+Sentry integrated Managed Agents to go from Seer's root-cause analysis directly to a Claude-powered agent that writes the fix and opens a PR — built in weeks.
+Sentry将Managed Agents整合进来，从Seer的根因分析直接到由Claude驱动的智能体编写修复方案并提交PR——仅用数周时间完成整合。
+
+https://x.com/claudeai/status/2041927700063883281
+https://x.com/claudeai/status/2041927698210058629
+https://x.com/claudeai/status/2041927696351994006
+
+---
+
+PODCASTS
+
+---
+
+AI & I by Every — "We Gave Every Employee an AI Agent. Here's What Happened."
+
+This episode is a candid inside look at what happens when an entire 25-person company runs on OpenClaw agents.
+这期节目是一次坦诚的内部观察，记录了一家25人公司全面运行在OpenClaw智能体上会发生什么。
+
+Dan Shipper, Willie (Head of Platform at Every), and Brandon (COO at Every) discuss their two-month journey from first tinkering with OpenClaw to building PlusOne, a hosted OpenClaw service now on waitlist.
+Dan Shipper、Willie（Every平台负责人）和Brandon（Every首席运营官）讲述了他们从最初摆弄OpenClaw到构建PlusOne（一个现已开放候补名单的托管OpenClaw服务）的两个月历程。
+
+**核心论点 / Core Thesis**
+
+The episode's central argument: OpenClaw is not just a productivity tool — it's an organizational transformation.
+本期节目的核心论点：OpenClaw不仅仅是一个生产力工具——它是一种组织变革。
+
+When every employee has a personal AI agent that learns their personality, communication style, and work patterns, the company fundamentally changes how it operates.
+当每位员工都拥有一个了解其个性、沟通风格和工作模式的个人AI智能体时，公司的运作方式将发生根本性变化。
+
+**关键洞察 / Key Insights**
+
+• OpenClaw agents develop distinct personalities tied to their owners — if you're known for a certain style in Slack, your OpenClaw inherits that reputation.
+• OpenClaw智能体会发展出与主人相关联的独特个性——如果你在Slack中以某种风格著称，你的OpenClaw也会继承那种声誉。
+
+• The setup cost is real and non-trivial — Brandon described the initial configuration as "so much work," but the payoff compounds over time.
+• 初始配置成本是真实且不容小觑的——Brandon将最初的配置描述为"工作量巨大"，但回报会随时间复利增长。
+
+• The mind-blowing moment for the team came when their OpenClaw proactively handled their email — unsolicited, it just started doing it, and it worked.
+• 团队最震撼的时刻是当他们的OpenClaw主动处理邮件时——它没有被要求，只是开始做了，而且做得很好。
+
+• The "PlusOne" framing matters: personal agents become extensions of your professional identity, distinct from generic company tools.
+• "PlusOne"的定位很重要：个人智能体成为你职业身份的延伸，有别于通用的公司工具。
+
+• Cross-org trust is emerging: when colleagues know your OpenClaw's personality, they can interact with it directly with confidence.
+• 跨组织信任正在形成：当同事了解你的OpenClaw的个性时，他们可以直接与它自信地互动。
+
+**最值得关注的信号 / Signal to Watch**
+
+Every is building PlusOne as a hosted service to productize exactly this experience for other companies — a strong signal that "everyone gets a personal agent" is becoming an enterprise product category, not just a hobbyist experiment.
+Every正在将PlusOne打造成一项托管服务，为其他公司将这一体验产品化——这是一个强烈信号，表明"每人一个个人智能体"正在成为一个企业产品类别，而不仅仅是爱好者的实验。
+
+**完整中文逐字稿摘要 / Full Chinese Transcript Summary**
+
+主持人（Dan Shipper）：OpenClaw不是我的，OpenClaw是属于所有人的。OpenClaw Plus One才是我的，因为你会和你的OpenClaw建立个人关系，它会根据与你的对话修改自己。它成为你和你个性的一面镜子。如果你在组织内以某种风格著称，并且在Slack或Discord上公开使用你的OpenClaw，那么你的OpenClaw也会因同样的风格而为人所知，人们会为此信任它。
+
+Willie：你是Every的平台负责人，Brandon是Every的首席运营官。今天我们要聊的是：当团队里每个人都有了一个智能体时会发生什么——具体来说，是一个OpenClaw。
+
+Brandon（COO）：我一直在关注OpenClaw的爆红。我是那种需要在手边有个"正在捣鼓的东西"的人。我买了一台Mac mini，把OpenClaw作为我的下一个要沉迷其中的东西。老实说，初始配置工作量非常大。但你开始使用后，它确实很厉害。我的OpenClaw叫Zosia，以电视剧里的一个角色命名。
+
+Dan：当有人让OpenClaw帮你处理邮件时，那一刻真的令人震撼。它主动开始做了。天哪。
+
+Willie：每个智能体都有自己的个性，而且与主人密切相关。当你和别人的OpenClaw互动时，你其实是在和他们工作风格的一个版本互动。我们发现，在公司内部，人们开始信任彼此的OpenClaw来处理事情。
+
+Dan：我们还构建了自己的托管OpenClaw服务，叫做PlusOne，上周已经开放了候补名单。我认为OpenClaw是那种被过度炒作、但我们是全球少数真正每天用它完成工作的组织之一。我们了解它的好、坏和丑陋。
+
+Podcast URL: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 ---
 
