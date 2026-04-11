@@ -1,275 +1,367 @@
-AI Builders 日报 · 2026-04-10
+AI Builders 日报 · 2026-04-11
 
-AI Builders Digest — April 10, 2026
-AI Builders 日报 — 2026年4月10日
-
-Today's digest covers 14 AI builders on X and 1 podcast episode from Every.
-今日日报涵盖14位AI建设者在X平台的动态，以及Every的1期播客节目。
+AI Builders Digest — 2026-04-11
+AI Builders 日报 — 2026-04-11
 
 ---
 
-X / TWITTER
+## X / TWITTER
 
 ---
 
-Josh Woodward (Google Labs Director, @joshwoodward)
+### Andrej Karpathy (karpathy on X)
 
-Google Gemini just integrated NotebookLM features directly into the Gemini app as "Notebooks," turning it into a second brain for users.
-Google Gemini刚刚将NotebookLM的功能以"Notebooks"的形式直接整合到Gemini应用中，将其打造成用户的"第二大脑"。
+There is a growing gap in understanding of AI capability, and Karpathy believes it comes from two distinct user groups.
+AI 能力的理解鸿沟正在扩大，Karpathy 认为这源于两类截然不同的用户群体。
 
-*"Most AI chatbots give you basic 'projects.' Gemini just built you a second brain."*
-*"大多数AI聊天机器人只提供基础的'项目'功能，而Gemini直接为你构建了第二大脑。"*
+The first group tried free or old ChatGPT and formed their views from hallucinations and fumbled queries.
+第一类人使用的是免费或旧版 ChatGPT，他们对 AI 的印象来自幻觉和蹩脚的回答。
 
-https://x.com/joshwoodward/status/2041982173402821018
+The second group pays for and uses state-of-the-art frontier agentic models (OpenAI Codex / Claude Code) in technical domains like programming and research.
+第二类人付费使用前沿 Agent 模型（OpenAI Codex / Claude Code），应用于编程、数学、研究等技术领域。
 
----
+*"This group of people is subject to the highest amount of 'AI Psychosis' because the recent improvements in these domains as of this year have been nothing short of staggering."*
+*"这类人是'AI 妄想症'最严重的群体，因为今年这些领域的进步幅度令人瞠目结舌。"*
 
-Kevin Weil (OpenAI Chief Product Officer, @kevinweil)
+The key reason coding agents shine: verifiable reward functions (unit tests pass or fail) + massive b2b commercial value = all the focus and investment goes there.
+编程 Agent 领先的关键：可验证的奖励函数（单元测试通过与否）+ 巨大的 B2B 商业价值 = 所有注意力和投资都集中于此。
 
-OpenAI's models are now tackling five Erdős problems simultaneously, with proofs becoming increasingly elegant as model capabilities improve.
-OpenAI的模型现在同时在攻克五道爱多士问题，随着模型能力的提升，证明过程也越来越优雅。
+He also noted the "OpenClaw moment" — when a large group of non-technical people for the first time experienced the latest agentic models, not just ChatGPT-the-website.
+他还提到"OpenClaw 时刻"——当大批非技术用户首次亲身体验最新 Agent 模型，而非只是网页版 ChatGPT 时，一切都变了。
 
-*"Five Erdos problems at once! The proofs are getting more elegant as the models improve."*
-*"同时攻克五道爱多士问题！随着模型改进，证明过程也变得越来越优雅。"*
-
-https://x.com/kevinweil/status/2042073869880848481
-
----
-
-Peter Yang (Creator Economy expert & writer, @petergyang)
-
-Peter published a deep dive on why unlimited AI subscriptions like Claude Max and ChatGPT Pro are unlikely to last forever, citing Anthropic's decision to cut off heavy API users.
-Peter发表了一篇深度分析文章，探讨为何Claude Max和ChatGPT Pro等无限量AI订阅计划不可能永远持续，并以Anthropic限制重度API用户为例进行说明。
-
-He argues that as AI compute costs remain high, these all-you-can-eat models create fundamental unit economics problems for AI companies.
-他认为，随着AI算力成本居高不下，这种"随便用"的模式给AI公司的单位经济效益带来了根本性问题。
-
-He also shared a piece on how titles don't matter in the AI era — execution and output trump credentials.
-他还分享了一篇关于职位头衔在AI时代已不再重要的文章——执行力和产出才是硬道理，资历已靠边站。
-
-https://x.com/petergyang/status/2041989206495653915
-https://x.com/petergyang/status/2042118898603192489
+Source tweets:
+https://x.com/karpathy/status/2042334451611693415
+https://x.com/karpathy/status/2042341482531864741
 
 ---
 
-Thariq (AI builder & streamer, @trq212)
+### Sam Altman — OpenAI CEO (sama on X)
 
-Thariq wants to start streaming sessions where he works with non-technical people using Claude Code to help them improve their processes.
-Thariq计划开始直播，与非技术背景的人一起使用Claude Code，帮助他们改善工作流程。
+Sam Altman announced a $100/month ChatGPT Pro tier by popular demand, riding the wave of enthusiasm for Codex.
+Sam Altman 宣布推出 $100/月的 ChatGPT Pro 套餐，以回应用户对 Codex 的强烈需求。
 
-*"I want to do some streams where I work with non-technical people using Claude Code to figure out how they might be able to improve their process. My feeling is that just a few tips could make a big difference."*
-*"我想做一些直播，和非技术人员一起用Claude Code探索如何改进他们的工作流程。我的感觉是，几个小技巧就能带来巨大改变。"*
+*"It is very nice to see Codex getting so much love."*
+*"看到 Codex 获得如此多的喜爱，感觉非常好。"*
 
-He emphasized that the Claude Code docs are a gold mine worth reading carefully.
-他强调Claude Code的文档是一座金矿，值得仔细阅读。
-
-He's starting with people he knows to get past initial awkwardness.
-他打算先从认识的人开始，克服初期的生疏感。
-
-https://x.com/trq212/status/2042005043289977232
-https://x.com/trq212/status/2041935805590204754
+Source tweet: https://x.com/sama/status/2042342572958630332
 
 ---
 
-Amjad Masad (Replit CEO, @amasad)
+### Claude / Anthropic (claudeai on X)
 
-Replit is seeing an acceleration in bootstrapped solo businesses because Replit has effectively given solo builders entire teams through AI agents.
-Replit正在见证自举式独立创业的加速崛起，因为Replit通过AI智能体实际上为独立开发者提供了整个团队的能力。
+Anthropic launched a major new feature in beta: the **Opus Advisor Tool** for the Messages API.
+Anthropic 在 beta 版中发布了重大新功能：Messages API 的 **Opus Advisor Tool**（顾问工具）。
 
-*"There's a reason bootstrapped solo businesses are accelerating on Replit… we gave builders entire teams."*
-*"Replit上自举式独立创业加速是有原因的……我们给建设者们配备了完整的团队。"*
+When a Sonnet or Haiku agent hits a hard decision mid-run, it can now "phone a friend" — consult Opus, get a plan, and continue, all within a single API request.
+当 Sonnet 或 Haiku Agent 在运行途中遇到难题，现在可以"打电话求助"——咨询 Opus、获取方案，然后继续，整个过程在同一次 API 请求内完成。
 
-https://x.com/amasad/status/2042133509939298511
+In evals, Sonnet with an Opus advisor scored 2.7 percentage points higher on SWE-bench Multilingual than Sonnet alone, while costing 11.9% less per task.
+在评估中，搭载 Opus 顾问的 Sonnet 在 SWE-bench 多语言测试中比单独使用 Sonnet 高出 2.7 个百分点，而每任务成本降低了 11.9%。
 
----
-
-Guillermo Rauch (Vercel CEO, @rauchg)
-
-Guillermo made a bold case that the web's brightest days are still ahead: LLMs are naturally proficient in web tech, the browser is now everyone's IDE, and as we approach coding superintelligence, the web wins.
-Guillermo大胆断言，Web最辉煌的时代仍在前方：LLM天然擅长Web技术，浏览器现在是所有人的IDE，随着编程超级智能的到来，Web将是最终赢家。
-
-Vercel is powering competing AI providers, which he sees as the best outcome for humanity — many strong AIs competing at the top.
-Vercel正在为多个竞争中的AI提供商提供基础设施，他认为这是对人类最有利的结果——众多强大的AI在顶端竞争。
-
-Vercel's AI Gateway launched with a new "No Training" guarantee: no downtime, no lock-in, no keys, and now no model training on your data.
-Vercel的AI Gateway推出了新的"不训练"保证：无宕机、无锁定、无密钥，现在还承诺不用你的数据训练模型。
-
-https://x.com/rauchg/status/2041883605711122488
-https://x.com/rauchg/status/2041922907832807443
-https://x.com/rauchg/status/2041957973531226372
+Source tweets:
+https://x.com/claudeai/status/2042308625989882054
+https://x.com/claudeai/status/2042308627478773808
+https://x.com/claudeai/status/2042308629940855048
 
 ---
 
-Alex Albert (Anthropic Head of Developer Relations, @alexalbert__)
+### Alex Albert — Anthropic Research (alexalbert__ on X)
 
-Alex highlighted Claude Managed Agents as simultaneously the fastest way to hack together a weekend agent project AND the most robust way to ship to millions of users — eliminating all the complexity of selecting infrastructure.
-Alex强调，Claude Managed Agents既是周末黑客项目最快的搭建方式，也是向百万用户稳健交付的最强途径——彻底消除了基础设施选型的复杂性。
+Alex Albert highlighted the new "phone a friend" Opus advisor pattern: allowing Sonnet to escalate to Opus on hard decisions increases performance while reducing total cost.
+Alex Albert 重点介绍了新的"打电话求助"Opus 顾问模式：让 Sonnet 在遇到难题时升级调用 Opus，既提升了性能，又降低了总成本。
 
-*"I've found Managed Agents to somehow be both the fastest way to hack together a weekend agent project and the most robust way to ship one to millions of users."*
-*"我发现Managed Agents既是周末黑客项目最快的搭建方式，也是向百万用户交付最稳健的途径，这让我有些惊讶。"*
+*"Allowing Sonnet to 'phone a friend' (i.e. call Opus) increases performance while also reducing total cost since it reduces tokens spent trying to solve more complex tasks."*
+*"让 Sonnet '打电话求助'（即调用 Opus）可提升性能，同时降低总成本——因为减少了在复杂任务上反复尝试所消耗的 token。"*
 
-https://x.com/alexalbert__/status/2041941720611614786
-
----
-
-Aaron Levie (Box CEO, @levie)
-
-Background agents for knowledge work have arrived: Box and Claude Managed Agents can now automate document review, contract processing, and content workflows in minutes via the Box API or MCP.
-知识工作的后台智能体已经到来：通过Box API或MCP，Box与Claude Managed Agents现在可以在几分钟内自动化文档审阅、合同处理和内容工作流。
-
-*"Background agents for knowledge work are here. You can use the Box API or MCP to automate any content workflow with Box + Claude Managed Agents. In 2 minutes you can be automating document review processes."*
-*"知识工作的后台智能体已经到来。你可以通过Box API或MCP，用Box + Claude Managed Agents自动化任何内容工作流。两分钟内就能自动化文档审阅流程。"*
-
-https://x.com/levie/status/2041975669928702370
+Source tweet: https://x.com/alexalbert__/status/2042329150086922574
 
 ---
 
-Garry Tan (Y Combinator CEO, @garrytan)
+### Cat Wu — Anthropic Claude Code (catwu on X)
 
-Garry is pushing back hard against the "slow and deliberate" school of engineering, defending speed as a core virtue for builders.
-Garry对"慢工出细活"的工程哲学发起了强烈反击，坚决捍卫速度是建设者的核心美德。
+Cat Wu announced that setting up Claude Code with Bedrock and Vertex is now much faster.
+Cat Wu 宣布，通过 Bedrock 和 Vertex 配置 Claude Code 的流程现已大幅加速。
 
-*"If you're taking advice from 1x speed engineers I don't know what to tell you. Don't believe the haters. Speed up with us."*
-*"如果你在向1倍速工程师取经，我真不知道该说什么好。别相信那些唱反调的。跟我们一起提速吧。"*
-
-He also shared how Markdown-based agents can intelligently decide when to invoke GStack skills as needed — a neat example of emergent tool use.
-他还分享了基于Markdown的智能体如何智能判断何时调用GStack技能的案例——这是一个涌现式工具使用的精彩示例。
-
-https://x.com/garrytan/status/2042109985346490483
-https://x.com/garrytan/status/2042061979997831556
+Source tweet: https://x.com/_catwu/status/2042345489778331915
 
 ---
 
-Nikunj Kothari (Investor & builder, @nikunj)
+### Thariq — Anthropic Claude Code (trq212 on X)
 
-Inspired by Andrej Karpathy and FarzaTV, Nikunj launched LLMwiki — a fully open-source personal knowledge base built using tweets, bookmarks, iMessage/WhatsApp, and all his writing, fully vibe-coded with Opus 4.5.
-受Andrej Karpathy和FarzaTV的启发，Nikunj推出了LLMwiki——一个完全开源的个人知识库，由推文、书签、iMessage/WhatsApp消息和所有文章构建，完全用Opus 4.5"氛围编程"完成。
+Thariq highlighted the powerful but underused **Monitor Tool** in Claude Code — you need to explicitly prompt it to use it, e.g. "start my dev server and use the MonitorTool to observe for errors."
+Thariq 介绍了 Claude Code 中强大但鲜为人知的 **Monitor Tool**——需要明确提示才能使用，例如"启动我的开发服务器，并用 MonitorTool 监控错误"。
 
-*"Inspired by @karpathy & @FarzaTV, introducing LLMwiki.. fully open source to help build yours."*
-*"受Karpathy和FarzaTV启发，推出LLMwiki……完全开源，帮助你构建自己的知识库。"*
+He also shared a thoughtful take on prompting as a durable skill: *"I think 'prompting' will keep being an incredibly high-leverage skill, like writing or public speaking."*
+他还分享了一个深刻观点，认为提示词是一项持久的高杠杆技能：*"我认为'提示'将持续成为一项高杠杆技能，就像写作或公开演讲一样。"*
 
-He gave credit to several collaborators who helped with X bookmark sync, Substack-to-Markdown conversion, and the "File over App" philosophy.
-他向多位协作者致谢，他们分别协助了X书签同步、Substack转Markdown以及"文件优先于应用"的设计理念。
+*"My main goal is to grow the bandwidth between humans and agents, to help us understand each other better."*
+*"我的主要目标是扩大人类与 Agent 之间的交互带宽，帮助彼此更好地理解对方。"*
 
-https://x.com/nikunj/status/2042020992969744702
-https://x.com/nikunj/status/2042021738083766568
-
----
-
-Peter Steinberger (PSPDFKit/Nutrient founder, @steipete)
-
-Peter is doing character evals on AI models and discovered that Claude consistently rated itself #1 in judge tasks — so he removed model names from the judge prompts to eliminate self-preferencing bias.
-Peter正在对AI模型进行性格评测，发现Claude在裁判任务中持续将自己评为第一——于是他从裁判提示词中去掉了模型名称，以消除自我偏好偏差。
-
-He shared a nuanced take: both things can be true — he wants powerful local models AND acknowledges that even top-tier cloud models still make mistakes and don't always follow instructions.
-他分享了一个微妙的观点：两件事可以同时成立——他希望有强大的本地模型，同时也承认即使是顶级云端模型仍然会犯错，不总是能遵循指令。
-
-https://x.com/steipete/status/2042017534816231486
-https://x.com/steipete/status/2041936147450863952
+Source tweets:
+https://x.com/trq212/status/2042335178388103559
+https://x.com/trq212/status/2042318547519762678
 
 ---
 
-Dan Shipper (Every CEO, @danshipper)
+### Aaron Levie — Box CEO (levie on X)
 
-Every is one of the few companies in the world where all 25 full-time employees use OpenClaw agents daily — and Dan says it has completely transformed how they work.
-Every是全球为数不多的所有25名全职员工每天都使用OpenClaw智能体的公司之一——Dan表示这彻底改变了他们的工作方式。
+Aaron Levie wrote three substantive posts on the state of AI adoption.
+Aaron Levie 发布了三篇关于 AI 采用现状的深度推文。
 
-*"We use OpenClaws to do all of our work at Every. We have 25 full-time employees, so we're one of the few companies in the world that has seen how work changes when everyone has their own personal agent."*
-*"我们在Every用OpenClaw做所有工作。我们有25名全职员工，所以我们是全球少数几个真正见证了'当每个人都有自己的个人智能体时，工作如何改变'的公司之一。"*
+He argues that most companies are substantially underestimating the total demand for software and automation in areas that don't feel like "software" — CPG, pharma, banking, healthcare.
+他认为，大多数公司严重低估了"不像软件"领域的软件和自动化总需求——包括消费品、制药、银行和医疗。
 
-He linked to the YouTube and Spotify versions of the AI & I podcast episode on this exact topic (see Podcasts section below).
-他还分享了AI & I播客关于这一话题的YouTube和Spotify链接（详见下方播客板块）。
+*"Now that agents bring down the cost of doing this work, and because many parts of it are now possible, companies will light these projects up."*
+*"随着 Agent 降低了这类工作的成本，而且许多任务现在已成为可能，企业将纷纷点燃这些项目。"*
 
-https://x.com/danshipper/status/2041903948873777629
+He also offered a sharp framework on AI adoption: chat tools have capped productivity gains, while long-running agents can deliver 100–200%+ gains with no inherent ceiling.
+他还提出了一个清晰的 AI 采用框架：聊天工具的生产力提升有天花板，而长期运行的 Agent 可实现 100–200%+ 的提升且没有内在上限。
 
----
+On prompting: *"The idea that prompting would be useless is like if giving clear instructions to a brand new colleague who just joined your team is useless."*
+关于提示词：*"说提示词没用，就好比说给刚入职的新同事明确交代任务是没用的。"*
 
-Aditya Agarwal (SPC founder, @adityaag)
-
-At SPC, the entire team is now writing code weekly — up from just 1-2 people two months ago — and Aditya says this shift has been incredibly powerful for their culture and velocity.
-在SPC，整个团队现在每周都在写代码——两个月前只有1-2个人在写——Aditya表示这一转变对团队文化和执行速度都产生了令人难以置信的强大影响。
-
-*"First you shape the tools, then the tools shape you."*
-*"先是你塑造工具，然后工具塑造你。"*
-
-https://x.com/adityaag/status/2041985720706122070
+Source tweets:
+https://x.com/levie/status/2042469771275329594
+https://x.com/levie/status/2042392664943870443
+https://x.com/levie/status/2042460500785602648
 
 ---
 
-Claude / Anthropic (@claudeai)
+### Guillermo Rauch — Vercel CEO (rauchg on X)
 
-Anthropic launched Managed Agents — a new primitive for building and deploying agent infrastructure at scale through the Claude Console, Claude Code, or a new CLI.
-Anthropic推出了Managed Agents——一种通过Claude Console、Claude Code或全新CLI大规模构建和部署智能体基础设施的新原语。
+Rauch made the case for **Agentic Infrastructure** as the future of the cloud, with a triple-entendre: infrastructure *for* coding agents, infrastructure *to deploy* agents, and infrastructure that *is itself* an agent.
+Rauch 提出了"**Agentic Infrastructure**"（Agent 基础设施）作为云计算未来的论断，包含三重含义：为编程 Agent 提供的基础设施、用于部署 Agent 的基础设施，以及本身就是 Agent 的基础设施。
 
-Vibecode app is using Managed Agents to let developers go from a prompt to a deployed app at least 10x faster, without weeks of setup.
-Vibecode应用正在使用Managed Agents，让开发者从一个提示词到部署应用的速度提升至少10倍，无需数周的搭建工作。
+*"Pages → Agents. Long-running compute, sandboxes, and our token delivery network are the building blocks of this new kind of software."*
+*"Pages → Agents。长时运行计算、沙箱和 token 交付网络，是这种新型软件的基础构件。"*
 
-Sentry integrated Managed Agents to go from Seer's root-cause analysis directly to a Claude-powered agent that writes the fix and opens a PR — built in weeks.
-Sentry将Managed Agents整合进来，从Seer的根因分析直接到由Claude驱动的智能体编写修复方案并提交PR——仅用数周时间完成整合。
+He also noted one `npx shadcn init` is being run every second — a remarkable signal of the scale of new software creation.
+他还指出，每秒都有一次 `npx shadcn init` 被运行——这是新软件创建规模的惊人信号。
 
-https://x.com/claudeai/status/2041927700063883281
-https://x.com/claudeai/status/2041927698210058629
-https://x.com/claudeai/status/2041927696351994006
-
----
-
-PODCASTS
+Source tweets:
+https://x.com/rauchg/status/2042358253510963384
+https://x.com/rauchg/status/2042294997278736552
 
 ---
 
-AI & I by Every — "We Gave Every Employee an AI Agent. Here's What Happened."
+### Josh Woodward — Google Labs VP (joshwoodward on X)
 
-This episode is a candid inside look at what happens when an entire 25-person company runs on OpenClaw agents.
-这期节目是一次坦诚的内部观察，记录了一家25人公司全面运行在OpenClaw智能体上会发生什么。
+Google unlocked the full power of **Lyria 3**, their music model, on Gemini App — over 100 million songs generated in under 50 days.
+谷歌在 Gemini App 上全面开放了音乐模型 **Lyria 3**——不到 50 天内已生成超过 1 亿首歌曲。
 
-Dan Shipper, Willie (Head of Platform at Every), and Brandon (COO at Every) discuss their two-month journey from first tinkering with OpenClaw to building PlusOne, a hosted OpenClaw service now on waitlist.
-Dan Shipper、Willie（Every平台负责人）和Brandon（Every首席运营官）讲述了他们从最初摆弄OpenClaw到构建PlusOne（一个现已开放候补名单的托管OpenClaw服务）的两个月历程。
+Users now get 5 full-length tracks (~3 mins each) per day for free, with 30-second clips available beyond that.
+用户现在每天可免费生成 5 首完整曲目（每首约 3 分钟），超出后可继续生成 30 秒片段。
 
-**核心论点 / Core Thesis**
+He also teased more creative model replies coming soon.
+他还预告了即将推出的更多创意模型回复功能。
 
-The episode's central argument: OpenClaw is not just a productivity tool — it's an organizational transformation.
-本期节目的核心论点：OpenClaw不仅仅是一个生产力工具——它是一种组织变革。
+Source tweets:
+https://x.com/joshwoodward/status/2042318148851188151
+https://x.com/joshwoodward/status/2042291365107941669
 
-When every employee has a personal AI agent that learns their personality, communication style, and work patterns, the company fundamentally changes how it operates.
-当每位员工都拥有一个了解其个性、沟通风格和工作模式的个人AI智能体时，公司的运作方式将发生根本性变化。
+---
 
-**关键洞察 / Key Insights**
+### Garry Tan — Y Combinator President & CEO (garrytan on X)
 
-• OpenClaw agents develop distinct personalities tied to their owners — if you're known for a certain style in Slack, your OpenClaw inherits that reputation.
-• OpenClaw智能体会发展出与主人相关联的独特个性——如果你在Slack中以某种风格著称，你的OpenClaw也会继承那种声誉。
+Garry Tan shared **GBrain**, an MIT-licensed open-source tool that gives OpenClaw or Hermes Agent perfect total recall of all 10,000+ markdown files.
+Garry Tan 分享了 **GBrain**，一个 MIT 开源工具，可让 OpenClaw 或 Hermes Agent 完美记住所有 10,000+ 个 Markdown 文件。
 
-• The setup cost is real and non-trivial — Brandon described the initial configuration as "so much work," but the payoff compounds over time.
-• 初始配置成本是真实且不容小觑的——Brandon将最初的配置描述为"工作量巨大"，但回报会随时间复利增长。
+*"It's exactly my OpenClaw/Hermes Agent setup. MIT-licensed open source. Hope it helps you build your mini-AGI."*
+*"这正是我自己的 OpenClaw/Hermes Agent 配置。MIT 开源许可，希望能帮你打造自己的迷你 AGI。"*
 
-• The mind-blowing moment for the team came when their OpenClaw proactively handled their email — unsolicited, it just started doing it, and it worked.
-• 团队最震撼的时刻是当他们的OpenClaw主动处理邮件时——它没有被要求，只是开始做了，而且做得很好。
+He confirmed GBrain also works on Hermes Agent with the same install script.
+他确认 GBrain 同样适用于 Hermes Agent，使用相同安装脚本即可。
 
-• The "PlusOne" framing matters: personal agents become extensions of your professional identity, distinct from generic company tools.
-• "PlusOne"的定位很重要：个人智能体成为你职业身份的延伸，有别于通用的公司工具。
+Source tweets:
+https://x.com/garrytan/status/2042497872114090069
+https://x.com/garrytan/status/2042495930948338048
 
-• Cross-org trust is emerging: when colleagues know your OpenClaw's personality, they can interact with it directly with confidence.
-• 跨组织信任正在形成：当同事了解你的OpenClaw的个性时，他们可以直接与它自信地互动。
+---
 
-**最值得关注的信号 / Signal to Watch**
+### Peter Yang — Product at Roblox (petergyang on X)
 
-Every is building PlusOne as a hosted service to productize exactly this experience for other companies — a strong signal that "everyone gets a personal agent" is becoming an enterprise product category, not just a hobbyist experiment.
-Every正在将PlusOne打造成一项托管服务，为其他公司将这一体验产品化——这是一个强烈信号，表明"每人一个个人智能体"正在成为一个企业产品类别，而不仅仅是爱好者的实验。
+Peter Yang shared a relatable take: he's "training his kids for an AGI-proof career."
+Peter Yang 分享了一个引人共鸣的观点：他正在"为孩子们训练 AGI-proof 的职业技能"。
 
-**完整中文逐字稿摘要 / Full Chinese Transcript Summary**
+He also noted that no current model matches Opus for OpenClaw, and that using Claude Code as a personal assistant replacement "just doesn't feel as 'mine.'"
+他还指出，目前没有任何模型在 OpenClaw 上能媲美 Opus，而用 Claude Code 替代个人助手"感觉不够'属于我'"。
 
-主持人（Dan Shipper）：OpenClaw不是我的，OpenClaw是属于所有人的。OpenClaw Plus One才是我的，因为你会和你的OpenClaw建立个人关系，它会根据与你的对话修改自己。它成为你和你个性的一面镜子。如果你在组织内以某种风格著称，并且在Slack或Discord上公开使用你的OpenClaw，那么你的OpenClaw也会因同样的风格而为人所知，人们会为此信任它。
+Source tweets:
+https://x.com/petergyang/status/2042472016566239320
+https://x.com/petergyang/status/2042411572241608913
+https://x.com/petergyang/status/2042405414999069145
 
-Willie：你是Every的平台负责人，Brandon是Every的首席运营官。今天我们要聊的是：当团队里每个人都有了一个智能体时会发生什么——具体来说，是一个OpenClaw。
+---
 
-Brandon（COO）：我一直在关注OpenClaw的爆红。我是那种需要在手边有个"正在捣鼓的东西"的人。我买了一台Mac mini，把OpenClaw作为我的下一个要沉迷其中的东西。老实说，初始配置工作量非常大。但你开始使用后，它确实很厉害。我的OpenClaw叫Zosia，以电视剧里的一个角色命名。
+### Peter Steinberger — OpenClaw ClawFather (steipete on X)
 
-Dan：当有人让OpenClaw帮你处理邮件时，那一刻真的令人震撼。它主动开始做了。天哪。
+Peter Steinberger ("the ClawFather") shared community lore: they found the person who built the GitHub MCP server — a post that went viral with 2,675 likes.
+Peter Steinberger（"ClawFather"）分享了社区趣事：他们找到了构建 GitHub MCP Server 的那个人——这条推文爆火，获得 2,675 个赞。
 
-Willie：每个智能体都有自己的个性，而且与主人密切相关。当你和别人的OpenClaw互动时，你其实是在和他们工作风格的一个版本互动。我们发现，在公司内部，人们开始信任彼此的OpenClaw来处理事情。
+He also ran a live Q&A on "ClosedClaw" questions and shared other community moments.
+他还就"ClosedClaw"问题进行了直播答疑，并分享了其他社区动态。
 
-Dan：我们还构建了自己的托管OpenClaw服务，叫做PlusOne，上周已经开放了候补名单。我认为OpenClaw是那种被过度炒作、但我们是全球少数真正每天用它完成工作的组织之一。我们了解它的好、坏和丑陋。
+Source tweets:
+https://x.com/steipete/status/2042214825405661677
+https://x.com/steipete/status/2042252659516682719
+https://x.com/steipete/status/2042184777575367117
 
-Podcast URL: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+---
+
+### Ryo Lu — Design at Cursor (ryolu_ on X)
+
+Ryo Lu from Cursor shared a "less is more" design philosophy post, pointing to a thread on UI simplicity.
+Cursor 设计师 Ryo Lu 分享了"少即是多"的设计哲学，指向一条关于 UI 简洁性的讨论串。
+
+Source tweet: https://x.com/ryolu_/status/2042311143788892496
+
+---
+
+### Zara Zhang — Builder (zarazhangrui on X)
+
+Zara Zhang shared a nuanced perspective on AI and writing: she seldom uses AI for writing because she enjoys it, finds it fast, and has high standards that make AI iteration slower.
+Zara Zhang 分享了对 AI 与写作的细腻看法：她很少用 AI 写作，因为她享受写作、写得很快，而且高标准反而让 AI 迭代更费时。
+
+*"For me personally, AI has been most useful for helping me with things OUTSIDE my comfort zone (like coding), not inside of it (like writing)."*
+*"对我个人而言，AI 在帮我处理舒适区之外的事情（如编程）时最有用，而不是舒适区内的事情（如写作）。"*
+
+She also demoed Andrej Karpathy's knowledge management system as an HTML deck, and a Duolingo-style interactive language tutorial built with AI.
+她还演示了将 Andrej Karpathy 知识管理系统制作成 HTML 幻灯片，以及用 AI 构建的 Duolingo 风格交互式语言教程。
+
+Source tweets:
+https://x.com/zarazhangrui/status/2042379962339246105
+https://x.com/zarazhangrui/status/2042355625179709573
+https://x.com/zarazhangrui/status/2042349097701765564
+
+---
+
+### Aditya Agarwal — South Park Commons GP (adityaag on X)
+
+Aditya Agarwal noted the Anthropic CTO's visit to SPC India.
+Aditya Agarwal 记录了 Anthropic CTO 访问 SPC 印度的动态。
+
+Source tweet: https://x.com/adityaag/status/2042266606152319264
+
+---
+
+### Swyx — AI Engineer (swyx on X)
+
+Swyx shared lore from the AI Engineer event: the tweet that inspired the "AGI Pill bottles" they handed out.
+Swyx 分享了 AI Engineer 活动的趣事：启发他们制作并发放"AGI 药丸瓶"的那条推文。
+
+Source tweet: https://x.com/swyx/status/2042443722290327596
+
+---
+
+### Matt Turck — FirstMark Capital VC (mattturck on X)
+
+Matt Turck had no major AI-specific insights today — mostly tech commentary and a crypto observation.
+Matt Turck 今日无重要 AI 相关动态——主要是技术评论和一条加密货币观察。
+
+Source tweets:
+https://x.com/mattturck/status/2042382660568305816
+https://x.com/mattturck/status/2042215820307140690
+
+---
+
+### Dan Shipper — Every CEO (danshipper on X)
+
+Dan Shipper pointed to a "very useful feature" (quote tweet, no original commentary) and shared a video for people "freaking out" about current AI news.
+Dan Shipper 转推了一个"非常有用的功能"（无原创评论）并为对 AI 新闻感到焦虑的人分享了一个视频。
+
+Source tweets:
+https://x.com/danshipper/status/2042409377554907410
+https://x.com/danshipper/status/2042299262176764095
+
+---
+
+### Amjad Masad — Replit CEO (amasad on X)
+
+Amjad Masad retweeted with a 💯 — near real-content post today.
+Amjad Masad 今日仅以 💯 转推，近期无重要原创动态。
+
+Source tweet: https://x.com/amasad/status/2042332588308906118
+
+---
+
+### Nikunj Kothari — FPV Ventures Partner (nikunj on X)
+
+Nikunj shared that an AI writing detector (Pangram Labs) flagged his hand-written content as 100% AI-generated — a humbling moment that sparked discussion about the blurring line between human and AI writing.
+Nikunj 分享了一个令人沉思的经历：AI 写作检测工具（Pangram Labs）将他手写的内容判定为 100% AI 生成——引发了关于人类写作与 AI 写作界限模糊的讨论。
+
+He also celebrated 80 GitHub stars on a side project — small number, big joy.
+他还为自己的副项目获得 80 颗 GitHub Star 而开心——数字虽小，喜悦真实。
+
+Source tweets:
+https://x.com/nikunj/status/2042429023889080487
+https://x.com/nikunj/status/2042393034789437742
+
+---
+
+## PODCASTS
+
+---
+
+### Unsupervised Learning — Ep 84: OpenAI's Chief Scientist on Continual Learning Hype, RL Beyond Code, & Future Alignment Directions
+
+This episode features Ako Paioki, Chief Scientist of OpenAI, in a wide-ranging conversation with host Jacob Efron (Redpoint Ventures).
+本期播客邀请了 OpenAI 首席科学家 Ako Paioki，与主持人 Jacob Efron（Redpoint Ventures）进行了深度对话。
+
+**On model progress and coding agents:**
+**关于模型进展与编程 Agent：**
+
+Ako confirmed that OpenAI now uses Codex for the majority of actual coding internally, calling it a clear signal that "something here is on track."
+Ako 确认 OpenAI 内部现已将 Codex 用于大多数实际编程工作，称这是"一切正在正轨上"的明确信号。
+
+He expects models to be able to work autonomously for a couple of days within months, with much higher quality artifacts.
+他预计几个月内模型就能自主工作数天，并产出质量更高的成果。
+
+**On reinforcement learning beyond code:**
+**关于代码之外的强化学习：**
+
+Ako believes RL will generalize to harder domains (medicine, law, finance), linking these to longer-horizon tasks where even well-specified problems become open-ended over time.
+Ako 认为强化学习将推广到更难的领域（医疗、法律、金融），将其与更长期任务联系起来——即使是定义明确的问题，随着时间推移也会变得开放式。
+
+*"I kind of believe these difficulties coincide, and they're very clearly the next frontier for how these systems develop."*
+*"我认为这些困难是一致的，这显然是这些系统发展的下一个前沿。"*
+
+**On continual learning "hype":**
+**关于持续学习"炒作"：**
+
+He pushed back on the framing, saying the entire GPT scaling excitement was always about continual/in-context learning.
+他对这一框架提出异议，指出整个 GPT 扩展的兴奋点一直都是关于持续学习/上下文学习。
+
+*"I definitely agree that continual learning is really the thing. It is what we're working towards."*
+*"我完全同意，持续学习确实是关键。这正是我们正在努力的方向。"*
+
+**On alignment and chain-of-thought monitoring:**
+**关于对齐与思维链监控：**
+
+Ako explained why OpenAI hides the chain of thought in reasoning models: because if you show it in the product, you eventually have to train it, which would undermine its value as an unsupervised interpretability signal.
+Ako 解释了 OpenAI 隐藏推理模型思维链的原因：如果在产品中展示，最终就不得不训练它，从而破坏其作为无监督可解释性信号的价值。
+
+He described alignment's long-term challenge as a generalization problem — what values does a much more capable model fall back on?
+他将对齐的长期挑战描述为泛化问题——一个更强大的模型会回归到什么价值观？
+
+He is optimistic about chain-of-thought monitoring as a tool for this, and excited about work on model scheming in collaboration with Anthropic and DeepMind.
+他对思维链监控作为解决这一问题的工具持乐观态度，并对与 Anthropic 和 DeepMind 合作开展的模型行为研究感到兴奋。
+
+**On AI for science:**
+**关于 AI 科学应用：**
+
+Recalling the FrontierMath challenge, Ako described the emotional experience of watching a model solve problems from his own PhD domain in about an hour — problems he'd have been proud to solve in a week.
+回忆 FrontierMath 挑战赛时，Ako 描述了看着模型在约一小时内解决他博士研究领域问题时的复杂情绪——这些问题他自己可能需要一周才能解决。
+
+*"Seeing that happen for math...definitely really increased my feeling of urgency."*
+*"看到这发生在数学上……确实大大加强了我的紧迫感。"*
+
+**On societal impact:**
+**关于社会影响：**
+
+He identified two underappreciated challenges: job displacement/wealth concentration requiring policymaker involvement, and the question of governance for organizations that are incredibly powerful yet made of very few people.
+他指出了两个被低估的挑战：需要政策制定者介入的就业替代/财富集中问题，以及对极具影响力却由极少数人控制的组织的治理问题。
+
+Podcast URL: https://www.youtube.com/@RedpointAI
 
 ---
 
