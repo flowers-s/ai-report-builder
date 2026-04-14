@@ -1,168 +1,155 @@
-AI Builders 日报 · 2026-04-13
+AI Builders 日报 · 2026-04-14
 
-Today's digest covers 11 builders on X/Twitter and 1 podcast episode. Themes: agentic architecture philosophy, AI's impact on professional services, memory management, and the agentic financial system.
-
-今日日报涵盖11位X平台建设者动态与1期播客。核心议题：Agentic架构哲学、AI对专业服务业的影响、长期记忆管理，以及AI驱动的金融体系变革。
+今日汇聚 12 位 AI 领域建造者的推文动态，以及 Latent Space 最新播客一期。以下为双语摘要，英文原文在前，中文解读随后。
 
 ---
 
-## @swyx
+## Swyx (@swyx)
 
-swyx recently stepped away from the keyboard for something deeply personal: performing a Broadway solo for the first time in nearly 18 years. He flew straight back from London just in time for the cabaret.
-
-swyx 近期暂别科技圈，完成了一件颇具个人意义的事：时隔约18年重登百老汇独唱舞台，仅在歌词上失误了一次。他专程从伦敦飞回赶上了这场小剧场演出——门票极其有限。这是一个提醒：顶尖的构建者也需要艺术来给生命充电。
-
-- https://x.com/swyx/status/2043217991589102027
-- https://x.com/swyx/status/2043095815577833619
+**Tweet:** "raw recording with some INSANE performances from my new friends"
+Swyx 分享了一段与新朋友们合作的原始录音，称演出水准令人惊叹。
+🔗 https://x.com/swyx/status/2043547497382240513
 
 ---
 
-## @petergyang
+## Kevin Weil (@kevinweil)
 
-Peter Yang dived deep with Figma CEO Dylan Field on a provocative question: *"Can AI learn design taste?"* The conversation explored whether design systems constrain creativity or enable it, and how AI changes the role of designers.
-
-Peter Yang 与 Figma CEO Dylan Field 就一个挑衅性问题展开深度对话：AI 能否学会"设计品味"？讨论涵盖设计系统是否限制了创造力、AI 如何重塑设计师角色等尖锐议题。这场对话触及了创造力与系统化之间最根本的张力——在 AI 时代，这一张力正在被重新定义。
-
-- https://x.com/petergyang/status/2042950869734567998
+**Tweet:** "Human intelligence and computer intelligence are not different points on a line, but in a high dimensional space—and we should explore more of the space."
+Kevin Weil 转发并赞扬了一篇关于人类智能与计算机智能的深刻见解，指出两者并非同一维度上的不同点，而是存在于高维空间中，我们应该更积极地探索这个空间。这是对 AI 与人类协作方式的重要认知框架转变。
+🔗 https://x.com/kevinweil/status/2043510607736189193
 
 ---
 
-## @trq212
+## Peter Yang (@petergyang)
 
-A delightfully relatable take: *"there's a turbotax connector in Claude Code now, so glad I procrastinated on taxes 😭"* — the ultimate AI-era procrastination justification.
+**Tweet 1:** "Jet lag is hell"
+旅途时差折磨人，Peter Yang 吐槽倒时差的痛苦，引发众多出行人士共鸣。
+🔗 https://x.com/petergyang/status/2043491799478718953
 
-一条令人会心一笑的推文：*"Claude Code 现在有了 TurboTax 连接器，庆幸自己一直拖着没报税。"* 这句玩笑背后是一个真实信号：AI 工具正在渗透进日常财务事务，拖延的代价在 AI 时代正在被重新定价。税务申报这类"麻烦事"正快速成为 AI 的下一个赛道。
+**Tweet 2:** "My entire feed and the Claude subreddit is full of ppl saying opus got nerfed. Why would Anthropic nerf its own models?"
+Peter Yang 注意到 Claude Opus 被"削弱"的传言在社区蔓延，质疑 Anthropic 为何会主动降低自家模型的能力。这一话题引发了关于 AI 公司如何平衡模型迭代与用户体验的广泛讨论。
+🔗 https://x.com/petergyang/status/2043466663258140685
 
-- https://x.com/trq212/status/2043138221836746762
-
----
-
-## @rauchg (Guillermo Rauch, Vercel)
-
-Guillermo announced that Vercel Sandbox is now the **#1 fastest microVM-based sandbox**, with real-world performance and reliability beating lab benchmarks. Customers migrating have confirmed the edge.
-
-Guillermo 宣布 Vercel Sandbox 已成为**速度最快的基于 microVM 的沙箱**，真实生产环境下的性能与可靠性均超越实验室基准测试。这不仅是产品里程碑，也是对"速度即护城河"的实践证明——在 AI 代码执行基础设施竞争白热化之际，Vercel 用实测数据而非营销话术说话。
-
-- https://x.com/rauchg/status/2043020059896091016
+**Tweet 3:** Podcast links shared (Spotify & Apple)
+同时分享了播客最新一期的收听链接，覆盖 Spotify 和 Apple Podcasts 平台。
+🔗 https://x.com/petergyang/status/2043328453181943988
 
 ---
 
-## @levie (Aaron Levie, Box)
+## Nan Yu (@thenanyu)
 
-Aaron shared two sharp observations. First, a chart showing Amazon has done more capex in the last 3 years than its entire prior history — underscoring the staggering infrastructure demands of AI. Second, a counterintuitive take: *AI will likely increase the number of lawyers*, not reduce it — because more people will ask legal questions, creating more work for humans to verify and execute.
-
-Aaron 分享了两个犀利洞察。其一：一张图表显示亚马逊近3年的资本支出超过其历史总和，直观揭示了 AI 对数据中心的天量需求。其二：一个反直觉判断——*AI 时代律师数量可能不降反升*，因为 AI 会让更多人产生法律咨询需求，从而带动真人律师审核与执行的工作量增长。这是对"AI 替代论"的精准反驳：需求弹性往往大于供给效率的提升。
-
-- https://x.com/levie/status/2043192337111924930
-- https://x.com/levie/status/2043051227387433144
+**Tweet:** "And regular expressions."
+Nan Yu 发了一条简短却意味深长的推文——"还有正则表达式"——暗示在 AI 时代，某些传统编程技能依然不可或缺，充满调侃意味。
+🔗 https://x.com/thenanyu/status/2043433444898730007
 
 ---
 
-## @garrytan (Garry Tan, YC)
+## Amjad Masad (@amasad)
 
-Garry dropped a philosophy bomb on agentic architecture after 3 months of open-source work used by tens of thousands of engineers daily. His thesis: *"Thin harness, fat skills."* The harness should be a thin conductor — it reads files, routes context, calls tools. Skills and memory live in markdown, in git. *"If your memory dies when your harness dies, you built the harness too thick."* He also praised the learning value of building voice systems with AI — calling it *"a powerful education in latency."*
-
-Garry Tan 在其开源项目被数万 agentic 工程师使用3个月后，抛出了一个架构哲学宣言：*"薄 harness，厚 skills。"* Harness 应是一个轻量指挥者——负责读取文件、路由上下文、调用工具；技能与记忆存储在 Markdown 里，存储在 Git 里。*"如果你的 harness 挂掉，记忆也跟着消失，说明你的 harness 做得太厚了。"* 这是对当前 Agent 框架设计的直接批判，也是一种架构纪律的倡导：复杂性要放在对的地方。他还提到通过 AI 构建语音系统是一次关于延迟的深刻教育。
-
-- https://x.com/garrytan/status/2043198783006355747
-- https://x.com/garrytan/status/2043198780800197025
-- https://x.com/garrytan/status/2043188801175220306
+**Tweet:** "On its 50th birthday Apple is doing its best to become the most hated company in the world."
+Replit 创始人 Amjad Masad 在苹果公司 50 周年之际发出尖锐批评，称其正努力成为"全球最被讨厌的公司"。这反映出科技圈对苹果近期种种争议举措的强烈不满情绪。
+🔗 https://x.com/amasad/status/2043394289326289243
 
 ---
 
-## @mattturck (Matt Turck, FirstMark)
+## Guillermo Rauch (@rauchg)
 
-Matt flagged a provocative claim making the rounds: *"There are so many vendors in AI for customer service, it's basically a solved problem."* — surfacing the tension between market saturation perception and actual enterprise deployment reality.
-
-Matt 转发了一个引发争议的论断：*"AI 客服领域的供应商太多了，这个问题基本上已经被解决了。"* 这句话折射出市场对 AI 落地赛道的分歧——有人认为某些垂直场景已过度竞争，有人则认为真正的企业级规模化部署才刚刚开始。对于投资人与创业者，这是一个值得认真辨析的信号。
-
-- https://x.com/mattturck/status/2043114808875077789
+**Tweet:** "Protip: Create an X group chat with your best and most demanding customers. Put your engineering leads in said group chat. Respond and ship quickly. Face the music."
+Vercel CEO Guillermo Rauch 分享了一个产品建议：建立一个专属 X 群聊，将最挑剔的核心用户与工程负责人放在一起，快速响应、快速交付、直面真实反馈。他表示 v0 产品已在实践这一方式，并公开邀请愿意深度参与的用户加入。这是一种将用户反馈直接嵌入研发流程的高效方法。
+🔗 https://x.com/rauchg/status/2043381737754120592
 
 ---
 
-## @zarazhangrui (Zara Zhang, GGV)
+## Aaron Levie (@levie)
 
-Zara offered a sharp redefinition of what human communication will be *for* in an AI-augmented world: deciding what to work on, defining what "good" looks like, preventing loneliness, and creative brainstorming. Her second take: *"The most efficient way for humans to collaborate: do not collaborate. One person should own something end-to-end and work with agents."*
+**Tweet 1:** Enterprise AI agents field report — key takeaways from a week of meetings with dozens of IT and AI leaders across banking, media, retail, healthcare, consulting, tech, and sports.
 
-Zara 给出了 AI 时代人类沟通的新定义：决定做什么、定义何为"好"、防止孤独、创意头脑风暴。她的第二个论断更为大胆：*"人类协作最高效的方式：不要协作。一个人应该端到端地拥有某件事，然后与 Agent 协同完成。"* 这是对传统团队协作模式的根本性挑战——当 AI 可以承担大量执行工作，人类之间的协调成本反而可能成为效率瓶颈。
+Box CEO Aaron Levie 带来了本周最具含金量的企业 AI 观察报告。他走访了数十位来自银行、媒体、零售、医疗等多行业的 IT 和 AI 主管，总结出以下核心要点：
 
-- https://x.com/zarazhangrui/status/2043202553538925031
-- https://x.com/zarazhangrui/status/2043187721989149146
+- *"Clear that we're moving from chat era of AI to agents that use tools, process data, and start to execute real work in the enterprise."* 企业 AI 正从"聊天时代"迈向"执行时代"，Agent 开始真正处理工作流中的任务。
+- **Token 预算成为新战场**："Tokenmaxxing"——企业正在像分配计算预算一样认真对待 Token 成本，有公司甚至搞起了"鲨鱼坦克"式的计算资源竞标会。
+- **遗留系统是最大障碍**：大量企业仍在使用数十年前的本地部署系统，Agent 无法轻松接入，现代化改造迫在眉睫。
+- **没有人在谈论裁员**：当前 AI Agent 主要用于此前无力完成的任务，而非替代现有岗位，重点是"增收"而非"降本"。
+- **工程师需求不降反升**：虽然工程师不再只是"写代码"，但他们将成为搭建和运营企业自动化系统的核心人才。
+🔗 https://x.com/levie/status/2043426157367095397
 
----
+**Tweet 2:** Security and the Jevons Paradox
 
-## @nikunj
+*"Counterintuitively, I think better AI tooling for security will increase the demand for security talent, not decrease it."*
 
-A dry, incisive take on VC behavior: VCs pitch low valuations as a sign of conviction and long-term commitment — then six months later push founders to take the highest possible valuation to maximize their own mark-ups. The gap between the pitch and the incentive is laid bare.
-
-一针见血的 VC 行为素描：融资时，VC 以低估值作为"长期信念"的标志；六个月后，同一个 VC 却催促创始人接受最高估值以最大化自己的账面回报。话语与激励之间的裂缝被毫不留情地曝光。对创始人而言，理解投资人的真实激励结构，比听他们说什么更重要。
-
-- https://x.com/nikunj/status/2043092455550259341
-
----
-
-## @steipete (Peter Steinberger)
-
-Peter unveiled two experiments for the next OpenClaw release addressing "GPT is lazy" complaints. First, **Strict Mode**: a new execution contract (`strict-agentic`) that forces GPT-5.x to keep working autonomously. Second, **Native Codex as harness**: a plugin system where the default Pi harness can be swapped for Anthropic's SDK or Codex. He also noted that harnesses can now be plugins — making the architecture far more composable, even if Claude subscription support isn't there yet.
-
-Peter 公布了下一版 OpenClaw 的两项实验，直击"GPT 太懒"的用户痛点。其一，**严格模式**：通过新的执行契约（`strict-agentic`）要求 GPT-5.x 持续自主推进，不轻易停下来等待指令。其二，**原生 Codex 作为 harness**：插件化架构允许将默认的 Pi harness 替换为 Anthropic SDK 或 Codex，大幅提升可组合性。Harness 插件化是一个重要的架构信号——它与 @garrytan 的"薄 harness"哲学形成呼应，让生态更开放。
-
-- https://x.com/steipete/status/2043136624469619050
-- https://x.com/steipete/status/2043136620006961384
-- https://x.com/steipete/status/2043136615640694797
+Aaron Levie 引用了安全领域的"杰文斯悖论"：AI 工具让漏洞发现更高效，但同时也会产生 100 倍更多的代码和安全风险。自动化能发现问题，但响应、修复和架构决策仍需人类专家。安全人才将迎来大规模需求增长。
+🔗 https://x.com/levie/status/2043318118169354302
 
 ---
 
-## @adityaag
+## Garry Tan (@garrytan)
 
-Aditya drew a sharp line between a true "agent" and simply running an LLM in a loop: the real differentiator is **intelligent long-horizon memory management**. Getting this right — what to remember, what to forget, how to compress and retrieve context across long task horizons — is the hardest and most interesting unsolved problem in agentic AI.
+**Tweet 1:** "New item in my SOUL md tonight"
+YC 总裁 Garry Tan 深夜更新了自己的"SOUL.md"文件（一个用于定义 AI Agent 人格的 Markdown 文件），暗示他正在持续打磨自己的 AI 工作流与 Agent 配置。
+🔗 https://x.com/garrytan/status/2043581361798500602
 
-Aditya 在"真正的 Agent"与"循环调用 LLM"之间划出了一条清晰的分界线：真正的区别在于**智能的长时记忆管理**。如何决定记什么、忘什么、如何压缩与检索跨越长任务周期的上下文——这是 agentic AI 中最难、也最值得关注的未解问题。记忆不是附加功能，而是 Agent 智能的核心基础设施。
+**Tweet 2:** "Do the right job at the right layer. Everything else is architecture astronomy."
+精炼的工程哲学：在正确的层级做正确的事，其余都是空谈。警告过度设计的陷阱。
+🔗 https://x.com/garrytan/status/2043566405862236254
 
-- https://x.com/adityaag/status/2043144970060939487
-
----
-
-## 🎙️ PODCAST: No Priors — The Agentic Economy
-
-**Episode:** The Agentic Economy: How AI Agents Will Transform the Financial System with Circle Co-Founder and CEO Jeremy Allaire
-**Published:** 2026-04-09
-**Link:** https://www.youtube.com/@NoPriorsPodcast
+**Tweet 3:** *"Push smart fuzzy operations humans do into markdown skills. Fat skills. Push must-be-perfect deterministic operations into code. Fat code. The harness? Keep it thin."*
+Garry Tan 分享了今年关于 Agent 工程最简洁的核心原则：将模糊的人类操作用 Markdown Skill 来承载（厚 Skill），将必须精确的确定性操作用代码实现（厚代码），而 Harness（调度框架）则保持轻薄。这是对 AI Agent 架构设计的精华提炼。
+🔗 https://x.com/garrytan/status/2043566215927328955
 
 ---
 
-### 一、深度总结
+## Zara Zhang (@zarazhangrui)
 
-**核心论点**
+**Tweet 1 & 2:** Vibe coding a custom Chrome "New Tab" page
 
-本期节目的核心命题：稳定币与 AI Agent 的结合，将催生一种全新的"代理经济"（Agentic Economy）。Jeremy Allaire 认为，当 AI Agent 能够自主执行金融操作——代表人类或企业发起、授权、结算交易——货币本身的形态与流转方式将发生根本性变革。USDC 这类稳定币正是这一变革的基础设施层。
+*"PSA: You can vibe code your own 'New tab' page in Chrome. I have turned mine into the ultimate solution to the 'too many tabs' problem."*
 
-**关键洞察**
+Zara Zhang 用"氛围编程"（vibe coding）打造了个性化 Chrome 新标签页：按域名分组展示所有标签、关闭时有音效和彩纸庆祝动效、批量关闭"速赢"标签、检测重复标签，并支持将未完成任务加入待办清单——她称之为"浏览器标签的 Marie Kondo 法则"，代码已开源。
+🔗 https://x.com/zarazhangrui/status/2043415572688629937
+🔗 https://x.com/zarazhangrui/status/2043415661528129873
 
-- **稳定币是 AI Agent 的原生货币**：传统银行账户体系对 Agent 不友好——需要人工身份验证、监管许可、漫长的开户流程。稳定币天然可编程、可授权、可审计，是 Agent 执行经济行为的最短路径。
-
-- **Circle 的定位：互联网金融层**：Allaire 将 Circle 定义为"互联网金融层"的建设者，而非加密货币公司。其目标是让美元像 HTTP 一样流动——无需许可，全球可达，程序可控。
-
-- **Agent 经济的信任问题**：当 AI Agent 代表人类进行金融决策时，谁来负责？Allaire 指出，这需要新的授权框架——人类设定边界、Agent 在边界内执行、区块链提供不可篡改的审计轨迹。这是"可信代理"的基础设施问题。
-
-- **监管窗口正在打开**：美国监管机构对稳定币的态度正在软化，立法窗口出现。Allaire 认为这是十年一遇的时机——如果稳定币监管框架在美国落地，将极大加速全球 AI 金融基础设施的合法化。
-
-- **反直觉：加密不是终点，美元才是**：Circle 押注的不是"去美元化"，而是"美元的互联网化"。稳定币让美元更强，而非更弱——这与加密原教旨主义的叙事截然相反。
-
-**最值得关注的信号**
-
-AI Agent 自主执行经济行为已不再是科幻——Circle 正在与多家 AI 公司合作，构建 Agent 可直接调用的支付 API。这意味着"AI 花钱"的基础设施已经在建，监管与信任框架的搭建速度将决定这一赛道的商业化节奏。
+**Tweet 3:** "tabula rasa"
+一声简短的"白板重启"，意味深长。
+🔗 https://x.com/zarazhangrui/status/2043418831885086911
 
 ---
 
-### II. Key Takeaways (English)
+## Nikunj Kothari (@nikunj)
 
-- Stablecoins are the native currency for AI agents — programmable, permissionless, auditable.
-- Circle's mission is making the dollar flow like HTTP: borderless and machine-readable.
-- The trust problem for agentic finance requires new authorization frameworks, not just better AI.
-- US regulatory momentum on stablecoins is the most important near-term unlock for the agentic economy.
-- Counterintuitive bet: stablecoins make the dollar *stronger*, not weaker.
+**Tweet:** *"More people should adopt the 'Doordash' strategy for building companies."*
+
+Nikunj Kothari 提出了一个反直觉的创业策略：效仿 DoorDash 当年避开超级竞争的大城市、专攻郊区市场的打法。他认为未来会涌现更多由有经验的创始人在大城市郊区建立的创业公司——既雄心勃勃，又不必在超级内卷的 SF/NY/LA 争抢资源。这对经验丰富但厌倦了高强度通勤的人尤其适合。
+🔗 https://x.com/nikunj/status/2043374140443553885
 
 ---
 
-*Digest generated 2026-04-13 | AI Builders 日报*
+## Peter Steinberger (@steipete)
+
+**Tweet:** "They grow up so fast 🦞"
+PSPDFKit 创始人 Peter Steinberger 发了一条带龙虾表情的感慨，暗示 AI（或某个项目）的成长速度惊人，充满温情与幽默。
+🔗 https://x.com/steipete/status/2043313467512463713
+
+---
+
+## Aditya Agarwal (@adityaag)
+
+**Tweet:** Anthropic culture vs. early Facebook
+
+*"The Anthropic culture reminds me a lot of early Facebook...despite OpenAI having a lot more ex-Facebook people."*
+
+Dropbox 前 CTO Aditya Agarwal 进行了一次引人入胜的文化类比：Anthropic 的内部氛围与早期 Facebook 高度相似——人们充满乐趣、带有些许天真、拥有黑客文化基因和强烈的使命感，同时也有点过于认真。他的结论是"成功会解决很多问题"。这一观察为 Anthropic 的组织文化提供了独特视角。
+🔗 https://x.com/adityaag/status/2043501400626491758
+
+---
+
+## 🎙️ PODCAST: Latent Space
+
+**Marc Andreessen on The Death of the Browser, Pi + OpenClaw, and Why "This Time Is Different"**
+发布时间：2026-04-03
+
+Marc Andreessen 在 Latent Space 播客中深度反思了 AI 的发展历程与当下时刻。他将当前的 AI 突破称为"80年一夜成名"——ChatGPT、o1、OpenClaw 等产品的横空出世，是建立在几十年严肃硬核研究积累之上的集中释放。他坚信神经网络是正确的架构，这一判断经历了近 70 年的争议才被证明。
+
+*"It's an overnight success because it's like bam, you know, ChatGPT hits and then o1 hits...but they're drawing on an eighty year sort of Wellspring backlog of ideas and thinking."*
+
+Andreessen 同时探讨了浏览器的"死亡"与 AI 时代新交互范式的崛起，以及为何他认为"这次真的不同"。如果他 18 岁，他会把全部时间都投入 AI 领域。
+🔗 https://www.youtube.com/@LatentSpacePod
