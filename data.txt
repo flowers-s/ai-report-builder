@@ -1,155 +1,209 @@
-AI Builders 日报 · 2026-04-14
+AI Builders 日报 · 2026-04-15
 
-今日汇聚 12 位 AI 领域建造者的推文动态，以及 Latent Space 最新播客一期。以下为双语摘要，英文原文在前，中文解读随后。
-
----
-
-## Swyx (@swyx)
-
-**Tweet:** "raw recording with some INSANE performances from my new friends"
-Swyx 分享了一段与新朋友们合作的原始录音，称演出水准令人惊叹。
-🔗 https://x.com/swyx/status/2043547497382240513
+X / TWITTER
 
 ---
 
-## Kevin Weil (@kevinweil)
+Swyx (swyx on X) — AI 工程师 / latent.space 创始人
 
-**Tweet:** "Human intelligence and computer intelligence are not different points on a line, but in a high dimensional space—and we should explore more of the space."
-Kevin Weil 转发并赞扬了一篇关于人类智能与计算机智能的深刻见解，指出两者并非同一维度上的不同点，而是存在于高维空间中，我们应该更积极地探索这个空间。这是对 AI 与人类协作方式的重要认知框架转变。
-🔗 https://x.com/kevinweil/status/2043510607736189193
+Swyx is paying attention to the concentration of AI engineering talent in San Francisco.
+Swyx 注意到 AI 工程人才高度集中于旧金山湾区。
 
----
+*"~80% of the world's agents and AI engineering is done in these 3 square miles"* — a striking observation about how geographically localized the frontier of AI development remains.
+*"~80% 的全球 Agent 和 AI 工程工作都发生在这三平方英里内"* —— 这句话令人印象深刻，揭示了 AI 前沿开发依然高度地域集中的现状。
 
-## Peter Yang (@petergyang)
+He also highlighted a usage surge at Cognition: usage roughly doubled globally after two recent launches, driven by agent composition and proactive agents.
+他还指出 Cognition 的使用量大幅增长：两次近期发布后，全球使用量几乎翻倍，主要驱动力是 Agent 组合和主动式 Agent。
 
-**Tweet 1:** "Jet lag is hell"
-旅途时差折磨人，Peter Yang 吐槽倒时差的痛苦，引发众多出行人士共鸣。
-🔗 https://x.com/petergyang/status/2043491799478718953
+*"Agent recursion is all you need?"* — a playful but pointed question about whether composing agents recursively is the key unlock.
+*"Agent 递归就是你所需要的一切？"* —— 这是一个轻松而有针对性的问题：递归组合 Agent 是否就是关键突破口。
 
-**Tweet 2:** "My entire feed and the Claude subreddit is full of ppl saying opus got nerfed. Why would Anthropic nerf its own models?"
-Peter Yang 注意到 Claude Opus 被"削弱"的传言在社区蔓延，质疑 Anthropic 为何会主动降低自家模型的能力。这一话题引发了关于 AI 公司如何平衡模型迭代与用户体验的广泛讨论。
-🔗 https://x.com/petergyang/status/2043466663258140685
+Additionally, he recommended open-sourced writing skill templates by developer Anh for anyone looking to improve their technical writing.
+此外，他推荐了开发者 Anh 开源的写作技能模板，适合希望提升技术写作能力的人参考。
 
-**Tweet 3:** Podcast links shared (Spotify & Apple)
-同时分享了播客最新一期的收听链接，覆盖 Spotify 和 Apple Podcasts 平台。
-🔗 https://x.com/petergyang/status/2043328453181943988
-
----
-
-## Nan Yu (@thenanyu)
-
-**Tweet:** "And regular expressions."
-Nan Yu 发了一条简短却意味深长的推文——"还有正则表达式"——暗示在 AI 时代，某些传统编程技能依然不可或缺，充满调侃意味。
-🔗 https://x.com/thenanyu/status/2043433444898730007
+https://x.com/swyx/status/2043786360012845509
+https://x.com/swyx/status/2043778767798317349
+https://x.com/swyx/status/2043770029024653798
 
 ---
 
-## Amjad Masad (@amasad)
+Kevin Weil (@kevinweil) — OpenAI 首席产品官
 
-**Tweet:** "On its 50th birthday Apple is doing its best to become the most hated company in the world."
-Replit 创始人 Amjad Masad 在苹果公司 50 周年之际发出尖锐批评，称其正努力成为"全球最被讨厌的公司"。这反映出科技圈对苹果近期种种争议举措的强烈不满情绪。
-🔗 https://x.com/amasad/status/2043394289326289243
+Kevin Weil only posted once today, agreeing with OpenAI co-founder Greg Brockman on an unspecified point.
+Kevin Weil 今天只发了一条推文，表示认同 OpenAI 联合创始人 Greg Brockman 的某个观点。
 
----
+The content of the original post wasn't included in the feed, so there's limited insight here — but the signal is noted.
+原帖内容未包含在数据中，因此可解读的信息有限，仅作记录。
 
-## Guillermo Rauch (@rauchg)
-
-**Tweet:** "Protip: Create an X group chat with your best and most demanding customers. Put your engineering leads in said group chat. Respond and ship quickly. Face the music."
-Vercel CEO Guillermo Rauch 分享了一个产品建议：建立一个专属 X 群聊，将最挑剔的核心用户与工程负责人放在一起，快速响应、快速交付、直面真实反馈。他表示 v0 产品已在实践这一方式，并公开邀请愿意深度参与的用户加入。这是一种将用户反馈直接嵌入研发流程的高效方法。
-🔗 https://x.com/rauchg/status/2043381737754120592
+https://x.com/kevinweil/status/2043934843487302114
 
 ---
 
-## Aaron Levie (@levie)
+Peter Yang (petergyang on X) — 产品思维博主 / Creator Science 创始人
 
-**Tweet 1:** Enterprise AI agents field report — key takeaways from a week of meetings with dozens of IT and AI leaders across banking, media, retail, healthcare, consulting, tech, and sports.
+Peter Yang shared a self-aware observation about the trap of optimizing your AI tools instead of doing actual work.
+Peter Yang 分享了一个发人深省的自我观察：人们容易陷入不断优化 AI 工具的陷阱，而非真正完成工作。
 
-Box CEO Aaron Levie 带来了本周最具含金量的企业 AI 观察报告。他走访了数十位来自银行、媒体、零售、医疗等多行业的 IT 和 AI 主管，总结出以下核心要点：
+*"Am I actually setting up workflows to get real work done or am I just optimizing my Cursor and Claude Code setup... it feels like progress (and is fun) but isn't actually super productive after a certain extent."*
+*"我究竟是在构建真正完成工作的工作流，还是只是在优化我的 Cursor 和 Claude Code 配置……感觉像是在进步（而且很有趣），但到了一定程度其实并不怎么高效。"*
 
-- *"Clear that we're moving from chat era of AI to agents that use tools, process data, and start to execute real work in the enterprise."* 企业 AI 正从"聊天时代"迈向"执行时代"，Agent 开始真正处理工作流中的任务。
-- **Token 预算成为新战场**："Tokenmaxxing"——企业正在像分配计算预算一样认真对待 Token 成本，有公司甚至搞起了"鲨鱼坦克"式的计算资源竞标会。
-- **遗留系统是最大障碍**：大量企业仍在使用数十年前的本地部署系统，Agent 无法轻松接入，现代化改造迫在眉睫。
-- **没有人在谈论裁员**：当前 AI Agent 主要用于此前无力完成的任务，而非替代现有岗位，重点是"增收"而非"降本"。
-- **工程师需求不降反升**：虽然工程师不再只是"写代码"，但他们将成为搭建和运营企业自动化系统的核心人才。
-🔗 https://x.com/levie/status/2043426157367095397
+He also weighed in on the growing tension between GPT and Claude for AI coding tools, noting that GPT needs to match or exceed Claude's Opus-level performance in these tools or risk losing developer mindshare.
+他还谈到 GPT 与 Claude 在 AI 编程工具领域日益加剧的竞争，指出如果 GPT 无法在这些工具中达到或超越 Claude Opus 的表现，将面临失去开发者心智的风险。
 
-**Tweet 2:** Security and the Jevons Paradox
-
-*"Counterintuitively, I think better AI tooling for security will increase the demand for security talent, not decrease it."*
-
-Aaron Levie 引用了安全领域的"杰文斯悖论"：AI 工具让漏洞发现更高效，但同时也会产生 100 倍更多的代码和安全风险。自动化能发现问题，但响应、修复和架构决策仍需人类专家。安全人才将迎来大规模需求增长。
-🔗 https://x.com/levie/status/2043318118169354302
+https://x.com/petergyang/status/2043848480423325757
+https://x.com/petergyang/status/2043732939817791979
 
 ---
 
-## Garry Tan (@garrytan)
+Thariq (trq212 on X) — Claude Code 团队 / Anthropic
 
-**Tweet 1:** "New item in my SOUL md tonight"
-YC 总裁 Garry Tan 深夜更新了自己的"SOUL.md"文件（一个用于定义 AI Agent 人格的 Markdown 文件），暗示他正在持续打磨自己的 AI 工作流与 Agent 配置。
-🔗 https://x.com/garrytan/status/2043581361798500602
+Thariq is surfacing new Claude Code features to the community.
+Thariq 正在向社区推介 Claude Code 的新功能。
 
-**Tweet 2:** "Do the right job at the right layer. Everything else is architecture astronomy."
-精炼的工程哲学：在正确的层级做正确的事，其余都是空谈。警告过度设计的陷阱。
-🔗 https://x.com/garrytan/status/2043566405862236254
+He introduced the new Claude Code renderer, which can be enabled with the environment variable `CLAUDE_CODE_NO_FLICKER=1 claude`, and pointed to full documentation for developers to explore.
+他介绍了新的 Claude Code 渲染器，可通过环境变量 `CLAUDE_CODE_NO_FLICKER=1 claude` 启用，并附上了完整文档链接供开发者参考。
 
-**Tweet 3:** *"Push smart fuzzy operations humans do into markdown skills. Fat skills. Push must-be-perfect deterministic operations into code. Fat code. The harness? Keep it thin."*
-Garry Tan 分享了今年关于 Agent 工程最简洁的核心原则：将模糊的人类操作用 Markdown Skill 来承载（厚 Skill），将必须精确的确定性操作用代码实现（厚代码），而 Harness（调度框架）则保持轻薄。这是对 AI Agent 架构设计的精华提炼。
-🔗 https://x.com/garrytan/status/2043566215927328955
+https://x.com/trq212/status/2043814648315818242
+https://x.com/trq212/status/2043814646600348046
 
 ---
 
-## Zara Zhang (@zarazhangrui)
+Amjad Masad (amasad on X) — Replit CEO
 
-**Tweet 1 & 2:** Vibe coding a custom Chrome "New Tab" page
+Amjad Masad posted on product, philosophy, and a bit of nostalgia.
+Amjad Masad 今天的推文涉及产品、哲学与一点怀旧情绪。
 
-*"PSA: You can vibe code your own 'New tab' page in Chrome. I have turned mine into the ultimate solution to the 'too many tabs' problem."*
+On rigor, he delivered a sharp critique: *"Most people are loose with what's measurable and rigid with what's inherently fuzzy. They bend data to fit the story, but demand precision from things that don't survive contact with reality. LARPing rigor."*
+关于严谨性，他发表了一针见血的批判：*"大多数人对可量化的事物随意对待，却对本质上模糊的事物强求精确。他们扭曲数据来迎合叙事，却对无法经受现实检验的东西要求精准。这是在角色扮演严谨。"*
 
-Zara Zhang 用"氛围编程"（vibe coding）打造了个性化 Chrome 新标签页：按域名分组展示所有标签、关闭时有音效和彩纸庆祝动效、批量关闭"速赢"标签、检测重复标签，并支持将未完成任务加入待办清单——她称之为"浏览器标签的 Marie Kondo 法则"，代码已开源。
-🔗 https://x.com/zarazhangrui/status/2043415572688629937
-🔗 https://x.com/zarazhangrui/status/2043415661528129873
+On the product side, Replit now supports configurable app hosting regions, which is particularly useful for compliance and privacy law requirements.
+产品层面，Replit 现已支持可配置的应用托管区域，这对于合规和隐私法律要求尤为重要。
 
-**Tweet 3:** "tabula rasa"
-一声简短的"白板重启"，意味深长。
-🔗 https://x.com/zarazhangrui/status/2043418831885086911
-
----
-
-## Nikunj Kothari (@nikunj)
-
-**Tweet:** *"More people should adopt the 'Doordash' strategy for building companies."*
-
-Nikunj Kothari 提出了一个反直觉的创业策略：效仿 DoorDash 当年避开超级竞争的大城市、专攻郊区市场的打法。他认为未来会涌现更多由有经验的创始人在大城市郊区建立的创业公司——既雄心勃勃，又不必在超级内卷的 SF/NY/LA 争抢资源。这对经验丰富但厌倦了高强度通勤的人尤其适合。
-🔗 https://x.com/nikunj/status/2043374140443553885
+https://x.com/amasad/status/2043948524908490953
+https://x.com/amasad/status/2043785145606656223
 
 ---
 
-## Peter Steinberger (@steipete)
+Guillermo Rauch (rauchg on X) — Vercel CEO
 
-**Tweet:** "They grow up so fast 🦞"
-PSPDFKit 创始人 Peter Steinberger 发了一条带龙虾表情的感慨，暗示 AI（或某个项目）的成长速度惊人，充满温情与幽默。
-🔗 https://x.com/steipete/status/2043313467512463713
+Guillermo Rauch announced a major open-source release: a reference platform for cloud coding agents.
+Guillermo Rauch 宣布了一项重大开源发布：一个用于云端编码 Agent 的参考平台。
 
----
+He explained that companies like Stripe, Ramp, Spotify, and Block are all building their own "AI software factories" because off-the-shelf coding agents struggle with large monorepos, lack institutional knowledge, and don't integrate well with internal systems.
+他解释说，Stripe、Ramp、Spotify 和 Block 等公司都在构建自己的"AI 软件工厂"，因为现成的编码 Agent 在处理大型单体仓库时表现不佳，缺乏机构知识，也难以与内部系统良好集成。
 
-## Aditya Agarwal (@adityaag)
+The open-source project aims to give teams a starting point to build their own tailored agent infrastructure.
+这个开源项目旨在为团队提供一个起点，帮助他们构建自己量身定制的 Agent 基础设施。
 
-**Tweet:** Anthropic culture vs. early Facebook
-
-*"The Anthropic culture reminds me a lot of early Facebook...despite OpenAI having a lot more ex-Facebook people."*
-
-Dropbox 前 CTO Aditya Agarwal 进行了一次引人入胜的文化类比：Anthropic 的内部氛围与早期 Facebook 高度相似——人们充满乐趣、带有些许天真、拥有黑客文化基因和强烈的使命感，同时也有点过于认真。他的结论是"成功会解决很多问题"。这一观察为 Anthropic 的组织文化提供了独特视角。
-🔗 https://x.com/adityaag/status/2043501400626491758
+https://x.com/rauchg/status/2043869656931529034
 
 ---
 
-## 🎙️ PODCAST: Latent Space
+Aaron Levie (levie on X) — Box CEO
 
-**Marc Andreessen on The Death of the Browser, Pi + OpenClaw, and Why "This Time Is Different"**
-发布时间：2026-04-03
+Aaron Levie identified what he believes will become a new critical enterprise role: the "agent deployer and manager."
+Aaron Levie 认为一种新的关键企业职能正在涌现：「Agent 部署与管理者」。
 
-Marc Andreessen 在 Latent Space 播客中深度反思了 AI 的发展历程与当下时刻。他将当前的 AI 突破称为"80年一夜成名"——ChatGPT、o1、OpenClaw 等产品的横空出世，是建立在几十年严肃硬核研究积累之上的集中释放。他坚信神经网络是正确的架构，这一判断经历了近 70 年的争议才被证明。
+This person would be responsible for identifying the highest-leverage workflows where agents can drive real outcomes, deploying and managing those agents, and evolving the system over time as AI capabilities improve.
+这一角色负责识别 Agent 能真正产生影响的高价值工作流，部署和管理这些 Agent，并随着 AI 能力的提升持续迭代优化系统。
 
-*"It's an overnight success because it's like bam, you know, ChatGPT hits and then o1 hits...but they're drawing on an eighty year sort of Wellspring backlog of ideas and thinking."*
+It's a sign that enterprise AI adoption is moving from experimentation to operational maturity, and organizations will need dedicated people to run their AI workforce.
+这表明企业 AI 应用正在从实验阶段走向运营成熟阶段，组织将需要专职人员来管理他们的 AI 劳动力。
 
-Andreessen 同时探讨了浏览器的"死亡"与 AI 时代新交互范式的崛起，以及为何他认为"这次真的不同"。如果他 18 岁，他会把全部时间都投入 AI 领域。
-🔗 https://www.youtube.com/@LatentSpacePod
+https://x.com/levie/status/2043883641366032638
+
+---
+
+Ryo Lu (ryolu_ on X) — AI 产品构建者
+
+Ryo Lu teased upcoming multi-agent view customizations — split it up, down, left, right, however you want.
+Ryo Lu 预告了即将推出的多 Agent 视图自定义功能，支持上下左右随意分屏布局。
+
+More layout and multi-agent view options are coming, hinting at a richer workspace for managing parallel agent workflows.
+更多布局和多 Agent 视图选项即将推出，暗示着更丰富的并行 Agent 工作流管理工作区正在路上。
+
+https://x.com/ryolu_/status/2043891602381500583
+
+---
+
+Garry Tan (garrytan on X) — Y Combinator CEO
+
+Garry Tan shared updates on GBrain, his personal AI agent setup built on top of OpenClaw/Hermes.
+Garry Tan 分享了 GBrain 的更新——这是他基于 OpenClaw/Hermes 构建的个人 AI Agent 配置。
+
+GBrain v0.9.3 brings search tuning, search evals, CJK (Chinese/Japanese/Korean) query support, better health checks, and a wave of security hotfixes.
+GBrain v0.9.3 带来了搜索调优、搜索评估、CJK（中日韩）查询支持、更好的健康检查，以及大量安全修复。
+
+He also highlighted that GBrain includes a voice agent built on OpenAI Realtime (soon upgrading to Gemini Live), so your AI agent can literally talk to you — an opinionated, personal stack that reflects how a top operator actually runs their AI setup.
+他还强调，GBrain 包含一个基于 OpenAI Realtime 构建的语音 Agent（即将升级至 Gemini Live），让你的 AI 助手真正能开口与你对话——这是一个有主见的个人技术栈，展示了顶级实践者如何实际运营自己的 AI 配置。
+
+https://x.com/garrytan/status/2043948971568312473
+https://x.com/garrytan/status/2043948627291451625
+
+---
+
+Nikunj Kothari (nikunj on X) — AI 创业者 / 投资人
+
+Nikunj Kothari surfaced an interesting talent dynamic in the AI startup ecosystem.
+Nikunj Kothari 揭示了 AI 创业生态中一个有趣的人才流动现象。
+
+He recounted a true story: a person joins a fast-growing "agentic" startup, discovers token limits and cost pressures from open-source models, and ends up returning to a frontier lab — because unlimited tokens is the ultimate retention perk.
+他讲述了一个真实故事：有人加入一家快速成长的"Agentic"初创公司，发现了 Token 限制和开源模型的成本压力，最终选择回到前沿实验室——因为无限 Token 才是终极留人福利。
+
+*"Frontier labs greatest retention perk must be truly unlimited tokens 😅"*
+*"前沿实验室最大的留人福利一定是真正无限的 Token 😅"*
+
+https://x.com/nikunj/status/2043808491807396059
+
+---
+
+Dan Shipper (danshipper on X) — Every.to CEO / AI 写作先行者
+
+Dan Shipper had a productive day of thinking out loud about software engineering and AI philosophy.
+Dan Shipper 今天思维活跃，深入探讨了软件工程与 AI 哲学。
+
+He proposed that software engineering in 2026 needs two roles: the pirate (codes fast to discover what's valuable) and the architect (turns the mess into a reliable system).
+他提出，2026 年的软件工程需要两种角色：海盗（快速编码，探索价值所在）和建筑师（将混乱变成可靠的系统）。
+
+He also amplified the mental model *"An agent is just a folder"* — attributed to Kieran — as a powerful way to think about AI systems architecture.
+他还推广了 Kieran 提出的思维模型：*"一个 Agent 就是一个文件夹"* —— 这是一种理解 AI 系统架构的有力方式。
+
+Finally, he reflected on how language models have changed his philosophical worldview: new technology demands new philosophy.
+最后，他反思了语言模型如何改变了他的哲学世界观：新技术需要新哲学。
+
+https://x.com/danshipper/status/2043819933675450455
+https://x.com/danshipper/status/2043739805276619223
+https://x.com/danshipper/status/2043723146683908414
+
+---
+
+PODCASTS
+
+---
+
+No Priors — "AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus"
+No Priors 播客 —《AI for Atoms：Periodic Labs 联合创始人 Liam Fedus 谈如何用 AI 变革材料工程》
+
+Liam Fedus — one of ChatGPT's co-creators and former VP of Post-Training at OpenAI — joined No Priors to discuss Periodic Labs, his new company building an AI foundation model for the physical world.
+Liam Fedus —— ChatGPT 的联合创始人之一、前 OpenAI 后训练副总裁 —— 接受 No Priors 播客专访，介绍他的新公司 Periodic Labs，致力于为物理世界构建 AI 基础模型。
+
+Fedus explained that real scientific progress requires interfacing with reality: running experiments, learning from them, not just reasoning in a room.
+Fedus 解释说，真正的科学进步需要与现实对接：进行实验、从中学习，而不仅仅是在房间里推理。
+
+*"Science ultimately isn't sitting in a room thinking really hard. You have to conduct experiments. You have to learn from them. You have to interface with reality."*
+*"科学说到底不是坐在房间里苦思冥想。你必须做实验，从中学习，与现实对接。"*
+
+He also traced the surprising migration of physicists into AI — from Dario Amodei (Anthropic) to Adam Brown (Google) — noting that after the Higgs boson discovery, many high-energy physicists looked for new frontiers and found them in machine learning.
+他还追溯了物理学家涌入 AI 领域的有趣现象——从 Dario Amodei（Anthropic）到 Adam Brown（Google）——指出希格斯玻色子发现后，许多高能物理学家开始寻找新的前沿领域，并在机器学习中找到了答案。
+
+Fedus recounted being at Google Brain from 2016-17 during the creation of the transformer, mixture of experts, and distributed training — a "Cambrian era" of AI diversity and small-team breakthroughs.
+Fedus 回忆了他 2016-17 年在 Google Brain 的时光，那正是 Transformer、混合专家模型和分布式训练诞生的年代 —— 一个 AI 多样性爆发、小团队突破不断的"寒武纪时代"。
+
+The core thesis of Periodic Labs: AI models need to be deeply connected to the physical world — atoms, chemistry, materials — not just language.
+Periodic Labs 的核心论点是：AI 模型需要与物理世界深度连接 —— 原子、化学、材料 —— 而不仅仅是语言。
+
+https://www.youtube.com/@NoPriorsPodcast
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
