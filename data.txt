@@ -1,131 +1,297 @@
-AI Builders 日报 · 2026-04-17
+AI Builders 日报 · 2026-04-18
+
+Today's digest covers 18 AI builders and 1 podcast from the Latent Space feed.
+今日日报收录 18 位 AI 创作者动态及 1 期 Latent Space 播客。
 
 ---
-Swyx
-Meta's AI story is turning after the Llama 4 flop: more hiring, Zuck coding again, and finally a GA'd Opus-level model.
-Meta 的 AI 故事在 Llama 4 挫败后出现转机：加大招聘、扎克伯格亲自写代码，以及正式发布 Opus 级别模型。
-https://x.com/swyx/status/2044598788065731017
+
+## 🎙️ Podcast: Latent Space — Notion's Token Town
+
+**"Notion's Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future"**
+Source: https://www.youtube.com/@LatentSpacePod
+Published: 2026-04-15
+
+### 深度总结
+
+**核心论点**
+Notion has rebuilt its AI agent layer five times since late 2022, culminating in Custom Agents—its most successful launch ever by free-trial and conversion metrics. Simon Last and Sarah Sachs from Notion joined the Latent Space podcast to discuss why they remain bullish on MCP for lightweight, permission-constrained agents, how HTML is becoming the universal interface for AI outputs, and what a "Software Factory" future looks like when every enterprise team can spin up their own bespoke automation.
+
+**主要论点展开**
+- MCP 的价值在于简单、窄权限的场景——不需要完整 coding agent runtime 的轻量级工具集成。MCP 的权限模型天生收敛：你只能调用工具，不多不少。
+- Notion 将自己定位为企业工作的"最佳记录系统"，无论 MCP 还是 CLI 谁赢，他们都会持续投入 MCP 支持。
+- Custom Agents 的背后是第四或第五次完整重建，团队习惯于"永远领先两三个里程碑"，以避免技术债务追尾。
+- 当前 AI 工具的用户教育成本已经大幅下降——"人们懂了"——这让 2026 年的发布比 2022/23 年容易得多。
+
+**值得关注的细节**
+Notion 正在探索"Software Factory"愿景：未来每个企业团队都可以快速组合出自己的定制 AI 工作流，而不是等待 IT 部门。这与 OpenClaw、Cursor 等工具的方向高度一致。
 
 ---
-Swyx
-"This is the year of subagents" — but subagents are an optimization problem. The harder challenge: boss agents that compose and manage other agents. That's a capabilities problem.
-"今年是子智能体之年"——但子智能体本质是优化问题。更难的挑战是：能够组合与管理其他智能体的"指挥智能体"，这是能力层面的问题。
-https://x.com/swyx/status/2044542494420214217
+
+## Sam Altman (@sama)
+
+Codex gets major upgrades: computer use, in-app browser, new plugins, and the ability to learn from experience and proactively suggest tasks.
+Codex 迎来重大升级：计算机控制能力、内置浏览器、多项新插件，以及从使用经验中学习并主动提出建议的能力。
+
+Computer use feels especially impactful—Codex can now operate all Mac apps in parallel without disrupting the user's own work.
+计算机控制功能令人印象深刻——Codex 现在可以并行操作 Mac 上的所有应用，且不干扰用户的直接工作流。
+
+Sam also takes a light jab at Codex's rival Tibo, joking about rate limits and model quality as users migrate.
+Sam 还轻松调侃了竞品 Tibo，开玩笑说随着用户迁移，希望不要遭遇限速或降级模型。
+
+Sources:
+- https://x.com/sama/status/2044858862042591378
+- https://x.com/sama/status/2044858863246323811
+- https://x.com/sama/status/2044921348540264614
 
 ---
-Josh Woodward
-Introducing Gemini on Mac — 100% native Swift, 100+ features, built by a small team in under 100 days.
-发布 Mac 版 Gemini——100% 原生 Swift，100 多项功能，小团队不到 100 天打造完成。
-https://x.com/joshwoodward/status/2044452201947627709
+
+## Claude / Anthropic (@claudeai)
+
+Claude Opus 4.7 launches today across Claude.ai, the Claude Platform, and all major cloud providers.
+Claude Opus 4.7 今日正式发布，覆盖 Claude.ai、Claude 平台及所有主流云服务商。
+
+Claude Code gets a new /ultrareview command that runs a dedicated review session to catch what a careful human reviewer would flag; auto mode is now extended to Max users for fewer interruptions on long tasks.
+Claude Code 新增 /ultrareview 指令，可运行专项代码审查会话，捕捉人工审查员会发现的问题；auto 模式现已向 Max 用户开放，减少长任务中断。
+
+A new xhigh effort level on the API sits between high and max, giving developers finer control over reasoning depth and latency; task budgets (beta) help Claude manage costs on longer runs.
+API 新增 xhigh 努力等级，介于 high 和 max 之间，让开发者对推理深度与延迟有更精细的控制；任务预算（beta）功能帮助 Claude 在长时任务中优化成本。
+
+Sources:
+- https://x.com/claudeai/status/2044785272617939282
+- https://x.com/claudeai/status/2044785266590622185
+- https://x.com/claudeai/status/2044785264313221470
 
 ---
-Peter Yang
-Feels like there's a Claude outage every other day — is this related to shipping pace, compute scaling, or something else?
-感觉 Claude 几乎隔天就出现故障——这与发货节奏、算力扩展，还是其他原因有关？
-https://x.com/petergyang/status/2044433121580634178
+
+## Alex Albert (@alexalbert__)
+
+Highlights his favorite Opus 4.7 improvements: stronger async work and instruction-following, more predictable effort levels for token control, no more downscaling of high-res images, and noticeably better taste in UIs, slides, and docs.
+分享 Opus 4.7 的个人最爱改进点：异步任务与指令遵循能力更强、努力等级更可预测（便于 token 控制）、高分辨率图片不再被降采样，以及在 UI、幻灯片、文档上明显更有"审美"。
+
+Source:
+- https://x.com/alexalbert__/status/2044788914813292583
 
 ---
-Peter Yang
-Just back from 2 weeks in China — every product builder should visit to understand Chinese AI work culture, EVs, ultra-cheap delivery, and how people there live.
-刚从中国回来，待了两周——每个产品构建者都应该去一次，了解中国 AI 工作文化、电动汽车、极低成本配送以及那里的日常生活。
-https://x.com/petergyang/status/2044418914856353901
+
+## Cat Wu (@_catwu)
+
+Claude Code now defaults Opus 4.7 to xhigh effort level; users can adjust with /effort.
+Claude Code 现已将 Opus 4.7 的默认努力等级设为 xhigh；用户可用 /effort 命令随时调整。
+
+Her top tip for getting the most out of Opus 4.7: tell the model how to verify its own changes—put your testing workflow in claude.md or add a /verify-app skill, since 4.7 is meaningfully better at self-verification.
+她的 Opus 4.7 最佳实践建议：告诉模型如何验证自己的修改——将测试流程写入 claude.md 或添加 /verify-app 技能，因为 4.7 的自我验证能力有显著提升。
+
+Updates are now centralized in one place for the Claude Code team.
+Claude Code 团队已将所有更新集中到同一处发布。
+
+Sources:
+- https://x.com/_catwu/status/2044808538351100377
+- https://x.com/_catwu/status/2044808539663978970
+- https://x.com/_catwu/status/2044815645699928273
 
 ---
-Thariq
-The 1M context window is a double-edged sword. It enables complex tasks but leads to context pollution if you don't manage your session well. Here's how to do that.
-1M 上下文窗口是把双刃剑：它能处理复杂任务，但如果不善加管理，也容易导致上下文污染。这是管理方法。
-https://x.com/trq212/status/2044653083817660431
+
+## Thariq (@trq212)
+
+Claude Code is rolling out a curated "What's New" docs section covering major announcements as a digest.
+Claude Code 正在推出精选的"What's New"文档区，以摘要形式汇总重要公告。
+
+Monthly "what we shipped" webinars are now available for signup.
+每月"我们发布了什么"网络研讨会现已开放报名。
+
+The team has been having deep conversations with users about helping them get more out of Claude Code, with /usage updates rolling out this week.
+团队持续与用户深入交流，研究如何让大家更好地使用 Claude Code，本周将推出 /usage 更新。
+
+Sources:
+- https://x.com/trq212/status/2044893584961556767
+- https://x.com/trq212/status/2044893586333032627
+- https://x.com/trq212/status/2044893587691958320
 
 ---
-Thariq
-You can set your own autocompact threshold: CLAUDE_CODE_AUTO_COMPACT_WINDOW=400000 claude — 400k context is a good compromise.
-你可以自行设置自动压缩阈值：CLAUDE_CODE_AUTO_COMPACT_WINDOW=400000 claude，400k 上下文是一个不错的折中选择。
-https://x.com/trq212/status/2044653085415604473
+
+## Kevin Weil (@kevinweil)
+
+Launches GPT-Rosalind, OpenAI's first frontier model purpose-built for scientific research—covering biology, drug discovery, genomics, protein engineering, and more, with built-in knowledge of research databases and tools.
+发布 GPT-Rosalind，OpenAI 首个专为科学研究打造的前沿模型，涵盖生物学、药物发现、基因组学、蛋白质工程等领域，并内置研究数据库和工具知识。
+
+Separately declares the new Codex computer use "shockingly good."
+另外盛赞新版 Codex 的计算机控制能力"出乎意料地好"。
+
+Sources:
+- https://x.com/kevinweil/status/2044862783947448611
+- https://x.com/kevinweil/status/2044862785201565840
+- https://x.com/kevinweil/status/2045004924682195027
 
 ---
-Amjad Masad
-If security flaw discovery is fully automated with frontier models, GitHub should show how much compute was spent securing each open-source package — the only way OSS can be truly trusted.
-如果前沿模型已能完全自动化地发现安全漏洞，GitHub 就应显示每个开源包花了多少算力用于安全加固——这是开源软件真正值得信任的唯一途径。
-https://x.com/amasad/status/2044437437141909609
+
+## Aaron Levie (@levie)
+
+The new Codex represents a genuine leap for knowledge workers: agents that can code, use tools, and control computers are now capable of executing long-running background tasks—drafting reports, setting up merger data rooms, and reviewing complex documents.
+新版 Codex 对知识工作者来说是真正的飞跃：能编码、使用工具、控制计算机的智能体，现在可以在后台执行长时任务——起草报告、为并购建立数据室、审阅复杂文件。
+
+Source:
+- https://x.com/levie/status/2044855448722100720
 
 ---
-Guillermo Rauch
-The future of design isn't a specific tool — it's that every team in the world is now empowered to build their own design factory. The software factory is the product.
-设计的未来不在于某个特定工具，而在于全球每个团队都能构建自己的"设计工厂"。软件工厂本身就是产品。
-https://x.com/rauchg/status/2044445445636972578
+
+## Guillermo Rauch (@rauchg)
+
+The toughest challenge in building agents and backends is durability—LLMs go down, services rate-limit, databases slow unexpectedly. Workflow SDKs that handle this gracefully are the unicorn he's been searching for a decade.
+构建智能体和后端最难的问题是持久性——LLM 会宕机、服务会限速、数据库会意外变慢。能优雅处理这些问题的工作流 SDK 是他寻找了十年的"独角兽"。
+
+AI progress is relentless: Anthropic just shipped a big one, but OpenAI, xAI, and Google are right behind. Vercel's AI SDK and AI Gateway are built to capture the upside of this volatility.
+AI 进展势不可挡：Anthropic 刚刚大更新，但 OpenAI、xAI、Google 紧随其后。Vercel 的 AI SDK 与 AI Gateway 正是为捕捉这种波动红利而生。
+
+Sources:
+- https://x.com/rauchg/status/2044858872842826102
+- https://x.com/rauchg/status/2044808819273052663
 
 ---
-Aaron Levie
-AI will create more jobs, not fewer — it accelerates output in one area, then you hit a new bottleneck elsewhere that still requires humans. The legal industry is a perfect example.
-AI 会创造更多就业岗位，而非减少——它在某一环节加速了产出，然后在另一个环节产生新瓶颈，而那里依然需要人类。法律行业就是典型例子。
-https://x.com/levie/status/2044621545348481285
+
+## Amjad Masad (@amasad)
+
+Replit now lets you turn a web app into an iOS app for under $10.
+Replit 现已支持将 Web 应用一键转为 iOS 应用，成本不到 10 美元。
+
+50% off credits are available—especially useful for running parallel agents and accelerating projects.
+50% 折扣积分正在进行中，特别适合运行并行智能体、加速项目推进。
+
+EU deployment is now live.
+欧盟地区部署现已上线。
+
+Sources:
+- https://x.com/amasad/status/2044844802077069375
+- https://x.com/amasad/status/2044846551072419994
+- https://x.com/amasad/status/2044953138957025707
 
 ---
-Ryo Lu
-A glimpse into the future — try /canvas in Cursor to build custom interfaces for your agents.
-未来的一瞥——在 Cursor 中使用 /canvas，为你的智能体构建自定义界面。
-https://x.com/ryolu_/status/2044493859821129992
+
+## Peter Yang (@petergyang)
+
+When building AI skills, he now always spins up a separate eval agent that does yes/no checks on the primary agent's output—if not all checks pass, the first agent is asked to keep iterating. Currently applying this to YouTube thumbnail and title generation.
+构建 AI 技能时，他现在总会额外启动一个独立的评估智能体，对主智能体的输出进行逐项是/否判断——若未全部通过，主智能体将继续迭代。目前正将此方法应用于 YouTube 缩略图和标题生成。
+
+Also notes: Claude and Codex apps should add easy markdown file viewing and editing on web/mobile, so users can hand-craft the final 10% of instructions.
+另外建议：Claude 和 Codex 应在网页和移动端加入便捷的 Markdown 文件查看与编辑功能，方便用户手工调整最后 10% 的指令。
+
+Sources:
+- https://x.com/petergyang/status/2044976766914265097
+- https://x.com/petergyang/status/2044998456062906422
+- https://x.com/petergyang/status/2045007422084051168
 
 ---
-Garry Tan
-With Docker sandbox, mitmproxy firewall, logging, and Clawvisor, OpenClaw is no longer "insecure" — the days of that criticism are over.
-借助 Docker 沙箱、mitmproxy 防火墙、日志记录和 Clawvisor，OpenClaw 已不再"不安全"——对此的批评时代已经过去。
-https://x.com/garrytan/status/2044512730087072000
+
+## Swyx (@swyx)
+
+Reflects on AI Engineer World's Fair programming: putting the "slop cannons" on Day 1 and the "grown-ups" on Day 2 is a deliberate choice that faithfully represents the most important split in AI engineering today—move fast vs. build right.
+回顾 AI Engineer World's Fair 的议程安排：将"快枪手"放在第一天、"成年人"放在第二天，是一个刻意的选择，真实反映了当下 AI 工程界最重要的分歧——快速迭代 vs. 稳健构建。
+
+Also shares links to his "Slow Down" talk and "Harness Engineering" talk from the conference.
+同时分享了大会上他的"放慢脚步"演讲和"Harness 工程"演讲链接。
+
+Sources:
+- https://x.com/swyx/status/2044939001405350235
+- https://x.com/swyx/status/2044943275199762455
+- https://x.com/swyx/status/2044943315938975801
 
 ---
-Garry Tan
-GBrain, built on git+postgres, works wonderfully with multiple agents simultaneously.
-基于 git+postgres 构建的 GBrain，能与多个智能体同时无缝协作。
-https://x.com/garrytan/status/2044644320599560416
+
+## Nan Yu (@thenanyu)
+
+Wryly observes that the AI industry is reinventing every existing software and business concept—just like crypto did with finance—only much faster. "Congrats us."
+幽默地指出，AI 行业正在重新发明所有已有的软件和商业概念——就像加密货币曾经对金融做的那样——只不过速度快得多。"恭喜我们。"
+
+Highlights that both engineers and product managers are caught up in this reinvention wave.
+强调工程师和产品经理都被卷入了这场重新发明的浪潮。
+
+Sources:
+- https://x.com/thenanyu/status/2044922422147653763
+- https://x.com/thenanyu/status/2044922579891191852
+- https://x.com/thenanyu/status/2044922841208918031
 
 ---
-Matt Turck
-The roadmap for Claude Cowork is one month long — things are moving too fast in AI to plan any further. Ship, evaluate, iterate.
-Claude Cowork 的路线图只有一个月长——AI 发展太快，根本没办法规划得更远。发布、评估、迭代。
-https://x.com/mattturck/status/2044534930684719394
+
+## Ryo Lu (@ryolu_)
+
+Building "baby glass"—a new prototyping environment at Cursor that lets designers quickly imagine, remix, and test ideas in code, using the same shared components powering Cursor 3's new interface.
+正在构建"baby glass"——Cursor 的全新原型环境，让设计师能快速构想、混搭、在代码中测试创意，使用的正是驱动 Cursor 3 新界面的共享组件。
+
+His personal model stack: Opus 4.7 for planning, Composer 2 for building and iterations, Codex/GPT-5.4 for hard bugs—all within Cursor.
+个人模型组合：Opus 4.7 用于规划，Composer 2 用于构建与迭代，Codex/GPT-5.4 用于攻克难题——全部在 Cursor 中完成。
+
+Sources:
+- https://x.com/ryolu_/status/2044789186130256062
+- https://x.com/ryolu_/status/2044982132859400342
 
 ---
-Zara Zhang
-"Play" should be taken more seriously. If you work in AI, playing with the models is literally part of your job — not a waste of time. The most unexpected insights come from non-utilitarian exploration.
-"玩耍"应该被认真对待。如果你在 AI 领域工作，玩弄模型字面上就是你工作的一部分——不是浪费时间。最意外的洞见往往来自非功利性的探索。
-https://x.com/zarazhangrui/status/2044515052435476685
+
+## Garry Tan (@garrytan)
+
+Shipping GBrain: bug fixes for the /ship skill, security patches, and end-to-end Gemini Live tests that he and his claw (agent) ultimately had to build themselves. The e2e Gemini Live test framework will be open-sourced soon.
+持续推进 GBrain：修复 /ship 技能的 Bug、推送安全补丁，并亲自（和他的 agent 一起）从零构建了 Gemini Live 的端到端测试。该测试框架即将开源。
+
+Sources:
+- https://x.com/garrytan/status/2045002844508766510
+- https://x.com/garrytan/status/2045020411805700110
+- https://x.com/garrytan/status/2045023061746004324
 
 ---
-Zara Zhang
-Once you use HTML to make slides, you simply can't go back. Made with the Frontend Slides feature in AnyGen.
-一旦用 HTML 制作幻灯片，就再也回不去了。用 AnyGen 的 Frontend Slides 功能制作。
-https://x.com/zarazhangrui/status/2044653882597421066
+
+## Zara Zhang (@zarazhangrui)
+
+Shares her framework for high-leverage time use: deep talk (brainstorms with great people), deep read (long-form content), deep play (wild AI experiments).
+分享高价值时间的三大使用框架：深度对话（与优秀的人头脑风暴）、深度阅读（消费长篇内容）、深度玩耍（用 AI 做疯狂的随机实验）。
+
+Launches HTML videos: a format where agents generate video-like experiences entirely in HTML. "What the symphony was to Beethoven, play was to Shakespeare, HTML is to agents."
+发布 HTML 视频：一种由智能体完全用 HTML 生成类视频体验的新格式。"正如交响乐之于贝多芬，戏剧之于莎士比亚，HTML 之于智能体。"
+
+Sources:
+- https://x.com/zarazhangrui/status/2044849748579164328
+- https://x.com/zarazhangrui/status/2044886721024930280
+- https://x.com/zarazhangrui/status/2044891980178792560
 
 ---
-Nikunj Kothari
-Find someone who genuinely cares — a mentor, founder, VC, advisor, or customer. Life's too short to work with people who don't give a damn. That genuine care might be your greatest moat.
-找到一个真心在乎的人——导师、创始人、投资人、顾问或客户。人生太短，不值得与不在乎的人共事。那份真诚的在乎，可能成为你最深的护城河。
-https://x.com/nikunj/status/2044596515088499194
+
+## Peter Steinberger (@steipete)
+
+Celebrates nearly 2,000 attendees at ClawCon Michigan—a sign the "weird lobster cult" OpenClaw community is growing fast.
+庆祝 ClawCon Michigan 吸引近 2000 名参与者——"奇怪的龙虾邪教"OpenClaw 社区正在高速成长。
+
+Pushes back on OpenClaw security criticism: the volume of GHSAs (GitHub Security Advisories) is not a sign of insecurity, but rather a leading indicator of the "coming storm" of security awareness across AI tooling.
+回应对 OpenClaw 安全性的批评：大量 GHSA（GitHub 安全公告）并非不安全的标志，而是 AI 工具安全意识"即将到来的风暴"的领先指标。
+
+Sources:
+- https://x.com/steipete/status/2044888081141223442
+- https://x.com/steipete/status/2044935917417205796
 
 ---
-Peter Steinberger
-After thousands of work hours and hundreds of security researchers pen-testing OpenClaw, there's now a solid security model: Docker/OpenShell sandbox, allow-lists, and per-access exec allow/deny prompts.
-经过数千小时工作和数百名安全研究员的渗透测试，OpenClaw 现已有完善的安全模型：Docker/OpenShell 沙箱、白名单，以及按访问级别的执行允许/拒绝提示。
-https://x.com/steipete/status/2044482797449150520
+
+## Dan Shipper (@danshipper)
+
+Ran a "philosopher draft"—which philosopher from history would each AI lab hire, and why? A fun way to probe the values and personalities embedded in different model labs.
+举办了一场"哲学家选秀"——历史上哪位哲学家会被各大 AI 实验室录用，为什么？一种有趣的方式来探究不同模型实验室背后的价值观与性格。
+
+Speculates that the "Mythos" announcement might be a 4D chess move to protect Anthropic's government contracts under Trump—and calls it bullish.
+猜测"Mythos"公告可能是一步"四维棋"，旨在保护 Anthropic 在特朗普政府下的合同——并表示看涨。
+
+Hosted a live Opus 4.7 vibe check with Alex Albert from Anthropic.
+与 Anthropic 的 Alex Albert 一同主持了 Opus 4.7 的直播体验点评。
+
+Sources:
+- https://x.com/danshipper/status/2044811209695003083
+- https://x.com/danshipper/status/2044864110391710144
+- https://x.com/danshipper/status/2044890935637549380
 
 ---
-Peter Steinberger
-GPT 5.4-Cyber's ability for closed-source reverse engineering is alarming. Hundreds of teams try to poke holes into OpenClaw — their response has been rapid iteration and code hardening.
-GPT 5.4-Cyber 在闭源逆向工程方面的能力令人警醒。数百个团队持续尝试攻破 OpenClaw——他们的应对方式是快速迭代和代码加固。
-https://x.com/steipete/status/2044423791405924562
+
+## Aditya Agarwal (@adityaag)
+
+One-liner that captures the community mood perfectly: "Oh god, am I going to have to rewrite all my code with 4.7 now????"
+一句话精准捕捉了社区此刻的集体心情："天哪，我现在是不是得用 4.7 把所有代码都重写一遍????"
+
+Source:
+- https://x.com/adityaag/status/2044861137720918371
 
 ---
-Aditya Agarwal
-The arc of an LLM skeptic: "just autocorrect" → "just next-token prediction" → "hallucinations" → "only good for coding" → "only for verifiable things." Just admit it — LLMs are awesome.
-LLM 怀疑论者的心路历程："不就是自动补全"→"只是预测下一个 token"→"会幻觉"→"只适合编程"→"只适合可验证的事情"。承认吧——LLM 很厉害。
-https://x.com/adityaag/status/2044444065199177748
 
----
-AI & I by Every
-The AI Model Built for What LLMs Can't Do
-能量基模型（EBM）是为 LLM 无法做到的事情而生的 AI 架构。
-EBMs are naturally non-autoregressive — no token guessing, bird's-eye view of all states, formally constrainable, cheaper for spatial reasoning and data analysis tasks.
-EBM 天然非自回归——无需猜测 token，能俯瞰所有状态，可形式化约束，在空间推理和数据分析任务上成本更低。
-Some big tech LLM companies already have EBM models in-house — a positive signal for the field.
-一些大型科技公司内部已在研发 EBM——这对该领域是积极信号。
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+*AI Builders 日报 由 follow-builders + ai-report-builder 自动生成 · https://flowers-s.github.io/ai-report-builder/*
