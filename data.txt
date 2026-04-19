@@ -1,297 +1,209 @@
-AI Builders 日报 · 2026-04-18
+AI Builders 日报 · 2026-04-19
 
-Today's digest covers 18 AI builders and 1 podcast from the Latent Space feed.
-今日日报收录 18 位 AI 创作者动态及 1 期 Latent Space 播客。
+🎙️ PODCAST
 
----
-
-## 🎙️ Podcast: Latent Space — Notion's Token Town
-
-**"Notion's Token Town: 5 Rebuilds, 100+ Tools, MCP vs CLIs and the Software Factory Future"**
-Source: https://www.youtube.com/@LatentSpacePod
-Published: 2026-04-15
-
-### 深度总结
-
-**核心论点**
-Notion has rebuilt its AI agent layer five times since late 2022, culminating in Custom Agents—its most successful launch ever by free-trial and conversion metrics. Simon Last and Sarah Sachs from Notion joined the Latent Space podcast to discuss why they remain bullish on MCP for lightweight, permission-constrained agents, how HTML is becoming the universal interface for AI outputs, and what a "Software Factory" future looks like when every enterprise team can spin up their own bespoke automation.
-
-**主要论点展开**
-- MCP 的价值在于简单、窄权限的场景——不需要完整 coding agent runtime 的轻量级工具集成。MCP 的权限模型天生收敛：你只能调用工具，不多不少。
-- Notion 将自己定位为企业工作的"最佳记录系统"，无论 MCP 还是 CLI 谁赢，他们都会持续投入 MCP 支持。
-- Custom Agents 的背后是第四或第五次完整重建，团队习惯于"永远领先两三个里程碑"，以避免技术债务追尾。
-- 当前 AI 工具的用户教育成本已经大幅下降——"人们懂了"——这让 2026 年的发布比 2022/23 年容易得多。
-
-**值得关注的细节**
-Notion 正在探索"Software Factory"愿景：未来每个企业团队都可以快速组合出自己的定制 AI 工作流，而不是等待 IT 部门。这与 OpenClaw、Cursor 等工具的方向高度一致。
+**No Priors** — Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott
+No Priors podcast features ServiceNow CEO Bill McDermott discussing how large enterprises are scaling and reorganizing in the age of AI.
+No Priors 播客邀请 ServiceNow CEO Bill McDermott 探讨大型企业如何在 AI 时代实现规模化扩张与组织重构。
+Source: https://www.youtube.com/@NoPriorsPodcast
 
 ---
 
-## Sam Altman (@sama)
+**Swyx (@swyx)**
 
-Codex gets major upgrades: computer use, in-app browser, new plugins, and the ability to learn from experience and proactively suggest tasks.
-Codex 迎来重大升级：计算机控制能力、内置浏览器、多项新插件，以及从使用经验中学习并主动提出建议的能力。
-
-Computer use feels especially impactful—Codex can now operate all Mac apps in parallel without disrupting the user's own work.
-计算机控制功能令人印象深刻——Codex 现在可以并行操作 Mac 上的所有应用，且不干扰用户的直接工作流。
-
-Sam also takes a light jab at Codex's rival Tibo, joking about rate limits and model quality as users migrate.
-Sam 还轻松调侃了竞品 Tibo，开玩笑说随着用户迁移，希望不要遭遇限速或降级模型。
+Swyx is buzzing about a new Colossus profile by Camille and is closely tracking a tight race (neck and neck) between competing AI tools or rankings.
+Swyx 对 Camille 发布的 Colossus 深度报告感到兴奋，并密切关注 AI 工具/模型竞争中的紧张拉锯。
+He also kicked off an AMA with @steipete that opened with a provocative question about the future of ClosedClaw.
+他还与 @steipete 开展了一场 AMA，以"ClosedClaw 的未来"这一犀利问题开局。
 
 Sources:
-- https://x.com/sama/status/2044858862042591378
-- https://x.com/sama/status/2044858863246323811
-- https://x.com/sama/status/2044921348540264614
+- https://x.com/swyx/status/2045263229329580420
+- https://x.com/swyx/status/2045202026020421951
+- https://x.com/swyx/status/2045186912009458104
 
 ---
 
-## Claude / Anthropic (@claudeai)
+**Josh Woodward (@joshwoodward)**
 
-Claude Opus 4.7 launches today across Claude.ai, the Claude Platform, and all major cloud providers.
-Claude Opus 4.7 今日正式发布，覆盖 Claude.ai、Claude 平台及所有主流云服务商。
-
-Claude Code gets a new /ultrareview command that runs a dedicated review session to catch what a careful human reviewer would flag; auto mode is now extended to Max users for fewer interruptions on long tasks.
-Claude Code 新增 /ultrareview 指令，可运行专项代码审查会话，捕捉人工审查员会发现的问题；auto 模式现已向 Max 用户开放，减少长任务中断。
-
-A new xhigh effort level on the API sits between high and max, giving developers finer control over reasoning depth and latency; task budgets (beta) help Claude manage costs on longer runs.
-API 新增 xhigh 努力等级，介于 high 和 max 之间，让开发者对推理深度与延迟有更精细的控制；任务预算（beta）功能帮助 Claude 在长时任务中优化成本。
+ProducerAI has officially rebranded to Google Flow Music — the mission remains the same: push creative boundaries in music making, now with a new remix feature for greater track control.
+ProducerAI 正式更名为 Google Flow Music，使命不变：突破音乐创作边界，并新增混音功能，为创作者提供更多对音轨的掌控力。
 
 Sources:
-- https://x.com/claudeai/status/2044785272617939282
-- https://x.com/claudeai/status/2044785266590622185
-- https://x.com/claudeai/status/2044785264313221470
+- https://x.com/joshwoodward/status/2045305262362530043
 
 ---
 
-## Alex Albert (@alexalbert__)
+**Kevin Weil (@kevinweil)**
 
-Highlights his favorite Opus 4.7 improvements: stronger async work and instruction-following, more predictable effort levels for token control, no more downscaling of high-res images, and noticeably better taste in UIs, slides, and docs.
-分享 Opus 4.7 的个人最爱改进点：异步任务与指令遵循能力更强、努力等级更可预测（便于 token 控制）、高分辨率图片不再被降采样，以及在 UI、幻灯片、文档上明显更有"审美"。
-
-Source:
-- https://x.com/alexalbert__/status/2044788914813292583
-
----
-
-## Cat Wu (@_catwu)
-
-Claude Code now defaults Opus 4.7 to xhigh effort level; users can adjust with /effort.
-Claude Code 现已将 Opus 4.7 的默认努力等级设为 xhigh；用户可用 /effort 命令随时调整。
-
-Her top tip for getting the most out of Opus 4.7: tell the model how to verify its own changes—put your testing workflow in claude.md or add a /verify-app skill, since 4.7 is meaningfully better at self-verification.
-她的 Opus 4.7 最佳实践建议：告诉模型如何验证自己的修改——将测试流程写入 claude.md 或添加 /verify-app 技能，因为 4.7 的自我验证能力有显著提升。
-
-Updates are now centralized in one place for the Claude Code team.
-Claude Code 团队已将所有更新集中到同一处发布。
+Kevin Weil announced his departure from OpenAI, marking his last day as OpenAI for Science is being decentralized into other research teams after two mind-expanding years that took him from Chief Product Officer to the research team.
+Kevin Weil 宣布离开 OpenAI，今天是他最后一天。在这两年中，他从首席产品官转入研究团队，而 OpenAI for Science 将被拆解并入其他研究团队。
 
 Sources:
-- https://x.com/_catwu/status/2044808538351100377
-- https://x.com/_catwu/status/2044808539663978970
-- https://x.com/_catwu/status/2044815645699928273
+- https://x.com/kevinweil/status/2045230426210648348
 
 ---
 
-## Thariq (@trq212)
+**Peter Yang (@petergyang)**
 
-Claude Code is rolling out a curated "What's New" docs section covering major announcements as a digest.
-Claude Code 正在推出精选的"What's New"文档区，以摘要形式汇总重要公告。
-
-Monthly "what we shipped" webinars are now available for signup.
-每月"我们发布了什么"网络研讨会现已开放报名。
-
-The team has been having deep conversations with users about helping them get more out of Claude Code, with /usage updates rolling out this week.
-团队持续与用户深入交流，研究如何让大家更好地使用 Claude Code，本周将推出 /usage 更新。
+Peter Yang is having a lot of fun with Claude Design, showcasing 5 use cases including videos, slides, websites, mobile apps, and design systems.
+Peter Yang 正在大玩 Claude Design，演示了 5 个实用场景：视频、PPT、网站、移动端 App 以及设计系统。
+He also quipped that Anthropic should ship models daily like their other products — half-joking about "Opus 4.18.2026 tomorrow."
+他还调侃 Anthropic 应该像发布其他产品一样每天发布新模型，期待"明天的 Opus 4.18.2026"。
+And he credits @steipete for forever changing how he thinks about products with the insight "you can get AI to do that?!"
+他还感谢 @steipete 用"AI 居然能做这个？！"这一洞见彻底改变了他对产品的思维方式。
 
 Sources:
-- https://x.com/trq212/status/2044893584961556767
-- https://x.com/trq212/status/2044893586333032627
-- https://x.com/trq212/status/2044893587691958320
+- https://x.com/petergyang/status/2045335553059746259
+- https://x.com/petergyang/status/2045334450461192270
+- https://x.com/petergyang/status/2045307149740609591
 
 ---
 
-## Kevin Weil (@kevinweil)
+**Google Labs (@GoogleLabs)**
 
-Launches GPT-Rosalind, OpenAI's first frontier model purpose-built for scientific research—covering biology, drug discovery, genomics, protein engineering, and more, with built-in knowledge of research databases and tools.
-发布 GPT-Rosalind，OpenAI 首个专为科学研究打造的前沿模型，涵盖生物学、药物发现、基因组学、蛋白质工程等领域，并内置研究数据库和工具知识。
-
-Separately declares the new Codex computer use "shockingly good."
-另外盛赞新版 Codex 的计算机控制能力"出乎意料地好"。
+Google Labs announced the expansion of the Flow family with the launch of Google Flow Music (formerly ProducerAI) — a standalone platform for creating, sharing, and remixing music.
+Google Labs 宣布 Flow 家族扩容，推出独立音乐平台 Google Flow Music（前身为 ProducerAI），支持音乐创作、分享与混音。
 
 Sources:
-- https://x.com/kevinweil/status/2044862783947448611
-- https://x.com/kevinweil/status/2044862785201565840
-- https://x.com/kevinweil/status/2045004924682195027
+- https://x.com/GoogleLabs/status/2045250788864495874
 
 ---
 
-## Aaron Levie (@levie)
+**Amjad Masad (@amasad)**
 
-The new Codex represents a genuine leap for knowledge workers: agents that can code, use tools, and control computers are now capable of executing long-running background tasks—drafting reports, setting up merger data rooms, and reviewing complex documents.
-新版 Codex 对知识工作者来说是真正的飞跃：能编码、使用工具、控制计算机的智能体，现在可以在后台执行长时任务——起草报告、为并购建立数据室、审阅复杂文件。
-
-Source:
-- https://x.com/levie/status/2044855448722100720
-
----
-
-## Guillermo Rauch (@rauchg)
-
-The toughest challenge in building agents and backends is durability—LLMs go down, services rate-limit, databases slow unexpectedly. Workflow SDKs that handle this gracefully are the unicorn he's been searching for a decade.
-构建智能体和后端最难的问题是持久性——LLM 会宕机、服务会限速、数据库会意外变慢。能优雅处理这些问题的工作流 SDK 是他寻找了十年的"独角兽"。
-
-AI progress is relentless: Anthropic just shipped a big one, but OpenAI, xAI, and Google are right behind. Vercel's AI SDK and AI Gateway are built to capture the upside of this volatility.
-AI 进展势不可挡：Anthropic 刚刚大更新，但 OpenAI、xAI、Google 紧随其后。Vercel 的 AI SDK 与 AI Gateway 正是为捕捉这种波动红利而生。
+Amjad Masad is excited about a new launch (likely Replit-related), and is showcasing an animation feature that helps creators achieve viral reach.
+Amjad Masad 对一项新发布（疑为 Replit 相关功能）感到兴奋，并展示了一个帮助创作者实现病毒式传播的动画功能。
+He's also been enjoying a new feature that proactively suggests minor but impactful improvements to apps.
+他还在体验一项能主动预判并建议应用细节改进点的新功能，评价颇高。
 
 Sources:
-- https://x.com/rauchg/status/2044858872842826102
-- https://x.com/rauchg/status/2044808819273052663
+- https://x.com/amasad/status/2045350848985968796
+- https://x.com/amasad/status/2045198577941844178
+- https://x.com/amasad/status/2045198476385104372
 
 ---
 
-## Amjad Masad (@amasad)
+**Alex Albert (@alexalbert__)**
 
-Replit now lets you turn a web app into an iOS app for under $10.
-Replit 现已支持将 Web 应用一键转为 iOS 应用，成本不到 10 美元。
-
-50% off credits are available—especially useful for running parallel agents and accelerating projects.
-50% 折扣积分正在进行中，特别适合运行并行智能体、加速项目推进。
-
-EU deployment is now live.
-欧盟地区部署现已上线。
+Alex Albert notes that anyone with a vision can now produce very high-quality designs with a little help from Claude — democratizing design.
+Alex Albert 指出，借助 Claude，任何有想法的人都能产出高质量设计，设计能力正在被彻底平民化。
+He also confirmed that bugs affecting Opus 4.7 at launch have now been fixed, thanking users for their patience.
+他还确认了 Opus 4.7 上线初期出现的多个 Bug 已全部修复，并感谢用户的耐心等待。
 
 Sources:
-- https://x.com/amasad/status/2044844802077069375
-- https://x.com/amasad/status/2044846551072419994
-- https://x.com/amasad/status/2044953138957025707
+- https://x.com/alexalbert__/status/2045165630421364853
+- https://x.com/alexalbert__/status/2045159041283064095
 
 ---
 
-## Peter Yang (@petergyang)
+**Aaron Levie (@levie)**
 
-When building AI skills, he now always spins up a separate eval agent that does yes/no checks on the primary agent's output—if not all checks pass, the first agent is asked to keep iterating. Currently applying this to YouTube thumbnail and title generation.
-构建 AI 技能时，他现在总会额外启动一个独立的评估智能体，对主智能体的输出进行逐项是/否判断——若未全部通过，主智能体将继续迭代。目前正将此方法应用于 YouTube 缩略图和标题生成。
-
-Also notes: Claude and Codex apps should add easy markdown file viewing and editing on web/mobile, so users can hand-craft the final 10% of instructions.
-另外建议：Claude 和 Codex 应在网页和移动端加入便捷的 Markdown 文件查看与编辑功能，方便用户手工调整最后 10% 的指令。
+Aaron Levie argues that software going "headless" is inevitable in a world where agents use tools 100x more than people do — and this is actually a huge opportunity for enterprise platforms.
+Aaron Levie 认为，在 Agent 使用工具的频率是人类 100 倍的世界里，软件走向"无界面化"（headless）是必然趋势，这对企业平台而言反而是巨大机遇。
+Enterprise platforms that adapt to work with any agent — on or off platform — will thrive; those that don't will be left behind.
+能够与任意 Agent 协作的企业平台将脱颖而出，否则将被时代淘汰。
 
 Sources:
-- https://x.com/petergyang/status/2044976766914265097
-- https://x.com/petergyang/status/2044998456062906422
-- https://x.com/petergyang/status/2045007422084051168
+- https://x.com/levie/status/2045355693050655048
+- https://x.com/levie/status/2045137708620906573
 
 ---
 
-## Swyx (@swyx)
+**Ryo Lu (@ryolu_)**
 
-Reflects on AI Engineer World's Fair programming: putting the "slop cannons" on Day 1 and the "grown-ups" on Day 2 is a deliberate choice that faithfully represents the most important split in AI engineering today—move fast vs. build right.
-回顾 AI Engineer World's Fair 的议程安排：将"快枪手"放在第一天、"成年人"放在第二天，是一个刻意的选择，真实反映了当下 AI 工程界最重要的分歧——快速迭代 vs. 稳健构建。
-
-Also shares links to his "Slow Down" talk and "Harness Engineering" talk from the conference.
-同时分享了大会上他的"放慢脚步"演讲和"Harness 工程"演讲链接。
+Ryo Lu distills the formula for the best AI agent: best harness + best models + runs anywhere — pointing to Cursor as the exemplar.
+Ryo Lu 给出了最佳 AI Agent 的公式：最优 harness + 最优模型 + 随处可运行，并以 Cursor 为典型案例。
 
 Sources:
-- https://x.com/swyx/status/2044939001405350235
-- https://x.com/swyx/status/2044943275199762455
-- https://x.com/swyx/status/2044943315938975801
+- https://x.com/ryolu_/status/2045336089867825157
 
 ---
 
-## Nan Yu (@thenanyu)
+**Garry Tan (@garrytan)**
 
-Wryly observes that the AI industry is reinventing every existing software and business concept—just like crypto did with finance—only much faster. "Congrats us."
-幽默地指出，AI 行业正在重新发明所有已有的软件和商业概念——就像加密货币曾经对金融做的那样——只不过速度快得多。"恭喜我们。"
-
-Highlights that both engineers and product managers are caught up in this reinvention wave.
-强调工程师和产品经理都被卷入了这场重新发明的浪潮。
+Garry Tan is philosophizing about coding agents — comparing OpenClaw to a Ferrari and Hermes Agent to a Honda Accord.
+Garry Tan 在感叹 AI 编程 Agent 之间的差距，将 OpenClaw 比作法拉利，将 Hermes Agent 比作本田雅阁。
+He vented frustration about losing hours to OpenClaw "doing brain surgery on itself" and dying from self-inflicted config edits — a painfully relatable AI hazard.
+他也抱怨 OpenClaw 在"对自身动脑科手术"后因改错配置而崩溃，浪费了他大量时间——一个让人又好气又好笑的 AI 隐患。
 
 Sources:
-- https://x.com/thenanyu/status/2044922422147653763
-- https://x.com/thenanyu/status/2044922579891191852
-- https://x.com/thenanyu/status/2044922841208918031
+- https://x.com/garrytan/status/2045378112846983496
+- https://x.com/garrytan/status/2045373889044472259
+- https://x.com/garrytan/status/2045372015213978106
 
 ---
 
-## Ryo Lu (@ryolu_)
+**Matt Turck (@mattturck)**
 
-Building "baby glass"—a new prototyping environment at Cursor that lets designers quickly imagine, remix, and test ideas in code, using the same shared components powering Cursor 3's new interface.
-正在构建"baby glass"——Cursor 的全新原型环境，让设计师能快速构想、混搭、在代码中测试创意，使用的正是驱动 Cursor 3 新界面的共享组件。
-
-His personal model stack: Opus 4.7 for planning, Composer 2 for building and iterations, Codex/GPT-5.4 for hard bugs—all within Cursor.
-个人模型组合：Opus 4.7 用于规划，Composer 2 用于构建与迭代，Codex/GPT-5.4 用于攻克难题——全部在 Cursor 中完成。
+Matt Turck observes that Anthropic Labs is on a generational run, citing Claude Code, Skills, Claude Cowork, and Claude Design as evidence of their momentum.
+Matt Turck 认为 Anthropic Labs 正处于一个历史级的爆发期，Claude Code、Skills、Claude Cowork、Claude Design 接连亮相，势头强劲。
 
 Sources:
-- https://x.com/ryolu_/status/2044789186130256062
-- https://x.com/ryolu_/status/2044982132859400342
+- https://x.com/mattturck/status/2045211226272129274
 
 ---
 
-## Garry Tan (@garrytan)
+**Zara Zhang (@zarazhangrui)**
 
-Shipping GBrain: bug fixes for the /ship skill, security patches, and end-to-end Gemini Live tests that he and his claw (agent) ultimately had to build themselves. The e2e Gemini Live test framework will be open-sourced soon.
-持续推进 GBrain：修复 /ship 技能的 Bug、推送安全补丁，并亲自（和他的 agent 一起）从零构建了 Gemini Live 的端到端测试。该测试框架即将开源。
+Zara Zhang makes a sharp distinction: writing ≠ generating text — generating text is actually the least important part of writing, and mistaking LLMs for good writers because they can generate text is a common error.
+Zara Zhang 犀利指出：写作 ≠ 生成文字——生成文字其实是写作中最不重要的部分，把"能生成文字"等同于"会写作"是对大模型的普遍误解。
+She's also been experimenting with designing using HTML/code instead of image generation models, finding it superior for many graphic use cases.
+她还在尝试用 HTML/代码而非图像生成模型来做视觉设计，发现在许多场景下这种方式更胜一筹。
 
 Sources:
-- https://x.com/garrytan/status/2045002844508766510
-- https://x.com/garrytan/status/2045020411805700110
-- https://x.com/garrytan/status/2045023061746004324
+- https://x.com/zarazhangrui/status/2045394997630099922
+- https://x.com/zarazhangrui/status/2045374512691360177
 
 ---
 
-## Zara Zhang (@zarazhangrui)
+**Nikunj Kothari (@nikunj)**
 
-Shares her framework for high-leverage time use: deep talk (brainstorms with great people), deep read (long-form content), deep play (wild AI experiments).
-分享高价值时间的三大使用框架：深度对话（与优秀的人头脑风暴）、深度阅读（消费长篇内容）、深度玩耍（用 AI 做疯狂的随机实验）。
-
-Launches HTML videos: a format where agents generate video-like experiences entirely in HTML. "What the symphony was to Beethoven, play was to Shakespeare, HTML is to agents."
-发布 HTML 视频：一种由智能体完全用 HTML 生成类视频体验的新格式。"正如交响乐之于贝多芬，戏剧之于莎士比亚，HTML 之于智能体。"
+Nikunj Kothari made an angel investment in Fintool (now acquired by Microsoft), praising the team for building heavy reasoning capabilities before the models even existed.
+Nikunj Kothari 以天使投资人身份支持了 Fintool（已被微软收购），称赞其团队在大模型出现之前就已构建了深度推理能力。
+He also shouted out a former Opendoor engineer making a new startup move, and shared an essay that humorously "roasts" his own job in its very next paragraph.
+他还为一位前 Opendoor 工程师的创业新征程加油，并分享了一篇在下一段就调侃了他自己工作的文章，笑称被"diss"了。
 
 Sources:
-- https://x.com/zarazhangrui/status/2044849748579164328
-- https://x.com/zarazhangrui/status/2044886721024930280
-- https://x.com/zarazhangrui/status/2044891980178792560
+- https://x.com/nikunj/status/2045250489189908534
+- https://x.com/nikunj/status/2045173395608961281
+- https://x.com/nikunj/status/2045153654861431177
 
 ---
 
-## Peter Steinberger (@steipete)
+**Peter Steinberger (@steipete)**
 
-Celebrates nearly 2,000 attendees at ClawCon Michigan—a sign the "weird lobster cult" OpenClaw community is growing fast.
-庆祝 ClawCon Michigan 吸引近 2000 名参与者——"奇怪的龙虾邪教"OpenClaw 社区正在高速成长。
-
-Pushes back on OpenClaw security criticism: the volume of GHSAs (GitHub Security Advisories) is not a sign of insecurity, but rather a leading indicator of the "coming storm" of security awareness across AI tooling.
-回应对 OpenClaw 安全性的批评：大量 GHSA（GitHub 安全公告）并非不安全的标志，而是 AI 工具安全意识"即将到来的风暴"的领先指标。
+Peter Steinberger wrapped up his time in Vancouver with a fond farewell — a brief but warm send-off to the city.
+Peter Steinberger 结束了温哥华之行，用一条简短而温情的推文道别这座城市。
 
 Sources:
-- https://x.com/steipete/status/2044888081141223442
-- https://x.com/steipete/status/2044935917417205796
+- https://x.com/steipete/status/2045276507527143629
 
 ---
 
-## Dan Shipper (@danshipper)
+**Dan Shipper (@danshipper)**
 
-Ran a "philosopher draft"—which philosopher from history would each AI lab hire, and why? A fun way to probe the values and personalities embedded in different model labs.
-举办了一场"哲学家选秀"——历史上哪位哲学家会被各大 AI 实验室录用，为什么？一种有趣的方式来探究不同模型实验室背后的价值观与性格。
-
-Speculates that the "Mythos" announcement might be a 4D chess move to protect Anthropic's government contracts under Trump—and calls it bullish.
-猜测"Mythos"公告可能是一步"四维棋"，旨在保护 Anthropic 在特朗普政府下的合同——并表示看涨。
-
-Hosted a live Opus 4.7 vibe check with Alex Albert from Anthropic.
-与 Anthropic 的 Alex Albert 一同主持了 Opus 4.7 的直播体验点评。
+Dan Shipper published a full Opus 4.7 "Vibe Check" breaking down its performance on coding, writing, spreadsheets, and more.
+Dan Shipper 发布了完整的 Opus 4.7「感受测评」，覆盖代码、写作、表格等多维度表现。
+He also featured Alex Albert from Anthropic explaining why each Claude model has a different approach to "how much to help" — a nuanced look at model design philosophy.
+他还邀请 Anthropic 的 Alex Albert 解析为何不同 Claude 模型对"帮助程度"的理解各有不同，深入展现了模型设计哲学。
 
 Sources:
-- https://x.com/danshipper/status/2044811209695003083
-- https://x.com/danshipper/status/2044864110391710144
-- https://x.com/danshipper/status/2044890935637549380
+- https://x.com/danshipper/status/2045246172022149537
+- https://x.com/danshipper/status/2045246160202580192
+- https://x.com/danshipper/status/2045241699992047638
 
 ---
 
-## Aditya Agarwal (@adityaag)
+**Claude (@claudeai)**
 
-One-liner that captures the community mood perfectly: "Oh god, am I going to have to rewrite all my code with 4.7 now????"
-一句话精准捕捉了社区此刻的集体心情："天哪，我现在是不是得用 4.7 把所有代码都重写一遍????"
+The Claude Code Hackathon is back for Opus 4.7 — builders worldwide can join for a week with the Claude Code team, competing for a $100K API credit prize pool (apply by Sunday).
+Claude Code 黑客马拉松回归，聚焦 Opus 4.7——全球开发者可与 Claude Code 团队共处一周，争夺 10 万美元 API 积分奖池（周日截止报名）。
+Claude for Word is now available on Pro and Max plans, letting users work with Opus 4.7 directly in Microsoft Word.
+Claude for Word 现已向 Pro 和 Max 用户开放，可在 Microsoft Word 中直接调用 Opus 4.7。
+Claude Design reads your codebase and design files to build your team's design system, then applies it automatically to keep every project on-brand.
+Claude Design 能读取代码库和设计文件，自动构建团队设计系统，并持续应用以确保每个项目风格统一。
 
-Source:
-- https://x.com/adityaag/status/2044861137720918371
-
----
-
-*AI Builders 日报 由 follow-builders + ai-report-builder 自动生成 · https://flowers-s.github.io/ai-report-builder/*
+Sources:
+- https://x.com/claudeai/status/2045248224659644654
+- https://x.com/claudeai/status/2045222254699511855
+- https://x.com/claudeai/status/2045156271251218897
