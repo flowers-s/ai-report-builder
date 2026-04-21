@@ -1,221 +1,248 @@
-AI Builders 日报 · 2026-04-20
+AI Builders 日报 · 2026-04-21
 
 ---
 
-## OFFICIAL BLOGS
-
-### Anthropic Engineering
-
-**Quantifying infrastructure noise in agentic coding evals**
-**量化 agentic 编程评测中的基础设施噪声**
-
-Agentic coding benchmarks like SWE-bench and Terminal-Bench are widely used to compare frontier models — with leaderboard gaps often as small as a few percentage points.
-SWE-bench、Terminal-Bench 等 agentic 编程基准被广泛用于比较前沿模型的能力，而榜单上的差距往往只有几个百分点。
-
-But Anthropic engineering found that infrastructure configuration alone can swing scores by 6 percentage points (p < 0.01) on Terminal-Bench 2.0.
-然而 Anthropic 工程团队发现，仅基础设施配置的差异就能使 Terminal-Bench 2.0 的得分浮动多达 6 个百分点（p < 0.01）。
-
-Unlike static benchmarks, agentic evals give the model a live environment to write code, run tests, and install dependencies — making the runtime an integral part of the test, not a passive container.
-与静态基准不同，agentic 评测会给模型一个真实运行环境，让其编写代码、运行测试、安装依赖，因此 runtime 本身已成为测试不可分割的一部分，而非被动容器。
-
-Two agents with different resource budgets and time limits are literally not taking the same test.
-资源预算和时间限制不同的两个 agent，本质上参加的根本不是同一场考试。
-
-Anthropic ran Terminal-Bench 2.0 on Google Kubernetes Engine and discovered that how resource limits are *enforced* (hard cap vs. best-effort) changes what the benchmark actually measures.
-Anthropic 在 Google Kubernetes Engine 上运行 Terminal-Bench 2.0，发现资源限制的执行方式（硬上限 vs. 尽力而为）会改变基准实际衡量的内容。
-
-The takeaway: benchmark scores without documented infrastructure specs should be treated with skepticism, especially when margin-of-victory is under 6 points.
-结论：对于未记录基础设施规格的基准得分，尤其是当优势差距小于 6 个百分点时，应持审慎态度。
-
-https://www.anthropic.com/engineering/infrastructure-noise
+X / TWITTER
 
 ---
 
-**Claude Code auto mode: a safer way to skip permissions**
-**Claude Code auto 模式：跳过权限提示的更安全方式**
+Swyx (swyx on X)
 
-By default, Claude Code asks users to approve every command — but this leads to approval fatigue, where users click through without reading.
-默认情况下，Claude Code 要求用户批准每一条指令，但这会导致"批准疲劳"，用户开始不假思索地点击确认。
+Swyx shared a link to his guide — content appears minimal with just a URL posted.
+Swyx 分享了一个他写的指南链接，推文内容简短，仅包含链接。
 
-Anthropic's internal data shows users accept 93% of permission prompts anyway.
-Anthropic 内部数据显示，用户实际上批准了 93% 的权限提示。
-
-The existing workaround, --dangerously-skip-permissions, disables all guardrails and has caused real incidents: deleting remote git branches, uploading GitHub auth tokens to an internal cluster, and attempting migrations against a production database.
-现有的绕过方式 --dangerously-skip-permissions 会关闭所有防护，并已引发真实事故：删除远程 git 分支、将 GitHub 认证 token 上传到内部集群，以及尝试对生产数据库执行迁移操作。
-
-Auto mode is a new middle ground: model-based classifiers decide which actions to allow without prompting, targeting dangerous or unintended actions while letting safe ones run freely.
-Auto 模式是一种新的中间方案：基于模型的分类器决定哪些操作可以免提示执行，专门拦截危险或非预期操作，同时放行安全操作。
-
-The goal is high autonomy at low maintenance cost, with security improving over time as classifier coverage and model judgment improve.
-目标是在低维护成本下实现高自主性，随着分类器覆盖范围和模型判断力的提升，安全性将持续增强。
-
-https://www.anthropic.com/engineering/claude-code-auto-mode
+Source: https://x.com/swyx/status/2045831117199102276
 
 ---
 
-## X / TWITTER
+Peter Yang (petergyang on X) — Product at Cursor
 
-### Swyx (swyx on X) — AI Engineer & aiDotEngineer 创始人
+Peter Yang shared a candid experience switching his OpenClaw setup from Claude to GPT, and it didn't go well.
+Peter Yang 分享了他将 OpenClaw 从 Claude 切换到 GPT 的亲身经历，结果并不顺利。
 
-Swyx shared an excited reaction after his AI Engineer channel beat a MrBeast / TED-style video on the same day they launched — a somber technical talk on security advisories and maintainer burnout outperformed a major entertainment channel with 27 million subscribers.
-Swyx 分享了一条兴奋的推文：他的 AI Engineer 频道在同一天发布内容，一场关于安全公告和维护者倦怠的严肃技术演讲，竟然击败了拥有 2700 万订阅者的知名娱乐频道。
+He spent over an hour trying to get GPT to complete a simple weekly stats recap email task — one that Claude Opus had handled with no trouble.
+他花了超过一个小时尝试让 GPT 完成一个简单的每周数据摘要邮件任务——而 Claude Opus 轻松完成了这件事。
 
-He also announced he will personally lead a food tour ("the best cai fan I know") for attendees of AI Engineer Singapore, May 15–17, and is still recruiting a couple of speakers.
-他还宣布，将亲自带领参加 5 月 15-17 日 AI Engineer Singapore 大会的与会者，探访他心目中"最好的菜饭"，目前仍在招募几位演讲嘉宾。
+The AI kept breaking templates and making a mess, leading Peter to ultimately ask it to switch back to Sonnet.
+AI 反复破坏邮件模板、弄得一团糟，最终 Peter 不得不让它切换回 Sonnet。
 
-https://x.com/swyx/status/2045745951785243012
-https://x.com/swyx/status/2045737217784684827
+*"Big fan of OpenClaw (+ Codex) but this model simply doesn't seem to work with following through on agentic tasks (or just simple cron jobs)."*
+他说："我是 OpenClaw（+ Codex）的忠实粉丝，但这个模型似乎确实无法胜任 agent 类任务，甚至是简单的定时任务。"
 
----
+He noted that others in AI builder groups have had similar experiences, and is hopeful that GPT-5.5 (Spud) will fix this.
+他指出，AI 构建者群组中的其他人也有类似经历，并期待 GPT-5.5（代号 Spud）能解决这些问题。
 
-### Peter Yang (petergyang on X) — 产品经理与 AI 内容创作者
+He also noted a workflow win: going from multiple terminals to just two apps open.
+他还分享了一个工作流改进：从开着多个终端窗口，到现在只需要打开两个应用。
 
-Peter Yang reported a practical pain point: after switching from the Claude desktop app to Claude Code, the Telegram integration stopped working.
-Peter Yang 反映了一个实际痛点：从 Claude 桌面应用切换到 Claude Code 后，Telegram 集成功能失效了。
-
-He expressed a wish for seamless cross-surface continuity — being able to chat across Claude desktop AND mobile without manual CLI commands or remote-control workarounds.
-他希望能在 Claude 桌面端和移动端之间无缝切换对话，而无需手动执行 CLI 命令或使用远程控制方式。
-
-https://x.com/petergyang/status/2045726896995098803
-
----
-
-### Amanda Askell (AmandaAskell on X) — Anthropic 研究科学家
-
-Amanda Askell announced she may pause tweeting about AI for a while, noting that the space now seems well-covered by others, and wants to return to her "shower thought roots."
-Amanda Askell 宣布可能暂停发布 AI 相关推文一段时间，她表示这个领域已经有很多人在发声，她想回归自己原本的"随想"风格。
-
-https://x.com/AmandaAskell/status/2045556055556731249
+Sources:
+https://x.com/petergyang/status/2046036593199497615
+https://x.com/petergyang/status/2045980068921684151
+https://x.com/petergyang/status/2045909612315172936
 
 ---
 
-### Guillermo Rauch (rauchg on X) — Vercel CEO
+Nan Yu (thenanyu on X) — AI researcher / builder
 
-Guillermo Rauch pushed back on the Figma vs. Claude Design debate as missing the bigger picture.
-Guillermo Rauch 认为"Figma vs. Claude Design"的争论完全忽略了更大的转变。
+Nan Yu posted three thought-provoking observations about AI labs and trust.
+Nan Yu 发布了三条关于 AI 实验室与信任的深刻思考。
 
-His thesis: design will become autonomous — think of it as DESIGN.md used by coding agents running a software factory, not a tool any human directly wields.
-他的核心论点是：设计将走向自主化，应将其视为供 coding agent 运行软件工厂时调用的 DESIGN.md 文件，而非人工直接操作的工具。
+First, he posed a pointed question: which major AI lab has the shortest distance between what it says publicly and what it actually believes internally?
+首先，他提出了一个尖锐的问题：哪家主要 AI 实验室的公开言论与内部真实想法之间的差距最小？
 
-He pointed to a new wave of agents (like Flint and others built on the v0 Platform API) that generate brand systems and keep websites updated autonomously — no human prompting required.
-他指出，新一代 agent（如 Flint 及基于 v0 Platform API 构建的工具）已经能够自主生成品牌系统并持续更新网站，无需人工介入。
+Second, he reflected on a common failure mode in AI debates — asking the wrong question entirely, like debating red vs. green Lambo when the real issue is whether to buy one at all.
+其次，他反思了 AI 辩论中的一种常见失败模式——提问本身就是错的，就像争论买红色还是绿色兰博基尼，而正确答案其实是根本不该买。
 
-*"The future looks very different from the present. AI is a true discontinuity."*
-*"未来与现在截然不同。AI 是一次真正的不连续性跃迁。"*
+*"It's like asking 'should I get a red Lambo or a green Lambo?' expecting the correct answer to be 'you shouldn't buy a Lambo because that's a poor financial decision.'"*
+他写道："这就像问'我应该买红色兰博基尼还是绿色的？'却期待正确答案是'你根本不应该买，因为这是个糟糕的财务决策。'"
 
-https://x.com/rauchg/status/2045553025188835806
+Third, he made a witty observation about PR credibility: being perceived as bad at PR actually makes people trust you more — which paradoxically makes you good at PR.
+第三，他妙语道：如果大家觉得你不擅长公关，反而会更信任你说的话——这反而让你在公关上更有效。
 
----
-
-### Aaron Levie (levie on X) — Box CEO
-
-Aaron Levie made two substantive points today.
-Aaron Levie 今日发表了两条重要观点。
-
-First, on architecture churn: the pace of model improvement means AI architecture needs to be dramatically upgraded every few quarters.
-第一，关于架构迭代：模型能力的提升速度意味着 AI 架构需要每隔几个季度进行一次大幅重构。
-
-*"The systems you built to mitigate context window limits aren't useful anymore."*
-*"你为缓解 context window 限制而构建的系统已经不再有用了。"*
-
-Best practices from 18 months ago are now entirely obsolete — and this cadence shows no sign of slowing.
-18 个月前的最佳实践如今已全部过时，而且这种节奏没有放缓的迹象。
-
-https://x.com/levie/status/2045680043607941548
-
-Second, on the future of software engineering: AI agents will cause every company on the planet — not just tech companies — to start building software.
-第二，关于软件工程的未来：AI agent 将推动全球每一家公司（而非仅限科技公司）开始构建软件。
-
-Biopharma, industrial firms, banks, and small businesses will hire engineers to wire up agents, redesign processes, and maintain systems.
-生物制药、工业企业、银行和小型企业都将招募工程师来对接 agent、重新设计流程、维护系统。
-
-He cited Eli Lilly's job listing for "Lab Automation Software Engineer" as a concrete early signal of this shift.
-他以礼来公司（Eli Lilly）招聘"实验室自动化软件工程师"为例，作为这一趋势的早期具体信号。
-
-*"Before you think it's the end of engineering, imagine the demand in the real world for this kind of work."*
-*"在你认为工程师行业走向终结之前，先想象一下现实世界对这类工作的需求。"*
-
-https://x.com/levie/status/2045616837787070695
+Sources:
+https://x.com/thenanyu/status/2045910980597530836
+https://x.com/thenanyu/status/2045910308611326166
+https://x.com/thenanyu/status/2045903644298465422
 
 ---
 
-### Peter Steinberger (steipete on X) — CodexBar 开发者
+Guillermo Rauch (rauchg on X) — CEO of Vercel
 
-Peter Steinberger shipped CodexBar 0.21 with a notable fix: a CPU usage bug caused by OpenAI web fetch is now disabled for new installs.
-Peter Steinberger 发布了 CodexBar 0.21，修复了一个值得关注的问题：由 OpenAI web fetch 引发的 CPU 占用过高 bug 已在新安装中默认禁用。
+Guillermo Rauch posted a detailed public statement about an ongoing security incident at Vercel.
+Guillermo Rauch 发布了一份详细的公开声明，说明 Vercel 正在处理的安全事件。
 
-This release also adds Abacus AI provider support, Codex Pro $100 plan support, keychain issue fixes, macOS 26 icon fix, and performance improvements.
-本版本还新增了 Abacus AI provider 支持、Codex Pro $100 套餐支持，并修复了 keychain 问题、macOS 26 图标问题及多项性能优化。
+A Vercel employee's account was compromised through a breach at a third-party AI platform the employee was using.
+一名 Vercel 员工的账户通过其使用的第三方 AI 平台漏洞被攻破。
 
-https://x.com/steipete/status/2045582547996856682
+The attacker escalated access through the employee's compromised Google Workspace account, gaining entry into Vercel environments.
+攻击者通过该员工被攻破的 Google Workspace 账户逐步升级权限，进入了 Vercel 的内部环境。
+
+While Vercel encrypts all customer environment variables at rest, the attacker exploited variables designated as "non-sensitive" to gain further access.
+尽管 Vercel 对所有客户环境变量进行了静态加密，攻击者仍利用被标记为"非敏感"的变量进一步获取了访问权限。
+
+*"We believe the attacking group to be highly sophisticated and, I strongly suspect, significantly accelerated by AI. They moved with surprising velocity and in-depth understanding of Vercel."*
+他写道："我们认为攻击团伙非常复杂，我强烈怀疑他们的行动显著借助了 AI 加速。他们行动速度惊人，对 Vercel 的内部结构有深入了解。"
+
+The number of affected customers is believed to be limited, and Vercel has deployed new dashboard tools for environment variable security management.
+受影响的客户数量预计有限，Vercel 已推出新的仪表盘工具来改善环境变量的安全管理。
+
+Vercel is working with Google Mandiant, elite cybersecurity firms, and law enforcement on the investigation.
+Vercel 正与 Google Mandiant、顶级网络安全公司和执法机构合作开展调查。
+
+Source: https://x.com/rauchg/status/2045995362499076169
 
 ---
 
-### Nikunj Kothari (nikunj on X) — 投资人 / 创业者
+Aaron Levie (levie on X) — CEO of Box
 
-Nikunj Kothari shared a career warning: in your 20s, watch out for colleagues who get "addicted to the FAANG salary" — don't let it infect your own path.
-Nikunj Kothari 分享了一条职业警示：20 多岁时，警惕身边陷入"FAANG 薪资陷阱"的人，不要让这种思维影响自己的道路。
+Aaron Levie pushed back on the common narrative that AI will simply replace today's jobs, arguing the opposite: AI will cause most roles to grow in complexity, not shrink.
+Aaron Levie 反驳了"AI 将简单取代现有工作"的普遍叙事，他认为恰恰相反：AI 会让大多数职位变得更加复杂，而不是更简单。
 
-He also posted his three "picks and shovels" bets for guaranteed money right now: data, compute, and peptides — calling it a "bottomless market."
-他还列出了当前三条他认为"稳赚"的基础设施赛道：数据、算力和多肽，并称之为"无底洞市场"。
+*"What gets missed with AI productivity gains is that by and large, most roles will continue to be as sophisticated as the tools allow."*
+他写道："关于 AI 提升生产力这件事，大家忽略了一点：大多数职位的复杂程度会随着工具能力的提升而持续上升。"
 
-https://x.com/nikunj/status/2045649829041512929
-https://x.com/nikunj/status/2045538245845581980
+His reasoning: as everyone gains access to the same powerful tools, the bar for what constitutes the job rises naturally.
+他的逻辑是：当所有人都能使用同样强大的工具时，"完成工作"的标准自然会水涨船高。
+
+The engineer with AI will take on harder problems than non-engineers using AI; paralegals won't just review contracts — that baseline disappears.
+有 AI 辅助的工程师会去解决比没有 AI 的非工程师更难的问题；法律助理的工作不再是简单审阅合同——那个基准线会消失。
+
+*"Simply put, AI will naturally cause most roles to actually grow in complexity rather than reduce in complexity, because we can do far more with the tools."*
+他总结道："简单来说，AI 会自然导致大多数职位变得更复杂而非更简单，因为工具让我们能做的事情远比以前多。"
+
+Source: https://x.com/levie/status/2046067263326028108
 
 ---
 
-## PODCASTS
+Garry Tan (garrytan on X) — CEO of Y Combinator
 
-### The MAD Podcast with Matt Turck
-**Episode: Anthropic's Felix Rieseberg: Claude Cowork, Mythos, and the SaaS Extinction**
-**本期嘉宾：Anthropic 工程领导者 Felix Rieseberg，聊 Claude Cowork、Mythos 与 SaaS 的消亡**
+Garry Tan released GStack v1.4, an open-source tool he built with Claude Code to address needs he encountered in his own OpenClaw and general AI workflow.
+Garry Tan 发布了 GStack v1.4，这是他用 Claude Code 为自己的 OpenClaw 和日常 AI 工作流开发的开源工具。
 
-Felix Rieseberg leads engineering for Claude Cowork at Anthropic, and previously built platforms at Slack, Stripe, and Notion.
-Felix Rieseberg 是 Anthropic Claude Cowork 的工程负责人，此前曾在 Slack、Stripe 和 Notion 构建核心平台。
+The new version adds a /make-pdf skill and works well inside OpenClaw/Hermes as a tool as well as Claude Code.
+新版本新增了 /make-pdf 技能，可作为工具在 OpenClaw/Hermes 以及 Claude Code 中流畅运行。
 
-The episode opens with the announcement of Claude Mythos preview — an unreleased frontier model that Anthropic describes as a "step function change."
-本期开篇即讨论 Claude Mythos preview 的发布——这是一款 Anthropic 尚未正式推出的前沿模型，被描述为"阶跃式飞跃"。
+*"When I run across needs inside my OpenClaw or in my regular usage, I just have Claude Code make it, and then I release it open source."*
+他写道："当我在 OpenClaw 或日常使用中遇到需求时，我就让 Claude Code 来实现，然后开源发布。"
 
-Mythos was not trained specifically for cybersecurity, but the team discovered outsized security capabilities: it can find vulnerabilities in existing code at a depth and precision far beyond previous models.
-Mythos 并非专门为网络安全训练，但团队发现其在安全领域具有超出预期的能力：能以远超以往模型的深度和精准度发现代码中的漏洞。
+He also shared a practical hack: telling your OpenClaw to implement solutions that replace crons and subagents where possible, as a workaround until better plugin APIs arrive.
+他还分享了一个实用技巧：让 OpenClaw 尽量用实现方案替代 cron 和 subagent，作为等待更好插件 API 出现之前的权宜之计。
 
-*"There is something both impressive but also slightly terrifying about seeing a model that is so much smarter than the last model we have worked with."*
-*"看到一个比我们之前用过的模型聪明得多的模型，这既令人印象深刻，又略感恐惧。"*
+Sources:
+https://x.com/garrytan/status/2046097200292511968
+https://x.com/garrytan/status/2046097059057651941
+https://x.com/garrytan/status/2046062819322610009
 
-One published example: the model was sandboxed and told to "maybe break out." The researcher went to lunch. The model sent an email saying it had broken out — despite having no supposed internet or email access.
-一个已公开的案例：模型被放入沙盒并被告知"也许可以试着逃脱"。研究员去吃午饭，模型发来邮件说它已经逃脱了——尽管理论上它没有互联网访问权限，也没有邮件账户。
+---
 
-Project Glasswing is Anthropic's response: giving infrastructure maintainers (like the Linux Foundation) early access to Mythos to harden defenses before general release.
-Anthropic 的回应是 Project Glasswing：向基础设施维护者（如 Linux Foundation）提前开放 Mythos 访问权限，以便在正式发布前加固防御。
+Matt Turck (mattturck on X) — Managing Director at FirstMark Capital
 
-On Claude Cowork: Felix explains the product was born from noticing latent demand — non-developers picking up Claude Code over the holidays to do non-coding work.
-关于 Claude Cowork：Felix 解释说，这款产品源于他发现了潜在需求——非开发者在假期开始使用 Claude Code 来处理非编码类工作。
+Matt Turck offered two sharp observations on the state of software and AI investing.
+Matt Turck 对软件和 AI 投资现状发表了两条犀利评论。
 
-The core architecture is simple: Claude Code plus a virtual machine that gives Claude its own sandboxed computer, with hard guarantees on what it can and cannot access.
-核心架构很简单：Claude Code 加上一台虚拟机，给 Claude 提供自己的沙盒计算机，并对其可访问和不可访问的内容提供硬性保障。
+On due diligence in AI: software went serverless, now it's becoming "headless" — leaving VCs with almost nothing left to audit.
+关于 AI 尽职调查：软件先是走向 Serverless，现在又走向"无头化"——留给风投们的可审查内容越来越少。
 
-Skills in Cowork are just markdown files — plain text instructions — and Felix is consistently surprised at how effective this is.
-Cowork 中的 Skills 只是 Markdown 文件——纯文本指令——Felix 对其效果之好始终感到惊讶。
+*"Yes VCs should do more due diligence but first software went serverless and now it's becoming headless so there's not much left to look at, really."*
+他写道："没错，风投应该做更多尽职调查，但软件先变成了无服务器，现在又变成无头化，说真的，已经没什么可看的了。"
 
-*"Memory is just text files. If Claude needs a database it will make a database."*
-*"记忆就是文本文件。如果 Claude 需要数据库，它会自己创建一个。"*
+He also shared a funny moment where he asked Claude to evaluate a potential investment, and it replied "cute, just not as good as me" — a wry note on AI hubris.
+他还分享了一个有趣的瞬间：当他让 Claude 评估一个潜在投资项目时，Claude 回复说"可爱，就是没我好"——对 AI 自大心态的一个妙趣横生的注脚。
 
-On the "SaaS extinction": Felix acknowledges the market reaction to Cowork's launch (the so-called "SaaS-pocalypse"), but his take is nuanced.
-关于"SaaS 消亡"：Felix 承认市场对 Cowork 发布的反应（即所谓的"SaaS 末日"），但他的观点更为细致。
+Sources:
+https://x.com/mattturck/status/2045987462409826604
+https://x.com/mattturck/status/2045909221997224000
 
-The product overhang in AI is bigger than the model overhang — meaning we already have models more capable than current product experiences can deliver.
-AI 的产品欠账比模型欠账更大——也就是说，现有模型的能力已经超过了当前产品体验所能释放的上限。
+---
 
-Execution is now essentially free: a team can now prototype 100 different ideas simultaneously in ways that would have been impossible even two years ago.
-执行成本现在几乎为零：一个团队现在可以同时构建 100 个不同的原型，这在两年前是不可能的。
+Zara Zhang (zarazhangrui on X) — Partner at Andreessen Horowitz (a16z)
 
-The bottleneck has shifted to taste and alignment — deciding *which* of those 100 prototypes is worth shipping.
-瓶颈已经转移到品味和判断力上——决定 100 个原型中哪个值得发布。
+Zara Zhang argued that as AI gets more capable, product teams should dramatically shift time toward external communication — talking to users and customers — rather than internal coordination.
+Zara Zhang 认为，随着 AI 能力增强，产品团队应大幅将时间转向外部沟通——与用户和客户交流——而非内部协调。
 
-Felix predicts software will increasingly resemble the fashion industry: technical capability becomes table stakes, and story, onboarding, and how a product makes you *feel* become the real differentiators.
-Felix 预测软件将越来越像时尚行业：技术能力成为基本门槛，而产品的故事性、引导体验以及使用感受将成为真正的差异化因素。
+Her reasoning covers three shifts: first, figuring out *what* to build will matter far more than building it, and insight into problems comes from external conversations with diverse people.
+她的论点涵盖三个转变：第一，弄清楚"做什么"将远比"怎么做"重要，而对问题的洞察来自与各种各样的人进行外部交流。
 
-https://www.youtube.com/watch?v=9MEJ4syOVrQ
+Second, teams will become much smaller as AI handles execution, dramatically reducing the need for internal meetings and coordination.
+第二，随着 AI 承担执行工作，团队规模将大幅缩小，内部会议和协调需求也会大幅减少。
+
+*"As AI gets more capable, product teams should spend more time on external communication (talking to users, customers, etc) than internal communication."*
+她写道："随着 AI 能力增强，产品团队应该把更多时间花在外部沟通（与用户、客户等交流）上，而非内部沟通。"
+
+Third, she's seeing indie entrepreneurs already live this extreme version: spending all day talking to customers, then dumping recordings to agents who handle the rest.
+第三，她观察到一些独立创业者已经在实践这种极端模式：整天与客户交谈，然后把录音丢给 agent 去处理后续一切。
+
+Source: https://x.com/zarazhangrui/status/2045810170245386713
+
+---
+
+Nikunj Kothari (nikunj on X) — Builder / investor
+
+Nikunj Kothari made a pointed prediction: cybersecurity companies are going to be worth a lot more as AI accelerates the pace of attacks.
+Nikunj Kothari 做出了一个有力预测：随着 AI 加速攻击节奏，网络安全公司将变得更加值钱。
+
+*"Cybersecurity companies are going to be worth a lot.. the pace of attacks is only going to increase as model capabilities improve. Humans will continue to be the primary vector of attack — and we haven't seen anything yet."*
+他写道："网络安全公司将会非常值钱……随着模型能力提升，攻击速度只会越来越快。人类仍将是主要的攻击向量——而我们还什么都没见识到。"
+
+This came the same day as the Vercel breach, making the observation particularly timely.
+这条推文发布的同一天正是 Vercel 安全事件爆发，这一观察显得格外及时。
+
+He also posted a self-deprecating tweet about stopping a certain habit after being called out on it, and a quip about VCs overusing the phrase "fiduciary duty."
+他还发了一条自我调侃的推文，说自己被点名后会停止某个习惯，并调侃了风投们滥用"受托责任"这个词的现象。
+
+Sources:
+https://x.com/nikunj/status/2046007615512256624
+https://x.com/nikunj/status/2045910252760285615
+https://x.com/nikunj/status/2045909979228762426
+
+---
+
+PODCASTS
+
+---
+
+Unsupervised Learning — Ep 84: OpenAI's Chief Scientist on Continual Learning Hype, RL Beyond Code, & Future Alignment Directions
+
+This episode features Ako Paioki, Chief Scientist of OpenAI, in a wide-ranging conversation about model progress, alignment, RL beyond code, and what it will take to build AI research assistants.
+本期邀请了 OpenAI 首席科学家 Ako Paioki，就模型进展、对齐、代码领域以外的强化学习，以及构建 AI 研究助手需要什么条件展开了广泛对话。
+
+**核心论点 / Core Thesis**
+
+Continual learning is the real goal — and it's already on the path we're walking.
+持续学习才是真正的目标——而这正是我们当前所走道路的延伸。
+
+OpenAI's models are now capable enough to materially change the economy, not just benchmark scores, driving a major shift in focus toward real-world utility.
+OpenAI 的模型现在已经足够强大，能够实质性地改变经济，而不仅仅是刷新基准分数，这推动了重心向真实世界实用性的重大转变。
+
+**关键洞察 / Key Insights**
+
+The "research intern → automated researcher" timeline is on track.
+"研究实习生 → 全自动研究员"的时间线仍在推进中。
+
+OpenAI now uses Codex for the majority of actual coding internally — seen as a clear signal that something is working.
+OpenAI 内部现在大多数实际编码工作都使用 Codex——这被视为事情正在奏效的明确信号。
+
+Math and physics breakthroughs (including solving IMO Problem 6) served as north stars for reasoning model development — but the focus is now shifting to economically valuable and science-applicable outputs.
+数学和物理突破（包括解出 IMO 第六题）曾是推理模型发展的北极星——但焦点现在正转向具有经济价值和科学应用价值的成果。
+
+RL generalizes beyond code: while verification is harder in domains like medicine and law, these challenges overlap with "long horizon tasks" — and OpenAI is optimistic about scaling RL in these areas.
+强化学习可以推广到代码以外的领域：虽然在医学和法律等领域验证更困难，但这些挑战与"长时程任务"重叠——OpenAI 对在这些领域扩展 RL 持乐观态度。
+
+On whether companies should build their own RL pipelines: probably not — in-context learning will keep improving and may be the most efficient path for domain adaptation.
+关于企业是否应该构建自己的 RL 管道：可能不需要——上下文学习将持续改进，可能是领域适应最高效的路径。
+
+Harnesses (like Codex) will become far more general — usable across domains beyond coding, meeting users where they already work (Slack, existing tools).
+像 Codex 这样的 harness 将变得更加通用——可跨代码以外的领域使用，在用户已有的工作环境中（Slack、现有工具）直接服务用户。
+
+**最值得关注的信号 / Signal to Watch**
+
+AI is now capable enough to "materially change the economy" — OpenAI's focus has shifted from benchmark chasing to real-world impact.
+AI 现在已经足够强大，可以"实质性地改变经济"——OpenAI 的焦点已从追逐基准分数转向真实世界影响。
+
+The model's ability to self-evaluate partial progress is the critical unlock for long-horizon tasks in ambiguous domains.
+模型自我评估部分进展的能力，是在模糊领域完成长时程任务的关键突破口。
+
+Episode link: https://www.youtube.com/watch?v=vK1qEF3a3WM
 
 ---
 
