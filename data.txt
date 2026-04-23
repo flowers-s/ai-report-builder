@@ -1,244 +1,228 @@
-AI Builders 日报 · 2026-04-22
+AI Builders 日报 · 2026-04-23
 
 ---
 
-## Sam Altman (@sama) · OpenAI CEO
-
-Sam Altman praised Apple CEO Tim Cook, calling him "a legend," generating massive engagement (28K+ likes).
-萨姆·奥特曼盛赞苹果 CEO 蒂姆·库克，称其为"传奇人物"，获得超 2.8 万点赞。
-
-He also teased a new feature with the internal codename "telepathy" — hinting at a mind-reading-like interface that's finally rolling out.
-他还预告了一项内部代号为"telepathy（心灵感应）"的新功能，暗示一种"读心"式交互界面正式落地。
-
-*"The internal working name for this was 'telepathy', and it feels like it."*
-Source: https://x.com/sama/status/2046330082726384051 | https://x.com/sama/status/2046330825265086712
+X / TWITTER
 
 ---
 
-## Claude (@claudeai) · Anthropic AI Assistant
+Swyx (swyx on X) — AI & Developer Ecosystem Observer, @dxtipshq / @cognition / @temporalio
 
-Claude 官方宣布推出 Cowork 功能中的 Live Artifacts：用户可在 Claude 中构建与应用和文件实时连接的仪表盘和追踪器，支持版本历史，可跨会话持续访问。
-Claude officially launched Live Artifacts inside Cowork — build dashboards and trackers connected to your apps and files, with version history, accessible from any session.
+Swyx reflected on the early days of Cursor, sharing the first-ever Latent Space podcast episode featuring Cursor's team when they were just 5 people and pre-PMF.
+Swyx 回顾了 Cursor 的早期岁月，分享了 Latent Space 播客与 Cursor 团队录制的第一期节目，彼时他们仅有 5 人，尚未找到 PMF。
 
-*"In Cowork, Claude can now build live artifacts: dashboards and trackers connected to your apps and files."*
-此功能现已向所有付费计划开放。
-Source: https://x.com/claudeai/status/2046328619249684989 | https://x.com/claudeai/status/2046328621611065668 | https://x.com/claudeai/status/2046328622869344429
+He also noted the remarkable size of a recent seed round in the AI space, commenting simply: *"jesus h christ that seed round"*
+他还对 AI 领域某笔种子轮的规模感到震惊，直言：*"jesus h christ that seed round"*
 
----
-
-## Peter Steinberger (@steipete) · OpenClaw + OpenAI
-
-Peter Steinberger 发布了两款工具的重大更新：
-Peter Steinberger shipped two major tool updates:
-
-**gog 0.13**：Gmail 转发支持注释和附件、自动回复、全文搜索、Markdown 上传 Google Docs、幻灯片缩略图渲染、表格图表编辑、辅助日历等大量新特性（获 700+ 点赞）。
-gog 0.13 brings Gmail forwarding with notes/attachments, autoreplies, full-body search, Markdown uploads to Google Docs, rendered Slides thumbnails, Sheets chart editing, and more. (700+ likes)
-
-*"🧭 gog 0.13 is out!"*
-Source: https://x.com/steipete/status/2046356596683411924
-
-**wacli 0.6.0**：WhatsApp CLI 安全与可靠性升级，强化 SQLite 路径处理、搜索查询净化、同步/媒体崩溃恢复，新增 WACLI_STORE_DIR 环境变量。
-wacli 0.6.0 hardens SQLite/store path handling, sanitizes search queries, recovers sync/media panics, adds WACLI_STORE_DIR.
-
-*"🗃️ wacli 0.6.0 is out!"*
-Source: https://x.com/steipete/status/2046375922031321401
-
-他还特别感谢腾讯团队与 OpenClaw 合作提供评测数据，推动开源改进。
-He also praised Tencent's team for collaborating on evals to improve OpenClaw's harness performance and contributing fixes back to the open-source repo (1K+ likes).
-Source: https://x.com/steipete/status/2046259696722465113
+Source: https://x.com/swyx/status/2046791964759044504
+Source: https://x.com/swyx/status/2046790380889272527
 
 ---
 
-## Aaron Levie (@levie) · Box CEO
+Josh Woodward (joshwoodward on X) — Google Labs VP, overseeing Gemini App & Google AI Studio
 
-Aaron Levie 指出，从聊天机器人到真正的自动化流程代理之间存在巨大鸿沟，大多数公司需要专人负责推进代理自动化。
-Aaron Levie argued that going from chatbot to actual process automation requires dedicated people — not left as side projects for individual employees.
+Josh announced that Pomelli, one of Google Labs' newer experiments for small and medium businesses, is now available in Europe.
+Josh 宣布，谷歌 Labs 面向中小企业推出的新实验产品 Pomelli 现已登陆欧洲市场。
 
-这类岗位将承担映射工作流、部署代理、维护上下文、连接内部系统、构建评估、管理人机协同等职责。他认为这是 AI 时代创造的新型工作岗位之一。
-The job spec includes mapping workflows, deploying agents, wiring up systems, creating evals, managing human-in-the-loop, and handling change management. He sees this as a genuinely new job category created by AI.
+He also highlighted DESIGN.md as one of his favorite features in Stitch, Google's new design tool.
+他还特别点赞了 Stitch 中 DESIGN.md 功能，称其为自己最喜欢的特性之一。
 
-*"Most companies will need to have dedicated people that are responsible for bringing automation to their teams."*
-Source: https://x.com/levie/status/2046397816755634340
-
----
-
-## Guillermo Rauch (@rauchg) · Vercel CEO
-
-Vercel 经历了一次安全事件，Guillermo Rauch 亲自出面说明应对情况：团队已推出超过 20 项安全改进，涵盖 MFA 配置、环境变量审计、活动日志等。
-Following a security incident, Rauch shared that Vercel has shipped over 20 product improvements across Dashboard and CLI to help customer security posture — easier MFA setup, Environment Variable auditing, Activity logs, and more.
-
-他特别纠正了一个常见误解：删除环境变量并不等于"轮换密钥"——密钥需要在对应服务商处使其失效并重新获取。
-He corrected a key misconception: deleting an env var on Vercel does NOT equal rotating the key. You must invalidate the old key with the upstream vendor and get a new one.
-
-*"Deletion (e.g.: of an env var, project, account…) does not imply Rotation."*
-Source: https://x.com/rauchg/status/2046305710120829374 | https://x.com/rauchg/status/2046406894269747668
+Source: https://x.com/joshwoodward/status/2046763674199794061
+Source: https://x.com/joshwoodward/status/2046754179499356594
 
 ---
 
-## Swyx (@swyx) · AIE / Latent Space
+Peter Yang (petergyang on X) — Product at Roblox, AI content creator with 140K+ newsletter readers
 
-Swyx 对 OpenAI 收购 Sky by Software 并将 Codex 与真正的计算机使用能力结合表示高度认可，称这可能是 OpenAI 过去一年最值得的收购之一。
-Swyx called the Codex × Sky by Software acquisition one of OpenAI's best deals of the past year — saying "real" computer use is now finally rolling out in a usable fashion after years of waiting.
+Peter flagged a bug in ChatGPT's web app where the image generation tool is being ignored, causing the model to output code instead of images — while the mobile app works fine.
+Peter 发现 ChatGPT 网页版存在 Bug：图像生成工具被忽略，模型会输出代码而非图片，而移动端则运行正常。
 
-*"The Codex x @skybysoftware acquisition may have been one of the best @openai deals made in the last year."*
-他还提到 Z/L continuum 的概念在 AIE Miami 活动上被引用，显示这一框架正在 AI 工程师圈子中传播。
-Source: https://x.com/swyx/status/2046362691606855700 | https://x.com/swyx/status/2046222691418439689
+On a lighter note, he's been building a birthday party invite website with his soon-to-be-8-year-old using ChatGPT image generation.
+轻松一面：他正在用 ChatGPT 图像生成功能，和即将满 8 岁的孩子一起制作生日派对邀请网站。
 
----
-
-## Ryo Lu (@ryolu_) · Cursor Design
-
-Cursor 设计负责人 Ryo Lu 分享了一次"焕然一新的开始"（可能与 Cursor 的某个新特性或个人项目相关），获得 185 点赞。
-Ryo Lu, design lead at Cursor, shared a "clean start" moment (likely a new feature or personal project milestone), generating solid engagement.
-
-近期无更多重要动态。
-Source: https://x.com/ryolu_/status/2046246973783859559
+Source: https://x.com/petergyang/status/2046791457479201007
+Source: https://x.com/petergyang/status/2046778557528170824
 
 ---
 
-## Garry Tan (@garrytan) · YC President & CEO
+Amanda Askell (AmandaAskell on X) — Philosopher & AI Ethicist at Anthropic
 
-Garry Tan 鼓励一批有才能的人去 YC 创业，并分享了他为朋友 @chrysb 写的关于 GBrain 版本迁移的笔记——介绍如何在升级新版 GBrain 时保持配置同步，适用于 OpenClaw/Hermes 生态中的任何插件层。
-Garry Tan encouraged a group of talented people to start startups at YC. He also shared notes on implementing GBrain-style migrations for the OpenClaw/Hermes ecosystem — how to keep setups in sync as core plugin configurations change.
+Amanda shared a relatable human moment: *"When you regain your will to power after a period of burnout or depression"* — a post that resonated widely, earning 774 likes.
+Amanda 分享了一个引发广泛共鸣的人生瞬间：*"When you regain your will to power after a period of burnout or depression"*，获得 774 个点赞。
 
-*"I wrote my friend @chrysb a quick note on how to implement GBrain style migrations..."*
-Source: https://x.com/garrytan/status/2046465101759500767 | https://x.com/garrytan/status/2046464315918864385
+She also quipped: *"Not replying to messages is my love language."*
+她还幽默地说：*"Not replying to messages is my love language."*
 
----
-
-## Dan Shipper (@danshipper) · Every CEO
-
-Dan Shipper 发表了几个简洁有力的观点：两个 agent 协作优于一个；Opus 4.7 的代码审查表现出色；媒体再次变得有趣。
-Dan Shipper dropped several punchy takes: two agents are better than one; Opus 4.7 does good code reviews; and "media is cool again."
-
-*"two agents are better than one"* — 这句话引发了 40 条回复的热烈讨论。
-Source: https://x.com/danshipper/status/2046231280430240141 | https://x.com/danshipper/status/2046224034619125871 | https://x.com/danshipper/status/2046272643133825458
+Source: https://x.com/AmandaAskell/status/2046741661599092830
+Source: https://x.com/AmandaAskell/status/2046654374248845675
 
 ---
 
-## Peter Yang (@petergyang) · Roblox Product
+Thariq (trq212 on X) — Claude Code team at Anthropic, prev YC W20 & MIT Media Lab
 
-Peter Yang 分享了他使用 AI 设计工具（特别是 @tomkrcha 的 Pencil）弥补 Codex 前端设计能力短板的体验，认为"用 agent 设计"比写代码更有趣。
-Peter Yang shared his experience using AI design tools (especially Pencil by @tomkrcha) to fill Codex's frontend design gap. He thinks designing with agents is even more fun than coding with them.
+Thariq highlighted one of his favorite quality-of-life features in Claude Code, calling attention to a recent improvement that drew strong community engagement (1,270 likes, 100 replies).
+Thariq 点赞了 Claude Code 的一项生活质量改进功能，该推文引发了社区的热烈讨论（1,270 个赞，100 条回复）。
 
-他还观察到，越具创新性的公司，越不会有真正意义上的"2026 年路线图"。
-He also noted that the more innovative a company, the less of a real "2026 roadmap" it actually has.
-
-Source: https://x.com/petergyang/status/2046434474603446535 | https://x.com/petergyang/status/2046434019307561342 | https://x.com/petergyang/status/2046433025337315651
+Source: https://x.com/trq212/status/2046614372311798134
 
 ---
 
-## Zara Zhang (@zarazhangrui) · Builder
+Amjad Masad (amasad on X) — CEO of Replit
 
-Zara Zhang 提出了一个有趣的观点：agent 以 HTML 为母语，应该让 agent 用 HTML 来表达自己，而不是 XML——她认为 agent 生成的 HTML 幻灯片效果远好于 XML。
-Zara Zhang made a sharp observation: agents speak HTML as their native language. She argues agents produce much better-looking slides in HTML than XML, and we should let them express themselves in their native format.
+Amjad provided an update on his ongoing lawsuit against Congressman Randy Fine over First Amendment rights — the congressman attempted to dismiss the case by unblocking Amjad, but Amjad says they will continue until Fine unblocks all Americans.
+Amjad 更新了他对国会议员 Randy Fine 关于言论自由的诉讼进展——Fine 试图通过取消拉黑来撤销诉讼，但 Amjad 表示将坚持到底，直到 Fine 对所有美国人取消拉黑。
 
-*"Agents speak HTML as their native language"*
-Source: https://x.com/zarazhangrui/status/2046454622852657264
+On a lighter note, he joked about Replit's space-themed IDE: *"Mum, can we have the SpaceX IDE? No we have a space IDE at home"*
+他还调侃了 Replit 的太空主题 IDE：*"Mum, can we have the SpaceX IDE? No we have a space IDE at home"*
 
----
+Replit also testified in support of the BASED Act, opposing Big Tech's control over software marketplaces.
+Replit 还就 BASED Act 出庭作证，反对大型科技公司对软件市场的垄断。
 
-## Alex Albert (@alexalbert__) · Anthropic Research
-
-Alex Albert 推荐了 Jack 的 "Young Money" 博客/书，认为它对他大学毕业后的人生规划产生了重要影响，适合正在摸索人生方向的年轻人阅读。
-Alex Albert recommended Jack's "Young Money" blog/book, saying it had a big impact on him navigating post-grad life. Recommends it for teens/20s figuring out how to think about life.
-
-近期无 AI/研究相关重要动态。
-Source: https://x.com/alexalbert__/status/2046277525207466003
+Source: https://x.com/amasad/status/2046790326682333539
+Source: https://x.com/amasad/status/2046763507639783745
+Source: https://x.com/amasad/status/2046762468199071765
 
 ---
 
-## Matt Turck (@mattturck) · FirstMark Capital VC
+Aaron Levie (levie on X) — CEO of Box
 
-Matt Turck 对 AI TAM（总可寻址市场）的主流叙事提出质疑，反驳了"AI 的市场等于整个人类劳动力市场规模"这一说法。
-Matt Turck pushed back on the popular AI TAM narrative, arguing that the price of AI services will settle at marginal cost + normal margin — just like any other labor automation technology in history.
+Aaron wrote a sharp take on enterprise AI adoption: despite agent hype, companies face massive challenges — legacy tech stacks, fragmented data, undigitized knowledge, and change management — all while running their business day-to-day.
+Aaron 就企业 AI 落地发表了一篇犀利评论：尽管 Agent 概念火爆，企业仍面临遗留技术栈、碎片化数据、未数字化知识以及变革管理等重重挑战，同时还要维持日常运营。
 
-*"Just for like any labor automation technology in history, the price of AI services will be the marginal cost + a normal margin."*
-Source: https://x.com/mattturck/status/2046284478151086178
+*"This is why there is so much opportunity for companies (software or services) to actually deploy agents in specific domains and workflows."*
+*"This is why there is so much opportunity for companies (software or services) to actually deploy agents in specific domains and workflows."*
 
----
+He argued the FDE (field deployment engineer) model and services providers aren't going away — they'll be essential for driving change management and enterprise AI implementation.
+他认为，FDE（现场部署工程师）模式和服务提供商不会消失，反而会在推动企业变革管理和 AI 落地中扮演核心角色。
 
-## Josh Woodward (@joshwoodward) · Google Labs VP
-
-Josh Woodward 欢迎 Ben 的回归，期待看到他的新作品（可能是某位重要工程师/创始人重返业界）。
-Josh Woodward welcomed back someone named Ben, expressing excitement about what they'll build next — likely a notable return to the industry.
-
-近期无更多重要技术动态。
-Source: https://x.com/joshwoodward/status/2046361644029378731
+Source: https://x.com/levie/status/2046805326784319663
 
 ---
 
-## Nikunj Kothari (@nikunj) · FPV Ventures Partner
+Garry Tan (garrytan on X) — President & CEO of Y Combinator
 
-Nikunj Kothari 大力推荐了今年他听过的最佳播客——Dialectic Pod 上 Jared Weinstein 的一期分享，称其真诚感人、故事精彩。
-Nikunj gave an enthusiastic recommendation for what he called the best podcast episode of the year — Jared Weinstein on Dialectic Pod — praising its authenticity and incredible storytelling.
+Garry announced a major upgrade to GBrain Minions, his job server for agents, making it easier to delegate tasks to your OpenClaw or Hermes agent via GBrain instructions.
+Garry 宣布对 GBrain Minions（他为 Agent 打造的任务服务器）进行重大升级，通过 GBrain 指令，更轻松地将任务委派给 OpenClaw 或 Hermes Agent。
 
-他还发了一条关于在美印度人与父母时差压力的幽默推文，获得 130 点赞。
-He also dropped a relatable joke about Indian parents in the US and the timezone pressure to become Apple CEO — 130 likes.
+He also quoted George Orwell: *"The past was alterable. The past never had been altered."*
+他还引用了乔治·奥威尔的名句：*"The past was alterable. The past never had been altered."*
 
-Source: https://x.com/nikunj/status/2046465709438582945 | https://x.com/nikunj/status/2046373243070939360
-
----
-
-## Nan Yu (@thenanyu) · Linear Head of Product
-
-近期无重要 AI/产品相关动态。发了一条关于 Venmo 隐私功能的吐槽推文。
-No substantive AI/product content recently. Posted a humorous complaint about Venmo's social feed feature.
-
-Source: https://x.com/thenanyu/status/2046317076164350411
+Source: https://x.com/garrytan/status/2046846939535495238
+Source: https://x.com/garrytan/status/2046804979160334433
+Source: https://x.com/garrytan/status/2046827162695872680
 
 ---
 
-## Amjad Masad (@amasad) · Replit CEO
+Zara Zhang (zarazhangrui on X) — Builder & Developer
 
-近期无重要 AI/产品动态。分享了一条关于 Kanye 新专辑中 Fairuz 的推文。
-No major AI/product content. Shared a tweet about Fairuz appearing on Kanye's new album.
+Zara recommended asking Claude Code to generate an HTML visualization of its own context window as a surprisingly effective way to understand how context windows actually work — a post that earned 204 likes.
+Zara 推荐了一个有趣技巧：让 Claude Code 生成一个 HTML 可视化自身上下文窗口，以此直观理解 context window 的工作原理，获得 204 个点赞。
 
-Source: https://x.com/amasad/status/2046443294104883693
+She also shared a reading list of surprisingly relevant old books for the AI era: The Mythical Man-Month (1975), Diffusion of Innovations (1962), and Player Piano (1952).
+她还推荐了三本意外切题的经典老书：《人月神话》（1975）、《创新的扩散》（1962）和《自动钢琴》（1952）。
 
----
+And asked the relatable question: *"Have you ever felt like you have more agents/AI tools than you have work for them to do"*
+她还问了一个引发共鸣的问题：*"Have you ever felt like you have more agents/AI tools than you have work for them to do"*
 
-## 🎙️ 播客精选 · No Priors
-
-**The Agentic Economy: How AI Agents Will Transform the Financial System**
-嘉宾：Circle 联合创始人兼 CEO Jeremy Allaire
-发布时间：2026-04-09
-链接：https://www.youtube.com/watch?v=eyobeqMdbeI
-
-**核心论点**
-稳定币（stablecoin）不只是加密货币，而是互联网原生的全储备美元协议——而 AI agent 经济的到来，正是这套基础设施真正发挥作用的时刻。Circle 的 USDC 和新推出的 ARC 区块链，是为机器与机器之间的经济活动专门设计的金融操作系统。
-
-**关键洞察**
-- 稳定币是"全储备货币"：每一枚 USDC 背后有短期美债或隔夜回购协议支撑，不允许分级准备金放贷——这是 Circle 的设计核心，也已被《天才法案》（Genius Act）写入美国法律。
-- AI agent 经济需要新型金融基础设施：现有银行系统无法支撑数十亿 agent 之间的实时、全球、可编程的微额结算。USDC 的交易成本已降至亚分级别，ARC 区块链可实现百万分之一美分的交易成本。
-- ARC 定位为"经济操作系统"：与 Ethereum/Solana 等公链不同，ARC 采用已知验证者集（大型金融机构），原生以 USDC 为 gas token，提供确定性结算终结性，并内置隐私原语——专为合规金融机构设计。
-- 代币化真实资产（RWA）正在加速：NASDAQ、纽交所、DTCC 都在推进代币化。目前链上交易量最大的代币化股票不是特斯拉，而是 Circle 自身。
-- AI 推理即工作量证明：Jeremy 对"将 GPU 推理计算作为 PoW 底层"这一设想表示兴趣，认为这比比特币的能源浪费式 PoW 更具生产性价值。
-
-**最值得关注的信号**
-我们正处于区块链的"宽带时刻"：就像 2000 年代初互联网基础设施成熟推动 Web 2.0 爆发一样，第三代区块链 + AI agent 的结合，可能在未来十年内推动 10%+ 的年 GDP 增长。
-
-Source: https://www.youtube.com/watch?v=eyobeqMdbeI
+Source: https://x.com/zarazhangrui/status/2046758723998425433
+Source: https://x.com/zarazhangrui/status/2046853431554719753
+Source: https://x.com/zarazhangrui/status/2046662237306421608
 
 ---
 
-## 📝 博客精选 · Claude Blog (Anthropic)
+Nikunj Kothari (nikunj on X) — Partner at FPV Ventures, seed/Series A investor
 
-**Preparing your security program for AI-accelerated offense**
-发布：2026-04-10
-链接：https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense
+Nikunj shared a networking tip: give 10-15 trusted people full blind intro privilege — no double opt-in needed.
+Nikunj 分享了一个社交技巧：给予 10-15 位信任的人完全的盲目介绍权限，无需双方确认。
 
-Anthropic 安全团队发布了一份全面的安全加固指南，核心警告是：AI 正在大幅压缩漏洞从公开到被利用的时间窗口，安全团队需要立即行动。
+*"It's the single best thing I've done to meet some of the most fascinating people!"*
+*"It's the single best thing I've done to meet some of the most fascinating people!"*
 
-**七大关键建议：**
-1. **缩短补丁窗口**：优先修复 CISA KEV 目录中的漏洞，互联网暴露面系统的修复时限压缩至 24 小时内。
-2. **准备处理更高量级的漏洞报告**：未来 2 年漏洞报告量将暴增，需要自动化分级处理流程。
-3. **在代码发布前找到 Bug**：将静态分析、AI 代码审查、自动化渗透测试集成进 CI/CD 流水线。
-4. **主动扫描自有代码库**：用 frontier 模型扫描自己的代码——在攻击者发现之前先找到漏洞。
-5. **设计时考虑"假设已被攻破"**：采用零信任架构，用硬件绑定凭证替代长期静态密钥。
-6. **缩减并盘点暴露面**：维护准确的互联网暴露资产清单，下线不使用的系统。
-7. **压缩事件响应时间**：用 AI 做告警的第一道分级，让人类专注于需要判断的决策。
+Source: https://x.com/nikunj/status/2046821454143250636
 
-重要引用：*"Within the next 24 months, vast numbers of bugs that sat unnoticed in code, possibly for years, will be found by AI models and chained into working exploits."*
+---
 
-Source: https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense
+Peter Steinberger (steipete on X) — OpenClaw core contributor, "Polyagentmorous ClawFather"
+
+Peter released OpenClaw 2026.4.21 — a small but important fix: npm updates now repair bundled plugin runtime dependencies, with Docker end-to-end coverage so Telegram, Discord, and Slack integrations don't break after upgrades.
+Peter 发布了 OpenClaw 2026.4.21——这是一个小而重要的修复版本：npm 更新现在会自动修复打包的插件运行时依赖，并通过 Docker 端到端测试确保 Telegram、Discord 和 Slack 集成在升级后不会中断。
+
+The release also backports OpenAI Image 2 support.
+此版本还向后移植了 OpenAI Image 2 支持。
+
+He also cut CI times from 8 minutes down to 2 minutes via parallelization, with sponsorship from the Blacksmith team.
+他还通过并行化将 CI 时间从 8 分钟压缩至 2 分钟，并感谢 Blacksmith 团队的赞助。
+
+discrawl 0.3.0 was also released, adding Git-backed archive sync so Discord archives can be published to private repos and queried locally without requiring bot credentials for every user.
+discrawl 0.3.0 也同步发布，新增 Git 支持的归档同步功能，Discord 存档可发布至私有仓库并在本地查询，无需每位用户持有 bot 凭证。
+
+Source: https://x.com/steipete/status/2046803162590335240
+Source: https://x.com/steipete/status/2046787353906167992
+Source: https://x.com/steipete/status/2046748122928263345
+
+---
+
+Dan Shipper (danshipper on X) — CEO of Every
+
+Dan launched Monologue Notes — an agent-native voice note app where you can record notes on a walk, in a meeting, or at night, and your agents can access them from anywhere.
+Dan 发布了 Monologue Notes——一款 Agent 原生的语音笔记应用，可在散步、开会或深夜录制笔记，你的 Agent 可以从任何地方访问这些内容。
+
+He called something in AI a *"huge huge deal"* and engaged with a discussion about avoiding butterfly effect problems in a time-travel-adjacent AI context.
+他称某项 AI 进展是 *"huge huge deal"*，并参与讨论了类时间旅行 AI 场景中如何避免蝴蝶效应问题。
+
+Source: https://x.com/danshipper/status/2046643173766697214
+Source: https://x.com/danshipper/status/2046717947125633268
+Source: https://x.com/danshipper/status/2046709495435333709
+
+---
+
+Sam Altman (sama on X) — CEO of OpenAI
+
+Sam posted a manga made by ChatGPT Images 2.0, featuring himself and Gabe searching for more GPUs — drawing over 3,600 likes and 531 comments, showing off the new image model's capabilities.
+Sam 发布了一幅由 ChatGPT Images 2.0 创作的漫画，描绘他和 Gabe 寻找更多 GPU 的场景，获得超 3,600 个点赞和 531 条评论，展示了新图像模型的强大能力。
+
+He praised Gabe as *"incredibly talented and a great leader"*, signaling positive news around a personnel or organizational development.
+他称赞 Gabe 是 *"incredibly talented and a great leader"*，暗示 OpenAI 内部有积极的人员或组织动态。
+
+On compute: *"We want you to have a lot of AI!"* — shared in the context of discussing resource availability for users.
+关于算力，他表示：*"We want you to have a lot of AI!"*——在讨论用户资源可用性的语境下分享。
+
+Source: https://x.com/sama/status/2046672912833458597
+Source: https://x.com/sama/status/2046682384251429279
+Source: https://x.com/sama/status/2046752492093165708
+
+---
+
+PODCASTS
+
+---
+
+AI & I by Every — "We Gave Every Employee an AI Agent. Here's What Happened."
+https://www.youtube.com/watch?v=SRlTgIhESjw
+
+Every gave every team member their own OpenClaw — a personal AI agent — and the results fundamentally changed how the company operates.
+Every 为每位团队成员配备了各自的 OpenClaw（个人 AI Agent），这一举措从根本上改变了公司的运营方式。
+
+The core insight: a personal agent that evolves through your interactions becomes a reflection of you — your skills, personality, and judgment — creating a parallel "org chart" of specialized agents.
+核心洞察：一个通过与你互动而不断进化的个人 Agent，会成为你的映射——你的技能、个性和判断力——从而形成一张平行的"专业化 Agent 组织架构图"。
+
+CEO Dan Shipper, COO Brandon, and Head of Platform Willie discussed how tasks like email triage, household management, product bug reports, and even inter-agent collaboration emerged organically.
+CEO Dan Shipper、COO Brandon 和平台负责人 Willie 分享了电子邮件整理、家庭管理、产品 Bug 报告乃至 Agent 间协作等场景如何有机涌现。
+
+A standout moment: Brandon had his agent call him during a 28-minute walk to verbally triage his inbox — without ever setting it up as a capability.
+一个亮点时刻：Brandon 让 Agent 在他步行 28 分钟上班途中打电话给他，逐一语音处理收件箱——而这个能力完全是自发探索出来的。
+
+The team also built and launched PlusOne — a hosted, one-click OpenClaw service for their newsletter subscribers — with key product decisions around privacy, Slack channel access, and skill sharing.
+团队还构建并推出了 PlusOne——一项面向订阅用户的托管版一键 OpenClaw 服务——并就隐私、Slack 频道访问权限和技能共享做出了关键产品决策。
+
+Key challenge identified: agents are trained for two-person conversations, not group chats — leading to token-burning "ant death spiral" loops when multiple agents are in the same channel without careful configuration.
+识别到的关键挑战：Agent 目前是为两人对话训练的，而非群聊——当多个 Agent 进入同一频道且配置不当时，会出现消耗大量 token 的"蚂蚁死亡螺旋"循环。
+
+The episode is a must-listen for anyone thinking about deploying agents inside an organization.
+本期节目对任何考虑在组织内部部署 Agent 的人来说都是必听之选。
+
+Source: https://www.youtube.com/watch?v=SRlTgIhESjw
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
