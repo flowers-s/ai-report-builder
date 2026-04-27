@@ -1,220 +1,202 @@
-AI Builders 日报 · 2026-04-26
+AI Builders 日报 · 2026-04-27
 
 ---
 
-## OFFICIAL BLOGS
+🎙️ PODCAST · No Priors
 
-### Anthropic Engineering: Scaling Managed Agents — Decoupling the brain from the hands
+Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott
+在 AI 时代扩展全球组织——ServiceNow CEO Bill McDermott 深度对话
 
-Anthropic Engineering has published a deep technical post on their new Managed Agents architecture.
-Anthropic Engineering 发布了一篇关于新托管 Agent 架构的深度技术文章。
+Source: https://www.youtube.com/watch?v=tNNFJa5pUEg
 
-The core idea: decouple the "brain" (Claude + harness) from the "hands" (sandboxes and tools) and from the "session" (the durable event log).
-核心思路：将"大脑"（Claude + harness）与"双手"（沙盒和工具）以及"会话"（持久事件日志）彻底解耦。
+No Priors sat down with ServiceNow CEO Bill McDermott to discuss how large enterprises can adapt and scale in the AI era.
+No Priors 与 ServiceNow CEO Bill McDermott 深度对话，探讨大型企业如何在 AI 时代适应与扩张。
 
-In the old coupled design, everything ran in one container — if it died, the session was lost, and credentials could be exposed to prompt injection from the sandbox.
-旧的耦合设计中，所有组件运行在同一容器内——容器崩溃则会话丢失，且沙盒内的提示注入攻击可能暴露凭证。
+McDermott argues that AI is not just a technology shift but a fundamental reimagining of how global organizations operate.
+McDermott 认为，AI 不仅仅是技术层面的转变，更是对全球组织运营方式的根本性重塑。
 
-By separating concerns, the harness is now stateless: a crashed harness can be rebooted with wake(sessionId), and it resumes from the last event in the log.
-通过关注点分离，harness 现在是无状态的：崩溃的 harness 可通过 wake(sessionId) 重启，从日志中最后一条事件恢复执行。
-
-The security improvement is structural: credentials never land in the sandbox where Claude's generated code runs.
-安全性改进是结构性的：凭证永远不会进入 Claude 生成代码的运行沙盒。
-
-Git tokens are wired into the local remote at clone time; OAuth tokens live in a vault external to the sandbox, accessed through a proxy.
-Git token 在克隆时写入本地 remote；OAuth token 保存在沙盒外的 vault，通过代理访问。
-
-The performance payoff was dramatic: p50 time-to-first-token (TTFT) dropped ~60%, and p95 dropped over 90%, because containers are now provisioned on demand via tool call rather than up front.
-性能提升显著：p50 首 token 延迟（TTFT）下降约 60%，p95 下降超过 90%，因为容器现在通过工具调用按需分配，而非预先启动。
-
-The session log also replaces the context window for long-horizon tasks — getEvents() lets the harness selectively fetch, rewind, or reread prior context, keeping irreversible compaction decisions in the harness rather than baked in.
-会话日志还取代了长时任务中的上下文窗口——getEvents() 让 harness 可以选择性地获取、回溯或重读历史上下文，将不可逆的压缩决策保留在 harness 中而非硬编码。
-
-The framing borrows from OS design: "how to design a system for programs as yet unthought of" — by virtualizing agent components into stable interfaces (session, harness, sandbox) so that implementations can be swapped as models improve.
-框架借鉴了操作系统设计理念："如何为尚未被构想的程序设计系统"——通过将 agent 组件虚拟化为稳定接口（session、harness、sandbox），使实现层可随模型进步自由替换。
-
-Source: https://www.anthropic.com/engineering/managed-agents
+The key theme: leaders who embrace AI as a workforce multiplier — rather than a replacement — will define the next era of business.
+核心主题：将 AI 视为劳动力倍增器而非替代品的领导者，将定义下一个商业时代。
 
 ---
 
-## X / TWITTER
+Swyx (@swyx)
 
-### Sam Altman (sama on X) — CEO, OpenAI
+Something is cooking: Swyx teased a collaboration with @hhua_, with a calendar save around ICML in Seoul.
+有新动作：Swyx 预告了与 @hhua_ 的合作项目，并提示在首尔 ICML 会议前后留好日程。
 
-GPT-5.5 and GPT-5.5 Pro are now available in the API, and Altman closed out the week with a simple "this was a good week / proud of the team / happy building!" — a rare moment of public satisfaction from someone who rarely celebrates in public.
-GPT-5.5 和 GPT-5.5 Pro 现已在 API 中上线，Altman 以一句简短的"这是美好的一周 / 为团队感到自豪 / 愉快构建！"结束了这周，这是他难得的公开庆祝时刻。
+Source: https://x.com/swyx/status/2048126046487322835
 
-Source: https://x.com/sama/status/2047787124846653895
-Source: https://x.com/sama/status/2047823357635354814
+He also highlighted a post echoing the "code is not cheap" narrative — pushing back on the idea that AI-generated code has no cost.
+他还转发了一篇支持"代码并不廉价"观点的文章，反对 AI 生成代码零成本的说法。
 
----
+Source: https://x.com/swyx/status/2048125100437000512
 
-### Ryo Lu (ryolu_ on X) — Designer, Cursor
+Swyx mused on the divergence between what PMs think and what engineers think in the AI-coding workflow — a perennial tension now sharper than ever.
+Swyx 思考了 AI 编码工作流中 PM 与工程师认知分歧的问题——这一长久存在的张力在当下愈发尖锐。
 
-Ryo announced he has fully switched to GPT-5.5 + Composer 2 as his daily stack inside Cursor, calling it "the perfect duo for intelligence, speed, and cost."
-Ryo 宣布已完全切换到 GPT-5.5 + Composer 2 作为 Cursor 内的日常组合，称其为"智能、速度和成本的完美搭档"。
-
-He also surfaced a Cursor tip: /multitask lets you break out of the queue and work on many things in parallel.
-他还分享了一个 Cursor 技巧：/multitask 可以让你脱离队列，同时并行处理多项任务。
-
-Source: https://x.com/ryolu_/status/2047879353313431649
-Source: https://x.com/ryolu_/status/2047766831105220799
+Source: https://x.com/swyx/status/2047948378659754373
 
 ---
 
-### Aaron Levie (levie on X) — CEO, Box
+Peter Yang (@petergyang)
 
-Levie made a strong case for Jevons Paradox in AI: *"If AI can make employees more productive, which is widely accepted as fact, then companies are going to want as many productive units of labor as possible."*
-Levie 为 AI 中的杰文斯悖论进行了有力论证："如果 AI 能提高员工生产力——这已被普遍接受为事实——那么公司将希望拥有尽可能多的高效劳动力单元。"
+The next generation's AI expectations are already sky-high: Peter tested Codex with his 7-year-old, who was bored it couldn't instantly build a pet dragon raising game.
+下一代对 AI 的期望已经高得离谱：Peter 让 7 岁的孩子试用 Codex，孩子嫌它不能瞬间生成一款养龙游戏而感到无聊。
 
-His argument: as AI gets better, it doesn't replace hiring — it enables small businesses to finally afford engineering, sales teams to chase more leads, and marketing to unlock higher-end production.
-他的论点：AI 越强，并不意味着减少招聘——而是让小企业终于负担得起工程师，让销售团队追逐更多线索，让市场营销解锁更高端的制作能力。
+Source: https://x.com/petergyang/status/2048220045726322934
 
-Source: https://x.com/levie/status/2047747142308274645
+He also asked the community: are there any human-curated skill repos (for design, coding, product) that aren't just "100 skills with slop mixed in"?
+他还向社区提问：有没有经过人工筛选的技能仓库（设计、编程、产品方向），而不是"100 个技能里掺满水货"的那种？
 
----
+Source: https://x.com/petergyang/status/2048190683782201767
 
-### Peter Steinberger (steipete on X) — Co-creator, OpenClaw + OpenAI advisor
+Relatable moment: Peter admits he often needs to get Codex to fix his own OpenClaw setup. Even the builders are in the trenches.
+感同身受：Peter 坦言他经常需要用 Codex 来修复自己的 OpenClaw 配置。即便是 Builder 也在泥坑里打滚。
 
-*"GPT 5.5 is definitely a step up in the character game."*
-"GPT 5.5 在角色塑造方面绝对是一个进步。"
-
-He also shipped discrawl 0.6.0 — which can now read Discord DMs without custom login tricks, while deliberately keeping write access disabled ("No writing since it's not nice to send humans slop").
-他还发布了 discrawl 0.6.0——现在无需自定义登录技巧即可读取 Discord 私信，同时刻意关闭了写入功能（"不写入，因为向人类发送垃圾内容不礼貌"）。
-
-Source: https://x.com/steipete/status/2047871519762567468
-Source: https://x.com/steipete/status/2047797210427859450
+Source: https://x.com/petergyang/status/2048136116474437869
 
 ---
 
-### Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini / NotebookLM
+Nan Yu (@thenanyu)
 
-NotebookLM can now auto-label and categorize sources — a quality-of-life upgrade for users managing large document collections.
-NotebookLM 现在可以自动标注和分类来源——对管理大量文档集合的用户来说是一项实用的体验升级。
+Nan pointed to the West Coast housing crisis — from Santa Cruz to Seattle — as a structural failure despite the tech boom.
+Nan 指出西海岸从圣克鲁斯到西雅图的住房危机，认为这是科技繁荣背后的结构性失败。
 
-Source: https://x.com/joshwoodward/status/2047795981534847413
+Source: https://x.com/thenanyu/status/2048210021553405955
 
----
+Sharp take on bleeding-edge adoption: being on the very cutting edge means constant churn. The sweet spot is being "a couple steps behind" — using what's new but survived the initial chaos.
+关于前沿采纳的犀利观点：站在最前沿意味着持续的混乱与变化，最佳位置是"落后几步"——使用那些足够新颖但已经过初期洗礼的技术。
 
-### Dan Shipper (danshipper on X) — CEO, Every
+Source: https://x.com/thenanyu/status/2048172709075402787
 
-Two sharp observations in quick succession: *"Any AI knows more than any individual human / But any individual human learns faster than any AI"* — a concise framing of where human-AI complementarity still lies.
-两条犀利的连续观察："任何 AI 的知识都超过任何个体人类 / 但任何个体人类的学习速度都超过任何 AI"——简洁地指出了人机互补的现实所在。
+He also shared a link framing the same thought from a different angle — two posts, one thesis.
+他还分享了一篇从不同角度阐述相同观点的文章——两篇帖子，一个核心论点。
 
-He also posted an awestruck reaction to NotebookLM generating content "in one shot" from a book he's reading: "holy fuckin shit."
-他还对 NotebookLM 基于他正在阅读的书籍"一次生成"内容表达了震惊之情："holy fuckin shit。"
-
-Source: https://x.com/danshipper/status/2047797874600161334
-Source: https://x.com/danshipper/status/2047674383469093079
+Source: https://x.com/thenanyu/status/2048138965262201281
 
 ---
 
-### Nan Yu (thenanyu on X) — Head of Product, Linear
+Amanda Askell (@AmandaAskell)
 
-Nan offered a sharp reframe on design: *"The core design is about understanding, not output. A design is an intention. Not an image or a prototype. Output without intention is hallucination."*
-Nan 对设计给出了一个犀利的重新定义："设计的核心是理解，而非输出。设计是一种意图，不是图像或原型。没有意图的输出就是幻觉。"
+Anthropic's philosopher-ethicist had a delightful insight from flight simulators: being an amateur Cessna pilot would be boring, but being an amateur fighter jet pilot would be thrilling.
+Anthropic 的哲学家兼伦理学家从飞行模拟器中获得了一个有趣的感悟：当业余塞斯纳飞行员很无聊，但当业余战斗机飞行员则令人兴奋。
 
-He also drew an amusing historical parallel: the "weather apps" and "dashboards" that populated Behance and Dribbble in the pre-AI era were themselves hallucinations — beautiful outputs with no real product intention behind them.
-他还画了一个有趣的历史类比：AI 时代之前充斥 Behance 和 Dribbble 的"天气 App"和"数据仪表盘"本身就是幻觉——漂亮的输出，背后没有真实的产品意图。
+Source: https://x.com/AmandaAskell/status/2048294481955631163
 
-Source: https://x.com/thenanyu/status/2047751915271020920
-Source: https://x.com/thenanyu/status/2047758400948408831
-
----
-
-### Amjad Masad (amasad on X) — CEO, Replit
-
-Replit now lets users import their Vercel or Lovable apps with a few clicks — a direct move to reduce friction for developers wanting to migrate projects.
-Replit 现在允许用户通过几次点击导入 Vercel 或 Lovable 应用——这是为希望迁移项目的开发者减少阻力的直接举措。
-
-Source: https://x.com/amasad/status/2047747978690232550
+A quiet reflection on the pull of intensity and complexity — perhaps a metaphor for the kind of AI work she finds most meaningful.
+这是对强度与复杂性吸引力的一次静静思考——也许也是她对最有意义的 AI 工作的一种隐喻。
 
 ---
 
-### Swyx (swyx on X) — AI Engineer / Partner, Latent Space / Cognition / Temporal.io
+Amjad Masad (@amasad)
 
-Swyx highlighted Vercel's AI engineering work coming directly from C-suite, noting it "should be more common but it is not, even today."
-Swyx 重点关注了 Vercel 的 AI 工程工作直接来自高管层，指出这"应该更普遍，但即使在今天也并非如此"。
+Replit's CEO delivered a sharp era-by-era breakdown: 2000s = internet companies, 2010s = software companies, 2020s = AI companies, 2025+ = cybersecurity companies.
+Replit CEO 给出了一个精辟的时代划分：2000 年代是互联网公司，2010 年代是软件公司，2020 年代是 AI 公司，2025 年之后是网络安全公司。
 
-He also riffed on a meta-trend: *"the hot skills of today become the posttrain targets of tomorrow"* — meaning whatever expert humans do well now is what model trainers will systematically bake into next-gen models.
-他还就一个元趋势发表看法："今天的热门技能将成为明天的后训练目标"——意味着当下人类擅长的技能将被系统性地融入下一代模型。
+Source: https://x.com/amasad/status/2048265772775162078
 
-Source: https://x.com/swyx/status/2047749587163877668
-Source: https://x.com/swyx/status/2047715417867907539
-
----
-
-### Peter Yang (petergyang on X) — Product, Roblox / Creator, Creatoreconomy.so
-
-Peter demoed GPT-5.5 + Codex building a Star Fox clone in 15 minutes of prompting, noting the model was "play testing its own game for fun."
-Peter 演示了 GPT-5.5 + Codex 在 15 分钟提示后构建出星际火狐克隆游戏，并指出模型"正在为乐趣自行测试自己的游戏"。
-
-Source: https://x.com/petergyang/status/2047882568520102226
-Source: https://x.com/petergyang/status/2047880605204144159
+The implication: as AI proliferates, attack surfaces explode, and security becomes the defining constraint of the next era.
+言下之意：随着 AI 的普及，攻击面急剧扩大，安全将成为下一个时代最核心的制约因素。
 
 ---
 
-### Matt Turck (mattturck on X) — VC, FirstMark Capital
+Aaron Levie (@levie)
 
-Turck commented on the Cohere + Aleph Alpha combination as a significant geopolitical signal: "hard to overstate how much reluctance there is to outsourcing intelligence to a handful of US platforms, given current geopolitical chaos."
-Turck 评论了 Cohere 与 Aleph Alpha 合并，认为这是一个重要的地缘政治信号："鉴于当前的地缘政治混乱，各方对将智能外包给少数几个美国平台的抵触情绪有多强烈，怎么强调都不为过。"
+Box's CEO made a compelling case: AI provides leverage that's historically unprecedented, meaning anyone with ambition and core skills can now outperform their historical role constraints.
+Box CEO 提出了一个有力论断：AI 提供了史无前例的杠杆效应，意味着任何有抱负、有核心技能的人，都能突破传统职位的历史限制。
 
-Source: https://x.com/mattturck/status/2047721904438493482
+Source: https://x.com/levie/status/2048223146063609965
 
----
-
-### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
-
-Two product/team observations: code names that start as "temporary" become permanent and eternal ("Choose very very wisely"), and a meme reaction to designers discovering their vibe-coded designs shipped straight to production.
-两条产品/团队观察：以"临时"开始的代码名称会变得永久且永恒（"要非常非常谨慎地选择"），以及设计师发现他们的氛围感设计被直接推送到生产环境时的表情包反应。
-
-Source: https://x.com/nikunj/status/2047707257073524897
-Source: https://x.com/nikunj/status/2047790294184374565
+Junior employees can now punch well above their weight. The key advice to companies: find these "people from the future," put them in key positions, and let them pull you forward.
+初级员工现在可以远超其经验水平发挥价值。他给企业的建议：找到这些"来自未来的人"，让他们担任关键职位，引领公司前进。
 
 ---
 
-### Aditya Agarwal (adityaag on X) — General Partner, South Park Commons / Ex-CTO, Dropbox
+Garry Tan (@garrytan)
 
-Short but pointed: *"We're approaching a post-prompting world"* — suggesting that explicit prompt engineering is becoming abstracted away as models and tooling mature.
-简短但有力："我们正在接近一个后提示词的世界"——暗示随着模型和工具成熟，显式提示词工程正在被逐步抽象化。
+Garry shipped GBrain v0.22 — search and retrieval fixes, a new eval system, and a separate `gbrain-evals` repo to keep checkout size in check.
+Garry 发布了 GBrain v0.22——修复了搜索与检索问题，新增评估系统，并将 `gbrain-evals` 拆分为独立仓库以控制代码体积。
 
-Source: https://x.com/adityaag/status/2047669585667666321
+Source: https://x.com/garrytan/status/2048290087318773807
 
----
+He also announced GStack Browser: install via Claude Code with "Install GStack", then use `/open-gstack-browser` to control your browser side-by-side with Claude Code.
+他还宣布了 GStack Browser：在 Claude Code 中输入"Install GStack"安装，然后用 `/open-gstack-browser` 命令，就能与 Claude Code 并排控制浏览器。
 
-## PODCASTS
-
-### No Priors — SAP: Bringing the 'Operating System' of a Company into the AI Era with CTO Philipp Herzig
-
-SAP CTO Philipp Herzig argues that AI is fundamentally a business model transition, not just a technology transition.
-SAP CTO Philipp Herzig 认为，AI 从根本上是商业模式的转型，而不仅仅是技术转型。
-
-SAP serves 400,000 enterprise customers and describes itself as the "operating system" of a company, covering finance, HR, supply chain, manufacturing, and sales end-to-end.
-SAP 服务 40 万家企业客户，将自身定位为公司的"操作系统"，端到端覆盖财务、人力资源、供应链、制造和销售。
-
-Herzig identifies three layers being transformed by AI: the UI (moving to generative, dynamic UIs rather than human-taught click-through interfaces), business processes (blending structured and unstructured data via agents), and the data layer (harmonizing fragmented enterprise data to fuel AI).
-Herzig 识别出 AI 正在变革的三个层面：UI（从人类学习点击的界面转向生成式动态 UI）、业务流程（通过 agent 融合结构化与非结构化数据），以及数据层（统一碎片化的企业数据以驱动 AI）。
-
-The biggest engineering challenge is not AI itself, but "teaching the AI to do the right thing at scale" — he uses the MCP example: 10 APIs are easy, 100 causes context bloat, SAP has 20,000.
-最大的工程挑战不是 AI 本身，而是"教会 AI 在规模上做正确的事"——他以 MCP 为例：10 个 API 很简单，100 个就会导致上下文膨胀，而 SAP 有 20,000 个。
-
-He made a strong case for evals, drawing a historical analogy to test-driven development: the reason TDD never caught on was that it was "more fun to write the code first" and requirements were messy — but now that code generation is automated, defining the correct outcome becomes the core skill.
-他为 eval 进行了有力论证，以测试驱动开发做历史类比：TDD 之所以未能普及，是因为"先写代码更有趣"且需求混乱——但现在代码生成已自动化，定义正确结果成为核心技能。
-
-SAP published research on Relational Pretrained Transformers (RPT-1): a transformer-based architecture specifically for tabular/structured data — enabling accurate predictions (demand forecasting, cash flow, payment delays) without large training datasets, bringing "the same democratization LLMs gave the unstructured world" to the structured world.
-SAP 发布了关系预训练 Transformer（RPT-1）的研究：一种专为表格/结构化数据设计的基于 transformer 的架构——无需大量训练数据即可实现精准预测（需求预测、现金流、付款延迟），将"LLM 带给非结构化世界的民主化"引入结构化世界。
-
-On pricing: SAP is moving from seat-based to a hybrid consumptive model, with outcome-based licensing as the eventual direction — but enterprise customers still demand predictability, so the transition is gradual.
-关于定价：SAP 正从基于席位向混合消耗型模式转型，以结果型许可证为最终方向——但企业客户仍需要可预测性，因此转型是渐进式的。
-
-On what stays durable: "Our job at SAP is to make the technology disappear. We need to get the outcome in front of the customer."
-关于持久性的核心：" SAP 的工作是让技术消失。我们需要将结果呈现在客户面前。"
-
-He is also exploring quantum computing for optimization problems (traveling salesman, route planning, logistics) — not because the hardware is ready, but to develop the algorithms early so SAP can be hardware-agnostic when it matures.
-他还在探索量子计算在优化问题上的应用（旅行商问题、路线规划、物流）——不是因为硬件已就绪，而是为了提前开发算法，以便在硬件成熟时 SAP 能保持硬件无关性。
-
-Episode URL: https://www.youtube.com/watch?v=5u7AjPardvo
+Source: https://x.com/garrytan/status/2048279121034101147
+Source: https://x.com/garrytan/status/2048278995121094868
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Zara Zhang (@zarazhangrui)
+
+A powerful reframe on what "building" actually means: when you sit down to type, that's the LAST step. 80% of writing already happened in your head.
+对"构建"本质的有力重新诠释：当你坐下来开始打字时，那是最后一步。80% 的写作已经在你脑海中完成了。
+
+Source: https://x.com/zarazhangrui/status/2048101948826751429
+
+The parallel holds for product, design, and engineering — building product ≠ writing PRDs, designing ≠ making mockups, engineering ≠ writing code.
+这个类比同样适用于产品、设计和工程——做产品不等于写 PRD，做设计不等于画原型，写代码不等于搞工程。
+
+---
+
+Nikunj Kothari (@nikunj)
+
+On writing clarity: Nikunj goes weeks without posting publicly because he refuses to "put the onus of muddy thoughts on the reader."
+关于写作清晰度：Nikunj 会连续几周不公开发帖，因为他拒绝"把混乱的思路强加给读者"。
+
+Source: https://x.com/nikunj/status/2048056524845482131
+
+The best writing, he says, communicates the crux cleanly and shares a thread "simmering but not fully explored." He's in awe of people who speak clearly on the spot — and hopes to get there.
+他认为最好的写作能清晰传达核心，并呈现那些"尚在酝酿、尚未充分展开"的思路。他对那些能即兴清晰表达的人深感钦佩，并希望自己有朝一日也能做到。
+
+Also shared: a photo that gave him the visceral sense of a portal to another universe outside his neighbor's side door.
+他还分享了一张照片，那是他每次经过邻居侧门时都会有的强烈感受——仿佛那是通往另一个宇宙的传送门。
+
+Source: https://x.com/nikunj/status/2048107926012002461
+
+---
+
+Peter Steinberger (@steipete)
+
+The OpenClaw co-creator shipped Summarize 📝 0.14.0: GPT-5.5 Fast mode via `--fast`, Reddit thread extraction in the browser extension, local PDF `--extract`, and various fixes.
+OpenClaw 联合创始人发布了 Summarize 📝 0.14.0：通过 `--fast` 启用 GPT-5.5 快速模式，浏览器扩展支持 Reddit 帖子提取，新增本地 PDF `--extract`，以及多项修复。
+
+Source: https://x.com/steipete/status/2048275589224628677
+
+He also released CodexBar 🎚️ 0.23: Mistral support, Claude Designs/Daily Routines usage tracking, Cursor Extra usage, GPT-5.5 pricing, cleaner widgets/menus.
+他还发布了 CodexBar 🎚️ 0.23：支持 Mistral，追踪 Claude Designs/Daily Routines 用量，新增 Cursor Extra 用量、GPT-5.5 定价，以及更简洁的小组件和菜单。
+
+Source: https://x.com/steipete/status/2048252455817785357
+
+A cheerful shout-out to GitHub: "GitHub folks are amazing while we melt their servers."
+顺带向 GitHub 致敬："GitHub 的同学们太厉害了，即便我们都快把他们的服务器烧化了，依然撑住了。"
+
+Source: https://x.com/steipete/status/2048185940267380815
+
+---
+
+Dan Shipper (@danshipper)
+
+A short but sharp epistemological note from Every's CEO: "What we observe is never the model itself, only the model exposed to our method of questioning."
+Every CEO 的一条短而犀利的认识论笔记："我们观察到的永远不是模型本身，只是模型在我们提问方式下的表现。"
+
+Source: https://x.com/danshipper/status/2048026505461080076
+
+A reminder that every AI benchmark, eval, and user impression is shaped as much by the observer's framing as by the model's actual capabilities.
+这提醒我们：每一个 AI 基准测试、评估和用户印象，都和观察者的框架一样，塑造了我们对模型真实能力的认知。
+
+---
+
+Sam Altman (@sama)
+
+Sam was impressed — and amused — by how fast AI can write code now: "how can they write code so fast?!"
+Sam 对 AI 现在写代码的速度既惊讶又有些好笑："他们怎么能写这么快？！"
+
+Source: https://x.com/sama/status/2048165186482389253
+
+He also teased progress on OpenAI's frontend capabilities: "we still get looksmaxxed on frontend a little but we IQmog hard now" — and promised the frontend gap will be fixed.
+他还暗示了 OpenAI 在前端能力上的进展："我们在前端还差点意思，但智力已经遥遥领先了"——并承诺前端的差距将会补上。
+
+Source: https://x.com/sama/status/2048160404376105179
+Source: https://x.com/sama/status/2048160448340767038
