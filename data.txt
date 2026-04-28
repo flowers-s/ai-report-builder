@@ -1,202 +1,198 @@
-AI Builders 日报 · 2026-04-27
+AI Builders 日报 · 2026-04-28
 
 ---
 
-🎙️ PODCAST · No Priors
+## Sam Altman (OpenAI CEO)
 
-Scaling Global Organizations in the Age of AI with ServiceNow CEO Bill McDermott
-在 AI 时代扩展全球组织——ServiceNow CEO Bill McDermott 深度对话
+Sam Altman expressed excitement about the reception to "5.5," emphasizing how much it means to him when builders find OpenAI's tools useful. He also shared OpenAI's core principles — Democratization, Empowerment, Universal Prosperity, Resilience, and Adaptability. His most viral insight: it feels like a good time to rethink how operating systems and user interfaces are designed, and that there should be a protocol equally usable by people and agents.
 
-Source: https://www.youtube.com/watch?v=tNNFJa5pUEg
+Sam Altman（OpenAI CEO）表达了对"5.5"发布后反响的兴奋，强调看到开发者觉得工具好用是他最有成就感的事。他公布了 OpenAI 的核心原则：民主化、赋权、普惠繁荣、韧性与适应性。影响力最大的一条推文指出：现在是重新思考操作系统和用户界面设计的好时机，同时互联网应该存在一个人与 AI agent 都能同等使用的协议。
 
-No Priors sat down with ServiceNow CEO Bill McDermott to discuss how large enterprises can adapt and scale in the AI era.
-No Priors 与 ServiceNow CEO Bill McDermott 深度对话，探讨大型企业如何在 AI 时代适应与扩张。
+> *"feels like a good time to seriously rethink how operating systems and user interfaces are designed"*
 
-McDermott argues that AI is not just a technology shift but a fundamental reimagining of how global organizations operate.
-McDermott 认为，AI 不仅仅是技术层面的转变，更是对全球组织运营方式的根本性重塑。
-
-The key theme: leaders who embrace AI as a workforce multiplier — rather than a replacement — will define the next era of business.
-核心主题：将 AI 视为劳动力倍增器而非替代品的领导者，将定义下一个商业时代。
+Sources:
+- https://x.com/sama/status/2048554097985593849
+- https://x.com/sama/status/2048552677433643427
+- https://x.com/sama/status/2048428561481265539
 
 ---
 
-Swyx (@swyx)
+## Guillermo Rauch (Vercel CEO)
 
-Something is cooking: Swyx teased a collaboration with @hhua_, with a calendar save around ICML in Seoul.
-有新动作：Swyx 预告了与 @hhua_ 的合作项目，并提示在首尔 ICML 会议前后留好日程。
+Guillermo Rauch 发表了一篇关于 coding agents 与超级智能关系的深度观点：他认为 coding agents 将是所有超级智能的基础，因为编程能力等同于对计算机的完整掌控能力，而且 agent 能够审视并改进自身。
 
-Source: https://x.com/swyx/status/2048126046487322835
+> *"Coding agents will be the foundation of all superintelligence."*
 
-He also highlighted a post echoing the "code is not cheap" narrative — pushing back on the idea that AI-generated code has no cost.
-他还转发了一篇支持"代码并不廉价"观点的文章，反对 AI 生成代码零成本的说法。
+这一判断呼应了费曼那句"凡我不能创造者，我便无法理解"——编程流畅度让模型对计算机与知识工作有了更深的理解。
 
-Source: https://x.com/swyx/status/2048125100437000512
-
-Swyx mused on the divergence between what PMs think and what engineers think in the AI-coding workflow — a perennial tension now sharper than ever.
-Swyx 思考了 AI 编码工作流中 PM 与工程师认知分歧的问题——这一长久存在的张力在当下愈发尖锐。
-
-Source: https://x.com/swyx/status/2047948378659754373
+Sources:
+- https://x.com/rauchg/status/2048523195305902341
 
 ---
 
-Peter Yang (@petergyang)
+## Aaron Levie (Box CEO)
 
-The next generation's AI expectations are already sky-high: Peter tested Codex with his 7-year-old, who was bored it couldn't instantly build a pet dragon raising game.
-下一代对 AI 的期望已经高得离谱：Peter 让 7 岁的孩子试用 Codex，孩子嫌它不能瞬间生成一款养龙游戏而感到无聊。
+Aaron Levie 分享了两条重要洞察。
 
-Source: https://x.com/petergyang/status/2048220045726322934
+第一：他观察到一种"盖尔曼失忆效应"的变体——人们使用 AI 做自己的工作时，能深刻感受到"最后一公里"的复杂性；但看别人的工作时，却觉得 AI 马上就能完全自动化。这是对 AI 消灭就业论持怀疑态度的重要理由。
 
-He also asked the community: are there any human-curated skill repos (for design, coding, product) that aren't just "100 skills with slop mixed in"?
-他还向社区提问：有没有经过人工筛选的技能仓库（设计、编程、产品方向），而不是"100 个技能里掺满水货"的那种？
+> *"We all have a much deeper appreciation for the nuances and complexities of the work that we do every day."*
 
-Source: https://x.com/petergyang/status/2048190683782201767
+第二：他指出 AI agent 带来"超额工作"的两大原因——一是 agent 带来的杠杆让人更愿意多做事；二是 AI 大幅降低了启动新项目的门槛，导致人们开始了很多其实比预期花时间得多的项目。
 
-Relatable moment: Peter admits he often needs to get Codex to fix his own OpenClaw setup. Even the builders are in the trenches.
-感同身受：Peter 坦言他经常需要用 Codex 来修复自己的 OpenClaw 配置。即便是 Builder 也在泥坑里打滚。
-
-Source: https://x.com/petergyang/status/2048136116474437869
+Sources:
+- https://x.com/levie/status/2048576989930619185
+- https://x.com/levie/status/2048537503972684252
 
 ---
 
-Nan Yu (@thenanyu)
+## Garry Tan (YCombinator CEO)
 
-Nan pointed to the West Coast housing crisis — from Santa Cruz to Seattle — as a structural failure despite the tech boom.
-Nan 指出西海岸从圣克鲁斯到西雅图的住房危机，认为这是科技繁荣背后的结构性失败。
+Garry Tan 分享了他搭建个人 AI agent 的架构心得，核心是三个文件的分工：
 
-Source: https://x.com/thenanyu/status/2048210021553405955
+- **SOUL.md**：agent 的人格与声音，必须具体且有主见，而非泛泛的"有帮助且简洁"
+- **USER.md**：对主人的深度模型，他自己写了约 4000 字
+- **AGENTS.md**：操作规则与执行 playbook
 
-Sharp take on bleeding-edge adoption: being on the very cutting edge means constant churn. The sweet spot is being "a couple steps behind" — using what's new but survived the initial chaos.
-关于前沿采纳的犀利观点：站在最前沿意味着持续的混乱与变化，最佳位置是"落后几步"——使用那些足够新颖但已经过初期洗礼的技术。
+> *"The articulation comes from SOUL.md being brutally specific about voice. Generic instructions → generic output."*
 
-Source: https://x.com/thenanyu/status/2048172709075402787
+他还提到一个有趣细节：他的 OpenClaw 知道他的全部日程和健康目标，会在凌晨 12:30 后拒绝响应请求。
 
-He also shared a link framing the same thought from a different angle — two posts, one thesis.
-他还分享了一篇从不同角度阐述相同观点的文章——两篇帖子，一个核心论点。
-
-Source: https://x.com/thenanyu/status/2048138965262201281
-
----
-
-Amanda Askell (@AmandaAskell)
-
-Anthropic's philosopher-ethicist had a delightful insight from flight simulators: being an amateur Cessna pilot would be boring, but being an amateur fighter jet pilot would be thrilling.
-Anthropic 的哲学家兼伦理学家从飞行模拟器中获得了一个有趣的感悟：当业余塞斯纳飞行员很无聊，但当业余战斗机飞行员则令人兴奋。
-
-Source: https://x.com/AmandaAskell/status/2048294481955631163
-
-A quiet reflection on the pull of intensity and complexity — perhaps a metaphor for the kind of AI work she finds most meaningful.
-这是对强度与复杂性吸引力的一次静静思考——也许也是她对最有意义的 AI 工作的一种隐喻。
+Sources:
+- https://x.com/garrytan/status/2048669695344046090
+- https://x.com/garrytan/status/2048667055424249864
+- https://x.com/garrytan/status/2048664680558932266
 
 ---
 
-Amjad Masad (@amasad)
+## Peter Steinberger (@steipete, OpenClaw 联合创始人)
 
-Replit's CEO delivered a sharp era-by-era breakdown: 2000s = internet companies, 2010s = software companies, 2020s = AI companies, 2025+ = cybersecurity companies.
-Replit CEO 给出了一个精辟的时代划分：2000 年代是互联网公司，2010 年代是软件公司，2020 年代是 AI 公司，2025 年之后是网络安全公司。
+Peter Steinberger 近期颇为高产：
 
-Source: https://x.com/amasad/status/2048265772775162078
+1. 发布了 **wacrawl 0.2.0**，新增 WhatsApp Desktop 存档的加密 Git 备份/恢复功能（`wacrawl backup push` 写入 age 加密分片到 GitHub，`backup pull` 解密验证并本地恢复）。
+2. 在 OpenClaw 开发中受 CPU 瓶颈困扰，切换到 @useblacksmith 后效果显著——Codex 可以启动最多 32 vCPU 实例跑测试套件。
+3. 构建了 **birdclaw**，一个本地化 X/Twitter 存档工具，支持导入存档、GitHub 备份，以及每日导入 X 书签（因 API 限制，书签无法通过官方 API 完整获取）。
 
-The implication: as AI proliferates, attack surfaces explode, and security becomes the defining constraint of the next era.
-言下之意：随着 AI 的普及，攻击面急剧扩大，安全将成为下一个时代最核心的制约因素。
-
----
-
-Aaron Levie (@levie)
-
-Box's CEO made a compelling case: AI provides leverage that's historically unprecedented, meaning anyone with ambition and core skills can now outperform their historical role constraints.
-Box CEO 提出了一个有力论断：AI 提供了史无前例的杠杆效应，意味着任何有抱负、有核心技能的人，都能突破传统职位的历史限制。
-
-Source: https://x.com/levie/status/2048223146063609965
-
-Junior employees can now punch well above their weight. The key advice to companies: find these "people from the future," put them in key positions, and let them pull you forward.
-初级员工现在可以远超其经验水平发挥价值。他给企业的建议：找到这些"来自未来的人"，让他们担任关键职位，引领公司前进。
+Sources:
+- https://x.com/steipete/status/2048660875007914176
+- https://x.com/steipete/status/2048630704972443918
+- https://x.com/steipete/status/2048626844694421842
 
 ---
 
-Garry Tan (@garrytan)
+## Peter Yang (Roblox Product, AI Newsletter)
 
-Garry shipped GBrain v0.22 — search and retrieval fixes, a new eval system, and a separate `gbrain-evals` repo to keep checkout size in check.
-Garry 发布了 GBrain v0.22——修复了搜索与检索问题，新增评估系统，并将 `gbrain-evals` 拆分为独立仓库以控制代码体积。
+Peter Yang 这个周末改进了自己的移动健身 app，并为其搭建了一个 MCP server，让 Claude/Codex 等 AI 工具能读取最新锻炼数据、更新 app 内的训练计划。
 
-Source: https://x.com/garrytan/status/2048290087318773807
+> *"This shit is too fun."*
 
-He also announced GStack Browser: install via Claude Code with "Install GStack", then use `/open-gstack-browser` to control your browser side-by-side with Claude Code.
-他还宣布了 GStack Browser：在 Claude Code 中输入"Install GStack"安装，然后用 `/open-gstack-browser` 命令，就能与 Claude Code 并排控制浏览器。
+他还指出 Google Photos 的一个产品机会盲区：将 iPhone 照片同步后，无法通过 prompt 让 Gemini 自动生成"我和女儿成长历程的精彩集锦"——这是一个明显被遗漏的功能。
 
-Source: https://x.com/garrytan/status/2048279121034101147
-Source: https://x.com/garrytan/status/2048278995121094868
-
----
-
-Zara Zhang (@zarazhangrui)
-
-A powerful reframe on what "building" actually means: when you sit down to type, that's the LAST step. 80% of writing already happened in your head.
-对"构建"本质的有力重新诠释：当你坐下来开始打字时，那是最后一步。80% 的写作已经在你脑海中完成了。
-
-Source: https://x.com/zarazhangrui/status/2048101948826751429
-
-The parallel holds for product, design, and engineering — building product ≠ writing PRDs, designing ≠ making mockups, engineering ≠ writing code.
-这个类比同样适用于产品、设计和工程——做产品不等于写 PRD，做设计不等于画原型，写代码不等于搞工程。
+Sources:
+- https://x.com/petergyang/status/2048611053333041158
+- https://x.com/petergyang/status/2048603978070712757
 
 ---
 
-Nikunj Kothari (@nikunj)
+## Swyx (AI Engineer / Latent Space)
 
-On writing clarity: Nikunj goes weeks without posting publicly because he refuses to "put the onus of muddy thoughts on the reader."
-关于写作清晰度：Nikunj 会连续几周不公开发帖，因为他拒绝"把混乱的思路强加给读者"。
+Swyx 转发了一条高热度内容（2718 likes），但正文仅为链接。近期无可直接提炼的原创文字观点。
 
-Source: https://x.com/nikunj/status/2048056524845482131
-
-The best writing, he says, communicates the crux cleanly and shares a thread "simmering but not fully explored." He's in awe of people who speak clearly on the spot — and hopes to get there.
-他认为最好的写作能清晰传达核心，并呈现那些"尚在酝酿、尚未充分展开"的思路。他对那些能即兴清晰表达的人深感钦佩，并希望自己有朝一日也能做到。
-
-Also shared: a photo that gave him the visceral sense of a portal to another universe outside his neighbor's side door.
-他还分享了一张照片，那是他每次经过邻居侧门时都会有的强烈感受——仿佛那是通往另一个宇宙的传送门。
-
-Source: https://x.com/nikunj/status/2048107926012002461
+Sources:
+- https://x.com/swyx/status/2048466589847273697
 
 ---
 
-Peter Steinberger (@steipete)
+## Kevin Weil (OpenAI VP Science)
 
-The OpenClaw co-creator shipped Summarize 📝 0.14.0: GPT-5.5 Fast mode via `--fast`, Reddit thread extraction in the browser extension, local PDF `--extract`, and various fixes.
-OpenClaw 联合创始人发布了 Summarize 📝 0.14.0：通过 `--fast` 启用 GPT-5.5 快速模式，浏览器扩展支持 Reddit 帖子提取，新增本地 PDF `--extract`，以及多项修复。
+Kevin Weil 转发了一条内容并附上💥🤘表情。推文内容为引用转发，无进一步文字说明。近期无重要文字动态。
 
-Source: https://x.com/steipete/status/2048275589224628677
-
-He also released CodexBar 🎚️ 0.23: Mistral support, Claude Designs/Daily Routines usage tracking, Cursor Extra usage, GPT-5.5 pricing, cleaner widgets/menus.
-他还发布了 CodexBar 🎚️ 0.23：支持 Mistral，追踪 Claude Designs/Daily Routines 用量，新增 Cursor Extra 用量、GPT-5.5 定价，以及更简洁的小组件和菜单。
-
-Source: https://x.com/steipete/status/2048252455817785357
-
-A cheerful shout-out to GitHub: "GitHub folks are amazing while we melt their servers."
-顺带向 GitHub 致敬："GitHub 的同学们太厉害了，即便我们都快把他们的服务器烧化了，依然撑住了。"
-
-Source: https://x.com/steipete/status/2048185940267380815
+Sources:
+- https://x.com/kevinweil/status/2048588283291312527
 
 ---
 
-Dan Shipper (@danshipper)
+## Nan Yu (Linear Head of Product)
 
-A short but sharp epistemological note from Every's CEO: "What we observe is never the model itself, only the model exposed to our method of questioning."
-Every CEO 的一条短而犀利的认识论笔记："我们观察到的永远不是模型本身，只是模型在我们提问方式下的表现。"
+Nan Yu 分享了两条有意思的内容：一是一款他从未听说过但让他印象深刻的 app，认为 Apple FindMy 团队应该学习；二是一条关于语言偏好的轻松互动（他选了英语）。近期动态较轻量。
 
-Source: https://x.com/danshipper/status/2048026505461080076
-
-A reminder that every AI benchmark, eval, and user impression is shaped as much by the observer's framing as by the model's actual capabilities.
-这提醒我们：每一个 AI 基准测试、评估和用户印象，都和观察者的框架一样，塑造了我们对模型真实能力的认知。
+Sources:
+- https://x.com/thenanyu/status/2048372199375929435
+- https://x.com/thenanyu/status/2048371760328815011
 
 ---
 
-Sam Altman (@sama)
+## Nikunj Kothari (FPV Ventures Partner)
 
-Sam was impressed — and amused — by how fast AI can write code now: "how can they write code so fast?!"
-Sam 对 AI 现在写代码的速度既惊讶又有些好笑："他们怎么能写这么快？！"
+Nikunj Kothari 分享了一个链接（89 likes），无附带文字说明。近期无重要文字动态。
 
-Source: https://x.com/sama/status/2048165186482389253
+Sources:
+- https://x.com/nikunj/status/2048406229056446526
 
-He also teased progress on OpenAI's frontend capabilities: "we still get looksmaxxed on frontend a little but we IQmog hard now" — and promised the frontend gap will be fixed.
-他还暗示了 OpenAI 在前端能力上的进展："我们在前端还差点意思，但智力已经遥遥领先了"——并承诺前端的差距将会补上。
+---
 
-Source: https://x.com/sama/status/2048160404376105179
-Source: https://x.com/sama/status/2048160448340767038
+## Dan Shipper (Every CEO)
+
+Dan Shipper 发了一条关于自己 AI 助手在被问基本问题时过度反应的幽默帖子（配图）。作为 Every 播客《AI & I》的主播，他本周发布了一期深度访谈（详见播客板块）。
+
+Sources:
+- https://x.com/danshipper/status/2048379297727938991
+
+---
+
+## Aditya Agarwal (South Park Commons GP)
+
+Aditya Agarwal 为马拉松跑者 Sawe 打破2小时大关而振奋，并特别强调：人类进步的里程碑在于"两个人"都做到了之前无人能及的事。
+
+Sources:
+- https://x.com/adityaag/status/2048534774776746102
+
+---
+
+## 🎙️ 播客精选：AI & I by Every
+
+**《The AI Model Built for What LLMs Can't Do》**
+主持：Dan Shipper | 嘉宾：Eve（Logical Intelligence 创始人 & CEO）
+
+### 核心论点
+
+LLM 是自回归语言模型，本质上在"猜下一个 token"，这使其在需要确定性、可验证性、空间推理的任务上存在根本缺陷。Eve 的公司 Logical Intelligence 正在开发 Energy-Based Model（EBM）——一种无 token、非自回归的 AI 架构，天然支持内外双层验证，能用于软件/硬件形式化验证等 LLM 无法胜任的场景。
+
+### 关键洞察
+
+- **EBM vs LLM 的核心差异**：LLM 像一个只能一步步走、视野受限的人在地图上导航，看到前方有坑也无法回头；EBM 拥有"鸟瞰视角"，能随时选择不同路径。
+- **Token 的问题**：LLM 将一切（包括视觉、空间、数值推理）都强行映射到语言 token 空间，这本质上是用"文学系"的方法解决"工程系"的问题。法语 LLM 和英语 LLM 的推理过程会因语言不同而产生差异，这本身就很荒谬。
+- **潜变量（Latent Variables）**：EBM 不只是拟合数据的分布，而是试图"理解"数据背后的规律，并将这些知识存储在潜变量（能量景观）中，类似人脑的世界模型。
+- **可约束性**：LLM 无法被硬约束（它会幻觉），而 EBM 的架构天然支持施加约束，可以形式化保证 AI 的行为符合人类规定的规则——这对自动驾驶、医疗、金融等关键系统至关重要。
+- **投资生态困境**：数千亿美元已锁定在 LLM 生态中（算力、数据中心、硬件），很难突然转向。Logical Intelligence 的策略是做兼容层——EBM 可作为 LLM 的外挂，承接空间推理、数据分析等 LLM 力不从心的任务，而不是要取代 LLM。
+
+### 最值得关注的信号
+
+大型科技公司已在内部悄悄开始搭建 EBM 模型——这是 EBM 范式重要性的正向信号。当前 AI 在 B2B 应用（数据分析、决策管道、任务关键系统）中的渗透率接近零，形式化验证 AI 将是填补这一空白的关键路径。
+
+Sources:
+- https://www.youtube.com/watch?v=Q-i8ZSUCtIc
+
+---
+
+## 📰 博客精选：Anthropic Engineering
+
+**《Claude Code auto mode: a safer way to skip permissions》**
+
+Anthropic 工程博客介绍了 Claude Code 的新权限模式 **auto mode**——在"全手动审批"和"危险的跳过所有权限"之间找到中间地带。
+
+核心机制是两层防御：
+1. **输入层**：服务端提示注入探针扫描所有工具输出（文件读取、网页抓取、shell 输出），检测劫持意图并向 agent 上下文注入警告。
+2. **输出层**：转录分类器（Sonnet 4.6）在每个 action 执行前评估，两阶段设计——快速单 token 过滤（优先拦截，接受 8.5% 误拦率），再用 chain-of-thought 推理清理误报，最终误拦率降至 0.4%。
+
+**实测数据**：
+- 真实 Anthropic 员工流量（n=10,000）：误拦率 0.4%
+- 真实过度行为案例（n=52）：漏拦率 17%（主要原因是分类器找到"授权形状的证据"就停手，没有检查该授权是否覆盖此次操作的实际影响范围）
+- 合成数据渗漏测试（n=1,000）：漏拦率 5.7%
+
+**关键设计决策**：分类器只看用户消息和工具调用命令，故意剥离 assistant 文本和工具输出，防止 agent 自己的说辞影响判断，也防止提示注入污染分类结果。
+
+> "Auto mode is not a drop-in replacement for careful human review on high-stakes infrastructure."
+
+Sources:
+- https://www.anthropic.com/engineering/claude-code-auto-mode
