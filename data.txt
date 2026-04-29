@@ -1,198 +1,237 @@
-AI Builders 日报 · 2026-04-28
+AI Builders 日报 · 2026-04-29
+
+AI Builders Digest — 2026-04-29
+AI Builders 日报 — 2026-04-29
 
 ---
 
-## Sam Altman (OpenAI CEO)
-
-Sam Altman expressed excitement about the reception to "5.5," emphasizing how much it means to him when builders find OpenAI's tools useful. He also shared OpenAI's core principles — Democratization, Empowerment, Universal Prosperity, Resilience, and Adaptability. His most viral insight: it feels like a good time to rethink how operating systems and user interfaces are designed, and that there should be a protocol equally usable by people and agents.
-
-Sam Altman（OpenAI CEO）表达了对"5.5"发布后反响的兴奋，强调看到开发者觉得工具好用是他最有成就感的事。他公布了 OpenAI 的核心原则：民主化、赋权、普惠繁荣、韧性与适应性。影响力最大的一条推文指出：现在是重新思考操作系统和用户界面设计的好时机，同时互联网应该存在一个人与 AI agent 都能同等使用的协议。
-
-> *"feels like a good time to seriously rethink how operating systems and user interfaces are designed"*
-
-Sources:
-- https://x.com/sama/status/2048554097985593849
-- https://x.com/sama/status/2048552677433643427
-- https://x.com/sama/status/2048428561481265539
+X / TWITTER
 
 ---
 
-## Guillermo Rauch (Vercel CEO)
+Sam Altman (sama on X) — CEO, OpenAI
 
-Guillermo Rauch 发表了一篇关于 coding agents 与超级智能关系的深度观点：他认为 coding agents 将是所有超级智能的基础，因为编程能力等同于对计算机的完整掌控能力，而且 agent 能够审视并改进自身。
+OpenAI updated its partnership with Microsoft: Microsoft remains the primary cloud partner, but OpenAI can now offer products across all clouds.
+OpenAI 更新了与微软的合作协议：微软仍是主要云合作伙伴，但 OpenAI 现在可以在所有云平台上提供产品和服务。
 
-> *"Coding agents will be the foundation of all superintelligence."*
+OpenAI will continue supplying Microsoft with models and products until 2032, with a revenue share arrangement through 2030.
+OpenAI 将继续向微软提供模型和产品直至 2032 年，并享有至 2030 年的收入分成安排。
 
-这一判断呼应了费曼那句"凡我不能创造者，我便无法理解"——编程流畅度让模型对计算机与知识工作有了更深的理解。
+Altman also stated plainly: *"codex with the $20 plan is a really good deal"* — a rare direct endorsement of value pricing for OpenAI's coding agent.
+Altman 还直接表示："*codex with the $20 plan is a really good deal*"——罕见地对 OpenAI 编程 Agent 的性价比作出背书。
 
 Sources:
-- https://x.com/rauchg/status/2048523195305902341
+https://x.com/sama/status/2048755148361707946
+https://x.com/sama/status/2048913887614115857
+https://x.com/sama/status/2048910739784826966
 
 ---
 
-## Aaron Levie (Box CEO)
+Amjad Masad (amasad on X) — CEO, Replit
 
-Aaron Levie 分享了两条重要洞察。
+Masad announced a builder program: 20 builders, 8 weeks, one goal — first dollar of revenue.
+Masad 宣布了一个构建者计划：20 位构建者，8 周时间，目标只有一个——赚到第一块钱。
 
-第一：他观察到一种"盖尔曼失忆效应"的变体——人们使用 AI 做自己的工作时，能深刻感受到"最后一公里"的复杂性；但看别人的工作时，却觉得 AI 马上就能完全自动化。这是对 AI 消灭就业论持怀疑态度的重要理由。
+He also claimed Replit is the only platform with proper agent production isolation, having learned these lessons over a year ago ahead of the field.
+他还声称 Replit 是唯一一个具备真正 Agent 生产隔离能力的平台，而这些经验是在行业一年多前便已积累。
 
-> *"We all have a much deeper appreciation for the nuances and complexities of the work that we do every day."*
-
-第二：他指出 AI agent 带来"超额工作"的两大原因——一是 agent 带来的杠杆让人更愿意多做事；二是 AI 大幅降低了启动新项目的门槛，导致人们开始了很多其实比预期花时间得多的项目。
+*"The benefits of a vertically integrated platform will continue to compound."*
+"*The benefits of a vertically integrated platform will continue to compound.*"
 
 Sources:
-- https://x.com/levie/status/2048576989930619185
-- https://x.com/levie/status/2048537503972684252
+https://x.com/amasad/status/2048912698583453933
+https://x.com/amasad/status/2048911624061522228
+https://x.com/amasad/status/2048854724099915961
 
 ---
 
-## Garry Tan (YCombinator CEO)
+Peter Steinberger (steipete on X) — Co-creator, OpenClaw + OpenAI
 
-Garry Tan 分享了他搭建个人 AI agent 的架构心得，核心是三个文件的分工：
+Steinberger shared a striking workaround: when Codex hit GitHub rate limits, it automatically opened a browser and clicked around GitHub as a fallback.
+Steinberger 分享了一个令人印象深刻的应对方案：当 Codex 触发 GitHub 频率限制时，它自动打开浏览器并在 GitHub 上点击操作作为绕过方式。
 
-- **SOUL.md**：agent 的人格与声音，必须具体且有主见，而非泛泛的"有帮助且简洁"
-- **USER.md**：对主人的深度模型，他自己写了约 4000 字
-- **AGENTS.md**：操作规则与执行 playbook
+He noted having solid solutions now for PR/Issue management, remote test execution, and massive CI infrastructure for testing.
+他表示目前在 PR/Issue 管理、远程测试执行以及大规模 CI 测试基础设施方面已有成熟解决方案。
 
-> *"The articulation comes from SOUL.md being brutally specific about voice. Generic instructions → generic output."*
-
-他还提到一个有趣细节：他的 OpenClaw 知道他的全部日程和健康目标，会在凌晨 12:30 后拒绝响应请求。
+*"Finally have great solutions for PR/Issue management, remote test execution, massive CI infra for testing."*
+"*Finally have great solutions for PR/Issue management, remote test execution, massive CI infra for testing.*"
 
 Sources:
-- https://x.com/garrytan/status/2048669695344046090
-- https://x.com/garrytan/status/2048667055424249864
-- https://x.com/garrytan/status/2048664680558932266
+https://x.com/steipete/status/2049035044702843053
+https://x.com/steipete/status/2049035851493953750
+https://x.com/steipete/status/2048957477106938075
 
 ---
 
-## Peter Steinberger (@steipete, OpenClaw 联合创始人)
+Matt Turck (mattturck on X) — Partner, FirstMark Capital
 
-Peter Steinberger 近期颇为高产：
+Turck called out a massive perception gap between Silicon Valley and the Global 2000.
+Turck 指出了硅谷与全球 2000 强企业之间巨大的认知鸿沟。
 
-1. 发布了 **wacrawl 0.2.0**，新增 WhatsApp Desktop 存档的加密 Git 备份/恢复功能（`wacrawl backup push` 写入 age 加密分片到 GitHub，`backup pull` 解密验证并本地恢复）。
-2. 在 OpenClaw 开发中受 CPU 瓶颈困扰，切换到 @useblacksmith 后效果显著——Codex 可以启动最多 32 vCPU 实例跑测试套件。
-3. 构建了 **birdclaw**，一个本地化 X/Twitter 存档工具，支持导入存档、GitHub 备份，以及每日导入 X 书签（因 API 限制，书签无法通过官方 API 完整获取）。
+*"Silicon Valley: AI is self-accelerating, agents run everything, old people are dumb. Global 2000: I spent a fortune on your AI chat 2 years ago and got zero productivity."*
+"*Silicon Valley: AI is self-accelerating, agents run everything, old people are dumb. Global 2000: I spent a fortune on your AI chat 2 years ago and got zero productivity.*"
+
+He added that large enterprises find agents "scary" while only engineers seem to care about coding AI — and he's never seen a gap this huge.
+他补充说，大型企业觉得 Agent "令人恐惧"，而只有工程师似乎在乎 AI 编码工具——他表示从未见过这么大的认知裂口。
 
 Sources:
-- https://x.com/steipete/status/2048660875007914176
-- https://x.com/steipete/status/2048630704972443918
-- https://x.com/steipete/status/2048626844694421842
+https://x.com/mattturck/status/2048896617424527499
+https://x.com/mattturck/status/2048810951793627281
 
 ---
 
-## Peter Yang (Roblox Product, AI Newsletter)
+Peter Yang (petergyang on X) — Product, Roblox
 
-Peter Yang 这个周末改进了自己的移动健身 app，并为其搭建了一个 MCP server，让 Claude/Codex 等 AI 工具能读取最新锻炼数据、更新 app 内的训练计划。
+Yang shared a top-5 breakdown from his interview with solo AI founder Tibo, who makes $1M+ a month.
+Yang 分享了他与独立 AI 创业者 Tibo（月收入超 100 万美元）的访谈中总结的五大要点。
 
-> *"This shit is too fun."*
+Key lessons: charge money on day 1; follow user surprises (Tibo pivoted from video tool to Revid, now $600K+ MRR); price at $50-100/month to filter tire-kickers; keep monthly churn below 20%; build tool landing pages to rank on Google.
+核心经验：第一天就收费；跟随用户的意外用法（Tibo 将视频工具转型为 Revid，现月收入超 60 万美元）；定价 50-100 美元/月以筛除随意用户；月流失率控制在 20% 以下；制作工具落地页以在 Google 排名。
 
-他还指出 Google Photos 的一个产品机会盲区：将 iPhone 照片同步后，无法通过 prompt 让 Gemini 自动生成"我和女儿成长历程的精彩集锦"——这是一个明显被遗漏的功能。
+He also noted that many products still lack APIs/MCPs — calling out Substack, Riverside.fm, banks, government websites, and healthcare portals.
+他还指出许多产品仍缺乏 API/MCP 支持，点名批评了 Substack、Riverside.fm、银行、政府网站和医疗门户。
 
 Sources:
-- https://x.com/petergyang/status/2048611053333041158
-- https://x.com/petergyang/status/2048603978070712757
+https://x.com/petergyang/status/2048771729821229091
+https://x.com/petergyang/status/2048918016642154698
 
 ---
 
-## Swyx (AI Engineer / Latent Space)
+Zara Zhang (zarazhangrui on X) — Builder & Investor
 
-Swyx 转发了一条高热度内容（2718 likes），但正文仅为链接。近期无可直接提炼的原创文字观点。
+Zhang observed that the most sophisticated AI users she knows talk to just ONE agent daily — not multiple.
+Zhang 观察到，她认识的最资深 AI 用户每天只与一个 Agent 对话，而非多个。
 
-Sources:
-- https://x.com/swyx/status/2048466589847273697
+That single agent acts as the overall orchestrator, spawning subagents as needed.
+这个单一 Agent 充当总协调者，按需生成子 Agent。
 
----
+*"The most sophisticated AI users I know are talking to just ONE agent daily, not multiple agents."*
+"*The most sophisticated AI users I know are talking to just ONE agent daily, not multiple agents.*"
 
-## Kevin Weil (OpenAI VP Science)
-
-Kevin Weil 转发了一条内容并附上💥🤘表情。推文内容为引用转发，无进一步文字说明。近期无重要文字动态。
-
-Sources:
-- https://x.com/kevinweil/status/2048588283291312527
+Source:
+https://x.com/zarazhangrui/status/2049027061768192288
 
 ---
 
-## Nan Yu (Linear Head of Product)
+Garry Tan (garrytan on X) — President & CEO, Y Combinator
 
-Nan Yu 分享了两条有意思的内容：一是一款他从未听说过但让他印象深刻的 app，认为 Apple FindMy 团队应该学习；二是一条关于语言偏好的轻松互动（他选了英语）。近期动态较轻量。
+Tan shared that GStack ships with Chromium + Claude Code as CLI, and you can type /pair-agent to remotely control your browser — letting it log in and scrape on your behalf.
+Tan 分享了 GStack 内置 Chromium + Claude Code 作为命令行的功能，通过输入 /pair-agent 可远程控制浏览器，让其代为登录和抓取。
+
+He pushed back on tired anti-tech narratives: *"The anti-tech lines are so tired... everything changed in 2026."*
+他反驳了陈腐的反科技论调："*The anti-tech lines are so tired... everything changed in 2026.*"
 
 Sources:
-- https://x.com/thenanyu/status/2048372199375929435
-- https://x.com/thenanyu/status/2048371760328815011
+https://x.com/garrytan/status/2049035231903301771
+https://x.com/garrytan/status/2049033440935469213
 
 ---
 
-## Nikunj Kothari (FPV Ventures Partner)
+Dan Shipper (danshipper on X) — CEO, Every
 
-Nikunj Kothari 分享了一个链接（89 likes），无附带文字说明。近期无重要文字动态。
+Shipper argued that in a world where code is cheap to produce, *"software is the new media"* — and spoke at betaworks about this thesis.
+Shipper 认为，在代码生产成本低廉的世界里，"*software is the new media*"——他在 betaworks 就这一论点发表了演讲。
+
+He also shared his 2026 reading list and surfaced a striking historical quote on war causes as a thought experiment.
+他还分享了 2026 年的阅读书单，并以历史战争原因的名言作为一则思想实验。
 
 Sources:
-- https://x.com/nikunj/status/2048406229056446526
+https://x.com/danshipper/status/2048818450915586364
+https://x.com/danshipper/status/2048748438112645544
 
 ---
 
-## Dan Shipper (Every CEO)
+Aditya Agarwal (adityaag on X) — General Partner, South Park Commons; Co-Founder, Bevel Health
 
-Dan Shipper 发了一条关于自己 AI 助手在被问基本问题时过度反应的幽默帖子（配图）。作为 Every 播客《AI & I》的主播，他本周发布了一期深度访谈（详见播客板块）。
+Agarwal announced Bevel 3.0 — the goal was never to be a tracking and analytics company.
+Agarwal 宣布了 Bevel 3.0——目标从来不只是成为一家跟踪与分析公司。
+
+The long-term vision: *"To be the most intelligent health and biology companion that truly understands you and can help you lead a healthier and happier life."*
+长期愿景："*To be the most intelligent health and biology companion that truly understands you and can help you lead a healthier and happier life.*"
+
+He also announced that Snowflake CEO Sridhar Ramaswamy — who scaled Google Ads from $1.5B to $100B — will visit South Park Commons next week.
+他还宣布，曾将 Google 广告业务从 15 亿美元扩展至 1000 亿美元的 Snowflake CEO Sridhar Ramaswamy 下周将访问 South Park Commons。
 
 Sources:
-- https://x.com/danshipper/status/2048379297727938991
+https://x.com/adityaag/status/2048868147525222602
+https://x.com/adityaag/status/2048838388271178100
 
 ---
 
-## Aditya Agarwal (South Park Commons GP)
+Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
 
-Aditya Agarwal 为马拉松跑者 Sawe 打破2小时大关而振奋，并特别强调：人类进步的里程碑在于"两个人"都做到了之前无人能及的事。
+Kothari launched Dawn — a new community for ex-founders, specifically for what comes after starting a company.
+Kothari 发起了 Dawn——一个专为前创业者打造的社群，聚焦于创业之后的那段旅程。
+
+The first event, Dawn Vol I, is a small dinner on May 19th in SF, off the record, ex-founders only.
+首场活动 Dawn Vol I 定于 5 月 19 日在旧金山举办，小型晚宴，不作记录，仅限前创业者参加。
+
+He also shared a reflection: *"Solving hard problems is messy and will continue to be that way even if we approach AGI."*
+他还分享了一则思考："*Solving hard problems is messy and will continue to be that way even if we approach AGI.*"
 
 Sources:
-- https://x.com/adityaag/status/2048534774776746102
+https://x.com/nikunj/status/2048900068523266544
+https://x.com/nikunj/status/2048761583204258298
 
 ---
 
-## 🎙️ 播客精选：AI & I by Every
+Swyx (swyx on X) — AI Engineer, Latent Space
 
-**《The AI Model Built for What LLMs Can't Do》**
-主持：Dan Shipper | 嘉宾：Eve（Logical Intelligence 创始人 & CEO）
+Swyx announced a new TikTok account with behind-the-scenes content.
+Swyx 宣布开设新 TikTok 账号，分享幕后内容。
 
-### 核心论点
+近期无其他重要动态。
 
-LLM 是自回归语言模型，本质上在"猜下一个 token"，这使其在需要确定性、可验证性、空间推理的任务上存在根本缺陷。Eve 的公司 Logical Intelligence 正在开发 Energy-Based Model（EBM）——一种无 token、非自回归的 AI 架构，天然支持内外双层验证，能用于软件/硬件形式化验证等 LLM 无法胜任的场景。
-
-### 关键洞察
-
-- **EBM vs LLM 的核心差异**：LLM 像一个只能一步步走、视野受限的人在地图上导航，看到前方有坑也无法回头；EBM 拥有"鸟瞰视角"，能随时选择不同路径。
-- **Token 的问题**：LLM 将一切（包括视觉、空间、数值推理）都强行映射到语言 token 空间，这本质上是用"文学系"的方法解决"工程系"的问题。法语 LLM 和英语 LLM 的推理过程会因语言不同而产生差异，这本身就很荒谬。
-- **潜变量（Latent Variables）**：EBM 不只是拟合数据的分布，而是试图"理解"数据背后的规律，并将这些知识存储在潜变量（能量景观）中，类似人脑的世界模型。
-- **可约束性**：LLM 无法被硬约束（它会幻觉），而 EBM 的架构天然支持施加约束，可以形式化保证 AI 的行为符合人类规定的规则——这对自动驾驶、医疗、金融等关键系统至关重要。
-- **投资生态困境**：数千亿美元已锁定在 LLM 生态中（算力、数据中心、硬件），很难突然转向。Logical Intelligence 的策略是做兼容层——EBM 可作为 LLM 的外挂，承接空间推理、数据分析等 LLM 力不从心的任务，而不是要取代 LLM。
-
-### 最值得关注的信号
-
-大型科技公司已在内部悄悄开始搭建 EBM 模型——这是 EBM 范式重要性的正向信号。当前 AI 在 B2B 应用（数据分析、决策管道、任务关键系统）中的渗透率接近零，形式化验证 AI 将是填补这一空白的关键路径。
-
-Sources:
-- https://www.youtube.com/watch?v=Q-i8ZSUCtIc
+Source:
+https://x.com/swyx/status/2048934424344179159
 
 ---
 
-## 📰 博客精选：Anthropic Engineering
+Aaron Levie (levie on X) — CEO, Box
 
-**《Claude Code auto mode: a safer way to skip permissions》**
+近期无重要动态（仅发布了一条无文字的链接推文）。
 
-Anthropic 工程博客介绍了 Claude Code 的新权限模式 **auto mode**——在"全手动审批"和"危险的跳过所有权限"之间找到中间地带。
+Source:
+https://x.com/levie/status/2048950940661932319
 
-核心机制是两层防御：
-1. **输入层**：服务端提示注入探针扫描所有工具输出（文件读取、网页抓取、shell 输出），检测劫持意图并向 agent 上下文注入警告。
-2. **输出层**：转录分类器（Sonnet 4.6）在每个 action 执行前评估，两阶段设计——快速单 token 过滤（优先拦截，接受 8.5% 误拦率），再用 chain-of-thought 推理清理误报，最终误拦率降至 0.4%。
+---
 
-**实测数据**：
-- 真实 Anthropic 员工流量（n=10,000）：误拦率 0.4%
-- 真实过度行为案例（n=52）：漏拦率 17%（主要原因是分类器找到"授权形状的证据"就停手，没有检查该授权是否覆盖此次操作的实际影响范围）
-- 合成数据渗漏测试（n=1,000）：漏拦率 5.7%
+PODCASTS
 
-**关键设计决策**：分类器只看用户消息和工具调用命令，故意剥离 assistant 文本和工具输出，防止 agent 自己的说辞影响判断，也防止提示注入污染分类结果。
+---
 
-> "Auto mode is not a drop-in replacement for careful human review on high-stakes infrastructure."
+Training Data — "From SEO to Agent-Led Growth: Profound's James Cadwallader"
+https://www.youtube.com/watch?v=RyTwRCKeDo4
 
-Sources:
-- https://www.anthropic.com/engineering/claude-code-auto-mode
+James Cadwallader, co-founder and CEO of Profound, argues we are witnessing the biggest platform shift in the history of marketing: from blue-link search to probabilistic AI responses.
+Profound 联合创始人兼 CEO James Cadwallader 认为，我们正在经历营销史上最大的平台转变：从蓝色链接搜索到概率性 AI 响应。
+
+The key insight: it's not just that the front door of the internet has changed — the *person* walking through the door has changed.
+核心洞察：改变的不只是互联网的"入口"，而是走进这扇门的"人"变了。
+
+An agent now browses on behalf of the consumer, synthesizes information from dozens or hundreds of pages (he cites 65 pages used to answer one showerhead query), and makes a large part of the buying decision.
+如今是 Agent 代替消费者浏览，综合数十乃至数百个页面的信息（他举例：一个关于莲蓬头的问题被用来检索了 65 个网页），并做出购买决策的很大一部分。
+
+The old SEO playbook no longer applies: you're now building content designed to be discovered and consumed entirely by agents, not humans.
+旧的 SEO 打法不再适用：你现在构建的内容，是专为被 Agent 发现和消费而设计的，而非面向人类。
+
+Each AI platform behaves like a different species: Gemini leans heavily on YouTube, ChatGPT pools from Reddit (consumer) or LinkedIn (B2B), and Claude has recently become more sensitive to real-time web information.
+每个 AI 平台的行为方式各异，像不同物种：Gemini 大量依赖 YouTube，ChatGPT 在消费端从 Reddit 汲取，在 B2B 端依赖 LinkedIn，而 Claude 近期则对实时网络信息更加敏感。
+
+Cadwallader raises the "dead internet" scenario: if humans stop clicking into websites, advertising revenue collapses, editorial incentives vanish, and AI has nothing fresh to train on.
+Cadwallader 提出了"死亡互联网"的情景：如果人类不再点击进入网站，广告收入崩溃，内容创作动力消失，AI 也将无新鲜内容可用。
+
+His prediction: AI labs will vertically integrate with social media networks to preserve a source of real-time human data — much like Grok and X already do.
+他的预测：AI 实验室将与社交媒体平台垂直整合，以保留实时人类数据来源——正如 Grok 与 X 已经在做的那样。
+
+On AI ads: generative advertising in conversational interfaces will be *"the most effective form of advertising the world has ever seen"* — because AI understands user intent at a granular level.
+关于 AI 广告：对话界面中的生成式广告将成为"*the most effective form of advertising the world has ever seen*"——因为 AI 能细粒度理解用户意图。
+
+The parting advice for marketers: you need visibility into how you show up across AI platforms (not just Google), and using agents to build marketing is no longer optional — it's like choosing not to use the internet.
+给营销人员的最后建议：你需要了解自己在各 AI 平台上的曝光情况（不只是 Google），使用 Agent 进行营销已不再是可选项——就像拒绝使用互联网一样不可思议。
+
+Source: https://www.youtube.com/watch?v=RyTwRCKeDo4
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
