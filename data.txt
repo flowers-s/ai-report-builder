@@ -1,7 +1,4 @@
-AI Builders 日报 · 2026-04-29
-
-AI Builders Digest — 2026-04-29
-AI Builders 日报 — 2026-04-29
+AI Builders 日报 · 2026-04-30
 
 ---
 
@@ -9,228 +6,237 @@ X / TWITTER
 
 ---
 
-Sam Altman (sama on X) — CEO, OpenAI
+**Peter Yang** (petergyang on X) — Practical AI tutorials, Product at Roblox
 
-OpenAI updated its partnership with Microsoft: Microsoft remains the primary cloud partner, but OpenAI can now offer products across all clouds.
-OpenAI 更新了与微软的合作协议：微软仍是主要云合作伙伴，但 OpenAI 现在可以在所有云平台上提供产品和服务。
+Solo AI builders are having their moment — the world is their playground now.
+独立 AI 开发者正迎来属于他们的时代，整个世界都是他们的舞台。
 
-OpenAI will continue supplying Microsoft with models and products until 2032, with a revenue share arrangement through 2030.
-OpenAI 将继续向微软提供模型和产品直至 2032 年，并享有至 2030 年的收入分成安排。
+*"I have a lot of respect for solo AI builders. The world is their playground now."*
+这句话道出了当下独立开发者的崛起趋势：AI 工具的普及让个人开发者拥有了前所未有的杠杆。
 
-Altman also stated plainly: *"codex with the $20 plan is a really good deal"* — a rare direct endorsement of value pricing for OpenAI's coding agent.
-Altman 还直接表示："*codex with the $20 plan is a really good deal*"——罕见地对 OpenAI 编程 Agent 的性价比作出背书。
+He also mused on a fun benchmark for AI models: what era of video games can the model "one-shot" build a level for?
+他还提出了一个有趣的 AI 能力衡量标准：看 AI 能否"一键生成"某个时代电子游戏的关卡——
 
-Sources:
-https://x.com/sama/status/2048755148361707946
-https://x.com/sama/status/2048913887614115857
-https://x.com/sama/status/2048910739784826966
+His take: we're still in the NES era.
+他的判断是：我们仍处于"红白机时代"。
 
----
-
-Amjad Masad (amasad on X) — CEO, Replit
-
-Masad announced a builder program: 20 builders, 8 weeks, one goal — first dollar of revenue.
-Masad 宣布了一个构建者计划：20 位构建者，8 周时间，目标只有一个——赚到第一块钱。
-
-He also claimed Replit is the only platform with proper agent production isolation, having learned these lessons over a year ago ahead of the field.
-他还声称 Replit 是唯一一个具备真正 Agent 生产隔离能力的平台，而这些经验是在行业一年多前便已积累。
-
-*"The benefits of a vertically integrated platform will continue to compound."*
-"*The benefits of a vertically integrated platform will continue to compound.*"
-
-Sources:
-https://x.com/amasad/status/2048912698583453933
-https://x.com/amasad/status/2048911624061522228
-https://x.com/amasad/status/2048854724099915961
+Source: https://x.com/petergyang/status/2049345724559847585
+Source: https://x.com/petergyang/status/2049232534064734331
 
 ---
 
-Peter Steinberger (steipete on X) — Co-creator, OpenClaw + OpenAI
+**Nan Yu** (thenanyu on X) — Head of Product at Linear
 
-Steinberger shared a striking workaround: when Codex hit GitHub rate limits, it automatically opened a browser and clicked around GitHub as a fallback.
-Steinberger 分享了一个令人印象深刻的应对方案：当 Codex 触发 GitHub 频率限制时，它自动打开浏览器并在 GitHub 上点击操作作为绕过方式。
+Near期无重要动态 — shared a quote tweet referencing the luxury of having excess compute, with no additional original commentary.
+近期无重要动态——转发了一条关于"算力冗余之奢"的推文，未附原创评论。
 
-He noted having solid solutions now for PR/Issue management, remote test execution, and massive CI infrastructure for testing.
-他表示目前在 PR/Issue 管理、远程测试执行以及大规模 CI 测试基础设施方面已有成熟解决方案。
-
-*"Finally have great solutions for PR/Issue management, remote test execution, massive CI infra for testing."*
-"*Finally have great solutions for PR/Issue management, remote test execution, massive CI infra for testing.*"
-
-Sources:
-https://x.com/steipete/status/2049035044702843053
-https://x.com/steipete/status/2049035851493953750
-https://x.com/steipete/status/2048957477106938075
+Source: https://x.com/thenanyu/status/2049075513444999515
 
 ---
 
-Matt Turck (mattturck on X) — Partner, FirstMark Capital
+**Thariq** (trq212 on X) — Claude Code team at Anthropic
 
-Turck called out a massive perception gap between Silicon Valley and the Global 2000.
-Turck 指出了硅谷与全球 2000 强企业之间巨大的认知鸿沟。
+Thariq shared a significant debugging win on the Claude Code team: they finally tracked down a long-standing bug that caused Claude Code to appear to hang during large file writes.
+Thariq 分享了 Claude Code 团队的一个重大调试突破：他们终于找到了长期以来导致大文件写入时出现"假卡死"的 bug。
 
-*"Silicon Valley: AI is self-accelerating, agents run everything, old people are dumb. Global 2000: I spent a fortune on your AI chat 2 years ago and got zero productivity."*
-"*Silicon Valley: AI is self-accelerating, agents run everything, old people are dumb. Global 2000: I spent a fortune on your AI chat 2 years ago and got zero productivity.*"
+*"My white whale is when CC sometimes looks like it hangs during big file writes, I think we found it."*
+"这是我追了很久的 bug——CC 有时在写入大文件时看起来像卡住了，我想我们终于找到了。"
 
-He added that large enterprises find agents "scary" while only engineers seem to care about coding AI — and he's never seen a gap this huge.
-他补充说，大型企业觉得 Agent "令人恐惧"，而只有工程师似乎在乎 AI 编码工具——他表示从未见过这么大的认知裂口。
+He also teased more upcoming papercut fixes and revealed work on making the "no flicker renderer" excellent enough to ship as the default renderer.
+他还预告了更多"小毛病"修复即将到来，并透露团队正在打磨"无闪烁渲染器"，目标是让其成为默认渲染器。
 
-Sources:
-https://x.com/mattturck/status/2048896617424527499
-https://x.com/mattturck/status/2048810951793627281
+He invited users to share their own "white whale" bugs.
+他邀请用户分享自己遇到的"难缠 bug"。
 
----
-
-Peter Yang (petergyang on X) — Product, Roblox
-
-Yang shared a top-5 breakdown from his interview with solo AI founder Tibo, who makes $1M+ a month.
-Yang 分享了他与独立 AI 创业者 Tibo（月收入超 100 万美元）的访谈中总结的五大要点。
-
-Key lessons: charge money on day 1; follow user surprises (Tibo pivoted from video tool to Revid, now $600K+ MRR); price at $50-100/month to filter tire-kickers; keep monthly churn below 20%; build tool landing pages to rank on Google.
-核心经验：第一天就收费；跟随用户的意外用法（Tibo 将视频工具转型为 Revid，现月收入超 60 万美元）；定价 50-100 美元/月以筛除随意用户；月流失率控制在 20% 以下；制作工具落地页以在 Google 排名。
-
-He also noted that many products still lack APIs/MCPs — calling out Substack, Riverside.fm, banks, government websites, and healthcare portals.
-他还指出许多产品仍缺乏 API/MCP 支持，点名批评了 Substack、Riverside.fm、银行、政府网站和医疗门户。
-
-Sources:
-https://x.com/petergyang/status/2048771729821229091
-https://x.com/petergyang/status/2048918016642154698
+Source: https://x.com/trq212/status/2049252080892973563
+Source: https://x.com/trq212/status/2049234229926695188
+Source: https://x.com/trq212/status/2049234228290961690
 
 ---
 
-Zara Zhang (zarazhangrui on X) — Builder & Investor
+**Amjad Masad** (amasad on X) — CEO at Replit
 
-Zhang observed that the most sophisticated AI users she knows talk to just ONE agent daily — not multiple.
-Zhang 观察到，她认识的最资深 AI 用户每天只与一个 Agent 对话，而非多个。
+Amjad expressed enthusiasm for what he called "the education GOAT" reinventing education once again — likely a reference to Sal Khan or a similar figure.
+Amjad 对他口中"教育界传奇人物"再次颠覆教育感到振奋。
 
-That single agent acts as the overall orchestrator, spawning subagents as needed.
-这个单一 Agent 充当总协调者，按需生成子 Agent。
+On GitHub's sustainability challenges amid bot-driven growth, he made a bold proposal: micro-payments per git push, possibly powered by Bitcoin, could reduce spam and keep free services viable.
+关于 GitHub 在 AI bot 爆发式增长下面临的可持续性挑战，他提出了一个大胆方案：按每次 git push 收取微额费用，或许可以用比特币支付，以遏制垃圾请求并维持免费服务的可行性。
 
-*"The most sophisticated AI users I know are talking to just ONE agent daily, not multiple agents."*
-"*The most sophisticated AI users I know are talking to just ONE agent daily, not multiple agents.*"
+*"Free services will become untenable with the advent of human-level bots."*
+"随着人类级别 bot 的出现，免费服务将难以为继。"
 
-Source:
-https://x.com/zarazhangrui/status/2049027061768192288
+He also praised AI-generated slides, noting that the process of making presentations has become genuinely enjoyable for the first time.
+他还称赞了 AI 生成的演示文稿，表示这是他第一次真正享受做 PPT 的过程。
 
----
-
-Garry Tan (garrytan on X) — President & CEO, Y Combinator
-
-Tan shared that GStack ships with Chromium + Claude Code as CLI, and you can type /pair-agent to remotely control your browser — letting it log in and scrape on your behalf.
-Tan 分享了 GStack 内置 Chromium + Claude Code 作为命令行的功能，通过输入 /pair-agent 可远程控制浏览器，让其代为登录和抓取。
-
-He pushed back on tired anti-tech narratives: *"The anti-tech lines are so tired... everything changed in 2026."*
-他反驳了陈腐的反科技论调："*The anti-tech lines are so tired... everything changed in 2026.*"
-
-Sources:
-https://x.com/garrytan/status/2049035231903301771
-https://x.com/garrytan/status/2049033440935469213
+Source: https://x.com/amasad/status/2049245424624820412
+Source: https://x.com/amasad/status/2049242460078100638
+Source: https://x.com/amasad/status/2049168449709170874
 
 ---
 
-Dan Shipper (danshipper on X) — CEO, Every
+**Guillermo Rauch** (rauchg on X) — CEO at Vercel
 
-Shipper argued that in a world where code is cheap to produce, *"software is the new media"* — and spoke at betaworks about this thesis.
-Shipper 认为，在代码生产成本低廉的世界里，"*software is the new media*"——他在 betaworks 就这一论点发表了演讲。
+Vercel is growing its Vercel Labs team, with a mission to build devtools for the AI era.
+Vercel 正在扩张 Vercel Labs 团队，目标是为 AI 时代打造开发工具。
 
-He also shared his 2026 reading list and surfaced a striking historical quote on war causes as a thought experiment.
-他还分享了 2026 年的阅读书单，并以历史战争原因的名言作为一则思想实验。
+The focus has shifted from tools for humans to tools for agents — products like agent-browser, portless, skills, chat, just-bash, and json-render have already accumulated 22.8M+ downloads.
+方向已从"面向人类的工具"转向"面向 Agent 的工具"——agent-browser、portless、skills、chat、just-bash、json-render 等产品已累计超过 2280 万次下载。
 
-Sources:
-https://x.com/danshipper/status/2048818450915586364
-https://x.com/danshipper/status/2048748438112645544
+*"We used to build tools for humans, now we're building them for agents."*
+"我们曾经为人类构建工具，现在我们为 Agent 构建工具。"
 
----
-
-Aditya Agarwal (adityaag on X) — General Partner, South Park Commons; Co-Founder, Bevel Health
-
-Agarwal announced Bevel 3.0 — the goal was never to be a tracking and analytics company.
-Agarwal 宣布了 Bevel 3.0——目标从来不只是成为一家跟踪与分析公司。
-
-The long-term vision: *"To be the most intelligent health and biology companion that truly understands you and can help you lead a healthier and happier life."*
-长期愿景："*To be the most intelligent health and biology companion that truly understands you and can help you lead a healthier and happier life.*"
-
-He also announced that Snowflake CEO Sridhar Ramaswamy — who scaled Google Ads from $1.5B to $100B — will visit South Park Commons next week.
-他还宣布，曾将 Google 广告业务从 15 亿美元扩展至 1000 亿美元的 Snowflake CEO Sridhar Ramaswamy 下周将访问 South Park Commons。
-
-Sources:
-https://x.com/adityaag/status/2048868147525222602
-https://x.com/adityaag/status/2048838388271178100
+Source: https://x.com/rauchg/status/2049216048831025232
 
 ---
 
-Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+**Aaron Levie** (levie on X) — CEO at Box
 
-Kothari launched Dawn — a new community for ex-founders, specifically for what comes after starting a company.
-Kothari 发起了 Dawn——一个专为前创业者打造的社群，聚焦于创业之后的那段旅程。
+Aaron Levie posted a substantive two-part take on AI and software jobs.
+Aaron Levie 发布了一篇关于 AI 与软件职业前景的深度两段式观点。
 
-The first event, Dawn Vol I, is a small dinner on May 19th in SF, off the record, ex-founders only.
-首场活动 Dawn Vol I 定于 5 月 19 日在旧金山举办，小型晚宴，不作记录，仅限前创业者参加。
+His core argument: we are not heading toward fewer software jobs — we are heading toward 100x more software.
+他的核心论点：我们不是走向"更少的软件工作"，而是走向"100 倍体量的软件"。
 
-He also shared a reflection: *"Solving hard problems is messy and will continue to be that way even if we approach AGI."*
-他还分享了一则思考："*Solving hard problems is messy and will continue to be that way even if we approach AGI.*"
+*"We think that most of the world's software has already been built and that agents will just reduce work from an existing pie. In fact, we are about to experience 100X more software than before."*
+"人们以为世界上大部分软件已经建好了，Agent 只是在缩减现有蛋糕的份额。事实上，我们即将迎来比以前多 100 倍的软件。"
 
-Sources:
-https://x.com/nikunj/status/2048900068523266544
-https://x.com/nikunj/status/2048761583204258298
+He points to legacy on-prem systems needing cloud migration, SMBs that never could hire developers, security vulnerabilities to patch, and data pipelines to build — all as fuel for the coming software explosion.
+他列举了遗留本地系统的云迁移需求、从未能雇佣开发者的中小企业、待修复的安全漏洞以及待构建的数据管道，将这些视为即将到来的软件爆炸的燃料。
+
+He also cautioned that while agentic coding is powerful, casually building complex software without understanding maintenance costs is a trap for non-technical users.
+他也警告说，尽管智能体编程能力强大，但对于不懂技术的用户来说，随意构建复杂软件而不理解维护成本是一个陷阱。
+
+Source: https://x.com/levie/status/2049333853777764495
+Source: https://x.com/levie/status/2049163935182733396
 
 ---
 
-Swyx (swyx on X) — AI Engineer, Latent Space
+**Garry Tan** (garrytan on X) — President & CEO at Y Combinator
 
-Swyx announced a new TikTok account with behind-the-scenes content.
-Swyx 宣布开设新 TikTok 账号，分享幕后内容。
+Garry Tan marked 10 years since AlphaGo with a simple "Incredible" — a quiet acknowledgment of how far AI has come.
+Garry Tan 简单地用"Incredible"纪念了 AlphaGo 诞生 10 周年——一个对 AI 进步的低调致敬。
 
+He also quipped that if you're tired of hearing about agents, 2026 is going to be a very long year.
+他还调侃道，如果你已经厌倦了听 Agent 相关的话题，那 2026 年对你来说将会很难熬。
+
+*"If you're sick of hearing about agents, 2026 is going to be the eternal September for you."*
+"如果你已经听够了 Agent 的话题，那 2026 年对你来说就是无尽的九月。"
+
+Source: https://x.com/garrytan/status/2049351894007710031
+Source: https://x.com/garrytan/status/2049297833594101943
+
+---
+
+**Zara Zhang** (zarazhangrui on X) — Builder, Harvard '17
+
+Zara shared a creative tip: instead of asking AI to generate raster images, ask it to generate SVGs.
+Zara 分享了一个创意技巧：与其让 AI 生成位图，不如让它生成 SVG 矢量图。
+
+Vector illustrations seamlessly blend into design styles, making them the perfect complement to HTML slides — she demonstrated this using the QuiverAI API inside AnyGen's Frontend Slides feature.
+矢量插图能无缝融入设计风格，是 HTML 幻灯片的完美搭档——她用 QuiverAI API 配合 AnyGen 的 Frontend Slides 功能演示了这一点。
+
+She also reflected on how her workflow has fundamentally changed: instead of building web apps with a GUI, she now just shares GitHub repos and lets people's agents customize the UI for them.
+她还反思了自己工作方式的根本性变化：她不再用 GUI 构建 Web 应用，而是直接分享 GitHub 仓库，让用户的 Agent 自行定制 UI。
+
+Source: https://x.com/zarazhangrui/status/2049258231042805806
+Source: https://x.com/zarazhangrui/status/2049186121314415054
+
+---
+
+**Nikunj Kothari** (nikunj on X) — Partner at FPV Ventures
+
+He shared a funny overheard exchange from Sightglass coffee in SF, where a founder bragged about meetings with "all the Tier 1 VCs" and was immediately roasted with "You mean the neolab index funds?"
+他分享了一段在旧金山 Sightglass 咖啡馆偶然听到的爆笑对话：一位创始人吹嘘自己约到了"所有一线 VC"，立刻被人怼了一句"你是说那些新实验室指数基金？"
+
+Near期无其他重要动态。
 近期无其他重要动态。
 
-Source:
-https://x.com/swyx/status/2048934424344179159
+Source: https://x.com/nikunj/status/2049179647519125976
 
 ---
 
-Aaron Levie (levie on X) — CEO, Box
+**Peter Steinberger** (steipete on X) — Polyagentmorous ClawFather, OpenClaw + OpenAI
 
-近期无重要动态（仅发布了一条无文字的链接推文）。
+Peter Steinberger unveiled an impressive automated CI pipeline: Codex now runs on every commit to main, reviewing it for regressions and security issues.
+Peter Steinberger 展示了一条令人印象深刻的自动化 CI 流水线：Codex 现在在每次提交到 main 分支时自动运行，检查回归和安全问题。
 
-Source:
-https://x.com/levie/status/2048950940661932319
+If a problem is found, a new Codex instance spins up, creates a PR with the fix, then a review agent checks it — looping up to 5 times until the issue is resolved.
+如果发现问题，新的 Codex 实例会自动启动并创建修复 PR，然后由审查 Agent 检查——最多循环 5 次直到问题解决。
+
+*"Codex now runs on each commit we land, reviews it — and if a booboo is found, a new codex spins up and (if still relevant) makes a PR for the fix."*
+"现在每次我们合入提交，Codex 都会自动审查——如果发现问题，新的 Codex 实例会启动并（在问题仍然相关的情况下）创建修复 PR。"
+
+He also hinted at a potential leak — a cryptic "I smell a leak" tweet that generated massive engagement (3,500+ likes, 223 replies).
+他还发了一条神秘的"我闻到了泄露的味道"，引发了大量互动（超过 3500 个赞，223 条回复）。
+
+Source: https://x.com/steipete/status/2049356949523730699
+Source: https://x.com/steipete/status/2049290741013262522
+Source: https://x.com/steipete/status/2049290265026773172
 
 ---
 
-PODCASTS
+**Dan Shipper** (danshipper on X) — CEO at Every
+
+Dan Shipper is exploring what he calls "agent-native" apps — software designed to be used inside the in-app browser of your coding agent of choice, where both the agent and the human can see and share full context.
+Dan Shipper 正在探索他所说的"Agent 原生"应用——专为在编程 Agent 内置浏览器中使用而设计的软件，Agent 和人类可以共享完整上下文。
+
+He demonstrated this with PostHog inside Codex: the agent can write queries, see results, kick off other agents to write PRs, and run production DB queries — all seamlessly.
+他用 Codex 内嵌 PostHog 演示了这一点：Agent 可以编写查询、查看结果、启动其他 Agent 创建 PR、并运行生产数据库查询——一切都无缝衔接。
+
+*"A browser inside your desktop coding orchestration tool > an agent in your browser."*
+"把浏览器嵌入桌面编程协作工具，比把 Agent 嵌入浏览器更胜一筹。"
+
+He proposed new terminology: "Codex-native", "Cowork-native", "Cursor-native" — and sees a huge opportunity to build software in this paradigm.
+他提议了新术语："Codex 原生"、"Cowork 原生"、"Cursor 原生"——并认为这是一个巨大的软件创业机会。
+
+Source: https://x.com/danshipper/status/2049236793761976357
+Source: https://x.com/danshipper/status/2049223943735726150
 
 ---
 
-Training Data — "From SEO to Agent-Led Growth: Profound's James Cadwallader"
-https://www.youtube.com/watch?v=RyTwRCKeDo4
+**Aditya Agarwal** (adityaag on X) — General Partner at South Park Commons
 
-James Cadwallader, co-founder and CEO of Profound, argues we are witnessing the biggest platform shift in the history of marketing: from blue-link search to probabilistic AI responses.
-Profound 联合创始人兼 CEO James Cadwallader 认为，我们正在经历营销史上最大的平台转变：从蓝色链接搜索到概率性 AI 响应。
+近期无重要动态 — shared a quote tweet with "I cannot explain how awesome this is" but no original substantive commentary.
+近期无重要动态——转发了一条推文并表示"我无法形容这有多棒"，无原创实质性内容。
 
-The key insight: it's not just that the front door of the internet has changed — the *person* walking through the door has changed.
-核心洞察：改变的不只是互联网的"入口"，而是走进这扇门的"人"变了。
+Source: https://x.com/adityaag/status/2049259492727234748
 
-An agent now browses on behalf of the consumer, synthesizes information from dozens or hundreds of pages (he cites 65 pages used to answer one showerhead query), and makes a large part of the buying decision.
-如今是 Agent 代替消费者浏览，综合数十乃至数百个页面的信息（他举例：一个关于莲蓬头的问题被用来检索了 65 个网页），并做出购买决策的很大一部分。
+---
 
-The old SEO playbook no longer applies: you're now building content designed to be discovered and consumed entirely by agents, not humans.
-旧的 SEO 打法不再适用：你现在构建的内容，是专为被 Agent 发现和消费而设计的，而非面向人类。
+**Sam Altman** (sama on X) — CEO at OpenAI
 
-Each AI platform behaves like a different species: Gemini leans heavily on YouTube, ChatGPT pools from Reddit (consumer) or LinkedIn (B2B), and Claude has recently become more sensitive to real-time web information.
-每个 AI 平台的行为方式各异，像不同物种：Gemini 大量依赖 YouTube，ChatGPT 在消费端从 Reddit 汲取，在 B2B 端依赖 LinkedIn，而 Claude 近期则对实时网络信息更加敏感。
+Sam Altman teased upcoming OpenAI updates, hinting they will be exciting.
+Sam Altman 预告了即将到来的 OpenAI 更新，暗示令人期待。
 
-Cadwallader raises the "dead internet" scenario: if humans stop clicking into websites, advertising revenue collapses, editorial incentives vanish, and AI has nothing fresh to train on.
-Cadwallader 提出了"死亡互联网"的情景：如果人类不再点击进入网站，广告收入崩溃，内容创作动力消失，AI 也将无新鲜内容可用。
+*"Enjoy the next few updates."*
+"期待接下来的几次更新。"
 
-His prediction: AI labs will vertically integrate with social media networks to preserve a source of real-time human data — much like Grok and X already do.
-他的预测：AI 实验室将与社交媒体平台垂直整合，以保留实时人类数据来源——正如 Grok 与 X 已经在做的那样。
+He also posted two link-only tweets that generated enormous engagement (6,500+ and 9,000+ likes respectively), likely pointing to major announcements or demos — but without additional context from the tweet text itself.
+他还发布了两条纯链接推文，分别获得超过 6500 和 9000 个赞，可能指向重大公告或演示，但推文本身没有附加文字说明。
 
-On AI ads: generative advertising in conversational interfaces will be *"the most effective form of advertising the world has ever seen"* — because AI understands user intent at a granular level.
-关于 AI 广告：对话界面中的生成式广告将成为"*the most effective form of advertising the world has ever seen*"——因为 AI 能细粒度理解用户意图。
+Source: https://x.com/sama/status/2049315574120055054
+Source: https://x.com/sama/status/2049314532892475791
+Source: https://x.com/sama/status/2049241518540808440
 
-The parting advice for marketers: you need visibility into how you show up across AI platforms (not just Google), and using agents to build marketing is no longer optional — it's like choosing not to use the internet.
-给营销人员的最后建议：你需要了解自己在各 AI 平台上的曝光情况（不只是 Google），使用 Agent 进行营销已不再是可选项——就像拒绝使用互联网一样不可思议。
+---
 
-Source: https://www.youtube.com/watch?v=RyTwRCKeDo4
+**Claude** (claudeai on X) — Anthropic's official AI assistant account
+
+Claude announced a major expansion of its connector ecosystem for creative professionals.
+Claude 宣布大幅扩展其面向创意专业人士的连接器生态系统。
+
+New connectors include Blender (debug scenes, build tools, batch-apply changes), Autodesk Fusion (create and modify 3D models through conversation), Adobe Creative Cloud, Ableton, Splice, Canva, Affinity, SketchUp, and Resolume.
+新增连接器包括 Blender（调试场景、构建工具、批量修改）、Autodesk Fusion（通过对话创建和修改 3D 模型）、Adobe Creative Cloud、Ableton、Splice、Canva、Affinity、SketchUp 和 Resolume。
+
+Anthropic also joined the Blender Development Fund as a patron to support open-source development.
+Anthropic 还作为赞助商加入了 Blender 开发基金，支持开源开发。
+
+The Blender connector tweet alone garnered 34,000+ likes and 3,000+ retweets, making it one of the most viral AI announcements of the day.
+仅 Blender 连接器的推文就获得了超过 34000 个赞和 3000 次转发，成为当天最具传播力的 AI 公告之一。
+
+Source: https://x.com/claudeai/status/2049143442601546054
+Source: https://x.com/claudeai/status/2049143440508616863
+Source: https://x.com/claudeai/status/2049143438281445811
 
 ---
 
