@@ -1,286 +1,313 @@
-AI Builders 日报 · 2026-05-01
+AI Builders 日报 · 2026-05-02
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OFFICIAL BLOGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+【Claude Blog】Redesigning Claude Code on Desktop for Parallel Agents
+【Claude Blog】为并行 Agent 重新设计 Claude Code 桌面端
+
+Anthropic has shipped a major redesign of the Claude Code desktop app, built for agentic workflows where multiple tasks run in parallel.
+Anthropic 发布了 Claude Code 桌面端的重大改版，专为多任务并行的 Agent 工作流而生。
+
+The new sidebar lets you manage multiple sessions across repos — kick off a refactor in one, a bug fix in another, and a test run in a third.
+全新侧边栏支持跨仓库多会话管理——同时开启重构、修复 bug 和跑测试，各自独立推进。
+
+*"The new app is built for how agentic coding actually feels now: many things in flight, and you in the orchestrator seat."*
+*"新版应用是为当下 Agent 编码的真实感受而打造的：多件事同时推进，你坐在指挥官的位置。"*
+
+New features include an integrated terminal, in-app file editor, faster diff viewer, drag-and-drop pane layout, and side chats that pull context without polluting the main thread.
+新功能包括集成终端、应用内文件编辑器、更快的 diff 查看器、拖拽式面板布局，以及不会污染主线程的侧边对话。
+
+SSH support now extends to Mac alongside Linux, and the app has parity with CLI plugins.
+SSH 支持已扩展至 Mac（此前仅限 Linux），应用与 CLI 插件保持功能一致。
+
+Available now for Pro, Max, Team, and Enterprise plans.
+现已面向 Pro、Max、Team 和 Enterprise 计划用户开放。
+
+https://claude.com/blog/claude-code-desktop-redesign
 
 ---
 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 X / TWITTER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+【Andrej Karpathy】AI 研究员、前 Tesla AI 总监、OpenAI 联合创始人
+
+Karpathy shared highlights from his Sequoia Ascent 2026 fireside chat, covering three dimensions of what LLMs make possible beyond mere speed-ups.
+Karpathy 分享了他在 Sequoia Ascent 2026 炉边对话的精华，聚焦 LLM 超越"提速"本质的三个维度。
+
+First: apps that can be *fully* handled by LLMs with no classical code — input an image, output an image, done.
+第一：完全由 LLM 处理、无需任何传统代码的应用——输入图片，输出图片，搞定。
+
+Second: *"install .md skills instead of install .sh scripts"* — writing installation in natural language so the LLM can intelligently target your setup.
+第二：*"用 .md 技能替代 .sh 脚本安装"*——用自然语言描述安装步骤，让 LLM 智能适配你的环境。
+
+Third: LLM knowledge bases — computation over unstructured data that was *fundamentally impossible* with classical code.
+第三：LLM 知识库——对非结构化数据的计算，这是传统代码*根本无法实现*的。
+
+He also dug into the "jaggedness" of LLMs: why one model can refactor 100k lines of code yet suggest walking to a car wash.
+他还深入探讨了 LLM 的"参差性"：为何同一模型能重构十万行代码，却又建议你步行去洗车。
+
+His explanation links this to domain verifiability and RL training data economics — you're either on the rails or off-roading in the jungle.
+他的解释将此与领域可验证性和 RL 训练数据的经济逻辑相关联——你要么在轨道上飞驰，要么在丛林中徒手开路。
+
+https://x.com/karpathy/status/2049903821095354523
+https://x.com/karpathy/status/2049907410303865030
 
 ---
 
-**Swyx** (swyx on X) — AI researcher & builder, affiliations: @dxtipshq, @cognition, @temporalio
+【Swyx】AI Engineer World's Fair 联合创始人，Latent Space 播客主持人
 
-Swyx shared a darkly funny inside story about building a "vintage" LLM trained only on pre-1931 public domain tokens.
-Swyx 分享了一个关于构建"复古"LLM（只用1931年前公共领域 token 训练）的黑色幽默故事。
+Swyx declared that *"coding agents breaking containment"* is the breakout theme of 2026 — the year all knowledge workers, not just coders, get AGI-pilled.
+Swyx 宣称 *"coding agents 突破边界"* 是 2026 年的爆发主题——今年不只是程序员，所有知识工作者都将被 AGI 震撼。
 
-The project assembled a team of ML experts, built a new vintage OCR model, synthesized RLHF pairs from old etiquette manuals and cookbooks — only to find future knowledge still leaked in.
-项目组汇集了一批 ML 专家，构建了全新的复古 OCR 模型，从旧礼仪手册和食谱中合成 RLHF 数据对——结果发现未来的知识还是渗入进来了。
+At the AI Engineer EU closing note, he gave a talk on how a tiny team uses agents to serve ~1M unique developers a month for free — from CMS to renting lobster inflatables.
+在 AI Engineer EU 闭幕演讲中，他分享了小团队如何用 Agent 每月免费服务约 100 万开发者——从内容管理到租充气龙虾，无所不包。
 
-After all that meticulous curation of hundreds of billions of tokens, the result was, in his words: *"it's the most confidently racist model ever released by humankind"*
-历经对数千亿 token 的精心筛选，最终结果用他的话说就是：*"这是人类有史以来发布的最自信的种族主义模型"*
+*"This isn't about any one agent; it's about all of them, and how you are probably not trying hard enough to use them for daily knowledge work."*
+*"这不是关于某一个 Agent；而是关于所有 Agent，以及你可能还没有足够努力地把它们用于日常知识工作。"*
 
-He also noted that base models don't get enough experimentation: not enough builders are exploring weird uses and fine-tunes of the base models we actually have.
-他还指出，base model 没有得到足够的实验关注：没有足够多的构建者在探索我们已有的 base model 的奇特用途和微调方式。
-
-Source: https://x.com/swyx/status/2049652947408372187
-Source: https://x.com/swyx/status/2049643473339601388
+https://x.com/swyx/status/2050068468498842058
 
 ---
 
-**Josh Woodward** (joshwoodward on X) — VP, Google Labs & Gemini
+【Peter Yang】Roblox 产品负责人，AI 教程创作者
 
-Woodward announced a major new Gemini capability: generate files and export them directly.
-Woodward 宣布了 Gemini 的一项重要新功能：直接生成并导出文件。
+Peter Yang raised a practical pain point: OpenClaw updates can be unreliable when you ask the bot to update itself.
+Peter Yang 提出了一个实际痛点：让机器人自我更新时，OpenClaw 的更新过程经常出问题。
 
-You can now tell Gemini what you want to create and the format, and it handles the rest — supporting Google Docs, Word (.docx), PDFs, Google Sheets, Excel (.xlsx), CSV, Google Slides, Markdown, LaTeX, TXT, and RTF.
-现在你可以告诉 Gemini 你想创建什么格式的文件，它会自动完成——支持 Google Docs、Word (.docx)、PDF、Google Sheets、Excel (.xlsx)、CSV、Google Slides、Markdown、LaTeX、TXT 和 RTF。
+He also asked the community for prompts to generate great YouTube thumbnails with GPT Image 2.
+他还向社区征集用 GPT Image 2 生成优质 YouTube 封面图的提示词。
 
-Available now on all surfaces globally.
-现已在全球所有平台上线。
-
-Source: https://x.com/joshwoodward/status/2049524400131838436
+https://x.com/petergyang/status/2050026309615792509
+https://x.com/petergyang/status/2050022980688966081
 
 ---
 
-**Kevin Weil** (kevinweil on X) — VP Science, OpenAI
+【Amanda Askell】Anthropic 哲学家与 AI 伦理研究员
 
-Weil shared a sharp reframe on the role of AI in medicine: *"It turns out, the job of a radiologist isn't to read x-rays. It's to cure people."*
-Weil 对 AI 在医疗中的角色提出了一个犀利的重新定义：*"事实证明，放射科医生的工作不是读 X 光片，而是治愈病人。"*
+Amanda Askell pushed back against internet fiction being written about her, noting that confidently-asserted but completely fabricated content about her has been circulating.
+Amanda Askell 反驳了网络上流传的关于她的虚构内容，指出那些言之凿凿却完全捏造的内容令人不安。
 
-If AI can speed up the interpretation of X-rays, radiologists can see and help more patients — the tool augments the mission, not replaces the person.
-如果 AI 可以加速 X 光片的解读，放射科医生就能接诊和帮助更多患者——工具在增强使命，而非取代人。
+*"I've increasingly seen content written about me that's asserted very confidently but is also completely made up."*
+*"我越来越多地看到关于我的内容，说得煞有介事，却完全是凭空捏造的。"*
 
-Source: https://x.com/kevinweil/status/2049584046213378229
+She clarified that while she personally may seem unremarkable, her actual *work* on AI alignment is anything but boring — it's both difficult and important.
+她澄清道，虽然她本人可能显得平平无奇，但她在 AI 对齐方面的实际工作绝非无聊——既困难又重要。
 
----
-
-**Peter Yang** (petergyang on X) — Product at Roblox, AI newsletter author (140K+ readers)
-
-Yang flagged a noticeable degradation in Claude's web UI responsiveness — random 3-5 second wait times before responses.
-Yang 反映了 Claude 网页版响应速度明显下降的问题——随机出现 3-5 秒的等待时间。
-
-He also asked whether live low-latency calling with AI agents is now possible, suggesting he's tracking the real-time interaction frontier.
-他还询问 AI agent 是否已经可以实现实时低延迟通话，表明他在持续关注实时交互前沿。
-
-Source: https://x.com/petergyang/status/2049517522924474465
-Source: https://x.com/petergyang/status/2049652367457763368
+https://x.com/AmandaAskell/status/2050020603323904369
+https://x.com/AmandaAskell/status/2050021990023758206
+https://x.com/AmandaAskell/status/2050050486523560053
 
 ---
 
-**Nan Yu** (thenanyu on X) — Head of Product, Linear
+【Cat Wu】Anthropic Claude Code 团队负责人
 
-Yu teased a fundamental reinvention of design-to-engineering handoff at Linear, described as being built "from first principles."
-Yu 预告了 Linear 正在从第一性原理出发，彻底重新发明设计到工程的交付流程。
+Cat Wu announced that Claude Security is now in public beta, built directly into Claude Code on the web.
+Cat Wu 宣布 Claude Security 现已进入公测，直接集成于网页版 Claude Code。
 
-近期无重要动态（仅此一条预告推文）
+Point it at a repo, get validated vulnerability findings, and fix them in the same environment where you write code — no separate tooling required.
+将其指向一个仓库，即可获得经过验证的漏洞发现，并在同一编码环境中直接修复，无需额外工具。
 
-Source: https://x.com/thenanyu/status/2049593061043265940
-
----
-
-**Amjad Masad** (amasad on X) — CEO, Replit
-
-Masad announced free accounts for teachers and 50% discounts for students at Replit — a significant accessibility push for the next generation of builders.
-Masad 宣布 Replit 为教师提供免费账户、为学生提供五折优惠——这是面向下一代构建者的重大可及性举措。
-
-He also joked about Replit's new "on-call" feature: *"Now everyone can experience getting paged at dinner because the site is down"* — a nod to the reality of running production systems.
-他还调侃了 Replit 新的"on-call"功能：*"现在每个人都能体验在吃饭时被呼叫，因为站点挂了"*——致敬了运维生产系统的现实。
-
-He also praised Ron Conway's legendary Silicon Valley approach of turning generosity and warmth into a winning VC strategy.
-他还称赞了 Ron Conway 那种将慷慨与温暖转化为制胜投资策略的硅谷传奇方式。
-
-Source: https://x.com/amasad/status/2049595212889247994
-Source: https://x.com/amasad/status/2049639259599233173
-Source: https://x.com/amasad/status/2049729530059960571
+https://x.com/_catwu/status/2049964403177689130
 
 ---
 
-**Aaron Levie** (levie on X) — CEO, Box
+【Amjad Masad】Replit CEO
 
-Levie wrote a detailed post on a new organizational role emerging inside companies: "agent engineers" for internal workflows.
-Levie 撰文详述了企业内部正在涌现的新角色："内部 agent 工程师"。
+Amjad Masad shared a milestone: Replit can now go from prompt directly to a formed LLC.
+Amjad Masad 分享了一个里程碑：Replit 现在可以从一句提示词直接生成 LLC 公司注册。
 
-The role looks like an internal FDE (Field Developer Engineer) — someone who wires up internal systems, builds secure governed agents, and codifies business processes as skills — connecting tools like Box, Salesforce, and Workday.
-该角色类似于内部 FDE（现场开发工程师）——负责接入内部系统、构建安全合规的 agent，并将业务流程编码为 skills，连接 Box、Salesforce、Workday 等工具。
+He also highlighted Replit treating itself as customer zero — *"We expect our usage to have insane ROI"* — with a concrete example of the payoff.
+他还强调 Replit 将自身视为"零号客户"——*"我们期待自身使用能带来疯狂的投资回报"*——并附上了一个具体的收益案例。
 
-He predicts this won't just be one new role, but two: the technical agent engineer paired with a business-side "agent product manager" who understands the process.
-他预测这不只是一个新角色，而是两个：技术型 agent 工程师，搭配懂业务流程的"agent 产品经理"。
-
-*"It's not about bringing automation to a job, but bringing automation to a process."*
-*"这不是把自动化带给一份工作，而是把自动化带给一个流程。"*
-
-Source: https://x.com/levie/status/2049714403050918067
+https://x.com/amasad/status/2049934937688854993
+https://x.com/amasad/status/2049921597499445677
 
 ---
 
-**Ryo Lu** (ryolu_ on X) — Design, Cursor
+【Guillermo Rauch】Vercel CEO
 
-Lu announced that Cursor now lets you build your own agent systems — the same multi-model harness used internally, available for both local and cloud deployments.
-Lu 宣布 Cursor 现在可以让你构建自己的 agent 系统——与内部使用的多模型框架相同，支持本地和云端部署。
+Guillermo Rauch used v0 to prototype what Vercel shipping GitHub might look like — all in just 2 prompts.
+Guillermo Rauch 用 v0 只用 2 个提示词，就原型化出了"Vercel 发布 GitHub"的界面想象。
 
-Source: https://x.com/ryolu_/status/2049529609725804575
-
----
-
-**Garry Tan** (garrytan on X) — President & CEO, Y Combinator
-
-Tan shared progress on GBrain and its integration with OpenClaw — he's now built a full end-to-end test harness to ensure the onboarding process works reliably.
-Tan 分享了 GBrain 与 OpenClaw 集成的进展——他现在构建了完整的端到端测试框架，以确保引导流程稳定可靠。
-
-He noted that graphs in the system are built off frontmatter attributes, with more being inferred and auto-built automatically in the new version.
-他指出，系统中的图谱基于 frontmatter 属性构建，新版本中会有更多内容被自动推断和生成。
-
-Source: https://x.com/garrytan/status/2049742376307147110
-Source: https://x.com/garrytan/status/2049737217208397925
+https://x.com/rauchg/status/2049959307941179678
 
 ---
 
-**Matt Turck** (mattturck on X) — VC at FirstMark Capital, MAD Podcast host
+【Aaron Levie】Box CEO
 
-近期无重要技术或 AI 动态（仅发布了一条 VC 晚宴的趣图）
+Aaron Levie published a detailed framework for how software business models will evolve as agents become the biggest users of software.
+Aaron Levie 发布了一套详细框架，阐述随着 Agent 成为软件最大用户，软件商业模式将如何演变。
 
-Source: https://x.com/mattturck/status/2049635648575832384
+His three-part model: (1) seats don't disappear for people but must include API usage for agents acting on their behalf; (2) agents doing stateful work may get their own "seats" but can't be priced like human seats; (3) consumption pricing dominates for headless usage above seat allotments.
+他的三段式模型：(1) 人的席位不会消失，但必须含盖 Agent 代表用户调用 API 的用量；(2) 做有状态工作的 Agent 可能拥有自己的"席位"，但不能按人类席位定价；(3) 超出席位配额的无头使用将以消耗量计价为主。
 
----
+*"Every platform that goes headless will need to adopt a model like this. Some may fight it initially but it's an inevitability."*
+*"每个走向无头化的平台都需要采用这样的模型。有些可能初期会抵触，但这是必然趋势。"*
 
-**Zara Zhang** (zarazhangrui on X) — Builder
+*"The growth of this usage pattern is effectively unbounded as the use-cases for agents operating on data in these systems will dramatically exceed what people do with their data and tools today."*
+*"这种使用模式的增长实际上是无上限的，因为 Agent 在这些系统中操作数据的用例，将远远超过今天人类对数据和工具的使用。"*
 
-Zhang proposed a sharp reframe for how we think about the IT/internal tools team in the age of agents: *"We should start thinking about the IT/internal tools team as more like 'HR for agents'"*
-Zhang 提出了一个犀利的重新定义——在 agent 时代，我们应该把 IT/内部工具团队想成更像"agent 的 HR"。
-
-The analogy: just as HR manages people's access, behavior, and lifecycle in an org, IT will increasingly manage agents the same way.
-类比：正如 HR 管理组织中员工的权限、行为和生命周期，IT 团队将越来越多地以同样方式管理 agent。
-
-Source: https://x.com/zarazhangrui/status/2049599305825341518
+https://x.com/levie/status/2050051426446152159
 
 ---
 
-**Nikunj Kothari** (nikunj on X) — Partner, FPV Ventures
+【Ryo Lu】Cursor 设计师
 
-近期无重要 AI 或投资动态（发布了轻松的个人生活内容）
+Ryo Lu integrated the Cursor SDK into ryOS, enabling him to make edits to the OS just by chatting with it.
+Ryo Lu 将 Cursor SDK 集成进 ryOS，现在只需与之对话即可修改操作系统。
 
-Source: https://x.com/nikunj/status/2049638359342133530
+He also published a sharp design essay arguing that *"no opinion is opinionated"* — the moment you decide what concepts exist in a system, you've already expressed a worldview.
+他还发表了一篇犀利的设计文章，主张 *"没有立场本身就是一种立场"*——当你决定系统中存在哪些概念时，你已经表达了一种世界观。
 
----
+*"Flexibility isn't the absence of opinion. It's the result of a strong opinion held in cohesion — not about one ideal workflow, but about which concepts are fundamental."*
+*"灵活性不是没有立场，而是一种内在统一的强烈立场的产物——不是关于某种理想工作流，而是关于哪些概念是根本性的。"*
 
-**Peter Steinberger** (steipete on X) — OpenClaw contributor, "ClawFather"
-
-Steinberger shared that he integrated Codex review into his "clawsweeper" tool — using a similar system prompt to /review, with automerge and loops until it stops finding new issues.
-Steinberger 分享了将 Codex review 集成到他的"clawsweeper"工具中的进展——使用与 /review 类似的 system prompt，支持自动合并，并循环直到不再发现新问题。
-
-He also posted a striking cost comparison showing how cheap compute has become, courtesy of Blacksmith (an OpenClaw sponsor).
-他还发布了一组触目惊心的成本对比图，展示了算力已变得多么便宜，感谢 Blacksmith（OpenClaw 赞助商）。
-
-And yes, he confirmed: the OpenClaw lobster mascot does googly eyes. 👀
-他还确认：OpenClaw 的龙虾吉祥物确实会做"斗鸡眼"表情。👀
-
-Source: https://x.com/steipete/status/2049518771023360010
-Source: https://x.com/steipete/status/2049462793267458219
-Source: https://x.com/steipete/status/2049521170177732836
+https://x.com/ryolu_/status/2049872551955013713
+https://x.com/ryolu_/status/2049866003287576978
 
 ---
 
-**Dan Shipper** (danshipper on X) — CEO, Every
+【Garry Tan】Y Combinator CEO
 
-Shipper published a major interview with Emily Glassberg Sands, Head of Data & AI at Stripe, diving deep into what Stripe's view of 2% of global GDP reveals about the agent economy.
-Shipper 发布了对 Stripe 数据与 AI 负责人 Emily Glassberg Sands 的深度专访，揭示了 Stripe 掌握全球 2% GDP 视角下的 agent 经济全貌。
+Garry Tan highlighted GBrain, an MIT-licensed open-source tool he's been developing, as a perfect complement to Karpathy-style knowledge wikis for OpenClaw users.
+Garry Tan 重点推介了他开发的 MIT 协议开源工具 GBrain，称其是 OpenClaw 用户构建 Karpathy 风格知识 wiki 的绝佳补充。
 
-Key findings: AI companies are hitting $30M ARR in 18 months — 3x faster than the 2018 SaaS class; free-trial abuse has 4x-ed in six months; Stripe is blocking 250,000 fraudulent free trials per week for one large customer.
-关键发现：AI 公司在18个月内达到 $30M ARR——比2018年 SaaS 公司快3倍；免费试用滥用在六个月内增长了4倍；Stripe 每周为一家大客户拦截25万次欺诈性免费试用。
+*"3 weeks ago GBrain and Mempalace looked kind of similar. 3 weeks later, it's pretty clear GBrain is its own category that is ideal for OpenClaw/Hermes personal AI scenarios."*
+*"三周前 GBrain 和 Mempalace 看起来差不多。三周后，GBrain 明显已自成一类，最适合 OpenClaw/Hermes 个人 AI 场景。"*
 
-Fraud is now a full-funnel problem, not just a checkout problem — and compute theft (stealing free-trial tokens) has replaced credit card theft as the primary attack vector for AI companies.
-欺诈现在是一个全漏斗问题，而不仅仅是结账环节——"算力盗窃"（窃取免费试用 token）已取代信用卡盗窃，成为 AI 公司面临的主要攻击向量。
-
-Source: https://x.com/danshipper/status/2049512129846530086
+https://x.com/garrytan/status/2050096324100682097
+https://x.com/garrytan/status/2050095919157350644
 
 ---
 
-**Aditya Agarwal** (adityaag on X) — General Partner, South Park Commons; ex-CTO Dropbox
+【Zara Zhang】Builder，哈佛校友，GitHub 开发者
 
-Agarwal shared candid observations after extensive time using and debugging OpenClaw, Hermes, and other agent systems — a must-read reality check.
-Agarwal 在大量使用和调试 OpenClaw、Hermes 等 agent 系统后，分享了坦诚的观察——是一篇难得的现实审视。
+Zara Zhang shared that using ChatGPT Image 2 to make slides is *"SO fun."*
+Zara Zhang 分享了用 ChatGPT Image 2 制作幻灯片的体验，称其*"超级有趣"*。
 
-His sharpest take: *"Most people who rave about OpenClaw, HermesAgent etc. have not actually used it. Facts."*
-他最犀利的观点：*"大多数对 OpenClaw、HermesAgent 等大加赞扬的人，其实根本没真正用过。事实。"*
-
-He argues agents are still developer products, not consumer-grade; the real innovation he wants to see is dynamic interfaces rather than chat; and installing OpenClaw today feels like running Linux in the early 2000s — a lot of driver-compiling before you get any value.
-他认为 agent 仍然是开发者产品，远未达到消费级；他最希望看到的创新是动态界面而非聊天框；而现在安装 OpenClaw 的感觉就像在2000年代初运行 Linux——需要大量"编译驱动"才能获得任何价值。
-
-Source: https://x.com/adityaag/status/2049530878083379427
+https://x.com/zarazhangrui/status/2050084126414471221
 
 ---
 
-**Sam Altman** (sama on X) — CEO, OpenAI
+【Nikunj Kothari】FPV Ventures 合伙人
 
-Altman announced the rollout of GPT-5.5-Cyber, a frontier cybersecurity model, to critical cyber defenders in the coming days.
-Altman 宣布将在未来几天向关键网络防御者推出 GPT-5.5-Cyber，一款前沿网络安全模型。
+Nikunj Kothari offered a VC moment of solidarity: he personally signed as guarantor on a founder's apartment lease because the founder's salary didn't qualify — even though their company is *"absolutely ripping."*
+Nikunj Kothari 分享了一段 VC 的温情时刻：他亲自为一位创始人的公寓租约担保，因为该创始人的薪资不够资质——尽管他们的公司*"发展势头极猛"*。
 
-*"We will work with the entire ecosystem and the government to figure out trusted access for cyber; we want to rapidly help secure companies/infrastructure."*
-*"我们将与整个生态系统和政府合作，探索网络安全领域的可信访问机制；我们希望快速帮助公司和基础设施提升安全性。"*
+He also noted the broader trend: MCPs and CLIs are making it clear that large models will orchestrate our entire lives — *"First, terminal. Then, computer use. Soon, the entire OS."*
+他还指出更宏观的趋势：MCP 和 CLI 正在表明，大模型将统筹我们的整个生活——*"先是终端，然后是计算机操作，很快就是整个操作系统。"*
 
-He also quote-tweeted something with just the caption *"alignment failure"* — presumably a humorous example of AI behaving unexpectedly.
-他还转推了一条内容，仅配文 *"alignment failure"*——大概是一个 AI 行为出乎意料的幽默案例。
-
-Source: https://x.com/sama/status/2049712078836170843
-Source: https://x.com/sama/status/2049715178611380317
+https://x.com/nikunj/status/2050053311408296334
+https://x.com/nikunj/status/2049871924105531672
 
 ---
 
-**Claude / Anthropic** (claudeai on X) — Anthropic's official AI assistant account
+【Peter Steinberger】OpenClaw 联合创始人，ClawFather
 
-Anthropic's Claude account highlighted three winning projects from a recent hackathon.
-Anthropic 的 Claude 官方账号重点介绍了最近一次黑客马拉松的三个获奖项目。
+Peter Steinberger announced significant improvements to OpenClaw's group chat behavior — *"I changed how agents talk there, it IS SO GOOD NOW."*
+Peter Steinberger 宣布对 OpenClaw 群聊行为进行了重大改进——*"我改变了 Agent 在群聊中的说话方式，现在真的太棒了。"*
 
-Best Use of Claude Managed Agents: ARIA — a maintenance system that reads machine manuals and automatically creates work orders with the fix that worked last time.
-Claude Managed Agents 最佳使用奖：ARIA——一个读取机器手册的维修系统，能自动创建包含上次有效修复方案的工单。
+He also highlighted that combining the Codex harness with GPT delivers dramatically better performance than vanilla GPT alone.
+他还指出，将 Codex harness 与 GPT 结合使用，性能远超单独使用 GPT。
 
-"Keep Thinking" Prize: MaestrIA — a home repair tool that photographs damage, returns a diagnosis, prices parts at local stores, and drafts a message to a nearby tradesperson.
-"保持思考"奖：MaestrIA——一款家庭维修工具，拍摄损坏部位后给出诊断、查询本地配件价格，并起草给附近工匠的信息。
+Separately, he shared a security milestone: working with NVIDIA, OpenAI, Microsoft, GitHub, Tencent Hunyuan, Convex, Atlassian, and Blacksmith to harden OpenClaw's security posture.
+此外，他还分享了一个安全里程碑：与 NVIDIA、OpenAI、Microsoft、GitHub、腾讯混元、Convex、Atlassian 和 Blacksmith 合作，全面加固 OpenClaw 的安全防护。
 
-It was built by a carpenter's son — a detail worth noting.
-由一位木匠之子构建——这个细节值得关注。
-
-Anthropic also invited developers to sign up for their newsletter to learn about future hackathons.
-Anthropic 还邀请开发者订阅他们的 newsletter，以便了解未来的黑客马拉松活动。
-
-Source: https://x.com/claudeai/status/2049523910173966597
-Source: https://x.com/claudeai/status/2049523908584386582
-Source: https://x.com/claudeai/status/2049523911730028968
+https://x.com/steipete/status/2049988836160074022
+https://x.com/steipete/status/2049976855617314991
 
 ---
 
+【Dan Shipper】Every CEO，AI 媒体创始人
+
+Dan Shipper is experimenting with using Codex + Chronicle as a personal focus tracker.
+Dan Shipper 正在尝试将 Codex + Chronicle 组合用作个人专注度追踪工具。
+
+He also shared excitement about an unspecified *"it's happening"* development, hinting at something big in the pipeline.
+他还对某项未具名的进展表达了兴奋之情，暗示有大事即将发生。
+
+https://x.com/danshipper/status/2049913064561258986
+https://x.com/danshipper/status/2050010481751167187
+
+---
+
+【Aditya Agarwal】South Park Commons 联合创始人，前 Dropbox CTO
+
+Aditya Agarwal shared a detailed interview with Palo Alto Networks CEO Nikesh Arora on the shape of AI-era cybersecurity.
+Aditya Agarwal 分享了与 Palo Alto Networks CEO Nikesh Arora 的深度对话，聚焦 AI 时代网络安全的新形态。
+
+Key thesis: AI is both the threat and the only viable solution — *"Security was never built into AI"* and *"No enterprise knows what's running inside its stack."*
+核心论点：AI 既是威胁，也是唯一可行的解法——*"安全从未被内置于 AI 中"*，且*"没有企业真正知道自己的技术栈里跑着什么"*。
+
+https://x.com/adityaag/status/2049874181509034151
+
+---
+
+【Sam Altman】OpenAI CEO
+
+Sam Altman announced a major upgrade to Codex, encouraging users to try it for non-coding computer work.
+Sam Altman 宣布了 Codex 的重大升级，鼓励用户将其用于非编码的计算机工作。
+
+He also declared, in his trademark minimalist style, that *"artificial goblin intelligence"* has been achieved.
+他还以其一贯的极简风格宣布，*"人工地精智能"* 已经实现。
+
+https://x.com/sama/status/2049946120441520624
+https://x.com/sama/status/2050021650641695108
+
+---
+
+【Claude (claudeai)】Anthropic 官方 AI 账号
+
+The official Claude account announced Claude Security entering public beta for Enterprise customers — no API integration or custom agent build required.
+Claude 官方账号宣布 Claude Security 面向企业客户进入公测——无需 API 集成或自定义 Agent 构建。
+
+Since the February research preview, hundreds of organizations have used it on production code, catching issues that existing scanners missed.
+自二月研究预览以来，数百家机构已将其用于生产代码，发现了现有扫描工具遗漏的问题。
+
+New additions based on early feedback: scheduled scans, directory-level targeting, CSV and Markdown exports, webhook notifications, and persistent dismissals across scans.
+根据早期反馈新增的功能：定时扫描、目录级定向、CSV 和 Markdown 导出、webhook 通知以及跨扫描持久化忽略。
+
+https://x.com/claudeai/status/2049898741772021991
+https://x.com/claudeai/status/2049898743772696745
+https://x.com/claudeai/status/2049898745051886013
+
+---
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 PODCASTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
----
+【Training Data】Demis Hassabis on Building DeepMind, AlphaFold, and the Final Stretch to AGI
 
-**AI & I by Every** — "How Stripe Is Building for an Agent-native World"
+Demis Hassabis traces a through-line from chess prodigy to neuroscientist to DeepMind founder: he decided at age 15 that AGI was the most important thing he could work on, and everything since has been deliberate preparation.
+Demis Hassabis 梳理了从国际象棋神童到神经科学家再到 DeepMind 创始人的脉络：他在 15 岁就决定 AGI 是他能做的最重要的事，此后的一切都是深思熟虑的铺垫。
 
-This episode is essential listening for anyone building in the AI economy.
-这期节目对于任何在 AI 经济中构建产品的人来说都是必听内容。
+On the key insight behind DeepMind in 2009: almost no one had realized deep learning was a big deal, and combining it with reinforcement learning — two siloed fields — was the core bet.
+关于 2009 年 DeepMind 背后的核心洞见：几乎没人意识到深度学习是大事，而将其与强化学习结合——两个彼此割裂的领域——正是核心押注。
 
-Host Dan Shipper interviews Emily Glassberg Sands, Head of Data & AI at Stripe, which processes 2% of global GDP.
-主持人 Dan Shipper 采访了 Stripe 数据与 AI 负责人 Emily Glassberg Sands，Stripe 处理着全球 2% 的 GDP。
+*"We almost felt like we were keepers of a secret because no one either in academia or industry really believed that any big progress was possible."*
+*"我们几乎感觉自己像是一个秘密的守护者，因为无论是学术界还是工业界，没有人真正相信任何重大进展是可能的。"*
 
-The central insight: the Internet is gaining a new kind of actor — AI agents — and over time, agents will become the predominant actors on the Internet.
-核心洞察：互联网正在获得一种新型参与者——AI agent——随着时间推移，agent 将成为互联网上的主要参与者。
+On AlphaFold and Isomorphic Labs: the dream is to reduce drug discovery from an average of 10 years to months or even weeks by doing 99% of exploration *in silico*.
+关于 AlphaFold 和 Isomorphic Labs：梦想是通过在计算机中完成 99% 的探索，将药物发现时间从平均 10 年缩短至数月甚至数周。
 
-LLM traffic to Stripe Docs is up 10x year over year, signaling that machines are already becoming users of developer infrastructure.
-LLM 对 Stripe 文档的访问量同比增长了10倍，这表明机器已经开始成为开发者基础设施的用户。
+On AGI timeline: consistent with his prior public statements, he puts AGI by 2030 as his over/under.
+关于 AGI 时间线：与他此前的公开表态一致，他将 2030 年作为 AGI 实现的时间分水岭。
 
-On fraud: compute is the new credit card to steal.
-关于欺诈：算力是新的待盗信用卡。
+On information as the most fundamental quantity: he argues that information, not energy or matter, is the primary lens through which to understand the universe — and that AI is therefore more profound than most realize.
+关于信息作为最基本的量：他认为信息而非能量或物质，是理解宇宙的首要视角——因此 AI 比大多数人意识到的更为深刻。
 
-Free-trial abuse has 4x-ed in six months; Stripe is blocking 250,000 fraudulent free trials a week for one large customer; and 7% of AI company sign-ups are multi-account abusers.
-免费试用滥用在六个月内增长了4倍；Stripe 每周为一家大客户拦截25万次欺诈性免费试用；7% 的 AI 公司注册用户是多账号滥用者。
+*"I think one can convert all of those three kind of quantities into each other, but I have this feeling information is most fundamental."*
+*"我认为这三种量可以相互转化，但我有一种感觉，信息才是最根本的。"*
 
-On growth: the top 100 AI companies on Stripe reach $30M ARR in 18 months — 3x faster than top SaaS companies from 2018.
-关于增长：Stripe 上排名前100的 AI 公司在18个月内达到 $30M ARR——比2018年顶级 SaaS 公司快3倍。
+His post-AGI reading recommendation: *The Fabric of Reality* by David Deutsch.
+他的后 AGI 时代阅读推荐：David Deutsch 的《真实世界的脉络》（The Fabric of Reality）。
 
-On pricing: seat-based billing is dying for enterprise software; outcome-based billing (charging per resolved support ticket, per completed workflow) is the emerging standard for vertical AI solutions.
-关于定价：按席位计费正在企业软件中消亡；基于结果的计费（按解决的工单数、完成的工作流数收费）正成为垂直 AI 解决方案的新标准。
-
-On agentic commerce: Stripe built the Agent-to-Commerce protocol with OpenAI; agents are already buying Halloween costumes on behalf of lazy parents; and Link (Stripe's consumer wallet, used by ~250M consumers) is evolving to support delegated purchases with guardrails.
-关于 agent 商务：Stripe 与 OpenAI 共同构建了 Agent-to-Commerce 协议；agent 已经在代替懒惰的父母购买万圣节服装；Link（Stripe 的消费者钱包，约2.5亿用户使用）正在演进以支持带有防护栏的委托购买。
-
-Podcast URL: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
 ---
 
