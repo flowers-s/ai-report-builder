@@ -1,313 +1,235 @@
-AI Builders 日报 · 2026-05-02
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-OFFICIAL BLOGS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-【Claude Blog】Redesigning Claude Code on Desktop for Parallel Agents
-【Claude Blog】为并行 Agent 重新设计 Claude Code 桌面端
-
-Anthropic has shipped a major redesign of the Claude Code desktop app, built for agentic workflows where multiple tasks run in parallel.
-Anthropic 发布了 Claude Code 桌面端的重大改版，专为多任务并行的 Agent 工作流而生。
-
-The new sidebar lets you manage multiple sessions across repos — kick off a refactor in one, a bug fix in another, and a test run in a third.
-全新侧边栏支持跨仓库多会话管理——同时开启重构、修复 bug 和跑测试，各自独立推进。
-
-*"The new app is built for how agentic coding actually feels now: many things in flight, and you in the orchestrator seat."*
-*"新版应用是为当下 Agent 编码的真实感受而打造的：多件事同时推进，你坐在指挥官的位置。"*
-
-New features include an integrated terminal, in-app file editor, faster diff viewer, drag-and-drop pane layout, and side chats that pull context without polluting the main thread.
-新功能包括集成终端、应用内文件编辑器、更快的 diff 查看器、拖拽式面板布局，以及不会污染主线程的侧边对话。
-
-SSH support now extends to Mac alongside Linux, and the app has parity with CLI plugins.
-SSH 支持已扩展至 Mac（此前仅限 Linux），应用与 CLI 插件保持功能一致。
-
-Available now for Pro, Max, Team, and Enterprise plans.
-现已面向 Pro、Max、Team 和 Enterprise 计划用户开放。
-
-https://claude.com/blog/claude-code-desktop-redesign
+AI Builders 日报 · 2026-05-03
 
 ---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-X / TWITTER
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## OFFICIAL BLOGS
 
-【Andrej Karpathy】AI 研究员、前 Tesla AI 总监、OpenAI 联合创始人
+### Anthropic Engineering
 
-Karpathy shared highlights from his Sequoia Ascent 2026 fireside chat, covering three dimensions of what LLMs make possible beyond mere speed-ups.
-Karpathy 分享了他在 Sequoia Ascent 2026 炉边对话的精华，聚焦 LLM 超越"提速"本质的三个维度。
+**An update on recent Claude Code quality reports**
+https://www.anthropic.com/engineering/april-23-postmortem
 
-First: apps that can be *fully* handled by LLMs with no classical code — input an image, output an image, done.
-第一：完全由 LLM 处理、无需任何传统代码的应用——输入图片，输出图片，搞定。
+Over the past month, Anthropic investigated reports that Claude's responses had worsened for some users.
+过去一个月，Anthropic 调查了用户反映 Claude 响应质量下滑的问题。
 
-Second: *"install .md skills instead of install .sh scripts"* — writing installation in natural language so the LLM can intelligently target your setup.
-第二：*"用 .md 技能替代 .sh 脚本安装"*——用自然语言描述安装步骤，让 LLM 智能适配你的环境。
+Three separate changes were traced as the root causes, affecting Claude Code, the Claude Agent SDK, and Claude Cowork — while the API was not impacted.
+三项独立的变更被确认为根本原因，影响了 Claude Code、Claude Agent SDK 和 Claude Cowork，但 API 未受影响。
 
-Third: LLM knowledge bases — computation over unstructured data that was *fundamentally impossible* with classical code.
-第三：LLM 知识库——对非结构化数据的计算，这是传统代码*根本无法实现*的。
+All three issues were resolved as of April 20 (v2.1.116).
+所有三个问题已于 4 月 20 日（v2.1.116 版本）修复。
 
-He also dug into the "jaggedness" of LLMs: why one model can refactor 100k lines of code yet suggest walking to a car wash.
-他还深入探讨了 LLM 的"参差性"：为何同一模型能重构十万行代码，却又建议你步行去洗车。
+First: on March 4, Claude Code's default reasoning effort was downgraded from high to medium to reduce latency — a tradeoff users rejected.
+第一：3 月 4 日，Claude Code 的默认推理强度从 high 降至 medium 以减少延迟，但用户对此并不买账。
 
-His explanation links this to domain verifiability and RL training data economics — you're either on the rails or off-roading in the jungle.
-他的解释将此与领域可验证性和 RL 训练数据的经济逻辑相关联——你要么在轨道上飞驰，要么在丛林中徒手开路。
+This was reverted on April 7; all users now default to xhigh effort for Opus 4.7 and high for other models.
+此变更于 4 月 7 日回滚；目前所有用户默认使用 Opus 4.7 的 xhigh 推理强度，其他模型使用 high。
 
-https://x.com/karpathy/status/2049903821095354523
-https://x.com/karpathy/status/2049907410303865030
+Second: a caching optimization shipped March 26 contained a bug that wiped Claude's reasoning history on every turn after a session went idle — making Claude forgetful and causing unexpected usage limit drain.
+第二：3 月 26 日发布的缓存优化存在一个 bug，导致会话闲置后每轮对话都清除 Claude 的推理历史，使其表现出健忘症状，并导致用量限额异常消耗。
 
----
+This was fixed April 10.
+该问题已于 4 月 10 日修复。
 
-【Swyx】AI Engineer World's Fair 联合创始人，Latent Space 播客主持人
+Third: a system prompt instruction added April 16 to reduce verbosity ("keep text between tool calls to ≤25 words") caused a measurable 3% drop in coding quality; it was reverted April 20.
+第三：4 月 16 日添加的一条用于减少冗余输出的系统提示词（"工具调用间保持文字不超过 25 字"）导致代码质量下降 3%，已于 4 月 20 日回滚。
 
-Swyx declared that *"coding agents breaking containment"* is the breakout theme of 2026 — the year all knowledge workers, not just coders, get AGI-pilled.
-Swyx 宣称 *"coding agents 突破边界"* 是 2026 年的爆发主题——今年不只是程序员，所有知识工作者都将被 AGI 震撼。
-
-At the AI Engineer EU closing note, he gave a talk on how a tiny team uses agents to serve ~1M unique developers a month for free — from CMS to renting lobster inflatables.
-在 AI Engineer EU 闭幕演讲中，他分享了小团队如何用 Agent 每月免费服务约 100 万开发者——从内容管理到租充气龙虾，无所不包。
-
-*"This isn't about any one agent; it's about all of them, and how you are probably not trying hard enough to use them for daily knowledge work."*
-*"这不是关于某一个 Agent；而是关于所有 Agent，以及你可能还没有足够努力地把它们用于日常知识工作。"*
-
-https://x.com/swyx/status/2050068468498842058
+Going forward, Anthropic commits to broader eval suites for every system prompt change, tighter controls, gradual rollouts, and resetting usage limits for all subscribers.
+展望未来，Anthropic 承诺对每次系统提示词变更执行更全面的评估、更严格的管控和渐进式发布，并已为所有订阅用户重置用量限额。
 
 ---
 
-【Peter Yang】Roblox 产品负责人，AI 教程创作者
+### Claude Blog
 
-Peter Yang raised a practical pain point: OpenClaw updates can be unreliable when you ask the bot to update itself.
-Peter Yang 提出了一个实际痛点：让机器人自我更新时，OpenClaw 的更新过程经常出问题。
+**New connectors in Claude for everyday life**
+https://claude.com/blog/connectors-for-everyday-life
 
-He also asked the community for prompts to generate great YouTube thumbnails with GPT Image 2.
-他还向社区征集用 GPT Image 2 生成优质 YouTube 封面图的提示词。
+Claude is expanding its connector directory beyond work tools to everyday life apps.
+Claude 正在将其连接器目录从工作工具扩展至日常生活应用。
 
-https://x.com/petergyang/status/2050026309615792509
-https://x.com/petergyang/status/2050022980688966081
+Starting today, Claude connects to AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, Tripadvisor, Uber, Uber Eats, and Viator.
+即日起，Claude 接入 AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、Tripadvisor、Uber、Uber Eats 和 Viator。
 
----
+The directory has grown to over 200 connectors since launching in July 2025.
+自 2025 年 7 月上线以来，连接器目录已增长至超过 200 个。
 
-【Amanda Askell】Anthropic 哲学家与 AI 伦理研究员
+Claude now dynamically suggests the right connector based on your conversation context — and importantly, Claude is ad-free with no paid placements.
+Claude 现在会根据对话上下文动态推荐合适的连接器，且平台不含广告、不设付费推广位。
 
-Amanda Askell pushed back against internet fiction being written about her, noting that confidently-asserted but completely fabricated content about her has been circulating.
-Amanda Askell 反驳了网络上流传的关于她的虚构内容，指出那些言之凿凿却完全捏造的内容令人不安。
-
-*"I've increasingly seen content written about me that's asserted very confidently but is also completely made up."*
-*"我越来越多地看到关于我的内容，说得煞有介事，却完全是凭空捏造的。"*
-
-She clarified that while she personally may seem unremarkable, her actual *work* on AI alignment is anything but boring — it's both difficult and important.
-她澄清道，虽然她本人可能显得平平无奇，但她在 AI 对齐方面的实际工作绝非无聊——既困难又重要。
-
-https://x.com/AmandaAskell/status/2050020603323904369
-https://x.com/AmandaAskell/status/2050021990023758206
-https://x.com/AmandaAskell/status/2050050486523560053
+Before booking or purchasing anything on your behalf, Claude is designed to check with you first.
+在代为预订或购买任何内容之前，Claude 会先向你确认。
 
 ---
 
-【Cat Wu】Anthropic Claude Code 团队负责人
+**Built-in memory for Claude Managed Agents**
+https://claude.com/blog/claude-managed-agents-memory
 
-Cat Wu announced that Claude Security is now in public beta, built directly into Claude Code on the web.
-Cat Wu 宣布 Claude Security 现已进入公测，直接集成于网页版 Claude Code。
+Memory on Claude Managed Agents is now available in public beta.
+Claude Managed Agents 的内置记忆功能现已进入公开测试阶段。
 
-Point it at a repo, get validated vulnerability findings, and fix them in the same environment where you write code — no separate tooling required.
-将其指向一个仓库，即可获得经过验证的漏洞发现，并在同一编码环境中直接修复，无需额外工具。
+Agents can now learn from every session, with memory stored as files that developers can export, manage via API, and fully control.
+Agent 现在可以从每次会话中学习，记忆以文件形式存储，开发者可导出、通过 API 管理并完全掌控。
 
-https://x.com/_catwu/status/2049964403177689130
+Memory mounts directly onto the filesystem, letting Claude use the same bash and code execution tools it relies on for agentic tasks.
+记忆直接挂载到文件系统，让 Claude 能够使用与 agentic 任务相同的 bash 和代码执行能力。
 
----
+Real-world results: Rakuten's agents cut first-pass errors by 97%, Wisedocs sped up document verification by 30%, and Netflix agents carry context across sessions including mid-conversation human corrections.
+实际成果：Rakuten 的 agent 将首次错误率降低了 97%，Wisedocs 的文档核验速度提升了 30%，Netflix agent 可跨会话携带上下文，包括人工在对话中途的修正内容。
 
-【Amjad Masad】Replit CEO
-
-Amjad Masad shared a milestone: Replit can now go from prompt directly to a formed LLC.
-Amjad Masad 分享了一个里程碑：Replit 现在可以从一句提示词直接生成 LLC 公司注册。
-
-He also highlighted Replit treating itself as customer zero — *"We expect our usage to have insane ROI"* — with a concrete example of the payoff.
-他还强调 Replit 将自身视为"零号客户"——*"我们期待自身使用能带来疯狂的投资回报"*——并附上了一个具体的收益案例。
-
-https://x.com/amasad/status/2049934937688854993
-https://x.com/amasad/status/2049921597499445677
+Multiple agents can work concurrently against the same memory store, with full audit logs, rollback capability, and scoped permissions for enterprise deployments.
+多个 agent 可并发访问同一记忆存储，并提供完整审计日志、回滚能力和企业部署所需的权限范围管理。
 
 ---
 
-【Guillermo Rauch】Vercel CEO
+## X / TWITTER
 
-Guillermo Rauch used v0 to prototype what Vercel shipping GitHub might look like — all in just 2 prompts.
-Guillermo Rauch 用 v0 只用 2 个提示词，就原型化出了"Vercel 发布 GitHub"的界面想象。
+### Sam Altman (sama on X) — CEO, OpenAI
 
-https://x.com/rauchg/status/2049959307941179678
+Sam Altman 回归推特，分享了 OpenAI 近期举办的发布派对相关情况。
+https://x.com/sama/status/2050427808456077541
 
----
+他表示参与人数远超预期，承诺为未来发布活动策划更大规模的庆典。
+https://x.com/sama/status/2050427808456077541
 
-【Aaron Levie】Box CEO
-
-Aaron Levie published a detailed framework for how software business models will evolve as agents become the biggest users of software.
-Aaron Levie 发布了一套详细框架，阐述随着 Agent 成为软件最大用户，软件商业模式将如何演变。
-
-His three-part model: (1) seats don't disappear for people but must include API usage for agents acting on their behalf; (2) agents doing stateful work may get their own "seats" but can't be priced like human seats; (3) consumption pricing dominates for headless usage above seat allotments.
-他的三段式模型：(1) 人的席位不会消失，但必须含盖 Agent 代表用户调用 API 的用量；(2) 做有状态工作的 Agent 可能拥有自己的"席位"，但不能按人类席位定价；(3) 超出席位配额的无头使用将以消耗量计价为主。
-
-*"Every platform that goes headless will need to adopt a model like this. Some may fight it initially but it's an inevitability."*
-*"每个走向无头化的平台都需要采用这样的模型。有些可能初期会抵触，但这是必然趋势。"*
-
-*"The growth of this usage pattern is effectively unbounded as the use-cases for agents operating on data in these systems will dramatically exceed what people do with their data and tools today."*
-*"这种使用模式的增长实际上是无上限的，因为 Agent 在这些系统中操作数据的用例，将远远超过今天人类对数据和工具的使用。"*
-
-https://x.com/levie/status/2050051426446152159
+他还在推特上直接发布了 `/hatch clippy`，暗示 OpenAI 正在内测某种名为 Clippy 的新功能或 AI 形象。
+https://x.com/sama/status/2050402088266694689
 
 ---
 
-【Ryo Lu】Cursor 设计师
+### Peter Steinberger (steipete on X) — ClawFather, OpenClaw + OpenAI
 
-Ryo Lu integrated the Cursor SDK into ryOS, enabling him to make edits to the OS just by chatting with it.
-Ryo Lu 将 Cursor SDK 集成进 ryOS，现在只需与之对话即可修改操作系统。
+Peter Steinberger 对 Codex 的新 `/goal` 功能赞不绝口，该推文获得了 2020 个点赞，引发广泛关注。
+https://x.com/steipete/status/2050275598178586921
 
-He also published a sharp design essay arguing that *"no opinion is opinionated"* — the moment you decide what concepts exist in a system, you've already expressed a worldview.
-他还发表了一篇犀利的设计文章，主张 *"没有立场本身就是一种立场"*——当你决定系统中存在哪些概念时，你已经表达了一种世界观。
-
-*"Flexibility isn't the absence of opinion. It's the result of a strong opinion held in cohesion — not about one ideal workflow, but about which concepts are fundamental."*
-*"灵活性不是没有立场，而是一种内在统一的强烈立场的产物——不是关于某种理想工作流，而是关于哪些概念是根本性的。"*
-
-https://x.com/ryolu_/status/2049872551955013713
-https://x.com/ryolu_/status/2049866003287576978
+他还幽默地分享了一张截图，称告诉 Codex 他不得不付费才能让 xAI/Grok 继续运行，表达了对 AI 成本的调侃。
+https://x.com/steipete/status/2050384648119734683
 
 ---
 
-【Garry Tan】Y Combinator CEO
+### Claude (claudeai on X) — Anthropic AI
 
-Garry Tan highlighted GBrain, an MIT-licensed open-source tool he's been developing, as a perfect complement to Karpathy-style knowledge wikis for OpenClaw users.
-Garry Tan 重点推介了他开发的 MIT 协议开源工具 GBrain，称其是 OpenClaw 用户构建 Karpathy 风格知识 wiki 的绝佳补充。
+Anthropic 官方宣布"Code with Claude"开发者大会将于下周以直播形式回归，面向 Claude Code 的初学者和进阶用户均设有相关场次。
+https://x.com/claudeai/status/2050252933866930339
 
-*"3 weeks ago GBrain and Mempalace looked kind of similar. 3 weeks later, it's pretty clear GBrain is its own category that is ideal for OpenClaw/Hermes personal AI scenarios."*
-*"三周前 GBrain 和 Mempalace 看起来差不多。三周后，GBrain 明显已自成一类，最适合 OpenClaw/Hermes 个人 AI 场景。"*
-
-https://x.com/garrytan/status/2050096324100682097
-https://x.com/garrytan/status/2050095919157350644
+该推文获得超过 7500 个点赞和 727 次转发，显示出开发者社区对此的高度关注。
+https://x.com/claudeai/status/2050252933866930339
 
 ---
 
-【Zara Zhang】Builder，哈佛校友，GitHub 开发者
+### Aaron Levie (levie on X) — CEO, Box
 
-Zara Zhang shared that using ChatGPT Image 2 to make slides is *"SO fun."*
-Zara Zhang 分享了用 ChatGPT Image 2 制作幻灯片的体验，称其*"超级有趣"*。
+Box CEO Aaron Levie 发表了一篇关于 AI agent 时代企业软件走向的深度思考。
+https://x.com/levie/status/2050295657836277764
 
-https://x.com/zarazhangrui/status/2050084126414471221
+他指出，当 agent 数量达到人类的 100 倍时，真正受益的是那些承载 agent 工作流的底层系统——合规、安全、工作流、数据存储等。
+https://x.com/levie/status/2050295657836277764
 
----
-
-【Nikunj Kothari】FPV Ventures 合伙人
-
-Nikunj Kothari offered a VC moment of solidarity: he personally signed as guarantor on a founder's apartment lease because the founder's salary didn't qualify — even though their company is *"absolutely ripping."*
-Nikunj Kothari 分享了一段 VC 的温情时刻：他亲自为一位创始人的公寓租约担保，因为该创始人的薪资不够资质——尽管他们的公司*"发展势头极猛"*。
-
-He also noted the broader trend: MCPs and CLIs are making it clear that large models will orchestrate our entire lives — *"First, terminal. Then, computer use. Soon, the entire OS."*
-他还指出更宏观的趋势：MCP 和 CLI 正在表明，大模型将统筹我们的整个生活——*"先是终端，然后是计算机操作，很快就是整个操作系统。"*
-
-https://x.com/nikunj/status/2050053311408296334
-https://x.com/nikunj/status/2049871924105531672
+他还强调，大多数企业采用 AI 是为了扩大产出、加速增长，而非单纯裁员降本，"AI 降本所带来的空间很快会被竞争对手的 AI 赋能所侵蚀"。
+https://x.com/levie/status/2050240083325030404
 
 ---
 
-【Peter Steinberger】OpenClaw 联合创始人，ClawFather
+### Zara Zhang (zarazhangrui on X) — Builder
 
-Peter Steinberger announced significant improvements to OpenClaw's group chat behavior — *"I changed how agents talk there, it IS SO GOOD NOW."*
-Peter Steinberger 宣布对 OpenClaw 群聊行为进行了重大改进——*"我改变了 Agent 在群聊中的说话方式，现在真的太棒了。"*
+Zara Zhang 分享了一个独特的 AI 协作心态：她不把 coding agent 当员工来使唤，而是当联合创始人来对待。
+https://x.com/zarazhangrui/status/2050326543797469415
 
-He also highlighted that combining the Codex harness with GPT delivers dramatically better performance than vanilla GPT alone.
-他还指出，将 Codex harness 与 GPT 结合使用，性能远超单独使用 GPT。
+*"I don't just give orders. I present problems, describe the situation, and ask for their opinion."*
+"我不只是下达指令，我会呈现问题、描述背景，然后征询它的意见。"
+https://x.com/zarazhangrui/status/2050326543797469415
 
-Separately, he shared a security milestone: working with NVIDIA, OpenAI, Microsoft, GitHub, Tencent Hunyuan, Convex, Atlassian, and Blacksmith to harden OpenClaw's security posture.
-此外，他还分享了一个安全里程碑：与 NVIDIA、OpenAI、Microsoft、GitHub、腾讯混元、Convex、Atlassian 和 Blacksmith 合作，全面加固 OpenClaw 的安全防护。
-
-https://x.com/steipete/status/2049988836160074022
-https://x.com/steipete/status/2049976855617314991
+她还表示自己每天都在使用 CleanShot，已连续使用 8 年，引发不少共鸣。
+https://x.com/zarazhangrui/status/2050280810302062927
 
 ---
 
-【Dan Shipper】Every CEO，AI 媒体创始人
+### Amjad Masad (amasad on X) — CEO, Replit
 
-Dan Shipper is experimenting with using Codex + Chronicle as a personal focus tracker.
-Dan Shipper 正在尝试将 Codex + Chronicle 组合用作个人专注度追踪工具。
-
-He also shared excitement about an unspecified *"it's happening"* development, hinting at something big in the pipeline.
-他还对某项未具名的进展表达了兴奋之情，暗示有大事即将发生。
-
-https://x.com/danshipper/status/2049913064561258986
-https://x.com/danshipper/status/2050010481751167187
+Replit 迎来 10 周年！Amjad Masad 宣布为庆祝这一里程碑，Replit 在 24 小时内完全免费开放（从太平洋时间早上 5 点开始）。
+https://x.com/amasad/status/2050479551537619413
 
 ---
 
-【Aditya Agarwal】South Park Commons 联合创始人，前 Dropbox CTO
+### Swyx (swyx on X) — AI Engineer, Cognition / Temporal
 
-Aditya Agarwal shared a detailed interview with Palo Alto Networks CEO Nikesh Arora on the shape of AI-era cybersecurity.
-Aditya Agarwal 分享了与 Palo Alto Networks CEO Nikesh Arora 的深度对话，聚焦 AI 时代网络安全的新形态。
+Swyx 提出了一个有趣的产品需求：希望有一个 Chrome 扩展能增强所有网页上的图片上传框，支持纯文字生成图片、tldraw 手绘，或用文字/手绘驱动 AI 生成符合尺寸要求的图片，并直接 @了 Devin AI 来实现它。
+https://x.com/swyx/status/2050460622706626740
 
-Key thesis: AI is both the threat and the only viable solution — *"Security was never built into AI"* and *"No enterprise knows what's running inside its stack."*
-核心论点：AI 既是威胁，也是唯一可行的解法——*"安全从未被内置于 AI 中"*，且*"没有企业真正知道自己的技术栈里跑着什么"*。
-
-https://x.com/adityaag/status/2049874181509034151
+他还指出，Codex 作为 Slack 内容搜索工具的效果甚至超过了 Slack 自家的 AI 搜索功能。
+https://x.com/swyx/status/2050432398161264664
 
 ---
 
-【Sam Altman】OpenAI CEO
+### Peter Yang (petergyang on X) — Product, Roblox
 
-Sam Altman announced a major upgrade to Codex, encouraging users to try it for non-coding computer work.
-Sam Altman 宣布了 Codex 的重大升级，鼓励用户将其用于非编码的计算机工作。
+Peter Yang 发现了 Codex 的第一个"坏掉"的功能，截图引发 77 个点赞和热烈讨论。
+https://x.com/petergyang/status/2050406287008268450
 
-He also declared, in his trademark minimalist style, that *"artificial goblin intelligence"* has been achieved.
-他还以其一贯的极简风格宣布，*"人工地精智能"* 已经实现。
-
-https://x.com/sama/status/2049946120441520624
-https://x.com/sama/status/2050021650641695108
+他还坦白花了近 3000 美元购买 MacBook Pro 的"真实原因"——表面上是跑本地模型，实际上另有隐情（帖子配图省略悬念）。
+https://x.com/petergyang/status/2050394924395434233
 
 ---
 
-【Claude (claudeai)】Anthropic 官方 AI 账号
+### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
 
-The official Claude account announced Claude Security entering public beta for Enterprise customers — no API integration or custom agent build required.
-Claude 官方账号宣布 Claude Security 面向企业客户进入公测——无需 API 集成或自定义 Agent 构建。
+Nikunj Kothari 晒出了他用 AI 工具（Railway、Conductor Build、Claude AI、Stripe）构建的第一个付费项目，目前 ARR 达到 36,500 美元——他自嘲地加了一个"💀"表情。
+https://x.com/nikunj/status/2050407946438467878
 
-Since the February research preview, hundreds of organizations have used it on production code, catching issues that existing scanners missed.
-自二月研究预览以来，数百家机构已将其用于生产代码，发现了现有扫描工具遗漏的问题。
-
-New additions based on early feedback: scheduled scans, directory-level targeting, CSV and Markdown exports, webhook notifications, and persistent dismissals across scans.
-根据早期反馈新增的功能：定时扫描、目录级定向、CSV 和 Markdown 导出、webhook 通知以及跨扫描持久化忽略。
-
-https://x.com/claudeai/status/2049898741772021991
-https://x.com/claudeai/status/2049898743772696745
-https://x.com/claudeai/status/2049898745051886013
+该项目是一个房产调查报告工具，每份报告成本约 8-9 美元，几乎以成本价出售，并向正在看房的用户提供半价优惠码以换取反馈。
+https://x.com/nikunj/status/2050353986742698400
 
 ---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PODCASTS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### Dan Shipper (danshipper on X) — CEO, Every
 
-【Training Data】Demis Hassabis on Building DeepMind, AlphaFold, and the Final Stretch to AGI
+Dan Shipper 分享了一个简洁而深刻的观点：模型知道的比任何一个人都多，但任何一个人的学习速度都比模型快。
+https://x.com/danshipper/status/2050304359024759242
 
-Demis Hassabis traces a through-line from chess prodigy to neuroscientist to DeepMind founder: he decided at age 15 that AGI was the most important thing he could work on, and everything since has been deliberate preparation.
-Demis Hassabis 梳理了从国际象棋神童到神经科学家再到 DeepMind 创始人的脉络：他在 15 岁就决定 AGI 是他能做的最重要的事，此后的一切都是深思熟虑的铺垫。
+---
 
-On the key insight behind DeepMind in 2009: almost no one had realized deep learning was a big deal, and combining it with reinforcement learning — two siloed fields — was the core bet.
-关于 2009 年 DeepMind 背后的核心洞见：几乎没人意识到深度学习是大事，而将其与强化学习结合——两个彼此割裂的领域——正是核心押注。
+### Aditya Agarwal (adityaag on X) — General Partner, South Park Commons
 
-*"We almost felt like we were keepers of a secret because no one either in academia or industry really believed that any big progress was possible."*
-*"我们几乎感觉自己像是一个秘密的守护者，因为无论是学术界还是工业界，没有人真正相信任何重大进展是可能的。"*
+Aditya Agarwal 转发并点评了一篇关于初创公司致命错误的文章，他的结论一针见血：
+*"The best way to kill your company? Focus on everything except the product."*
+"毁掉公司最快的方式？把注意力放在产品之外的一切事情上。"
+https://x.com/adityaag/status/2050229509840900434
 
-On AlphaFold and Isomorphic Labs: the dream is to reduce drug discovery from an average of 10 years to months or even weeks by doing 99% of exploration *in silico*.
-关于 AlphaFold 和 Isomorphic Labs：梦想是通过在计算机中完成 99% 的探索，将药物发现时间从平均 10 年缩短至数月甚至数周。
+---
 
-On AGI timeline: consistent with his prior public statements, he puts AGI by 2030 as his over/under.
-关于 AGI 时间线：与他此前的公开表态一致，他将 2030 年作为 AGI 实现的时间分水岭。
+### Garry Tan (garrytan on X) — President & CEO, Y Combinator
 
-On information as the most fundamental quantity: he argues that information, not energy or matter, is the primary lens through which to understand the universe — and that AI is therefore more profound than most realize.
-关于信息作为最基本的量：他认为信息而非能量或物质，是理解宇宙的首要视角——因此 AI 比大多数人意识到的更为深刻。
+YC 总裁 Garry Tan 对加州拟议中的资产没收措施提出强烈批评，认为此举将驱逐富人、侵蚀加州税基，最终由中产阶级承担数十亿美元的税收缺口。
+https://x.com/garrytan/status/2050365216421241152
 
-*"I think one can convert all of those three kind of quantities into each other, but I have this feeling information is most fundamental."*
-*"我认为这三种量可以相互转化，但我有一种感觉，信息才是最根本的。"*
+---
 
-His post-AGI reading recommendation: *The Fabric of Reality* by David Deutsch.
-他的后 AGI 时代阅读推荐：David Deutsch 的《真实世界的脉络》（The Fabric of Reality）。
+## PODCASTS
 
-https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+### No Priors — Ep: Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud
+https://www.youtube.com/watch?v=XAbKflCncDo
+
+Baseten (Base10) CEO Tuhin Srivastava joins No Priors to discuss the AI inference market, which his company has grown 30x in one year and is on track to exceed $1B in revenue.
+Baseten（Base10）CEO Tuhin Srivastava 受邀参加 No Priors 播客，分享了 AI inference 市场的现状——他的公司在一年内实现了 30 倍增长，预计年收入将突破 10 亿美元。
+
+The central thesis: inference is the "last market" — even post-AGI, what remains is inference.
+核心论点：inference 是"最后的市场"——即便 AGI 实现之后，最终留下的也是 inference。
+
+On the application layer question, Tuhin argues it will survive because differentiated user signal (e.g., clinical workflows at Abridge) can't be replicated by frontier labs — and that signal, encoded in fine-tuned models and long-horizon agentic loops, is where durable moats get built.
+关于应用层能否存活的问题，Tuhin 认为答案是肯定的：差异化的用户信号（例如 Abridge 在临床工作流中积累的数据）无法被前沿实验室复制，而这种信号编码进定制模型和长链路 agentic 循环中，正是构筑护城河的关键。
+
+On workloads: 95%+ of tokens served on Baseten are on custom models — nobody is running vanilla open-source weights.
+关于工作负载：Baseten 上超过 95% 的 token 来自定制模型，没有人真正在跑原始的开源权重。
+
+On the supply crunch: Baseten runs across 90 clusters in 18 clouds at "uncomfortably high utilization" (mid-90s%), and holds a 4PM daily standing meeting just to manage capacity.
+关于算力紧缺：Baseten 在 18 个云平台上运行 90 个集群，利用率高得"让人不安"（90% 中段），并为此每天下午 4 点召开专项容量管理会议。
+
+On Chinese models: Tuhin sees no real evidence of embedded malicious code, but stresses the importance of the US maintaining strong open-source model output — noting that DeepSeek could be run at ~20% the cost of comparable proprietary models.
+关于中国模型：Tuhin 表示没有看到嵌入恶意代码的真实证据，但强调美国必须保持强大的开源模型产出——他指出 DeepSeek 的运行成本约为同类闭源模型的 20%。
+
+On Jevons paradox: cheaper inference doesn't reduce demand — it expands it, because developers insert more intelligence when costs drop.
+关于 Jevons 悖论：更便宜的 inference 不会减少需求，反而会扩大需求，因为成本下降时开发者会嵌入更多 AI 能力。
+
+Key forward-looking signal: the next frontier is closing the loop between inference and post-training — where inference generates data, evals surface reward signals, and continual learning becomes a solved problem rather than a discrete event.
+最值得关注的前瞻信号：下一个前沿是打通 inference 与 post-training 之间的循环——inference 生成数据、eval 挖掘奖励信号、持续学习从一次性事件变成常态化能力。
 
 ---
 
