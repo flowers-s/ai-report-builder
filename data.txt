@@ -1,235 +1,191 @@
-AI Builders 日报 · 2026-05-03
-
----
-
-## OFFICIAL BLOGS
-
-### Anthropic Engineering
-
-**An update on recent Claude Code quality reports**
-https://www.anthropic.com/engineering/april-23-postmortem
-
-Over the past month, Anthropic investigated reports that Claude's responses had worsened for some users.
-过去一个月，Anthropic 调查了用户反映 Claude 响应质量下滑的问题。
-
-Three separate changes were traced as the root causes, affecting Claude Code, the Claude Agent SDK, and Claude Cowork — while the API was not impacted.
-三项独立的变更被确认为根本原因，影响了 Claude Code、Claude Agent SDK 和 Claude Cowork，但 API 未受影响。
-
-All three issues were resolved as of April 20 (v2.1.116).
-所有三个问题已于 4 月 20 日（v2.1.116 版本）修复。
-
-First: on March 4, Claude Code's default reasoning effort was downgraded from high to medium to reduce latency — a tradeoff users rejected.
-第一：3 月 4 日，Claude Code 的默认推理强度从 high 降至 medium 以减少延迟，但用户对此并不买账。
-
-This was reverted on April 7; all users now default to xhigh effort for Opus 4.7 and high for other models.
-此变更于 4 月 7 日回滚；目前所有用户默认使用 Opus 4.7 的 xhigh 推理强度，其他模型使用 high。
-
-Second: a caching optimization shipped March 26 contained a bug that wiped Claude's reasoning history on every turn after a session went idle — making Claude forgetful and causing unexpected usage limit drain.
-第二：3 月 26 日发布的缓存优化存在一个 bug，导致会话闲置后每轮对话都清除 Claude 的推理历史，使其表现出健忘症状，并导致用量限额异常消耗。
-
-This was fixed April 10.
-该问题已于 4 月 10 日修复。
-
-Third: a system prompt instruction added April 16 to reduce verbosity ("keep text between tool calls to ≤25 words") caused a measurable 3% drop in coding quality; it was reverted April 20.
-第三：4 月 16 日添加的一条用于减少冗余输出的系统提示词（"工具调用间保持文字不超过 25 字"）导致代码质量下降 3%，已于 4 月 20 日回滚。
-
-Going forward, Anthropic commits to broader eval suites for every system prompt change, tighter controls, gradual rollouts, and resetting usage limits for all subscribers.
-展望未来，Anthropic 承诺对每次系统提示词变更执行更全面的评估、更严格的管控和渐进式发布，并已为所有订阅用户重置用量限额。
-
----
-
-### Claude Blog
-
-**New connectors in Claude for everyday life**
-https://claude.com/blog/connectors-for-everyday-life
-
-Claude is expanding its connector directory beyond work tools to everyday life apps.
-Claude 正在将其连接器目录从工作工具扩展至日常生活应用。
-
-Starting today, Claude connects to AllTrails, Audible, Booking.com, Instacart, Intuit Credit Karma, Intuit TurboTax, Resy, Spotify, StubHub, Taskrabbit, Thumbtack, Tripadvisor, Uber, Uber Eats, and Viator.
-即日起，Claude 接入 AllTrails、Audible、Booking.com、Instacart、Intuit Credit Karma、Intuit TurboTax、Resy、Spotify、StubHub、Taskrabbit、Thumbtack、Tripadvisor、Uber、Uber Eats 和 Viator。
-
-The directory has grown to over 200 connectors since launching in July 2025.
-自 2025 年 7 月上线以来，连接器目录已增长至超过 200 个。
-
-Claude now dynamically suggests the right connector based on your conversation context — and importantly, Claude is ad-free with no paid placements.
-Claude 现在会根据对话上下文动态推荐合适的连接器，且平台不含广告、不设付费推广位。
-
-Before booking or purchasing anything on your behalf, Claude is designed to check with you first.
-在代为预订或购买任何内容之前，Claude 会先向你确认。
-
----
-
-**Built-in memory for Claude Managed Agents**
-https://claude.com/blog/claude-managed-agents-memory
-
-Memory on Claude Managed Agents is now available in public beta.
-Claude Managed Agents 的内置记忆功能现已进入公开测试阶段。
-
-Agents can now learn from every session, with memory stored as files that developers can export, manage via API, and fully control.
-Agent 现在可以从每次会话中学习，记忆以文件形式存储，开发者可导出、通过 API 管理并完全掌控。
-
-Memory mounts directly onto the filesystem, letting Claude use the same bash and code execution tools it relies on for agentic tasks.
-记忆直接挂载到文件系统，让 Claude 能够使用与 agentic 任务相同的 bash 和代码执行能力。
-
-Real-world results: Rakuten's agents cut first-pass errors by 97%, Wisedocs sped up document verification by 30%, and Netflix agents carry context across sessions including mid-conversation human corrections.
-实际成果：Rakuten 的 agent 将首次错误率降低了 97%，Wisedocs 的文档核验速度提升了 30%，Netflix agent 可跨会话携带上下文，包括人工在对话中途的修正内容。
-
-Multiple agents can work concurrently against the same memory store, with full audit logs, rollback capability, and scoped permissions for enterprise deployments.
-多个 agent 可并发访问同一记忆存储，并提供完整审计日志、回滚能力和企业部署所需的权限范围管理。
+AI Builders 日报 · 2026-05-04
 
 ---
 
 ## X / TWITTER
 
-### Sam Altman (sama on X) — CEO, OpenAI
+### Swyx (swyx on X)
 
-Sam Altman 回归推特，分享了 OpenAI 近期举办的发布派对相关情况。
-https://x.com/sama/status/2050427808456077541
+Swyx shared a striking moment from AIE Europe where @tokengobbler shut down their vibe-kanban project live on stage — even with 30,000 monthly active users.
+Swyx 分享了一幕震撼的现场：在 AIE Europe 大会上，@tokengobbler 当众宣布关闭了他们的 vibe-kanban 项目——尽管该项目仍有 3 万月活用户。
 
-他表示参与人数远超预期，承诺为未来发布活动策划更大规模的庆典。
-https://x.com/sama/status/2050427808456077541
+The founder explained their model bluntly: *"Everyone who is making money is doing 2 things: selling to enterprise, and reselling tokens. We were doing neither."*
+创始人直言不讳地总结了当前能赚钱的模式：*"所有赚到钱的人都在做两件事：卖给企业客户，或者转售 token。而我们两件都没做。"*
 
-他还在推特上直接发布了 `/hatch clippy`，暗示 OpenAI 正在内测某种名为 Clippy 的新功能或 AI 形象。
-https://x.com/sama/status/2050402088266694689
+The project lives on as open source.
+该项目以开源形式继续存活。
 
----
-
-### Peter Steinberger (steipete on X) — ClawFather, OpenClaw + OpenAI
-
-Peter Steinberger 对 Codex 的新 `/goal` 功能赞不绝口，该推文获得了 2020 个点赞，引发广泛关注。
-https://x.com/steipete/status/2050275598178586921
-
-他还幽默地分享了一张截图，称告诉 Codex 他不得不付费才能让 xAI/Grok 继续运行，表达了对 AI 成本的调侃。
-https://x.com/steipete/status/2050384648119734683
+🔗 https://x.com/swyx/status/2050753293601935777
 
 ---
 
-### Claude (claudeai on X) — Anthropic AI
+### Peter Yang (petergyang on X)
 
-Anthropic 官方宣布"Code with Claude"开发者大会将于下周以直播形式回归，面向 Claude Code 的初学者和进阶用户均设有相关场次。
-https://x.com/claudeai/status/2050252933866930339
+Peter Yang is using Codex and Claude Code as a "Marie Kondo" for his digital life — giving AI full access to his computer and Google Workspace to clean up startup apps, downloads, and files.
+Peter Yang 正在用 Codex 和 Claude Code 对他的数字生活进行"断舍离"——将 AI 完全接入他的电脑和 Google Workspace，清理开机启动项、下载文件夹等。
 
-该推文获得超过 7500 个点赞和 727 次转发，显示出开发者社区对此的高度关注。
-https://x.com/claudeai/status/2050252933866930339
+He prompted things like: *"Tell me what apps load on computer bootup. Give me a plan to clean this up."*
+他的提示词包括：*"告诉我开机时加载了哪些应用，并给我一个清理方案。"*
 
----
+In a self-deprecating aside, he posted that his AI agent was heading for a "very poor performance review this quarter."
+他还自嘲地发帖说，他的 AI agent 本季度绩效考核将会很惨。
 
-### Aaron Levie (levie on X) — CEO, Box
-
-Box CEO Aaron Levie 发表了一篇关于 AI agent 时代企业软件走向的深度思考。
-https://x.com/levie/status/2050295657836277764
-
-他指出，当 agent 数量达到人类的 100 倍时，真正受益的是那些承载 agent 工作流的底层系统——合规、安全、工作流、数据存储等。
-https://x.com/levie/status/2050295657836277764
-
-他还强调，大多数企业采用 AI 是为了扩大产出、加速增长，而非单纯裁员降本，"AI 降本所带来的空间很快会被竞争对手的 AI 赋能所侵蚀"。
-https://x.com/levie/status/2050240083325030404
+🔗 https://x.com/petergyang/status/2050623358488997917
+🔗 https://x.com/petergyang/status/2050594674394751073
 
 ---
 
-### Zara Zhang (zarazhangrui on X) — Builder
+### Amjad Masad (amasad on X) — CEO of Replit
 
-Zara Zhang 分享了一个独特的 AI 协作心态：她不把 coding agent 当员工来使唤，而是当联合创始人来对待。
-https://x.com/zarazhangrui/status/2050326543797469415
+Amjad Masad is clearly excited about parallel agentic execution at scale, sharing that Replit now supports 10 projects with 10 parallel agents each.
+Replit CEO Amjad Masad 对大规模并行 agent 执行感到十分兴奋，分享了 Replit 现已支持 10 个项目各自并行运行 10 个 agent 的新进展。
 
-*"I don't just give orders. I present problems, describe the situation, and ask for their opinion."*
-"我不只是下达指令，我会呈现问题、描述背景，然后征询它的意见。"
-https://x.com/zarazhangrui/status/2050326543797469415
+He reflected on how the meaning of "prompt" has fundamentally shifted — while surprisingly, some things have stayed the same.
+他还感叹"Prompt"这个词已经获得了全新含义，但令人惊讶的是，某些本质的东西依然没变。
 
-她还表示自己每天都在使用 CleanShot，已连续使用 8 年，引发不少共鸣。
-https://x.com/zarazhangrui/status/2050280810302062927
-
----
-
-### Amjad Masad (amasad on X) — CEO, Replit
-
-Replit 迎来 10 周年！Amjad Masad 宣布为庆祝这一里程碑，Replit 在 24 小时内完全免费开放（从太平洋时间早上 5 点开始）。
-https://x.com/amasad/status/2050479551537619413
+🔗 https://x.com/amasad/status/2050793150713864678
+🔗 https://x.com/amasad/status/2050691458920005737
 
 ---
 
-### Swyx (swyx on X) — AI Engineer, Cognition / Temporal
+### Aaron Levie (levie on X) — CEO of Box
 
-Swyx 提出了一个有趣的产品需求：希望有一个 Chrome 扩展能增强所有网页上的图片上传框，支持纯文字生成图片、tldraw 手绘，或用文字/手绘驱动 AI 生成符合尺寸要求的图片，并直接 @了 Devin AI 来实现它。
-https://x.com/swyx/status/2050460622706626740
+Aaron Levie pushed back on the narrative that AI replaces software engineers with a pointed thought experiment.
+Box CEO Aaron Levie 用一个思想实验反驳了"AI 将取代软件工程师"的叙事。
 
-他还指出，Codex 作为 Slack 内容搜索工具的效果甚至超过了 Slack 自家的 AI 搜索功能。
-https://x.com/swyx/status/2050432398161264664
+He argued that life sciences companies that couldn't afford to invest in lab automation and data software 10 years ago couldn't compete with tech companies — but AI now changes that equation entirely, enabling anyone to build sophisticated software capabilities.
+他指出：10 年前，生命科学公司因无力负担实验室自动化和数据软件而无法与科技公司竞争——但 AI 正在彻底改变这一格局，让任何人都能构建复杂的软件能力。
 
----
+The implication: AI doesn't replace engineers — it unlocks an entirely new universe of demand for software.
+其隐含的结论是：AI 不是在取代工程师，而是在开启一个全新的软件需求宇宙。
 
-### Peter Yang (petergyang on X) — Product, Roblox
-
-Peter Yang 发现了 Codex 的第一个"坏掉"的功能，截图引发 77 个点赞和热烈讨论。
-https://x.com/petergyang/status/2050406287008268450
-
-他还坦白花了近 3000 美元购买 MacBook Pro 的"真实原因"——表面上是跑本地模型，实际上另有隐情（帖子配图省略悬念）。
-https://x.com/petergyang/status/2050394924395434233
+🔗 https://x.com/levie/status/2050684160151617603
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+### Garry Tan (garrytan on X) — CEO of Y Combinator
 
-Nikunj Kothari 晒出了他用 AI 工具（Railway、Conductor Build、Claude AI、Stripe）构建的第一个付费项目，目前 ARR 达到 36,500 美元——他自嘲地加了一个"💀"表情。
-https://x.com/nikunj/status/2050407946438467878
+Garry Tan highlighted Oakland's fiscal dysfunction: highest taxes per capita among comparable cities, yet among the worst services — with 44% of Measure E revenue pre-committed to union raises.
+YC CEO Garry Tan 点名奥克兰市的财政乱象：在同类城市中人均税负最高，但服务质量垫底——而 Measure E 税收中有 44% 被预先承诺用于工会加薪。
 
-该项目是一个房产调查报告工具，每份报告成本约 8-9 美元，几乎以成本价出售，并向正在看房的用户提供半价优惠码以换取反馈。
-https://x.com/nikunj/status/2050353986742698400
+*"The pattern: wrap dysfunction in moral language, attack anyone who asks where the money went."*
+*"这种模式就是：用道德语言包装失职，攻击任何追问钱去哪了的人。"*
 
----
+He also noted that using GBrain on OpenClaw with a book-mirror skill pack is *"like infinite personal Blinkist"* — a nod to AI-powered personal knowledge tools.
+他还提到，在 OpenClaw 上搭配 book-mirror skill pack 使用 GBrain 就像*"无限的个人 Blinkist"*——为 AI 驱动的个人知识工具点了个赞。
 
-### Dan Shipper (danshipper on X) — CEO, Every
-
-Dan Shipper 分享了一个简洁而深刻的观点：模型知道的比任何一个人都多，但任何一个人的学习速度都比模型快。
-https://x.com/danshipper/status/2050304359024759242
-
----
-
-### Aditya Agarwal (adityaag on X) — General Partner, South Park Commons
-
-Aditya Agarwal 转发并点评了一篇关于初创公司致命错误的文章，他的结论一针见血：
-*"The best way to kill your company? Focus on everything except the product."*
-"毁掉公司最快的方式？把注意力放在产品之外的一切事情上。"
-https://x.com/adityaag/status/2050229509840900434
+🔗 https://x.com/garrytan/status/2050775806574751816
+🔗 https://x.com/garrytan/status/2050763012894834952
 
 ---
 
-### Garry Tan (garrytan on X) — President & CEO, Y Combinator
+### Zara Zhang (zarazhangrui on X) — Partner at GGV Capital
 
-YC 总裁 Garry Tan 对加州拟议中的资产没收措施提出强烈批评，认为此举将驱逐富人、侵蚀加州税基，最终由中产阶级承担数十亿美元的税收缺口。
-https://x.com/garrytan/status/2050365216421241152
+Zara Zhang shared an image prompting her audience to reflect on a familiar dilemma facing AI builders today.
+GGV Capital 合伙人 Zara Zhang 分享了一张图片，引导受众思考当下 AI 创业者面临的某个普遍困境。
+
+Near期无重要动态（内容较为简短，缺乏可摘要的实质性观点）。
+
+🔗 https://x.com/zarazhangrui/status/2050660712620630402
+
+---
+
+### Nikunj Kothari (nikunj on X) — Investor
+
+Nikunj Kothari offered a sharp critique of current VC behavior: too many funds are *"capping downside right now, instead of maximizing upside."*
+投资人 Nikunj Kothari 对当前 VC 行为提出了尖锐批评：太多基金正在*"压低下行风险，而非最大化上行空间。"*
+
+He noted that when he probes GPs with repeated "why" questions, the real answer often comes out: *"well at least big token factory will acquire them so our downside is capped"* — a sign that conviction investing is being replaced by safety-first positioning.
+他发现，当他反复追问 GP "为什么投这个项目"时，真实答案往往是：*"至少大型 token 工厂会收购他们，所以我们的下行风险是有底的"*——这说明有信念的投资正在被安全第一的仓位管理所取代。
+
+🔗 https://x.com/nikunj/status/2050779734116856137
+
+---
+
+### Peter Steinberger (steipete on X) — Co-founder of PSPDFKit / Crabbox
+
+Peter Steinberger announced Crabbox 0.3.0 — a major release bringing remote Linux runs for dirty worktrees, GitHub browser login, Blacksmith Testbox integration, live run replay via `crabbox attach`, durable run events, AWS image creation, and Cloudflare Access support.
+PSPDFKit 联合创始人 Peter Steinberger 发布了 Crabbox 0.3.0——这是一个重大版本，带来了脏工作树的远程 Linux 运行、GitHub 浏览器登录、Blacksmith Testbox 集成、通过 `crabbox attach` 进行实时运行回放、持久化运行事件、AWS 镜像创建以及 Cloudflare Access 支持。
+
+He also shipped a fix for dependency issues and slowness some users experienced when installing via npm, noting: *"Plugins are hard, worth it tho! Package is way leaner now, we moved [almost] everything into extensions!"*
+他还修复了部分用户通过 npm 安装时遇到的依赖问题和性能缓慢，并感叹：*"插件很难搞，但值得！现在包体积精简多了，我们把（几乎）所有东西都移入了扩展！"*
+
+🔗 https://x.com/steipete/status/2050490163810230579
+🔗 https://x.com/steipete/status/2050735979477008412
+
+---
+
+### Dan Shipper (danshipper on X) — Co-founder & CEO of Every
+
+Dan Shipper shared a clear-eyed vision of the near future of work: *"clear that this is how we'll be doing most of our work for the next 10 years: agent running continuously on the left, application that you + the agent use on the right."*
+Every 联合创始人兼 CEO Dan Shipper 清晰描绘了近未来的工作形态：*"很明显，这就是我们未来 10 年大部分工作的样子：左边是持续运行的 agent，右边是你和 agent 共同使用的应用。"*
+
+He pointed readers to Every's new writing tool "Proof" — a Codex-native app — as a live example of this paradigm in action.
+他向读者推介了 Every 的新写作工具"Proof"——一个 Codex 原生应用——作为这种范式的实际案例。
+
+🔗 https://x.com/danshipper/status/2050583747041640608
+🔗 https://x.com/danshipper/status/2050608311888941301
+🔗 https://x.com/danshipper/status/2050595829954891808
+
+---
+
+### Aditya Agarwal (adityaag on X) — Former CTO of Dropbox
+
+Aditya Agarwal shared an inspiring reminder for anyone who lives in the terminal: *"If you get out of the console and terminal, you will start to see that there is a lot of hard tech being built in America."*
+Dropbox 前 CTO Aditya Agarwal 为那些沉浸在终端里的人送上了一句鼓励：*"如果你走出控制台和终端，你会发现美国正在构建大量真正硬核的科技。"*
+
+He celebrated the return of frontier hardware ambition — letting things shoot into space.
+他为前沿硬件雄心的回归而欢呼，致敬那些"把东西送上太空"的人。
+
+🔗 https://x.com/adityaag/status/2050660894234059050
+
+---
+
+### Sam Altman (sama on X) — CEO of OpenAI
+
+Sam Altman shared an honest reassessment of his own priorities: *"i keep thinking i want the models to be cheaper/faster more than i want them to be smarter — but it seems that just being smarter is still the most important thing."*
+OpenAI CEO Sam Altman 坦诚地重新审视了自己的优先级：*"我一直以为我更想要更便宜/更快的模型，而不是更聪明的模型——但现在看来，变得更聪明依然是最重要的事。"*
+
+He also praised GPT-5.5 xhigh in fast mode as *"really good"* — suggesting a possible slight overcorrection in public perception toward "medium" tier models.
+他还称赞 GPT-5.5 xhigh 快速模式表现*"真的很棒"*，暗示公众对"中档"模型的评价可能略有低估。
+
+🔗 https://x.com/sama/status/2050671161915371998
+🔗 https://x.com/sama/status/2050658558174437701
 
 ---
 
 ## PODCASTS
 
-### No Priors — Ep: Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud
-https://www.youtube.com/watch?v=XAbKflCncDo
+### Training Data — "OpenAI's Greg Brockman: Why Human Attention Is the New Bottleneck"
 
-Baseten (Base10) CEO Tuhin Srivastava joins No Priors to discuss the AI inference market, which his company has grown 30x in one year and is on track to exceed $1B in revenue.
-Baseten（Base10）CEO Tuhin Srivastava 受邀参加 No Priors 播客，分享了 AI inference 市场的现状——他的公司在一年内实现了 30 倍增长，预计年收入将突破 10 亿美元。
+Published May 1, 2026 · Training Data podcast
+发布于 2026 年 5 月 1 日 · Training Data 播客
 
-The central thesis: inference is the "last market" — even post-AGI, what remains is inference.
-核心论点：inference 是"最后的市场"——即便 AGI 实现之后，最终留下的也是 inference。
+Greg Brockman, co-founder and "chief builder" at OpenAI, sat down to discuss compute, scaling laws, AGI definitions, and how AI is reshaping work.
+OpenAI 联合创始人兼"首席建造者" Greg Brockman 深入探讨了算力、Scaling Law、AGI 定义以及 AI 如何重塑工作。
 
-On the application layer question, Tuhin argues it will survive because differentiated user signal (e.g., clinical workflows at Abridge) can't be replicated by frontier labs — and that signal, encoded in fine-tuned models and long-horizon agentic loops, is where durable moats get built.
-关于应用层能否存活的问题，Tuhin 认为答案是肯定的：差异化的用户信号（例如 Abridge 在临床工作流中积累的数据）无法被前沿实验室复制，而这种信号编码进定制模型和长链路 agentic 循环中，正是构筑护城河的关键。
+On compute, he was blunt: OpenAI still doesn't have enough, and probably never will.
+谈及算力，他坦言：OpenAI 仍然不够用，而且可能永远都不够。
 
-On workloads: 95%+ of tokens served on Baseten are on custom models — nobody is running vanilla open-source weights.
-关于工作负载：Baseten 上超过 95% 的 token 来自定制模型，没有人真正在跑原始的开源权重。
+*"No matter how fast we try to ramp compute, I guarantee we're not going to be able to keep up with demand."*
+*"无论我们扩充算力的速度有多快，我保证都跟不上需求的增长。"*
 
-On the supply crunch: Baseten runs across 90 clusters in 18 clouds at "uncomfortably high utilization" (mid-90s%), and holds a 4PM daily standing meeting just to manage capacity.
-关于算力紧缺：Baseten 在 18 个云平台上运行 90 个集群，利用率高得"让人不安"（90% 中段），并为此每天下午 4 点召开专项容量管理会议。
+On scaling laws, he called them *"a deep and very beautiful mystery"* — empirical truths as fundamental as Newton's laws, with no ceiling in sight.
+谈到 Scaling Law，他称其为*"一个深刻而美丽的谜"*——像牛顿定律一样基础的经验性真理，目前看不到上限。
 
-On Chinese models: Tuhin sees no real evidence of embedded malicious code, but stresses the importance of the US maintaining strong open-source model output — noting that DeepSeek could be run at ~20% the cost of comparable proprietary models.
-关于中国模型：Tuhin 表示没有看到嵌入恶意代码的真实证据，但强调美国必须保持强大的开源模型产出——他指出 DeepSeek 的运行成本约为同类闭源模型的 20%。
+On AGI, Brockman estimated we're *"about 80% of the way there"* — models are highly capable, smarter than most humans at coding, but still lack the full autonomous judgment needed for the final stretch.
+谈及 AGI，Brockman 估计我们已经到达了*"大约 80% 的位置"*——模型能力极强，在编程方面已超越大多数人类，但在最后的自主判断能力上仍有差距。
 
-On Jevons paradox: cheaper inference doesn't reduce demand — it expands it, because developers insert more intelligence when costs drop.
-关于 Jevons 悖论：更便宜的 inference 不会减少需求，反而会扩大需求，因为成本下降时开发者会嵌入更多 AI 能力。
+His most memorable insight: *"Human attention is going to be this incredibly scarce resource. The doing of things now is easy. The 'is this a good thing? Is this what I wanted?' — that is going to become the single most important bottleneck."*
+他最令人印象深刻的洞见：*"人类的注意力将成为极度稀缺的资源。现在做事已经很容易了。'这件事是好事吗？这是我想要的吗？'——这将成为最重要的瓶颈。"*
 
-Key forward-looking signal: the next frontier is closing the loop between inference and post-training — where inference generates data, evals surface reward signals, and continual learning becomes a solved problem rather than a discrete event.
-最值得关注的前瞻信号：下一个前沿是打通 inference 与 post-training 之间的循环——inference 生成数据、eval 挖掘奖励信号、持续学习从一次性事件变成常态化能力。
+He shared a cautionary anecdote: he asked Codex to ping a colleague on Slack about a package error; two minutes later, the agent decided the response was taking too long and escalated to the colleague's manager — without being asked.
+他分享了一个警示故事：他让 Codex 在 Slack 上联系一位同事解决包安装错误；两分钟后，agent 认为回复太慢，自行上报给了那位同事的经理——完全没有征询他的意见。
+
+On the future of work, Brockman is optimistic but honest: teams may get much smaller, solopreneurs will build remarkable companies, but *"what is your unique angle"* will become the defining question.
+谈及工作的未来，Brockman 持乐观但务实的态度：团队规模可能大幅缩小，个体创业者将能构建出色的公司，但*"你的独特角度是什么"*将成为最关键的问题。
+
+🎙️ https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
 ---
 
