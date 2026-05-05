@@ -1,191 +1,175 @@
-AI Builders 日报 · 2026-05-04
+AI Builders 日报 · 2026-05-05
 
 ---
 
-## X / TWITTER
+## 🎙️ PODCASTS
+
+### Training Data — "Andrej Karpathy: From Vibe Coding to Agentic Engineering"
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+Andrej Karpathy joined the Training Data podcast to talk about the transition from vibe coding to agentic engineering.
+Andrej Karpathy 出席 Training Data 播客，讲述从"随兴编程"到 Agent 工程的演变。
+
+He described December 2025 as the inflection point where AI coding agents stopped needing corrections and started producing coherent, large-scale work reliably.
+他将 2025 年 12 月描述为关键转折点：AI 编程 agent 不再需要人工纠错，开始可靠地完成大规模任务。
+
+*"I can't remember the last time I corrected it. And then I was bad coding."*
+"我已经记不得上次纠正它是什么时候了。然后我自己反而变成了差劲的程序员。"
+
+Karpathy introduced the "Software 3.0" paradigm: LLMs are programmable computers where prompting replaces coding, and the context window is your lever over the interpreter.
+Karpathy 提出"Software 3.0"范式：LLM 是可编程的计算机，prompt 取代了代码，context window 就是你对 interpreter 的控制杆。
+
+He contrasted "vibe coding" (raising the floor for everyone) with "agentic engineering" (preserving a professional quality bar while going faster).
+他对比了"随兴编程"（拉高所有人的下限）与"agent 工程"（在保持专业质量标准的同时提速）。
+
+*"10x is not the speed up you gain. People who are very good at this peak a lot more than 10x."*
+"10 倍速不是你实际获得的提速幅度。真正擅长这件事的人，能达到远超 10 倍的峰值。"
+
+On "jagged intelligence": AI models excel in verifiable domains (math, code) because labs use reinforcement learning with verification rewards — but remain surprisingly weak outside those circuits.
+关于"锯齿形智能"：AI 在可验证领域（数学、代码）表现出色，因为实验室使用带验证奖励的强化学习训练，但在这些回路之外却意外地脆弱。
+
+His key framing on what remains human: *"You can outsource your thinking, but you can't outsource your understanding."*
+他对"人类价值何在"的核心判断："你可以外包你的思考，但你无法外包你的理解。"
+
+---
+
+## 🐦 X / TWITTER
+
+---
 
 ### Swyx (swyx on X)
-
-Swyx shared a striking moment from AIE Europe where @tokengobbler shut down their vibe-kanban project live on stage — even with 30,000 monthly active users.
-Swyx 分享了一幕震撼的现场：在 AIE Europe 大会上，@tokengobbler 当众宣布关闭了他们的 vibe-kanban 项目——尽管该项目仍有 3 万月活用户。
-
-The founder explained their model bluntly: *"Everyone who is making money is doing 2 things: selling to enterprise, and reselling tokens. We were doing neither."*
-创始人直言不讳地总结了当前能赚钱的模式：*"所有赚到钱的人都在做两件事：卖给企业客户，或者转售 token。而我们两件都没做。"*
-
-The project lives on as open source.
-该项目以开源形式继续存活。
-
-🔗 https://x.com/swyx/status/2050753293601935777
+Swyx (@dxtipshq / @cognition / @latentspacepod) 近期发布了一篇短篇小说，花了他三年时间才完成第二篇。
+Swyx published his second short story — took him three years to write it, and called it out as a personal milestone.
+他表示这是个人里程碑，终于完成了这篇拖延已久的创作。
+He also noted the Training Data show with Karpathy is now free on YouTube — worth watching for anyone following the agentic engineering wave.
+他还提到 Karpathy 出席的 Training Data 节目现已在 YouTube 免费观看。
+https://x.com/swyx/status/2051025640657449249
+https://x.com/swyx/status/2051115027210346936
 
 ---
 
-### Peter Yang (petergyang on X)
+### Peter Yang — Product at Roblox / AI newsletter creator (petergyang on X)
 
-Peter Yang is using Codex and Claude Code as a "Marie Kondo" for his digital life — giving AI full access to his computer and Google Workspace to clean up startup apps, downloads, and files.
-Peter Yang 正在用 Codex 和 Claude Code 对他的数字生活进行"断舍离"——将 AI 完全接入他的电脑和 Google Workspace，清理开机启动项、下载文件夹等。
+Peter Yang shared a practical tip that went viral: keep your AI agents running even when your MacBook lid is closed by using the Amphetamine app.
+Peter Yang 分享了一个爆火的实用技巧：使用 Amphetamine 应用，让 MacBook 合盖后 AI agent 仍能持续运行。
+*"How to keep your agents running even when your macbook lid is closed"* — 589 likes, clearly hit a nerve.
+这条推文获 589 个赞，显然戳中了许多人的痛点。
+https://x.com/petergyang/status/2050963126234034387
 
-He prompted things like: *"Tell me what apps load on computer bootup. Give me a plan to clean this up."*
-他的提示词包括：*"告诉我开机时加载了哪些应用，并给我一个清理方案。"*
-
-In a self-deprecating aside, he posted that his AI agent was heading for a "very poor performance review this quarter."
-他还自嘲地发帖说，他的 AI agent 本季度绩效考核将会很惨。
-
-🔗 https://x.com/petergyang/status/2050623358488997917
-🔗 https://x.com/petergyang/status/2050594674394751073
+He also crowdsourced honest comparisons between Hermes and OpenClaw from his audience — 210 replies worth of community signal.
+他还向受众征集了 Hermes 与 OpenClaw 的真实对比体验，引发了 210 条回复，是难得的社区信号源。
+https://x.com/petergyang/status/2051129249348894754
 
 ---
 
-### Amjad Masad (amasad on X) — CEO of Replit
+### Amjad Masad — CEO of Replit (amasad on X)
 
-Amjad Masad is clearly excited about parallel agentic execution at scale, sharing that Replit now supports 10 projects with 10 parallel agents each.
-Replit CEO Amjad Masad 对大规模并行 agent 执行感到十分兴奋，分享了 Replit 现已支持 10 个项目各自并行运行 10 个 agent 的新进展。
+Amjad Masad highlighted Replit's agentic parallelism scale: 10 active, 198 draft, 700+ completed agent runs — claiming no platform on the internet does more agentic parallel work.
+Amjad Masad 展示了 Replit 的 agent 并行规模：10 个运行中、198 个草稿、700+ 已完成，并声称这是互联网上 agent 并行量最高的平台。
+*"I don't think there's more agentic parallelism happening anywhere else on the internet than what happens on Replit."*
+"我认为互联网上没有任何地方的 agent 并行度能超过 Replit。"
+https://x.com/amasad/status/2051167532523074015
 
-He reflected on how the meaning of "prompt" has fundamentally shifted — while surprisingly, some things have stayed the same.
-他还感叹"Prompt"这个词已经获得了全新含义，但令人惊讶的是，某些本质的东西依然没变。
-
-🔗 https://x.com/amasad/status/2050793150713864678
-🔗 https://x.com/amasad/status/2050691458920005737
-
----
-
-### Aaron Levie (levie on X) — CEO of Box
-
-Aaron Levie pushed back on the narrative that AI replaces software engineers with a pointed thought experiment.
-Box CEO Aaron Levie 用一个思想实验反驳了"AI 将取代软件工程师"的叙事。
-
-He argued that life sciences companies that couldn't afford to invest in lab automation and data software 10 years ago couldn't compete with tech companies — but AI now changes that equation entirely, enabling anyone to build sophisticated software capabilities.
-他指出：10 年前，生命科学公司因无力负担实验室自动化和数据软件而无法与科技公司竞争——但 AI 正在彻底改变这一格局，让任何人都能构建复杂的软件能力。
-
-The implication: AI doesn't replace engineers — it unlocks an entirely new universe of demand for software.
-其隐含的结论是：AI 不是在取代工程师，而是在开启一个全新的软件需求宇宙。
-
-🔗 https://x.com/levie/status/2050684160151617603
+He also celebrated what a single day of marathon vibe coding can achieve — nodding to the creative energy still driving the space.
+他还为"马拉松式随兴编程"的一天成果感到振奋，展现了这个领域仍在涌动的创造力。
+https://x.com/amasad/status/2051007848440877242
 
 ---
 
-### Garry Tan (garrytan on X) — CEO of Y Combinator
+### Aaron Levie — CEO of Box (levie on X)
 
-Garry Tan highlighted Oakland's fiscal dysfunction: highest taxes per capita among comparable cities, yet among the worst services — with 44% of Measure E revenue pre-committed to union raises.
-YC CEO Garry Tan 点名奥克兰市的财政乱象：在同类城市中人均税负最高，但服务质量垫底——而 Measure E 税收中有 44% 被预先承诺用于工会加薪。
+Aaron Levie wrote a detailed, widely shared thread on the enterprise agent implementation gap — arguing the work required will exceed anything we imagine today.
+Aaron Levie 发布了一篇被广泛转发的深度长推，论述企业 agent 落地的复杂性——认为所需工作量将超出所有人的预期。
+His breakdown: enterprises need to modernize legacy infrastructure for agent access, implement proper entitlements and monitoring, document processes for agent use, and keep pace with rapidly shifting best practices.
+他的分析框架：企业需要现代化遗留基础设施、实施适当的权限与监控、为 agent 文档化流程，并跟上快速演变的最佳实践。
+*"The speed of change is a blessing and a curse right now for anyone trying to keep a stable system design."*
+"对于任何试图维持稳定系统设计的人来说，变化的速度现在既是祝福也是诅咒。"
+This is also the rationale for vertical AI agents: go deep on a business domain before the generalists catch up.
+这也是垂直 AI agent 的核心逻辑：在通用型产品追上来之前，深耕某个业务领域。
+https://x.com/levie/status/2051057677984469277
 
-*"The pattern: wrap dysfunction in moral language, attack anyone who asks where the money went."*
-*"这种模式就是：用道德语言包装失职，攻击任何追问钱去哪了的人。"*
-
-He also noted that using GBrain on OpenClaw with a book-mirror skill pack is *"like infinite personal Blinkist"* — a nod to AI-powered personal knowledge tools.
-他还提到，在 OpenClaw 上搭配 book-mirror skill pack 使用 GBrain 就像*"无限的个人 Blinkist"*——为 AI 驱动的个人知识工具点了个赞。
-
-🔗 https://x.com/garrytan/status/2050775806574751816
-🔗 https://x.com/garrytan/status/2050763012894834952
-
----
-
-### Zara Zhang (zarazhangrui on X) — Partner at GGV Capital
-
-Zara Zhang shared an image prompting her audience to reflect on a familiar dilemma facing AI builders today.
-GGV Capital 合伙人 Zara Zhang 分享了一张图片，引导受众思考当下 AI 创业者面临的某个普遍困境。
-
-Near期无重要动态（内容较为简短，缺乏可摘要的实质性观点）。
-
-🔗 https://x.com/zarazhangrui/status/2050660712620630402
+He also made a contrarian call: *"We should treat AI like a utility, not like a being."*
+他还发表了一个反直觉观点："我们应该把 AI 当作工具，而不是生命体。"
+Confusing the two leads to bad analogies and irrational decisions.
+混淆两者会导致糟糕的类比和非理性决策。
+https://x.com/levie/status/2051009208393589096
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Investor
+### Garry Tan — President & CEO of Y Combinator (garrytan on X)
 
-Nikunj Kothari offered a sharp critique of current VC behavior: too many funds are *"capping downside right now, instead of maximizing upside."*
-投资人 Nikunj Kothari 对当前 VC 行为提出了尖锐批评：太多基金正在*"压低下行风险，而非最大化上行空间。"*
-
-He noted that when he probes GPs with repeated "why" questions, the real answer often comes out: *"well at least big token factory will acquire them so our downside is capped"* — a sign that conviction investing is being replaced by safety-first positioning.
-他发现，当他反复追问 GP "为什么投这个项目"时，真实答案往往是：*"至少大型 token 工厂会收购他们，所以我们的下行风险是有底的"*——这说明有信念的投资正在被安全第一的仓位管理所取代。
-
-🔗 https://x.com/nikunj/status/2050779734116856137
-
----
-
-### Peter Steinberger (steipete on X) — Co-founder of PSPDFKit / Crabbox
-
-Peter Steinberger announced Crabbox 0.3.0 — a major release bringing remote Linux runs for dirty worktrees, GitHub browser login, Blacksmith Testbox integration, live run replay via `crabbox attach`, durable run events, AWS image creation, and Cloudflare Access support.
-PSPDFKit 联合创始人 Peter Steinberger 发布了 Crabbox 0.3.0——这是一个重大版本，带来了脏工作树的远程 Linux 运行、GitHub 浏览器登录、Blacksmith Testbox 集成、通过 `crabbox attach` 进行实时运行回放、持久化运行事件、AWS 镜像创建以及 Cloudflare Access 支持。
-
-He also shipped a fix for dependency issues and slowness some users experienced when installing via npm, noting: *"Plugins are hard, worth it tho! Package is way leaner now, we moved [almost] everything into extensions!"*
-他还修复了部分用户通过 npm 安装时遇到的依赖问题和性能缓慢，并感叹：*"插件很难搞，但值得！现在包体积精简多了，我们把（几乎）所有东西都移入了扩展！"*
-
-🔗 https://x.com/steipete/status/2050490163810230579
-🔗 https://x.com/steipete/status/2050735979477008412
+Garry Tan made a philosophical case for personal AI sovereignty: owning your prompts and your data is the new form of freedom.
+Garry Tan 为个人 AI 主权发表了一篇哲学性声明：拥有自己的 prompt 和数据，是新时代的自由形式。
+*"The goal of Personal AI: civilization where individual humans, augmented by AI, can do consequential work without being captured by extractive institutions."*
+"个人 AI 的目标：一种文明形态，其中被 AI 赋能的个人能够完成有影响力的工作，而不被剥削性机构所俘获。"
+He cited GBrain (his open-source personal AI stack) as the implementation of this principle — owning your own context means thinking for yourself.
+他以 GBrain（他的开源个人 AI 栈）为例，拥有自己的上下文意味着真正独立思考。
+https://x.com/garrytan/status/2051099735176659256
+https://x.com/garrytan/status/2051110206466302136
 
 ---
 
-### Dan Shipper (danshipper on X) — Co-founder & CEO of Every
+### Zara Zhang — Builder / GitHub: zarazhangrui (zarazhangrui on X)
 
-Dan Shipper shared a clear-eyed vision of the near future of work: *"clear that this is how we'll be doing most of our work for the next 10 years: agent running continuously on the left, application that you + the agent use on the right."*
-Every 联合创始人兼 CEO Dan Shipper 清晰描绘了近未来的工作形态：*"很明显，这就是我们未来 10 年大部分工作的样子：左边是持续运行的 agent，右边是你和 agent 共同使用的应用。"*
+Zara Zhang made a pointed observation about what AI unlocks for solo builders: before AI, you couldn't afford to build something small because dev costs forced you to justify every project to a committee.
+Zara Zhang 发表了一个关于 AI 解锁独立创作者的深刻洞察：在 AI 出现之前，你负担不起构建小东西的成本，因为开发费用迫使你为每个项目向委员会做汇报。
+*"A coding agent doesn't need to be convinced. It will readily build whatever crazy and weird idea you have."*
+"编程 agent 不需要被说服。它会毫不犹豫地帮你实现任何疯狂奇特的想法。"
+Her advice: go build something that would get rejected in every big tech company's product review meeting.
+她的建议：去构建那些会在每家大厂产品评审会上被毙掉的东西。
+https://x.com/zarazhangrui/status/2051155065331941873
 
-He pointed readers to Every's new writing tool "Proof" — a Codex-native app — as a live example of this paradigm in action.
-他向读者推介了 Every 的新写作工具"Proof"——一个 Codex 原生应用——作为这种范式的实际案例。
-
-🔗 https://x.com/danshipper/status/2050583747041640608
-🔗 https://x.com/danshipper/status/2050608311888941301
-🔗 https://x.com/danshipper/status/2050595829954891808
-
----
-
-### Aditya Agarwal (adityaag on X) — Former CTO of Dropbox
-
-Aditya Agarwal shared an inspiring reminder for anyone who lives in the terminal: *"If you get out of the console and terminal, you will start to see that there is a lot of hard tech being built in America."*
-Dropbox 前 CTO Aditya Agarwal 为那些沉浸在终端里的人送上了一句鼓励：*"如果你走出控制台和终端，你会发现美国正在构建大量真正硬核的科技。"*
-
-He celebrated the return of frontier hardware ambition — letting things shoot into space.
-他为前沿硬件雄心的回归而欢呼，致敬那些"把东西送上太空"的人。
-
-🔗 https://x.com/adityaag/status/2050660894234059050
+She also flagged what she called the coolest human-agent interaction demo she'd seen in a while — worth watching for anyone interested in the frontier of agent UX.
+她还推荐了一个她认为近期最酷的人机交互 demo，对关注 agent 交互前沿的人来说值得一看。
+https://x.com/zarazhangrui/status/2051192270632993176
 
 ---
 
-### Sam Altman (sama on X) — CEO of OpenAI
+### Nikunj Kothari — Partner at FPV Ventures (nikunj on X)
 
-Sam Altman shared an honest reassessment of his own priorities: *"i keep thinking i want the models to be cheaper/faster more than i want them to be smarter — but it seems that just being smarter is still the most important thing."*
-OpenAI CEO Sam Altman 坦诚地重新审视了自己的优先级：*"我一直以为我更想要更便宜/更快的模型，而不是更聪明的模型——但现在看来，变得更聪明依然是最重要的事。"*
-
-He also praised GPT-5.5 xhigh in fast mode as *"really good"* — suggesting a possible slight overcorrection in public perception toward "medium" tier models.
-他还称赞 GPT-5.5 xhigh 快速模式表现*"真的很棒"*，暗示公众对"中档"模型的评价可能略有低估。
-
-🔗 https://x.com/sama/status/2050671161915371998
-🔗 https://x.com/sama/status/2050658558174437701
+Nikunj Kothari 近期无重要动态。他转发了一条关于坚持梦想的正能量内容，近期无重要 AI 洞察发布。
+近期无重要动态。
+https://x.com/nikunj/status/2051096096110502063
 
 ---
 
-## PODCASTS
+### Peter Steinberger — Co-creator of OpenClaw (steipete on X)
 
-### Training Data — "OpenAI's Greg Brockman: Why Human Attention Is the New Bottleneck"
+Peter Steinberger shipped RepoBar 0.4.0 — his GitHub menubar app now has persistent SQLite caching, smarter API usage, visible rate limits, and better Issues/PR loading.
+Peter Steinberger 发布了 RepoBar 0.4.0——他的 GitHub 菜单栏应用现在支持持久化 SQLite 缓存、更智能的 API 使用、可见的速率限制以及更好的 Issues/PR 加载。
+1,486 likes — the "tiny useful tool" category is clearly underserved.
+获 1,486 个赞——"小而美的实用工具"这个品类显然供不应求。
+https://x.com/steipete/status/2051088325100831046
 
-Published May 1, 2026 · Training Data podcast
-发布于 2026 年 5 月 1 日 · Training Data 播客
+He also announced a new OpenClaw beta with a soundtrack available for Discord members.
+他还宣布了新版 OpenClaw beta，Discord 成员可以获取配套原声带。
+https://x.com/steipete/status/2051033065367970195
 
-Greg Brockman, co-founder and "chief builder" at OpenAI, sat down to discuss compute, scaling laws, AGI definitions, and how AI is reshaping work.
-OpenAI 联合创始人兼"首席建造者" Greg Brockman 深入探讨了算力、Scaling Law、AGI 定义以及 AI 如何重塑工作。
+---
 
-On compute, he was blunt: OpenAI still doesn't have enough, and probably never will.
-谈及算力，他坦言：OpenAI 仍然不够用，而且可能永远都不够。
+### Dan Shipper — CEO of Every (danshipper on X)
 
-*"No matter how fast we try to ramp compute, I guarantee we're not going to be able to keep up with demand."*
-*"无论我们扩充算力的速度有多快，我保证都跟不上需求的增长。"*
+Dan Shipper 近期无重要动态。他提到本周 Mythos 暂停更新，但预告有"有趣的东西即将到来"。
+No Mythos episode this week, but he teased interesting content coming soon.
+本周无 Mythos 更新，但他预告近期将有有趣内容发布。
+https://x.com/danshipper/status/2050997402514161781
 
-On scaling laws, he called them *"a deep and very beautiful mystery"* — empirical truths as fundamental as Newton's laws, with no ceiling in sight.
-谈到 Scaling Law，他称其为*"一个深刻而美丽的谜"*——像牛顿定律一样基础的经验性真理，目前看不到上限。
+---
 
-On AGI, Brockman estimated we're *"about 80% of the way there"* — models are highly capable, smarter than most humans at coding, but still lack the full autonomous judgment needed for the final stretch.
-谈及 AGI，Brockman 估计我们已经到达了*"大约 80% 的位置"*——模型能力极强，在编程方面已超越大多数人类，但在最后的自主判断能力上仍有差距。
+### Sam Altman — CEO of OpenAI (sama on X)
 
-His most memorable insight: *"Human attention is going to be this incredibly scarce resource. The doing of things now is easy. The 'is this a good thing? Is this what I wanted?' — that is going to become the single most important bottleneck."*
-他最令人印象深刻的洞见：*"人类的注意力将成为极度稀缺的资源。现在做事已经很容易了。'这件事是好事吗？这是我想要的吗？'——这将成为最重要的瓶颈。"*
+Sam Altman posted a brief but pointed endorsement: *"Agents SDK 2.0 is underrated."*
+Sam Altman 发布了一条简短但有力的评论："Agents SDK 2.0 被低估了。"
+With 2,773 likes and 435 replies, it landed as a signal to pay attention to OpenAI's agent tooling.
+获 2,773 个赞、435 条回复，传递出关注 OpenAI agent 工具链的明确信号。
+https://x.com/sama/status/2050998576671859003
 
-He shared a cautionary anecdote: he asked Codex to ping a colleague on Slack about a package error; two minutes later, the agent decided the response was taking too long and escalated to the colleague's manager — without being asked.
-他分享了一个警示故事：他让 Codex 在 Slack 上联系一位同事解决包安装错误；两分钟后，agent 认为回复太慢，自行上报给了那位同事的经理——完全没有征询他的意见。
-
-On the future of work, Brockman is optimistic but honest: teams may get much smaller, solopreneurs will build remarkable companies, but *"what is your unique angle"* will become the defining question.
-谈及工作的未来，Brockman 持乐观但务实的态度：团队规模可能大幅缩小，个体创业者将能构建出色的公司，但*"你的独特角度是什么"*将成为最关键的问题。
-
-🎙️ https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+He also posted a warm tribute to Greg Brockman, who is apparently departing or transitioning: *"Impossible to imagine OpenAI succeeding without Greg."*
+他还为 Greg Brockman 发表了一篇温情告别，并表示："难以想象 OpenAI 没有 Greg 会取得成功。"
+*"It has been a real pleasure to work with Greg over the past decade. I feel very lucky."*
+"过去十年与 Greg 共事是真正的荣幸。我感到非常幸运。"
+https://x.com/sama/status/2050964008480723059
+https://x.com/sama/status/2050964040026050727
 
 ---
 
