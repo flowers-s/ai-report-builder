@@ -1,175 +1,197 @@
-AI Builders 日报 · 2026-05-05
+AI Builders 日报 · 2026-05-06
 
 ---
 
-## 🎙️ PODCASTS
+OFFICIAL BLOGS
 
-### Training Data — "Andrej Karpathy: From Vibe Coding to Agentic Engineering"
-https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+Anthropic Engineering | Claude Code auto mode: a safer way to skip permissions
+Anthropic Engineering has published a new engineering post about Claude Code's "auto mode."
+Anthropic Engineering 发布了关于 Claude Code「自动模式」的新工程文章。
 
-Andrej Karpathy joined the Training Data podcast to talk about the transition from vibe coding to agentic engineering.
-Andrej Karpathy 出席 Training Data 播客，讲述从"随兴编程"到 Agent 工程的演变。
+Auto mode provides a safer way to skip permission prompts when running Claude Code in automated pipelines.
+自动模式提供了一种更安全的方式，在自动化流水线中跳过权限提示。
 
-He described December 2025 as the inflection point where AI coding agents stopped needing corrections and started producing coherent, large-scale work reliably.
-他将 2025 年 12 月描述为关键转折点：AI 编程 agent 不再需要人工纠错，开始可靠地完成大规模任务。
+This reduces friction for developers who run Claude Code headlessly while maintaining appropriate safety boundaries.
+这为以无头方式运行 Claude Code 的开发者减少了摩擦，同时保持了适当的安全边界。
 
-*"I can't remember the last time I corrected it. And then I was bad coding."*
-"我已经记不得上次纠正它是什么时候了。然后我自己反而变成了差劲的程序员。"
-
-Karpathy introduced the "Software 3.0" paradigm: LLMs are programmable computers where prompting replaces coding, and the context window is your lever over the interpreter.
-Karpathy 提出"Software 3.0"范式：LLM 是可编程的计算机，prompt 取代了代码，context window 就是你对 interpreter 的控制杆。
-
-He contrasted "vibe coding" (raising the floor for everyone) with "agentic engineering" (preserving a professional quality bar while going faster).
-他对比了"随兴编程"（拉高所有人的下限）与"agent 工程"（在保持专业质量标准的同时提速）。
-
-*"10x is not the speed up you gain. People who are very good at this peak a lot more than 10x."*
-"10 倍速不是你实际获得的提速幅度。真正擅长这件事的人，能达到远超 10 倍的峰值。"
-
-On "jagged intelligence": AI models excel in verifiable domains (math, code) because labs use reinforcement learning with verification rewards — but remain surprisingly weak outside those circuits.
-关于"锯齿形智能"：AI 在可验证领域（数学、代码）表现出色，因为实验室使用带验证奖励的强化学习训练，但在这些回路之外却意外地脆弱。
-
-His key framing on what remains human: *"You can outsource your thinking, but you can't outsource your understanding."*
-他对"人类价值何在"的核心判断："你可以外包你的思考，但你无法外包你的理解。"
+Source: https://www.anthropic.com/engineering/claude-code-auto-mode
 
 ---
 
-## 🐦 X / TWITTER
+X / TWITTER
+
+Swyx (swyx on X) — AI Engineer / Latent Space Podcast Co-host
+
+Swyx compared the valuations and ARR of OpenAI and Anthropic, noting OpenAI sits at ~$850B valuation with ~$30B ARR, while Ant reaches ~$900B valuation with ~$44B ARR.
+Swyx 对比了 OpenAI 与 Anthropic 的估值和年度经常性收入，指出 OpenAI 估值约 8500 亿美元、ARR 约 300 亿，而 Ant 估值约 9000 亿、ARR 约 440 亿。
+
+He noted that revenue recognition methodology differs: *"revenue recognized differently, per Denise Dresser its probably closer to 8-10B lower if using OAI methodology."*
+他指出两家公司收入确认方式不同：*"根据 Denise Dresser 的说法，如果采用 OAI 的方法论，Ant 的数字可能低 80-100 亿。"*
+
+Swyx also highlighted a popular talk from AI Engineer conference, giving credit to Patrick Debois (the "DevOps guy") for a keynote he was trusted with from the earliest days.
+Swyx 还推荐了 AI Engineer 大会的一个热门演讲，称赞 Patrick Debois（"DevOps 之父"）的主题演讲，并表示这是基于对他长期支持的信任。
+
+Source: https://x.com/swyx/status/2051440392722391180
+Source: https://x.com/swyx/status/2051329252344369626
 
 ---
 
-### Swyx (swyx on X)
-Swyx (@dxtipshq / @cognition / @latentspacepod) 近期发布了一篇短篇小说，花了他三年时间才完成第二篇。
-Swyx published his second short story — took him three years to write it, and called it out as a personal milestone.
-他表示这是个人里程碑，终于完成了这篇拖延已久的创作。
-He also noted the Training Data show with Karpathy is now free on YouTube — worth watching for anyone following the agentic engineering wave.
-他还提到 Karpathy 出席的 Training Data 节目现已在 YouTube 免费观看。
-https://x.com/swyx/status/2051025640657449249
-https://x.com/swyx/status/2051115027210346936
+Kevin Weil (kevinweil on X) — VP of Science, OpenAI
+
+Kevin Weil shared a notable retweet with emphasis, suggesting something significant is happening at OpenAI worth watching.
+Kevin Weil 转发并着重标注了一条推文，暗示 OpenAI 有值得关注的重要进展。
+
+近期无更多实质性原创内容。
+
+Source: https://x.com/kevinweil/status/2051464436066721798
 
 ---
 
-### Peter Yang — Product at Roblox / AI newsletter creator (petergyang on X)
+Peter Yang (petergyang on X) — Product & AI Writer, 140K+ Newsletter Readers
 
-Peter Yang shared a practical tip that went viral: keep your AI agents running even when your MacBook lid is closed by using the Amphetamine app.
-Peter Yang 分享了一个爆火的实用技巧：使用 Amphetamine 应用，让 MacBook 合盖后 AI agent 仍能持续运行。
-*"How to keep your agents running even when your macbook lid is closed"* — 589 likes, clearly hit a nerve.
-这条推文获 589 个赞，显然戳中了许多人的痛点。
-https://x.com/petergyang/status/2050963126234034387
+Peter Yang laid out a clear three-frontier framework for the AI transformation of work: *"Coding is the first frontier. Knowledge work is the second one. Personal agents are the third."*
+Peter Yang 提出了 AI 改变工作的三阶段框架：*"编程是第一个前沿，知识工作是第二个，个人智能体是第三个。"*
 
-He also crowdsourced honest comparisons between Hermes and OpenClaw from his audience — 210 replies worth of community signal.
-他还向受众征集了 Hermes 与 OpenClaw 的真实对比体验，引发了 210 条回复，是难得的社区信号源。
-https://x.com/petergyang/status/2051129249348894754
+He is also thinking practically about how to get his 8-year-old daughter started building with AI agents — ideally something she can share with classmates and teachers, and maybe even earn her first dollar online.
+他还在思考如何让自己 8 岁的女儿开始用 AI 智能体构建东西——最好是能与同学和老师分享、甚至在网上赚到第一桶金的项目。
 
----
-
-### Amjad Masad — CEO of Replit (amasad on X)
-
-Amjad Masad highlighted Replit's agentic parallelism scale: 10 active, 198 draft, 700+ completed agent runs — claiming no platform on the internet does more agentic parallel work.
-Amjad Masad 展示了 Replit 的 agent 并行规模：10 个运行中、198 个草稿、700+ 已完成，并声称这是互联网上 agent 并行量最高的平台。
-*"I don't think there's more agentic parallelism happening anywhere else on the internet than what happens on Replit."*
-"我认为互联网上没有任何地方的 agent 并行度能超过 Replit。"
-https://x.com/amasad/status/2051167532523074015
-
-He also celebrated what a single day of marathon vibe coding can achieve — nodding to the creative energy still driving the space.
-他还为"马拉松式随兴编程"的一天成果感到振奋，展现了这个领域仍在涌动的创造力。
-https://x.com/amasad/status/2051007848440877242
+Source: https://x.com/petergyang/status/2051508988936937764
+Source: https://x.com/petergyang/status/2051459299860533483
 
 ---
 
-### Aaron Levie — CEO of Box (levie on X)
+Amjad Masad (amasad on X) — CEO, Replit
 
-Aaron Levie wrote a detailed, widely shared thread on the enterprise agent implementation gap — arguing the work required will exceed anything we imagine today.
-Aaron Levie 发布了一篇被广泛转发的深度长推，论述企业 agent 落地的复杂性——认为所需工作量将超出所有人的预期。
-His breakdown: enterprises need to modernize legacy infrastructure for agent access, implement proper entitlements and monitoring, document processes for agent use, and keep pace with rapidly shifting best practices.
-他的分析框架：企业需要现代化遗留基础设施、实施适当的权限与监控、为 agent 文档化流程，并跟上快速演变的最佳实践。
-*"The speed of change is a blessing and a curse right now for anyone trying to keep a stable system design."*
-"对于任何试图维持稳定系统设计的人来说，变化的速度现在既是祝福也是诅咒。"
-This is also the rationale for vertical AI agents: go deep on a business domain before the generalists catch up.
-这也是垂直 AI agent 的核心逻辑：在通用型产品追上来之前，深耕某个业务领域。
-https://x.com/levie/status/2051057677984469277
+Amjad Masad showcased Replit's growing real-world utility: one entrepreneur used Replit to find investors and land meetings.
+Amjad Masad 展示了 Replit 日益增长的实用价值：一位创业者利用 Replit 找到了投资人并获得了会面机会。
 
-He also made a contrarian call: *"We should treat AI like a utility, not like a being."*
-他还发表了一个反直觉观点："我们应该把 AI 当作工具，而不是生命体。"
-Confusing the two leads to bad analogies and irrational decisions.
-混淆两者会导致糟糕的类比和非理性决策。
-https://x.com/levie/status/2051009208393589096
+He also highlighted an impressive AI education use case — a multimodal learning platform built for deaf students.
+他还推荐了一个令人印象深刻的 AI 教育案例——专为聋哑学生打造的多模态学习平台。
+
+Source: https://x.com/amasad/status/2051511694040744139
+Source: https://x.com/amasad/status/2051406536443035922
 
 ---
 
-### Garry Tan — President & CEO of Y Combinator (garrytan on X)
+Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-Garry Tan made a philosophical case for personal AI sovereignty: owning your prompts and your data is the new form of freedom.
-Garry Tan 为个人 AI 主权发表了一篇哲学性声明：拥有自己的 prompt 和数据，是新时代的自由形式。
-*"The goal of Personal AI: civilization where individual humans, augmented by AI, can do consequential work without being captured by extractive institutions."*
-"个人 AI 的目标：一种文明形态，其中被 AI 赋能的个人能够完成有影响力的工作，而不被剥削性机构所俘获。"
-He cited GBrain (his open-source personal AI stack) as the implementation of this principle — owning your own context means thinking for yourself.
-他以 GBrain（他的开源个人 AI 栈）为例，拥有自己的上下文意味着真正独立思考。
-https://x.com/garrytan/status/2051099735176659256
-https://x.com/garrytan/status/2051110206466302136
+Guillermo Rauch announced an open-source agent orchestrator for deep security reviews, called `npx deepsec`.
+Guillermo Rauch 发布了一款用于深度安全审查的开源智能体编排工具 `npx deepsec`。
 
----
+Vercel built it for internal use first, then after running it against major OSS projects, gained conviction to open-source it.
+Vercel 最初是为内部使用而构建，在对多个主要开源项目进行测试后，决定将其开源。
 
-### Zara Zhang — Builder / GitHub: zarazhangrui (zarazhangrui on X)
-
-Zara Zhang made a pointed observation about what AI unlocks for solo builders: before AI, you couldn't afford to build something small because dev costs forced you to justify every project to a committee.
-Zara Zhang 发表了一个关于 AI 解锁独立创作者的深刻洞察：在 AI 出现之前，你负担不起构建小东西的成本，因为开发费用迫使你为每个项目向委员会做汇报。
-*"A coding agent doesn't need to be convinced. It will readily build whatever crazy and weird idea you have."*
-"编程 agent 不需要被说服。它会毫不犹豫地帮你实现任何疯狂奇特的想法。"
-Her advice: go build something that would get rejected in every big tech company's product review meeting.
-她的建议：去构建那些会在每家大厂产品评审会上被毙掉的东西。
-https://x.com/zarazhangrui/status/2051155065331941873
-
-She also flagged what she called the coolest human-agent interaction demo she'd seen in a while — worth watching for anyone interested in the frontier of agent UX.
-她还推荐了一个她认为近期最酷的人机交互 demo，对关注 agent 交互前沿的人来说值得一看。
-https://x.com/zarazhangrui/status/2051192270632993176
+Source: https://x.com/rauchg/status/2051386798899888539
 
 ---
 
-### Nikunj Kothari — Partner at FPV Ventures (nikunj on X)
+Aaron Levie (levie on X) — CEO, Box
 
-Nikunj Kothari 近期无重要动态。他转发了一条关于坚持梦想的正能量内容，近期无重要 AI 洞察发布。
-近期无重要动态。
-https://x.com/nikunj/status/2051096096110502063
+Aaron Levie observed that both Anthropic and OpenAI are now launching enterprise initiatives to deploy AI agents inside organizations: *"Both Anthropic and OpenAI have new initiatives to help enterprises deploy AI agents within their organizations. This is a trend that's early but going to get very big fast."*
+Aaron Levie 观察到 Anthropic 和 OpenAI 都在推出帮助企业内部部署 AI 智能体的计划：*"这是一个处于早期但将快速爆发的趋势。"*
 
----
+He sees this as a signal that as agents enter knowledge work, enterprise AI deployment is about to accelerate dramatically.
+他认为，随着智能体进入知识工作领域，企业 AI 部署即将大幅加速。
 
-### Peter Steinberger — Co-creator of OpenClaw (steipete on X)
-
-Peter Steinberger shipped RepoBar 0.4.0 — his GitHub menubar app now has persistent SQLite caching, smarter API usage, visible rate limits, and better Issues/PR loading.
-Peter Steinberger 发布了 RepoBar 0.4.0——他的 GitHub 菜单栏应用现在支持持久化 SQLite 缓存、更智能的 API 使用、可见的速率限制以及更好的 Issues/PR 加载。
-1,486 likes — the "tiny useful tool" category is clearly underserved.
-获 1,486 个赞——"小而美的实用工具"这个品类显然供不应求。
-https://x.com/steipete/status/2051088325100831046
-
-He also announced a new OpenClaw beta with a soundtrack available for Discord members.
-他还宣布了新版 OpenClaw beta，Discord 成员可以获取配套原声带。
-https://x.com/steipete/status/2051033065367970195
+Source: https://x.com/levie/status/2051344780328858040
 
 ---
 
-### Dan Shipper — CEO of Every (danshipper on X)
+Garry Tan (garrytan on X) — President & CEO, Y Combinator
 
-Dan Shipper 近期无重要动态。他提到本周 Mythos 暂停更新，但预告有"有趣的东西即将到来"。
-No Mythos episode this week, but he teased interesting content coming soon.
-本周无 Mythos 更新，但他预告近期将有有趣内容发布。
-https://x.com/danshipper/status/2050997402514161781
+Garry Tan dropped GBrain v0.27, adding support for non-Anthropic and non-OpenAI embeddings and LLMs, multi-modal embeddings, deep photo OCR, and more.
+Garry Tan 发布了 GBrain v0.27，新增了对非 Anthropic 和非 OpenAI 嵌入与 LLM 的支持，以及多模态嵌入、深度照片 OCR 等功能。
+
+He articulated what makes GBrain different: *"It's not a memory layer OR a code tool OR a search engine. It's all three unified under one graph with one query interface. Nobody else has that."*
+他阐述了 GBrain 的差异化：*"它不仅仅是记忆层、代码工具或搜索引擎，而是三者在同一个图下通过单一查询接口的统一。没有其他人做到这一点。"*
+
+He also emphasized a culture of rigorous testing at YC.
+他还强调了 YC 对严格测试的高度重视。
+
+Source: https://x.com/garrytan/status/2051517574589116510
+Source: https://x.com/garrytan/status/2051525161380364315
+Source: https://x.com/garrytan/status/2051536806932566406
 
 ---
 
-### Sam Altman — CEO of OpenAI (sama on X)
+Matt Turck (mattturck on X) — VC at FirstMark Capital
 
-Sam Altman posted a brief but pointed endorsement: *"Agents SDK 2.0 is underrated."*
-Sam Altman 发布了一条简短但有力的评论："Agents SDK 2.0 被低估了。"
-With 2,773 likes and 435 replies, it landed as a signal to pay attention to OpenAI's agent tooling.
-获 2,773 个赞、435 条回复，传递出关注 OpenAI agent 工具链的明确信号。
-https://x.com/sama/status/2050998576671859003
+Matt Turck made a witty observation on the "literal description naming trend" in startups: *"VCs need to start following the literal description naming trend: The Capital Deployment Company of San Francisco, The Check Writing Company of New York..."*
+Matt Turck 对创业公司中流行的「直白命名趋势」进行了幽默评论：*"风险投资人也应该跟上这股直白命名趋势：旧金山资本部署公司、纽约支票撰写公司……"*
 
-He also posted a warm tribute to Greg Brockman, who is apparently departing or transitioning: *"Impossible to imagine OpenAI succeeding without Greg."*
-他还为 Greg Brockman 发表了一篇温情告别，并表示："难以想象 OpenAI 没有 Greg 会取得成功。"
-*"It has been a real pleasure to work with Greg over the past decade. I feel very lucky."*
-"过去十年与 Greg 共事是真正的荣幸。我感到非常幸运。"
-https://x.com/sama/status/2050964008480723059
-https://x.com/sama/status/2050964040026050727
+Source: https://x.com/mattturck/status/2051382629681828306
+
+---
+
+Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+
+Nikunj Kothari pushed back on a widely-accepted startup playbook: startups from 2023–2025 are realizing that "fancy launch videos & focusing just on distribution MIGHT lead to VC funding, but still leads to money being lit on fire."
+Nikunj Kothari 对广泛流行的创业方法论提出了质疑：2023-2025 年的创业公司正在意识到，精美的发布视频和只关注分发或许能获得 VC 融资，但最终仍是在烧钱。
+
+He also praised Gemini Flash as criminally underrated: *"It's criminal how cheap and how good Gemini Flash is.. that too with 1M context windows and structured outputs. Probably, my most used model in production workloads."*
+他还称赞 Gemini Flash 被严重低估：*"Gemini Flash 又便宜又好用，还支持 100 万上下文窗口和结构化输出，简直犯规。这可能是我在生产工作负载中用得最多的模型。"*
+
+Source: https://x.com/nikunj/status/2051349526171287930
+Source: https://x.com/nikunj/status/2051321911741972900
+
+---
+
+Peter Steinberger (steipete on X) — Co-founder, OpenClaw / Crabbox
+
+Peter Steinberger announced Crabbox 0.5.0, a major milestone for remote CI boxes: desktop/browser leases, VNC + authenticated WebVNC, AWS Windows + WSL2 support, screenshots, and app launch capabilities.
+Peter Steinberger 发布了 Crabbox 0.5.0，这是远程 CI 沙箱的重要里程碑：支持桌面/浏览器租用、VNC 及认证 WebVNC、AWS Windows + WSL2、截图和应用启动。
+
+He also revealed a new QA capability: *"We can now reproduce issues directly in ephemeral crabboxes with WebVNC (Linux/Windows/macOS). Agents set up the exact state to test + fix and post videos on the PR."*
+他还披露了一项新 QA 能力：*"我们现在可以直接在带 WebVNC 的临时 Crabbox 中复现问题（Linux/Windows/macOS），智能体能设置精确的测试状态并将视频发布到 PR 中。"*
+
+Source: https://x.com/steipete/status/2051485798613111116
+Source: https://x.com/steipete/status/2051557150040711425
+
+---
+
+Aditya Agarwal (adityaag on X) — General Partner, South Park Commons / Ex-CTO Dropbox
+
+Aditya Agarwal offered a grounding philosophy for his venture studio: *"We have never desired to be an accelerator. Velocity is not interesting without a grounding towards true north."*
+Aditya Agarwal 为其创业社区分享了一条核心理念：*"我们从未想成为加速器。没有指向真北的速度毫无意义。"*
+
+Source: https://x.com/adityaag/status/2051330205902581842
+
+---
+
+Sam Altman (sama on X) — CEO, OpenAI
+
+Sam Altman expressed excitement about the near-term future of voice AI: *"pretty excited for voice models to get great — its interesting to watch how people are already starting to change the way they interface with AI."*
+Sam Altman 对语音 AI 的近期进展表示兴奋：*"非常期待语音模型变得出色——有趣的是，人们已经在改变与 AI 交互的方式了。"*
+
+He also teased a surprise for people who applied to the GPT-5.5 party but didn't get space: *"we are gonna do something nice for everyone who applied for the GPT-5.5 party and that we didn't have space for."*
+他还为未能参加 GPT-5.5 派对的申请者预告了一个惊喜：*"我们会为所有申请了但没有位置的人做些好事。"*
+
+Source: https://x.com/sama/status/2051464865634742334
+Source: https://x.com/sama/status/2051318922805436896
+
+---
+
+PODCASTS
+
+Training Data — Waymo's Dmitri Dolgov: 20 Million Rides and the Road to Full Autonomy
+(Published: 2026-05-04)
+
+Waymo co-CEO Dmitri Dolgov joined the Training Data podcast to reflect on 20+ years of building autonomous vehicles, from the 2005 DARPA Challenge to 20 million fully autonomous rides.
+Waymo 联合 CEO Dmitri Dolgov 接受 Training Data 播客采访，回顾了他从 2005 年 DARPA 挑战赛到完成 2000 万次完全自动驾驶行程的 20 余年历程。
+
+He described Waymo's Foundation Model as a multimodal world-action-language model powering three pillars: the driver, the simulator, and the critic — built for superhuman precision, not just demos.
+他介绍了 Waymo 基础模型——一个多模态世界行动语言模型，支撑三大核心支柱：驾驶员、模拟器和评判器，目标是达到超人水平的精确度，而非仅仅是演示。
+
+On safety: *"Today we're driving more than 4,000,000 miles in full autonomy per week... the Waymo driver is more than 13 times safer than a human driver when it comes to serious injury causing collisions."*
+关于安全性：*"我们现在每周完全自动驾驶超过 400 万英里……Waymo 驾驶员在严重伤害事故方面比人类司机安全超过 13 倍。"*
+
+One remarkable emergent capability: Waymo's LiDAR detected a pedestrian's feet moving under a bus, allowing the car to predict and safely avoid the person before they emerged.
+一个令人惊叹的涌现能力：Waymo 的激光雷达检测到行人双脚在公交车下方的移动，使车辆在行人出现前就能预判并安全避让。
+
+On scaling: it took 8 years to reach service in 4 cities; earlier this year, Waymo launched 4 cities in a single day. London and Tokyo expansions are planned for this year.
+在规模扩张上：Waymo 花了 8 年在 4 个城市开展服务；今年早些时候，他们单日就在 4 个城市同步上线。伦敦和东京的扩张计划也在今年内推进。
+
+Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
 ---
 
