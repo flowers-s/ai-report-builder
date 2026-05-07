@@ -1,195 +1,207 @@
-AI Builders 日报 · 2026-05-06
-
----
-
-OFFICIAL BLOGS
-
-Anthropic Engineering | Claude Code auto mode: a safer way to skip permissions
-Anthropic Engineering has published a new engineering post about Claude Code's "auto mode."
-Anthropic Engineering 发布了关于 Claude Code「自动模式」的新工程文章。
-
-Auto mode provides a safer way to skip permission prompts when running Claude Code in automated pipelines.
-自动模式提供了一种更安全的方式，在自动化流水线中跳过权限提示。
-
-This reduces friction for developers who run Claude Code headlessly while maintaining appropriate safety boundaries.
-这为以无头方式运行 Claude Code 的开发者减少了摩擦，同时保持了适当的安全边界。
-
-Source: https://www.anthropic.com/engineering/claude-code-auto-mode
+AI Builders 日报 · 2026-05-07
 
 ---
 
 X / TWITTER
 
-Swyx (swyx on X) — AI Engineer / Latent Space Podcast Co-host
+---
 
-Swyx compared the valuations and ARR of OpenAI and Anthropic, noting OpenAI sits at ~$850B valuation with ~$30B ARR, while Ant reaches ~$900B valuation with ~$44B ARR.
-Swyx 对比了 OpenAI 与 Anthropic 的估值和年度经常性收入，指出 OpenAI 估值约 8500 亿美元、ARR 约 300 亿，而 Ant 估值约 9000 亿、ARR 约 440 亿。
+Swyx (swyx on X)
 
-He noted that revenue recognition methodology differs: *"revenue recognized differently, per Denise Dresser its probably closer to 8-10B lower if using OAI methodology."*
-他指出两家公司收入确认方式不同：*"根据 Denise Dresser 的说法，如果采用 OAI 的方法论，Ant 的数字可能低 80-100 亿。"*
+AI is eating enterprise software valuations — and the numbers are eye-opening.
+AI 正在吞噬企业软件估值，而这些数据令人瞩目。
 
-Swyx also highlighted a popular talk from AI Engineer conference, giving credit to Patrick Debois (the "DevOps guy") for a keynote he was trusted with from the earliest days.
-Swyx 还推荐了 AI Engineer 大会的一个热门演讲，称赞 Patrick Debois（"DevOps 之父"）的主题演讲，并表示这是基于对他长期支持的信任。
+Swyx charted OpenAI's valuation at ~$850B with ~$30B ARR, versus Anthropic's ~$900B with ~$44B ARR — though Anthropic's revenue recognition differs, and on an apples-to-apples basis with OpenAI's methodology, Anthropic's ARR is likely $8–10B lower.
+Swyx 绘制了 OpenAI 约 8500 亿美元估值、约 300 亿美元 ARR 与 Anthropic 约 9000 亿美元估值、约 440 亿美元 ARR 的对比图——但两者收入确认方式不同，若采用 OpenAI 的口径，Anthropic 的 ARR 可能低 80-100 亿美元。
 
 Source: https://x.com/swyx/status/2051440392722391180
+
+He also highlighted a well-received talk from his track, crediting DevOps pioneer Patrick Debois as a keynote speaker given genuine support from the community's earliest days.
+他还强调了其赛道上一场颇受欢迎的演讲，特别感谢了 DevOps 先驱 Patrick Debois 作为主题演讲嘉宾，因为其从最早期就给予了真诚的支持。
+
 Source: https://x.com/swyx/status/2051329252344369626
 
 ---
 
-Kevin Weil (kevinweil on X) — VP of Science, OpenAI
+OpenAI CPO Kevin Weil (kevinweil on X)
 
-Kevin Weil shared a notable retweet with emphasis, suggesting something significant is happening at OpenAI worth watching.
-Kevin Weil 转发并着重标注了一条推文，暗示 OpenAI 有值得关注的重要进展。
-
-近期无更多实质性原创内容。
+Kevin Weil shared an external link with brief commentary, signaling something noteworthy worth clicking through.
+OpenAI 首席产品官 Kevin Weil 分享了一个外部链接，简短评论暗示这是值得点击的重要内容。
 
 Source: https://x.com/kevinweil/status/2051464436066721798
 
 ---
 
-Peter Yang (petergyang on X) — Product & AI Writer, 140K+ Newsletter Readers
+Creator Economy Strategist Peter Yang (petergyang on X)
 
-Peter Yang laid out a clear three-frontier framework for the AI transformation of work: *"Coding is the first frontier. Knowledge work is the second one. Personal agents are the third."*
-Peter Yang 提出了 AI 改变工作的三阶段框架：*"编程是第一个前沿，知识工作是第二个，个人智能体是第三个。"*
+Peter Yang laid out a three-wave vision for how AI agents will reshape the economy.
+产品增长策略师 Peter Yang 提出了 AI 智能体重塑经济的三浪愿景。
 
-He is also thinking practically about how to get his 8-year-old daughter started building with AI agents — ideally something she can share with classmates and teachers, and maybe even earn her first dollar online.
-他还在思考如何让自己 8 岁的女儿开始用 AI 智能体构建东西——最好是能与同学和老师分享、甚至在网上赚到第一桶金的项目。
+*"Coding is the first frontier. Knowledge work is the second one. Personal agents are the third."*
+"编程是第一个前沿，知识工作是第二个，个人智能体是第三个。"
 
 Source: https://x.com/petergyang/status/2051508988936937764
+
+He's also thinking practically — trying to get his 8-year-old daughter building real things with agents that she can share with classmates and teachers, maybe even earn her first dollar online.
+他也在思考实际问题——努力让自己 8 岁的女儿用智能体构建真实的东西，分享给同学和老师，甚至在网上赚到人生第一桶金。
+
 Source: https://x.com/petergyang/status/2051459299860533483
 
 ---
 
-Amjad Masad (amasad on X) — CEO, Replit
+Replit CEO Amjad Masad (amasad on X)
 
-Amjad Masad showcased Replit's growing real-world utility: one entrepreneur used Replit to find investors and land meetings.
-Amjad Masad 展示了 Replit 日益增长的实用价值：一位创业者利用 Replit 找到了投资人并获得了会面机会。
-
-He also highlighted an impressive AI education use case — a multimodal learning platform built for deaf students.
-他还推荐了一个令人印象深刻的 AI 教育案例——专为聋哑学生打造的多模态学习平台。
+Replit is showing real-world traction beyond coding — the platform helped an entrepreneur find investors and land actual meetings.
+Replit 正在展示编程之外的现实世界价值——该平台帮助一位企业家找到投资人并获得了实际会面机会。
 
 Source: https://x.com/amasad/status/2051511694040744139
+
+He also highlighted a standout example of AI in education: a multi-modal learning platform built for deaf students.
+他还重点介绍了 AI 教育领域的突出案例：一个为听障学生构建的多模态学习平台。
+
 Source: https://x.com/amasad/status/2051406536443035922
 
 ---
 
-Guillermo Rauch (rauchg on X) — CEO, Vercel
+Vercel CEO Guillermo Rauch (rauchg on X)
 
-Guillermo Rauch announced an open-source agent orchestrator for deep security reviews, called `npx deepsec`.
-Guillermo Rauch 发布了一款用于深度安全审查的开源智能体编排工具 `npx deepsec`。
+Vercel is open-sourcing an AI-powered security review agent called `deepsec`.
+Vercel 正在开源一个名为 `deepsec` 的 AI 安全审查智能体。
 
-Vercel built it for internal use first, then after running it against major OSS projects, gained conviction to open-source it.
-Vercel 最初是为内部使用而构建，在对多个主要开源项目进行测试后，决定将其开源。
+*"Coding agents can now find critical vulnerabilities in minutes that would take teams of people months (if they can spot them at all)."*
+"编程智能体现在可以在几分钟内发现关键漏洞，而人工团队可能需要数月才能做到（如果能发现的话）。"
+
+Built internally and tested against major OSS projects, `deepsec` is optimized to run with Vercel Sandbox, enabling thousands of parallel agents to scrutinize a codebase simultaneously.
+该工具内部构建并在主要开源项目上测试，`deepsec` 针对 Vercel Sandbox 进行了优化，可同时调度数千个并行智能体审查代码库。
 
 Source: https://x.com/rauchg/status/2051386798899888539
 
 ---
 
-Aaron Levie (levie on X) — CEO, Box
+Box CEO Aaron Levie (levie on X)
 
-Aaron Levie observed that both Anthropic and OpenAI are now launching enterprise initiatives to deploy AI agents inside organizations: *"Both Anthropic and OpenAI have new initiatives to help enterprises deploy AI agents within their organizations. This is a trend that's early but going to get very big fast."*
-Aaron Levie 观察到 Anthropic 和 OpenAI 都在推出帮助企业内部部署 AI 智能体的计划：*"这是一个处于早期但将快速爆发的趋势。"*
+Both Anthropic and OpenAI have new initiatives to help enterprises deploy AI agents — and Aaron Levie says this trend is early but will get very big, very fast.
+Box CEO Aaron Levie 指出，Anthropic 和 OpenAI 均推出了帮助企业部署 AI 智能体的新举措，这一趋势尚处早期但将迅速爆发。
 
-He sees this as a signal that as agents enter knowledge work, enterprise AI deployment is about to accelerate dramatically.
-他认为，随着智能体进入知识工作领域，企业 AI 部署即将大幅加速。
+*"As agents enter knowledge work beyond coding, there is very real work to upgrade IT systems, get agents the context they need, modernize workflows to work with agents, figure out the human-agent relationship in the workflow, drive adoption and do change management."*
+"随着智能体进入编程之外的知识工作，需要真实的工作来升级 IT 系统、为智能体提供所需上下文、使工作流现代化、厘清工作流中的人机关系，并推动采纳和变革管理。"
+
+He argues that while AI models have remarkable capability, enterprise deployment is where the real complexity — and opportunity — lies.
+他认为，虽然 AI 模型能力卓越，但企业部署才是真正复杂性和机会所在。
 
 Source: https://x.com/levie/status/2051344780328858040
 
 ---
 
-Garry Tan (garrytan on X) — President & CEO, Y Combinator
+Y Combinator CEO Garry Tan (garrytan on X)
 
-Garry Tan dropped GBrain v0.27, adding support for non-Anthropic and non-OpenAI embeddings and LLMs, multi-modal embeddings, deep photo OCR, and more.
-Garry Tan 发布了 GBrain v0.27，新增了对非 Anthropic 和非 OpenAI 嵌入与 LLM 的支持，以及多模态嵌入、深度照片 OCR 等功能。
-
-He articulated what makes GBrain different: *"It's not a memory layer OR a code tool OR a search engine. It's all three unified under one graph with one query interface. Nobody else has that."*
-他阐述了 GBrain 的差异化：*"它不仅仅是记忆层、代码工具或搜索引擎，而是三者在同一个图下通过单一查询接口的统一。没有其他人做到这一点。"*
-
-He also emphasized a culture of rigorous testing at YC.
-他还强调了 YC 对严格测试的高度重视。
+Garry Tan dropped GBrain v0.27, adding support for non-Anthropic and non-OpenAI embeddings and LLM providers — a direct response to community requests.
+Y Combinator CEO Garry Tan 发布了 GBrain v0.27，新增了对非 Anthropic、非 OpenAI 嵌入模型和 LLM 提供商的支持，直接响应了社区需求。
 
 Source: https://x.com/garrytan/status/2051517574589116510
+
+He also articulated what makes GBrain unique: *"It's not a memory layer OR a code tool OR a search engine. It's all three unified under one graph with one query interface."*
+他还阐明了 GBrain 的独特之处："它不是记忆层、也不是代码工具、也不是搜索引擎，而是三者统一在一张图谱和一个查询界面之下。"
+
+Garry uses it personally all day with his 100k markdown file OpenClaw+Hermes Agent setup, and describes himself as "a psycho about testing."
+Garry 每天亲自使用它，配合 10 万个 Markdown 文件的 OpenClaw+Hermes Agent 配置，并自称"测试狂魔"。
+
 Source: https://x.com/garrytan/status/2051525161380364315
-Source: https://x.com/garrytan/status/2051536806932566406
 
 ---
 
-Matt Turck (mattturck on X) — VC at FirstMark Capital
+FirstMark Capital Managing Director Matt Turck (mattturck on X)
 
-Matt Turck made a witty observation on the "literal description naming trend" in startups: *"VCs need to start following the literal description naming trend: The Capital Deployment Company of San Francisco, The Check Writing Company of New York..."*
-Matt Turck 对创业公司中流行的「直白命名趋势」进行了幽默评论：*"风险投资人也应该跟上这股直白命名趋势：旧金山资本部署公司、纽约支票撰写公司……"*
+Matt Turck took a satirical swipe at VC naming conventions, riffing on "literal description" firm names like *"The Ghosting Company"* and *"The Liquidated Preference Firm of Miami"* — a wry observation about VC culture.
+FirstMark Capital 总监 Matt Turck 对 VC 命名惯例进行了讽刺性调侃，戏称"直白描述型"基金名，如"幽灵公司"和"迈阿密清算优先合伙"——对 VC 文化的辛辣观察。
 
 Source: https://x.com/mattturck/status/2051382629681828306
 
 ---
 
-Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+OpenAI Product Researcher Nikunj Kothari (nikunj on X)
 
-Nikunj Kothari pushed back on a widely-accepted startup playbook: startups from 2023–2025 are realizing that "fancy launch videos & focusing just on distribution MIGHT lead to VC funding, but still leads to money being lit on fire."
-Nikunj Kothari 对广泛流行的创业方法论提出了质疑：2023-2025 年的创业公司正在意识到，精美的发布视频和只关注分发或许能获得 VC 融资，但最终仍是在烧钱。
+Nikunj Kothari delivered a sharp take on the 2023–2025 startup vintage: fancy launch videos and distribution-first thinking may win VC funding, but are no substitute for retention.
+OpenAI 产品研究员 Nikunj Kothari 对 2023-2025 年创业浪潮给出了犀利判断：精美的发布视频和以分发为先的思路或许能赢得 VC，但无法替代用户留存。
 
-He also praised Gemini Flash as criminally underrated: *"It's criminal how cheap and how good Gemini Flash is.. that too with 1M context windows and structured outputs. Probably, my most used model in production workloads."*
-他还称赞 Gemini Flash 被严重低估：*"Gemini Flash 又便宜又好用，还支持 100 万上下文窗口和结构化输出，简直犯规。这可能是我在生产工作负载中用得最多的模型。"*
+*"Momentum (in lieu of anything else) has ceased to be a moat. It never was in the first place, and the numbers (seed → Series A gap) are starting to show this."*
+"势头（在缺乏其他优势时）已不再是护城河，它从来都不是，而种子轮到 A 轮的数据差距正开始印证这一点。"
+
+He expects acquihires to accelerate.
+他预计收购雇佣（acquihire）将加速出现。
 
 Source: https://x.com/nikunj/status/2051349526171287930
+
+He also praised Gemini Flash as criminally underrated — cheap, powerful, with 1M context windows and structured outputs — calling it his most-used model in production.
+他还高度称赞 Gemini Flash 被严重低估——价格低廉、性能强大，支持 100 万上下文窗口和结构化输出，称其为自己在生产环境中使用最多的模型。
+
 Source: https://x.com/nikunj/status/2051321911741972900
 
 ---
 
-Peter Steinberger (steipete on X) — Co-founder, OpenClaw / Crabbox
+PSPDFKit / Crabbox Founder Peter Steinberger (steipete on X)
 
-Peter Steinberger announced Crabbox 0.5.0, a major milestone for remote CI boxes: desktop/browser leases, VNC + authenticated WebVNC, AWS Windows + WSL2 support, screenshots, and app launch capabilities.
-Peter Steinberger 发布了 Crabbox 0.5.0，这是远程 CI 沙箱的重要里程碑：支持桌面/浏览器租用、VNC 及认证 WebVNC、AWS Windows + WSL2、截图和应用启动。
-
-He also revealed a new QA capability: *"We can now reproduce issues directly in ephemeral crabboxes with WebVNC (Linux/Windows/macOS). Agents set up the exact state to test + fix and post videos on the PR."*
-他还披露了一项新 QA 能力：*"我们现在可以直接在带 WebVNC 的临时 Crabbox 中复现问题（Linux/Windows/macOS），智能体能设置精确的测试状态并将视频发布到 PR 中。"*
+Peter Steinberger shipped Crabbox 0.5.0, a major release bringing desktop/browser leases, VNC + authenticated WebVNC, AWS Windows + WSL2 support, screenshots, and app launch — described as "remote CI boxes, now suspiciously usable."
+PSPDFKit 创始人 Peter Steinberger 发布了 Crabbox 0.5.0，这是一次重大版本更新，带来了桌面/浏览器租赁、VNC 及认证 WebVNC、AWS Windows + WSL2 支持、截图和应用启动——被描述为"远程 CI 容器，如今出奇地好用"。
 
 Source: https://x.com/steipete/status/2051485798613111116
+
+Building on this, his team can now reproduce issues directly in ephemeral Crabboxes with WebVNC — agents set up the exact state needed to test and fix bugs, then post videos directly on PRs.
+在此基础上，他的团队现在可以直接在临时 Crabbox 中通过 WebVNC 复现问题——智能体设置测试和修复漏洞所需的精确状态，并将视频直接发布到 PR 上。
+
 Source: https://x.com/steipete/status/2051557150040711425
 
 ---
 
-Aditya Agarwal (adityaag on X) — General Partner, South Park Commons / Ex-CTO Dropbox
+Cred Protocol Co-founder Aditya Agarwal (adityaag on X)
 
-Aditya Agarwal offered a grounding philosophy for his venture studio: *"We have never desired to be an accelerator. Velocity is not interesting without a grounding towards true north."*
-Aditya Agarwal 为其创业社区分享了一条核心理念：*"我们从未想成为加速器。没有指向真北的速度毫无意义。"*
+Aditya Agarwal shared a pointed reflection: *"We have never desired to be an accelerator. Velocity is not interesting without a grounding towards true north."*
+Cred Protocol 联合创始人 Aditya Agarwal 分享了一则深刻感悟："我们从未想成为加速器。没有朝向真正北极星的速度，毫无意义。"
+
+A reminder that speed without direction is just noise.
+这是一个提醒：没有方向的速度只是噪音。
 
 Source: https://x.com/adityaag/status/2051330205902581842
 
 ---
 
-Sam Altman (sama on X) — CEO, OpenAI
+OpenAI CEO Sam Altman (sama on X)
 
-Sam Altman expressed excitement about the near-term future of voice AI: *"pretty excited for voice models to get great — its interesting to watch how people are already starting to change the way they interface with AI."*
-Sam Altman 对语音 AI 的近期进展表示兴奋：*"非常期待语音模型变得出色——有趣的是，人们已经在改变与 AI 交互的方式了。"*
+Sam Altman is genuinely excited about where voice AI models are headed, noting that people are already changing the way they interface with AI as voice improves.
+OpenAI CEO Sam Altman 对语音 AI 模型的发展方向深感兴奋，并注意到随着语音能力提升，人们已经在改变与 AI 的交互方式。
 
-He also teased a surprise for people who applied to the GPT-5.5 party but didn't get space: *"we are gonna do something nice for everyone who applied for the GPT-5.5 party and that we didn't have space for."*
-他还为未能参加 GPT-5.5 派对的申请者预告了一个惊喜：*"我们会为所有申请了但没有位置的人做些好事。"*
+*"It's interesting to watch how people are already starting to change the way they interface with AI."*
+"看到人们已经开始改变与 AI 的交互方式，这很有趣。"
 
 Source: https://x.com/sama/status/2051464865634742334
+
+He also promised something special for everyone who applied to the GPT-5.5 launch party but didn't get a spot — details forthcoming.
+他还承诺会为所有申请了 GPT-5.5 发布派对但未获名额的人安排一些特别的事——详情待公布。
+
 Source: https://x.com/sama/status/2051318922805436896
 
 ---
 
 PODCASTS
 
+---
+
 Training Data — Waymo's Dmitri Dolgov: 20 Million Rides and the Road to Full Autonomy
-(Published: 2026-05-04)
 
-Waymo co-CEO Dmitri Dolgov joined the Training Data podcast to reflect on 20+ years of building autonomous vehicles, from the 2005 DARPA Challenge to 20 million fully autonomous rides.
-Waymo 联合 CEO Dmitri Dolgov 接受 Training Data 播客采访，回顾了他从 2005 年 DARPA 挑战赛到完成 2000 万次完全自动驾驶行程的 20 余年历程。
+Waymo co-CEO Dmitri Dolgov joined the Training Data podcast for a rare in-depth conversation tracing his twenty-year journey from the DARPA Grand Challenge to 20 million driverless rides.
+Waymo 联合 CEO Dmitri Dolgov 出席 Training Data 播客，进行了一场罕见的深度对话，追溯了他从 DARPA 无人车挑战赛到 2000 万次无人驾驶出行的二十年历程。
 
-He described Waymo's Foundation Model as a multimodal world-action-language model powering three pillars: the driver, the simulator, and the critic — built for superhuman precision, not just demos.
-他介绍了 Waymo 基础模型——一个多模态世界行动语言模型，支撑三大核心支柱：驾驶员、模拟器和评判器，目标是达到超人水平的精确度，而非仅仅是演示。
+Dolgov described his entry into autonomous vehicles as a *"light switch moment"* — the technology was compelling, the mission powerful, and uniquely, you could experience the product yourself.
+Dolgov 将自己进入自动驾驶领域描述为一个"顿悟时刻"——技术引人入胜，使命强大，而且独特的是，你可以亲身体验这个产品。
 
-On safety: *"Today we're driving more than 4,000,000 miles in full autonomy per week... the Waymo driver is more than 13 times safer than a human driver when it comes to serious injury causing collisions."*
-关于安全性：*"我们现在每周完全自动驾驶超过 400 万英里……Waymo 驾驶员在严重伤害事故方面比人类司机安全超过 13 倍。"*
+*"The mission is so powerful that nothing else comes close, and it's a real product there. You can be hands on and experience it yourself."*
+"这个使命如此强大，没有任何事情能与之相比，而且这是一个真实的产品，你可以亲手操作并亲身体验。"
 
-One remarkable emergent capability: Waymo's LiDAR detected a pedestrian's feet moving under a bus, allowing the car to predict and safely avoid the person before they emerged.
-一个令人惊叹的涌现能力：Waymo 的激光雷达检测到行人双脚在公交车下方的移动，使车辆在行人出现前就能预判并安全避让。
+Born in the Soviet Union, trained in Moscow's elite physics program (the same school his parents attended), then through Stanford to Google's self-driving car project, Dolgov's path is a testament to scientific rigor meeting entrepreneurial persistence.
+生于苏联，在莫斯科精英物理项目（与父母就读的同一所学校）接受训练，再经过斯坦福到谷歌无人驾驶汽车项目，Dolgov 的历程是科学严谨性与创业坚持相结合的见证。
 
-On scaling: it took 8 years to reach service in 4 cities; earlier this year, Waymo launched 4 cities in a single day. London and Tokyo expansions are planned for this year.
-在规模扩张上：Waymo 花了 8 年在 4 个城市开展服务；今年早些时候，他们单日就在 4 个城市同步上线。伦敦和东京的扩张计划也在今年内推进。
+Twenty million rides later, Waymo is no longer a moonshot — it's a daily habit for many San Franciscans, with Dolgov himself a daily active user.
+2000 万次出行之后，Waymo 不再是一个登月计划——它已成为许多旧金山人的日常习惯，Dolgov 本人也是每日活跃用户。
 
 Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
