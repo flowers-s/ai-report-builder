@@ -1,210 +1,161 @@
-AI Builders 日报 · 2026-05-07
+AI Builders 日报 · 2026-05-08
+
+Today's digest covers key voices from the AI builder community: product thinkers, founders, and Claude's own official channel — plus a deep podcast episode on the future of coding.
+今日日报汇聚了 AI 构建者社区的核心声音：产品思考者、创始人，以及 Claude 官方频道——并附有一期深度播客，聚焦编程的未来。
 
 ---
 
-X / TWITTER
+## Peter Yang (@petergyang)
+
+Peter shared highlights from a Dario & Daniela Anthropic session, surfacing two powerful quotes on Anthropic's growth and strategy.
+Peter 分享了 Dario 和 Daniela 在 Anthropic 活动中的精彩发言，揭示了两条关于 Anthropic 增长与战略的有力观点。
+
+On the pace of progress: *"I've been training these models since 2015, they were really dumb."* — Dario reflected on how far the models have come, and emphasized building for the exponential: products that aren't possible today may become core products with future models.
+关于进步的速度：Dario 回顾了模型从 2015 年至今的巨大跨越，并强调要"为指数级增长而构建"——今天还不可能的产品，在未来模型迭代后可能成为核心产品。
+
+On scale: *"We saw 80x growth earlier this year on usage and revenue"* — and Anthropic plans to keep acquiring as much compute as possible to sustain this trajectory.
+关于规模：Dario 透露 Anthropic 今年早些时候实现了使用量和营收的 80 倍增长，并表示将持续大力投入算力以维持这一增长势头。
+
+🔗 https://x.com/petergyang/status/2052123472583864780
+🔗 https://x.com/petergyang/status/2052117599744672195
 
 ---
 
-Swyx (swyx on X)
+## Thariq (@trq212)
 
-AI is eating enterprise software valuations — and the numbers are eye-opening.
-AI 正在吞噬企业软件估值，而这些数据令人瞩目。
+Thariq amplified Dario's compute acquisition message with a direct quote: *"everyday we're trying to obtain more compute to pass on to you, we're sorry if it takes sometime but we're going to acquire as much as we can"* — a rare, candid acknowledgment from Anthropic leadership that supply constraints are real, but the commitment is absolute.
+Thariq 引用 Dario 的原话扩散了这一信息：Anthropic 每天都在努力获取更多算力，并为此道歉——这是领导层对算力供给瓶颈难得的坦诚承认，同时也传递出绝对的承诺。
 
-Swyx charted OpenAI's valuation at ~$850B with ~$30B ARR, versus Anthropic's ~$900B with ~$44B ARR — though Anthropic's revenue recognition differs, and on an apples-to-apples basis with OpenAI's methodology, Anthropic's ARR is likely $8–10B lower.
-Swyx 绘制了 OpenAI 约 8500 亿美元估值、约 300 亿美元 ARR 与 Anthropic 约 9000 亿美元估值、约 440 亿美元 ARR 的对比图——但两者收入确认方式不同，若采用 OpenAI 的口径，Anthropic 的 ARR 可能低 80-100 亿美元。
-
-Source: https://x.com/swyx/status/2051440392722391180
-
-He also highlighted a well-received talk from his track, crediting DevOps pioneer Patrick Debois as a keynote speaker given genuine support from the community's earliest days.
-他还强调了其赛道上一场颇受欢迎的演讲，特别感谢了 DevOps 先驱 Patrick Debois 作为主题演讲嘉宾，因为其从最早期就给予了真诚的支持。
-
-Source: https://x.com/swyx/status/2051329252344369626
+🔗 https://x.com/trq212/status/2052250816720056604
 
 ---
 
-OpenAI CPO Kevin Weil (kevinweil on X)
+## Garry Tan (@garrytan)
 
-Kevin Weil shared an external link with brief commentary, signaling something noteworthy worth clicking through.
-OpenAI 首席产品官 Kevin Weil 分享了一个外部链接，简短评论暗示这是值得点击的重要内容。
+YC president Garry Tan posted a playful cultural reference: *"Lulu is like 'The Wolf' from Pulp Fiction"* — a nod to someone (or something) in the AI/startup world that swoops in to solve problems with ruthless efficiency. Classic Garry: short, punchy, and culturally loaded.
+YC 总裁 Garry Tan 发了一条充满文化气息的短推：把"Lulu"比作《低俗小说》里的"清道夫"Wolf——暗指 AI/创业圈中某个能以惊人效率解决问题的人或工具。典型的 Garry 风格：简短、有力、充满隐喻。
 
-Source: https://x.com/kevinweil/status/2051464436066721798
-
----
-
-Creator Economy Strategist Peter Yang (petergyang on X)
-
-Peter Yang laid out a three-wave vision for how AI agents will reshape the economy.
-产品增长策略师 Peter Yang 提出了 AI 智能体重塑经济的三浪愿景。
-
-*"Coding is the first frontier. Knowledge work is the second one. Personal agents are the third."*
-"编程是第一个前沿，知识工作是第二个，个人智能体是第三个。"
-
-Source: https://x.com/petergyang/status/2051508988936937764
-
-He's also thinking practically — trying to get his 8-year-old daughter building real things with agents that she can share with classmates and teachers, maybe even earn her first dollar online.
-他也在思考实际问题——努力让自己 8 岁的女儿用智能体构建真实的东西，分享给同学和老师，甚至在网上赚到人生第一桶金。
-
-Source: https://x.com/petergyang/status/2051459299860533483
+🔗 https://x.com/garrytan/status/2052007711601291602
 
 ---
 
-Replit CEO Amjad Masad (amasad on X)
+## Zara Zhang (@zarazhangrui)
 
-Replit is showing real-world traction beyond coding — the platform helped an entrepreneur find investors and land actual meetings.
-Replit 正在展示编程之外的现实世界价值——该平台帮助一位企业家找到投资人并获得了实际会面机会。
+Zara highlighted the most memorable moments from her interview with Boris Cherny (Claude Code creator), distilling three striking takeaways:
+Zara 总结了她与 Boris Cherny（Claude Code 创始人）访谈中最令人难忘的三个瞬间：
 
-Source: https://x.com/amasad/status/2051511694040744139
+First, Boris casually mentioned he has *"thousands"* of agents running overnight — a glimpse into how AI-native workflows operate at the frontier.
+第一，Boris 随口提到他每晚有"数千个" agent 在运行——这是前沿 AI 原生工作流的真实写照。
 
-He also highlighted a standout example of AI in education: a multi-modal learning platform built for deaf students.
-他还重点介绍了 AI 教育领域的突出案例：一个为听障学生构建的多模态学习平台。
+Second, Boris now uses Claude Code almost exclusively on his phone — mobile-first AI coding is becoming real.
+第二，Boris 现在几乎只用手机上的 Claude Code 写代码——移动优先的 AI 编程正在成为现实。
 
-Source: https://x.com/amasad/status/2051406536443035922
+Third, the boldest claim: *"Coding will become the new literacy, just like reading and writing."*
+第三，最大胆的预言：「编程将成为新的读写能力，就像阅读和写作一样。」
 
----
-
-Vercel CEO Guillermo Rauch (rauchg on X)
-
-Vercel is open-sourcing an AI-powered security review agent called `deepsec`.
-Vercel 正在开源一个名为 `deepsec` 的 AI 安全审查智能体。
-
-*"Coding agents can now find critical vulnerabilities in minutes that would take teams of people months (if they can spot them at all)."*
-"编程智能体现在可以在几分钟内发现关键漏洞，而人工团队可能需要数月才能做到（如果能发现的话）。"
-
-Built internally and tested against major OSS projects, `deepsec` is optimized to run with Vercel Sandbox, enabling thousands of parallel agents to scrutinize a codebase simultaneously.
-该工具内部构建并在主要开源项目上测试，`deepsec` 针对 Vercel Sandbox 进行了优化，可同时调度数千个并行智能体审查代码库。
-
-Source: https://x.com/rauchg/status/2051386798899888539
+🔗 https://x.com/zarazhangrui/status/2052277868319916402
 
 ---
 
-Box CEO Aaron Levie (levie on X)
+## Dan Shipper (@danshipper)
 
-Both Anthropic and OpenAI have new initiatives to help enterprises deploy AI agents — and Aaron Levie says this trend is early but will get very big, very fast.
-Box CEO Aaron Levie 指出，Anthropic 和 OpenAI 均推出了帮助企业部署 AI 智能体的新举措，这一趋势尚处早期但将迅速爆发。
+Dan checked in from the "Code with Claude" event, meeting up with fellow builders Kieran Klaassen and Tedes Cau. A brief but social signal: the in-person AI builder community is active and gathering.
+Dan 在"Code with Claude"活动现场打卡，与 Kieran Klaassen 和 Tedes Cau 等构建者碰面。简短一推，却是一个有力信号：线下 AI 构建者社区正在活跃聚集。
 
-*"As agents enter knowledge work beyond coding, there is very real work to upgrade IT systems, get agents the context they need, modernize workflows to work with agents, figure out the human-agent relationship in the workflow, drive adoption and do change management."*
-"随着智能体进入编程之外的知识工作，需要真实的工作来升级 IT 系统、为智能体提供所需上下文、使工作流现代化、厘清工作流中的人机关系，并推动采纳和变革管理。"
-
-He argues that while AI models have remarkable capability, enterprise deployment is where the real complexity — and opportunity — lies.
-他认为，虽然 AI 模型能力卓越，但企业部署才是真正复杂性和机会所在。
-
-Source: https://x.com/levie/status/2051344780328858040
+🔗 https://x.com/danshipper/status/2052050161388634197
 
 ---
 
-Y Combinator CEO Garry Tan (garrytan on X)
+## Claude Official (@claudeai)
 
-Garry Tan dropped GBrain v0.27, adding support for non-Anthropic and non-OpenAI embeddings and LLM providers — a direct response to community requests.
-Y Combinator CEO Garry Tan 发布了 GBrain v0.27，新增了对非 Anthropic、非 OpenAI 嵌入模型和 LLM 提供商的支持，直接响应了社区需求。
+Claude's official account announced two significant new agentic features — Outcomes and Dreaming — pointing toward a future of self-improving, quality-controlled AI agents.
+Claude 官方账号宣布了两项重要的 Agent 新功能——Outcomes（结果评估）和 Dreaming（梦境学习）——指向自我改进、质量可控的 AI Agent 未来。
 
-Source: https://x.com/garrytan/status/2051517574589116510
+**Outcomes** lets developers set quality rubrics. A separate grader model evaluates agent output, and the agent iterates until it meets the bar. Subscribe to webhooks for async completion notifications.
+**Outcomes** 允许开发者设定质量评分标准，由独立的评分模型检查输出，Agent 持续迭代直到达标；支持通过 webhook 订阅异步完成通知。
 
-He also articulated what makes GBrain unique: *"It's not a memory layer OR a code tool OR a search engine. It's all three unified under one graph with one query interface."*
-他还阐明了 GBrain 的独特之处："它不是记忆层、也不是代码工具、也不是搜索引擎，而是三者统一在一张图谱和一个查询界面之下。"
+**Dreaming** reviews an agent's past sessions, extracts behavioral patterns, and curates memories — so agents can *learn over time* from their own history, not just from each individual run.
+**Dreaming** 回顾 Agent 的历史会话，提取行为模式并整理记忆——让 Agent 能够随时间推移从自身经历中持续学习，而不仅限于单次运行。
 
-Garry uses it personally all day with his 100k markdown file OpenClaw+Hermes Agent setup, and describes himself as "a psycho about testing."
-Garry 每天亲自使用它，配合 10 万个 Markdown 文件的 OpenClaw+Hermes Agent 配置，并自称"测试狂魔"。
-
-Source: https://x.com/garrytan/status/2051525161380364315
-
----
-
-FirstMark Capital Managing Director Matt Turck (mattturck on X)
-
-Matt Turck took a satirical swipe at VC naming conventions, riffing on "literal description" firm names like *"The Ghosting Company"* and *"The Liquidated Preference Firm of Miami"* — a wry observation about VC culture.
-FirstMark Capital 总监 Matt Turck 对 VC 命名惯例进行了讽刺性调侃，戏称"直白描述型"基金名，如"幽灵公司"和"迈阿密清算优先合伙"——对 VC 文化的辛辣观察。
-
-Source: https://x.com/mattturck/status/2051382629681828306
+🔗 https://x.com/claudeai/status/2052067403228455419
+🔗 https://x.com/claudeai/status/2052067400690851842
 
 ---
 
-OpenAI Product Researcher Nikunj Kothari (nikunj on X)
+## 🎙️ Podcast: Training Data — "Anthropic's Boris Cherny: Coding's Printing Press Moment"
 
-Nikunj Kothari delivered a sharp take on the 2023–2025 startup vintage: fancy launch videos and distribution-first thinking may win VC funding, but are no substitute for retention.
-OpenAI 产品研究员 Nikunj Kothari 对 2023-2025 年创业浪潮给出了犀利判断：精美的发布视频和以分发为先的思路或许能赢得 VC，但无法替代用户留存。
-
-*"Momentum (in lieu of anything else) has ceased to be a moat. It never was in the first place, and the numbers (seed → Series A gap) are starting to show this."*
-"势头（在缺乏其他优势时）已不再是护城河，它从来都不是，而种子轮到 A 轮的数据差距正开始印证这一点。"
-
-He expects acquihires to accelerate.
-他预计收购雇佣（acquihire）将加速出现。
-
-Source: https://x.com/nikunj/status/2051349526171287930
-
-He also praised Gemini Flash as criminally underrated — cheap, powerful, with 1M context windows and structured outputs — calling it his most-used model in production.
-他还高度称赞 Gemini Flash 被严重低估——价格低廉、性能强大，支持 100 万上下文窗口和结构化输出，称其为自己在生产环境中使用最多的模型。
-
-Source: https://x.com/nikunj/status/2051321911741972900
+**Source:** Training Data (Anthropic)
+**URL:** https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
 ---
 
-PSPDFKit / Crabbox Founder Peter Steinberger (steipete on X)
+### 一、深度总结
 
-Peter Steinberger shipped Crabbox 0.5.0, a major release bringing desktop/browser leases, VNC + authenticated WebVNC, AWS Windows + WSL2 support, screenshots, and app launch — described as "remote CI boxes, now suspiciously usable."
-PSPDFKit 创始人 Peter Steinberger 发布了 Crabbox 0.5.0，这是一次重大版本更新，带来了桌面/浏览器租赁、VNC 及认证 WebVNC、AWS Windows + WSL2 支持、截图和应用启动——被描述为"远程 CI 容器，如今出奇地好用"。
+**核心论点**
 
-Source: https://x.com/steipete/status/2051485798613111116
+Boris Cherny，Claude Code 的创造者，认为"编程已经被解决了"——至少对于简单的代码库而言如此。他本人今年一行代码都没有手写，每天通过 AI agent 提交数十个 PR，最高纪录是一天 150 个。更深远的观点是：编程正在成为一种新型读写能力，就像印刷术将阅读从精英普及到大众一样，AI 编程工具将让每个人都能构建软件。
 
-Building on this, his team can now reproduce issues directly in ephemeral Crabboxes with WebVNC — agents set up the exact state needed to test and fix bugs, then post videos directly on PRs.
-在此基础上，他的团队现在可以直接在临时 Crabbox 中通过 WebVNC 复现问题——智能体设置测试和修复漏洞所需的精确状态，并将视频直接发布到 PR 上。
+**关键洞察**
 
-Source: https://x.com/steipete/status/2051557150040711425
-
----
-
-Cred Protocol Co-founder Aditya Agarwal (adityaag on X)
-
-Aditya Agarwal shared a pointed reflection: *"We have never desired to be an accelerator. Velocity is not interesting without a grounding towards true north."*
-Cred Protocol 联合创始人 Aditya Agarwal 分享了一则深刻感悟："我们从未想成为加速器。没有朝向真正北极星的速度，毫无意义。"
-
-A reminder that speed without direction is just noise.
-这是一个提醒：没有方向的速度只是噪音。
-
-Source: https://x.com/adityaag/status/2051330205902581842
+- **"产品过剩"（Product Overhang）是真实存在的。** 模型能力已经领先于产品形态。Claude Code 诞生于这一洞察：与其等产品成熟，不如为下一代模型构建，接受前期无 PMF 的阵痛。
+- **语言和框架的选择曾经至关重要，现在几乎无所谓。** 早期选 TypeScript + React 是因为模型对它们的"分布"最熟悉；如今模型能学习任何新语言、新框架。
+- **Boris 每晚运行"数千个" agent。** 这不是夸张，而是 AI 原生工作流的真实状态——人睡觉，机器工作。
+- **iPhone 成为主要编程设备。** Boris 现在主要在手机上使用 Claude Code，这意味着移动端 AI 编程界面的潜力巨大且未被充分开发。
+- **编程即将成为基础素养。** 就像印刷术让阅读从贵族特权变为普及技能，AI coding 工具将把软件构建能力赋予所有人——这是一个十年维度的文明级转变。
 
 ---
 
-OpenAI CEO Sam Altman (sama on X)
+### 二、Bilingual Deep Dive (Sentence-by-Sentence)
 
-Sam Altman is genuinely excited about where voice AI models are headed, noting that people are already changing the way they interface with AI as voice improves.
-OpenAI CEO Sam Altman 对语音 AI 模型的发展方向深感兴奋，并注意到随着语音能力提升，人们已经在改变与 AI 的交互方式。
+Boris Cherny created Claude Code almost by accident, joining a small internal incubator team at Anthropic in late 2024.
+Boris Cherny 近乎"偶然"地创建了 Claude Code——2024 年底，他加入了 Anthropic 内部一个名为 Anthropic Labs 的小型孵化团队。
 
-*"It's interesting to watch how people are already starting to change the way they interface with AI."*
-"看到人们已经开始改变与 AI 的交互方式，这很有趣。"
+That team of just a few people went on to create Claude Code, MCP, and the Anthropic desktop app.
+这个只有寥寥数人的团队，最终创造了 Claude Code、MCP 协议和 Anthropic 桌面应用。
 
-Source: https://x.com/sama/status/2051464865634742334
+The core insight was "product overhang" — the model could already do far more than any product had captured.
+核心洞察是"产品过剩"——模型的能力已远超现有产品所能实现的边界。
 
-He also promised something special for everyone who applied to the GPT-5.5 launch party but didn't get a spot — details forthcoming.
-他还承诺会为所有申请了 GPT-5.5 发布派对但未获名额的人安排一些特别的事——详情待公布。
+In late 2024, the state of the art in AI coding was tab-completion, one line at a time.
+2024 年底，AI 编程的最前沿还是逐行补全的 Tab 键自动完成。
 
-Source: https://x.com/sama/status/2051318922805436896
+Boris felt the model was ready for a much bigger leap: having the agent write all the code.
+Boris 认为模型已准备好迈出更大的一步：让 agent 直接写完所有代码。
 
----
+For the first six months, it didn't really work — barely used for 10% of his code.
+最初六个月，效果并不理想——他自己也只将其用于约 10% 的代码。
 
-PODCASTS
+The product didn't have its PMF moment because it was being built for the *next* model, not the current one.
+这款产品迟迟未能找到 PMF，因为它是为下一代模型而构建的，而非针对当前模型。
 
----
+The exponential growth started with Opus 4, then inflected further with each subsequent model release.
+指数级增长始于 Opus 4，此后每次新模型发布都会带来新一轮拐点。
 
-Training Data — Waymo's Dmitri Dolgov: 20 Million Rides and the Road to Full Autonomy
+Today, Boris writes zero lines of code by hand — the model writes 100% of his code.
+如今，Boris 一行代码都不手写——所有代码 100% 由模型生成。
 
-Waymo co-CEO Dmitri Dolgov joined the Training Data podcast for a rare in-depth conversation tracing his twenty-year journey from the DARPA Grand Challenge to 20 million driverless rides.
-Waymo 联合 CEO Dmitri Dolgov 出席 Training Data 播客，进行了一场罕见的深度对话，追溯了他从 DARPA 无人车挑战赛到 2000 万次无人驾驶出行的二十年历程。
+He submits dozens of PRs every day, with a personal record of 150 PRs in a single day.
+他每天提交数十个 PR，个人记录是单日 150 个 PR。
 
-Dolgov described his entry into autonomous vehicles as a *"light switch moment"* — the technology was compelling, the mission powerful, and uniquely, you could experience the product yourself.
-Dolgov 将自己进入自动驾驶领域描述为一个"顿悟时刻"——技术引人入胜，使命强大，而且独特的是，你可以亲身体验这个产品。
+He now uses Claude Code primarily on iOS — a sign that mobile AI coding is not a gimmick but a serious workflow.
+他现在主要在 iOS 上使用 Claude Code——这表明移动端 AI 编程不是噱头，而是真实可用的严肃工作流。
 
-*"The mission is so powerful that nothing else comes close, and it's a real product there. You can be hands on and experience it yourself."*
-"这个使命如此强大，没有任何事情能与之相比，而且这是一个真实的产品，你可以亲手操作并亲身体验。"
+He runs thousands of agents overnight, letting the machines work while he sleeps.
+他每晚运行数千个 agent，让机器在他睡觉时持续工作。
 
-Born in the Soviet Union, trained in Moscow's elite physics program (the same school his parents attended), then through Stanford to Google's self-driving car project, Dolgov's path is a testament to scientific rigor meeting entrepreneurial persistence.
-生于苏联，在莫斯科精英物理项目（与父母就读的同一所学校）接受训练，再经过斯坦福到谷歌无人驾驶汽车项目，Dolgov 的历程是科学严谨性与创业坚持相结合的见证。
+The TypeScript + React stack for Claude Code was deliberately chosen because it was "on distribution" for the model.
+Claude Code 选用 TypeScript + React 技术栈，是因为这些语言和框架在模型的训练分布中高度覆盖。
 
-Twenty million rides later, Waymo is no longer a moonshot — it's a daily habit for many San Franciscans, with Dolgov himself a daily active user.
-2000 万次出行之后，Waymo 不再是一个登月计划——它已成为许多旧金山人的日常习惯，Dolgov 本人也是每日活跃用户。
+Today that hardly matters — models can pick up any language or framework they haven't seen before.
+如今这几乎不再重要——模型可以自行学习任何从未见过的语言或框架。
 
-Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+Boris's boldest claim: coding is like a "printing press moment."
+Boris 最大胆的断言：编程正处于一个"印刷术时刻"。
 
----
+Just as the printing press democratized reading and writing, AI will democratize the ability to build software.
+正如印刷术让阅读与写作从贵族特权走向大众，AI 将让构建软件的能力普及到每一个人。
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Coding will become the new literacy — not a specialized skill, but a fundamental human capability.
+编程将成为新的读写能力——不再是专业技能，而是人类的基础素养。
+
+🔗 https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
