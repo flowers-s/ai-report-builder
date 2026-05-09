@@ -1,161 +1,145 @@
-AI Builders 日报 · 2026-05-08
-
-Today's digest covers key voices from the AI builder community: product thinkers, founders, and Claude's own official channel — plus a deep podcast episode on the future of coding.
-今日日报汇聚了 AI 构建者社区的核心声音：产品思考者、创始人，以及 Claude 官方频道——并附有一期深度播客，聚焦编程的未来。
+AI Builders 日报 · 2026-05-09
 
 ---
 
-## Peter Yang (@petergyang)
+## 🎙️ PODCASTS
 
-Peter shared highlights from a Dario & Daniela Anthropic session, surfacing two powerful quotes on Anthropic's growth and strategy.
-Peter 分享了 Dario 和 Daniela 在 Anthropic 活动中的精彩发言，揭示了两条关于 Anthropic 增长与战略的有力观点。
-
-On the pace of progress: *"I've been training these models since 2015, they were really dumb."* — Dario reflected on how far the models have come, and emphasized building for the exponential: products that aren't possible today may become core products with future models.
-关于进步的速度：Dario 回顾了模型从 2015 年至今的巨大跨越，并强调要"为指数级增长而构建"——今天还不可能的产品，在未来模型迭代后可能成为核心产品。
-
-On scale: *"We saw 80x growth earlier this year on usage and revenue"* — and Anthropic plans to keep acquiring as much compute as possible to sustain this trajectory.
-关于规模：Dario 透露 Anthropic 今年早些时候实现了使用量和营收的 80 倍增长，并表示将持续大力投入算力以维持这一增长势头。
-
-🔗 https://x.com/petergyang/status/2052123472583864780
-🔗 https://x.com/petergyang/status/2052117599744672195
-
----
-
-## Thariq (@trq212)
-
-Thariq amplified Dario's compute acquisition message with a direct quote: *"everyday we're trying to obtain more compute to pass on to you, we're sorry if it takes sometime but we're going to acquire as much as we can"* — a rare, candid acknowledgment from Anthropic leadership that supply constraints are real, but the commitment is absolute.
-Thariq 引用 Dario 的原话扩散了这一信息：Anthropic 每天都在努力获取更多算力，并为此道歉——这是领导层对算力供给瓶颈难得的坦诚承认，同时也传递出绝对的承诺。
-
-🔗 https://x.com/trq212/status/2052250816720056604
-
----
-
-## Garry Tan (@garrytan)
-
-YC president Garry Tan posted a playful cultural reference: *"Lulu is like 'The Wolf' from Pulp Fiction"* — a nod to someone (or something) in the AI/startup world that swoops in to solve problems with ruthless efficiency. Classic Garry: short, punchy, and culturally loaded.
-YC 总裁 Garry Tan 发了一条充满文化气息的短推：把"Lulu"比作《低俗小说》里的"清道夫"Wolf——暗指 AI/创业圈中某个能以惊人效率解决问题的人或工具。典型的 Garry 风格：简短、有力、充满隐喻。
-
-🔗 https://x.com/garrytan/status/2052007711601291602
-
----
-
-## Zara Zhang (@zarazhangrui)
-
-Zara highlighted the most memorable moments from her interview with Boris Cherny (Claude Code creator), distilling three striking takeaways:
-Zara 总结了她与 Boris Cherny（Claude Code 创始人）访谈中最令人难忘的三个瞬间：
-
-First, Boris casually mentioned he has *"thousands"* of agents running overnight — a glimpse into how AI-native workflows operate at the frontier.
-第一，Boris 随口提到他每晚有"数千个" agent 在运行——这是前沿 AI 原生工作流的真实写照。
-
-Second, Boris now uses Claude Code almost exclusively on his phone — mobile-first AI coding is becoming real.
-第二，Boris 现在几乎只用手机上的 Claude Code 写代码——移动优先的 AI 编程正在成为现实。
-
-Third, the boldest claim: *"Coding will become the new literacy, just like reading and writing."*
-第三，最大胆的预言：「编程将成为新的读写能力，就像阅读和写作一样。」
-
-🔗 https://x.com/zarazhangrui/status/2052277868319916402
-
----
-
-## Dan Shipper (@danshipper)
-
-Dan checked in from the "Code with Claude" event, meeting up with fellow builders Kieran Klaassen and Tedes Cau. A brief but social signal: the in-person AI builder community is active and gathering.
-Dan 在"Code with Claude"活动现场打卡，与 Kieran Klaassen 和 Tedes Cau 等构建者碰面。简短一推，却是一个有力信号：线下 AI 构建者社区正在活跃聚集。
-
-🔗 https://x.com/danshipper/status/2052050161388634197
-
----
-
-## Claude Official (@claudeai)
-
-Claude's official account announced two significant new agentic features — Outcomes and Dreaming — pointing toward a future of self-improving, quality-controlled AI agents.
-Claude 官方账号宣布了两项重要的 Agent 新功能——Outcomes（结果评估）和 Dreaming（梦境学习）——指向自我改进、质量可控的 AI Agent 未来。
-
-**Outcomes** lets developers set quality rubrics. A separate grader model evaluates agent output, and the agent iterates until it meets the bar. Subscribe to webhooks for async completion notifications.
-**Outcomes** 允许开发者设定质量评分标准，由独立的评分模型检查输出，Agent 持续迭代直到达标；支持通过 webhook 订阅异步完成通知。
-
-**Dreaming** reviews an agent's past sessions, extracts behavioral patterns, and curates memories — so agents can *learn over time* from their own history, not just from each individual run.
-**Dreaming** 回顾 Agent 的历史会话，提取行为模式并整理记忆——让 Agent 能够随时间推移从自身经历中持续学习，而不仅限于单次运行。
-
-🔗 https://x.com/claudeai/status/2052067403228455419
-🔗 https://x.com/claudeai/status/2052067400690851842
-
----
-
-## 🎙️ Podcast: Training Data — "Anthropic's Boris Cherny: Coding's Printing Press Moment"
-
-**Source:** Training Data (Anthropic)
-**URL:** https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
-
----
+**The MAD Podcast with Matt Turck**
+Episode: OpenAI Board Member Zico Kolter on the Real Risks of Frontier AI
+Published: 2026-05-07
+URL: https://www.youtube.com/watch?v=DvyZcCfepeI
 
 ### 一、深度总结
 
 **核心论点**
-
-Boris Cherny，Claude Code 的创造者，认为"编程已经被解决了"——至少对于简单的代码库而言如此。他本人今年一行代码都没有手写，每天通过 AI agent 提交数十个 PR，最高纪录是一天 150 个。更深远的观点是：编程正在成为一种新型读写能力，就像印刷术将阅读从精英普及到大众一样，AI 编程工具将让每个人都能构建软件。
+本期 MAD Podcast 邀请 OpenAI 董事会成员、卡内基梅隆大学机器学习系主任 Zico Kolter，深度探讨前沿 AI 的真实风险。Kolter 认为，当前 AI 安全讨论往往陷入两个极端——要么轻描淡写，要么末日主义——而现实中需要的是严格的、基于证据的工程式安全思维。
 
 **关键洞察**
+- **安全委员会的实际运作**：OpenAI 的 Safety & Security Committee 并非形式主义，每次重大模型发布前均有结构化审查流程，Kolter 本人深度参与其中。
+- **Agent 时代的新风险**：随着 AI 系统从"回答问题"进化为"执行任务"，长链推理中的累积错误和权限滥用成为真正值得警惕的安全边界。
+- **对齐的不确定性**：Kolter 坦承，目前没有人能百分之百保证 frontier 模型已完全对齐，但这并不意味着应停止推进，而是应在部署中持续监控和修正。
+- **AI 安全 ≠ AI 伦理**：Kolter 明确区分技术安全问题（模型是否会被滥用、越狱、误导）与更宏观的伦理争议，前者可工程化解决，后者需要社会共识。
+- **学术界的角色**：CMU 等学术机构的独立研究对 AI 安全至关重要，能提供企业内部难以做到的批判性视角。
 
-- **"产品过剩"（Product Overhang）是真实存在的。** 模型能力已经领先于产品形态。Claude Code 诞生于这一洞察：与其等产品成熟，不如为下一代模型构建，接受前期无 PMF 的阵痛。
-- **语言和框架的选择曾经至关重要，现在几乎无所谓。** 早期选 TypeScript + React 是因为模型对它们的"分布"最熟悉；如今模型能学习任何新语言、新框架。
-- **Boris 每晚运行"数千个" agent。** 这不是夸张，而是 AI 原生工作流的真实状态——人睡觉，机器工作。
-- **iPhone 成为主要编程设备。** Boris 现在主要在手机上使用 Claude Code，这意味着移动端 AI 编程界面的潜力巨大且未被充分开发。
-- **编程即将成为基础素养。** 就像印刷术让阅读从贵族特权变为普及技能，AI coding 工具将把软件构建能力赋予所有人——这是一个十年维度的文明级转变。
+### 二、金句摘录
+
+*"We don't have a guaranteed way to know if a frontier model is fully aligned. But the answer isn't to stop — it's to build better monitoring, better oversight, and better tools."* — Zico Kolter
+
+*The real risks of frontier AI are not the science fiction scenarios, but the very real engineering and deployment failures that compound at scale.*
 
 ---
 
-### 二、Bilingual Deep Dive (Sentence-by-Sentence)
+## 🐦 X / TWITTER
 
-Boris Cherny created Claude Code almost by accident, joining a small internal incubator team at Anthropic in late 2024.
-Boris Cherny 近乎"偶然"地创建了 Claude Code——2024 年底，他加入了 Anthropic 内部一个名为 Anthropic Labs 的小型孵化团队。
+### Swyx (@swyx)
+AI 开发者社区意见领袖、Smol AI 创始人 Swyx 今日发帖较为轻松。他吐槽 DocuSign 在关键时刻"掉链子"，以粗口表达不满（*"fuck docusign with a sharp stick"*）；随后分享了一个尴尬的产品 Bug 循环：本想录 Loom 视频展示 Gusto 的 Bug，结果 Loom 自己也崩了；另提醒社区警惕正在流传的钓鱼攻击，称自己差点中招。
+URLs: https://x.com/swyx/status/2052632502683279417 | https://x.com/swyx/status/2052627119675769333 | https://x.com/swyx/status/2052599553283813788
 
-That team of just a few people went on to create Claude Code, MCP, and the Anthropic desktop app.
-这个只有寥寥数人的团队，最终创造了 Claude Code、MCP 协议和 Anthropic 桌面应用。
+---
 
-The core insight was "product overhang" — the model could already do far more than any product had captured.
-核心洞察是"产品过剩"——模型的能力已远超现有产品所能实现的边界。
+### Kevin Weil (@kevinweil)
+OpenAI 产品副总裁 Kevin Weil 转发了一段让他百看不厌的视频，未加任何文字评论（*"I will never get tired of this"*）。内容轻量，无实质性技术观点。
+URL: https://x.com/kevinweil/status/2052605586962022459
 
-In late 2024, the state of the art in AI coding was tab-completion, one line at a time.
-2024 年底，AI 编程的最前沿还是逐行补全的 Tab 键自动完成。
+---
 
-Boris felt the model was ready for a much bigger leap: having the agent write all the code.
-Boris 认为模型已准备好迈出更大的一步：让 agent 直接写完所有代码。
+### Peter Yang (@petergyang)
+产品思维博主 Peter Yang 今日仅发了一条无文字的链接推文。近期无重要动态。
+URL: https://x.com/petergyang/status/2052548729891439057
 
-For the first six months, it didn't really work — barely used for 10% of his code.
-最初六个月，效果并不理想——他自己也只将其用于约 10% 的代码。
+---
 
-The product didn't have its PMF moment because it was being built for the *next* model, not the current one.
-这款产品迟迟未能找到 PMF，因为它是为下一代模型而构建的，而非针对当前模型。
+### Madhu Guru (@realmadhuguru)
+前 Google Gemini 高管 Madhu Guru 宣布离职 Google，发表了一篇情感饱满的告别帖。他表示在 Google 经历了从零到一搭建两条业务线的过程——先是搜索与广告，后是 Gemini。三年前 OpenAI 和 Anthropic 领跑时，他的团队通过构建 AI 模型的完整打法和客户反馈飞轮追赶上来。他的离开标志着一个时代节点，也引发了业界对 Google AI 人才流向的关注。
+URL: https://x.com/realmadhuguru/status/2052490869320946037
 
-The exponential growth started with Opus 4, then inflected further with each subsequent model release.
-指数级增长始于 Opus 4，此后每次新模型发布都会带来新一轮拐点。
+---
 
-Today, Boris writes zero lines of code by hand — the model writes 100% of his code.
-如今，Boris 一行代码都不手写——所有代码 100% 由模型生成。
+### Amjad Masad (@amasad)
+Replit CEO Amjad Masad 分享了一条颇具趣味的数据点：史上最病毒式传播的请愿书之一，正是托管在 Replit 上的（主题与球星 Mbappé 相关）。*"They're calling it the most viral petition in history, and it's hosted on Replit."* 这一案例再次验证了 Replit 在大众用户快速构建工具方面的独特位置。
+URL: https://x.com/amasad/status/2052478595277467703
 
-He submits dozens of PRs every day, with a personal record of 150 PRs in a single day.
-他每天提交数十个 PR，个人记录是单日 150 个 PR。
+---
 
-He now uses Claude Code primarily on iOS — a sign that mobile AI coding is not a gimmick but a serious workflow.
-他现在主要在 iOS 上使用 Claude Code——这表明移动端 AI 编程不是噱头，而是真实可用的严肃工作流。
+### Alex Albert (@alexalbert__)
+Anthropic 开发者关系负责人 Alex Albert 分享了一个令人印象深刻的成果：Firefox 团队借助 **Claude Mythos Preview**，在 2026 年 4 月修复的安全 Bug 数量超过了过去 15 个月的总和。*"the Firefox team fixed more security bugs in April than in the past 15 months combined."* 这是 AI 辅助安全工程的一个重要里程碑，也暗示 Anthropic 的新模型在代码安全分析上有重大突破。
+URLs: https://x.com/alexalbert__/status/2052468575492088078 | https://x.com/alexalbert__/status/2052468573516513762
 
-He runs thousands of agents overnight, letting the machines work while he sleeps.
-他每晚运行数千个 agent，让机器在他睡觉时持续工作。
+---
 
-The TypeScript + React stack for Claude Code was deliberately chosen because it was "on distribution" for the model.
-Claude Code 选用 TypeScript + React 技术栈，是因为这些语言和框架在模型的训练分布中高度覆盖。
+### Aaron Levie (@levie)
+Box CEO Aaron Levie 发表了一段关于 AI 时代竞争逻辑的深度思考。他指出：当 AI 让某件事变得容易时，这对所有人都成立——竞争力将因此向新的差异化领域转移。*"When AI makes one thing easy to do, it's always good to assume that will equally be the case for everyone else."* 这一逻辑意味着：AI 让软件构建变容易，但真正的护城河将出现在 AI 暂时无法替代的地方——比如客户信任、垂直场景数据、复杂集成能力。
+URL: https://x.com/levie/status/2052566788236509254
 
-Today that hardly matters — models can pick up any language or framework they haven't seen before.
-如今这几乎不再重要——模型可以自行学习任何从未见过的语言或框架。
+---
 
-Boris's boldest claim: coding is like a "printing press moment."
-Boris 最大胆的断言：编程正处于一个"印刷术时刻"。
+### Ryo Lu (@ryolu_)
+产品设计师 Ryo Lu 用一条简洁的推文展示了 Cursor 的工作流：从想法到 merge，全程在 Cursor 中完成。图片直观呈现了 AI 辅助开发的效率，无需更多文字。
+URL: https://x.com/ryolu_/status/2052496872586272802
 
-Just as the printing press democratized reading and writing, AI will democratize the ability to build software.
-正如印刷术让阅读与写作从贵族特权走向大众，AI 将让构建软件的能力普及到每一个人。
+---
 
-Coding will become the new literacy — not a specialized skill, but a fundamental human capability.
-编程将成为新的读写能力——不再是专业技能，而是人类的基础素养。
+### Garry Tan (@garrytan)
+YC 总裁 Garry Tan 今日连发三条推文，全部围绕他的个人开源工具栈 **GStack** 和 **GBrain** 展开：
 
-🔗 https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+1. **GStack v1.28** 发布：浏览器现在支持文件下载，并在无头 Linux 容器（如 Claw/Hermes）中通过 Xvfb 实现 headed 模式与反爬虫检测。增加了 llms.txt，让 AI agent 能更准确地调用技能。
+2. **GStack Browser 配对模式**：可在 Mac/PC 上以 headed 模式运行，通过 `/pair-agent` 让 Claude Code 或 OpenClaw 控制已登录的浏览器，实现真正的"带登录态"自动化。
+3. **GBrain 薄客户端模式**：GBrain 现在支持 thin-client 模式，第二 agent 无需运行独立 MCP server，直接通过 MCP 连接 GBrain 即可。
+
+这是面向重度 AI 开发者的基础设施工具，Garry 正在打造一套完整的个人 AI 运维栈。
+URLs: https://x.com/garrytan/status/2052629679572701455 | https://x.com/garrytan/status/2052588782076281324 | https://x.com/garrytan/status/2052588548126364028
+
+---
+
+### Matt Turck (@mattturck)
+MAD Podcast 主持人、FirstMark 合伙人 Matt Turck 今日主要在推广与 Zico Kolter 的播客对话（详见 Podcasts 部分）。他特别标注了节目章节结构，包括 OpenAI 董事会角色、Safety & Security Committee、重大模型发布审查流程、AI 安全与安全性、Agent 时代风险等议题。
+URLs: https://x.com/mattturck/status/2052440964782870727 | https://x.com/mattturck/status/2052440959997063309
+
+---
+
+### Zara Zhang (@zarazhangrui)
+投资人 Zara Zhang 感叹：收到了太多关于新 AI 应用的消息，但它们的宣传语都开始模糊混在一起，难以区分。*"I get so many messages about new AI apps but their all messaging all blur into each other"* — 这折射出当前 AI 应用市场严重的同质化问题，也是投资人和用户共同的认知疲劳信号。
+URL: https://x.com/zarazhangrui/status/2052505923625857286
+
+---
+
+### Nikunj Kothari (@nikunj)
+前 Figma 产品总监 Nikunj Kothari 今日发表了一篇颇为犀利的管理观点：每周一对一会议（Weekly 1:1s）在他看来是"中层管理者的心理操控工具"，*"Weekly 1:1s are generally a psy-op by mid tier empire-building managers"*，本质是微观管理而非赋能。他认为真正信任下属的管理者不需要这种形式。此外他还分享了 Reactor World 即将实现"每一个像素实时生成"的愿景，以及一个关于 VC 周会氛围的幽默梗图。
+URLs: https://x.com/nikunj/status/2052626010332668278 | https://x.com/nikunj/status/2052461083282350121 | https://x.com/nikunj/status/2052409335503081525
+
+---
+
+### Peter Steinberger (@steipete)
+PSPDFKit 创始人 Peter Steinberger 今日聚焦 AI agent 工作流：他展示了两个 Claw agent（"Molty"）之间的协作——彼此通信并学习如何委派 cron jobs；他还表示 `/goal + GPT 5.5` 的组合在执行大规模重构（含端到端测试）时表现出色，*"/goal + GPT 5.5 is amazing. I can now plan really extensive refactors with e2e tests and it just works."*；此外他还分享了在 ChatGPT Future Class 2026 担任 mentor 的经历，学员团队构建了一个能穿透墙体和废墟探测灾难幸存者的 AI 系统。
+URLs: https://x.com/steipete/status/2052630190346457301 | https://x.com/steipete/status/2052514752245481675 | https://x.com/steipete/status/2052486085226184742
+
+---
+
+### Dan Shipper (@danshipper)
+Every.to 创始人 Dan Shipper 预判 AI 平台战争即将到来。他与联合创始人 Kieran 录制了一期快报，分析 xAI 计算协议、Managed Agents 趋势，以及 Anthropic 将 API 转型为完整云基础设施（面向开发者）的战略意义：*"the ai platform war is coming"*。这是对 AI 供应链层面竞争格局的深度解读，值得关注。
+URLs: https://x.com/danshipper/status/2052501376195080381 | https://x.com/danshipper/status/2052493496788066812 | https://x.com/danshipper/status/2052410930257113145
+
+---
+
+### Aditya Agarwal (@adityaag)
+South Park Commons 联合创始人 Aditya Agarwal 今日主要推广旗下社区活动：**Embodied AI Hackathon**（5月15-17日，旧金山），截止申请时间为5月12日。他还回应了关于 AOC（Alexandria Ocasio-Cortez）"人生工作"的讨论，认为任何人都可以"just do things"——极具 builder 精神。
+URLs: https://x.com/adityaag/status/2052544215826260254 | https://x.com/adityaag/status/2052441427070861816 | https://x.com/adityaag/status/2052441425724514741
+
+---
+
+### Sam Altman (@sama)
+OpenAI CEO Sam Altman 今日发了三条引发广泛讨论的推文：
+
+1. **企业安全**：OpenAI 希望帮助企业做好 AI 安全防护，并认为这项工作需要快速启动。
+2. **开发者未来**：*"way cooler to help software developers pokemon-evolve into superheroes than to try to replace them"*——他认为 AI 应放大人的能力而非取代，并表示"一个真正优秀的人，现在能做的事情令人叹为观止"。
+3. **语音交互观察**：他观察到年轻人和老年人偏爱语音与 AI 交互，中间年龄段的人更喜欢打字——并好奇这一现象未来是否会改变。
+
+URL: https://x.com/sama/status/2052558319940944256 | https://x.com/sama/status/2052485051812909530 | https://x.com/sama/status/2052462428663992564
+
+---
+
+### Claude (@claudeai)
+Anthropic 官方账号 @claudeai 今日宣布：**Claude for Microsoft 365 全面可用**——Claude for Excel、PowerPoint 和 Word 现已对所有付费用户开放，Claude for Outlook 进入公开测试。*"As Claude moves between your Microsoft apps, it carries the full context of your conversation."* 这是 Anthropic 在企业协作软件赛道的重要落地，与 Microsoft Office 的深度集成将极大拓宽 Claude 的企业用户触达面。
+URLs: https://x.com/claudeai/status/2052445787930468704 | https://x.com/claudeai/status/2052445786651168849
+
+---
