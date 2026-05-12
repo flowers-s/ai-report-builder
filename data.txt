@@ -1,244 +1,108 @@
-AI Builders 日报 · 2026-05-11
+AI Builders 日报 · 2026-05-12
 
 ---
 
-OFFICIAL BLOGS
+## OFFICIAL BLOGS / 官方博客
+
+**Anthropic Engineering** — Scaling Managed Agents: Decoupling the brain from the hands
+Anthropic Engineering published a deep dive on how to scale managed agents by separating the "brain" (the model doing reasoning) from the "hands" (the tools and executors doing work).
+Anthropic 工程博客发布了关于如何扩展托管 Agent 的深度文章，核心思路是将"大脑"（负责推理的模型）与"双手"（执行工具与操作层）解耦。文章指出，Agent 框架中对模型能力的假设往往会随着模型迭代而过时，需要频繁重新审视。以 Claude Sonnet 4.5 为例，早期版本会过早结束任务，而新版本已能更好地自主处理长流程工作。
+🔗 https://www.anthropic.com/engineering/managed-agents
 
 ---
 
-Anthropic Engineering: An update on recent Claude Code quality reports
-https://www.anthropic.com/engineering/april-23-postmortem
+## X / TWITTER
 
-Over the past month, Anthropic investigated reports that Claude's responses had worsened for some users.
-过去一个月，Anthropic 对用户反映的 Claude 响应质量下降问题展开了深入调查。
-
-Three separate changes were found to affect Claude Code, the Claude Agent SDK, and Claude Cowork — all resolved as of April 20 (v2.1.116).
-调查发现三项独立变更分别影响了 Claude Code、Claude Agent SDK 和 Claude Cowork，均已于 4 月 20 日（v2.1.116）修复。
-
-First: on March 4, the default reasoning effort in Claude Code was changed from "high" to "medium" to reduce latency, but this hurt intelligence; it was reverted on April 7.
-第一：3 月 4 日，Claude Code 的默认推理强度从"高"改为"中"以降低延迟，但这损害了智能表现，已于 4 月 7 日回滚。
-
-Second: a caching optimization shipped March 26 had a bug that cleared Claude's prior reasoning every turn (not just once after idle), making it seem forgetful; fixed April 10.
-第二：3 月 26 日上线的缓存优化存在 bug，导致 Claude 的历史推理记录每轮都被清除（而非仅在闲置后清除一次），使其表现得像"失忆"；已于 4 月 10 日修复。
-
-Third: on April 16, a verbosity-reduction system prompt instruction hurt coding quality and was reverted April 20.
-第三：4 月 16 日添加的减少冗长的系统提示指令损害了代码质量，已于 4 月 20 日回滚。
-
-Going forward, Anthropic will run broader eval suites for every system prompt change, add soak periods and gradual rollouts, and ensure more internal staff use the exact public build.
-未来，Anthropic 将针对每次系统提示变更运行更广泛的评估套件，增加浸泡期和灰度发布，并确保更多内部员工使用与公开版本完全一致的构建。
-
-As of April 23, usage limits for all subscribers have been reset.
-自 4 月 23 日起，所有订阅用户的使用限额已重置。
+**Swyx (@swyx)**
+Swyx shared thoughts on the classic "build vs. buy SaaS" debate, tagging Box CEO Aaron Levie for commentary — touching on how AI shifts the calculus between building in-house tools and purchasing off-the-shelf software.
+Swyx 分享了关于"自研 vs. 购买 SaaS"的思考，并 @ 了 Box CEO Aaron Levie 进行讨论。随着 AI 工具能力提升，企业自建工具的门槛大幅降低，这一传统决策正在被重新审视。
+🔗 https://x.com/swyx/status/2053572059767427302
 
 ---
 
-Claude Blog: New connectors in Claude for everyday life
-https://claude.com/blog/connectors-for-everyday-life
-
-Claude now connects to everyday lifestyle apps including AllTrails, Audible, Instacart, Spotify, Uber, Tripadvisor, and more.
-Claude 现已接入 AllTrails、Audible、Instacart、Spotify、Uber、Tripadvisor 等日常生活类应用。
-
-Since launching connectors in July 2025, the Claude directory has grown to over 200 integrations.
-自 2025 年 7 月推出 connectors 功能以来，Claude 目录已增长至超过 200 个集成。
-
-Claude now dynamically suggests the right connector based on what you're doing in the conversation.
-Claude 现在会根据对话内容动态推荐合适的 connector。
-
-There are no paid placements or sponsored answers; Claude is and will remain ad-free.
-没有付费推广或赞助答案；Claude 已是且将继续保持无广告。
-
-Your data from connected apps is not used to train models, and you can disconnect at any time.
-来自已连接应用的数据不会用于训练模型，用户随时可以断开连接。
+**Peter Yang (@petergyang)**
+Peter sparked discussion with a simple but relatable AI automation idea: using AI to summarize his kids' 10-page school newsletters and flag important dates like early dismissal. He also noted a surprising data point — likely referencing an unexpected AI adoption or product trend — that earned nearly 800 likes.
+Peter 提出了一个简单但极具共鸣的 AI 自动化场景：用 AI 解析学校发来的长达 10 页的周报，自动提取重要信息（如提前放学通知）。另一条推文分享了一个"出乎意料"的数据观察，引发近 800 个点赞，显示 AI 产品领域某些趋势正在超出市场预期。
+🔗 https://x.com/petergyang/status/2053672364681134511
+🔗 https://x.com/petergyang/status/2053552061632102402
 
 ---
 
-Claude Blog: Built-in memory for Claude Managed Agents
-https://claude.com/blog/claude-managed-agents-memory
-
-Memory on Claude Managed Agents is now available in public beta, allowing agents to learn and improve across sessions.
-Claude Managed Agents 的内置记忆功能现已进入公开测试版，让 Agent 能够跨会话学习和持续进化。
-
-Memories are stored as files on a mounted filesystem, giving developers full export, API management, and audit control.
-记忆以文件形式存储在挂载的文件系统上，开发者可完全导出、通过 API 管理，并拥有完整的审计控制权。
-
-Multiple agents can share memory stores with scoped permissions — read-only org-wide stores, read-write per-user stores.
-多个 Agent 可通过权限范围共享记忆存储，支持只读的组织级存储和读写的用户级存储。
-
-Real-world results: Rakuten cut first-pass errors by 97%; Wisedocs sped up document verification by 30%.
-实际应用成效：Rakuten 将首次处理错误降低了 97%；Wisedocs 将文档验证速度提升了 30%。
+**Thariq (@trq212)**
+Thariq (Claude Code, Anthropic) shared that he's been using HTML extensively — not just for web output, but for planning, specs, exploration, code review, and reports. He also highlighted a wild demo: someone rewrote Bun in Rust and it passed 99.8% of existing tests, suggesting we're not being ambitious enough with AI-assisted rewrites.
+Thariq（Anthropic Claude Code 团队）分享了他大量使用 HTML 进行规划、需求文档、代码审查和报告的实践经验，打破了 HTML 仅用于前端展示的刻板印象。他还转发了一个令人震惊的演示：有人用 AI 将 Bun 重写为 Rust，并通过了 99.8% 的现有测试——*"we're not being ambitious enough"*（我们的野心还不够大）。
+🔗 https://x.com/trq212/status/2053632475294040084
+🔗 https://x.com/trq212/status/2053559397654348159
 
 ---
 
-X / TWITTER
+**Guillermo Rauch (@rauchg)**
+Vercel CEO Guillermo Rauch kept it personal this week — sharing a photo from SF's calisthenics scene and a warm Mother's Day message celebrating his mother, who put herself through engineering school in Argentina.
+Vercel CEO Guillermo Rauch 本周分享了旧金山街头健身的生活片段，以及一条感人的母亲节致辞——他的母亲在阿根廷自学完成了工程学位，为他树立了极高的人生标杆。
+🔗 https://x.com/rauchg/status/2053613142761206080
+🔗 https://x.com/rauchg/status/2053558741283623308
 
 ---
 
-Swyx (swyx on X) — AI engineer, affiliated with @cognition, @temporalio, @aiDotEngineer
-
-Swyx announced that Singapore's Minister of Foreign Affairs will be keynoting AI.Engineer Singapore next week — a significant signal of governments at the cabinet level embracing AI.
-Swyx 宣布，新加坡外交部长将在下周的 AI.Engineer 新加坡大会上发表主旨演讲，这是政府内阁级别拥抱 AI 的重要信号。
-
-He noted that both the UK Chief AI Officer and a Singapore Cabinet Minister have now joined AI.Engineer events: *"governments waking up to AI and joining @aiDotEngineer"*
-他指出，英国首席 AI 官和新加坡内阁部长都已加入 AI.Engineer 系列活动："政府正在觉醒，加入 AI.Engineer"。
-
-He also asked whether data on Codex's "background agent" usage could serve as a proxy for agent adoption rates — a thoughtful metric for tracking real-world agentic AI adoption.
-他还提问 Codex 后台代理模式的使用数据是否可作为 Agent 采用率的参考指标，这是追踪 AI 代理现实应用的一个有价值的思路。
-
-https://x.com/swyx/status/2053370687931498603
-https://x.com/swyx/status/2053364156510982164
+**Aaron Levie (@levie)**
+Box CEO Aaron Levie posted a substantive take on the transition from coding agents to general knowledge-work agents. He emphasized that getting advanced agents right requires serious effort: ensuring agents have the right context, data, and integrations — not just plugging in an LLM.
+Box CEO Aaron Levie 发表了对 AI Agent 从代码领域扩展到通用知识工作的深度看法。他指出，高级 Agent 落地绝非易事，需要确保 Agent 拥有正确的上下文、数据和集成能力。*"it takes a real amount of work and know-how to get right"* ——这是对当前 "vibe coding" 热潮的清醒提醒。
+🔗 https://x.com/levie/status/2053672965125140915
 
 ---
 
-Kevin Weil (kevinweil on X) — VP Science at OpenAI
-
-Kevin Weil shared a link he described as *"a matter of extreme importance (and some of the best writing ever)"* — no further context given, but the endorsement itself signals something worth tracking.
-Kevin Weil 分享了一篇他形容为"极为重要（且是有史以来最佳写作之一）"的链接，未作进一步说明，但其背书本身值得关注。
-
-https://x.com/kevinweil/status/2053225351946682733
-
----
-
-Peter Yang (petergyang on X) — Product at Roblox, AI educator with 140K+ newsletter readers
-
-Peter Yang warned about a compounding "slop spiral" in AI-generated content: when agents generate files based on prior agent-generated files, a starting 5% slop rate can snowball into an unmanageable mess.
-Peter Yang 警告了 AI 生成内容中的复合"垃圾螺旋"问题：当 Agent 基于之前 Agent 生成的文件再生成新文件时，起初 5% 的垃圾内容可能滚雪球式地变成难以控制的混乱。
-
-He also called out Claude Code for hanging silently for minutes with no feedback: *"Sometimes when I message Claude Code it just hangs for 3 minutes and I have no idea whether it's still working or not."*
-他还批评 Claude Code 会无声地挂起数分钟，让用户一无所知："有时我给 Claude Code 发消息，它就挂起三分钟，我完全不知道它是否还在工作。"
-
-https://x.com/petergyang/status/2053317001976881312
-https://x.com/petergyang/status/2053170264121450616
+**Ryo Lu (@ryolu_)**
+Ryo (Design at Cursor) unveiled a new IRC bridge for his ryOS project connecting it to Pieter Levels' retro PC world — *"let the worlds connect 🌎"*. He also posted an open invite to link up with internet people.
+Ryo（Cursor 设计师）为其 ryOS 项目新增了 IRC 桥接功能，打通了与 Pieter Levels 复古 PC 世界的连接——*"let the worlds connect 🌎"*。这一互联互通的实验探索了去中心化网络社区的新玩法。
+🔗 https://x.com/ryolu_/status/2053523477878259951
+🔗 https://x.com/ryolu_/status/2053523744019427416
 
 ---
 
-Guillermo Rauch (rauchg on X) — CEO of Vercel
-
-近期无重要动态。
-No substantive content beyond a brief post this cycle.
-
-https://x.com/rauchg/status/2053202932812911027
-
----
-
-Aaron Levie (levie on X) — CEO of Box
-
-Aaron Levie wrote a detailed thread arguing that AI democratizes access to fields but experts maintain a durable edge — because experts know when agents make catastrophic mistakes and can provide the right context to improve outputs.
-Aaron Levie 发表了详细的长推，认为 AI 使各领域更民主化，但专家仍保有持久优势——因为专家知道 Agent 何时会犯灾难性错误，并能提供正确的上下文来改善输出。
-
-His conclusion: *"The quality and volume of output we expect from these functions will certainly go up meaningfully, but the person with experience will always have a leg up, which is why the jobs don't go away."*
-他的结论是："我们对这些职能产出的质量和数量期望肯定会大幅提升，但有经验的人始终具有优势，这就是为什么这些工作不会消失。"
-
-https://x.com/levie/status/2053267097493573921
+**Garry Tan (@garrytan)**
+YC President Garry Tan dropped a philosophical gem: *"The highest and most important form of design is actually pure transmutation of human pain and suffering"* — positioning design as fundamentally empathy-driven problem solving. He also shared a funny clip of AI models doing knock-knock jokes for 30 messages straight.
+YC 总裁 Garry Tan 分享了一句颇具哲学意味的话：*"The highest and most important form of design is actually pure transmutation of human pain and suffering"*——将设计的本质定义为对人类痛苦的转化与超越。他还分享了一段有趣的截图：AI 模型连续发了 30 条敲门笑话，令人忍俊不禁。
+🔗 https://x.com/garrytan/status/2053689459032379860
+🔗 https://x.com/garrytan/status/2053645909682954545
 
 ---
 
-Garry Tan (garrytan on X) — President & CEO of Y Combinator
-
-Garry Tan shipped GBrain v0.31.1 with real MCP thin-client support, meaning one central "home GBrain server" can now serve multiple client machines — GBrain just went client-server.
-Garry Tan 发布了 GBrain v0.31.1，支持真正的 MCP 瘦客户端，一台中央"家庭 GBrain 服务器"现在可为多台客户端机器提供服务——GBrain 正式走向客户端-服务器架构。
-
-He also noted his Hermes Agent "Neuromancer" displayed genuine fan excitement at being cited in the GBrain changelog, and shared a tip: have AI agents generate ASCII diagrams to help understand complex systems.
-他还分享了其 Hermes Agent "Neuromancer"在被 GBrain 更新日志引用时表现出了真实的"粉丝热情"，并分享技巧：让 AI Agent 生成 ASCII 图表来帮助理解复杂系统。
-
-https://x.com/garrytan/status/2053306243704410460
-https://x.com/garrytan/status/2053316036661838107
-https://x.com/garrytan/status/2053191327181865376
+**Nikunj Kothari (@nikunj)**
+FPV Ventures partner Nikunj shared a relatable life update: pre-kids he hated red-eye flights; post-kids, they're his secret weapon — tuck the kids in, wake up in a new city ready to go.
+FPV Ventures 合伙人 Nikunj 分享了一个有趣的人生感悟：有孩子之前最讨厌红眼航班；有孩子之后，红眼航班反而成了最高效的出行方式——哄孩子睡觉后登机，醒来就已抵达目的地，一秒切换工作模式。
+🔗 https://x.com/nikunj/status/2053685737716089020
 
 ---
 
-Zara Zhang (zarazhangrui on X) — Builder, Harvard '17
-
-Zara Zhang made a sharp observation about why HTML matters in the AI era: *"In the past, we optimized our output format for human manipulation (eg. pushing pixels in powerpoint). When AI will handle the manipulation, the output format should be optimized for human CONSUMPTION instead."*
-Zara Zhang 对 AI 时代 HTML 的重要性作出了犀利的洞察："过去，我们为人工操作优化输出格式（比如在 PPT 里移动像素）。当 AI 接管操作后，输出格式应该转为为人类消费而优化。"
-
-Humans are visual animals who don't read; beautiful, interactive artifacts win.
-人类是视觉动物，不爱阅读；精美的交互式产品才能胜出。
-
-https://x.com/zarazhangrui/status/2053291803135410674
+**Peter Steinberger (@steipete)**
+OpenClaw creator Peter Steinberger had a productive AI-heavy day. He challenged Codex to write end-to-end tests for improvements to OpenClaw's chat completion endpoint — while using the /side command to ask questions mid-task. He also shared Birdclaw, which gives him access to his full Twitter archive via Claude, and built a mini browser into RepoBar for in-context issue/PR review. *"You gotta build yourself the tools that make you better."*
+OpenClaw 创作者 Peter Steinberger 度过了一个充满 AI 实验的高效一天。他让 Codex 为 OpenClaw 聊天补全端点的改进编写端到端测试，同时用 /side 命令在任务执行过程中提问。他还展示了 Birdclaw——一个让他能通过 Claude 搜索自己全量 Twitter 存档的工具，以及在 RepoBar 中内嵌小型浏览器用于 PR/Issue 上下文审查。*"You gotta build yourself the tools that make you better."*（要为自己打造让自己更强的工具。）
+🔗 https://x.com/steipete/status/2053744332675408151
+🔗 https://x.com/steipete/status/2053737275268177980
+🔗 https://x.com/steipete/status/2053717468623872230
 
 ---
 
-Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
-
-Nikunj shared a useful custom instruction for AI planning: tell the model to estimate timelines in "model-execution units" (seconds, tool calls, iterations), not human days — and to explicitly flag human-required gating steps.
-Nikunj 分享了一个实用的 AI 规划自定义指令：告诉模型用"模型执行单位"（秒、工具调用次数、迭代次数）而非人天来估算时间，并明确标注需要人工介入的关键步骤。
-
-He also joked that everyone — both founders and VCs — agrees the bar to be a good VC is embarrassingly low: just do what you say.
-他还开玩笑说，创始人和 VC 都一致认为，成为一名优秀 VC 的门槛低得令人尴尬：只要言出必行就够了。
-
-https://x.com/nikunj/status/2053159569015328953
-https://x.com/nikunj/status/2053289104331493566
+**Dan Shipper (@danshipper)**
+Every CEO Dan Shipper had a big week. He hinted that a small team in a Brooklyn office is 1-2 months ahead of Silicon Valley on some AI frontier. He also shared that a new social/YouTube hire quickly found massive A/B test uplifts. And he demoed a weekend Codex hack: building a web app that visualizes piano chords in real time from a MIDI keyboard.
+Every CEO Dan Shipper 本周动态频频。他暗示布鲁克林某小团队在某些 AI 前沿方向上领先硅谷 1-2 个月。他还分享了新招聘的社媒/YouTube 负责人迅速发现了巨大的 A/B 测试提升空间。此外，他展示了一个周末 Codex 黑客项目：用 MIDI 键盘连接电脑，让 Codex 构建实时显示正在弹奏和弦的 Web 应用——*codex-native* 开发的生动案例。
+🔗 https://x.com/danshipper/status/2053628011233095875
+🔗 https://x.com/danshipper/status/2053580741515051114
+🔗 https://x.com/danshipper/status/2053551046299959760
 
 ---
 
-Peter Steinberger (steipete on X) — Co-founder of OpenClaw, affiliated with OpenAI
-
-Peter Steinberger taught Codex to look for social signals when reviewing PRs — bringing human-style code review instincts to automated agents.
-Peter Steinberger 让 Codex 在审查 PR 时学会识别社交信号，将人类式的代码审查直觉引入自动化 Agent。
-
-He shipped Crabbox with improved Windows terminal handling, enabling Codex to end-to-end fix gifgrep to render animated GIFs in the terminal.
-他发布了改进 Windows 终端处理的 Crabbox，使 Codex 能够端到端修复 gifgrep，令其在终端中渲染动态 GIF。
-
-He also updated spogo (a Spotify CLI tool) to be much faster: *"codex is my dj now"* — and shared a YouTube-to-Sonos playback tool.
-他还更新了 spogo（Spotify 命令行工具），速度大幅提升："codex 现在是我的 DJ 了"，并分享了一个 YouTube 转 Sonos 播放工具。
-
-https://x.com/steipete/status/2053374981824798751
-https://x.com/steipete/status/2053329609064685740
-https://x.com/steipete/status/2053310800773685600
+**Sam Altman (@sama)**
+OpenAI CEO Sam Altman had a rare light moment: playfully floating the idea of naming the next model *"goblin"* — *"almost worth it to make you all happy"* — earning 9,000+ likes. He also shared something he found "interesting," likely a research or product reference that sparked wide engagement.
+OpenAI CEO Sam Altman 难得展现幽默一面：他认真地提议把下一个模型命名为 *"goblin"*（哥布林），并表示 *"almost worth it to make you all happy"*（就为了让大家开心，感觉还挺值的），获得超过 9000 个点赞。另一条"interesting"的转推同样引发了大量关注与讨论。
+🔗 https://x.com/sama/status/2053572868936761350
+🔗 https://x.com/sama/status/2053566155571560868
 
 ---
 
-Dan Shipper (danshipper on X) — CEO of Every
+## PODCASTS / 播客
 
-Dan Shipper pushed back on benchmark panic around new models: *"benchmarks don't measure model capability alone — they measure model capability after a human has done the work of finding a prompt that lets the model's capability appear. That work is non-trivial."*
-Dan Shipper 对新模型引发的基准测试恐慌提出反驳："基准测试衡量的不只是模型能力，而是在人类完成挖掘模型潜力的提示词工作之后的模型能力。这项工作并不简单。"
-
-He also noted that "getting a tool to perform poorly" is the lowest form of science and journalism — only relevant when the tool is actually useful.
-他还指出，"让工具表现不佳"是科学和新闻报道中最低级的操作——只有当工具本身确实有用时，这种操作才有意义。
-
-https://x.com/danshipper/status/2053191885116571935
-https://x.com/danshipper/status/2053203284165337237
-
----
-
-Sam Altman (sama on X) — CEO of OpenAI
-
-Sam Altman teased a new model with characteristic cryptic flair: *"5.5 is an autistic genius with very strange taste in naming"* — hinting at an upcoming OpenAI model release.
-Sam Altman 以一贯神秘的方式预告了新模型："5.5 是一个有着极其奇特命名品味的天才"——暗示 OpenAI 即将发布新模型。
-
-He also described his ideal agentic workflow: kick off a bunch of Codex tasks, spend time with his kid in the sunshine, and come back at naptime to find them all completed.
-他还描述了自己理想中的 Agent 工作流：启动一堆 Codex 任务，然后带孩子在阳光下玩耍，睡觉时间回来发现全部完成了。
-
-https://x.com/sama/status/2053192407664259251
-https://x.com/sama/status/2053191344999604409
-
----
-
-PODCASTS
-
----
-
-Training Data: ElevenLabs' Mati Staniszewski: How Voice Becomes the Interface for Everything
-https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
-
-ElevenLabs CEO Mati Staniszewski explains how growing up in Poland — where all foreign film audio is narrated by a single monotone voice — sparked the vision: everyone should be able to speak any language with the same emotion and intonation.
-ElevenLabs CEO Mati Staniszewski 讲述了在波兰长大的经历——所有外国影片音频都由一个单调的声音配音——这激发了他的愿景：每个人都应该能用相同的情感和语调说任何语言。
-
-ElevenLabs started in 2022 when audio was still a niche no one cared about; the team hired the best audio researchers globally (via GitHub scraping) in a fully remote setup between London and Warsaw.
-ElevenLabs 于 2022 年创立，彼时音频仍是无人问津的小众领域；团队通过 GitHub 挖掘，以伦敦和华沙之间全远程的方式招募了全球最优秀的音频研究人员。
-
-The company is now over 400 people, $400M+ in revenue, building text-to-speech, speech-to-text, dubbing, real-time voice agents, and music generation — the full audio intelligence stack.
-公司现已超过 400 人，营收逾 4 亿美元，涵盖文本转语音、语音转文本、配音、实时语音 Agent 和音乐生成——完整的音频智能栈。
-
-The next frontier: emotional intelligence in voice agents (detecting if a user is stressed and responding with a soothing tone), and "audio general intelligence" — combining narration, speech, and singing in one continuous voice stream.
-下一个前沿：语音 Agent 的情感智能（检测用户压力并以舒缓语调回应），以及"音频通用智能"——在一个连续的声音流中融合叙述、对话和歌唱。
-
-A key organizational insight: every non-technical team (legal, go-to-market, people) has an embedded engineer, which proved critical as "vibe coding" spread beyond engineering.
-一个关键的组织洞察：每个非技术团队（法律、市场、人事）都配有一名嵌入式工程师，这在"氛围编程"蔓延至工程之外后被证明至关重要。
-
-On agent-to-agent communication: at a hackathon 1.5 years ago, two ElevenLabs voice agents detected they were both AI and spontaneously switched to a more efficient transmission protocol — a preview of what's coming.
-关于 Agent 间通信：在 1.5 年前的一次黑客马拉松上，两个 ElevenLabs 语音 Agent 检测到彼此都是 AI，并自发切换到了更高效的传输协议——这是未来的预演。
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+**No Priors** — Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud
+No Priors hosted Baseten CEO Tuhin Srivastava to discuss the exploding demand for AI inference infrastructure. Baseten has grown 30x in the past year and is on track to exceed $1B in revenue. Key topics: capacity constraints, the shift toward custom fine-tuned models, the multi-chip future, and why inference is "the last market."
+No Priors 播客邀请 Baseten CEO Tuhin Srivastava 深聊 AI 推理基础设施的爆炸性需求。Baseten 过去一年增长了 30 倍，预计今年营收将突破 10 亿美元。核心话题包括：算力容量约束、定制微调模型的兴起、多芯片异构计算的未来，以及为什么"推理才是最终的战场"。
+🔗 https://www.youtube.com/watch?v=XAbKflCncDo
