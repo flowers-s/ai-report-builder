@@ -1,108 +1,110 @@
-AI Builders 日报 · 2026-05-12
-
----
-
-## OFFICIAL BLOGS / 官方博客
-
-**Anthropic Engineering** — Scaling Managed Agents: Decoupling the brain from the hands
-Anthropic Engineering published a deep dive on how to scale managed agents by separating the "brain" (the model doing reasoning) from the "hands" (the tools and executors doing work).
-Anthropic 工程博客发布了关于如何扩展托管 Agent 的深度文章，核心思路是将"大脑"（负责推理的模型）与"双手"（执行工具与操作层）解耦。文章指出，Agent 框架中对模型能力的假设往往会随着模型迭代而过时，需要频繁重新审视。以 Claude Sonnet 4.5 为例，早期版本会过早结束任务，而新版本已能更好地自主处理长流程工作。
-🔗 https://www.anthropic.com/engineering/managed-agents
+AI Builders 日报 · 2026-05-13
 
 ---
 
 ## X / TWITTER
 
-**Swyx (@swyx)**
-Swyx shared thoughts on the classic "build vs. buy SaaS" debate, tagging Box CEO Aaron Levie for commentary — touching on how AI shifts the calculus between building in-house tools and purchasing off-the-shelf software.
-Swyx 分享了关于"自研 vs. 购买 SaaS"的思考，并 @ 了 Box CEO Aaron Levie 进行讨论。随着 AI 工具能力提升，企业自建工具的门槛大幅降低，这一传统决策正在被重新审视。
-🔗 https://x.com/swyx/status/2053572059767427302
+### Andrej Karpathy (karpathy on X) — AI researcher, former Director of AI @Tesla, founding team @OpenAI
+
+Ask your LLM to "structure your response as HTML" and view the file in your browser — it works really well.
+让你的 LLM「将响应以 HTML 格式呈现」，然后在浏览器中查看生成的文件——效果非常好。
+
+Karpathy argues that audio is the human-preferred *input* to AI, while vision (images, animations, video) is the preferred *output* from AI.
+Karpathy 认为，音频是人类向 AI 输入信息的首选方式，而视觉（图像、动画、视频）则是 AI 输出内容的首选形式。
+
+He lays out a progression: raw text → markdown → HTML → interactive neural videos/simulations, with the end state being *"interactive videos generated directly by a diffusion neural net."*
+他描绘了一条演进路径：纯文本 → Markdown → HTML → 交互式神经视频/模拟，终极形态是「由扩散神经网络直接生成的交互式视频」。
+
+He also notes input still needs work: *"Audio nor text nor video alone are not enough — I feel a need to point/gesture to things on the screen."*
+他也指出输入端仍有待改进：「音频、文本或视频单独都不够——我感到需要能指向/手势操作屏幕上的内容。」
+
+Source: https://x.com/karpathy/status/2053872850101285137
 
 ---
 
-**Peter Yang (@petergyang)**
-Peter sparked discussion with a simple but relatable AI automation idea: using AI to summarize his kids' 10-page school newsletters and flag important dates like early dismissal. He also noted a surprising data point — likely referencing an unexpected AI adoption or product trend — that earned nearly 800 likes.
-Peter 提出了一个简单但极具共鸣的 AI 自动化场景：用 AI 解析学校发来的长达 10 页的周报，自动提取重要信息（如提前放学通知）。另一条推文分享了一个"出乎意料"的数据观察，引发近 800 个点赞，显示 AI 产品领域某些趋势正在超出市场预期。
-🔗 https://x.com/petergyang/status/2053672364681134511
-🔗 https://x.com/petergyang/status/2053552061632102402
+### Swyx (swyx on X) — AI engineer, affiliated with @dxtipshq, @cognition, @temporalio, @aidotengineer, @latentspacepod
+
+Swyx called out what he sees as a major leap in real-time AI: *"I believe the kids call this '@thinkymachines just brutally framemogged gdm and oai'. Basically everyone's definition of 'realtime' just got a massive fricking upgrade."*
+Swyx 指出他所认为的实时 AI 的重大突破：「我觉得年轻人管这叫'@thinkymachines 直接把 gdm 和 oai 按在地上摩擦'。基本上所有人对'实时'的定义都刚刚被大幅升级了。」
+
+He also shared personal highlights and a quote retweet, but the most substantive take is the real-time AI framing shift.
+他还分享了个人精选和转推，但最有实质内容的观点是对实时 AI 范式转变的判断。
+
+Source: https://x.com/swyx/status/2053960011748098462
 
 ---
 
-**Thariq (@trq212)**
-Thariq (Claude Code, Anthropic) shared that he's been using HTML extensively — not just for web output, but for planning, specs, exploration, code review, and reports. He also highlighted a wild demo: someone rewrote Bun in Rust and it passed 99.8% of existing tests, suggesting we're not being ambitious enough with AI-assisted rewrites.
-Thariq（Anthropic Claude Code 团队）分享了他大量使用 HTML 进行规划、需求文档、代码审查和报告的实践经验，打破了 HTML 仅用于前端展示的刻板印象。他还转发了一个令人震惊的演示：有人用 AI 将 Bun 重写为 Rust，并通过了 99.8% 的现有测试——*"we're not being ambitious enough"*（我们的野心还不够大）。
-🔗 https://x.com/trq212/status/2053632475294040084
-🔗 https://x.com/trq212/status/2053559397654348159
+### Kevin Weil (kevinweil on X) — VP Science @OpenAI, Board Director @Cisco
+
+No substantive original content in this period — shared a retweet he found valuable.
+本期无原创实质内容——转发了一条他认为有价值的推文。
+
+Source: https://x.com/kevinweil/status/2054063509869306204
 
 ---
 
-**Guillermo Rauch (@rauchg)**
-Vercel CEO Guillermo Rauch kept it personal this week — sharing a photo from SF's calisthenics scene and a warm Mother's Day message celebrating his mother, who put herself through engineering school in Argentina.
-Vercel CEO Guillermo Rauch 本周分享了旧金山街头健身的生活片段，以及一条感人的母亲节致辞——他的母亲在阿根廷自学完成了工程学位，为他树立了极高的人生标杆。
-🔗 https://x.com/rauchg/status/2053613142761206080
-🔗 https://x.com/rauchg/status/2053558741283623308
+### Peter Yang (petergyang on X) — Product @Roblox, AI tutorials newsletter (140K+ readers)
+
+近期无重要 AI 相关动态。Yang's recent tweets covered Bay Area amusement park closures and light product musings, with no substantive AI insights.
+近期无重要 AI 相关动态。Yang 最近的推文涉及湾区游乐园关闭和轻量级产品随想，没有实质性的 AI 洞察。
 
 ---
 
-**Aaron Levie (@levie)**
-Box CEO Aaron Levie posted a substantive take on the transition from coding agents to general knowledge-work agents. He emphasized that getting advanced agents right requires serious effort: ensuring agents have the right context, data, and integrations — not just plugging in an LLM.
-Box CEO Aaron Levie 发表了对 AI Agent 从代码领域扩展到通用知识工作的深度看法。他指出，高级 Agent 落地绝非易事，需要确保 Agent 拥有正确的上下文、数据和集成能力。*"it takes a real amount of work and know-how to get right"* ——这是对当前 "vibe coding" 热潮的清醒提醒。
-🔗 https://x.com/levie/status/2053672965125140915
+### Amanda Askell (AmandaAskell on X) — Philosopher & AI ethicist @AnthropicAI
+
+Claude's constitution is now available as an audiobook — Askell and Joe recorded a reading of it.
+Claude 的「宪法」现在以有声书形式发布——Askell 和 Joe 录制了朗读版本。
+
+*"You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on adding the option of listening to it on fast mode."*
+「你现在可以收听我和 Joe 朗读 Claude 宪法的有声书了。正在开发快速播放模式。」
+
+This is a meaningful transparency move — making Anthropic's alignment document more accessible in audio format.
+这是一个重要的透明度举措——以音频格式让 Anthropic 的对齐文件更易获取。
+
+Source: https://x.com/AmandaAskell/status/2054010971765805486
 
 ---
 
-**Ryo Lu (@ryolu_)**
-Ryo (Design at Cursor) unveiled a new IRC bridge for his ryOS project connecting it to Pieter Levels' retro PC world — *"let the worlds connect 🌎"*. He also posted an open invite to link up with internet people.
-Ryo（Cursor 设计师）为其 ryOS 项目新增了 IRC 桥接功能，打通了与 Pieter Levels 复古 PC 世界的连接——*"let the worlds connect 🌎"*。这一互联互通的实验探索了去中心化网络社区的新玩法。
-🔗 https://x.com/ryolu_/status/2053523477878259951
-🔗 https://x.com/ryolu_/status/2053523744019427416
+### Cat Wu (_catwu on X) — Claude Code + Cowork @AnthropicAI, prev @Dagster, @Scale_AI
+
+Claude Code now has a terminal control plane: run `claude agents` to manage all your Claude Code agents from one place.
+Claude Code 现在拥有终端控制面板：运行 `claude agents` 即可在一处管理所有 Claude Code agents。
+
+*"After, hit `<-` from any CLI session to register that with the control plane. Personally, I like to run `claude agents` from my root code dir to manage all my claude code agents in one place."*
+「之后，在任意 CLI 会话中按 `<-` 即可将其注册到控制面板。我个人喜欢在根代码目录运行 `claude agents`，统一管理所有 Claude Code agents。」
+
+Anthropic is also collecting feedback on Claude Code in the cloud (Desktop cloud option, iOS app, Android app) — office hours signup available.
+Anthropic 还在收集云端 Claude Code 的反馈（桌面云选项、iOS 应用、Android 应用）——可报名参加 office hours。
+
+Source: https://x.com/_catwu/status/2053999857799672111
+Source: https://x.com/_catwu/status/2053873949646405879
 
 ---
 
-**Garry Tan (@garrytan)**
-YC President Garry Tan dropped a philosophical gem: *"The highest and most important form of design is actually pure transmutation of human pain and suffering"* — positioning design as fundamentally empathy-driven problem solving. He also shared a funny clip of AI models doing knock-knock jokes for 30 messages straight.
-YC 总裁 Garry Tan 分享了一句颇具哲学意味的话：*"The highest and most important form of design is actually pure transmutation of human pain and suffering"*——将设计的本质定义为对人类痛苦的转化与超越。他还分享了一段有趣的截图：AI 模型连续发了 30 条敲门笑话，令人忍俊不禁。
-🔗 https://x.com/garrytan/status/2053689459032379860
-🔗 https://x.com/garrytan/status/2053645909682954545
+## PODCASTS
+
+### No Priors — "Amex Global Business Travel: The World's First AI Take Private with Long Lake CEO Alexander Taubman"
+
+Long Lake is acquiring American Express Global Business Travel for $6.3 billion in what may be the world's first AI-driven take-private.
+Long Lake 正以 63 亿美元收购美国运通全球商务旅行公司，这可能是全球首例 AI 驱动的私有化交易。
+
+Long Lake's thesis: buy mature service businesses, deploy their proprietary Nexus AI platform, and grow them like software companies with high incremental margins.
+Long Lake 的核心逻辑：收购成熟服务业企业，部署其专有的 Nexus AI 平台，并将其打造成像软件公司一样拥有高增量利润率的增长型企业。
+
+CEO Alex Taubman argues AI makes employees more productive, which lets you hire more of them, grow faster, and pay them more — a positive-sum flywheel, not a cost-cutting story.
+CEO Alex Taubman 认为，AI 让员工更高效，进而可以雇用更多人、增长更快、薪酬更高——这是一个正和飞轮，而非裁员降本的故事。
+
+*"We're not focused on cost saving. We're actually focused on driving growth and customer experience."*
+「我们并不专注于降低成本，我们真正专注的是推动增长和提升客户体验。」
+
+Their portfolio companies have gone from 0-5% annual volume growth to 20%+ after the Nexus platform deployment.
+在部署 Nexus 平台后，他们投资组合中的公司年度业务量增长率从 0-5% 提升至 20% 以上。
+
+The key insight on AI adoption: owning the company lets you actually drive change management — something impossible when merely selling software to a client.
+关于 AI 落地的关键洞察：拥有公司所有权才能真正推动变革管理——这是单纯向客户销售软件时无法实现的。
+
+Episode URL: https://www.youtube.com/watch?v=g5TWnUjbeFM
 
 ---
 
-**Nikunj Kothari (@nikunj)**
-FPV Ventures partner Nikunj shared a relatable life update: pre-kids he hated red-eye flights; post-kids, they're his secret weapon — tuck the kids in, wake up in a new city ready to go.
-FPV Ventures 合伙人 Nikunj 分享了一个有趣的人生感悟：有孩子之前最讨厌红眼航班；有孩子之后，红眼航班反而成了最高效的出行方式——哄孩子睡觉后登机，醒来就已抵达目的地，一秒切换工作模式。
-🔗 https://x.com/nikunj/status/2053685737716089020
-
----
-
-**Peter Steinberger (@steipete)**
-OpenClaw creator Peter Steinberger had a productive AI-heavy day. He challenged Codex to write end-to-end tests for improvements to OpenClaw's chat completion endpoint — while using the /side command to ask questions mid-task. He also shared Birdclaw, which gives him access to his full Twitter archive via Claude, and built a mini browser into RepoBar for in-context issue/PR review. *"You gotta build yourself the tools that make you better."*
-OpenClaw 创作者 Peter Steinberger 度过了一个充满 AI 实验的高效一天。他让 Codex 为 OpenClaw 聊天补全端点的改进编写端到端测试，同时用 /side 命令在任务执行过程中提问。他还展示了 Birdclaw——一个让他能通过 Claude 搜索自己全量 Twitter 存档的工具，以及在 RepoBar 中内嵌小型浏览器用于 PR/Issue 上下文审查。*"You gotta build yourself the tools that make you better."*（要为自己打造让自己更强的工具。）
-🔗 https://x.com/steipete/status/2053744332675408151
-🔗 https://x.com/steipete/status/2053737275268177980
-🔗 https://x.com/steipete/status/2053717468623872230
-
----
-
-**Dan Shipper (@danshipper)**
-Every CEO Dan Shipper had a big week. He hinted that a small team in a Brooklyn office is 1-2 months ahead of Silicon Valley on some AI frontier. He also shared that a new social/YouTube hire quickly found massive A/B test uplifts. And he demoed a weekend Codex hack: building a web app that visualizes piano chords in real time from a MIDI keyboard.
-Every CEO Dan Shipper 本周动态频频。他暗示布鲁克林某小团队在某些 AI 前沿方向上领先硅谷 1-2 个月。他还分享了新招聘的社媒/YouTube 负责人迅速发现了巨大的 A/B 测试提升空间。此外，他展示了一个周末 Codex 黑客项目：用 MIDI 键盘连接电脑，让 Codex 构建实时显示正在弹奏和弦的 Web 应用——*codex-native* 开发的生动案例。
-🔗 https://x.com/danshipper/status/2053628011233095875
-🔗 https://x.com/danshipper/status/2053580741515051114
-🔗 https://x.com/danshipper/status/2053551046299959760
-
----
-
-**Sam Altman (@sama)**
-OpenAI CEO Sam Altman had a rare light moment: playfully floating the idea of naming the next model *"goblin"* — *"almost worth it to make you all happy"* — earning 9,000+ likes. He also shared something he found "interesting," likely a research or product reference that sparked wide engagement.
-OpenAI CEO Sam Altman 难得展现幽默一面：他认真地提议把下一个模型命名为 *"goblin"*（哥布林），并表示 *"almost worth it to make you all happy"*（就为了让大家开心，感觉还挺值的），获得超过 9000 个点赞。另一条"interesting"的转推同样引发了大量关注与讨论。
-🔗 https://x.com/sama/status/2053572868936761350
-🔗 https://x.com/sama/status/2053566155571560868
-
----
-
-## PODCASTS / 播客
-
-**No Priors** — Baseten CEO Tuhin Srivastava on the AI Inference Crunch, Custom Models, and Building the Inference Cloud
-No Priors hosted Baseten CEO Tuhin Srivastava to discuss the exploding demand for AI inference infrastructure. Baseten has grown 30x in the past year and is on track to exceed $1B in revenue. Key topics: capacity constraints, the shift toward custom fine-tuned models, the multi-chip future, and why inference is "the last market."
-No Priors 播客邀请 Baseten CEO Tuhin Srivastava 深聊 AI 推理基础设施的爆炸性需求。Baseten 过去一年增长了 30 倍，预计今年营收将突破 10 亿美元。核心话题包括：算力容量约束、定制微调模型的兴起、多芯片异构计算的未来，以及为什么"推理才是最终的战场"。
-🔗 https://www.youtube.com/watch?v=XAbKflCncDo
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
