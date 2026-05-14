@@ -1,109 +1,69 @@
-AI Builders 日报 · 2026-05-13
+AI Builders 日报 · 2026-05-14
 
 ---
 
-## X / TWITTER
+OFFICIAL BLOGS
 
-### Andrej Karpathy (karpathy on X) — AI researcher, former Director of AI @Tesla, founding team @OpenAI
+Anthropic Engineering: Claude Code auto mode: a safer way to skip permissions
+https://www.anthropic.com/engineering/claude-code-auto-mode
 
-Ask your LLM to "structure your response as HTML" and view the file in your browser — it works really well.
-让你的 LLM「将响应以 HTML 格式呈现」，然后在浏览器中查看生成的文件——效果非常好。
+Anthropic Engineering has published a detailed technical post on a new "auto mode" for Claude Code, which sits between full manual approval and the risky --dangerously-skip-permissions flag.
+Anthropic Engineering 发布了关于 Claude Code 新"auto mode"的详细技术文章，该模式介于全手动审批和危险的 --dangerously-skip-permissions 标志之间。
 
-Karpathy argues that audio is the human-preferred *input* to AI, while vision (images, animations, video) is the preferred *output* from AI.
-Karpathy 认为，音频是人类向 AI 输入信息的首选方式，而视觉（图像、动画、视频）则是 AI 输出内容的首选形式。
+The core problem: users were experiencing "approval fatigue" — they were clicking approve 93% of the time anyway, which defeats the purpose of manual review.
+核心问题：用户正在经历"审批疲劳"——他们本来就会在 93% 的情况下点击批准，这违背了手动审查的初衷。
 
-He lays out a progression: raw text → markdown → HTML → interactive neural videos/simulations, with the end state being *"interactive videos generated directly by a diffusion neural net."*
-他描绘了一条演进路径：纯文本 → Markdown → HTML → 交互式神经视频/模拟，终极形态是「由扩散神经网络直接生成的交互式视频」。
+Auto mode delegates approvals to model-based classifiers, aiming to catch dangerous actions that aren't aligned with user intent while letting safe actions run without interruption.
+Auto mode 将审批委托给基于模型的分类器，旨在捕捉与用户意图不符的危险操作，同时让安全操作无需中断地运行。
 
-He also notes input still needs work: *"Audio nor text nor video alone are not enough — I feel a need to point/gesture to things on the screen."*
-他也指出输入端仍有待改进：「音频、文本或视频单独都不够——我感到需要能指向/手势操作屏幕上的内容。」
+The system uses two layers of defense: an input-layer prompt-injection probe that scans tool outputs before they enter the agent's context, and an output-layer transcript classifier (running on Sonnet 4.6) that evaluates each action before it executes.
+该系统使用两层防御：一个在工具输出进入 agent 上下文之前扫描的输入层 prompt 注入探针，以及一个在执行前评估每个操作的输出层转录分类器（运行在 Sonnet 4.6 上）。
 
-Source: https://x.com/karpathy/status/2053872850101285137
+The two-stage classifier pipeline achieves a 0.4% false positive rate (benign actions incorrectly blocked) and a 17% false negative rate (dangerous overeager actions that slip through) on real internal traffic.
+双阶段分类器流水线在真实内部流量上实现了 0.4% 的误报率（良性操作被错误拦截）和 17% 的漏报率（危险的过度行为漏网）。
 
----
+The 17% FNR on overeager actions is an honest admission: the classifier correctly identifies the danger but sometimes mistakes a prior approval or vague user phrase for full consent over a destructive action.
+对于过度行为 17% 的漏报率，文章坦诚承认：分类器能正确识别危险，但有时会将之前的审批或模糊的用户措辞误判为对破毁性操作的完全授权。
 
-### Swyx (swyx on X) — AI engineer, affiliated with @dxtipshq, @cognition, @temporalio, @aidotengineer, @latentspacepod
+Key block categories include: scope escalation (e.g. "clean up old branches" leading to remote deletes), credential exploration, agent-inferred parameters on shared resources, data exfiltration via external services, and safety-check bypasses.
+关键拦截类别包括：范围升级（如"清理旧分支"导致远程删除）、凭证探索、共享资源上的 agent 自行推断参数、通过外部服务的数据外泄，以及安全检查绕过。
 
-Swyx called out what he sees as a major leap in real-time AI: *"I believe the kids call this '@thinkymachines just brutally framemogged gdm and oai'. Basically everyone's definition of 'realtime' just got a massive fricking upgrade."*
-Swyx 指出他所认为的实时 AI 的重大突破：「我觉得年轻人管这叫'@thinkymachines 直接把 gdm 和 oai 按在地上摩擦'。基本上所有人对'实时'的定义都刚刚被大幅升级了。」
+Notably, the classifier deliberately strips assistant text and tool results — it only sees user messages and raw tool calls — to prevent the agent from talking its way around a block.
+值得注意的是，分类器故意剥离了 assistant 文本和工具结果，只保留用户消息和原始工具调用，以防止 agent 通过自我辩解绕过拦截。
 
-He also shared personal highlights and a quote retweet, but the most substantive take is the real-time AI framing shift.
-他还分享了个人精选和转推，但最有实质内容的观点是对实时 AI 范式转变的判断。
-
-Source: https://x.com/swyx/status/2053960011748098462
-
----
-
-### Kevin Weil (kevinweil on X) — VP Science @OpenAI, Board Director @Cisco
-
-No substantive original content in this period — shared a retweet he found valuable.
-本期无原创实质内容——转发了一条他认为有价值的推文。
-
-Source: https://x.com/kevinweil/status/2054063509869306204
+Auto mode is designed for users who were already running --dangerously-skip-permissions, not as a replacement for careful human review on high-stakes infrastructure.
+Auto mode 专为那些已经在使用 --dangerously-skip-permissions 的用户设计，而非用于高风险基础设施上仔细人工审查的替代方案。
 
 ---
 
-### Peter Yang (petergyang on X) — Product @Roblox, AI tutorials newsletter (140K+ readers)
+PODCASTS
 
-近期无重要 AI 相关动态。Yang's recent tweets covered Bay Area amusement park closures and light product musings, with no substantive AI insights.
-近期无重要 AI 相关动态。Yang 最近的推文涉及湾区游乐园关闭和轻量级产品随想，没有实质性的 AI 洞察。
+Training Data — Waymo's Dmitri Dolgov: 20 Million Rides and the Road to Full Autonomy
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
----
+Dmitri Dolgov, co-CEO of Waymo, has spent nearly 20 years building toward full vehicular autonomy — from the 2005 DARPA challenge to a service now giving over 20 million fully autonomous rides.
+Waymo 联合 CEO Dmitri Dolgov 花了近 20 年时间朝着完全自动驾驶的目标努力——从 2005 年的 DARPA 挑战赛到如今已提供超过 2000 万次完全自动驾驶乘车服务。
 
-### Amanda Askell (AmandaAskell on X) — Philosopher & AI ethicist @AnthropicAI
+His central thesis: autonomous vehicles are easy to start but extremely hard to finish, and every hype cycle (from conv nets to transformers to LLMs) reshapes the early part of the difficulty curve without changing the long tail.
+他的核心论点是：自动驾驶车辆容易起步但极难收尾，每一次技术炒作周期（从卷积网络到 transformer 再到 LLM）都在重塑难度曲线的早期部分，但并不改变其长尾特性。
 
-Claude's constitution is now available as an audiobook — Askell and Joe recorded a reading of it.
-Claude 的「宪法」现在以有声书形式发布——Askell 和 Joe 录制了朗读版本。
+Waymo's AI foundation is built around three pillars: the Driver (the in-car agent), the Simulator, and the Critic — all powered by a single Waymo Foundation Model described as a "multimodal world action language model."
+Waymo 的 AI 基础围绕三大支柱构建：Driver（车内 agent）、Simulator（仿真器）和 Critic（评估器）——均由一个被描述为"多模态世界行动语言模型"的单一 Waymo Foundation Model 驱动。
 
-*"You can now listen to me and Joe read out Claude's constitution as an audiobook. Working on adding the option of listening to it on fast mode."*
-「你现在可以收听我和 Joe 朗读 Claude 宪法的有声书了。正在开发快速播放模式。」
+On end-to-end vs. modular architectures, Dolgov rejects the false dichotomy: Waymo uses an end-to-end model but augments it with "structured materialized intermediate representations" to enable closed-loop evaluation, richer RL reward functions, and runtime validation.
+在端到端与模块化架构之争上，Dolgov 拒绝这种非此即彼的二元对立：Waymo 使用端到端模型，但通过"结构化实体化中间表示"对其进行增强，以支持闭环评估、更丰富的 RL 奖励函数和运行时验证。
 
-This is a meaningful transparency move — making Anthropic's alignment document more accessible in audio format.
-这是一个重要的透明度举措——以音频格式让 Anthropic 的对齐文件更易获取。
+One striking safety data point: over 170 million fully autonomous miles, the Waymo Driver is more than 13 times safer than a human driver for serious injury-causing collisions — translating to preventing a serious injury every 8 days at current scale.
+一个令人印象深刻的安全数据点：在超过 1.7 亿英里的完全自动驾驶里程中，Waymo Driver 在导致严重伤害的碰撞事故上比人类司机安全 13 倍以上——以当前规模换算，相当于每 8 天预防一次严重伤害。
 
-Source: https://x.com/AmandaAskell/status/2054010971765805486
+A remarkable emergent capability: the LiDAR system detected sparse return signals from a pedestrian's feet moving under a stopped bus — enough for the AI to predict the pedestrian's trajectory and brake before they emerged.
+一项令人惊叹的涌现能力：LiDAR 系统检测到了一名行人在停着的公交车下移动的脚部稀疏反射信号——足以让 AI 预测行人的行进轨迹，并在其出现之前刹车。
 
----
+Scaling is now exponential: it took 8 years to reach a ride-hailing service in 4 cities; earlier this year Waymo launched 4 new cities in a single day, and 10 of the 20 million total rides happened in just the last 7 months.
+规模扩张现已进入指数级：Waymo 花了 8 年才在 4 个城市推出乘车服务；而在今年早些时候，他们在一天之内就进入了 4 座新城市，总计 2000 万次乘车中有 1000 万次发生在过去短短 7 个月内。
 
-### Cat Wu (_catwu on X) — Claude Code + Cowork @AnthropicAI, prev @Dagster, @Scale_AI
-
-Claude Code now has a terminal control plane: run `claude agents` to manage all your Claude Code agents from one place.
-Claude Code 现在拥有终端控制面板：运行 `claude agents` 即可在一处管理所有 Claude Code agents。
-
-*"After, hit `<-` from any CLI session to register that with the control plane. Personally, I like to run `claude agents` from my root code dir to manage all my claude code agents in one place."*
-「之后，在任意 CLI 会话中按 `<-` 即可将其注册到控制面板。我个人喜欢在根代码目录运行 `claude agents`，统一管理所有 Claude Code agents。」
-
-Anthropic is also collecting feedback on Claude Code in the cloud (Desktop cloud option, iOS app, Android app) — office hours signup available.
-Anthropic 还在收集云端 Claude Code 的反馈（桌面云选项、iOS 应用、Android 应用）——可报名参加 office hours。
-
-Source: https://x.com/_catwu/status/2053999857799672111
-Source: https://x.com/_catwu/status/2053873949646405879
-
----
-
-## PODCASTS
-
-### No Priors — "Amex Global Business Travel: The World's First AI Take Private with Long Lake CEO Alexander Taubman"
-
-Long Lake is acquiring American Express Global Business Travel for $6.3 billion in what may be the world's first AI-driven take-private.
-Long Lake 正以 63 亿美元收购美国运通全球商务旅行公司，这可能是全球首例 AI 驱动的私有化交易。
-
-Long Lake's thesis: buy mature service businesses, deploy their proprietary Nexus AI platform, and grow them like software companies with high incremental margins.
-Long Lake 的核心逻辑：收购成熟服务业企业，部署其专有的 Nexus AI 平台，并将其打造成像软件公司一样拥有高增量利润率的增长型企业。
-
-CEO Alex Taubman argues AI makes employees more productive, which lets you hire more of them, grow faster, and pay them more — a positive-sum flywheel, not a cost-cutting story.
-CEO Alex Taubman 认为，AI 让员工更高效，进而可以雇用更多人、增长更快、薪酬更高——这是一个正和飞轮，而非裁员降本的故事。
-
-*"We're not focused on cost saving. We're actually focused on driving growth and customer experience."*
-「我们并不专注于降低成本，我们真正专注的是推动增长和提升客户体验。」
-
-Their portfolio companies have gone from 0-5% annual volume growth to 20%+ after the Nexus platform deployment.
-在部署 Nexus 平台后，他们投资组合中的公司年度业务量增长率从 0-5% 提升至 20% 以上。
-
-The key insight on AI adoption: owning the company lets you actually drive change management — something impossible when merely selling software to a client.
-关于 AI 落地的关键洞察：拥有公司所有权才能真正推动变革管理——这是单纯向客户销售软件时无法实现的。
-
-Episode URL: https://www.youtube.com/watch?v=g5TWnUjbeFM
+Waymo is now in 11 US cities and has announced plans to expand internationally to London and Tokyo this year, with the sixth-generation hardware platform (Waymo Driver Gen 6) powering a new vehicle designed around the rider experience.
+Waymo 目前在美国 11 个城市运营，并已宣布计划于今年将服务扩展至伦敦和东京，第六代硬件平台（Waymo Driver Gen 6）为全新以乘客体验为核心设计的车辆提供动力。
 
 ---
 
