@@ -1,69 +1,101 @@
-AI Builders 日报 · 2026-05-14
+AI Builders 日报 · 2026-05-15
 
 ---
 
-OFFICIAL BLOGS
+## OFFICIAL BLOGS
 
-Anthropic Engineering: Claude Code auto mode: a safer way to skip permissions
-https://www.anthropic.com/engineering/claude-code-auto-mode
+### Claude Blog — New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
+https://claude.com/blog/new-in-claude-managed-agents
 
-Anthropic Engineering has published a detailed technical post on a new "auto mode" for Claude Code, which sits between full manual approval and the risky --dangerously-skip-permissions flag.
-Anthropic Engineering 发布了关于 Claude Code 新"auto mode"的详细技术文章，该模式介于全手动审批和危险的 --dangerously-skip-permissions 标志之间。
+Anthropic has launched three major upgrades to Claude Managed Agents: dreaming, outcomes, and multiagent orchestration.
+Anthropic 为 Claude Managed Agents 推出了三项重大升级：dreaming（学习沉淀）、outcomes（目标导向）和多智能体编排。
 
-The core problem: users were experiencing "approval fatigue" — they were clicking approve 93% of the time anyway, which defeats the purpose of manual review.
-核心问题：用户正在经历"审批疲劳"——他们本来就会在 93% 的情况下点击批准，这违背了手动审查的初衷。
+**Dreaming** is a scheduled process that reviews past agent sessions to find patterns, extract learnings, and self-improve memory over time.
+**Dreaming** 是一种定期回顾历史 agent 会话的机制，能够发现模式、提炼知识，让 agent 随时间不断自我进化。
 
-Auto mode delegates approvals to model-based classifiers, aiming to catch dangerous actions that aren't aligned with user intent while letting safe actions run without interruption.
-Auto mode 将审批委托给基于模型的分类器，旨在捕捉与用户意图不符的危险操作，同时让安全操作无需中断地运行。
+Harvey used dreaming to boost agent task completion rates by ~6x in their tests.
+Harvey 利用 dreaming 将 agent 任务完成率提升了约 6 倍。
 
-The system uses two layers of defense: an input-layer prompt-injection probe that scans tool outputs before they enter the agent's context, and an output-layer transcript classifier (running on Sonnet 4.6) that evaluates each action before it executes.
-该系统使用两层防御：一个在工具输出进入 agent 上下文之前扫描的输入层 prompt 注入探针，以及一个在执行前评估每个操作的输出层转录分类器（运行在 Sonnet 4.6 上）。
+**Outcomes** lets developers write a rubric describing what "success" looks like; a separate grader evaluates output and prompts the agent to self-correct until the bar is met.
+**Outcomes** 允许开发者编写描述"成功"标准的评估规则；独立的评分器会检验输出结果，并驱动 agent 持续自我修正，直到达标。
 
-The two-stage classifier pipeline achieves a 0.4% false positive rate (benign actions incorrectly blocked) and a 17% false negative rate (dangerous overeager actions that slip through) on real internal traffic.
-双阶段分类器流水线在真实内部流量上实现了 0.4% 的误报率（良性操作被错误拦截）和 17% 的漏报率（危险的过度行为漏网）。
+In testing, outcomes improved task success by up to 10 percentage points, with the largest gains on the hardest problems.
+测试中，outcomes 将任务成功率最多提升了 10 个百分点，且在最难的问题上提升最为显著。
 
-The 17% FNR on overeager actions is an honest admission: the classifier correctly identifies the danger but sometimes mistakes a prior approval or vague user phrase for full consent over a destructive action.
-对于过度行为 17% 的漏报率，文章坦诚承认：分类器能正确识别危险，但有时会将之前的审批或模糊的用户措辞误判为对破毁性操作的完全授权。
+File generation quality also improved: +8.4% on docx and +10.1% on pptx.
+文件生成质量同步提升：docx 提升 8.4%，pptx 提升 10.1%。
 
-Key block categories include: scope escalation (e.g. "clean up old branches" leading to remote deletes), credential exploration, agent-inferred parameters on shared resources, data exfiltration via external services, and safety-check bypasses.
-关键拦截类别包括：范围升级（如"清理旧分支"导致远程删除）、凭证探索、共享资源上的 agent 自行推断参数、通过外部服务的数据外泄，以及安全检查绕过。
+**Multiagent orchestration** lets a lead agent break complex jobs into pieces and delegate each to specialist subagents running in parallel on a shared filesystem.
+**多智能体编排**让主 agent 能够将复杂任务拆分，并行分派给具有独立 model、prompt 和工具的专属子 agent，共享文件系统协同作业。
 
-Notably, the classifier deliberately strips assistant text and tool results — it only sees user messages and raw tool calls — to prevent the agent from talking its way around a block.
-值得注意的是，分类器故意剥离了 assistant 文本和工具结果，只保留用户消息和原始工具调用，以防止 agent 通过自我辩解绕过拦截。
+Netflix's platform team built a log-analysis agent that processes hundreds of builds in parallel and surfaces only the patterns worth acting on.
+Netflix 平台团队基于此构建了一个日志分析 agent，能并行处理数百次构建记录，只呈现值得关注的模式。
 
-Auto mode is designed for users who were already running --dangerously-skip-permissions, not as a replacement for careful human review on high-stakes infrastructure.
-Auto mode 专为那些已经在使用 --dangerously-skip-permissions 的用户设计，而非用于高风险基础设施上仔细人工审查的替代方案。
+Spiral by Every uses multiagent orchestration with a Haiku lead agent delegating drafts to Opus subagents, enforcing writing quality via outcomes.
+Every 旗下的 Spiral 让 Haiku 主 agent 协调 Opus 子 agent 并行起草内容，并通过 outcomes 强制保证写作质量。
 
 ---
 
-PODCASTS
+## X / TWITTER
 
-Training Data — Waymo's Dmitri Dolgov: 20 Million Rides and the Road to Full Autonomy
-https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+**Peter Yang** — Product at Roblox，科技博主，拥有超过 14 万订阅读者
 
-Dmitri Dolgov, co-CEO of Waymo, has spent nearly 20 years building toward full vehicular autonomy — from the 2005 DARPA challenge to a service now giving over 20 million fully autonomous rides.
-Waymo 联合 CEO Dmitri Dolgov 花了近 20 年时间朝着完全自动驾驶的目标努力——从 2005 年的 DARPA 挑战赛到如今已提供超过 2000 万次完全自动驾驶乘车服务。
+近期 Q1 科技裁员超 8 万人，为 2022-23 年以来最高。Peter Yang 指出，许多公司将裁员归因于 AI，但真实原因往往是零利率时代的过度招聘；他建议职场人不要被企业叙事左右，并分享了 6 条重新掌握职业主动权的方法。
 
-His central thesis: autonomous vehicles are easy to start but extremely hard to finish, and every hype cycle (from conv nets to transformers to LLMs) reshapes the early part of the difficulty curve without changing the long tail.
-他的核心论点是：自动驾驶车辆容易起步但极难收尾，每一次技术炒作周期（从卷积网络到 transformer 再到 LLM）都在重塑难度曲线的早期部分，但并不改变其长尾特性。
+*"Today is a hard day. We overhired during the zero-interest era and need to cut costs. AI is easy to blame."*
 
-Waymo's AI foundation is built around three pillars: the Driver (the in-car agent), the Simulator, and the Critic — all powered by a single Waymo Foundation Model described as a "multimodal world action language model."
-Waymo 的 AI 基础围绕三大支柱构建：Driver（车内 agent）、Simulator（仿真器）和 Critic（评估器）——均由一个被描述为"多模态世界行动语言模型"的单一 Waymo Foundation Model 驱动。
+来源：https://x.com/petergyang/status/2054569893060809151
 
-On end-to-end vs. modular architectures, Dolgov rejects the false dichotomy: Waymo uses an end-to-end model but augments it with "structured materialized intermediate representations" to enable closed-loop evaluation, richer RL reward functions, and runtime validation.
-在端到端与模块化架构之争上，Dolgov 拒绝这种非此即彼的二元对立：Waymo 使用端到端模型，但通过"结构化实体化中间表示"对其进行增强，以支持闭环评估、更丰富的 RL 奖励函数和运行时验证。
+---
 
-One striking safety data point: over 170 million fully autonomous miles, the Waymo Driver is more than 13 times safer than a human driver for serious injury-causing collisions — translating to preventing a serious injury every 8 days at current scale.
-一个令人印象深刻的安全数据点：在超过 1.7 亿英里的完全自动驾驶里程中，Waymo Driver 在导致严重伤害的碰撞事故上比人类司机安全 13 倍以上——以当前规模换算，相当于每 8 天预防一次严重伤害。
+**Garry Tan** — Y Combinator 总裁兼 CEO
 
-A remarkable emergent capability: the LiDAR system detected sparse return signals from a pedestrian's feet moving under a stopped bus — enough for the AI to predict the pedestrian's trajectory and brake before they emerged.
-一项令人惊叹的涌现能力：LiDAR 系统检测到了一名行人在停着的公交车下移动的脚部稀疏反射信号——足以让 AI 预测行人的行进轨迹，并在其出现之前刹车。
+近期无重要 AI / 产品动态，发文聚焦旧金山毒品政策议题，呼吁将资金从支持用药的非营利机构重新导向戒毒与治疗项目。
 
-Scaling is now exponential: it took 8 years to reach a ride-hailing service in 4 cities; earlier this year Waymo launched 4 new cities in a single day, and 10 of the 20 million total rides happened in just the last 7 months.
-规模扩张现已进入指数级：Waymo 花了 8 年才在 4 个城市推出乘车服务；而在今年早些时候，他们在一天之内就进入了 4 座新城市，总计 2000 万次乘车中有 1000 万次发生在过去短短 7 个月内。
+来源：https://x.com/garrytan/status/2054778575988093249
 
-Waymo is now in 11 US cities and has announced plans to expand internationally to London and Tokyo this year, with the sixth-generation hardware platform (Waymo Driver Gen 6) powering a new vehicle designed around the rider experience.
-Waymo 目前在美国 11 个城市运营，并已宣布计划于今年将服务扩展至伦敦和东京，第六代硬件平台（Waymo Driver Gen 6）为全新以乘客体验为核心设计的车辆提供动力。
+---
+
+**Nikunj Kothari** — FPV Ventures 种子/A 轮合伙人
+
+Nikunj 观察到 VC 行业已越来越趋向"共识资本"——只追热门、拒绝独特的创始人。他提醒真正痴迷于自己方向的创始人：每一次 VC 的拒绝都是潜在的学习机会，而非否定创业本身的判决。
+
+*"If you are obsessed and don't care what the world thinks, then you'll treat each rejection as potential learning - but NOT a verdict on why you shouldn't start that company."*
+
+来源：https://x.com/nikunj/status/2054599845214650442
+
+---
+
+## PODCASTS
+
+### Training Data — Suno's Mikey Shulman: Everyone Can Make Music Now
+https://www.youtube.com/watch?v=Jq3BIGz4vXQ
+
+Published: 2026-05-13
+
+Mikey Shulman, founder and CEO of Suno, argues that AI music's biggest unlock is turning everyone from a passive consumer into an active creator.
+Suno 创始人兼 CEO Mikey Shulman 认为，AI 音乐最大的突破在于：它将每一个人从被动的听众变成了主动的创作者。
+
+Before Suno, only a tiny fraction of the world's 8 billion people made music; on Suno, 90% of users create something on any given day.
+在 Suno 之前，80 亿人中只有极少数人创作音乐；而在 Suno 上，任意一天都有 90% 的用户在创作。
+
+The creation itself is the entertainment — not the downstream use of the content.
+创作本身就是娱乐，而不是为了把内容拿去别处使用。
+
+Suno models treat all sound as raw float-32 waveforms sampled at 48,000 Hz — no hardcoded musical knowledge like "12 tones" or "200 instruments" — which is what allows entirely new genre hybrids to emerge.
+Suno 的模型将所有声音视为以 48,000 Hz 采样的原始 float-32 波形，不内置"12 个音调"或"200 种乐器"等音乐先验知识——这正是全新跨界流派得以涌现的根源。
+
+Music is not a scale problem: models are relatively small, and preference data — not compute — is the key research lever.
+音乐不是一个靠规模解决的问题：模型体量相对较小，偏好数据而非算力才是核心研究杠杆。
+
+Suno chose to build full songs with human vocals (via autoregression) over short, crisp clips (diffusion), a contrarian bet that paid off: a song tells a story in a way background audio never can.
+Suno 押注用自回归方式生成完整歌曲与人声，而非用扩散模型生成短促、音质精良的片段——这个逆势选择被证明是正确的：一首完整的歌在讲故事这件事上，背景音乐永远无法与之媲美。
+
+Suno recently settled with Warner Music and sees the partnership as a chance to build entirely new fan-artist interaction experiences that couldn't have existed before AI.
+Suno 近期与华纳音乐达成和解，并将其视为共同打造全新粉丝-艺人互动体验的机会——这类体验在 AI 之前根本不可能存在。
+
+Mikey predicts that within twelve months we will see a truly interactive concert where the audience creates music live with the artist.
+Mikey 预测，在未来十二个月内，我们将看到真正意义上的互动演唱会——观众能与艺人实时共同创作音乐。
 
 ---
 
