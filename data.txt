@@ -1,101 +1,286 @@
-AI Builders 日报 · 2026-05-15
+AI Builders 日报 · 2026-05-16
 
----
-
-## OFFICIAL BLOGS
-
-### Claude Blog — New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration
-https://claude.com/blog/new-in-claude-managed-agents
-
-Anthropic has launched three major upgrades to Claude Managed Agents: dreaming, outcomes, and multiagent orchestration.
-Anthropic 为 Claude Managed Agents 推出了三项重大升级：dreaming（学习沉淀）、outcomes（目标导向）和多智能体编排。
-
-**Dreaming** is a scheduled process that reviews past agent sessions to find patterns, extract learnings, and self-improve memory over time.
-**Dreaming** 是一种定期回顾历史 agent 会话的机制，能够发现模式、提炼知识，让 agent 随时间不断自我进化。
-
-Harvey used dreaming to boost agent task completion rates by ~6x in their tests.
-Harvey 利用 dreaming 将 agent 任务完成率提升了约 6 倍。
-
-**Outcomes** lets developers write a rubric describing what "success" looks like; a separate grader evaluates output and prompts the agent to self-correct until the bar is met.
-**Outcomes** 允许开发者编写描述"成功"标准的评估规则；独立的评分器会检验输出结果，并驱动 agent 持续自我修正，直到达标。
-
-In testing, outcomes improved task success by up to 10 percentage points, with the largest gains on the hardest problems.
-测试中，outcomes 将任务成功率最多提升了 10 个百分点，且在最难的问题上提升最为显著。
-
-File generation quality also improved: +8.4% on docx and +10.1% on pptx.
-文件生成质量同步提升：docx 提升 8.4%，pptx 提升 10.1%。
-
-**Multiagent orchestration** lets a lead agent break complex jobs into pieces and delegate each to specialist subagents running in parallel on a shared filesystem.
-**多智能体编排**让主 agent 能够将复杂任务拆分，并行分派给具有独立 model、prompt 和工具的专属子 agent，共享文件系统协同作业。
-
-Netflix's platform team built a log-analysis agent that processes hundreds of builds in parallel and surfaces only the patterns worth acting on.
-Netflix 平台团队基于此构建了一个日志分析 agent，能并行处理数百次构建记录，只呈现值得关注的模式。
-
-Spiral by Every uses multiagent orchestration with a Haiku lead agent delegating drafts to Opus subagents, enforcing writing quality via outcomes.
-Every 旗下的 Spiral 让 Haiku 主 agent 协调 Opus 子 agent 并行起草内容，并通过 outcomes 强制保证写作质量。
+Today's digest covers 13 builders on X/Twitter and 1 podcast episode.
+今日日报涵盖 13 位 X/Twitter 上的构建者动态及 1 期播客。
 
 ---
 
 ## X / TWITTER
 
-**Peter Yang** — Product at Roblox，科技博主，拥有超过 14 万订阅读者
+---
 
-近期 Q1 科技裁员超 8 万人，为 2022-23 年以来最高。Peter Yang 指出，许多公司将裁员归因于 AI，但真实原因往往是零利率时代的过度招聘；他建议职场人不要被企业叙事左右，并分享了 6 条重新掌握职业主动权的方法。
+### Swyx (swyx on X)
 
-*"Today is a hard day. We overhired during the zero-interest era and need to cut costs. AI is easy to blame."*
+Swyx shared a funny story from AI Engineer Miami: a speaker complained about SAP Concur being dead software, and a SAP employee in the audience ended up inviting him to advise on AI transformation for 6,800 employees.
+Swyx 在 AI Engineer Miami 活动上分享了一则趣事：某演讲者吐槽 SAP Concur 是"死软件"，没想到观众席中正好有位 SAP 员工，当场邀请他为 6800 名员工的 AI 转型提供顾问建议。
 
-来源：https://x.com/petergyang/status/2054569893060809151
+*"He made fun of SAP, and SAP… concurred"*
+讽刺 SAP，SAP 竟然……同意了。
+
+https://x.com/swyx/status/2055113979857703350
+
+He also offered a sharp take on content ownership: blogs die when they come from "the [company] team" instead of named individuals.
+他还就内容所有权发表了一针见血的观点：当博客署名变成"某某团队"而非具名个人时，博客就死了。
+
+*"With great ownership comes great accountability"*
+权责相符，署名即担当。
+
+https://x.com/swyx/status/2055079344632926603
 
 ---
 
-**Garry Tan** — Y Combinator 总裁兼 CEO
+### Peter Yang (petergyang on X) — 产品创作者
 
-近期无重要 AI / 产品动态，发文聚焦旧金山毒品政策议题，呼吁将资金从支持用药的非营利机构重新导向戒毒与治疗项目。
+Peter Yang made two sharp observations about AI-assisted development.
+Peter Yang 就 AI 辅助开发发表了两条犀利观察。
 
-来源：https://x.com/garrytan/status/2054778575988093249
+First, he questioned the value of AI hackathons when participants spend most of their time waiting for agents to finish.
+首先，他质疑 AI 黑客马拉松的意义——参与者大部分时间都在等 agent 跑完任务。
+
+*"How do people even do AI hackathons these days you're just sitting around waiting for the agents half of the time?"*
+现在的 AI 黑客马拉松还怎么搞？一半时间都在干等 agent。
+
+https://x.com/petergyang/status/2055093015304396986
+
+Second, he had a reckoning moment with design systems: telling AI to just "start making screens" without a component library leads straight to slop.
+其次，他对设计系统有了新的认知：让 AI 在没有组件库的情况下直接"开始做页面"，只会产出一堆垃圾。
+
+*"TIL having AI just start making screens without a design system or components is a sure fire path to slop. Maybe those designers were onto something"*
+今日所学：让 AI 在没有设计系统或组件的情况下直接做页面，必然走向垃圾产出。也许那些设计师一直是对的。
+
+https://x.com/petergyang/status/2055091746036716026
 
 ---
 
-**Nikunj Kothari** — FPV Ventures 种子/A 轮合伙人
+### Amjad Masad (amasad on X) — Replit CEO
 
-Nikunj 观察到 VC 行业已越来越趋向"共识资本"——只追热门、拒绝独特的创始人。他提醒真正痴迷于自己方向的创始人：每一次 VC 的拒绝都是潜在的学习机会，而非否定创业本身的判决。
+Replit CEO Amjad Masad announced a significant milestone: Replit's app is back on the Apple App Store after a four-month absence, following a resolution with Apple.
+Replit CEO Amjad Masad 宣布了一个重要里程碑：在与苹果公司达成和解后，Replit 应用在下架四个月后重新上架 App Store。
 
-*"If you are obsessed and don't care what the world thinks, then you'll treat each rejection as potential learning - but NOT a verdict on why you shouldn't start that company."*
+*"We worked things out with Apple, and just published our app for the first time in 4 months."*
+我们与苹果解决了问题，时隔四个月首次重新发布了应用。
 
-来源：https://x.com/nikunj/status/2054599845214650442
+*"It's been a journey, but we never give up and stay winning!"*
+这一路走来不容易，但我们从不放弃，始终向前。
+
+https://x.com/amasad/status/2055185058282226146
+
+He also announced a new feature allowing users to import vibe-coded websites built on other platforms and get a free mobile app on Replit.
+他还宣布了一项新功能：允许用户将在其他平台上用氛围编程（vibe coding）构建的网站导入 Replit，并免费获得移动端应用。
+
+*"You vibecoded a website somewhere other than Replit? That's not wise, but okay… we're going to let you import it and get a free mobile app. Yes, FREE MOBILE APP!"*
+你在 Replit 以外的地方氛围编程了一个网站？不太明智，但没关系……我们允许你导入，并免费获得移动端应用。没错，免费移动应用！
+
+https://x.com/amasad/status/2055097107758076254
+
+---
+
+### Guillermo Rauch (rauchg on X) — Vercel CEO
+
+Vercel CEO Guillermo Rauch highlighted a useful developer trick: you can render images directly in the terminal using the `npx ai-cli` tool, which provides access to every image, video, and text model via Vercel AI Gateway.
+Vercel CEO Guillermo Rauch 分享了一个实用的开发者技巧：通过 `npx ai-cli` 工具，可以直接在终端渲染图片，该工具通过 Vercel AI Gateway 提供对所有图像、视频和文本模型的访问。
+
+*"You can just render images on the terminal btw: ▲ ~/ npx ai-cli image 'a vercel ai sdk diagram'"*
+顺便说一句，你可以直接在终端渲染图片：`npx ai-cli image 'a vercel ai sdk diagram'`
+
+https://x.com/rauchg/status/2054989456189648918
+
+---
+
+### Aaron Levie (levie on X) — Box CEO
+
+Box CEO Aaron Levie made two incisive observations about the AI-driven reshaping of work roles.
+Box CEO Aaron Levie 就 AI 驱动的工作角色重塑发表了两条深刻见解。
+
+He noted that AI is blurring traditional role boundaries by making it easier to explore adjacent functions, and that the industry collectively needs to redefine what jobs look like in an agentic world.
+他指出，AI 正在让人们更容易探索相邻职能，从而模糊传统角色边界；整个行业需要共同重新定义在 agent 时代工作的形态。
+
+*"We're in a period where everything feels like it's getting jumbled up across roles because AI lets you explore the adjacencies of other functions more easily."*
+我们正处于一个所有职能角色都感觉被打乱的时期，因为 AI 让探索其他职能的相邻领域变得更加容易。
+
+https://x.com/levie/status/2055143231625818554
+
+He also captured a very relatable AI developer pain point: spending a year building an agent scaffolding harness, only to have a new model update render it all obsolete.
+他还精准捕捉了一个 AI 开发者的痛苦：花了一年时间构建 agent 脚手架，结果一次模型更新让一切都成了过时产品。
+
+https://x.com/levie/status/2055136119969529993
+
+---
+
+### Garry Tan (garrytan on X) — YC President & CEO
+
+YC President Garry Tan weighed in on energy infrastructure debates, pushing back against NIMBYism around data center development.
+YC 总裁 Garry Tan 就能源基础设施争论发声，反对针对数据中心建设的邻避主义。
+
+He argued that market mechanisms should be trusted to handle data center energy and resource concerns, rather than blocking development.
+他认为，应该信任市场机制来处理数据中心的能源和资源问题，而不是阻止其发展。
+
+*"Have you guys heard of markets?"*
+你们听说过市场这东西吗？
+
+https://x.com/garrytan/status/2055155189766865028
+
+---
+
+### Matt Turck (mattturck on X) — FirstMark Capital Managing Director
+
+FirstMark Capital Managing Director Matt Turck announced an impressive benchmark result: Gradium AI, a voice AI startup barely 9 months old, is now outperforming OpenAI, ElevenLabs, Cartesia, and Deepgram on third-party TTS benchmarks.
+FirstMark Capital 董事总经理 Matt Turck 宣布了一项令人印象深刻的基准测试结果：成立仅 9 个月的语音 AI 初创公司 Gradium AI，在第三方 TTS 基准测试中已超越 OpenAI、ElevenLabs、Cartesia 和 Deepgram。
+
+*"Barely 9 months old and @GradiumAI is already trouncing the entire voice AI field on third party TTS benchmarks"*
+成立仅 9 个月，Gradium AI 已在第三方 TTS 基准测试中全面碾压整个语音 AI 领域。
+
+https://x.com/mattturck/status/2055029555455222199
+
+---
+
+### Zara Zhang (zarazhangrui on X) — Follow Builders creator
+
+Zara Zhang announced she will co-host an event in San Francisco on May 23rd focused on managing and curating context for agents.
+Zara Zhang 宣布将于 5 月 23 日在旧金山联合主办一场活动，主题聚焦于如何为 agent 管理和策划上下文（context）。
+
+The event will feature rapid-fire 5-minute demos from practitioners sharing what's actually working in their real workflows.
+活动将以快闪式 5 分钟演示为主要形式，邀请实践者分享他们真实工作流程中真正有效的方法。
+
+https://x.com/zarazhangrui/status/2054981832408760782
+
+---
+
+### Nikunj Kothari (nikunj on X)
+
+Nikunj Kothari made a strategic observation about the coming shift in enterprise data strategy: large companies with data walls are realizing they need to go "headless" — opening up their systems for agent access — or risk becoming 100x less valuable.
+Nikunj Kothari 就企业数据战略的即将转变提出了一个战略性观察：拥有数据壁垒的大公司正在意识到，它们需要走向"无头化"——向 agent 开放系统访问权限——否则价值将缩水 100 倍。
+
+*"Every single large company with data walls realizing it's time to go headless (or essentially die).. If you gatekeep your systems for humans, you'll most likely be 100x less valuable!"*
+每一家拥有数据壁垒的大公司都在意识到：是时候走向无头化了（否则就是等死）。如果你只为人类把守系统，你的价值很可能会缩水 100 倍！
+
+https://x.com/nikunj/status/2054924517135540320
+
+---
+
+### Peter Steinberger (steipete on X) — PSPDFKit / Emerge Tools founder
+
+Peter Steinberger shared a hands-on coding experience: he built a new feature into his "discrawl" tool using Codex, but when he applied his "codex review skill" after Codex declared the work done, he found issues that required additional attention.
+Peter Steinberger 分享了一次实际编码体验：他使用 Codex 为自己的 discrawl 工具构建了一个新功能，但当他在 Codex 宣布完成后运用自己的"codex review skill"时，发现了一些需要进一步处理的问题。
+
+https://x.com/steipete/status/2055203470941061600
+
+He also noted a common frustration with coding agents: they get stuck in loops.
+他还提到了使用编码 agent 时的一个常见痛点：它们会陷入循环。
+
+https://x.com/steipete/status/2055190998523777307
+
+---
+
+### Dan Shipper (danshipper on X) — Every.to CEO
+
+Every.to CEO Dan Shipper had a vivid slice-of-life moment: at his barbershop, his barber was discussing using Claude for a crypto trading strategy, another customer nearby had just bought 1,300 Claude seats for his company.
+Every.to CEO Dan Shipper 分享了一个生动的生活片段：在理发店里，理发师正在讨论用 Claude 运行加密货币交易策略，旁边椅子上的顾客刚为公司购买了 1300 个 Claude 席位。
+
+*"2026 is wild"*
+2026 年真的疯了。
+
+https://x.com/danshipper/status/2055030691180503152
+
+He also shared his go-to advice for getting organizations "agent-pilled": the #1 leading indicator is whether leadership personally uses Codex, Claude Code, or Cowork day-to-day.
+他还分享了让组织"走上 agent 之路"的核心建议：最重要的先行指标，是领导层是否在日常工作中亲自使用 Codex、Claude Code 或 Cowork。
+
+https://x.com/danshipper/status/2055015466054410400
+
+---
+
+### Sam Altman (sama on X) — OpenAI CEO
+
+OpenAI CEO Sam Altman announced that Codex is now available in the ChatGPT mobile app.
+OpenAI CEO Sam Altman 宣布 Codex 现已在 ChatGPT 移动端应用中上线。
+
+*"Codex in the ChatGPT mobile app!"*
+Codex 现已登陆 ChatGPT 移动端！
+
+https://x.com/sama/status/2055034461591588916
 
 ---
 
 ## PODCASTS
 
-### Training Data — Suno's Mikey Shulman: Everyone Can Make Music Now
-https://www.youtube.com/watch?v=Jq3BIGz4vXQ
+---
 
-Published: 2026-05-13
+### The MAD Podcast with Matt Turck
+**Why Every AI Agent Needs Its Own Computer | Ivan Burazin (Daytona)**
 
-Mikey Shulman, founder and CEO of Suno, argues that AI music's biggest unlock is turning everyone from a passive consumer into an active creator.
-Suno 创始人兼 CEO Mikey Shulman 认为，AI 音乐最大的突破在于：它将每一个人从被动的听众变成了主动的创作者。
+## 一、深度总结
 
-Before Suno, only a tiny fraction of the world's 8 billion people made music; on Suno, 90% of users create something on any given day.
-在 Suno 之前，80 亿人中只有极少数人创作音乐；而在 Suno 上，任意一天都有 90% 的用户在创作。
+**核心论点**
+每个 AI agent 都需要自己独立的计算机（sandbox），就像每位知识工作者都需要一台电脑才能高效完成工作。
+把 agent 放在共享或个人电脑上运行，会带来严重的安全风险和架构上的根本性缺陷。
+Daytona 正在构建的，是专为 AI agent 设计的"可组合计算机"基础设施。
 
-The creation itself is the entertainment — not the downstream use of the content.
-创作本身就是娱乐，而不是为了把内容拿去别处使用。
+**关键洞察**
+- Agent 是数字知识工作者，而知识工作者需要专属的工具和环境——让 agent 共用你的电脑，就像让新员工用你的个人账号工作，风险极高。
+- 现有的容器调度方案（如 Kubernetes）并非为 agent workload 设计：agent 的计算需求极其尖锐（spike-heavy），需要毫秒级冷启动，Daytona 不得不重写自己的调度器。
+- Agent stack 的分层正在清晰化：模型层 → sandbox 层 → 工具/MCP 层 → 内存层 → 编排层，每一层都有独立的赢家在涌现。
+- MCP（Model Context Protocol）是当前 agent 生态最重要的基础协议，但它目前仍缺乏完善的安全模型——这是下一个需要解决的大问题。
+- 全球 CPU 短缺可能比大多数人预想的更快到来：随着 agent 工作负载爆炸式增长，算力需求将远超数据中心当前的扩张速度。
 
-Suno models treat all sound as raw float-32 waveforms sampled at 48,000 Hz — no hardcoded musical knowledge like "12 tones" or "200 instruments" — which is what allows entirely new genre hybrids to emerge.
-Suno 的模型将所有声音视为以 48,000 Hz 采样的原始 float-32 波形，不内置"12 个音调"或"200 种乐器"等音乐先验知识——这正是全新跨界流派得以涌现的根源。
+**最值得关注的信号**
+Ivan 指出，所有有数据壁垒的大公司都必须走向"无头化"——开放 API 和系统接口供 agent 访问——否则将面临价值的根本性萎缩。这不是技术趋势，而是生存命题。
 
-Music is not a scale problem: models are relatively small, and preference data — not compute — is the key research lever.
-音乐不是一个靠规模解决的问题：模型体量相对较小，偏好数据而非算力才是核心研究杠杆。
+---
 
-Suno chose to build full songs with human vocals (via autoregression) over short, crisp clips (diffusion), a contrarian bet that paid off: a song tells a story in a way background audio never can.
-Suno 押注用自回归方式生成完整歌曲与人声，而非用扩散模型生成短促、音质精良的片段——这个逆势选择被证明是正确的：一首完整的歌在讲故事这件事上，背景音乐永远无法与之媲美。
+## 二、完整中文逐字稿
 
-Suno recently settled with Warner Music and sees the partnership as a chance to build entirely new fan-artist interaction experiences that couldn't have existed before AI.
-Suno 近期与华纳音乐达成和解，并将其视为共同打造全新粉丝-艺人互动体验的机会——这类体验在 AI 之前根本不可能存在。
+**Speaker 1 (Ivan Burazin)** | 00:00 - 00:18
+我们正处于一个超级周期之中，而超级周期不会永远持续。所以如果你要错过这个超级周期，你就是在加速出局。这就是你在做的事。我曾经让 Claude 帮我去银行取数据，然后它说：好啊，登录一下，把访问权限给我。
 
-Mikey predicts that within twelve months we will see a truly interactive concert where the audience creates music live with the artist.
-Mikey 预测，在未来十二个月内，我们将看到真正意义上的互动演唱会——观众能与艺人实时共同创作音乐。
+**Speaker 1** | 00:18 - 00:36
+我说：登录？把权限给你？不，我不会给你访问权限。这件事从根本上打破了整个逻辑前提。所以你得给它一台专属机器。当我思考 agent 时，我把它们看作数字知识工作者。而作为知识工作者要做任何事，你都需要一台电脑。
+
+**Speaker 1** | 00:36 - 00:40
+我的论点是：每个 agent 都需要至少一个 sandbox，有时候需要更多。
+
+**Speaker 2 (Matt Turck)** | 00:40 - 01:11
+欢迎来到 MAD 播客，我是 Matt Turck。今天的嘉宾是 Ivan Burazin，Daytona 的 CEO，这是 agent 基础设施领域最受关注的初创公司之一。如果你在每次 AI agent 对话中都听到"sandbox"这个词，却悄悄疑惑它到底是什么意思、为什么突然变得如此重要，这期节目就是为你准备的。我们从第一性原理出发——为什么 agent 需要一台电脑——一路深入到技术细节：为什么 Daytona 不得不抛弃 Kubernetes、自己重写调度器，以及为什么全球 CPU 短缺可能比人们想象的更快到来。
+
+**Speaker 2** | 01:11 - 01:34
+Ivan 还解析了他眼中完整的 agent stack：模型、sandbox、工具、MCP、内存、编排，以及每个部分的发展方向。与此同时，Ivan 分享了他在 16 年开发者工具创业历程中学到的一些非常有趣的市场推广和分销经验。请欣赏我与来自 Daytona 的 Ivan 的这场对话。嘿 Ivan，欢迎。
+
+**Speaker 1** | 01:34 - 01:35
+很高兴来到这里。
+
+**Speaker 2** | 01:35 - 01:44
+你曾说过每个 agent 都需要自己的电脑。解释这个想法最简单的方式是什么？
+
+**Speaker 1** | 01:44 - 02:13
+嗯，当我思考 agent 时，我把它们看作数字知识工作者。作为知识工作者要做任何事——或者说要做任何复杂的事——你都需要一台电脑。你和我可以交谈，可以完成一些事情，但我们通常需要某种工具，在我们的世界里通常是一台电脑，才能获得更高的生产效率，才能真正把事情做成。所以我用同样的视角来看待这件事。对我来说，agent 字面上就是数字知识工作者。
+
+**Speaker 2** | 02:13 - 02:20
+很好。所以需要一台电脑，这就是 sandbox 的整个概念。作为这场对话的引入，什么是 sandbox？
+
+**Speaker 1** | 02:20 - 02:49
+当然。所以 sandbox 这个词首先来自于隔离的概念——确保有一个安全的地方让 agent 在其中运行和操作。但从另一面来看，它本质上就是一台电脑，一台完整的电脑，agent 可以在上面安装工具、访问网络、运行脚本、运行代码，做任何它需要完成工作的事情。所以最简短的回答是：sandbox 本质上是我们所说的"为 AI agent 设计的可组合计算机"。
+
+**Speaker 2** | 02:49 - 02:59
+好的。某种程度上，OpenClaw 和 Mac mini 是一个很好的类比——Mac mini 就相当于一个 sandbox？
+
+**Speaker 1** | 02:59 - 03:12
+没错。所以我觉得 OpenClaw 加 Mac mini 这件事帮助很多人理解了我们实际在做什么。他们会说："哦，我明白了，我懂了。"对吧？
+
+**Speaker 1** | 03:12 - 03:17
+所以它需要一台电脑。在这个案例中，是一台 Mac mini，才能做不同的事情。是的，这确实大大提升了大家的认知。
+
+**Speaker 2** | 03:17 - 03:35
+是的。因为，再展开说一下——OpenClaw 作为一个帮助 agent 在你的电脑上做各种事情的框架和系统，你需要能够在它失控时关掉它，因此你可以拔掉 Mac mini 的电源，就像关掉一个 sandbox 一样。是这个意思吗？
+
+**Speaker 1** | 03:35 - 04:14
+差不多吧。有几件事是我个人思考过的。所以我的 OpenClaw 不是运行在一台物理的 Mac mini 上，而是一个 sandbox——虚拟的 Mac mini。我之所以不这样做……人们通常运行 Claude Code 或 OpenClaw 的方式是在自己的电脑上，因为这样可以帮助整理邮件、搜索文件等等。但这里有一个很高的安全风险。有一次我们在准备董事会演示，我让 Claude 去帮我从银行取数据。
+
+**Speaker 1** | 04:15 - 05:03
+然后它说：好啊，登录一下，把访问权限给我。我说：登录？给你权限？不，我不会给你访问权限。就在那一刻，这件事从根本上打破了整个逻辑前提。所以你得给它一台专属机器。我个人给了它自己的 Daytona 账号，还给了它自己的电话号码——之所以要给它电话号码，是因为它需要通过 2FA 才能登录银行，这家特定的银行没有其他方式，只能用电话号码做 2FA。所以它需要像一名员工一样拥有这些东西，像一名数字员工，才能去访问这些系统。而现在它有了自己的电脑、自己的账号，这些账号都有权限限制——它只能查看我银行账户的数据，不能动用资金，除了我们给它配的那张信用卡，那张卡有每天 100 美元或者类似的限额。
+
+**Speaker 1** | 05:03 - 05:16
+所以此时你面临的唯一风险，如果它在 sandbox 里的话，就是：它会不会把这些数据泄露出去？这个我们可以稍后再聊，但基本上最坏的情况就是这样。而且正如你说的，如果需要，你可以直接关掉整台机器。
+
+https://www.youtube.com/watch?v=kMXJrzAa5fM
 
 ---
 
