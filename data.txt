@@ -1,207 +1,173 @@
-AI Builders 日报 · 2026-05-17
+AI Builders 日报 · 2026-05-18
 
 ---
 
-## Swyx (@swyx)
-
-Swyx is buzzing about how dramatically OpenAI's Codex has evolved in just three months, calling it "completely unrecognizable."
-Swyx 对 OpenAI Codex 在短短三个月内的巨大变化感到震惊，称其"完全面目一新"。
-
-He watched a demo where Codex behaved like "agentic Excel on Mac" — a telling sign of how far agentic coding tools have come.
-他观看了一个演示，Codex 表现得像"Mac 上的智能 Excel"——充分说明智能编程工具已经走了多远。
-
-He also flagged a striking government-scale ambition: Singapore's head of AI Govtech estimates 1.3 billion agents deployed nationally within two years, backed by a national MCP gateway.
-他还提到了一个令人震惊的政府级野心：新加坡 AI 政务技术负责人预计未来两年内将在全国部署13亿个 AI 智能体，并正在建设国家级 MCP 网关。
-
-From a keynote, Swyx caught hints of what's coming on the Codex roadmap — teasing that it's going to keep evolving fast.
-在主旨演讲中，Swyx 捕捉到了 Codex 路线图的一些暗示——预示着它将持续快速演进。
-
-Sources:
-- https://x.com/swyx/status/2055494400252481687
-- https://x.com/swyx/status/2055470634331750588
-- https://x.com/swyx/status/2055467498888118647
+## X / TWITTER
 
 ---
 
-## Peter Yang (@petergyang)
+### Swyx (swyx on X) — AI Engineer Summit & Social Media Musings
+*Swyx* is an engineer affiliated with @aidotengineer, Cognition, and Temporal.io.
 
-Peter Yang gave a measured thumbs-up to ChatGPT Finances, praising it as a genuinely useful new feature.
-Peter Yang 对 ChatGPT Finances 给予了审慎的肯定，称其是一项真正有用的新功能。
+AI Engineer Summit is coming to India soon!
+AI Engineer Summit 即将登陆印度！
+https://x.com/swyx/status/2055889947136237595
 
-But he called out a real concern: AI still struggles with classifying transactions correctly — a gap that matters a lot for financial tools.
-但他也指出了一个真实的问题：AI 在正确分类交易方面仍然力不从心——这对于金融工具来说是一个至关重要的缺陷。
-
-He also raised a privacy red flag, noting he turned off "improve the model for everyone" to keep his financial data from being used for training or ad targeting.
-他还提出了隐私方面的警示，表示他关闭了"为所有人改进模型"选项，以防止自己的财务数据被用于模型训练或广告定向。
-
-Sources:
-- https://x.com/petergyang/status/2055396161910194395
-- https://x.com/petergyang/status/2055450577094738018
+Swyx also made a lighthearted jab at a creator whose social media team outpaced his own.
+Swyx 还幽默地调侃了一位博主，称对方的社媒团队比他更专业。
+https://x.com/swyx/status/2055612276208709731
 
 ---
 
-## Madhu Guru (@realmadhuguru)
+### Peter Yang (petergyang on X) — Bay Area Rat Race Reality Check
+*Peter Yang* is a Roblox product manager and AI newsletter author with 140K+ readers.
 
-Madhu Guru delivered a sharp critique of the modern product manager: an entire generation was trained to execute playbooks, but AI demands you *invent* them.
-Madhu Guru 对现代产品经理提出了尖锐批评：整整一代人被训练去执行既有的操作手册，但 AI 时代要求你*发明*它们。
+Don't let the Bay Area tech obsession define your life — travel to Europe or Asia and you'll realize there's more to existence than IC leveling.
+不要让湾区科技圈的执念定义你的人生——去欧洲小镇或亚洲走一走，你会发现生活远不止 IC 等级和公司名头。
 
-*"PMs need to be inventors now, not framework executors. There are no stable playbooks to repurpose."*
-"现在 PM 需要成为发明者，而不是框架执行者。没有稳定的剧本可以照搬。"
+*"Don't be the person to put on your tombstone: 'He got divorced and neglected his kids but at least he made D2 at FAANG.'"*
 
-He argues that the era of A/B testing your way to breakthrough products is over — AI requires genuine creative leaps, and most PMs need to unlearn their defaults.
-他认为，靠 A/B 测试通往突破性产品的时代已经结束——AI 需要真正的创造性飞跃，大多数 PM 需要放弃固有思维定势。
-
-Sources:
-- https://x.com/realmadhuguru/status/2055414865146327088
+This viral tweet hit 3,000+ likes and sparked over 100 replies.
+这条推文获得了超过 3000 个赞，引发百余条回复。
+https://x.com/petergyang/status/2055663937061007762
 
 ---
 
-## Guillermo Rauch (@rauchg)
+### Madhu Guru (realmadhuguru on X) — Ambition vs. Happiness
+*Madhu Guru* is a Product Leader at Google, working on Gemini, Veo, and Nano.
 
-Guillermo Rauch shared an exciting integration: Grok CLI now supports Plugins and Skills, and installing the Vercel Plugin gives it cloud deployment superpowers — watch a creative coding site get generated and hosted live.
-Guillermo Rauch 分享了一个令人兴奋的集成：Grok CLI 现在支持插件和技能，安装 Vercel 插件后即可获得云部署超能力——可以实时看到一个创意编程网站被生成并托管上线。
+Silicon Valley treats ambition and happiness as mutually exclusive — but they're not.
+硅谷常常把雄心壮志和幸福感对立起来，但其实两者并不互斥。
 
-He also highlighted Vercel's SSO protection for agent-generated deployments via Okta, calling it essential for keeping AI-generated apps secure within a corporate intranet.
-他还重点介绍了 Vercel 通过 Okta 对智能体生成的部署进行 SSO 保护，称其对于在企业内网中保护 AI 生成应用至关重要。
-
-His philosophical take: *"If you become exceptional at managing agents, but are also exceptional in your understanding of the fundamentals, you will be unstoppable."*
-他的哲学观点是："如果你既擅长管理智能体，又精通底层基础知识，你将势不可挡。"
-
-Sources:
-- https://x.com/rauchg/status/2055491454307582454
-- https://x.com/rauchg/status/2055440326765244742
-- https://x.com/rauchg/status/2055278852931530784
+You can want more and still be content now; chasing from a place of desperation is the real trap.
+你完全可以既追求更多，又在当下感到满足；从匮乏和焦虑出发去追逐，才是真正的陷阱。
+https://x.com/realmadhuguru/status/2055708451670798839
 
 ---
 
-## Aaron Levie (@levie)
+### Thariq (trq212 on X) — HTML Is Still Undefeated
+*Thariq* is an engineer at Anthropic working on Claude Code, and a former YC W20 founder.
 
-Aaron Levie made a bold declaration: he's fully "forward deployed engineering pilled," arguing AI fundamentally differs from traditional software.
-Aaron Levie 发表了一个大胆宣言：他完全支持"前沿部署工程"模式，认为 AI 与传统软件有着根本性的不同。
+HTML continues to be undefeated.
+HTML 至今仍无可撼动。
 
-With software, you ship once and customers adopt it. With AI, the underlying models keep evolving — workflows change with every model upgrade, best practices shift constantly.
-软件可以一次交付，用户就能采用。但 AI 不同——底层模型持续演进，每次模型升级都可能改变工作流，最佳实践也在不断变化。
-
-His conclusion: one vendor sharing cross-company best practices at scale is more efficient than every company figuring it out alone, and as we move from chat to agentic systems, the FDE (forward deployed engineering) model becomes a *core competency* for AI deployment at scale.
-他的结论是：一家供应商跨公司大规模分享最佳实践，比每家公司单独摸索效率更高；随着我们从聊天系统迈向智能体系统，FDE（前沿部署工程）模式将成为大规模 AI 部署的*核心能力*。
-
-He also flagged a two-word thesis: *"Headless software is the future."*
-他还提出了一个简洁的论断："无界面软件是未来。"
-
-Sources:
-- https://x.com/levie/status/2055501840419328286
-- https://x.com/levie/status/2055357619888595271
+A brief but confident declaration from a Claude Code team member.
+一位 Claude Code 团队成员简短而有力的宣言。
+https://x.com/trq212/status/2055903660476129723
 
 ---
 
-## Garry Tan (@garrytan)
+### Garry Tan (garrytan on X) — Foucault, Derrida, and the Failure to Build
+*Garry Tan* is President & CEO of Y Combinator.
 
-Garry Tan focused on California politics this cycle, publishing a voter guide and urging followers to share it as a trusted resource.
-Garry Tan 本周聚焦于加州政治，发布了一份选民指南，并呼吁粉丝将其作为可信资源广泛传播。
+Two 20th-century philosophers — Foucault and Derrida — gave a generation sophisticated excuses to never build anything; their intellectual descendants inherited the sophistication and the impotence.
+两位20世纪哲学家——福柯与德里达——给整整一代人提供了精致的借口，让他们永远不必真正建造任何东西；他们的思想继承者继承了这份精致，也继承了这份无能。
 
-He pushed back sharply against San Francisco's proposed "Overpaid CEO tax," arguing it doesn't actually tax overpaid CEOs — instead it raises gross receipts taxes on consumers and will lower city revenue, just like California's asset seizure tax.
-他对旧金山提出的"高薪 CEO 税"提出了强烈批评，认为它并不真正针对高薪 CEO——反而会向消费者转嫁更高的总收入税，并将降低城市税收，就像加州的资产扣押税一样。
+Foucault taught us every institution is just power, so we stopped trusting them; Derrida taught us every commitment contradicts itself, so we stopped making them — together they are the OS behind 4,000-page environmental impact reports that never pour concrete.
+福柯教我们每个机构都只是权力的体现，于是我们停止信任它们；德里达教我们每个承诺都自我矛盾，于是我们停止做出承诺——两者合力，构成了那个能写出4000页环境影响评估报告却始终无法浇筑一块混凝土的文明底层操作系统。
 
-Sources:
-- https://x.com/garrytan/status/2055384351307858390
-- https://x.com/garrytan/status/2055446378596474891
+*"The physical bridge across a river holds or it doesn't. The code compiles or it doesn't. Reality keeps score and it doesn't grade on a curve."*
 
----
+The antidote is building — reality doesn't grade on a curve.
+解药就是去建造——现实不会按曲线评分。
+https://x.com/garrytan/status/2055674791873630650
 
-## Matt Turck (@mattturck)
-
-Matt Turck kept it light this cycle, dropping a single cryptic "personal news" tweet about someone sliding into his DMs — presumably a big announcement or connection incoming.
-Matt Turck 本周比较轻松，只发了一条神秘的"个人消息"推文，提到有人私信了他——预计是某个重大宣布或重要联系即将到来。
-
-Sources:
-- https://x.com/mattturck/status/2055404881024848056
+Garry also open-sourced GBrain — an MIT-licensed 8-layer knowledge system for agents that makes personal AI feel clairvoyant, installable in one command.
+Garry 还开源了 GBrain——一个采用 MIT 协议的8层 agent 知识系统，让个人 AI 拥有"先知"般的用户理解能力，一行命令即可安装。
+https://x.com/garrytan/status/2055670533451366479
+https://x.com/garrytan/status/2055670797596012657
 
 ---
 
-## Nikunj Kothari (@nikunj)
+### Zara Zhang (zarazhangrui on X) — AI Psychosis Cycle
+*Zara Zhang* is an independent builder and Harvard alum.
 
-Nikunj Kothari had a jaw-dropping moment watching an AI agent autonomously work through a 2,000+ line item database — fixing product images, frontend bugs, descriptions, doing real-time web research, fact-checking, and writing scripts for future automation.
-Nikunj Kothari 目睹了一个令人叹为观止的时刻：一个 AI 智能体自主处理了一个拥有2000多个条目的数据库——修复产品图片、前端错误、产品描述，进行实时网络研究、事实核查，并为未来的自动化编写脚本。
+AI psychosis is cycling between two states daily: after using coding agents, feeling omnipotent; after scrolling Twitter, feeling completely behind.
+AI 心理失衡就是每天在两种状态之间反复横跳：用完 coding agent 之后觉得自己无所不能；刷完 Twitter 之后觉得自己已经彻底落后。
 
-*"Man, /goal is just AGI if given the right tools."*
-"天哪，/goal 如果配备了合适的工具，就直接是 AGI 了。"
+*"holy shit I'm omnipotent. I can build anything... holy shit I'm completely behind. everyone's ahead."*
 
-All of this happened over two hours while he was having coffee with founders — a vivid real-world illustration of autonomous, long-horizon agentic work.
-这一切都发生在他与创业者喝咖啡的两个小时里——这是对自主、长时程智能体工作的一次生动现实演示。
-
-Sources:
-- https://x.com/nikunj/status/2055426430654439485
-- https://x.com/nikunj/status/2055428193398780296
+This resonated with 136 likes and 28 replies.
+这条推文引发强烈共鸣，获得 136 个赞和 28 条回复。
+https://x.com/zarazhangrui/status/2055728641913536762
 
 ---
 
-## Peter Steinberger (@steipete)
+### Nikunj Kothari (nikunj on X) — Should You Move into Venture?
+*Nikunj Kothari* is a Partner at FPV Ventures, investing at Seed/Series A.
 
-Peter Steinberger gave an extraordinary window into how OpenClaw is run: the team operates roughly 100 Codex instances in the cloud simultaneously, treating AI-driven automation as a core engineering paradigm rather than an experiment.
-Peter Steinberger 让人们深入了解了 OpenClaw 的运营方式：该团队同时在云端运行约100个 Codex 实例，将 AI 驱动的自动化视为核心工程范式而非实验。
+His advice to young people asking about moving into VC: usually no — you can't truly understand excellence without being deeply embedded at a great company first.
+他对于想转行 VC 的年轻人的建议通常是：不要——如果你没有在一家优秀公司深度摸爬滚打过，就很难真正理解什么叫"卓越"。
 
-The use cases are staggering: PR reviews on every commit, security audits, issue de-duplication, spam moderation, performance regression tracking, meeting-to-PR automation, and agents that spin up ephemeral machines to record video demos for bug fixes.
-应用场景令人震惊：每次提交的 PR 审查、安全审计、问题去重、垃圾信息过滤、性能回归追踪、会议转 PR 自动化，以及能启动临时虚拟机录制错误修复视频演示的智能体。
-
-His framing: *"How would we build software in the future if tokens don't matter?"*
-他的思维框架是："如果 token 不再是成本，我们将如何构建未来的软件？"
-
-He also launched **clawpatch 0.1.0** — a tool that maps codebases into semantic feature slices, reviews them for bugs and quality issues, and records fix attempts with validation.
-他还发布了 **clawpatch 0.1.0**——一款将代码库映射为语义功能切片、审查 bug 和质量问题、并记录修复尝试与验证的工具。
-
-Sources:
-- https://x.com/steipete/status/2055405041843052792
-- https://x.com/steipete/status/2055364630709448970
-- https://x.com/steipete/status/2055402519841411165
+The exception: if you're absolutely obsessed with the craft of investing and cannot imagine doing anything else.
+唯一的例外：如果你对投资这件事本身有极度的热情，无法想象做其他任何事情。
+https://x.com/nikunj/status/2055648134819450907
 
 ---
 
-## Dan Shipper (@danshipper)
+### Peter Steinberger (steipete on X) — Deslop Claude Code & BlackBar 0.2.0
+*Peter Steinberger* is the "PolyAgentMorous ClawFather" and co-creator of OpenClaw, affiliated with OpenAI.
 
-Dan Shipper published a deep-dive on Every's attempt to launch an agent-as-a-service platform built on OpenClaw, sharing two hard-won lessons.
-Dan Shipper 发布了 Every 尝试在 OpenClaw 上构建智能体即服务平台的深度复盘，分享了两条来之不易的经验教训。
+Deslop your Claude Code if you haven't switched to Codex yet — a pointed recommendation for developers still on the old setup.
+如果你还没切换到 Codex，是时候给你的 Claude Code 去去"废话"了——这是给还在用旧配置的开发者的直接建议。
+https://x.com/steipete/status/2055747016727167035
 
-First: OpenClaw is powerful but *extremely* hard to build on as a platform — it moves fast, regressions are frequent, and being the middleware layer between OpenClaw and end users is painful.
-第一：OpenClaw 功能强大，但作为平台*极难*在其上构建——它迭代迅速，回归问题频繁，作为 OpenClaw 与最终用户之间的中间层非常痛苦。
+BlackBar 0.2.0 is live for Blacksmith users: adds 24h vCPU and workflow graphs, opt-in status notifications, richer job rows, and a compact status badge.
+BlackBar 0.2.0 已为 Blacksmith 用户上线：新增24小时 vCPU 和工作流图表、可选状态通知、更丰富的任务行展示，以及紧凑型状态标识。
+https://x.com/steipete/status/2055685581758206139
 
-Second: one excellent company-wide super-agent beats 1-on-1 agents for every employee — because maintaining agents requires real effort, and people with day jobs don't want to spend time debugging AI internals.
-第二：一个出色的公司级超级智能体，胜过为每位员工单独配置的智能体——因为维护智能体需要真正的投入，而有本职工作的人不想花时间调试 AI 内部机制。
-
-He also nodded to the future: *"Codex-native apps are the future."*
-他还展望了未来："以 Codex 为原生的应用是未来。"
-
-Sources:
-- https://x.com/danshipper/status/2055347527457886336
-- https://x.com/danshipper/status/2055451869841965154
+He also related to the universal developer struggle: his brain told him not to read Hacker News comments, and he read them anyway.
+他还道出了开发者的共同遭遇：大脑告诉自己别去看 Hacker News 的评论，结果还是看了。
+https://x.com/steipete/status/2055775661755715974
 
 ---
 
-## Sam Altman (@sama)
+### Dan Shipper (danshipper on X) — Codex Evangelism
+*Dan Shipper* is CEO of Every, an AI-first media company.
 
-Sam Altman shared a characteristically self-aware observation about how OpenAI handles user feedback: the team takes all reports seriously, even when investigation reveals the user has simply "gotten used to the current level of magic and now wants more."
-Sam Altman 分享了一个一贯自省的观察：OpenAI 认真对待所有用户反馈，即便调查结果显示用户只是"习惯了当前的魔力，现在想要更多"。
+Successfully Codex-pilling the world one text at a time.
+一条消息一条消息地，把全世界拉进 Codex 的信仰。
 
-It's a subtle but telling comment on the relentless expectation inflation that comes with rapidly improving AI models.
-这是一个微妙但颇具深意的评论，揭示了随着 AI 模型快速进步而来的无止境的期望通胀。
+Dan is quietly evangelizing Codex in his DMs and celebrating the results publicly.
+Dan 在私信中悄悄布道 Codex，并公开庆祝传播成果。
+https://x.com/danshipper/status/2055715359244566552
 
-Sources:
-- https://x.com/sama/status/2055356452286640630
+He also pushed back on the "AI weakens skills" debate by analogy: using a bicycle doesn't weaken your ability to walk.
+他还用自行车类比反驳了"AI 会削弱人类技能"的讨论：骑自行车并不会让你忘记走路。
+https://x.com/danshipper/status/2055727669900141017
 
 ---
 
-## 🎙️ Podcast: Unsupervised Learning
+## PODCASTS
 
-**Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong**
-**第86集：Yann LeCun 谈离开 Meta、打破 LLM 范式，以及为何 Hinton 是错的**
+---
 
-This episode features Yann LeCun — one of the founding fathers of deep learning — in a wide-ranging conversation about the fundamental limits of large language models and the future of AI architecture.
-本集邀请了深度学习奠基人之一 Yann LeCun，就大型语言模型的根本局限性和 AI 架构的未来展开了广泛讨论。
+### No Priors — "Pax Silica: Inside the Trump Administration's Tech Strategy with US Under Secretary of State for Economic Affairs Jacob Helberg"
 
-LeCun argues that LLMs are not on the path to human-level intelligence, and that the field needs a fundamental paradigm shift away from next-token prediction toward world-model-based architectures.
-LeCun 认为，LLM 并非通向人类水平智能的正确路径，这一领域需要从下一个 token 预测的范式，根本性地转向基于世界模型的架构。
+This episode features Jacob Helberg, US Under Secretary of State for Economic Affairs, explaining Pax Silica — a 14-country economic security coalition to secure the AI supply chain for America and its allies.
+本期节目邀请了美国国务院主管经济事务的副国务卿 Jacob Helberg，介绍 Pax Silica——一个由14个国家组成的经济安全联盟，旨在为美国及其盟友保障 AI 供应链安全。
 
-He also directly challenges Geoffrey Hinton's views on AI risk and consciousness, offering a contrarian take that is sure to spark debate.
-他还直接挑战了 Geoffrey Hinton 关于 AI 风险和意识的观点，提出了一个必将引发争议的反主流立场。
+The US is leasing 4,000 acres in the Philippines — a third the size of Manhattan — as a "forward deployed industrial base" and economic security zone, combining US common law with Philippine manufacturing advantages.
+美国在菲律宾租赁了4000英亩土地（相当于曼哈顿面积的三分之一），打造"前沿部署工业基地"和经济安全区，将美国普通法体系与菲律宾制造业优势相结合。
 
-Sources:
-- https://www.youtube.com/@RedpointAI
+Unlike China's Belt and Road Initiative, the US approach puts private companies in the driver's seat — no government-operated supply chains, instead commercially viable platforms built in lockstep with private builders.
+与中国"一带一路"不同，美国的做法是让私营企业主导——不搞政府运营的供应链，而是与私营建设者携手打造具有商业可行性的平台。
+
+*"Our superpower is really our private sector and our companies... American products enchant and delight users around the world by the billions."*
+
+On rare earths: they're not actually rare everywhere, but the refining infrastructure outside China is extremely limited, and China subsidizes the entire sector heavily.
+关于稀土：稀土其实并不稀少，但中国以外的精炼加工基础设施极为匮乏，且中国对整个行业进行了大规模补贴。
+
+The administration held the largest critical minerals summit in State Department history in February — 55+ countries participated, and deals are being signed to diversify supply.
+该届政府在2月举办了国务院历史上规模最大的关键矿产峰会，55个以上国家参与，并正在签署多元化供应协议。
+
+The biggest surprise from working inside the Trump administration: how entrepreneurial and fast-moving it is, operating in "Trump time" — when the president likes something, he wants it yesterday.
+在特朗普政府内部工作最大的意外：这届政府具有极强的创业精神，行动极为迅速，运转在"特朗普时间"里——总统如果喜欢某件事，他昨天就想要它。
+
+America's edge isn't the Belt and Road model; it's the Silicon Valley founder spirit — contrarian, tenacious, positive-sum — applied to geopolitics.
+美国的优势不在于"一带一路"模式，而在于硅谷创始人精神——逆向思维、坚韧不拔、正和博弈——将这种精神应用于地缘政治。
+https://www.youtube.com/watch?v=xjlYpGaxIPA
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
