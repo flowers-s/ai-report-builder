@@ -1,228 +1,141 @@
-AI Builders 日报 · 2026-05-26
+AI Builders 日报 · 2026-05-27
+
+AI Builders Digest — 2026-05-27
 
 ---
 
-## X / TWITTER
+X / TWITTER
 
 ---
 
-### Peter Yang (petergyang on X)
+Peter Yang (petergyang on X)
 
-Peter Yang is a content creator and podcast host covering AI, startups, and product strategy.
-Peter Yang 是一位内容创作者和播客主持人，专注于 AI、创业和产品策略。
+Codex is very impressive — especially its ability to use browsing to test its own work, while Claude still wins on design and frontend tasks.
+Codex 表现十分出色——尤其是它能利用浏览功能来测试自己的工作，但在设计和前端任务上，Claude 仍然更胜一筹。
 
-In a new podcast episode with Ryan Carson, Yang shared a striking shift in startup thinking: *"We used to say build the MVP. Now you should build the system that builds the MVP first."*
-在与 Ryan Carson 的最新播客中，Yang 分享了一个关于创业思维的重要转变：*"我们以前说做最小可行产品，现在你应该先搭建能构建 MVP 的系统。"*
+Peter Yang draws a sharp analogy between "tokenmaxxing" and eating crab legs at a buffet: the all-you-can-eat AI plans won't last forever, so take advantage while you can.
+Peter Yang 用"自助餐吃蟹脚"来类比"tokenmaxxing"：无限畅用的 AI 计划不会永远存在，趁现在赶紧用够本。
 
-Carson described how he runs his startup solo with AI agents: using OpenClaw as an AI chief of staff to handle emails, book meetings and do sales outreach; using Codex and Devin as his AI engineering team to ship features while he sleeps.
-Carson 介绍了他如何独自借助 AI Agent 运营初创公司：用 OpenClaw 作为 AI 首席助理处理邮件、安排会议和开展销售拓展；用 Codex 和 Devin 作为 AI 工程团队，在他睡觉时持续发布功能。
+The conventional startup wisdom has flipped: *"We used to say just do the bare minimum to get the MVP out. Don't spend time on systems. It's literally reversed now."*
+创业常规智慧已经逆转：*"我们过去说只做最少的事把 MVP 推出去，别花时间搭系统。现在完全反过来了。"*
 
-Key advice from Carson: *"Spend a lot of time upfront setting up your skills + documentation. Then you've suddenly unlocked the work of 10 people."* And: *"Treat your agent like a real employee. Give it a real email address, calendar access, and GitHub account."*
-Carson 的核心建议：*"在前期花大量时间搭建技能和文档，之后你突然就能发挥 10 个人的工作量。"* 以及：*"像对待真正的员工一样对待你的 Agent，给它一个真实的邮箱、日历权限和 GitHub 账户。"*
+Building systems upfront — once seen as procrastination — is now a prerequisite to shipping effectively with AI agents.
+提前搭建系统——曾经被视为拖延——如今已成为借助 AI 智能体高效交付的前提条件。
 
-He also raised a $2M seed round but has no plans to hire anytime soon — preferring to deeply understand every role before bringing in humans or agents.
-他还完成了 200 万美元种子轮融资，但近期不打算招聘——他倾向于在引入人类或 Agent 之前，先深入理解每个岗位。
-
-Source: https://x.com/petergyang/status/2058555226479866312
-
----
-
-### Madhu Guru (realmadhuguru on X)
-
-Madhu Guru writes about leadership, AI adoption, and organizational dynamics.
-Madhu Guru 写作关于领导力、AI 采纳与组织动态的内容。
-
-He called out a common failure pattern in enterprise AI: *"CEOs feel AI FOMO, but many of them and their lieutenants have gotten used to arms-length leadership and lack the muscle to get hands-on with AI."*
-他点出了企业 AI 采用中的一个常见失败模式：*"CEO 们感受到 AI 焦虑，但很多人已经习惯了隔岸观火式的领导，缺乏亲自动手使用 AI 的能力。"*
-
-The result? Sweeping but imprecise AI mandates that produce performative, low-effort demos from employees — with no real progress after years of effort.
-结果？宽泛而模糊的 AI 指令只会催生员工表演性的、敷衍了事的演示——历经数年毫无实质进展。
-
-The consequence is being disrupted by a startup whose leadership is hands-on and deeply engaged with the technology.
-最终后果是被那些领导层亲力亲为、深度参与技术的初创公司颠覆。
-
-Source: https://x.com/realmadhuguru/status/2058591611245011157
+https://x.com/petergyang/status/2059099566377693305
+https://x.com/petergyang/status/2059070818798465330
+https://x.com/petergyang/status/2059029752858775581
 
 ---
 
-### Thariq (trq212 on X)
+Amanda Askell (AmandaAskell on X) — Anthropic Researcher
 
-Thariq is a builder with deep interest in developer tooling and AI-assisted software engineering.
-Thariq 是一位对开发工具和 AI 辅助软件工程有深入研究的构建者。
+Amanda Askell issues a clear public notice: she has not written a personal blog post in over five years.
+Amanda Askell 发出明确的公开声明：她已超过五年没有撰写个人博客文章。
 
-His main takeaway from observing the Bun JavaScript runtime's AI-assisted rewrite: *"Legacy codebases will be incredibly valuable as a source for 'distilling' code into new forms."*
-他从观察 Bun JavaScript 运行时的 AI 辅助重写中得出的核心结论：*"遗留代码库将成为把代码'蒸馏'为新形态的宝贵来源。"*
+If you see posts claiming to be written by her, they are not authentic.
+如果你看到声称由她撰写的帖子，那些都不是真实的。
 
-He sees this pattern playing out broadly — every game should be cross-platform, all legacy software should work on the web, and COBOL shouldn't be necessary anymore.
-他认为这种模式正在广泛上演——每款游戏都应跨平台，所有遗留软件都应能在 Web 上运行，COBOL 也不再是必需。
-
-He also noted that while models aren't quite there yet, Bun's excellent test coverage makes it highly verifiable — suggesting AI-driven rewrites will become increasingly reliable as models improve.
-他也指出，虽然目前模型还未完全达到要求，但 Bun 出色的测试覆盖率使其高度可验证——这意味着随着模型进步，AI 驱动的代码重写将越来越可靠。
-
-Sources:
-- https://x.com/trq212/status/2058576195000660319
-- https://x.com/trq212/status/2058576196481200223
+https://x.com/AmandaAskell/status/2058994218484338726
 
 ---
 
-### Guillermo Rauch (rauchg on X)
+Aaron Levie (levie on X) — Box CEO
 
-Guillermo Rauch is the CEO of Vercel, the platform powering modern frontend development.
-Guillermo Rauch 是 Vercel 的 CEO，该平台为现代前端开发提供基础设施。
+Goldman Sachs CEO is pushing back on pessimistic takes about AI and jobs.
+高盛 CEO 正在反驳对 AI 与就业前景的悲观看法。
 
-A brief but pointed observation this week: *"How do you build a great brand? Build a great product."*
-本周他发表了一个简短而有力的观点：*"如何打造伟大的品牌？打造一款伟大的产品。"*
+The argument: if you looked at how much faster and easier it is to produce the same work as a few decades ago — even before AI — you would not be worried.
+其论点是：如果你看看几十年前与现在相比，完成同样工作的速度和便捷程度提升了多少——即便是在 AI 出现之前——你就不会那么担忧了。
 
-He also revealed a personal pursuit: *"BJJ is the peak athletic pursuit. Nothing I've tried comes close. Join the cult."*
-他还透露了自己的个人爱好：*"巴西柔术是最极致的运动追求，没有什么能与之相比，快来加入这个圈子吧。"*
-
-Source: https://x.com/rauchg/status/2058750970998505505
+https://x.com/levie/status/2059025559896883489
 
 ---
 
-### Aaron Levie (levie on X)
+Garry Tan (garrytan on X) — Y Combinator CEO
 
-Aaron Levie is the CEO of Box, an enterprise cloud content management platform.
-Aaron Levie 是企业云内容管理平台 Box 的 CEO。
+Garry Tan is excited about a new wave of AI-native tools and believes this kind of technology will be deployed 1000x more broadly, ushering in a golden age of abundance.
+Garry Tan 对新一波 AI 原生工具感到振奋，并相信这类技术将被大规模普及 1000 倍，迎来真正的丰盛黄金时代。
 
-He offered a sharp diagnosis of why CEOs struggle with AI adoption: *"CEOs are uniquely prone to AI psychosis because they're sufficiently distant from the last mile of work that still has to happen to generate most value with AI."*
-他对 CEO 为何难以有效推进 AI 采用给出了一针见血的诊断：*"CEO 特别容易陷入 AI 妄想，因为他们距离真正创造价值所需的'最后一公里'工作太远。"*
+He shares a practical agentic technique: instruct the agent to use three different frontier models to evaluate its own skill-file outputs and rate them — asking "Why isn't it a 10? How could it be made to be so?"
+他分享了一个实用的智能体技巧：让智能体用三个不同的前沿模型来评估自身技能文件的输入输出，并打分——问"为什么不是满分？怎样才能做到满分？"
 
-CEOs see the "happy path" of AI demos but don't experience the review cycles, error correction, and integration work that actually make agents useful in production.
-CEO 只看到 AI 演示的"顺畅路径"，却不需要亲历使 Agent 真正在生产环境中可用所需的审查周期、错误纠正和集成工作。
+*"By evals I mean literally tell the agent: given what we discussed about what we are doing and why and what happened, use three different frontier models to look at inputs and outputs of your skill file calling the code, and rate it on effectiveness."*
+*"我说的评估，就是字面上告诉智能体：根据我们讨论的目标、原因和过程，用三个不同的前沿模型来审视你调用代码的技能文件的输入和输出，并评估其有效性。"*
 
-His prescription: use AI yourself — a lot — so you develop a realistic appreciation for both its upside and the real work required.
-他的建议：自己大量使用 AI——这样你才能对其价值和所需的真实工作量都有切实的理解。
-
-Source: https://x.com/levie/status/2058582370253701432
-
----
-
-### Garry Tan (garrytan on X)
-
-Garry Tan is the President and CEO of Y Combinator, the world's most influential startup accelerator.
-Garry Tan 是全球最具影响力的创业加速器 Y Combinator 的总裁兼 CEO。
-
-He kept it pithy this week, sharing what's unlocking value in the current AI moment: *"High agency high taste is the unlock these days."*
-本周他言简意赅，分享了在当前 AI 时代释放价值的关键：*"如今的关键在于高度自主性加上高品味。"*
-
-He also hinted at building at the frontier: *"When all your friends are building on the edge"* — and expressed genuine enthusiasm: *"I'm having the time of my life frankly."*
-他还暗示了在前沿地带构建的状态：*"当你所有的朋友都在前沿构建时"*——并表达了真实的热情：*"坦率地说，我正经历人生中最好的时光。"*
-
-Sources:
-- https://x.com/garrytan/status/2058769355916411099
-- https://x.com/garrytan/status/2058767163666887136
-- https://x.com/garrytan/status/2058767083777949930
+https://x.com/garrytan/status/2059155926939299968
+https://x.com/garrytan/status/2059151927011909800
+https://x.com/garrytan/status/2059148823403082154
 
 ---
 
-### Matt Turck (mattturck on X)
+Matt Turck (mattturck on X) — FirstMark Capital Managing Director
 
-Matt Turck is a Managing Director at FirstMark Capital, a leading early-stage VC firm focused on data and AI.
-Matt Turck 是专注于数据和 AI 领域的早期风投机构 FirstMark Capital 的董事总经理。
+Matt Turck shared a link about a "Member of Technical Staff" role — no additional commentary.
+Matt Turck 分享了一则关于"Member of Technical Staff"职位的链接，未附额外评论。
 
-He highlighted a provocative take on AGI from OpenAI researcher Yann Dubois: *"I think if we froze the models that we have right now and you really worked on the harness and maybe we also spent more time training with a great harness, I think people would really feel the AGI in every single domain."*
-他转发了 OpenAI 研究员 Yann Dubois 关于 AGI 的一个颇具挑衅性的观点：*"我认为，如果我们冻结当前的模型，真正在系统框架上下功夫，也许还花更多时间在优秀框架上训练，人们将在每个领域都真正感受到 AGI 的存在。"*
+近期无重要动态 (No substantive original insight beyond the shared link.)
 
-The implication: the bottleneck to AGI may not be model capability but the scaffolding, tooling, and training infrastructure built around them.
-这一观点的含义是：通往 AGI 的瓶颈可能不在于模型能力本身，而在于围绕模型构建的脚手架、工具和训练基础设施。
-
-Source: https://x.com/mattturck/status/2058659995311358332
+https://x.com/mattturck/status/2058957711396544752
 
 ---
 
-### Zara Zhang (zarazhangrui on X)
+Nikunj Kothari (nikunj on X) — VC & Builder
 
-Zara Zhang is an investor and builder deeply embedded in the AI ecosystem, and the creator of the Follow Builders skill.
-Zara Zhang 是深度参与 AI 生态的投资人和构建者，也是 Follow Builders 技能的创建者。
+Many people ask Nikunj why a VC is building products — his answer is direct: the space is moving so fast that the only way to stay at the frontier is by building.
+很多人问 Nikunj 为什么一个 VC 要自己做产品——他的回答很直接：这个领域发展太快，唯有亲自动手才能保持在前沿。
 
-She noted OpenAI's move toward more openness, and pointed out that Codex is open source — a fact she'd only recently discovered herself.
-她提到了 OpenAI 走向更加开放的趋势，并指出 Codex 是开源的——这是她最近才发现的事实。
+*"Priors need to be rethought every few months."*
+*"认知框架每隔几个月就需要重新思考。"*
 
-She also shared a career observation: an engineering manager friend who voluntarily transitioned back to IC (individual contributor) has never been happier — *"because she can finally get her hands on building again."*
-她还分享了一个职业观察：一位主动从工程经理转回个人贡献者的朋友从未如此快乐——*"因为她终于可以再次亲手构建东西了。"*
+He adds: exploring the edges is also simply a lot of fun.
+他补充道：探索边界本身也充满乐趣。
 
-And on the productivity front: she discovered a "life-changing" Mac app called Amphetamine that keeps your Mac awake even with the lid closed — more reliable than the `caffeinate` terminal command.
-在生产力工具方面：她发现了一款"改变生活"的 Mac 应用 Amphetamine，即使合上盖子也能保持 Mac 唤醒状态——比终端的 `caffeinate` 命令更可靠。
-
-Sources:
-- https://x.com/zarazhangrui/status/2058604604422815832
-- https://x.com/zarazhangrui/status/2058640897236140034
-- https://x.com/zarazhangrui/status/2058643577421631538
+https://x.com/nikunj/status/2058927145519562867
 
 ---
 
-### Nikunj Kothari (nikunj on X)
+Peter Steinberger (steipete on X) — OpenClaw Creator
 
-Nikunj Kothari is a builder and investor who ships side projects at the intersection of AI and travel.
-Nikunj Kothari 是一位在 AI 和旅行交叉领域持续创作的构建者和投资人。
+OpenClaw's dependency purge continues: Sharp and Jimp have been replaced by Photon, a tiny WebAssembly module compiled from Rust for image processing — 2 MB vs. 140 MB.
+OpenClaw 的依赖精简工作仍在继续：Sharp 和 Jimp 已被 Photon 替代，这是一个由 Rust 编译而成的轻量 WebAssembly 模块，用于图片处理——体积从 140MB 压缩到了 2MB。
 
-He shared a powerful Claude Code technique: reverse engineering APIs through network request sniffing. By using browser automation tools like browser_use or Playwright, Claude Code can monitor network traffic, identify API structures, and construct programmatic jobs to retrieve data — even from sites with no clean DOM or public API.
-他分享了一个强大的 Claude Code 技巧：通过网络请求嗅探来逆向工程 API。借助 browser_use 或 Playwright 等浏览器自动化工具，Claude Code 可以监控网络流量，识别 API 结构，并构建程序化任务来获取数据——即便是那些没有干净 DOM 或公共 API 的网站。
+He urges skill authors to write token-efficient skill descriptions: *"I see too many skills that write books in the skill description, and all that crap is loaded into every context."*
+他呼吁技能作者精简技能描述的 token 用量：*"太多技能在描述里写了长篇大论，这些内容会被加载进每一个上下文里。"*
 
-His forward-looking take: *"Every website will soon need to be headless, and we'll need to figure out mechanisms for how we have our agents pay these websites programmatically."*
-他的前瞻性观点：*"每个网站很快都需要支持无头访问，我们还需要弄清楚如何让我们的 Agent 以程序化方式向这些网站付费。"*
+He has published a skill that finds the worst token-bloated offenders.
+他发布了一个技能，专门用于找出 token 浪费最严重的罪魁祸首。
 
-He also proposed a new standard: just as `llms.txt` provides data structure for language models, we'll soon need a `tools.txt` for agents to discover available tools.
-他还提出了一个新标准：正如 `llms.txt` 为语言模型提供数据结构，我们很快将需要一个 `tools.txt`，让 Agent 能够发现可用的工具。
-
-On the side project front: he built a travel CLI tool that uses credit card points to optimize trip planning, and is looking for beta testers with upcoming trips.
-在个人项目方面：他构建了一款利用积分优化出行规划的旅行命令行工具，并在寻找有近期出行计划的公测用户。
-
-Sources:
-- https://x.com/nikunj/status/2058783316753686558
-- https://x.com/nikunj/status/2058692391708897319
+https://x.com/steipete/status/2058922222790525272
+https://x.com/steipete/status/2058917897590673525
+https://x.com/steipete/status/2058884046940225918
 
 ---
 
-### Dan Shipper (danshipper on X)
+Dan Shipper (danshipper on X) — Every.to CEO
 
-Dan Shipper is the CEO and co-founder of Every, a media company focused on the intersection of AI and work.
-Dan Shipper 是 Every 的 CEO 和联合创始人，Every 是一家专注于 AI 与工作交叉领域的媒体公司。
+Dan Shipper shared an internal counterpoint from within Every to the "After Automation" narrative.
+Dan Shipper 分享了 Every 内部对"自动化之后"叙事的一篇反驳文章。
 
-He promoted his recent essay on "After Automation" — exploring what work and meaning look like in a world where AI handles the bulk of execution — which received a detailed breakdown in the AI Daily Brief podcast.
-他推广了他关于"自动化之后"的最新文章——探索在 AI 承担大量执行工作的世界中，工作和意义意味着什么——这篇文章在 AI Daily Brief 播客中获得了深度解读。
+He also quoted the Pope — who appears to have been reading Every's 2024 essays on AI and humanity: *"Humanity, created by God in all its grandeur is today facing a pivotal choice: either to construct a new Tower of Babel or to build the city in which God and humanity dwell together."*
+他还引用了教皇的话——教皇似乎读过 Every 2024 年关于 AI 与人类的文章：*"由上帝以其全部伟大所创造的人类，今天正面临一个关键抉择：是建造新的巴别塔，还是建造上帝与人类共同栖居的城市。"*
 
-He also posed an open question to his audience about the identity and mission of Every itself: *"wdyt? what is @every?"* — suggesting an ongoing exploration of what the publication is becoming.
-他还向受众提出了一个关于 Every 自身定位和使命的开放性问题：*"你怎么看？@every 是什么？"*——暗示他正在持续探索这家媒体的发展方向。
-
-Sources:
-- https://x.com/danshipper/status/2058723492355252490
-- https://x.com/danshipper/status/2058682096432861371
+https://x.com/danshipper/status/2059014616059879501
+https://x.com/danshipper/status/2058962146684215602
+https://x.com/danshipper/status/2058962119287038145
 
 ---
 
-## PODCASTS
+Aditya Agarwal (adityaag on X) — SPC India Organizer
 
----
+Aditya Agarwal is hosting a conversation with Group Captain Shubhanshu Shukla — fighter pilot, astronaut, and the first Indian on the ISS — at SPC India in Bangalore on May 28.
+Aditya Agarwal 将在 5 月 28 日班加罗尔 SPC India 活动中，与 Shubhanshu Shukla 上校对谈——他是战斗机飞行员、宇航员，也是首位登上国际空间站的印度人。
 
-### Unsupervised Learning — Ep 86: Yann LeCun on Leaving Meta, Breaking The LLM Paradigm, & Why Hinton is Wrong
+*"It's not everyday you get to host someone who's been to space."*
+*"能邀请到一位曾经去过太空的人，这可不是每天都有的机会。"*
 
-This episode features Yann LeCun, one of the godfathers of deep learning and co-winner of the Turing Award, in a wide-ranging conversation about why LLMs are not a path to human-level intelligence.
-本期节目邀请了深度学习教父之一、图灵奖得主 Yann LeCun，就 LLM 为何不是通往人类级智能的路径展开了深度对话。
-
-LeCun announced he has left Meta to start AMI Labs (Advanced Machine Intelligence), focused on building world models using the JEPA (Joint Embedding Predictive Architecture) he pioneered.
-LeCun 宣布已离开 Meta，创立 AMI Labs（先进机器智能），专注于使用他开创的 JEPA（联合嵌入预测架构）构建世界模型。
-
-His core thesis: *"LLMs are not a path towards human level or human like intelligence or even animal like intelligence."* They are useful tools, but lack two essential capabilities — the ability to predict the consequences of actions, and the ability to plan through optimization and search.
-他的核心论点：*"LLM 不是通往人类级别或类人智能甚至动物级智能的路径。"* 它们是有用的工具，但缺少两种关键能力——预测行为后果的能力，以及通过优化和搜索进行规划的能力。
-
-On safety: LeCun argued that LLMs are *"intrinsically unsafe"* — not just because they hallucinate, but because they cannot predict the consequences of their actions. His proposed alternative is "objective-driven AI" with explicit world models and hardwired safety constraints.
-关于安全性：LeCun 认为 LLM"本质上是不安全的"——不仅因为它们会产生幻觉，还因为它们无法预测自身行为的后果。他提出的替代方案是具有显式世界模型和硬编码安全约束的"目标驱动型 AI"。
-
-On leaving Meta: He clarified a major misconception — he had *"zero technical contribution to LLAMA"* and stepped down from directing FAIR back in 2018. His departure was driven by the mismatch between his world model research ambitions and Meta's increasing focus on catching up in the LLM race.
-关于离开 Meta：他澄清了一个重大误解——他对 LLAMA *"没有任何技术贡献"*，早在 2018 年就卸任了 FAIR 的主任职务。他的离开源于他的世界模型研究抱负与 Meta 日益聚焦于 LLM 竞赛之间的错位。
-
-On Geoffrey Hinton changing his views: *"I didn't change my mind. They changed their mind."* LeCun believes Hinton's pivot toward AI safety concerns after GPT-4 was intellectually understandable but not technically justified.
-关于 Geoffrey Hinton 改变观点：*"我没有改变想法，是他们改变了想法。"* LeCun 认为 Hinton 在 GPT-4 发布后转向 AI 安全担忧，在智识上可以理解，但在技术上并不成立。
-
-His five-year vision for AMI: *"Five years, complete world domination"* — a tongue-in-cheek reference to Linus Torvalds' famous quote, suggesting JEPA world models will eventually underpin intelligent systems the same way Linux underpins the internet.
-他对 AMI 的五年愿景：*"五年内，完全统治世界"*——这是对 Linus Torvalds 名言的戏谑引用，暗示 JEPA 世界模型最终将成为智能系统的基础，就像 Linux 支撑互联网一样。
-
-He also described Tapestry, a separate initiative: a federated open-source LLM platform where contributors worldwide share model parameter vectors (not data), enabling AI sovereignty for countries that don't want to depend on US or Chinese models.
-他还介绍了另一个独立项目 Tapestry：一个联邦式开源 LLM 平台，全球贡献者共享模型参数向量（而非数据），为不希望依赖美国或中国模型的国家实现 AI 主权。
-
-Podcast: https://www.youtube.com/@RedpointAI
+https://x.com/adityaag/status/2059135918808981617
+https://x.com/adityaag/status/2059135917122838705
 
 ---
 
