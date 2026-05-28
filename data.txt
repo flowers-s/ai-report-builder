@@ -1,142 +1,245 @@
-AI Builders 日报 · 2026-05-27
+AI Builders 日报 · 2026-05-28
 
-AI Builders Digest — 2026-05-27
-
----
-
-X / TWITTER
+Today's digest covers 15 builders on X/Twitter, 1 podcast, and 1 official blog post.
+今日日报涵盖 15 位 X/Twitter 建设者、1 期播客及 1 篇官方博客。
 
 ---
 
-Peter Yang (petergyang on X)
+## 🎙️ PODCAST
 
-Codex is very impressive — especially its ability to use browsing to test its own work, while Claude still wins on design and frontend tasks.
-Codex 表现十分出色——尤其是它能利用浏览功能来测试自己的工作，但在设计和前端任务上，Claude 仍然更胜一筹。
+**Training Data — How Cursor Trained Composer on Fireworks: Distributed Infrastructure for High-Performance RL**
 
-Peter Yang draws a sharp analogy between "tokenmaxxing" and eating crab legs at a buffet: the all-you-can-eat AI plans won't last forever, so take advantage while you can.
-Peter Yang 用"自助餐吃蟹脚"来类比"tokenmaxxing"：无限畅用的 AI 计划不会永远存在，趁现在赶紧用够本。
+This episode dives into how Cursor built Composer, their agentic coding assistant, using reinforcement learning on Fireworks AI's distributed infrastructure.
+本期节目深入探讨了 Cursor 如何基于 Fireworks AI 的分布式基础设施，利用强化学习训练 Composer——他们的智能编码助手。
 
-The conventional startup wisdom has flipped: *"We used to say just do the bare minimum to get the MVP out. Don't spend time on systems. It's literally reversed now."*
-创业常规智慧已经逆转：*"我们过去说只做最少的事把 MVP 推出去，别花时间搭系统。现在完全反过来了。"*
+Key themes: distributed RL training at scale, high-performance inference, the engineering choices behind modern AI coding tools.
+核心主题：大规模分布式强化学习训练、高性能推理，以及现代 AI 编码工具背后的工程决策。
 
-Building systems upfront — once seen as procrastination — is now a prerequisite to shipping effectively with AI agents.
-提前搭建系统——曾经被视为拖延——如今已成为借助 AI 智能体高效交付的前提条件。
-
-https://x.com/petergyang/status/2059099566377693305
-https://x.com/petergyang/status/2059070818798465330
-https://x.com/petergyang/status/2059029752858775581
+🔗 https://www.youtube.com/watch?v=UDTr9yUnLUI
 
 ---
 
-Amanda Askell (AmandaAskell on X) — Anthropic Researcher
+## 📰 OFFICIAL BLOGS
 
-Amanda Askell issues a clear public notice: she has not written a personal blog post in over five years.
-Amanda Askell 发出明确的公开声明：她已超过五年没有撰写个人博客文章。
+**Anthropic — How we contain Claude across products**
+Anthropic 发布了一篇工程博客，解释他们如何在不同产品中对 Claude 进行"隔离"管控。
+The post details the technical and policy mechanisms Anthropic uses to ensure Claude behaves appropriately in different deployment contexts — an important read for anyone building on top of Claude.
+文章详细介绍了 Anthropic 确保 Claude 在不同部署场景中行为合规的技术与策略机制，对所有基于 Claude 构建产品的开发者都很有参考价值。
 
-If you see posts claiming to be written by her, they are not authentic.
-如果你看到声称由她撰写的帖子，那些都不是真实的。
-
-https://x.com/AmandaAskell/status/2058994218484338726
-
----
-
-Aaron Levie (levie on X) — Box CEO
-
-Goldman Sachs CEO is pushing back on pessimistic takes about AI and jobs.
-高盛 CEO 正在反驳对 AI 与就业前景的悲观看法。
-
-The argument: if you looked at how much faster and easier it is to produce the same work as a few decades ago — even before AI — you would not be worried.
-其论点是：如果你看看几十年前与现在相比，完成同样工作的速度和便捷程度提升了多少——即便是在 AI 出现之前——你就不会那么担忧了。
-
-https://x.com/levie/status/2059025559896883489
+🔗 https://www.anthropic.com/engineering/how-we-contain-claude
 
 ---
 
-Garry Tan (garrytan on X) — Y Combinator CEO
-
-Garry Tan is excited about a new wave of AI-native tools and believes this kind of technology will be deployed 1000x more broadly, ushering in a golden age of abundance.
-Garry Tan 对新一波 AI 原生工具感到振奋，并相信这类技术将被大规模普及 1000 倍，迎来真正的丰盛黄金时代。
-
-He shares a practical agentic technique: instruct the agent to use three different frontier models to evaluate its own skill-file outputs and rate them — asking "Why isn't it a 10? How could it be made to be so?"
-他分享了一个实用的智能体技巧：让智能体用三个不同的前沿模型来评估自身技能文件的输入输出，并打分——问"为什么不是满分？怎样才能做到满分？"
-
-*"By evals I mean literally tell the agent: given what we discussed about what we are doing and why and what happened, use three different frontier models to look at inputs and outputs of your skill file calling the code, and rate it on effectiveness."*
-*"我说的评估，就是字面上告诉智能体：根据我们讨论的目标、原因和过程，用三个不同的前沿模型来审视你调用代码的技能文件的输入和输出，并评估其有效性。"*
-
-https://x.com/garrytan/status/2059155926939299968
-https://x.com/garrytan/status/2059151927011909800
-https://x.com/garrytan/status/2059148823403082154
+## 🐦 X / TWITTER BUILDERS
 
 ---
 
-Matt Turck (mattturck on X) — FirstMark Capital Managing Director
+**Swyx (@swyx)**
 
-Matt Turck shared a link about a "Member of Technical Staff" role — no additional commentary.
-Matt Turck 分享了一则关于"Member of Technical Staff"职位的链接，未附额外评论。
+Swyx was busy promoting AI infrastructure this week — he noted that *"ai infra is going VERTICAL"*, pointing to a rapidly consolidating and scaling stack.
+Swyx 本周积极推动 AI 基础设施话题，他指出 "AI 基础设施正在垂直整合"，预示着整个技术栈正在快速收敛与规模化。
 
-近期无重要动态 (No substantive original insight beyond the shared link.)
+He also reminded the community that AI conference talk submissions are closing soon — this year features preprint poster sessions for research papers for the first time.
+他还提醒社区，AI 大会演讲提案即将截止，今年首次新增了研究论文预印本海报展示环节。
 
-https://x.com/mattturck/status/2058957711396544752
-
----
-
-Nikunj Kothari (nikunj on X) — VC & Builder
-
-Many people ask Nikunj why a VC is building products — his answer is direct: the space is moving so fast that the only way to stay at the frontier is by building.
-很多人问 Nikunj 为什么一个 VC 要自己做产品——他的回答很直接：这个领域发展太快，唯有亲自动手才能保持在前沿。
-
-*"Priors need to be rethought every few months."*
-*"认知框架每隔几个月就需要重新思考。"*
-
-He adds: exploring the edges is also simply a lot of fun.
-他补充道：探索边界本身也充满乐趣。
-
-https://x.com/nikunj/status/2058927145519562867
+🔗 https://x.com/swyx/status/2059463182297747527
+🔗 https://x.com/swyx/status/2059372579790741793
 
 ---
 
-Peter Steinberger (steipete on X) — OpenClaw Creator
+**Peter Yang (@petergyang)**
 
-OpenClaw's dependency purge continues: Sharp and Jimp have been replaced by Photon, a tiny WebAssembly module compiled from Rust for image processing — 2 MB vs. 140 MB.
-OpenClaw 的依赖精简工作仍在继续：Sharp 和 Jimp 已被 Photon 替代，这是一个由 Rust 编译而成的轻量 WebAssembly 模块，用于图片处理——体积从 140MB 压缩到了 2MB。
+Peter shared something that struck a nerve — a brief but pointed comment on a frustrating trend he's seeing, summed up with *"This is pretty annoying"*.
+Peter 分享了一条令人深有共鸣的推文，以简短犀利的方式点评了他正在观察到的一个令人头疼的现象，一句 "这真的很烦" 道出了心声。
 
-He urges skill authors to write token-efficient skill descriptions: *"I see too many skills that write books in the skill description, and all that crap is loaded into every context."*
-他呼吁技能作者精简技能描述的 token 用量：*"太多技能在描述里写了长篇大论，这些内容会被加载进每一个上下文里。"*
+Short and resonant — the kind of tweet that gets signal from people who just nod along.
+短短几字却引发广泛共鸣，这类推文往往能收到大量默默点头的支持。
 
-He has published a skill that finds the worst token-bloated offenders.
-他发布了一个技能，专门用于找出 token 浪费最严重的罪魁祸首。
-
-https://x.com/steipete/status/2058922222790525272
-https://x.com/steipete/status/2058917897590673525
-https://x.com/steipete/status/2058884046940225918
+🔗 https://x.com/petergyang/status/2059290769824084083
 
 ---
 
-Dan Shipper (danshipper on X) — Every.to CEO
+**Thariq (@trq212)**
 
-Dan Shipper shared an internal counterpoint from within Every to the "After Automation" narrative.
-Dan Shipper 分享了 Every 内部对"自动化之后"叙事的一篇反驳文章。
+Thariq dropped a practical thread on using Claude Code for non-technical work: *"the basic trick to using Claude Code for non-technical work is to put a bunch of files in a folder and tell it can write scripts + make HTML"*.
+Thariq 发了一条干货帖，分享用 Claude Code 完成非技术工作的实用技巧："核心技巧是把一堆文件放进一个文件夹，然后告诉它可以写脚本、生成 HTML"。
 
-He also quoted the Pope — who appears to have been reading Every's 2024 essays on AI and humanity: *"Humanity, created by God in all its grandeur is today facing a pivotal choice: either to construct a new Tower of Babel or to build the city in which God and humanity dwell together."*
-他还引用了教皇的话——教皇似乎读过 Every 2024 年关于 AI 与人类的文章：*"由上帝以其全部伟大所创造的人类，今天正面临一个关键抉择：是建造新的巴别塔，还是建造上帝与人类共同栖居的城市。"*
+He walked through specific use cases — image editing, finance/tax work, medical advice, paperwork, reports, and planning — all mapped to script + HTML output patterns.
+他详细列举了具体应用场景：图片/视频编辑、财务税务、医疗建议、表单填写、报告生成、方案规划，全部都可以映射到"脚本+HTML输出"的模式。
 
-https://x.com/danshipper/status/2059014616059879501
-https://x.com/danshipper/status/2058962146684215602
-https://x.com/danshipper/status/2058962119287038145
+He also emphasized that data access matters: connect Gmail, Google Calendar, etc. — but don't underestimate how much context already lives in your local files.
+他同时强调数据接入的重要性：连接 Gmail、Google Calendar 等工具，但也不要低估本地文件中已有的丰富上下文信息。
 
----
-
-Aditya Agarwal (adityaag on X) — SPC India Organizer
-
-Aditya Agarwal is hosting a conversation with Group Captain Shubhanshu Shukla — fighter pilot, astronaut, and the first Indian on the ISS — at SPC India in Bangalore on May 28.
-Aditya Agarwal 将在 5 月 28 日班加罗尔 SPC India 活动中，与 Shubhanshu Shukla 上校对谈——他是战斗机飞行员、宇航员，也是首位登上国际空间站的印度人。
-
-*"It's not everyday you get to host someone who's been to space."*
-*"能邀请到一位曾经去过太空的人，这可不是每天都有的机会。"*
-
-https://x.com/adityaag/status/2059135918808981617
-https://x.com/adityaag/status/2059135917122838705
+🔗 https://x.com/trq212/status/2059363113963540788
+🔗 https://x.com/trq212/status/2059363115146395965
+🔗 https://x.com/trq212/status/2059363116316598739
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+**Amjad Masad (@amasad)**
+
+Amjad, Replit's CEO, received a prestigious honor this week — a medal from King Abdullah II of Jordan for distinction on the country's 80th Independence Day.
+Replit CEO Amjad Masad 本周获得了一项崇高荣誉——在约旦建国 80 周年国庆日上，由阿卜杜拉二世国王亲授杰出贡献勋章。
+
+*"It's been an incredibly journey building @Replit, starting from Jordan more than 15 years ago, and then helping accelerate the field of agentic AI globally."*
+"从 15 年前在约旦起步创立 Replit，到如今帮助推动全球智能体 AI 领域的发展，这是一段无比精彩的旅程。"
+
+He was also spotted back in Jordan doing what he loves — drifting in a pro drift car for the first time.
+他还回到约旦，完成了人生首次职业漂移赛车体验，做自己最热爱的事。
+
+🔗 https://x.com/amasad/status/2059518682825392525
+
+---
+
+**Guillermo Rauch (@rauchg)**
+
+Guillermo announced the next **Next.js Night** event happening June 11 in Amsterdam 🇳🇱 — a community gathering to learn what's next in Next.js and meet the Vercel team.
+Guillermo 宣布下一场 **Next.js Night** 活动将于 6 月 11 日在阿姆斯特丹举行 🇳🇱——这是一场社区聚会，可以了解 Next.js 的最新动向并与 Vercel 团队面对面交流。
+
+He also left a quiet but powerful thought: *"Feedback is a gift. Critical feedback doubly so."*
+他还留下了一句简短而有力的感悟："反馈是礼物，批评性的反馈更是双倍的礼物。"
+
+🔗 https://x.com/rauchg/status/2059449464801120765
+🔗 https://x.com/rauchg/status/2059444220956491937
+
+---
+
+**Aaron Levie (@levie)**
+
+Aaron shared a nuanced enterprise AI observation: companies outside Silicon Valley are looking to both hire AND adopt agents simultaneously.
+Aaron 分享了一个微妙的企业 AI 观察：硅谷以外的企业正在同时推进招聘和智能体部署两件事。
+
+*"There's a huge wave of technical and engineering talent needed inside organizations, building software or acting as FDEs for agents."*
+"组织内部正涌现出对技术与工程人才的巨大需求，他们既要构建软件，也要作为智能体的现场开发工程师（FDE）。"
+
+AI isn't replacing headcount here — it's creating new roles. A counterintuitive but important signal.
+在这里 AI 并非在替代岗位，而是在创造新的角色类型。这是一个反直觉但非常重要的信号。
+
+🔗 https://x.com/levie/status/2059482349977653619
+
+---
+
+**Garry Tan (@garrytan)**
+
+Garry had a clear message for founders: stop building 2010-era businesses with 2026-era technology.
+Garry 对创业者发出了明确信号：停止用 2026 年的技术去构建 2010 年的商业模式。
+
+*"Don't underprice! If it works it's worth a lot more."* He warned against recreating old products (Foursquare, Yelp, Basecamp) with slightly better AI skin, and urged founders to play the new game AI has unlocked.
+"不要低估定价！如果它真的有效，它的价值远不止于此。" 他警告创业者不要照搬过去的产品（Foursquare、Yelp、Basecamp）只是加层 AI 包装，而要真正玩转 AI 时代的新规则。
+
+He also shared that GStack — his personal AI stack — just shipped v1.47 with useful bug-reporting tooling for OpenClaw instances.
+他还分享了个人 AI 工具栈 GStack 刚发布 v1.47 版本，新增了针对 OpenClaw 实例 bug 的精准规格生成功能。
+
+🔗 https://x.com/garrytan/status/2059521656532721964
+🔗 https://x.com/garrytan/status/2059494440960667678
+
+---
+
+**Matt Turck (@mattturck)**
+
+Matt posed what he calls *"the biggest mindf*ck scenario in AI"*: what if things don't change that much?
+Matt 提出了他所说的"AI 领域最让人精神错乱的情景"：如果事情根本没有发生太大改变会怎样？
+
+*"Both doomers and accelerationists turn out to be wrong. We are all more productive. Agents deliver automation in the enterprise. Some important scientific discoveries are made. All great. But that's it."*
+"无论是末日论者还是加速主义者最终都错了。我们都变得更高效了，智能体在企业中实现了自动化，完成了一些重要的科学发现。很好，但也仅此而已。"
+
+A grounded take worth sitting with — not everything needs to be civilizational.
+这是一个值得深思的理性视角——并非所有事情都需要达到"文明级别"的影响。
+
+🔗 https://x.com/mattturck/status/2059411493196529751
+
+---
+
+**Zara Zhang (@zarazhangrui)**
+
+Zara shared a detailed update on how her coding agent workflow has evolved in just one month — a must-read for anyone using AI coding tools seriously.
+Zara 详细分享了她在过去一个月内 AI 编码工作流的演变，对认真使用 AI 编码工具的人来说是必读内容。
+
+Key shifts: moved from terminal to Codex/Claude Code desktop apps; now splits 50/50 between Claude Code and Codex. *"Codex feels like a very reliable engineer; Claude Code is a better PM and designer with good communication skills."*
+核心变化：从终端迁移到 Codex/Claude Code 桌面应用；现在 Claude Code 和 Codex 各用 50%。"Codex 像一位非常可靠的工程师；Claude Code 则更像一位沟通能力强的产品经理和设计师。"
+
+She also announced that her **Frontend Slides** skill hit 19k stars on GitHub, with a major upgrade: now integrates with a Beautiful HTML Templates library and supports multiple coding agents beyond Claude Code.
+她还宣布 **Frontend Slides** 工具在 GitHub 上突破 19k Star，并进行了重大升级：现在集成了 Beautiful HTML Templates 库，并支持 Claude Code 之外的多种编码智能体。
+
+🔗 https://x.com/zarazhangrui/status/2059354487823978586
+🔗 https://x.com/zarazhangrui/status/2059338915023393161
+
+---
+
+**Nikunj Kothari (@nikunj)**
+
+Nikunj made a bold claim for venture-backed founders: *"Every venture backed application company needs to inherently be a data company and/or a fintech company. Ideally both."*
+Nikunj 对风险投资支持的创业者提出了一个大胆论断："每一家有 VC 背书的应用公司，本质上都需要成为一家数据公司和/或金融科技公司，最好两者兼具。"
+
+这是一个关于定位和商业模式的尖锐观察——单纯的应用层很难建立持久壁垒，数据飞轮和金融服务才是护城河。
+
+🔗 https://x.com/nikunj/status/2059424310079697188
+
+---
+
+**Peter Steinberger (@steipete)**
+
+Peter was in full open-source shipping mode, releasing multiple libraries for his AI agent stack.
+Peter 进入了全力开源发布模式，为他的 AI 智能体技术栈连续推出多个库。
+
+He released **Rastermill** — a portable image processing library for Node agents using Wasm+Rust for near-native performance. He also shipped a new Opus audio library to replace old, broken deps, and announced that his agent (OpenClaw) can now automatically take meeting notes and support voice conversations during meetings.
+他发布了 **Rastermill**——一个基于 Wasm+Rust 的 Node 智能体便携图像处理库，性能接近原生。他还推出了新的 Opus 音频库替代老旧依赖，并宣布他的智能体（OpenClaw）现在可以自动记录会议笔记并在会议中支持语音对话。
+
+On the DX side: *"autoreview is the most impactful skill I've added to my stack. It automatically reviews your code before landing a PR. Finds so many edge cases. Sometimes it runs for hours."*
+在开发体验方面："autoreview 是我添加到工具栈中影响最大的 skill，它在 PR 合并前自动审查代码，能发现大量边缘情况，有时甚至会运行数小时。"
+
+🔗 https://x.com/steipete/status/2059453909819654554
+🔗 https://x.com/steipete/status/2059423344961671290
+🔗 https://x.com/steipete/status/2059422568352714981
+
+---
+
+**Dan Shipper (@danshipper)**
+
+Dan announced an **Every** brownstone gathering during NYC Tech Week — bringing together AI-pilled readers, builders, and writers from the Every community.
+Dan 宣布在纽约科技周期间举办 **Every** 社区聚会，汇聚 AI 深度用户、建设者和写作者。
+
+If you're in NYC during Tech Week and want to meet fellow thoughtful builders, this is the spot.
+如果你在科技周期间身处纽约，想认识志同道合的建设者，这是个不容错过的机会。
+
+🔗 https://x.com/danshipper/status/2059353269923618819
+
+---
+
+**Aditya Agarwal (@adityaag)**
+
+Aditya was celebrating someone's milestone this week — *"Legendary run my dear friend. Proud to have played a part in the journey."* — a warm and genuine send-off for what sounds like a significant career transition.
+Aditya 本周为一位老朋友送上祝贺——"传奇的旅程，朋友。很荣幸曾经参与其中。"——听起来像是为某人重要的职业转型温情送别。
+
+He also promoted **South Park Commons**, calling on frontier builders to apply — whether actively building or still exploring what's worth building.
+他还为 **South Park Commons** 招募成员，邀请前沿建设者申请——无论是正在主动构建还是仍在探索方向的人。
+
+🔗 https://x.com/adityaag/status/2059465819072192770
+🔗 https://x.com/adityaag/status/2059348812444151854
+
+---
+
+**Sam Altman (@sama)**
+
+Sam kept it cryptically short — just a plane emoji 🛫 with a linked quote tweet. No words needed apparently when you're Sam Altman.
+Sam 一如既往地神秘简短——只有一个飞机表情 🛫 加一条引用推文，毫无文字解释。大概当你是 Sam Altman 的时候，不需要多说什么。
+
+🔗 https://x.com/sama/status/2059492605634007125
+
+---
+
+**Claude (@claudeai)**
+
+The official Claude account asked the community: *"What are you building?"* — a simple prompt that generated 154 replies, which says something about how engaged the Claude user base is right now.
+Claude 官方账号向社区发问："你在构建什么？"——这条简单的提问收获了 154 条回复，可见当前 Claude 用户群体的活跃程度。
+
+Alongside the question, they shared previews of new Claude capabilities.
+与此同时，他们还分享了 Claude 新能力的预览内容。
+
+🔗 https://x.com/claudeai/status/2059292347678986251
+🔗 https://x.com/claudeai/status/2059292345800048714
+🔗 https://x.com/claudeai/status/2059292343723819160
+
+---
+
+_Generated by AI Builders Digest · 2026-05-28_
