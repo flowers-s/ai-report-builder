@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AI Builders 日报 · 2026-05-28</title>
-  <meta name="description" content="共 17 条精选 · 推文 15，播客/视频 1，资讯 1 · 2026-05-28" />
+  <title>AI Builders 日报 · 2026-05-29</title>
+  <meta name="description" content="共 5 条精选 · 播客/视频 1，资讯 4 · 2026-05-29" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="AI Builders 日报" />
-  <meta property="og:description" content="2026-05-28" />
+  <meta property="og:description" content="2026-05-29" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="AI Builders 日报" />
-  <meta name="twitter:description" content="2026-05-28" />
+  <meta name="twitter:description" content="2026-05-29" />
   <meta property="og:image" content="og-card.svg" />
   <meta name="twitter:image" content="og-card.svg" />
   <style>
@@ -453,10 +453,10 @@
     <div class="site-header__top">
       <div class="site-header__left">
         <div class="header-title">AI Builders 日报</div>
-        <div class="header-subtitle">更新时间：2026-05-28</div>
+        <div class="header-subtitle">更新时间：2026-05-29</div>
       </div>
       <nav class="digest-nav" aria-label="内容切换">
-        <button type="button" class="digest-nav__btn is-active" data-view="tweets" id="nav-tweets">推文15</button>
+        <button type="button" class="digest-nav__btn is-active" data-view="tweets" id="nav-tweets">推文0</button>
         <button type="button" class="digest-nav__btn" data-view="podcasts" id="nav-podcasts">播客1</button>
       </nav>
     </div>
@@ -465,293 +465,89 @@
   <div class="page-wrapper">
     <div id="view-tweets" class="digest-view is-active list-container" data-digest-view="tweets">
 
-      <a class="list-item list-item--tweet" href="https://www.anthropic.com/engineering/how-we-contain-claude" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://www.anthropic.com/engineering/april-23-postmortem" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fwww.anthropic.com%2Fengineering%2Fhow-we-contain-claude&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fwww.anthropic.com%2Fengineering%2Fapril-23-postmortem&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Anthropic 发布了一篇工程博客，解释他们如何在不同产品中对 Claude 进行&quot;隔离&quot;管控。</div>
-            <div class="item-desc-en item-desc-original" lang="en">**Anthropic — How we contain Claude across products**</div>
+            <div class="item-title-zh">Anthropic 追踪发现，数月以来关于 Claude Code 质量下滑的报告，源于三处独立变更，影响了 Claude Code、Claude Agent SDK 和 Claude Cowork。</div>
+            <div class="item-desc-en item-desc-original" lang="en">**An update on recent Claude Code quality reports** Anthropic has traced months of reported Claude Code quality regressions to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/%23%23%20%F0%9F%93%B0%20OFFICIAL%20BLOGS" alt="## 📰 OFFICIAL BLOGS" onerror="this.style.display='none'">
-            <span>## 📰 OFFICIAL BLOGS</span><span>·</span><span>Link</span><span>·</span><span>News</span>
+            <img class="avatar-img" src="https://unavatar.io/x/%23%23%23%20Anthropic%20Engineering" alt="### Anthropic Engineering" onerror="this.style.display='none'">
+            <span>### Anthropic Engineering</span><span>·</span><span>Link</span><span>·</span><span>News</span>
           </div>
         </div>
       </a>
 
-      <a class="list-item list-item--tweet" href="https://x.com/swyx/status/2059463182297747527" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://www.anthropic.com/engineering/managed-agents" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://pbs.twimg.com/media/HJSuu39asAAJe-r.jpg?name=orig" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fwww.anthropic.com%2Fengineering%2Fmanaged-agents&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Swyx 本周积极推动 AI 基础设施话题，他指出 &quot;AI 基础设施正在垂直整合&quot;，预示着整个技术栈正在快速收敛与规模化。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Swyx was busy promoting AI infrastructure this week — he noted that *&quot;ai infra is going VERTICAL&quot;*, pointing to a rapidly consolidating and scaling stack.</div>
+            <div class="item-title-zh">Anthropic Engineering 发布了一篇深度技术文章，介绍了 Claude Managed Agents 的架构设计——这是一项运行长时程 agent 的托管服务，核心原则是将&quot;大脑&quot;（Claude + harness）与&quot;双手&quot;（沙箱和工具）彻底解耦。</div>
+            <div class="item-desc-en item-desc-original" lang="en">Anthropic Engineering has published an in-depth technical post on how they architected Claude Managed Agents — a hosted service for running long-horizon agents — around the principle of decoupling the &quot;brain&quot; (Claude + harness) from the &quot;hands&quot; (sandboxes and tools).</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/swyx" alt="**Swyx (@swyx)**" onerror="this.style.display='none'">
-            <span>**Swyx (@swyx)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
+            <img class="avatar-img" src="https://unavatar.io/x/**Scaling%20Managed%20Agents%3A%20Decoupling%20the%20brain%20from%20the%20hands**" alt="**Scaling Managed Agents: Decoupling the brain from the hands**" onerror="this.style.display='none'">
+            <span>**Scaling Managed Agents: Decoupling the brain from the hands**</span><span>·</span><span>Link</span><span>·</span><span>News</span>
           </div>
         </div>
       </a>
 
-      <a class="list-item list-item--tweet" href="https://x.com/petergyang/status/2059290769824084083" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://claude.com/blog/claude-managed-agents-updates" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://pbs.twimg.com/media/HJQSBjwa4AAsFWV.jpg?name=orig" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fclaude.com%2Fblog%2Fclaude-managed-agents-updates&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Peter 分享了一条令人深有共鸣的推文，以简短犀利的方式点评了他正在观察到的一个令人头疼的现象，一句 &quot;这真的很烦&quot; 道出了心声。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Peter shared something that struck a nerve — a brief but pointed comment on a frustrating trend he&#39;s seeing, summed up with *&quot;This is pretty annoying&quot;*.</div>
+            <div class="item-title-zh">Claude Managed Agents 现已支持两项重要企业功能：自托管沙箱（self-hosted sandboxes）和 MCP 隧道（MCP tunnels）。</div>
+            <div class="item-desc-en item-desc-original" lang="en">**New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels** Claude Managed Agents now supports two major enterprise features: self-hosted sandboxes and MCP tunnels.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/petergyang" alt="**Peter Yang (@petergyang)**" onerror="this.style.display='none'">
-            <span>**Peter Yang (@petergyang)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
+            <img class="avatar-img" src="https://unavatar.io/x/%23%23%23%20Claude%20Blog" alt="### Claude Blog" onerror="this.style.display='none'">
+            <span>### Claude Blog</span><span>·</span><span>Link</span><span>·</span><span>News</span>
           </div>
         </div>
       </a>
 
-      <a class="list-item list-item--tweet" href="https://x.com/trq212/status/2059363113963540788" target="_blank" rel="noopener noreferrer">
+      <a class="list-item list-item--tweet" href="https://claude.com/blog/connectors-for-everyday-life" target="_blank" rel="noopener noreferrer">
         <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Ftrq212%2Fstatus%2F2059363113963540788&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
+          <img src="https://api.microlink.io?url=https%3A%2F%2Fclaude.com%2Fblog%2Fconnectors-for-everyday-life&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
         </div>
         <div class="item-content">
           <div class="jump-arrow" aria-hidden="true">&rarr;</div>
           <div class="top-content">
-            <div class="item-title-zh">Thariq 发了一条干货帖，分享用 Claude Code 完成非技术工作的实用技巧：&quot;核心技巧是把一堆文件放进一个文件夹，然后告诉它可以写脚本、生成 HTML&quot;。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Thariq dropped a practical thread on using Claude Code for non-technical work: *&quot;the basic trick to using Claude Code for non-technical work is to put a bunch of files in a folder and tell it can write scripts + make HTML&quot;*.</div>
+            <div class="item-title-zh">Claude 的连接器目录已扩展至超过 200 个集成，Anthropic 目前正将其从工作工具拓展至日常消费类应用。</div>
+            <div class="item-desc-en item-desc-original" lang="en">Claude&#39;s connector directory has grown to over 200 integrations, and Anthropic is now expanding beyond work tools to everyday consumer apps.</div>
           </div>
           <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/trq212" alt="**Thariq (@trq212)**" onerror="this.style.display='none'">
-            <span>**Thariq (@trq212)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/amasad/status/2059518682825392525" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://pbs.twimg.com/media/HJThU1gWUAMlftd.jpg?name=orig" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Replit CEO Amjad Masad 本周获得了一项崇高荣誉——在约旦建国 80 周年国庆日上，由阿卜杜拉二世国王亲授杰出贡献勋章。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Amjad, Replit&#39;s CEO, received a prestigious honor this week — a medal from King Abdullah II of Jordan for distinction on the country&#39;s 80th Independence Day.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/amasad" alt="**Amjad Masad (@amasad)**" onerror="this.style.display='none'">
-            <span>**Amjad Masad (@amasad)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/rauchg/status/2059449464801120765" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://pbs.twimg.com/media/HJSiX-NXwAgC56Y.jpg?name=orig" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Guillermo 宣布下一场 **Next.js Night** 活动将于 6 月 11 日在阿姆斯特丹举行 🇳🇱——这是一场社区聚会，可以了解 Next.js 的最新动向并与 Vercel 团队面对面交流。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Guillermo announced the next **Next.js Night** event happening June 11 in Amsterdam 🇳🇱 — a community gathering to learn what&#39;s next in Next.js and meet the Vercel team.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/rauchg" alt="**Guillermo Rauch (@rauchg)**" onerror="this.style.display='none'">
-            <span>**Guillermo Rauch (@rauchg)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/levie/status/2059482349977653619" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Flevie%2Fstatus%2F2059482349977653619&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Aaron 分享了一个微妙的企业 AI 观察：硅谷以外的企业正在同时推进招聘和智能体部署两件事。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Aaron shared a nuanced enterprise AI observation: companies outside Silicon Valley are looking to both hire AND adopt agents simultaneously.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/levie" alt="**Aaron Levie (@levie)**" onerror="this.style.display='none'">
-            <span>**Aaron Levie (@levie)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/garrytan/status/2059521656532721964" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fgarrytan%2Fstatus%2F2059521656532721964&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Garry 对创业者发出了明确信号：停止用 2026 年的技术去构建 2010 年的商业模式。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Garry had a clear message for founders: stop building 2010-era businesses with 2026-era technology.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/garrytan" alt="**Garry Tan (@garrytan)**" onerror="this.style.display='none'">
-            <span>**Garry Tan (@garrytan)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/mattturck/status/2059411493196529751" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fmattturck%2Fstatus%2F2059411493196529751&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Matt 提出了他所说的&quot;AI 领域最让人精神错乱的情景&quot;：如果事情根本没有发生太大改变会怎样？</div>
-            <div class="item-desc-en item-desc-original" lang="en">Matt posed what he calls *&quot;the biggest mindf*ck scenario in AI&quot;*: what if things don&#39;t change that much?</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/mattturck" alt="**Matt Turck (@mattturck)**" onerror="this.style.display='none'">
-            <span>**Matt Turck (@mattturck)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/zarazhangrui/status/2059354487823978586" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fzarazhangrui%2Fstatus%2F2059354487823978586&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Zara 详细分享了她在过去一个月内 AI 编码工作流的演变，对认真使用 AI 编码工具的人来说是必读内容。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Zara shared a detailed update on how her coding agent workflow has evolved in just one month — a must-read for anyone using AI coding tools seriously.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/zarazhangrui" alt="**Zara Zhang (@zarazhangrui)**" onerror="this.style.display='none'">
-            <span>**Zara Zhang (@zarazhangrui)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/nikunj/status/2059424310079697188" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fnikunj%2Fstatus%2F2059424310079697188&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Nikunj 对风险投资支持的创业者提出了一个大胆论断：&quot;每一家有 VC 背书的应用公司，本质上都需要成为一家数据公司和/或金融科技公司，最好两者兼具。&quot;</div>
-            <div class="item-desc-en item-desc-original" lang="en">Nikunj made a bold claim for venture-backed founders: *&quot;Every venture backed application company needs to inherently be a data company and/or a fintech company. Ideally both.&quot;*</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/nikunj" alt="**Nikunj Kothari (@nikunj)**" onerror="this.style.display='none'">
-            <span>**Nikunj Kothari (@nikunj)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/steipete/status/2059453909819654554" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fsteipete%2Fstatus%2F2059453909819654554&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Peter 进入了全力开源发布模式，为他的 AI 智能体技术栈连续推出多个库。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Peter was in full open-source shipping mode, releasing multiple libraries for his AI agent stack.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/steipete" alt="**Peter Steinberger (@steipete)**" onerror="this.style.display='none'">
-            <span>**Peter Steinberger (@steipete)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/danshipper/status/2059353269923618819" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fdanshipper%2Fstatus%2F2059353269923618819&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Dan 宣布在纽约科技周期间举办 **Every** 社区聚会，汇聚 AI 深度用户、建设者和写作者。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Dan announced an **Every** brownstone gathering during NYC Tech Week — bringing together AI-pilled readers, builders, and writers from the Every community.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/danshipper" alt="**Dan Shipper (@danshipper)**" onerror="this.style.display='none'">
-            <span>**Dan Shipper (@danshipper)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/adityaag/status/2059465819072192770" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fadityaag%2Fstatus%2F2059465819072192770&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Aditya 本周为一位老朋友送上祝贺——&quot;传奇的旅程，朋友。很荣幸曾经参与其中。&quot;——听起来像是为某人重要的职业转型温情送别。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Aditya was celebrating someone&#39;s milestone this week — *&quot;Legendary run my dear friend. Proud to have played a part in the journey.&quot;* — a warm and genuine send-off for what sounds like a significant career transition.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/adityaag" alt="**Aditya Agarwal (@adityaag)**" onerror="this.style.display='none'">
-            <span>**Aditya Agarwal (@adityaag)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/sama/status/2059492605634007125" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fsama%2Fstatus%2F2059492605634007125&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Sam 一如既往地神秘简短——只有一个飞机表情 🛫 加一条引用推文，毫无文字解释。大概当你是 Sam Altman 的时候，不需要多说什么。</div>
-            <div class="item-desc-en item-desc-original" lang="en">Sam kept it cryptically short — just a plane emoji 🛫 with a linked quote tweet. No words needed apparently when you&#39;re Sam Altman.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/sama" alt="**Sam Altman (@sama)**" onerror="this.style.display='none'">
-            <span>**Sam Altman (@sama)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
-          </div>
-        </div>
-      </a>
-
-      <a class="list-item list-item--tweet" href="https://x.com/claudeai/status/2059292347678986251" target="_blank" rel="noopener noreferrer">
-        <div class="item-cover">
-          <img src="https://api.microlink.io?url=https%3A%2F%2Fx.com%2Fclaudeai%2Fstatus%2F2059292347678986251&amp;embed=image.url" alt="preview" loading="lazy" onerror="handleImgError(this)">
-        </div>
-        <div class="item-content">
-          <div class="jump-arrow" aria-hidden="true">&rarr;</div>
-          <div class="top-content">
-            <div class="item-title-zh">Claude 官方账号向社区发问：&quot;你在构建什么？&quot;——这条简单的提问收获了 154 条回复，可见当前 Claude 用户群体的活跃程度。</div>
-            <div class="item-desc-en item-desc-original" lang="en">The official Claude account asked the community: *&quot;What are you building?&quot;* — a simple prompt that generated 154 replies, which says something about how engaged the Claude user base is right now.</div>
-          </div>
-          <div class="meta-row">
-            <img class="avatar-img" src="https://unavatar.io/x/claudeai" alt="**Claude (@claudeai)**" onerror="this.style.display='none'">
-            <span>**Claude (@claudeai)**</span><span>·</span><span>Twitter / X</span><span>·</span><span>X</span>
+            <img class="avatar-img" src="https://unavatar.io/x/**New%20connectors%20in%20Claude%20for%20everyday%20life**" alt="**New connectors in Claude for everyday life**" onerror="this.style.display='none'">
+            <span>**New connectors in Claude for everyday life**</span><span>·</span><span>Link</span><span>·</span><span>News</span>
           </div>
         </div>
       </a>
     </div>
     <div id="view-podcasts" class="digest-view list-container" data-digest-view="podcasts">
 <div class="pd-wrap pd-wrap--embed">
-    <h1 class="pd-hero-title">**Training Data — How Cursor Trained Composer on Fireworks: Distributed Infrastructure for High-Performance RL**</h1>
+    <h1 class="pd-hero-title">**We Automated Everything With AI and Tripled Our Headcount**</h1>
     <div class="pd-source-row">
       <div>
         <span class="pd-source-k">来源</span>
-        <span class="pd-source-name"> ## 🎙️ PODCAST</span>
+        <span class="pd-source-name"> ### AI &amp; I by Every</span>
       </div>
-      <a class="pd-jump" href="https://www.youtube.com/watch?v=UDTr9yUnLUI" target="_blank" rel="noopener noreferrer">跳转链接 <span aria-hidden="true">→</span></a>
+      <a class="pd-jump" href="https://www.youtube.com/watch?v=dCmOTURRf1Y" target="_blank" rel="noopener noreferrer">跳转链接 <span aria-hidden="true">→</span></a>
     </div>
     <section class="pd-block">
     <h2 class="pd-block__title">核心论点</h2>
-    <div class="pd-block__body"><div class="pd-prose">本期节目深入探讨了 Cursor 如何基于 Fireworks AI 的分布式基础设施，利用强化学习训练 Composer——他们的智能编码助手。 核心主题：大规模分布式强化学习训练、高性能推理，以及现代 AI 编码工具背后的工程决策。</div></div>
+    <div class="pd-block__body"><div class="pd-prose">Every CEO Dan Shipper 与 COO Brandon 讨论了 Dan 的文章《After Automation》，论证 AI 创造了更多人类工作，而非消灭它们。 核心论点：AI 让&quot;昨日的专家能力变得廉价&quot;，涌现出大量&quot;接近但不够准确&quot;的工作产出，这反而增加了对专家的需求——他们需要构建系统，并将这些输出打磨成真正可用的成果。 尽管 Every 在 AI 应用上堪称&quot;极度原生&quot;——在他们的 Slack 里随便打一棒子，&quot;碰到人类的概率和碰到 agent 一样高&quot;——公司自 GPT-3 时代以来仍从 4 人扩张至 30 人。 &quot;agent 离人类越远，它的价值就越低。&quot; Dan 的长文写作技巧：每天早晨将完整论点独白录入文档，再用 Claude 追问&quot;我到底想说什么&quot;——逐步积累出一份向核心观点不断逼近的记录。 他还让 Codex 将每个草稿转成播客音频，在通勤途中收听，无需重新阅读即可发现问题和明确下一步。 关于 ClickUp 裁员（裁减 22% 员工）：&quot;公司经营不善就裁人，然后把锅甩给 AI。&quot; 结语：&quot;只要跟上模型——每当新模型发布，就学着把它用到你的工作中——你就没问题。&quot;</div></div>
   </section>
-    <p class="pd-date">2026-05-28</p></div>
+    <p class="pd-date">2026-05-29</p></div>
     </div>
   </div>
   <script>
