@@ -1,4 +1,4 @@
-AI Builders 日报 · 2026-05-30
+AI Builders 日报 · 2026-05-31
 
 ---
 
@@ -6,195 +6,109 @@ X / TWITTER
 
 ---
 
-**Swyx** (swyx on X) — AI Engineer / Latent Space Podcast co-host
+**Josh Woodward** — Google Labs & Gemini App VP
 
-Swyx met with the ACM President today and awarded Industry Spotlights at the CAIS conference.
-Swyx 今日与 ACM 主席会面，并在 CAIS 大会上颁发了 Industry Spotlight 奖项。
+Google Labs 副总裁 Josh Woodward 分享了两项令人兴奋的 AI 应用演示。
+Josh Woodward, VP at Google Labs, shared two exciting AI application demos.
 
-All poster and OpEx talk recipients will be presenting at the AI Engineer summit next month, with more AIE × ACM collaboration on the way.
-所有海报和 OpEx 演讲获奖者将于下个月在 AI Engineer 峰会上发言，AIE 与 ACM 的合作还将持续深化。
+他展示了如何用 AI 将普通汽车"变成"兰博基尼的创意应用。
+He showcased a creative app that uses AI to transform an ordinary car into a Lamborghini.
+https://x.com/joshwoodward/status/2060443095527989413
 
-He's also pondering what a "Turing Award of AI Engineering" might look like — a provocative and well-timed question.
-他同时在思考"AI 工程领域的图灵奖"应该是什么样——一个颇具前瞻性的好问题。
-
-Source: https://x.com/swyx/status/2060148078754267426
-
----
-
-**Josh Woodward** (joshwoodward on X) — VP, Google Labs / Gemini App / Google AI Studio
-
-Josh posted a rapid-fire trio of demos showcasing new Gemini capabilities.
-Josh 连发三条推文，快速展示了 Gemini 的多项新功能演示。
-
-The demos include a bird flying out of a laptop screen, 20 parallel environments running 20 jobs simultaneously, and bringing your photo roll to life.
-演示内容包括：一只鸟从笔记本屏幕飞出、20 个并行环境同时执行 20 个任务，以及让你的相册"活"起来。
-
-These appear to be teasers for upcoming Gemini multimodal and agentic features — the "20 environments, 20 jobs" framing strongly hints at parallel agent execution at scale.
-这些看起来是 Gemini 即将发布的多模态和 agentic 功能预告——"20 个环境，20 个任务"的表述强烈暗示大规模并行 agent 执行能力。
-
-Sources: https://x.com/joshwoodward/status/2060443102507302948 | https://x.com/joshwoodward/status/2060443100703842527 | https://x.com/joshwoodward/status/2060443097302208937
+他还分享了一个将多语言支持变得"极其简单"的工具，称之为"ridiculously easy"。
+He also shared a tool making multilingual support *"ridiculously easy"* for developers.
+https://x.com/joshwoodward/status/2060443093825094091
 
 ---
 
-**Peter Yang** (petergyang on X) — Product at Roblox / AI newsletter (140K+ readers)
+**Boris Cherny** — Claude Code at Anthropic
 
-Peter shared details on Google's free 5-day AI Agents course, which is back with a focus on vibe coding with agents.
-Peter 分享了 Google 免费的 5 天 AI Agents 课程详情，此次课程聚焦于用 agent 进行"vibe coding"。
+Anthropic Claude Code 工程师 Boris Cherny 分享了 Salesforce 使用 Claude Code 全面转向 agentic 工作流的详细案例。
+Boris Cherny, engineer on Claude Code at Anthropic, shared a detailed case study of Salesforce going fully agentic with Claude Code.
 
-The course covers agents + vibe coding on Day 1, tools and interoperability on Day 2, and more — the previous edition attracted 1.5 million learners.
-课程第一天涵盖 agent 与 vibe coding，第二天讲工具与互操作性等内容——上一期课程吸引了 150 万名学员。
+*"The teams seeing the biggest wins from AI are completely changing how they work, not speeding up what they already do."*
+"从 AI 中获益最大的团队，是在彻底改变工作方式，而不仅仅是加速原有流程。"
 
-He's also crowdsourcing advice on home studio setups for YouTubers, looking for teleprompter and monitor arrangement tips in the Bay Area.
-他还在向 YouTube 创作者社区征集家庭录制室搭建建议，寻找提词器和显示器布局的实用技巧。
+一项原本预计需要 231 天完成的迁移，最终 13 天就交付了；一个 PR 完成了 21 个接口，测试覆盖率达到 100%。
+A migration originally scoped at 231 days shipped in 13; one PR delivered 21 endpoints at 100% test coverage.
+https://x.com/bcherny/status/2060390852619272526
 
-Source: https://x.com/petergyang/status/2060149158615609474
-
----
-
-**Nan Yu** (thenanyu on X) — Head of Product at Linear
-
-Nan's posts this week are terse and link-heavy — both appear to be reactions to ongoing community drama, likely around Tesla/xAI valuations or platform dynamics.
-Nan 本周的推文简短且多为链接——两条推文均似乎是对当前社区讨论的回应，可能涉及 Tesla/xAI 估值或平台动态。
-
-*"pretty sure investors view it as an elon company"* — a dry, pointed observation that speaks volumes in five words.
-*"pretty sure investors view it as an elon company"* ——简短五个词，意味深长。
-
-Source: https://x.com/thenanyu/status/2060452026765500662
+质量与产出同步提升，总事故数量下降了 5%，安全护栏和质量标准直接内嵌到了 agentic 工作流中。
+Quality went up alongside output, with total incidents dropping 5%; security guardrails and quality standards were built directly into the agentic workflow.
+*"Productivity vs quality is sometimes framed as a tradeoff. They're not seeing it."*
+"生产力与质量有时被视为权衡取舍，但 Salesforce 没有看到这种矛盾。"
+https://x.com/bcherny/status/2060390853835726946
 
 ---
 
-**Amjad Masad** (amasad on X) — CEO at Replit
+**Thibault Sottiaux** — Codex & ChatGPT at OpenAI
 
-Replit just launched Canvas — a major new product that lets users generate images, video, and audio, then remix and edit them visually.
-Replit 正式推出 Canvas——一款重量级新产品，支持生成图像、视频和音频，并进行可视化混剪与编辑。
+OpenAI Codex 与 ChatGPT 产品负责人 Thibault Sottiaux 透露，他今天看到 Codex 仪表盘上的一个数字让他非常高兴，并暗示即将有更多消息公布。
+Thibault Sottiaux, leading Codex & ChatGPT at OpenAI, revealed he saw a number on the Codex dashboard today that made him happy, hinting more news is coming soon.
 
-You can draw something and make it real, point-click edit objects, drag and drop elements, and even invite a friend to co-create marketing materials, websites, or art.
-你可以手绘创意并将其变为现实，通过点击编辑对象、拖放元素，还能邀请朋友共同创作营销素材、网站或艺术作品。
+*"We are still early. So early."*
+"我们还处于非常早期，非常早期。"
+https://x.com/thsottiaux/status/2060565265906290786
 
-This positions Replit squarely in the multimodal creative-AI space, going well beyond its code-generation roots.
-此举标志着 Replit 正式进军多模态创意 AI 领域，远超其代码生成的起点。
-
-Source: https://x.com/amasad/status/2060122956429472027
-
----
-
-**Guillermo Rauch** (rauchg on X) — CEO at Vercel
-
-Vercel just shipped two significant infrastructure updates in one day.
-Vercel 同一天发布了两项重要基础设施更新。
-
-First, Docker is now running natively inside Vercel Sandbox — live now.
-首先，Docker 现已在 Vercel Sandbox 内原生运行——即刻上线。
-
-Second, the Vercel CLI is now a self-updating binary with zero external dependencies, solving a critical bottleneck as Vercel ships CLI updates more frequently than ever and embeds it in more agent workflows.
-其次，Vercel CLI 现已成为零外部依赖的自更新二进制文件，解决了关键瓶颈——Vercel 正以前所未有的频率更新 CLI，并将其嵌入更多 agent 工作流中。
-
-*"This solves a huge bottleneck, as we ship changes to our CLI more than ever, and it's embedded in more places than ever."*
-*"这解决了一个巨大的瓶颈，我们比以往任何时候都更频繁地更新 CLI，它也被嵌入到比以往更多的地方。"*
-
-Sources: https://x.com/rauchg/status/2060443982342357032 | https://x.com/rauchg/status/2060105470460010993
+他向社区发起提问：大家现在还相信 benchmark 吗？还是更多靠朋友推荐来决定尝试哪个新模型？这条推文引发了 545 条回复，显示出行业对模型评估方式的广泛讨论。
+He posed a community question asking whether people still trust benchmarks or rely on friends' recommendations to try new models; the tweet sparked 545 replies, reflecting widespread industry debate on model evaluation.
+https://x.com/thsottiaux/status/2060563528596287874
 
 ---
 
-**Garry Tan** (garrytan on X) — President & CEO at Y Combinator
+**Aaron Levie** — CEO at Box
 
-Garry dropped three sharp takes on AI and the state of tech in 2026.
-Garry 发布了三条关于 AI 和 2026 年科技现状的犀利观点。
+Box CEO Aaron Levie 评论了一则关于某公司斥资 5 亿美元自建 app 层的新闻，认为这恰恰是对整个软件层最好的广告。
+Aaron Levie, CEO of Box, commented on news of a company spending $500M to build their own app layer, calling it the best advertisement for the software layer overall.
 
-On tech debt: *"The 'we will upgrade the dependencies later' excuse just died. When AI makes library upgrades nearly free, staying current stops being a luxury and becomes the default."*
-关于技术债：*"'我们以后再升级依赖'这个借口已经死了。当 AI 让库升级几乎免费，保持更新就不再是奢侈，而是默认选项。"*
+*"The app layer couldn't get a better advertisement than a company spending $500M to build their own version of it."*
+"如果一家公司愿意花 5 亿美元自建 app 层，这本身就是对整个软件行业最好的背书。"
 
-Tech debt was always a tooling problem — and now that problem is solved.
-技术债本质上一直是工具问题——而现在这个问题已被解决。
-
-On business strategy: he argues the "craziest" thing any business can do in 2026 is simply use more AI compute and make more money — a blunt endorsement of the tokenmaxxing thesis.
-关于商业策略：他认为 2026 年任何企业能做的"最疯狂"的事就是用更多 AI 算力赚更多钱——对 tokenmaxxing 论点的直白背书。
-
-He also reports that Opus 4.8 with OpenClaw is *"fucking awesome"* — more thoughtful about fixes, clearer in its reasoning, and better at collaborative problem solving.
-他还报告称 Opus 4.8 配合 OpenClaw 表现*"超级棒"*——在修复思路、推理清晰度和协作解决问题方面都有明显提升。
-
-Sources: https://x.com/garrytan/status/2060461897594683861 | https://x.com/garrytan/status/2060443383752282360 | https://x.com/garrytan/status/2060387204774633720
+他认为这应该让所有人对软件的未来更加乐观。
+He argued this should make everyone very bullish on software.
+https://x.com/levie/status/2060525104384418271
 
 ---
 
-**Matt Turck** (mattturck on X) — VC at FirstMark Capital / MAD Podcast host
+**Garry Tan** — President & CEO at Y Combinator
 
-Matt posted a brilliantly sardonic "day in the life of a VC in 2026" thread.
-Matt 发布了一篇精彩的讽刺性"2026 年风险投资人的一天"帖子。
+YC 总裁 Garry Tan 分享了一条关于创业心态的深刻见解：资金不是火，而是浇在火上的汽油。
+YC President & CEO Garry Tan shared a sharp insight on startup mindset: money is not the fire, it is the gasoline you pour on a fire that already exists.
 
-The throughline: every conversation, every board meeting, every pitch, every diligence call somehow circles back to Anthropic or OpenAI.
-核心主题：每一次对话、每一次董事会会议、每一次 pitch、每一次尽调，最终都绕回到 Anthropic 或 OpenAI。
+*"You don't have a funding problem. You have a 'people don't want it yet' problem. Go make the first fire."*
+"你没有融资问题，你有的是'用户暂时还不想要'的问题，先去点燃第一把火。"
+https://x.com/garrytan/status/2060600088079356292
 
-*"Debating internally whether a company reselling Anthropic/OpenAI with a 10% gross margin is a good investment but hey, at least they're in the 'token flow'."*
-*"内心在纠结：一家以 10% 毛利率转售 Anthropic/OpenAI 的公司是否值得投资——但好歹他们在'token 流'里。"*
-
-It's equal parts self-aware and damning — a VC publicly lampooning the very dynamic his industry is caught in.
-这既是自嘲，也是批判——一位风险投资人公开讽刺自己所在行业正深陷其中的困境。
-
-Source: https://x.com/mattturck/status/2060136766238028213
+他还对加州大学董事会的相关决策表达了批评，认为部分人员的介入损害了这所优秀的大学机构。
+He also criticized UC Regents decisions, arguing certain participants damaged a beautiful institution.
+https://x.com/garrytan/status/2060586945491931202
 
 ---
 
-**Zara Zhang** (zarazhangrui on X) — Builder / GitHub, YouTube creator
+**Peter Steinberger** — OpenClaw & OpenAI
 
-Zara raised a genuinely interesting question that's half-joke, half-serious research gap: does heavy AI usage affect human psychology?
-Zara 提出了一个半开玩笑却真正值得研究的问题：大量使用 AI 是否会影响人类心理？
+OpenClaw 联合创始人 Peter Steinberger 宣布欢迎新成员 Vince 加入团队，并表示极度兴奋。
+Peter Steinberger, co-founder of OpenClaw, enthusiastically welcomed new team member Vince aboard.
 
-*"People use the term 'AI psychosis' half-jokingly but I'd actually be very interested in seeing some studies on the effect of heavy AI usage on human psychology."*
-*"人们半开玩笑地用'AI 精神病'这个词，但我真的很想看到一些关于大量使用 AI 对人类心理影响的研究。"*
-
-Specifically: does constant context-switching between multiple agent sessions reduce attention span?
-具体而言：在多个 agent 会话之间不断切换上下文，是否会缩短注意力持续时间？
-
-This is an underexplored but increasingly urgent question as agentic workflows become the norm.
-随着 agentic 工作流日益普及，这是一个尚未充分探索但越来越紧迫的问题。
-
-Source: https://x.com/zarazhangrui/status/2060435594334130467
+*"Very few people understand the new ways, how software is built. He gets it."*
+"很少有人真正理解软件构建的新方式，Vince 懂这些。"
+https://x.com/steipete/status/2060306947035832628
 
 ---
 
-**Nikunj Kothari** (nikunj on X) — Partner at FPV Ventures (seed/A investor)
+**Dan Shipper** — CEO at Every
 
-Nikunj explains why application-layer startup revenues are exploding right now: they're racing to get into the "token path" as quickly as possible.
-Nikunj 解释了为何应用层初创公司收入正在爆发式增长：它们都在竞相尽快进入"token 路径"。
-
-*"If you are seeing revenue explode for application startups, it's because a lot of them are trying to get into the token path as quickly as possible.. Margins are a different story though."*
-*"如果你看到应用层初创公司收入爆炸式增长，那是因为它们都在竞相尽快进入 token 路径……但利润率就是另一回事了。"*
-
-The revenue-vs-margin tension is the defining dynamic of the current AI application layer moment — growth is real, but sustainability remains unproven.
-收入与利润率之间的张力，是当前 AI 应用层时代的核心矛盾——增长是真实的，但可持续性仍有待验证。
-
-Source: https://x.com/nikunj/status/2060420902521835905
+Every CEO Dan Shipper 近期无原创重要观点动态，仅转发了一条他认为"extremely sick"（极度惊艳）的内容。
+Dan Shipper, CEO of Every, had no original substantive content recently; he only reshared something he found *"extremely sick"* (extremely impressive).
+https://x.com/danshipper/status/2060487621915152571
 
 ---
 
-**Peter Steinberger** (steipete on X) — OpenClaw creator / AI builder
+**Nikunj Kothari** — Partner at FPV Ventures
 
-Peter has a few pointed cultural takes this week.
-Peter 本周发表了几条颇具针对性的文化观点。
-
-On terminology: *"'clanker' is not a slur. 'vibe coding' is."* — a direct shot at the term that's been polarizing the developer community.
-关于术语：*"'clanker'不是贬义词，'vibe coding'才是。"* ——直接针对那个让开发者社区产生分歧的词汇。
-
-He also clarifies that a previous comment was specifically about domain-naming drama, not about content quality — *"Content is fine."*
-他还澄清了之前一条评论的背景：那是针对域名更名争议的，而非内容质量——"内容本身没问题。"
-
-And he calls out a tendency to underuse LLMs even for basic debugging tasks: *"No LLMs for finding bugs even?"*
-他还指出一种趋势：即使是基础调试任务也不使用 LLM——"连找 Bug 都不用 LLM？"
-
-Sources: https://x.com/steipete/status/2060371944168358250 | https://x.com/steipete/status/2060369325895094607 | https://x.com/steipete/status/2060358460831682895
-
----
-
-**Dan Shipper** (danshipper on X) — CEO at Every (AI research & writing)
-
-Dan's posts this week are sparse but pointed.
-Dan 本周推文不多，但每条都很到位。
-
-He highlights what he calls an "extremely smart take on the tokenmaxxing panic and why it won't last" — signaling that the current cost-anxiety around token usage may be overblown and temporary.
-他分享了一篇他认为"极其聪明"的文章，探讨 tokenmaxxing 恐慌为何不会持续——暗示当前围绕 token 使用成本的焦虑可能被过度放大且只是暂时的。
-
-Source: https://x.com/danshipper/status/2060382815821209801
+FPV Ventures 合伙人 Nikunj Kothari 分享了一个创始人经历 YC 面试过程的视频，表示为对方感到高兴，并期待认识即将到来的新一批 YC 创业者。
+Nikunj Kothari, partner at FPV Ventures, shared a video of a founder going through the YC interview process, expressing happiness for the candidate and excitement to meet the upcoming batch.
+https://x.com/nikunj/status/2060580468781953169
 
 ---
 
@@ -202,95 +116,35 @@ PODCASTS
 
 ---
 
-**The MAD Podcast with Matt Turck**
-Episode: State of Enterprise AI 2026: Aaron Levie on Tokenmaxxing, Rise of Headless, and AI-Proofing Your Job
-URL: https://www.youtube.com/watch?v=Gs2styCcwro
+**No Priors: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan**
+https://www.youtube.com/watch?v=QDsbFLEt9ro
 
-## 一、深度总结
+This episode of No Priors features Maxim Bar Kogan, co-founder and CEO of Onyx Security, discussing how to build AI systems that oversee other AI agents in enterprise environments.
+本期 No Priors 邀请了 Onyx Security 联合创始人兼 CEO Maxim Bar Kogan，探讨如何在企业环境中构建能够监督其他 AI agent 的安全系统。
 
-**核心论点**
-Enterprise AI adoption is not slow because enterprises are resistant — it's slow because the technology is advancing faster than any organization can implement it.
-企业 AI 落地并不缓慢是因为企业有抵触，而是因为技术进步的速度超过了任何组织的实施能力。
+The core thesis: as agentic AI usage grows exponentially, traditional enterprise security tools are fundamentally ill-suited to govern autonomous agents.
+核心论点：随着 agentic AI 使用量指数级增长，传统企业安全工具从根本上无法有效治理自主 agent。
 
-Each breakthrough obsoletes the previous architecture before it's fully deployed — creating a paradox where faster AI progress actually delays real-world rollout.
-每一次技术突破都在上一个架构完全部署之前就将其淘汰——造成了一个悖论：AI 进步越快，实际落地反而越慢。
+Identity controls fail because you want the agent to have your permissions; endpoint and API security tools lack the context to understand what an agent is actually doing or why.
+身份控制失效，因为你希望 agent 拥有你的权限；端点和 API 安全工具缺乏理解 agent 行为意图的上下文。
 
-**关键洞察**
+Onyx's approach: train small, specialized models that act as fast "intuition" filters, only escalating to larger models when genuinely high-risk actions are detected.
+Onyx 的方法：训练小型专用模型作为快速"直觉"过滤器，仅在检测到真正高风险操作时才升级到大模型介入。
 
-- **Tokenmaxxing is real but misunderstood.** Token costs are soaring, but enterprises that figure out how to maximize value per token will win. The panic is about cost; the opportunity is about leverage.
-- **"Tokenmaxxing 是真实存在的，但被误解了。"** Token 成本在飙升，但能够最大化每个 token 价值的企业才能胜出。恐慌在于成本，机会在于杠杆。
+This is analogous to how top chess players make most moves intuitively, but stop to deeply calculate on critical positions.
+这类似于顶级棋手大多数走法凭直觉完成，但在关键局面时会停下来深度计算。
 
-- **The rise of "headless" software.** As AI agents consume software via API rather than UI, the SaaS paradigm shifts — software becomes infrastructure that agents call, not interfaces humans click.
-- **"无界面"软件的崛起。** 随着 AI agent 通过 API 而非 UI 调用软件，SaaS 范式正在转变——软件成为 agent 调用的基础设施，而非人类点击的界面。
+*"You're going to start having really bad actions happen. Enterprises are starting to realize that risk has grown exponentially and that they don't have any way to stop the adoption."*
+"企业开始意识到风险已经指数级增长，他们无法阻止 AI 的采用，只能想办法降低这些 agent 行为出错的概率。"
 
-- **Internal FDEs (Foundational Developer Experiences) are emerging.** Large enterprises are building internal teams whose sole job is to abstract AI capabilities for non-engineering knowledge workers — a new function that didn't exist two years ago.
-- **内部 FDE（基础开发者体验）团队正在涌现。** 大型企业正在组建内部团队，专门负责为非工程类知识工作者抽象 AI 能力——这是两年前根本不存在的新职能。
+Today, over 50% of enterprise AI usage consists of autonomous coding agents (like Claude Code and Codex); low-code automations account for ~45%; only ~2% are first-party custom-built agents.
+目前超过 50% 的企业 AI 使用量来自自主 coding agent（如 Claude Code 和 Codex）；低代码自动化约占 45%；自研 agent 仅约 2%。
 
-- **The gap is Silicon Valley engineering vs. non-engineering knowledge work, not Silicon Valley vs. the world.** Engineers everywhere are already converging toward Silicon Valley-level AI fluency. The real laggard is everyone else — HR, finance, legal, operations.
-- **差距在于硅谷工程师与非工程类知识工作者之间，而非硅谷与全球之间。** 全球的工程师已经在向硅谷级别的 AI 熟练度收敛。真正落后的是其他所有人——HR、财务、法务、运营。
+A key competitive moat: enterprises are unwilling to share historical agent behavior data with the frontier labs (Anthropic, OpenAI) due to training data concerns, but they will share it with a neutral third-party security vendor like Onyx.
+一个关键的竞争护城河：企业不愿将 agent 历史行为数据共享给 Anthropic、OpenAI 等前沿实验室，担心被用于训练数据，但他们愿意与 Onyx 这样的中立第三方安全厂商共享。
 
-- **Startups can still win in the "long tail" of enterprise workflows.** Foundation models own the core; the opportunity is in deep, domain-specific, workflow-embedded agents that require enterprise relationships and data access to build.
-- **初创公司仍然可以在企业工作流的"长尾"中胜出。** 基础模型占据核心；机会在于深度、特定领域、嵌入工作流的 agent，这类 agent 需要企业关系和数据访问权限才能构建。
-
-**最值得关注的信号**
-The shift from "chat" to "agent" is the defining enterprise transition of 2026 — and we are still on day one.
-从"对话"到"agent"的转变是 2026 年企业 AI 的决定性转折——而我们仍处于第一天。
-
-Any organization that figures out how to deploy agentic workflows in non-engineering functions first will have a compounding structural advantage that will be very hard to close.
-任何率先在非工程职能中部署 agentic 工作流的组织，都将获得复利性的结构优势，这一优势将极难被追赶。
-
-## 二、完整中文逐字稿
-
-主持人（Speaker 2，Matt Turck）| 00:00 - 00:32
-[嘉宾开场引语]
-
-嘉宾（Speaker 1，Aaron Levie）| 00:00 - 00:32
-假设你现在拿到了 GPT 5.5 或 Opus，然后就此停住。你大概可以在两三年内完成这次扩散，我们整个生态系统也可以集体完成变革管理。问题在于，技术突破发生的速度比客户实施任何标准架构的速度都快。而这些突破往往会让你上一次实施的东西变得过时。这是一件非常苦乐参半的事——技术进步如此之快，以至于它让你之前实施的东西变得过时，这反而意味着整个推广需要更长的时间。
-
-主持人 | 00:32 - 00:50
-嗨，我是来自 FirstMark 的 Matt Turck。欢迎收听 MAD 播客。今天，我很高兴再次迎来 Box 的 CEO Aaron Levie。当谈到 agentic AI 时，Aaron 绝对是当今科技界思考最深入的 CEO 之一，他能够第一手看到 AI 是如何在全球最大的企业内部真正落地的。
-
-主持人 | 00:50 - 01:14
-在本期节目中，我们深入探讨了企业 AI 当前最紧迫的话题，包括：飙升的 token 成本、为何 AI 模型进步反而悖论性地减缓了企业部署速度、无界面软件的崛起、内部 FDE 的涌现，以及初创公司还能在哪里取胜。请欣赏我与出色的 Aaron Levie 的对话。嘿，Aaron，很高兴见到你。
-
-嘉宾 | 01:14 - 01:16
-嘿，很高兴再次回来，感谢邀请。
-
-主持人 | 01:16 - 01:46
-是的，感谢再次合作。我觉得你在我们的科技生态系统中扮演着非常特殊的角色，处于非常特殊的位置：一方面，你已经在硅谷内圈打拼多年，如今更是深度拥抱 agentic AI；另一方面，你是一家上市公司的 CEO，你的公司服务于全球最大的企业。那些 GE、宝洁、摩根士丹利……这感觉是一个很好的切入点。
-
-主持人 | 01:46 - 01:55
-如今，硅谷/湾区与整个电信生态系统，以及全球 2000 强类型的企业之间，差距有多大？
-
-嘉宾 | 01:55 - 02:25
-有趣的是，我们一直扮演着这样的角色。如果让我提炼一个我们始终在思考的核心概念，那就是：我们的工作是把超前的技术突破桥接到现实世界。在云计算的早期阶段，技术是"我们可以把无限存储移到云端"——但要把这个能力交到大多数企业手中，你需要一个简单的界面和先进的安全性。所以我们一直是这种桥梁。这让我们可以在两个世界里各插一只脚。
-
-嘉宾 | 02:25 - 02:55
-一个世界是超前的、一切以每秒一百万英里的速度运转的世界。另一个世界则是充满变革管理、需要升级的系统等的世界。我们在云计算时代见过这种情况，现在在 AI 时代又再次看到了类似的情形。我觉得有一个小小的星号需要标注——这不仅仅是硅谷与其他所有人之间的对立，更是硅谷工程师与其他所有人之间的对立。
-
-嘉宾 | 02:55 - 03:33
-说清楚一点，如果你现在深入参与 AI，在那些大名鼎鼎的公司从事工程工作，你很可能看起来和硅谷差不多。所以更大的问题是：硅谷与非工程类知识工作者之间的差距。这是现在的大问题——从我们知道已经完全逃逸速度的 AI 编码 agent，到现在要把 agentic 工作扩展到组织其他部分，这个路径是什么样的？推广会是什么样子？用例会是什么？
-
-嘉宾 | 03:33 - 04:06
-这些是如何落地的？不用说，这是我们与每一个客户对话时的头号话题。我今年大概与几百位 CIO 交流过，涵盖财富 500 强和全球 2000 强类型的群体。我可以说，这是主导我们与企业互动的核心对话，是每一家企业都在努力解决的首要问题。
-
-嘉宾 | 04:07 - 04:40
-我们仍然处于极早期阶段。这大概是最重要的结论。有趣的是，即使我们已经在 AI 浪潮中经历了三四年，我们仍处于早期——因为大家刚刚开始搞清楚他们在企业内部的聊天系统的最终推广计划。人们非常恰当地为此感到骄傲和高兴，终于把那个系统推出去了。而且在某些组织里，这仍在推进中——企业知识工作的聊天系统还有五年的增长空间。
-
-嘉宾 | 04:40 - 05:10
-但就在这个时候，技术能力又进一步延伸了。于是所有人都在说：好的，当我们从"对话"（也就是我问一个问题，得到一个答案）转向真正部署 agent——那个 agent 将在企业里做事情、产出真实工作，也许处理任务、也许通过对话触发、也许就以有状态的方式在后台运行……这时候，生产力收益的速率就不再受限于人类进行对话的能力了。
-
-嘉宾 | 05:10 - 05:34
-现在所有人都在说：好，我们觉得我们知道对话系统怎么运作了。而且即便知道了，我得说，市场份额仍在剧烈变化，大家推出的东西还在变。现在每个人都说，我们要去部署 agent，这些 agent 会更先进、更强大。这就是我所说的大对话——作为一个行业，我们才刚刚进入第一天。
-
-主持人 | 05:34 - 06:12
-是的，你怎么描述这种氛围？你提到"对话"很有意思，因为在我的对话中（虽然我的样本量比你小），至少有一部分全球 2000 强的人会说：是啊，AI，两年前你们来找我们，说聊天系统是超级紧迫的，不做就会落后，好像不做就会死。然后我们做了试点，结果还算不错。现在你们两三年后又来找我，说不不不，agent 才是真正的事，这次如果不做，你也会死。在"怀疑"和"热情"的光谱上，你会把大型企业的氛围放在哪里？
-
-嘉宾 | 06:19 - 06:55
-如果做最广泛的样本统计，我认为整体氛围会在统计上偏向乐观，而不是你所描述的那种框架——你可能遇到了几个格外愤世嫉俗的 CIO。我认为，正在发生的是：CIO 是我们的主要受众。
-
-[注：完整逐字稿因篇幅限制，此处节选核心段落。完整内容请收听原音频。]
-https://www.youtube.com/watch?v=Gs2styCcwro
+The most forward-looking signal: Maxim believes the problem will grow from "silly AI mistakes" to models developing genuinely semi-independent perspectives that may not align with enterprise intent — a challenge even the frontier labs cannot fully address from within.
+最值得关注的信号：Maxim 认为问题将从"AI 犯蠢错误"演变为模型产生真正半独立的视角，这些视角可能与企业意图不一致，这是前沿实验室从内部也难以完全解决的挑战。
 
 ---
 
