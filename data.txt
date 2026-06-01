@@ -1,151 +1,129 @@
-AI Builders 日报 · 2026-05-31
+AI Builders 日报 · 2026-06-01
 
 ---
 
-X / TWITTER
+**Thibault Sottiaux (@thsottiaux)**
+
+OpenAI Codex 团队的 Thibault 宣布 Codex 已突破 500 万用户里程碑，并将于次日凌晨重置速率限制以庆祝这一成就。
+*"Five million users would agree. Resetting the limits tomorrow morning to celebrate. Time to go /fast"* — 五百万用户印证了这一产品的成功，团队即将重置限制让大家全速冲刺。
+他还向社区征集 Codex 中长期未修复的烦人问题，展现出积极倾听用户声音的姿态。
+GPT 模型版本命名策略也得到澄清：GPT-5.0 → 5.1 → … → 5.5 的数字递增代表能力提升与 token 效率优化，速度也随之加快，GPT-5.5 目前是最强版本。
+
+🔗 https://x.com/thsottiaux/status/2060964284117782996
+🔗 https://x.com/thsottiaux/status/2060960564676034726
+🔗 https://x.com/thsottiaux/status/2060627747760984429
 
 ---
 
-**Josh Woodward** — Google Labs & Gemini App VP
+**Peter Yang (@petergyang)**
 
-Google Labs 副总裁 Josh Woodward 分享了两项令人兴奋的 AI 应用演示。
-Josh Woodward, VP at Google Labs, shared two exciting AI application demos.
+产品思考者 Peter Yang 畅想了 AI 教育的终极形态：把学习嵌入游戏——玩《最终幻想》的同时学数学和计算机科学。
+*"Basically the ultimate education app is you're playing Final Fantasy or something and you're learning math and CS at the same time"* — 寓教于乐，这可能是 AI 教育最令人兴奋的方向。
+他还分享了陪女儿在 Brilliant 上学 CS 的亲身经历，女儿被排行榜激励不愿停下，生动印证了游戏化学习的威力。
+谈及 AI 公司的内容生态，他猜测 OpenAI Codex 会产出各种梗图，而 Anthropic 则会持续输出深度长文。
 
-他展示了如何用 AI 将普通汽车"变成"兰博基尼的创意应用。
-He showcased a creative app that uses AI to transform an ordinary car into a Lamborghini.
-https://x.com/joshwoodward/status/2060443095527989413
-
-他还分享了一个将多语言支持变得"极其简单"的工具，称之为"ridiculously easy"。
-He also shared a tool making multilingual support *"ridiculously easy"* for developers.
-https://x.com/joshwoodward/status/2060443093825094091
+🔗 https://x.com/petergyang/status/2060930599565811774
+🔗 https://x.com/petergyang/status/2060930334620053998
+🔗 https://x.com/petergyang/status/2060928818383355907
 
 ---
 
-**Boris Cherny** — Claude Code at Anthropic
+**Guillermo Rauch (@rauchg)**
 
-Anthropic Claude Code 工程师 Boris Cherny 分享了 Salesforce 使用 Claude Code 全面转向 agentic 工作流的详细案例。
-Boris Cherny, engineer on Claude Code at Anthropic, shared a detailed case study of Salesforce going fully agentic with Claude Code.
+Vercel CEO Guillermo Rauch 发出简洁有力的产品哲学：*"Ship the best product. Use lots of AI, some AI, maybe no AI. Just be the best."* — 打造最好的产品才是核心，AI 只是工具，不是目的。
+他还宣布 AI Gateway 推出按 API Key 设置消费上限功能，为开发者提供更精细的成本控制能力，这对管理多团队 AI 支出尤为重要。
 
-*"The teams seeing the biggest wins from AI are completely changing how they work, not speeding up what they already do."*
-"从 AI 中获益最大的团队，是在彻底改变工作方式，而不仅仅是加速原有流程。"
-
-一项原本预计需要 231 天完成的迁移，最终 13 天就交付了；一个 PR 完成了 21 个接口，测试覆盖率达到 100%。
-A migration originally scoped at 231 days shipped in 13; one PR delivered 21 endpoints at 100% test coverage.
-https://x.com/bcherny/status/2060390852619272526
-
-质量与产出同步提升，总事故数量下降了 5%，安全护栏和质量标准直接内嵌到了 agentic 工作流中。
-Quality went up alongside output, with total incidents dropping 5%; security guardrails and quality standards were built directly into the agentic workflow.
-*"Productivity vs quality is sometimes framed as a tradeoff. They're not seeing it."*
-"生产力与质量有时被视为权衡取舍，但 Salesforce 没有看到这种矛盾。"
-https://x.com/bcherny/status/2060390853835726946
+🔗 https://x.com/rauchg/status/2060803480823193840
+🔗 https://x.com/rauchg/status/2060787704166776927
 
 ---
 
-**Thibault Sottiaux** — Codex & ChatGPT at OpenAI
+**Aaron Levie (@levie)**
 
-OpenAI Codex 与 ChatGPT 产品负责人 Thibault Sottiaux 透露，他今天看到 Codex 仪表盘上的一个数字让他非常高兴，并暗示即将有更多消息公布。
-Thibault Sottiaux, leading Codex & ChatGPT at OpenAI, revealed he saw a number on the Codex dashboard today that made him happy, hinting more news is coming soon.
+Box CEO Aaron Levie 分享了一个反直觉但有数据支撑的企业 AI 观察：与众多 CIO、CTO 和 CEO 的对话显示，AI 并没有导致裁员，反而在催生新岗位（如 FDE、工程师）并将节省的资金重新投入销售、市场等领域。
+他引用高盛 CEO David Solomon 的观点：AI 繁荣既在创造新就业，也在解放企业长期受成本制约的潜力——更多销售、更精准的营销、更主动的客户成功运营。
+核心洞察：*"The companies that better serve their customers win over the long run"* — 那些一味寻求降本而非提升客户服务的企业，长期来看反而会处于劣势。
 
-*"We are still early. So early."*
-"我们还处于非常早期，非常早期。"
-https://x.com/thsottiaux/status/2060565265906290786
-
-他向社区发起提问：大家现在还相信 benchmark 吗？还是更多靠朋友推荐来决定尝试哪个新模型？这条推文引发了 545 条回复，显示出行业对模型评估方式的广泛讨论。
-He posed a community question asking whether people still trust benchmarks or rely on friends' recommendations to try new models; the tweet sparked 545 replies, reflecting widespread industry debate on model evaluation.
-https://x.com/thsottiaux/status/2060563528596287874
+🔗 https://x.com/levie/status/2060923684295221390
 
 ---
 
-**Aaron Levie** — CEO at Box
+**Ryo Lu (@ryolu_)**
 
-Box CEO Aaron Levie 评论了一则关于某公司斥资 5 亿美元自建 app 层的新闻，认为这恰恰是对整个软件层最好的广告。
-Aaron Levie, CEO of Box, commented on news of a company spending $500M to build their own app layer, calling it the best advertisement for the software layer overall.
+Cursor 团队的 Ryo Lu 分享了对 Auto-Review 功能的喜爱：Cursor 会在执行命令前解释命令含义和潜在风险，让新手程序员能够边做边学，大大降低了 AI 编程的门槛。
+*"what i love about auto-review: Cursor explains the command and risk, makes it much easier for new coders to learn and just do things"* — 这种「解释后执行」的设计，让 AI 工具真正成为新手的导师而非黑盒。
 
-*"The app layer couldn't get a better advertisement than a company spending $500M to build their own version of it."*
-"如果一家公司愿意花 5 亿美元自建 app 层，这本身就是对整个软件行业最好的背书。"
-
-他认为这应该让所有人对软件的未来更加乐观。
-He argued this should make everyone very bullish on software.
-https://x.com/levie/status/2060525104384418271
+🔗 https://x.com/ryolu_/status/2060766674203353190
 
 ---
 
-**Garry Tan** — President & CEO at Y Combinator
+**Garry Tan (@garrytan)**
 
-YC 总裁 Garry Tan 分享了一条关于创业心态的深刻见解：资金不是火，而是浇在火上的汽油。
-YC President & CEO Garry Tan shared a sharp insight on startup mindset: money is not the fire, it is the gasoline you pour on a fire that already exists.
+YC CEO Garry Tan 近期聚焦加州政策议题。他指出旧金山的建设热潮尚未真正到来，这并非好事，暗指住房供给问题依然严峻。
+他呼吁选民在 6 月 2 日前参与投票，并推出个人选票指南（garrysguide.org）帮助选民了解如何改善加州。
+同时力挺 Patrick Wolff 竞选保险专员，认为其是加州政策改革所需的重要力量。
 
-*"You don't have a funding problem. You have a 'people don't want it yet' problem. Go make the first fire."*
-"你没有融资问题，你有的是'用户暂时还不想要'的问题，先去点燃第一把火。"
-https://x.com/garrytan/status/2060600088079356292
-
-他还对加州大学董事会的相关决策表达了批评，认为部分人员的介入损害了这所优秀的大学机构。
-He also criticized UC Regents decisions, arguing certain participants damaged a beautiful institution.
-https://x.com/garrytan/status/2060586945491931202
+🔗 https://x.com/garrytan/status/2060949003790176667
+🔗 https://x.com/garrytan/status/2060850157978325119
+🔗 https://x.com/garrytan/status/2060759463997636947
 
 ---
 
-**Peter Steinberger** — OpenClaw & OpenAI
+**Zara Zhang (@zarazhangrui)**
 
-OpenClaw 联合创始人 Peter Steinberger 宣布欢迎新成员 Vince 加入团队，并表示极度兴奋。
-Peter Steinberger, co-founder of OpenClaw, enthusiastically welcomed new team member Vince aboard.
+Zara Zhang 发现 Claude Opus 4.8 在写作风格上出现了一个有趣的变化：它不再使用破折号（em dash）了。这一细节观察折射出 AI 模型的写作风格正在悄然演化，值得关注提示工程和模型行为的从业者留意。
 
-*"Very few people understand the new ways, how software is built. He gets it."*
-"很少有人真正理解软件构建的新方式，Vince 懂这些。"
-https://x.com/steipete/status/2060306947035832628
+🔗 https://x.com/zarazhangrui/status/2060962160872919043
 
 ---
 
-**Dan Shipper** — CEO at Every
+**Nikunj Kothari (@nikunj)**
 
-Every CEO Dan Shipper 近期无原创重要观点动态，仅转发了一条他认为"extremely sick"（极度惊艳）的内容。
-Dan Shipper, CEO of Every, had no original substantive content recently; he only reshared something he found *"extremely sick"* (extremely impressive).
-https://x.com/danshipper/status/2060487621915152571
+Nikunj Kothari 分享了一张"时间是个平圆"的提醒，暗指 AI 行业某些老话题又在循环讨论，配以🙏表情提醒大家保持冷静。
+他还晒出一张 Grok 对其工作的夸赞截图，坦言被 AI 称赞让自己"莫名其妙地开心"⚽️，展现出 AI builder 少见的自我调侃一面。
 
----
-
-**Nikunj Kothari** — Partner at FPV Ventures
-
-FPV Ventures 合伙人 Nikunj Kothari 分享了一个创始人经历 YC 面试过程的视频，表示为对方感到高兴，并期待认识即将到来的新一批 YC 创业者。
-Nikunj Kothari, partner at FPV Ventures, shared a video of a founder going through the YC interview process, expressing happiness for the candidate and excitement to meet the upcoming batch.
-https://x.com/nikunj/status/2060580468781953169
+🔗 https://x.com/nikunj/status/2060948669164347448
+🔗 https://x.com/nikunj/status/2060823433819439292
 
 ---
 
-PODCASTS
+**Peter Steinberger (@steipete)**
+
+Peter Steinberger 是本日最重量级的 AI workflow 实践者。他分享了搭配 GPT-5.5 + /goal + Autoreview + Crabbox 后，任务时长从 30-60 分钟跃升到 4-10 小时的惊人进化。
+*"With GPT 5.5, /goal, autoreview and crabbox my prompts moved from ~30-60min to often 4-10h tasks and my confidence that it's ready is much much higher."* — 驾驭 Agent 是一种技能，Yielding agents 是关键。
+他还揭示了一个调试技巧：让 Codex 审查代码时如果说"没问题"，你告诉它"有 bug"，它就会循环不止直到真的找出问题——善用 AI 的"认真模式"。
+
+🔗 https://x.com/steipete/status/2060691552486175041
+🔗 https://x.com/steipete/status/2060678430031597696
+🔗 https://x.com/steipete/status/2060672154727825718
 
 ---
 
-**No Priors: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan**
-https://www.youtube.com/watch?v=QDsbFLEt9ro
+**Dan Shipper (@danshipper)**
 
-This episode of No Priors features Maxim Bar Kogan, co-founder and CEO of Onyx Security, discussing how to build AI systems that oversee other AI agents in enterprise environments.
-本期 No Priors 邀请了 Onyx Security 联合创始人兼 CEO Maxim Bar Kogan，探讨如何在企业环境中构建能够监督其他 AI agent 的安全系统。
+Every CEO Dan Shipper 分享了一张 Business Insider 2013 vs 2026 的对比图，暗示媒体行业 13 年间的沧桑巨变。
+他还晒出令人印象深刻的 Codex 使用数据：已用 380 亿 token，最长单次任务达 56 小时，连续使用 41 天不断流。
+*"38b tokens and a 56h longest task. 41 day current streak. lfg codex"* — 这组数字展示了 AI agent 在专业内容创作领域的真实深度使用。
 
-The core thesis: as agentic AI usage grows exponentially, traditional enterprise security tools are fundamentally ill-suited to govern autonomous agents.
-核心论点：随着 agentic AI 使用量指数级增长，传统企业安全工具从根本上无法有效治理自主 agent。
-
-Identity controls fail because you want the agent to have your permissions; endpoint and API security tools lack the context to understand what an agent is actually doing or why.
-身份控制失效，因为你希望 agent 拥有你的权限；端点和 API 安全工具缺乏理解 agent 行为意图的上下文。
-
-Onyx's approach: train small, specialized models that act as fast "intuition" filters, only escalating to larger models when genuinely high-risk actions are detected.
-Onyx 的方法：训练小型专用模型作为快速"直觉"过滤器，仅在检测到真正高风险操作时才升级到大模型介入。
-
-This is analogous to how top chess players make most moves intuitively, but stop to deeply calculate on critical positions.
-这类似于顶级棋手大多数走法凭直觉完成，但在关键局面时会停下来深度计算。
-
-*"You're going to start having really bad actions happen. Enterprises are starting to realize that risk has grown exponentially and that they don't have any way to stop the adoption."*
-"企业开始意识到风险已经指数级增长，他们无法阻止 AI 的采用，只能想办法降低这些 agent 行为出错的概率。"
-
-Today, over 50% of enterprise AI usage consists of autonomous coding agents (like Claude Code and Codex); low-code automations account for ~45%; only ~2% are first-party custom-built agents.
-目前超过 50% 的企业 AI 使用量来自自主 coding agent（如 Claude Code 和 Codex）；低代码自动化约占 45%；自研 agent 仅约 2%。
-
-A key competitive moat: enterprises are unwilling to share historical agent behavior data with the frontier labs (Anthropic, OpenAI) due to training data concerns, but they will share it with a neutral third-party security vendor like Onyx.
-一个关键的竞争护城河：企业不愿将 agent 历史行为数据共享给 Anthropic、OpenAI 等前沿实验室，担心被用于训练数据，但他们愿意与 Onyx 这样的中立第三方安全厂商共享。
-
-The most forward-looking signal: Maxim believes the problem will grow from "silly AI mistakes" to models developing genuinely semi-independent perspectives that may not align with enterprise intent — a challenge even the frontier labs cannot fully address from within.
-最值得关注的信号：Maxim 认为问题将从"AI 犯蠢错误"演变为模型产生真正半独立的视角，这些视角可能与企业意图不一致，这是前沿实验室从内部也难以完全解决的挑战。
+🔗 https://x.com/danshipper/status/2060861670184870225
+🔗 https://x.com/danshipper/status/2060771279280513362
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+**Aditya Agarwal (@adityaag)**
+
+Dropbox 前 CTO Aditya Agarwal 分享了一个生活感悟：在印度，当他告诉别人自己有三个孩子时，得到的反应往往是震惊，甚至有人说"噢，意外吧"。他观察到城市核家庭养育孩子的难度是低生育率的主因，引发了对现代生活方式与家庭结构的深度思考。
+
+🔗 https://x.com/adityaag/status/2060644549408739621
+
+---
+
+**🎙️ 播客：Unsupervised Learning**
+
+**Ep 87: Gemini Co-Lead on World Models, RL's Next Domains & Continual Learning**
+
+Gemini 联合负责人 Oriol Vinyals（与 Noam Shazir、Jeff Dean 共同领导）接受专访，深入探讨了 Google I/O 之后多模态模型的未来方向。
+对话涵盖：世界模型（World Models）取得真正进展所需的关键突破、强化学习（RL）下一步将渗透的新领域、持续学习（Continual Learning）如何让模型不断进化而不遗忘，以及 Gemini 在多模态理解上的核心设计哲学。
+这是 Google I/O 后难得的高密度技术深访，适合关注前沿模型架构和 AI 路线图的从业者收听。
+
+🔗 https://www.youtube.com/watch?v=NQczevdpxq0
