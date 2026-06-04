@@ -1,210 +1,172 @@
-AI Builders 日报 · 2026-06-03
+AI Builders 日报 · 2026-06-04
 
-X / TWITTER
-
----
-
-Swyx (swyx on X)
-
-Swyx is sharing content around AI development tools and community building.
-Swyx 近期分享了 AI 开发工具与社区建设相关内容。
-
-He highlighted a Flipbook demo created by builders Zan and Eddie, referencing xAI's Imagine product.
-他转发了由 Zan 和 Eddie 创建的 Flipbook 演示，涉及 xAI 的 Imagine 产品。
-
-He also noted that a WorkOS talk is performing exceptionally well — *"the first to seriously challenge mattpocockuk in weeks"* — with the team actively A/B testing titles.
-他还指出一场 WorkOS 演讲表现出色——"数周来首次对 mattpocockuk 构成真正挑战"——团队正积极进行标题的 A/B 测试。
-
-He shared a Microsoft x NVIDIA resource roundup for developers.
-他还分享了一份面向开发者的 Microsoft x NVIDIA 资源汇总。
-
-https://x.com/swyx/status/2061694815130243344
-https://x.com/swyx/status/2061658241877397917
-https://x.com/swyx/status/2061654021958762620
+Today's digest covers 15 AI builders across X/Twitter, plus 1 podcast episode. Key themes: Claude Code Workflows as a major upgrade, the "YES-CODE" movement, model routing as enterprise differentiator, and the evolving case for/against narrow SaaS in an agent-driven world.
+今日日报收录了来自 X/Twitter 的 15 位 AI 建设者动态，以及 1 期播客。核心主题：Claude Code Workflows 成为重大升级、"YES-CODE"运动的兴起、模型路由作为企业差异化关键，以及 AI 智能体时代下窄场景 SaaS 的生存之辩。
 
 ---
 
-Thibault Sottiaux (thsottiaux on X)
+🎙️ PODCAST · Training Data
 
-Thibault Sottiaux, an AI builder, is posting playfully about Codex and OpenAI's competitive positioning.
-AI 构建者 Thibault Sottiaux 近期以幽默方式评论 Codex 与 OpenAI 的竞争策略。
+**Knowing What Your Customers Want, All the Time: Listen Labs' Alfred Wahlforss**
+Alfred Wahlforss, founder of Listen Labs, explains how his AI-first customer research platform can run thousands of simultaneous voice interviews. The company now serves 20% of the Fortune 500, with a bold goal of reaching a billion people in their audience and building rich expert profiles from each interaction.
+Alfred Wahlforss 介绍了 Listen Labs 如何用 AI 优先的客户研究平台同时运行数千场语音访谈。公司目前已服务财富 500 强中的 20%，并立志触达十亿用户受众，通过每次访谈积累丰富的专家画像数据库。
 
-He quipped that you can now use Codex to run... a farm, sharing an image showing an unexpected use case.
-他调侃道，现在你可以用 Codex 来管理一个农场，并配图展示了这一出人意料的用法。
-
-With AWS joining forces with OpenAI, he joked: *"Heard that AWS is where the cool kids are. Hello. We have GPT-5.5."*
-随着 AWS 与 OpenAI 携手合作，他开玩笑说："听说 AWS 才是潮人聚集地。你好，我们有 GPT-5.5。"
-
-He also floated the tongue-in-cheek suggestion: *"Should we rename Codex to ChadGPT?"*
-他还半开玩笑地提议："我们应该把 Codex 改名为 ChadGPT 吗？"
-
-https://x.com/thsottiaux/status/2061657264508006738
-https://x.com/thsottiaux/status/2061644307111796984
-https://x.com/thsottiaux/status/2061572602888589807
+Source: https://www.youtube.com/watch?v=Rumft-rsEu4
 
 ---
 
-Peter Yang (petergyang on X)
+👤 Swyx (@swyx)
 
-Peter Yang, a product builder and creator, shared key lessons from solo AI builder Josh Pigford on shipping products with AI agents.
-产品构建者与创作者 Peter Yang 分享了独立 AI 构建者 Josh Pigford 利用 AI 智能体发布产品的核心经验。
+Swyx is enthusiastic about OpenAI Codex, calling it "AGI" after one-shotting a task with no notes. He also highlighted what he considers the best reward function for reasoning efficiency he has seen so far.
+Swyx 对 OpenAI Codex 极为兴奋，称其"一次搞定"某任务后直呼"这就是 AGI"。他还分享了一个他认为目前见过的最佳推理效率奖励函数。
 
-Top insights include: ship early despite fear (*"The idea of spending months working on something before you put it out for other people to use, I think that's a real bad idea"*), charge from day one, and use parallel git worktrees to build features in isolation.
-核心洞见包括：尽管恐惧也要尽早发布（"在发布前花几个月时间做某件事，我认为这是个很糟糕的主意"）、从第一天就开始收费，以及使用并行 git 工作树来隔离开发各个功能。
-
-He also highlighted a smart review trick: *"Have GPT review Claude's work and vice versa"* — different models catch different bugs.
-他还推荐了一个聪明的审查技巧："让 GPT 审查 Claude 的工作，反之亦然"——不同模型能发现不同的 Bug。
-
-Peter called out the /learnings skill as his #1 most-used tool for building better AI agents over time.
-Peter 将 /learnings 技能评为他最常用的工具 #1，用于持续提升 AI 智能体的表现。
-
-https://x.com/petergyang/status/2061452068792287622
-https://x.com/petergyang/status/2061586272305795355
-https://x.com/petergyang/status/2061452081572282805
+• https://x.com/swyx/status/2062062585391014245
+• https://x.com/swyx/status/2062060142489973010
+• https://x.com/swyx/status/2062055084138316176
 
 ---
 
-Thariq (trq212 on X)
+👤 Josh Woodward (@joshwoodward)
 
-Thariq, a builder at Anthropic, shared an internal tip about staying in sync with Claude's work.
-Anthropic 的构建者 Thariq 分享了一个与 Claude 保持工作同步的内部技巧。
+Josh announced a quick win for Gemini users: Thinking Levels are now live across Web, iOS, and Android — a "papercut fix" that removes a frustrating gap in feature parity.
+Josh 宣布了 Gemini 用户期待已久的改进：Thinking Levels（思考层级）功能现已在网页、iOS 和 Android 端全面上线，修复了一处令人头疼的功能缺失。
 
-He described how a colleague named Suzanne uses a specific prompt to track everything Claude is doing — and also uses it with voice mode for a more natural experience.
-他介绍了同事 Suzanne 如何使用一个特定的提示词来追踪 Claude 的所有工作，并结合语音模式让交互更加自然流畅。
-
-He shared the full prompt as a public GitHub Gist for others to use.
-他将完整提示词以公开 GitHub Gist 的形式分享，供他人使用。
-
-https://x.com/trq212/status/2061545633560010826
-https://x.com/trq212/status/2061545635141361687
-https://x.com/trq212/status/2061585357934878745
+• https://x.com/joshwoodward/status/2062025667852812583
 
 ---
 
-Amjad Masad (amasad on X)
+👤 Thibault Sottiaux (@thsottiaux)
 
-Amjad Masad, CEO of Replit, is showcasing how fast you can go from idea to business using AI.
-Replit CEO Amjad Masad 正在展示使用 AI 能以多快的速度从创意变成真实业务。
+Thibault reflected on ChatGPT's staying power — whether or not you understand the name, it is now synonymous with AI itself and soon with agents. He also shared updates on Codex for day-to-day work: business plan users can now host and share websites, with improved plugins, skills, and visual annotation feedback for agents in docs, slides, and sheets.
+Thibault 感叹 ChatGPT 已成为不可撼动的 AI 代名词，很快也将成为智能体的代名词。他还分享了 Codex 日常工作场景的新进展：商业版用户现可托管并分享网站，插件与技能大幅改进，并支持通过文档/幻灯片/表格中的视觉标注向智能体反馈意见。
 
-He promoted Replit's full-stack creation capability: *"Prompt to business: website, mobile app, monetization, Delaware corp."*
-他推广了 Replit 的全栈创建能力："一句提示即可生成业务：网站、移动应用、变现方案、特拉华州公司注册。"
-
-He also shared a teaser for "vibecon" — an upcoming event likely centered around vibe coding culture.
-他还预告了"vibecon"——一场以 vibe coding 文化为核心的即将举行的活动。
-
-https://x.com/amasad/status/2061575503434408106
-https://x.com/amasad/status/2061673231309058241
+• https://x.com/thsottiaux/status/2062057881424506950
+• https://x.com/thsottiaux/status/2061877014999830625
+• https://x.com/thsottiaux/status/2061876999564791952
 
 ---
 
-Guillermo Rauch (rauchg on X)
+👤 Peter Yang (@petergyang)
 
-Guillermo Rauch, CEO of Vercel, shared updates on model performance and agentic development on Vercel.
-Vercel CEO Guillermo Rauch 分享了关于模型性能与 Vercel 上智能体开发的最新进展。
+Peter praised the Devin/Windsurf team for staying disciplined through challenges, noting that many AI-native builders now love Devin. He also offered a sharp take on SaaS viability: while large, multi-purpose enterprise SaaS (like Figma) may be fine, narrow single-use SaaS faces existential pressure as AI agents with personal context can solve the same problems more flexibly and cheaply. He quipped that founders building with AI are so excited they forget to find users.
+Peter 盛赞 Devin/Windsurf 团队在起伏中保持战略定力，指出越来越多 AI 原生开发者爱上了 Devin。他还就 SaaS 生死问题发表了犀利见解：大型多功能企业 SaaS（如 Figma）尚可，但窄场景 SaaS 面临生存危机——拥有个人上下文的 AI 智能体可以更灵活、更低成本地解决相同问题。他还调侃道：有些 AI 创业者太兴奋于"能构建任何东西"，却忘了去找用户。
 
-He announced that MiniMax M3 is now the top open model on Next.js agent evaluations — *"Right behind Opus & GPT5, but 10× cheaper"* — and even 20× cheaper through Vercel's AI Gateway.
-他宣布 MiniMax M3 现已成为 Next.js 智能体评测中表现最佳的开源模型——"仅次于 Opus 和 GPT-5，但便宜 10 倍"——通过 Vercel AI Gateway 甚至可以便宜 20 倍。
-
-He reaffirmed a core engineering belief: *"Git is all you need. Always has been."*
-他重申了一个核心工程理念："Git 就是你所需要的一切。一直如此。"
-
-He also highlighted a beautiful full-stack agent example running on Vercel as great learning material for developers.
-他还推荐了一个在 Vercel 上运行的精彩全栈智能体示例，称其为开发者学习的优质素材。
-
-https://x.com/rauchg/status/2061593874498531707
-https://x.com/rauchg/status/2061533151676293430
-https://x.com/rauchg/status/2061415178298937365
+• https://x.com/petergyang/status/2062018242789670929
+• https://x.com/petergyang/status/2061936952400814392
+• https://x.com/petergyang/status/2061846283263103274
 
 ---
 
-Aaron Levie (levie on X)
+👤 Thariq (@trq212)
 
-Aaron Levie, CEO of Box, posted a thoughtful piece on competitive advantage in the AI agent era.
-Box CEO Aaron Levie 发布了一篇深度文章，探讨 AI 智能体时代的竞争优势来源。
+Thariq declared that Workflows are the biggest upgrade to Claude Code since skills and subagents. He dove deep with a collaborator to surface best practices and examples, highlighting how Workflows unlock non-technical tasks for Claude Code users. The write-up is also available on the Claude Blog.
+Thariq 认为 Workflows 是 Claude Code 自 skills 和 subagents 以来最重大的升级。他与合作者深度研究了最佳实践和示例，特别指出 Workflows 为 Claude Code 用户解锁了大量非技术任务场景。相关内容也已发布在 Claude 官方博客。
 
-His core argument: when all competitors have access to the same AI models, the differentiator becomes your proprietary data, institutional knowledge, and domain workflows.
-他的核心论点是：当所有竞争对手都能使用相同的 AI 模型时，差异化的关键在于你的专有数据、机构知识和特定领域的工作流。
-
-He noted this is increasingly visible at Box: customers want to *"take advantage of their institutional knowledge and have the flexibility of bringing any AI model and intelligence to their data at any time."*
-他指出这一趋势在 Box 愈发明显：客户希望"充分利用其机构知识，并灵活地随时将任意 AI 模型引入自身数据"。
-
-He also weighed in on the AWS-OpenAI partnership, noting it opens up enterprise distribution while likely boosting token consumption across all model providers.
-他还就 AWS 与 OpenAI 的合作发表看法，认为此举不仅拓展了企业端分发渠道，也可能提升所有模型提供商的整体 token 消耗量。
-
-https://x.com/levie/status/2061662386680127688
-https://x.com/levie/status/2061612625574944804
+• https://x.com/trq212/status/2061907897928528349
+• https://x.com/trq212/status/2061907538741006796
+• https://x.com/trq212/status/2061907337154367865
 
 ---
 
-Garry Tan (garrytan on X)
+👤 Amjad Masad (@amasad)
 
-Garry Tan, President & CEO of Y Combinator, shared a mix of leadership wisdom and product building tips.
-Y Combinator 总裁兼 CEO Garry Tan 分享了一系列领导力智慧与产品构建技巧。
+Amjad shared two big announcements: a new canvas feature that lays out your entire business visually, and a partnership with Microsoft to enable enterprises to build and deploy safe, secure Fabric data apps via Microsoft's new Rayfin SDK. He also noted that SWE benchmarks don't capture app-building capabilities — ViBench does.
+Amjad 发布了两项重磅消息：一个能将整个业务可视化布局在画布上的新功能，以及与 Microsoft 合作、借助新推出的 Rayfin SDK 让企业构建和部署安全可靠的 Fabric 数据应用。他还指出，SWE 基准测试无法衡量应用构建能力，而 ViBench 可以。
 
-He amplified Airbnb CEO Brian Chesky's leadership philosophy: *"Leadership is presence, not absence."*
-他转发了 Airbnb CEO Brian Chesky 的领导力理念："领导力在于在场，而非缺席。"
-
-He also promoted GStack's /office-hours feature for founders who want one-click AI-assisted office hours for their product idea.
-他还推介了 GStack 的 /office-hours 功能，创始人只需一键即可获得 AI 辅助的产品创意办公时间。
-
-https://x.com/garrytan/status/2061495739637960927
-https://x.com/garrytan/status/2061568169354129640
+• https://x.com/amasad/status/2062048812345291259
+• https://x.com/amasad/status/2061893093696434578
+• https://x.com/amasad/status/2061878314311266552
 
 ---
 
-Matt Turck (mattturck on X)
+👤 Guillermo Rauch (@rauchg)
 
-Matt Turck, Managing Director at FirstMark Capital, posted a deadpan observation about the gap between executive claims and technical reality in AI deployments.
-FirstMark Capital 董事总经理 Matt Turck 以简洁幽默的方式指出了 AI 部署中高管声明与技术现实之间的落差。
+Guillermo coined "YES-CODE" as the counter-movement to "no-code": now that coding agents have made code cheap, easy, and abundant, the era of hard ceilings set by no-code solutions is over. Vercel's mission is to be "the easiest cloud for agents that you never graduate from." He also reflected that human language is now the new API to the world, and welcomed Conductor — an IDE born for coding agents — to power their Sandbox via Vercel.
+Guillermo 提出了"YES-CODE"理念，对抗"no-code"运动：编程智能体让代码变得廉价、易用且充足，no-code 设下的硬上限时代已经终结。Vercel 的使命是成为"智能体从不毕业的最易用云"。他还指出，人类语言现在就是通往世界的新 API，并欢迎专为编程智能体而生的 IDE Conductor 通过 Vercel 驱动其 Sandbox。
 
-The contrast: CEO boasting *"we have tens of thousands of AI agents running in production at massive scale right now"* — next to a reaction image from the CTO.
-内容呈现出鲜明对比：CEO 豪言"我们目前已有数万个 AI 智能体在生产环境中大规模运行"，而旁边则是 CTO 的表情包回应。
-
-https://x.com/mattturck/status/2061533386296963464
-
----
-
-Peter Steinberger (steipete on X)
-
-Peter Steinberger, founder of PSPDFKit/Nutrient, shared a creative workflow tip for using Codex while staying focused.
-PSPDFKit/Nutrient 创始人 Peter Steinberger 分享了一个在保持专注的同时使用 Codex 的创意工作流技巧。
-
-He configured Codex to use a text-to-speech tool whenever it gets blocked and needs his attention — so while he's away, it literally talks to him.
-他将 Codex 配置为在遇到障碍需要帮助时自动调用语音合成工具——这样即使他不在电脑旁，Codex 也会直接开口"呼唤"他。
-
-*"I hear it talking to me, and it's the coolest thing ever."*
-"我听到它在跟我说话，这是我见过的最酷的事情之一。"
-
-https://x.com/steipete/status/2061574752574283858
+• https://x.com/rauchg/status/2061934154732974376
+• https://x.com/rauchg/status/2061862134469062850
+• https://x.com/rauchg/status/2061809689973944724
 
 ---
 
-Dan Shipper (danshipper on X)
+👤 Aaron Levie (@levie)
 
-Dan Shipper, CEO of Every, shared thoughts on AI-assisted work and productivity.
-Every CEO Dan Shipper 分享了关于 AI 辅助工作与生产力的见解。
+Aaron made a strategic prediction: as token budgets become a major operating expense, intelligent model routing is the inevitable and most important differentiator for the applied AI layer. Products that can route workflows to the right model tier — balancing cost and performance by domain — will have a lasting edge. Most use cases still need frontier models today, but that is changing fast.
+Aaron 提出了一个战略判断：随着 Token 预算成为主要运营成本，智能模型路由将成为应用 AI 层最重要的差异化能力。能够按领域平衡成本与性能、将工作流路由到合适模型层级的产品，将获得持久竞争优势。当前大多数场景仍需前沿模型，但这一格局正在快速改变。
 
-He quipped: *"you don't have to work 7 days a week if you just have a swarm of Codex's running on /goal all the time — but you'll probably want to."*
-他调侃道："如果你一直让一群 Codex 运行 /goal 任务，你就不需要每周工作 7 天——但你可能还是会想的。"
-
-He also announced that something exciting "happened" — teased with a screenshot, details to follow.
-他还发布了一条预告，暗示有重要事件"发生了"，并附上截图，更多详情待公布。
-
-https://x.com/danshipper/status/2061443674311999739
-https://x.com/danshipper/status/2061550920635191666
+• https://x.com/levie/status/2061974298760495132
 
 ---
 
-Sam Altman (sama on X)
+👤 Garry Tan (@garrytan)
 
-Sam Altman, CEO of OpenAI, highlighted the work of the OpenAI Foundation in helping society adapt to AI.
-OpenAI CEO Sam Altman 介绍了 OpenAI 基金会在帮助社会适应 AI 方面所做的工作。
+Garry celebrated a San Francisco political win, shared a candid late-night coding moment ("landing many PRs with many more to go before sleep"), and highlighted GBrain as an agentic Swiss Army knife for retrieval and memory.
+Garry 庆祝旧金山的一场政治胜利，分享了深夜撸码的真实状态（"合并了很多 PR，睡前还有更多要搞"），并推荐 GBrain 作为检索与记忆的智能体瑞士军刀。
 
-*"Helping society become resilient to AI is going to be incredibly important. Much more to come here!"*
-"帮助社会对 AI 建立韧性将会极其重要。这方面还有很多工作要做！"
-
-https://x.com/sama/status/2061562575322492937
+• https://x.com/garrytan/status/2062076227977126237
+• https://x.com/garrytan/status/2062074760331448381
+• https://x.com/garrytan/status/2062052761945223266
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+👤 Zara Zhang (@zarazhangrui)
+
+Zara spotlighted a striking data point from OpenAI's latest Codex report: knowledge workers now make up 20% of Codex users and are adopting it 3× faster than developers, with the fastest-growing tasks being Data Analysis (+110% WoW), Research (+37%), and Knowledge Artifacts (+36%). She also celebrated Frontend Slides hitting 20k GitHub stars, noting users are increasingly replacing PPTs with HTML decks.
+Zara 引用了 OpenAI 最新 Codex 报告的惊人数据：知识工作者现占 Codex 用户的 20%，采用速度是开发者的 3 倍，增长最快的任务是数据分析（周增 110%）、研究（+37%）和知识产物（+36%）。她还庆祝 Frontend Slides 在 GitHub 突破 20k Star，用户正纷纷用 HTML 幻灯片取代传统 PPT。
+
+• https://x.com/zarazhangrui/status/2061924300698091760
+• https://x.com/zarazhangrui/status/2061892917514662152
+• https://x.com/zarazhangrui/status/2061889286585405790
+
+---
+
+👤 Nikunj Kothari (@nikunj)
+
+Nikunj offered a sober reality check for founders seeking funding: the best founders treat AI timing, funding, distribution, market, product, and revenue as necessary components — not the entire story. He's seeing too many pitches that hinge on just one dimension, and warns the seed-to-Series A gap has never been harder to cross. He also flagged a bug in Ramp's CLI that can't categorize expenses, sending feedback directly.
+Nikunj 给寻求融资的创始人泼了盆冷水：最优秀的创始人把 AI 时机、融资、分发、市场、产品和营收都视为必要组成部分，而非全部。他看到太多 pitch 只押注单一维度，并警告种子轮到 A 轮的鸿沟从未如此难以跨越。他还反馈了 Ramp CLI 无法正确分类费用的 bug。
+
+• https://x.com/nikunj/status/2062033620773306763
+• https://x.com/nikunj/status/2061866688866648573
+• https://x.com/nikunj/status/2061866440513479135
+
+---
+
+👤 Peter Steinberger (@steipete)
+
+Peter shared two milestones: collaborating with Omar to bring observability and verifiable workspaces into OpenClaw, and partnering with Microsoft to bring OpenClaw capabilities to enterprise customers.
+Peter 分享了两个里程碑：与 Omar 合作为 OpenClaw 引入可观测性和可验证工作空间，以及与 Microsoft 合作将 OpenClaw 能力带给企业客户。
+
+• https://x.com/steipete/status/2061877813053907083
+• https://x.com/steipete/status/2061874084649025728
+
+---
+
+👤 Dan Shipper (@danshipper)
+
+Dan bid farewell to Lucas, a designer who joined Every four years ago and became the creative force behind much of what makes Every visually distinctive — and whose influence is visible across the broader AI ecosystem. Dan also flagged something his team is internally excited about (likely a model or product update), and opened a discussion on Claude Opus 4.8 — noting it can be high-variance: sometimes extraordinary, sometimes disagreeing in obviously wrong ways.
+Dan 送别离职的设计师 Lucas，后者四年前加入 Every，成为塑造 Every 视觉风格的核心创意力量，其影响力遍及整个 AI 生态。Dan 还提到了一件团队内部非常兴奋的事（疑似模型或产品更新），并就 Claude Opus 4.8 展开讨论——他认为该模型方差较大：有时表现惊艳，有时又明显答错。
+
+• https://x.com/danshipper/status/2061962774918373592
+• https://x.com/danshipper/status/2061908190040645707
+• https://x.com/danshipper/status/2061817375519809665
+
+---
+
+👤 Sam Altman (@sama)
+
+Sam weighed in on US AI policy, saying the new Executive Order gets the balance right: lead with the best models, keep them safe, and get cyber tools into the hands of trusted defenders. He also shared an inspiring quote from Ecclesiastes 9:10 as personal fuel for hard days: "Whatever your hand finds to do, do it with all your might."
+Sam 就美国 AI 政策发声，认为新行政令拿捏住了平衡：用最好的模型领跑，确保安全，并将网络工具交到可信防御者手中。他还分享了《传道书》9:10 的一句励志语录，作为艰难时刻的精神燃料："你手所当做的事要尽力去做。"
+
+• https://x.com/sama/status/2061973280655904815
+• https://x.com/sama/status/2061828631089844709
+
+---
+
+👤 Claude (@claudeai)
+
+The official Claude account spotlighted the story of Max Junestrand, co-founder and CEO of Legora, who is using Claude to bring legal interpretation into its next era. His thesis: every new model release raises the tide, and Legora builds the boats. The post is part of "The Problem Solvers" series.
+Claude 官方账号聚焦 Legora 联合创始人兼 CEO Max Junestrand 的故事——他正在用 Claude 推动法律解释进入新时代。他的论断：每次新模型发布都会抬高水位，而 Legora 负责为所有人造船。这是"问题解决者"系列的最新篇章。
+
+• https://x.com/claudeai/status/2061829560505655316
+• https://x.com/claudeai/status/2061829558999912680
