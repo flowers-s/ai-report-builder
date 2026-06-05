@@ -1,172 +1,285 @@
-AI Builders 日报 · 2026-06-04
-
-Today's digest covers 15 AI builders across X/Twitter, plus 1 podcast episode. Key themes: Claude Code Workflows as a major upgrade, the "YES-CODE" movement, model routing as enterprise differentiator, and the evolving case for/against narrow SaaS in an agent-driven world.
-今日日报收录了来自 X/Twitter 的 15 位 AI 建设者动态，以及 1 期播客。核心主题：Claude Code Workflows 成为重大升级、"YES-CODE"运动的兴起、模型路由作为企业差异化关键，以及 AI 智能体时代下窄场景 SaaS 的生存之辩。
+AI Builders 日报 · 2026-06-05
 
 ---
 
-🎙️ PODCAST · Training Data
+## PODCASTS
 
-**Knowing What Your Customers Want, All the Time: Listen Labs' Alfred Wahlforss**
-Alfred Wahlforss, founder of Listen Labs, explains how his AI-first customer research platform can run thousands of simultaneous voice interviews. The company now serves 20% of the Fortune 500, with a bold goal of reaching a billion people in their audience and building rich expert profiles from each interaction.
-Alfred Wahlforss 介绍了 Listen Labs 如何用 AI 优先的客户研究平台同时运行数千场语音访谈。公司目前已服务财富 500 强中的 20%，并立志触达十亿用户受众，通过每次访谈积累丰富的专家画像数据库。
+### No Priors — The Rise of the Full-Stack Builder and Hyper-Leveraged Generalist with Microsoft CEO Satya Nadella
 
-Source: https://www.youtube.com/watch?v=Rumft-rsEu4
+The world is demanding that tech companies deliver tangible benefits, not just promises.
+这个世界要求科技公司兑现实实在在的价值，而不是空头支票。
 
----
+Microsoft CEO Satya Nadella sat down with the No Priors and Lenny's Podcast hosts at Microsoft Build 2026 for a wide-ranging conversation on AI strategy, the future of engineering roles, enterprise software, and the societal responsibility of the tech industry.
+微软 CEO Satya Nadella 在 Microsoft Build 2026 上与 No Priors 和 Lenny's Podcast 的主持人进行了深度对话，涵盖 AI 战略、工程师角色的未来、企业软件及科技行业的社会责任。
 
-👤 Swyx (@swyx)
+**Core thesis: The era of the hyper-leveraged generalist has arrived.**
+**核心论点：超级杠杆型通才时代已经来临。**
 
-Swyx is enthusiastic about OpenAI Codex, calling it "AGI" after one-shotting a task with no notes. He also highlighted what he considers the best reward function for reasoning efficiency he has seen so far.
-Swyx 对 OpenAI Codex 极为兴奋，称其"一次搞定"某任务后直呼"这就是 AGI"。他还分享了一个他认为目前见过的最佳推理效率奖励函数。
+Nadella argues that AI's biggest unlock is not replacing specialists, but giving generalists unprecedented leverage.
+Nadella 认为，AI 最大的解锁不是取代专才，而是给通才提供前所未有的杠杆。
 
-• https://x.com/swyx/status/2062062585391014245
-• https://x.com/swyx/status/2062060142489973010
-• https://x.com/swyx/status/2062055084138316176
+A CEO who once only wrote Word documents can now build apps — in the same sentence.
+一个过去只写 Word 文档的 CEO，如今可以直接构建应用——这件事发生在同一句话里。
 
----
+**Key insights:**
+**关键洞察：**
 
-👤 Josh Woodward (@joshwoodward)
+The real competitive moat is your private eval, not your model.
+真正的竞争护城河是你的私有评估集，而不是你用的模型。
 
-Josh announced a quick win for Gemini users: Thinking Levels are now live across Web, iOS, and Android — a "papercut fix" that removes a frustrating gap in feature parity.
-Josh 宣布了 Gemini 用户期待已久的改进：Thinking Levels（思考层级）功能现已在网页、iOS 和 Android 端全面上线，修复了一处令人头疼的功能缺失。
+Every company that can train a specialist model on proprietary traces — and hill-climb it using private evals that can't be leaked — will compound in value in ways that were impossible before.
+每家公司只要能用私有数据训练专有模型，并通过无法泄露的私有评估集持续迭代，就能以之前无法想象的方式实现复利增长。
 
-• https://x.com/joshwoodward/status/2062025667852812583
+Microsoft is reconceptualizing itself as a "harness and evals company."
+微软正在将自己重新定位为"评估与 harness 公司"。
 
----
+The platform play is: give every company the tooling to achieve frontier intelligence with their own data, their own tools, and their own private evals — and make switching between models painless.
+其平台战略是：让每家公司都能用自己的数据、工具和私有评估集实现前沿智能，并让模型切换毫无障碍。
 
-👤 Thibault Sottiaux (@thsottiaux)
+The Azure networking team's transformation is the template for enterprise AI adoption.
+Azure 网络团队的转型，是企业 AI 落地的最佳模板。
 
-Thibault reflected on ChatGPT's staying power — whether or not you understand the name, it is now synonymous with AI itself and soon with agents. He also shared updates on Codex for day-to-day work: business plan users can now host and share websites, with improved plugins, skills, and visual annotation feedback for agents in docs, slides, and sheets.
-Thibault 感叹 ChatGPT 已成为不可撼动的 AI 代名词，很快也将成为智能体的代名词。他还分享了 Codex 日常工作场景的新进展：商业版用户现可托管并分享网站，插件与技能大幅改进，并支持通过文档/幻灯片/表格中的视觉标注向智能体反馈意见。
+Instead of doing Azure networking, they built the agentic system that does Azure networking.
+他们不再亲自做 Azure 网络运维，而是构建了负责 Azure 网络运维的 Agent 系统。
 
-• https://x.com/thsottiaux/status/2062057881424506950
-• https://x.com/thsottiaux/status/2061877014999830625
-• https://x.com/thsottiaux/status/2061876999564791952
+Their ask changed from "we need headcount" to "we need tokens."
+他们的诉求从"我们需要招人"变成了"我们需要 token 额度"。
 
----
+SaaS is not dead — it's being unbundled and rebundled.
+SaaS 没有死，它正在被解绑和重新打包。
 
-👤 Peter Yang (@petergyang)
+The data model and business logic underneath legacy SaaS are actually valuable; what's changing is how they're packaged and delivered.
+遗留 SaaS 底层的数据模型和业务逻辑实际上很有价值；正在变化的是它们的打包和交付方式。
 
-Peter praised the Devin/Windsurf team for staying disciplined through challenges, noting that many AI-native builders now love Devin. He also offered a sharp take on SaaS viability: while large, multi-purpose enterprise SaaS (like Figma) may be fine, narrow single-use SaaS faces existential pressure as AI agents with personal context can solve the same problems more flexibly and cheaply. He quipped that founders building with AI are so excited they forget to find users.
-Peter 盛赞 Devin/Windsurf 团队在起伏中保持战略定力，指出越来越多 AI 原生开发者爱上了 Devin。他还就 SaaS 生死问题发表了犀利见解：大型多功能企业 SaaS（如 Figma）尚可，但窄场景 SaaS 面临生存危机——拥有个人上下文的 AI 智能体可以更灵活、更低成本地解决相同问题。他还调侃道：有些 AI 创业者太兴奋于"能构建任何东西"，却忘了去找用户。
+Outcome-based pricing sounds great until you actually have an outcome.
+结果定价听起来很美，直到你真的产生了结果。
 
-• https://x.com/petergyang/status/2062018242789670929
-• https://x.com/petergyang/status/2061936952400814392
-• https://x.com/petergyang/status/2061846283263103274
+*"Most people love outcomes until they have an outcome. Because once you have an outcome, it's like giving away royalty."*
+"大多数人在获得结果之前都喜欢结果定价——但一旦真的产生了结果，那感觉就像在分红。"
 
----
+Education is the next frontier — and maybe the next big startup opportunity.
+教育是下一个前沿领域，也许也是下一个重大创业机会。
 
-👤 Thariq (@trq212)
+The way people learn, acquire credentials, and find economic opportunity has fundamentally changed; someone who builds a new university or pedagogy for this era could build a generational company.
+人们学习、获取资质、寻找经济机会的方式已经根本性地改变；在这个时代构建新型大学或教学法的人，有机会打造一家具有时代意义的公司。
 
-Thariq declared that Workflows are the biggest upgrade to Claude Code since skills and subagents. He dove deep with a collaborator to surface best practices and examples, highlighting how Workflows unlock non-technical tasks for Claude Code users. The write-up is also available on the Claude Blog.
-Thariq 认为 Workflows 是 Claude Code 自 skills 和 subagents 以来最重大的升级。他与合作者深度研究了最佳实践和示例，特别指出 Workflows 为 Claude Code 用户解锁了大量非技术任务场景。相关内容也已发布在 Claude 官方博客。
+**Most forward-looking signal:**
+**最值得关注的信号：**
 
-• https://x.com/trq212/status/2061907897928528349
-• https://x.com/trq212/status/2061907538741006796
-• https://x.com/trq212/status/2061907337154367865
+Nadella predicts that in six months, knowledge workers will wake up to discover that AI autopilots — running overnight with delegated authority — completed significant work on their behalf.
+Nadella 预测，六个月后，知识工作者醒来将发现，在被授权的 AI 自动驾驶系统在夜间已代为完成了大量工作。
 
----
+The new bottleneck won't be doing the work — it will be reviewing and directing it.
+新的瓶颈不再是做工作，而是审查和指导工作。
 
-👤 Amjad Masad (@amasad)
-
-Amjad shared two big announcements: a new canvas feature that lays out your entire business visually, and a partnership with Microsoft to enable enterprises to build and deploy safe, secure Fabric data apps via Microsoft's new Rayfin SDK. He also noted that SWE benchmarks don't capture app-building capabilities — ViBench does.
-Amjad 发布了两项重磅消息：一个能将整个业务可视化布局在画布上的新功能，以及与 Microsoft 合作、借助新推出的 Rayfin SDK 让企业构建和部署安全可靠的 Fabric 数据应用。他还指出，SWE 基准测试无法衡量应用构建能力，而 ViBench 可以。
-
-• https://x.com/amasad/status/2062048812345291259
-• https://x.com/amasad/status/2061893093696434578
-• https://x.com/amasad/status/2061878314311266552
-
----
-
-👤 Guillermo Rauch (@rauchg)
-
-Guillermo coined "YES-CODE" as the counter-movement to "no-code": now that coding agents have made code cheap, easy, and abundant, the era of hard ceilings set by no-code solutions is over. Vercel's mission is to be "the easiest cloud for agents that you never graduate from." He also reflected that human language is now the new API to the world, and welcomed Conductor — an IDE born for coding agents — to power their Sandbox via Vercel.
-Guillermo 提出了"YES-CODE"理念，对抗"no-code"运动：编程智能体让代码变得廉价、易用且充足，no-code 设下的硬上限时代已经终结。Vercel 的使命是成为"智能体从不毕业的最易用云"。他还指出，人类语言现在就是通往世界的新 API，并欢迎专为编程智能体而生的 IDE Conductor 通过 Vercel 驱动其 Sandbox。
-
-• https://x.com/rauchg/status/2061934154732974376
-• https://x.com/rauchg/status/2061862134469062850
-• https://x.com/rauchg/status/2061809689973944724
+Source: https://www.youtube.com/@NoPriorsPodcast
 
 ---
 
-👤 Aaron Levie (@levie)
+## X / TWITTER
 
-Aaron made a strategic prediction: as token budgets become a major operating expense, intelligent model routing is the inevitable and most important differentiator for the applied AI layer. Products that can route workflows to the right model tier — balancing cost and performance by domain — will have a lasting edge. Most use cases still need frontier models today, but that is changing fast.
-Aaron 提出了一个战略判断：随着 Token 预算成为主要运营成本，智能模型路由将成为应用 AI 层最重要的差异化能力。能够按领域平衡成本与性能、将工作流路由到合适模型层级的产品，将获得持久竞争优势。当前大多数场景仍需前沿模型，但这一格局正在快速改变。
+### OpenAI Codex 负责人 Thibault Sottiaux (thsottiaux on X)
 
-• https://x.com/levie/status/2061974298760495132
+Thibault Sottiaux, who leads Codex at OpenAI, was candid about reliability issues and forward momentum.
+OpenAI Codex 负责人 Thibault Sottiaux 坦率地谈到了可靠性问题以及前进方向。
 
----
+He acknowledged that Codex experienced three separate small reliability incidents in a 24-hour period — *"Those are three too many"* — and announced he has reset usage limits and is taking active steps to prevent recurrence.
+他承认 Codex 在 24 小时内发生了三次独立的小故障——"三次就已经太多了"——并宣布已重置使用限制，并正在采取积极措施防止复发。
 
-👤 Garry Tan (@garrytan)
+On the broader trajectory, he noted there are *"lots of little vectors at OpenAI all pointing in the same direction"* and expressed excitement about everything coming together over the coming weeks.
+在更宏观的走向上，他表示 OpenAI 内部有"很多小向量都指向同一个方向"，并对未来几周一切汇聚在一起感到兴奋。
 
-Garry celebrated a San Francisco political win, shared a candid late-night coding moment ("landing many PRs with many more to go before sleep"), and highlighted GBrain as an agentic Swiss Army knife for retrieval and memory.
-Garry 庆祝旧金山的一场政治胜利，分享了深夜撸码的真实状态（"合并了很多 PR，睡前还有更多要搞"），并推荐 GBrain 作为检索与记忆的智能体瑞士军刀。
-
-• https://x.com/garrytan/status/2062076227977126237
-• https://x.com/garrytan/status/2062074760331448381
-• https://x.com/garrytan/status/2062052761945223266
+Source: https://x.com/thsottiaux/status/2062423528927015414
+Source: https://x.com/thsottiaux/status/2062329981548802523
 
 ---
 
-👤 Zara Zhang (@zarazhangrui)
+### Box CEO Aaron Levie (levie on X)
 
-Zara spotlighted a striking data point from OpenAI's latest Codex report: knowledge workers now make up 20% of Codex users and are adopting it 3× faster than developers, with the fastest-growing tasks being Data Analysis (+110% WoW), Research (+37%), and Knowledge Artifacts (+36%). She also celebrated Frontend Slides hitting 20k GitHub stars, noting users are increasingly replacing PPTs with HTML decks.
-Zara 引用了 OpenAI 最新 Codex 报告的惊人数据：知识工作者现占 Codex 用户的 20%，采用速度是开发者的 3 倍，增长最快的任务是数据分析（周增 110%）、研究（+37%）和知识产物（+36%）。她还庆祝 Frontend Slides 在 GitHub 突破 20k Star，用户正纷纷用 HTML 幻灯片取代传统 PPT。
+Box CEO Aaron Levie made two sharp observations about AI's economic impact.
+Box CEO Aaron Levie 对 AI 的经济影响发表了两点犀利观察。
 
-• https://x.com/zarazhangrui/status/2061924300698091760
-• https://x.com/zarazhangrui/status/2061892917514662152
-• https://x.com/zarazhangrui/status/2061889286585405790
+On jobs data, he noted that engineering employment is proving the opposite of what many predicted — AI impact has not translated to job losses in the field.
+在就业数据方面，他指出工程师就业情况证明了与许多人预测相反的结论——AI 的影响并未转化为该领域的失业。
 
----
+On enterprise spending, he observed: *"Even with employer caps, the spend on AI tokens dramatically exceeds any other historical spend on software."*
+在企业支出方面，他观察到："即使有雇主上限，AI token 的支出也大幅超过历史上任何其他软件支出。"
 
-👤 Nikunj Kothari (@nikunj)
+He estimated that while companies historically spent $10-50 per user per month on software licenses, AI token spend is already at a completely different magnitude.
+他估计，虽然企业历史上每用户每月在软件许可上花费 10-50 美元，但 AI token 支出已经处于完全不同的数量级。
 
-Nikunj offered a sober reality check for founders seeking funding: the best founders treat AI timing, funding, distribution, market, product, and revenue as necessary components — not the entire story. He's seeing too many pitches that hinge on just one dimension, and warns the seed-to-Series A gap has never been harder to cross. He also flagged a bug in Ramp's CLI that can't categorize expenses, sending feedback directly.
-Nikunj 给寻求融资的创始人泼了盆冷水：最优秀的创始人把 AI 时机、融资、分发、市场、产品和营收都视为必要组成部分，而非全部。他看到太多 pitch 只押注单一维度，并警告种子轮到 A 轮的鸿沟从未如此难以跨越。他还反馈了 Ramp CLI 无法正确分类费用的 bug。
-
-• https://x.com/nikunj/status/2062033620773306763
-• https://x.com/nikunj/status/2061866688866648573
-• https://x.com/nikunj/status/2061866440513479135
+Source: https://x.com/levie/status/2062335852379066698
+Source: https://x.com/levie/status/2062280745889222937
 
 ---
 
-👤 Peter Steinberger (@steipete)
+### Anthropic 数据团队工程师 Cat Wu (_catwu on X)
 
-Peter shared two milestones: collaborating with Omar to bring observability and verifiable workspaces into OpenClaw, and partnering with Microsoft to bring OpenClaw capabilities to enterprise customers.
-Peter 分享了两个里程碑：与 Omar 合作为 OpenClaw 引入可观测性和可验证工作空间，以及与 Microsoft 合作将 OpenClaw 能力带给企业客户。
+Anthropic data engineer Cat Wu shared a major internal achievement: Anthropic's data team has automated 95% of business analytics queries using Claude.
+Anthropic 数据工程师 Cat Wu 分享了一项重大内部成果：Anthropic 数据团队已用 Claude 自动化了 95% 的业务分析查询。
 
-• https://x.com/steipete/status/2061877813053907083
-• https://x.com/steipete/status/2061874084649025728
+She published a blog post covering the team's approach to evals, ablations, and online validation for this system.
+她发布了一篇博客文章，介绍了该系统在评估、消融实验和在线验证方面的方法。
 
----
-
-👤 Dan Shipper (@danshipper)
-
-Dan bid farewell to Lucas, a designer who joined Every four years ago and became the creative force behind much of what makes Every visually distinctive — and whose influence is visible across the broader AI ecosystem. Dan also flagged something his team is internally excited about (likely a model or product update), and opened a discussion on Claude Opus 4.8 — noting it can be high-variance: sometimes extraordinary, sometimes disagreeing in obviously wrong ways.
-Dan 送别离职的设计师 Lucas，后者四年前加入 Every，成为塑造 Every 视觉风格的核心创意力量，其影响力遍及整个 AI 生态。Dan 还提到了一件团队内部非常兴奋的事（疑似模型或产品更新），并就 Claude Opus 4.8 展开讨论——他认为该模型方差较大：有时表现惊艳，有时又明显答错。
-
-• https://x.com/danshipper/status/2061962774918373592
-• https://x.com/danshipper/status/2061908190040645707
-• https://x.com/danshipper/status/2061817375519809665
+Source: https://x.com/_catwu/status/2062408623565984209
 
 ---
 
-👤 Sam Altman (@sama)
+### Vercel CEO Guillermo Rauch (rauchg on X)
 
-Sam weighed in on US AI policy, saying the new Executive Order gets the balance right: lead with the best models, keep them safe, and get cyber tools into the hands of trusted defenders. He also shared an inspiring quote from Ecclesiastes 9:10 as personal fuel for hard days: "Whatever your hand finds to do, do it with all your might."
-Sam 就美国 AI 政策发声，认为新行政令拿捏住了平衡：用最好的模型领跑，确保安全，并将网络工具交到可信防御者手中。他还分享了《传道书》9:10 的一句励志语录，作为艰难时刻的精神燃料："你手所当做的事要尽力去做。"
+Vercel CEO Guillermo Rauch highlighted two significant product developments.
+Vercel CEO Guillermo Rauch 重点介绍了两项重要产品进展。
 
-• https://x.com/sama/status/2061973280655904815
-• https://x.com/sama/status/2061828631089844709
+Grok's Imagine Video model — described as the top image-to-video model on the market — is now available through Vercel AI Gateway.
+Grok 的 Imagine Video 模型——被描述为市场上顶尖的图转视频模型——现已通过 Vercel AI Gateway 提供服务。
+
+On AI-powered frontends, he declared: *"Generating frontends on top of your business data is one of the killer apps of coding AI. The genie is out of the bottle. Never going back to clunky and rigid dashboards."*
+在 AI 驱动的前端方面，他宣告："在业务数据之上生成前端，是代码 AI 的杀手级应用。精灵已经出瓶，再也回不到笨重僵硬的仪表盘了。"
+
+He also announced a Snowflake integration with Vercel for generating frontends on top of business data.
+他还宣布了 Vercel 与 Snowflake 的集成，用于在业务数据之上生成前端。
+
+Source: https://x.com/rauchg/status/2062332963636060313
+Source: https://x.com/rauchg/status/2062199585322529108
 
 ---
 
-👤 Claude (@claudeai)
+### Replit CEO Amjad Masad (amasad on X)
 
-The official Claude account spotlighted the story of Max Junestrand, co-founder and CEO of Legora, who is using Claude to bring legal interpretation into its next era. His thesis: every new model release raises the tide, and Legora builds the boats. The post is part of "The Problem Solvers" series.
-Claude 官方账号聚焦 Legora 联合创始人兼 CEO Max Junestrand 的故事——他正在用 Claude 推动法律解释进入新时代。他的论断：每次新模型发布都会抬高水位，而 Legora 负责为所有人造船。这是"问题解决者"系列的最新篇章。
+Replit CEO Amjad Masad celebrated a remarkable milestone: an app went from concept to App Store in just 48 hours.
+Replit CEO Amjad Masad 庆祝了一个令人瞩目的里程碑：一款应用在短短 48 小时内从概念到上架 App Store。
 
-• https://x.com/claudeai/status/2061829560505655316
-• https://x.com/claudeai/status/2061829558999912680
+He also humorously noted that even the most ambitious AI-native startups can't escape the gravitational pull of B2B SaaS business models.
+他还幽默地指出，即使是最雄心勃勃的 AI 原生创业公司，也逃不过 B2B SaaS 商业模式的引力。
+
+Source: https://x.com/amasad/status/2062369124609892655
+Source: https://x.com/amasad/status/2062228935702921641
+
+---
+
+### OpenClaw CEO Peter Steinberger (steipete on X)
+
+OpenClaw CEO Peter Steinberger shared that OpenClaw is seeing its highest-ever npm download numbers this week.
+OpenClaw CEO Peter Steinberger 分享称，OpenClaw 本周 npm 下载量创下历史新高。
+
+Combined with Docker, GitHub, company-internal deployments, and numerous forks, he estimates the real number is in the 10-20 million downloads per week range.
+结合 Docker、GitHub、公司内部部署及大量 fork，他估计实际数字每周达到 1000-2000 万次下载。
+
+He also shared the video of his MS Build talk: *"Build the thing that builds the thing"* — a talk focused on meta-level development and AI-assisted tooling.
+他还分享了其在 MS Build 演讲的视频："Build the thing that builds the thing"——一场聚焦于元级别开发与 AI 辅助工具的演讲。
+
+The OpenClaw event had over 1,300 people on the waitlist and was livestreamed on Twitch and Discord.
+OpenClaw 活动有超过 1300 人在候补名单上，并在 Twitch 和 Discord 上进行了直播。
+
+Source: https://x.com/steipete/status/2062390654022332691
+Source: https://x.com/steipete/status/2062307384018829768
+Source: https://x.com/steipete/status/2062276065448669627
+
+---
+
+### Dan Shipper (danshipper on X) — Every 创始人
+
+Every founder Dan Shipper shared a new episode of the AI & I podcast featuring Figma's director of product management for developers.
+Every 创始人 Dan Shipper 分享了一期 AI & I 播客新集，嘉宾是 Figma 的开发者产品管理总监。
+
+He noted he bought Figma stock during the "SaaSpocalypse" panic — and the conversation made him wish he'd bought more.
+他提到自己在"SaaS 末日"恐慌期间买入了 Figma 股票，而这次对话让他后悔买得不够多。
+
+He also shared a thoughtful philosophical reflection: *"Can you look the machine god in the face and keep your feet on the ground? Can you refuse to confuse your self with what can be measured, verbalized, or grasped? If so, you will go far."*
+他还分享了一段耐人寻味的哲学思考："你能直视机器神的脸，同时脚踏实地吗？你能拒绝把自我与可测量、可言说、可把握的东西混淆吗？如果能，你会走得很远。"
+
+Source: https://x.com/danshipper/status/2062202908306030915
+Source: https://x.com/danshipper/status/2062144269285023839
+
+---
+
+### Google Labs (GoogleLabs on X)
+
+Google Labs announced Dreambeans, a new experimental mobile app that uses "Personal Intelligence" to connect to your Google apps.
+Google Labs 宣布推出 Dreambeans，一款使用"个人智能"连接 Google 应用的新实验性移动应用。
+
+Every day, it delivers collections of personalized stories and surfaces things that matter to you — designed around "hope scrolling, not doom scrolling."
+每天，它提供个性化故事集，呈现对你重要的内容——围绕"希望滚动，而非末日滚动"的理念设计。
+
+Source: https://x.com/GoogleLabs/status/2062206479026069544
+
+---
+
+### Zara Zhang (zarazhangrui on X)
+
+Zara Zhang announced the launch of the "Beautiful Feishu Whiteboard" skill: agents can now create editable SVG graphics in Feishu/Lark docs in 30+ predefined styles.
+Zara Zhang 宣布推出"Beautiful Feishu Whiteboard"技能：Agent 现在可以在飞书/Lark 文档中创建 30+ 种预设风格的可编辑 SVG 图形。
+
+The tool is designed for concept visualization, technical architecture diagrams, and other visual communication needs directly inside collaborative documents.
+该工具专为概念可视化、技术架构图等视觉沟通需求设计，可直接在协作文档中使用。
+
+Source: https://x.com/zarazhangrui/status/2062256374730699257
+
+---
+
+### Anthropic (claudeai on X)
+
+The official Claude account shared a delightful community build: a user named Ben built a miniature "Clawd" robot to get his attention during long Claude Code sessions.
+Claude 官方账号分享了一个有趣的社区项目：一位名叫 Ben 的用户构建了一个微型"Clawd"机器人，在长时间的 Claude Code 会话中帮他集中注意力。
+
+When Claude Code needs input, a solenoid inside the aluminum body pushes the robot upward.
+当 Claude Code 需要输入时，铝制机身内的电磁铁会将机器人向上推动。
+
+Ben also built a typewriter terminal for Claude by intercepting keyboard signals and re-routing them to an Arduino, with a Raspberry Pi Zero acting as the "brains."
+Ben 还为 Claude 构建了一个打字机终端，通过拦截键盘信号并重新路由到 Arduino 实现，Raspberry Pi Zero 充当"大脑"。
+
+Source: https://x.com/claudeai/status/2062220049146876347
+Source: https://x.com/claudeai/status/2062220045984346276
+
+---
+
+### Josh Woodward (joshwoodward on X) — Google Labs 负责人
+
+Google Labs lead Josh Woodward shared the backstory behind Dreambeans: a small Google Labs team had the idea to make an app designed to connect you with what matters, without the endless scroll.
+Google Labs 负责人 Josh Woodward 分享了 Dreambeans 背后的故事：一个小型 Google Labs 团队构思了这款旨在无需无尽滚动就能连接你与重要内容的应用。
+
+*"Hope scrolling, not doom scrolling"* was the driving philosophy behind the experiment.
+"希望滚动，而非末日滚动"是这项实验背后的驱动理念。
+
+Source: https://x.com/joshwoodward/status/2062217728824651848
+
+---
+
+### Cursor 设计工程师招募 Ryo Lu (ryolu_ on X)
+
+Cursor is hiring design engineers, according to Ryo Lu.
+据 Ryo Lu 透露，Cursor 正在招募设计工程师。
+
+They're looking for people with taste, systems thinking, and deep care for fast, polished experiences — especially those excited to build tools that help designers and engineers.
+他们正在寻找有品位、有系统思维、对快速精致体验有深度关注的人——尤其是那些对构建帮助设计师和工程师的工具感到兴奋的人。
+
+Source: https://x.com/ryolu_/status/2062352329903665471
+
+---
+
+### Peter Yang (petergyang on X) — 前 Roblox 产品负责人
+
+Former Roblox product lead Peter Yang had an enthusiastic experience with Codex, calling it "absolutely killing it" for editing spreadsheets.
+前 Roblox 产品负责人 Peter Yang 对 Codex 的体验非常热情，称其在编辑电子表格方面"绝对出色"。
+
+He also asked how to make Codex the default tab when opening ChatGPT — suggesting strong product stickiness.
+他还询问如何将 Codex 设为打开 ChatGPT 时的默认标签——暗示了强烈的产品粘性。
+
+Source: https://x.com/petergyang/status/2062283525542531194
+
+---
+
+### YC CEO Garry Tan (garrytan on X)
+
+YC CEO Garry Tan shared a media criticism piece arguing that Scott Pelley's firing is not a free press tragedy but rather an autopsy of legacy media.
+YC CEO Garry Tan 分享了一篇媒体批评文章，认为 Scott Pelley 被解雇不是新闻自由的悲剧，而是传统媒体的解剖报告。
+
+He also commented on San Francisco's political trajectory, noting the city is no longer susceptible to "ridiculous gaslighting."
+他还评论了旧金山的政治走向，指出这座城市不再容易受到"荒谬的煤气灯效应"影响。
+
+Source: https://x.com/garrytan/status/2062426378809794805
+Source: https://x.com/garrytan/status/2062285811366904091
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
