@@ -1,290 +1,171 @@
-AI Builders 日报 · 2026-06-06
-
-===== OFFICIAL BLOGS =====
-
-【Anthropic Engineering】An update on recent Claude Code quality reports
-On the April 23 postmortem and quality improvements to Claude Code.
-https://www.anthropic.com/engineering/april-23-postmortem
-
-【Anthropic Engineering】Scaling Managed Agents: Decoupling the brain from the hands
-Anthropic shares architectural insights on separating reasoning (the "brain") from execution (the "hands") in managed agent systems to improve scalability and reliability.
-https://www.anthropic.com/engineering/managed-agents
-
-【Claude Blog】New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels
-Claude Managed Agents now supports self-hosted sandboxes and MCP tunnels, enabling more flexible and secure enterprise deployments.
-https://claude.com/blog/claude-managed-agents-updates
-
-【Claude Blog】New connectors in Claude for everyday life
-Claude expands its connector ecosystem with new integrations designed for everyday productivity use cases.
-https://claude.com/blog/connectors-for-everyday-life
+AI Builders 日报 · 2026-06-07
 
 ---
 
-===== X / TWITTER =====
+**Swyx (@swyx)**
 
-【Swyx | AI Engineer & Cognition】
+Swyx 分享了一个更智能的 AI 提示技巧：与其总是使用"plan mode"，不如把任务描述成一个问题，邀请模型提出反馈和替代方案，而不是盲目执行指令。
+*"always frame your task as a question, so that the model is invited to push back and rate the quality of the idea/suggest alternatives, rather than blindly execute what you SAID to do"*
+他还分享了自己在 AI Engineer 社区中作为 BDFL（仁慈的终身独裁者）做一些"调皮的事情"，包括在伦敦活动中派发"AGI pills"。
 
-Swyx（@swyx），AI 工程师社区建设者、Cognition 成员。近期重点分享了来自 Cognition（简称 Cog）的重大进展：Cog 发布了首个 eval 成果，任务时长可达 100 小时，并提供财务担保——而目前行业标杆 METR 的 eval 上限仅为 16 小时。这一突破意义重大，标志着 AI 的任务执行能力已进入新量级。
-
-*"Cog has private enterprise evals up to 100hrs, and is confident enough to put a financial guarantee on it 🤯"*
-
-此外，他还提到新加坡领先数据库公司终于获得了本土投资者的重视，语气透露出由衷的欣慰。
-
-相关推文：
-https://x.com/swyx/status/2062611218196771017
-https://x.com/swyx/status/2062627150885450065
+来源：
+- https://x.com/swyx/status/2063082950317486133
+- https://x.com/swyx/status/2063029941202239645
+- https://x.com/swyx/status/2063013079974367557
 
 ---
 
-【Josh Woodward | Google Labs VP】
+**Boris Cherny (@bcherny)**
 
-Josh Woodward（@joshwoodward），Google Labs 副总裁，同时负责 Gemini App 和 Google AI Studio。近期他分享了 Gemini macOS 应用的一个令他印象深刻的新功能，言辞简短但充满热情。
+Boris Cherny 介绍了 Claude Cowork 的最佳使用场景：处理那些对话形式无法胜任的大型复杂任务，比如跨几十个账户的研究、定期报告生成以及收件箱分类和草拟回复。
+*"Cowork is at its best on work that's too big for a chat"*
+他还宣布 Claude Cowork 的使用限制已经翻倍，持续一个月，鼓励用户把积压的大项目拿出来处理。
 
-近期无重要技术动态，主要为产品功能的日常推介。
-
-相关推文：
-https://x.com/joshwoodward/status/2062667951485108354
-
----
-
-【Thibault Sottiaux | OpenAI Codex & ChatGPT】
-
-Thibault Sottiaux（@thsottiaux），OpenAI Codex 与 ChatGPT 团队成员。本周有两条值得关注的更新：
-
-其一，他宣布可通过 Python SDK 在自己的程序中直接使用 Codex，并提供了安装方式（`pip install openai-codex`），这对开发者集成 Codex 能力极为便利。
-
-*"You can use codex within your own programs using the Python SDK. It's awesome."*
-
-其二，他坦诚披露了一个 Codex 的 token 计数 bug：该 bug 导致部分 Pro 和 Plus 账户的 token 消耗被低估，影响账户比例不足 15%，目前已修复。他特别强调选择主动告知用户而非悄悄修复。
-
-相关推文：
-https://x.com/thsottiaux/status/2062734215494664697
-https://x.com/thsottiaux/status/2062648326332539015
+来源：
+- https://x.com/bcherny/status/2063028956211867837
+- https://x.com/bcherny/status/2063028954546733462
 
 ---
 
-【Peter Yang | Roblox Product & AI Creator】
+**Thibault Sottiaux (@thsottiaux)**
 
-Peter Yang（@petergyang），Roblox 产品经理，同时运营面向 14 万读者的 AI 实战通讯。近期他深度体验了 Codex，发表了几条有见地的评论：
+Thibault Sottiaux 发推庆祝 Codex 的改进工作，Codex 的"纸上缺陷"（papercuts）在减少的同时使用量却在上升。他还强调了更好的记忆能力带来的价值：更短的提示词，意味着每个 token 能产生更多效用。
 
-他花了一整天为自己的内容创作工作流配置 Codex 集成和技能，认为只要提前搭好系统，知识工作至少可以节省 50% 的时间。
-
-*"I spent the whole day today setting up integrations and skills in Codex for my top creator workflows."*
-
-他也直言 Codex 的前端设计体验有待改进，并以自己的 `/slides` 技能为例对比了 Codex 和 Claude 的输出质量差异，指出 Claude 在一次性生成精美 HTML 幻灯片方面仍有优势。
-
-相关推文：
-https://x.com/petergyang/status/2062740262338929110
-https://x.com/petergyang/status/2062743491365544361
+来源：
+- https://x.com/thsottiaux/status/2062997876297609257
+- https://x.com/thsottiaux/status/2062997768470474765
+- https://x.com/thsottiaux/status/2062966625733861752
 
 ---
 
-【Cat Wu | Anthropic Claude Code】
+**Peter Yang (@petergyang)**
 
-Cat Wu（@_catwu），Anthropic Claude Code 团队成员。近期正在招聘 Claude Code 的产品经理职位，方向聚焦于模型性能，要求候选人具备编写 agentic evals 的经验，并能将研究成果融入核心产品。
+Peter Yang 采访了一位没有计算机科学学位也没有正式工程背景的开发者，对方却成功交付了众多项目并为代码仓库做出了贡献，令人深受鼓舞。他还分享了一套构建"能自我检查并持续优化"的 AI 技能的方法：先给 AI 提供上下文和优质输出示例，让它了解什么是好的结果。
 
-近期无其他重要技术动态。
-
-相关推文：
-https://x.com/_catwu/status/2062659533047259212
-
----
-
-【Thariq | Anthropic Claude Code】
-
-Thariq（@trq212），Anthropic Claude Code 团队成员、前 YC W20 创业者。近期分享了两个颇具深度的视角：
-
-他重新诠释了 Robin Sloan 2020 年关于"家常便饭式应用"的文章，认为个人软件在 2020 年还是超前概念，但到 2026 年，它真的可以像手写信或家常便饭一样私人化，AI 的普及使这一愿景成为现实。
-
-此外，他还探讨了动态工作流如何让 Claude Code 胜任全新类型的任务，对 Agentic 编程能力的边界展开了深思。
-
-*"personal software was a bit early in 2020 but in 2026, it really can be as personal as a home cooked meal, or a handwritten letter"*
-
-相关推文：
-https://x.com/trq212/status/2062605395101884916
-https://x.com/trq212/status/2062556889171517499
+来源：
+- https://x.com/petergyang/status/2062959766314582064
+- https://x.com/petergyang/status/2062899832965255443
 
 ---
 
-【Amjad Masad | Replit CEO】
+**Madhu Guru (@realmadhuguru)**
 
-Amjad Masad（@amasad），Replit CEO，自称"文明主义者"。近期分享了 Replit 的"Prompt to Shop"功能链接，用极简的方式展示了 AI 驱动的电商创建能力。内容较为简短，属于产品推介性质。
+Madhu Guru 指出企业 AI 团队最常见的错误之一：只针对当前的模型能力和价格点进行构建。他建议着眼于六个月后的未来——模型将会更智能、更便宜，应该围绕未来的能力来设计架构。
+*"Think 6 months out. Models will be way smarter and cheaper."*
 
-相关推文：
-https://x.com/amasad/status/2062646796804145517
-
----
-
-【Guillermo Rauch | Vercel CEO】
-
-Guillermo Rauch（@rauchg），Vercel CEO。近期重申了 Vercel 对开放 Web 平台的承诺：通过投资 Nitro.js、支持开放运行时，以及对 Nuxt、Svelte、TanStack Start 等基于 Vite 的框架提供原生支持，持续推动 Web 开发生态的开放性与多元化。
-
-相关推文：
-https://x.com/rauchg/status/2062535454130676193
+来源：
+- https://x.com/realmadhuguru/status/2063024953721827329
 
 ---
 
-【Alex Albert | Anthropic Research】
+**Amjad Masad (@amasad)**
 
-Alex Albert（@alexalbert__），Anthropic 研究员。近期发布了一条极具分量的数据披露——关于 Claude 在 Anthropic 自身研发中的参与程度：
+Amjad Masad 宣布了 Replit 与 Shopify 的合作，并转发了一些关于 AI 编程领域日新月异现状的内容，感叹"Crazy times"。他表示，现实中几乎每天都能听到类似"AI 改变了我的工作方式"这样的故事。
 
-- Anthropic 代码库中超过 **80%** 的合并代码现在由 Claude 编写
-- 许多研究人员已数月未手写代码
-- 典型 Anthropic 工程师的代码产出是 2024 年的 **8 倍**
-- 在最开放的工程任务上，Claude 的成功率从 6 个月前的约 26% 跃升至 **76%**
-- 当研究会话偏离方向时，Claude 能主动提出更好的下一步方向
-
-*"Over 80% of all code merged into our codebase is now written by Claude"*
-
-这组数据生动展示了 AI 辅助开发在顶级 AI 实验室内部的真实渗透深度。
-
-相关推文：
-https://x.com/alexalbert__/status/2062580571214389510
+来源：
+- https://x.com/amasad/status/2063089288997491063
+- https://x.com/amasad/status/2063065480878063694
+- https://x.com/amasad/status/2062902535153910081
 
 ---
 
-【Aaron Levie | Box CEO】
+**Guillermo Rauch (@rauchg)**
 
-Aaron Levie（@levie），Box CEO。近期就 Anthropic 发布的一篇深度文章发表了有见地的评论，他特别引用了其中一段关于 AI 乐观情景的关键描述——当 AI 能持续帮助组织发现并修复瓶颈时，这种"识别和解决瓶颈的能力"本身将成为任何组织最重要的核心能力。
+Guillermo Rauch 宣布了 Vercel 的重要基础设施更新：Agent 文件系统状态现在可以独立于 Sandbox 生命周期进行读取、写入和挂载，背后是他们为所有计算产品开发的新型虚拟存储基础设施。他还推广了 Skills API，将其比作"agent 能力的 npm registry"——免费且开放。
+*"Agent filesystem state can now be read, written and mounted independently of Sandbox lifecycle."*
 
-*"The rate at which organizations can spot and fix these bottlenecks may be a skill that improves over time, and it may become the most important skill for any organization."*
-
-这一洞察对企业 AI 战略的制定有重要启示：AI 的价值不只是做更多事，而是帮助组织更快地找到并突破自身的约束。
-
-相关推文：
-https://x.com/levie/status/2062728257359790292
-
----
-
-【Garry Tan | YC President & CEO】
-
-Garry Tan（@garrytan），Y Combinator 总裁兼 CEO。近期分享了令他振奋的两条产业动态：
-
-其一，YC 在同一天迎来两家估值突破百亿美元的校友公司，其中一家正在建造商业核聚变装置——Polaris 已实现 1.5 亿摄氏度的等离子体温度，成为首台实现这一里程碑的私人资助设备。Garry 以此为"丰盛未来"的象征，由真正能出货的人建造。
-
-其二，他转发了关于"接近产品市场契合度（PMF）仍不是 PMF"的讨论，提醒创业者不要被"差一点"的假象所迷惑。
-
-*"Two YC decacorns in one day and one of them is building commercial fusion."*
-
-相关推文：
-https://x.com/garrytan/status/2062763109849411834
-https://x.com/garrytan/status/2062761266083754088
+来源：
+- https://x.com/rauchg/status/2063009510503932181
+- https://x.com/rauchg/status/2062954780465434779
+- https://x.com/rauchg/status/2062951924677128455
 
 ---
 
-【Matt Turck | FirstMark Capital VC】
+**Aaron Levie (@levie)**
 
-Matt Turck（@mattturck），FirstMark Capital 风险投资人，MAD Podcast 主持人。近期重点推介了与 OpenAI 强化学习基础团队负责人 Dan Roberts 的深度对谈播客（详见播客板块），话题围绕 AI 在数学和科学发现上的突破性进展展开。
+Aaron Levie 发表了对 AI 时代的深刻观察：编程可以说是最适合 AI 自动化的任务领域，但即便如此，我们仍然需要人类工程师来监督 AI agent 才能使其有效运作。他认为这说明了人类监督在 AI 工作流中的持续重要性。
+*"Coding is basically the pinnacle of what you could reasonably automate with AI, and yet we still need human engineers to oversee agents for them to be effective."*
 
-相关推文：
-https://x.com/mattturck/status/2062587000201580808
-https://x.com/mattturck/status/2062587004261748887
-
----
-
-【Nikunj Kothari | FPV Ventures Partner】
-
-Nikunj Kothari（@nikunj），FPV Ventures 合伙人。近期分享了一个颇为有趣的个人实验：他用 Claude Code 整理了过去两年 Granola 捕获的 200+ 份一对一创始人路演会议记录，并从中提炼出他本人的提问模式，最终构建了一个代表其投资视角的"Nock Skill"AI 代理。
-
-*"Someone recently asked me if I can be replaced by AI, and my ego initially said NO WAY.."*
-
-这一案例展示了 AI 如何帮助投资人将隐性知识外显化，并形成可复用的判断框架。
-
-此外，他还分享了对一位深耕建筑行业的创业者的投资决策，强调同理心和行业热情是这类赛道取胜的核心要素。
-
-相关推文：
-https://x.com/nikunj/status/2062659649732825549
-https://x.com/nikunj/status/2062543215392428193
+来源：
+- https://x.com/levie/status/2063055332545540096
 
 ---
 
-【Dan Shipper | Every CEO】
+**Ryo Lu (@ryolu_)**
 
-Dan Shipper（@danshipper），Every（AI 内容平台）CEO。近期发布了重磅产品更新：**Spiral 4.0**——一款为个人和 AI 代理设计的写作伙伴。
+Ryo Lu 展示了 Composer 2.5 的新功能：在代码中进行设计现在变得极为简单——点击、对话、按住 Shift 多选，设计体验大幅提升。
 
-核心亮点包括：
-- **风格测量（Stylometry）**：基于文体测量学原理构建的新型风格引擎，通过分析用户历史作品提取个人或品牌声音，实现高度一致的风格化写作
-- **MCP & CLI 支持**：Spiral 现在支持被 Codex、Claude Code 等 AI 代理直接调用，实现自动化高质量写作输出
-
-*"Spiral is now built to be used by your agent like Codex, Claude Code, OpenClaw and more so you can get great writing automatically"*
-
-Every 团队已将 Spiral 用于日常的落地页、推文、播客和营销邮件写作，这是一次将 AI 写作工具真正面向代理时代的产品跃升。
-
-相关推文：
-https://x.com/danshipper/status/2062628079869005876
+来源：
+- https://x.com/ryolu_/status/2063038983408615435
 
 ---
 
-【Aditya Agarwal | SouthPk Commons GP】
+**Garry Tan (@garrytan)**
 
-Aditya Agarwal（@adityaag），SouthPk Commons 普通合伙人，前 Dropbox CTO、早期 Facebook 工程师。近期提出了一个清晰的职业演化判断：越来越多的传统岗位将被注入工程技能，"营销工程师"（Marketing Engineer）就是一个典型例子。
+Garry Tan 分享了 GBrain 为 AI agent 赋予新能力的消息，并预告了他数月前开始着手的大项目终于对外开放——一个旨在帮助用户学习最佳构建技术的工具。他还转发了一条关于未来无人机战争中"必备装备"的内容。
 
-这一观点呼应了近期 AI 普及背景下复合型人才崛起的大趋势。
-
-相关推文：
-https://x.com/adityaag/status/2062655784127971565
-
----
-
-【Sam Altman | OpenAI CEO】
-
-Sam Altman（@sama），OpenAI CEO。近期发布了三条关注度较高的推文：
-
-其一，宣布 ChatGPT 记忆功能的重大升级正在推出。
-
-其二，兴奋地展示了 ChatGPT 新的 Web 应用构建与发布功能，并感叹这是他小时候梦寐以求的工具，同时表达了对 HyperCard 时代的怀念。
-
-*"build and publish web apps with chatgpt! i really wish i had this when i was a kid"*
-
-其三，感叹互联网早期的特别氛围，言语中流露出对那个充满探索精神的时代的深切怀念。
-
-相关推文：
-https://x.com/sama/status/2062661071761211561
-https://x.com/sama/status/2062660086787613116
-https://x.com/sama/status/2062661191969972645
+来源：
+- https://x.com/garrytan/status/2063157328753594505
+- https://x.com/garrytan/status/2063146456106795457
+- https://x.com/garrytan/status/2063146111960019028
 
 ---
 
-【Claude | Anthropic AI】
+**Matt Turck (@mattturck)**
 
-Claude（@claudeai），Anthropic 官方账号。近期分享了"Problem Solvers"系列的最新内容——专访 Lovable 联合创始人兼 CEO Anton Osika。
+Matt Turck 以幽默的方式分享了 VC 与创始人之间的"互相吐槽"：当外界流传 VC 的负面故事时，他讲述了一个创始人在拿到更高估值的 term sheet 后反悔的真实案例，提醒大家信任在融资关系中的重要性。
 
-Anton 的核心论点：**在 AI 时代，最被低估的护城河是信任**，而赢得信任需要工艺、用心和对细节的执着。Lovable 的愿景是让任何人都能通过对话构建软件。
-
-*"the most underrated moat in AI is trust, and earning it takes craft, care, and obsession"*
-
-相关推文：
-https://x.com/claudeai/status/2062558332695556378
-https://x.com/claudeai/status/2062558335358927317
+来源：
+- https://x.com/mattturck/status/2063035894790345200
 
 ---
 
-===== PODCASTS =====
+**Nikunj Kothari (@nikunj)**
 
-【The MAD Podcast with Matt Turck】
-OpenAI's Dan Roberts: Why AI Can Now Make Discoveries
-发布时间：2026-06-04
-链接：https://www.youtube.com/watch?v=oWOz2htozfI
+Nikunj Kothari 预告了一支即将发布的视频，并转发了一场关于 VC 与创始人关系的讨论，强调"没有创始人就没有 VC"，呼吁行业共同提升彼此的合作标准。
 
-本期播客由 FirstMark Capital 风险投资人 Matt Turck 主持，对话嘉宾为 OpenAI 强化学习基础团队负责人 Dan Roberts。这是一次深度而罕见的学术-工程跨界对谈。
+来源：
+- https://x.com/nikunj/status/2063143108070744492
+- https://x.com/nikunj/status/2062910976018854252
 
-Episode overview:
-In this conversation, host Matt Turck and OpenAI's Dan Roberts explore the historic moment when AI systems — including models from OpenAI, DeepMind, and Anthropic — cracked some of mathematics' longest-unsolved problems (the Erdős problems), marking a potential shift from AI as a tool to AI as an autonomous scientific discoverer.
+---
 
-本期精华：
+**Dan Shipper (@danshipper)**
 
-**AI 正在从"执行工具"转变为"自主发现者"**：Dan 解释了为什么近期 AI 攻克数学难题（包括困扰数学界数十年的厄多斯问题）不只是技术噱头，而是 AI 系统开始在没有明确指令的情况下进行真正"探索性推理"的有力信号。
+Dan Shipper 是 Every 的联合创始人，近日为纽约尼克斯加油助威，同时推广了 Every 的最新内容：包括一个完整的工作流程和提示词集合，即将向 Every 订阅用户开放。
 
-**强化学习的本质**：Dan 详细拆解了强化学习（RL）为何是当前 AI 最重要的训练范式。与预训练不同，RL 让模型学会在不确定环境中持续"坚持"，沿着漫长的推理链向前——这正是解决困难数学问题所必需的能力。
+来源：
+- https://x.com/danshipper/status/2063100104274280597
+- https://x.com/danshipper/status/2063015392092524924
+- https://x.com/danshipper/status/2062930113390354641
 
-*"When you go against the grain and do something contrarian like that, you really have to have strong conviction in what you're doing in order to persevere down a really long calculation path."*
+---
 
-**物理学家的视角**：Dan 拥有 MIT 理论物理博士背景，研究方向为量子引力与量子信息（黑洞信息悖论）。他认为深度学习和物理学共享同一套统计学框架——这一视角促使他和合作者写出了《深度学习理论原理》一书，并最终加入 OpenAI，专注于用科学方法理解 AI 的工作原理。
+**Aditya Agarwal (@adityaag)**
 
-**科学发现的新纪元**：Dan 对 AI 辅助科学的未来充满期待——他相信 AI 将帮助人类真正回答那些长期困扰科学界的基础性问题，而不只是加速已知路径上的工作。
+Aditya Agarwal 分享了一句深刻的反思："有时候，速度只不过是用雄心壮志伪装起来的不耐烦。"（*"Sometimes speed is just impatience disguised as ambition."*）提醒构建者在追求快速执行的同时，也需要审视内心真正的驱动力。
 
-*"I feel really excited that we will get to really answer a lot of fundamental questions in the field of science that we care about with the aid of AI models being the driving force."*
+来源：
+- https://x.com/adityaag/status/2062917028558639292
+- https://x.com/adityaag/status/2062917027103130013
 
-对于关注 AI 前沿进展、尤其是 AI 与科学交叉领域的读者，本期播客强烈推荐。
+---
 
-播客链接：https://www.youtube.com/watch?v=oWOz2htozfI
+**Claude (@claudeai)**
+
+Claude 官方宣布 Cowork 功能的使用限制翻倍，活动持续至 7 月 5 日，适用于所有付费计划用户。鼓励用户下载 Claude 桌面应用，将更大、更复杂的任务委托给 Claude 处理。
+
+来源：
+- https://x.com/claudeai/status/2063018339710992794
+- https://x.com/claudeai/status/2063018337567670285
+
+---
+
+**🎙️ Podcast · AI & I by Every**
+
+**The SaaS Apocalypse Is a Goldmine With Figma's Matt Colyer**
+
+Every 播客《AI & I》邀请了 Figma 的 Matt Colyer，探讨"SaaS 末日"其实是创业者的黄金机遇。随着 AI 重塑软件行业，传统 SaaS 公司正面临颠覆，但对于有准备的构建者而言，这恰恰是抢占市场的最佳时机。
+
+来源：https://www.youtube.com/watch?v=kYKebKB3-d0
+发布时间：2026-06-03
