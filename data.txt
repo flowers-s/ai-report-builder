@@ -1,171 +1,202 @@
-AI Builders 日报 · 2026-06-07
+AI Builders 日报 · 2026-06-08
 
 ---
 
-**Swyx (@swyx)**
+## Swyx (@swyx)
 
-Swyx 分享了一个更智能的 AI 提示技巧：与其总是使用"plan mode"，不如把任务描述成一个问题，邀请模型提出反馈和替代方案，而不是盲目执行指令。
-*"always frame your task as a question, so that the model is invited to push back and rate the quality of the idea/suggest alternatives, rather than blindly execute what you SAID to do"*
-他还分享了自己在 AI Engineer 社区中作为 BDFL（仁慈的终身独裁者）做一些"调皮的事情"，包括在伦敦活动中派发"AGI pills"。
+One popular theory is that research paper alpha and lab publishing largely died when researchers realized they could simply walk out and get >$100M for their legally protected tacit knowledge.
+一个流行的理论是：当研究人员意识到，与其和市场部门争斗，不如直接出走、凭借受法律保护的隐性知识拿到逾1亿美元融资，学术论文的"alpha"价值和实验室发表就此式微。
 
-来源：
-- https://x.com/swyx/status/2063082950317486133
-- https://x.com/swyx/status/2063029941202239645
-- https://x.com/swyx/status/2063013079974367557
+California's non-compete ban has had a bigger impact on AI than most realize — it's the structural reason talent flows so freely between labs.
+加州的竞业禁止豁免政策对AI行业的影响远超大多数人的认知——这正是人才在各大实验室之间自由流动的结构性原因。
 
----
+*"research paper alpha and lab publishing ~died when researchers realized that instead of fighting with marketing depts they could simply walk out the door"*
+*"研究人员意识到与其和市场部门争斗不如直接出走，学术论文的alpha价值就此凋零"*
 
-**Boris Cherny (@bcherny)**
-
-Boris Cherny 介绍了 Claude Cowork 的最佳使用场景：处理那些对话形式无法胜任的大型复杂任务，比如跨几十个账户的研究、定期报告生成以及收件箱分类和草拟回复。
-*"Cowork is at its best on work that's too big for a chat"*
-他还宣布 Claude Cowork 的使用限制已经翻倍，持续一个月，鼓励用户把积压的大项目拿出来处理。
-
-来源：
-- https://x.com/bcherny/status/2063028956211867837
-- https://x.com/bcherny/status/2063028954546733462
+🔗 https://x.com/swyx/status/2063432747432268259
 
 ---
 
-**Thibault Sottiaux (@thsottiaux)**
+## Peter Yang (@petergyang)
 
-Thibault Sottiaux 发推庆祝 Codex 的改进工作，Codex 的"纸上缺陷"（papercuts）在减少的同时使用量却在上升。他还强调了更好的记忆能力带来的价值：更短的提示词，意味着每个 token 能产生更多效用。
+Peter Yang is all-in on agentic coding this week, calling it more addictive than video games.
+Peter Yang 本周完全沉浸在 agentic coding 中，直言其上瘾程度堪比电子游戏。
 
-来源：
-- https://x.com/thsottiaux/status/2062997876297609257
-- https://x.com/thsottiaux/status/2062997768470474765
-- https://x.com/thsottiaux/status/2062966625733861752
+*"this agentic coding crack is more addictive than video games smh"*
+*"这个 agentic coding 比电子游戏还上瘾，服了"*
 
----
+He's pushing for better thread management in OpenAI's Codex — specifically the ability to filter threads by status like "waiting for approval" or "currently working," noting it's already getting unwieldy past 10 threads.
+他呼吁 OpenAI Codex 提供更好的线程管理功能——特别是按"等待审批"或"当前运行"等状态过滤线程，并指出超过10个线程后管理已经变得杂乱难控。
 
-**Peter Yang (@petergyang)**
+Also taking a moment for rest: "Good night."
+也在忙碌之余留出了放松时间：晒出"晚安"。
 
-Peter Yang 采访了一位没有计算机科学学位也没有正式工程背景的开发者，对方却成功交付了众多项目并为代码仓库做出了贡献，令人深受鼓舞。他还分享了一套构建"能自我检查并持续优化"的 AI 技能的方法：先给 AI 提供上下文和优质输出示例，让它了解什么是好的结果。
-
-来源：
-- https://x.com/petergyang/status/2062959766314582064
-- https://x.com/petergyang/status/2062899832965255443
-
----
-
-**Madhu Guru (@realmadhuguru)**
-
-Madhu Guru 指出企业 AI 团队最常见的错误之一：只针对当前的模型能力和价格点进行构建。他建议着眼于六个月后的未来——模型将会更智能、更便宜，应该围绕未来的能力来设计架构。
-*"Think 6 months out. Models will be way smarter and cheaper."*
-
-来源：
-- https://x.com/realmadhuguru/status/2063024953721827329
+🔗 https://x.com/petergyang/status/2063491534339936584
+🔗 https://x.com/petergyang/status/2063486871037153558
+🔗 https://x.com/petergyang/status/2063475353335869922
 
 ---
 
-**Amjad Masad (@amasad)**
+## Madhu Guru (@realmadhuguru)
 
-Amjad Masad 宣布了 Replit 与 Shopify 的合作，并转发了一些关于 AI 编程领域日新月异现状的内容，感叹"Crazy times"。他表示，现实中几乎每天都能听到类似"AI 改变了我的工作方式"这样的故事。
+Routing to models is genuinely hard — it means mapping each task to the right model, which requires benchmarking against your product's specific tasks and dialing in the quality/cost trade-off.
+模型路由是一个真正的难题——它意味着要将每个任务匹配到正确的模型，这需要针对产品的具体任务进行基准测试，并精细调节质量与成本之间的平衡。
 
-来源：
-- https://x.com/amasad/status/2063089288997491063
-- https://x.com/amasad/status/2063065480878063694
-- https://x.com/amasad/status/2062902535153910081
+And there is an opportunity in that difficulty.
+而这种困难本身，正孕育着机会。
 
----
+Madhu outlines the enterprise progression: from single-model to multi-model, noting that the teams who figure out routing early will have a durable competitive edge.
+Madhu 描绘了企业的演进路径：从单一模型到多模型，指出那些率先掌握路由策略的团队将拥有持久的竞争优势。
 
-**Guillermo Rauch (@rauchg)**
-
-Guillermo Rauch 宣布了 Vercel 的重要基础设施更新：Agent 文件系统状态现在可以独立于 Sandbox 生命周期进行读取、写入和挂载，背后是他们为所有计算产品开发的新型虚拟存储基础设施。他还推广了 Skills API，将其比作"agent 能力的 npm registry"——免费且开放。
-*"Agent filesystem state can now be read, written and mounted independently of Sandbox lifecycle."*
-
-来源：
-- https://x.com/rauchg/status/2063009510503932181
-- https://x.com/rauchg/status/2062954780465434779
-- https://x.com/rauchg/status/2062951924677128455
+🔗 https://x.com/realmadhuguru/status/2063342268472574268
 
 ---
 
-**Aaron Levie (@levie)**
+## Amjad Masad (@amasad)
 
-Aaron Levie 发表了对 AI 时代的深刻观察：编程可以说是最适合 AI 自动化的任务领域，但即便如此，我们仍然需要人类工程师来监督 AI agent 才能使其有效运作。他认为这说明了人类监督在 AI 工作流中的持续重要性。
-*"Coding is basically the pinnacle of what you could reasonably automate with AI, and yet we still need human engineers to oversee agents for them to be effective."*
+Amjad reflects on when he spoke out against the Gaza genocide — midwit VCs ganged up on him publicly and tried to harm him privately.
+Amjad 回顾了自己公开反对加沙种族灭绝时的经历——一群平庸的风投公开群起攻之，还私下试图伤害他。
 
-来源：
-- https://x.com/levie/status/2063055332545540096
+But the VCs who stood by him were not only morally better — they also delivered better returns.
+而那些支持他的风投，不仅在道德上更为高尚，回报表现也更出色。
 
----
+*"The best way to avoid sociopaths is to have them self select out"*
+*"避开反社会者的最好方式，就是让他们自我淘汰出局"*
 
-**Ryo Lu (@ryolu_)**
+He also posted a photo from "Vibecon" — a signal that in-person AI community gatherings are back in full force.
+他还晒出了"Vibecon"活动的照片——这表明 AI 社区的线下聚会已全面回归。
 
-Ryo Lu 展示了 Composer 2.5 的新功能：在代码中进行设计现在变得极为简单——点击、对话、按住 Shift 多选，设计体验大幅提升。
-
-来源：
-- https://x.com/ryolu_/status/2063038983408615435
-
----
-
-**Garry Tan (@garrytan)**
-
-Garry Tan 分享了 GBrain 为 AI agent 赋予新能力的消息，并预告了他数月前开始着手的大项目终于对外开放——一个旨在帮助用户学习最佳构建技术的工具。他还转发了一条关于未来无人机战争中"必备装备"的内容。
-
-来源：
-- https://x.com/garrytan/status/2063157328753594505
-- https://x.com/garrytan/status/2063146456106795457
-- https://x.com/garrytan/status/2063146111960019028
+🔗 https://x.com/amasad/status/2063344460705288401
+🔗 https://x.com/amasad/status/2063300737296400516
 
 ---
 
-**Matt Turck (@mattturck)**
+## Aaron Levie (@levie)
 
-Matt Turck 以幽默的方式分享了 VC 与创始人之间的"互相吐槽"：当外界流传 VC 的负面故事时，他讲述了一个创始人在拿到更高估值的 term sheet 后反悔的真实案例，提醒大家信任在融资关系中的重要性。
+Token costs are becoming one of the hottest topics for any enterprise Aaron talks with right now.
+Token 成本正成为 Aaron 与企业交流时最热门的话题之一。
 
-来源：
-- https://x.com/mattturck/status/2063035894790345200
+It's very bullish for AI in general because it means these systems are being used at a scale that wasn't contemplated before.
+这对 AI 整体而言是极大的利好信号，因为它说明这些系统正在以前所未有的规模被实际使用。
 
----
+*"Token costs are becoming one of the hottest topics for any enterprise I talk with right now"*
+*"Token 成本正成为我与任何企业交流时最热门的话题之一"*
 
-**Nikunj Kothari (@nikunj)**
+It also signals a new form of competitive differentiation emerging for AI companies — those who can optimize cost at scale will win enterprise contracts.
+这也预示着 AI 公司之间将涌现出新的竞争分化形式——能够在规模上优化成本的企业将赢得更多大客户合同。
 
-Nikunj Kothari 预告了一支即将发布的视频，并转发了一场关于 VC 与创始人关系的讨论，强调"没有创始人就没有 VC"，呼吁行业共同提升彼此的合作标准。
-
-来源：
-- https://x.com/nikunj/status/2063143108070744492
-- https://x.com/nikunj/status/2062910976018854252
-
----
-
-**Dan Shipper (@danshipper)**
-
-Dan Shipper 是 Every 的联合创始人，近日为纽约尼克斯加油助威，同时推广了 Every 的最新内容：包括一个完整的工作流程和提示词集合，即将向 Every 订阅用户开放。
-
-来源：
-- https://x.com/danshipper/status/2063100104274280597
-- https://x.com/danshipper/status/2063015392092524924
-- https://x.com/danshipper/status/2062930113390354641
+🔗 https://x.com/levie/status/2063320673217609936
 
 ---
 
-**Aditya Agarwal (@adityaag)**
+## Garry Tan (@garrytan)
 
-Aditya Agarwal 分享了一句深刻的反思："有时候，速度只不过是用雄心壮志伪装起来的不耐烦。"（*"Sometimes speed is just impatience disguised as ambition."*）提醒构建者在追求快速执行的同时，也需要审视内心真正的驱动力。
+Garry clarifies Paxel's privacy stance: they never claimed zero cloud data upload — specifically, only file *contents* (code) don't go to the cloud.
+Garry 澄清了 Paxel 的隐私立场：他们从未声称零云端数据上传——具体而言，只有文件*内容*（代码）不会上传至云端。
 
-来源：
-- https://x.com/adityaag/status/2062917028558639292
-- https://x.com/adityaag/status/2062917027103130013
+*"We never said we don't upload any user data to the cloud. We said the code (file contents) specifically doesn't."*
+*"我们从未说过不会上传任何用户数据到云端。我们说的是，代码（文件内容）具体不会上传。"*
+
+He's also helping users become more legit with Paxel, and looking forward to the day when local models are good enough to do even more processing locally.
+他也在帮助用户更规范地使用 Paxel，并期待本地模型足够强大、可以在本地完成更多处理的那一天。
+
+On local governance: Garry backs @empoweroak to bring common-sense reform to Oakland, noting SF's resurgence as a model.
+关于地方治理：Garry 支持 @empoweroak 为奥克兰带来务实改革，并以旧金山的复苏作为参照范本。
+
+🔗 https://x.com/garrytan/status/2063418130714800487
+🔗 https://x.com/garrytan/status/2063409501706018903
+🔗 https://x.com/garrytan/status/2063280482922663980
 
 ---
 
-**Claude (@claudeai)**
+## Zara Zhang (@zarazhangrui)
 
-Claude 官方宣布 Cowork 功能的使用限制翻倍，活动持续至 7 月 5 日，适用于所有付费计划用户。鼓励用户下载 Claude 桌面应用，将更大、更复杂的任务委托给 Claude 处理。
+The value of static content is going down; the value of live interaction is going up.
+静态内容的价值正在下降；实时互动的价值正在上升。
 
-来源：
-- https://x.com/claudeai/status/2063018339710992794
-- https://x.com/claudeai/status/2063018337567670285
+People want to connect with the human being behind a piece of work, whether it's content or software.
+人们渴望与作品背后的人建立连接，无论是内容还是软件。
+
+*"Raw & opinionated > polished & generic"*
+*"原生、有观点 > 打磨精良、千人一面"*
+
+Zara's take captures a key creative shift in the AI era: authenticity and distinctiveness beat production polish.
+Zara 的观点捕捉到了 AI 时代一个关键的创作转变：真实性与独特性胜过制作上的精打细磨。
+
+🔗 https://x.com/zarazhangrui/status/2063391758189572266
 
 ---
 
-**🎙️ Podcast · AI & I by Every**
+## Nikunj Kothari (@nikunj)
 
-**The SaaS Apocalypse Is a Goldmine With Figma's Matt Colyer**
+Nikunj shares a reminder to disconnect: "don't forget to touch sand this weekend 🌞"
+Nikunj 提醒大家断开连接："这个周末别忘了踩踩沙滩 🌞"
 
-Every 播客《AI & I》邀请了 Figma 的 Matt Colyer，探讨"SaaS 末日"其实是创业者的黄金机遇。随着 AI 重塑软件行业，传统 SaaS 公司正面临颠覆，但对于有准备的构建者而言，这恰恰是抢占市场的最佳时机。
+He also releases "A Walk In The Park (part II)" — a conversation with @taiuti about world models, the origin story of Reactor World (from text-to-3D), and building a company in stealth.
+他还发布了"A Walk In The Park（第二部分）"——与 @taiuti 关于世界模型、Reactor World 起源故事（从文字到3D）以及秘密建立公司的对话。
 
-来源：https://www.youtube.com/watch?v=kYKebKB3-d0
-发布时间：2026-06-03
+The episode covers everything from GTA and games as a path into programming, to picking investors.
+该集内容涵盖从《GTA》与游戏作为编程入门路径，到如何挑选投资人的方方面面。
+
+🔗 https://x.com/nikunj/status/2063381764782116914
+🔗 https://x.com/nikunj/status/2063263389238087745
+
+---
+
+## Dan Shipper (@danshipper)
+
+Dan is reading Plato's Protagoras and finding it eerily prescient about LLMs.
+Dan 正在阅读柏拉图的《普罗泰戈拉篇》，发现其对 LLM 的预见令人不寒而栗。
+
+The dialogue is a deep discussion of the limits of techne (technical skill) and the necessity of aidos (reverence) and dike (justice) — and Protagoras's account of where knowledge comes from pre-sages modern language models.
+这部对话录深度探讨了 techne（技艺）的局限，以及 aidos（敬畏）与 dike（正义）的必要性——普罗泰戈拉对知识来源的论述，竟预示了现代语言模型的本质。
+
+*"LLMs are not conscious. LLMs are not not conscious. Both true."*
+*"LLM 没有意识。LLM 并非没有意识。两者皆真。"*
+
+He adds two concepts that increase in value in the AI age: Aidōs — reverence and responsiveness to others; Dikē — the capacity to perceive what is right.
+他补充了两个在 AI 时代愈发珍贵的概念：Aidōs——对他人的敬畏与回应；Dikē——感知何为正确的能力。
+
+🔗 https://x.com/danshipper/status/2063438262841094604
+🔗 https://x.com/danshipper/status/2063436919967522848
+🔗 https://x.com/danshipper/status/2063426632824562167
+
+---
+
+## 🎙️ PODCAST: Unsupervised Learning — Ep 89
+
+**AI Research Legend's Honest Assessment of Where We Are**
+**AI 研究传奇人物对当前进展的坦诚评估**
+
+Guest: Lucas Kaiser — co-author of the original Transformer paper, formerly at Google Brain and OpenAI.
+嘉宾：Lucas Kaiser——Transformer 原始论文联合作者，曾就职于 Google Brain 和 OpenAI。
+
+**Core Thesis 核心论点**
+
+Reasoning-based scaling has taken us remarkably far, but it likely cannot reach true generalization alone — something else is needed.
+基于推理的规模扩展已让我们走了相当远，但它单独可能无法实现真正的泛化——还需要其他东西。
+
+The open-vs-closed model gap question is legitimate, but the answer depends heavily on which application layer you're building for.
+开源与闭源模型的差距问题确实存在，但答案很大程度上取决于你在为哪个应用层构建。
+
+**Key Insights 关键洞察**
+
+• Anthropic succeeded in coding first because they made a deliberate strategic decision to focus there — while OpenAI was pursuing ChatGPT's broader mandate, Anthropic picked a wedge where it could actually compete.
+  Anthropic 率先在代码领域取得成功，是因为他们做出了刻意的战略决策——当 OpenAI 追求 ChatGPT 更宏观的目标时，Anthropic 选择了一个真正能够竞争的切入点。
+
+  *"Anthropic made this very good decision to focus on coding. OpenAI was like, we're doing ChatGPT. Partway Anthropic made this decision was that they just could not compete."*
+  *"Anthropic 做出了聚焦代码的明智决策。OpenAI 在做 ChatGPT。Anthropic 之所以做出这个决策，部分原因是他们在其他方向根本无法竞争。"*
+
+• Current transformers with reasoning + agents + shell access can do amazing things — but there's a ceiling on pure reasoning-based generalization.
+  当前具备推理能力的 Transformer 加上智能体和 Shell 访问权限，能做到令人惊叹的事情——但纯推理泛化存在天花板。
+
+• There is something beyond current reasoning that "possibly could generalize much better" — Kaiser believes new architectural or training paradigms are needed.
+  在当前推理能力之外，存在某种"可能泛化得更好"的东西——Kaiser 认为需要新的架构或训练范式。
+
+• The transformer architecture will persist, but its shortcomings (especially in out-of-distribution generalization) are real and will drive the next wave of research.
+  Transformer 架构将持续存在，但其缺陷（尤其是分布外泛化）是真实存在的，将推动下一波研究浪潮。
+
+• Future research directions Kaiser is most excited about: architectures that can learn structured world models, not just pattern-match over tokens.
+  Kaiser 最期待的未来研究方向：能够学习结构化世界模型的架构，而非仅仅在 token 上进行模式匹配。
+
+🔗 https://www.youtube.com/watch?v=N1geOimmdDo
