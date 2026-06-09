@@ -1,202 +1,194 @@
-AI Builders 日报 · 2026-06-08
+AI Builders 日报 · 2026-06-09
+
+今日共收录 13 位 AI 构建者的最新动态，涵盖 AI Agent 工作流设计、企业级 AI 战略、模型路由优化、训练数据挑战等核心议题，以及 1 期播客深度访谈。
+Today's digest covers 13 AI builders with the latest updates on agent loop design, enterprise AI strategy, model routing, training data challenges, and 1 podcast deep dive.
 
 ---
 
-## Swyx (@swyx)
+Boris Cherny (@bcherny) — Claude Code @Anthropic
 
-One popular theory is that research paper alpha and lab publishing largely died when researchers realized they could simply walk out and get >$100M for their legally protected tacit knowledge.
-一个流行的理论是：当研究人员意识到，与其和市场部门争斗，不如直接出走、凭借受法律保护的隐性知识拿到逾1亿美元融资，学术论文的"alpha"价值和实验室发表就此式微。
+Boris Cherny 分享了运行 Claude Opus 进行长时间自主工作的五条实战技巧，涵盖权限自动化、动态多 Agent 编排、持续循环指令及端到端自我验证。
+Boris Cherny shared five tips for running Claude Opus autonomously for hours or even days.
 
-California's non-compete ban has had a bigger impact on AI than most realize — it's the structural reason talent flows so freely between labs.
-加州的竞业禁止豁免政策对AI行业的影响远超大多数人的认知——这正是人才在各大实验室之间自由流动的结构性原因。
+他强调基准测试显示 Opus 在长时任务上表现最优，并推荐结合 /goal 或 /loop 指令、云端运行以及多端验证手段（Chrome 扩展、iOS/Android 模拟器 MCP）来确保任务完成质量。
+He noted that multiple benchmarks show Opus is the best model for long-running work, and recommends auto mode permissions, dynamic workflows, and cloud execution so you can close your laptop.
 
-*"research paper alpha and lab publishing ~died when researchers realized that instead of fighting with marketing depts they could simply walk out the door"*
-*"研究人员意识到与其和市场部门争斗不如直接出走，学术论文的alpha价值就此凋零"*
+*"You should be designing loops that prompt your agents."*
 
-🔗 https://x.com/swyx/status/2063432747432268259
-
----
-
-## Peter Yang (@petergyang)
-
-Peter Yang is all-in on agentic coding this week, calling it more addictive than video games.
-Peter Yang 本周完全沉浸在 agentic coding 中，直言其上瘾程度堪比电子游戏。
-
-*"this agentic coding crack is more addictive than video games smh"*
-*"这个 agentic coding 比电子游戏还上瘾，服了"*
-
-He's pushing for better thread management in OpenAI's Codex — specifically the ability to filter threads by status like "waiting for approval" or "currently working," noting it's already getting unwieldy past 10 threads.
-他呼吁 OpenAI Codex 提供更好的线程管理功能——特别是按"等待审批"或"当前运行"等状态过滤线程，并指出超过10个线程后管理已经变得杂乱难控。
-
-Also taking a moment for rest: "Good night."
-也在忙碌之余留出了放松时间：晒出"晚安"。
-
-🔗 https://x.com/petergyang/status/2063491534339936584
-🔗 https://x.com/petergyang/status/2063486871037153558
-🔗 https://x.com/petergyang/status/2063475353335869922
+🔗 https://x.com/bcherny/status/2063792263067754658
 
 ---
 
-## Madhu Guru (@realmadhuguru)
+Thibault Sottiaux (@thsottiaux) — OpenAI Codex
 
-Routing to models is genuinely hard — it means mapping each task to the right model, which requires benchmarking against your product's specific tasks and dialing in the quality/cost trade-off.
-模型路由是一个真正的难题——它意味着要将每个任务匹配到正确的模型，这需要针对产品的具体任务进行基准测试，并精细调节质量与成本之间的平衡。
+Thibault Sottiaux 宣布启动一项 100 天挑战：每天评选一位用 Codex 做出令人印象深刻工作的开发者，授予其一个月 10 倍使用限额。
+Thibault Sottiaux announced a 100-day challenge: every day, one developer doing impressive or incredibly useful work with Codex will receive 10X usage limits for a month.
 
-And there is an opportunity in that difficulty.
-而这种困难本身，正孕育着机会。
+这一举措旨在激励社区探索 Codex 的边界，并直观展示极限使用量能带来怎样的突破。
+The initiative aims to inspire the community to push Codex to its limits and showcase what's possible with dramatically expanded compute.
 
-Madhu outlines the enterprise progression: from single-model to multi-model, noting that the teams who figure out routing early will have a durable competitive edge.
-Madhu 描绘了企业的演进路径：从单一模型到多模型，指出那些率先掌握路由策略的团队将拥有持久的竞争优势。
-
-🔗 https://x.com/realmadhuguru/status/2063342268472574268
+🔗 https://x.com/thsottiaux/status/2063748242681307611
 
 ---
 
-## Amjad Masad (@amasad)
+Peter Yang (@petergyang) — Product Creator
 
-Amjad reflects on when he spoke out against the Gaza genocide — midwit VCs ganged up on him publicly and tried to harm him privately.
-Amjad 回顾了自己公开反对加沙种族灭绝时的经历——一群平庸的风投公开群起攻之，还私下试图伤害他。
+Peter Yang 今天带来了一则 AI 时代的程序员老爸笑话：当妻子让他倒垃圾，他回答"你不应该再 prompt 我了，你应该设计循环"——而 ChatGPT 给出的神续写是"我做到了，这个循环叫婚姻，而这是你的每日 cron job"。
+Peter Yang shared an AI-era dad joke: when his wife asked him to take out the trash, he said, "You shouldn't be prompting me anymore. You should be designing loops." ChatGPT's punchline: *"I did, the loop is called marriage and this is your daily cron job."*
 
-But the VCs who stood by him were not only morally better — they also delivered better returns.
-而那些支持他的风投，不仅在道德上更为高尚，回报表现也更出色。
+他还分享了关于 Compound Engineering 的相关链接资源，值得关注 AI 原生工程实践的朋友深入阅读。
+He also shared links on Compound Engineering and Kun Chen's free AI tools for those exploring AI-native engineering practices.
 
-*"The best way to avoid sociopaths is to have them self select out"*
-*"避开反社会者的最好方式，就是让他们自我淘汰出局"*
-
-He also posted a photo from "Vibecon" — a signal that in-person AI community gatherings are back in full force.
-他还晒出了"Vibecon"活动的照片——这表明 AI 社区的线下聚会已全面回归。
-
-🔗 https://x.com/amasad/status/2063344460705288401
-🔗 https://x.com/amasad/status/2063300737296400516
+🔗 https://x.com/petergyang/status/2063819323106615434
+🔗 https://x.com/petergyang/status/2063818032280170721
+🔗 https://x.com/petergyang/status/2063773025196192188
 
 ---
 
-## Aaron Levie (@levie)
+Madhu Guru (@realmadhuguru) — AI & Training Data
 
-Token costs are becoming one of the hottest topics for any enterprise Aaron talks with right now.
-Token 成本正成为 Aaron 与企业交流时最热门的话题之一。
+Madhu Guru 指出一个普遍误解：训练数据是低技能的重复劳动。恰恰相反，推动模型能力前沿所需的训练数据，要求极深的领域专业知识，尤其是软件工程之外的复杂知识工作。
+Madhu Guru challenged the misconception that training data is low-skill grunt work. The data needed to advance the model frontier requires deep domain expertise for high-economic-value tasks — especially complex knowledge work outside software engineering.
 
-It's very bullish for AI in general because it means these systems are being used at a scale that wasn't contemplated before.
-这对 AI 整体而言是极大的利好信号，因为它说明这些系统正在以前所未有的规模被实际使用。
+*"That's why we have SWE agents and not knowledge work agents yet."*
 
-*"Token costs are becoming one of the hottest topics for any enterprise I talk with right now"*
-*"Token 成本正成为我与任何企业交流时最热门的话题之一"*
+这也是为何目前 AI 在软件工程 Agent 上突飞猛进，而在更广泛知识工作 Agent 上仍进展缓慢——高质量训练数据的稀缺是核心瓶颈。他特别提及 Mercor 等公司正在做的数据工作是"高杠杆、高技能"且被严重低估的贡献。
+This explains why we have SWE agents but not general knowledge-work agents yet — scarce high-quality training data is the core bottleneck. Companies like Mercor doing this work are doing critically important, deeply underappreciated work.
 
-It also signals a new form of competitive differentiation emerging for AI companies — those who can optimize cost at scale will win enterprise contracts.
-这也预示着 AI 公司之间将涌现出新的竞争分化形式——能够在规模上优化成本的企业将赢得更多大客户合同。
-
-🔗 https://x.com/levie/status/2063320673217609936
+🔗 https://x.com/realmadhuguru/status/2063704354910347520
 
 ---
 
-## Garry Tan (@garrytan)
+Amjad Masad (@amasad) — Replit CEO
 
-Garry clarifies Paxel's privacy stance: they never claimed zero cloud data upload — specifically, only file *contents* (code) don't go to the cloud.
-Garry 澄清了 Paxel 的隐私立场：他们从未声称零云端数据上传——具体而言，只有文件*内容*（代码）不会上传至云端。
+Amjad Masad 重申了 Replit 的核心使命：排除一切干扰，让创业者专注于最重要的事——快速进入市场、获得商业成功。
+Amjad Masad reiterated Replit's core mission: remove all distractions so founders can focus on what matters — getting to market and getting results.
 
-*"We never said we don't upload any user data to the cloud. We said the code (file contents) specifically doesn't."*
-*"我们从未说过不会上传任何用户数据到云端。我们说的是，代码（文件内容）具体不会上传。"*
+简短而有力，Replit 的产品哲学在这句话里一览无余。
+Short and sharp — Replit's product philosophy in one sentence.
 
-He's also helping users become more legit with Paxel, and looking forward to the day when local models are good enough to do even more processing locally.
-他也在帮助用户更规范地使用 Paxel，并期待本地模型足够强大、可以在本地完成更多处理的那一天。
-
-On local governance: Garry backs @empoweroak to bring common-sense reform to Oakland, noting SF's resurgence as a model.
-关于地方治理：Garry 支持 @empoweroak 为奥克兰带来务实改革，并以旧金山的复苏作为参照范本。
-
-🔗 https://x.com/garrytan/status/2063418130714800487
-🔗 https://x.com/garrytan/status/2063409501706018903
-🔗 https://x.com/garrytan/status/2063280482922663980
+🔗 https://x.com/amasad/status/2063744208587125142
 
 ---
 
-## Zara Zhang (@zarazhangrui)
+Guillermo Rauch (@rauchg) — Vercel CEO
 
-The value of static content is going down; the value of live interaction is going up.
-静态内容的价值正在下降；实时互动的价值正在上升。
+Guillermo Rauch 披露了一个令人震惊的数字：Vercel AI Gateway 每月平均帮助客户挽回超过 1 万亿个 Token 的调用损耗——通过智能重试机制，类似 Stripe 在支付失败时的挽回逻辑。
+Guillermo Rauch revealed a stunning stat: Vercel AI Gateway recovers over 1 trillion tokens per month on average — using smart retry logic similar to how Stripe recovers failed payments.
 
-People want to connect with the human being behind a piece of work, whether it's content or software.
-人们渴望与作品背后的人建立连接，无论是内容还是软件。
+*"We do it with zero markup over the labs; adding redundancy, zero-data retention enforcement, observability, usage APIs, caps…"*
 
-*"Raw & opinionated > polished & generic"*
-*"原生、有观点 > 打磨精良、千人一面"*
+更令人关注的是，Vercel 以零溢价的方式在 AI 基础设施层提供高可用保障，同时附加可观测性、用量管控等企业级能力，这对 AI 应用的可靠性具有重大价值。
+What's notable: Vercel adds this resilience at zero markup over the labs, with enterprise-grade features like zero-data retention enforcement and observability — a significant value add for reliable AI applications.
 
-Zara's take captures a key creative shift in the AI era: authenticity and distinctiveness beat production polish.
-Zara 的观点捕捉到了 AI 时代一个关键的创作转变：真实性与独特性胜过制作上的精打细磨。
-
-🔗 https://x.com/zarazhangrui/status/2063391758189572266
+🔗 https://x.com/rauchg/status/2063714700618334260
 
 ---
 
-## Nikunj Kothari (@nikunj)
+Aaron Levie (@levie) — Box CEO
 
-Nikunj shares a reminder to disconnect: "don't forget to touch sand this weekend 🌞"
-Nikunj 提醒大家断开连接："这个周末别忘了踩踩沙滩 🌞"
+Aaron Levie 今日发表了三条关于 AI 与企业软件未来的深度洞察。第一，他预判未来 AI 使用场景将在模型家族间显著分化——高端任务依赖前沿模型，高频低复杂度任务将迁移至更廉价的模型，而能够高效路由工作负载的 Agent 编排层将成为新的核心竞争力。
+Aaron Levie shared three sharp observations today. First, he predicts AI use cases will stratify between frontier models for high-end tasks and cheaper models for high-volume workloads, making intelligent routing and cost-optimizing agent orchestration a major new hard problem.
 
-He also releases "A Walk In The Park (part II)" — a conversation with @taiuti about world models, the origin story of Reactor World (from text-to-3D), and building a company in stealth.
-他还发布了"A Walk In The Park（第二部分）"——与 @taiuti 关于世界模型、Reactor World 起源故事（从文字到3D）以及秘密建立公司的对话。
+*"The layer that can efficiently route the workload to the right model will then become increasingly valuable."*
 
-The episode covers everything from GTA and games as a path into programming, to picking investors.
-该集内容涵盖从《GTA》与游戏作为编程入门路径，到如何挑选投资人的方方面面。
+第二，他指出市场低估了 AI 蚕食企业软件的真正障碍——软件开发成本只是其中一环，企业软件真正的大头成本在于 GTM（市场进入）：咨询式销售、实施支持、生态集成。AI 让软件变便宜，但反而让差异化和可发现性变得更难。
+Second, he argued the market misunderstands AI eating enterprise software: development costs are only one piece. GTM — consultative selling, implementation support, integration — is the plurality of cost, and AI actually makes discoverability and differentiation *harder*, not easier.
 
-🔗 https://x.com/nikunj/status/2063381764782116914
-🔗 https://x.com/nikunj/status/2063263389238087745
+第三，Box 宣布推出 Web 端 Markdown 编辑器、完整 CLI 支持、评论与版本历史，以及 Box Drive 挂载能力，让用户可在 Claude Cowork、Codex、Cursor、Obsidian 等工具中直接访问所有文件。
+Third, Box announced a Markdown editor, full CLI, commenting, version history, and Box Drive mount support — letting users access all their files directly from Claude Cowork, Codex, Cursor, Obsidian, and more.
 
----
-
-## Dan Shipper (@danshipper)
-
-Dan is reading Plato's Protagoras and finding it eerily prescient about LLMs.
-Dan 正在阅读柏拉图的《普罗泰戈拉篇》，发现其对 LLM 的预见令人不寒而栗。
-
-The dialogue is a deep discussion of the limits of techne (technical skill) and the necessity of aidos (reverence) and dike (justice) — and Protagoras's account of where knowledge comes from pre-sages modern language models.
-这部对话录深度探讨了 techne（技艺）的局限，以及 aidos（敬畏）与 dike（正义）的必要性——普罗泰戈拉对知识来源的论述，竟预示了现代语言模型的本质。
-
-*"LLMs are not conscious. LLMs are not not conscious. Both true."*
-*"LLM 没有意识。LLM 并非没有意识。两者皆真。"*
-
-He adds two concepts that increase in value in the AI age: Aidōs — reverence and responsiveness to others; Dikē — the capacity to perceive what is right.
-他补充了两个在 AI 时代愈发珍贵的概念：Aidōs——对他人的敬畏与回应；Dikē——感知何为正确的能力。
-
-🔗 https://x.com/danshipper/status/2063438262841094604
-🔗 https://x.com/danshipper/status/2063436919967522848
-🔗 https://x.com/danshipper/status/2063426632824562167
+🔗 https://x.com/levie/status/2063835799096090749
+🔗 https://x.com/levie/status/2063756386572681606
+🔗 https://x.com/levie/status/2063649508681224367
 
 ---
 
-## 🎙️ PODCAST: Unsupervised Learning — Ep 89
+Garry Tan (@garrytan) — YC President
 
-**AI Research Legend's Honest Assessment of Where We Are**
-**AI 研究传奇人物对当前进展的坦诚评估**
+Garry Tan 今日聚焦于 AI 工具教育与推广的瓶颈问题：如何让人真正学会并善用 AI 工具，正成为比工具本身更难解决的问题。
+Garry Tan highlighted that educating people on how to use AI tools has become a serious bottleneck — harder to solve than building the tools themselves.
 
-Guest: Lucas Kaiser — co-author of the original Transformer paper, formerly at Google Brain and OpenAI.
-嘉宾：Lucas Kaiser——Transformer 原始论文联合作者，曾就职于 Google Brain 和 OpenAI。
+他还展示了 GBrain v0.42.30 的新功能：可以为用户生成一份"思维演变历史"摘要，追踪你的思考如何随时间改变。这一功能对知识工作者的自我反思极具价值。
+He also showcased GBrain v0.42.30's new feature: detailed summaries of how your thinking has changed over time — a powerful self-reflection tool for knowledge workers.
 
-**Core Thesis 核心论点**
+🔗 https://x.com/garrytan/status/2063786182140735829
+🔗 https://x.com/garrytan/status/2063786111588323780
+🔗 https://x.com/garrytan/status/2063785286367392095
 
-Reasoning-based scaling has taken us remarkably far, but it likely cannot reach true generalization alone — something else is needed.
-基于推理的规模扩展已让我们走了相当远，但它单独可能无法实现真正的泛化——还需要其他东西。
+---
 
-The open-vs-closed model gap question is legitimate, but the answer depends heavily on which application layer you're building for.
-开源与闭源模型的差距问题确实存在，但答案很大程度上取决于你在为哪个应用层构建。
+Zara Zhang (@zarazhangrui) — AI Product Builder
 
-**Key Insights 关键洞察**
+Zara Zhang 分析了她的 Frontend Slides 技能为何能实现有机增长：幻灯片天然具有社交属性——人们看到炫酷的 HTML 幻灯片就会问"你怎么做到的"，而使用 AI 原生 HTML 演示文稿的人也会被视为更懂 AI、更具前瞻性。
+Zara Zhang analyzed why her Frontend Slides skill has grown organically: slides are inherently social. People see cool HTML decks and always ask "how did you make it?" — and using AI-native HTML presentations signals AI fluency and forward-thinking to audiences.
 
-• Anthropic succeeded in coding first because they made a deliberate strategic decision to focus there — while OpenAI was pursuing ChatGPT's broader mandate, Anthropic picked a wedge where it could actually compete.
-  Anthropic 率先在代码领域取得成功，是因为他们做出了刻意的战略决策——当 OpenAI 追求 ChatGPT 更宏观的目标时，Anthropic 选择了一个真正能够竞争的切入点。
+这是一个关于 AI 工具病毒式传播机制的精彩观察：产品本身就是最好的广告。
+A sharp observation about viral distribution for AI tools: the product itself is the advertisement.
 
-  *"Anthropic made this very good decision to focus on coding. OpenAI was like, we're doing ChatGPT. Partway Anthropic made this decision was that they just could not compete."*
-  *"Anthropic 做出了聚焦代码的明智决策。OpenAI 在做 ChatGPT。Anthropic 之所以做出这个决策，部分原因是他们在其他方向根本无法竞争。"*
+🔗 https://x.com/zarazhangrui/status/2063638307586662539
 
-• Current transformers with reasoning + agents + shell access can do amazing things — but there's a ceiling on pure reasoning-based generalization.
-  当前具备推理能力的 Transformer 加上智能体和 Shell 访问权限，能做到令人惊叹的事情——但纯推理泛化存在天花板。
+---
 
-• There is something beyond current reasoning that "possibly could generalize much better" — Kaiser believes new architectural or training paradigms are needed.
-  在当前推理能力之外，存在某种"可能泛化得更好"的东西——Kaiser 认为需要新的架构或训练范式。
+Nikunj Kothari (@nikunj) — AI Investor/Builder
 
-• The transformer architecture will persist, but its shortcomings (especially in out-of-distribution generalization) are real and will drive the next wave of research.
-  Transformer 架构将持续存在，但其缺陷（尤其是分布外泛化）是真实存在的，将推动下一波研究浪潮。
+Nikunj Kothari 发表了两条值得深思的观点。第一，他打趣说，鉴于最近"循环"（loops）话题的火热，Apple 在 WWDC 上有绝佳机会做出最有趣的呼应——暗示 AI 原生范式正在深入人心。
+Nikunj Kothari shared two sharp takes. First, he playfully noted that given all the "loops" conversation in tech Twitter, Apple has the perfect opportunity to do something hilarious at WWDC.
 
-• Future research directions Kaiser is most excited about: architectures that can learn structured world models, not just pattern-match over tokens.
-  Kaiser 最期待的未来研究方向：能够学习结构化世界模型的架构，而非仅仅在 token 上进行模式匹配。
+第二，他对近期 AI 行业从"token 焦虑"到"token 优化"的快速转变感到震惊，并坚持认为公司应该给员工充足的 token 预算来保持前沿探索——否则很容易退回到"老方法"。
+Second, he remarked on the wild vibe shift from tokenmaxxing and token anxiety to token-optimizing in just weeks. He holds the contrarian view that companies should give employees copious token budgets to stay at the frontier — otherwise it's too easy to fall back to old habits.
 
-🔗 https://www.youtube.com/watch?v=N1geOimmdDo
+*"Might be a hot take but I still believe companies should give copious amounts of token budget to employees to stay at the frontier."*
+
+🔗 https://x.com/nikunj/status/2063829369949467050
+🔗 https://x.com/nikunj/status/2063630238123483195
+
+---
+
+Peter Steinberger (@steipete) — PSPDFKit / AI Builder
+
+Peter Steinberger 发出了一条简洁有力的宣言，堪称今日金句：不要再亲自 prompt 编程 Agent 了，你应该设计驱动 Agent 的循环系统。
+Peter Steinberger delivered the quote of the day with a concise manifesto: stop prompting coding agents yourself — start designing loops that prompt your agents.
+
+*"Here's your monthly reminder that you shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents."*
+
+这与今日多位构建者的观点高度共鸣，标志着 AI 开发范式正在从"人机交互"向"人机编排"转变。
+This resonates with multiple builders today and signals a paradigm shift: from human-AI interaction to human-AI orchestration.
+
+🔗 https://x.com/steipete/status/2063697162748260627
+
+---
+
+Aditya Agarwal (@adityaag) — Former CTO Dropbox
+
+Aditya Agarwal 以亲历 Meta 和 Dropbox 两次 IPO 的视角，分享了一个关于财富与欲望的深刻洞察：巨额财富往往放大人内心深处已有的渴望，而非创造新的渴望。
+Aditya Agarwal, having been through two IPOs at Meta and Dropbox, shared a profound insight: fabulous wealth tends to amplify deeper desires, not create new ones.
+
+主流叙事是"早期员工套现后买豪宅去海滩"，但他观察到大量人反而用这笔钱去做更疯狂、更大胆的事情——创业、投资、延续硅谷的创新循环。他对即将到来的流动性浪潮充满期待。
+The mainstream narrative is mansions and beaches, but he observes that many people use liquidity to do even crazier things — start companies, fund founders, keep Silicon Valley's innovation loop going. He's excited about the wave of liquidity coming in the next months.
+
+🔗 https://x.com/adityaag/status/2063731771284619521
+
+---
+
+Sam Altman (@sama) — OpenAI CEO
+
+Sam Altman 简短转发并评论了一个"有趣的递归循环"，暗示 AI 发展中正在出现某种自我强化的反馈机制，语焉不详但引人遐想。
+Sam Altman briefly commented on an "interesting recursive loop" — hinting at some self-reinforcing feedback dynamic emerging in AI development, cryptic but thought-provoking as always.
+
+🔗 https://x.com/sama/status/2063779477419901071
+
+---
+
+🎙️ PODCAST
+
+The MAD Podcast with Matt Turck
+《2026 企业 AI 现状：Aaron Levie 谈 Tokenmaxxing、无头架构崛起与如何让你的工作 AI-Proof》
+
+Matt Turck 与 Box CEO Aaron Levie 深度对谈，探讨 2026 年企业 AI 的真实状态。
+Matt Turck sits down with Box CEO Aaron Levie for a deep dive on the real state of enterprise AI in 2026.
+
+对话涵盖 tokenmaxxing 现象、"无头"企业软件架构的兴起（AI Agent 直接调用后端而非传统 UI），以及个人如何在 AI 时代保持职业竞争力。
+Topics include the tokenmaxxing phenomenon, the rise of headless enterprise software (where AI agents call backends directly, bypassing traditional UIs), and how individuals can AI-proof their careers in this rapidly shifting landscape.
+
+🔗 https://www.youtube.com/watch?v=Gs2styCcwro
