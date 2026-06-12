@@ -1,274 +1,210 @@
-AI Builders 日报 · 2026-06-11
+AI Builders 日报 · 2026-06-12
 
 ---
 
-## X / TWITTER
+## Swyx @swyx
+
+Swyx recently shared excitement about a new development in the AI tools space.
+Swyx 近期分享了对 AI 工具领域新动态的兴奋之情。
+
+Source: https://x.com/swyx/status/2064698525917827092
 
 ---
 
-### Andrej Karpathy (karpathy on X) — AI Researcher & Deep Learning Pioneer
+## Josh Woodward @joshwoodward
+VP, Google Labs / Gemini App / Google AI Studio
 
-Claude Fable 5 is the same underlying model as Mythos but with added safeguards, and Karpathy calls it a major-version-bump-deserving step change — on par with Claude 4.5 in November.
-Claude Fable 5 与 Mythos 底层相同，只是加了安全护栏，Karpathy 认为这是一次堪比去年 11 月 Claude 4.5 的重大跃进。
+Josh Woodward communicated important service updates to Gemini users — first announcing an active outage and its resolution. *"Everything is back up and running, sorry again!"* — Josh led transparent, timely communication during a Gemini service disruption, eventually confirming full restoration.
+Josh Woodward 就 Gemini 服务中断事件及时向用户发布了通报，先是公告故障正在处理中，随后确认服务已完全恢复。他的沟通坦诚而迅速，体现了团队对用户体验的重视。
 
-*"qualitatively also, this is a major-version-bump-deserving step change forward"* — he notes it excels especially in long problem-solving sessions on very difficult problems.
-*"qualitatively also, this is a major-version-bump-deserving step change forward"* —— 他特别指出，该模型在处理超高难度的长时程问题上表现尤为出色。
-
-He describes the temptation to stop reviewing the code altogether: *"it's never felt this tempting to stop looking at the code at all (but don't do this in prod!)"*
-他坦言自己都产生了不再看代码的冲动：*"it's never felt this tempting to stop looking at the code at all (but don't do this in prod!)"*
-
-Karpathy sees Jevons' paradox in action — as software becomes cheaper to create, demand for it explodes, and he envisions a world of bespoke explainers, visualizers, dashboards, and single-use apps generated on demand.
-Karpathy 看到了杰文斯悖论的显现——软件越来越廉价，需求反而爆炸式增长，他畅想未来可以随时按需生成定制化解释器、可视化工具、仪表盘和一次性应用。
-
-Source: https://x.com/karpathy/status/2064409694761054332
+Source: https://x.com/joshwoodward/status/2064869366290841716
+Source: https://x.com/joshwoodward/status/2064762269674918013
 
 ---
 
-### Swyx (swyx on X) — AI Engineer & Podcast Host at Latent Space
+## Boris Cherny @bcherny
+Claude Code @ Anthropic
 
-Swyx highlights an underused alpha move: telling Claude Code to "review my code for issues" using Fable while it's still not pay-per-use.
-Swyx 指出一个被低估的技巧：趁 Fable 尚未按用量收费，直接让 Claude Code 用 Fable 帮你 "review my code for issues"。
+Boris Cherny sent greetings from the "Code with Claude" event in Tokyo, signaling Anthropic's growing presence in Japan's developer community.
+Boris Cherny 从东京的「Code with Claude」活动现场发来问候，展示了 Anthropic 在日本开发者社群中不断扩大的影响力。
 
-*"be prepared to be in abject horror that you shipped anything to prod without a Fable Check™ first"* — his message is that Fable's code review quality is shockingly good.
-*"be prepared to be in abject horror that you shipped anything to prod without a Fable Check™ first"* —— 他的意思是，Fable 的代码审查质量好到令人瞠目结舌。
-
-On the speed of AI deployment: from contract signing to launching a Mythos-class model GA took just 34 days, enabled by building on the NVIDIA stack.
-关于 AI 落地速度：从签约到将 Mythos 级模型正式上线只用了 34 天，得益于 NVIDIA 技术栈的支撑。
-
-Sources: https://x.com/swyx/status/2064492823781789969 | https://x.com/swyx/status/2064421542503797186 | https://x.com/swyx/status/2064415059003248694
+Source: https://x.com/bcherny/status/2064885111477219664
 
 ---
 
-### Josh Woodward (joshwoodward on X) — VP at Google Labs & Google AI Studio
+## Thibault Sottiaux @thsottiaux
+Codex & ChatGPT @ OpenAI
 
-One pointed observation on the AI-driven software supercycle: *"The demand for software is going to be off the charts."*
-一句简短有力的预判，关于 AI 驱动的软件需求大爆发：*"The demand for software is going to be off the charts."*
+Thibault Sottiaux shared three key updates this week. First, he noted a striking organic growth spike in Codex token consumption — *"We saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something."* — suggesting growing user demand independent of any product launches. He also welcomed two new colleagues joining the OpenAI cybersecurity team, emphasizing the goal of accelerating defenders globally. In a reflective moment, he shared a design philosophy: *"Simplify until there is nothing to simplify."*
+Thibault Sottiaux 本周带来三条重要动态：Codex token 消耗量在未发布新功能的情况下出现异常激增，暗示用户对该工具的有机增长需求正在加速；同时欢迎两位新成员加入 OpenAI 网络安全团队，致力于为全球防御者提速；他还分享了一句简洁有力的设计哲学："化繁为简，直到无可再简。"
 
-Google Labs VP Josh Woodward sees AI-generated software creating demand far beyond what the industry has ever seen.
-Google Labs 副总裁 Josh Woodward 认为，AI 生成软件将催生出远超历史的市场需求。
-
-Source: https://x.com/joshwoodward/status/2064509357216428171
-
----
-
-### Boris Cherny (bcherny on X) — Claude Code Lead at Anthropic
-
-Cherny says Fable 5 is the biggest model improvement he's felt since Opus 4.5 in November — it no longer feels like a coding agent, but a thought and design partner.
-Cherny 表示，Fable 5 是他自去年 11 月 Opus 4.5 以来感受到的最大模型飞跃——它不再像一个编程代理，而更像一个思维与设计伙伴。
-
-*"Fable has judgement, taste, and dimensionality in a way that previous models didn't"* — he trusts it more with the most complex work.
-*"Fable has judgement, taste, and dimensionality in a way that previous models didn't"* —— 他愿意将最复杂的工作交给它。
-
-The standout quality: Fable debugs by being methodical and precise — taking measurements, adding logs, verifying the fix before declaring victory — with no prompting to do so.
-最突出的品质：Fable 调试时极为有条不紊——先测量、加日志、验证修复，再宣布完成——全程无需任何指令驱动。
-
-*"It really has this 'big model smell' that I haven't felt before"* — a term that captures a certain gravitational quality in large, capable models.
-*"It really has this 'big model smell' that I haven't felt before"* —— 这个词捕捉到了大型强力模型特有的一种"引力感"。
-
-He also emphasizes the importance of self-verification loops in agentic settings: models that can verify their own output run longer, deliver better results, and require less human supervision.
-他还强调了 Agentic 场景中自我验证循环的重要性：能自我验证的模型可以运行更久、输出更优、减少人工干预。
-
-Sources: https://x.com/bcherny/status/2064431111154053187 | https://x.com/bcherny/status/2064426115255730578 | https://x.com/bcherny/status/2064469227499929651
+Source: https://x.com/thsottiaux/status/2064911328087810308
+Source: https://x.com/thsottiaux/status/2064900105032135010
+Source: https://x.com/thsottiaux/status/2064869401359417799
 
 ---
 
-### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT at OpenAI
+## Peter Yang @petergyang
+AI Tutorials & Interviews
 
-Sottiaux shares his workflow philosophy for Codex: using `/goal` one at a time, treating it like conducting an orchestra.
-Sottiaux 分享了他对 Codex 的工作哲学：每次只用一个 `/goal`，像指挥乐队一样有条不紊。
+Peter Yang reflected on career identity and the builder mindset: *"Give yourself permission to build."* He challenged the traditional career ladder that pushes people toward management, advocating instead for staying close to hands-on building. He also shared excitement about Codex, noting *"The more I use Codex the more ambitious my requests get"* — a sign that AI coding tools are expanding what builders believe is possible.
+Peter Yang 本周探讨了职业身份与构建者心态，他鼓励大家"给自己构建的权利"，质疑将所有人推向管理职位的传统晋升路径。他同时分享了对 Codex 的体验——使用越多，请求越大胆，这正是 AI 编程工具正在重塑开发者想象边界的有力证明。
 
-He uses Codex `/goal` as his primary mode of getting things done, not just occasionally.
-他将 Codex `/goal` 作为主要的完成工作方式，而非偶尔使用。
-
-Source: https://x.com/thsottiaux/status/2064307859903447396 | https://x.com/thsottiaux/status/2064308436133716008
-
----
-
-### Peter Yang (petergyang on X) — AI Educator & Creator at Creator Wizard
-
-Yang shares a hands-on F-Zero game prompt for Fable — a detailed, evocative spec that produced a neon cyberpunk pseudo-3D racer with AI opponents, boost mechanics, and a full HUD.
-Yang 分享了用 Fable 生成 F-Zero 赛车游戏的完整 Prompt——细节丰富，生成了一个带霓虹赛博朋克风格、伪 3D 赛道、AI 对手和完整 HUD 的赛车游戏。
-
-He also questions the "big model smell" terminology popularized by Boris Cherny: *"wtf does 'big model smell' mean"* — sparking a broader discussion on what makes frontier models feel qualitatively different.
-他也对 Boris Cherny 推广的"大模型气质"说法提出疑问：*"wtf does 'big model smell' mean"* —— 引发了关于顶级模型究竟有何本质不同的广泛讨论。
-
-On the practical side, he notes that browser use noticeably slows Fable down — a tradeoff worth knowing for time-sensitive tasks.
-实际使用层面，他指出浏览器调用会明显拖慢 Fable 的速度——这对时间敏感任务来说是值得注意的权衡。
-
-Sources: https://x.com/petergyang/status/2064550073594446059 | https://x.com/petergyang/status/2064563041166090672 | https://x.com/petergyang/status/2064577126385459265
+Source: https://x.com/petergyang/status/2064799855059616172
+Source: https://x.com/petergyang/status/2064760792684335133
+Source: https://x.com/petergyang/status/2064748427892945313
 
 ---
 
-### Thariq (trq212 on X) — Claude Code at Anthropic
+## Nan Yu @thenanyu
+Head of Product @ Linear
 
-Thariq, attending Code with Claude in Tokyo, calls Fable a step-change: *"it's time to be more ambitious."*
-Thariq 正在东京参加 Code with Claude 活动，他称 Fable 是一次质的飞跃：*"it's time to be more ambitious."*
+Nan Yu shared two observations: a humorous reference to "gangprompting" (hinting at emerging prompt engineering culture), and an analogy comparing AI tools to boat ownership — the two best moments being when you first adopt and eventually let go. A subtle meditation on tool attachment in the AI era.
+Nan Yu 分享了两则观察：一是对"群体提示"（gangprompting）文化的幽默调侃，二是将 AI 工具比作拥有游艇——最美好的两个时刻是你买入和卖出的那天，暗示对工具过度依恋的哲学反思。
 
-He teases a series of posts on how Fable has reshaped the way his team works, promising more details to come.
-他预告将发布一系列文章，讲述 Fable 如何重塑了他们团队的工作方式。
-
-Sources: https://x.com/trq212/status/2064437561930682672 | https://x.com/trq212/status/2064521202622960058
-
----
-
-### Amjad Masad (amasad on X) — CEO at Replit
-
-Replit CEO Amjad Masad announces a 25% discount for Claude Mythos on Replit — a direct move to capture developers eager to try the new frontier model.
-Replit CEO Amjad Masad 宣布在 Replit 上 Claude Mythos 享受 75 折优惠，直接瞄准急于体验新前沿模型的开发者。
-
-Source: https://x.com/amasad/status/2064411791015432466
+Source: https://x.com/thenanyu/status/2064733338779177459
+Source: https://x.com/thenanyu/status/2064711789556732316
 
 ---
 
-### Guillermo Rauch (rauchg on X) — CEO at Vercel
+## Madhu Guru @realmadhuguru
+Former Product Leader @ Google (Gemini, Veo, Nano)
 
-Vercel CEO Guillermo Rauch ships a key developer tool: the Vercel CLI now supports creating AI Gateway API keys, setting spend budgets (`--budget`), and configuring refresh periods — essentially virtual credit cards for AI token consumption.
-Vercel CEO Guillermo Rauch 推出关键开发工具：Vercel CLI 现在支持创建 AI Gateway API 密钥、设置花费上限（`--budget`）和配置刷新周期——相当于 AI 代币消耗的虚拟信用卡。
+Madhu Guru shared a practical rule of thumb from his enterprise AI experience: start with small models when replacing traditional ML systems (where success criteria are well-defined), but start with large models when building net-new generative experiences. This cost/quality tradeoff guidance is hard-won from working with enterprise clients on Gemini.
+Madhu Guru 分享了一条来自 Google 企业 AI 实践的经验法则：替换传统 ML 模型时从小模型入手（因为已知好的输出长什么样）；而构建全新生成式应用时则应从大模型起步。这一成本/质量权衡建议来自他在 Gemini 企业客户侧的真实经验。
 
-He also shares a striking demo: Opus wrote a VM, and then Mythos verified it — showcasing the power of model chaining for complex engineering tasks.
-他还分享了一个亮眼的 Demo：Opus 编写了一个 VM，然后 Mythos 对其进行验证——展示了模型链式协作在复杂工程任务中的威力。
-
-Sources: https://x.com/rauchg/status/2064551967461114111 | https://x.com/rauchg/status/2064419055726215438
+Source: https://x.com/realmadhuguru/status/2064794601320481150
 
 ---
 
-### Alex Albert (alexalbert__ on X) — Research at Anthropic
+## Thariq @trq212
+Claude Code @ Anthropic
 
-Albert has witnessed every Anthropic model launch and names four that marked true step-changes: Opus 3, Sonnet 3.5, Opus 4.5 — and now Fable 5.
-Albert 亲历了 Anthropic 每一次模型发布，他认为真正标志飞跃的只有四次：Opus 3、Sonnet 3.5、Opus 4.5，以及现在的 Fable 5。
+Thariq had a standout week with a viral post about using Fable to edit its own launch video. *"TLDR it wrote a lot of code & tool calls to use transcription services, ffmpeg, do colorgrading, use the figma mcp, make remotion UI and render it. I didn't touch a video editor."* This post garnered over 6,000 likes — showcasing Claude's agentic capabilities in creative production. He also shared the accompanying deck and video for those wanting to go deeper.
+Thariq 本周凭借一则病毒式传播的帖子吸引了大量关注——他用 Fable（Claude）编辑了产品发布视频，全程让 AI 调用转录服务、ffmpeg、Figma MCP、Remotion 等工具完成剪辑，自己完全没有碰视频编辑器。该帖获得超 6000 点赞，生动展示了 Claude 在创意生产中的强大自主能力。他还附上了演讲幻灯片和演示视频供感兴趣者深入了解。
 
-*"With Fable, the model stopped feeling like a tool I direct and started feeling more like something I collaborate with."*
-*"With Fable, the model stopped feeling like a tool I direct and started feeling more like something I collaborate with."*
-
-He shares four practical tips for using Fable effectively: give it bigger and more ambitious tasks; use xhigh/high effort by default; rewrite your CLAUDE.md (old instructions anchor Fable to stale patterns); and shift from giving tasks to giving objectives — describe what "done" looks like, then let Fable find the path.
-他分享了四个高效使用 Fable 的实用技巧：给它更宏大更有野心的任务；默认用 xhigh/high 力度；重写你的 CLAUDE.md（旧指令会把 Fable 锚定在过时模式上）；从提供任务转向提供目标——描述"完成"是什么样子，让 Fable 自己找路径。
-
-Sources: https://x.com/alexalbert__/status/2064394410004304003 | https://x.com/alexalbert__/status/2064467657483829441
+Source: https://x.com/trq212/status/2064826394589442448
+Source: https://x.com/trq212/status/2064826541947940910
+Source: https://x.com/trq212/status/2064828193446740023
 
 ---
 
-### Aaron Levie (levie on X) — CEO at Box
+## Google Labs @GoogleLabs
 
-Box CEO Aaron Levie reacts to Claude Fable 5's launch with conviction: *"If you thought AI progress was slowing down, well here's the immediate answer to that."*
-Box CEO Aaron Levie 对 Claude Fable 5 发布反应强烈：*"If you thought AI progress was slowing down, well here's the immediate answer to that."*
+Google Labs announced expanded access to Project Genie, now available to Google AI Ultra 5X subscribers globally. This represents a new tier of access for Google's experimental AI tools.
+Google Labs 宣布 Project Genie 的访问权限进一步扩大，现已向全球 Google AI Ultra 5X 订阅用户开放，标志着 Google 实验性 AI 工具在全球范围内提升了可及性。
 
-He highlights a key insight on what creates durable value for applied AI companies: it's not the models, but the "translation layer" — arranging a company's private data so a model can act on it, providing the right tools, and doing the unglamorous change management work.
-他指出，为应用 AI 公司创造持久价值的关键不是模型本身，而是"翻译层"——整理公司私有数据使模型能够行动，提供合适工具，以及做那些不光鲜的变革管理工作。
-
-*"A company that brings the translation is tough to copy — and the translation never ends."*
-*"A company that brings the translation is tough to copy — and the translation never ends."*
-
-He concludes that two things can be true simultaneously: frontier labs will keep advancing dramatically, and a vast ecosystem of software, services, and system integrators will emerge to bring AI to real enterprises.
-他总结道，两件事可以同时为真：前沿实验室将持续大幅进步，同时一个庞大的软件、服务和系统集成商生态将涌现，把 AI 带入真实企业。
-
-On benchmarks: Levie argues for compute-normalized benchmarks as the only logical path forward, noting that models behave differently at different inference compute thresholds.
-关于基准测试：Levie 认为经计算量归一化的基准测试是唯一合理的方向，并指出模型在不同推理算力阈值下表现差异显著。
-
-Sources: https://x.com/levie/status/2064396746953023647 | https://x.com/levie/status/2064569513023328268 | https://x.com/levie/status/2064379199629181139
+Source: https://x.com/GoogleLabs/status/2064801929339752527
 
 ---
 
-### Garry Tan (garrytan on X) — President & CEO at Y Combinator
+## Amjad Masad @amasad
+CEO @ Replit
 
-YC President Garry Tan gives his verdict on Fable 5: *"Fable 5 is the biggest model energy I've ever seen."*
-YC 总裁 Garry Tan 对 Fable 5 的评价是：*"Fable 5 is the biggest model energy I've ever seen."*
+Amjad Masad highlighted Replit's new automated job search feature, congratulated a founder on an enterprise agent launch, and shared a patriotic post. The job search automation product demonstrates Replit's push into practical agentic applications for everyday users.
+Amjad Masad 重点推介了 Replit 新推出的自动化求职功能，祝贺创业者 @markiewagner 的企业级 Agent 产品发布，并发表了一则爱国主题的帖子。求职自动化产品彰显了 Replit 将 Agent 能力落地到普通用户日常场景的战略方向。
 
-He shares a candid moment of frustration while trying to use Fable 5 to fix GStack, hinting at real-world rough edges even with a powerful model.
-他也坦诚分享了一次用 Fable 5 修复 GStack 时碰壁的经历，暗示即便是强大的模型在实际使用中也会有摩擦点。
-
-Sources: https://x.com/garrytan/status/2064573857911152710 | https://x.com/garrytan/status/2064559225859416186
-
----
-
-### Zara Zhang (zarazhangrui on X) — Builder & GitHub Star Creator
-
-Zhang identifies the real barrier to non-technical people using coding agents: not the interface, but not knowing what to ask for.
-张扎拉指出，非技术人员使用编程代理的真正障碍不是界面，而是不知道该问什么。
-
-*"The blank chat box assumes you already know what's possible. Most people don't."*
-*"The blank chat box assumes you already know what's possible. Most people don't."*
-
-She praises Town's onboarding: rather than waiting for instructions, the agent proactively suggests workflows and things it can take off the user's plate — a model for how AI products should onboard non-technical users.
-她称赞了 Town 的引导流程：代理主动建议工作流和可以接手的事项，而不是等待指令——这是 AI 产品引导非技术用户的范本。
-
-She's also hosting a virtual talk this Friday on her vibe coding process — covering how she gets product ideas, works with coding agents, designs beyond AI slop, and why she sees code as a medium for storytelling (RSVP link in tweet).
-她本周五还将举办关于 Vibe Coding 流程的线上分享，内容包括如何获得产品创意、与编程代理协作、如何超越 AI 模板设计，以及为何她认为代码是讲故事的媒介（详见推文 RSVP 链接）。
-
-Sources: https://x.com/zarazhangrui/status/2064587398529606082 | https://x.com/zarazhangrui/status/2064486120386379950
+Source: https://x.com/amasad/status/2064864439275536495
+Source: https://x.com/amasad/status/2064806473352540643
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
+## Guillermo Rauch @rauchg
+CEO @ Vercel
 
-FPV Ventures partner Nikunj Kothari built a website about every major S-curve in the last 200 years — using Claude to one-shot it from a podcast transcript.
-FPV Ventures 合伙人 Nikunj Kothari 用 Claude 从一段播客转录文本中一次性生成了一个涵盖过去 200 年所有重大 S 型曲线的网站。
+Guillermo Rauch was in London ahead of Vercel Ship next week, teasing *"Some special announcements"* — building anticipation for a major product reveal. He also reflected on Silicon Valley's meritocracy: *"No place more meritocratic"* — noting that he takes every founder intro seriously regardless of pedigree.
+Guillermo Rauch 正在伦敦备战下周的 Vercel Ship 大会，暗示将有重磅产品发布。他同时发表了对硅谷创业文化的感悟，强调无论创始人背景如何，他都会认真对待每一个融资引荐——这里是最注重实力而非背景的地方。
 
-His workflow: dump the podcast transcript into Claude with research mode on, have it research historical S-curves, map out sections, then generate a complete Claude Code prompt for a one-shot website build (escurves.com).
-他的工作流：将播客转录文本投入开启研究模式的 Claude，让其研究历史上的 S 型曲线，梳理结构，再生成完整的 Claude Code Prompt 一键建站（escurves.com）。
-
-This is a clean example of using AI as a research-to-product pipeline — from raw audio content to a live website in minutes.
-这是将 AI 用作从研究到产品的完整流水线的经典案例——从原始音频内容到上线网站，只需几分钟。
-
-Sources: https://x.com/nikunj/status/2064506504888373758 | https://x.com/nikunj/status/2064508462034501997
+Source: https://x.com/rauchg/status/2064777495422161205
+Source: https://x.com/rauchg/status/2064732935484514729
 
 ---
 
-### Dan Shipper (danshipper on X) — CEO at Every
+## Aaron Levie @levie
+CEO @ Box
 
-Every CEO Dan Shipper publishes a Fable 5 "vibe check" — a hands-on assessment from a team that's been testing the model for a week.
-Every CEO Dan Shipper 发布了 Fable 5 的"vibe check"——这是他的团队测试一周后给出的实地评估。
+Aaron Levie reported significant capability improvements with the new Fable model, especially for complex enterprise knowledge work. *"In our Box AI Complex Work Eval, we tested the model against Opus 4.8 and saw huge boosts across almost every industry."* — The results signal that Fable represents a meaningful step-change for enterprise AI applications beyond coding.
+Aaron Levie 分享了 Box 对 Fable 模型的评测结果，显示其在复杂企业知识工作场景中相比 Opus 4.8 几乎全面领先。这一数据表明 Fable 不仅在编程领域有所突破，在各行业的知识密集型工作中同样带来了显著的能力跃升。
 
-The piece is available both as an article and on YouTube, with Shipper treating it as a multiformat editorial release.
-这篇评测有文章和 YouTube 双版本，Shipper 将其作为多格式的编辑内容发布。
-
-Sources: https://x.com/danshipper/status/2064395167658860859 | https://x.com/danshipper/status/2064398724495737180
+Source: https://x.com/levie/status/2064922814688481678
 
 ---
 
-### Aditya Agarwal (adityaag on X) — General Partner at South Park Commons
+## Garry Tan @garrytan
+President & CEO @ Y Combinator
 
-South Park Commons GP Aditya Agarwal shares a moment of conviction about why funding startups to tackle hard problems matters — reacting to Claude Fable 5's release as proof of continued frontier progress.
-South Park Commons 普通合伙人 Aditya Agarwal 在 Fable 5 发布后分享了一个感悟：这正是投资初创公司去做重要事情的意义所在。
+Garry Tan was vocal on San Francisco politics this week, celebrating the defeat of Aaron Peskin and calling for accountability from what he called the *"Performative nonprofit industrial complex."* He also highlighted Nessie, a tool that helps users migrate AI memory and context from ChatGPT, Perplexity, and Gemini into other platforms — praising their OpenClaw and MCP server integrations.
+Garry Tan 本周在旧金山政治议题上发声，庆祝 Aaron Peskin 的失败，呼吁清除他眼中"表演性非营利工业复合体"的浪费行为。在 AI 工具方面，他推介了 Nessie 这一帮助用户迁移 ChatGPT、Perplexity、Gemini 等平台 AI 记忆与历史的工具，对其 OpenClaw 和 MCP 服务器集成给予高度评价。
 
-Source: https://x.com/adityaag/status/2064391655453802773
-
----
-
-### Claude AI (claudeai on X) — Official Anthropic Account
-
-The official Claude account confirms: Claude Fable 5 is available everywhere today; Claude Mythos 5 is currently restricted to Glasswing partners under a trusted access program.
-Claude 官方账号确认：Claude Fable 5 今日全面上线；Claude Mythos 5 目前仅对 Glasswing 合作伙伴开放，在受信访问计划框架内。
-
-Mythos 5 shares the same underlying model as Fable 5, but with safeguards lifted in some areas — targeted at cyber defenders and critical infrastructure providers.
-Mythos 5 与 Fable 5 底层相同，但在部分领域解除了安全限制——定向面向网络安全防御者和关键基础设施提供商。
-
-Anthropic intends to expand Mythos 5 access through a broader trusted access program for both defensive cybersecurity work and biomedical research.
-Anthropic 计划通过更广泛的受信访问计划，向防御性网络安全和生物医学研究领域扩大 Mythos 5 的访问权限。
-
-Sources: https://x.com/claudeai/status/2064394158056386684 | https://x.com/claudeai/status/2064394159318782217 | https://x.com/claudeai/status/2064394160522559632
+Source: https://x.com/garrytan/status/2064948068076986657
+Source: https://x.com/garrytan/status/2064947547735789715
+Source: https://x.com/garrytan/status/2064947145652994510
 
 ---
 
-## PODCASTS
+## Matt Turck @mattturck
+VC @ FirstMark Capital
+
+Matt Turck painted a vivid (and exhausting) picture of the 2026 VC conference circuit — Davos, Aspen, Paris, Berlin, London, World Cup — a humorous commentary on the globetrotting demands of venture capital life.
+Matt Turck 生动（而疲惫地）描绘了 2026 年 VC 会议日历：达沃斯、阿斯彭、巴黎、柏林、伦敦、世界杯……以幽默的方式呈现了风险投资人在全球奔波的现实。
+
+Source: https://x.com/mattturck/status/2064806681612362113
 
 ---
 
-### AI & I by Every — "We Automated Everything With AI and Tripled Our Headcount"
+## Zara Zhang @zarazhangrui
+Builder / Investor
 
-This episode challenges the fear that AI replaces people by presenting the opposite reality: a company that automated everything and then hired more humans, not fewer.
-本期节目用一个相反的现实挑战了 AI 取代人类的恐惧：一家公司自动化了一切，然后招了更多人，而不是裁员。
+Zara Zhang shared three sharp observations: First, *"The output of an agency looks like a folder of files for agents, instead of one-off assets"* — anticipating a shift in how creative work gets delivered. Second, she proposed that teams should build cross-functional AI agents/skills (e.g., a design agent trained on brand guidelines for marketing teams). Third, she noted a market concentration risk: most SF startups seem to be selling to each other rather than to the broader world — the same small "engineering/product teams at AI-native startups" audience being bombarded by a million products.
+Zara Zhang 分享了三则犀利洞察：代理机构的交付物正在从一次性资产转变为"代理人可用的文件夹"；团队应为跨职能协作构建专属 AI Agent/技能（如为市场部构建训练了品牌规范的设计 Agent）；她还指出旧金山创业圈的市场集中风险——大多数初创公司在互相兜售产品，真正面向更广泛市场的产品寥寥无几。
 
-The central argument: the further an agent gets from a human, the less valuable it becomes — keeping humans close to AI output is not a limitation, it's the architecture that makes AI useful.
-核心论点：代理离人越远，价值越低——让人类贴近 AI 输出不是局限，而是让 AI 真正有用的架构。
-
-The host describes a familiar feeling: AI blows your mind, then stops and looks back at you asking *"what should I do next?"* — signaling that human judgment remains the critical bottleneck.
-主持人描述了一种熟悉的感受：AI 让你大开眼界，然后停下来回头问 *"what should I do next?"* ——这表明人类判断力仍然是关键瓶颈。
-
-The most forward-looking takeaway: if you care about living an ambitious life, riding the frontier models closely is how you stay ahead — the people who win will be those who remain tightly coupled with AI, not those who try to operate it at arm's length.
-最值得关注的信号：如果你在乎过有野心的生活，紧跟前沿模型才是保持领先的方式——赢家将是那些与 AI 保持紧密耦合的人，而不是试图保持距离的人。
-
-Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Source: https://x.com/zarazhangrui/status/2064843560248332577
+Source: https://x.com/zarazhangrui/status/2064835289559023958
+Source: https://x.com/zarazhangrui/status/2064825302359150870
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+## Nikunj Kothari @nikunj
+Partner @ FPV Ventures
+
+Nikunj Kothari shared a fun TIL moment: apparently you can "roast your way" into getting good coffee at the Cognition office — a light, human moment from the VC world.
+Nikunj Kothari 分享了一则有趣的生活小发现：在 Cognition 办公室，只要会"怼人"就能喝到好咖啡——一则来自 VC 世界的轻松日常瞬间。
+
+Source: https://x.com/nikunj/status/2064901295383990417
+
+---
+
+## Dan Shipper @danshipper
+CEO @ Every
+
+Dan Shipper had a Fable-heavy week. He was seen *"fable maxxing on the plane to SF"* and shared a thoughtful prediction about AI and reshoring: higher individual productivity from AI could make it more appealing to bring certain jobs back to the US to be closer to customers. He also referenced a prior prediction he made on Lenny Rachitsky's podcast about this trend.
+Dan Shipper 本周深度体验 Fable，在飞往旧金山的飞机上疯狂使用。他还分享了一个关于 AI 与制造业回流的深刻预判：AI 带来的个人生产力提升，可能使某些岗位回流美国以贴近客户变得更具经济吸引力——这一预测与他此前在 Lenny 播客中的观点相呼应。
+
+Source: https://x.com/danshipper/status/2064916544417829027
+Source: https://x.com/danshipper/status/2064777216656097445
+Source: https://x.com/danshipper/status/2064767202767602122
+
+---
+
+## Claude @claudeai
+Anthropic's Official Account
+
+Anthropic's official Claude account made three announcements this week: highlighting the Cursor story — Michael Truell co-founded @cursor_ai which grew from 15 to 700 people in two years and now serves 60%+ of the Fortune 500; sharing a "Problem Solvers" founder spotlight series; and announcing new platform features including scheduled deployments and environment variable vaults now available on the Claude Platform.
+Anthropic 官方账号本周发布三项内容：介绍了 Cursor 创始人 Michael Truell 的故事——这家从 15 人发展到 700 人的公司如今服务超过 60% 的财富 500 强；推介"问题解决者"系列创始人故事；并宣布 Claude Platform 新增定时部署和环境变量 Vault 等平台级功能正式上线。
+
+Source: https://x.com/claudeai/status/2064757539762295177
+Source: https://x.com/claudeai/status/2064757537992249734
+Source: https://x.com/claudeai/status/2064741184547795408
+
+---
+
+## PODCAST: AI & I by Every — "How Anthropic Uses Claude Fable 5 With Mike Krieger"
+
+Published: 2026-06-10
+URL: https://www.youtube.com/watch?v=XWpTgCvgYaE
+
+In this episode, Dan Shipper (CEO of Every) sits down with Mike Krieger — co-founder of Instagram and Head of Anthropic Labs — to discuss what it's really like to use Claude Fable 5 beyond day one. Mike explains that the Anthropic team has been living with Fable-class models for months, and that extended use reveals capabilities you simply don't discover on launch day. He highlights that users who spent time with earlier Claude models in December–January consistently reported "I wasn't pushing it hard enough" — and that the same will be true for Fable 5. The conversation covers how Anthropic internally uses Claude for complex work, how the model handles multi-step tasks with greater reliability, and how Mike thinks about the frontier between what AI can do today versus what builders imagine.
+
+在这一期节目中，Every CEO Dan Shipper 与 Instagram 联合创始人、Anthropic Labs 负责人 Mike Krieger 深度对谈，探讨超越发布首日的 Claude Fable 5 真实使用体验。Mike 指出，Anthropic 团队已与 Fable 级别的模型共处数月，长期深度使用才能发掘到发布当天感知不到的能力边界。他分享了一个规律：使用过早期 Claude 模型较长时间的用户，无一例外地反馈"我之前用得不够激进"——Fable 5 也将如此。两人探讨了 Anthropic 内部如何将 Claude 用于复杂工作、模型在多步骤任务中更强的可靠性，以及 Mike 对 AI 今日能力边界与构建者想象力之间鸿沟的思考。
+
+Source: https://www.youtube.com/watch?v=XWpTgCvgYaE
