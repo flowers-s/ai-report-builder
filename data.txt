@@ -1,210 +1,366 @@
-AI Builders 日报 · 2026-06-12
+AI Builders 日报 · 2026-06-14
 
 ---
 
-## Swyx @swyx
+## 官方博客 / OFFICIAL BLOGS
 
-Swyx recently shared excitement about a new development in the AI tools space.
-Swyx 近期分享了对 AI 工具领域新动态的兴奋之情。
+### Anthropic Engineering: An update on recent Claude Code quality reports
+Anthropic Engineering: An update on recent Claude Code quality reports
+Anthropic 工程博客：关于近期 Claude Code 质量反馈的更新说明
 
-Source: https://x.com/swyx/status/2064698525917827092
+Over the past month, Anthropic has been investigating reports that Claude's responses degraded for some users.
+过去一个月，Anthropic 一直在调查部分用户反映 Claude 回复质量下降的问题。
 
----
+The issues were traced to three separate changes that affected Claude Code, the Claude Agent SDK, and Claude Cowork — importantly, the API was not impacted.
+问题被追溯到三项独立变更，分别影响了 Claude Code、Claude Agent SDK 和 Claude Cowork——重要的是，API 本身未受影响。
 
-## Josh Woodward @joshwoodward
-VP, Google Labs / Gemini App / Google AI Studio
+All three issues have been fully resolved as of April 20 (v2.1.116).
+所有三个问题已于 4 月 20 日（v2.1.116 版本）完全修复。
 
-Josh Woodward communicated important service updates to Gemini users — first announcing an active outage and its resolution. *"Everything is back up and running, sorry again!"* — Josh led transparent, timely communication during a Gemini service disruption, eventually confirming full restoration.
-Josh Woodward 就 Gemini 服务中断事件及时向用户发布了通报，先是公告故障正在处理中，随后确认服务已完全恢复。他的沟通坦诚而迅速，体现了团队对用户体验的重视。
+Anthropic committed to clearer communication and improved safeguards against silent quality regressions going forward.
+Anthropic 承诺未来将更清晰地沟通，并建立更好的机制防止质量静默回退。
 
-Source: https://x.com/joshwoodward/status/2064869366290841716
-Source: https://x.com/joshwoodward/status/2064762269674918013
-
----
-
-## Boris Cherny @bcherny
-Claude Code @ Anthropic
-
-Boris Cherny sent greetings from the "Code with Claude" event in Tokyo, signaling Anthropic's growing presence in Japan's developer community.
-Boris Cherny 从东京的「Code with Claude」活动现场发来问候，展示了 Anthropic 在日本开发者社群中不断扩大的影响力。
-
-Source: https://x.com/bcherny/status/2064885111477219664
+🔗 https://www.anthropic.com/engineering/april-23-postmortem
 
 ---
 
-## Thibault Sottiaux @thsottiaux
-Codex & ChatGPT @ OpenAI
+### Anthropic Engineering: Scaling Managed Agents — Decoupling the brain from the hands
+Anthropic Engineering: Scaling Managed Agents — Decoupling the brain from the hands
+Anthropic 工程博客：扩展托管智能体——将"大脑"与"双手"解耦
 
-Thibault Sottiaux shared three key updates this week. First, he noted a striking organic growth spike in Codex token consumption — *"We saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something."* — suggesting growing user demand independent of any product launches. He also welcomed two new colleagues joining the OpenAI cybersecurity team, emphasizing the goal of accelerating defenders globally. In a reflective moment, he shared a design philosophy: *"Simplify until there is nothing to simplify."*
-Thibault Sottiaux 本周带来三条重要动态：Codex token 消耗量在未发布新功能的情况下出现异常激增，暗示用户对该工具的有机增长需求正在加速；同时欢迎两位新成员加入 OpenAI 网络安全团队，致力于为全球防御者提速；他还分享了一句简洁有力的设计哲学："化繁为简，直到无可再简。"
+The core insight: harnesses encode assumptions about what Claude can't do on its own — but those assumptions go stale as models improve.
+核心洞察：执行框架（harness）编码了关于 Claude 无法独立完成哪些事情的假设——但随着模型不断进步，这些假设会逐渐过时。
 
-Source: https://x.com/thsottiaux/status/2064911328087810308
-Source: https://x.com/thsottiaux/status/2064900105032135010
-Source: https://x.com/thsottiaux/status/2064869401359417799
+The new architecture separates the "brain" (the reasoning model) from the "hands" (tool-use execution), enabling each layer to scale independently.
+新架构将"大脑"（推理模型）与"双手"（工具执行）分离，让每一层都能独立扩展。
 
----
+This decoupling dramatically improves reliability for long-running multi-step agentic workflows.
+这种解耦大幅提升了长时间运行的多步骤智能体工作流的可靠性。
 
-## Peter Yang @petergyang
-AI Tutorials & Interviews
+The post recommends designing agent harnesses that expect capability improvements, rather than freezing assumptions around current model limits.
+文章建议设计智能体框架时应预期模型能力持续提升，而非将当前模型局限固化为假设。
 
-Peter Yang reflected on career identity and the builder mindset: *"Give yourself permission to build."* He challenged the traditional career ladder that pushes people toward management, advocating instead for staying close to hands-on building. He also shared excitement about Codex, noting *"The more I use Codex the more ambitious my requests get"* — a sign that AI coding tools are expanding what builders believe is possible.
-Peter Yang 本周探讨了职业身份与构建者心态，他鼓励大家"给自己构建的权利"，质疑将所有人推向管理职位的传统晋升路径。他同时分享了对 Codex 的体验——使用越多，请求越大胆，这正是 AI 编程工具正在重塑开发者想象边界的有力证明。
-
-Source: https://x.com/petergyang/status/2064799855059616172
-Source: https://x.com/petergyang/status/2064760792684335133
-Source: https://x.com/petergyang/status/2064748427892945313
+🔗 https://www.anthropic.com/engineering/managed-agents
 
 ---
 
-## Nan Yu @thenanyu
-Head of Product @ Linear
+### Claude Blog: New in Claude Managed Agents — self-hosted sandboxes and MCP tunnels
+Claude Blog: New in Claude Managed Agents — self-hosted sandboxes and MCP tunnels
+Claude 官方博客：Claude 托管智能体新功能——自托管沙箱与 MCP 隧道
 
-Nan Yu shared two observations: a humorous reference to "gangprompting" (hinting at emerging prompt engineering culture), and an analogy comparing AI tools to boat ownership — the two best moments being when you first adopt and eventually let go. A subtle meditation on tool attachment in the AI era.
-Nan Yu 分享了两则观察：一是对"群体提示"（gangprompting）文化的幽默调侃，二是将 AI 工具比作拥有游艇——最美好的两个时刻是你买入和卖出的那天，暗示对工具过度依恋的哲学反思。
+Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private MCP servers.
+即日起，Claude 托管智能体可在您自行控制的沙箱中运行，并连接您的私有 MCP 服务器。
 
-Source: https://x.com/thenanyu/status/2064733338779177459
-Source: https://x.com/thenanyu/status/2064711789556732316
+Both the execution sandbox and the services it reaches run within your enterprise's established security and runtime boundaries.
+执行沙箱及其所访问的服务，均运行在企业既有的安全与运行时边界之内。
 
----
+The sandbox can run on your own infrastructure or with managed providers like Cloudflare.
+沙箱可部署在您自有基础设施上，或通过 Cloudflare 等托管服务商运行。
 
-## Madhu Guru @realmadhuguru
-Former Product Leader @ Google (Gemini, Veo, Nano)
+MCP tunnels allow agents to securely reach internal tools and databases without exposing them to the public internet.
+MCP 隧道让智能体能够安全访问内部工具和数据库，无需将其暴露到公网。
 
-Madhu Guru shared a practical rule of thumb from his enterprise AI experience: start with small models when replacing traditional ML systems (where success criteria are well-defined), but start with large models when building net-new generative experiences. This cost/quality tradeoff guidance is hard-won from working with enterprise clients on Gemini.
-Madhu Guru 分享了一条来自 Google 企业 AI 实践的经验法则：替换传统 ML 模型时从小模型入手（因为已知好的输出长什么样）；而构建全新生成式应用时则应从大模型起步。这一成本/质量权衡建议来自他在 Gemini 企业客户侧的真实经验。
-
-Source: https://x.com/realmadhuguru/status/2064794601320481150
-
----
-
-## Thariq @trq212
-Claude Code @ Anthropic
-
-Thariq had a standout week with a viral post about using Fable to edit its own launch video. *"TLDR it wrote a lot of code & tool calls to use transcription services, ffmpeg, do colorgrading, use the figma mcp, make remotion UI and render it. I didn't touch a video editor."* This post garnered over 6,000 likes — showcasing Claude's agentic capabilities in creative production. He also shared the accompanying deck and video for those wanting to go deeper.
-Thariq 本周凭借一则病毒式传播的帖子吸引了大量关注——他用 Fable（Claude）编辑了产品发布视频，全程让 AI 调用转录服务、ffmpeg、Figma MCP、Remotion 等工具完成剪辑，自己完全没有碰视频编辑器。该帖获得超 6000 点赞，生动展示了 Claude 在创意生产中的强大自主能力。他还附上了演讲幻灯片和演示视频供感兴趣者深入了解。
-
-Source: https://x.com/trq212/status/2064826394589442448
-Source: https://x.com/trq212/status/2064826541947940910
-Source: https://x.com/trq212/status/2064828193446740023
+🔗 https://claude.com/blog/claude-managed-agents-updates
 
 ---
 
-## Google Labs @GoogleLabs
+## X / 推特动态
 
-Google Labs announced expanded access to Project Genie, now available to Google AI Ultra 5X subscribers globally. This represents a new tier of access for Google's experimental AI tools.
-Google Labs 宣布 Project Genie 的访问权限进一步扩大，现已向全球 Google AI Ultra 5X 订阅用户开放，标志着 Google 实验性 AI 工具在全球范围内提升了可及性。
+### Andrej Karpathy
+Andrej Karpathy — AI researcher and educator, former Tesla AI director.
+Andrej Karpathy — AI 研究者与教育者，前特斯拉 AI 总监。
 
-Source: https://x.com/GoogleLabs/status/2064801929339752527
+Karpathy expressed awe at SpaceX and its 25-year journey, celebrating the milestone achievement and the team's perseverance.
+Karpathy 对 SpaceX 及其 25 年历程表达了深深的敬佩，祝贺这一里程碑成就和团队的坚持。
 
----
+*"In awe of SpaceX and its story - past, present and the future. You can think about it in 10+ different ways and continue re-blowing your mind in circles."*
+*"对 SpaceX 及其故事——过去、现在与未来——充满敬畏。你可以从十种以上不同角度去思考，并不断被震撼，循环往复。"*
 
-## Amjad Masad @amasad
-CEO @ Replit
-
-Amjad Masad highlighted Replit's new automated job search feature, congratulated a founder on an enterprise agent launch, and shared a patriotic post. The job search automation product demonstrates Replit's push into practical agentic applications for everyday users.
-Amjad Masad 重点推介了 Replit 新推出的自动化求职功能，祝贺创业者 @markiewagner 的企业级 Agent 产品发布，并发表了一则爱国主题的帖子。求职自动化产品彰显了 Replit 将 Agent 能力落地到普通用户日常场景的战略方向。
-
-Source: https://x.com/amasad/status/2064864439275536495
-Source: https://x.com/amasad/status/2064806473352540643
+🔗 https://x.com/karpathy/status/2065490793092337691
 
 ---
 
-## Guillermo Rauch @rauchg
-CEO @ Vercel
+### Swyx
+Swyx — developer advocate, founder of Latent Space, builder and writer on AI engineering.
+Swyx — 开发者布道者，Latent Space 创始人，AI 工程领域的构建者与写作者。
 
-Guillermo Rauch was in London ahead of Vercel Ship next week, teasing *"Some special announcements"* — building anticipation for a major product reveal. He also reflected on Silicon Valley's meritocracy: *"No place more meritocratic"* — noting that he takes every founder intro seriously regardless of pedigree.
-Guillermo Rauch 正在伦敦备战下周的 Vercel Ship 大会，暗示将有重磅产品发布。他同时发表了对硅谷创业文化的感悟，强调无论创始人背景如何，他都会认真对待每一个融资引荐——这里是最注重实力而非背景的地方。
+Swyx is heads-down in "peak crunch mode" preparing for AI Engineer (AIE) conference, asking followers to be patient with delayed replies.
+Swyx 正处于冲刺阶段，全力备战 AI Engineer（AIE）大会，请求关注者对回复延迟给予理解。
 
-Source: https://x.com/rauchg/status/2064777495422161205
-Source: https://x.com/rauchg/status/2064732935484514729
+He also provoked a broader conversation about the future of developer tooling — questioning whether Git itself needs to die next, noting that 20–40% of coding effort is spent on merge conflicts alone.
+他还引发了关于开发工具未来的广泛讨论——质疑 Git 是否也该走到历史终点，指出仅管理合并冲突就消耗了 20–40% 的编码工作量。
 
----
+*"The Future Codebase — After the PR dies, after the Code Review dies, I am seriously wondering if Git needs to die next."*
+*"未来的代码库——PR 死了，代码审查死了，我开始认真思考 Git 是否也该消亡了。"*
 
-## Aaron Levie @levie
-CEO @ Box
+Finally, he shared an insight on developer exception engineering: happy paths vary widely, but unhappy paths are nearly universal.
+最后，他分享了关于开发者异常工程的洞察：成功路径千变万化，而失败路径几乎千篇一律。
 
-Aaron Levie reported significant capability improvements with the new Fable model, especially for complex enterprise knowledge work. *"In our Box AI Complex Work Eval, we tested the model against Opus 4.8 and saw huge boosts across almost every industry."* — The results signal that Fable represents a meaningful step-change for enterprise AI applications beyond coding.
-Aaron Levie 分享了 Box 对 Fable 模型的评测结果，显示其在复杂企业知识工作场景中相比 Opus 4.8 几乎全面领先。这一数据表明 Fable 不仅在编程领域有所突破，在各行业的知识密集型工作中同样带来了显著的能力跃升。
-
-Source: https://x.com/levie/status/2064922814688481678
-
----
-
-## Garry Tan @garrytan
-President & CEO @ Y Combinator
-
-Garry Tan was vocal on San Francisco politics this week, celebrating the defeat of Aaron Peskin and calling for accountability from what he called the *"Performative nonprofit industrial complex."* He also highlighted Nessie, a tool that helps users migrate AI memory and context from ChatGPT, Perplexity, and Gemini into other platforms — praising their OpenClaw and MCP server integrations.
-Garry Tan 本周在旧金山政治议题上发声，庆祝 Aaron Peskin 的失败，呼吁清除他眼中"表演性非营利工业复合体"的浪费行为。在 AI 工具方面，他推介了 Nessie 这一帮助用户迁移 ChatGPT、Perplexity、Gemini 等平台 AI 记忆与历史的工具，对其 OpenClaw 和 MCP 服务器集成给予高度评价。
-
-Source: https://x.com/garrytan/status/2064948068076986657
-Source: https://x.com/garrytan/status/2064947547735789715
-Source: https://x.com/garrytan/status/2064947145652994510
+🔗 https://x.com/swyx/status/2065699264907694123
+🔗 https://x.com/swyx/status/2065559864559145420
+🔗 https://x.com/swyx/status/2065516685113827533
 
 ---
 
-## Matt Turck @mattturck
-VC @ FirstMark Capital
+### Thibault Sottiaux
+Thibault Sottiaux — AI product builder at Anthropic, working on Claude Codex.
+Thibault Sottiaux — Anthropic 的 AI 产品构建者，专注于 Claude Codex。
 
-Matt Turck painted a vivid (and exhausting) picture of the 2026 VC conference circuit — Davos, Aspen, Paris, Berlin, London, World Cup — a humorous commentary on the globetrotting demands of venture capital life.
-Matt Turck 生动（而疲惫地）描绘了 2026 年 VC 会议日历：达沃斯、阿斯彭、巴黎、柏林、伦敦、世界杯……以幽默的方式呈现了风险投资人在全球奔波的现实。
+Responding to user feedback, Sottiaux announced an upcoming UX improvement for Codex usage resets: users will now get to choose when a usage reset takes effect, rather than having it applied without warning.
+针对用户反馈，Sottiaux 宣布即将改进 Codex 用量重置体验：用户将能自主选择重置时机，而非毫无预警地被直接重置。
 
-Source: https://x.com/mattturck/status/2064806681612362113
-
----
-
-## Zara Zhang @zarazhangrui
-Builder / Investor
-
-Zara Zhang shared three sharp observations: First, *"The output of an agency looks like a folder of files for agents, instead of one-off assets"* — anticipating a shift in how creative work gets delivered. Second, she proposed that teams should build cross-functional AI agents/skills (e.g., a design agent trained on brand guidelines for marketing teams). Third, she noted a market concentration risk: most SF startups seem to be selling to each other rather than to the broader world — the same small "engineering/product teams at AI-native startups" audience being bombarded by a million products.
-Zara Zhang 分享了三则犀利洞察：代理机构的交付物正在从一次性资产转变为"代理人可用的文件夹"；团队应为跨职能协作构建专属 AI Agent/技能（如为市场部构建训练了品牌规范的设计 Agent）；她还指出旧金山创业圈的市场集中风险——大多数初创公司在互相兜售产品，真正面向更广泛市场的产品寥寥无几。
-
-Source: https://x.com/zarazhangrui/status/2064843560248332577
-Source: https://x.com/zarazhangrui/status/2064835289559023958
-Source: https://x.com/zarazhangrui/status/2064825302359150870
+🔗 https://x.com/thsottiaux/status/2065468501750649006
 
 ---
 
-## Nikunj Kothari @nikunj
-Partner @ FPV Ventures
+### Peter Yang
+Peter Yang — product leader and writer, creator of the Creator Science newsletter.
+Peter Yang — 产品领导者与写作者，Creator Science 通讯创始人。
 
-Nikunj Kothari shared a fun TIL moment: apparently you can "roast your way" into getting good coffee at the Cognition office — a light, human moment from the VC world.
-Nikunj Kothari 分享了一则有趣的生活小发现：在 Cognition 办公室，只要会"怼人"就能喝到好咖啡——一则来自 VC 世界的轻松日常瞬间。
+Yang predicted that identity verification will soon be required to access the most capable AI models — a sign that model access is becoming a regulated resource.
+Yang 预测，访问最强大的 AI 模型很快将需要身份验证——这标志着模型访问权限正在成为一种受监管的资源。
 
-Source: https://x.com/nikunj/status/2064901295383990417
+He also reacted with shock to news that the government is suspending access to Fable for certain foreign nationals inside the US, questioning how such rules could realistically be enforced.
+他还对政府暂停向美国境内特定外国人开放 Fable 访问权限的消息表示震惊，并质疑这类规定的实际可执行性。
 
----
+*"Yeah I think ID verification will soon be required to access the best models."*
+*"我认为访问最好的模型很快就需要实名验证了。"*
 
-## Dan Shipper @danshipper
-CEO @ Every
-
-Dan Shipper had a Fable-heavy week. He was seen *"fable maxxing on the plane to SF"* and shared a thoughtful prediction about AI and reshoring: higher individual productivity from AI could make it more appealing to bring certain jobs back to the US to be closer to customers. He also referenced a prior prediction he made on Lenny Rachitsky's podcast about this trend.
-Dan Shipper 本周深度体验 Fable，在飞往旧金山的飞机上疯狂使用。他还分享了一个关于 AI 与制造业回流的深刻预判：AI 带来的个人生产力提升，可能使某些岗位回流美国以贴近客户变得更具经济吸引力——这一预测与他此前在 Lenny 播客中的观点相呼应。
-
-Source: https://x.com/danshipper/status/2064916544417829027
-Source: https://x.com/danshipper/status/2064777216656097445
-Source: https://x.com/danshipper/status/2064767202767602122
+🔗 https://x.com/petergyang/status/2065622592309039449
+🔗 https://x.com/petergyang/status/2065602691850764667
+🔗 https://x.com/petergyang/status/2065601540350750846
 
 ---
 
-## Claude @claudeai
-Anthropic's Official Account
+### Madhu Guru
+Madhu Guru — AI founder and commentator.
+Madhu Guru — AI 创业者与评论人。
 
-Anthropic's official Claude account made three announcements this week: highlighting the Cursor story — Michael Truell co-founded @cursor_ai which grew from 15 to 700 people in two years and now serves 60%+ of the Fortune 500; sharing a "Problem Solvers" founder spotlight series; and announcing new platform features including scheduled deployments and environment variable vaults now available on the Claude Platform.
-Anthropic 官方账号本周发布三项内容：介绍了 Cursor 创始人 Michael Truell 的故事——这家从 15 人发展到 700 人的公司如今服务超过 60% 的财富 500 强；推介"问题解决者"系列创始人故事；并宣布 Claude Platform 新增定时部署和环境变量 Vault 等平台级功能正式上线。
+In a tongue-in-cheek post, Guru noted he manually wrote an entire document using a keyboard — no dictation, no AI — declaring he "likes to live dangerously."
+Guru 以一种自嘲的语气表示，他亲手用键盘写完了一整份文档——没有语音输入，没有 AI——并称自己"喜欢这种冒险的生活方式"。
 
-Source: https://x.com/claudeai/status/2064757539762295177
-Source: https://x.com/claudeai/status/2064757537992249734
-Source: https://x.com/claudeai/status/2064741184547795408
+The humor cuts deeper: it's a subtle commentary on how dependent builders have become on AI-assisted writing.
+这句玩笑背后有更深的含义：它隐隐折射出构建者对 AI 辅助写作的依赖已有多深。
+
+🔗 https://x.com/realmadhuguru/status/2065541200971759669
 
 ---
 
-## PODCAST: AI & I by Every — "How Anthropic Uses Claude Fable 5 With Mike Krieger"
+### Amjad Masad
+Amjad Masad — CEO of Replit, believer in democratizing software creation.
+Amjad Masad — Replit CEO，致力于让软件创作触手可及。
 
-Published: 2026-06-10
-URL: https://www.youtube.com/watch?v=XWpTgCvgYaE
+Masad announced Replit will need to turn off Fable access for users, citing the same government-driven suspension that shocked others.
+Masad 宣布 Replit 将不得不关闭 Fable 访问权限，原因同样是那项令众人震惊的政府暂停令。
 
-In this episode, Dan Shipper (CEO of Every) sits down with Mike Krieger — co-founder of Instagram and Head of Anthropic Labs — to discuss what it's really like to use Claude Fable 5 beyond day one. Mike explains that the Anthropic team has been living with Fable-class models for months, and that extended use reveals capabilities you simply don't discover on launch day. He highlights that users who spent time with earlier Claude models in December–January consistently reported "I wasn't pushing it hard enough" — and that the same will be true for Fable 5. The conversation covers how Anthropic internally uses Claude for complex work, how the model handles multi-step tasks with greater reliability, and how Mike thinks about the frontier between what AI can do today versus what builders imagine.
+He shared that when the "Tokenmaxxing craze" started, some enterprise customers requested a token-usage leaderboard — Replit declined, staying true to their mission rather than optimizing for vanity metrics.
+他还透露，当"Tokenmaxxing"热潮兴起时，部分企业客户要求建立 token 用量排行榜——Replit 拒绝了，坚守使命而非追逐虚荣指标。
 
-在这一期节目中，Every CEO Dan Shipper 与 Instagram 联合创始人、Anthropic Labs 负责人 Mike Krieger 深度对谈，探讨超越发布首日的 Claude Fable 5 真实使用体验。Mike 指出，Anthropic 团队已与 Fable 级别的模型共处数月，长期深度使用才能发掘到发布当天感知不到的能力边界。他分享了一个规律：使用过早期 Claude 模型较长时间的用户，无一例外地反馈"我之前用得不够激进"——Fable 5 也将如此。两人探讨了 Anthropic 内部如何将 Claude 用于复杂工作、模型在多步骤任务中更强的可靠性，以及 Mike 对 AI 今日能力边界与构建者想象力之间鸿沟的思考。
+On a lighter note, he announced that builders who make money on Replit now receive free credits.
+轻松一面：他宣布在 Replit 上赚到钱的开发者现在可以获得免费额度。
 
-Source: https://www.youtube.com/watch?v=XWpTgCvgYaE
+🔗 https://x.com/amasad/status/2065600809224814835
+🔗 https://x.com/amasad/status/2065597793998422308
+🔗 https://x.com/amasad/status/2065503810592833560
+
+---
+
+### Guillermo Rauch
+Guillermo Rauch — CEO of Vercel, builder of Next.js and the modern web platform.
+Guillermo Rauch — Vercel CEO，Next.js 及现代 Web 平台的构建者。
+
+Rauch shipped `HarnessAgent`, a unified abstraction in the AI SDK that orchestrates any agent's "brain" into your app — freeing developers from both model lock-in and agent framework lock-in.
+Rauch 发布了 `HarnessAgent`，这是 AI SDK 中的统一抽象层，可将任何智能体的"大脑"编排进你的应用——让开发者同时摆脱模型绑定和智能体框架绑定。
+
+He also celebrated the return of HTML as a first-class output format, with a new drag-and-drop capability that signals a broader shift toward document-native AI interfaces.
+他还庆祝 HTML 作为一等输出格式的回归，全新拖拽功能预示着 AI 界面向文档原生形式的更广泛转变。
+
+*"HTML is so back."*
+*"HTML 回来了。"*
+
+🔗 https://x.com/rauchg/status/2065520041894756480
+🔗 https://x.com/rauchg/status/2065494112669966660
+
+---
+
+### Alex Albert
+Alex Albert — Head of developer relations at Anthropic.
+Alex Albert — Anthropic 开发者关系负责人。
+
+Albert shared practical prompting tips for working with Fable (Claude's latest flagship model) in long agentic conversations, noting that Fable can feel "superhuman" — sometimes moving faster than even experienced users can follow.
+Albert 分享了在长时间智能体对话中使用 Fable（Claude 最新旗舰模型）的实用提示技巧，并指出 Fable 有时会让人感觉"超乎人类"——速度之快连经验丰富的用户都难以跟上。
+
+*"Fable feels superhuman at working over long agentic conversations, sometimes to the point where I can't keep up with what it's telling me 😅"*
+*"Fable 在长时间智能体对话中表现得超乎人类，有时快到连我都跟不上它在说什么 😅"*
+
+He pointed to Anthropic's public prompting guide for more techniques.
+他还指引大家查阅 Anthropic 公开的提示工程指南获取更多技巧。
+
+🔗 https://x.com/alexalbert__/status/2065493242158924031
+🔗 https://x.com/alexalbert__/status/2065493229760565758
+
+---
+
+### Aaron Levie
+Aaron Levie — CEO of Box, enterprise AI advocate.
+Aaron Levie — Box CEO，企业 AI 倡导者。
+
+Levie called out a major regulatory inflection point: the US government is now deeming certain AI models "too powerful" for specific use cases, establishing a precedent that could lead to broader model access controls.
+Levie 指出了一个重大监管转折点：美国政府正在将某些 AI 模型认定为"过于强大"而不适合特定用途，这一先例可能引发更广泛的模型访问管控。
+
+He also celebrated SpaceX's 25 years of achievement alongside others, and highlighted a cool product demo worth watching.
+他还与众人共同庆祝 SpaceX 25 年的辉煌成就，并推荐了一个值得一看的精彩产品演示。
+
+*"This is a big turning point for AI regulation. The government is starting to deem some models too powerful for certain uses, which creates a precedent for a range of possible controls in the future."*
+*"这是 AI 监管的重大转折点。政府开始认定某些模型对特定用途过于强大，这为未来一系列可能的管控措施树立了先例。"*
+
+🔗 https://x.com/levie/status/2065616509666472329
+🔗 https://x.com/levie/status/2065469347712401712
+
+---
+
+### Garry Tan
+Garry Tan — President & CEO of Y Combinator.
+Garry Tan — Y Combinator 总裁兼 CEO。
+
+Tan celebrated Datacurve (YC W24) for building what he called the defining software engineering benchmark — DeepSWE — positioning it as the successor to SWE-Bench Pro.
+Tan 为 Datacurve（YC W24）喝彩，称其正在打造他认为具有定义性意义的软件工程基准——DeepSWE，定位为 SWE-Bench Pro 的接班人。
+
+In a deeper observation, he reflected that most founders use AI coding tools to scaffold the same structures of bureaucracy faster — rules, approvals, process layers — rather than breaking free from them.
+在一个更深刻的观察中，他指出大多数创始人用 AI 编程工具做的不过是更快搭建同样的官僚结构——规则、审批、流程层——而非真正摆脱束缚。
+
+*"Everyone thinks AI coding tools set founders free. Watch what people actually build with them: rules, approvals, process, layers. The same cage, assembled faster."*
+*"人人都觉得 AI 编程工具让创始人自由了。但看看人们实际用它们构建了什么：规则、审批、流程、层层架构。同样的笼子，只是搭得更快了。"*
+
+He also shared his delight at discovering OpenClaw's `forceBlockStreamingForReasoning` feature with Claude Fable 5, calling the reasoning traces "mind-blowing."
+他还分享了在 OpenClaw 中发现 `forceBlockStreamingForReasoning` 功能的喜悦，配合 Claude Fable 5 查看推理轨迹的体验令他大呼"令人叹为观止"。
+
+🔗 https://x.com/garrytan/status/2065595201008398592
+🔗 https://x.com/garrytan/status/2065432924724539848
+🔗 https://x.com/garrytan/status/2065416181943865611
+
+---
+
+### Zara Zhang
+Zara Zhang — investor and writer, focused on AI and tech.
+Zara Zhang — 投资人与写作者，专注 AI 与科技领域。
+
+Zhang noted the overwhelming volume of product demo requests she receives — at least 3 per day — and the impossibility of trying them all.
+Zhang 提到她每天收到铺天盖地的产品演示请求——至少 3 个——根本无法一一尝试。
+
+She also shared a sharp insight on viral product growth: a founder people can see and hear beats any corporate promo.
+她还分享了一个关于病毒式产品增长的犀利洞察：一个让人看得见、听得到的创始人，胜过任何企业宣传视频。
+
+*"A viral product has a founder people can see and hear. People buy from people. A screen recording from the founder beats a corporate promo video or a wall of features. Show your face."*
+*"一个病毒式传播的产品，背后是一个看得见、听得到的创始人。人们从人那里购买。创始人的屏幕录制视频，胜过企业宣传片或一堆功能列表。露出你的脸吧。"*
+
+🔗 https://x.com/zarazhangrui/status/2065696088519270402
+🔗 https://x.com/zarazhangrui/status/2065674426197393779
+
+---
+
+### Nikunj Kothari
+Nikunj Kothari — product thinker and builder in AI.
+Nikunj Kothari — AI 领域的产品思考者与构建者。
+
+Kothari shared his framework for how application companies survive the "what if the lab builds this" existential question — a challenge every AI startup faces.
+Kothari 分享了他关于应用公司如何应对"要是大型实验室自己做了这个怎么办"这一生存问题的框架——这是每家 AI 初创公司都面临的挑战。
+
+He also reflected on having two distinct voices in his writing and speech — one fast and punchy, one slower and more nuanced — and how both serve different purposes.
+他还反思了自己写作和说话时呈现的两种截然不同的声音——一种快速有力，一种更慢更有深度——以及两者各自的用武之地。
+
+🔗 https://x.com/nikunj/status/2065581110822593000
+🔗 https://x.com/nikunj/status/2065473941385421279
+
+---
+
+### Peter Steinberger
+Peter Steinberger — iOS developer, creator of PSPDFKit and open-source tools.
+Peter Steinberger — iOS 开发者，PSPDFKit 及多款开源工具的创作者。
+
+Steinberger shared an exciting milestone: Codex is now running inside Crabbox while Crabbox itself is still being built — a self-referential loop that he describes as "becoming essential."
+Steinberger 分享了一个令人兴奋的里程碑：Codex 现在在 Crabbox 内部运行，而 Crabbox 本身还在构建中——这种自我指涉的循环让他称之为"正在成为不可或缺的存在"。
+
+He also quipped that "not consistently candid in their communications" is his new favorite piece of American corporate euphemism.
+他还调侃道，"在沟通中不够始终如一地坦诚"是他最新喜欢上的美式企业委婉语。
+
+🔗 https://x.com/steipete/status/2065650561484267540
+🔗 https://x.com/steipete/status/2065574894545560062
+🔗 https://x.com/steipete/status/2065567852162355551
+
+---
+
+### Dan Shipper
+Dan Shipper — CEO of Every, AI writer and thinker.
+Dan Shipper — Every CEO，AI 写作者与思考者。
+
+Shipper posted a series of reactions to AI industry news — including a comment that Fable-related content disrupted his weekend plans ("I may have to actually see people"), and a celebratory post for CFOs everywhere linked to a notable AI financial tool.
+Shipper 发表了一系列对 AI 行业新闻的反应——包括评论 Fable 相关内容打乱了他的周末计划（"我可能真的得去见人了"），以及为全球 CFO 们庆贺并附上一款值得关注的 AI 财务工具链接。
+
+He also noted with wry humor that AI-generated content and Hillbilly Elegy have both somehow contributed to the current media moment.
+他还带着一丝苦涩的幽默指出，AI 生成内容和《乡下人的悲歌》以某种方式共同塑造了当下的媒体时刻。
+
+🔗 https://x.com/danshipper/status/2065620303729078435
+🔗 https://x.com/danshipper/status/2065618107750916323
+🔗 https://x.com/danshipper/status/2065610408627724635
+
+---
+
+### Aditya Agarwal
+Aditya Agarwal — Partner at South Park Commons, former CTO of Dropbox.
+Aditya Agarwal — South Park Commons 合伙人，前 Dropbox CTO。
+
+In a playful nod to the SpaceX moment, South Park Commons (SPC) temporarily renamed itself "Space Park Commons" for the day.
+为向 SpaceX 时刻致敬，South Park Commons（SPC）将自己戏谑地更名为"Space Park Commons"以示庆祝。
+
+More substantively, Agarwal welcomed Ryan Atkins to the SPC team as a new Partner, expressing excitement about the road ahead.
+更实质性地，Agarwal 欢迎 Ryan Atkins 以新合伙人身份加入 SPC 团队，并对未来充满期待。
+
+🔗 https://x.com/adityaag/status/2065467866930135491
+🔗 https://x.com/adityaag/status/2065460544719704355
+
+---
+
+### Claude (Anthropic Official)
+Claude (@claudeai) — Anthropic's official AI account.
+Claude (@claudeai) — Anthropic 的官方 AI 账号。
+
+The official Claude account asked a simple but pointed question: "What are you building?" — a prompt directed at the broader AI builder community.
+官方 Claude 账号抛出了一个简洁而有力的问题："你在构建什么？"——这是向整个 AI 构建者社区发出的邀请。
+
+🔗 https://x.com/claudeai/status/2065456700379807900
+
+---
+
+## 播客 / PODCASTS
+
+### Unsupervised Learning: AI Vibe Check — Lab Wars, Why APIs Might Vanish & Future Predictions
+Unsupervised Learning: AI Vibe Check — Lab Wars, Why APIs Might Vanish & Future Predictions
+《无监督学习》播客：AI 氛围大检测——实验室战争、API 为何可能消失，以及未来预测
+
+**核心论点 / Core Thesis**
+
+This episode is a wide-ranging "vibe check" on the current state of AI, featuring Jacob Efron with Ari (ex-DeepMind/Meta researcher, now AI startup founder) and Rob (Radical Ventures).
+本期是对当前 AI 格局的全面"氛围检测"，主持人 Jacob Efron 与 Ari（前 DeepMind/Meta 研究员，现 AI 创业者）及 Rob（Radical Ventures）共同展开深入对话。
+
+The central argument: we are entering a period of genuine lab-level competition, with capability jumps (like Fable) reshaping industry assumptions — and the most provocative claim is that AI labs may shut down their API businesses as compute constraints intensify.
+核心论点：我们正在进入一个真正意义上的实验室级竞争时代，能力跃升（如 Fable）正在重塑行业假设——而最具挑战性的观点是：随着算力约束加剧，AI 实验室可能会关闭其 API 业务。
+
+**关键洞察 / Key Insights**
+
+The release of Fable generated unusually strong reactions even among AI insiders — it felt like a qualitative shift, not just an incremental improvement.
+Fable 的发布在 AI 圈内部引发了异常强烈的反响——这感觉像是质变，而非简单的增量改进。
+
+The panel discussed how close we are to RSI (Recursive Self-Improvement) — with real disagreement on timelines, but consensus that it's no longer a purely theoretical concern.
+嘉宾们讨论了我们距离 RSI（递归自我改进）有多近——在时间线上存在真实分歧，但都认同这已不再是纯粹的理论问题。
+
+The "APIs might vanish" thesis: as frontier models become increasingly expensive to run and demand skyrockets, labs may prioritize their own product surfaces over third-party API access — a major structural risk for the entire AI app ecosystem.
+"API 可能消失"的论点：随着前沿模型运行成本急剧攀升、需求暴增，实验室可能会优先保障自身产品体验，而非第三方 API 访问——这对整个 AI 应用生态构成重大结构性风险。
+
+Ari and Rob offered contrasting views on which labs will win the "lab wars" — with capability, distribution, and enterprise trust all cited as key differentiators.
+Ari 和 Rob 就哪家实验室将赢得"实验室战争"提出了不同观点——能力、分发渠道和企业信任均被认为是关键差异化因素。
+
+The most contrarian take: some participants believe the current "AGI discourse" is actively harmful, as it distracts from near-term product quality and safety work that matters more right now.
+最具反传统的观点：部分嘉宾认为当前的"AGI 话语"实际上有害，因为它分散了对眼下更重要的近期产品质量和安全工作的注意力。
+
+🎙️ Unsupervised Learning | https://www.youtube.com/watch?v=W_iO8XxgD_I
