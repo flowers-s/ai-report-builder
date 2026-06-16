@@ -1,229 +1,110 @@
-AI Builders 日报 · 2026-06-15
+AI Builders 日报 · 2026-06-16
 
 ---
 
-X / TWITTER
+## 🎙️ PODCASTS
+
+### Training Data — LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age
+Jensen Huang sat down live to discuss why this moment represents "the largest infrastructure build out in human history," centered on NVIDIA's concept of the AI factory.
+黄仁勋接受了关于人工智能工厂的深度访谈，他认为当前正处于人类历史上规模最大的基础设施建设浪潮中，NVIDIA 正处于这场革命的核心位置。He described how AI has evolved beyond chatbots into autonomous agents capable of running full enterprise workflows — and why every company must now build its own AI factory to stay competitive.
+他指出，AI 已经从聊天机器人演变为能够运行完整企业工作流的自主智能体，每家企业都必须建立自己的"AI 工厂"才能保持竞争力。
+
+🔗 https://www.youtube.com/watch?v=2UpQbeAZuqA
 
 ---
 
-Swyx (swyx on X) — AI工程师社区领袖、AI Engineer World's Fair 主办方
+## 🐦 X / TWITTER
 
-The annual AI Engineering Survey is closing this weekend — fill it out for a chance to win Vercel, Notion, and AIE conference tickets.
-2026年度AI工程师调查即将截止，填写可赢取 Vercel、Notion 及 AIE 大会门票。
+### Swyx (@swyx)
+Swyx 分享了对 Anthropic ultracode（多智能体编程系统）的第一手体验：这个系统"极其擅长消耗 token"，但需要正确设置仓库结构才能充分发挥子智能体并行执行的优势。
+*"havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to set up your repo to parallelize properly"* — 他认为子智能体的核心价值在于"将智能注入子程序"，而大量知识工作本质上是一层层的 yak shaving，动态工作流不只适用于编程任务。
+他还转发了 Satya Nadella 关于"循环即 IP"的观点：*"the real opportunity is not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound."* 企业真正的竞争优势在于构建能不断积累机构知识的学习闭环，而非选择最好的模型。
 
-In an impressive data storytelling move, he had Devin AI analyze the registered attendee list and generate a live chart of conference attendees — calling it the single best data-driven storytelling he had ever done.
-他让 Devin AI 分析注册参会者名单并生成实时图表，称这是他做过的最好的数据驱动叙事案例。
-
-https://x.com/swyx/status/2065909887025168887
-
----
-
-Thibault Sottiaux (thsottiaux on X) — AI Builder
-
-He just discovered OpenAI Codex and opened himself up for questions with a casual "AMA."
-他刚发现了 OpenAI Codex，以轻松的"AMA（问我任何问题）"姿态欢迎大家提问。
-
-https://x.com/thsottiaux/status/2066022651760721931
+🔗 https://x.com/swyx/status/2066415484149633329
+🔗 https://x.com/swyx/status/2066235625695850526
 
 ---
 
-Peter Yang (petergyang on X) — 产品经理作者
+### Thibault Sottiaux (@thsottiaux) — OpenAI Codex 团队
+Thibault（OpenAI Codex & ChatGPT 团队成员）分享了一个重磅功能：Codex 现在可以自主查看并设置自己的 `/goal`。
+*"Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent."* — 这是元提示（meta prompting）的一次重要泛化：不再由人类为智能体指定任务，而是让智能体根据用户意图自主决定目标。这条推文获得了超过 2200 个点赞，说明社区对自主 agent 目标设定能力的高度关注。
 
-He flagged what appears to be a significant security vulnerability in cal.com: an unknown user "Nora" had somehow booked a meeting on his calendar without his permission, and he escalated it directly to the founders.
-他指出 cal.com 似乎存在严重安全漏洞：一个名叫"Nora"的陌生用户在未经授权的情况下在他的日历上预约了会议，他直接向创始人反馈了此问题。
-
-*"Hey @peer_rich this is happening to me too and feels like a big security exploit."*
-
-He also shared personal recommendations for martial arts cinema, urging followers to watch "The Furious," and wants 10% of his feed to be about martial arts, anime, and games.
-他还推荐了武术电影《The Furious》，并表示希望自己 10% 的推文内容都与武术、动漫和游戏相关。
-
-https://x.com/petergyang/status/2065841885936316797
-https://x.com/petergyang/status/2065973599119536181
+🔗 https://x.com/thsottiaux/status/2066270561081454989
 
 ---
 
-Nan Yu (thenanyu on X) — AI Startup Builder
+### Peter Yang (@petergyang)
+Peter Yang 近期发布了多位 AI 从业者的访谈视频（Kieran、Kun、Matt），并向社区征集下一位访谈嘉宾。
+彼得·杨正在积极扩展他的 AI 创作者访谈系列，邀请读者参与推荐下一位受访者，延续其"帮助忙碌的人成为 AI 建造者"的内容定位。
 
-In a sharp satirical take, he proposed "import restrictions on Jira," joking that project management software is so powerful it "completely disables the operations of tech companies, freezing progress and rendering them worthless."
-他以辛辣讽刺的方式提议对 Jira 实施"进口限制"，调侃这款项目管理软件强大到足以"完全瘫痪科技公司的运营，冻结进展，让公司毫无价值"。
-
-*"Import restrictions on Jira. Now."*
-
-The joke lands as a clear dig at AI regulation overreach.
-此推文显然是在影射 AI 监管的过度干预。
-
-https://x.com/thenanyu/status/2065953400395555255
+🔗 https://x.com/petergyang/status/2066309743619244174
 
 ---
 
-Madhu Guru (realmadhuguru on X) — AI Product Leader
+### Nan Yu (@thenanyu) — Linear 产品负责人
+Nan Yu 对"AI 时代人人都在结对编程"这一论点给出了简洁的反驳：*"Counterpoint: everyone pair programs now, with a robot."*
+南宇以一句话点明了当前软件开发的现状——与其说 AI 是"结对编程伙伴"，不如说它已经成为每个工程师的默认搭档，结对编程从精英实践变成了行业标配。
 
-Drawing on firsthand experience with frontier model launches, he offered a nuanced defense of the difficulty involved: launching an LLM is nothing like shipping traditional software.
-凭借亲身参与前沿模型发布的经验，他为发布决策的复杂性进行了客观辩护：发布大语言模型与传统软件发布截然不同。
-
-*"You're making a decision about a black box with effectively infinite use cases and infinite failure modes."*
-*"你是在对一个具有无限使用场景和无限失败模式的黑箱做决策。"*
-
-He expressed empathy for everyone involved in these high-stakes launch reviews, noting that every tradeoff carries real consequences.
-他对参与高风险模型发布审查的所有人表示理解，指出每一个权衡都会带来真实影响。
-
-https://x.com/realmadhuguru/status/2065911676000752122
+🔗 https://x.com/thenanyu/status/2066190061419282602
 
 ---
 
-Amjad Masad (amasad on X) — Replit CEO
+### Amjad Masad (@amasad) — Replit CEO
+Amjad 转发并高度评价了一篇关于 AI 企业愿景的文章，称其为"最鼓舞人心的正和博弈视角"。
+阿姆贾德·马萨德认为，AI 在企业中最好的愿景不是零和竞争，而是让每家公司都能通过 AI 放大自身独特价值——这条推文获得近 3000 点赞，是本期互动量最高的内容之一。
 
-Cryptically hinting at a bigger strategic picture, he suggested the current moment feels like a coordinated influence operation.
-他以隐晦的方式暗示当前局势背后存在更大的战略意图，称感觉像是一场协调好的舆论操控。
-
-*"Feels like we're getting psyoped. The end-game here is something bigger."*
-*"感觉我们正在被心理战操纵。这背后有更大的图谋。"*
-
-https://x.com/amasad/status/2065838585358745653
+🔗 https://x.com/amasad/status/2066195933969412098
 
 ---
 
-Guillermo Rauch (rauchg on X) — Vercel CEO
+### Guillermo Rauch (@rauchg) — Vercel CEO
+Guillermo 分享了两条值得关注的信息：一是飞机上的 Starlink 网络让他感叹"这是莱特兄弟之后航空旅行最伟大的进步"；二是 v0.dev 平台技能数量突破 70 万，全部由社区自发贡献。
+*"https://v0.dev has passed 700,000 skills. wild! all organic and community-driven. the open⎵ai ecosystem!"* — 70 万个社区驱动的技能，印证了开放 AI 生态的惊人增长速度，也展示了 Vercel 在 AI 应用层的强劲势头。
 
-He shared a foggy San Francisco scene, riffing on the classic "if you don't love her at her foggiest" meme — a playful love letter to the city.
-他分享了一张旧金山雾气弥漫的照片，以"如果你不爱她最雾的样子"这一经典梗表达对这座城市的深情。
-
-https://x.com/rauchg/status/2065856253428179357
-
----
-
-Aaron Levie (levie on X) — Box CEO
-
-He laid out a bullish investment thesis for AI model routing infrastructure, arguing that the layer capable of routing to the best AI model for a given task will increase substantially in value — driven by cost optimization, accuracy maximization, and enterprise trust requirements.
-他阐述了一个看好 AI 模型路由基础设施的投资逻辑：能够为不同任务选择最优 AI 模型的路由层，将因成本优化、精度最大化和企业信任需求而大幅升值。
-
-On the Fable AI / Amazon export control controversy, he pushed back against conspiracy theories: jailbreaking AI models is standard practice, and sharing that research with the government is expected behavior — not some elaborate scheme.
-关于 Fable AI / 亚马逊出口管制争议，他反驳了阴谋论：破解 AI 模型是常规操作，将研究结果分享给政府也在预期之内，并非什么精心策划的阴谋。
-
-*"Everyone thinks this is some kind of 4D chess or conspiracy. But it's quite standard to try and jailbreak AI models."*
-*"大家都觉得这是什么四维棋局或阴谋。但尝试破解 AI 模型其实是常规做法。"*
-
-He also argued that the Fable export control situation is actually net positive for AI regulation discourse, as it previews what model-level AI regulation would look like at scale — with government having sole discretion over which models can be used and by whom.
-他还指出，Fable 出口管制事件对 AI 监管讨论实际上是净正面影响，因为它预演了模型层面 AI 监管大规模落地后的形态——政府将独享决定哪些模型可被使用及被谁使用的权力。
-
-https://x.com/levie/status/2065989559905812973
-https://x.com/levie/status/2065964446489710939
-https://x.com/levie/status/2065842361834651996
+🔗 https://x.com/rauchg/status/2066315273947500699
+🔗 https://x.com/rauchg/status/2066299732277031042
 
 ---
 
-Garry Tan (garrytan on X) — Y Combinator CEO
+### Aaron Levie (@levie) — Box CEO
+Aaron 连续发布了两条高质量长文推，核心论点清晰：未来企业的竞争优势在于"学习闭环"，而非选择最好的模型。
+*"the real opportunity is not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound. You can offload a task, or even a job, but you can never offload your learning."* 他还就 AI 模型随时可能被下线这一风险发出警告，认为开源权重模型将是各国规避依赖风险的最终出路，美国应在应用层而非模型层进行监管，同时大力推动开源创新。
 
-He issued a sharp call to first-principles thinking for anyone navigating the AI era.
-他为在 AI 时代摸索前行的人发出了一声回归第一性原理的号召。
-
-*"In AI most people are still trying to use old maps on a new territory. Throw the maps away. It's time to draw new ones."*
-*"在 AI 领域，大多数人仍在用旧地图探索新领土。扔掉旧地图，是时候绘制新地图了。"*
-
-He also pushed back on hype culture around model releases, wishing that model significance were judged by how many people actually use it — not by signifiers and social proof.
-他也对模型发布的炒作文化提出批评，希望模型的重要性能由真实使用人数而非各种信号和社会认同来评判。
-
-https://x.com/garrytan/status/2065877443874038203
-https://x.com/garrytan/status/2065791421362352476
+🔗 https://x.com/levie/status/2066237607244427761
+🔗 https://x.com/levie/status/2066167615618466060
 
 ---
 
-Zara Zhang (zarazhangrui on X) — AI投资人 / Follow Builders 作者
+### Garry Tan (@garrytan) — YC 总裁
+Garry 分享了三个紧密关联的观点：开源是企业"掌控自身命运的出口"；下一代改变世界的年轻人将是最擅长运行"长时多阶段多团队 agent 任务"的人；GBrain 用户正在引领这一趋势。
+*"The next generation of young people who change the world will almost certainly be the people who are most adept at making long-running multi-stage multi-team agent tasks work extremely well."* ——加里·谭的这一判断为年轻开发者指明了方向：深度掌握复杂 agent 编排能力，将是未来最重要的核心竞争力之一。
 
-She highlighted an essay arguing that good taste isn't merely personal preference — it requires mastery and experience to develop.
-她推荐了一篇文章，文章认为好品味不仅仅是个人偏好，还需要专业积累和经验磨砺。
-
-https://x.com/zarazhangrui/status/2066036778713362747
-
----
-
-Nikunj Kothari (nikunj on X) — VC投资人
-
-He flagged a growing credibility signal in VC group chats: paid partnerships and artificially boosted view counts on X have become negative signals — a sign of founders gaming metrics rather than building real products.
-他指出 VC 群聊中正在形成一种新的可信度判断：在 X 上购买合作推广和人为刷高浏览量，如今已成为负面信号，意味着创始人在玩数字游戏而非真正在做产品。
-
-*"Paid partnerships and boosting 'views' on X are now negative signal in all VC group chats."*
-*"在 X 上的付费合作和刷高浏览量，如今在所有 VC 群聊里都是负面信号。"*
-
-https://x.com/nikunj/status/2065889759906644146
+🔗 https://x.com/garrytan/status/2066307697574862905
+🔗 https://x.com/garrytan/status/2066269412391637050
 
 ---
 
-Peter Steinberger (steipete on X) — PSPDFKit / Nutrient 创始人
+### Zara Zhang (@zarazhangrui)
+Zara 发布了关于"如何真正打造一个好技能"的精辟见解，引发广泛共鸣。
+*"You don't make a good skill by writing a skill. You make it by doing the thing, fixing it 20 times, then telling the AI to bottle up everything you just did."* ——张扎拉点出了 AI 技能工程的本质：不是坐下来写 prompt，而是先反复动手实践、不断修错，然后让 AI 把你积累的经验"装瓶"成可复用的技能。*"You make a skill by ending with one, not starting with one."*——技能是行动的结晶，不是起点。
 
-He shared a funny real-world AI agent moment: he got a PayPal verification text and assumed he'd been hacked — it turned out Codex had autonomously signed up for a web service it needed.
-他分享了一个有趣的 AI Agent 真实场景：收到 PayPal 验证短信以为账号被盗，结果是 Codex 自主注册了它所需的一项网络服务。
-
-*"Got a PayPal verification text and thought I been hacked, but it was just codex signing up for a web service it needed."*
-*"收到 PayPal 验证短信，以为被黑了，结果只是 Codex 在为自己注册所需的网络服务。"*
-
-He also noted the escalating chip shortage, with a brief but pointed comment.
-他还简短但一针见血地提到了日益严峻的芯片短缺问题。
-
-https://x.com/steipete/status/2065997212015067508
-https://x.com/steipete/status/2065998839467933862
+🔗 https://x.com/zarazhangrui/status/2066388749244854771
+🔗 https://x.com/zarazhangrui/status/2066394505037926426
 
 ---
 
-Dan Shipper (danshipper on X) — Every.to CEO
+### Peter Steinberger (@steipete) — OpenClaw 联合创始人
+Peter 在飞行途中分享了一个实用的远程工作技巧：Mosh + tmux/zellij 的组合是应对机上糟糕网络的救命稻草。
+*"Mosh + tmux/zellij is a lifesaver for bad in-flight internet. (i prefer zellij but either works)"* ——对于依赖 SSH 远程工作的开发者来说，Mosh 的断线重连特性配合 zellij 的终端多路复用，能大幅提升在不稳定网络环境下的工作效率。
 
-Reacting to the Fable / Claude export control saga with humor, he posted a meme imagining Anthropic CEO Dario Amodei at a wellness retreat upon learning the U.S. government had contacted him.
-针对 Fable / Claude 出口管制事件，他以幽默方式发了一个表情包，想象 Anthropic CEO Dario Amodei 在得知美国政府打来电话时正在养生度假。
-
-He also shared a personal usage chart showing his Claude app vs. Codex app usage before and after the Fable ban — visualizing the real-world behavioral shift.
-他还分享了个人使用数据图表，对比了 Fable 禁令前后他在 Claude 和 Codex 之间的使用情况，直观展示了真实的行为转变。
-
-https://x.com/danshipper/status/2065975981039649058
-https://x.com/danshipper/status/2065856703397278060
-https://x.com/danshipper/status/2065843763327738153
+🔗 https://x.com/steipete/status/2066427449551036469
 
 ---
 
-Aditya Agarwal (adityaag on X) — Dropbox前CTO
+### Dan Shipper (@danshipper) — Every CEO
+Dan 发布了一条极简但高互动的推文：*"FREE FABLE"*，配合链接，引发 600 余个点赞。
+丹·希珀这条关于"免费 Fable"的推文获得本期最高点赞数之一。Fable 是 Every 旗下的 AI 写作/阅读工具，此次免费开放引发了大量关注，体现了 AI 内容工具的旺盛需求。
 
-Reflecting on a photo taken by an astronaut from the far side of the moon, he marveled at what it says about human civilization.
-他凝视一张由宇航员在月球背面拍摄的照片，感叹这张照片所揭示的人类文明意义。
-
-*"The thing that I can't get over is that a *human being* took this photo. From a tin cylinder flying on the other side of the moon."*
-*"让我无法释怀的是，这张照片是一个活生生的人拍的，在月球背面飞行的一个金属罐里。"*
-
-He also shared a visceral reminder of SpaceX's impact after watching the Brazil vs. Morocco football match at 30,000 feet via Starlink.
-他还分享了在 30,000 英尺高空通过 Starlink 观看巴西对阵摩洛哥的比赛，对 SpaceX 影响力有了更直观的感受。
-
-https://x.com/adityaag/status/2065990670184247341
-https://x.com/adityaag/status/2065948194723520709
+🔗 https://x.com/danshipper/status/2066217865943093514
 
 ---
-
-PODCASTS
-
----
-
-No Priors — Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives
-
-In this wide-ranging episode, Mark Zuckerberg, Priscilla Chan, and Alex Rives discuss CZ Biohub's mission to accelerate biological science through open-source AI tools — and the new ESM Fold protein world model they just released.
-在这期内容丰富的节目中，Mark Zuckerberg、Priscilla Chan 和 Alex Rives 探讨了 CZ Biohub 通过开源 AI 工具加速生物科学发展的使命，以及他们刚刚发布的新型蛋白质世界模型 ESM Fold。
-
-The central thesis: biology needs frontier AI AND frontier biology working in tandem — not just models trained on internet data, but new experimental methods to generate the data that doesn't yet exist.
-核心论点：生物学需要前沿 AI 与前沿生物学协同推进——不仅仅是在互联网数据上训练模型，还需要开发新的实验方法来生成尚不存在的数据。
-
-*"It's not just like there's some factory somewhere that you can pay to produce the data. You actually need to invent new novel scientific approaches."*
-*"这不像是找个工厂花钱就能产出数据的事，你必须真正发明全新的科学方法。"*
-
-The new ESM Fold model folded over 1.1 billion proteins, hits state-of-the-art across structure prediction benchmarks (including protein-antibody interactions), and can design single-chain antibodies digitally — with experimental validation in nanomolar binding ranges.
-新发布的 ESM Fold 模型对超过 11 亿个蛋白质进行了折叠预测，在蛋白质结构预测基准（包括蛋白质-抗体相互作用）上达到最先进水平，并能在数字空间设计单链抗体，实验验证结合力达到纳摩尔级别。
-
-On why nonprofit over venture: rather than optimizing for profit, the goal is to put tools in every scientist's hands — especially for rare diseases and long-tail conditions that commercial incentives would never fund.
-关于为何选择非营利而非风险投资：目标不是利润最大化，而是将工具交到每一位科学家手中——尤其是商业激励永远不会支持的罕见病和长尾疾病研究。
-
-*"We'll have a bigger impact by getting this in more scientists' hands quicker by doing it as open source projects instead."*
-*"通过开源方式，让更多科学家更快用上这些工具，我们能产生更大的影响力。"*
-
-The episode aired June 10, 2026.
-本期节目于 2026 年 6 月 10 日播出。
-
-https://www.youtube.com/@NoPriorsPodcast
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
