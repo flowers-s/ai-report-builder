@@ -1,110 +1,207 @@
-AI Builders 日报 · 2026-06-16
+AI Builders 日报 · 2026-06-17
 
 ---
 
-## 🎙️ PODCASTS
+## X / Twitter
 
-### Training Data — LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age
-Jensen Huang sat down live to discuss why this moment represents "the largest infrastructure build out in human history," centered on NVIDIA's concept of the AI factory.
-黄仁勋接受了关于人工智能工厂的深度访谈，他认为当前正处于人类历史上规模最大的基础设施建设浪潮中，NVIDIA 正处于这场革命的核心位置。He described how AI has evolved beyond chatbots into autonomous agents capable of running full enterprise workflows — and why every company must now build its own AI factory to stay competitive.
-他指出，AI 已经从聊天机器人演变为能够运行完整企业工作流的自主智能体，每家企业都必须建立自己的"AI 工厂"才能保持竞争力。
+### Swyx (swyx on X)
 
-🔗 https://www.youtube.com/watch?v=2UpQbeAZuqA
+Swyx referenced "goblingate" from 1.5 months ago, resurfacing a memorable AI controversy for followers.
+Swyx 提及了 1.5 个月前的"goblingate"事件，再度唤起关注者对这一 AI 领域热议话题的记忆。
 
----
-
-## 🐦 X / TWITTER
-
-### Swyx (@swyx)
-Swyx 分享了对 Anthropic ultracode（多智能体编程系统）的第一手体验：这个系统"极其擅长消耗 token"，但需要正确设置仓库结构才能充分发挥子智能体并行执行的优势。
-*"havent seen many people outside anthropic ultracode yet. this thing is scarily good at burning tokens but you need to set up your repo to parallelize properly"* — 他认为子智能体的核心价值在于"将智能注入子程序"，而大量知识工作本质上是一层层的 yak shaving，动态工作流不只适用于编程任务。
-他还转发了 Satya Nadella 关于"循环即 IP"的观点：*"the real opportunity is not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound."* 企业真正的竞争优势在于构建能不断积累机构知识的学习闭环，而非选择最好的模型。
-
-🔗 https://x.com/swyx/status/2066415484149633329
-🔗 https://x.com/swyx/status/2066235625695850526
+Source: https://x.com/swyx/status/2066705614454337663
 
 ---
 
-### Thibault Sottiaux (@thsottiaux) — OpenAI Codex 团队
-Thibault（OpenAI Codex & ChatGPT 团队成员）分享了一个重磅功能：Codex 现在可以自主查看并设置自己的 `/goal`。
-*"Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent."* — 这是元提示（meta prompting）的一次重要泛化：不再由人类为智能体指定任务，而是让智能体根据用户意图自主决定目标。这条推文获得了超过 2200 个点赞，说明社区对自主 agent 目标设定能力的高度关注。
+### Josh Woodward — Google Labs VP (joshwoodward on X)
 
-🔗 https://x.com/thsottiaux/status/2066270561081454989
+Google Labs VP Josh Woodward announced that the Gemini App's mic icon has been significantly improved on Android and iOS, now supporting 70+ languages with the ability to mix languages freely without needing to change language settings.
+Google Labs 副总裁 Josh Woodward 宣布，Gemini App 的麦克风图标在 Android 和 iOS 上已大幅优化，现支持 70 余种语言，用户可自由切换语言，无需更改语言设置。
 
----
+*"Our mic icon just got way better on Android and iOS! This is HUGE for non-English speakers."*
+*"我们的麦克风图标在 Android 和 iOS 上大幅升级！对非英语用户来说是个重大突破。"*
 
-### Peter Yang (@petergyang)
-Peter Yang 近期发布了多位 AI 从业者的访谈视频（Kieran、Kun、Matt），并向社区征集下一位访谈嘉宾。
-彼得·杨正在积极扩展他的 AI 创作者访谈系列，邀请读者参与推荐下一位受访者，延续其"帮助忙碌的人成为 AI 建造者"的内容定位。
+He also teased that this feature is coming to the Web in about a week, and announced a limited Gemini Trusted Tester program for power users who want early access to unreleased features.
+他还透露该功能将在大约一周内登陆 Web 端，并宣布面向希望提前体验未发布功能的深度用户开放有限名额的 Gemini 受信测试计划。
 
-🔗 https://x.com/petergyang/status/2066309743619244174
-
----
-
-### Nan Yu (@thenanyu) — Linear 产品负责人
-Nan Yu 对"AI 时代人人都在结对编程"这一论点给出了简洁的反驳：*"Counterpoint: everyone pair programs now, with a robot."*
-南宇以一句话点明了当前软件开发的现状——与其说 AI 是"结对编程伙伴"，不如说它已经成为每个工程师的默认搭档，结对编程从精英实践变成了行业标配。
-
-🔗 https://x.com/thenanyu/status/2066190061419282602
+Sources:
+- https://x.com/joshwoodward/status/2066673011554435450
+- https://x.com/joshwoodward/status/2066673191783665722
+- https://x.com/joshwoodward/status/2066664862671921259
 
 ---
 
-### Amjad Masad (@amasad) — Replit CEO
-Amjad 转发并高度评价了一篇关于 AI 企业愿景的文章，称其为"最鼓舞人心的正和博弈视角"。
-阿姆贾德·马萨德认为，AI 在企业中最好的愿景不是零和竞争，而是让每家公司都能通过 AI 放大自身独特价值——这条推文获得近 3000 点赞，是本期互动量最高的内容之一。
+### Peter Yang — Product Leader (petergyang on X)
 
-🔗 https://x.com/amasad/status/2066195933969412098
+Peter Yang praised Cursor AI for planning a Michelin-quality dinner, highlighting how AI is now excelling at real-world, high-stakes tasks.
+Peter Yang 盛赞 Cursor AI 策划了一场米其林品质的晚宴，凸显 AI 如今在现实、高要求场景中的卓越表现。
 
----
+He was also impressed by OpenAI Codex's browser use capability, calling it so good it almost makes APIs feel unnecessary.
+他对 OpenAI Codex 的浏览器操作能力印象深刻，称其优秀到几乎让 API 显得多余。
 
-### Guillermo Rauch (@rauchg) — Vercel CEO
-Guillermo 分享了两条值得关注的信息：一是飞机上的 Starlink 网络让他感叹"这是莱特兄弟之后航空旅行最伟大的进步"；二是 v0.dev 平台技能数量突破 70 万，全部由社区自发贡献。
-*"https://v0.dev has passed 700,000 skills. wild! all organic and community-driven. the open⎵ai ecosystem!"* — 70 万个社区驱动的技能，印证了开放 AI 生态的惊人增长速度，也展示了 Vercel 在 AI 应用层的强劲势头。
+*"Codex browser use is so good that it almost makes me forget APIs are even needed."*
+*"Codex 的浏览器操控能力太强了，强到让我几乎忘记 API 的存在。"*
 
-🔗 https://x.com/rauchg/status/2066315273947500699
-🔗 https://x.com/rauchg/status/2066299732277031042
-
----
-
-### Aaron Levie (@levie) — Box CEO
-Aaron 连续发布了两条高质量长文推，核心论点清晰：未来企业的竞争优势在于"学习闭环"，而非选择最好的模型。
-*"the real opportunity is not in picking the best model but instead in building a learning loop on top of models where human capital and token capital compound. You can offload a task, or even a job, but you can never offload your learning."* 他还就 AI 模型随时可能被下线这一风险发出警告，认为开源权重模型将是各国规避依赖风险的最终出路，美国应在应用层而非模型层进行监管，同时大力推动开源创新。
-
-🔗 https://x.com/levie/status/2066237607244427761
-🔗 https://x.com/levie/status/2066167615618466060
+Sources:
+- https://x.com/petergyang/status/2066756347438469602
+- https://x.com/petergyang/status/2066753125197967653
+- https://x.com/petergyang/status/2066752332197716285
 
 ---
 
-### Garry Tan (@garrytan) — YC 总裁
-Garry 分享了三个紧密关联的观点：开源是企业"掌控自身命运的出口"；下一代改变世界的年轻人将是最擅长运行"长时多阶段多团队 agent 任务"的人；GBrain 用户正在引领这一趋势。
-*"The next generation of young people who change the world will almost certainly be the people who are most adept at making long-running multi-stage multi-team agent tasks work extremely well."* ——加里·谭的这一判断为年轻开发者指明了方向：深度掌握复杂 agent 编排能力，将是未来最重要的核心竞争力之一。
+### Nan Yu — AI Builder (thenanyu on X)
 
-🔗 https://x.com/garrytan/status/2066307697574862905
-🔗 https://x.com/garrytan/status/2066269412391637050
+Nan Yu commented on a lobbying win in the AI policy space, calling the person behind it "an absolute legend."
+Nan Yu 对 AI 政策领域的一次游说成果表示赞叹，称幕后推手为"传奇人物"。
 
----
-
-### Zara Zhang (@zarazhangrui)
-Zara 发布了关于"如何真正打造一个好技能"的精辟见解，引发广泛共鸣。
-*"You don't make a good skill by writing a skill. You make it by doing the thing, fixing it 20 times, then telling the AI to bottle up everything you just did."* ——张扎拉点出了 AI 技能工程的本质：不是坐下来写 prompt，而是先反复动手实践、不断修错，然后让 AI 把你积累的经验"装瓶"成可复用的技能。*"You make a skill by ending with one, not starting with one."*——技能是行动的结晶，不是起点。
-
-🔗 https://x.com/zarazhangrui/status/2066388749244854771
-🔗 https://x.com/zarazhangrui/status/2066394505037926426
+Source: https://x.com/thenanyu/status/2066533806694080898
 
 ---
 
-### Peter Steinberger (@steipete) — OpenClaw 联合创始人
-Peter 在飞行途中分享了一个实用的远程工作技巧：Mosh + tmux/zellij 的组合是应对机上糟糕网络的救命稻草。
-*"Mosh + tmux/zellij is a lifesaver for bad in-flight internet. (i prefer zellij but either works)"* ——对于依赖 SSH 远程工作的开发者来说，Mosh 的断线重连特性配合 zellij 的终端多路复用，能大幅提升在不稳定网络环境下的工作效率。
+### Amjad Masad — Replit CEO (amasad on X)
 
-🔗 https://x.com/steipete/status/2066427449551036469
+Replit CEO Amjad Masad shared his enthusiasm for Replit's domain-specific agents, particularly a growth agent that surfaces SEO issues and a security agent that identifies potential vulnerabilities.
+Replit CEO Amjad Masad 分享了他对 Replit 垂直领域智能体的热情，尤其是能发现 SEO 问题的增长智能体，以及识别潜在漏洞的安全智能体。
+
+*"I absolutely love Replit's domain-specific agents... My favorite thing is: select all, fix with Agent."*
+*"我非常喜欢 Replit 的垂直领域智能体……我最爱的功能是：全选，然后用智能体修复。"*
+
+He also made a lighthearted joke about Mistral's "Le Chaton Fat," and posted a playful image encouraging builders to touch grass and build things simultaneously.
+他还风趣地调侃了 Mistral 的"Le Chaton Fat"，并发布了一张趣图，鼓励开发者既接地气又不忘建造。
+
+Sources:
+- https://x.com/amasad/status/2066683949129330817
+- https://x.com/amasad/status/2066700847187140655
+- https://x.com/amasad/status/2066557465991557491
 
 ---
 
-### Dan Shipper (@danshipper) — Every CEO
-Dan 发布了一条极简但高互动的推文：*"FREE FABLE"*，配合链接，引发 600 余个点赞。
-丹·希珀这条关于"免费 Fable"的推文获得本期最高点赞数之一。Fable 是 Every 旗下的 AI 写作/阅读工具，此次免费开放引发了大量关注，体现了 AI 内容工具的旺盛需求。
+### Guillermo Rauch — Vercel CEO (rauchg on X)
 
-🔗 https://x.com/danshipper/status/2066217865943093514
+Vercel CEO Guillermo Rauch announced that longer Vercel function runtimes are now available, calling it the conclusion of a multi-year compute platform investment.
+Vercel CEO Guillermo Rauch 宣布 Vercel 函数的更长运行时间现已正式上线，称其为多年计算平台投入的最终成果。
+
+*"What looks like an innocent tweak of a constant… is actually the conclusion of a multi-year compute platform investment."*
+*"看似只是对一个常量的微小调整……实则是多年计算平台投入的集大成之作。"*
+
+He also laid out a bold vision: sandboxes, functions, servers, and builds are all expressions of the same underlying compute infrastructure.
+他还提出了一个宏大愿景：沙盒、函数、服务器和构建，本质上都是同一底层计算基础设施的不同表达形式。
+
+Additionally, he announced that v0 now ships best-in-class skills by default, aiming to give every user the equivalent of a top Vercel product engineer on each prompt, while also allowing custom skill selection.
+此外，他宣布 v0 现已默认内置顶级技能，目标是让每个用户在每次提示时都能获得相当于顶级 Vercel 产品工程师的支持，同时也支持自定义技能选择。
+
+Sources:
+- https://x.com/rauchg/status/2066553521978097921
+- https://x.com/rauchg/status/2066556235961237826
+- https://x.com/rauchg/status/2066567117562868009
 
 ---
+
+### Aaron Levie — Box CEO (levie on X)
+
+Box CEO Aaron Levie shared a key insight on the future of AI: the most interesting development isn't one model getting smarter, it's that intelligence is becoming distributed.
+Box CEO Aaron Levie 分享了对 AI 未来的关键洞见：最有趣的进展不是某个模型变得更聪明，而是智能正在变得分布式。
+
+*"The most interesting thing happening in AI isn't that one model is getting smarter. It's that intelligence is becoming…"*
+*"AI 领域最有趣的事情不是某个模型越来越聪明，而是智能本身正在变得……"*
+
+He also pushed back on the idea of an "FDA for AI," arguing that the near-infinite permutations of AI model capabilities make such regulatory frameworks practically unworkable.
+他还对"AI 版 FDA"的提议提出质疑，认为 AI 模型能力的近乎无限排列组合使得此类监管框架在实践中难以实现。
+
+He called open source a big winner in the current AI landscape.
+他认为开源在当前 AI 格局中将大获全胜。
+
+Sources:
+- https://x.com/levie/status/2066735879213994434
+- https://x.com/levie/status/2066554018953146689
+- https://x.com/levie/status/2066526720480690221
+
+---
+
+### Garry Tan — Y Combinator President (garrytan on X)
+
+Y Combinator President Garry Tan posted a reference to the famous "Attention Is All You Need" paper, hinting at continued relevance of transformer fundamentals.
+Y Combinator 总裁 Garry Tan 发帖引用了著名论文《Attention Is All You Need》，暗示 Transformer 基础架构持续的重要性。
+
+Source: https://x.com/garrytan/status/2066728979978244355
+
+---
+
+### Matt Turck — FirstMark Capital MD (mattturck on X)
+
+Matt Turck shared a story about a soccer player who was recruited to the national Cape Verde team via LinkedIn DMs, drawing out an unexpected lesson about the power of checking your inbox.
+FirstMark Capital 董事总经理 Matt Turck 分享了一个球员通过 LinkedIn 私信被招募进佛得角国家队的故事，从中引申出关注收件箱的意外价值。
+
+*"Key lesson: don't ignore your DMs on LinkedIn."*
+*"关键教训：不要忽视你的 LinkedIn 私信。"*
+
+He also noted there are probably lessons here for B2B sales.
+他还指出，这对 B2B 销售也有值得借鉴之处。
+
+Source: https://x.com/mattturck/status/2066587619132146164
+
+---
+
+### Zara Zhang — AI Investor & Builder (zarazhangrui on X)
+
+Zara Zhang celebrated reaching 70,000 followers on X, reflecting on how X has been her platform for learning in public and building in public, and for connecting with remarkable people.
+Zara Zhang 庆祝在 X 上突破 7 万粉丝，回顾了 X 作为她公开学习、公开构建以及结识优秀人士的平台所发挥的重要作用。
+
+She also highlighted a piece of great UX she encountered, calling it "so intuitive."
+她还分享了一个让她印象深刻的优秀用户体验案例，称其"非常直观"。
+
+Sources:
+- https://x.com/zarazhangrui/status/2066579717285957692
+- https://x.com/zarazhangrui/status/2066601470678749270
+
+---
+
+### Nikunj Kothari — Builder & Investor (nikunj on X)
+
+Nikunj Kothari observed that 32 VCs he knows have moved back into operating roles in the last 12 months — from associates all the way to GPs — and noted the pace seems to be accelerating.
+Nikunj Kothari 注意到，他认识的 32 位风险投资人在过去 12 个月里重返运营岗位，从分析师到合伙人均有，且这一趋势似乎正在加速。
+
+Source: https://x.com/nikunj/status/2066701833964531736
+
+---
+
+### Peter Steinberger — PSPDFKit Founder (steipete on X)
+
+PSPDFKit founder Peter Steinberger announced that his open-source project now has an AI agent (@clawsweeper) that automatically reviews new issues, and if they fit the project's VISION.md, it picks them up and creates an auto-reviewed PR.
+PSPDFKit 创始人 Peter Steinberger 宣布，他的开源项目现已接入 AI 智能体（@clawsweeper），能自动审查新 Issue，若符合项目 VISION.md 的方向，则自动创建并审查 PR。
+
+He also posted about the challenge of manufacturing Mac Studios, and shared what appeared to be a funny loop scenario he encountered.
+他还发文感叹 Mac Studio 制造之难，并分享了一个他遇到的有趣循环现象。
+
+Sources:
+- https://x.com/steipete/status/2066457262571360396
+- https://x.com/steipete/status/2066471737068232835
+- https://x.com/steipete/status/2066458424041251244
+
+---
+
+## PODCASTS
+
+### The MAD Podcast with Matt Turck
+**OpenAI's Dan Roberts: Why AI Can Now Make Discoveries**
+
+In this episode, Matt Turck sits down with Dan Roberts, lead of the Foundations of Reinforcement Learning team at OpenAI, to explore a landmark moment: AI systems from OpenAI, DeepMind, and Anthropic have cracked some of the most famous long-unsolved problems in mathematics — the Erdős problems.
+在这一期节目中，Matt Turck 与 OpenAI 强化学习基础团队负责人 Dan Roberts 深入探讨了一个里程碑式的时刻：OpenAI、DeepMind 和 Anthropic 的 AI 系统已攻克了数学领域最著名的一批长期悬而未决的难题——Erdős 问题。
+
+Dan explains what the Foundations of RL team does — studying the science of reinforcement learning, understanding how it works, and exploring scaling laws for RL versus pretraining.
+Dan 解释了强化学习基础团队的工作：研究强化学习的科学原理，理解其运作方式，并探索 RL 与预训练的缩放规律。
+
+*"I feel really excited that we will get to really answer a lot of fundamental questions in the field of science that we care about, with the models being the driving force."*
+*"我非常兴奋，我们即将借助模型作为驱动力，真正解答科学领域我们最关心的一批根本性问题。"*
+
+A key insight from Dan: to solve hard math problems, AI had to learn to go against the grain — to assume a statement is false and persevere down a long, contrarian calculation path, requiring strong conviction in the approach.
+Dan 的核心洞见：为了解决困难的数学问题，AI 必须学会逆向思考——假设某个命题为假，并沿着漫长的反向计算路径坚持下去，这需要对方法本身有极强的信念。
+
+The conversation also covers what's ahead for AI and science, and why reinforcement learning is the most important paradigm in AI right now.
+对话还涵盖了 AI 与科学的未来走向，以及为何强化学习是当前 AI 领域最重要的范式。
+
+🎧 Watch/listen: https://www.youtube.com/watch?v=oWOz2htozfI
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
