@@ -1,206 +1,365 @@
-AI Builders 日报 · 2026-06-17
+AI Builders 日报 · 2026-06-19
 
 ---
 
-## X / Twitter
+## X / TWITTER
+
+---
 
 ### Swyx (swyx on X)
 
-Swyx referenced "goblingate" from 1.5 months ago, resurfacing a memorable AI controversy for followers.
-Swyx 提及了 1.5 个月前的"goblingate"事件，再度唤起关注者对这一 AI 领域热议话题的记忆。
+Swyx shared highlights from a Midjourney event evening, mentioning a cancer survivor's tech review.
+Swyx 分享了在 Midjourney 活动中的精彩时刻，提到了一位癌症幸存者的科技评论。
 
-Source: https://x.com/swyx/status/2066705614454337663
+He also described an interesting experiment: using Polymarket prediction markets to measure the implied value of their July 1 AI Engineer World Cup suite being a Team USA game.
+他还描述了一个有趣的实验：利用 Polymarket 预测市场来衡量他们 7 月 1 日 AI Engineer World Cup 套房成为美国队比赛场地的隐含价值。
 
----
+He linked to a research paper as part of the same thread.
+他在同一话题中分享了一篇相关研究论文链接。
 
-### Josh Woodward — Google Labs VP (joshwoodward on X)
-
-Google Labs VP Josh Woodward announced that the Gemini App's mic icon has been significantly improved on Android and iOS, now supporting 70+ languages with the ability to mix languages freely without needing to change language settings.
-Google Labs 副总裁 Josh Woodward 宣布，Gemini App 的麦克风图标在 Android 和 iOS 上已大幅优化，现支持 70 余种语言，用户可自由切换语言，无需更改语言设置。
-
-*"Our mic icon just got way better on Android and iOS! This is HUGE for non-English speakers."*
-*"我们的麦克风图标在 Android 和 iOS 上大幅升级！对非英语用户来说是个重大突破。"*
-
-He also teased that this feature is coming to the Web in about a week, and announced a limited Gemini Trusted Tester program for power users who want early access to unreleased features.
-他还透露该功能将在大约一周内登陆 Web 端，并宣布面向希望提前体验未发布功能的深度用户开放有限名额的 Gemini 受信测试计划。
-
-Sources:
-- https://x.com/joshwoodward/status/2066673011554435450
-- https://x.com/joshwoodward/status/2066673191783665722
-- https://x.com/joshwoodward/status/2066664862671921259
+Source: https://x.com/swyx/status/2067512137405350067
+Source: https://x.com/swyx/status/2067511309609115657
+Source: https://x.com/swyx/status/2067495676972540343
 
 ---
 
-### Peter Yang — Product Leader (petergyang on X)
+### Google Labs Head of Product Josh Woodward (joshwoodward on X)
 
-Peter Yang praised Cursor AI for planning a Michelin-quality dinner, highlighting how AI is now excelling at real-world, high-stakes tasks.
-Peter Yang 盛赞 Cursor AI 策划了一场米其林品质的晚宴，凸显 AI 如今在现实、高要求场景中的卓越表现。
+Josh Woodward highlighted "co-create" as one of Google Labs' core values, sharing a photo of the Voltage team in action as a living example.
+Josh Woodward 将"共同创造"列为 Google Labs 的核心价值观之一，并分享了 Voltage 团队的实际工作照片来诠释这一理念。
 
-He was also impressed by OpenAI Codex's browser use capability, calling it so good it almost makes APIs feel unnecessary.
-他对 OpenAI Codex 的浏览器操作能力印象深刻，称其优秀到几乎让 API 显得多余。
-
-*"Codex browser use is so good that it almost makes me forget APIs are even needed."*
-*"Codex 的浏览器操控能力太强了，强到让我几乎忘记 API 的存在。"*
-
-Sources:
-- https://x.com/petergyang/status/2066756347438469602
-- https://x.com/petergyang/status/2066753125197967653
-- https://x.com/petergyang/status/2066752332197716285
+Source: https://x.com/joshwoodward/status/2067337173699850487
 
 ---
 
-### Nan Yu — AI Builder (thenanyu on X)
+### OpenAI Codex Lead Thibault Sottiaux (thsottiaux on X)
 
-Nan Yu commented on a lobbying win in the AI policy space, calling the person behind it "an absolute legend."
-Nan Yu 对 AI 政策领域的一次游说成果表示赞叹，称幕后推手为"传奇人物"。
+Thibault announced a surprise "double reset" for Codex users — giving them a full reset plus an extra one banked for future use.
+Thibault 宣布为 Codex 用户推出惊喜"双重重置"——不仅立即给予一次完整重置，还额外存入一次供未来使用。
 
-Source: https://x.com/thenanyu/status/2066533806694080898
+He also reminded users that the Codex App, CLI, and SDK are compatible with any open source model, not just OpenAI's own models.
+他还提醒用户，Codex 应用、CLI 和 SDK 支持任何开源模型，而不仅限于 OpenAI 自家的模型。
 
----
-
-### Amjad Masad — Replit CEO (amasad on X)
-
-Replit CEO Amjad Masad shared his enthusiasm for Replit's domain-specific agents, particularly a growth agent that surfaces SEO issues and a security agent that identifies potential vulnerabilities.
-Replit CEO Amjad Masad 分享了他对 Replit 垂直领域智能体的热情，尤其是能发现 SEO 问题的增长智能体，以及识别潜在漏洞的安全智能体。
-
-*"I absolutely love Replit's domain-specific agents... My favorite thing is: select all, fix with Agent."*
-*"我非常喜欢 Replit 的垂直领域智能体……我最爱的功能是：全选，然后用智能体修复。"*
-
-He also made a lighthearted joke about Mistral's "Le Chaton Fat," and posted a playful image encouraging builders to touch grass and build things simultaneously.
-他还风趣地调侃了 Mistral 的"Le Chaton Fat"，并发布了一张趣图，鼓励开发者既接地气又不忘建造。
-
-Sources:
-- https://x.com/amasad/status/2066683949129330817
-- https://x.com/amasad/status/2066700847187140655
-- https://x.com/amasad/status/2066557465991557491
+Source: https://x.com/thsottiaux/status/2067399435009622521
+Source: https://x.com/thsottiaux/status/2067181377028538431
 
 ---
 
-### Guillermo Rauch — Vercel CEO (rauchg on X)
+### Replit CEO Amjad Masad (amasad on X)
 
-Vercel CEO Guillermo Rauch announced that longer Vercel function runtimes are now available, calling it the conclusion of a multi-year compute platform investment.
-Vercel CEO Guillermo Rauch 宣布 Vercel 函数的更长运行时间现已正式上线，称其为多年计算平台投入的最终成果。
+Amjad shared excitement about interviewing Spike Jones and posted about Replit's integration with Claude for design-to-ship workflows: *"Design with Claude, Ship with Replit"*.
+Amjad 分享了对采访 Spike Jones 的兴奋之情，并发布了 Replit 与 Claude 集成用于设计到发布工作流的内容："用 Claude 设计，用 Replit 发布"。
 
-*"What looks like an innocent tweak of a constant… is actually the conclusion of a multi-year compute platform investment."*
-*"看似只是对一个常量的微小调整……实则是多年计算平台投入的集大成之作。"*
+He also shared content from Vibecon, signaling his continued involvement in the vibe-coding movement.
+他还分享了 Vibecon 的内容，表明他对氛围编程（vibe-coding）运动的持续参与。
 
-He also laid out a bold vision: sandboxes, functions, servers, and builds are all expressions of the same underlying compute infrastructure.
-他还提出了一个宏大愿景：沙盒、函数、服务器和构建，本质上都是同一底层计算基础设施的不同表达形式。
-
-Additionally, he announced that v0 now ships best-in-class skills by default, aiming to give every user the equivalent of a top Vercel product engineer on each prompt, while also allowing custom skill selection.
-此外，他宣布 v0 现已默认内置顶级技能，目标是让每个用户在每次提示时都能获得相当于顶级 Vercel 产品工程师的支持，同时也支持自定义技能选择。
-
-Sources:
-- https://x.com/rauchg/status/2066553521978097921
-- https://x.com/rauchg/status/2066556235961237826
-- https://x.com/rauchg/status/2066567117562868009
+Source: https://x.com/amasad/status/2067386053980266542
+Source: https://x.com/amasad/status/2067363904183783833
+Source: https://x.com/amasad/status/2067363597110391230
 
 ---
 
-### Aaron Levie — Box CEO (levie on X)
+### Vercel CEO Guillermo Rauch (rauchg on X)
 
-Box CEO Aaron Levie shared a key insight on the future of AI: the most interesting development isn't one model getting smarter, it's that intelligence is becoming distributed.
-Box CEO Aaron Levie 分享了对 AI 未来的关键洞见：最有趣的进展不是某个模型变得更聪明，而是智能正在变得分布式。
+Rauch made a bold statement about the AI SDK's continued relevance amid fierce model competition.
+Rauch 就 AI SDK 在激烈模型竞争中的持续相关性发表了大胆声明。
 
-*"The most interesting thing happening in AI isn't that one model is getting smarter. It's that intelligence is becoming…"*
-*"AI 领域最有趣的事情不是某个模型越来越聪明，而是智能本身正在变得……"*
+*"@aisdk is more relevant than ever, given the intense model competition landscape."*
+"在激烈的模型竞争格局下，AI SDK 比以往任何时候都更加重要。"
 
-He also pushed back on the idea of an "FDA for AI," arguing that the near-infinite permutations of AI model capabilities make such regulatory frameworks practically unworkable.
-他还对"AI 版 FDA"的提议提出质疑，认为 AI 模型能力的近乎无限排列组合使得此类监管框架在实践中难以实现。
+He noted that just that day, GLM 5.2 — an open model — surpassed Claude Opus 4.8 in Vercel's Next.js evals, arguing that the world needs a practical solution for building and deploying agents, analogous to how React needed Next.js.
+他指出，就在当天，开源模型 GLM 5.2 在 Vercel 的 Next.js 评测中超越了 Claude Opus 4.8，并认为世界需要一个构建和部署 agent 的实用方案，就像 React 需要 Next.js 一样。
 
-He called open source a big winner in the current AI landscape.
-他认为开源在当前 AI 格局中将大获全胜。
+He also celebrated the Vercel SHIP London event and shared a photo of the team.
+他还庆祝了 Vercel SHIP London 活动，并分享了团队合影。
 
-Sources:
-- https://x.com/levie/status/2066735879213994434
-- https://x.com/levie/status/2066554018953146689
-- https://x.com/levie/status/2066526720480690221
-
----
-
-### Garry Tan — Y Combinator President (garrytan on X)
-
-Y Combinator President Garry Tan posted a reference to the famous "Attention Is All You Need" paper, hinting at continued relevance of transformer fundamentals.
-Y Combinator 总裁 Garry Tan 发帖引用了著名论文《Attention Is All You Need》，暗示 Transformer 基础架构持续的重要性。
-
-Source: https://x.com/garrytan/status/2066728979978244355
+Source: https://x.com/rauchg/status/2067242482190979186
+Source: https://x.com/rauchg/status/2067274101702406554
+Source: https://x.com/rauchg/status/2067369305826574587
 
 ---
 
-### Matt Turck — FirstMark Capital MD (mattturck on X)
+### Box CEO Aaron Levie (levie on X)
 
-Matt Turck shared a story about a soccer player who was recruited to the national Cape Verde team via LinkedIn DMs, drawing out an unexpected lesson about the power of checking your inbox.
-FirstMark Capital 董事总经理 Matt Turck 分享了一个球员通过 LinkedIn 私信被招募进佛得角国家队的故事，从中引申出关注收件箱的意外价值。
+Aaron Levie published a detailed breakdown of what the Applied AI layer looks like at enterprise scale — pushing back on the narrative that it would be "just a thin wrapper on LLMs."
+Aaron Levie 发布了一份详细分析，探讨企业级应用 AI 层的形态，并反驳了"只是对 LLM 的简单封装"这一说法。
 
-*"Key lesson: don't ignore your DMs on LinkedIn."*
-*"关键教训：不要忽视你的 LinkedIn 私信。"*
+He identified four pillars of the Applied AI playbook: (1) bridging intelligence with workflows through custom interfaces and bespoke tools; (2) acting as a model router to balance frontier models with cheaper alternatives based on deep task-specific evals; (3) driving implementation and change management through field deployment engineering; and (4) building domain-specific GTM motions that speak the customer's language.
+他总结了应用 AI 的四大支柱：(1) 通过定制界面和专属工具将智能与工作流衔接；(2) 作为模型路由器，基于深度任务评测在顶尖模型和低成本替代品之间取得平衡；(3) 通过现场部署工程推动实施和变革管理；(4) 构建能说客户语言的垂直领域 GTM 打法。
 
-He also noted there are probably lessons here for B2B sales.
-他还指出，这对 B2B 销售也有值得借鉴之处。
+*"Enterprises need help changing today. And many aspects of how to bring intelligence to real world work don't only depend on the axis of the pure capability of the model."*
+"企业现在就需要变革的帮助。将智能引入现实工作的诸多方面，并不仅仅取决于模型纯粹能力这一维度。"
 
-Source: https://x.com/mattturck/status/2066587619132146164
-
----
-
-### Zara Zhang — AI Investor & Builder (zarazhangrui on X)
-
-Zara Zhang celebrated reaching 70,000 followers on X, reflecting on how X has been her platform for learning in public and building in public, and for connecting with remarkable people.
-Zara Zhang 庆祝在 X 上突破 7 万粉丝，回顾了 X 作为她公开学习、公开构建以及结识优秀人士的平台所发挥的重要作用。
-
-She also highlighted a piece of great UX she encountered, calling it "so intuitive."
-她还分享了一个让她印象深刻的优秀用户体验案例，称其"非常直观"。
-
-Sources:
-- https://x.com/zarazhangrui/status/2066579717285957692
-- https://x.com/zarazhangrui/status/2066601470678749270
+Source: https://x.com/levie/status/2067455756795039957
 
 ---
 
-### Nikunj Kothari — Builder & Investor (nikunj on X)
+### YC President Garry Tan (garrytan on X)
 
-Nikunj Kothari observed that 32 VCs he knows have moved back into operating roles in the last 12 months — from associates all the way to GPs — and noted the pace seems to be accelerating.
-Nikunj Kothari 注意到，他认识的 32 位风险投资人在过去 12 个月里重返运营岗位，从分析师到合伙人均有，且这一趋势似乎正在加速。
+Garry Tan did a back-of-envelope calculation estimating $12M per hour in lost developer productivity from the Fable 5 ban, based on 5M frontier AI-coding daily actives at $90/hr fully loaded and Fable routing ~18% of work with 15% productivity gains.
+Garry Tan 做了一个粗略估算：Fable 5 封禁导致每小时损失约 1200 万美元的开发者生产力，基于 500 万前沿 AI 编程日活用户、每小时 90 美元全成本，以及 Fable 承载约 18% 工作量且生产力提升 15% 的假设。
 
-Source: https://x.com/nikunj/status/2066701833964531736
+He also argued that AI is leveling the playing field for founders: *"technical founders now have access to business thinking, business founders now have access to technical thinking — net net: more startups that actually work."*
+他还认为 AI 正在为创始人创造公平竞争环境："技术型创始人现在可以获得商业思维，商业型创始人现在可以获得技术思维——最终结果：更多真正能运转的初创企业。"
+
+On the topic of age in startups, he reaffirmed YC's mission: *"We don't care what your age is. We care if you can build with craft and care and if you can make something people want."*
+在创业年龄话题上，他重申了 YC 的使命："我们不在乎你的年龄，我们在乎的是你能否以工匠精神和用心去构建，以及你能否做出人们真正想要的东西。"
+
+Source: https://x.com/garrytan/status/2067366749411176831
+Source: https://x.com/garrytan/status/2067308407603048774
+Source: https://x.com/garrytan/status/2067260431597723825
 
 ---
 
-### Peter Steinberger — PSPDFKit Founder (steipete on X)
+### Investor & Operator Zara Zhang (zarazhangrui on X)
 
-PSPDFKit founder Peter Steinberger announced that his open-source project now has an AI agent (@clawsweeper) that automatically reviews new issues, and if they fit the project's VISION.md, it picks them up and creates an auto-reviewed PR.
-PSPDFKit 创始人 Peter Steinberger 宣布，他的开源项目现已接入 AI 智能体（@clawsweeper），能自动审查新 Issue，若符合项目 VISION.md 的方向，则自动创建并审查 PR。
+Zara Zhang made a pointed argument about AI and writing: don't use AI for writing until you've developed your own taste and voice.
+Zara Zhang 就 AI 与写作发表了一针见血的观点：在培养出自己的品味和声音之前，不要用 AI 来写作。
 
-He also posted about the challenge of manufacturing Mac Studios, and shared what appeared to be a funny loop scenario he encountered.
-他还发文感叹 Mac Studio 制造之难，并分享了一个他遇到的有趣循环现象。
+*"If the AI produces slop, you won't even recognize it as slop. Read a lot to figure out what good looks like. Write a lot to know what your voice sounds like."*
+"如果 AI 产出的是糟糕内容，你甚至不会意识到它很糟糕。大量阅读，弄清什么是好内容；大量写作，了解你自己的声音是什么样的。"
 
-Sources:
-- https://x.com/steipete/status/2066457262571360396
-- https://x.com/steipete/status/2066471737068232835
-- https://x.com/steipete/status/2066458424041251244
+She also offered a sharp insight about vibe-coded personal apps: the real challenge isn't building them — it's whether you'll actually use them. Most dead projects worked fine; users just never opened them. The takeaway: build for the lazy, forgetful, real human — not an idealized user who does step 1, 2, 3 every day.
+她还对氛围编程个人应用提出了深刻洞见：真正的挑战不是构建，而是你是否真的会使用它们。大多数废弃项目其实运行良好，只是用户从不打开。结论：要为真实的、懒惰的、健忘的用户而构建，而不是为那个每天都会执行第 1、2、3 步的理想用户。
+
+Source: https://x.com/zarazhangrui/status/2067423674689638652
+Source: https://x.com/zarazhangrui/status/2067313780724551853
+
+---
+
+### Investor Nikunj Kothari (nikunj on X)
+
+Nikunj Kothari went on a thread calling out "tranched rounds" — VC deals where the published valuation is far higher than what investors actually paid.
+Nikunj Kothari 连发推文抨击"分批融资"——即 VC 公布的估值远高于投资者实际支付价格的交易结构。
+
+He argued it harms early employees most: their 409A valuations get set at inflated numbers, making stock options far less valuable.
+他认为这对早期员工伤害最大：他们的 409A 估值被设定在虚高数字上，导致股票期权的价值大打折扣。
+
+His detection heuristic: *"If someone raises xxM$ at under 10% dilution of the published valuation, you can safely bet it was a tranched round."*
+他的识别启发法："如果有人在不到公布估值 10% 稀释度的情况下融资 XX 百万，那基本可以断定是分批融资。"
+
+He also expressed optimism about emerging VC fund managers who will debut in the next 12 months — predicting they'll become household names within a decade.
+他还对未来 12 个月即将首次亮相的新兴 VC 基金管理人表示乐观，预测他们将在十年内成为家喻户晓的名字。
+
+Source: https://x.com/nikunj/status/2067399657639285150
+Source: https://x.com/nikunj/status/2067397092981772501
+Source: https://x.com/nikunj/status/2067378464773292066
+
+---
+
+### Dan Shipper, Every CEO (danshipper on X)
+
+Dan Shipper announced that Every made an investment in Tacit, a startup by founder ninklefitz, whose mission he described as excellent.
+Dan Shipper 宣布 Every 投资了由 ninklefitz 创立的 Tacit，他对这位创始人的使命和方向给予了高度评价。
+
+He also resurfaced his 2023 essay "Against Explanations" — about how AI might change the sciences — noting he's excited to see so much progress happening so fast.
+他还重新提及了自己 2023 年的文章《反对解释》，探讨 AI 如何可能改变科学，并表示很兴奋地看到如此快速的进展。
+
+Source: https://x.com/danshipper/status/2067386342661624055
+Source: https://x.com/danshipper/status/2067386395283345808
+
+---
+
+### Nan Yu, SPC Partner (thenanyu on X)
+
+Nan Yu offered a nuanced take on "taste" — arguing the word is chronically misunderstood because people conflate aesthetic taste with a deeper, more functional kind of judgment.
+Nan Yu 对"品味"提出了细致入微的见解——认为这个词长期被误解，因为人们将审美品味与更深层、更具功能性的判断混为一谈。
+
+*"'Taste' is not just taste in aesthetics, the same way 'design' is not just visual design. Feels like half the conversations on the subject are people talking past each other."*
+"'品味'不仅仅是审美品味，正如'设计'不仅仅是视觉设计。感觉有一半关于这个话题的对话，都是人们在鸡同鸭讲。"
+
+He pointed to Paul Graham as an example: PG talks about taste while wearing cargo shorts — clearly not talking about fashion sense.
+他以 Paul Graham 为例：PG 一边穿着工装裤一边谈论品味——显然说的不是穿衣品味。
+
+Source: https://x.com/thenanyu/status/2067327619897446721
+Source: https://x.com/thenanyu/status/2067327901666521478
+
+---
+
+### Peter Steinberger, CEO of Superstar Apps (steipete on X)
+
+Peter Steinberger shared an image with the caption "sci-fi vibes intensify" — offering no further context but clearly reacting to something visually striking in the AI space.
+Peter Steinberger 分享了一张配文"科幻感拉满"的图片——没有更多背景信息，但显然是对 AI 领域某个视觉上令人震撼的事物的回应。
+
+Source: https://x.com/steipete/status/2067431311317352809
+
+---
+
+### Aditya Agarwal, SPC Managing Director (adityaag on X)
+
+Aditya Agarwal shared that SPC members' questions signal where the AI frontier is heading next, and invited founders to apply to SPC.
+Aditya Agarwal 分享道，SPC 成员探索的问题预示着 AI 前沿的下一步走向，并邀请创始人申请加入 SPC。
+
+Source: https://x.com/adityaag/status/2067306242825949398
+Source: https://x.com/adityaag/status/2067306244390428893
+Source: https://x.com/adityaag/status/2067306245942317426
+
+---
+
+### Sam Altman, OpenAI CEO (sama on X)
+
+Sam Altman announced the hiring of Noam (likely referring to a prominent researcher named Noam), calling it something he had wanted since the very beginning of OpenAI — "only took 10 years."
+Sam Altman 宣布聘用 Noam（可能指某位知名研究人员），称这是他从 OpenAI 成立之初就一直期待的——"只花了 10 年"。
+
+In a wry follow-up, he quipped: *"We offer no explanation as to why Noams are so good at AI; we attribute their success, as all else, to divine benevolence."*
+在一条调侃性的后续推文中，他写道："我们不解释为什么叫 Noam 的人在 AI 方面这么厉害；我们将他们的成功，如同其他一切，归功于神圣的恩赐。"
+
+Source: https://x.com/sama/status/2067427421083652131
+Source: https://x.com/sama/status/2067427678529974740
+
+---
+
+### Claude by Anthropic (claudeai on X)
+
+Claude launched Claude Design in beta on all paid plans (web and desktop), a new design tool integrated directly with Claude Code.
+Claude 在所有付费套餐（网页和桌面）上推出了 Claude Design 的测试版，这是一个与 Claude Code 直接集成的全新设计工具。
+
+The integration works in both directions: you can hand a design off to Claude Code to build, or start in Claude Code and sync design projects from your terminal.
+该集成支持双向工作流：你可以将设计交给 Claude Code 来构建，也可以从 Claude Code 开始，直接从终端同步设计项目。
+
+The redesigned editor features a steadier layout for daily work, with new controls for dragging, resizing, and aligning elements on the canvas. Export to PDF and PowerPoint is also supported.
+重新设计的编辑器更适合日常工作，新增布局控件支持直接在画布上拖拽、调整大小和对齐元素，还支持导出为 PDF 和 PowerPoint。
+
+Source: https://x.com/claudeai/status/2067325891781226581
+Source: https://x.com/claudeai/status/2067325893001826552
+Source: https://x.com/claudeai/status/2067325894268428560
 
 ---
 
 ## PODCASTS
 
-### The MAD Podcast with Matt Turck
-**OpenAI's Dan Roberts: Why AI Can Now Make Discoveries**
+---
 
-In this episode, Matt Turck sits down with Dan Roberts, lead of the Foundations of Reinforcement Learning team at OpenAI, to explore a landmark moment: AI systems from OpenAI, DeepMind, and Anthropic have cracked some of the most famous long-unsolved problems in mathematics — the Erdős problems.
-在这一期节目中，Matt Turck 与 OpenAI 强化学习基础团队负责人 Dan Roberts 深入探讨了一个里程碑式的时刻：OpenAI、DeepMind 和 Anthropic 的 AI 系统已攻克了数学领域最著名的一批长期悬而未决的难题——Erdős 问题。
+### AI & I by Every — "GitHub's COO Explains Why AI Hasn't Replaced Developers"
 
-Dan explains what the Foundations of RL team does — studying the science of reinforcement learning, understanding how it works, and exploring scaling laws for RL versus pretraining.
-Dan 解释了强化学习基础团队的工作：研究强化学习的科学原理，理解其运作方式，并探索 RL 与预训练的缩放规律。
+**深度总结**
 
-*"I feel really excited that we will get to really answer a lot of fundamental questions in the field of science that we care about, with the models being the driving force."*
-*"我非常兴奋，我们即将借助模型作为驱动力，真正解答科学领域我们最关心的一批根本性问题。"*
+**核心论点**
+GitHub COO Kyle Daigle argues that AI agents are rapidly expanding who counts as a "developer," and that GitHub's core role is to support every builder's "agent moment" — not just GitHub Copilot users.
+GitHub COO Kyle Daigle 认为，AI agent 正在迅速扩展"开发者"的定义，GitHub 的核心使命是支持每位构建者的"agent 时刻"，而不仅仅是 GitHub Copilot 用户。
 
-A key insight from Dan: to solve hard math problems, AI had to learn to go against the grain — to assume a statement is false and persevere down a long, contrarian calculation path, requiring strong conviction in the approach.
-Dan 的核心洞见：为了解决困难的数学问题，AI 必须学会逆向思考——假设某个命题为假，并沿着漫长的反向计算路径坚持下去，这需要对方法本身有极强的信念。
+GitHub is now seeing 17 million agent-created pull requests per month — and the growth shows no sign of plateauing.
+GitHub 目前每月看到 1700 万个由 agent 创建的 Pull Request，且增长没有放缓的迹象。
 
-The conversation also covers what's ahead for AI and science, and why reinforcement learning is the most important paradigm in AI right now.
-对话还涵盖了 AI 与科学的未来走向，以及为何强化学习是当前 AI 领域最重要的范式。
+**关键洞察**
 
-🎧 Watch/listen: https://www.youtube.com/watch?v=oWOz2htozfI
+The scale of agentic activity on GitHub is staggering: on track for 14 billion commits in 2026 if growth were linear (it isn't), versus 1 billion for all of 2025.
+GitHub 上 agent 活动的规模令人震惊：若按线性增长，2026 年有望达到 140 亿次提交（实际增长非线性），而 2025 年全年仅 10 亿次。
+
+Open source maintainers are drowning in agent-generated PRs, and GitHub is building maintainer-first tools — agentic code review, automated merge pipelines — while deliberately letting communities set their own standards rather than imposing one top-down.
+开源维护者正被 agent 生成的 PR 淹没，GitHub 正在构建以维护者为先的工具——agent 化的代码审查、自动合并流程——同时刻意让社区自己制定标准，而不是自上而下强制推行。
+
+The business model is evolving: freemium made sense in a human-centered world where people sleep, but agents work around the clock, pushing toward usage-based pricing. GitHub wants to enable heavy agent usage while preserving a strong core experience for individual developers.
+商业模式正在演变：在以人为中心、人需要睡觉的世界里，免费增值模式是合理的，但 agent 全天候工作，推动定价向用量计费方向转变。GitHub 希望在支持大量 agent 使用的同时，为个人开发者保留强大的核心体验。
+
+Kyle Daigle's new dual role as GitHub COO and Microsoft's Chief Marketing Officer for Developer is deliberately focused on "developer choice" and avoiding the "mousetrap" of locked-in ecosystems — making it easy to use GitHub alongside any tool, including competitors.
+Kyle Daigle 的新双重身份——GitHub COO 兼微软开发者首席营销官——刻意聚焦于"开发者选择权"，避免锁定生态的"捕鼠夹"效应，使 GitHub 能与任何工具（包括竞品）无缝配合。
+
+This year's Microsoft Build deliberately featured external community speakers in keynotes (e.g., Swix, Peter Steinberger) for the first time — a sign that even Microsoft's biggest developer conference is moving away from a single-vendor narrative.
+今年的 Microsoft Build 首次刻意在主题演讲中邀请了外部社区演讲者（如 Swix、Peter Steinberger）——这表明即便是微软最重要的开发者大会，也正在摆脱单一厂商叙事。
+
+**最值得关注的信号**
+The 17M agent PRs per month number is the clearest signal yet that we've exited the "early adopter" phase of agentic coding — and GitHub is betting heavily that growth will compound, not plateau.
+每月 1700 万个 agent PR 是迄今为止最清晰的信号，表明我们已经离开了 agent 编程的"早期采用者"阶段——GitHub 正在大力押注增长将持续复合，而非趋于平稳。
+
+---
+
+**完整中文逐字稿**
+
+**主持人 | 00:00 - 00:36**
+大家好，我是 Mike Taylor，Every 的技术咨询负责人。我与 GitHub 的 COO Kyle Daigle 进行了一次对话，聊了聊 coding agent 前线正在发生什么。GitHub 现在每月有 1700 万个 Pull Request 涌入，呈指数级增长，这让他们站在了这个新经济的最前沿。我们聊了这对他们用户的影响，也聊了这对开源维护者的影响，还涉及了一个大家都关心的话题：如何避免每月 200 美元的 coding agent 订阅费膨胀成 2000 美元的用量账单？
+
+**主持人 | 00:36 - 00:45**
+在这次采访中，我做了一件有点不一样的事——我告诉 Kyle，我为了练习采访，专门做了一个他的 AI 克隆版本。结果他的回应出乎我的意料。以下是这段对话。
+
+**主持人 | 01:11 - 01:27**
+嘿，Kyle。感谢你在大会上抽时间陪我。当然，很高兴认识你。我觉得我们昨天已经聊过一些这些问题了，但为了更广泛的观众能了解这里发生的事情，再聊一遍也很有价值。没错。
+
+**主持人 | 01:27 - 01:46**
+我觉得我们之前聊到的一个很有意思的点是，客户的结构正在改变，对吧？很多之前可能从不用 GitHub 或开发者产品的人，现在开始用了。这如何影响了你们对产品路线图的决策？
+
+**Kyle Daigle (GitHub COO) | 01:46 - 02:06**
+是的，我觉得对于 GitHub 来说，我们一直以来对"开发者"这个概念有着非常宽泛的定义。我自己在把自己称为"开发者"之前很久就开始写代码了——那时我只是在写自己用的代码，走了一条完全不同的职业道路，没有学计算机科学。
+
+**Kyle Daigle | 02:07 - 02:50**
+我是去学艺术的。我写代码是为了付艺术学费，现在回头想想是个相当蠢的决定。但那时候，那种感觉——我能创造工具，让团队的人也能有同样的体验，就是那种"我只是想做个自己用或给家人用的 app，也许是个初创，也许是个生意"的感觉。我们有非常专业的开发者工具，世界上最大的企业都在用 GitHub。但当我看 GitHub Copilot 应用时，我看到同样多的开发者每天在用 AI，同时跑多个项目，同时开多个 agent 会话。
+
+**Kyle Daigle | 02:51 - 03:26**
+我看到 GitHub 的法律团队在用 GitHub Copilot 应用，财务团队也在用。今天我和一位客户开会，他们也说了同样的事情：很多业界所谓的"知识工作者"或"非职业开发者"，正在用这些工具为自己构建小应用或小工具。所以虽然我们的核心专注于开发者，我认为我们想让更多人能更容易地尝试写代码——通过 GitHub Copilot 应用这样的产品，确保总有一个入门的路径。
+
+**主持人 | 03:26 - 03:38**
+是的。那你们如何帮助开发者应对那些额外的负担——比如 PR 的洪流？我采访过的开源维护者说他们快被淹死了。需要做什么来帮助他们？
+
+**Kyle Daigle | 03:38 - 04:13**
+是的，对所有开发者来说，我们在构建 Copilot 代码审查这样的工具——它现在是 agent 化的，能发现更多新颖的漏洞，你可以直接评论，agent 就会接手并在你需要时去实现那个改动。所以我认为代码审查这个步骤在某种程度上被低估了——它是让 PR 更容易被审查的好方法。应用里的 Agentic merge 也是一个大家经常用到的地方，无论是内部还是社区——你可能评论了某些内容，经过代码审查后几乎走完全程，但还剩下那些手动步骤来完成 PR 合并。
+
+**Kyle Daigle | 04:13 - 04:32**
+有了它，我可以进去精确设置我允许 GitHub Copilot 做什么，然后说："好，现在去合并这个 PR，等待 CI，等待策略检查"等等。这是很重要的一部分。
+
+**Kyle Daigle | 04:32 - 05:05**
+在开源方面，有一套独特的需求，因为你无法控制谁在提交，或者说历史上你没能控制。这正是我们一直在专注的地方——给维护者更多工具来决定：你想接受所有这些 PR 吗？你想接受来自谁的？你需要做多少工作来证明你要贡献对项目有意义的东西？我们想为开源维护者提供工具，但真正让他们掌控权力。
+
+**Kyle Daigle | 05:05 - 05:31**
+每个社区都在选择略微不同的方式来处理这个问题。对于 GitHub 来说，我们一直希望把这个权力留在他们手中——给他们工具并赋能他们。但如果从中涌现出一个标准，或者大多数人在使用某种实践，我们就会将其固化。但我们真的不想成为第一个创建标准或方法的人。比如 Michel Hashimoto 分享了他们使用的 vouch 系统，我被问到为什么不向所有人推广。但同样有很多社区不想用那个系统，因为他们对应该如何运作有自己的想法。
+
+**Kyle Daigle | 05:31 - 05:55**
+所以目前，我们专注于为维护者提供控制的构建块。随着我们共同学习，随着维护者发来反馈，如果一个完整的系统浮现出来，我们会将其固化。
+
+**主持人 | 05:55 - 06:12**
+是的，我觉得你有一个近距离观察这个新 agent 经济的绝佳视角。我记得你在 Twitter 上公开说，你们一个月收到的 Pull Request 数量比去年全年还多。这些数据是怎么爆炸式增长的？
+
+**Kyle Daigle | 06:12 - 06:31**
+是的，GitHub 上的活动量正在大幅增加。我们一直在谈论用户增长，谈了很多年。但今年，我们明显看到开发者在使用 agent 进行构建的增长。
+
+**Kyle Daigle | 06:32 - 06:50**
+去年十月在 GitHub Universe 上，我们分享了全年有 10 亿次提交。今年，如果增长是线性的（实际上不会是），我们预计将达到 140 亿次提交。今年三月，有 1700 万个由 agent 创建的 Pull Request。
+
+**Kyle Daigle | 06:50 - 07:06**
+仅 agent 创建的 Pull Request 就有这么多。所以有大量代码正在被创建。有时候大家会说，这都是垃圾，只是代码被推上来，没人在乎，不是真实的——但这不是真的。
+
+**Kyle Daigle | 07:06 - 08:01**
+我们其实正在到达一个点，不再处于超级早期采用阶段。我们肯定还没到顶峰，但我们正在爬那座山，看看当不只是 Kyle 在构建，而是 Kyle 加上一个、两个、N 个 agent，使用我的技能、我的资源、我的上下文，我们能构建什么。所以我们在大力投资，为下一波增长做准备，因为这似乎不是增长后趋于平稳的模式，而是会继续增长——无论你在哪里构建，用什么工具构建，所有代码最终都在 GitHub 上，或者你在这里与世界分享，或者在 PR 中协作。所以我们需要能够支持每个人的"agent 时刻"，而不仅仅是 GitHub Copilot。
+
+**主持人 | 08:01 - 08:18**
+是的，商业模式会如何变化？我觉得在以人为中心的世界里，免费增值是合理的，人需要睡觉，但 agent 在我们睡觉的时候还在工作。那这是否意味着要转向按用量计费？
+
+**Kyle Daigle | 08:18 - 08:57**
+我觉得我们还不完全知道最终答案。目前，Kyle 会有一个许可证，或者在 github.com 免费使用，我们一直有 API 速率限制之类的东西，这通常是大家感受到 agent 背压的地方。目标是：如果你想做更多，就像 Peter Steinberger 说的，150 个 agent 同时做所有事情，那很好，我们想让你能做到，但同时我也想让你有很好的核心 GitHub 体验。
+
+**Kyle Daigle | 08:57 - 09:43**
+至少，有一定量的 agent 使用是必要的。类似于很久以前，你有免费的公开仓库，但没有免费的私有仓库。后来我们说，好，一个个人拥有一些不想公开的代码是合理的，我们给你免费的私有仓库。所以 GitHub 一直随着行业和社区在演进，但我们始终专注于：我需要确保你，这个开发者，有你成功所需的东西，然后与企业合作，确保他们有在规模上做到这一点所需的东西。
+
+**主持人 | 09:43 - 10:00**
+是的，我猜商业模式定价又都与更广泛的微软生态系统有关。而且你现在有双重角色，对吧？部分负责更广泛的营销组织。你能介绍一下这如何变化，以及如何在两者之间分配优先级吗？
+
+**Kyle Daigle | 10:00 - 10:24**
+是的，我在 GitHub 工作了 13 年。作为开发者本身，在很多年里领导工程团队。我认为 GitHub 一直独特的地方是，我们真的非常专注于开发者。我们在为开发者构建工具，企业购买这些工具是很棒的，这当然很好。
+
+**Kyle Daigle | 10:25 - 11:19**
+但我们不是为买家构建的，我们是为开发者构建的。这一直是我作为 GitHub COO 的专注点。而现在作为微软的开发者首席营销官，我的目标是审视微软所有的工具、他们为开发者带来的开发者工具和技术，确保我们提供的是真正符合开发者体验的、可以使用的整体解决方案。在今年像 Build 这样的活动上，我们采取了非常不同的方式——我们在旧金山，氛围与会展中心设置有些不同，真正专注于：我能去一个会话，我能使用这个东西，我不想被推销一个东西，我必须能使用它，而不是展馆展示之类的形式。
+
+**Kyle Daigle | 11:20 - 11:31**
+这真的是把 GitHub 一直拥有的对开发者的专业知识、热爱和专注带出来，在整个微软产生更广泛的影响。
+
+**主持人 | 11:31 - 11:36**
+是的，我有没有听到你说，这是第一次有外部贡献者和演讲者的 Build？
+
+**Kyle Daigle | 11:36 - 11:55**
+这次 Build，我认为我们刻意专注于在这些主要会话中邀请社区的演讲者。包括在主题演讲中，我们有像 Peter 这样的人。还有来自 Swyx 等人的会话。
+
+**Kyle Daigle | 11:56 - 12:43**
+我认为这很重要。软件开发是一项团队运动。认为有任何一家公司、一个团体——包括 GitHub 和微软——能回答每一个问题，这是荒谬的。我们都至少在使用开源，站在这些巨大开源项目的肩膀上。让能够帮助讲述他们那部分故事的人参与进来，因为我深信这就是开发者想要的。我知道这是我想要的，我知道这是我的开发者朋友想要的。当我们看活动和听到反馈，他们很高兴见到来自微软、GitHub 的人，然后，哦，我还能在这个活动上看到外部视角。这真的很有意义。
+
+**主持人 | 12:45 - 13:00**
+这说得通。而且这是一个竞争非常激烈的市场，对吧？在所有这些变化面前，你如何差异化？
+
+**Kyle Daigle | 13:00 - 13:52**
+是的，我认为我们继续专注于我们的根本，那就是我们非常关心开发者的选择。这一直是真的，我们关心为构建者而建，赋能构建者。我们处在一个很有趣的时刻，因为我们已经从一个有大量 API、大量访问的时代，进入了一个有点像无意中形成的围墙花园的局面，你有了一种亲近感，有时我会说它有点像捕鼠夹——你意识到这边有个有趣的东西，但我得去学一个新东西或新工具或新账户。对我们来说，我们始终想让在 GitHub 上构建的开发者能去使用这些其他工具，我们会与所有人合作，让这变得尽可能简单。
+
+**Kyle Daigle | 13:52 - 14:36**
+虽然我认为有其他人在做类似的事情，但能够在整个软件构建过程（而不仅仅是代码部分）做到这一点的能力……
+
+Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 ---
 
