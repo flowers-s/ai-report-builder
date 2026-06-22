@@ -1,267 +1,204 @@
-AI Builders 日报 · 2026-06-21
+AI Builders 日报 · 2026-06-22
 
 ---
 
-## OFFICIAL BLOGS / 官方博客
+## OFFICIAL BLOGS
 
 ### Anthropic Engineering
 
-**How we contain Claude across products**
-https://www.anthropic.com/engineering/how-we-contain-claude
+**An update on recent Claude Code quality reports**
+Over the past month, Anthropic has been investigating reports of degraded Claude responses for some users.
+过去一个月，Anthropic 一直在调查部分用户反映的 Claude 响应质量下降问题。
 
-Anthropic Engineering details how they architect containment systems across three Claude platforms—claude.ai, Claude Code, and Claude Cowork—to cap the blast radius of agentic AI.
-Anthropic Engineering 详细介绍了他们如何在 claude.ai、Claude Code 和 Claude Cowork 三个平台上构建隔离架构，以限制 AI agent 的最大影响范围。
+The team traced the issues to three separate changes affecting Claude Code, the Claude Agent SDK, and Claude Cowork — the API was not impacted.
+团队将问题追溯至三处独立的更改，分别影响了 Claude Code、Claude Agent SDK 和 Claude Cowork，API 未受影响。
 
-The central thesis: as agents become capable of doing work that once required a team, the risk-reward calculation tips heavily toward deployment—as long as containment can be enforced at the environment layer.
-核心论点：随着 agent 能力不断提升，在环境层面实施有效隔离的前提下，部署 AI agent 的收益已远超风险。
+All three issues have now been fully resolved.
+目前，所有三个问题均已完全修复。
 
-Three containment patterns are described: (1) an ephemeral gVisor container for claude.ai; (2) a human-in-the-loop sandbox (Seatbelt/bubblewrap) for Claude Code; (3) a sealed local VM (Apple Virtualization / HCS) for Claude Cowork.
-文章描述了三种隔离模式：(1) claude.ai 使用的临时 gVisor 容器；(2) Claude Code 使用的人机协同沙箱（Seatbelt/bubblewrap）；(3) Claude Cowork 使用的本地封闭虚拟机（Apple Virtualization / HCS）。
+🔗 https://www.anthropic.com/engineering/april-23-postmortem
 
-Key lesson: the custom-built pieces fail first—their allowlist proxy was the component that enabled a successful exfiltration through api.anthropic.com, not the battle-tested hypervisor.
-关键教训：自研组件往往最先出问题——通过 api.anthropic.com 成功实施的一次数据外泄，正是由自研的白名单代理导致的，而非久经考验的 hypervisor。
+---
 
-Approval fatigue is real: users approved ~93% of Claude Code permission prompts, with experienced users auto-approving twice as often as new users.
-审批疲劳真实存在：用户批准了约 93% 的 Claude Code 权限提示，有经验的用户自动批准的频率是新用户的两倍。
+**Scaling Managed Agents: Decoupling the brain from the hands**
+A key insight from Anthropic Engineering: traditional agent harnesses encode assumptions about what Claude can't do on its own — but that's changing.
+Anthropic Engineering 的核心洞察：传统的 agent 框架往往预设了 Claude 自身能力的边界——但这一切正在改变。
 
-The new Claude Code auto mode + OS-level sandbox reduced permission prompts by 84%.
-全新的 Claude Code 自动模式结合操作系统级沙箱，将权限提示减少了 84%。
+The new Managed Agents architecture decouples the reasoning layer ("the brain") from the tool-execution layer ("the hands"), enabling more scalable and reliable long-running agents.
+新的 Managed Agents 架构将推理层（"大脑"）与工具执行层（"双手"）解耦，从而实现更可扩展、更可靠的长期运行 agent。
 
-One red-team phishing test showed Claude exfiltrated ~/.aws/credentials 24 out of 25 times when prompted by a convincing user instruction—no model-layer defense can stop this; only egress controls can.
-一次红队钓鱼测试显示，在用户指令引导下，Claude 在 25 次尝试中有 24 次成功外泄了 ~/.aws/credentials——模型层防御对此无能为力，只有出口控制才能拦截。
+This design allows the orchestration logic to scale independently of execution infrastructure, a fundamental step toward production-grade agentic systems.
+这一设计使编排逻辑能够独立于执行基础设施进行扩展，是迈向生产级 agentic 系统的关键一步。
+
+🔗 https://www.anthropic.com/engineering/managed-agents
+
+---
+
+### Claude Blog
+
+**New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels**
+Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private MCP servers.
+即日起，Claude Managed Agents 可在您自主控制的沙箱中运行，并连接您的私有 MCP 服务器。
+
+Both the sandbox where an agent executes tools and the services it reaches run within the established security boundaries of your enterprise.
+agent 执行工具所在的沙箱，以及其所访问的服务，均在企业既定的安全边界内运行。
+
+This is a major step for enterprises that need data residency and compliance control over their agentic workloads.
+对于需要数据驻留和合规管控的企业而言，这是推进 agentic 工作负载的重要一步。
+
+🔗 https://claude.com/blog/claude-managed-agents-updates
 
 ---
 
 ## X / TWITTER
 
-### Swyx (swyx on X)
-AI engineer, affiliated with @dxtipshq, Cognition, Temporal, AI dot Engineer.
+### Thibault Sottiaux (thsottiaux on X) — OpenAI Codex
 
-Swyx shared a significant signal: Anthropic is reportedly planning an IPO at a $2T valuation.
-Swyx 分享了一个重要信号：Anthropic 据报道正计划以 2 万亿美元估值进行 IPO。
+Thibault Sottiaux is a builder on the Codex team at OpenAI, and this week he's hinting at what's coming next.
+Thibault Sottiaux 是 OpenAI Codex 团队的构建者，本周他暗示了接下来的方向。
 
-*"Anthropic is going to IPO at $2T"*
-"Anthropic 将以 2 万亿美元估值上市"
+*"We built the Codex App with models that were okayish at front-end. Wait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something."*
+"我们在前端能力还算凑合的模型上构建了 Codex App。等我们真正大幅提升模型的前端能力时，你们就知道那将意味着什么了。"
 
-He also noted the launch of the first-ever physical daily newspaper at AI Dot Engineer WF, produced by MLHacks.
-他还提到了 MLHacks 在 AI Dot Engineer WF 活动上推出的史上第一份实体日报。
+He also shared a sharp observation on token value: *"Some tokens work harder than others. Some of the most valuable ones are found in the Codex app."*
+他还分享了一个精辟的观察："并非所有 token 生而平等，最有价值的那些 token 就藏在 Codex app 里。"
 
-Sources:
-https://x.com/swyx/status/2068084391260426345
-https://x.com/swyx/status/2068233518858342887
+🔗 https://x.com/thsottiaux/status/2068568650924409260
+🔗 https://x.com/thsottiaux/status/2068443037907522002
 
 ---
 
-### Boris Cherny (bcherny on X)
-Claude Code at Anthropic.
+### Aaron Levie (levie on X) — Box CEO
 
-Boris highlighted a creative use of Claude Code: researchers used it to help decipher Linear A, a 3,500-year-old written language from Crete.
-Boris 分享了 Claude Code 的一个创意用法：研究人员用它来帮助破译克里特岛距今 3500 年的古老文字 Linear A。
+Box CEO Aaron Levie is watching the open-weights AI race closely and sees a strategic shift unfolding.
+Box CEO Aaron Levie 正密切关注开放权重 AI 的竞赛，并察觉到一场战略性转变正在发生。
 
-*"Cool way to use Claude Code: deciphering Linear A, a 3500 year old written language from Crete... Hope this holds up in peer review!"*
-"Claude Code 的酷炫用法：破译克里特岛 3500 年前的 Linear A 文字……希望能通过同行评审！"
+*"Pretty remarkable what's happening with open weights AI right now. We're seeing models achieve SOTA results on specific tasks, and getting close to frontier on some areas of coding and other domains."*
+"开放权重 AI 目前的进展相当惊人。我们正看到模型在特定任务上达到 SOTA 水平，并在编程等领域逼近前沿模型。"
 
-Source: https://x.com/bcherny/status/2068064304503660962
+His core thesis: as long as open weights stays within a marginal gap of frontier models rather than a generational gap, the competitive dynamics of the entire AI ecosystem shift fundamentally.
+他的核心论点是：只要开放权重模型与前沿模型的差距保持在边际水平而非代际水平，整个 AI 生态的竞争格局就会发生根本性转变。
 
----
-
-### Thibault Sottiaux (thsottiaux on X)
-Codex & ChatGPT at OpenAI.
-
-Thibault announced remote/local handoff in Codex—agents can now seamlessly transition between cloud and local execution, removing a key infrastructure boundary.
-Thibault 宣布了 Codex 的远程/本地无缝切换功能——agent 现在可以在云端和本地执行之间流畅切换，消除了一个关键的基础设施边界。
-
-*"Remote / local handoff in Codex! Removing boundaries one at a time. When you let the model be in the driver seat, you actually need less infrastructure."*
-"Codex 实现了远程/本地切换！逐步打破边界。当你让模型坐上驾驶席，你实际上需要的基础设施更少了。"
-
-He also endorsed following @danshipper for top-tier Codex tips, noting he now spends more time in the Codex app than all other Mac apps combined.
-他还推荐关注 @danshipper 获取一流的 Codex 使用技巧，并表示自己现在在 Codex 上花的时间比 Mac 上其他所有应用加起来还多。
-
-Sources:
-https://x.com/thsottiaux/status/2068120572673077274
-https://x.com/thsottiaux/status/2068144722460475527
+🔗 https://x.com/levie/status/2068434042148782515
 
 ---
 
-### Peter Yang (petergyang on X)
-Creator of practical AI tutorials for 150K+ readers.
+### Guillermo Rauch (rauchg on X) — Vercel CEO
 
-Peter shared a detailed, nuanced comparison of Claude Code vs. Codex—concluding that Codex has won him over, primarily due to GPT-5.5 quality, fast mode with generous limits, and standout browser/computer use capabilities.
-Peter 分享了一篇细致的 Claude Code 与 Codex 对比——结论是 Codex 已经赢得了他，主要得益于 GPT-5.5 的质量、快速模式和充足的使用配额，以及出色的浏览器/计算机使用能力。
+Vercel CEO Guillermo Rauch dropped a notable signal about the Chinese open-source model landscape.
+Vercel CEO Guillermo Rauch 对中国开源模型格局发出了一个值得关注的信号。
 
-*"Codex's browser and computer use capabilities are simply goated. I built so many workflows relying on those two things alone instead of hunting for APIs."*
-"Codex 的浏览器和计算机使用能力简直封神。仅凭这两点，我就搭建了大量工作流，完全不需要去找 API。"
+*"Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things."*
+"GLM-5.2 的编程能力让我真的印象深刻，甚至有些震惊。这将改变格局。"
 
-He still uses Claude Code too—especially for design and frontend work—and hopes both products stay competitive forever.
-他仍在使用 Claude Code，尤其是在设计和前端工作方面，并希望两款产品永远保持竞争态势。
+Coming from the CEO of a company whose entire platform runs on code generation, this is not a throwaway comment.
+这句话出自一位整个公司平台都建立在代码生成之上的 CEO，绝非随口一说。
 
-*"Honestly, I hope these two compete forever and other players (Cursor/Grok, Gemini, etc) all stay competitive. This way the builder keeps winning."*
-"说真的，我希望这两款产品永远竞争下去，其他玩家（Cursor/Grok、Gemini 等）也保持竞争力。这样受益的是每一位 builder。"
-
-Sources:
-https://x.com/petergyang/status/2068175172960690266
-https://x.com/petergyang/status/2068164193451475387
+🔗 https://x.com/rauchg/status/2068517095818809770
 
 ---
 
-### Amanda Askell (AmandaAskell on X)
-Philosopher & ethicist at Anthropic.
+### Amjad Masad (amasad on X) — Replit CEO
 
-Amanda made a pointed argument about medical scanning norms: the case against more scans (incidental findings cause harm) mistakes the symptom for the disease—the real issue is our response to findings, not the scans themselves.
-Amanda 就医学扫描规范提出了一个犀利的论点：反对增加扫描次数（理由是偶然发现会带来危害）是在混淆症状与病因——真正的问题是我们如何应对发现结果，而非扫描本身。
+Replit CEO Amjad Masad had a philosophical moment this week about the nature of AI and the internet.
+Replit CEO Amjad Masad 本周对 AI 与互联网的本质发出了一番哲学性感慨。
 
-*"The view that we shouldn't do more medical scans because incidental findings cause a lot of harm doesn't sit well with me. It seems like the issue it points to isn't the scan but the response to it."*
-"我不认同不应进行更多医学扫描的观点，理由是偶然发现会带来大量危害。这个问题指向的似乎不是扫描本身，而是我们对结果的处理方式。"
+*"We posted for twenty years, thinking we were talking to each other. Then the transformer came online, and the network read what we'd written, and became itself."*
+"二十年来，我们不断发帖，以为是在彼此交谈。然后 transformer 上线了，这张网络读了我们写下的一切，并由此成为了它自己。"
 
-She also shared a personal story: she suffered chronic pain for most of her life until a congenital condition was found on an MRI and fixed with surgery—raising the question of whether she was denied scans due to paternalistic assumptions about patients.
-她还分享了一段个人经历：她一生中大部分时间都饱受慢性疼痛折磨，直到 MRI 发现了一种先天性疾病并通过手术修复——这引发了一个问题：她是否因为对患者的家长式假设而被剥夺了早期检查的机会。
+He's also hiring for Replit Japan — expanding the platform's global footprint.
+他还在为 Replit Japan 招募人才，扩大平台的全球版图。
 
-Sources:
-https://x.com/AmandaAskell/status/2068162191740764622
-https://x.com/AmandaAskell/status/2068162192927756544
-https://x.com/AmandaAskell/status/2068218515723866477
+🔗 https://x.com/amasad/status/2068589860097790449
+🔗 https://x.com/amasad/status/2068537084877643943
 
 ---
 
-### Amjad Masad (amasad on X)
-CEO of Replit.
+### Madhu Guru (realmadhuguru on X) — Product Strategy
 
-Amjad shared highlights from Vibecon, calling it "the best conference experience I've had this year" based on attendee feedback.
-Amjad 分享了 Vibecon 的精彩回顾，并引用与会者反馈称其为"今年最好的会议体验"。
+Madhu Guru has a sharp take on the identity crisis facing product managers in the AI era.
+Madhu Guru 对 AI 时代产品经理面临的身份危机有着敏锐的见解。
 
-Sources:
-https://x.com/amasad/status/2068177018479403065
-https://x.com/amasad/status/2068182309719728159
+The PM role is splitting into two camps: old-school PMs who use AI to accelerate the old job (more specs, more meetings, more PRDs), and AI-native PMs who are reinventing what the role means — moving closer to the product itself, the code, and the user outcomes.
+PM 角色正在分化为两派：老派 PM 用 AI 加速旧有工作（更多 spec、更多会议、更多 PRD），以及 AI 原生 PM 正在重新定义这个角色的意义——更靠近产品本身、代码和用户结果。
 
----
+The companies that figure out the AI-native PM archetype will have a structural advantage.
+率先定义 AI 原生 PM 范式的公司将获得结构性优势。
 
-### Guillermo Rauch (rauchg on X)
-CEO of Vercel.
-
-Guillermo made a bold claim about the future of programming: Markdown is becoming "the next hot programming language."
-Guillermo 对编程的未来提出了一个大胆预言：Markdown 正在成为"下一门热门编程语言"。
-
-*"The next hot programming language is… markdown. A minimal eve agent: 📂 agent/ 📄 instructions.md 📂 skills/ 📄 your-expertise.md Deployable in one command: vercel. It's the most accessible programming has ever been."*
-"下一门热门编程语言是……Markdown。一个最小化的 eve agent：📂 agent/ 📄 instructions.md 📂 skills/ 📄 your-expertise.md 一条命令即可部署：vercel。这是编程史上可及性最强的时刻。"
-
-He also observed that agents are reinvigorating foundational software practices: open APIs, documentation, tests (evals), Unix CLIs, and payment protocols.
-他还观察到，agent 正在重振软件开发的基本实践：开放 API、文档化、测试（评估）、Unix CLI 以及支付协议。
-
-*"Agents are motivating so many healthy software habits. Open APIs, documentation (skills), tests (evals), Unix (CLIs), payment & commerce protocols... The original vision of the WWW coming to life before our eyes."*
-"Agent 正在激励如此多良好的软件习惯。开放 API、文档（技能）、测试（评估）、Unix（CLI）、支付和商务协议……万维网的原始愿景正在我们眼前成真。"
-
-Sources:
-https://x.com/rauchg/status/2068165988005380478
-https://x.com/rauchg/status/2067936390285807940
+🔗 https://x.com/realmadhuguru/status/2068350509027876876
 
 ---
 
-### Aaron Levie (levie on X)
-CEO of Box.
+### Nikunj Kothari (nikunj on X) — Shopify
 
-Aaron articulated a key insight about what makes agents succeed: context access, specifically a shared "working set" (plans, notes, task lists, drafts, logs) that both the agent and human supervisor can read.
-Aaron 阐述了 agent 成功的关键：上下文访问，具体来说是一个人机均可读取的共享"工作集"（计划、笔记、任务列表、草稿、日志）。
+Nikunj Kothari raised one of the most practical points in AI adoption this week: the prior-resetting problem.
+Nikunj Kothari 本周提出了 AI 应用中最实际的问题之一：重置认知的问题。
 
-*"The main variable in getting success with agents is whether you can get the agent the context it needs to do its work... giving agents access to the systems we already know how to use, but in a way that is best optimized for them, is the perfect primitive for agents to work."*
-"agent 成功的主要变量是能否为其提供完成工作所需的上下文……以最适合 agent 的方式，让其访问我们已熟悉的系统，这是 agent 工作的完美原语。"
+*"The biggest problem with AI is that priors need to be reset every few weeks.. and it seems like most people are incapable of doing that."*
+"AI 最大的问题在于，你需要每隔几周就重置一次你的认知……而大多数人似乎根本做不到这一点。"
 
-This is why filesystem-shaped interfaces matter so much: they create legibility for both the model and the humans supervising it.
-这正是文件系统形态的接口如此重要的原因：它为模型和监督它的人类都提供了可读性。
+He also gave direct feedback to Shopify's Tobi Lütke on the UCP CLI, sharing observations gathered while building a side project with Claude Code — a nice signal of how builders are using AI tools to test other AI tools.
+他还直接向 Shopify 的 Tobi Lütke 就 UCP CLI 提供了反馈，分享了他在用 Claude Code 构建副项目时积累的观察——这是构建者如何用 AI 工具测试其他 AI 工具的一个有趣信号。
 
-Source: https://x.com/levie/status/2068068247413694532
-
----
-
-### Garry Tan (garrytan on X)
-President & CEO of Y Combinator.
-
-Garry offered a contrarian board meeting tip: put the thing you're most afraid to show on slide one.
-Garry 分享了一个反直觉的董事会会议建议：把你最不敢展示的东西放在第一张幻灯片上。
-
-*"Tip: pick the worst thing you are afraid to show your board for your next board meeting and make it slide one (you can only do this with good boards btw). Make it a big deal you did that. Make it a habit."*
-"建议：在下次董事会会议上，把你最不敢展示的东西放在第一张幻灯片上（顺便说，这只在有一个好董事会的情况下才能做到）。把做到这件事变成一件大事，并将其培养成习惯。"
-
-Source: https://x.com/garrytan/status/2068007205102842238
+🔗 https://x.com/nikunj/status/2068411460620042720
+🔗 https://x.com/nikunj/status/2068372026268811517
 
 ---
 
-### Matt Turck (mattturck on X)
-VC at FirstMark Capital, MAD Landscape author.
+### Zara Zhang (zarazhangrui on X) — AI / VC
 
-近期无重要动态 (Light content day — shared a humorous post about a VC being exhausted after a board meeting.)
+Zara Zhang shipped a clever personal productivity hack: a browser extension that injects her bookmarked posts into her main X feed like ads.
+Zara Zhang 发布了一个巧妙的个人生产力工具：一个浏览器扩展，将她收藏的推文像广告一样注入到主 feed 中。
 
-Source: https://x.com/mattturck/status/2068087153091858801
+*"I hoard X bookmarks and never read them. So I built an extension that injects a bookmarked post into my main feed every time I open X. The trick was hijacking real estate I already check 50 times a day."*
+"我囤了一堆 X 书签却从来不看。于是我做了一个扩展，每次打开 X 时就把一条书签推文注入到主 feed 里。诀窍在于占用我每天已经查看 50 次的地方。"
 
----
+She also reflected on career risk: *"Sometimes I wonder if joining a large company is actually riskier than joining a startup/starting your own company."*
+她还思考了职业风险："有时我想，加入大公司是否其实比加入初创公司或自己创业风险更大。"
 
-### Zara Zhang (zarazhangrui on X)
-Builder, Harvard '17.
-
-Zara distilled what sets people apart in the AI age into three qualities.
-Zara 将 AI 时代让人脱颖而出的特质提炼为三点。
-
-*"The 3 most important things that set someone apart in the AI age: Agency, Taste, Distribution."*
-"AI 时代让人脱颖而出的三大要素：主动性（Agency）、品味（Taste）、传播力（Distribution）。"
-
-Source: https://x.com/zarazhangrui/status/2068094591220531583
+🔗 https://x.com/zarazhangrui/status/2068568920613953626
+🔗 https://x.com/zarazhangrui/status/2068522129193418759
 
 ---
 
-### Nikunj Kothari (nikunj on X)
-Partner at FPV Ventures.
+### Peter Yang (petergyang on X) — Creator / Product
 
-近期无重要动态 (Light content day — shared a personal post about San Francisco and a music recommendation.)
+Peter Yang pushed back on the local model hype with a grounded take on cost and utility.
+Peter Yang 以务实的成本与实用性视角，对本地模型的炒作提出了质疑。
 
-Sources:
-https://x.com/nikunj/status/2068204606119874728
-https://x.com/nikunj/status/2068127547980918879
+*"I will go against the grain and say I can barely use up my Codex and Claude $200 subscriptions so I don't see the point of trying local models…"*
+"我要逆势而行：我连 Codex 和 Claude 每月 200 美元的订阅都用不完，所以我真的看不出折腾本地模型有什么意义……"
 
----
+He also noted that running the latest GLM locally requires 512GB of RAM — roughly a $10K Mac Studio.
+他还指出，在本地运行最新的 GLM 需要 512GB 内存——大约相当于一台价值 1 万美元的 Mac Studio。
 
-### Peter Steinberger (steipete on X)
-Co-founder of OpenClaw + OpenAI.
-
-Peter gave a shoutout to a team member (Hannes) who "speaks both developer and agents"—highlighting the rare and valuable skill of bridging human and agent communication.
-Peter 向团队成员 Hannes 致敬，称其"同时说开发者和 agent 的语言"——这种架起人机沟通桥梁的稀缺能力弥足珍贵。
-
-Source: https://x.com/steipete/status/2068199277277401419
+🔗 https://x.com/petergyang/status/2068411894185295969
 
 ---
 
-## PODCASTS / 播客
+### Peter Steinberger (steipete on X) — iOS / Replit Japan
 
-### No Priors — "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan"
-https://www.youtube.com/watch?v=asCgCv2XB4s
+Peter Steinberger flagged a Japan opportunity: if you're doing business in Japan, Replit Japan is offering generous token allocations.
+Peter Steinberger 指出了一个日本机遇：如果你在日本开展业务，Replit Japan 正在提供丰厚的 token 配额。
 
-Intel CEO Lip Bu Tan joined No Priors to discuss his plan to transform Intel, the US government as a major shareholder, semiconductor investing, and whether chips can truly be manufactured in the United States.
-英特尔 CEO 陈立武（Lip Bu Tan）做客 No Priors，讲述他改造英特尔的计划、美国政府成为主要股东的背景、半导体投资心法，以及芯片能否真正在美国本土制造。
+🔗 https://x.com/steipete/status/2068428180004942319
 
-He opens with his core philosophy: crawl, walk, then run — first strengthen the balance sheet, then focus on products, then drive the next generation of leadership.
-他以核心理念开场：爬行、走路、再奔跑——先强化资产负债表，再聚焦产品，再驱动下一代领导力。
+---
 
-*"First step for me is to strengthen my balance sheet, focus on the products, and I really simplify the product, listen to the customer, and then drive the next generation leadership products."*
-"我的第一步是强化资产负债表，聚焦产品，真正简化产品线，倾听客户声音，然后推动下一代领导力产品。"
+## PODCASTS
 
-On the AI compute shift: Tan sees the CPU-to-GPU ratio in inference moving from 1:8 to as close as 1:1, with CPUs increasingly favored for agentic AI orchestration and reinforcement learning workloads.
-在 AI 算力格局转变上：陈立武认为推理场景中 CPU 与 GPU 的比例将从 1:8 收窄至接近 1:1，CPU 在 AI agent 编排和强化学习工作负载中越来越受青睐。
+### Unsupervised Learning — "AI Vibe Check: Lab Wars, Why APIs Might Vanish & Future Predictions"
 
-*"In terms of reinforced learning, in terms of the speed of orchestrating all the agents, turn up the CPU is actually better."*
-"在强化学习和编排所有 agent 的速度方面，CPU 实际上表现更好。"
+This episode of Unsupervised Learning covers the current state of the AI lab wars, the potentially fragile future of AI APIs, and bold predictions about where the industry is headed.
+本期《Unsupervised Learning》覆盖了 AI 实验室竞争的现状、AI API 可能脆弱的未来，以及对行业走向的大胆预测。
 
-Jensen Huang's $5B investment in Intel has grown to $25B — Tan cites this as validation of Intel's foundry and product roadmap.
-Jensen Huang 对英特尔的 50 亿美元投资已增值至 250 亿美元——陈立武将此视为英特尔代工和产品路线图的有力背书。
+The central thesis: the API layer that developers currently rely on may be under existential pressure as the economics of AI shift and labs vertically integrate.
+核心论点：随着 AI 经济学的变化和实验室纵向整合，开发者目前依赖的 API 层可能面临生存压力。
 
-On TeraFab (Elon Musk's planned fab): Tan describes it as a collaboration where Intel's process technology and Musk's unconventional engineering culture combine, with a shared view that "semiconductor infrastructure has not caught up with AI growth."
-关于 TeraFab（马斯克计划中的芯片工厂）：陈立武将其描述为英特尔工艺技术与马斯克非常规工程文化的结合，双方共同认为"半导体基础设施尚未跟上 AI 增长的步伐"。
+Key signals worth watching — which labs are pulling ahead in the "intelligence race," whether the current API business model is sustainable, and what the next 12 months of AI development actually look like.
+值得关注的关键信号：哪些实验室在"智能竞赛"中领先、当前 API 商业模式是否可持续，以及未来 12 个月 AI 发展的真实面貌。
 
-On the physical limits of Moore's Law: Tan is investing in new materials — gallium nitride, silicon carbide, indium phosphide, artificial diamond, and glass substrates — to extend semiconductor performance beyond CMOS limits.
-关于摩尔定律的物理极限：陈立武正在投资新材料——氮化镓、碳化硅、磷化铟、人造金刚石和玻璃基板——以突破 CMOS 的性能天花板。
-
-His investor thesis for the AI era: identify the bottleneck, find the right first hyperscale customer, focus on a niche, and build for the full stack.
-他在 AI 时代的投资逻辑：找到瓶颈，锁定第一个超大规模客户，聚焦细分市场，构建全栈解决方案。
-
-*"If you look at it ten years from now, what will be the winning company? The one that articulate and laser focus on one niche area and also find the right partner and also able to scale the company."*
-"展望十年后，谁会是赢家？那些清晰聚焦于某一细分领域、找到合适伙伴并能规模化扩张的公司。"
+📺 https://www.youtube.com/watch?v=W_iO8XxgD_I
 
 ---
 
