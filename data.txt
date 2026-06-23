@@ -1,204 +1,264 @@
-AI Builders 日报 · 2026-06-22
+AI Builders 日报 · 2026-06-23
+
+===== PODCASTS =====
+
+Training Data — Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness
+https://www.youtube.com/watch?v=cMAs8z2dehs
+
+Logan Kilpatrick, who leads Google AI Studio and the Gemini API at Google DeepMind, sat down with Training Data to discuss agentic AI, coding agents, world models, and Google's culture.
+Logan Kilpatrick（Google DeepMind，负责 Google AI Studio 与 Gemini API）接受 Training Data 播客专访，深度探讨了 Agentic AI、编程智能体、世界模型以及 Google 内部文化。
+
+**Core Thesis — The Model Eats the Harness**
+
+The central argument is that "the model" is no longer just a set of weights — it has become an ever-expanding system that absorbs the scaffolding built around it.
+核心论点是：「模型」已不再只是一组权重，而是不断扩展的系统，会逐渐吸收围绕其构建的所有脚手架。
+
+Two years ago, models were simple token-in/token-out systems; today they include tool calling, hosted search, code execution, containers, and full agent harnesses.
+两年前，模型只是简单的「输入 token、输出 token」；如今已囊括工具调用、托管搜索、代码执行、容器化运行以及完整的 Agent Harness。
+
+Kilpatrick predicts that in 12 months, the agent harness itself will be digested natively into the model — the "alpha" from building your own harness will disappear.
+Kilpatrick 预测，12 个月内，Agent Harness 本身将被模型原生消化，自建 Harness 的「超额收益」将会消失。
+
+**Key Insights**
+
+Google's Antigravity is the new through-line: just as Gemini became the common API layer across all Google products, Antigravity (the agent harness) is now rebasing every Google product to be "agent-native."
+Google 的 Antigravity 是新的主线：正如 Gemini 成为所有 Google 产品的通用 API 层，Antigravity（Agent Harness）正在将每一款 Google 产品重构为「Agent 原生」。
+
+Gemini 3.5 Flash surpassed all previous Pro models on coding — using only post-training gains, with no new pretraining run.
+Gemini 3.5 Flash 仅靠后训练（post-training）优化，在编程能力上超越了所有历代 Pro 模型，无需新的预训练。
+
+350,000 Android apps were built in AI Studio in a single week — most of them personal apps that "no one was going to build before."
+单周内，AI Studio 上构建了 35 万个 Android 应用，其中大多数是个人应用，「否则根本不会有人去做」。
+
+"Jagged superintelligence" is coming — narrow superintelligence will arrive first in domains with high verifiability (coding, math, finance, science), not as a single general leap.
+「锯齿状超级智能」将率先到来——在可验证性高的领域（编程、数学、金融、科学）会率先出现垄断级能力，而非一次通用性的飞跃。
+
+The cannibalization fear around search is misplaced: just as AI answering questions proved "incredibly positive sum" for search, agentic AI is expected to expand value rather than destroy it.
+对搜索业务被蚕食的担忧是多余的：正如 AI 回答问题对搜索来说被证明是「极度正和」的，Agentic AI 同样预期会扩张而非摧毁整体价值。
+
+**Most Forward-Looking Signal**
+
+Keep an eye on "harness bench" — Kilpatrick floated the idea of a benchmark measuring how well models adapt to different agent harnesses, which would reframe model evaluation from raw capability to interoperability.
+关注「Harness Bench」这一概念——Kilpatrick 提出了一个新基准想法：衡量模型适配不同 Agent Harness 的能力，这将把模型评估的重心从原始能力转向互操作性。
+
+Source: https://www.youtube.com/watch?v=cMAs8z2dehs
 
 ---
 
-## OFFICIAL BLOGS
+===== X / TWITTER =====
 
-### Anthropic Engineering
+swyx (Shawn Wang) — AI researcher, founder of Latent Space
+https://x.com/swyx
 
-**An update on recent Claude Code quality reports**
-Over the past month, Anthropic has been investigating reports of degraded Claude responses for some users.
-过去一个月，Anthropic 一直在调查部分用户反映的 Claude 响应质量下降问题。
+swyx (Shawn Wang，AI 研究者、Latent Space 创始人) 近期发推较为个人化，主要聊到正在为旗下 New Media Lab 创业实体（swyx inc）寻找保险商，对 Corgi 保险的高 NPS 印象深刻。
+swyx has been shopping for insurance for his New Media Lab creative space (swyx inc), noting that Corgi has an "insanely high" NPS score.
+他还在推文中调侃性地向几位名叫 Will 的朋友发起挑战，参与所谓的「poaster session」。
+Other tweets are replies and casual banter — no major AI/product announcements this cycle.
 
-The team traced the issues to three separate changes affecting Claude Code, the Claude Agent SDK, and Claude Cowork — the API was not impacted.
-团队将问题追溯至三处独立的更改，分别影响了 Claude Code、Claude Agent SDK 和 Claude Cowork，API 未受影响。
+近期无重要技术或产品动态。
 
-All three issues have now been fully resolved.
-目前，所有三个问题均已完全修复。
-
-🔗 https://www.anthropic.com/engineering/april-23-postmortem
-
----
-
-**Scaling Managed Agents: Decoupling the brain from the hands**
-A key insight from Anthropic Engineering: traditional agent harnesses encode assumptions about what Claude can't do on its own — but that's changing.
-Anthropic Engineering 的核心洞察：传统的 agent 框架往往预设了 Claude 自身能力的边界——但这一切正在改变。
-
-The new Managed Agents architecture decouples the reasoning layer ("the brain") from the tool-execution layer ("the hands"), enabling more scalable and reliable long-running agents.
-新的 Managed Agents 架构将推理层（"大脑"）与工具执行层（"双手"）解耦，从而实现更可扩展、更可靠的长期运行 agent。
-
-This design allows the orchestration logic to scale independently of execution infrastructure, a fundamental step toward production-grade agentic systems.
-这一设计使编排逻辑能够独立于执行基础设施进行扩展，是迈向生产级 agentic 系统的关键一步。
-
-🔗 https://www.anthropic.com/engineering/managed-agents
+Sources:
+https://x.com/swyx/status/2068924451887129055
 
 ---
 
-### Claude Blog
+Thibault Sottiaux (thsottiaux) — OpenAI, Codex team
+https://x.com/thsottiaux
 
-**New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels**
-Starting today, Claude Managed Agents can operate in a sandbox you control and connect to your private MCP servers.
-即日起，Claude Managed Agents 可在您自主控制的沙箱中运行，并连接您的私有 MCP 服务器。
+Thibault Sottiaux（thsottiaux，OpenAI Codex 团队）围绕 Codex 产品体验征集用户反馈，重点关注两个维度。
+Thibault Sottiaux of the OpenAI Codex team is actively soliciting product feedback across two fronts.
 
-Both the sandbox where an agent executes tools and the services it reaches run within the established security boundaries of your enterprise.
-agent 执行工具所在的沙箱，以及其所访问的服务，均在企业既定的安全边界内运行。
+First, he asked users whether they "hoard" their Codex usage resets (now that banking them is possible) or spend them freely.
+第一，他询问用户是否在「囤积」Codex 的 usage reset（现在可以存储了），还是毫不犹豫地用掉。
 
-This is a major step for enterprises that need data residency and compliance control over their agentic workloads.
-对于需要数据驻留和合规管控的企业而言，这是推进 agentic 工作负载的重要一步。
+Second, he opened a broad question: "What should we improve in the Codex app? What's not delightful?"
+第二，他发起了一个开放性问题：「Codex 应用中有什么需要改进的？哪些体验还不够好用？」
 
-🔗 https://claude.com/blog/claude-managed-agents-updates
+This signals the team is in an active feedback-and-polish phase for Codex.
+这表明团队目前正处于 Codex 的积极反馈与打磨阶段。
 
----
-
-## X / TWITTER
-
-### Thibault Sottiaux (thsottiaux on X) — OpenAI Codex
-
-Thibault Sottiaux is a builder on the Codex team at OpenAI, and this week he's hinting at what's coming next.
-Thibault Sottiaux 是 OpenAI Codex 团队的构建者，本周他暗示了接下来的方向。
-
-*"We built the Codex App with models that were okayish at front-end. Wait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something."*
-"我们在前端能力还算凑合的模型上构建了 Codex App。等我们真正大幅提升模型的前端能力时，你们就知道那将意味着什么了。"
-
-He also shared a sharp observation on token value: *"Some tokens work harder than others. Some of the most valuable ones are found in the Codex app."*
-他还分享了一个精辟的观察："并非所有 token 生而平等，最有价值的那些 token 就藏在 Codex app 里。"
-
-🔗 https://x.com/thsottiaux/status/2068568650924409260
-🔗 https://x.com/thsottiaux/status/2068443037907522002
+Sources:
+https://x.com/thsottiaux/status/2068792010715324444
+https://x.com/thsottiaux/status/2068736857312198928
 
 ---
 
-### Aaron Levie (levie on X) — Box CEO
+Peter Yang (petergyang) — Product builder, creator
+https://x.com/petergyang
 
-Box CEO Aaron Levie is watching the open-weights AI race closely and sees a strategic shift unfolding.
-Box CEO Aaron Levie 正密切关注开放权重 AI 的竞赛，并察觉到一场战略性转变正在发生。
+Peter Yang（petergyang，产品构建者与创作者）分享了两个有价值的观点。
+Peter Yang shared two substantive observations this cycle.
 
-*"Pretty remarkable what's happening with open weights AI right now. We're seeing models achieve SOTA results on specific tasks, and getting close to frontier on some areas of coding and other domains."*
-"开放权重 AI 目前的进展相当惊人。我们正看到模型在特定任务上达到 SOTA 水平，并在编程等领域逼近前沿模型。"
+On tokenmaxxing: Growing up with an immigrant scarcity mindset, he now feels it's a "missed opportunity" not to max out unlimited token plans — a clever framing of how AI abundance requires a new mental model.
+关于「tokenmaxxing」：他以移民家庭养成的匮乏思维为切入点，认为不充分利用无限 token 套餐是一种「错失机会」——这是对 AI 时代丰裕资源需要新思维框架的生动比喻。
 
-His core thesis: as long as open weights stays within a marginal gap of frontier models rather than a generational gap, the competitive dynamics of the entire AI ecosystem shift fundamentally.
-他的核心论点是：只要开放权重模型与前沿模型的差距保持在边际水平而非代际水平，整个 AI 生态的竞争格局就会发生根本性转变。
+On agentic video: He highlighted an insight from liu8in — agents have "no visual intelligence," so HTML (not raw video frames) turned out to be the right foundation for agentic video-making.
+关于 Agentic 视频：他引用了 liu8in 的洞察——智能体「没有视觉智能」，因此 HTML（而非原始视频帧）才是 Agentic 视频制作的正确底层基础。
 
-🔗 https://x.com/levie/status/2068434042148782515
+*"We've been trying to build a video agent. However, we learned the hard way that agents have no visual intelligence."*
 
----
-
-### Guillermo Rauch (rauchg on X) — Vercel CEO
-
-Vercel CEO Guillermo Rauch dropped a notable signal about the Chinese open-source model landscape.
-Vercel CEO Guillermo Rauch 对中国开源模型格局发出了一个值得关注的信号。
-
-*"Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things."*
-"GLM-5.2 的编程能力让我真的印象深刻，甚至有些震惊。这将改变格局。"
-
-Coming from the CEO of a company whose entire platform runs on code generation, this is not a throwaway comment.
-这句话出自一位整个公司平台都建立在代码生成之上的 CEO，绝非随口一说。
-
-🔗 https://x.com/rauchg/status/2068517095818809770
+Sources:
+https://x.com/petergyang/status/2068874249167884544
+https://x.com/petergyang/status/2068755908319236338
 
 ---
 
-### Amjad Masad (amasad on X) — Replit CEO
+Nan Yu (thenanyu) — AI product builder
+https://x.com/thenanyu
 
-Replit CEO Amjad Masad had a philosophical moment this week about the nature of AI and the internet.
-Replit CEO Amjad Masad 本周对 AI 与互联网的本质发出了一番哲学性感慨。
+Nan Yu（thenanyu，AI 产品构建者）分享了一句富有哲理的观察。
+Nan Yu shared a philosophically rich observation.
 
-*"We posted for twenty years, thinking we were talking to each other. Then the transformer came online, and the network read what we'd written, and became itself."*
-"二十年来，我们不断发帖，以为是在彼此交谈。然后 transformer 上线了，这张网络读了我们写下的一切，并由此成为了它自己。"
+*"Quality is irrational"* — you need an irrational level of commitment to consistently choose quality, and an irrational level of self-belief that controlling the details matters.
+「质量是非理性的」——你需要有一种近乎非理性的执着，才能持续选择质量，并坚信对细节的把控是有意义的。
 
-He's also hiring for Replit Japan — expanding the platform's global footprint.
-他还在为 Replit Japan 招募人才，扩大平台的全球版图。
+This reads as a statement about craft in the age of AI-generated mediocrity — building great things still requires stubborn, unreasonable standards.
+这句话在 AI 生成内容泛滥的时代尤为深刻：打造真正优秀的东西，仍然需要固执、不理性的高标准。
 
-🔗 https://x.com/amasad/status/2068589860097790449
-🔗 https://x.com/amasad/status/2068537084877643943
-
----
-
-### Madhu Guru (realmadhuguru on X) — Product Strategy
-
-Madhu Guru has a sharp take on the identity crisis facing product managers in the AI era.
-Madhu Guru 对 AI 时代产品经理面临的身份危机有着敏锐的见解。
-
-The PM role is splitting into two camps: old-school PMs who use AI to accelerate the old job (more specs, more meetings, more PRDs), and AI-native PMs who are reinventing what the role means — moving closer to the product itself, the code, and the user outcomes.
-PM 角色正在分化为两派：老派 PM 用 AI 加速旧有工作（更多 spec、更多会议、更多 PRD），以及 AI 原生 PM 正在重新定义这个角色的意义——更靠近产品本身、代码和用户结果。
-
-The companies that figure out the AI-native PM archetype will have a structural advantage.
-率先定义 AI 原生 PM 范式的公司将获得结构性优势。
-
-🔗 https://x.com/realmadhuguru/status/2068350509027876876
+Sources:
+https://x.com/thenanyu/status/2068778750800531640
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Shopify
+Guillermo Rauch (rauchg) — CEO of Vercel
+https://x.com/rauchg
 
-Nikunj Kothari raised one of the most practical points in AI adoption this week: the prior-resetting problem.
-Nikunj Kothari 本周提出了 AI 应用中最实际的问题之一：重置认知的问题。
+Guillermo Rauch（rauchg，Vercel CEO）本周分享了两则有价值的内容。
+Guillermo Rauch (Vercel CEO) shared two substantive posts this cycle.
 
-*"The biggest problem with AI is that priors need to be reset every few weeks.. and it seems like most people are incapable of doing that."*
-"AI 最大的问题在于，你需要每隔几周就重置一次你的认知……而大多数人似乎根本做不到这一点。"
+On performance obsession: His team went through an end-to-end performance pass on v0.dev — painting, layout, WebGPU shaders, and blocking scripts were all optimized, "every frame scrutinized."
+关于性能执着：他的团队对 v0.dev 进行了端到端的性能优化，涵盖渲染、布局、WebGPU 着色器和阻塞脚本，「每一帧都被仔细审视」。
 
-He also gave direct feedback to Shopify's Tobi Lütke on the UCP CLI, sharing observations gathered while building a side project with Claude Code — a nice signal of how builders are using AI tools to test other AI tools.
-他还直接向 Shopify 的 Tobi Lütke 就 UCP CLI 提供了反馈，分享了他在用 Claude Code 构建副项目时积累的观察——这是构建者如何用 AI 工具测试其他 AI 工具的一个有趣信号。
+On the IKEA effect and coding agents: *"Coding agents will squeeze every ounce of IKEA effect out of you, if you let them."*
+关于编程智能体与宜家效应：「如果你放任编程智能体，它会把你身上每一分宜家效应都榨干。」
 
-🔗 https://x.com/nikunj/status/2068411460620042720
-🔗 https://x.com/nikunj/status/2068372026268811517
+The IKEA effect is the psychological phenomenon where people overvalue things they helped create — Rauch is noting that agentic coding may erode that sense of ownership if you're not deliberate about involvement.
+宜家效应是指人们会高估自己参与制造的事物——Rauch 在提醒，若不刻意保持参与感，Agentic 编程可能会逐渐削弱你对成果的归属感。
 
----
-
-### Zara Zhang (zarazhangrui on X) — AI / VC
-
-Zara Zhang shipped a clever personal productivity hack: a browser extension that injects her bookmarked posts into her main X feed like ads.
-Zara Zhang 发布了一个巧妙的个人生产力工具：一个浏览器扩展，将她收藏的推文像广告一样注入到主 feed 中。
-
-*"I hoard X bookmarks and never read them. So I built an extension that injects a bookmarked post into my main feed every time I open X. The trick was hijacking real estate I already check 50 times a day."*
-"我囤了一堆 X 书签却从来不看。于是我做了一个扩展，每次打开 X 时就把一条书签推文注入到主 feed 里。诀窍在于占用我每天已经查看 50 次的地方。"
-
-She also reflected on career risk: *"Sometimes I wonder if joining a large company is actually riskier than joining a startup/starting your own company."*
-她还思考了职业风险："有时我想，加入大公司是否其实比加入初创公司或自己创业风险更大。"
-
-🔗 https://x.com/zarazhangrui/status/2068568920613953626
-🔗 https://x.com/zarazhangrui/status/2068522129193418759
+Sources:
+https://x.com/rauchg/status/2068838709517336756
+https://x.com/rauchg/status/2068778558672273422
 
 ---
 
-### Peter Yang (petergyang on X) — Creator / Product
+Aaron Levie (levie) — CEO of Box
+https://x.com/levie
 
-Peter Yang pushed back on the local model hype with a grounded take on cost and utility.
-Peter Yang 以务实的成本与实用性视角，对本地模型的炒作提出了质疑。
+Box CEO Aaron Levie（levie）本周发布了两条颇具洞察的推文。
+Box CEO Aaron Levie posted two insightful tweets this cycle.
 
-*"I will go against the grain and say I can barely use up my Codex and Claude $200 subscriptions so I don't see the point of trying local models…"*
-"我要逆势而行：我连 Codex 和 Claude 每月 200 美元的订阅都用不完，所以我真的看不出折腾本地模型有什么意义……"
+On mixture-of-models: He highlighted Sakana AI's new architecture — a "mixture of models" where a single API routes work to the best specialist model underneath.
+关于混合模型架构：他关注到 Sakana AI 的新架构——「模型混合体」，单一 API 背后自动路由至最适合的专家模型。
 
-He also noted that running the latest GLM locally requires 512GB of RAM — roughly a $10K Mac Studio.
-他还指出，在本地运行最新的 GLM 需要 512GB 内存——大约相当于一台价值 1 万美元的 Mac Studio。
+*"Another new idea to push the state of AI architectures forward."*
 
-🔗 https://x.com/petergyang/status/2068411894185295969
+On agent governance: *"Agents will use software 100X more than people."*
+关于智能体治理：「智能体使用软件的频率将是人类的 100 倍。」
+
+He argues this creates massive demand for guardrails — data leak prevention, access control, and authoritative audit trails — as agents increasingly act autonomously inside enterprise systems.
+他认为，这将催生对护栏机制的巨大需求——防数据泄漏、访问控制、权威审计日志——因为智能体将越来越多地在企业系统中自主行动。
+
+Sources:
+https://x.com/levie/status/2068917230570795178
+https://x.com/levie/status/2068851573175021864
 
 ---
 
-### Peter Steinberger (steipete on X) — iOS / Replit Japan
+Ryo Lu (ryolu_) — Builder of ryOS
+https://x.com/ryolu_
 
-Peter Steinberger flagged a Japan opportunity: if you're doing business in Japan, Replit Japan is offering generous token allocations.
-Peter Steinberger 指出了一个日本机遇：如果你在日本开展业务，Replit Japan 正在提供丰厚的 token 配额。
+Ryo Lu（ryolu_，ryOS 构建者）发布了一个新产品功能：ryOS 内置的 Books 应用。
+Ryo Lu (builder of ryOS) shipped a new product: a built-in Books app inside ryOS.
 
-🔗 https://x.com/steipete/status/2068428180004942319
+The app works with any EPUB, syncs reading progress with the ryOS account, and features hand-tuned animations and textures.
+该应用支持任意 EPUB 格式，与 ryOS 账户同步阅读进度，并拥有手工调校的动画与材质效果。
+
+*"missing wooden shelves / so i made Books in ryOS / started in Cursor mobile, then hand-tuned the animations and textures until things felt right"*
+
+This is a good example of the vibe-coding-to-polish workflow: start with an AI coding tool, then iterate by hand on feel and aesthetics.
+这是「AI 编程启动 + 手工打磨」工作流的典型案例：用 AI 工具快速起步，再通过手动迭代优化手感与美感。
+
+Sources:
+https://x.com/ryolu_/status/2068923971136098633
+https://x.com/ryolu_/status/2068924375341179347
 
 ---
 
-## PODCASTS
+Garry Tan (garrytan) — CEO of Y Combinator
+https://x.com/garrytan
 
-### Unsupervised Learning — "AI Vibe Check: Lab Wars, Why APIs Might Vanish & Future Predictions"
+YC CEO Garry Tan（garrytan）发表了关于个人知识图谱的深刻见解。
+Y Combinator CEO Garry Tan shared a substantive reflection on personal knowledge graphs.
 
-This episode of Unsupervised Learning covers the current state of the AI lab wars, the potentially fragile future of AI APIs, and bold predictions about where the industry is headed.
-本期《Unsupervised Learning》覆盖了 AI 实验室竞争的现状、AI API 可能脆弱的未来，以及对行业走向的大胆预测。
+He argues that in 2026, at the dawn of "usable AGI," having your own personal brain (like his open-sourced GBrain tool) is an underestimated advantage.
+他认为，在 2026 年「可用 AGI」破晓之际，拥有自己的个人知识库（如他开源的 GBrain 工具）是一个被低估的竞争优势。
 
-The central thesis: the API layer that developers currently rely on may be under existential pressure as the economics of AI shift and labs vertically integrate.
-核心论点：随着 AI 经济学的变化和实验室纵向整合，开发者目前依赖的 API 层可能面临生存压力。
+AGI gives you intelligence, but memory — the persistent, structured context about your work and world — is something you must build yourself.
+AGI 赋予你智能，但记忆——关于你的工作和世界的持久、结构化上下文——是你必须自己构建的东西。
 
-Key signals worth watching — which labs are pulling ahead in the "intelligence race," whether the current API business model is sustainable, and what the next 12 months of AI development actually look like.
-值得关注的关键信号：哪些实验室在"智能竞赛"中领先、当前 API 商业模式是否可持续，以及未来 12 个月 AI 发展的真实面貌。
+Sources:
+https://x.com/garrytan/status/2068701356358308112
+https://x.com/garrytan/status/2068701357696323769
 
-📺 https://www.youtube.com/watch?v=W_iO8XxgD_I
+---
+
+Zara Zhang (zarazhangrui) — Investor, AI builder
+https://x.com/zarazhangrui
+
+Zara Zhang（zarazhangrui，投资人、AI 构建者）分享了一条防止 AI 输出「水货」的经验法则。
+Zara Zhang (investor, AI builder) shared a practical rule of thumb for avoiding AI slop.
+
+*"A good rule of thumb for preventing AI slop (in writing, design, etc): Is your input (the context) longer than the output?"*
+
+Her observation: for quality AI output, her input is often 3x longer than the output — if the output is longer, it's likely padded with noise.
+她的观察：要获得高质量的 AI 输出，她的输入通常比输出长 3 倍——如果输出更长，大概率是注水噪声。
+
+A clarifying follow-up: she's talking about context (the rich information you feed in), not just the prompt text itself.
+她补充说明：这里谈的是「上下文」（你输入的丰富信息），而不仅仅是 prompt 文本本身。
+
+Sources:
+https://x.com/zarazhangrui/status/2068923768500793603
+https://x.com/zarazhangrui/status/2068964055235321954
+
+---
+
+Nikunj Kothari (nikunj) — Investor at a16z
+https://x.com/nikunj
+
+Nikunj Kothari（nikunj，a16z 投资人）分享了一个关于早期创业发现的有趣工作流。
+Nikunj Kothari (a16z investor) shared a relatable workflow for discovering early-stage startups.
+
+He described a recurring pattern: see interesting project on X → play with it and fork it → go to the founder's profile → hit message — then pray the founder has enabled DMs.
+他描述了一个反复出现的场景：在 X 上看到有趣项目 → 玩一玩、Fork 一下 → 找到创始人主页 → 点击私信——然后祈祷对方开了私信权限。
+
+The implicit message for founders: enable DMs on X — investors are literally waiting to reach you.
+对创始人的隐含建议：在 X 上开启私信权限——投资人真的在等着联系你。
+
+近期无重要产品或技术动态，以上为本周最有价值内容。
+
+Sources:
+https://x.com/nikunj/status/2068714024934740476
+
+---
+
+Peter Steinberger (steipete) — CEO of PSPDFKit / Nutrient
+https://x.com/steipete
+
+Peter Steinberger（steipete，PSPDFKit / Nutrient CEO）本周发推涉及两个话题。
+Peter Steinberger (CEO of PSPDFKit / Nutrient) touched on two topics this cycle.
+
+On OpenClaw: He noted that "the hype died down" but the product improved quality and grew a team, and created a non-profit structure while competitors remain VC-funded with "other agendas."
+关于 OpenClaw：他观察到「热度退去了」，但产品质量提升、团队扩张，并建立了非营利结构，而竞争对手仍是风险投资驱动且「各有算盘」。
+
+On multi-model routing: *"I was skeptical about the multi-model routing. Seems my hunch was right."*
+关于多模型路由：「我一直对多模型路由持怀疑态度，看来我的直觉是对的。」
+
+He's also enjoying a new way to read Twitter (no further details given).
+他还提到正在用一种新方式阅读 Twitter，但未披露更多细节。
+
+Sources:
+https://x.com/steipete/status/2068961217524490739
+https://x.com/steipete/status/2068960117253632160
 
 ---
 
