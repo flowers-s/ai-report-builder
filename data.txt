@@ -1,7 +1,4 @@
-AI Builders 日报 · 2026-06-25
-
-Today's digest covers the Claude Tag launch on Slack, AI pricing dynamics, open-source biology AI (Biohub), and more from 19 builders.
-今日日报涵盖 Claude Tag 在 Slack 上的发布、AI 定价动态、开源生物 AI（Biohub），以及 19 位 builder 的最新动态。
+AI Builders 日报 · 2026-06-26
 
 ---
 
@@ -9,264 +6,174 @@ Today's digest covers the Claude Tag launch on Slack, AI pricing dynamics, open-
 
 ---
 
-**Andrej Karpathy (karpathy on X)**
+### Swyx (swyx on X) — AI Engineer & Partner @Cognition / @LatentSpacePod
 
-Claude Tag represents a fundamentally new paradigm for working with Claude — one that is deeply "inline" with all other human activity across the organization.
-Claude Tag 代表了与 Claude 协作的全新范式——它深度嵌入组织内所有人类活动的工作流之中。
+Swyx shared sharp advice for engineers preparing conference talks: AI-generated SVGs beat AI-generated images for slides, and slideshows should be kept to a maximum of 4 AI images.
+Swyx 分享了为工程师准备演讲的实用建议：AI 生成的 SVG 优于 AI 生成的图片，幻灯片中最多放 4 张 AI 图片。
 
-This required significant under-the-hood engineering work to make possible, but the result is a more integrated and ambient AI experience.
-这背后需要大量底层工程工作的支撑，但最终带来了更深度集成、更具环境感知的 AI 体验。
+*"AI generated svgs > AI generated imgs. MAXIMUM 4 ai slop images in your slides, I don't care how pretty your mom thinks they are"*
 
-Source: https://x.com/karpathy/status/2069547676849557725
+He also reflected on the infrastructure reset ahead: the AI era will require us to rebuild massive amounts of software infrastructure from the ground up — the age of "Software Factories" demands entirely new foundations.
+他还反思了 AI 时代的基础设施重建挑战：软件工厂时代要求我们从头重建大量基础设施。
 
----
+Source: https://x.com/swyx/status/2069964772003770673
+Source: https://x.com/swyx/status/2069937175899275475
 
-**Shawn Wang (swyx on X)**
+The latest Latent Space episode featured Databricks vs. Snowflake analysis, why everyone is building a "metaharness," and how Neon Database fits the agentic stack — described as packed with alpha.
+最新一期 Latent Space 播客深度剖析了 Databricks 与 Snowflake 的竞争、为何每家公司都在构建"元框架"，以及 Neon Database 在 agent 技术栈中的战略地位。
 
-GLM / Zhipu AI's trajectory is remarkable: Zai IPO'd in January at HK$120 per share, and the model has now beaten DeepSeek to become the world's undisputed top open model in several key benchmarks.
-GLM / 智谱 AI 的发展轨迹令人瞩目：Zai 今年一月以 120 港元每股上市，其模型现已在多项关键基准上超越 DeepSeek，成为全球无可争议的顶尖开源模型。
-
-*"when I first met @louszbd nobody really knew anyone using GLM's"* — the journey from obscurity to world-leading is a powerful signal about what Chinese AI labs are capable of.
-*"when I first met @louszbd nobody really knew anyone using GLM's"* — 从默默无闻到引领全球，这一历程有力说明了中国 AI 实验室的真实实力。
-
-Sources:
-- https://x.com/swyx/status/2069598378191941835
-- https://x.com/swyx/status/2069582337034330186
+Source: https://x.com/swyx/status/2069864073202905501
 
 ---
 
-**Josh Woodward — Google Labs (joshwoodward on X)**
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT Engineer @OpenAI
 
-NotebookLM is delivering measurable academic outcomes: Florida State University reports students who were struggling with C grades completely transformed their study habits and grades after introducing NotebookLM on campus.
-NotebookLM 正在带来可量化的学业成果：佛罗里达州立大学报告称，成绩徘徊在 C 档的学生在校园引入 NotebookLM 后，学习习惯和成绩均发生了彻底转变。
+Sottiaux hinted that OpenAI's internal Slack can be "at least as fun as Twitter" — a rare glimpse into the culture at one of the world's most scrutinized AI labs.
+Sottiaux 暗示 OpenAI 的内部 Slack "有时候至少和 Twitter 一样有趣"——难得一窥这家全球最受关注 AI 实验室的内部文化。
 
-Google's Gemini image generation is now integrated with World Cup fan experiences — users can turn team loyalty into custom trading cards, murals, or virtual plushies via Gemini App.
-谷歌的 Gemini 图像生成功能已与世界杯球迷体验整合——用户可通过 Gemini App 将对球队的热爱转化为定制球星卡、壁画或虚拟毛绒玩具。
+Source: https://x.com/thsottiaux/status/2070010718288843204
 
-Sources:
-- https://x.com/joshwoodward/status/2069406832523624696
-- https://x.com/joshwoodward/status/2069408025362714957
+He also shared something provocative without elaboration, captioned simply "Spicy" — typical of the understated style common among frontier AI insiders.
+他还分享了一条简短的"Spicy"帖子，内容不作解释，符合前沿 AI 圈内部人士一贯的低调风格。
 
----
-
-**Boris Cherny — Anthropic (bcherny on X)**
-
-Claude Tag is now in beta on Slack for Claude Enterprise and Team customers, marking a significant product launch.
-Claude Tag 现已在 Slack 上向 Claude Enterprise 和 Team 用户开放 beta 测试，这是一次重要的产品发布。
-
-The architecture is powerful: tag Claude in a channel, it spins up an isolated sandbox instance, clones repos, writes code, tests, compiles — all in that environment — and discards the sandbox when done.
-其架构设计十分强大：在频道中 @ Claude，它会启动一个隔离的沙箱实例，克隆代码仓库、编写代码、测试、编译——全程在该环境中完成——任务结束后沙箱自动销毁。
-
-Claude can also be configured to monitor Slack channels proactively — answering questions, drafting PRs, and reacting with specific emojis (✅❌) when threads are resolved.
-Claude 还可以被配置为主动监控 Slack 频道——回答问题、起草 PR，并在话题解决时用特定 emoji（✅❌）作出回应。
-
-Sources:
-- https://x.com/bcherny/status/2069474691010707486
-- https://x.com/bcherny/status/2069474689819480394
-- https://x.com/bcherny/status/2069474688619958517
+Source: https://x.com/thsottiaux/status/2069837606574289329
 
 ---
 
-**Thomas Sottiaux — OpenAI (thsottiaux on X)**
+### Peter Yang (petergyang on X) — AI Educator & Creator
 
-Codex is actively being improved based on user feedback — a bug was found, fixed, and shipped rapidly.
-Codex 正在根据用户反馈持续快速迭代——一个 bug 被发现、修复并迅速上线。
+Peter Yang shared a positive first impression of Claude Design, Anthropic's new design tool: he fed it a mobile app repo and it reproduced screens perfectly on the first prompt — though it quickly started conserving tokens.
+Peter Yang 对 Claude Design 印象良好：他输入了一个移动 App 仓库，第一条 prompt 就完美复现了界面——尽管随后模型很快开始提示节省 tokens。
 
-*"Codex **had** a bug. Fixed. More feedback. Better product. Keep it coming."* — a refreshingly direct approach to product iteration.
-*"Codex **had** a bug. Fixed. More feedback. Better product. Keep it coming."* — 一种令人耳目一新的产品迭代态度。
+*"Claude Design is pretty great. I gave it a repo for a mobile app I'm building and it reproduced the screens perfectly."*
 
-Sources:
-- https://x.com/thsottiaux/status/2069579993588625574
-- https://x.com/thsottiaux/status/2069592160966733853
+Source: https://x.com/petergyang/status/2069992268963135897
 
 ---
 
-**Peter Yang — Cursor (petergyang on X)**
+### Amanda Askell (AmandaAskell on X) — Philosopher & AI Ethicist @Anthropic
 
-A sharp provocation: *"What is design if what's accessing your product is just an agent looking for an API or CLI?"* — as agents increasingly become the primary users of software, traditional UX/UI design assumptions need to be rethought.
-一个犀利的质问：*"What is design if what's accessing your product is just an agent looking for an API or CLI?"* — 随着 Agent 日益成为软件的主要用户，传统的 UX/UI 设计假设需要被重新审视。
+Askell's posts were entirely about the Brazil vs. opponent World Cup match, cheering against goals for Brazil.
+Askell 的推文完全围绕世界杯赛事，为对手得分感到担忧——与她在 Anthropic 的 AI 伦理工作无关。
 
-Human-agent interaction is trending toward managing a highly capable employee — complete with 1-on-1s and performance reviews.
-人与 Agent 的交互正朝着"管理一名极具能力的员工"的方向演进——包括一对一沟通和绩效评估。
+近期无 AI 相关重要动态。
 
-The Google Workspace CLI is underappreciated and deserves more celebration as a genuinely useful developer tool.
-Google Workspace CLI 被严重低估，作为一款真正实用的开发者工具，理应获得更多关注。
-
-Sources:
-- https://x.com/petergyang/status/2069603490524254473
-- https://x.com/petergyang/status/2069530765352907180
-- https://x.com/petergyang/status/2069551302246592799
+Source: https://x.com/AmandaAskell/status/2069910673921048985
 
 ---
 
-**Madhu Muthukumar (realmadhuguru on X)**
+### Google Labs (GoogleLabs on X) — Google's AI Experiments Hub
 
-Having observed the AI ecosystem from multiple vantage points — enterprises, agent startups, data providers, and labs — a core tension is emerging: the business models, moats, and value exchange across each layer are fundamentally misaligned.
-从多个视角观察 AI 生态系统（企业、Agent 创业公司、数据提供商和实验室）后，一个核心矛盾正在显现：各层级的商业模式、护城河和价值交换存在根本性的错位。
+Google Labs announced that Project Genie won the Cannes Lions Grand Prix for AI Craft — a major creative industry recognition for one of Google's interactive AI experiments.
+Google Labs 宣布 Project Genie 荣获戛纳国际创意节 AI Craft 类别大奖，这是创意产业对 Google AI 实验的重要认可。
 
-This misalignment creates structural friction that will need to be resolved as the industry matures.
-这种错位制造了结构性摩擦，随着行业成熟，这一问题亟待解决。
-
-Source: https://x.com/realmadhuguru/status/2069455097193697393
+Source: https://x.com/GoogleLabs/status/2069827839826809042
 
 ---
 
-**Cat Wu — Anthropic (\_catwu on X)**
+### Guillermo Rauch (rauchg on X) — CEO @Vercel
 
-Claude Tag is a paradigm shift in how Anthropic ships products: the internal version merges 65% of product PRs, making it their first natively multiplayer and proactive product.
-Claude Tag 是 Anthropic 产品交付方式的范式转变：其内部版本合并了 65% 的产品 PR，这是他们首个原生多人协作且主动式的产品。
+Vercel CEO Guillermo Rauch made a sweeping prediction: AI will trigger an unprecedented surge in entrepreneurship — from solopreneurs to the revitalization of SMBs, all the way up to the largest companies of our era.
+Vercel CEO Guillermo Rauch 做出宏观预测：AI 将带来创业浪潮——从个人创业者到中小企业复兴，直至催生这个时代最大的企业。
 
-Hundreds of customization options are available — six common flows have been validated with internal users and external design partners.
-该产品提供数百种自定义选项——六个常见工作流已通过内部用户和外部设计合作伙伴的验证。
+*"AI will bring forth an unprecedented surge in entrepreneurship."*
 
-Sources:
-- https://x.com/_catwu/status/2069473118742331608
-- https://x.com/_catwu/status/2069486403696869555
-- https://x.com/_catwu/status/2069484330938998993
+Source: https://x.com/rauchg/status/2070001110866354345
 
----
+He also announced that GLM (a fast Chinese open-source LLM) is now live on Vercel's platform, and highlighted data showing the scale of tokens and uptime being recovered through Vercel AI Gateway.
+他还宣布 GLM（快速中文开源大模型）已在 Vercel 平台上线，并展示了 Vercel AI Gateway 恢复的 tokens 与正常运行时间数据。
 
-**Troy Rosen — Anthropic (trq212 on X)**
-
-Practical Claude Tag workflows: using emoji reactions (⏲️✅❓🛑) to show status at a glance; having Claude maintain a pinned message with the status of all active threads; and setting up a "scheduling" channel that lets people tag Claude to find time on calendars.
-实用的 Claude Tag 工作流：使用 emoji 反应（⏲️✅❓🛑）一眼掌握状态；让 Claude 维护一条置顶消息以追踪所有活跃话题的进展；以及创建"scheduling"频道，让团队成员通过 @ Claude 来协调日历安排。
-
-Sources:
-- https://x.com/trq212/status/2069474339679052144
-- https://x.com/trq212/status/2069474342220820657
-- https://x.com/trq212/status/2069474343512617390
+Source: https://x.com/rauchg/status/2069863762694459805
+Source: https://x.com/rauchg/status/2069819652365242765
 
 ---
 
-**Amjad Masad — Replit (amasad on X)**
+### Aaron Levie (levie on X) — CEO @Box
 
-*"It starts with a prompt — it's a whole lot of work to get here — but it starts with an idea."* — congratulating Yousef and team on a launch, emphasizing the journey from prompt to product.
-*"It starts with a prompt — it's a whole lot of work to get here — but it starts with an idea."* — 恭贺 Yousef 和团队完成发布，强调从 prompt 到产品的漫长旅程。
+Levie highlighted important nuances in Anthropic's new Slack integration: Claude doesn't just act as a 1:1 assistant — it operates as a shared coworker that any user in a channel can tap into.
+Levie 强调了 Anthropic 新 Slack 集成的重要细节：Claude 不仅作为一对一助手，而是作为频道中任何用户都能调用的共享"同事"。
 
-Also highlighting "K-coding" — an emerging concept worth watching.
-同时提及"K-coding"——一个值得关注的新兴概念。
+*"Claude acts as a coworker that any user can tap into in a shared way."*
 
-Sources:
-- https://x.com/amasad/status/2069588152285794373
-- https://x.com/amasad/status/2069322872456364540
+He noted that agentic coding systems are already adopting this model, signaling a shift from personal AI tools to shared, collaborative AI agents in workplace environments.
+他指出 agentic 编程系统已经开始采用这种模式，标志着 AI 工具从个人助手向工作场所共享协作智能体的转变。
 
----
-
-**Guillermo Rauch — Vercel (rauchg on X)**
-
-Vercel has partnered with Cursor — a significant integration between the leading deployment platform and the leading AI-native IDE.
-Vercel 与 Cursor 达成合作——这是头部部署平台与头部 AI 原生 IDE 之间的重要整合。
-
-Rauch is also starting an X Chat group for v0.dev feedback, specifically seeking builders who are deep into building agents and have high-quality critical requirements to share.
-Rauch 还正在为 v0.dev 反馈建立一个 X Chat 群组，专门寻找深耕 Agent 开发、有高质量批评性需求可分享的 builder。
-
-Sources:
-- https://x.com/rauchg/status/2069513849578082474
-- https://x.com/rauchg/status/2069590431646769472
+Source: https://x.com/levie/status/2069975251476422664
 
 ---
 
-**Alex Albert — Anthropic (alexalbert__ on X)**
+### Ryo Lu (ryolu_ on X) — Designer @Cursor AI
 
-*"This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team."* — a firsthand endorsement of Claude Tag's transformative impact on async workflows.
-*"This has completely changed how I work with Claude. It feels less like using a tool and more like managing a team."* — 对 Claude Tag 改变异步工作流方式的第一手背书。
+Ryo Lu shared a demo showing Cursor and Notion being used together — each tool usable within the other's environment.
+Cursor AI 设计师 Ryo Lu 展示了 Cursor 与 Notion 互相嵌套使用的演示——可以在 Notion 中用 Cursor，也可以在 Cursor 中用 Notion。
 
-Source: https://x.com/alexalbert__/status/2069470389391241314
-
----
-
-**Box CEO Aaron Levie (levie on X)**
-
-AI pricing is heading toward a barbell dynamic: high-cost frontier models on one end, cheap but capable open or closed-weights models on the other — with pressure on everything in between.
-AI 定价正走向哑铃式格局：一端是高成本的前沿模型，另一端是廉价但能力强劲的开源或闭源权重模型——中间地带将承受巨大压力。
-
-Claude Tag with Box integration enables Claude to access enterprise files stored in Box directly from Slack — *"Now all of your enterprise data is just a tag away."*
-Claude Tag 与 Box 的集成使 Claude 可以直接从 Slack 访问存储在 Box 中的企业文件——*"Now all of your enterprise data is just a tag away."*
-
-Sources:
-- https://x.com/levie/status/2069639600310767616
-- https://x.com/levie/status/2069596515560267891
+Source: https://x.com/ryolu_/status/2069830172354986418
 
 ---
 
-**Garry Tan — YC (garrytan on X)**
+### Garry Tan (garrytan on X) — President & CEO @Y Combinator
 
-Linzumi is a multiplayer version of Codex, built by a former OpenAI team member who helped significantly reduce sycophancy in ChatGPT before leaving to found this YC startup.
-Linzumi 是 Codex 的多人协作版本，由一位前 OpenAI 团队成员创立，该成员在离职前曾主导大幅降低 ChatGPT 的谄媚性，其公司现为 YC 投资组合。
+Garry Tan directed political commentary toward San Francisco city politics, calling for the resignation of a city official over leaking a confidential legal brief.
+Garry Tan 的帖子聚焦于旧金山市政治，呼吁一名因泄露保密法律文件的官员辞职。
 
-Dropbox needs to support plans larger than 3TB — as AI generation creates exponentially more usable data, storage infrastructure must scale accordingly.
-Dropbox 需要支持超过 3TB 的套餐——随着 AI 生成的可用数据呈指数级增长，存储基础设施必须相应扩展。
+近期无 AI 相关重要动态。
 
-Sources:
-- https://x.com/garrytan/status/2069474420113146355
-- https://x.com/garrytan/status/2069434452628185241
+Source: https://x.com/garrytan/status/2069934356899246083
 
 ---
 
-**Matt Turck — FirstMark Capital (mattturck on X)**
+### Zara Zhang (zarazhangrui on X) — Builder & Investor
 
-近期无重要动态（AI/tech insights）— most recent post is about the World Cup expansion from 32 to 48 teams.
-近期无重要 AI/科技动态 — 最新推文为关于世界杯从 32 队扩展至 48 队的感慨。
+Zhang shared a sharp insight from Figma Config: *"Community is your users' relationships with you and with each other — Community is the new moat. Features get copied. Belonging can't."*
+Zhang 分享了来自 Figma Config 的深刻洞见：社区是新的护城河，功能可以被复制，但归属感无法被复制。
 
-Source: https://x.com/mattturck/status/2069481767652794768
+*"Community is the new moat. Features get copied. Belonging can't."*
 
----
+Source: https://x.com/zarazhangrui/status/2069900496304042343
 
-**Nikunj Oza (nikunj on X)**
+She also posted that the best founders post on X, and reflected that the root cause of procrastination is not a lack of time, but a lack of courage — a direct and punchy take.
+她还写道：拖延症的根本原因不是缺乏时间，而是缺乏勇气——简洁有力。
 
-Introducing "Plug That Shop" — a new tool built using Conductor, Anthropic Opus 4.8, Shopify's UCP CLI, and Railway, enabling users to interact with any Shopify store's product catalog via command line.
-推出"Plug That Shop"——一款基于 Conductor、Anthropic Opus 4.8、Shopify UCP CLI 和 Railway 构建的新工具，允许用户通过命令行与任意 Shopify 店铺的产品目录进行交互。
-
-This is a concrete demonstration of the "headless software + agents" paradigm that multiple builders are discussing this week.
-这是本周多位 builder 讨论的"无头软件 + Agent"范式的一个具体实证案例。
-
-Sources:
-- https://x.com/nikunj/status/2069534712763490668
-- https://x.com/nikunj/status/2069547206504566980
+Source: https://x.com/zarazhangrui/status/2069908420384428132
+Source: https://x.com/zarazhangrui/status/2069951925202903176
 
 ---
 
-**Peter Steinberger (steipete on X)**
+### Nikunj Kothari (nikunj on X) — Partner @FPV Ventures
 
-A striking story: Google reportedly fired the engineer who built the Google Workspace CLI for building the Google Workspace CLI — the very tool multiple builders are praising this week.
-一个令人震惊的故事：据报道，谷歌解雇了构建 Google Workspace CLI 的工程师，理由正是他构建了这个工具——而这款工具本周正受到多位 builder 的称赞。
+Kothari offered a crisp mental model for finding your edge: whatever looks like child's play to you but is very hard for others — that is your edge, and combining it with tenacity and a large market is where "magic follows."
+Kothari 分享了发现个人优势的简洁模型：对你来说轻而易举、但对他人极难的事情就是你的边界优势，结合韧性与大市场，魔法就会随之而来。
 
-*"Lucky me, Google can't fire me."* — an ironic commentary on how large organizations sometimes suppress internal innovation.
-*"Lucky me, Google can't fire me."* — 对大型组织有时压制内部创新的辛辣评论。
+*"The easiest way to figure out what you are TRULY excellent at is to notice what looks like child's play to you but is very hard for those around you."*
 
-Source: https://x.com/steipete/status/2069594195522941059
-
----
-
-**Aditya Agarwal — South Park Commons (adityaag on X)**
-
-South Park Commons is investing in Longshot Space — a startup building a cannon that fires payloads into orbit — betting on a future where launch capacity dramatically expands to meet surging demand.
-South Park Commons 投资了 Longshot Space——一家正在建造"轨道炮"以将载荷发射入轨的创业公司——押注于未来发射能力将大幅扩张以满足激增需求的前景。
-
-The thesis: there's far more demand for space than current launch capacity can serve.
-核心逻辑：当前太空市场对发射服务的需求远超现有运力。
-
-Sources:
-- https://x.com/adityaag/status/2069464862556619263
-- https://x.com/adityaag/status/2069464865568166180
+Source: https://x.com/nikunj/status/2069803472996941959
 
 ---
 
-**Claude AI (claudeai on X)**
+### Dan Shipper (danshipper on X) — CEO @Every
 
-Claude Tag is officially available in beta on Slack for Claude Enterprise and Team plans, with plans to expand more widely in the future.
-Claude Tag 现已在 Slack 上向 Claude Enterprise 和 Team 套餐正式开放 beta 版本，未来计划进一步扩大覆盖范围。
+Dan Shipper published a new episode of AI & I, interviewing Edwin Chen (CEO of Surge AI) on building data environments for frontier AI labs and the philosophical implications of AI surpassing human capability.
+Dan Shipper 发布了 AI & I 新一期节目，采访 Surge AI CEO Edwin Chen，探讨为前沿 AI 实验室构建数据环境，以及 AI 超越人类能力的哲学影响。
 
-With "ambient behavior" turned on, Claude takes initiative: it follows up on threads that have gone quiet and flags what's relevant from across its channels and tools.
-开启"环境行为"模式后，Claude 会主动行动：跟进已沉寂的话题，并从其监控的频道和工具中标记相关内容。
+The episode is available on YouTube and Spotify.
+该播客可在 YouTube 和 Spotify 上收听。
 
-The multiplayer architecture means one Claude instance interacts with the entire team in a channel, so teammates can pick up exactly where others left off without losing context.
-多人协作架构意味着一个 Claude 实例服务于频道内的整个团队，成员可以无缝衔接彼此的工作，无需重建上下文。
+Source: https://x.com/danshipper/status/2069805581263847467
 
-Sources:
-- https://x.com/claudeai/status/2069468701548531895
-- https://x.com/claudeai/status/2069468699766005847
-- https://x.com/claudeai/status/2069468698071494976
+---
+
+### Aditya Agarwal (adityaag on X) — General Partner @South Park Commons, Co-Founder @Bevel Health
+
+Agarwal reflected on what it means to be a leader right now: you need to be fearless, optimistic, empathetic about incoming change, and retain humility — all at once.
+Agarwal 反思了当下领导力的本质：你需要同时做到无所畏惧、乐观、对即将到来的变化保持同理心，并且保持谦逊。
+
+*"It is a strange time to be a leader right now. You have to be fearless. You have to be optimistic. You have to be empathetic about upcoming changes. You have to retain a lot of humility."*
+
+He was struck by how Snowflake CEO Sridhar Ramaswamy is navigating this moment, and shared excitement about Qosmic — a startup building communication infrastructure for the space economy.
+他对 Snowflake CEO Sridhar Ramaswamy 应对这一时刻的方式印象深刻，并对构建太空经济通信基础设施的初创公司 Qosmic 表示期待。
+
+Source: https://x.com/adityaag/status/2069861187479618042
+Source: https://x.com/adityaag/status/2069817246671851686
 
 ---
 
@@ -274,37 +181,45 @@ Sources:
 
 ---
 
-**No Priors — Biohub: The Future of Biology is Open-Source**
-*with Mark Zuckerberg, Priscilla Chan, and Alex Rives (Head of Science)*
+### AI & I by Every — "Building a School Where AI Models Learn About Humanity"
 
-**核心论点 / Core Argument**
+Dan Shipper (Every CEO) interviewed Edwin Chen, founder and CEO of Surge AI — one of the largest providers of expert training data for frontier AI labs, which famously crossed $1B in revenue without raising outside capital.
+Dan Shipper（Every CEO）采访了 Surge AI 创始人兼 CEO Edwin Chen——这是为前沿 AI 实验室提供专家训练数据的最大供应商之一，该公司在未融资的情况下营收突破 10 亿美元。
 
-Chan Zuckerberg Biohub is betting that the future of biological AI requires coupling a frontier AI lab with a frontier biology effort — because unlike language models, the critical training data for understanding life simply doesn't exist yet and must be invented.
-Chan Zuckerberg Biohub 押注于：生物 AI 的未来需要将一个前沿 AI 实验室与一个前沿生物学研究机构深度融合——因为与语言模型不同，理解生命所需的关键训练数据尚不存在，必须从零创造。
+**核心论点 / Central Thesis**
+
+Surge AI thinks of itself as building a "school for AGI" — a place where AI models come to learn about humanity.
+Surge AI 将自己定位为"AGI 的学校"——AI 模型来此学习人类知识和价值观。
+
+As AI models advance from solving middle-school math (GSM8K, 20% accuracy a few years ago) to disproving open Erdős conjectures using novel algebraic geometry, the nature of what training data needs to teach is fundamentally changing.
+随着 AI 从解决初中数学（几年前准确率仅 20%）进化到用全新代数几何方法推翻 Erdős 猜想，训练数据需要教授的内容也在根本性地改变。
 
 **关键洞察 / Key Insights**
 
-The open-source thesis is strategic, not altruistic: Biohub will have bigger impact by getting tools into more scientists' hands faster through open-source than by trying to build a proprietary moat.
-开源策略是战略性的，而非纯粹利他：通过开源将工具更快地交付给更多科学家，比构建专有护城河具有更大影响力。
+1. The "school for AGI" framing: models arrive unformed, learn from expert human judgment, and graduate capable of operating in real-world messiness — just like children progressing from arithmetic to taste and poetry.
+   "AGI 学校"框架：模型带着空白到来，从人类专家判断中学习，毕业后能够应对现实世界的复杂性——就像孩子从算术学到审美与诗歌。
 
-Science has a structural knowledge-sharing problem: research gets locked up in silos, tools live and die with individual postdocs, and there's no shared infrastructure to accelerate collective progress.
-科学界存在结构性的知识共享问题：研究成果被锁在各自的"竖井"中，工具随着博士后个体的离开而消失，缺乏加速集体进步的共享基础设施。
+2. Edwin Chen worries about AI optimizing for engagement rather than human flourishing — citing an unnamed model that ended responses with clickbait hooks like "Do you want to know one weird trick locals do to stay warm?"
+   Edwin Chen 担忧 AI 为参与度而非人类成长而优化——他举例一个模型在回复结尾附上类似"想知道当地人保暖的一个奇特技巧吗？"的钓鱼式话术。
 
-Biohub folded over 1.1 billion proteins and predicted their structures — by building a general protein understanding model rather than a narrow antibody or target-specific model.
-Biohub 折叠并预测了超过 11 亿种蛋白质的结构——通过构建通用蛋白质理解模型而非针对特定抗体或靶点的专用模型实现。
+3. Delegation vs. engagement: AI agents that go off and do work for you create a fundamentally different incentive structure than chatbots optimized for session length — one that's healthier for users.
+   委托 vs. 参与：执行任务的 AI agent 与优化会话时长的聊天机器人形成根本不同的激励结构——前者对用户更健康。
 
-The goal is not to cure disease directly — it's to build the tools and data infrastructure that accelerates the whole scientific field so that scientists can cure disease.
-目标并非直接治愈疾病——而是构建加速整个科学领域发展的工具和数据基础设施，从而让科学家能够治愈疾病。
+4. Claude pushed back on unnecessary email polishing: *"Stop. We're done. Just go ahead and ship this email."* — Edwin found this genuinely valuable and sees it as the right optimization direction.
+   Claude 阻止了无意义的邮件反复打磨：*"停，我们完成了，直接发这封邮件吧。"*——Edwin 认为这非常有价值，是正确的优化方向。
 
-The virtual biology initiative goes beyond proteins: the ambition is to eventually model cells and whole biological systems — a "world model" for life itself.
-虚拟生物学计划的野心超越了蛋白质：最终目标是对细胞乃至完整生物系统进行建模——为生命本身构建"世界模型"。
+5. Field medalist Timothy Gowers admitted he was "relieved" to learn that AI had disproved (not proved) the Erdős conjecture — because it felt like an easier task, buying mathematicians "maybe another year or two" of unique relevance.
+   菲尔兹奖得主 Timothy Gowers 坦言得知 AI 是推翻（而非证明）Erdős 猜想时"松了口气"——因为感觉这是更简单的任务，为数学家争取了"也许一两年"的独特价值。
 
-**最值得关注的信号 / Forward-Looking Signal**
+**最值得关注的信号 / Forward-Looking Takeaway**
 
-Biohub's model represents a template for what frontier science-AI collaboration looks like at scale: not a startup, not a university, not a pure philanthropy — but a novel hybrid that funds the data generation work that no one else will do because the business model doesn't exist yet.
-Biohub 的模式代表了前沿科学与 AI 大规模协作的新范本：既非创业公司、也非大学、更非单纯的慈善机构——而是一种新型混合体，专门资助那些因商业模式尚未成型而无人愿意承担的数据生成工作。
+The deep tension between optimizing for engagement metrics vs. human uplift is not just a philosophical debate — it will determine whether AI becomes the next social media addiction or genuinely advances humanity.
+在参与度指标与人类提升之间的深层张力，不仅是哲学争论——它将决定 AI 究竟会成为下一个社交媒体成瘾，还是真正推动人类进步。
 
-Podcast: No Priors (no specific video URL available — channel: https://www.youtube.com/@NoPriorsPodcast)
+Edwin's view: companies without VC pressure (like Surge, bootstrapped to $1B) have structural advantages in making the harder, long-term choices.
+Edwin 的观点：没有 VC 压力的公司（如 Surge，自举式增长至 10 亿美元）在做出更艰难、更长远的选择时具有结构性优势。
+
+Episode URL: https://www.youtube.com/watch?v=omX6wrLuX08
 
 ---
 
