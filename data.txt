@@ -1,4 +1,4 @@
-AI Builders 日报 · 2026-06-26
+AI Builders 日报 · 2026-06-27
 
 ---
 
@@ -6,174 +6,161 @@ AI Builders 日报 · 2026-06-26
 
 ---
 
-### Swyx (swyx on X) — AI Engineer & Partner @Cognition / @LatentSpacePod
+### Swyx (@swyx) — AI Engineer & Educator
 
-Swyx shared sharp advice for engineers preparing conference talks: AI-generated SVGs beat AI-generated images for slides, and slideshows should be kept to a maximum of 4 AI images.
-Swyx 分享了为工程师准备演讲的实用建议：AI 生成的 SVG 优于 AI 生成的图片，幻灯片中最多放 4 张 AI 图片。
+**[EN]** Swyx shared tips on how to book conference talks — useful advice for AI builders looking to speak at events like AI Engineer World's Fair.
+**[中]** Swyx 分享了如何申请会议演讲的实用建议，对有意在 AI Engineer World's Fair 等活动中亮相的构建者颇具参考价值。
 
-*"AI generated svgs > AI generated imgs. MAXIMUM 4 ai slop images in your slides, I don't care how pretty your mom thinks they are"*
+*"this is too late for AIE worlds fair but heres the how to book talks in the first place"*
+🔗 https://x.com/swyx/status/2070368060918407269
 
-He also reflected on the infrastructure reset ahead: the AI era will require us to rebuild massive amounts of software infrastructure from the ground up — the age of "Software Factories" demands entirely new foundations.
-他还反思了 AI 时代的基础设施重建挑战：软件工厂时代要求我们从头重建大量基础设施。
+**[EN]** He also nostalgically referenced a post from three years ago — a reminder of how much the AI landscape has evolved.
+**[中]** 他还以怀旧的方式引用了三年前的一条推文，感叹 AI 领域变化之快。
 
-Source: https://x.com/swyx/status/2069964772003770673
-Source: https://x.com/swyx/status/2069937175899275475
-
-The latest Latent Space episode featured Databricks vs. Snowflake analysis, why everyone is building a "metaharness," and how Neon Database fits the agentic stack — described as packed with alpha.
-最新一期 Latent Space 播客深度剖析了 Databricks 与 Snowflake 的竞争、为何每家公司都在构建"元框架"，以及 Neon Database 在 agent 技术栈中的战略地位。
-
-Source: https://x.com/swyx/status/2069864073202905501
+🔗 https://x.com/swyx/status/2070270074049777942
 
 ---
 
-### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT Engineer @OpenAI
+### Thibault Sottiaux (@thsottiaux) — Engineering Leader at OpenAI
 
-Sottiaux hinted that OpenAI's internal Slack can be "at least as fun as Twitter" — a rare glimpse into the culture at one of the world's most scrutinized AI labs.
-Sottiaux 暗示 OpenAI 的内部 Slack "有时候至少和 Twitter 一样有趣"——难得一窥这家全球最受关注 AI 实验室的内部文化。
+**[EN]** Thibault celebrated Codex's rapid adoption beyond engineering teams at OpenAI — noting that the February 2nd Codex App release was a turning point that dramatically expanded usage across the entire organization.
+**[中]** Thibault 展示了 Codex 在 OpenAI 内部超越工程团队的快速扩张——2 月 2 日 Codex App 发布后，公司全员的使用量大幅攀升。
 
-Source: https://x.com/thsottiaux/status/2070010718288843204
+*"February 2nd was the release of the Codex App. You can see what it did to adoption outside of engineering."*
+🔗 https://x.com/thsottiaux/status/2070205719501254860
 
-He also shared something provocative without elaboration, captioned simply "Spicy" — typical of the understated style common among frontier AI insiders.
-他还分享了一条简短的"Spicy"帖子，内容不作解释，符合前沿 AI 圈内部人士一贯的低调风格。
-
-Source: https://x.com/thsottiaux/status/2069837606574289329
-
----
-
-### Peter Yang (petergyang on X) — AI Educator & Creator
-
-Peter Yang shared a positive first impression of Claude Design, Anthropic's new design tool: he fed it a mobile app repo and it reproduced screens perfectly on the first prompt — though it quickly started conserving tokens.
-Peter Yang 对 Claude Design 印象良好：他输入了一个移动 App 仓库，第一条 prompt 就完美复现了界面——尽管随后模型很快开始提示节省 tokens。
-
-*"Claude Design is pretty great. I gave it a repo for a mobile app I'm building and it reproduced the screens perfectly."*
-
-Source: https://x.com/petergyang/status/2069992268963135897
+**[EN]** He also highlighted "Codex for everything at OpenAI" — signaling a broader internal push to make the AI coding tool universal across all departments.
+**[中]** 他推送了"OpenAI 全员 Codex"的消息，表明公司正在推动这一 AI 编程工具在所有部门的全面普及。
+🔗 https://x.com/thsottiaux/status/2070205520552886305
 
 ---
 
-### Amanda Askell (AmandaAskell on X) — Philosopher & AI Ethicist @Anthropic
+### Peter Yang (@petergyang) — Product & Creator
 
-Askell's posts were entirely about the Brazil vs. opponent World Cup match, cheering against goals for Brazil.
-Askell 的推文完全围绕世界杯赛事，为对手得分感到担忧——与她在 Anthropic 的 AI 伦理工作无关。
+**[EN]** Peter used Codex to plan his Japan trip — asking it to browse Google Flights and hotel websites, compare prices, and compile booking links into a document. His takeaway: we're nearly at the point of just telling AI to book everything.
+**[中]** Peter 用 Codex 规划日本之旅，让它自动浏览 Google Flights 和各酒店官网，比价并整理出直接预订链接。他感叹：让 AI 直接完成预订已近在眼前。
 
-近期无 AI 相关重要动态。
+*"I should just tell it to book everything next."*
+🔗 https://x.com/petergyang/status/2070353698140958818
 
-Source: https://x.com/AmandaAskell/status/2069910673921048985
+**[EN]** He also flagged that identity verification for model access is coming — calling it "pretty insane" but unsurprising.
+**[中]** 他还提到 AI 模型访问将引入身份验证机制，认为虽然令人震惊，但并不意外。
 
----
+*"Identity verification 100% coming to model access"*
+🔗 https://x.com/petergyang/status/2070352201944625405
 
-### Google Labs (GoogleLabs on X) — Google's AI Experiments Hub
-
-Google Labs announced that Project Genie won the Cannes Lions Grand Prix for AI Craft — a major creative industry recognition for one of Google's interactive AI experiments.
-Google Labs 宣布 Project Genie 荣获戛纳国际创意节 AI Craft 类别大奖，这是创意产业对 Google AI 实验的重要认可。
-
-Source: https://x.com/GoogleLabs/status/2069827839826809042
-
----
-
-### Guillermo Rauch (rauchg on X) — CEO @Vercel
-
-Vercel CEO Guillermo Rauch made a sweeping prediction: AI will trigger an unprecedented surge in entrepreneurship — from solopreneurs to the revitalization of SMBs, all the way up to the largest companies of our era.
-Vercel CEO Guillermo Rauch 做出宏观预测：AI 将带来创业浪潮——从个人创业者到中小企业复兴，直至催生这个时代最大的企业。
-
-*"AI will bring forth an unprecedented surge in entrepreneurship."*
-
-Source: https://x.com/rauchg/status/2070001110866354345
-
-He also announced that GLM (a fast Chinese open-source LLM) is now live on Vercel's platform, and highlighted data showing the scale of tokens and uptime being recovered through Vercel AI Gateway.
-他还宣布 GLM（快速中文开源大模型）已在 Vercel 平台上线，并展示了 Vercel AI Gateway 恢复的 tokens 与正常运行时间数据。
-
-Source: https://x.com/rauchg/status/2069863762694459805
-Source: https://x.com/rauchg/status/2069819652365242765
+**[EN]** Peter noted the friction of accessing Codex on mobile — currently relying on a custom iPhone shortcut, wishing for a more seamless native experience.
+**[中]** 他提到目前在手机上访问 Codex 仍需通过自制 iPhone 快捷方式，希望能有更流畅的原生体验。
+🔗 https://x.com/petergyang/status/2070318195190464538
 
 ---
 
-### Aaron Levie (levie on X) — CEO @Box
+### Thariq (@trq212) — AI Product Builder
 
-Levie highlighted important nuances in Anthropic's new Slack integration: Claude doesn't just act as a 1:1 assistant — it operates as a shared coworker that any user in a channel can tap into.
-Levie 强调了 Anthropic 新 Slack 集成的重要细节：Claude 不仅作为一对一助手，而是作为频道中任何用户都能调用的共享"同事"。
+**[EN]** Thariq announced he'll be discussing "Claude Tag" with Peter Yang and at the AIE conference, inviting the community to suggest topics they want explored more deeply.
+**[中]** Thariq 宣布将与 Peter Yang 合作，并在 AIE 大会上深入探讨"Claude Tag"，邀请社区提出感兴趣的话题方向。
 
-*"Claude acts as a coworker that any user can tap into in a shared way."*
+*"Let me know if there's anything you'd like us to dive into more!"*
+🔗 https://x.com/trq212/status/2070238581147455842
 
-He noted that agentic coding systems are already adopting this model, signaling a shift from personal AI tools to shared, collaborative AI agents in workplace environments.
-他指出 agentic 编程系统已经开始采用这种模式，标志着 AI 工具从个人助手向工作场所共享协作智能体的转变。
-
-Source: https://x.com/levie/status/2069975251476422664
-
----
-
-### Ryo Lu (ryolu_ on X) — Designer @Cursor AI
-
-Ryo Lu shared a demo showing Cursor and Notion being used together — each tool usable within the other's environment.
-Cursor AI 设计师 Ryo Lu 展示了 Cursor 与 Notion 互相嵌套使用的演示——可以在 Notion 中用 Cursor，也可以在 Cursor 中用 Notion。
-
-Source: https://x.com/ryolu_/status/2069830172354986418
+**[EN]** He also revealed that the video he shared was edited by Claude — another signal of AI's growing role in content production workflows.
+**[中]** 他透露视频剪辑也由 Claude 完成，再次印证 AI 在内容生产流程中的渗透加深。
+🔗 https://x.com/trq212/status/2070238932621811713
 
 ---
 
-### Garry Tan (garrytan on X) — President & CEO @Y Combinator
+### Amjad Masad (@amasad) — CEO of Replit
 
-Garry Tan directed political commentary toward San Francisco city politics, calling for the resignation of a city official over leaking a confidential legal brief.
-Garry Tan 的帖子聚焦于旧金山市政治，呼吁一名因泄露保密法律文件的官员辞职。
+**[EN]** Replit CEO Amjad Masad teased major updates coming to the Replit mobile app — signaling continued investment in mobile-first coding and AI development experiences.
+**[中]** Replit CEO Amjad Masad 预告移动应用即将迎来重大更新，显示公司持续押注移动端 AI 编程体验。
 
-近期无 AI 相关重要动态。
-
-Source: https://x.com/garrytan/status/2069934356899246083
-
----
-
-### Zara Zhang (zarazhangrui on X) — Builder & Investor
-
-Zhang shared a sharp insight from Figma Config: *"Community is your users' relationships with you and with each other — Community is the new moat. Features get copied. Belonging can't."*
-Zhang 分享了来自 Figma Config 的深刻洞见：社区是新的护城河，功能可以被复制，但归属感无法被复制。
-
-*"Community is the new moat. Features get copied. Belonging can't."*
-
-Source: https://x.com/zarazhangrui/status/2069900496304042343
-
-She also posted that the best founders post on X, and reflected that the root cause of procrastination is not a lack of time, but a lack of courage — a direct and punchy take.
-她还写道：拖延症的根本原因不是缺乏时间，而是缺乏勇气——简洁有力。
-
-Source: https://x.com/zarazhangrui/status/2069908420384428132
-Source: https://x.com/zarazhangrui/status/2069951925202903176
+*"Major updates to mobile app coming soon!"*
+🔗 https://x.com/amasad/status/2070199548694437957
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Partner @FPV Ventures
+### Guillermo Rauch (@rauchg) — CEO of Vercel
 
-Kothari offered a crisp mental model for finding your edge: whatever looks like child's play to you but is very hard for others — that is your edge, and combining it with tenacity and a large market is where "magic follows."
-Kothari 分享了发现个人优势的简洁模型：对你来说轻而易举、但对他人极难的事情就是你的边界优势，结合韧性与大市场，魔法就会随之而来。
+**[EN]** Guillermo highlighted a thoughtful Next.js UX feature: "Ways to fix this" with "Copy prompt" buttons that turn error messages into agentic actions — elegant integration of AI assistance into the developer workflow.
+**[中]** Guillermo 称赞了 Next.js 新增的"如何修复"功能——错误提示旁附带"复制 Prompt"按钮，将 AI 辅助无缝嵌入开发者工作流，称其为"(agentic) art（代理式艺术）"。
 
-*"The easiest way to figure out what you are TRULY excellent at is to notice what looks like child's play to you but is very hard for those around you."*
+*"Next.js 'Ways to fix this' with 'Copy prompt' buttons is a work of (agentic) art"*
+🔗 https://x.com/rauchg/status/2070243120546218000
 
-Source: https://x.com/nikunj/status/2069803472996941959
+**[EN]** He also shared how Vercel embeds their design standards into coding agents — detailing the process of making AI-generated code align with company aesthetics and conventions.
+**[中]** 他分享了 Vercel 如何将设计规范注入 Coding Agent，使 AI 生成的代码符合公司的审美与工程标准。
+🔗 https://x.com/rauchg/status/2070241572416078161
 
----
+**[EN]** On the data side, Guillermo reported that Grok Imagine Video has become the top model on Vercel AI Gateway — now representing ~50% of all videos generated by developers on the platform.
+**[中]** 在数据方面，Guillermo 透露 Grok Imagine Video 已成为 Vercel AI Gateway 上占比最高的模型，占开发者生成视频的约 50%，增速令人震惊。
 
-### Dan Shipper (danshipper on X) — CEO @Every
-
-Dan Shipper published a new episode of AI & I, interviewing Edwin Chen (CEO of Surge AI) on building data environments for frontier AI labs and the philosophical implications of AI surpassing human capability.
-Dan Shipper 发布了 AI & I 新一期节目，采访 Surge AI CEO Edwin Chen，探讨为前沿 AI 实验室构建数据环境，以及 AI 超越人类能力的哲学影响。
-
-The episode is available on YouTube and Spotify.
-该播客可在 YouTube 和 Spotify 上收听。
-
-Source: https://x.com/danshipper/status/2069805581263847467
+*"Grok Imagine Video has become the clear leader in @vercel AI Gateway, now amounting to ~50% of videos generated by developers 🤯"*
+🔗 https://x.com/rauchg/status/2070215849970119090
 
 ---
 
-### Aditya Agarwal (adityaag on X) — General Partner @South Park Commons, Co-Founder @Bevel Health
+### Aaron Levie (@levie) — CEO of Box
 
-Agarwal reflected on what it means to be a leader right now: you need to be fearless, optimistic, empathetic about incoming change, and retain humility — all at once.
-Agarwal 反思了当下领导力的本质：你需要同时做到无所畏惧、乐观、对即将到来的变化保持同理心，并且保持谦逊。
+**[EN]** Box CEO Aaron Levie offered a nuanced take on AI regulation as a prisoner's dilemma at "insane scale" — arguing that if the US applies heavy regulation while remaining at the AI frontier, it risks creating an uneven global playing field. True safety requires coordinated action across all leading AI labs globally.
+**[中]** Box CEO Aaron Levie 将 AI 监管比作"超大规模的囚徒困境"——若美国在保持 AI 前沿优势的同时实施严格监管，将可能造成全球竞争失衡，真正有效的安全机制需要全球顶尖 AI 实验室协同推进。
 
-*"It is a strange time to be a leader right now. You have to be fearless. You have to be optimistic. You have to be empathetic about upcoming changes. You have to retain a lot of humility."*
+*"AI regulation is far less simple than it looks. It's prisoners dilemma at insane scale."*
+🔗 https://x.com/levie/status/2070370225271251161
 
-He was struck by how Snowflake CEO Sridhar Ramaswamy is navigating this moment, and shared excitement about Qosmic — a startup building communication infrastructure for the space economy.
-他对 Snowflake CEO Sridhar Ramaswamy 应对这一时刻的方式印象深刻，并对构建太空经济通信基础设施的初创公司 Qosmic 表示期待。
+**[EN]** He also noted that de facto AI regulation has already arrived — models with certain capability levels or training compute thresholds will likely require government review before release, a development he views as inevitable but premature given current AI maturity.
+**[中]** 他还指出事实上的 AI 监管已经落地——达到特定能力门槛或训练算力规模的模型，未来极可能需经政府审查方可发布；他认为这一趋势不可避免，但目前时机仍偏早。
+🔗 https://x.com/levie/status/2070310706369712272
 
-Source: https://x.com/adityaag/status/2069861187479618042
-Source: https://x.com/adityaag/status/2069817246671851686
+---
+
+### Garry Tan (@garrytan) — President & CEO of Y Combinator
+
+**[EN]** YC's Garry Tan endorsed Legora as "the defining legal AI startup" — a strong signal of confidence in AI's ability to transform the legal industry.
+**[中]** YC CEO Garry Tan 称 Legora 是"最具定义性的法律 AI 创业公司"，对 AI 变革法律行业充满信心。
+🔗 https://x.com/garrytan/status/2070174023678648673
+
+**[EN]** He highlighted a viral "Jarvis-core" product launch video format that has become a new meme in the startup world.
+**[中]** 他转发了一则"Jarvis-core"风格的产品发布视频，称其已成为创业圈新兴的梗文化符号。
+🔗 https://x.com/garrytan/status/2070165863907668426
+
+---
+
+### Matt Turck (@mattturck) — Managing Director at FirstMark Capital
+
+**[EN]** Matt promoted his deep-dive podcast conversation with Matthew Prince, CEO of Cloudflare — also available on Spotify and Apple Podcasts, covering bot traffic surpassing human traffic, edge AI, and the hard decisions every CEO will face.
+**[中]** Matt 推广了他与 Cloudflare CEO Matthew Prince 的深度播客对话，涵盖机器人流量超越人类流量、边缘 AI 以及每个 CEO 都将面临的艰难抉择，已上线 Spotify 和 Apple Podcasts。
+🔗 https://x.com/mattturck/status/2070201854932250949
+
+---
+
+### Zara Zhang (@zarazhangrui) — Investor & Builder
+
+**[EN]** Zara challenged the misconception that audience-building is at odds with company-building — arguing that storytelling (to users, investors, and candidates) is arguably a founder's most important job as building gets cheaper and attention becomes more expensive.
+**[中]** Zara 反驳了"积累受众与创业建公司相悖"的误解，认为随着产品构建成本越来越低、注意力越来越稀缺，讲好故事（面向用户、投资人、候选人）已成为创始人最重要的核心能力。
+
+*"Building is getting cheaper, attention is getting more expensive."*
+🔗 https://x.com/zarazhangrui/status/2070188279941738952
+
+---
+
+### Dan Shipper (@danshipper) — CEO of Every
+
+**[EN]** Dan Shipper (disclosed as an investor) highlighted a stealth NYC health-tech company building AI-first medicine with physical clinics, founded by an ex-One Medical and ex-Bridgewater alumni backed by a16z — hiring engineers, physicians who ship product, and a Codex-native Chief of Staff.
+**[中]** Dan Shipper（注：本人为投资人）介绍了一家纽约隐形健康科技公司，由前 One Medical、前 Bridgewater 创始人打造，获 a16z 支持，正在构建结合实体诊所的 AI 优先医疗模式，招募工程师、能交付产品的医生及"Codex 原生"COO/BizOps 人才。
+
+*"He's doing AI-first medicine with physical clinics"*
+🔗 https://x.com/danshipper/status/2070158469173256231
+
+---
+
+### Aditya Agarwal (@adityaag) — Former CTO of Dropbox, Investor
+
+**[EN]** Former Dropbox CTO Aditya Agarwal offered a sharp take on the current state of pure software startups: customers want outcomes, not software; horizontal plays face a ticking clock; every customer demands deep customization — yet opportunities exist for those with a heretical 2-3 year worldview.
+**[中]** 前 Dropbox CTO Aditya Agarwal 对纯软件创业公司的现状给出犀利判断：客户要的是结果而非软件，横向产品面临时间压力，每个客户都要深度定制——但对于拥有"异端"两三年前瞻视野的人来说，机会依然存在。
+
+*"It is stupidly hard to start a pure software company right now."*
+*"You need to have a very heretical 2-3 year view of the world in order to build something good."*
+🔗 https://x.com/adityaag/status/2070179913647485344
 
 ---
 
@@ -181,46 +168,23 @@ Source: https://x.com/adityaag/status/2069817246671851686
 
 ---
 
-### AI & I by Every — "Building a School Where AI Models Learn About Humanity"
+### The MAD Podcast with Matt Turck × Matthew Prince (Cloudflare CEO)
+**Cloudflare CEO: Bot Takeover, Edge AI & The Hard Decision Every CEO Will Face**
 
-Dan Shipper (Every CEO) interviewed Edwin Chen, founder and CEO of Surge AI — one of the largest providers of expert training data for frontier AI labs, which famously crossed $1B in revenue without raising outside capital.
-Dan Shipper（Every CEO）采访了 Surge AI 创始人兼 CEO Edwin Chen——这是为前沿 AI 实验室提供专家训练数据的最大供应商之一，该公司在未融资的情况下营收突破 10 亿美元。
+**[EN]** In a landmark episode, Cloudflare CEO Matthew Prince revealed that bot traffic has already surpassed human traffic on the internet in the first half of 2026 — a milestone that arrived 18 months ahead of Cloudflare's own forecast. Prince explained this explosive growth is driven almost entirely by AI agents and LLMs scraping and traversing the web at unprecedented scale.
+**[中]** 在这期重磅播客中，Cloudflare CEO Matthew Prince 披露：2026 年上半年，互联网机器人流量已正式超过人类流量——比 Cloudflare 自己的预测提前了整整 18 个月。这一爆炸性增长几乎完全由 AI Agent 和 LLM 抓取、遍历网络所驱动。
 
-**核心论点 / Central Thesis**
+*"We actually had bot traffic pass human traffic online in the first half of twenty twenty six."*
 
-Surge AI thinks of itself as building a "school for AGI" — a place where AI models come to learn about humanity.
-Surge AI 将自己定位为"AGI 的学校"——AI 模型来此学习人类知识和价值观。
+**[EN]** Prince painted a stark picture of the internet's future business model crisis: the web has run on advertising for 28 years, but bots don't click on ads. With bot traffic potentially growing 1000x in five years, the fundamental economics of the internet must change — and Cloudflare is positioning itself at the center of that transformation through its AI Gateway, Workers platform, and agent security infrastructure.
+**[中]** Prince 描绘了互联网商业模式危机的严峻图景：网络广告模式运行了 28 年，但机器人不点广告。随着机器人流量可能在五年内增长 1000 倍，互联网的根本经济逻辑必须重构——Cloudflare 正通过 AI Gateway、Workers 平台和 Agent 安全基础设施，将自己定位于这场变革的核心。
 
-As AI models advance from solving middle-school math (GSM8K, 20% accuracy a few years ago) to disproving open Erdős conjectures using novel algebraic geometry, the nature of what training data needs to teach is fundamentally changing.
-随着 AI 从解决初中数学（几年前准确率仅 20%）进化到用全新代数几何方法推翻 Erdős 猜想，训练数据需要教授的内容也在根本性地改变。
+*"The underlying business model of the internet for the last twenty eight years has remained basically the same... The problem is bots don't click on ads."*
+*"Over the next five years, the business model of the Internet is gonna change radically."*
 
-**关键洞察 / Key Insights**
+**[EN]** On the workforce side, Prince discussed the "hard decision every CEO will face" — Cloudflare's decision to rightsize its team in the AI era. He argued this is an inevitable exercise nearly every company will undertake in the next 6-12 months as AI dramatically reshapes staffing needs.
+**[中]** 在人力资源方面，Prince 讨论了"每位 CEO 都将面临的艰难抉择"——Cloudflare 在 AI 时代对团队规模进行调整。他认为，未来 6-12 个月内几乎每家公司都将经历类似的重组，AI 正从根本上重塑企业的人员配置需求。
 
-1. The "school for AGI" framing: models arrive unformed, learn from expert human judgment, and graduate capable of operating in real-world messiness — just like children progressing from arithmetic to taste and poetry.
-   "AGI 学校"框架：模型带着空白到来，从人类专家判断中学习，毕业后能够应对现实世界的复杂性——就像孩子从算术学到审美与诗歌。
+*"In the next six to twelve months, almost every company is going to go through some exercise like this where they're gonna cut a bunch of their team."*
 
-2. Edwin Chen worries about AI optimizing for engagement rather than human flourishing — citing an unnamed model that ended responses with clickbait hooks like "Do you want to know one weird trick locals do to stay warm?"
-   Edwin Chen 担忧 AI 为参与度而非人类成长而优化——他举例一个模型在回复结尾附上类似"想知道当地人保暖的一个奇特技巧吗？"的钓鱼式话术。
-
-3. Delegation vs. engagement: AI agents that go off and do work for you create a fundamentally different incentive structure than chatbots optimized for session length — one that's healthier for users.
-   委托 vs. 参与：执行任务的 AI agent 与优化会话时长的聊天机器人形成根本不同的激励结构——前者对用户更健康。
-
-4. Claude pushed back on unnecessary email polishing: *"Stop. We're done. Just go ahead and ship this email."* — Edwin found this genuinely valuable and sees it as the right optimization direction.
-   Claude 阻止了无意义的邮件反复打磨：*"停，我们完成了，直接发这封邮件吧。"*——Edwin 认为这非常有价值，是正确的优化方向。
-
-5. Field medalist Timothy Gowers admitted he was "relieved" to learn that AI had disproved (not proved) the Erdős conjecture — because it felt like an easier task, buying mathematicians "maybe another year or two" of unique relevance.
-   菲尔兹奖得主 Timothy Gowers 坦言得知 AI 是推翻（而非证明）Erdős 猜想时"松了口气"——因为感觉这是更简单的任务，为数学家争取了"也许一两年"的独特价值。
-
-**最值得关注的信号 / Forward-Looking Takeaway**
-
-The deep tension between optimizing for engagement metrics vs. human uplift is not just a philosophical debate — it will determine whether AI becomes the next social media addiction or genuinely advances humanity.
-在参与度指标与人类提升之间的深层张力，不仅是哲学争论——它将决定 AI 究竟会成为下一个社交媒体成瘾，还是真正推动人类进步。
-
-Edwin's view: companies without VC pressure (like Surge, bootstrapped to $1B) have structural advantages in making the harder, long-term choices.
-Edwin 的观点：没有 VC 压力的公司（如 Surge，自举式增长至 10 亿美元）在做出更艰难、更长远的选择时具有结构性优势。
-
-Episode URL: https://www.youtube.com/watch?v=omX6wrLuX08
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+🔗 https://www.youtube.com/watch?v=UN47z_opfmo
