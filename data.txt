@@ -1,265 +1,206 @@
-AI Builders 日报 · 2026-06-28
+AI Builders 日报 · 2026-06-29
+
+---
+
+## OFFICIAL BLOGS / 官方博客
+
+### Claude Blog — Claude Code now supports artifacts
+Claude Code can now capture work progress as artifacts, turning Claude Code's work into live, shareable visual pages—including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works.
+Claude Code 现在可以将工作进度捕获为 Artifact，将 Claude Code 的工作成果转化为实时可分享的可视化页面——包括 PR 演练、系统说明、仪表盘和发布检查单——并随会话进展自动更新。
+
+This marks a significant step in making AI-assisted development more collaborative and transparent.
+这标志着 AI 辅助开发在协作性和透明度方面迈出了重要一步。
+
+🔗 https://claude.com/blog/artifacts-in-claude-code
 
 ---
 
 ## X / TWITTER
 
----
+### Swyx (@swyx) — AI Engineer & Builder
 
-### Swyx (swyx on X)
+Swyx has been active around the AI Engineer community and infrastructure discussions.
+Swyx 近期活跃于 AI Engineer 社区和基础设施讨论中。
 
-Swyx announced a new creative space milestone — his media lab has officially moved into a new location in San Francisco.
-Swyx 宣布了一个里程碑：他的媒体实验室正式迁入旧金山新址。
+He promoted memberships for companies and creative individuals for a community he's involved in, encouraging people to apply.
+他为所参与的社区推广了面向企业和创意人士的会员资格，鼓励大家申请。
 
-The space is designed as a "third place to make" and a "finishing school for technical creatives."
-这个空间被定位为"创造者的第三空间"，也是"技术创意人的进阶校园"。
+*"An interesting way to take Noam at his word in regards to always keeping a constant inference budget for any eval reporting — is that open models have a lot more dollar per token mileage than closed"* — Swyx raised a pointed observation about eval methodology: open models deliver far more value per dollar than closed models, which matters when setting a fixed inference budget for benchmarks.
+"关于 Noam 所说的在所有评估报告中始终保持固定推理预算这一观点，有一个有趣的诠释——那就是开源模型相比闭源模型每个 token 能提供更多价值。" Swyx 对评测方法论提出了一个犀利见解：在为基准测试设定固定推理预算时，开源模型的性价比远超闭源模型。
 
-*"we took over my new media lab today — it will be the new home for engineer-creatives in san francisco; a third place to make; a finishing school for technical"* — Swyx 的愿景是打造工程师与创作者的聚集地。
+He also shared an impromptu AI Engineer pre-show floor tour and AMA.
+他还分享了一段即兴的 AI Engineer 活动前现场导览和 AMA。
 
-https://x.com/swyx/status/2070748857441362056
-
-He also reflected on the AI services landscape, observing that with both OpenAI and Anthropic launching billion-dollar services arms, the "Founding Developer Experience Engineer" (FDE) role is becoming one of the most in-demand positions in the field.
-他还分析了 AI 服务格局，指出随着 OpenAI 和 Anthropic 相继推出数十亿美元规模的服务部门，"创始开发者体验工程师（FDE）"正成为最炙手可热的职位之一。
-
-*"we have been scaling without slop by working with aligned domain experts to add coverage"*
-*"我们通过与对齐的领域专家合作来扩大覆盖范围，始终保持质量"*
-
-https://x.com/swyx/status/2070606851377672675
+🔗 https://x.com/swyx/status/2071005276644553091
+🔗 https://x.com/swyx/status/2070971772548366788
+🔗 https://x.com/swyx/status/2070949306060931312
 
 ---
 
-### Thibault Sottiaux (thsottiaux on X) — OpenAI Codex
+### Thibault Sottiaux (@thsottiaux) — Codex & ChatGPT at OpenAI
 
-OpenAI is giving all Codex users a free usage reset following a recent incident.
-OpenAI 正在为所有 Codex 用户提供一次免费的使用量重置。
+Thibault, working on Codex and ChatGPT at OpenAI, shared multiple updates about Codex improvements.
+在 OpenAI 负责 Codex 和 ChatGPT 的 Thibault，分享了多项 Codex 改进更新。
 
-*"We are giving all Codex users a usage reset on the house. Should be showing in your accounts in the next few hours."*
-*"我们将为所有 Codex 用户免费重置使用量，几小时内将在你的账户中体现。"*
+Tons of improvements have landed in Codex: it now handles super long threads smoothly, features a hoverable navigation rail for previewing and jumping between turns, and settings search has been expanded.
+Codex 迎来了大量改进：现可流畅处理超长对话线程，新增可悬停的导航栏以预览和跳转对话轮次，设置搜索功能也得到了扩展。
 
-The team has applied mitigations, and the investigation has not found evidence of user data being compromised.
-团队已采取缓解措施，调查目前未发现用户数据被泄露的证据。
+*"Talking to your plants isn't weird anymore. You can just codex things."* — A playful take on how Codex has made interacting with everyday objects feel natural.
+"和植物说话不再奇怪了，现在什么都可以用 Codex。" ——以轻松幽默的方式描述 Codex 如何让与日常事物的交互变得自然。
 
-https://x.com/thsottiaux/status/2070653282440405046
+He also shared a meme about "Sol when operating Codex. Circa 2026" — hinting at the agentic AI future already unfolding.
+他还分享了一张关于"2026 年 Sol 操作 Codex"的表情包，暗示正在成真的智能体 AI 未来。
 
----
-
-### Peter Yang (petergyang on X)
-
-Peter Yang raises a sharp question about the AI business model: if US labs publish frontier models that then get distilled into cheap open-source alternatives, and those open-source models get adopted widely because they're "good enough" — are US companies inadvertently undermining their own competitive moat?
-Peter Yang 提出了一个尖锐问题：如果美国实验室发布前沿模型，这些模型被蒸馏成廉价开源版本，而开源模型又因"足够好"而被广泛采用——美国公司是否在无意中削弱了自己的竞争护城河？
-
-https://x.com/petergyang/status/2070633838146134219
-
-He also observes a major shift in where AI money is flowing: *"From what I'm seeing, a lot of the money has moved to services (with some software bundled), not software."*
-他还指出 AI 资金流向正发生重大转变：*"据我观察，大量资金已流向服务（捆绑部分软件），而非纯软件。"*
-
-People want outcomes, not tools — making it very hard to build a pure-play software company.
-人们想要的是结果，而不是工具——这让构建纯软件公司变得极为困难。
-
-https://x.com/petergyang/status/2070568705365577990
-
-He also shared a user-perspective wishlist for Claude Code improvements: bring back the ability to steer conversations mid-run, make mobile remote control on by default, and fix confusing shortcut keys.
-他还分享了对 Claude Code 的改进愿望清单：恢复在运行中引导对话的能力、默认开启移动端远程控制、修复令人困惑的快捷键。
-
-https://x.com/petergyang/status/2070545325497221248
+🔗 https://x.com/thsottiaux/status/2071089307062837744
+🔗 https://x.com/thsottiaux/status/2071077932244570112
+🔗 https://x.com/thsottiaux/status/2071071289247244481
 
 ---
 
-### Nan Yu (thenanyu on X)
+### Peter Yang (@petergyang) — AI Tutorials & Product
 
-Nan Yu shared a thought on problem-solving maturity levels — "Secret level 6: there's a problem, but it's not worth solving, so leave it alone."
-Nan Yu 分享了一条关于解决问题成熟度的洞察——"第六个隐藏关卡：这是个问题，但不值得解决，所以就放着吧。"
+Peter shared practical insights on AI-powered personal health tracking.
+Peter 分享了关于 AI 驱动个人健康追踪的实用见解。
 
-This is why organizations with many "level 1" thinkers can sometimes win — they don't get distracted by side quests.
-这也是为什么拥有大量"一级"思维者的组织有时反而能胜出——他们不会被旁枝末节所分心。
+Every Saturday, his custom AI agent "Hermes" sends him a health check email with top takeaways and stats, pulling data from his smart scale via the Withings API, Fitbit, Google Maps, and other sources.
+每周六，他的自定义 AI 智能体"Hermes"会向他发送健康检查邮件，汇总关键洞察和数据，数据来源包括通过 Withings API 接入的智能体重秤、Fitbit、Google Maps 等。
 
-https://x.com/thenanyu/status/2070656348488937889
+This is a compelling example of personal AI agents handling real-world, multi-source data integration.
+这是个人 AI 智能体处理真实多源数据整合的有力案例。
 
----
+He also commented on communication frameworks: *"There's just one small problem with this framework: If you wait till level 5 or whatever to tell other people that there's a problem when there's been a burning fire for days..."* — a critique of over-engineered communication protocols that delay urgent escalation.
+他还对沟通框架发表了评论："这个框架有一个小问题：如果你等到第 5 级才告诉别人已经燃烧多天的火灾……" ——批评过度设计的沟通协议会延误紧急升级。
 
-### Cat Wu (_catwu on X) — Claude Desktop
-
-Cat Wu highlighted split-screen as one of her favorite Claude Code on Desktop features.
-Cat Wu 点赞了 Claude Code 桌面版的分屏功能，称其为最喜爱的特性之一。
-
-https://x.com/_catwu/status/2070613405237432766
+🔗 https://x.com/petergyang/status/2070906940352520477
+🔗 https://x.com/petergyang/status/2071058953115767275
 
 ---
 
-### Guillermo Rauch (rauchg on X) — Vercel
+### Nan Yu (@thenanyu) — Head of Product at Linear
 
-Guillermo Rauch wrote a detailed thread on why agents are particularly hard-to-debug software.
-Guillermo Rauch 发布了一篇深度分析，探讨为什么 Agent 是特别难以调试的软件。
+Nan shared a sharp philosophical observation about problem-solving and prioritization.
+Nan 分享了一个关于问题解决和优先级排序的深刻哲学观察。
 
-*"Agents are particularly hard-to-debug software. For one, and by design, AI models behave in non-deterministic ways. Even two identical prompts don't always yield the same output."*
-*"Agent 是特别难以调试的软件。首先，AI 模型本身设计上就具有非确定性。即使两个完全相同的提示，也不一定产生相同的输出。"*
+*"If 90% of problems you bump into aren't worth solving, then level 1 and level 6 are 90% the same"* — a concise argument that most sophisticated frameworks collapse into the same basic filter: is this actually worth solving?
+"如果你遇到的 90% 的问题都不值得解决，那么第 1 级和第 6 级其实 90% 是一样的。" ——这是一个简洁的论点：大多数复杂框架最终都归结为同一个基本过滤器：这真的值得解决吗？
 
-https://x.com/rauchg/status/2070676383135834334
+This reflects Linear's product philosophy of ruthless prioritization and avoiding over-engineering.
+这反映了 Linear 在产品哲学上对无情优先级排序和避免过度工程化的坚持。
 
-He also declared that the UI for AI has arrived: *"The UI for AI is here. It's shadcn."*
-他还宣称 AI 的 UI 时代已经到来：*"AI 的 UI 已经在这里了，它就是 shadcn。"*
-
-https://x.com/rauchg/status/2070567538040422712
+🔗 https://x.com/thenanyu/status/2070821322901397645
 
 ---
 
-### Aaron Levie (levie on X) — Box CEO
+### Guillermo Rauch (@rauchg) — CEO at Vercel
 
-Aaron Levie commented on GPT-5.6, calling it very strong for knowledge worker tasks requiring heavy tool use and long-running agents.
-Box CEO Aaron Levie 评论了 GPT-5.6，称其在需要大量工具使用和长期运行 Agent 的知识型工作任务中表现非常强劲。
+Guillermo shared thoughts on AI security and agentic systems this week.
+Guillermo 本周分享了对 AI 安全和智能体系统的思考。
 
-*"GPT-5.6 is real and looks very strong. Going to be very strong for knowledge worker tasks that require heavy tool use and long running agents doing work. We're not hitting any walls in AI progress right now."*
-*"GPT-5.6 是真实的，看起来非常强大。对于需要大量工具使用和长期运行 Agent 的知识型工作任务，它的表现将会非常出色。我们目前没有遇到 AI 进展的任何瓶颈。"*
+*"Mythos / Sol cybersecurity capabilities are equally useful in an offensive as well a defensive capacity. If adversaries get ahold of an equivalent offensive capability, it poses a serious threat to U.S. interests"* — a sober reminder that powerful AI security tools are double-edged swords, and the geopolitical stakes are real.
+"Mythos / Sol 的网络安全能力在攻防两端同样有效。如果对手获得同等进攻能力，将对美国利益构成严重威胁。" ——这是一个清醒的提醒：强大的 AI 安全工具是双刃剑，地缘政治风险是真实存在的。
 
-https://x.com/levie/status/2070563281916620895
+He also celebrated owning a new domain to give his children "clean email handles" — a playful note on the internet's enduring value.
+他还庆祝购入新域名，为孩子们提供"干净的邮箱账号"——对互联网持久价值的一番轻松感慨。
 
----
+He shared a visual of himself with his agents: "Me and my agents" — embracing the multi-agent future.
+他分享了自己与智能体的合影："我和我的智能体们" ——拥抱多智能体未来。
 
-### Garry Tan (garrytan on X) — Y Combinator President
-
-Garry Tan raised concerns about how some AI models are being released, warning that releasing models in a certain way is "a solid way to salt the ground and kill all innovation by small startups."
-YC 总裁 Garry Tan 对部分 AI 模型的发布方式表达了担忧，警告这种发布方式是"彻底扼杀小型创业公司所有创新的可靠途径"。
-
-https://x.com/garrytan/status/2070699046939820223
-
----
-
-### Matt Turck (mattturck on X) — FirstMark Capital
-
-Matt Turck's recent posts were focused on the FIFA World Cup and football commentary — no substantive AI or tech content this cycle.
-Matt Turck 近期发帖主要聚焦于世界杯和足球评论，本周期内无实质性 AI 或科技内容。
-
-近期无重要动态
+🔗 https://x.com/rauchg/status/2071047674187714830
+🔗 https://x.com/rauchg/status/2071085680017773046
+🔗 https://x.com/rauchg/status/2070982746080715052
 
 ---
 
-### Zara Zhang (zarazhangrui on X)
+### Aaron Levie (@levie) — CEO at Box
 
-Zara Zhang highlighted Borumi as an underrated video recording and editing tool — *"It's like Screen Studio + Descript + CapCut all in one."*
-Zara Zhang 推荐了 Borumi 这款被严重低估的视频录制与编辑工具——*"它就像 Screen Studio + Descript + CapCut 的合体。"*
+Aaron highlighted best practices for AI token cost optimization, with an important caveat.
+Aaron 重点介绍了 AI token 成本优化的最佳实践，并附上了一个重要警示。
 
-*"It's so underrated; they deserve way more recognition."*
-*"它被严重低估了，他们值得更多认可。"*
+*"Some good best practices here on AI token cost optimization. None of these happens though without a deep understanding of the underlying work being done in a non-abstract way."*
+"这里有一些关于 AI token 成本优化的好实践。但没有对底层工作的深入、具体理解，这些都无法实现。"
 
-https://x.com/zarazhangrui/status/2070584764315402405
+The key insight: cost optimization isn't just a technical checkbox — it requires genuinely understanding what your AI system is doing at a concrete level.
+核心洞察：成本优化不只是技术上的勾选项——它需要真正理解你的 AI 系统在具体层面上做了什么。
 
-She also quoted: *"You do not need God to write your emails"* — a wry commentary on AI-powered productivity tools.
-她还引用了一句俏皮话："你不需要上帝来帮你写邮件"——对 AI 生产力工具的幽默调侃。
-
-https://x.com/zarazhangrui/status/2070589563429691698
+🔗 https://x.com/levie/status/2070937863806751154
 
 ---
 
-### Nikunj Kothari (nikunj on X)
+### Matt Turck (@mattturck) — VC at FirstMark Capital
 
-Nikunj Kothari pushed back on "taste" critics: *"Now that the dust is settled, what's really funny to me about the taste commentary is it's coming from a LOT of people who never have built anything... You can't achieve (or refine) taste without being in the arena."*
-Nikunj Kothari 反驳了"品味"批评者：*"尘埃落定之后，让我觉得有趣的是，这些关于品味的评论大多来自从未构建过任何东西的人……你不身处其中，就无法培养（或精炼）品味。"*
+Matt offered two sharp cultural observations this week.
+Matt 本周提出了两个犀利的文化观察。
 
-https://x.com/nikunj/status/2070649602953576825
+On smart glasses history: Silicon Valley kept pitching them since 2013 (Google Glass), enterprises rejected them in 2016 (Microsoft HoloLens), and yet here we are again — the pendulum of wearable AR keeps swinging.
+关于智能眼镜历史：硅谷从 2013 年（Google Glass）就开始推销它们，企业在 2016 年（微软 HoloLens）拒绝了它们，然而我们又回到了起点——可穿戴 AR 的钟摆不断摆动。
 
-He also wrote a message of encouragement for seed-stage founders building in "not-so-hot" categories: *"I see you."*
-他还向那些在"不那么热门"赛道中构建产品的种子期创始人表达了鼓励：*"我看见你们了。"*
+He also cleverly contrasted the "World Cup until now" versus "World Cup starting tomorrow" — a reminder that major cultural events reshape attention and priorities.
+他还巧妙地对比了"迄今为止的世界杯"和"明天开始的世界杯"——提醒我们重大文化事件会重塑注意力和优先级。
 
-https://x.com/nikunj/status/2070532689392980369
-
----
-
-### Peter Steinberger (steipete on X) — PSPDFKit / Rockship
-
-Peter Steinberger vented about Apple's notarization process breaking multiple times a year, requiring manual login to accept new legal agreements.
-Peter Steinberger 抱怨 Apple 公证流程每年多次失效，需要手动登录接受新的法律协议。
-
-*"I love how Apple notarization breaks multiple times a year until I manually log in and accept some new legal agreements."*
-*"我真的很'爱'Apple 的公证流程——每年都会失效好几次，直到我手动登录并接受新的法律协议为止。"*
-
-https://x.com/steipete/status/2070626638887555227
+🔗 https://x.com/mattturck/status/2070972014945243622
+🔗 https://x.com/mattturck/status/2071049723276828942
 
 ---
 
-### Dan Shipper (danshipper on X) — Every
+### Zara Zhang (@zarazhangrui) — Builder & Storyteller
 
-Dan Shipper broke the news that OpenAI announced GPT-5.6 Sol, but access is currently limited by U.S. government directive to only ~20 pre-approved companies — Every is not on the list (yet).
-Dan Shipper 爆料称 OpenAI 宣布了 GPT-5.6 Sol，但根据美国政府指令，目前访问权限仅限于约 20 家预先批准的公司——Every 目前不在名单上。
+Zara had an inspiring week celebrating her builder journey.
+Zara 度过了一个充满激励的一周，庆祝自己的构建者历程。
 
-*"BREAKING: OpenAI announced GPT-5.6 Sol! As of today, by U.S. government directive, access is limited to only ~20 pre-approved companies and @every is not on the list. This appears to be a temporary situation."*
-*"突发：OpenAI 宣布了 GPT-5.6 Sol！截至今日，根据美国政府指令，访问权限仅限于约 20 家预先批准的公司，Every 目前不在名单上。这似乎是暂时情况。"*
+*"Last year I barely knew how GitHub worked. Now I have 10k followers on GitHub (and still can't write code by hand). What a year."* — A testament to how AI has democratized building, enabling non-traditional engineers to create and ship.
+"去年我几乎不知道 GitHub 是怎么运作的。现在我在 GitHub 上有 1 万关注者（仍然不会手写代码）。真是不可思议的一年。" ——这证明了 AI 如何使构建民主化，让非传统工程师也能创造和发布产品。
 
-https://x.com/danshipper/status/2070554118146412979
+She emphasized her identity: *"Btw I'm not an engineer; these are all side projects I built for fun. I just love connecting technology with user problems/using it to solve my own pain points, and then telling stories about the products."*
+她强调了自己的身份认同："顺便说一下，我不是工程师；这些都是我为了乐趣而构建的副项目。我只是喜欢将技术与用户问题连接起来，用它解决自己的痛点，然后讲述关于产品的故事。"
 
-Full blog post: https://x.com/danshipper/status/2070554247301591163
-
----
-
-### Aditya Agarwal (adityaag on X) — Dropbox / Coda
-
-Aditya Agarwal shared a personal reflection on how AI has changed his relationship standards with humans: *"An interesting side effect of AI is that I have zero tolerance for shallow interactions with humans. I really [want] deep connection and depth in my relationships."*
-Aditya Agarwal 分享了一个个人感悟：AI 改变了他对人际关系的标准——*"AI 带来的一个有趣副作用是，我对人类的浅层互动变得零容忍。我真的渴望与人建立深度连接。"*
-
-https://x.com/adityaag/status/2070621064271688021
+🔗 https://x.com/zarazhangrui/status/2070982013822333007
+🔗 https://x.com/zarazhangrui/status/2071116793234813272
 
 ---
 
-### Sam Altman (sama on X) — OpenAI CEO
+### Nikunj Kothari (@nikunj) — Partner at FPV Ventures
 
-Sam Altman teased progress on unlimited token access: *"not quite all-you-can-eat tokens, but we are working on it."*
-OpenAI CEO Sam Altman 暗示了无限 token 访问权限的进展：*"还没到随心所欲用 token 的程度，但我们正在努力。"*
+Nikunj highlighted a visually stunning piece of content about ice cream.
+Nikunj 重点推荐了一篇关于冰淇淋的视觉精美内容。
 
-https://x.com/sama/status/2070614769678393846
+*"As someone who eats ice cream ~daily, this was SO fun to read.. Also, the visuals are absolutely stunning!!"* — A brief but enthusiastic shout-out, showing that even in a world of serious AI discourse, delight still matters.
+"作为一个几乎每天都吃冰淇淋的人，读这篇文章真的太有趣了……而且视觉效果绝对令人惊艳！！" ——简短但热情的推荐，表明即使在严肃的 AI 讨论世界里，带来愉悦依然重要。
 
-He also announced an update to the GPT-5.5 instant model used in ChatGPT: *"in other news, we updated the 5.5 instant model used in chatgpt this week. i like its vibes."*
-他还宣布本周更新了 ChatGPT 中使用的 GPT-5.5 即时模型：*"顺便说一句，本周我们更新了 ChatGPT 中使用的 5.5 即时模型。我喜欢它的感觉。"*
-
-https://x.com/sama/status/2070612055225483692
-
-And a cryptic but enthusiastic note: *"team cooked, spicily"* — referring to GPT-5.6's launch.
-他还发了一句神秘而热情的话：*"团队这次整得很辣"*——指向 GPT-5.6 的发布。
-
-https://x.com/sama/status/2070614666288795703
+🔗 https://x.com/nikunj/status/2070922974493036773
 
 ---
 
-## PODCASTS
+### Peter Steinberger (@steipete) — OpenClaw + OpenAI
+
+Peter shared observations on AI access policy, hardware woes, and Apple's enduring dominance.
+Peter 分享了关于 AI 访问政策、硬件困扰以及苹果持久统治地位的观察。
+
+*"History teaches us that access blockage rarely stops determined users."* — A pointed commentary on attempts to restrict AI access, suggesting that motivated users will always find workarounds.
+"历史告诉我们，访问封锁很少能阻止下定决心的用户。" ——对限制 AI 访问尝试的犀利评论，暗示有动力的用户总会找到变通方法。
+
+On the hardware front, he got excited about a 52" Dell monitor but ran into BetterDisplay hacking requirements, weird flickers, and wake issues on his M4 Max MBP — concluding: "Apple wins this round."
+在硬件方面，他对 52 英寸戴尔显示器感到兴奋，但遇到了需要破解 BetterDisplay、奇怪的闪烁和 M4 Max MBP 唤醒问题——最终结论："苹果赢得了这一局。"
+
+He also teased: "We getting Apple Car after all" — sharing a provocative piece of content about Apple's automotive ambitions.
+他还调侃道："我们终究会迎来 Apple Car" ——分享了一段关于苹果汽车野心的耐人寻味的内容。
+
+🔗 https://x.com/steipete/status/2071063588329193551
+🔗 https://x.com/steipete/status/2071034256051097799
+🔗 https://x.com/steipete/status/2071017970953052160
 
 ---
 
-### No Priors — "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown"
+## PODCASTS / 播客
 
-https://www.youtube.com/watch?v=AZrU6y3pUcU
+### Training Data — Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin
 
-The central argument of this episode is that the standard benchmark grid used to evaluate AI models is fundamentally broken in the era of large-scale test-time compute.
-本期节目的核心论点是：在大规模测试时计算的时代，用于评估 AI 模型的标准 benchmark 对比表格从根本上已经失效。
+This episode dives deep into one of the most fundamental challenges in AI: how do models learn, retain, and generalize knowledge over time?
+本期节目深入探讨了 AI 中最根本的挑战之一：模型如何随时间学习、保留和泛化知识？
 
-Simply comparing a model's score on a benchmark without controlling for how much compute was used is misleading — it's like comparing runner speeds without noting one ran a sprint and the other ran a marathon.
-在不控制计算量的情况下简单比较模型的 benchmark 分数会产生误导——就像比较跑步速度时，却不说明一个人跑的是百米冲刺，另一个跑的是马拉松。
+The guests, Dan Biderman and Jessy Lin from Engram, explore what makes pre-training and post-training enable models to generalize in "magical emergent ways," and how to control that process so companies can incorporate private data effectively.
+嘉宾 Dan Biderman 和 Jessy Lin 来自 Engram，他们探讨了是什么使预训练和后训练能够让模型以"神奇的涌现方式"进行泛化，以及如何控制这一过程，使企业能够有效融入私有数据。
 
-**Key insights from Noam Brown (OpenAI Research Scientist):**
+The conversation touches on continual learning — teaching models to keep learning new things without forgetting what they already know, a key challenge for enterprise AI deployments.
+对话涉及持续学习——教会模型在不遗忘已知内容的情况下持续学习新事物，这是企业 AI 部署的关键挑战。
 
-Modern models like GPT-5.5 are far more efficient than their predecessors at the same compute budget, but this doesn't show up in headline benchmark grids.
-GPT-5.5 等现代模型在相同计算预算下效率远超前代，但这一点在主要 benchmark 对比表格中根本看不出来。
-
-Models can now productively "think" for weeks before performance plateaus on certain benchmarks — meaning the plateau point is too far out to practically measure.
-在某些 benchmark 上，模型现在可以高效"思考"数周才达到性能瓶颈——这意味着瓶颈点已经远到无法实际测量。
-
-*"The capability of the model is a function of how much money you put into it, basically."*
-*"模型的能力，基本上就是你投入多少钱的函数。"*
-
-Safety evaluations (responsible scaling policies, preparedness frameworks) were designed in a pre-test-time-compute era and don't account for budget-dependent capabilities — this is an "inconvenient truth" the industry is largely ignoring.
-安全评估（负责任的扩展政策、准备框架）是在测试时计算时代之前设计的，没有考虑到依赖预算的能力——这是整个行业在很大程度上选择忽视的"不便的真相"。
-
-GPT-5.5 was used internally to disprove the Erdős unit distance conjecture — a significant mathematical result achieved at surprisingly low cost, suggesting untapped latent capability in current models.
-GPT-5.5 在内部被用于推翻 Erdős 单位距离猜想——这是一项以出人意料低成本取得的重大数学成果，表明当前模型存在尚未开发的潜在能力。
-
-Noam Brown does not believe we are headed toward an "overnight intelligence explosion" — because test-time compute scaling makes time itself the bottleneck.
-Noam Brown 不认为我们正走向"一夜之间的智能爆炸"——因为测试时计算扩展使得时间本身成为了瓶颈。
-
-**最值得关注的信号 / Most actionable signal:**
-
-The right way to compare models is to plot performance as a function of compute budget (tokens, cost, or time) — not a single grid number.
-比较模型的正确方式是将性能绘制为计算预算（token、成本或时间）的函数——而非单一的对比数字。
-
-Until benchmark publishers adopt this standard, all model comparisons should be read with significant skepticism.
-在 benchmark 发布者采用这一标准之前，所有模型比较都应保持高度怀疑。
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+🎧 https://www.youtube.com/watch?v=aiR7F4jqjXY
