@@ -1,206 +1,112 @@
-AI Builders 日报 · 2026-06-29
+AI Builders 日报 · 2026-06-30
+
+今日汇聚 12 位 AI 创业者与科技领袖的最新动态，覆盖 AI 计算基础设施、代码智能体、产品构建哲学及行业前沿洞察。
+Today's digest covers 12 AI builders and tech leaders, spanning AI compute infrastructure, coding agents, product philosophy, and industry insights.
 
 ---
 
-## OFFICIAL BLOGS / 官方博客
-
-### Claude Blog — Claude Code now supports artifacts
-Claude Code can now capture work progress as artifacts, turning Claude Code's work into live, shareable visual pages—including PR walkthroughs, system explainers, dashboards, and release checklists—that update themselves as your session works.
-Claude Code 现在可以将工作进度捕获为 Artifact，将 Claude Code 的工作成果转化为实时可分享的可视化页面——包括 PR 演练、系统说明、仪表盘和发布检查单——并随会话进展自动更新。
-
-This marks a significant step in making AI-assisted development more collaborative and transparent.
-这标志着 AI 辅助开发在协作性和透明度方面迈出了重要一步。
-
-🔗 https://claude.com/blog/artifacts-in-claude-code
+🐦 X / TWITTER
 
 ---
 
-## X / TWITTER
-
-### Swyx (@swyx) — AI Engineer & Builder
-
-Swyx has been active around the AI Engineer community and infrastructure discussions.
-Swyx 近期活跃于 AI Engineer 社区和基础设施讨论中。
-
-He promoted memberships for companies and creative individuals for a community he's involved in, encouraging people to apply.
-他为所参与的社区推广了面向企业和创意人士的会员资格，鼓励大家申请。
-
-*"An interesting way to take Noam at his word in regards to always keeping a constant inference budget for any eval reporting — is that open models have a lot more dollar per token mileage than closed"* — Swyx raised a pointed observation about eval methodology: open models deliver far more value per dollar than closed models, which matters when setting a fixed inference budget for benchmarks.
-"关于 Noam 所说的在所有评估报告中始终保持固定推理预算这一观点，有一个有趣的诠释——那就是开源模型相比闭源模型每个 token 能提供更多价值。" Swyx 对评测方法论提出了一个犀利见解：在为基准测试设定固定推理预算时，开源模型的性价比远超闭源模型。
-
-He also shared an impromptu AI Engineer pre-show floor tour and AMA.
-他还分享了一段即兴的 AI Engineer 活动前现场导览和 AMA。
-
-🔗 https://x.com/swyx/status/2071005276644553091
-🔗 https://x.com/swyx/status/2070971772548366788
-🔗 https://x.com/swyx/status/2070949306060931312
+**Swyx (@swyx)**
+Swyx 正在为一场规模庞大的 AI 活动冲刺——单日注册人数突破 1000 人，现场照片震撼。他分享活动组织的幕后细节，包括为演讲者定制专属资料的工具，以及 AI UX 系列活动背后难以策划的「设计工程」专题。
+*"we registered 1000 people today. this is what it looked like at hour 3. tmr and tuesday going to be absolutely batshit"* — 预示着接下来几天将是一场疯狂的体验。
+- https://x.com/swyx/status/2071480924810969331
+- https://x.com/swyx/status/2071478551950614586
+- https://x.com/swyx/status/2071478390172049555
 
 ---
 
-### Thibault Sottiaux (@thsottiaux) — Codex & ChatGPT at OpenAI
-
-Thibault, working on Codex and ChatGPT at OpenAI, shared multiple updates about Codex improvements.
-在 OpenAI 负责 Codex 和 ChatGPT 的 Thibault，分享了多项 Codex 改进更新。
-
-Tons of improvements have landed in Codex: it now handles super long threads smoothly, features a hoverable navigation rail for previewing and jumping between turns, and settings search has been expanded.
-Codex 迎来了大量改进：现可流畅处理超长对话线程，新增可悬停的导航栏以预览和跳转对话轮次，设置搜索功能也得到了扩展。
-
-*"Talking to your plants isn't weird anymore. You can just codex things."* — A playful take on how Codex has made interacting with everyday objects feel natural.
-"和植物说话不再奇怪了，现在什么都可以用 Codex。" ——以轻松幽默的方式描述 Codex 如何让与日常事物的交互变得自然。
-
-He also shared a meme about "Sol when operating Codex. Circa 2026" — hinting at the agentic AI future already unfolding.
-他还分享了一张关于"2026 年 Sol 操作 Codex"的表情包，暗示正在成真的智能体 AI 未来。
-
-🔗 https://x.com/thsottiaux/status/2071089307062837744
-🔗 https://x.com/thsottiaux/status/2071077932244570112
-🔗 https://x.com/thsottiaux/status/2071071289247244481
+**Boris Cherny (@bcherny)**
+Boris 思考 AI 时代下工程、产品、设计、数据科学等角色的边界正在消融，并以 Claude Code 团队为例，描绘出一种全新的复合型人才形态——这类人同时精通多个传统分工。
+*"As engineering, product, design, DS, etc. melt into a new kind of role"* — 职能边界正在被 AI 重新定义。
+- https://x.com/bcherny/status/2071379474277613732
 
 ---
 
-### Peter Yang (@petergyang) — AI Tutorials & Product
-
-Peter shared practical insights on AI-powered personal health tracking.
-Peter 分享了关于 AI 驱动个人健康追踪的实用见解。
-
-Every Saturday, his custom AI agent "Hermes" sends him a health check email with top takeaways and stats, pulling data from his smart scale via the Withings API, Fitbit, Google Maps, and other sources.
-每周六，他的自定义 AI 智能体"Hermes"会向他发送健康检查邮件，汇总关键洞察和数据，数据来源包括通过 Withings API 接入的智能体重秤、Fitbit、Google Maps 等。
-
-This is a compelling example of personal AI agents handling real-world, multi-source data integration.
-这是个人 AI 智能体处理真实多源数据整合的有力案例。
-
-He also commented on communication frameworks: *"There's just one small problem with this framework: If you wait till level 5 or whatever to tell other people that there's a problem when there's been a burning fire for days..."* — a critique of over-engineered communication protocols that delay urgent escalation.
-他还对沟通框架发表了评论："这个框架有一个小问题：如果你等到第 5 级才告诉别人已经燃烧多天的火灾……" ——批评过度设计的沟通协议会延误紧急升级。
-
-🔗 https://x.com/petergyang/status/2070906940352520477
-🔗 https://x.com/petergyang/status/2071058953115767275
+**Thibault Sottiaux (@thsottiaux)**
+Codex 团队在周日紧急开战，深入排查导致部分用户使用额度异常消耗的 bug。Thibault 宣布对所有用户进行强制重置，并承诺对已因此损失额度的用户追加补偿——充分展现了对用户信任的高度重视。
+*"Codex team is in a warroom on a Sunday combing through logs… Taking it very seriously and won't rest until we understand what happened"* — 周末紧急响应，彰显产品责任感。
+- https://x.com/thsottiaux/status/2071383430634344902
+- https://x.com/thsottiaux/status/2071381664853319742
+- https://x.com/thsottiaux/status/2071357473659707441
 
 ---
 
-### Nan Yu (@thenanyu) — Head of Product at Linear
-
-Nan shared a sharp philosophical observation about problem-solving and prioritization.
-Nan 分享了一个关于问题解决和优先级排序的深刻哲学观察。
-
-*"If 90% of problems you bump into aren't worth solving, then level 1 and level 6 are 90% the same"* — a concise argument that most sophisticated frameworks collapse into the same basic filter: is this actually worth solving?
-"如果你遇到的 90% 的问题都不值得解决，那么第 1 级和第 6 级其实 90% 是一样的。" ——这是一个简洁的论点：大多数复杂框架最终都归结为同一个基本过滤器：这真的值得解决吗？
-
-This reflects Linear's product philosophy of ruthless prioritization and avoiding over-engineering.
-这反映了 Linear 在产品哲学上对无情优先级排序和避免过度工程化的坚持。
-
-🔗 https://x.com/thenanyu/status/2070821322901397645
+**Peter Yang (@petergyang)**
+Peter 分享了 Anthropic 内部 PM 如何借助 AI Agent 拉近与产品的距离——直接访问代码库成为最大的效率突破口。他同时坦言自己至今仍搞不懂 Salesforce 的 Agentforce 到底是什么，引发广泛共鸣。另附一条关于「品味」的简短吐槽，意味深长。
+*"Access to our codebase has been the biggest unlock for me"* — Anthropic PM 亲历 AI Agent 改变工作方式。
+- https://x.com/petergyang/status/2071353107242774863
+- https://x.com/petergyang/status/2071292628302434361
+- https://x.com/petergyang/status/2071288846046884051
 
 ---
 
-### Guillermo Rauch (@rauchg) — CEO at Vercel
-
-Guillermo shared thoughts on AI security and agentic systems this week.
-Guillermo 本周分享了对 AI 安全和智能体系统的思考。
-
-*"Mythos / Sol cybersecurity capabilities are equally useful in an offensive as well a defensive capacity. If adversaries get ahold of an equivalent offensive capability, it poses a serious threat to U.S. interests"* — a sober reminder that powerful AI security tools are double-edged swords, and the geopolitical stakes are real.
-"Mythos / Sol 的网络安全能力在攻防两端同样有效。如果对手获得同等进攻能力，将对美国利益构成严重威胁。" ——这是一个清醒的提醒：强大的 AI 安全工具是双刃剑，地缘政治风险是真实存在的。
-
-He also celebrated owning a new domain to give his children "clean email handles" — a playful note on the internet's enduring value.
-他还庆祝购入新域名，为孩子们提供"干净的邮箱账号"——对互联网持久价值的一番轻松感慨。
-
-He shared a visual of himself with his agents: "Me and my agents" — embracing the multi-agent future.
-他分享了自己与智能体的合影："我和我的智能体们" ——拥抱多智能体未来。
-
-🔗 https://x.com/rauchg/status/2071047674187714830
-🔗 https://x.com/rauchg/status/2071085680017773046
-🔗 https://x.com/rauchg/status/2070982746080715052
+**Thariq (@trq212)**
+Thariq 关注到一个引人深思的现象：Riot Games 等大型游戏公司正计划将游戏移植到新平台——他认为背后的驱动力是 AI 编程 Agent 正在改变处理遗留代码库的成本结构。同时对某个论断直接反驳：「not true!」
+*"this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right?"* — AI 正在重写遗留系统迁移的经济账。
+- https://x.com/trq212/status/2071474384456573329
+- https://x.com/trq212/status/2071419473433854221
 
 ---
 
-### Aaron Levie (@levie) — CEO at Box
-
-Aaron highlighted best practices for AI token cost optimization, with an important caveat.
-Aaron 重点介绍了 AI token 成本优化的最佳实践，并附上了一个重要警示。
-
-*"Some good best practices here on AI token cost optimization. None of these happens though without a deep understanding of the underlying work being done in a non-abstract way."*
-"这里有一些关于 AI token 成本优化的好实践。但没有对底层工作的深入、具体理解，这些都无法实现。"
-
-The key insight: cost optimization isn't just a technical checkbox — it requires genuinely understanding what your AI system is doing at a concrete level.
-核心洞察：成本优化不只是技术上的勾选项——它需要真正理解你的 AI 系统在具体层面上做了什么。
-
-🔗 https://x.com/levie/status/2070937863806751154
+**Guillermo Rauch (@rauchg)**
+Guillermo 直言：个人品牌不需要 LinkedIn，需要的是一个展示你实际构建成果的页面。「You need a Link, not a LinkedIn」——简洁有力地表达了「作品即履历」的理念，在开发者社区引发强烈共鸣。
+*"You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped"* — 用作品说话，胜过简历。
+- https://x.com/rauchg/status/2071287181650653372
+- https://x.com/rauchg/status/2071284129275285580
 
 ---
 
-### Matt Turck (@mattturck) — VC at FirstMark Capital
-
-Matt offered two sharp cultural observations this week.
-Matt 本周提出了两个犀利的文化观察。
-
-On smart glasses history: Silicon Valley kept pitching them since 2013 (Google Glass), enterprises rejected them in 2016 (Microsoft HoloLens), and yet here we are again — the pendulum of wearable AR keeps swinging.
-关于智能眼镜历史：硅谷从 2013 年（Google Glass）就开始推销它们，企业在 2016 年（微软 HoloLens）拒绝了它们，然而我们又回到了起点——可穿戴 AR 的钟摆不断摆动。
-
-He also cleverly contrasted the "World Cup until now" versus "World Cup starting tomorrow" — a reminder that major cultural events reshape attention and priorities.
-他还巧妙地对比了"迄今为止的世界杯"和"明天开始的世界杯"——提醒我们重大文化事件会重塑注意力和优先级。
-
-🔗 https://x.com/mattturck/status/2070972014945243622
-🔗 https://x.com/mattturck/status/2071049723276828942
+**Aaron Levie (@levie)**
+Aaron 发出警告：网络安全领域将很快出现神话级别的开源模型，任何人都可以访问，这将催生全新的技术栈和安全范式。他暗示企业安全团队需要对即将到来的范式转变做好准备。
+*"It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone"* — AI 开源化将重塑网络安全格局。
+- https://x.com/levie/status/2071253118252356001
 
 ---
 
-### Zara Zhang (@zarazhangrui) — Builder & Storyteller
-
-Zara had an inspiring week celebrating her builder journey.
-Zara 度过了一个充满激励的一周，庆祝自己的构建者历程。
-
-*"Last year I barely knew how GitHub worked. Now I have 10k followers on GitHub (and still can't write code by hand). What a year."* — A testament to how AI has democratized building, enabling non-traditional engineers to create and ship.
-"去年我几乎不知道 GitHub 是怎么运作的。现在我在 GitHub 上有 1 万关注者（仍然不会手写代码）。真是不可思议的一年。" ——这证明了 AI 如何使构建民主化，让非传统工程师也能创造和发布产品。
-
-She emphasized her identity: *"Btw I'm not an engineer; these are all side projects I built for fun. I just love connecting technology with user problems/using it to solve my own pain points, and then telling stories about the products."*
-她强调了自己的身份认同："顺便说一下，我不是工程师；这些都是我为了乐趣而构建的副项目。我只是喜欢将技术与用户问题连接起来，用它解决自己的痛点，然后讲述关于产品的故事。"
-
-🔗 https://x.com/zarazhangrui/status/2070982013822333007
-🔗 https://x.com/zarazhangrui/status/2071116793234813272
+**Garry Tan (@garrytan)**
+Garry 引用列纳德·科恩的名句为今日收尾，寄语创业者：*"Forget your perfect offering / There is a crack in everything / That's how the light gets in."* ——万物皆有裂缝，那正是光照进来的地方。不必追求完美，不完美本身就是可能性的入口。
+- https://x.com/garrytan/status/2071434797176516691
 
 ---
 
-### Nikunj Kothari (@nikunj) — Partner at FPV Ventures
-
-Nikunj highlighted a visually stunning piece of content about ice cream.
-Nikunj 重点推荐了一篇关于冰淇淋的视觉精美内容。
-
-*"As someone who eats ice cream ~daily, this was SO fun to read.. Also, the visuals are absolutely stunning!!"* — A brief but enthusiastic shout-out, showing that even in a world of serious AI discourse, delight still matters.
-"作为一个几乎每天都吃冰淇淋的人，读这篇文章真的太有趣了……而且视觉效果绝对令人惊艳！！" ——简短但热情的推荐，表明即使在严肃的 AI 讨论世界里，带来愉悦依然重要。
-
-🔗 https://x.com/nikunj/status/2070922974493036773
+**Zara Zhang (@zarazhangrui)**
+Zara 发布了一段演示视频，手把手教你如何安装和使用她亲手构建的 AI skill，并分享了构建过程和扩展思路。她还分享了一条产品哲学：每花一小时做产品，就要花两小时去解释它、演示它、销售它——讲故事的能力与构建能力同样重要。
+*"For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it"* — 构建之外，讲述同样关键。
+- https://x.com/zarazhangrui/status/2071335200802648420
+- https://x.com/zarazhangrui/status/2071319754128978030
 
 ---
 
-### Peter Steinberger (@steipete) — OpenClaw + OpenAI
-
-Peter shared observations on AI access policy, hardware woes, and Apple's enduring dominance.
-Peter 分享了关于 AI 访问政策、硬件困扰以及苹果持久统治地位的观察。
-
-*"History teaches us that access blockage rarely stops determined users."* — A pointed commentary on attempts to restrict AI access, suggesting that motivated users will always find workarounds.
-"历史告诉我们，访问封锁很少能阻止下定决心的用户。" ——对限制 AI 访问尝试的犀利评论，暗示有动力的用户总会找到变通方法。
-
-On the hardware front, he got excited about a 52" Dell monitor but ran into BetterDisplay hacking requirements, weird flickers, and wake issues on his M4 Max MBP — concluding: "Apple wins this round."
-在硬件方面，他对 52 英寸戴尔显示器感到兴奋，但遇到了需要破解 BetterDisplay、奇怪的闪烁和 M4 Max MBP 唤醒问题——最终结论："苹果赢得了这一局。"
-
-He also teased: "We getting Apple Car after all" — sharing a provocative piece of content about Apple's automotive ambitions.
-他还调侃道："我们终究会迎来 Apple Car" ——分享了一段关于苹果汽车野心的耐人寻味的内容。
-
-🔗 https://x.com/steipete/status/2071063588329193551
-🔗 https://x.com/steipete/status/2071034256051097799
-🔗 https://x.com/steipete/status/2071017970953052160
+**Nikunj Kothari (@nikunj)**
+Nikunj 今日在 San Bruno 的 Summit Loop Trail 徒步，顺带附上了一张打趣的「把税塞进袋子」表情包。周日则是陪着蹒跚学步的孩子重现经典表情包，展示了科技人的松弛感。他还分享了与优秀创始人交流时内心激动、表面淡定的真实体验。
+- https://x.com/nikunj/status/2071408480456691868
+- https://x.com/nikunj/status/2071270787517132892
+- https://x.com/nikunj/status/2071237834162549001
 
 ---
 
-## PODCASTS / 播客
+**Peter Steinberger (@steipete)**
+Peter 在 SF 湾区四次尝试注册 AT&T 均遭拒绝，且毫无解释，无奈在推特上向社区求助：有没有更好的无限流量套餐推荐，或者认识能绕过企业官僚流程的人？引发不少同情和建议。
+- https://x.com/steipete/status/2071382416703500510
 
-### Training Data — Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin
+---
 
-This episode dives deep into one of the most fundamental challenges in AI: how do models learn, retain, and generalize knowledge over time?
-本期节目深入探讨了 AI 中最根本的挑战之一：模型如何随时间学习、保留和泛化知识？
+**Dan Shipper (@danshipper)**
+Dan 简短转发了一条「self recommending」的内容，言简意赅地为某值得关注的资源背书。
+- https://x.com/danshipper/status/2071304948390752557
 
-The guests, Dan Biderman and Jessy Lin from Engram, explore what makes pre-training and post-training enable models to generalize in "magical emergent ways," and how to control that process so companies can incorporate private data effectively.
-嘉宾 Dan Biderman 和 Jessy Lin 来自 Engram，他们探讨了是什么使预训练和后训练能够让模型以"神奇的涌现方式"进行泛化，以及如何控制这一过程，使企业能够有效融入私有数据。
+---
 
-The conversation touches on continual learning — teaching models to keep learning new things without forgetting what they already know, a key challenge for enterprise AI deployments.
-对话涉及持续学习——教会模型在不遗忘已知内容的情况下持续学习新事物，这是企业 AI 部署的关键挑战。
+🎙️ PODCASTS
 
-🎧 https://www.youtube.com/watch?v=aiR7F4jqjXY
+---
+
+**The MAD Podcast with Matt Turck — "The GPU Myth: State of AI Compute 2026 | Stephen Balaban"**
+本期播客深度对话 Lambda 联合创始人兼 CTO Stephen Balaban，揭穿关于 GPU 算力的最大误解。Stephen 指出，云计算从来不是商品，而是一项高度垂直整合的复杂服务，涵盖土地、建设、高性能计算、软件与虚拟化等全栈能力。
+In this episode, Matt Turck speaks with Stephen Balaban (co-founder & CTO of Lambda) about why GPU compute was never a commodity. Stephen argues that cloud infrastructure is deeply vertically integrated — spanning land entitlement, construction, HPC design, software, and virtualization — which is exactly why trillion-dollar companies like Amazon, Microsoft, and Google dominate the space.
+他们还探讨了 Lambda 从人脸识别初创公司到戴摄像头棒球帽、再到估值近十亿美元云业务的奇特演变历程，以及如何为数十亿美元的数据中心融资、为什么 2023 年的 H100 如今反而比当年更贵租。Stephen 强调，算力需求的增长没有尽头，当前整体行业仍处于「供给不足」状态。
+*"The people who are the naysayers, you're gonna throw these GPUs out in five years, are completely wrong. They've been wrong the entire time. We continue to be generally underbuilding."* — AI 算力的悲观论者，一直都错了。
+- https://www.youtube.com/watch?v=0NttU4CbyVs
