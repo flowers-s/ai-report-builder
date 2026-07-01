@@ -1,112 +1,210 @@
-AI Builders 日报 · 2026-06-30
+AI Builders 日报 · 2026-07-01
 
-今日汇聚 12 位 AI 创业者与科技领袖的最新动态，覆盖 AI 计算基础设施、代码智能体、产品构建哲学及行业前沿洞察。
-Today's digest covers 12 AI builders and tech leaders, spanning AI compute infrastructure, coding agents, product philosophy, and industry insights.
-
----
-
-🐦 X / TWITTER
+Today's digest covers 15 AI builders sharing insights on Claude Code subagents, OpenAI Codex improvements, open vs. closed AI stacks, Vercel's 20x larger functions, Chrome extensions powered by AI, and the value of strong writing in the AI era.
+今日日报涵盖15位AI构建者的动态，涉及Claude Code子代理、OpenAI Codex改进、开源与闭源AI之争、Vercel 20倍更大函数、AI驱动的Chrome扩展，以及AI时代写作能力的价值。
 
 ---
 
-**Swyx (@swyx)**
-Swyx 正在为一场规模庞大的 AI 活动冲刺——单日注册人数突破 1000 人，现场照片震撼。他分享活动组织的幕后细节，包括为演讲者定制专属资料的工具，以及 AI UX 系列活动背后难以策划的「设计工程」专题。
-*"we registered 1000 people today. this is what it looked like at hour 3. tmr and tuesday going to be absolutely batshit"* — 预示着接下来几天将是一场疯狂的体验。
-- https://x.com/swyx/status/2071480924810969331
-- https://x.com/swyx/status/2071478551950614586
-- https://x.com/swyx/status/2071478390172049555
+## 🤖 Claude @claudeai
+
+Claude is now available in Microsoft Foundry, generally available and hosted on Azure.
+Claude 现已在 Microsoft Foundry 上正式发布，托管于 Azure 平台。
+
+Azure customers can access Claude Opus 4.8 and Claude Haiku 4.5, with Azure authentication, billing, and commitment retirement fully supported.
+Azure 用户可访问 Claude Opus 4.8 和 Claude Haiku 4.5，支持 Azure 身份验证、计费和承诺退休功能。
+
+Inference runs on Azure infrastructure operated by Anthropic; prompt caching and extended thinking are supported today, with more capabilities on the way.
+推理运行在 Anthropic 运营的 Azure 基础设施上；提示缓存和扩展思考功能今日已上线，更多能力即将推出。
+
+Source: https://x.com/claudeai/status/2071653958905467027
+Source: https://x.com/claudeai/status/2071653962013446586
 
 ---
 
-**Boris Cherny (@bcherny)**
-Boris 思考 AI 时代下工程、产品、设计、数据科学等角色的边界正在消融，并以 Claude Code 团队为例，描绘出一种全新的复合型人才形态——这类人同时精通多个传统分工。
-*"As engineering, product, design, DS, etc. melt into a new kind of role"* — 职能边界正在被 AI 重新定义。
-- https://x.com/bcherny/status/2071379474277613732
+## 🛠️ Boris Cherny @bcherny (Claude Code @ Anthropic)
+
+In the next version of Claude Code, subagents will run in the background by default — you can keep talking to Claude while your subagents work.
+在下一版本的 Claude Code 中，子代理将默认在后台运行——你可以在子代理工作的同时继续与 Claude 对话。
+
+If you want your agent to run in the foreground, just tell Claude.
+如果你希望代理在前台运行，直接告诉 Claude 即可。
+
+This is a significant UX improvement that makes multi-agent workflows far less friction-heavy.
+这是一项重大用户体验改进，将大幅降低多代理工作流的摩擦。
+
+Source: https://x.com/bcherny/status/2071647677591466098
 
 ---
 
-**Thibault Sottiaux (@thsottiaux)**
-Codex 团队在周日紧急开战，深入排查导致部分用户使用额度异常消耗的 bug。Thibault 宣布对所有用户进行强制重置，并承诺对已因此损失额度的用户追加补偿——充分展现了对用户信任的高度重视。
-*"Codex team is in a warroom on a Sunday combing through logs… Taking it very seriously and won't rest until we understand what happened"* — 周末紧急响应，彰显产品责任感。
-- https://x.com/thsottiaux/status/2071383430634344902
-- https://x.com/thsottiaux/status/2071381664853319742
-- https://x.com/thsottiaux/status/2071357473659707441
+## 🤖 Thibault Sottiaux @thsottiaux (Codex & ChatGPT @ OpenAI)
+
+OpenAI shipped a major improvement to Codex: reusable, inheritable permission profiles that bind OS-enforced file read/write/deny rules — including `**/*.env` — to per-domain network and Unix socket controls, plus fail-closed admin allowlists.
+OpenAI 为 Codex 推出重大改进：可复用、可继承的权限配置文件，将操作系统强制执行的文件读/写/拒绝规则（包括 `**/*.env`）与按域名划分的网络和 Unix 套接字控制绑定，并支持默认拒绝的管理员白名单。
+
+This replaces the previous coarse sandbox modes with a least-privilege-per-task approach.
+这取代了以前粗粒度的沙箱模式，实现了按任务最小权限的精细控制。
+
+Codex usage limits were also fully reset after an investigation into faster-than-expected usage consumption, with an extra reset credited to affected users.
+在调查使用量消耗速度超预期问题后，Codex 使用限额已完全重置，并向受影响用户额外补偿了一次重置额度。
+
+Source: https://x.com/thsottiaux/status/2071636285807059315
+Source: https://x.com/thsottiaux/status/2071740419030053227
 
 ---
 
-**Peter Yang (@petergyang)**
-Peter 分享了 Anthropic 内部 PM 如何借助 AI Agent 拉近与产品的距离——直接访问代码库成为最大的效率突破口。他同时坦言自己至今仍搞不懂 Salesforce 的 Agentforce 到底是什么，引发广泛共鸣。另附一条关于「品味」的简短吐槽，意味深长。
-*"Access to our codebase has been the biggest unlock for me"* — Anthropic PM 亲历 AI Agent 改变工作方式。
-- https://x.com/petergyang/status/2071353107242774863
-- https://x.com/petergyang/status/2071292628302434361
-- https://x.com/petergyang/status/2071288846046884051
+## ✍️ Peter Yang @petergyang
+
+For writing and editing tasks, plain vanilla Claude web still beats Codex and Claude Code — Peter's hypothesis is that coding agent system prompts make them worse writers.
+对于写作和编辑任务，普通版 Claude 网页端依然优于 Codex 和 Claude Code——Peter 的推测是，编码代理的系统提示让它们在写作方面表现变差。
+
+He also has "spicy takes" on restricted access vs. open source AI that he's planning to rant about in a single consolidated post.
+他还对 AI 访问限制与开源问题有很多"辛辣观点"，计划在一篇文章中集中发表。
+
+Source: https://x.com/petergyang/status/2071731343390851519
+Source: https://x.com/petergyang/status/2071730786886435261
 
 ---
 
-**Thariq (@trq212)**
-Thariq 关注到一个引人深思的现象：Riot Games 等大型游戏公司正计划将游戏移植到新平台——他认为背后的驱动力是 AI 编程 Agent 正在改变处理遗留代码库的成本结构。同时对某个论断直接反驳：「not true!」
-*"this has to be because coding agents change the engineering math on how it is to work with or port a legacy codebase, right?"* — AI 正在重写遗留系统迁移的经济账。
-- https://x.com/trq212/status/2071474384456573329
-- https://x.com/trq212/status/2071419473433854221
+## 🧠 Aaron Levie @levie (CEO @ Box)
+
+Aaron zeroes in on the central AI debate: if a closed stack stays perpetually at the frontier by a wide margin, vertical integration and gatekeeping can work indefinitely.
+Aaron 直击 AI 核心辩题：如果闭源技术栈始终大幅领先前沿，垂直整合与技术管控就能无限期地维持优势。
+
+But if open-weight models remain a close second, the dynamics flip entirely — openness becomes the competitive moat.
+但如果开源权重模型始终紧随其后，格局将完全逆转——开放性将成为真正的竞争护城河。
+
+This is the most important question in AI strategy right now.
+这是当前 AI 战略中最重要的问题。
+
+Source: https://x.com/levie/status/2071775583072375214
 
 ---
 
-**Guillermo Rauch (@rauchg)**
-Guillermo 直言：个人品牌不需要 LinkedIn，需要的是一个展示你实际构建成果的页面。「You need a Link, not a LinkedIn」——简洁有力地表达了「作品即履历」的理念，在开发者社区引发强烈共鸣。
-*"You don't need a LinkedIn, you need a page on your website describing and linking to what you shipped"* — 用作品说话，胜过简历。
-- https://x.com/rauchg/status/2071287181650653372
-- https://x.com/rauchg/status/2071284129275285580
+## 🌐 Guillermo Rauch @rauchg (CEO @ Vercel)
+
+Vercel shipped 20x larger functions, enabling significantly more complex serverless workloads.
+Vercel 推出了 20 倍更大的函数支持，大幅提升了无服务器工作负载的复杂度上限。
+
+He also teased that "you can deploy anything and everything to Vercel" — with more details coming the next day.
+他还预告"你可以将任何东西部署到 Vercel"，更多细节次日揭晓。
+
+Source: https://x.com/rauchg/status/2071716510389662153
+Source: https://x.com/rauchg/status/2071718135799927224
 
 ---
 
-**Aaron Levie (@levie)**
-Aaron 发出警告：网络安全领域将很快出现神话级别的开源模型，任何人都可以访问，这将催生全新的技术栈和安全范式。他暗示企业安全团队需要对即将到来的范式转变做好准备。
-*"It should be 100% obvious that there will soon be mythos level models on cyber security that are open and available to anyone"* — AI 开源化将重塑网络安全格局。
-- https://x.com/levie/status/2071253118252356001
+## 🔬 Swyx @swyx (AI Engineer)
+
+Swyx is live at the AIE (AI Engineer) Expo, reporting on packed workshops from Snyk, Atlassian, Neo4j, Arize AI, Akamai, and Together Compute — all running simultaneously against a competing OpenAI workshop next door.
+Swyx 正在 AIE（AI Engineer）博览会现场，报道了来自 Snyk、Atlassian、Neo4j、Arize AI、Akamai 和 Together Compute 的爆满工坊——这些活动与隔壁的 OpenAI 工坊同时举行。
+
+His take: "People are hungry for this" — grassroots AI engineering demand is very real.
+他的感受："大家对此非常渴望"——草根 AI 工程师的需求是真实存在的。
+
+He's also prescribing "one pill" for anyone who still disrespects scaling laws.
+他还为那些仍然不尊重 Scaling Laws 的人"开了一粒药"。
+
+Source: https://x.com/swyx/status/2071634789669777716
+Source: https://x.com/swyx/status/2071692683182252317
 
 ---
 
-**Garry Tan (@garrytan)**
-Garry 引用列纳德·科恩的名句为今日收尾，寄语创业者：*"Forget your perfect offering / There is a crack in everything / That's how the light gets in."* ——万物皆有裂缝，那正是光照进来的地方。不必追求完美，不完美本身就是可能性的入口。
-- https://x.com/garrytan/status/2071434797176516691
+## 🎨 Ryo Lu @ryolu_ (Design @ Cursor)
+
+Ryo shipped a new app for capturing ideas anywhere — desks and laptops optional.
+Ryo 发布了一款随时随地捕捉灵感的新 App，桌子和电脑都不是必需的。
+
+Source: https://x.com/ryolu_/status/2071652629890088964
+Source: https://x.com/ryolu_/status/2071655130152493297
 
 ---
 
-**Zara Zhang (@zarazhangrui)**
-Zara 发布了一段演示视频，手把手教你如何安装和使用她亲手构建的 AI skill，并分享了构建过程和扩展思路。她还分享了一条产品哲学：每花一小时做产品，就要花两小时去解释它、演示它、销售它——讲故事的能力与构建能力同样重要。
-*"For every hour you spend on building the product, spend two hours on explaining it, demonstrating it, selling it, teaching it"* — 构建之外，讲述同样关键。
-- https://x.com/zarazhangrui/status/2071335200802648420
-- https://x.com/zarazhangrui/status/2071319754128978030
+## 🏗️ Thariq @trq212 (Claude Code @ Anthropic)
+
+Thariq's current writing process: do engineering work → talk to people → brainstorm with Claude → write a draft → give 1-2 talks → rewrite → give another talk → rewrite the intro → wake up at 6am and rewrite it again → publish.
+Thariq 目前的写作流程：做工程工作 → 与人交流 → 用 Claude 头脑风暴 → 写初稿 → 做1-2次演讲 → 修改 → 再做一次演讲 → 重写引言 → 凌晨6点起床再次修改 → 发布。
+
+The AI-assisted writing loop is real — and iterative beyond what most people expect.
+AI 辅助写作循环是真实存在的——其迭代程度超出了大多数人的预期。
+
+Source: https://x.com/trq212/status/2071787401475960892
 
 ---
 
-**Nikunj Kothari (@nikunj)**
-Nikunj 今日在 San Bruno 的 Summit Loop Trail 徒步，顺带附上了一张打趣的「把税塞进袋子」表情包。周日则是陪着蹒跚学步的孩子重现经典表情包，展示了科技人的松弛感。他还分享了与优秀创始人交流时内心激动、表面淡定的真实体验。
-- https://x.com/nikunj/status/2071408480456691868
-- https://x.com/nikunj/status/2071270787517132892
-- https://x.com/nikunj/status/2071237834162549001
+## 💡 Zara Zhang @zarazhangrui
+
+Zara built a Chrome extension that converts "read later" lists into actual calendar blocks: save 5 articles → the extension auto-books a 30-minute "reading block" on Google Calendar, links included.
+Zara 开发了一款 Chrome 扩展，将"稍后阅读"列表转化为实际的日历块：保存5篇文章 → 扩展自动在 Google 日历上预订30分钟的"阅读时间"，并附上链接。
+
+No account, no server, everything local — and open source.
+无需账户，无需服务器，完全本地运行，且开源。
+
+She also echoed the Anthropic PM's insight: "The market value of writing has gone way up." Clear writing is essential for both steering AI models and building an audience.
+她还引用了 Anthropic 一位 PM 的洞察："写作的市场价值大幅提升。"清晰的表达对于引导 AI 模型和积累受众都至关重要。
+
+Source: https://x.com/zarazhangrui/status/2071766827345285411
+Source: https://x.com/zarazhangrui/status/2071670108033073365
+Code: https://x.com/zarazhangrui/status/2071766865245012255
 
 ---
 
-**Peter Steinberger (@steipete)**
-Peter 在 SF 湾区四次尝试注册 AT&T 均遭拒绝，且毫无解释，无奈在推特上向社区求助：有没有更好的无限流量套餐推荐，或者认识能绕过企业官僚流程的人？引发不少同情和建议。
-- https://x.com/steipete/status/2071382416703500510
+## 📊 Madhu Guru @realmadhuguru (ex-Google Gemini/Veo)
+
+Madhu makes a contrarian point: the rise of strong open-weight models like GLM will actually strengthen Google's position — not weaken it.
+Madhu 提出了一个逆向观点：GLM 等强大开源权重模型的崛起实际上会增强谷歌的地位，而非削弱它。
+
+Enterprises want flexibility to run and fine-tune open models on managed platforms with enterprise-grade reliability, security, and support — and Google Cloud is perfectly positioned for that.
+企业希望能够在具备企业级可靠性、安全性和支持的托管平台上运行和微调开源模型——而谷歌云正好具备这一优势。
+
+Source: https://x.com/realmadhuguru/status/2071637885154148785
 
 ---
 
-**Dan Shipper (@danshipper)**
-Dan 简短转发了一条「self recommending」的内容，言简意赅地为某值得关注的资源背书。
-- https://x.com/danshipper/status/2071304948390752557
+## 💰 Garry Tan @garrytan (CEO @ Y Combinator)
+
+Garry is bullish on the physical infrastructure layer: build power and datacenters.
+Garry 对物理基础设施层持乐观态度：建设电力和数据中心。
+
+Source: https://x.com/garrytan/status/2071600933210100074
 
 ---
 
-🎙️ PODCASTS
+## 📈 Matt Turck @mattturck (VC @ FirstMark)
+
+"Being the underdog, time and again, is the greatest advantage."
+"一次又一次地成为挑战者，是最大的优势。"
+
+Source: https://x.com/mattturck/status/2071806129001164934
 
 ---
 
-**The MAD Podcast with Matt Turck — "The GPU Myth: State of AI Compute 2026 | Stephen Balaban"**
-本期播客深度对话 Lambda 联合创始人兼 CTO Stephen Balaban，揭穿关于 GPU 算力的最大误解。Stephen 指出，云计算从来不是商品，而是一项高度垂直整合的复杂服务，涵盖土地、建设、高性能计算、软件与虚拟化等全栈能力。
-In this episode, Matt Turck speaks with Stephen Balaban (co-founder & CTO of Lambda) about why GPU compute was never a commodity. Stephen argues that cloud infrastructure is deeply vertically integrated — spanning land entitlement, construction, HPC design, software, and virtualization — which is exactly why trillion-dollar companies like Amazon, Microsoft, and Google dominate the space.
-他们还探讨了 Lambda 从人脸识别初创公司到戴摄像头棒球帽、再到估值近十亿美元云业务的奇特演变历程，以及如何为数十亿美元的数据中心融资、为什么 2023 年的 H100 如今反而比当年更贵租。Stephen 强调，算力需求的增长没有尽头，当前整体行业仍处于「供给不足」状态。
-*"The people who are the naysayers, you're gonna throw these GPUs out in five years, are completely wrong. They've been wrong the entire time. We continue to be generally underbuilding."* — AI 算力的悲观论者，一直都错了。
-- https://www.youtube.com/watch?v=0NttU4CbyVs
+## 🎙️ PODCAST: No Priors — Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan
+
+**深度总结 / Deep Summary**
+
+No Priors 本期邀请了传奇投资人、Cadence 前 CEO，现任 Intel CEO Lip-Bu Tan，探讨他重塑英特尔的计划、美国政府作为大股东的影响，以及能否在美国本土制造芯片等核心议题。
+This episode of No Priors features Lip-Bu Tan — legendary investor, former CEO of Cadence, and current CEO of Intel — discussing his plan to transform Intel, the US government's role as a major shareholder, and whether chip manufacturing can be revived in the United States.
+
+**核心论点 / Central Argument**
+
+Lip-Bu Tan, at 66, took what many called "the hardest job in the industry" out of patriotism and belief in Intel's importance to the US semiconductor ecosystem.
+Lip-Bu Tan 在66岁时接下了许多人所说的"业界最艰难的工作"，出于对英特尔在美国半导体生态系统重要性的信念和爱国情怀。
+
+His strategy: start by strengthening the balance sheet, simplify the product line, listen to customers, and then drive next-generation leadership products.
+他的策略：首先巩固资产负债表，简化产品线，倾听客户需求，然后推动下一代领先产品。
+
+The agentic AI wave has created surging demand for inference CPUs — a tailwind Intel is now positioned to capture.
+Agentic AI 浪潮创造了对推理 CPU 的爆炸性需求——英特尔现在正处于捕捉这一红利的有利位置。
+
+Jensen Huang's $5B investment in Intel, now grown to $25B, is a landmark vote of confidence.
+Jensen Huang 对英特尔的50亿美元投资，现已增值至250亿美元，是对英特尔的里程碑式信任背书。
+
+**关键洞察 / Key Insights**
+
+Even after being asked to resign by President Trump early one morning over conflict-of-interest concerns, Lip-Bu persisted — he got a meeting, explained himself (born in Malaysia, raised in Singapore, MIT graduate, lifelong US resident), and earned back the chance.
+即使有一天清晨被特朗普总统因利益冲突问题要求辞职，Lip-Bu 也坚持了下来——他争取到了会面机会，解释了自己的背景（马来西亚出生，新加坡成长，MIT 毕业，长期居美），并赢回了机会。
+
+His investing philosophy: 9 out of 10 companies change their business plan halfway through — so he always backs entrepreneur teams, not solo founders.
+他的投资哲学：十家公司中有九家会在中途改变商业计划——因此他始终支持创业者团队，而非单打独斗的创始人。
+
+URL: https://www.youtube.com/watch?v=asCgCv2XB4s
