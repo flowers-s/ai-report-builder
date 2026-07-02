@@ -1,210 +1,370 @@
-AI Builders 日报 · 2026-07-01
+AI Builders 日报 · 2026-07-02
 
-Today's digest covers 15 AI builders sharing insights on Claude Code subagents, OpenAI Codex improvements, open vs. closed AI stacks, Vercel's 20x larger functions, Chrome extensions powered by AI, and the value of strong writing in the AI era.
-今日日报涵盖15位AI构建者的动态，涉及Claude Code子代理、OpenAI Codex改进、开源与闭源AI之争、Vercel 20倍更大函数、AI驱动的Chrome扩展，以及AI时代写作能力的价值。
+AI Builders Digest — 2026-07-02
 
----
+== OFFICIAL BLOGS ==
 
-## 🤖 Claude @claudeai
+No new official blog posts today.
 
-Claude is now available in Microsoft Foundry, generally available and hosted on Azure.
-Claude 现已在 Microsoft Foundry 上正式发布，托管于 Azure 平台。
-
-Azure customers can access Claude Opus 4.8 and Claude Haiku 4.5, with Azure authentication, billing, and commitment retirement fully supported.
-Azure 用户可访问 Claude Opus 4.8 和 Claude Haiku 4.5，支持 Azure 身份验证、计费和承诺退休功能。
-
-Inference runs on Azure infrastructure operated by Anthropic; prompt caching and extended thinking are supported today, with more capabilities on the way.
-推理运行在 Anthropic 运营的 Azure 基础设施上；提示缓存和扩展思考功能今日已上线，更多能力即将推出。
-
-Source: https://x.com/claudeai/status/2071653958905467027
-Source: https://x.com/claudeai/status/2071653962013446586
+== X / TWITTER ==
 
 ---
 
-## 🛠️ Boris Cherny @bcherny (Claude Code @ Anthropic)
+Boris Cherny (bcherny on X) — Anthropic Claude 产品负责人
 
-In the next version of Claude Code, subagents will run in the background by default — you can keep talking to Claude while your subagents work.
-在下一版本的 Claude Code 中，子代理将默认在后台运行——你可以在子代理工作的同时继续与 Claude 对话。
+Claude Desktop is now officially available on Linux.
+Claude Desktop 正式登陆 Linux 平台了。
 
-If you want your agent to run in the foreground, just tell Claude.
-如果你希望代理在前台运行，直接告诉 Claude 即可。
+This has been a frequently requested feature, and Anthropic has delivered.
+这是用户长期呼声极高的功能，Anthropic 终于落地了。
 
-This is a significant UX improvement that makes multi-agent workflows far less friction-heavy.
-这是一项重大用户体验改进，将大幅降低多代理工作流的摩擦。
-
-Source: https://x.com/bcherny/status/2071647677591466098
+Source: https://x.com/bcherny/status/2072000214634742243
 
 ---
 
-## 🤖 Thibault Sottiaux @thsottiaux (Codex & ChatGPT @ OpenAI)
+Thariq Shihipar (trq212 on X) — Anthropic 安全与政策团队
 
-OpenAI shipped a major improvement to Codex: reusable, inheritable permission profiles that bind OS-enforced file read/write/deny rules — including `**/*.env` — to per-domain network and Unix socket controls, plus fail-closed admin allowlists.
-OpenAI 为 Codex 推出重大改进：可复用、可继承的权限配置文件，将操作系统强制执行的文件读/写/拒绝规则（包括 `**/*.env`）与按域名划分的网络和 Unix 套接字控制绑定，并支持默认拒绝的管理员白名单。
+Thariq clarified questions around updated classifiers that caused some coding tasks to fall back to Opus.
+Thariq 就 Anthropic 更新的分类器引发部分编码任务回退至 Opus 一事作出说明。
 
-This replaces the previous coarse sandbox modes with a least-privilege-per-task approach.
-这取代了以前粗粒度的沙箱模式，实现了按任务最小权限的精细控制。
+*"A small fraction of routine coding and debugging tasks will be flagged and fall back to Opus."*
+*"只有一小部分常规编码和调试任务会被标记并回退至 Opus。"*
 
-Codex usage limits were also fully reset after an investigation into faster-than-expected usage consumption, with an extra reset credited to affected users.
-在调查使用量消耗速度超预期问题后，Codex 使用限额已完全重置，并向受影响用户额外补偿了一次重置额度。
+Anthropic is continuing to refine these safeguards to better distinguish genuine misuse from legitimate requests and reduce false positives.
+Anthropic 正在持续优化这些安全防线，以更好地区分真实滥用与合理请求，降低误报率。
 
-Source: https://x.com/thsottiaux/status/2071636285807059315
-Source: https://x.com/thsottiaux/status/2071740419030053227
+He also previewed an upcoming conference talk at AIE on agentic loops.
+他还预告了即将在 AIE 大会上关于 agentic 循环的演讲。
 
----
-
-## ✍️ Peter Yang @petergyang
-
-For writing and editing tasks, plain vanilla Claude web still beats Codex and Claude Code — Peter's hypothesis is that coding agent system prompts make them worse writers.
-对于写作和编辑任务，普通版 Claude 网页端依然优于 Codex 和 Claude Code——Peter 的推测是，编码代理的系统提示让它们在写作方面表现变差。
-
-He also has "spicy takes" on restricted access vs. open source AI that he's planning to rant about in a single consolidated post.
-他还对 AI 访问限制与开源问题有很多"辛辣观点"，计划在一篇文章中集中发表。
-
-Source: https://x.com/petergyang/status/2071731343390851519
-Source: https://x.com/petergyang/status/2071730786886435261
+Source: https://x.com/trq212/status/2072185565076988326
+Source: https://x.com/trq212/status/2072185566695977161
+Source: https://x.com/trq212/status/2072202267563082180
 
 ---
 
-## 🧠 Aaron Levie @levie (CEO @ Box)
+Aaron Levie (levie on X) — Box CEO
 
-Aaron zeroes in on the central AI debate: if a closed stack stays perpetually at the frontier by a wide margin, vertical integration and gatekeeping can work indefinitely.
-Aaron 直击 AI 核心辩题：如果闭源技术栈始终大幅领先前沿，垂直整合与技术管控就能无限期地维持优势。
+Levie shared results from Box AI's internal benchmark testing Claude Sonnet 5 on complex enterprise document work.
+Aaron Levie 分享了 Box AI 内部基准测试 Claude Sonnet 5 在复杂企业文档任务上的表现。
 
-But if open-weight models remain a close second, the dynamics flip entirely — openness becomes the competitive moat.
-但如果开源权重模型始终紧随其后，格局将完全逆转——开放性将成为真正的竞争护城河。
+*"Sonnet 5 holds frontier-class quality on complex multi-step work and pulls ahead of Sonnet 4.6 in several core enterprise domains like Energy (+4.7pp), Retail (+4.4pp), and Professional Services (+2.6pp)."*
+*"Sonnet 5 在复杂多步骤任务中保持了前沿级质量，并在能源（+4.7pp）、零售（+4.4pp）、专业服务（+2.6pp）等核心企业领域超越了 Sonnet 4.6。"*
 
-This is the most important question in AI strategy right now.
-这是当前 AI 战略中最重要的问题。
+Notably, Sonnet 5 caught errors in financial documents that the source reports themselves missed — including flagging all three loan covenant violations in a due diligence task, not just the ones the document admitted.
+值得注意的是，Sonnet 5 发现了原始文档中被遗漏的财务错误——包括在尽职调查任务中识别出所有三项贷款契约违约，而不仅仅是文件中承认的那几项。
 
-Source: https://x.com/levie/status/2071775583072375214
+Source: https://x.com/levie/status/2072046374045249671
 
----
+Levie also offered a substantive take on the Anthropic/Fable resolution and what it means for the future of frontier model releases.
+他还就 Anthropic 与 Fable 的事件达成和解发表了实质性看法，分析其对未来前沿模型发布的意义。
 
-## 🌐 Guillermo Rauch @rauchg (CEO @ Vercel)
+*"What we have now is the initial precedent for what frontier model releases (or at least those that have significant coding and cyber capabilities) could look like going forward."*
+*"我们现在拥有的，是前沿模型发布未来走向的初始先例——至少对那些具备重大编码和网络能力的模型而言。"*
 
-Vercel shipped 20x larger functions, enabling significantly more complex serverless workloads.
-Vercel 推出了 20 倍更大的函数支持，大幅提升了无服务器工作负载的复杂度上限。
+He called for an efficient review framework that doesn't bottleneck every future incremental model update.
+他呼吁建立高效的审查框架，避免让每次后续的增量模型更新都陷入繁琐的审查流程。
 
-He also teased that "you can deploy anything and everything to Vercel" — with more details coming the next day.
-他还预告"你可以将任何东西部署到 Vercel"，更多细节次日揭晓。
+Source: https://x.com/levie/status/2072172275017879829
 
-Source: https://x.com/rauchg/status/2071716510389662153
-Source: https://x.com/rauchg/status/2071718135799927224
+Levie cited new data from Ramp and Box's own survey of 1,600+ companies showing that higher AI adoption correlates with headcount growth, not reduction — with 79% of mature AI adopters expecting headcount to rise over the next three years.
+Levie 引用了 Ramp 和 Box 对 1600 多家公司调查的新数据，显示 AI 采用率越高的公司员工人数反而在增长，而非减少——79% 的成熟 AI 采用者预期未来三年员工人数将进一步增加。
 
----
-
-## 🔬 Swyx @swyx (AI Engineer)
-
-Swyx is live at the AIE (AI Engineer) Expo, reporting on packed workshops from Snyk, Atlassian, Neo4j, Arize AI, Akamai, and Together Compute — all running simultaneously against a competing OpenAI workshop next door.
-Swyx 正在 AIE（AI Engineer）博览会现场，报道了来自 Snyk、Atlassian、Neo4j、Arize AI、Akamai 和 Together Compute 的爆满工坊——这些活动与隔壁的 OpenAI 工坊同时举行。
-
-His take: "People are hungry for this" — grassroots AI engineering demand is very real.
-他的感受："大家对此非常渴望"——草根 AI 工程师的需求是真实存在的。
-
-He's also prescribing "one pill" for anyone who still disrespects scaling laws.
-他还为那些仍然不尊重 Scaling Laws 的人"开了一粒药"。
-
-Source: https://x.com/swyx/status/2071634789669777716
-Source: https://x.com/swyx/status/2071692683182252317
+Source: https://x.com/levie/status/2071992799109824562
 
 ---
 
-## 🎨 Ryo Lu @ryolu_ (Design @ Cursor)
+Guillermo Rauch (rauchg on X) — Vercel CEO
 
-Ryo shipped a new app for capturing ideas anywhere — desks and laptops optional.
-Ryo 发布了一款随时随地捕捉灵感的新 App，桌子和电脑都不是必需的。
+Vercel launched "Vercel Services," enabling developers to collocate multiple backend runtimes (Python API, Express server, React SPA) in a single Vercel project — with shared deploys, rollbacks, observability, and internal networking.
+Vercel 推出 "Vercel Services"，允许开发者在单个 Vercel 项目中同时部署多种后端运行时（Python API、Express 服务器、React SPA），支持统一部署、回滚、可观测性和内部网络通信。
 
-Source: https://x.com/ryolu_/status/2071652629890088964
-Source: https://x.com/ryolu_/status/2071655130152493297
+Source: https://x.com/rauchg/status/2071966055308607765
 
----
+Rauch also announced a partnership with Shopify to push the agentic web forward.
+Rauch 还宣布与 Shopify 合作，共同推动 agentic web 的发展。
 
-## 🏗️ Thariq @trq212 (Claude Code @ Anthropic)
-
-Thariq's current writing process: do engineering work → talk to people → brainstorm with Claude → write a draft → give 1-2 talks → rewrite → give another talk → rewrite the intro → wake up at 6am and rewrite it again → publish.
-Thariq 目前的写作流程：做工程工作 → 与人交流 → 用 Claude 头脑风暴 → 写初稿 → 做1-2次演讲 → 修改 → 再做一次演讲 → 重写引言 → 凌晨6点起床再次修改 → 发布。
-
-The AI-assisted writing loop is real — and iterative beyond what most people expect.
-AI 辅助写作循环是真实存在的——其迭代程度超出了大多数人的预期。
-
-Source: https://x.com/trq212/status/2071787401475960892
+Source: https://x.com/rauchg/status/2072044844965400589
 
 ---
 
-## 💡 Zara Zhang @zarazhangrui
+Amjad Masad (amasad on X) — Replit CEO
 
-Zara built a Chrome extension that converts "read later" lists into actual calendar blocks: save 5 articles → the extension auto-books a 30-minute "reading block" on Google Calendar, links included.
-Zara 开发了一款 Chrome 扩展，将"稍后阅读"列表转化为实际的日历块：保存5篇文章 → 扩展自动在 Google 日历上预订30分钟的"阅读时间"，并附上链接。
+Masad highlighted Etched, noting that AI inference costs are high partly because today's workloads run on generic pre-LLM hardware.
+Amjad Masad 介绍了 Etched，指出 AI 推理成本之所以高昂，部分原因是当今的工作负载仍在为大模型出现之前设计的通用硬件上运行。
 
-No account, no server, everything local — and open source.
-无需账户，无需服务器，完全本地运行，且开源。
+*"Etched is the first system designed from the ground up for modern inference."*
+*"Etched 是第一个从底层专为现代推理架构设计的系统。"*
 
-She also echoed the Anthropic PM's insight: "The market value of writing has gone way up." Clear writing is essential for both steering AI models and building an audience.
-她还引用了 Anthropic 一位 PM 的洞察："写作的市场价值大幅提升。"清晰的表达对于引导 AI 模型和积累受众都至关重要。
+Source: https://x.com/amasad/status/2071992110132117740
 
-Source: https://x.com/zarazhangrui/status/2071766827345285411
-Source: https://x.com/zarazhangrui/status/2071670108033073365
-Code: https://x.com/zarazhangrui/status/2071766865245012255
+Masad also organized what he called the world's first subway hackathon.
+他还组织了一场自称"世界首个地铁黑客马拉松"的活动。
 
----
-
-## 📊 Madhu Guru @realmadhuguru (ex-Google Gemini/Veo)
-
-Madhu makes a contrarian point: the rise of strong open-weight models like GLM will actually strengthen Google's position — not weaken it.
-Madhu 提出了一个逆向观点：GLM 等强大开源权重模型的崛起实际上会增强谷歌的地位，而非削弱它。
-
-Enterprises want flexibility to run and fine-tune open models on managed platforms with enterprise-grade reliability, security, and support — and Google Cloud is perfectly positioned for that.
-企业希望能够在具备企业级可靠性、安全性和支持的托管平台上运行和微调开源模型——而谷歌云正好具备这一优势。
-
-Source: https://x.com/realmadhuguru/status/2071637885154148785
+Source: https://x.com/amasad/status/2071992670394765407
 
 ---
 
-## 💰 Garry Tan @garrytan (CEO @ Y Combinator)
+Nan Yu (thenanyu on X) — AI 研究者
 
-Garry is bullish on the physical infrastructure layer: build power and datacenters.
-Garry 对物理基础设施层持乐观态度：建设电力和数据中心。
+Yu raised an interesting framing around "distillation": by the definition currently being debated, Cursor's early training data could itself be considered distilled from Claude.
+Nan Yu 提出了一个有趣的视角：按照当前讨论中对"蒸馏"的定义，Cursor 早期的训练数据本身也可以被视为从 Claude 蒸馏而来。
 
-Source: https://x.com/garrytan/status/2071600933210100074
-
----
-
-## 📈 Matt Turck @mattturck (VC @ FirstMark)
-
-"Being the underdog, time and again, is the greatest advantage."
-"一次又一次地成为挑战者，是最大的优势。"
-
-Source: https://x.com/mattturck/status/2071806129001164934
+Source: https://x.com/thenanyu/status/2071973229070033322
 
 ---
 
-## 🎙️ PODCAST: No Priors — Re-engineering the Semiconductor Supply Chain with Intel CEO Lip-Bu Tan
+Madhu Guru (realmadhuguru on X) — AI 产品顾问
 
-**深度总结 / Deep Summary**
+Madhu argued that traditional PMs' biggest barrier to AI-native building is the absence of magical thinking.
+Madhu 认为，传统 PM 在 AI 原生构建中最大的障碍是缺乏"魔法思维"。
 
-No Priors 本期邀请了传奇投资人、Cadence 前 CEO，现任 Intel CEO Lip-Bu Tan，探讨他重塑英特尔的计划、美国政府作为大股东的影响，以及能否在美国本土制造芯片等核心议题。
-This episode of No Priors features Lip-Bu Tan — legendary investor, former CEO of Cadence, and current CEO of Intel — discussing his plan to transform Intel, the US government's role as a major shareholder, and whether chip manufacturing can be revived in the United States.
+*"A decade of frameworks, 'agile' and metric obsession has led to constraint-first, incremental thinking."*
+*"十年的框架方法论、敏捷迷信和指标执念，已经造就了一种约束优先、增量迭代的思维定式。"*
 
-**核心论点 / Central Argument**
+His prescription: imagine technology from 100 years in the future, then work backward — because that technology is already here.
+他的建议是：想象百年后的技术能带来什么体验，然后倒推——因为那种技术现在已经到来了。
 
-Lip-Bu Tan, at 66, took what many called "the hardest job in the industry" out of patriotism and belief in Intel's importance to the US semiconductor ecosystem.
-Lip-Bu Tan 在66岁时接下了许多人所说的"业界最艰难的工作"，出于对英特尔在美国半导体生态系统重要性的信念和爱国情怀。
+Source: https://x.com/realmadhuguru/status/2071970221477470694
 
-His strategy: start by strengthening the balance sheet, simplify the product line, listen to customers, and then drive next-generation leadership products.
-他的策略：首先巩固资产负债表，简化产品线，倾听客户需求，然后推动下一代领先产品。
+---
 
-The agentic AI wave has created surging demand for inference CPUs — a tailwind Intel is now positioned to capture.
-Agentic AI 浪潮创造了对推理 CPU 的爆炸性需求——英特尔现在正处于捕捉这一红利的有利位置。
+Swyx (swyx on X) — AI Engineer World's Fair 组织者
 
-Jensen Huang's $5B investment in Intel, now grown to $25B, is a landmark vote of confidence.
-Jensen Huang 对英特尔的50亿美元投资，现已增值至250亿美元，是对英特尔的里程碑式信任背书。
+Swyx reported a successful first poster sessions day at AI Engineer World's Fair (AIEWF), with more "Poaster sessions" the next day.
+Swyx 报告了 AI Engineer World's Fair（AIEWF）第一天的 Poster Sessions 圆满成功，第二天还将继续举办"Poaster Sessions"。
 
-**关键洞察 / Key Insights**
+Source: https://x.com/swyx/status/2072048730581405800
 
-Even after being asked to resign by President Trump early one morning over conflict-of-interest concerns, Lip-Bu persisted — he got a meeting, explained himself (born in Malaysia, raised in Singapore, MIT graduate, lifelong US resident), and earned back the chance.
-即使有一天清晨被特朗普总统因利益冲突问题要求辞职，Lip-Bu 也坚持了下来——他争取到了会面机会，解释了自己的背景（马来西亚出生，新加坡成长，MIT 毕业，长期居美），并赢回了机会。
+---
 
-His investing philosophy: 9 out of 10 companies change their business plan halfway through — so he always backs entrepreneur teams, not solo founders.
-他的投资哲学：十家公司中有九家会在中途改变商业计划——因此他始终支持创业者团队，而非单打独斗的创始人。
+Garry Tan (garrytan on X) — Y Combinator CEO
 
-URL: https://www.youtube.com/watch?v=asCgCv2XB4s
+Tan noted that Gbrain (a personal knowledge base tool) becomes most useful when fed 10,000+ markdown files.
+YC CEO Garry Tan 指出，Gbrain（个人知识库工具）在接入 10,000 个以上 Markdown 文件后才真正发挥效用。
+
+Source: https://x.com/garrytan/status/2071910876496757145
+
+---
+
+Zara Zhang (zarazhangrui on X) — 投资人 / AI 观察者
+
+Zhang shared a quote on taste: *"Taste isn't valuable because it's impossible to copy. Taste is valuable exactly because it defines what everyone else chooses to copy."*
+张扎拉分享了一句关于品味的话：*"品味之所以有价值，不是因为无法复制，而恰恰是因为它定义了所有人都争相效仿的方向。"*
+
+Source: https://x.com/zarazhangrui/status/2072197929138602079
+
+---
+
+Peter Steinberger (steipete on X) — iOS / AI 工具开发者
+
+Steinberger dropped a sharp insight: *"Price per token != cost per task."*
+Peter Steinberger 抛出了一个犀利观点：*"每 token 价格 ≠ 每任务成本。"*
+
+This is a crucial framing for anyone evaluating model economics in production.
+这对任何评估生产环境中模型经济性的人来说都是关键框架。
+
+Source: https://x.com/steipete/status/2072144627474579925
+
+---
+
+Aditya Agarwal (adityaag on X) — 前 Dropbox CTO
+
+*"It is a very strange state of the world where the models powering innovation in the USA are Chinese open source models."*
+*"这真是一种奇特的世界状态——推动美国创新的模型，居然是中国的开源模型。"*
+
+Source: https://x.com/adityaag/status/2071983952894837062
+
+---
+
+Claude AI (claudeai on X) — Anthropic 官方账号
+
+Anthropic officially launched Claude Sonnet 5, now the default model on Free and Pro tiers.
+Anthropic 正式发布了 Claude Sonnet 5，现已成为 Free 和 Pro 用户的默认模型。
+
+Sonnet 5 offers performance close to Opus 4.8 at lower prices, with substantial improvements in reasoning, tool use, coding, and knowledge work.
+Sonnet 5 在推理、工具使用、编码和知识工作方面有实质性提升，性能接近 Opus 4.8，但价格更低。
+
+Early access partners found that Sonnet 5 finishes complex tasks where previous Sonnets stopped short, and checks its own output without being asked.
+早期访问合作伙伴发现，Sonnet 5 能完成之前 Sonnet 版本中途放弃的复杂任务，并能主动自查输出结果。
+
+Introductory pricing is in effect through August 31.
+入门价格有效期至 8 月 31 日。
+
+Source: https://x.com/claudeai/status/2072017452335087996
+Source: https://x.com/claudeai/status/2072017455833100494
+Source: https://x.com/claudeai/status/2072017457057853480
+
+---
+
+== PODCASTS ==
+
+Training Data — Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis
+https://www.youtube.com/watch?v=f6D_aiy8qyU
+
+## 一、深度总结
+
+**核心论点**
+
+本期播客的核心论点是：AI 的真正竞争优势并非来自单纯的算力堆叠，而是来自硬件与软件（乃至模型架构）的深度协同设计（hardware-software co-design）。SemiAnalysis 创始人 Dylan Patel 认为，在训练和推理成本居高不下的当下，只有将芯片、互联、软件栈和模型架构作为一个整体进行优化的公司，才能实现真正的百倍效率提升。
+
+**关键洞察**
+
+- **OpenAI 与 Anthropic 的模型架构正在显著分化**：OpenAI 倾向于更稀疏的架构，Anthropic 则更偏稠密，这直接导致两者在 GPU vs TPU 的硬件选择上走向了截然不同的路径——一旦选错硬件，模型性能就会大打折扣。
+
+- **CUDA 护城河正在被侵蚀，但被新形式的护城河取代**：大模型让写 CUDA 内核变得容易，开发者不再需要花大量精力适配 NVIDIA，但中国开源模型（DeepSeek、Kimi、阿里等）是专门为 GPU 优化的，这形成了新的生态系绑定——不是因为 CUDA，而是因为模型形状本身。
+
+- **"AI 没有 ROI"是 Dylan 最反感的谬论**：他指出，能力提升的曲线始终在向右上方延伸，只是旧 benchmark 被饱和后媒体误以为进步停滞，新 benchmark 的数字仍在飙升。
+
+- **Cerebras 等 ASIC 推理加速器面临规模天花板**：超大参数量模型（10T+）加上超长上下文（1M tokens），将使基于 SRAM 的芯片难以应对，而主流用户恰恰偏爱最顶级的模型，这对 Cerebras 的长期市场空间构成压力。
+
+- **硬件-软件协同设计将成为顶级 AI 实验室的标配**：OpenAI、Anthropic 都已 fork 了 PyTorch 或自研底层，未来的竞争不再是"买什么 GPU"，而是"我们能把整个技术栈协同优化到什么程度"。
+
+**最值得关注的信号**
+
+硬件-软件-模型三层协同设计的窗口期正在打开：选错了硬件的公司，哪怕模型能力相当，训练和推理成本也可能高出数倍。接下来值得重点追踪的是：各大实验室是否会开源更多专为其定制硬件优化的模型，以及 Google TPU 生态能否通过 Gemma 系列模型反向扩大阵营。
+
+---
+
+## 二、完整中文逐字稿
+
+**Speaker 1（Dylan Patel）| 00:00 - 00:24**
+SemiAnalysis 内部很有意思，我们有 90 个人，其中一大批是横跨整个供应链的技术工程师，另一大批则是之前在对冲基金工作的人。你就会看到这种争论——有人说，"那个不重要"；另一个人说，"但是成本呢？"；然后工程师说，"不不不，这项技术才是最酷的。"这种争论会自然而然地爆发，我们公司风格比较随意。
+
+**Speaker 1 | 00:24 - 00:32**
+考虑到我曾经是个版主，你能想象内部会发生什么。别跟猪摔跤，因为猪享受其中。
+
+**Speaker 2（Sean，Sequoia）| 00:50 - 01:04**
+我们在 SemiAnalysis 的办公室，嘉宾是 Dylan Patel。我是 Sequoia 的 Sean，旁边是我的合伙人 Sonja Huang。你所做的事情真的让人难以置信。五年前，半导体在西方并不性感。
+
+**Speaker 2 | 01:04 - 01:27**
+在东方很受关注，但西方基本上已经把它遗忘了。但你没有。你重仓进入了这个赛道，创立了这个领域可能是最权威的研究公司，从极其技术细节到供应链，再到宏观格局，持续在教育整个世界。坊间流传 SemiAnalysis 最近年收入突破了 1 亿美元。
+
+**Speaker 2 | 01:27 - 01:30**
+我不知道数字是否准确，但不管具体数字是多少，你们做得非常好。
+
+**Speaker 1 | 01:30 - 01:33**
+这个信息和其他信息一样准确。
+
+**Speaker 2 | 01:34 - 01:47**
+还有传言说你可能要成立一个风险基金。我在生态系统里经常听到有人想和 SemiAnalysis 产生关联。你们已经建立了可信的品牌。所以不管你做什么，都是成功的。
+
+**Speaker 2 | 01:47 - 01:58**
+这显然只是你旅程的开始，恭喜你取得这些成就。但这一切是怎么发生的？背景是什么，你是怎么一步步走到今天的？
+
+**Speaker 1 | 01:58 - 02:33**
+好，从我小时候说起……我在家族小生意里长大，父母开了一家汽车旅馆，我们就住在里面，后来又开了一家加油站。我经常开玩笑说，我训练的第一个神经网络，是根据顾客进门时的外貌和种族来判断他们要买哪种香烟——因为香烟都摆在柜台上方，我个子太小够不到，我得把梯子推到正确的位置。当然从技术上讲，那个年纪卖烟是不合法的，但不管怎样。
+
+**Speaker 2 | 02:33 - 02:37**
+我第一份工作也是在合法年龄之前开始的，所以有同感。
+
+**Speaker 1 | 02:37 - 03:06**
+而且没有工资，对吧？家族生意就是这样。我们有汽车旅馆，对面是加油站，有时候有人走进来，我就得判断——老白发老太太走进来，我把梯子推到 Camel 那边；换一种年龄、职业、种族的顾客，梯子推到不同的地方。我说这是我训练的第一个神经网络，因为如果我等他们告诉我，就太慢了，不如提前准备好。
+
+**Speaker 1 | 03:06 - 03:29**
+薄荷味和细长型这些区别……开玩笑归开玩笑，我就是在家族生意的环境里长大的。说到真正影响我的时刻，是我 8 岁生日前后。我的生日在 5 月，而 Xbox 360 是 4 月宣布的。我生日的时候没有要 Xbox，因为我想把这个心愿留到圣诞节——虽然我以为父母不可能在圣诞节给我买，但还是要求了。结果他们真的买了。
+
+**Speaker 1 | 03:30 - 03:56**
+快进几个月，我的表弟从阿拉巴马州过来，他的父母也开汽车旅馆，我们要在我家一起度过春假。我当然想在他面前显摆 Xbox。但就在这时候，Xbox 出了一个硬件故障——"死亡红环"。长话短说，我不得不打开机器，短接温度传感器，才把它修好。就是这样我走上了硬件这条路——打开了潘多拉的盒子。到 12 岁的时候，我已经在各种论坛上大量阅读和发帖了，正值 Reddit 把其他论坛全都吃掉的时代，于是我成了 Android、Apple、Google，以及 Intel、NVIDIA、AMD 等硬件相关版块的版主。
+
+**Speaker 1 | 04:39 - 05:33**
+我在组装 PC，在这些论坛里看、读、发帖，其中一些我还在管理。看着智能手机从非常简单发展到在架构上很多方面比 PC 还先进；同样看着 GPU 的进化；这一切都在我的视野里。因为我从小在家族小生意里长大，我总是带着经济学的视角。有一段时间，论坛上的极客们都爱 AMD GPU，我自己也买了 AMD，但从技术角度，我总是说 NVIDIA 更好——因为他们用更小的芯片实现了更好的性能和功耗效率，而且利润率更高。我 12 岁就在讨论 NVIDIA 相对 AMD 在 GPU 领域更高的利润率了。
+
+**Speaker 1 | 05:33 - 05:39**
+我从 12 岁开始当版主，一直持续到青少年时期。
+
+**Speaker 3（Sonja Huang，Sequoia）| 05:39 - 05:41**
+你还有别的奇怪爱好，还是就专注于半导体？
+
+**Speaker 1 | 05:42 - 05:48**
+我玩过大量星际争霸，曾经在北美天梯上达到宗师级。是认真的。
+
+**Speaker 3 | 05:49 - 05:50**
+所以你会对很多事情着迷然后精通？
+
+**Speaker 1 | 05:51 - 06:33**
+专注是好事。我的成绩还不错，大部分是 A，但那些我觉得无聊或不感兴趣的课就不行了——比如西班牙语，成绩不太好。但其实我现在西班牙语说得很流利，所以挺可笑的，可能是因为我后来才学的。总体来说成绩对亚裔父母来说还过得去，比大多数同学好，但我没有那种拼命刷 A 的劲头。
+
+**Speaker 3 | 06:33 - 06:42**
+好的。你基本上是从互联网自学成才的。那你什么时候决定创立 SemiAnalysis 的，创业以来最大的惊喜是什么？
+
+**Speaker 1 | 06:42 - 07:15**
+我上了大学，拿了几个和半导体不直接相关的学位，然后做了两年量化研究员……后来发生了一系列事情。首先是工作上的问题——我给公司创造了很多价值，但被人抢了功劳，虽然最终得到了部分纠正，但我和公司的信任基础已经动摇了。
+
+**Speaker 1 | 07:15 - 07:37**
+我祖父母和我们住在一起，我跟他们感情很深。我奶奶得了老年痴呆，忘记了我是谁，后来从楼梯上摔下来，不幸离世。这些都发生在 2020 年初。还有一些感情上的事。种种事情叠加在一起，把我压垮了。
+
+**Speaker 1 | 07:40 - 07:56**
+然后 COVID 来了，我哥哥说：老弟，来纳什维尔住我这里吧。原以为封控只是几周的事，结果一拖就是很久。
+
+**Speaker 1 | 07:57 - 08:13**
+在哥哥家住了几个月，我不知道自己要干什么。反正我已经不在乎那份工作了，所以发帖比以前更多。我一直在网上大量发帖，也在大量炒股——做空 COVID、做多 COVID，赚了不少。半导体短缺那时也开始了。我越来越沉迷于发帖，后来某次网上的争吵导致对方把我 doxx 了——公开了我匿名账号的真实身份。
+
+**Speaker 1 | 08:36 - 08:52**
+当时我很慌，停了三周没发帖。后来想通了：我为什么要在意？于是我开始用真名写博客，创建了 SemiAnalysis，在我 20 岁生日那天发了两篇文章。
+
+**Speaker 1 | 08:52 - 09:07**
+反响出乎意料的好。用真名、花更多精力去写，比之前在论坛灌水效果好多了。很快来了很多咨询业务。
+
+**Speaker 1 | 09:07 - 09:32**
+那段时间我处于崩溃边缘，也不知道自己想要什么，就买了一辆皮卡，买了一个床车帐篷和气垫，开车走遍了美国各地的国家公园。每周有三四天住在每晚 30 美元的汽车旅馆里工作，周末在国家公园里徒步，听半导体和 AI 相关的有声书和读教材。
+
+**Speaker 1 | 09:33 - 10:29**
+然后我在拉丁美洲旅行了一年——先和朋友，后来和当时的女友。2021 年底到 2024 年，我依然处于"漂泊"状态，住在各地。但同时，我每年参加超过 40 个行业会议，半导体供应链里任何看起来有意思的会议我都会去。你在会议上能和专家直接交流，他们也很乐意把东西告诉一个真诚好学的年轻人——尤其是半导体圈里都是老一代人，看到一个对半导体充满热情的年轻人，他们特别愿意聊。
+
+**Speaker 2 | 10:52 - 11:05**
+在供应链中，有没有哪个领域或哪次会议特别颠覆了你的认知，或者你觉得至今仍被严重低估？
+
+**Speaker 1 | 11:05 - 11:50**
+会议的质量差异很大。我最喜欢的包括 NeurIPS——2 万名 AI 研究员，年龄段和我接近，学术氛围好，还有很多派对，能学到很多。另一个极端是日本的某个化学类小会议，300 个日本人，加上 ASML、TSMC、Intel 各来 20 个人，其他人都只说日语。但我有一个技能，就是能和任何背景的人建立关系，找到共同话题。我最钟爱的小众会议是 SPIE，尤其是高级光刻和光掩模分会。第一次去的时候，90% 的内容我听不懂；读了大量资料建立了一些人脉之后，再去能听懂一半；第三次去能听懂 75%；现在去依然有很多听不懂的地方。
+
+**Speaker 1 | 34:11 - 34:35**
+所以就出现了两派观点，我可以正经地跟你论证 GPU 比 TPU 好，也可以反过来论证 TPU 比 GPU 好，但这一切都取决于硬件-软件协同设计。事实上，以 OpenAI 现在模型的走向，他们用 TPU 可能是个糟糕的决定；而以 Anthropic 和 Google 模型的走向，他们用 GPU 训练可能同样是个糟糕的决定。
+
+**Speaker 3 | 34:35 - 34:37**
+抱歉打断一下，这里的根本区别是什么？
+
+**Speaker 1 | 34:37 - 34:52**
+有很多方面，最简单的一点是矩阵乘法单元的大小不同。这直接影响你做的矩阵乘法形状、使用的注意力机制、注意力机制的结构方式、专家（experts）的结构方式。
+
+**Speaker 3 | 34:52 - 34:56**
+所以 OpenAI 和 Anthropic 正在走向截然不同的模型架构？
+
+**Speaker 1 | 34:56 - 35:22**
+我认为他们的模型架构确实差异很大。OpenAI 的模型更稀疏，这有它的优势；Anthropic 的模型虽然也是稀疏的，但整体上更稠密，有不同的优势。还有很多其他因素，比如网络拓扑。NVIDIA 的所有芯片通过 NVLink 交换机连接，最多能连 72 个 GPU；Google 没有交换机，但他们的 ICI 互联可以在超高带宽下连接 8000 个芯片，代价是你需要经过其他芯片来传递数据。这些取舍各有利弊，并且直接影响了模型架构的选择。
+
+**Speaker 3 | 35:49 - 36:13**
+我记得很长一段时间，NVIDIA 的可编程性和 CUDA 生态是公认的护城河。但我感觉过去三到六个月这个叙事在发生变化——模型公司似乎已经不介意为不同的芯片写定制内核了，Claude 和 Codex 在做这类优化工作上也非常好用。而且模型公司就那么几十家，不是几万家，所以"需要 CUDA 兼容性的大量客户"这个逻辑似乎在失效。
+
+**Speaker 1 | 36:34 - 38:00**
+CUDA 护城河，或者说软件护城河，确实至少在一定程度上被瓦解了，因为模型在写代码方面非常厉害，所有软件在这个意义上都被商品化了。但我认为，大家现在说的"CUDA 护城河"其实和 CUDA 本身没什么关系，更多是指 DeepSeek、Kimi、Zip2AI、阿里巴巴、腾讯这些公司——还有小米最近发布的很不错的模型——他们的模型是为 GPU 协同设计的，在 TPU 上跑效果往往并不好。Google 就只能自己去建开源模型生态，于是有了 Gemma 系列。这样就形成了一个新的生态绑定——不是 CUDA 本身，而是"下游产品天然针对 NVIDIA 优化"。那些用开源模型做推理 API 的公司，用开源模型做企业定制的 RL 公司，他们都被这个现实绑定了。
+
+**Speaker 1 | 38:00 - 38:46**
+如果 Google 真的开源高质量模型，同样的事情也会发生——人们会发现这些模型在 NVIDIA GPU 上跑得没那么好，于是开始租用或购买 TPU。对于小团队，你会想用所有的开源软件，比如 vLLM、PyTorch 等等。但大型实验室不需要这样——OpenAI 很早就 fork 了 PyTorch，Anthropic 和其他大公司也不依赖开源实现，他们自己 fork 或重建了底层。所以现在的逻辑是：我选最好、最具成本效益的硬件，然后把模型架构和整个基础设施软件栈都针对这个硬件进行协同设计，AI 帮我写所有那些软件。
+
+**Speaker 1 | 38:47 - 39:36**
+Cerebras？我认为他们是一家很创新的公司。在某些细分市场非常好，快速推理是一个很大的市场，我们在 SemiAnalysis 内部几乎只用快速模式。关于任务成本核算……谢谢提到这个，那是我们写的 Dark GDP 文章，我们确实会仔细跟踪每个人的 token 消耗，如果谁突然飙升，我会问一句，确认一下有没有价值，然后继续。
+
+**Speaker 1 | 39:37 - 40:52**
+我认为 Cerebras 的大风险是：最好的模型才是你真正想用快速模式运行的，而小模型不一定需要快速模式。可能金融市场是个例外，比如高频交易。但在 SRM 类芯片（如 Cerebras、Groq）上运行超大模型、超长上下文非常困难。如果 OpenAI 的模型最终不是几百亿、低万亿参数，而是 10 万亿以上参数，那就很难在 Cerebras 上部署了。而目前的数据显示，实验室的大部分收入和用量都来自它们最顶级的模型，即便价格涨了也是如此。
+
+**Speaker 2 | 41:19 - 41:32**
+你有一个很特别的能力，就是同时关注技术和经济，这是真正区分你的地方，很少有人能把这两件事都做好。
+
+**Speaker 1 | 41:32 - 42:07**
+这也是 SemiAnalysis 内部很有趣的地方——技术工程师和前对冲基金的人争论，一方说技术最酷，另一方说但成本呢？两方自然地碰撞，我作为前版主看到这些，就像当年管理论坛一样：别跟猪摔跤，因为猪享受其中。
+
+**Speaker 1 | 42:30 - 43:00**
+让我最反感的说法是"AI 没有 ROI"。还有"模型没在进步"——有人说模型不会推理、能力碰壁了，我就想说，能力的曲线一直在往右上方走。他们说某个 benchmark 没提升，那是因为那个 benchmark 已经被做到 90% 饱和了，当然要换新的 benchmark，新 benchmark 上的数字同样在飙升。
+
+**Speaker 1 | 43:00 - 44:00**
+半导体很复杂，我不怪任何人不理解。我自己从 12 岁开始研究，研究了十八年，依然每天都在学新东西。昨天我才了解到一种年销售额达 1000 亿的化学品，居然是我以前从没听说过的。每个芯片都用到它，每个工艺步骤都有它，但你就是不知道。我觉得最好笑的是：有人把所有事实都摆在面前，但得出了完全错误的结论。我的态度不是生气，而是尽快把正确的结论找出来。
+
+**Speaker 2 | 44:10 - 44:32**
+AI 是当今世界最重要的事情，有很多近期瓶颈需要讨论。但有没有什么更长远的东西，比如十年维度上，让你真的感到兴奋？比如硅光子，你觉得在十年维度上被低估还是高估？
+
+**Speaker 1 | 44:32 - 45:56**
+太空这个赛道在十年维度上太令人兴奋了——太空数据中心、小行星，SpaceX 的愿景让人着迷。在半导体侧，co-package optics（共封装光学）大家都知道在本十年内会发生，争论只是在哪一年——2027、2028、2029 还是 2030？我觉得更有意思的是一些在硅层、软件抽象层和模型层同时创新的公司，比如 Nim Rouse——他在尝试把模拟计算、基于能量的模型等等所有这些在一起做。可能不会成功，或者肯定不会很快成功，但那是一种真正的长远押注。我见到 Naveen 很早，大概在 2020 年——我在网上怼了他，他开始回复我，然后我们转到私信，再到通话，他是我在整个半导体行业里正式认识的第一个重要人物。
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
