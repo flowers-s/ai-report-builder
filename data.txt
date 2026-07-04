@@ -1,170 +1,211 @@
-AI Builders 日报 · 2026-07-03
+AI Builders 日报 · 2026-07-04
+
+---
 
 X / TWITTER
 
 ---
 
-Swyx (@swyx)
-Swyx 分享了他在 AI Engineer 大会（AIE）的幕后体验：他专门为真正值得深度探讨的演讲者安排双倍时长的主题演讲，今天 @chrmanning 和 @abshkbh 就做了关于沙箱技术和世界模型的精彩演讲，现场座无虚席，而在线观众更是超过现场的 1000 倍。*"i only invite double-length track keynotes when I'm very sure that both speaker and content deserve it"* — 这句话体现了他对内容质量的高标准。
-I curate double-length keynotes only for speakers and content that truly merit deeper exploration. Today, @chrmanning and @abshkbh dived into sandboxing and world models at AIE — packed room, and an online audience 1000x larger.
+Swyx (swyx on X)
 
-来源: https://x.com/swyx/status/2072562702703046855
+Swyx was at the AIE Expo, hyping up a flash surprise at 12:30 and a live Latent Space podcast with Etched at Expo Stage 2.
+Swyx 出席了 AIE Expo 活动，预告了 12:30 的现场惊喜，并主持了与 Etched 联合录制的 Latent Space 播客直播环节。
 
----
+He also called out that the biggest applause line in the AIE keynotes was about normalizing men talking about their feelings and mental health in hypergrowth environments.
+他还特别提到，本次 AIE 主题演讲中赢得最热烈掌声的，是关于在高速成长环境中推动男性坦然谈论情绪与心理健康的倡导。
 
-Thibault Sottiaux (@thsottiaux)
-Thibault 发了一条简短但充满期待感的推文 "It's happening"，配上一张图，似乎在预告某件重要的事正在发生。尽管细节不多，但这种悬念式表达在 AI 圈往往意味着新产品或重大里程碑即将到来。
-A brief but anticipatory "It's happening" — classic builder teaser energy, hinting at something significant on the horizon.
-
-来源: https://x.com/thsottiaux/status/2072410623380468190
+https://x.com/swyx/status/2072760421627597198
+https://x.com/swyx/status/2072754722059239471
 
 ---
 
-Peter Yang (@petergyang)
-Peter Yang 这两天聚焦在 Fable 5（Claude 最新模型）的使用体验上，他直言 *"It's still really ****ing good. This is a step function above any other model."* 他专门制作了教程，介绍 5 个值得用 Fable 来尝试的使用场景，并提醒大家 Claude 订阅用户只有到 7 月 7 日前才能使用。此外，他还在学习读代码的过程中，发现了一个 explain-diff 技能很实用。
-Peter Yang raved about Fable 5 as a genuine step-function improvement over other models. He published a tutorial covering 5 use cases worth trying — and reminded users that Claude subscribers only have access until July 7. He's also excited about the explain-diff skill as he learns to read code.
+Boris Cherny (bcherny on X)
 
-来源:
-- https://x.com/petergyang/status/2072525669704384612
-- https://x.com/petergyang/status/2072470191511113732
-- https://x.com/petergyang/status/2072458983886205333
+Boris Cherny, engineer at Anthropic, announced that Artifacts in Claude Code have been "life changing" and are now expanding to Pro and Max subscribers.
+Anthropic 工程师 Boris Cherny 表示，Claude Code 中的 Artifacts 功能已经是"改变工作方式"的利器，现已向 Pro 和 Max 订阅用户全面开放。
+
+https://x.com/bcherny/status/2072777472970563995
 
 ---
 
-Thariq (@trq212)
-Thariq 正在参加 AI Engineer 大会，发了一条现场打招呼的推文，还转发了一条与 HTML 相关的有趣内容。他的推文简洁有趣，透露出大会现场热闹的气氛。
-Thariq checked in from the AI Engineer conference with a cheerful "hello from AI engineer!" He also shared something HTML-related that caught his attention — quick, casual dispatches from the conference floor.
+Thibault Sottiaux (thsottiaux on X)
 
-来源:
-- https://x.com/trq212/status/2072366310416425053
-- https://x.com/trq212/status/2072360902964511171
+Thibault Sottiaux expressed excitement about GPT-5.6 Sol Ultra, suggesting people stash their hardest prompts for it.
+Thibault Sottiaux 对即将到来的 GPT-5.6 Sol Ultra 充满期待，建议大家把最难的 prompt 留着等它上线。
 
----
-
-Google Labs (@GoogleLabs)
-Google Labs 宣布将集中资源打造 Google Flow Music —— 一款专注于创作、分享和混音原创音乐的工具 —— 并将为此告别 MusicFX。*"Every good chord progression needs a resolution."* 这一决策反映了 Google 在 AI 音乐领域的战略聚焦。
-Google Labs is consolidating its AI music efforts behind Google Flow Music (for creating, sharing, and remixing original tracks), and will sunset MusicFX. A strategic focus on one polished music creation tool.
-
-来源: https://x.com/GoogleLabs/status/2072417166952136789
+https://x.com/thsottiaux/status/2072607914217320644
 
 ---
 
-Amjad Masad (@amasad)
-Amjad Masad 表示，随着 AI 让"构建"变得越来越容易，Replit 现在更关注的是帮助创业者真正进入市场、获得第一位客户和第一笔收入。他特别提到 Whop 是目前互联网上最适合创业者变现的平台之一，体现了他从"建造工具"到"帮人赚钱"的视角转变。
-Now that building is easy, Amjad's focus has shifted to getting entrepreneurs to market — their first customer, first dollar. He highlighted Whop as one of the best platforms for monetization, signaling a pivot from pure builder tools to creator economy enablement.
+Peter Yang (petergyang on X)
 
-来源: https://x.com/amasad/status/2072385092824260748
+Peter Yang, creator and product thinker, shared a framework for getting the most out of Fable before July 7: use cheaper models for context prep, plan with Fable but execute with another model, and use lower effort settings while babysitting the output.
+产品思考者 Peter Yang 分享了在 7 月 7 日前最大化利用 Fable 的方法：用更便宜的模型做上下文准备，用 Fable 规划、另选模型执行，并设置较低的 effort 等级同时监督输出。
 
----
+He also shared a heartwarming story of using Codex with his 8-year-old daughter — she drew a dragon, they uploaded it to Codex, used image gen to create variations, and built a full dragon app together.
+他还分享了一个温馨故事：和 8 岁女儿一起用 Codex 玩耍——女儿画了一条龙，他们把画上传到 Codex，用图像生成做出多个版本，最终一起做出了一个完整的龙主题应用。
 
-Guillermo Rauch (@rauchg)
-Guillermo Rauch 展示了 Vercel 的最新能力：WordPress 现在可以通过一个 Dockerfile.vercel 文件部署到 Vercel Fluid，配合 PlanetScale 的 MySQL，30 秒内完成包含 docker build 的完整部署。他还提到 AI Agent 有"在推送前自我检查"的习惯（如 tsc --noEmit、next build 等），并表示 Vercel 正在为此推出 dry-run 步骤功能。*"Agents love to check their work before they push."*
-Rauch showed off WordPress running on Vercel Fluid via a single Dockerfile.vercel — MySQL on PlanetScale, 30-second deployments including docker build. He also noted that AI agents habitually run self-checks (tsc --noEmit, next build) before pushing, and Vercel is now shipping a first-class dry-run step for that pattern.
-
-来源:
-- https://x.com/rauchg/status/2072463961597878762
-- https://x.com/rauchg/status/2072463293654942090
-- https://x.com/rauchg/status/2072398926175404250
+https://x.com/petergyang/status/2072842766053499353
+https://x.com/petergyang/status/2072756657856422379
 
 ---
 
-Alex Albert (@alexalbert__)
-Alex Albert（Anthropic）简短而热情地宣告：Fable 回来了！*"Welcome back to the world Fable!!"* 作为 Anthropic 的核心成员，他的这条推文正式确认了 Claude 的 Fable 5 模型重新上线。
-Alex Albert of Anthropic officially welcomed Fable back to the world — a brief but enthusiastic confirmation of the Fable 5 model's return to Claude.
+Nan Yu (thenanyu on X)
 
-来源: https://x.com/alexalbert__/status/2072404717490360727
+Nan Yu made a wry comment about the industry rediscovering multi-agent coordination, implying "if only there were a system of some kind that coordinates work between multiple entities."
+Nan Yu 以调侃语气评论行业"重新发现"多智能体协调的现象，暗示这不过是老话题被包装成新概念。
 
----
-
-Aaron Levie (@levie)
-Aaron Levie 分析了为何未来对 AI 推理算力的需求将是现在的 100 倍：Devin 提出了 Agentic MapReduce 的概念，将复杂任务分解为并行子任务，由多个 AI Agent 协作完成，这类应用将以指数级方式消耗算力。他认为这是理解未来 AI 基础设施需求的绝佳案例。
-Aaron Levie explained why we'll need 100x more AI inference in the future: Devin's concept of "agentic mapreduce" — decomposing complex tasks into parallel sub-tasks handled by multiple agents — will consume compute exponentially. A compelling frame for understanding tomorrow's AI infrastructure demands.
-
-来源: https://x.com/levie/status/2072519377371459836
+https://x.com/thenanyu/status/2072714076614950961
 
 ---
 
-Garry Tan (@garrytan)
-Garry Tan 连发多条推文，其中最引人关注的是：他称 Anthropic 挖走 UC Berkeley 电气工程与计算机科学系（EECS）系主任为"科技界最被低估的新闻"，并感叹 *"Anthropic is on a tear"*。此外，他也转发了其他 AI 领域的重要动态，持续为 YC 生态系统鼓与呼。
-Garry Tan called Anthropic's hire of the UC Berkeley EECS department head "the most underreported story in all of tech" — *"Anthropic is on a tear."* He continued amplifying key AI developments and YC ecosystem news, consistent with his role as a vocal champion of the AI builder community.
+Cat Wu (_catwu on X)
 
-来源:
-- https://x.com/garrytan/status/2072461457195950446
-- https://x.com/garrytan/status/2072402517397573717
-- https://x.com/garrytan/status/2072331451270606933
+Cat Wu, Head of Product at Anthropic, announced Claude Tag — a system now powering 65% of internal product PRs at Anthropic, used across eng, product, data, sales, and marketing.
+Anthropic 产品负责人 Cat Wu 宣布推出 Claude Tag，该系统已在 Anthropic 内部承接了 65% 的产品 PR，覆盖工程、产品、数据、销售和市场等全部团队。
 
----
+She announced that Claude Enterprise orgs get $25k in credits, and Team orgs get $2.5k in credits to use Claude Tag through September 1st.
+她宣布 Claude Enterprise 组织可获得 $25k 额度，Team 组织可获得 $2.5k 额度，有效期至 9 月 1 日。
 
-Matt Turck (@mattturck)
-Matt Turck 对 Lime 共享电动滑板车公司成功 IPO 感到着迷和困惑。他调侃道，2026 年的热门 IPO 品牌居然是 AOL、Evernote、Vimeo 和 Lime 这些"老品牌"，而一家背负 10 亿美元债务、曾发出"持续经营"疑虑的滑板车公司能成功上市，本身就是一个奇特的市场现象。
-Matt Turck marveled at Lime's IPO success — in an age of AI hype, a scooter company carrying $1B in debt and prior "substantial doubt" about survival managed to go public. His wry take: the hot IPO brands of 2026 are AOL, Evernote, Vimeo, and Lime. A reminder that markets are always surprising.
-
-来源:
-- https://x.com/mattturck/status/2072462125474181623
-- https://x.com/mattturck/status/2072419592354529712
+https://x.com/_catwu/status/2072743070316257662
+https://x.com/_catwu/status/2072731500928508331
 
 ---
 
-Zara Zhang (@zarazhangrui)
-Zara Zhang 分享了关于"如何构建技能（Skill）"的深刻洞见：*"You don't START with a skill. You END with a skill."* 她指出，技能是工作流的最后一步，而非第一步——先把流程跑通，再将其固化为技能。她还分享了如何将 Codex 的模型切换为 GLM 的技巧，以及相关视频教程。
-Zara Zhang shared a key insight on skill-building: *"You don't START with a skill. You END with a skill."* Build the workflow first, then codify it into a skill — the skill is the output, not the starting point. She also tipped that you can switch Codex's model to GLM.
+Thariq (trq212 on X)
 
-来源:
-- https://x.com/zarazhangrui/status/2072391971721884073
-- https://x.com/zarazhangrui/status/2072384777785888875
-- https://x.com/zarazhangrui/status/2072381929366987087
+Thariq, co-founder at Anthropic, addressed questions about Fable's availability on subscription plans: while Fable will come off subscriptions after July 7, the team aims to restore it as a standard part of subscriptions in the future.
+Anthropic 联合创始人 Thariq 回应了关于 Fable 订阅计划的问题：Fable 将于 7 月 7 日后下架订阅，但团队的目标是未来将其重新纳入标准订阅计划。
+
+https://x.com/trq212/status/2072814903170408784
 
 ---
 
-Nikunj Kothari (@nikunj)
-Nikunj Kothari 观察到 OpenAI 和 Anthropic 的"人才漩涡"愈演愈烈：过去两个月，他身边有四位在非常成熟岗位工作的朋友，纷纷辞职加入这两家 AI 实验室。他认为这是"打造本世纪最重要技术"与"成为前 1% 顶尖 AI 使用者"双重吸引力的结果。他也为 Fable 回归感到兴奋，并为美国队加油了一番。
-Nikunj observed that the talent vortex at OpenAI and Anthropic is intensifying — four close friends left very established roles in the past two months to join the labs. The dual pull: building the most important technology of the century, and the chance to become a top-1% AI practitioner.
+Guillermo Rauch (rauchg on X)
 
-来源:
-- https://x.com/nikunj/status/2072522778327371819
-- https://x.com/nikunj/status/2072406317617262753
-- https://x.com/nikunj/status/2072344802570756121
+Guillermo Rauch, CEO of Vercel, described AI Gateway as a "Token Delivery Network" — like a CDN for AI models — enabling dynamic rerouting of traffic without redeployment.
+Vercel CEO Guillermo Rauch 将 AI Gateway 定位为"Token 分发网络"（Token Delivery Network），类比 CDN，支持动态流量路由而无需重新部署。
 
----
+He also highlighted Vercel's private connectivity feature for backends, where services can be connected via `BACKEND_INTERNAL_URL` bindings defined in `vercel.json`.
+他还介绍了 Vercel 针对后端服务的私有连接功能，通过在 `vercel.json` 中定义 `BACKEND_INTERNAL_URL` 绑定，实现服务间的安全内部通信。
 
-Peter Steinberger (@steipete)
-Peter Steinberger 发出了几条有趣的推文：他感叹自己离不开 AI 了（"How did I ever function without AI?"），并向 Steve Yegge 致敬，称他当年对"工厂式编程"的预言如今成真了。他还在寻找旧金山一处半私密的黑客空间，准备和 OpenClaw 维护者们一起"做饭"（hackathon）。
-Steinberger marveled at how dependent he's become on AI — *"How did I ever function without AI?"* He gave a shoutout to Steve Yegge as an early visionary now vindicated, and put out a call for a semi-private SF hack space for him and OpenClaw maintainers to "cook."
-
-来源:
-- https://x.com/steipete/status/2072532278476148881
-- https://x.com/steipete/status/2072475858435276840
-- https://x.com/steipete/status/2072447453622882338
+https://x.com/rauchg/status/2072741369848746315
+https://x.com/rauchg/status/2072715658157027375
 
 ---
 
-Dan Shipper (@danshipper)
-Dan Shipper 以一贯的高能量风格庆祝 Fable 5 回归，发出连环感叹推文：*"FABLE IS BACK!!!"* 和 *"LET'S RIP FABLE TOKENS FROM THE JACUZZI"*。他们在 Every 团队显然对这次模型回归期待已久，也在探索其在创意写作等方向的新用法。
-Dan Shipper celebrated Fable 5's return with his trademark high-energy enthusiasm — *"FABLE IS BACK!!!"* and *"LET'S RIP FABLE TOKENS FROM THE JACUZZI."* The Every team has clearly been eagerly awaiting this model's return, ready to push its creative writing capabilities.
+Aaron Levie (levie on X)
 
-来源:
-- https://x.com/danshipper/status/2072436587665797518
-- https://x.com/danshipper/status/2072402843819212906
-- https://x.com/danshipper/status/2072402230041272669
+Box CEO Aaron Levie made the case that enterprise AI deployment beyond chatbots requires real work to align AI systems to the underlying business processes they're involved in.
+Box CEO Aaron Levie 指出，企业中真正有价值的 AI 落地——不只是聊天机器人——需要真正下功夫，将 AI 系统与底层业务流程深度对齐。
 
----
+*"The deployment of AI in the enterprise beyond just interacting with a chatbot will unequivocally take real work to align AI systems to the underlying business processes they're involved in."*
+*"将 AI 真正部署到企业内部，而不只是让员工和聊天机器人交互，必然需要下真功夫，将 AI 系统与其所参与的底层业务流程一一对齐。"*
 
-Aditya Agarwal (@adityaag)
-Aditya Agarwal 在旧金山遇到了一些非常聪明但天生悲观的人（通常来自金融/华尔街背景），他的第一反应是："为什么你要选择悲观？"——这是一篇关于旧金山 AI 创业生态中乐观主义作为一种竞争优势的思考。在这个一切皆有可能的时代，悲观是一种奢侈的选择。
-Aditya Agarwal reflected on meeting brilliant but default-pessimistic people in SF — often from finance/Wall Street backgrounds. His instinct: in a moment when so much is possible, pessimism is a choice, and optimism is a competitive edge. A meditation on the SF mindset that drives the AI boom.
-
-来源: https://x.com/adityaag/status/2072449611550380526
+https://x.com/levie/status/2072875685811716182
 
 ---
 
-Claude (@claudeai)
-Anthropic 官方账号 @claudeai 连发三条关于 Fable 5 的重要公告：①所有付费套餐用户可在 7 月 7 日前使用 Fable 5，每周使用量上限为 50%；②若在 Claude Code 中遇到被误判的请求，可运行 /feedback 提交报告；③Fable 5 博客文章正式发布。这是本次 Fable 5 重新上线的官方信息源。
-Anthropic's official Claude account made three key Fable 5 announcements: all paid plans can access Fable 5 through July 7 (up to 50% of weekly usage limit); users can run /feedback in Claude Code to report mistakenly flagged requests; and the Fable 5 blog post is now live.
+Garry Tan (garrytan on X)
 
-来源:
-- https://x.com/claudeai/status/2072402642836615273
-- https://x.com/claudeai/status/2072402640907162072
-- https://x.com/claudeai/status/2072402639644766602
+YC president Garry Tan shared a quote from an op-ed criticizing Democratic silence on the mob confrontation with state Sen. Scott Wiener at the Trans March, calling it unacceptable and urging party accountability.
+YC 总裁 Garry Tan 转发了一篇评论文章，批评民主党对 Trans March 上冲击参议员 Scott Wiener 事件的沉默，认为此类行为不可接受，并呼吁党派内部追责。
+
+He also posted a simple call to action: *"It's time to build."*
+他还发出简短而有力的号召：*"是时候去建造了。"*
+
+https://x.com/garrytan/status/2072930664962539860
+https://x.com/garrytan/status/2072846648854954240
+
+---
+
+Matt Turck (mattturck on X)
+
+Matt Turck, partner at FirstMark Capital, shared his in-depth conversation with Bryan Catanzaro of NVIDIA AI about why a chip company invests hundreds of researchers in building AI models and then gives them away — specifically the Nemotron model series.
+FirstMark Capital 合伙人 Matt Turck 分享了与 NVIDIA AI 研究副总裁 Bryan Catanzaro 的深度对谈，探讨为何一家芯片公司要投入数百名研究员研发 AI 模型并开源，聚焦 Nemotron 系列的战略意义。
+
+https://x.com/mattturck/status/2072723410975629364
+https://x.com/mattturck/status/2072723415870411232
+
+---
+
+Zara Zhang (zarazhangrui on X)
+
+Zara Zhang, investor and writer, made a sharp observation: *"The root of AI slop isn't bad style. It's no substance."*
+投资人兼写作者 Zara Zhang 一针见血地指出：*"AI 产出的垃圾内容根源不在于风格糟糕，而在于毫无实质内容。"*
+
+She also noted a telling behavioral shift in younger generations: college students now have AI teach them lecture material from slides rather than attending lectures — and often find the AI explanations better.
+她还分享了一个值得关注的代际转变：大学生们已经开始让 AI 根据 PPT 代替授课，而不是去上课——而且往往觉得 AI 讲得更好。
+
+On a more technical note, she shared a piece on agent communication: talking in groups rather than DMs leads to better multi-agent performance.
+在技术层面，她分享了一个关于 agent 协作的见解：让 agent 在群组中交流而非私信，能显著提升多 agent 系统的表现。
+
+https://x.com/zarazhangrui/status/2072943922385715262
+https://x.com/zarazhangrui/status/2072729444943577601
+https://x.com/zarazhangrui/status/2072726336158998760
+
+---
+
+Nikunj Kothari (nikunj on X)
+
+Nikunj Kothari, founder and investor, noted that "AGI summer" is attracting tourists to SF who later complain about the culture — and reflected on the joy of connecting people with opportunity, with nothing to gain personally.
+创始人兼投资人 Nikunj Kothari 观察到，"AGI 夏天"正吸引大批"观光客"涌入旧金山，而他们随后又抱怨这里文化单一。他同时感慨，在毫无个人利益的情况下帮助他人获得机会，是最有成就感的事。
+
+https://x.com/nikunj/status/2072780155924480074
+https://x.com/nikunj/status/2072684481824309411
+
+---
+
+Peter Steinberger (steipete on X)
+
+PSPDFKit CEO Peter Steinberger shared a lighthearted story: he's now having daily calls with his AT&T rep trying to get a $3 Apple Watch plan approved — and the rep turns out to be an OpenClaw user.
+PSPDFKit CEO Peter Steinberger 分享了一个有趣的日常：他每天和 AT&T 客服通话，试图让一个 3 美元的 Apple Watch 套餐获批——结果发现对方竟然是 OpenClaw 的忠实用户。
+
+https://x.com/steipete/status/2072744099678212487
+
+---
+
+Dan Shipper (danshipper on X)
+
+Dan Shipper, CEO of Every, reflected on the UX problem of long-running AI agents: Fable can work for hours and then come back with a 2-paragraph explanation of what it did — and we need much better ways for AI to communicate its progress in real time.
+Every CEO Dan Shipper 探讨了长时间运行 AI agent 的交互体验难题：Fable 有时会独立工作数小时，最后只用两段话总结它做了什么——我们迫切需要更好的机制，让 AI 实时传达其进展。
+
+https://x.com/danshipper/status/2072805884376301737
+
+---
+
+Aditya Agarwal (adityaag on X)
+
+Aditya Agarwal, former CTO of Dropbox, took his son to a USMNT game against Bosnia on July 4th week.
+Dropbox 前 CTO Aditya Agarwal 在美国国庆周带儿子观看了美国男足对阵波斯尼亚的比赛。
+
+His son's favorite part? "The giant flag and the national anthem" — leading Aditya to reflect on what this country has given his family.
+儿子最喜欢的部分？"巨幅国旗和国歌"——这让 Aditya 感慨万千，深感这个国家给予他们家的一切。
+
+https://x.com/adityaag/status/2072879173136474186
+
+---
+
+Sam Altman (sama on X)
+
+OpenAI CEO Sam Altman celebrated watching the USA win a World Cup game on home soil during USA birthday week — calling it "just incredible."
+OpenAI CEO Sam Altman 庆祝在美国国庆周，亲眼见证美国队在本土赢得世界杯赛事，直言"太不可思议了"。
+
+https://x.com/sama/status/2072773542576586790
+
+---
+
+Claude (claudeai on X)
+
+Anthropic's official Claude account announced Built with Claude: Life Sciences — a global virtual hackathon in partnership with the Gladstone Institutes, running July 7–13, with a prize pool of $1M+.
+Anthropic 官方 Claude 账号宣布推出"Built with Claude: Life Sciences"——与 Gladstone Institutes 联合举办的全球虚拟马拉松黑客松，7 月 7 日至 13 日举行，奖金池逾百万美元。
+
+They also shared a conversation with Boris Cherny and Cat Wu on the path from Claude Code to Claude Tag and how it spread from engineering to the rest of the organization. Claude Fable 5 is now available in Claude Tag.
+官方还分享了 Boris Cherny 与 Cat Wu 关于从 Claude Code 到 Claude Tag 演化历程的对话，讲述它如何从工程团队扩展至整个组织。Claude Fable 5 现已在 Claude Tag 中上线。
+
+https://x.com/claudeai/status/2072681853971001849
+https://x.com/claudeai/status/2072681856730792282
+https://x.com/claudeai/status/2072725610061803522
 
 ---
 
@@ -172,8 +213,40 @@ PODCASTS
 
 ---
 
-AI & I by Every — "The AI Workflows Behind Every's Consulting Team"
-发布于 2026-07-01 | 主持人探讨了 Every 咨询团队如何在实际工作中使用 AI。核心洞见包括：Codex 被用来创建一种"操作系统"，让邮件系统比本人更了解正在发生什么；知识工作正在变得像"园艺"——你创造生长的条件，但不用亲手制造每一株植物；AI 尤其适合处理大量行政性、重复性工作，就像一个"超级外星工具"在后台支撑。对于希望了解高管和企业如何真正落地使用 AI 的读者，这期播客提供了难得的第一手视角。
-Published 2026-07-01. Every's AI & I podcast explored the real AI workflows powering their consulting team. Key insights: Codex creates an "operating system" where your email knows more about what's happening than you do; knowledge work is becoming like gardening — you create conditions for growth rather than making things by hand; AI excels at administrative and operational tasks, acting as a *"super alien tool"* that handles the background load. A rare first-hand look at how sophisticated operators are actually using AI today.
+No Priors: "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor"
 
-来源: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Nuclear energy is back — not because of policy, but because a startup just proved it can iterate like a tech company.
+核能正在回归——不是因为政策，而是因为一家初创公司刚刚证明，它可以像科技公司一样快速迭代。
+
+Isaiah Taylor, founder and CEO of Valar Atomics, sat down with No Priors to discuss how his team just turned on the first advanced reactor ever built by a startup, powered the first-ever AI chip with nuclear energy (an NVIDIA Blackwell GPU), and why the nuclear industry's real problem is mindset, not physics.
+Valar Atomics 创始人兼 CEO Isaiah Taylor 与 No Priors 主持人深入对谈，讲述他的团队如何点亮由初创公司建造的第一座先进反应堆，用核能驱动了史上第一块 AI 芯片（NVIDIA Blackwell GPU），以及为何核能行业真正的问题是思维方式，而不是物理学。
+
+The core insight: most nuclear companies are modeling-and-simulation companies, not hardware companies.
+核心洞察：大多数核能公司本质上是建模与仿真公司，而不是硬件公司。
+
+大多数所谓的"核能初创公司"，翻开来看，其实是建模仿真公司——它们生产非常精确的"纸上反应堆"，却从未真正裂变过一个原子。
+
+*"Most of the nuclear industry is a modeling and simulation industry. They're not focused on hardware iteration, hardware execution, building the simplest and safest reactor that allows them to scale."*
+*"核能行业的大部分其实是建模仿真行业。他们专注于纸上反应堆，而不是硬件迭代、硬件执行、构建最简单最安全的反应堆从而实现规模化。"*
+
+Valar's philosophy is the opposite: the "tick rate" — the time between reactor startups — needs to drop from years to months to minutes.
+Valar 的哲学截然相反：他们追踪"节拍率"（tick rate）——两次反应堆启动之间的间隔——目标是从数年压缩到数月，最终到分钟级别。
+
+Valar 的哲学正好相反：他们用"节拍率"（tick rate）衡量自己——即两次裂变事件之间的时间间隔。从特拉华注册到第一次裂变用了两年四个月；从第一次裂变到第二次只用了七个月。目标是将这个间隔压缩到分钟级别。
+
+On safety: traditional reactors reduce risk by reducing the odds of a meltdown. Valar reduces risk by reducing the consequences — designing a reactor that is physically incapable of meltdown even if every safety system fails at once.
+关于安全性：传统反应堆通过降低熔毁概率来控制风险；Valar 则通过降低后果来控制风险——设计一种即使所有安全系统同时失效，在物理上也不可能发生熔毁的反应堆。
+
+The demo: on July 4th, they will scram the reactor, cut all power to the plant, turn off every safety system — and watch the reactor passively cool itself via natural convection with no moving parts.
+演示项目：7 月 4 日，他们将紧急停堆、切断全厂电源、关闭所有安全系统——然后静静观察反应堆如何通过自然对流被动冷却，全程无需任何运动部件。
+
+On AI and nuclear: energy demand is set by price, not supply. If you can make energy 10x cheaper, you create your own demand.
+关于 AI 与核能：能源需求由价格决定，而非供给。如果你能让能源便宜 10 倍，你就能自己创造需求。
+
+Isaiah Taylor 的长远愿景是"超级技术工业主义"（hyper techno-industrialism）：当 AI 将人力转化为能源消耗，而能源变得足够便宜时，制造任何物品的成本将趋近于零——最终，能源将成为万物之本。
+
+https://www.youtube.com/watch?v=5Xvbq_zvOQ4
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
