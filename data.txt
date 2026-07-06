@@ -1,201 +1,198 @@
-AI Builders 日报 · 2026-07-05
+AI Builders 日报 · 2026-07-06
 
-Today's digest covers 16 AI builders active on X/Twitter, plus 1 podcast episode. Highlights include deep dives on agentic AI, context wars, Fable 5 experiments, and World Cup takes.
-今日日报涵盖16位活跃AI创业者的最新推文，以及1期播客。重点话题：智能体自我改进、AI上下文争夺战、Fable 5实战体验，以及世界杯见闻。
+AI Builders Digest — 2026-07-06
+AI Builders 日报 — 2026-07-06
 
----
-
-**Swyx** (@swyx)
-
-"Tools for thought" builders spent a decade making beautiful canvas demos — only to get completely outpaced by low-contrast, poorly-designed CLIs just with better inference.
-"工具思维"领域的建设者们花了十年打磨精美的画布演示——结果被设计粗糙但推理更强的命令行工具彻底碾压。这是对UI驱动产品思路的一次辛辣讽刺。
-*"i often think about the irony of how 'tools for thought' people spent like a decade making cool pretty demos with canvases and then got completely mogged by low contrast poorly designed CLIs just with better inference"*
-🔗 https://x.com/swyx/status/2073220591684096087
-
-Swyx also noted that Factorio has "broken containment" — implying the game's complexity-management philosophy is now influencing how people think about AI systems.
-Swyx还提到Factorio已经"突破封锁"——这款游戏的复杂系统管理哲学正在影响AI系统设计思维。
-🔗 https://x.com/swyx/status/2073202219944649015
+Today's digest covers insights from AI builders, developers, and tech leaders — filtered from the noise, focused on what matters.
+今日日报涵盖 AI 构建者、开发者和科技领袖的洞见——滤去噪音，聚焦真正重要的内容。
 
 ---
 
-**Thibault Sottiaux** (@thsottiaux)
-
-A reflective "what could have been" moment — sharing an image that hints at an alternative path not taken in AI product development.
-一次"如果当初那样做"的反思——分享了一张暗示AI产品发展另一条路的图片，引人深思。
-🔗 https://x.com/thsottiaux/status/2073079378808901663
+X / TWITTER
 
 ---
 
-**Peter Yang** (@petergyang)
+Nan Yu (Product at OpenAI / thenanyu on X)
 
-Peter is buzzing after a great soccer match, calling it "the world's best game" — a rare non-AI moment from a prolific AI and product writer.
-Peter因一场精彩的足球比赛而兴奋不已，称其为"世界上最好的运动"——这是这位多产AI与产品撰稿人难得的非AI时刻。
-🔗 https://x.com/petergyang/status/2073255820297637907
+The best way to catch bugs is to use the product and see if you can break it.
+发现 Bug 最好的方式，是真正使用产品，看自己能不能把它搞坏。
 
-He also reminded his 110,000+ newsletter subscribers that a single LinkedIn DM can genuinely change your life.
-他也提醒他的11万+订阅者：一条LinkedIn私信真的可以改变你的人生。
-🔗 https://x.com/petergyang/status/2073231884059128063
+You're not going to find most bugs by dead-reckoning the code.
+死盯代码本身很难发现大多数 Bug。
 
----
+You're reviewing the code itself for architecture and API design — to control the increase in technical debt.
+代码审查的核心在于架构和 API 设计——用来控制技术债的增长。
 
-**Nan Yu** (@thenanyu)
+Source: https://x.com/thenanyu/status/2073410299680428445
 
-Tailwind CSS is winning: Bootstrap's creators are adopting it — a massive vote of confidence for the utility-first styling approach.
-Tailwind CSS正在赢得胜利：Bootstrap的创造者们正在采用它——这是对"utility-first"设计理念的重大背书。
-*"Supreme victory for tailwind that it's being adopted by the company that brought you bootstrap"*
-🔗 https://x.com/thenanyu/status/2073194274435317767
+Nan Yu also shared a sharp observation about AI autonomy and risk: if an AI model drops every production table, who gets fired — the model or the engineer?
+Nan Yu 还就 AI 自主性与风险提出了一个尖锐问题：如果 AI 把所有生产环境的表都删了，被开除的是模型还是工程师？
 
-Sharp observation on AI training data quality: if a field doesn't produce good training data, it was probably full of low-quality content to begin with.
-关于AI训练数据质量的犀利观察：如果某个领域产出不了好的训练数据，那它原本就充斥着低质量内容。
-🔗 https://x.com/thenanyu/status/2073070255031615877
+*"If you drop every production table does the model get fired or do you get fired."*
+「如果你把所有生产表都删了，是模型被开除，还是你被开除。」
 
-The best medical scenario isn't AI replacing doctors — it's a doctor who spends meaningful time on your case and is equipped with LLMs.
-最理想的医疗场景不是AI取代医生，而是一位能花足够时间在你案例上并配备了LLM工具的医生。
-🔗 https://x.com/thenanyu/status/2073066919200956793
+Source: https://x.com/thenanyu/status/2073410944969932877
 
----
+And a nod to flow state: noting that AI coding under pressure sounds exactly like how human engineers sound — a sign of genuine AGI-like behavior.
+他还提到 flow 状态：AI 在压力下写代码的表现，听起来和人类工程师一模一样——这或许是真正 AGI 行为的一个信号。
 
-**Cat Wu** (@_catwu)
+*"When I wrote code by hand I would utter a constant stream of profanities while in flow state. So this is basically AGI."*
+「我手写代码时，进入 flow 状态会不停爆粗口。所以这基本上就是 AGI 了。」
 
-Pro tip: Use Claude Code with computer use to set up Claude Tag automatically — just point it to the docs and it'll connect your GitHub repo, data warehouse, Google Drive, and more.
-实用技巧：使用Claude Code配合computer use自动设置Claude Tag——只需指向文档，它会自动连接你的GitHub仓库、数据仓库、Google Drive等。
-🔗 https://x.com/_catwu/status/2073149354412822738
-
-Cat is also asking: what are you building with Fable 5 this long weekend? She's collecting demos in her replies.
-Cat还在问：这个长周末你在用Fable 5构建什么？她正在收集大家的演示项目。
-🔗 https://x.com/_catwu/status/2073147672106873001
+Source: https://x.com/thenanyu/status/2073412466436878666
 
 ---
 
-**Thariq** (@trq212)
+Cat Wu (Data Scientist / _catwu on X)
 
-The most important part of working with Fable is discovering your own unknowns so you can prompt it better. HTML artifacts are the key to finding those blind spots.
-使用Fable最重要的一步是发现自己的"未知盲区"，这样才能更好地提示它。HTML artifacts是找到这些盲区的关键。
-🔗 https://x.com/trq212/status/2073101078145724589
+One of the things I love about Claude Fable 5 is that it knew to use propensity score matching in my retention analysis without me asking.
+我喜欢 Claude Fable 5 的一点是，它在我做留存分析时，不需要我提示，就自动使用了倾向评分匹配（propensity score matching）。
 
-Thariq shared that his AIE talk was based on this insight, with kudos to Geoffrey Litt for helping refine the ideas — including adding quizzes as a discovery mechanism.
-Thariq透露他的AIE演讲正是基于这一洞察，并感谢Geoffrey Litt帮助完善了这些想法，包括用测验作为发现机制。
-🔗 https://x.com/trq212/status/2073101082428047681
+It's exciting to see Fable 5's improved judgment across all of its work — from writing emails and docs, to complex analysis.
+看到 Fable 5 在各类任务中判断力的提升令人振奋——无论是写邮件、写文档，还是复杂分析。
 
----
-
-**Amjad Masad** (@amasad)
-
-Replit now has video generation. Try it.
-Replit现在支持视频生成，欢迎体验。
-🔗 https://x.com/amasad/status/2073003971287863717
+Source: https://x.com/_catwu/status/2073439890482794966
 
 ---
 
-**Guillermo Rauch** (@rauchg)
+Guillermo Rauch (CEO of Vercel / rauchg on X)
 
-Agentic self-improvement is the next frontier: give your agent the ability to introspect past runs, spot inefficiencies and redundant tool calls, then produce new prompts and skills. Agent observability isn't optional — it's the foundation.
-智能体自我改进是下一个前沿：让你的智能体能够反思过去的运行，发现低效和冗余的工具调用，然后自动生成新的提示词和技能。智能体可观测性不是可选项——它是基础。
-*"Agentic self-improvement. Give your agent the ability to introspect its past runs, spot inefficiencies, errors, redundant tool calls, and produce new prompts and skills. That's why agent observability is the foundation."*
-🔗 https://x.com/rauchg/status/2073132174958841887
+Guillermo shared an animated visualization of token spend race across AI labs, drawn from Vercel AI Gateway's lifetime usage — aggregating trillions of tokens from millions of developers per month.
+Guillermo 分享了一个动态可视化，展示了各 AI 实验室在 token 消耗上的竞争，数据来源于 Vercel AI Gateway 的全量使用记录——每月汇聚来自数百万开发者的万亿级 token。
 
-Also in a patriotic mood, quoting the Declaration of Independence on July 4th weekend.
-同时，在独立日周末，Guillermo引用了《独立宣言》，充满爱国情怀。
-🔗 https://x.com/rauchg/status/2073127044708479429
+The data reveals Anthropic's dominance and the rise of open-weight AI models.
+数据显示了 Anthropic 的主导地位，以及开源权重 AI 模型的崛起。
 
----
+*"Fascinating to see the fluctuations among the labs, Anthropic's dominance, and the rise of open weight AI."*
+「看到各实验室之间的波动、Anthropic 的主导地位以及开源 AI 的崛起，非常有趣。」
 
-**Aaron Levie** (@levie)
-
-The AI battle is a battle for context. Agent effectiveness comes down entirely to whether the agent has the right context at the right time. Whoever wins the context war wins the AI era.
-AI之战就是上下文之战。智能体的有效性完全取决于它是否在正确的时间获得正确的上下文。谁赢得了上下文战争，谁就赢得了AI时代。
-*"The battle in AI is shaping up to be a battle for context. Everything in AI is about making sure that agents are effective as possible. That effectiveness comes down to whether the agent has the right context."*
-🔗 https://x.com/levie/status/2073138135014502777
+Source: https://x.com/rauchg/status/2073563586270781674
 
 ---
 
-**Garry Tan** (@garrytan)
+Thibault Sottiaux (AI Engineer at Anthropic / thsottiaux on X)
 
-NIMBYs prefer performative virtue signaling over actually solving the housing crisis by building more housing. Build, don't perform.
-NIMBY们更喜欢表演性的道德展示，而不是真正解决住房危机——即大量建房。应该行动，而非表演。
-🔗 https://x.com/garrytan/status/2073104683636547909
+Thibault asked an interesting engineering question to the community: what is something surprising that Codex still can't do well, that should have been fixed a while ago?
+Thibault 向社区提出了一个有趣的工程问题：Codex 至今仍做不好哪些事情，而这些本应早就解决了？
 
-AI is about to transform healthcare: specialist wait times are going up just as AI is ready to improve care quality 100x — the timing couldn't be better for patients.
-AI即将变革医疗：专科医生等待时间不断增长，而AI正准备将医疗质量提升100倍——对患者来说时机再好不过。
-🔗 https://x.com/garrytan/status/2073053799791710301
+This kind of public reflection is valuable for setting realistic expectations of AI coding tools.
+这种公开反思对于合理设定 AI 编程工具的预期很有价值。
 
----
+Source: https://x.com/thsottiaux/status/2073551549494596079
 
-**Matt Turck** (@mattturck)
+He also shared a funny interaction with Sol (an AI assistant) involving arithmetic on emoji counts — a lighthearted reminder that AI can still stumble on seemingly simple tasks.
+他还分享了一段与 AI 助手 Sol 的有趣对话，涉及对 emoji 数量进行算术运算——一个轻松的提醒：AI 在看似简单的任务上仍可能出错。
 
-Full World Cup energy: Matt is completely captivated by the Argentina vs. Cabo Verde match — calling it the best of the tournament so far and praising the Cinderella story of Cabo Verde.
-满满的世界杯激情：Matt完全被阿根廷vs佛得角的比赛吸引，称其为本届杯赛最精彩的比赛，并赞扬佛得角的灰姑娘故事。
-🔗 https://x.com/mattturck/status/2073208255564681548
-
-He also has a simple tactical note for Argentina: *"Look for Messi → pass to Messi → Messi scores → Repeat."*
-他也给阿根廷提了一条简单的战术建议："找梅西→传给梅西→梅西进球→重复。"
-🔗 https://x.com/mattturck/status/2073194332463509961
+Source: https://x.com/thsottiaux/status/2073554978053005607
 
 ---
 
-**Zara Zhang** (@zarazhangrui)
+Peter Steinberger (Founder of PSPDFKit/Nutrient / steipete on X)
 
-People are less willing to pay for tools because they think they can build them with coding agents. What they'll actually pay for is expertise — the feeling of hiring someone who knows what they're doing.
-人们越来越不愿意为工具付费，因为他们觉得可以用编程智能体自己搭建。他们真正愿意付费的是专业知识——那种雇用了解行情的专家的感觉。
-*"People are getting less willing to buy tools. If it's just a tool, they figure they can build it themselves with coding agents. What they'll pay for is the feeling of hiring expertise they don't have."*
-🔗 https://x.com/zarazhangrui/status/2073295900395606401
+Peter teased the next version of his tool (likely PSPDFKit/APIService), which will show exactly when usage resets expire — giving power users better visibility into their token/usage cycles.
+Peter 预告了他工具的下一个版本（应为 PSPDFKit/APIService），将显示使用量重置的确切到期时间——让高级用户更清楚地掌握 token/使用周期。
 
-Tweeting frequently becomes easier once it becomes a lens rather than a task — you start seeing your day and the world as content.
-频繁发推变得更容易，一旦它成为一种视角而非任务——你开始用内容的眼光看待每一天和这个世界。
-🔗 https://x.com/zarazhangrui/status/2073280650300596414
+Source: https://x.com/steipete/status/2073482942513565713
 
 ---
 
-**Nikunj Kothari** (@nikunj)
+Dan Shipper (CEO of Every / danshipper on X)
 
-Despite being a vocal Gemini critic, Nikunj acknowledges it's still the only place where one API key gives you everything: Flash for fast cheap long-context, and a full suite of capabilities.
-尽管是Gemini的公开批评者，Nikunj承认它仍是唯一能用一个API key获得一切的地方：Flash用于快速廉价的长上下文处理，加上完整的能力套件。
-🔗 https://x.com/nikunj/status/2073151491557478883
+Dan shared a notable observation: OpenAI has integrated Codex directly into ChatGPT — meaning users can now run agentic coding tasks from within the ChatGPT interface.
+Dan 分享了一个重要动态：OpenAI 已将 Codex 直接集成到 ChatGPT 中——用户现在可以在 ChatGPT 界面内直接运行代理式编程任务。
 
-Conspiracy theory: AI labs secretly release major models right before long weekends — Opus 4.5 before Thanksgiving, Fable 5 before July 4th — giving people time to tinker and play.
-阴谋论：AI实验室秘密选择在长周末前发布重大模型——Opus 4.5在感恩节前，Fable 5在7月4日前——让大家有时间折腾和玩耍。
-🔗 https://x.com/nikunj/status/2073071325644816440
+*"Yo dawg we heard you like Codex in ChatGPT"*
+「好家伙，听说你想在 ChatGPT 里用 Codex」
 
----
+Source: https://x.com/danshipper/status/2073586548545638459
 
-**Peter Steinberger** (@steipete)
+He also shared a fun learning from a podcast: he's been mispronouncing the names of famous mathematicians his entire life.
+他还分享了一个有趣的收获：他一直以来都在误读著名数学家的名字。
 
-Peter fed Fable 80,000 of his own tweets so it could roast him better. The result? Pure comedy gold.
-Peter把自己的8万条推文喂给了Fable，让它能更好地"嘲讽"他。结果？纯粹的喜剧黄金。
-🔗 https://x.com/steipete/status/2073295890857758810
-
-Hidden gem for Codex users: if you think it's bad at design, try the prompt *"use imagegen to re-imagine this design and implement that"* — it changes everything.
-给Codex用户的隐藏技巧：如果你觉得它不擅长设计，试试这个提示词"use imagegen to re-imagine this design and implement that"——这会改变一切。
-🔗 https://x.com/steipete/status/2073277317464682723
+Source: https://x.com/danshipper/status/2073422764275364153
 
 ---
 
-**Dan Shipper** (@danshipper)
+Garry Tan (CEO of Y Combinator / garrytan on X)
 
-Clarifying the Fable 5 benchmark confusion: it's the same model, but it does fall back to Opus 4.8 slightly more often, so benchmarks are measuring a blend. Skill issue.
-澄清Fable 5基准测试的混乱：这是同一个模型，但它确实稍微更多地回退到Opus 4.8，所以基准测试测的是两者的混合。操作问题。
-🔗 https://x.com/danshipper/status/2073097796941484486
+Garry continued his vocal advocacy for housing supply in San Francisco, arguing that the city must build more housing and stop subsidizing demand.
+Garry 继续为旧金山的住房供给大声疾呼，主张城市必须建设更多住房，停止补贴需求端。
 
-Token cost reality check: a new personal iOS app end-to-end costs 5M tokens, clearing your prod bug backlog costs 20M tokens, and unnecessarily detailed replies to all your unread messages costs 30M tokens.
-Token成本现实检验：一个新的个人iOS应用端到端需要500万token，清理线上bug积压需要2000万token，对所有未读消息写不必要的详细回复需要3000万token。
-🔗 https://x.com/danshipper/status/2073076447992746379
+He directly called out NIMBY opposition and criticized those who block housing development while attacking people doing constructive work.
+他直接点名批评 NIMBY（邻避主义）的反对声音，并批评那些阻碍住房开发、同时攻击建设者的人。
 
----
+*"We want to build housing and make the city safe. They want to destroy housing, jobs and make the city unsafe. Make it make sense!"*
+「我们想建住房、让城市更安全。他们想毁掉住房和工作机会，让城市更不安全。讲不通！」
 
-**Claude AI** (@claudeai)
-
-Spotlight on Squidsoup — a collective of artists and designers creating immersive experiences with sound, light, and space. Claude AI caught up with them before one of their largest live performance projects to date.
-聚焦Squidsoup——一个用声音、光线和空间创造沉浸式体验的艺术家与设计师集体。Claude AI在他们迄今最大的现场表演项目前与他们进行了交流。
-🔗 https://x.com/claudeai/status/2073028947478995406
+Source: https://x.com/garrytan/status/2073558419412500564
 
 ---
 
-**🎙 PODCAST**
+Sam Altman (CEO of OpenAI / sama on X)
 
-**The MAD Podcast with Matt Turck**
-*Why NVIDIA Is Giving Away AI Models | Bryan Catanzaro*
+On July 4th, Sam shared reflections on America's 250th anniversary — expressing gratitude for the country's founding ideals and the social experiment that followed.
+在 7 月 4 日美国独立 250 周年之际，Sam 分享了对这个国家的感悟——对其建国理念和此后伟大社会实验表达了感激之情。
 
-Bryan Catanzaro from NVIDIA explains why NVIDIA is giving away AI models for free — the strategy behind open-sourcing powerful models, how it accelerates the ecosystem, and what it means for the future of AI infrastructure.
-来自NVIDIA的Bryan Catanzaro解释了NVIDIA为何免费开放AI模型——开源强大模型背后的战略、如何加速生态系统，以及这对AI基础设施未来意味着什么。
+*"Most impressive social experiment in history."*
+「历史上最令人叹服的社会实验。」
 
-🎧 https://www.youtube.com/watch?v=Oojrfdl42LI
+*"They really nailed it with 'life, liberty, and the pursuit of happiness'."*
+「'生命、自由、追求幸福'——他们真的说到点子上了。」
+
+Source: https://x.com/sama/status/2073635910512726444
+Source: https://x.com/sama/status/2073636003215249515
+
+---
+
+(Skipped — 近期无重要动态 / No substantive AI content)
+
+- Swyx: Tweets were a shared link (no context) and a personal anecdote about a hip-hop dance crew. No AI/tech insight.
+- Peter Yang (petergyang): All three tweets were about watching a soccer match (Paraguay vs. Cape Verde). No AI content.
+- Amanda Askell (Anthropic / AmandaAskell): One tweet wishing America a happy birthday. No AI insight.
+- Matt Turck (FirstMark Capital / mattturck): Three tweets about the World Cup — France vs. Paraguay refereeing, Thierry Henry's origin story, and a fun fact about Morocco's goalkeeper. No AI content.
+- Nikunj Kothari (nikunj): One tweet about gratitude for America on July 4th. No AI/tech content.
+
+---
+
+PODCASTS
+
+---
+
+The MAD Podcast with Matt Turck
+Episode: Cloudflare CEO: The Internet's Business Model Is Dead
+URL: https://www.youtube.com/watch?v=UN47z_opfmo
+
+**核心论点**
+The central argument of this episode is that AI agents and bots have crossed a historic threshold: for the first time, bot traffic has exceeded human traffic on the internet.
+本期播客的核心论点是：AI 智能体和爬虫越过了一个历史性门槛——互联网上的 bot 流量首次超越了人类流量。
+
+Matthew Prince, CEO of Cloudflare, argues this fundamentally breaks the internet's 28-year-old advertising-based business model, because bots don't click on ads.
+Cloudflare CEO Matthew Prince 认为，这从根本上颠覆了互联网延续了 28 年的广告商业模式，因为 bot 不会点广告。
+
+**关键洞察**
+
+- Bot traffic crossed human traffic in early 2026 — much earlier than Cloudflare's internal projections from late 2025, which had estimated it wouldn't happen until end of 2027.
+  Bot 流量在 2026 年上半年就超过了人类流量——远早于 Cloudflare 2025 年底预测的 2027 年底。
+
+- In 5 years, bot traffic may be 1,000x human traffic. Prince says he'd take the "over" on that bet, given the exponential growth trajectory.
+  5 年后，bot 流量可能是人类流量的 1000 倍。Prince 表示，鉴于当前的指数增长轨迹，他愿意押"超出"这个数字。
+
+- When a human shops for a digital camera, they visit ~5 websites. When an AI agent does the same task, it visits ~5,000. That's the multiplier driving the traffic explosion.
+  人类购物时大约访问 5 个网站，AI 智能体执行同样任务时会访问约 5000 个。这个倍数正是流量爆炸的驱动因素。
+
+- "Agent," "bot," and "crawler" are synonyms — they all mean a machine accessing resources instead of a human with a browser. The framing just depends on whether you want to sound positive (agent) or icky (crawler).
+  "智能体"、"bot"和"爬虫"是同义词——都指代机器（而非浏览器里的人类）访问资源。只是措辞上，想听起来积极就说"agent"，想听起来糟糕就说"crawler"。
+
+- The concept of "brand" will have to be reinvented. Brands exist as a shortcut for human recognition; in an agentic world where bots have infinite patience to discover everything, the entire logic of branding changes.
+  "品牌"的概念需要重新发明。品牌是人类认知的捷径；而在智能体的世界里，bot 有无限耐心去探索一切，品牌逻辑将彻底改变。
+
+**最值得关注的信号**
+The most actionable takeaway: the internet's entire monetization stack — advertising, brand, SEO, click-through — was built for human eyeballs.
+最值得关注的信号：互联网整个变现体系——广告、品牌、SEO、点击率——都是为人类眼球设计的。
+
+With bot traffic dominating, every company building on top of the internet needs to start thinking now about what a "bot-native" business model looks like.
+随着 bot 流量占据主导，每一家依托互联网构建业务的公司，现在就需要开始思考什么是"bot 原生"的商业模式。
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
