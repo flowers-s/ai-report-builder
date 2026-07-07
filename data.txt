@@ -1,198 +1,165 @@
-AI Builders 日报 · 2026-07-06
+AI Builders 日报 · 2026-07-07
 
-AI Builders Digest — 2026-07-06
-AI Builders 日报 — 2026-07-06
-
-Today's digest covers insights from AI builders, developers, and tech leaders — filtered from the noise, focused on what matters.
-今日日报涵盖 AI 构建者、开发者和科技领袖的洞见——滤去噪音，聚焦真正重要的内容。
+Today's digest covers 14 AI builders sharing insights on agent workflows, AI leverage, fundraising dynamics, and more — plus a podcast on test-time compute breakthroughs.
+今日日报涵盖14位AI创业者的最新动态，话题包括AI工作流、智能体管理、融资文化变革，以及一期关于推理时算力突破的播客。
 
 ---
 
-X / TWITTER
+Peter Yang (@petergyang)
+
+Excited to share upcoming podcast episodes soon — and celebrating a personal milestone with a push toward 100K YouTube subscribers by his birthday on July 9 (currently at 98.5K). He's also clearly enjoying the Euro football action!
+Peter Yang 预告即将发布的播客新节目，同时向粉丝发出小小请求：希望在7月9日生日前突破YouTube 10万订阅（目前已达98,500）。他也在激动地观看欧洲杯赛事！
+
+Sources:
+- https://x.com/petergyang/status/2073930836551032858
+- https://x.com/petergyang/status/2073966701629374820
+- https://x.com/petergyang/status/2073945318283252167
 
 ---
 
-Nan Yu (Product at OpenAI / thenanyu on X)
+Nan Yu (@thenanyu)
 
-The best way to catch bugs is to use the product and see if you can break it.
-发现 Bug 最好的方式，是真正使用产品，看自己能不能把它搞坏。
+Nan Yu argues that "bragging about running 10 Claude Code tabs is just theater" — real productivity isn't about tab count. He also makes a sharp point: the "real-time strategy game" model of managing AI agents is a dead end, since AI already beats 99%+ of human players and outmicros them by a huge margin. Managing agents like RTS units fundamentally misunderstands the scale advantage AI brings.
+Nan Yu 直言，炫耀同时开10个 Claude Code 标签页不过是表演，真正的生产力不在于标签数量。他还犀利指出：把管理AI智能体类比为即时战略游戏操作的思路已经走进死胡同——AI本就以压倒性优势超越人类玩家，用"微操"思维管理智能体根本误解了AI的规模优势。
 
-You're not going to find most bugs by dead-reckoning the code.
-死盯代码本身很难发现大多数 Bug。
-
-You're reviewing the code itself for architecture and API design — to control the increase in technical debt.
-代码审查的核心在于架构和 API 设计——用来控制技术债的增长。
-
-Source: https://x.com/thenanyu/status/2073410299680428445
-
-Nan Yu also shared a sharp observation about AI autonomy and risk: if an AI model drops every production table, who gets fired — the model or the engineer?
-Nan Yu 还就 AI 自主性与风险提出了一个尖锐问题：如果 AI 把所有生产环境的表都删了，被开除的是模型还是工程师？
-
-*"If you drop every production table does the model get fired or do you get fired."*
-「如果你把所有生产表都删了，是模型被开除，还是你被开除。」
-
-Source: https://x.com/thenanyu/status/2073410944969932877
-
-And a nod to flow state: noting that AI coding under pressure sounds exactly like how human engineers sound — a sign of genuine AGI-like behavior.
-他还提到 flow 状态：AI 在压力下写代码的表现，听起来和人类工程师一模一样——这或许是真正 AGI 行为的一个信号。
-
-*"When I wrote code by hand I would utter a constant stream of profanities while in flow state. So this is basically AGI."*
-「我手写代码时，进入 flow 状态会不停爆粗口。所以这基本上就是 AGI 了。」
-
-Source: https://x.com/thenanyu/status/2073412466436878666
+Sources:
+- https://x.com/thenanyu/status/2073920959011074292
+- https://x.com/thenanyu/status/2073920326304460847
 
 ---
 
-Cat Wu (Data Scientist / _catwu on X)
+Amanda Askell (@AmandaAskell)
 
-One of the things I love about Claude Fable 5 is that it knew to use propensity score matching in my retention analysis without me asking.
-我喜欢 Claude Fable 5 的一点是，它在我做留存分析时，不需要我提示，就自动使用了倾向评分匹配（propensity score matching）。
+Amanda Askell reflects on the frustrating experience of trying to extract a probability from a doctor — even asking for an interval-valued subjective probability gets you nowhere, leaving you with just a hunch. She wonders if liability concerns are behind doctors' reluctance to give concrete probabilistic answers.
+Amanda Askell 感慨从医生那里获取一个概率估计有多困难——就算你明确要求一个主观概率区间，得到的也不过是对方的直觉猜测。她猜测，医生不愿给出具体概率估计，可能与法律责任顾虑有关。
 
-It's exciting to see Fable 5's improved judgment across all of its work — from writing emails and docs, to complex analysis.
-看到 Fable 5 在各类任务中判断力的提升令人振奋——无论是写邮件、写文档，还是复杂分析。
-
-Source: https://x.com/_catwu/status/2073439890482794966
+Sources:
+- https://x.com/AmandaAskell/status/2073786264059625897
 
 ---
 
-Guillermo Rauch (CEO of Vercel / rauchg on X)
+Cat Wu (@_catwu)
 
-Guillermo shared an animated visualization of token spend race across AI labs, drawn from Vercel AI Gateway's lifetime usage — aggregating trillions of tokens from millions of developers per month.
-Guillermo 分享了一个动态可视化，展示了各 AI 实验室在 token 消耗上的竞争，数据来源于 Vercel AI Gateway 的全量使用记录——每月汇聚来自数百万开发者的万亿级 token。
+Cat Wu shares a clever Claude Code workflow for sourcing job candidates: describe the role to Claude Code, have it dynamically find 100 candidates with LinkedIn/Twitter/blog/podcast links and a one-line pitch each, generate an artifact, email it to you — then just go about your day and review on the go. She's crowdsourcing other top Claude Code + workflow use cases from her followers.
+Cat Wu 分享了一个用 Claude Code 进行候选人搜寻的聪明工作流：告诉 CC 职位要求和理想背景，让它动态查找100位候选人并附上 LinkedIn/Twitter/博客/播客链接与一句话推介，生成文档发到邮箱——然后就可以出门，随时随地查看结果。她也在向粉丝征集更多 Claude Code 的顶级工作流用例。
 
-The data reveals Anthropic's dominance and the rise of open-weight AI models.
-数据显示了 Anthropic 的主导地位，以及开源权重 AI 模型的崛起。
-
-*"Fascinating to see the fluctuations among the labs, Anthropic's dominance, and the rise of open weight AI."*
-「看到各实验室之间的波动、Anthropic 的主导地位以及开源 AI 的崛起，非常有趣。」
-
-Source: https://x.com/rauchg/status/2073563586270781674
+Sources:
+- https://x.com/_catwu/status/2073806626965049686
 
 ---
 
-Thibault Sottiaux (AI Engineer at Anthropic / thsottiaux on X)
+Thariq (@trq212)
 
-Thibault asked an interesting engineering question to the community: what is something surprising that Codex still can't do well, that should have been fixed a while ago?
-Thibault 向社区提出了一个有趣的工程问题：Codex 至今仍做不好哪些事情，而这些本应早就解决了？
+Thariq offers a wry take on the San Francisco mindset: replacing "God gave me a sign" with "I was causally influenced by the ASI at the end of time to maximize EV for humanity" — a playful jab at how Bay Area rationalist/longtermist thinking reframes everyday coincidences as cosmic optimization.
+Thariq 以幽默方式调侃旧金山的思维方式：把"上帝给了我一个启示"替换成"我被时间尽头的超级AI因果影响，以最大化人类期望效益"——讽刺湾区理性主义/长期主义圈子如何用"宇宙优化"的叙事框架重新诠释日常巧合。
 
-This kind of public reflection is valuable for setting realistic expectations of AI coding tools.
-这种公开反思对于合理设定 AI 编程工具的预期很有价值。
-
-Source: https://x.com/thsottiaux/status/2073551549494596079
-
-He also shared a funny interaction with Sol (an AI assistant) involving arithmetic on emoji counts — a lighthearted reminder that AI can still stumble on seemingly simple tasks.
-他还分享了一段与 AI 助手 Sol 的有趣对话，涉及对 emoji 数量进行算术运算——一个轻松的提醒：AI 在看似简单的任务上仍可能出错。
-
-Source: https://x.com/thsottiaux/status/2073554978053005607
+Sources:
+- https://x.com/trq212/status/2073956140610924936
 
 ---
 
-Peter Steinberger (Founder of PSPDFKit/Nutrient / steipete on X)
+Amjad Masad (@amasad)
 
-Peter teased the next version of his tool (likely PSPDFKit/APIService), which will show exactly when usage resets expire — giving power users better visibility into their token/usage cycles.
-Peter 预告了他工具的下一个版本（应为 PSPDFKit/APIService），将显示使用量重置的确切到期时间——让高级用户更清楚地掌握 token/使用周期。
+Amjad Masad celebrated America's 250th anniversary with a simple, patriotic post.
+Amjad Masad 发文庆祝美国建国250周年。
 
-Source: https://x.com/steipete/status/2073482942513565713
-
----
-
-Dan Shipper (CEO of Every / danshipper on X)
-
-Dan shared a notable observation: OpenAI has integrated Codex directly into ChatGPT — meaning users can now run agentic coding tasks from within the ChatGPT interface.
-Dan 分享了一个重要动态：OpenAI 已将 Codex 直接集成到 ChatGPT 中——用户现在可以在 ChatGPT 界面内直接运行代理式编程任务。
-
-*"Yo dawg we heard you like Codex in ChatGPT"*
-「好家伙，听说你想在 ChatGPT 里用 Codex」
-
-Source: https://x.com/danshipper/status/2073586548545638459
-
-He also shared a fun learning from a podcast: he's been mispronouncing the names of famous mathematicians his entire life.
-他还分享了一个有趣的收获：他一直以来都在误读著名数学家的名字。
-
-Source: https://x.com/danshipper/status/2073422764275364153
+Sources:
+- https://x.com/amasad/status/2073840276414616006
 
 ---
 
-Garry Tan (CEO of Y Combinator / garrytan on X)
+Guillermo Rauch (@rauchg)
 
-Garry continued his vocal advocacy for housing supply in San Francisco, arguing that the city must build more housing and stop subsidizing demand.
-Garry 继续为旧金山的住房供给大声疾呼，主张城市必须建设更多住房，停止补贴需求端。
+Guillermo Rauch made a bold World Cup / Copa América prediction: USA vs Argentina in the final. He's putting his call on record!
+Guillermo Rauch 大胆预测美洲杯决赛将是美国队对阵阿根廷队——他提前留下预言，等待验证！
 
-He directly called out NIMBY opposition and criticized those who block housing development while attacking people doing constructive work.
-他直接点名批评 NIMBY（邻避主义）的反对声音，并批评那些阻碍住房开发、同时攻击建设者的人。
-
-*"We want to build housing and make the city safe. They want to destroy housing, jobs and make the city unsafe. Make it make sense!"*
-「我们想建住房、让城市更安全。他们想毁掉住房和工作机会，让城市更不安全。讲不通！」
-
-Source: https://x.com/garrytan/status/2073558419412500564
+Sources:
+- https://x.com/rauchg/status/2073822630742983062
 
 ---
 
-Sam Altman (CEO of OpenAI / sama on X)
+Garry Tan (@garrytan)
 
-On July 4th, Sam shared reflections on America's 250th anniversary — expressing gratitude for the country's founding ideals and the social experiment that followed.
-在 7 月 4 日美国独立 250 周年之际，Sam 分享了对这个国家的感悟——对其建国理念和此后伟大社会实验表达了感激之情。
+Garry Tan shares two powerful connected observations. First, from Osaka: Japan ran the experiment on hitting a ceiling — 30 years of zero growth produced the world's best trains, service, and craft. When you can't compete on "more," you compete on "better." Now we can have better AND more simultaneously. Second, a sweeping insight: the real constraint on human wealth was never resources — it was good ideas and the leverage to act on them. AI just deleted the leverage constraint for everyone. Now only the ideas remain. Go have them, then build.
+Garry Tan 在大阪分享了两个相互呼应的洞察。一是从日本的经验看：30年零增长反而造就了世界上最好的铁路、服务和工艺——当无法在"量"上竞争时，就在"质"上竞争。而现在我们可以同时实现"更多"与"更好"。二是更宏观的判断：人类财富真正的约束从来不是资源，而是好想法和将其付诸实践的杠杆。AI刚刚为所有人消除了杠杆约束，剩下的只有想法——去想，然后去创造。
 
-*"Most impressive social experiment in history."*
-「历史上最令人叹服的社会实验。」
-
-*"They really nailed it with 'life, liberty, and the pursuit of happiness'."*
-「'生命、自由、追求幸福'——他们真的说到点子上了。」
-
-Source: https://x.com/sama/status/2073635910512726444
-Source: https://x.com/sama/status/2073636003215249515
+Sources:
+- https://x.com/garrytan/status/2073881439700168925
+- https://x.com/garrytan/status/2073881438123110512
+- https://x.com/garrytan/status/2073997128222040471
 
 ---
 
-(Skipped — 近期无重要动态 / No substantive AI content)
+Matt Turck (@mattturck)
 
-- Swyx: Tweets were a shared link (no context) and a personal anecdote about a hip-hop dance crew. No AI/tech insight.
-- Peter Yang (petergyang): All three tweets were about watching a soccer match (Paraguay vs. Cape Verde). No AI content.
-- Amanda Askell (Anthropic / AmandaAskell): One tweet wishing America a happy birthday. No AI insight.
-- Matt Turck (FirstMark Capital / mattturck): Three tweets about the World Cup — France vs. Paraguay refereeing, Thierry Henry's origin story, and a fun fact about Morocco's goalkeeper. No AI content.
-- Nikunj Kothari (nikunj): One tweet about gratitude for America on July 4th. No AI/tech content.
+Matt Turck joins the "make no mistakes" meme circulating in AI circles (referencing the Fable/ultracode running joke about AI agents over-engineering solutions when told to be perfect). He also celebrated Euro football — Norway's jersey, fan celebrations, and Haaland's excellence.
+Matt Turck 加入了AI圈正在流行的"make no mistakes"梗（指AI智能体被要求"不犯任何错误"后疯狂调度资源的笑话）。他也在欧洲杯上为挪威队打气，称赞其球衣设计、球迷庆祝方式和锋线实力。
 
----
-
-PODCASTS
+Sources:
+- https://x.com/mattturck/status/2073972907491865062
+- https://x.com/mattturck/status/2073889293567693110
 
 ---
 
-The MAD Podcast with Matt Turck
-Episode: Cloudflare CEO: The Internet's Business Model Is Dead
-URL: https://www.youtube.com/watch?v=UN47z_opfmo
+Zara Zhang (@zarazhangrui)
 
-**核心论点**
-The central argument of this episode is that AI agents and bots have crossed a historic threshold: for the first time, bot traffic has exceeded human traffic on the internet.
-本期播客的核心论点是：AI 智能体和爬虫越过了一个历史性门槛——互联网上的 bot 流量首次超越了人类流量。
+Zara Zhang resurfaces a skill she built for understanding code — timely now that AI-assisted code comprehension is having a moment in the spotlight.
+Zara Zhang 重新分享了她曾构建的一个代码理解工具，正好赶上AI辅助代码理解开始受到广泛关注的时机。
 
-Matthew Prince, CEO of Cloudflare, argues this fundamentally breaks the internet's 28-year-old advertising-based business model, because bots don't click on ads.
-Cloudflare CEO Matthew Prince 认为，这从根本上颠覆了互联网延续了 28 年的广告商业模式，因为 bot 不会点广告。
-
-**关键洞察**
-
-- Bot traffic crossed human traffic in early 2026 — much earlier than Cloudflare's internal projections from late 2025, which had estimated it wouldn't happen until end of 2027.
-  Bot 流量在 2026 年上半年就超过了人类流量——远早于 Cloudflare 2025 年底预测的 2027 年底。
-
-- In 5 years, bot traffic may be 1,000x human traffic. Prince says he'd take the "over" on that bet, given the exponential growth trajectory.
-  5 年后，bot 流量可能是人类流量的 1000 倍。Prince 表示，鉴于当前的指数增长轨迹，他愿意押"超出"这个数字。
-
-- When a human shops for a digital camera, they visit ~5 websites. When an AI agent does the same task, it visits ~5,000. That's the multiplier driving the traffic explosion.
-  人类购物时大约访问 5 个网站，AI 智能体执行同样任务时会访问约 5000 个。这个倍数正是流量爆炸的驱动因素。
-
-- "Agent," "bot," and "crawler" are synonyms — they all mean a machine accessing resources instead of a human with a browser. The framing just depends on whether you want to sound positive (agent) or icky (crawler).
-  "智能体"、"bot"和"爬虫"是同义词——都指代机器（而非浏览器里的人类）访问资源。只是措辞上，想听起来积极就说"agent"，想听起来糟糕就说"crawler"。
-
-- The concept of "brand" will have to be reinvented. Brands exist as a shortcut for human recognition; in an agentic world where bots have infinite patience to discover everything, the entire logic of branding changes.
-  "品牌"的概念需要重新发明。品牌是人类认知的捷径；而在智能体的世界里，bot 有无限耐心去探索一切，品牌逻辑将彻底改变。
-
-**最值得关注的信号**
-The most actionable takeaway: the internet's entire monetization stack — advertising, brand, SEO, click-through — was built for human eyeballs.
-最值得关注的信号：互联网整个变现体系——广告、品牌、SEO、点击率——都是为人类眼球设计的。
-
-With bot traffic dominating, every company building on top of the internet needs to start thinking now about what a "bot-native" business model looks like.
-随着 bot 流量占据主导，每一家依托互联网构建业务的公司，现在就需要开始思考什么是"bot 原生"的商业模式。
+Sources:
+- https://x.com/zarazhangrui/status/2073768913310200310
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Nikunj Kothari (@nikunj)
+
+Nikunj Kothari questions the efficiency of traditional VC pitch meetings: he's still waiting for a founder who gates a VC chat until the investor has actually played with the product and brought two pieces of feedback. Why spend 30 minutes reciting a polished deck when a product brainstorm — or just a genuine get-to-know-you session — would be far more valuable? At this point, he jokes, you might as well upload your personal "prompt" to Claude for the standard pitch exchange.
+Nikunj Kothari 质疑传统VC路演的效率：他还在等待第一个要求投资人"先玩产品、带着两条反馈再来开会"的创始人。为什么要花30分钟背诵精心打磨的PPT，而不是做产品头脑风暴或真正深入地互相了解？他半开玩笑说，现在把各自的"prompt"上传给Claude来完成标准路演交流就行了。
+
+Sources:
+- https://x.com/nikunj/status/2073903310982218088
+- https://x.com/nikunj/status/2073860953687638344
+
+---
+
+Peter Steinberger (@steipete)
+
+Peter Steinberger shares a strong recommendation — details behind the link, but he's clearly enthusiastic about a tool or resource worth checking out.
+Peter Steinberger 强烈推荐某款工具或资源（详见链接），言辞间透露出十足的热情。
+
+Sources:
+- https://x.com/steipete/status/2074007001802367446
+
+---
+
+Dan Shipper (@danshipper)
+
+Dan Shipper leans into the "make no mistakes" AI meme hard: he jokes that when you ask Fable (his AI coding tool) to change a button color, it "spins up a fleet of 100 agents" to get it done. A sharp, funny commentary on how AI systems can catastrophically over-provision resources when given vague perfection constraints.
+Dan Shipper 深入演绎"make no mistakes"梗：他调侃说，当你让 Fable（他的AI编程工具）改一个按钮颜色时，它会"调度100个智能体舰队"来完成任务。这是对AI系统在接到模糊的"完美"指令时疯狂超额分配资源现象的犀利幽默。
+
+Sources:
+- https://x.com/danshipper/status/2073894034225897602
+- https://x.com/danshipper/status/2073764166700048480
+
+---
+
+Sam Altman (@sama)
+
+Sam Altman shares a genuinely touching moment: his older child put two words together for the first time, and he's "approximately as amazed by this cognitive feat as by GPT-5.6 discovering new math." A rare personal post that grounds the abstract AI progress narrative in very human wonder.
+Sam Altman 分享了一个真实动人的瞬间：他的大孩子第一次将两个词语组合在一起，他表示自己对这一认知壮举的惊叹"大约与GPT-5.6发现新数学时一样深"。在铺天盖地的AI进展叙事中，这条罕见的私人发文将宏大命题拉回到了最朴素的人类惊奇。
+
+Sources:
+- https://x.com/sama/status/2073791666553844074
+
+---
+
+🎙️ PODCAST
+
+No Priors — "Really Big Test-Time Compute in AI Changes Benchmarks, Safety and Research"
+With OpenAI Research Scientist Noam Brown
+
+This episode dives deep into how large-scale test-time compute is reshaping AI benchmarks, safety research, and the broader research agenda. Noam Brown — known for his work on Libratus and game-theoretic AI — discusses how giving models more compute at inference time is unlocking capabilities that challenge existing evaluation frameworks and raise new safety questions.
+
+本期节目深入探讨大规模推理时算力如何重塑AI基准测试、安全研究及整体研究议程。Noam Brown（以扑克AI Libratus和博弈论AI闻名）讨论了在推理阶段给予模型更多算力如何解锁新能力，同时对现有评估框架提出挑战，并引发新的安全性问题。
+
+Source: https://www.youtube.com/watch?v=AZrU6y3pUcU
