@@ -1,271 +1,208 @@
-AI Builders 日报 · 2026-07-08
+AI Builders 日报 · 2026-07-09
 
 ---
 
-## OFFICIAL BLOGS 官方博客
-
-### Claude Blog
-
-**Claude Code now supports artifacts**
-Claude Code now supports artifacts, enabling developers to create, preview, and iterate on rich outputs directly in the coding workflow.
-Claude Code 现已支持 artifacts 功能，开发者可以在编程工作流中直接创建、预览和迭代丰富的输出内容。
-
-Source: https://claude.com/blog/artifacts-in-claude-code
+X / TWITTER
 
 ---
 
-## X / TWITTER
+**Swyx (swyx on X)** — AI engineer, @dxtipshq / @cognition / @latentspacepod
 
-### Boris Cherny — Claude Code Lead, Anthropic (bcherny on X)
+Swyx retweeted and reacted with excitement to a new AI announcement, posting "it_happening.gif" — implying something big just dropped.
+Swyx 转发并以 "it_happening.gif" 回应了一条 AI 相关推文，暗示行业内发生了重大事件。
 
-Boris Cherny is a lead engineer on Claude Code at Anthropic.
-Boris Cherny 是 Anthropic Claude Code 团队的核心工程师。
-
-He shared the origin story of Claude Code, describing how it began in Anthropic safety research before growing into the product it is today.
-他分享了 Claude Code 的起源故事，讲述了它如何从 Anthropic 的安全研究项目成长为今天的产品。
-
-*"This is our first time telling the story of how we first built and launched Claude Code, starting with its origins in Anthropic safety research. So much more to do. We are 1% done."*
-「这是我们第一次讲述 Claude Code 如何诞生和发布的故事，从它在 Anthropic 安全研究中的起源说起。还有太多事要做，我们只完成了 1%。」
-
-Source: https://x.com/bcherny/status/2074247226038063316
+https://x.com/swyx/status/2074683022503490012
 
 ---
 
-### Cat Wu — Claude Code & Cowork, Anthropic (_catwu on X)
+**Thibault Sottiaux (thsottiaux on X)** — AI Builder
 
-Cat Wu works on Claude Code and Cowork at Anthropic.
-Cat Wu 在 Anthropic 负责 Claude Code 和 Cowork 项目。
+Thibault teased the launch of something called "Sol," writing *"Prepare your sunglasses. Sol is coming. 😎"*
+Thibault 预告了名为"Sol"的产品即将发布，写道："准备好你的墨镜，Sol 来了。"
 
-She posted a retrospective from the early Claude Code team, reflecting on how the product came to be.
-她发布了 Claude Code 早期团队的回顾文章，追溯了产品的发展历程。
-
-Source: https://x.com/_catwu/status/2074258446686536167
+https://x.com/thsottiaux/status/2074705681920520526
 
 ---
 
-### Thariq — Claude Code, Anthropic (trq212 on X)
+**Peter Yang (petergyang on X)** — Product leader / AI creator educator
 
-Thariq is an engineer at Anthropic working on Claude Code.
-Thariq 是 Anthropic 的工程师，专注于 Claude Code 项目。
+Peter is looking to interview an AI-native designer who can demonstrate how to build with design.md, components, and modern workflows — he's seeking the best person in the space for a feature.
+Peter 正在寻访 AI 原生设计师，希望对方能展示如何用 design.md、组件和现代工作流构建产品，为专题访谈物色最合适的人选。
 
-He announced that a blog post about Claude Code is now live on the Claude blog, and clarified the exact deadline for Fable 5 access: 11:59:59 PM PT on July 7th.
-他宣布关于 Claude Code 的博客文章已在 Claude 博客上线，并澄清了 Fable 5 的确切截止时间：太平洋时间 7 月 7 日晚 11:59:59。
+He also asked a practical question about whether cron jobs should run locally (on his Mac Mini, already authenticated) or in the cloud — a relatable infrastructure dilemma for indie builders.
+他还提出了一个实际问题：cron 任务究竟该跑在本地（Mac Mini，已完成认证）还是云端？这是独立开发者普遍面临的基础设施抉择。
 
-Source: https://x.com/trq212/status/2074186977147273540
-Source: https://x.com/trq212/status/2074185669598237047
+He also questioned the qualification criteria for early access to a new AI model.
+他也在追问某新 AI 模型的早期访问资格标准。
 
----
-
-### Claude — Official Anthropic AI Account (claudeai on X)
-
-The official Claude account published a short history of Claude Code's creation, told by the team members who built it and the early users who shaped it.
-Claude 官方账号发布了 Claude Code 创建历程的简短历史，由构建它的团队成员和帮助塑造它的早期用户讲述。
-
-*"We've put together a short history of how Claude Code came to be, told by the people who built it and the early users who helped make it what it is today."*
-「我们整理了一段关于 Claude Code 诞生历程的简短历史，由构建它的人和帮助成就今日 Claude Code 的早期用户共同讲述。」
-
-Source: https://x.com/claudeai/status/2074244664199115201
+https://x.com/petergyang/status/2074733842230108672
+https://x.com/petergyang/status/2074705840284815678
+https://x.com/petergyang/status/2074616982197174515
 
 ---
 
-### Swyx — AI Developer & Founder, dxtips (swyx on X)
+**Nan Yu (thenanyu on X)** — AI Builder
 
-Swyx is a prolific AI developer and educator known for following AI research closely.
-Swyx 是一位多产的 AI 开发者和教育者，以密切关注 AI 研究著称。
+Nan shared a humorous tweet about "starting a family" in the context of AI agents — a lighthearted nod to the direction of autonomous AI systems.
+Nan 以幽默的方式分享了关于 AI agent "成家"的推文，轻松调侃了 AI 自主系统的发展方向。
 
-He highlighted the most important part of Anthropic's J-space paper, noting a two-part breakthrough: first, that Anthropic proved they can perform "brain surgery" interventions into reasoning to change topics mid-stream; second, that this technique has profound implications for AI steering and interpretability.
-他重点介绍了 Anthropic J-space 论文中最重要的部分，指出了两个突破：第一，Anthropic 证明他们可以对推理过程进行"脑外科手术"式干预，在推理过程中途改变话题；第二，这项技术对 AI 引导和可解释性有深远影响。
-
-Source: https://x.com/swyx/status/2074344727202463832
+https://x.com/thenanyu/status/2074484075314733323
 
 ---
 
-### Amjad Masad — CEO, Replit (amasad on X)
+**Madhu Guru (realmadhuguru on X)** — AI/ML practitioner
 
-Amjad Masad is the CEO of Replit, the browser-based coding platform.
-Amjad Masad 是 Replit 的 CEO，Replit 是一个基于浏览器的编程平台。
+Madhu pushed back on the idea that data and evals are low-skill grunt work: *"people think data and evals are low skill, grunt work that you can just buy and stuff into models."*
+Madhu 驳斥了"数据与评估是低技能打杂活"的观点，指出从模型策略到评估设计，整个模型生命周期都需要高水平的专业判断。
 
-He shared that Replit's agent has entered a self-improvement loop, closing the feedback cycle so the agent can improve its own code.
-他分享了 Replit 的 agent 已进入自我改进循环，形成了闭环反馈，使 agent 可以改进自身代码。
+He endorsed Mercor's work on data and evals for enterprise AI, noting the opportunity in this space is *"massssive"*.
+他为 Mercor 在企业 AI 数据与评估方面的工作背书，并强调这一赛道的机会"非常非常巨大"。
 
-*"Many are asking how Replit is improving so rapidly—we closed the loop and the agent is self-improving."*
-「很多人问 Replit 为什么进步如此迅速——我们完成了闭环，agent 正在自我改进。」
+He also dropped a practical tip: stop correcting typos and transcription errors in your AI prompts — *"they cracked the IMO. they know what 'teh' is."*
+他还给出了一条实用建议：别再在 AI 提示词里纠正错别字和转录错误了——"他们已经攻克了 IMO，当然知道 'teh' 是什么意思。"
 
-He also reported a real-world outcome: an Atlanta-based real estate company saved $100,000 by replacing Salesforce with a custom CRM built on Replit.
-他还报告了一个真实案例：一家亚特兰大房地产公司通过用 Replit 构建的自定义 CRM 替换 Salesforce，节省了 10 万美元。
-
-Source: https://x.com/amasad/status/2074257906594177279
-Source: https://x.com/amasad/status/2074274666709987663
+https://x.com/realmadhuguru/status/2074734468854899191
+https://x.com/realmadhuguru/status/2074658481760821390
+https://x.com/realmadhuguru/status/2074576440268661107
 
 ---
 
-### Guillermo Rauch — CEO, Vercel (rauchg on X)
+**Thariq (trq212 on X)** — AI video/content builder
 
-Guillermo Rauch is the CEO of Vercel, the platform behind Next.js and modern web deployment.
-Guillermo Rauch 是 Vercel 的 CEO，Vercel 是 Next.js 和现代 Web 部署背后的平台。
+Thariq is building an AI-powered video generation workflow where Claude autonomously creates YouTube Shorts from slide decks — including turning static slides into animations.
+Thariq 正在构建 AI 驱动的视频生成工作流，让 Claude 自动将幻灯片转化为 YouTube Shorts，包括将静态页面转为动画。
 
-He launched "eve eval," a built-in evaluation framework for agents shipped with the Eve framework, arguing that just as React didn't ship with a testing solution, web frameworks made testing an ecosystem choice — but for agents, evals are essential.
-他发布了"eve eval"，这是与 Eve 框架一同发布的内置 agent 评估框架，他认为就像 React 没有自带测试解决方案一样，Web 框架将测试变成了生态系统的选择——但对于 agent 来说，评估是不可或缺的。
+He shared clips showing multiple layout options, noting he's happy with the results but may refine the slide layout and camera cut logic.
+他分享了展示多种版面效果的片段，表示对结果基本满意，但可能会进一步优化幻灯片布局和镜头切换逻辑。
 
-He also posed a broader challenge for the field: *"The ultimate test for coding AI: is software as a whole getting better? Are companies shipping faster? Do you now have apps and games you couldn't even dream of before?"*
-他还对整个领域提出了更宏观的挑战：「编程 AI 的终极测试：整体软件是否在变得更好？公司发布速度是否更快？你现在是否拥有了以前想都不敢想的应用和游戏？」
-
-Source: https://x.com/rauchg/status/2074287795028512773
-Source: https://x.com/rauchg/status/2074222247548735996
+https://x.com/trq212/status/2074622734118924561
+https://x.com/trq212/status/2074619715826381168
+https://x.com/trq212/status/2074619539145568562
 
 ---
 
-### Nan Yu — Head of Product, Linear (thenanyu on X)
+**Guillermo Rauch (rauchg on X)** — CEO of Vercel
 
-Nan Yu is the Head of Product at Linear, the beloved project management tool for software teams.
-Nan Yu 是 Linear 的产品负责人，Linear 是深受软件团队喜爱的项目管理工具。
+Guillermo announced that Vercel's agent platform (v0.dev) now supports a filesystem-based GitHub tools pattern — define a `tools/github.ts` and export `createGithubTools()` to give your agent GitHub superpowers.
+Guillermo 宣布 Vercel 的 agent 平台（v0.dev）现已支持基于文件系统的 GitHub 工具模式——只需定义 `tools/github.ts` 并导出 `createGithubTools()`，即可为你的 agent 赋予 GitHub 能力。
 
-He reflected on how AI agents have fundamentally changed the leverage equation for early-stage startups — early-career founders no longer need to brute-force everything through sheer hours alone.
-他反思了 AI agent 如何从根本上改变了早期创业公司的杠杆方程——早期职业的创始人不再需要单靠大量工时来蛮力解决一切。
+He also welcomed Bereket (bekacru) and Better Auth to Vercel, writing: *"Developers deserve better auth, to serve humans and agents, built in the open."*
+他还欢迎 Bereket（bekacru）及 Better Auth 加入 Vercel，写道："开发者值得拥有更好的身份验证方案，服务人类与 AI agent，并以开源方式构建。"
 
-*"The biggest advantage that 20-year-old me had over today me is the ability to slam unbelievable hours into work. But looking back, those hours were mostly spent on tedious programming tasks, which AI can now handle."*
-「20 岁的我相对于现在的我最大的优势，是能够将难以置信的时间投入工作。但回顾过去，那些时间大多花在了繁琐的编程任务上，而 AI 现在可以处理这些。」
-
-He added that AI agents now let founders do much more in parallel, which is the real unlock.
-他补充说，AI agent 现在让创始人可以并行处理更多事情，这才是真正的突破。
-
-Source: https://x.com/thenanyu/status/2074133468007587932
-Source: https://x.com/thenanyu/status/2074258147015897357
+https://x.com/rauchg/status/2074630835878453601
+https://x.com/rauchg/status/2074523653488947338
 
 ---
 
-### Aaron Levie — CEO, Box (levie on X)
+**Aaron Levie (levie on X)** — CEO of Box
 
-Aaron Levie is the CEO of Box, the enterprise content management platform.
-Aaron Levie 是 Box 的 CEO，Box 是企业内容管理平台。
+After meetings with dozens of enterprise IT leaders, Aaron shared key themes on AI agents in the enterprise: the biggest blocker is operational readiness, not model capability.
+与数十位企业 IT 负责人会面后，Aaron 总结了企业 AI agent 落地的核心主题：最大瓶颈是运营准备，而非模型能力本身。
 
-He shared thoughts on open source AI and the applied AI layer, arguing that two things will always hold true: frontier intelligence will remain at the cutting edge of new use cases, while open source will commoditize well-understood problems.
-他分享了对开源 AI 和应用 AI 层的看法，认为有两件事将永远成立：前沿智能将继续引领新用例，而开源将使已充分理解的问题商品化。
+He also made a broader point about enterprise data: *"A small percentage of useful data is on the open web... Most of it lives inside of organizations and often is in legacy systems."*
+他还就企业数据发表了更宏观的观点："真正有用的数据只有一小部分在开放网络上……大多数存在于组织内部，往往深藏在遗留系统中。"
 
-Source: https://x.com/levie/status/2074163686990913576
-
----
-
-### Zara Zhang — Builder & Investor (zarazhangrui on X)
-
-Zara Zhang is an active builder and the creator of the Follow Builders skill.
-Zara Zhang 是一位活跃的构建者，也是 Follow Builders 技能的创造者。
-
-She compiled a list of three must-watch conference talk collections for anyone who wants to level up as an AI builder: AI Engineer World's Fair, Cursor conference talks, and Config.
-她整理了三个必看的会议演讲合集，供任何想要提升 AI 构建能力的人参考：AI Engineer World's Fair、Cursor 会议演讲和 Config。
-
-*"If you wanna level up as an AI builder, binge watch the talks from these 3 conferences (all freshly wrapped). You can literally learn from the best in the field from the comfort of your home."*
-「如果你想提升作为 AI 构建者的能力，就狂刷这 3 个会议的演讲（都是刚刚结束的）。你可以在家里向该领域最优秀的人学习。」
-
-She also offered an encouraging note for non-engineers: don't be constrained by your title or role — everyone is an engineer in the age of AI.
-她还为非工程师提供了鼓励：不要被头衔或角色所束缚——在 AI 时代，人人都是工程师。
-
-Source: https://x.com/zarazhangrui/status/2074304295097561490
-Source: https://x.com/zarazhangrui/status/2074305070955639077
+https://x.com/levie/status/2074719479377109312
+https://x.com/levie/status/2074528241990394178
 
 ---
 
-### Peter Steinberger — Polyagentmorous ClawFather (steipete on X)
+**Garry Tan (garrytan on X)** — CEO of Y Combinator
 
-Peter Steinberger is a prolific AI builder and community figure known as the "ClawFather."
-Peter Steinberger 是一位多产的 AI 构建者和社区人物，被称为"ClawFather"。
+Garry warned that San Francisco risks squandering its AI-era economic boom if it fails to build housing: *"Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history."*
+Garry 警告称，旧金山若不加快建房，将把 AI 时代的经济大胜变为城市史上最大的失败。
 
-He is actively working on Claude Code improvements, noting that by the time a recent PR went through review, the main branch had materially improved.
-他正在积极改进 Claude Code，指出在一个近期 PR 通过审查时，主分支已经有了实质性提升。
+He also called out what he described as "dirty smear politics" from local groups, saying it's time to make the playbook backfire.
+他还点名批评了当地某些团体的"肮脏抹黑政治"，呼吁让这套剧本反噬其制造者。
 
-He also asked the community how people are running AI-assisted engineering interviews these days, suggesting he's exploring new approaches to technical hiring.
-他还向社区询问大家现在如何进行 AI 辅助的工程面试，表明他正在探索技术招聘的新方式。
-
-Source: https://x.com/steipete/status/2074210475777364197
-Source: https://x.com/steipete/status/2074380549318443311
+https://x.com/garrytan/status/2074750229044502663
+https://x.com/garrytan/status/2074744830492868764
+https://x.com/garrytan/status/2074599259803160773
 
 ---
 
-### Dan Shipper — CEO, Every (danshipper on X)
+**Matt Turck (mattturck on X)** — Managing Director at FirstMark Capital
 
-Dan Shipper is the CEO of Every, a media company focused on helping professionals stay at the edge of AI.
-Dan Shipper 是 Every 的 CEO，Every 是一家帮助专业人士保持 AI 前沿的媒体公司。
+Matt posted a meme contrasting how VCs treat their top AI portfolio companies vs. their aging SaaS investments — a humorous but sharp commentary on the current market divide.
+Matt 发了一张 meme，对比 VC 对待顶级 AI 投资组合公司与老牌 SaaS 投资的不同态度——幽默而犀利地揭示了当前市场的分化格局。
 
-He shared that "gremlins" have arrived in Fable (Every's AI novel tool), and reflected on a broader strategic question: whether to take big expensive swings with AI models, or grind with a small-ball approach.
-他分享了"小妖精"已经进入 Fable（Every 的 AI 小说工具），并反思了一个更广泛的战略问题：是用 AI 模型进行大胆冒险，还是采用稳扎稳打的小球策略。
-
-Source: https://x.com/danshipper/status/2074160985452028406
-Source: https://x.com/danshipper/status/2074160886164451735
+https://x.com/mattturck/status/2074441949772169216
 
 ---
 
-### Peter Yang — AI Tutorial Creator (petergyang on X)
+**Zara Zhang (zarazhangrui on X)** — AI investor / podcast host
 
-Peter Yang creates practical AI tutorials and interviews for busy professionals.
-Peter Yang 为忙碌的专业人士创作实用的 AI 教程和采访内容。
+Zara shared a piece on how to learn effectively in the age of AI — a topic she clearly thinks deeply about.
+Zara 分享了一篇关于"AI 时代如何有效学习"的文章，这是她一直深入思考的主题。
 
-He shared five use cases for Fable 5 (Claude's AI novel tool) before its subscription deadline, including detailed prompts for finding Fable-worthy work.
-他在 Fable 5（Claude 的 AI 小说工具）订阅截止前分享了五个使用场景，包括寻找值得 Fable 处理的工作的详细提示词。
-
-Source: https://x.com/petergyang/status/2074206798631071796
+https://x.com/zarazhangrui/status/2074661564964307153
 
 ---
 
-### Thibault Sottiaux — Codex & ChatGPT, OpenAI (thsottiaux on X)
+**Nikunj Kothari (nikunj on X)** — VC / startup advisor
 
-Thibault Sottiaux works on Codex and ChatGPT at OpenAI.
-Thibault Sottiaux 在 OpenAI 负责 Codex 和 ChatGPT 项目。
+Nikunj sounded the alarm on a persistent metric confusion in AI startup valuations: *"GMV is NOT ARR. Let's get our definitions right for once and for all."*
+Nikunj 再次就 AI 创业公司估值中的指标混用问题发出警告："GMV 不等于 ARR，是时候把这些概念搞清楚了。"
 
-He mentioned that the teams building ChatGPT, Codex, and OpenClaw will be closing out their week at a gathering, with a few surprises planned for attendees.
-他提到构建 ChatGPT、Codex 和 OpenClaw 的团队将在一次聚会上结束本周工作，并为与会者准备了一些惊喜。
+He also shared his favorite use case for Fable: generate insights on Claude Code usage, feed them in, and ask "In a Fable era, how should I be using Claude Code to maximize its utility?" — a meta AI-on-AI productivity loop.
+他还分享了 Fable 最喜欢的使用方式：生成 Claude Code 使用洞察，喂入 Fable，再询问"在 Fable 时代，如何最大化 Claude Code 的价值？"——一种 AI 套 AI 的元生产力循环。
 
-Source: https://x.com/thsottiaux/status/2074195169990357398
-
----
-
-### Nikunj Kothari — Partner, FPV Ventures (nikunj on X)
-
-Nikunj Kothari is a VC partner at FPV Ventures, investing at seed and Series A.
-Nikunj Kothari 是 FPV Ventures 的合伙人，专注于种子轮和 A 轮投资。
-
-He made a sharp observation about the VC industry's ironic contradiction: VCs preach investing in outliers, yet many are building elaborate proprietary sourcing algorithms claiming to systematize what is fundamentally a human, taste-driven judgment.
-他对风投行业的讽刺性矛盾作出了犀利观察：风投宣扬投资异类，然而许多人却在构建精密的专有寻源算法，声称要将本质上基于人类判断和品味的事情系统化。
-
-Source: https://x.com/nikunj/status/2074141483356340475
+https://x.com/nikunj/status/2074597133286851064
+https://x.com/nikunj/status/2074530614745960792
 
 ---
 
-### Garry Tan — President & CEO, Y Combinator (garrytan on X)
+**Peter Steinberger (steipete on X)** — iOS developer / AI tooling builder
 
-Garry Tan is the President and CEO of Y Combinator, the world's most influential startup accelerator.
-Garry Tan 是 Y Combinator 的总裁兼 CEO，Y Combinator 是全球最具影响力的创业加速器。
+Peter highlighted a damning quote about Anthropic's communication failures with enterprise customers: *"We're a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from a reporter, not our 'partner.'"*
+Peter 引用了一段措辞严厉的话，揭示 Anthropic 在企业客户沟通上的失职："我们是 Anthropic 的大客户，却至今未收到关于诉讼的任何通知，是记者告诉我的，而不是我们的'合作伙伴'。"
 
-His recent posts focused on Oakland politics and local media criticism, calling out what he sees as biased headline writing and failed governance policies leading the city to decline.
-他最近的帖子聚焦于奥克兰政治和地方媒体批评，指出他所认为的偏颇标题写作和导致城市衰落的失败治理政策。
+He also shared his agentic coding workflow using Fable and Codex together, plus a handy skill that shows a prominent alert when agents need user input — avoiding silent failures.
+他还分享了结合 Fable 与 Codex 的 agentic 编程工作流，以及一个实用 skill：在 agent 需要用户输入时弹出醒目提示，避免无声失败。
 
-Source: https://x.com/garrytan/status/2074279598612000785
-Source: https://x.com/garrytan/status/2074286755185086538
+https://x.com/steipete/status/2074739318103629979
+https://x.com/steipete/status/2074638582418231495
+https://x.com/steipete/status/2074624388301987947
 
 ---
 
-## PODCASTS 播客
+**Sam Altman (sama on X)** — CEO of OpenAI
 
-### AI & I by Every — "Building a School Where AI Models Learn About Humanity"
+Sam announced the launch of GPT-5.6 Sol on Thursday, signing off with *"happy building."*
+Sam 宣布 GPT-5.6 Sol 将于周四发布，并以"happy building"收尾。
 
-This episode features Edwin Chen, founder and CEO of Surge — the data platform that provides data environments and evals for frontier AI model companies.
-本期节目邀请了 Edwin Chen，他是 Surge 的创始人兼 CEO，Surge 是为前沿 AI 模型公司提供数据环境和评估的数据平台。
+https://x.com/sama/status/2074709023807664454
 
-Surge famously reached approximately $1 billion in revenue without raising outside funding.
-Surge 以不融资的方式达到了约 10 亿美元的收入，这在业内广为人知。
+---
 
-Edwin's central metaphor is striking: Surge is building a "school for AGI," a place where AI models come to learn about humanity and how to run the world.
-Edwin 的核心比喻令人印象深刻：Surge 正在建造一所"AGI 学校"，一个 AI 模型来学习人类文明和如何运转世界的地方。
+**Claude (claudeai on X)** — Official Anthropic / Claude account
 
-*"We are building this kind of school for AGI where AI models come to learn about humanity, where we teach them how to run the world."*
-「我们正在为 AGI 建造这样一所学校，AI 模型在这里学习人类文明，在这里我们教它们如何运转世界。」
+Claude AI extended access to Claude Fable 5 on all paid plans through July 12, with up to 50% of weekly usage limits available for Fable 5 — after that, users can continue with usage credits or switch to another model.
+Claude AI 宣布将 Claude Fable 5 的访问权限延至 7 月 12 日，覆盖所有付费计划，每周使用限额的 50% 可用于 Fable 5，超额后可使用用量积分或切换其他模型。
 
-The episode explores the role of human taste and expert judgment in AI training data — the idea that quality, human-curated signals are increasingly the competitive moat in the AI stack.
-本期节目探讨了人类品味和专家判断在 AI 训练数据中的作用——高质量、人工策划的信号正日益成为 AI 技术栈中的竞争护城河。
+They also extended doubled Cowork usage limits through August 5, encouraging users to delegate bigger work to Claude.
+Cowork 双倍用量限制也延长至 8 月 5 日，鼓励用户将更大规模的工作委托给 Claude 完成。
 
-Edwin also predicts that AI will be capable of doing almost everything humans can do within five to ten years.
-Edwin 还预测，AI 将在五到十年内能够完成人类几乎所有能做的事情。
+https://x.com/claudeai/status/2074548243971604641
+https://x.com/claudeai/status/2074548242386178258
+https://x.com/claudeai/status/2074525821755101458
 
-Source: https://www.youtube.com/watch?v=omX6wrLuX08
+---
+
+PODCASTS
+
+---
+
+**Training Data — "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents"**
+Published: 2026-07-07
+
+This episode dives into Zipline's autonomous drone delivery system, which has flown 140 million miles with zero incidents — a remarkable safety record in autonomous systems.
+本期节目深入探讨 Zipline 自主无人机配送系统，该系统已飞行 1.4 亿英里、零事故——在自主系统领域创下了卓越的安全纪录。
+
+The conversation covers the early days in Rwanda, feedback from doctors and lab technicians on the ground, and how Zipline approaches reliability engineering at scale.
+对话回顾了在卢旺达的早期实践，分享了一线医生和化验员的真实反馈，以及 Zipline 如何在规模化背景下进行可靠性工程设计。
+
+https://www.youtube.com/watch?v=6bGxm8gX41o
 
 ---
 
