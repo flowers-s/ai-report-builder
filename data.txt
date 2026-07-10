@@ -1,209 +1,226 @@
-AI Builders 日报 · 2026-07-09
+AI Builders 日报 · 2026-07-10
+
+🎙️ PODCAST — AI & I by Every
+
+**How a Writer Uses AI Without Losing His Voice**
+How a Writer Uses AI Without Losing His Voice — This episode dives into the tension between creative authenticity and AI-assisted writing, exploring how a writer integrates AI tools without sacrificing their unique voice and style.
+本期播客探讨了创意写作与AI辅助工具之间的张力，记者分享了如何在保留个人风格与声音的前提下，将AI融入日常写作流程，而不让AI替代人类的思想与情感。
+📎 https://www.youtube.com/watch?v=7ND0lQmLJlA
 
 ---
 
-X / TWITTER
+**Swyx** (@swyx) · AI Engineer, Cognition & Latent Space
+
+Swyx praised Theo's keynote for using hand-drawn Excalidraw/tldraw-style slides instead of the typical "claudeslopped" thin-border professional template — conveying humanity and thoughtfulness over AI-generated verbosity.
+Swyx 称赞了 Theo 主题演讲中使用手绘风格的 Excalidraw/tldraw 幻灯片，在一片"AI 生成感"十足的精致模板中脱颖而出，传达出人性化与克制的表达，而非冗长堆砌的形式主义。
+*"in a world of claudeslopped thin color border 'professional' looking slides, his went for the hand drawn look which immediately conveys humanity"*
+📎 https://x.com/swyx/status/2074953099748450346
+
+Swyx pointed out that most agent labs avoid publicly acknowledging Chinese model usage due to government/defense sales concerns — but the Cog team tackled it head-on by building multilingual propaganda and censorship evals, correcting for them in post-training, and serving at 1000 tokens/second cheaply.
+Swyx 指出，大多数 Agent 实验室因政府/国防客户需求而回避承认使用中国模型，但 Cog 团队正面迎击：构建了多语言宣传与审查评估体系，在后训练阶段加以纠正，并以低成本实现每秒 1000 token 的推理速度。
+📎 https://x.com/swyx/status/2074919183947808881
 
 ---
 
-**Swyx (swyx on X)** — AI engineer, @dxtipshq / @cognition / @latentspacepod
+**Josh Woodward** (@joshwoodward) · VP, Google Labs & Gemini
 
-Swyx retweeted and reacted with excitement to a new AI announcement, posting "it_happening.gif" — implying something big just dropped.
-Swyx 转发并以 "it_happening.gif" 回应了一条 AI 相关推文，暗示行业内发生了重大事件。
-
-https://x.com/swyx/status/2074683022503490012
-
----
-
-**Thibault Sottiaux (thsottiaux on X)** — AI Builder
-
-Thibault teased the launch of something called "Sol," writing *"Prepare your sunglasses. Sol is coming. 😎"*
-Thibault 预告了名为"Sol"的产品即将发布，写道："准备好你的墨镜，Sol 来了。"
-
-https://x.com/thsottiaux/status/2074705681920520526
+Josh Woodward, VP at Google Labs overseeing Gemini, directly asked followers: what is something Gemini should have fixed a long time ago? A rare public invitation for candid product feedback from a senior Google exec.
+谷歌 Labs 负责 Gemini 的副总裁 Josh Woodward 向关注者公开提问：有什么是 Gemini 早该修复却一直没修的？这是谷歌高管罕见的公开征集真实产品反馈的举动，显示出团队正在认真重审产品短板。
+📎 https://x.com/joshwoodward/status/2074847444823674883
 
 ---
 
-**Peter Yang (petergyang on X)** — Product leader / AI creator educator
+**Boris Cherny** (@bcherny) · Claude Code, Anthropic
 
-Peter is looking to interview an AI-native designer who can demonstrate how to build with design.md, components, and modern workflows — he's seeking the best person in the space for a feature.
-Peter 正在寻访 AI 原生设计师，希望对方能展示如何用 design.md、组件和现代工作流构建产品，为专题访谈物色最合适的人选。
+Boris announced a major new Claude Code feature: `/checkup` — a self-audit command that cleans up unused skills/MCPs, deduplicates CLAUDE.md files, breaks up root configs into nested structures, disables slow hooks, updates to the latest version, enables auto mode, and pre-approves read-only commands.
+Boris 宣布了 Claude Code 的重磅新功能 `/checkup`：一个自检命令，可清理未使用的 skill/MCP、去重 CLAUDE.md 文件、将根配置拆分为嵌套结构、关闭慢速 hook、更新至最新版本、默认开启自动模式，并预审批常见的只读命令。
+*"Run /checkup to... Break up root CLAUDE.md into nested CLAUDE.md's + skills"*
+📎 https://x.com/bcherny/status/2074997570317779038
 
-He also asked a practical question about whether cron jobs should run locally (on his Mac Mini, already authenticated) or in the cloud — a relatable infrastructure dilemma for indie builders.
-他还提出了一个实际问题：cron 任务究竟该跑在本地（Mac Mini，已完成认证）还是云端？这是独立开发者普遍面临的基础设施抉择。
-
-He also questioned the qualification criteria for early access to a new AI model.
-他也在追问某新 AI 模型的早期访问资格标准。
-
-https://x.com/petergyang/status/2074733842230108672
-https://x.com/petergyang/status/2074705840284815678
-https://x.com/petergyang/status/2074616982197174515
+He also shared a visual demo of `/checkup` in action and highlighted another "pretty epic" Claude Code demo worth checking out.
+他还展示了 `/checkup` 的运行截图，并分享了一个他认为"相当震撼"的 Claude Code demo，值得关注。
+📎 https://x.com/bcherny/status/2074997571563479143
+📎 https://x.com/bcherny/status/2074997911348244930
 
 ---
 
-**Nan Yu (thenanyu on X)** — AI Builder
+**Thibault Sottiaux** (@thsottiaux) · Codex & ChatGPT, OpenAI
 
-Nan shared a humorous tweet about "starting a family" in the context of AI agents — a lighthearted nod to the direction of autonomous AI systems.
-Nan 以幽默的方式分享了关于 AI agent "成家"的推文，轻松调侃了 AI 自主系统的发展方向。
+Thibault teased that OpenAI is in full shipping mode — the sushi and taco deliveries piling up at 11pm are the surest sign the team is "cooking." After a reset week, this week is all about launching.
+Thibault 暗示 OpenAI 正处于全力发货状态——办公室深夜堆积的外卖订单是团队"在煮大菜"的最佳佐证。上周是调整周，这周是发货周。
+*"You know OpenAI is cooking when the sushi and tacos orders pile at the entrance of the office at 11pm."*
+📎 https://x.com/thsottiaux/status/2075103845114663325
 
-https://x.com/thenanyu/status/2074484075314733323
-
----
-
-**Madhu Guru (realmadhuguru on X)** — AI/ML practitioner
-
-Madhu pushed back on the idea that data and evals are low-skill grunt work: *"people think data and evals are low skill, grunt work that you can just buy and stuff into models."*
-Madhu 驳斥了"数据与评估是低技能打杂活"的观点，指出从模型策略到评估设计，整个模型生命周期都需要高水平的专业判断。
-
-He endorsed Mercor's work on data and evals for enterprise AI, noting the opportunity in this space is *"massssive"*.
-他为 Mercor 在企业 AI 数据与评估方面的工作背书，并强调这一赛道的机会"非常非常巨大"。
-
-He also dropped a practical tip: stop correcting typos and transcription errors in your AI prompts — *"they cracked the IMO. they know what 'teh' is."*
-他还给出了一条实用建议：别再在 AI 提示词里纠正错别字和转录错误了——"他们已经攻克了 IMO，当然知道 'teh' 是什么意思。"
-
-https://x.com/realmadhuguru/status/2074734468854899191
-https://x.com/realmadhuguru/status/2074658481760821390
-https://x.com/realmadhuguru/status/2074576440268661107
+He announced a livestream at 10am for a major launch, signaling OpenAI's momentum shift from reset to shipping.
+他宣布了一场 10 点的直播，标志着 OpenAI 从"重整"切换到"发货"的节奏转变。
+📎 https://x.com/thsottiaux/status/2074885402918601082
 
 ---
 
-**Thariq (trq212 on X)** — AI video/content builder
+**Peter Yang** (@petergyang) · AI & Product Creator
 
-Thariq is building an AI-powered video generation workflow where Claude autonomously creates YouTube Shorts from slide decks — including turning static slides into animations.
-Thariq 正在构建 AI 驱动的视频生成工作流，让 Claude 自动将幻灯片转化为 YouTube Shorts，包括将静态页面转为动画。
-
-He shared clips showing multiple layout options, noting he's happy with the results but may refine the slide layout and camera cut logic.
-他分享了展示多种版面效果的片段，表示对结果基本满意，但可能会进一步优化幻灯片布局和镜头切换逻辑。
-
-https://x.com/trq212/status/2074622734118924561
-https://x.com/trq212/status/2074619715826381168
-https://x.com/trq212/status/2074619539145568562
+Peter Yang revealed he's been secretly playing GTA 6 for a month — and it's great, arguably better than GTA 5. A fun departure from AI content, but signals that the gaming world is about to get a major cultural moment.
+Peter Yang 透露他已秘密试玩 GTA 6 整整一个月，评价相当高，认为可能比 GTA 5 还好。虽然这条推文与 AI 无关，但预示着游戏界即将迎来一个重大文化事件。
+📎 https://x.com/petergyang/status/2074979504741929018
 
 ---
 
-**Guillermo Rauch (rauchg on X)** — CEO of Vercel
+**Nan Yu** (@thenanyu) · Head of Product, Linear
 
-Guillermo announced that Vercel's agent platform (v0.dev) now supports a filesystem-based GitHub tools pattern — define a `tools/github.ts` and export `createGithubTools()` to give your agent GitHub superpowers.
-Guillermo 宣布 Vercel 的 agent 平台（v0.dev）现已支持基于文件系统的 GitHub 工具模式——只需定义 `tools/github.ts` 并导出 `createGithubTools()`，即可为你的 agent 赋予 GitHub 能力。
+Nan Yu shared a sharp product marketing insight: PMM copy isn't just for the end customer — it's a chain of re-transmission. PMM → Sales → Customer → Peer → Buyer → Org. Your message needs to survive multiple hops, so write for the messenger, not just the recipient.
+Nan Yu 分享了一个精辟的产品营销洞察：PMM 文案不只是写给最终用户的，它是一条传导链——PMM → 销售 → 客户 → 同行 → 买家 → 组织。你的信息需要经受多次转述，所以要为"传递者"而写，而不只是收件人。
+📎 https://x.com/thenanyu/status/2074907752829223043
 
-He also welcomed Bereket (bekacru) and Better Auth to Vercel, writing: *"Developers deserve better auth, to serve humans and agents, built in the open."*
-他还欢迎 Bereket（bekacru）及 Better Auth 加入 Vercel，写道："开发者值得拥有更好的身份验证方案，服务人类与 AI agent，并以开源方式构建。"
-
-https://x.com/rauchg/status/2074630835878453601
-https://x.com/rauchg/status/2074523653488947338
-
----
-
-**Aaron Levie (levie on X)** — CEO of Box
-
-After meetings with dozens of enterprise IT leaders, Aaron shared key themes on AI agents in the enterprise: the biggest blocker is operational readiness, not model capability.
-与数十位企业 IT 负责人会面后，Aaron 总结了企业 AI agent 落地的核心主题：最大瓶颈是运营准备，而非模型能力本身。
-
-He also made a broader point about enterprise data: *"A small percentage of useful data is on the open web... Most of it lives inside of organizations and often is in legacy systems."*
-他还就企业数据发表了更宏观的观点："真正有用的数据只有一小部分在开放网络上……大多数存在于组织内部，往往深藏在遗留系统中。"
-
-https://x.com/levie/status/2074719479377109312
-https://x.com/levie/status/2074528241990394178
+He also reflected on re-watching Glengarry Glen Ross — the part that hit hardest wasn't "always be closing," but the brutal power-law structure: 1st place gets a car, 2nd gets steak knives, 3rd gets fired.
+他重温了《拜金一族》，令他震撼的不是"永远要成交"，而是那段残酷的幂律结构：第一名得车，第二名得牛排刀，第三名被炒鱿鱼。这是现实竞争的赤裸映照。
+📎 https://x.com/thenanyu/status/2074901281466896694
 
 ---
 
-**Garry Tan (garrytan on X)** — CEO of Y Combinator
+**Cat Wu** (@_catwu) · Claude Code + Cowork, Anthropic
 
-Garry warned that San Francisco risks squandering its AI-era economic boom if it fails to build housing: *"Without building housing, San Francisco will turn a mega economic W into the biggest L in civic history."*
-Garry 警告称，旧金山若不加快建房，将把 AI 时代的经济大胜变为城市史上最大的失败。
-
-He also called out what he described as "dirty smear politics" from local groups, saying it's time to make the playbook backfire.
-他还点名批评了当地某些团体的"肮脏抹黑政治"，呼吁让这套剧本反噬其制造者。
-
-https://x.com/garrytan/status/2074750229044502663
-https://x.com/garrytan/status/2074744830492868764
-https://x.com/garrytan/status/2074599259803160773
+Cat Wu announced a live walkthrough session on how Anthropic evolved from single-player Claude Code to multi-player **Claude Tag** — a system where Claude can monitor channels, do proactive work, and remember team context across time.
+Cat Wu 宣布举办一场直播，深入讲解 Anthropic 如何从单人版 Claude Code 进化到多人协作的 **Claude Tag**——一个能监控频道、主动工作、并跨时间记住团队上下文的系统。
+*"AI used to finish your sentence. Then, it wrote entire features. Now, Claude Tag can monitor your channels, do proactive work for you."*
+📎 https://x.com/_catwu/status/2074925531519468012
 
 ---
 
-**Matt Turck (mattturck on X)** — Managing Director at FirstMark Capital
+**Thariq** (@trq212) · Claude Code, Anthropic
 
-Matt posted a meme contrasting how VCs treat their top AI portfolio companies vs. their aging SaaS investments — a humorous but sharp commentary on the current market divide.
-Matt 发了一张 meme，对比 VC 对待顶级 AI 投资组合公司与老牌 SaaS 投资的不同态度——幽默而犀利地揭示了当前市场的分化格局。
-
-https://x.com/mattturck/status/2074441949772169216
-
----
-
-**Zara Zhang (zarazhangrui on X)** — AI investor / podcast host
-
-Zara shared a piece on how to learn effectively in the age of AI — a topic she clearly thinks deeply about.
-Zara 分享了一篇关于"AI 时代如何有效学习"的文章，这是她一直深入思考的主题。
-
-https://x.com/zarazhangrui/status/2074661564964307153
+Thariq highlighted a paradigm shift for software engineering: AI-assisted rewrites can now be good, cheap, and fast. Historically, rewrites were considered dangerous and expensive — but with AI, that calculus is changing, especially for well-tested codebases like Bun.
+Thariq 指出了软件工程的一个范式转变：AI 辅助的代码重写现在可以做到既好又便宜又快。历史上重写被认为危险且昂贵，但随着 AI 能力提升，这一算法正在改变，尤其是对像 Bun 这样有良好测试覆盖的代码库而言。
+*"this should be a huge update in your model of software engineering: rewrites can be good, cheap and fast"*
+📎 https://x.com/trq212/status/2074993112217461020
 
 ---
 
-**Nikunj Kothari (nikunj on X)** — VC / startup advisor
+**Amjad Masad** (@amasad) · CEO, Replit
 
-Nikunj sounded the alarm on a persistent metric confusion in AI startup valuations: *"GMV is NOT ARR. Let's get our definitions right for once and for all."*
-Nikunj 再次就 AI 创业公司估值中的指标混用问题发出警告："GMV 不等于 ARR，是时候把这些概念搞清楚了。"
+Amjad raised a pointed question: when do we stop comparing autonomous agents to hand-written code? Just as no one compares compilers to engineers writing assembly, AI agents will eventually be judged on their own merits, not against manual coding.
+Amjad 提出了一个犀利的问题：我们什么时候才会停止把自主 Agent 与手写代码做比较？就像没有人会把编译器和手写汇编做比一样，AI Agent 终将被按自己的标准评判，而不是与人工编码相比。
+*"You don't see compilers comparing to engineers hand-writing assembly."*
+📎 https://x.com/amasad/status/2075080984211624154
 
-He also shared his favorite use case for Fable: generate insights on Claude Code usage, feed them in, and ask "In a Fable era, how should I be using Claude Code to maximize its utility?" — a meta AI-on-AI productivity loop.
-他还分享了 Fable 最喜欢的使用方式：生成 Claude Code 使用洞察，喂入 Fable，再询问"在 Fable 时代，如何最大化 Claude Code 的价值？"——一种 AI 套 AI 的元生产力循环。
-
-https://x.com/nikunj/status/2074597133286851064
-https://x.com/nikunj/status/2074530614745960792
-
----
-
-**Peter Steinberger (steipete on X)** — iOS developer / AI tooling builder
-
-Peter highlighted a damning quote about Anthropic's communication failures with enterprise customers: *"We're a very large customer of Anthropic and they still have yet to tell us about the lawsuit. I learned about it from a reporter, not our 'partner.'"*
-Peter 引用了一段措辞严厉的话，揭示 Anthropic 在企业客户沟通上的失职："我们是 Anthropic 的大客户，却至今未收到关于诉讼的任何通知，是记者告诉我的，而不是我们的'合作伙伴'。"
-
-He also shared his agentic coding workflow using Fable and Codex together, plus a handy skill that shows a prominent alert when agents need user input — avoiding silent failures.
-他还分享了结合 Fable 与 Codex 的 agentic 编程工作流，以及一个实用 skill：在 agent 需要用户输入时弹出醒目提示，避免无声失败。
-
-https://x.com/steipete/status/2074739318103629979
-https://x.com/steipete/status/2074638582418231495
-https://x.com/steipete/status/2074624388301987947
+He also polled whether Replit should add CAD 3D modeling capabilities, hinting at expansion beyond software into hardware-adjacent tooling.
+他还发起投票询问 Replit 是否应该加入 CAD 3D 建模功能，暗示 Replit 正在考虑从软件工具向硬件相关工具链延伸。
+📎 https://x.com/amasad/status/2075003156745089264
 
 ---
 
-**Sam Altman (sama on X)** — CEO of OpenAI
+**Guillermo Rauch** (@rauchg) · CEO, Vercel
 
-Sam announced the launch of GPT-5.6 Sol on Thursday, signing off with *"happy building."*
-Sam 宣布 GPT-5.6 Sol 将于周四发布，并以"happy building"收尾。
+Guillermo made a bold prediction: AI will make all software "Native" — uncompromising performance and platform affinity will become the default, not the exception.
+Guillermo 做出大胆预言：AI 将让所有软件回归"原生"——极致性能与平台适配将成为默认标准，而非例外。
+*"AI will make all software Native. Uncompromising performance and platform affinity."*
+📎 https://x.com/rauchg/status/2075018147330232707
 
-https://x.com/sama/status/2074709023807664454
-
----
-
-**Claude (claudeai on X)** — Official Anthropic / Claude account
-
-Claude AI extended access to Claude Fable 5 on all paid plans through July 12, with up to 50% of weekly usage limits available for Fable 5 — after that, users can continue with usage credits or switch to another model.
-Claude AI 宣布将 Claude Fable 5 的访问权限延至 7 月 12 日，覆盖所有付费计划，每周使用限额的 50% 可用于 Fable 5，超额后可使用用量积分或切换其他模型。
-
-They also extended doubled Cowork usage limits through August 5, encouraging users to delegate bigger work to Claude.
-Cowork 双倍用量限制也延长至 8 月 5 日，鼓励用户将更大规模的工作委托给 Claude 完成。
-
-https://x.com/claudeai/status/2074548243971604641
-https://x.com/claudeai/status/2074548242386178258
-https://x.com/claudeai/status/2074525821755101458
+Vercel made Grok 4.5 available to all customers, and Guillermo shared excitement about the agent stack components finally "clicking together" for personal productivity agents.
+Vercel 向所有用户开放了 Grok 4.5，Guillermo 还分享了对 Agent 技术栈各组件终于"咔哒一声"融合在一起的兴奋——他计划用它驱动个人生产力 Agent。
+📎 https://x.com/rauchg/status/2074920996201796067
+📎 https://x.com/rauchg/status/2074874713143460150
 
 ---
 
-PODCASTS
+**Aaron Levie** (@levie) · CEO, Box
+
+Aaron Levie observed that the latest AI models are becoming "insanely good" at complex knowledge-worker tasks — especially in legal, professional services, and healthcare verticals. Grok 4.5 stands out for cost and performance. As models improve at coding, math, and reasoning, enterprise data and documents will unlock dramatically new workflows.
+Aaron Levie 观察到最新 AI 模型在复杂知识工作任务上变得"惊人地强大"，尤其是在法律、专业服务和医疗等垂直领域。Grok 4.5 在成本与性能上表现突出。随着模型在编码、数学和推理上的持续提升，企业数据与文档将解锁全新的工作流程。
+*"The latest AI models being dropped are getting insanely good handling complex knowledge worker tasks."*
+📎 https://x.com/levie/status/2075073587015516228
 
 ---
 
-**Training Data — "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents"**
-Published: 2026-07-07
+**Ryo Lu** (@ryolu_) · Design, Cursor
 
-This episode dives into Zipline's autonomous drone delivery system, which has flown 140 million miles with zero incidents — a remarkable safety record in autonomous systems.
-本期节目深入探讨 Zipline 自主无人机配送系统，该系统已飞行 1.4 亿英里、零事故——在自主系统领域创下了卓越的安全纪录。
-
-The conversation covers the early days in Rwanda, feedback from doctors and lab technicians on the ground, and how Zipline approaches reliability engineering at scale.
-对话回顾了在卢旺达的早期实践，分享了一线医生和化验员的真实反馈，以及 Zipline 如何在规模化背景下进行可靠性工程设计。
-
-https://www.youtube.com/watch?v=6bGxm8gX41o
+Ryo Lu announced the beginning of "a new era" with Grok 4.5 now available in Cursor, inviting users to try it and share their impressions.
+Ryo Lu 宣告"新时代的开始"——Grok 4.5 现已在 Cursor 中上线，邀请用户体验并分享感受。这是 Cursor 持续快速整合前沿模型能力的又一信号。
+📎 https://x.com/ryolu_/status/2074951992884244606
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+**Garry Tan** (@garrytan) · President & CEO, Y Combinator
+
+Garry Tan weighed in on San Francisco politics, opposing the proposal for an SF Public Bank — arguing it would be staffed by political cronies and become a "tremendous grift mill robbing the city blind."
+Garry Tan 就旧金山政治表态，强烈反对设立 SF 公共银行的提案，认为这将成为政治裙带关系的产物，最终沦为"洗劫城市的巨型腐败机器"。
+📎 https://x.com/garrytan/status/2074973836966334668
+
+---
+
+**Matt Turck** (@mattturck) · VC, FirstMark Capital
+
+Matt Turck lamented the World Cup winding down to just 7 matches remaining, and noted an interesting cultural shift: the World Cup has also been a showcase of AI content quality — going from obvious slop to "wait, this kinda slaps."
+Matt Turck 感慨世界杯只剩 7 场比赛，同时观察到一个有趣现象：本届世界杯也是 AI 内容质量的一次展演——从明显的"AI 烂料"进化到"等等，这还挺不错的"。
+📎 https://x.com/mattturck/status/2074960512966648106
+📎 https://x.com/mattturck/status/2074908816274034896
+
+---
+
+**Zara Zhang** (@zarazhangrui) · Builder & Investor
+
+Zara Zhang shared a striking observation from an "agent-pilled" founder: after buying Codex Max for the whole team, everyone now works through their agents all day — but as a side effect, people stopped talking to each other, meetings got cancelled, and team culture deteriorated. The question she raises: what do we risk sacrificing when human-human collaboration gets replaced by human-agent interactions?
+Zara Zhang 分享了一个令人警醒的案例：某位"Agent 重度信徒"创始人给全团队购买了 Codex Max，所有人整天通过 Agent 完成工作——但副作用是：人与人之间的对话消失了，会议被取消，团队文化变差了。她提出的问题：当人-人协作被人-Agent 互动取代时，我们究竟在牺牲什么？
+*"So much of enterprise AI usage is single-player now. What do we risk sacrificing when team members all talk to their agents instead of each other?"*
+📎 https://x.com/zarazhangrui/status/2075004775436005687
+
+Zara also expressed frustration that Codex still isn't good enough at frontend design — that single weakness is the main barrier to her using it more. She also shared thoughts on how to grow on X authentically: "X is a party, not a stage."
+Zara 还坦言 Codex 在前端设计上仍然不够好，这是她更频繁使用它的最大障碍。她还分享了在 X 上真实增长的心得：*"X is a party, not a stage!"*
+📎 https://x.com/zarazhangrui/status/2075003007520096416
+📎 https://x.com/zarazhangrui/status/2074998060162375832
+
+---
+
+**Nikunj Kothari** (@nikunj) · Partner, FPV Ventures
+
+Nikunj observed that "polished" content is getting increasingly correlated with "slop" — and predicted a major pendulum swing back toward raw, human, authentic expression.
+Nikunj 观察到"精致"内容正越来越多地被等同于"AI 烂料"，并预测内容风格将大幅摆向原始、真实、人情味十足的方向。
+*"Polished is getting correlated with slop faster than you can imagine."*
+📎 https://x.com/nikunj/status/2075033190708961675
+
+He also commented on the weekly pendulum between Codex and Claude Code among developers — each week a new "we're so dead / we're back" cycle — and expressed appreciation for the competitive energy between both teams.
+他还评论了开发者社区在 Codex 和 Claude Code 之间的每周摆动——每周都是一轮"我们完了/我们回来了"的循环——并对两个团队相互激励的竞争态势表示欣赏。
+📎 https://x.com/nikunj/status/2074878958525657452
+
+---
+
+**Peter Steinberger** (@steipete) · OpenClaw Foundation
+
+Peter clarified an important distinction: OpenAI hired him, not OpenClaw. The OpenClaw Foundation is fully independent — with sponsors rather than owners, and now for the first time has a full-time team dedicated to keeping the platform stable.
+Peter 澄清了一个重要区别：是 OpenAI 雇佣了他，而非 OpenClaw。OpenClaw 基金会是完全独立的——有赞助商而非所有者，并且首次拥有了专职团队来维持平台稳定运营。
+*"The OpenClaw Foundation is independent, with sponsors rather than owners - and, for the first time, a full-time team keeping the claw alive and stable."*
+📎 https://x.com/steipete/status/2075046949896736835
+
+He also shared demos of agents using "nameplate" for additional context in user interactions, and showcased his vision for more natural human-AI conversation flows.
+他还展示了 Agent 使用"nameplate"在用户交互中提供额外上下文的案例，以及他对更自然的人机对话流程的构想。
+📎 https://x.com/steipete/status/2074969319042363808
+📎 https://x.com/steipete/status/2074923615817200085
+
+---
+
+**Dan Shipper** (@danshipper) · CEO, Every
+
+Dan Shipper shared excitement and anticipation around a major content drop — teasing that "the stakes have been raised" and he can't wait to see what the creator does next. He also mentioned Every will release a prompt and open-source repo for subscribers on Friday.
+Dan Shipper 对一个重大内容发布表示兴奋与期待，暗示"赌注已经提高"，迫不及待地想看创作者接下来的动作。他还提到 Every 将于周五为订阅者发布一个 prompt 和开源代码库。
+📎 https://x.com/danshipper/status/2074967404212298072
+📎 https://x.com/danshipper/status/2074953690876612764
+📎 https://x.com/danshipper/status/2074882061869961585
+
+---
+
+**Aditya Agarwal** (@adityaag) · General Partner, South Park Commons
+
+Aditya Agarwal shared a rallying call for founders: the best don't just worry about missing this AI moment — they worry about wasting it. Building small-scale software plays is no longer enough; the moment demands maximal ambition. South Park Commons Founder Fellowship applications are due August 2.
+Aditya Agarwal 向创业者发出号召：最优秀的人不只是担心错过这个 AI 时代的机遇——他们担心的是浪费它。纯软件的小打小闹已经不够了，这个时代需要最大胆的野心。South Park Commons 创始人奖学金申请截止日期为 8 月 2 日。
+*"Don't waste the moment. Be maximally ambitious."*
+📎 https://x.com/adityaag/status/2074892952233705956
+📎 https://x.com/adityaag/status/2074892507306238235
+
+---
+
+**Sam Altman** (@sama) · CEO, OpenAI
+
+Sam Altman kept a relatively low-key presence today, sharing a couple of reactions to content without detailed commentary — suggesting he's focused on preparation for what appears to be an imminent major OpenAI launch (consistent with Thibault's teaser above).
+Sam Altman 今日保持相对低调，仅分享了几条简短互动，没有实质性言论——这与 Thibault 透露的 OpenAI 正在密集备货的信号一致，暗示团队正全力备战即将发布的重大产品。
+📎 https://x.com/sama/status/2075068286107316317
+📎 https://x.com/sama/status/2075063511290662996
+📎 https://x.com/sama/status/2075048072837734448
