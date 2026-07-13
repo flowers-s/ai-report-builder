@@ -1,188 +1,141 @@
-AI Builders 日报 · 2026-07-12
+AI Builders 日报 · 2026-07-13
+
+AI Builders Digest — 2026-07-13
+AI Builders 日报 — 2026-07-13
 
 ---
 
-X / TWITTER
+## X / TWITTER
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — OpenAI Codex Team
+### OpenAI CEO Sam Altman (sama on X)
 
-Thibault Sottiaux shared a striking internal visualization showing how Codex usage limit resets ripple across their systems, calling the data "beautiful."
-Thibault Sottiaux 分享了一张精美的内部可视化图表，展示了 Codex 使用限额重置如何影响他们的系统，称这份数据"太美了"。
+There are a lot of benchmarks that suggest GPT-5.6 Sol is the best model in the world right now, but the most reliable way to tell is that Elon is obsessed with him again.
+目前有大量 benchmark 数据表明 GPT-5.6 Sol 是当前世界上最好的模型，但最可靠的判断依据是：马斯克又开始痴迷地盯着他了。
 
-He also noted a strong product signal: *"You know it's a good model when you grow more in 1 day than last two weeks combined."*
-他还分享了一个强烈的产品信号：*"当你一天的增长超过过去两周的总和，你就知道这个模型有多强了。"*
+Sam also flagged a striking cost data point: in a conversation about infrastructure costs, he noted that 30% of total costs were attributable to Fable at current usage levels.
+Sam 还指出了一个引人注目的成本数据：在一次关于基础设施成本的讨论中，他提到在当前使用规模下，Fable 占据了总成本的 30%。
 
-Finally, he clarified the positioning of two ChatGPT products — Codex remains for power users who code, while ChatGPT Work is for the broader audience who wants AI productivity without the technical barrier.
-他还澄清了两款 ChatGPT 产品的定位——Codex 面向专业编程用户，ChatGPT Work 则面向希望获得 AI 生产力提升但不需要写代码的普通用户。
-
-https://x.com/thsottiaux/status/2076054439140720719
-https://x.com/thsottiaux/status/2076021263945039876
-https://x.com/thsottiaux/status/2075961345351307739
+Source: https://x.com/sama/status/2075983427019612242
+Source: https://x.com/sama/status/2075982820322025788
 
 ---
 
-Peter Yang (petergyang on X) — Product & AI Educator
+### OpenAI Codex & ChatGPT Engineer Thibault Sottiaux (thsottiaux on X)
 
-Peter Yang is experimenting with a multi-tool AI workflow: using Fable to draft a design plan, Claude Design for UI components and screens, then GPT to write the actual code.
-Peter Yang 正在尝试一种多工具 AI 工作流：用 Fable 起草设计方案，用 Claude Design 生成 UI 组件和界面，再用 GPT 编写代码。
+GPT-5.6 Sol has officially launched, and Thibault is proud of the progress made in response to user feedback.
+GPT-5.6 Sol 正式发布，Thibault 对团队根据用户反馈取得的进步感到自豪。
 
-He also raised a thoughtful question about AI design benchmarks: *"This is super cool but I wonder how all these benchmarks work? How do you benchmark design taste?"*
-他还提出了一个值得深思的问题：*"这太酷了，但我好奇这些 benchmark 是怎么运作的？你怎么评估设计品位？"*
+The new model is fast and token-efficient, excels at both back-end and front-end development, and notably no longer over-uses `useEffect` — a long-standing complaint from developers.
+新模型速度快、token 效率高，在前后端开发上均表现出色，尤其值得一提的是它不再到处滥用 `useEffect`——这是开发者长期以来的心头痛。
 
-(The Argentina soccer tweet is not substantive and is skipped.)
-（他的阿根廷足球推文无实质内容，略去。）
+*"✅Fast and token efficient ✅Hardcore at back-end dev ✅Great at front-end ✅Does not use useEffect everywhere"*
 
-https://x.com/petergyang/status/2075999617666445714
-https://x.com/petergyang/status/2076050876314300478
+He also shared a practical tip for developers not yet using the Codex app: you can point Claude Code at GPT-5.6 Sol via CLIProxyAPI in just 5 minutes using a simple shell alias.
+他还为尚未使用 Codex 应用的开发者分享了一个实用技巧：通过 CLIProxyAPI，只需 5 分钟和一个简单的 shell alias，即可让 Claude Code 调用 GPT-5.6 Sol。
 
----
-
-Aaron Levie (levie on X) — Box CEO
-
-Box CEO Aaron Levie highlighted a post on applied enterprise AI, noting its most valuable insight isn't about which companies win — it's about what real AI transformation looks like inside organizations.
-Box CEO Aaron Levie 推荐了一篇关于企业 AI 应用的文章，指出其最核心的见解不是哪些公司会赢，而是 AI 转型在组织内部究竟是什么样子。
-
-His key point: AI transformation is fundamentally about changing the underlying workflow, not just adding AI tools on top of existing processes.
-他的核心观点：AI 转型的本质是改变底层工作流，而不只是在现有流程上叠加 AI 工具。
-
-https://x.com/levie/status/2075963779599466894
+Source: https://x.com/thsottiaux/status/2076145711922696371
+Source: https://x.com/thsottiaux/status/2076119366647894371
 
 ---
 
-Garry Tan (garrytan on X) — YC President & CEO
+### Box CEO Aaron Levie (levie on X)
 
-YC President Garry Tan continued his push on San Francisco policy issues, calling out CEQA (California Environmental Quality Act) for blocking housing construction and calling to defund what he calls the "SF Doom Loop" grifters.
-YC 总裁 Garry Tan 继续推动旧金山政策改革，指出加州环境质量法（CEQA）每年阻断数千套住房建设，并呼吁停止资助他所说的"旧金山恶性循环"中的投机者。
+Aaron Levie shared a counterintuitive observation: software job postings are actually outpacing other fields, even as AI was supposed to replace software engineers.
+Aaron Levie 分享了一个反直觉的观察：尽管 AI 被认为会取代软件工程师，但软件岗位的招聘量实际上正在超越其他领域。
 
-His most quotable line: *"Make something agents want"* — a riff on Paul Graham's "Make something people want," updated for the agentic era.
-他最值得引用的一句话：*"Make something agents want"*——对 Paul Graham 名言"Make something people want"的 AI 时代重诠释。
+His explanation draws on Jevons Paradox: when the cost of producing software drops, demand for software explodes — more projects get started, more systems need maintenance, and more people are needed to decide what to build.
+他的解释援引了杰文斯悖论：当软件生产成本降低时，对软件的需求反而会爆发——更多项目启动，更多系统需要维护，也需要更多人来决定构建什么。
 
-https://x.com/garrytan/status/2075975184293765564
-https://x.com/garrytan/status/2075945096860807494
-https://x.com/garrytan/status/2076002866582675674
+*"Agents will cause more abundance than replacement."*
+*"Agent 带来的是更多的丰盈，而不是替代。"*
 
----
-
-Zara Zhang (zarazhangrui on X) — AI Investor & Builder
-
-Zara Zhang made a sharp observation about the convergence of building and creating: *"The line between 'builder' and 'creator' is blurring."*
-Zara Zhang 对构建者与创作者角色融合提出了一个犀利观察：*"'builder'和'creator'之间的界线正在模糊。"*
-
-She argues this is the best moment for builders to create content and for creators to build products — a dual opportunity rarely available before.
-她认为，现在是 builder 做内容、creator 做产品的最佳时机——这种双向机遇以前很少同时出现。
-
-https://x.com/zarazhangrui/status/2075930909669515753
+Source: https://x.com/levie/status/2076116544980214164
 
 ---
 
-Nikunj Kothari (nikunj on X) — Builder & Investor
+### AI Engineer & Latent Space Podcast Host Swyx (swyx on X)
 
-Nikunj Kothari shared his amazement at shipping a fully working iOS app in just a few hours using Fable and Sol, starting from an existing backend and web app: *"what an insane world we live in 🤯"*
-Nikunj Kothari 分享了他用 Fable 和 Sol 在几小时内基于已有后端和 Web 应用做出完整 iOS App 的惊喜：*"我们生活在一个多么疯狂的世界里 🤯"*
+Swyx extended the Jevons Paradox argument beyond software into all knowledge work.
+Swyx 将杰文斯悖论的论点从软件领域延伸到了所有知识工作领域。
 
-https://x.com/nikunj/status/2076022807365079342
+His thesis: as coding agents break out of their containment and spread across all domains of knowledge work, the total demand for work and better knowledge will rise — not fall.
+他的核心观点是：随着 coding agent 突破边界、渗透到所有知识工作领域，对工作总量和更高质量知识的需求将会上升，而不是下降。
 
----
+*"What happened to coding isn't the exception; it's the herald."*
+*"发生在编程领域的一切不是例外，而是先兆。"*
 
-Peter Steinberger (steipete on X) — iOS/AI Developer
-
-Peter Steinberger posted a single line that reflects a careful, methodical engineering mindset: *"Let me verify a couple of load-bearing facts before I give you the architecture assessment."*
-Peter Steinberger 发了一句话，体现了严谨的工程师思维：*"让我先核实几个关键事实，再给你做架构评估。"*
-
-A small but telling signal about how experienced builders approach AI-assisted architecture reviews.
-这是一个小而有力的信号，说明有经验的工程师如何对待 AI 辅助的架构评审。
-
-https://x.com/steipete/status/2076013212043182375
+Source: https://x.com/swyx/status/2076155833428431012
 
 ---
 
-Dan Shipper (danshipper on X) — Every.to CEO
+### Zara Zhang, Builder (zarazhangrui on X)
 
-Dan Shipper posted a link with just "seems bad" — commenting on what appears to be concerning AI-related news.
-Dan Shipper 发了一个链接，配文"seems bad"——似乎是在评论某个令人担忧的 AI 相关新闻。
+Zara Zhang confirmed from her own hands-on testing that GPT-5.6 Sol delivers strong front-end results.
+Zara Zhang 根据自己的亲身测试证实，GPT-5.6 Sol 在前端开发上表现非常出色。
 
-(Content too sparse for a substantive summary without access to the linked article.)
-（内容过于简短，无法在不访问链接文章的情况下提供实质性摘要。）
-
-https://x.com/danshipper/status/2075767886254064011
+Source: https://x.com/zarazhangrui/status/2076130810143367453
 
 ---
 
-Aditya Agarwal (adityaag on X) — CTO / Engineering Leader
+### YCombinator President & CEO Garry Tan (garrytan on X)
 
-Aditya Agarwal joked about football's future with halftime becoming quarters and VAR evolving — playfully predicting "The World Cup 2048 will be brought to you by FIFA-NFL."
-Aditya Agarwal 开玩笑畅想足球的未来：下半场变成四节制、VAR 进化——调侃"2048年世界杯将由 FIFA-NFL 联合呈现"。
+Garry Tan called for repealing and reforming CEQA (California Environmental Quality Act), arguing that it blocks millions of housing units every year and that housing should be built by-right without the current level of environmental review.
+Garry Tan 呼吁废除并改革 CEQA（加利福尼亚环境质量法案），认为该法案每年阻碍数百万套住房的建设，主张住房应当享有建设权，无需经历现行如此繁琐的环境审查流程。
 
-More substantively, he laid out a clear vision for where AI infrastructure is headed: *"Run all the agents in the cloud, choose any model (frontier, OSS, Chinese, American), choose any harness, have full tracing, have recursive improvement loops."*
-更实质的是，他清晰描绘了 AI 基础设施的发展方向：*"在云端运行所有 agent，自由选择任意模型（前沿、开源、中美皆可），选择任意框架，具备完整追踪和递归改进循环。"*
+He also shared a characteristically pithy reflection on risk and optimism:
+他还分享了一句简洁有力的对风险与乐观主义的思考：
 
-His frustration is relatable: he knows all of this will exist — the question is whether it can happen fast enough.
-他的焦虑感引发共鸣：他知道这一切都会实现——问题是能不能来得快一点。
+*"So much could go wrong. But the interesting question is always: what happens if things go right?"*
+*"太多事情可能会出错。但最有趣的问题始终是：如果事情顺利，会发生什么？"*
 
-https://x.com/adityaag/status/2076047290083733539
-https://x.com/adityaag/status/2076084443920683119
-
----
-
-Sam Altman (sama on X) — OpenAI CEO
-
-OpenAI CEO Sam Altman shared a surprising finding: *"so far at least, i'm pretty sure AI has been net job-creating."*
-OpenAI CEO Sam Altman 分享了一个出乎意料的发现：*"至少到目前为止，我相当确信 AI 在净效应上是在创造就业岗位。"*
-
-He admitted this wasn't what he expected — even though he was less pessimistic than most, he thought AI would have shown some negative employment impact by this capability level.
-他坦言这不是他预期的结果——即便他本就比多数人乐观，他也以为在这一能力水平下 AI 会已经显现出一些就业冲击。
-
-He also highlighted a medical AI milestone: *"physicians found fewer flaws in GPT-5.6 responses than physician-written responses"* — a signal that AI is surpassing human baseline quality in clinical writing.
-他还重点提及一项医疗 AI 里程碑：*"医生在 GPT-5.6 的回答中找到的错误，比在医生撰写的回答中还少"*——这标志着 AI 在临床写作上已超越人类基准水准。
-
-https://x.com/sama/status/2076036901824532530
-https://x.com/sama/status/2075985056846451123
-https://x.com/sama/status/2076034163418014199
+Source: https://x.com/garrytan/status/2075944103867830352
+Source: https://x.com/garrytan/status/2075933358660730901
 
 ---
 
-PODCASTS
+### Vercel CEO Guillermo Rauch (rauchg on X)
+
+近期无重要动态。(No substantive AI/tech content in recent posts.)
 
 ---
 
-The MAD Podcast with Matt Turck — Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay
+### FirstMark Capital VC Matt Turck (mattturck on X)
 
-Emily Beisel (Head of Data & AI at Stripe) joined Matt Turck to discuss the emerging infrastructure for agentic commerce.
-Stripe 数据与 AI 负责人 Emily Beisel 与 Matt Turck 深入探讨了 AI agent 商业基础设施的最新进展。
+近期无重要动态。(Recent posts were about World Cup football, not AI/tech.)
 
-**核心论点 / Core Thesis**
+---
 
-The economy is being restructured around AI agents as buyers and sellers.
-经济正在围绕 AI agent 作为买家和卖家进行重构。
+### Peter Yang, AI Educator (petergyang on X)
 
-Stripe has spent the past year building real infrastructure — not hypotheticals — for agentic commerce, partnering with Google, OpenAI, Microsoft, and Meta.
-Stripe 过去一年在真实基础设施上下注——与 Google、OpenAI、Microsoft、Meta 等合作，推动 agent 商业落地。
+近期无重要动态。(Recent posts were about World Cup football, not AI/tech.)
 
-**关键洞察 / Key Insights**
+---
 
-• Agentic commerce exists on a spectrum — from fully autonomous agent-to-agent transactions (MPP, Level 3+) to AI-assisted human purchases with a "buy button" (Level 1). Today's consumer market is mostly at Level 2.
-  Agent 商业是一个谱系——从全自主的 agent 对 agent 交易（Level 3+），到带"购买按钮"的 AI 辅助人类购物（Level 1）。当前消费市场大多处于 Level 2。
+### FPV Ventures Partner Nikunj Kothari (nikunj on X)
 
-• The Agentic Commerce Protocol (ACP), co-created with OpenAI, is the "MCP for commerce" — it lets businesses expose their product catalog once and opt in to all agent surfaces (Google Gemini, ChatGPT, Copilot, etc.) simultaneously.
-  与 OpenAI 联合创建的 Agentic Commerce Protocol（ACP），是"商业版 MCP"——企业只需发布一次产品目录，即可接入所有 agent 平台（Google Gemini、ChatGPT、Copilot 等）。
+近期无重要动态。(Recent posts were about World Cup football, not AI/tech.)
 
-• Token theft is the most under-discussed threat in AI: *"More than one in six signups at AI companies are this kind of abuse."* Fraudsters don't need to steal money — they steal compute tokens.
-  Token 盗窃是 AI 领域最被忽视的威胁：*"AI 公司超过六分之一的注册是此类滥用。"* 欺诈者不需要偷钱——他们偷的是计算 token。
+---
 
-• Per-seat pricing is breaking. AI usage is fundamentally consumption-based (token-based), not user-count-based, forcing the entire SaaS industry to rethink monetization.
-  按席位计价的商业模式正在瓦解。AI 使用本质上是基于消耗（token 计费），而非用户数量，整个 SaaS 行业被迫重新思考货币化方式。
+## PODCASTS
 
-• The long-term vision: agents don't just execute transactions — they run entire businesses. Stripe is building toward a world where an agent is "tasked with running a business, and that includes buying some things and selling some things and making some profits."
-  长期愿景：agent 不只是执行交易，而是运营整个业务。Stripe 正在构建这样一个世界：agent 被赋予经营业务的任务，"这包括购买一些东西、出售一些东西并实现盈利"。
+---
 
-**最值得关注的信号 / Forward-Looking Signal**
+### No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel
 
-Watch token-based monetization and the ACP protocol adoption — these two will reshape SaaS pricing and B2B commerce infrastructure faster than most expect.
-重点关注基于 token 的货币化模式和 ACP 协议的普及——这两者将以超出多数人预期的速度重塑 SaaS 定价和 B2B 商业基础设施。
+In this episode of No Priors, hosts interview Glenn Fogel — CEO of Booking.com — about how AI is reshaping the travel industry.
+本期 No Priors 邀请到 Booking.com CEO Glenn Fogel，探讨 AI 如何重塑旅游行业。
 
-https://www.youtube.com/@DataDrivenNYC/videos
+Fogel discusses how AI is being integrated into Booking.com's core product to personalize recommendations and reduce friction in travel planning.
+Fogel 分享了 AI 如何被整合进 Booking.com 的核心产品，以实现个性化推荐、降低旅行规划中的摩擦。
+
+The conversation covers the competitive dynamics of AI adoption among travel platforms, the role of large language models in customer-facing products, and what the next generation of AI-powered travel assistance might look like.
+对话涵盖了旅游平台之间的 AI 采用竞争态势、大语言模型在面向用户产品中的角色，以及下一代 AI 旅行助手的可能形态。
+
+Published: 2026-07-09
+Episode URL: https://www.youtube.com/watch?v=8nj_0wZkbtA
 
 ---
 
