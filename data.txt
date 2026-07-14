@@ -1,7 +1,4 @@
-AI Builders 日报 · 2026-07-13
-
-AI Builders Digest — 2026-07-13
-AI Builders 日报 — 2026-07-13
+AI Builders 日报 · 2026-07-14
 
 ---
 
@@ -9,113 +6,221 @@ AI Builders 日报 — 2026-07-13
 
 ---
 
-### OpenAI CEO Sam Altman (sama on X)
+### Swyx (swyx)
 
-There are a lot of benchmarks that suggest GPT-5.6 Sol is the best model in the world right now, but the most reliable way to tell is that Elon is obsessed with him again.
-目前有大量 benchmark 数据表明 GPT-5.6 Sol 是当前世界上最好的模型，但最可靠的判断依据是：马斯克又开始痴迷地盯着他了。
+Swyx, AI developer community builder and host of the Latent Space podcast, shared a sharp take on AI reasoning.
+Swyx，AI开发者社区建设者、Latent Space播客主持人，分享了一个关于AI推理的犀利观点。
 
-Sam also flagged a striking cost data point: in a conversation about infrastructure costs, he noted that 30% of total costs were attributable to Fable at current usage levels.
-Sam 还指出了一个引人注目的成本数据：在一次关于基础设施成本的讨论中，他提到在当前使用规模下，Fable 占据了总成本的 30%。
+He quipped about the futility of running multiple rollouts without a meaningful advantage: *"the definition of insanity is doing multiple rollouts with no expectation of advantage."*
+他用爱因斯坦的话调侃了盲目多次推理采样的徒劳：*"疯狂的定义是在没有任何优势预期的情况下反复进行多次推理"。*
 
-Source: https://x.com/sama/status/2075983427019612242
-Source: https://x.com/sama/status/2075982820322025788
+He also shared a writeup on his Latent Space podcast about AI introspection and backpropagation as key differentiators.
+他还在Latent Space播客中分享了一篇关于AI内省与反向传播作为关键差异化因素的文章。
 
----
-
-### OpenAI Codex & ChatGPT Engineer Thibault Sottiaux (thsottiaux on X)
-
-GPT-5.6 Sol has officially launched, and Thibault is proud of the progress made in response to user feedback.
-GPT-5.6 Sol 正式发布，Thibault 对团队根据用户反馈取得的进步感到自豪。
-
-The new model is fast and token-efficient, excels at both back-end and front-end development, and notably no longer over-uses `useEffect` — a long-standing complaint from developers.
-新模型速度快、token 效率高，在前后端开发上均表现出色，尤其值得一提的是它不再到处滥用 `useEffect`——这是开发者长期以来的心头痛。
-
-*"✅Fast and token efficient ✅Hardcore at back-end dev ✅Great at front-end ✅Does not use useEffect everywhere"*
-
-He also shared a practical tip for developers not yet using the Codex app: you can point Claude Code at GPT-5.6 Sol via CLIProxyAPI in just 5 minutes using a simple shell alias.
-他还为尚未使用 Codex 应用的开发者分享了一个实用技巧：通过 CLIProxyAPI，只需 5 分钟和一个简单的 shell alias，即可让 Claude Code 调用 GPT-5.6 Sol。
-
-Source: https://x.com/thsottiaux/status/2076145711922696371
-Source: https://x.com/thsottiaux/status/2076119366647894371
+Sources:
+- https://x.com/swyx/status/2076345087634620528
+- https://x.com/swyx/status/2076216180529156097
 
 ---
 
-### Box CEO Aaron Levie (levie on X)
+### Thibault Sottiaux (OpenAI, thsottiaux)
 
-Aaron Levie shared a counterintuitive observation: software job postings are actually outpacing other fields, even as AI was supposed to replace software engineers.
-Aaron Levie 分享了一个反直觉的观察：尽管 AI 被认为会取代软件工程师，但软件岗位的招聘量实际上正在超越其他领域。
+Thibault Sottiaux, an engineer at OpenAI, announced updates for Codex and ChatGPT Work users.
+OpenAI工程师Thibault Sottiaux宣布了面向Codex和ChatGPT Work用户的更新。
 
-His explanation draws on Jevons Paradox: when the cost of producing software drops, demand for software explodes — more projects get started, more systems need maintenance, and more people are needed to decide what to build.
-他的解释援引了杰文斯悖论：当软件生产成本降低时，对软件的需求反而会爆发——更多项目启动，更多系统需要维护，也需要更多人来决定构建什么。
+OpenAI has landed inference optimizations and is passing the savings to all paid subscriptions for GPT-5.6 Sol, resulting in around 10% more usage capacity.
+OpenAI完成了推理优化并将节省的成本传递给GPT-5.6 Sol的所有付费订阅用户，带来约10%的额外使用量。
 
-*"Agents will cause more abundance than replacement."*
-*"Agent 带来的是更多的丰盈，而不是替代。"*
+He reassured users that *"GPT 5.6 Sol will stay in the ChatGPT subscription you pay for,"* covering Go, Plus, Pro, Team, Edu, and all other paid plans.
+他向用户保证：*"GPT 5.6 Sol将持续包含在您所付费的ChatGPT订阅中"*，覆盖Go、Plus、Pro、Team、Edu及所有其他付费方案。
 
-Source: https://x.com/levie/status/2076116544980214164
-
----
-
-### AI Engineer & Latent Space Podcast Host Swyx (swyx on X)
-
-Swyx extended the Jevons Paradox argument beyond software into all knowledge work.
-Swyx 将杰文斯悖论的论点从软件领域延伸到了所有知识工作领域。
-
-His thesis: as coding agents break out of their containment and spread across all domains of knowledge work, the total demand for work and better knowledge will rise — not fall.
-他的核心观点是：随着 coding agent 突破边界、渗透到所有知识工作领域，对工作总量和更高质量知识的需求将会上升，而不是下降。
-
-*"What happened to coding isn't the exception; it's the herald."*
-*"发生在编程领域的一切不是例外，而是先兆。"*
-
-Source: https://x.com/swyx/status/2076155833428431012
+Sources:
+- https://x.com/thsottiaux/status/2076495156757577895
+- https://x.com/thsottiaux/status/2076460408437887268
+- https://x.com/thsottiaux/status/2076459871021736245
 
 ---
 
-### Zara Zhang, Builder (zarazhangrui on X)
+### Peter Yang (Product Manager, petergyang)
 
-Zara Zhang confirmed from her own hands-on testing that GPT-5.6 Sol delivers strong front-end results.
-Zara Zhang 根据自己的亲身测试证实，GPT-5.6 Sol 在前端开发上表现非常出色。
+Peter Yang, a product leader and AI commentator, weighed in on OpenAI's model rollout and Anthropic's communication style.
+产品领导者兼AI评论人Peter Yang，就OpenAI的模型发布和Anthropic的沟通风格发表了看法。
 
-Source: https://x.com/zarazhangrui/status/2076130810143367453
+He observed that the vast majority of users appear to be using GPT-5.6 Sol, estimating *"90%+ of people are using GPT 5.6 Sol and <10% are using Terra or Luna."*
+他观察到绝大多数用户似乎在使用GPT-5.6 Sol，估计"90%以上的人在使用GPT 5.6 Sol，而使用Terra或Luna的不足10%"。
 
----
+He called for more transparent, human communication from AI companies during turbulent times: *"communicate in a more human way, be transparent with the community about what's going on, figure out solutions together."*
+他呼吁AI公司在动荡时期进行更透明、更人性化的沟通："以更人性化的方式沟通，对社区坦诚当前情况，共同寻找解决方案。"
 
-### YCombinator President & CEO Garry Tan (garrytan on X)
+He also critiqued Anthropic's communication approach, saying they should engage the developer community more directly like OpenAI does.
+他还批评了Anthropic的沟通方式，认为他们应该像OpenAI一样更直接地与开发者社区互动。
 
-Garry Tan called for repealing and reforming CEQA (California Environmental Quality Act), arguing that it blocks millions of housing units every year and that housing should be built by-right without the current level of environmental review.
-Garry Tan 呼吁废除并改革 CEQA（加利福尼亚环境质量法案），认为该法案每年阻碍数百万套住房的建设，主张住房应当享有建设权，无需经历现行如此繁琐的环境审查流程。
-
-He also shared a characteristically pithy reflection on risk and optimism:
-他还分享了一句简洁有力的对风险与乐观主义的思考：
-
-*"So much could go wrong. But the interesting question is always: what happens if things go right?"*
-*"太多事情可能会出错。但最有趣的问题始终是：如果事情顺利，会发生什么？"*
-
-Source: https://x.com/garrytan/status/2075944103867830352
-Source: https://x.com/garrytan/status/2075933358660730901
+Sources:
+- https://x.com/petergyang/status/2076519927843000448
+- https://x.com/petergyang/status/2076512796481880270
+- https://x.com/petergyang/status/2076510899490480228
 
 ---
 
-### Vercel CEO Guillermo Rauch (rauchg on X)
+### Amjad Masad (Replit CEO, amasad)
 
-近期无重要动态。(No substantive AI/tech content in recent posts.)
+Amjad Masad, CEO of Replit, shared his latest experiment using AI to do machine learning research.
+Replit CEO Amjad Masad分享了他最新的用AI进行机器学习研究的实验。
+
+He is fine-tuning a Qwen-8b model to play chess on Replit, running 3 parallel branches with different experiments.
+他正在Replit上微调一个Qwen-8b模型来下象棋，同时运行3个并行实验分支。
+
+He noted: *"It's amazing how far models have come in their ability to do ML — they used to be really bad at it."*
+他感叹道："模型在进行机器学习方面的能力已经进步了多少——它们以前在这方面真的很差。"
+
+He also shared a fun demo of Replit's computer use model playing against his new chess engine.
+他还分享了一个有趣的演示，展示了Replit的computer use模型与他新的国际象棋引擎对弈。
+
+Sources:
+- https://x.com/amasad/status/2076356893736673507
+- https://x.com/amasad/status/2076227936202662357
 
 ---
 
-### FirstMark Capital VC Matt Turck (mattturck on X)
+### Guillermo Rauch (Vercel CEO, rauchg)
 
-近期无重要动态。(Recent posts were about World Cup football, not AI/tech.)
+Guillermo Rauch, CEO of Vercel, made a pointed argument for AI infrastructure ownership.
+Vercel CEO Guillermo Rauch就AI基础设施所有权发表了一针见血的观点。
+
+He outlined a stack for companies to maintain control: AI SDK → open model API, v0.dev → open Agent API, AI Gateway → open ZDR inference.
+他概述了一套让公司保持控制权的技术栈：AI SDK → 开放模型API，v0.dev → 开放Agent API，AI Gateway → 开放ZDR推理。
+
+His key message: *"Startups and enterprises must own their data, evals, model choices, software layer. Don't outsource your brain."*
+他的核心信息："初创公司和企业必须拥有自己的数据、评估、模型选择和软件层。不要把你的大脑外包出去。"
+
+Source: https://x.com/rauchg/status/2076364176252191222
 
 ---
 
-### Peter Yang, AI Educator (petergyang on X)
+### Aaron Levie (Box CEO, levie)
 
-近期无重要动态。(Recent posts were about World Cup football, not AI/tech.)
+Aaron Levie, CEO of Box, reflected on one of the defining strategic questions of the AI era.
+Box CEO Aaron Levie，就AI时代最核心的战略问题进行了深度思考。
+
+He posed the key challenge for businesses: how to maximize corporate IP — decisions, insights, workflow patterns, best practices — in a world where so much intelligence is embedded in AI models.
+他提出了企业面临的核心挑战：在大量智能已嵌入AI模型的世界里，如何最大化企业知识产权——包括决策、洞察、工作流模式和最佳实践。
+
+He suggested this architectural question will shape 21st-century business strategy.
+他认为，这个架构性问题将塑造21世纪的商业战略。
+
+Source: https://x.com/levie/status/2076338364635287637
 
 ---
 
-### FPV Ventures Partner Nikunj Kothari (nikunj on X)
+### Garry Tan (Y Combinator President, garrytan)
 
-近期无重要动态。(Recent posts were about World Cup football, not AI/tech.)
+Garry Tan, President of Y Combinator, issued a sharp public safety warning.
+Y Combinator总裁Garry Tan发出了一记犀利的公共安全警告。
+
+He criticized politicians who disable public safety technology for political signaling: *"Craven politicians who disable public safety technology for virtue signal and culture war purposes will always get blood on their hands."*
+他批评那些出于政治表演而关闭公共安全技术的政客："懦弱的政客为了道德表演和文化战争目的而关闭公共安全技术，他们的手上永远沾满鲜血。"
+
+Source: https://x.com/garrytan/status/2076534860064416115
+
+---
+
+### Nikunj Kothari (nikunj)
+
+Nikunj Kothari, an investor and builder, shared reflections on focus and craft.
+投资人兼创业者Nikunj Kothari分享了关于专注与手艺的思考。
+
+He called out the disconnect in the AI community between "tokenmaxxing" hype and actual purposeful building: many claim to have AI agents doing work for them, but very few can clearly answer what they are building and for whom.
+他点出了AI社区中"tokenmaxxing"炒作与真正有目的地构建之间的脱节：许多人声称有AI代理在为他们工作，但很少有人能清楚地回答他们在为谁构建什么。
+
+He also emphasized that outbound sales remains a critical, learnable skill — and will become even more important in the AI era.
+他还强调，外向型销售仍然是一项关键的、可学习的技能，在AI时代将变得更加重要。
+
+Sources:
+- https://x.com/nikunj/status/2076458876816540144
+- https://x.com/nikunj/status/2076370608833827124
+
+---
+
+### Peter Steinberger (PSPDFKit CEO, steipete)
+
+Peter Steinberger, CEO of PSPDFKit, gave a glimpse into his multi-machine AI workflow setup.
+PSPDFKit CEO Peter Steinberger展示了他的多机AI工作流程配置。
+
+He shared that he shards his work across ~5 machines via Jump Desktop, with his Mac Studio handling the heaviest sessions.
+他分享了通过Jump Desktop将工作分散到约5台机器上的方式，其中Mac Studio承担最繁重的会话。
+
+He also shared a screenshot showing his Mac Studio running at its maximum session capacity.
+他还分享了一张Mac Studio运行到最大会话容量的截图。
+
+Sources:
+- https://x.com/steipete/status/2076553742883930455
+- https://x.com/steipete/status/2076552605262872904
+
+---
+
+### Zara Zhang (Follow Builders creator, zarazhangrui)
+
+Zara Zhang, creator of the Follow Builders skill, shared a powerful workflow insight.
+Follow Builders技能创建者Zara Zhang分享了一个强大的工作流洞见。
+
+She described using meeting transcripts as product requirement documents: send the transcript to Codex, and it builds the prototype as discussed.
+她描述了将会议记录用作产品需求文档的方法：将记录发给Codex，它就会按照讨论内容构建原型。
+
+*"The meeting is the prompt"* — this simple idea compresses the entire product spec process into a natural conversation.
+"会议就是提示词"——这个简单的理念将整个产品规格流程压缩成了一次自然对话。
+
+She also shared a thought-provoking one-liner: *"Passion is the biggest moat."*
+她还分享了一句发人深省的话："热情是最大的护城河。"
+
+Sources:
+- https://x.com/zarazhangrui/status/2076300222884626754
+- https://x.com/zarazhangrui/status/2076284012339843546
+
+---
+
+### Dan Shipper (Every CEO, danshipper)
+
+Dan Shipper, CEO of Every, was mostly in meme-sharing mode today with light commentary.
+Every CEO Dan Shipper今天主要以分享表情包和轻松评论为主。
+
+His posts were largely reactions and retweets without substantive original insight.
+他的帖子大多是反应和转推，没有实质性的原创见解。
+
+近期无重要动态。
+
+Sources:
+- https://x.com/danshipper/status/2076455432546066826
+- https://x.com/danshipper/status/2076351869782286707
+- https://x.com/danshipper/status/2076340879787237562
+
+---
+
+### Sam Altman (OpenAI CEO, sama)
+
+Sam Altman, CEO of OpenAI, issued a creative challenge to the community.
+OpenAI CEO Sam Altman向社区发起了一项创意挑战。
+
+He invited people to share interesting things they've built with GPT-5.6 Sol, promising: *"I will send the person who made the coolest thing a special gift from the OpenAI archives."*
+他邀请大家分享用GPT-5.6 Sol构建的有趣作品，并承诺："我将向制作出最酷东西的人赠送一份来自OpenAI档案馆的特别礼物。"
+
+Source: https://x.com/sama/status/2076398253332140410
+
+---
+
+### Claude (Anthropic, claudeai)
+
+Claude (Anthropic's official account) announced an extension of Claude Fable 5 access across all paid plans.
+Claude（Anthropic官方账号）宣布在所有付费方案中延长Claude Fable 5的访问权限。
+
+Fable 5 access is being extended through July 19, with users able to use up to half of their weekly usage limit on Fable 5.
+Fable 5访问权限延长至7月19日，用户每周最多可将一半的使用配额用于Fable 5。
+
+Claude Code's weekly rate limits will also remain 50% higher through the same date.
+Claude Code的每周速率限制也将在同期保持高出50%的水平。
+
+Sources:
+- https://x.com/claudeai/status/2076351401006154204
+- https://x.com/claudeai/status/2076351399999557669
 
 ---
 
@@ -123,19 +228,30 @@ Source: https://x.com/garrytan/status/2075933358660730901
 
 ---
 
-### No Priors: Travel Through the Lens of AI with Booking.com CEO Glenn Fogel
+### No Priors — "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor"
 
-In this episode of No Priors, hosts interview Glenn Fogel — CEO of Booking.com — about how AI is reshaping the travel industry.
-本期 No Priors 邀请到 Booking.com CEO Glenn Fogel，探讨 AI 如何重塑旅游行业。
+No Priors, the leading AI and technology venture podcast, featured Isaiah Taylor, founder and CEO of Valar Atomics, recorded live at their Utah nuclear facility.
+No Priors，顶尖AI与科技创投播客，邀请了Valar Atomics创始人兼CEO Isaiah Taylor，现场录制于其犹他州核设施。
 
-Fogel discusses how AI is being integrated into Booking.com's core product to personalize recommendations and reduce friction in travel planning.
-Fogel 分享了 AI 如何被整合进 Booking.com 的核心产品，以实现个性化推荐、降低旅行规划中的摩擦。
+This episode marks a historic moment: Valar Atomics became the first startup ever to generate nuclear power, and the first advanced reactor to make power outside a national laboratory.
+本集记录了一个历史性时刻：Valar Atomics成为有史以来第一家产生核电的初创公司，也是第一座在国家实验室以外发电的先进反应堆。
 
-The conversation covers the competitive dynamics of AI adoption among travel platforms, the role of large language models in customer-facing products, and what the next generation of AI-powered travel assistance might look like.
-对话涵盖了旅游平台之间的 AI 采用竞争态势、大语言模型在面向用户产品中的角色，以及下一代 AI 旅行助手的可能形态。
+Taylor explained Valar's philosophy: nuclear is fundamentally a hardware execution problem, not a design problem — *"we are willing to verticalize anything that is necessary on our path to scale."*
+Taylor阐述了Valar的理念：核能从根本上是一个硬件执行问题，而非设计问题——"我们愿意将规模化道路上所需的任何事情都垂直整合进来。"
 
-Published: 2026-07-09
-Episode URL: https://www.youtube.com/watch?v=8nj_0wZkbtA
+They demonstrated that their TRISO-fueled, helium-cooled reactor can passively cool itself after shutdown with no moving parts — eliminating the decay heat risk that caused Fukushima and Three Mile Island.
+他们展示了其TRISO燃料、氦冷却反应堆在停堆后可以无需运动部件被动冷却——消除了导致福岛和三里岛事故的衰变热风险。
+
+Valar also made history by powering the first-ever AI chip (NVIDIA Blackwell) using a nuclear reactor, hosting a live website at nuclearwebsite.com directly from the reactor.
+Valar还创造了历史，用核反应堆为首个AI芯片（NVIDIA Blackwell）供电，并直接从反应堆托管了实时网站nuclearwebsite.com。
+
+Taylor outlined a "tick rate" metric — the time between reactor milestones — going from 2 years 4 months for first atom split to 7 months for the second, with the goal of eventually deploying a new reactor every few minutes.
+Taylor提出了"tick rate"指标——反应堆里程碑之间的时间——从第一次分裂原子用了2年4个月，到第二次只需7个月，目标是最终每隔几分钟就部署一台新反应堆。
+
+He shared a compelling vision: by making energy 10x cheaper through AI-driven autonomous manufacturing, *"the cost of buying a thing will become the cost of energy used to make it"* — pointing toward a future where most physical goods approach near-zero cost.
+他分享了一个引人深思的愿景：通过AI驱动的自主制造将能源成本降低10倍，"购买一件物品的成本将等同于制造它所消耗的能源成本"——指向一个大多数实物商品成本趋近于零的未来。
+
+Episode: https://www.youtube.com/watch?v=5Xvbq_zvOQ4
 
 ---
 
