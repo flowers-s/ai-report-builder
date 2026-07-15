@@ -1,258 +1,254 @@
-AI Builders 日报 · 2026-07-14
+AI Builders 日报 · 2026-07-15
 
 ---
 
-## X / TWITTER
+**Swyx (@swyx)**
 
----
+For big AI-assisted projects, Swyx has developed a tiered model strategy: using "Sol Ultra" for planning, "Fable 5" for critique, and "Sonnet 5/Terra Ultra/SWE 1.7" as the main coding engines.
+对于大型 AI 辅助项目，Swyx 制定了一套分层模型策略：用"Sol Ultra"做规划，"Fable 5"做审查，"Sonnet 5/Terra Ultra/SWE 1.7"作为主要编码引擎。
 
-### Swyx (swyx)
+He also recommends using prompt templates like @mattpocockuk's "grill-me" or @trq212's "interview-me" to elicit key decisions upfront before diving into code.
+他还推荐在开始编码前，使用 @mattpocockuk 的"grill-me"或 @trq212 的"interview-me"等提示词模板，提前引导 AI 输出关键决策。
 
-Swyx, AI developer community builder and host of the Latent Space podcast, shared a sharp take on AI reasoning.
-Swyx，AI开发者社区建设者、Latent Space播客主持人，分享了一个关于AI推理的犀利观点。
-
-He quipped about the futility of running multiple rollouts without a meaningful advantage: *"the definition of insanity is doing multiple rollouts with no expectation of advantage."*
-他用爱因斯坦的话调侃了盲目多次推理采样的徒劳：*"疯狂的定义是在没有任何优势预期的情况下反复进行多次推理"。*
-
-He also shared a writeup on his Latent Space podcast about AI introspection and backpropagation as key differentiators.
-他还在Latent Space播客中分享了一篇关于AI内省与反向传播作为关键差异化因素的文章。
+On a lighter note, he joked that AI tools now seem to require a Resend API key for everything — even, hypothetically, reading a text from mom.
+他还开玩笑说，AI 工具现在似乎什么都要 Resend API key——甚至假设性地读一条妈妈发来的短信也不例外。
 
 Sources:
-- https://x.com/swyx/status/2076345087634620528
-- https://x.com/swyx/status/2076216180529156097
+- https://x.com/swyx/status/2076811977918484795
+- https://x.com/swyx/status/2076832040155271202
+- https://x.com/swyx/status/2076809831328157758
 
 ---
 
-### Thibault Sottiaux (OpenAI, thsottiaux)
+**Thibault Sottiaux (@thsottiaux)**
 
-Thibault Sottiaux, an engineer at OpenAI, announced updates for Codex and ChatGPT Work users.
-OpenAI工程师Thibault Sottiaux宣布了面向Codex和ChatGPT Work用户的更新。
+Thibault teased that tomorrow could be an "8 million active users" celebration day — a milestone hint likely referring to a product he's working on.
+Thibault 暗示明天可能是"800万活跃用户"的庆祝日——这很可能是他正在开发的某个产品的里程碑暗示。
 
-OpenAI has landed inference optimizations and is passing the savings to all paid subscriptions for GPT-5.6 Sol, resulting in around 10% more usage capacity.
-OpenAI完成了推理优化并将节省的成本传递给GPT-5.6 Sol的所有付费订阅用户，带来约10%的额外使用量。
-
-He reassured users that *"GPT 5.6 Sol will stay in the ChatGPT subscription you pay for,"* covering Go, Plus, Pro, Team, Edu, and all other paid plans.
-他向用户保证：*"GPT 5.6 Sol将持续包含在您所付费的ChatGPT订阅中"*，覆盖Go、Plus、Pro、Team、Edu及所有其他付费方案。
+He also shared "ChatGPT Work" — a new product/feature URL — alongside an inspirational "Build your dreams" message.
+他还分享了"ChatGPT Work"的链接，并配上了一句励志话语"Build your dreams"（筑梦）。
 
 Sources:
-- https://x.com/thsottiaux/status/2076495156757577895
-- https://x.com/thsottiaux/status/2076460408437887268
-- https://x.com/thsottiaux/status/2076459871021736245
+- https://x.com/thsottiaux/status/2076907789763621237
+- https://x.com/thsottiaux/status/2076894071323537898
 
 ---
 
-### Peter Yang (Product Manager, petergyang)
+**Peter Yang (@petergyang)**
 
-Peter Yang, a product leader and AI commentator, weighed in on OpenAI's model rollout and Anthropic's communication style.
-产品领导者兼AI评论人Peter Yang，就OpenAI的模型发布和Anthropic的沟通风格发表了看法。
+Peter flagged a growing AI bot spam problem on X/Twitter: accounts that instantly reply to posts from large accounts are likely bots, and he manually blocks them weekly.
+Peter 指出 X/Twitter 上日益严重的 AI 机器人垃圾信息问题：那些即时回复大号帖子的账号很可能是机器人，他每周都要手动封锁一批。
 
-He observed that the vast majority of users appear to be using GPT-5.6 Sol, estimating *"90%+ of people are using GPT 5.6 Sol and <10% are using Terra or Luna."*
-他观察到绝大多数用户似乎在使用GPT-5.6 Sol，估计"90%以上的人在使用GPT 5.6 Sol，而使用Terra或Luna的不足10%"。
-
-He called for more transparent, human communication from AI companies during turbulent times: *"communicate in a more human way, be transparent with the community about what's going on, figure out solutions together."*
-他呼吁AI公司在动荡时期进行更透明、更人性化的沟通："以更人性化的方式沟通，对社区坦诚当前情况，共同寻找解决方案。"
-
-He also critiqued Anthropic's communication approach, saying they should engage the developer community more directly like OpenAI does.
-他还批评了Anthropic的沟通方式，认为他们应该像OpenAI一样更直接地与开发者社区互动。
+He also shared some candid takes on SF fine dining — comparing Benu, Singlethreads, and Californios — with honest (and funny) assessments that suggest AI-era hype extends even to restaurant culture.
+他还直言不讳地分享了对旧金山精致餐厅的评价——点评了 Benu、Singlethreads 和 Californios——其坦率（且有趣）的评论暗示 AI 时代的过度炒作甚至蔓延到了餐饮文化。
 
 Sources:
-- https://x.com/petergyang/status/2076519927843000448
-- https://x.com/petergyang/status/2076512796481880270
-- https://x.com/petergyang/status/2076510899490480228
+- https://x.com/petergyang/status/2076897407439454577
+- https://x.com/petergyang/status/2076894390375903517
 
 ---
 
-### Amjad Masad (Replit CEO, amasad)
+**Nan Yu (@thenanyu)**
 
-Amjad Masad, CEO of Replit, shared his latest experiment using AI to do machine learning research.
-Replit CEO Amjad Masad分享了他最新的用AI进行机器学习研究的实验。
+Nan shared a thought-provoking observation: the role of "designer" becomes much clearer once you look at designers outside of software — where design is more explicitly about craft, not just UI.
+Nan 分享了一个发人深省的观察：一旦你把目光投向软件行业之外的"设计师"，这一角色的本质就会变得更加清晰——设计本质上是一门手艺，而不只是 UI。
 
-He is fine-tuning a Qwen-8b model to play chess on Replit, running 3 parallel branches with different experiments.
-他正在Replit上微调一个Qwen-8b模型来下象棋，同时运行3个并行实验分支。
-
-He noted: *"It's amazing how far models have come in their ability to do ML — they used to be really bad at it."*
-他感叹道："模型在进行机器学习方面的能力已经进步了多少——它们以前在这方面真的很差。"
-
-He also shared a fun demo of Replit's computer use model playing against his new chess engine.
-他还分享了一个有趣的演示，展示了Replit的computer use模型与他新的国际象棋引擎对弈。
+He also made a pointed reference to Searle's "Chinese Room" thought experiment — a classic argument about whether AI truly "understands" or merely processes symbols.
+他还引用了塞尔的"中文房间"思想实验——这是一个关于 AI 是否真正"理解"还是仅仅处理符号的经典论证。
 
 Sources:
-- https://x.com/amasad/status/2076356893736673507
-- https://x.com/amasad/status/2076227936202662357
+- https://x.com/thenanyu/status/2076783865528516971
+- https://x.com/thenanyu/status/2076713481177374749
 
 ---
 
-### Guillermo Rauch (Vercel CEO, rauchg)
+**Cat Wu (@_catwu)**
 
-Guillermo Rauch, CEO of Vercel, made a pointed argument for AI infrastructure ownership.
-Vercel CEO Guillermo Rauch就AI基础设施所有权发表了一针见血的观点。
+Cat announced that Claude Artifacts just received a major upgrade — hinting at expanded expressive capabilities for the feature.
+Cat 宣布 Claude Artifacts 刚刚获得重大升级——暗示该功能的表达能力得到了显著扩展。
 
-He outlined a stack for companies to maintain control: AI SDK → open model API, v0.dev → open Agent API, AI Gateway → open ZDR inference.
-他概述了一套让公司保持控制权的技术栈：AI SDK → 开放模型API，v0.dev → 开放Agent API，AI Gateway → 开放ZDR推理。
-
-His key message: *"Startups and enterprises must own their data, evals, model choices, software layer. Don't outsource your brain."*
-他的核心信息："初创公司和企业必须拥有自己的数据、评估、模型选择和软件层。不要把你的大脑外包出去。"
-
-Source: https://x.com/rauchg/status/2076364176252191222
+Source:
+- https://x.com/_catwu/status/2076867882894684314
 
 ---
 
-### Aaron Levie (Box CEO, levie)
+**Thariq (@trq212)**
 
-Aaron Levie, CEO of Box, reflected on one of the defining strategic questions of the AI era.
-Box CEO Aaron Levie，就AI时代最核心的战略问题进行了深度思考。
+Thariq highlighted how the Artifacts upgrade makes them more expressive and composable — his favorite use case is building shareable project dashboards in "Claude Tag" that can be edited by others or by local Claude instances.
+Thariq 强调了 Artifacts 升级后更强的表现力和可组合性——他最喜欢的用例是用"Claude Tag"构建可分享的项目仪表盘，支持他人或本地 Claude 实例进行编辑。
 
-He posed the key challenge for businesses: how to maximize corporate IP — decisions, insights, workflow patterns, best practices — in a world where so much intelligence is embedded in AI models.
-他提出了企业面临的核心挑战：在大量智能已嵌入AI模型的世界里，如何最大化企业知识产权——包括决策、洞察、工作流模式和最佳实践。
-
-He suggested this architectural question will shape 21st-century business strategy.
-他认为，这个架构性问题将塑造21世纪的商业战略。
-
-Source: https://x.com/levie/status/2076338364635287637
+Source:
+- https://x.com/trq212/status/2076790799011131735
 
 ---
 
-### Garry Tan (Y Combinator President, garrytan)
+**Amjad Masad (@amasad)**
 
-Garry Tan, President of Y Combinator, issued a sharp public safety warning.
-Y Combinator总裁Garry Tan发出了一记犀利的公共安全警告。
+Amjad shared that he's getting real-time progress updates on his personal model training runs, comparing the feeling to "early vibe coding" — but for building personal AI models instead of apps.
+Amjad 分享道，他现在可以实时获取个人模型训练进度更新，并将这种感觉比作"早期 vibe coding"——只不过目标从构建应用变成了训练个人 AI 模型。
 
-He criticized politicians who disable public safety technology for political signaling: *"Craven politicians who disable public safety technology for virtue signal and culture war purposes will always get blood on their hands."*
-他批评那些出于政治表演而关闭公共安全技术的政客："懦弱的政客为了道德表演和文化战争目的而关闭公共安全技术，他们的手上永远沾满鲜血。"
-
-Source: https://x.com/garrytan/status/2076534860064416115
+Source:
+- https://x.com/amasad/status/2076776737074184661
 
 ---
 
-### Nikunj Kothari (nikunj)
+**Guillermo Rauch (@rauchg)**
 
-Nikunj Kothari, an investor and builder, shared reflections on focus and craft.
-投资人兼创业者Nikunj Kothari分享了关于专注与手艺的思考。
+Guillermo revealed that the two most popular features of his platform so far are (1) the easy-to-use filesystem API and (2) observability — and he's doubling down on both.
+Guillermo 透露，他平台目前最受欢迎的两个功能是：（1）易用的文件系统 API 和（2）可观测性——他将在这两个方向上继续加大投入。
 
-He called out the disconnect in the AI community between "tokenmaxxing" hype and actual purposeful building: many claim to have AI agents doing work for them, but very few can clearly answer what they are building and for whom.
-他点出了AI社区中"tokenmaxxing"炒作与真正有目的地构建之间的脱节：许多人声称有AI代理在为他们工作，但很少有人能清楚地回答他们在为谁构建什么。
+He also shared a powerful building block for autonomous websites: giving agents the ability to set up and tune experiments with feature flags.
+他还分享了一个用于构建自主网站的强力积木：赋予 Agent 自主设置和调整功能标志实验的能力。
 
-He also emphasized that outbound sales remains a critical, learnable skill — and will become even more important in the AI era.
-他还强调，外向型销售仍然是一项关键的、可学习的技能，在AI时代将变得更加重要。
+Notably, open-weight models now account for 29% of gateway tokens on his platform — up from just 11% in April — a significant indicator of open-source AI adoption.
+值得注意的是，开源模型现在占其平台网关 token 的 29%，而四月份这一数字仅为 11%——这是开源 AI 被广泛采用的重要信号。
 
 Sources:
-- https://x.com/nikunj/status/2076458876816540144
-- https://x.com/nikunj/status/2076370608833827124
+- https://x.com/rauchg/status/2076817174073880957
+- https://x.com/rauchg/status/2076786138195595704
+- https://x.com/rauchg/status/2076713720731042174
 
 ---
 
-### Peter Steinberger (PSPDFKit CEO, steipete)
+**Aaron Levie (@levie)**
 
-Peter Steinberger, CEO of PSPDFKit, gave a glimpse into his multi-machine AI workflow setup.
-PSPDFKit CEO Peter Steinberger展示了他的多机AI工作流程配置。
+Aaron laid out his structural outlook for AI: frontier intelligence will keep advancing, driving the industry forward — but the real value will be in how enterprises harness it with their own proprietary data and processes.
+Aaron 阐述了他对 AI 结构性趋势的判断：前沿智能将持续进步，推动行业向前——但真正的价值在于企业如何结合自身专有数据和流程来驾驭它。
 
-He shared that he shards his work across ~5 machines via Jump Desktop, with his Mac Studio handling the heaviest sessions.
-他分享了通过Jump Desktop将工作分散到约5台机器上的方式，其中Mac Studio承担最繁重的会话。
+He endorsed a key cost-efficiency pattern: using frontier models as "managers" and cheaper models as "workhorses" — predicting this will become the standard enterprise AI architecture.
+他认可了一种关键的成本效率模式：用前沿模型担任"管理者"，用低成本模型承担"苦力"工作——并预测这将成为企业 AI 架构的标准范式。
 
-He also shared a screenshot showing his Mac Studio running at its maximum session capacity.
-他还分享了一张Mac Studio运行到最大会话容量的截图。
+The biggest challenge for enterprise AI, he argues, is that the most valuable information is always changing and often highly confidential — making generic models insufficient for true competitive advantage.
+他认为，企业 AI 面临的最大挑战是：最有价值的信息总是在变化且往往高度机密——这使得通用模型无法真正建立竞争优势。
 
 Sources:
-- https://x.com/steipete/status/2076553742883930455
-- https://x.com/steipete/status/2076552605262872904
+- https://x.com/levie/status/2076882332821373381
+- https://x.com/levie/status/2076839463410671637
+- https://x.com/levie/status/2076764958579446006
 
 ---
 
-### Zara Zhang (Follow Builders creator, zarazhangrui)
+**Ryo Lu (@ryolu_)**
 
-Zara Zhang, creator of the Follow Builders skill, shared a powerful workflow insight.
-Follow Builders技能创建者Zara Zhang分享了一个强大的工作流洞见。
+Ryo built a custom e-reader firmware using Cursor — designed for beautiful Latin + CJK typography, vertical layout, and book syncing — targeting the Xteink X3/X4 hardware.
+Ryo 用 Cursor 构建了一套定制电子阅读器固件——专为精美的拉丁文和中日韩文字排版、竖排布局和书籍同步而设计，目标硬件为 Xteink X3/X4。
 
-She described using meeting transcripts as product requirement documents: send the transcript to Codex, and it builds the prototype as discussed.
-她描述了将会议记录用作产品需求文档的方法：将记录发给Codex，它就会按照讨论内容构建原型。
+He called hardware hacking with AI "fun" and shared that Cursor can even flash the firmware for you.
+他称用 AI 进行硬件黑客开发"很有趣"，并表示 Cursor 甚至可以直接帮你刷写固件。
 
-*"The meeting is the prompt"* — this simple idea compresses the entire product spec process into a natural conversation.
-"会议就是提示词"——这个简单的理念将整个产品规格流程压缩成了一次自然对话。
-
-She also shared a thought-provoking one-liner: *"Passion is the biggest moat."*
-她还分享了一句发人深省的话："热情是最大的护城河。"
+Ryo also welcomed Jenny as the new team lead, saying her arrival gives him the mental space to "dream big again."
+Ryo 还欢迎 Jenny 加入并担任新的团队负责人，表示她的到来让他重新获得了"大胆做梦"的精神空间。
 
 Sources:
-- https://x.com/zarazhangrui/status/2076300222884626754
-- https://x.com/zarazhangrui/status/2076284012339843546
+- https://x.com/ryolu_/status/2076713331113734641
+- https://x.com/ryolu_/status/2076713700942295226
+- https://x.com/ryolu_/status/2076689062921150479
 
 ---
 
-### Dan Shipper (Every CEO, danshipper)
+**Garry Tan (@garrytan)**
 
-Dan Shipper, CEO of Every, was mostly in meme-sharing mode today with light commentary.
-Every CEO Dan Shipper今天主要以分享表情包和轻松评论为主。
+Garry celebrated the return of the "Gentleman Scientist" era — suggesting that AI is empowering individual researchers to do serious science again, outside of traditional institutional structures.
+Garry 欢呼"绅士科学家"时代的回归——暗示 AI 正在赋能个人研究者在传统机构体制之外重新从事严肃的科学研究。
 
-His posts were largely reactions and retweets without substantive original insight.
-他的帖子大多是反应和转推，没有实质性的原创见解。
+Source:
+- https://x.com/garrytan/status/2076587412516421945
 
-近期无重要动态。
+---
+
+**Zara Zhang (@zarazhangrui)**
+
+Zara outlined three levels of AI adoption for organizations, noting that most companies are currently stuck at level 2 — suggesting there's significant headroom for deeper integration.
+Zara 概述了组织 AI 采用的三个层级，并指出大多数公司目前仍停留在第二级——暗示深度整合仍有巨大的提升空间。
+
+She also released a 45-minute recorded conversation on building in public, growing an audience on X without "slop," and her thoughts on vibe coding — recorded outdoors back in March.
+她还发布了一段 45 分钟的对谈录音，内容涵盖公开构建、在 X 上不依靠"水内容"增粉，以及她对 vibe coding 的看法——录制于三月的户外场景。
 
 Sources:
-- https://x.com/danshipper/status/2076455432546066826
-- https://x.com/danshipper/status/2076351869782286707
-- https://x.com/danshipper/status/2076340879787237562
+- https://x.com/zarazhangrui/status/2076862290985730481
+- https://x.com/zarazhangrui/status/2076860372993388663
 
 ---
 
-### Sam Altman (OpenAI CEO, sama)
+**Nikunj Kothari (@nikunj)**
 
-Sam Altman, CEO of OpenAI, issued a creative challenge to the community.
-OpenAI CEO Sam Altman向社区发起了一项创意挑战。
+Nikunj built "Ramp-Autofill" — an open-source tool using @tryramp's CLI and Claude Fable that automatically categorizes and submits expense receipts, solving a real pain point in his own workflow.
+Nikunj 构建了"Ramp-Autofill"——一个使用 @tryramp CLI 和 Claude Fable 的开源工具，可自动分类并提交报销收据，解决了他自己工作流中的真实痛点。
 
-He invited people to share interesting things they've built with GPT-5.6 Sol, promising: *"I will send the person who made the coolest thing a special gift from the OpenAI archives."*
-他邀请大家分享用GPT-5.6 Sol构建的有趣作品，并承诺："我将向制作出最酷东西的人赠送一份来自OpenAI档案馆的特别礼物。"
-
-Source: https://x.com/sama/status/2076398253332140410
-
----
-
-### Claude (Anthropic, claudeai)
-
-Claude (Anthropic's official account) announced an extension of Claude Fable 5 access across all paid plans.
-Claude（Anthropic官方账号）宣布在所有付费方案中延长Claude Fable 5的访问权限。
-
-Fable 5 access is being extended through July 19, with users able to use up to half of their weekly usage limit on Fable 5.
-Fable 5访问权限延长至7月19日，用户每周最多可将一半的使用配额用于Fable 5。
-
-Claude Code's weekly rate limits will also remain 50% higher through the same date.
-Claude Code的每周速率限制也将在同期保持高出50%的水平。
+Impressively, the initial version was drafted one-shot via a voice prompt while driving — with some steering and edits afterward.
+令人印象深刻的是，初始版本是在开车途中通过一句语音提示一次性生成的——之后再进行了一些引导和编辑。
 
 Sources:
-- https://x.com/claudeai/status/2076351401006154204
-- https://x.com/claudeai/status/2076351399999557669
+- https://x.com/nikunj/status/2076775924650107151
+- https://x.com/nikunj/status/2076776777884811671
+- https://x.com/nikunj/status/2076878668149002669
 
 ---
 
-## PODCASTS
+**Peter Steinberger (@steipete)**
+
+Peter shipped a major release — with iOS and Android app updates looking great — and moved his maintainer agent to the cloud, joking that the agents are already "fighting."
+Peter 发布了一个重大版本——iOS 和 Android 应用更新效果出色——并将他的维护 Agent 迁移到了云端，并开玩笑说各个 Agent 已经开始"内斗"了。
+
+He also shared that "stress test" is a surprisingly effective prompt for pushing AI systems to their limits.
+他还分享了一个心得：在测试 AI 系统极限时，"stress test"（压力测试）是一个出人意料的高效提示词。
+
+Sources:
+- https://x.com/steipete/status/2076917691139674373
+- https://x.com/steipete/status/2076923300593422560
+- https://x.com/steipete/status/2076886451455992249
 
 ---
 
-### No Priors — "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor"
+**Aditya Agarwal (@adityaag)**
 
-No Priors, the leading AI and technology venture podcast, featured Isaiah Taylor, founder and CEO of Valar Atomics, recorded live at their Utah nuclear facility.
-No Priors，顶尖AI与科技创投播客，邀请了Valar Atomics创始人兼CEO Isaiah Taylor，现场录制于其犹他州核设施。
+Aditya shared a funny moment of cognitive dissonance: while using what might be an "AGI-level coding agent," he found himself asking it to look up what necklaces Benson Boone wears — for his daughter.
+Aditya 分享了一个有趣的认知失调时刻：在使用一个可能达到"AGI 级别"的编程 Agent 时，他居然让它查 Benson Boone 戴的是什么项链——是为了他的女儿。
 
-This episode marks a historic moment: Valar Atomics became the first startup ever to generate nuclear power, and the first advanced reactor to make power outside a national laboratory.
-本集记录了一个历史性时刻：Valar Atomics成为有史以来第一家产生核电的初创公司，也是第一座在国家实验室以外发电的先进反应堆。
-
-Taylor explained Valar's philosophy: nuclear is fundamentally a hardware execution problem, not a design problem — *"we are willing to verticalize anything that is necessary on our path to scale."*
-Taylor阐述了Valar的理念：核能从根本上是一个硬件执行问题，而非设计问题——"我们愿意将规模化道路上所需的任何事情都垂直整合进来。"
-
-They demonstrated that their TRISO-fueled, helium-cooled reactor can passively cool itself after shutdown with no moving parts — eliminating the decay heat risk that caused Fukushima and Three Mile Island.
-他们展示了其TRISO燃料、氦冷却反应堆在停堆后可以无需运动部件被动冷却——消除了导致福岛和三里岛事故的衰变热风险。
-
-Valar also made history by powering the first-ever AI chip (NVIDIA Blackwell) using a nuclear reactor, hosting a live website at nuclearwebsite.com directly from the reactor.
-Valar还创造了历史，用核反应堆为首个AI芯片（NVIDIA Blackwell）供电，并直接从反应堆托管了实时网站nuclearwebsite.com。
-
-Taylor outlined a "tick rate" metric — the time between reactor milestones — going from 2 years 4 months for first atom split to 7 months for the second, with the goal of eventually deploying a new reactor every few minutes.
-Taylor提出了"tick rate"指标——反应堆里程碑之间的时间——从第一次分裂原子用了2年4个月，到第二次只需7个月，目标是最终每隔几分钟就部署一台新反应堆。
-
-He shared a compelling vision: by making energy 10x cheaper through AI-driven autonomous manufacturing, *"the cost of buying a thing will become the cost of energy used to make it"* — pointing toward a future where most physical goods approach near-zero cost.
-他分享了一个引人深思的愿景：通过AI驱动的自主制造将能源成本降低10倍，"购买一件物品的成本将等同于制造它所消耗的能源成本"——指向一个大多数实物商品成本趋近于零的未来。
-
-Episode: https://www.youtube.com/watch?v=5Xvbq_zvOQ4
+Source:
+- https://x.com/adityaag/status/2076821102194721167
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+**Sam Altman (@sama)**
+
+Sam posted a cryptic but pointed remark about AI systems that ask "hard questions" only after silently downgrading users — or gatekeeping access entirely — suggesting frustration with paternalistic AI gatekeeping.
+Sam 发布了一条隐晦但犀利的评论，讽刺那些在悄悄降级用户或完全限制访问之后，才"提出艰难问题"的 AI 系统——这暗示了他对家长式 AI 门控机制的不满。
+
+He also admitted it still "breaks his brain" to see AI models finally getting good at design.
+他还坦言，看到 AI 模型终于在设计领域变得出色，至今仍让他感到难以置信。
+
+Sources:
+- https://x.com/sama/status/2076824870072238299
+- https://x.com/sama/status/2076823209589313910
+
+---
+
+**🎙️ PODCAST: Inside Nemotron & NVIDIA's AI Lab | Bryan Catanzaro**
+*The MAD Podcast with Matt Turck*
+
+Bryan Catanzaro, who leads NVIDIA's Nemotron project, sat down with Matt Turck for a wide-ranging conversation on open-source AI, NVIDIA's frontier model efforts, and the architecture of Nemotron 3 Ultra.
+NVIDIA Nemotron 项目负责人 Bryan Catanzaro 与 Matt Turck 进行了一次深度对话，内容涵盖开源 AI、NVIDIA 的前沿模型工作以及 Nemotron 3 Ultra 的架构设计。
+
+Nemotron has two jobs: helping NVIDIA understand how to build better chips (by training frontier models), and supporting the open-source AI ecosystem so it remains viable.
+Nemotron 肩负两项使命：一是通过训练前沿模型帮助 NVIDIA 理解如何构建更好的芯片；二是支持开源 AI 生态系统，使其保持活力。
+
+Nemotron 3 Ultra was pretrained using 4-bit arithmetic (MXFP4) — a technically challenging feat that reduces memory and energy costs, and makes inference dramatically cheaper at scale.
+Nemotron 3 Ultra 采用 4 位算术（MXFP4）进行预训练——这是一项技术上颇具挑战性的成就，可降低内存和能耗，并在大规模推理时显著降低成本。
+
+The architecture is a hybrid of Transformers and state space models (SSMs) — NVIDIA research showed that mostly-SSM with some full attention actually produces a smarter model, not just a faster one.
+其架构融合了 Transformer 和状态空间模型（SSM）——NVIDIA 研究表明，以 SSM 为主、辅以部分全注意力的架构实际上能产生更智能的模型，而不仅仅是更快的模型。
+
+Mixture of Experts (MoE) is now the default for frontier AI, and NVIDIA's Blackwell hardware (NVL72) was specifically designed around MoE's dynamic token routing requirements.
+混合专家（MoE）现已成为前沿 AI 的默认架构，NVIDIA 的 Blackwell 硬件（NVL72）正是专为 MoE 动态 token 路由需求而设计的。
+
+Multi-token prediction can deliver up to 3-4x inference speedups with zero accuracy loss — and uniquely, the more accurate the model, the faster the inference.
+多 token 预测可以在零精度损失的前提下实现高达 3-4 倍的推理加速——独特之处在于，模型越精准，推理速度越快。
+
+Multi-teacher distillation (MOPD) allowed ~10-15 specialized "teacher" models to train one unified "student" model — with the bonus that it helps large teams (500+ people) collaborate without competing priorities.
+多教师蒸馏（MOPD）使约 10-15 个专业化"教师"模型能够共同训练出一个统一的"学生"模型——额外好处是帮助大型团队（500人以上）在没有优先级竞争的情况下协同工作。
+
+On safety: Bryan offered a somewhat unconventional take — arguing that open-source AI is inherently safer because more "sunlight" (diverse perspectives and scrutiny) is better than a small group controlling safety for everyone.
+关于安全性：Bryan 提出了一个略显非主流的观点——他认为开源 AI 本质上更安全，因为更多的"阳光"（多元视角和审查）胜过由少数人为所有人把控安全。
+
+Source: https://www.youtube.com/@DataDrivenNYC/videos
