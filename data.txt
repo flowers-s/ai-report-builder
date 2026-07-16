@@ -1,254 +1,274 @@
-AI Builders 日报 · 2026-07-15
+AI Builders 日报 · 2026-07-16
+
+X / TWITTER
 
 ---
 
-**Swyx (@swyx)**
+Swyx (swyx on X)
 
-For big AI-assisted projects, Swyx has developed a tiered model strategy: using "Sol Ultra" for planning, "Fable 5" for critique, and "Sonnet 5/Terra Ultra/SWE 1.7" as the main coding engines.
-对于大型 AI 辅助项目，Swyx 制定了一套分层模型策略：用"Sol Ultra"做规划，"Fable 5"做审查，"Sonnet 5/Terra Ultra/SWE 1.7"作为主要编码引擎。
+Swyx is hosting a Personal AI engineers meetup in San Francisco this Thursday at the new media lab.
+Swyx 正在旧金山新媒体实验室举办 Personal AI 工程师聚会，时间是本周四晚。
 
-He also recommends using prompt templates like @mattpocockuk's "grill-me" or @trq212's "interview-me" to elicit key decisions upfront before diving into code.
-他还推荐在开始编码前，使用 @mattpocockuk 的"grill-me"或 @trq212 的"interview-me"等提示词模板，提前引导 AI 输出关键决策。
+He's inviting builders working on personal agents to come demo their projects, and specifically called out meeting Shloky, whom he described as one of the best builder-writers he's met this year.
+他邀请正在开发个人 Agent 的工程师前来演示项目，并特别提到了 Shloky——称其为今年遇到的最优秀的"构建者+写作者"之一。
 
-On a lighter note, he joked that AI tools now seem to require a Resend API key for everything — even, hypothetically, reading a text from mom.
-他还开玩笑说，AI 工具现在似乎什么都要 Resend API key——甚至假设性地读一条妈妈发来的短信也不例外。
+*"last time we held this meetup our featured speakers got acquired by @Amazon hardware division... and 2 years later I'm still a daily active user. just incredible to see the staying power of PAI."*
+*"上次我们举办这个聚会时，主讲嘉宾后来被亚马逊硬件部门收购……两年后我仍是他们的日活用户。PAI 的生命力真的令人叹为观止。"*
 
-Sources:
-- https://x.com/swyx/status/2076811977918484795
-- https://x.com/swyx/status/2076832040155271202
-- https://x.com/swyx/status/2076809831328157758
+https://x.com/swyx/status/2077243443391422813
 
 ---
 
-**Thibault Sottiaux (@thsottiaux)**
+Thibault Sottiaux (thsottiaux on X, OpenAI)
 
-Thibault teased that tomorrow could be an "8 million active users" celebration day — a milestone hint likely referring to a product he's working on.
-Thibault 暗示明天可能是"800万活跃用户"的庆祝日——这很可能是他正在开发的某个产品的里程碑暗示。
+Thibault, who works on ChatGPT at OpenAI, is actively seeking feedback from users about GPT-5.6 Sol and ChatGPT Work (also known as Codex).
+Thibault 在 OpenAI 负责 ChatGPT 产品，目前正积极征集用户对 GPT-5.6 Sol 和 ChatGPT Work（即 Codex）的反馈。
 
-He also shared "ChatGPT Work" — a new product/feature URL — alongside an inspirational "Build your dreams" message.
-他还分享了"ChatGPT Work"的链接，并配上了一句励志话语"Build your dreams"（筑梦）。
+He announced a promotion: tweet what you love about GPT-5.6 Sol or why you switched, and the first 10,000 respondents get $100 in Codex credits.
+他宣布了一项激励活动：推文分享你喜爱 GPT-5.6 Sol 或转用理由，前 10,000 名用户可获得 100 美元的 Codex 额度。
 
-Sources:
-- https://x.com/thsottiaux/status/2076907789763621237
-- https://x.com/thsottiaux/status/2076894071323537898
+*"Embarrassment of riches. But looks like we might hit 9M soon."*
+*"真是令人羡慕的烦恼。但看起来我们很快就要突破 900 万了。"*
 
----
+Usage of ChatGPT Work/Codex is surging fast enough that the team is debating whether to reset the usage counter again.
+ChatGPT Work/Codex 使用量增长如此之快，团队正在讨论是否再次重置用量计数器。
 
-**Peter Yang (@petergyang)**
-
-Peter flagged a growing AI bot spam problem on X/Twitter: accounts that instantly reply to posts from large accounts are likely bots, and he manually blocks them weekly.
-Peter 指出 X/Twitter 上日益严重的 AI 机器人垃圾信息问题：那些即时回复大号帖子的账号很可能是机器人，他每周都要手动封锁一批。
-
-He also shared some candid takes on SF fine dining — comparing Benu, Singlethreads, and Californios — with honest (and funny) assessments that suggest AI-era hype extends even to restaurant culture.
-他还直言不讳地分享了对旧金山精致餐厅的评价——点评了 Benu、Singlethreads 和 Californios——其坦率（且有趣）的评论暗示 AI 时代的过度炒作甚至蔓延到了餐饮文化。
-
-Sources:
-- https://x.com/petergyang/status/2076897407439454577
-- https://x.com/petergyang/status/2076894390375903517
+https://x.com/thsottiaux/status/2077248807533003257
+https://x.com/thsottiaux/status/2077271889626706300
+https://x.com/thsottiaux/status/2077212009071075330
 
 ---
 
-**Nan Yu (@thenanyu)**
+Peter Yang (petergyang on X)
 
-Nan shared a thought-provoking observation: the role of "designer" becomes much clearer once you look at designers outside of software — where design is more explicitly about craft, not just UI.
-Nan 分享了一个发人深省的观察：一旦你把目光投向软件行业之外的"设计师"，这一角色的本质就会变得更加清晰——设计本质上是一门手艺，而不只是 UI。
+Peter Yang, a product creator and newsletter author, is releasing a new video about how he uses ChatGPT Work (Codex) to handle almost everything on his computer.
+Peter Yang 是一位产品创作者和 Newsletter 作者，他即将发布一个视频，讲述他如何用 ChatGPT Work（Codex）处理几乎所有电脑工作。
 
-He also made a pointed reference to Searle's "Chinese Room" thought experiment — a classic argument about whether AI truly "understands" or merely processes symbols.
-他还引用了塞尔的"中文房间"思想实验——这是一个关于 AI 是否真正"理解"还是仅仅处理符号的经典论证。
+The tutorial covers his complete 7-step setup — from choosing the right GPT-5.6 model to managing email, calendar, and recurring tasks.
+教程涵盖他的完整 7 步配置方案，从选择合适的 GPT-5.6 模型到管理邮件、日历和定期任务。
 
-Sources:
-- https://x.com/thenanyu/status/2076783865528516971
-- https://x.com/thenanyu/status/2076713481177374749
+https://x.com/petergyang/status/2077196815951417649
 
 ---
 
-**Cat Wu (@_catwu)**
+Thariq (trq212 on X)
 
-Cat announced that Claude Artifacts just received a major upgrade — hinting at expanded expressive capabilities for the feature.
-Cat 宣布 Claude Artifacts 刚刚获得重大升级——暗示该功能的表达能力得到了显著扩展。
+Thariq shared an interesting personal project: he's been using Claude Code to help him play Pokemon Champions more competitively.
+Thariq 分享了一个有趣的个人项目：他在用 Claude Code 辅助自己更有竞争力地玩宝可梦（Pokemon Champions）。
 
-Source:
-- https://x.com/_catwu/status/2076867882894684314
+*"It writes code using Smogon's npm library, pulls live usage stats and then writes reports to understand matchups, breakpoints or theorycraft teams."*
+*"它用 Smogon 的 npm 库写代码，拉取实时使用数据，然后生成报告来分析对阵、伤害临界点或进行团队理论构建。"*
 
----
+He's considering open-sourcing this tool if there's enough interest, and published his first public artifact — a breakdown of his Mega Sceptile team.
+如果反响足够热烈，他考虑将这个工具开源，目前已发布了第一个公开成果——他的超级盾草蜥队伍分析报告。
 
-**Thariq (@trq212)**
-
-Thariq highlighted how the Artifacts upgrade makes them more expressive and composable — his favorite use case is building shareable project dashboards in "Claude Tag" that can be edited by others or by local Claude instances.
-Thariq 强调了 Artifacts 升级后更强的表现力和可组合性——他最喜欢的用例是用"Claude Tag"构建可分享的项目仪表盘，支持他人或本地 Claude 实例进行编辑。
-
-Source:
-- https://x.com/trq212/status/2076790799011131735
+https://x.com/trq212/status/2077051280267399550
+https://x.com/trq212/status/2077051282146431092
 
 ---
 
-**Amjad Masad (@amasad)**
+Guillermo Rauch (rauchg on X, Vercel CEO)
 
-Amjad shared that he's getting real-time progress updates on his personal model training runs, comparing the feeling to "early vibe coding" — but for building personal AI models instead of apps.
-Amjad 分享道，他现在可以实时获取个人模型训练进度更新，并将这种感觉比作"早期 vibe coding"——只不过目标从构建应用变成了训练个人 AI 模型。
+Guillermo Rauch, CEO of Vercel, announced that Vercel is opening up its dataset of AI token flows from the Vercel AI Gateway.
+Vercel CEO Guillermo Rauch 宣布，Vercel 正在开放其 AI Gateway 的 AI token 流量数据集。
 
-Source:
-- https://x.com/amasad/status/2076776737074184661
+*"Fascinating insights contained within!"*
+*"其中包含了令人着迷的洞察！"*
 
----
+He also highlighted the agentmail integration: developers can now tell their agent to run `vercel install agentmail` for automatic email setup with no signup required and unified billing.
+他还重点介绍了 agentmail 集成：开发者现在可以让 Agent 执行 `vercel install agentmail`，无需注册即可自动完成邮件配置，并享受统一计费。
 
-**Guillermo Rauch (@rauchg)**
-
-Guillermo revealed that the two most popular features of his platform so far are (1) the easy-to-use filesystem API and (2) observability — and he's doubling down on both.
-Guillermo 透露，他平台目前最受欢迎的两个功能是：（1）易用的文件系统 API 和（2）可观测性——他将在这两个方向上继续加大投入。
-
-He also shared a powerful building block for autonomous websites: giving agents the ability to set up and tune experiments with feature flags.
-他还分享了一个用于构建自主网站的强力积木：赋予 Agent 自主设置和调整功能标志实验的能力。
-
-Notably, open-weight models now account for 29% of gateway tokens on his platform — up from just 11% in April — a significant indicator of open-source AI adoption.
-值得注意的是，开源模型现在占其平台网关 token 的 29%，而四月份这一数字仅为 11%——这是开源 AI 被广泛采用的重要信号。
-
-Sources:
-- https://x.com/rauchg/status/2076817174073880957
-- https://x.com/rauchg/status/2076786138195595704
-- https://x.com/rauchg/status/2076713720731042174
+https://x.com/rauchg/status/2077176141790752798
+https://x.com/rauchg/status/2077154901013221444
 
 ---
 
-**Aaron Levie (@levie)**
+Aaron Levie (levie on X, Box CEO)
 
-Aaron laid out his structural outlook for AI: frontier intelligence will keep advancing, driving the industry forward — but the real value will be in how enterprises harness it with their own proprietary data and processes.
-Aaron 阐述了他对 AI 结构性趋势的判断：前沿智能将持续进步，推动行业向前——但真正的价值在于企业如何结合自身专有数据和流程来驾驭它。
+Box CEO Aaron Levie wrote a substantive thread on why code is uniquely well-suited for AI agents — and what it implies for the rest of enterprise work.
+Box CEO Aaron Levie 发布了一篇深度推文，探讨为什么代码天然适合 AI Agent，以及这对企业其他工作意味着什么。
 
-He endorsed a key cost-efficiency pattern: using frontier models as "managers" and cheaper models as "workhorses" — predicting this will become the standard enterprise AI architecture.
-他认可了一种关键的成本效率模式：用前沿模型担任"管理者"，用低成本模型承担"苦力"工作——并预测这将成为企业 AI 架构的标准范式。
+*"One of the many properties that code has that makes it highly amenable to agents is that you can more or less quickly test it."*
+*"代码之所以天然适合 Agent，原因之一是你可以相对快速地对其进行测试。"*
 
-The biggest challenge for enterprise AI, he argues, is that the most valuable information is always changing and often highly confidential — making generic models insufficient for true competitive advantage.
-他认为，企业 AI 面临的最大挑战是：最有价值的信息总是在变化且往往高度机密——这使得通用模型无法真正建立竞争优势。
+He argues that most enterprise workflows lack this "testability" — a stock trade, a contract negotiation, or a sales pitch only gets evaluated in the real world.
+他认为，大多数企业工作流程缺乏这种"可测试性"——股票交易、合同谈判或销售提案只能在真实世界中得到验证。
 
-Sources:
-- https://x.com/levie/status/2076882332821373381
-- https://x.com/levie/status/2076839463410671637
-- https://x.com/levie/status/2076764958579446006
+*"The enterprises that are able to eval their knowledge work the best also stand to gain the most from AI."*
+*"那些能够最好地对其知识工作进行评估的企业，也将从 AI 中获益最多。"*
 
----
+He also commented on a proposal for an AI standards body — distinct from a regulatory agency — arguing it could accelerate progress without the slowdowns of government bureaucracy, though he notes even industry players don't fully agree on AI safety risks.
+他还评论了一项建立 AI 标准机构的提案——有别于监管机构——认为这可以在不受政府官僚体制拖慢的情况下加速进展，尽管他指出即便是业界人士对 AI 安全风险也未能达成共识。
 
-**Ryo Lu (@ryolu_)**
-
-Ryo built a custom e-reader firmware using Cursor — designed for beautiful Latin + CJK typography, vertical layout, and book syncing — targeting the Xteink X3/X4 hardware.
-Ryo 用 Cursor 构建了一套定制电子阅读器固件——专为精美的拉丁文和中日韩文字排版、竖排布局和书籍同步而设计，目标硬件为 Xteink X3/X4。
-
-He called hardware hacking with AI "fun" and shared that Cursor can even flash the firmware for you.
-他称用 AI 进行硬件黑客开发"很有趣"，并表示 Cursor 甚至可以直接帮你刷写固件。
-
-Ryo also welcomed Jenny as the new team lead, saying her arrival gives him the mental space to "dream big again."
-Ryo 还欢迎 Jenny 加入并担任新的团队负责人，表示她的到来让他重新获得了"大胆做梦"的精神空间。
-
-Sources:
-- https://x.com/ryolu_/status/2076713331113734641
-- https://x.com/ryolu_/status/2076713700942295226
-- https://x.com/ryolu_/status/2076689062921150479
+https://x.com/levie/status/2077201458546745553
+https://x.com/levie/status/2077043523703243070
 
 ---
 
-**Garry Tan (@garrytan)**
+Ryo Lu (ryolu_ on X)
 
-Garry celebrated the return of the "Gentleman Scientist" era — suggesting that AI is empowering individual researchers to do serious science again, outside of traditional institutional structures.
-Garry 欢呼"绅士科学家"时代的回归——暗示 AI 正在赋能个人研究者在传统机构体制之外重新从事严肃的科学研究。
+Ryo Lu, a designer and builder, published a deeply personal and widely resonant essay on what happens when your hobby becomes your job — and AI begins doing the work you loved.
+Ryo Lu 是一位设计师和构建者，他发表了一篇深刻而引人共鸣的文章，讲述当爱好变成工作，而 AI 又开始做你所热爱的事情时，会发生什么。
 
-Source:
-- https://x.com/garrytan/status/2076587412516421945
+*"AI can make the output faster. it can even raise the floor of the craft. but it cannot want on your behalf. it cannot decide what is worth loving."*
+*"AI 可以让产出更快，甚至可以提升工艺的下限。但它无法代替你去渴望，无法决定什么值得热爱。"*
 
----
+His core argument: the real discipline in the AI era is not to work harder or rest more, but to keep returning to the original source of your curiosity — before it became legible, before it became useful, before anyone needed anything from it.
+他的核心论点是：AI 时代真正的修炼，不是更努力工作或更多休息，而是不断回归好奇心的原点——在它变得清晰之前，在它变得有用之前，在任何人对它有所期待之前。
 
-**Zara Zhang (@zarazhangrui)**
+*"the real question is whether you still have a relationship with the source."*
+*"真正的问题是：你是否仍与那个源头保持着联结。"*
 
-Zara outlined three levels of AI adoption for organizations, noting that most companies are currently stuck at level 2 — suggesting there's significant headroom for deeper integration.
-Zara 概述了组织 AI 采用的三个层级，并指出大多数公司目前仍停留在第二级——暗示深度整合仍有巨大的提升空间。
+He's also building out his design team and is looking for design engineers.
+他正在组建设计团队，并招募设计工程师。
 
-She also released a 45-minute recorded conversation on building in public, growing an audience on X without "slop," and her thoughts on vibe coding — recorded outdoors back in March.
-她还发布了一段 45 分钟的对谈录音，内容涵盖公开构建、在 X 上不依靠"水内容"增粉，以及她对 vibe coding 的看法——录制于三月的户外场景。
-
-Sources:
-- https://x.com/zarazhangrui/status/2076862290985730481
-- https://x.com/zarazhangrui/status/2076860372993388663
+https://x.com/ryolu_/status/2077162119506833627
+https://x.com/ryolu_/status/2077108336844210352
 
 ---
 
-**Nikunj Kothari (@nikunj)**
+Garry Tan (garrytan on X, YC President)
 
-Nikunj built "Ramp-Autofill" — an open-source tool using @tryramp's CLI and Claude Fable that automatically categorizes and submits expense receipts, solving a real pain point in his own workflow.
-Nikunj 构建了"Ramp-Autofill"——一个使用 @tryramp CLI 和 Claude Fable 的开源工具，可自动分类并提交报销收据，解决了他自己工作流中的真实痛点。
+YC President Garry Tan continued his commentary on San Francisco's urban governance problems.
+YC 总裁 Garry Tan 继续就旧金山的城市治理问题发声。
 
-Impressively, the initial version was drafted one-shot via a voice prompt while driving — with some steering and edits afterward.
-令人印象深刻的是，初始版本是在开车途中通过一句语音提示一次性生成的——之后再进行了一些引导和编辑。
+He argued that the city's "doom loop" is not just about deteriorating quality of life for residents, but about systemic looting of public goods.
+他认为，这座城市的"恶性循环"不仅仅是居民生活质量下降的问题，更是对公共财富的系统性掠夺。
 
-Sources:
-- https://x.com/nikunj/status/2076775924650107151
-- https://x.com/nikunj/status/2076776777884811671
-- https://x.com/nikunj/status/2076878668149002669
+*"Never go full omnicause"*
+*"永远不要走向全面的'多因主义'"*
 
----
-
-**Peter Steinberger (@steipete)**
-
-Peter shipped a major release — with iOS and Android app updates looking great — and moved his maintainer agent to the cloud, joking that the agents are already "fighting."
-Peter 发布了一个重大版本——iOS 和 Android 应用更新效果出色——并将他的维护 Agent 迁移到了云端，并开玩笑说各个 Agent 已经开始"内斗"了。
-
-He also shared that "stress test" is a surprisingly effective prompt for pushing AI systems to their limits.
-他还分享了一个心得：在测试 AI 系统极限时，"stress test"（压力测试）是一个出人意料的高效提示词。
-
-Sources:
-- https://x.com/steipete/status/2076917691139674373
-- https://x.com/steipete/status/2076923300593422560
-- https://x.com/steipete/status/2076886451455992249
+https://x.com/garrytan/status/2076935141658611759
+https://x.com/garrytan/status/2076948530598486090
 
 ---
 
-**Aditya Agarwal (@adityaag)**
+Nikunj Kothari (nikunj on X)
 
-Aditya shared a funny moment of cognitive dissonance: while using what might be an "AGI-level coding agent," he found himself asking it to look up what necklaces Benson Boone wears — for his daughter.
-Aditya 分享了一个有趣的认知失调时刻：在使用一个可能达到"AGI 级别"的编程 Agent 时，他居然让它查 Benson Boone 戴的是什么项链——是为了他的女儿。
+Nikunj Kothari shared an interesting observation about the intersection of AI and attention: as AI agents handle more work, engineers spend more time waiting — and that idle time gets filled with X/Twitter.
+Nikunj Kothari 分享了一个关于 AI 与注意力交叉的有趣观察：随着 AI Agent 承担更多工作，工程师花更多时间等待——而这段空闲时间正被 X/Twitter 填满。
 
-Source:
-- https://x.com/adityaag/status/2076821102194721167
+*"The pre-AI engineering leader mind can't comprehend that their most cracked engineer is also extremely online.. While the agents are working, X becomes the dopamine spike they need as they wait."*
+*"前 AI 时代的工程负责人无法理解，为何最顶尖的工程师同时也是最活跃的网络用户……当 Agent 在工作时，X 成了他们等待时需要的多巴胺来源。"*
 
----
+He predicts time spent on X in the tech industry will continue to rise.
+他预测科技行业在 X 上花费的时间将持续增加。
 
-**Sam Altman (@sama)**
+He also praised the continued delightful product improvements being made to one app he's following, crediting the design sensibility behind it.
+他还称赞了他关注的一款应用不断带来的令人愉悦的产品改进，并赞扬了其背后的设计品味。
 
-Sam posted a cryptic but pointed remark about AI systems that ask "hard questions" only after silently downgrading users — or gatekeeping access entirely — suggesting frustration with paternalistic AI gatekeeping.
-Sam 发布了一条隐晦但犀利的评论，讽刺那些在悄悄降级用户或完全限制访问之后，才"提出艰难问题"的 AI 系统——这暗示了他对家长式 AI 门控机制的不满。
-
-He also admitted it still "breaks his brain" to see AI models finally getting good at design.
-他还坦言，看到 AI 模型终于在设计领域变得出色，至今仍让他感到难以置信。
-
-Sources:
-- https://x.com/sama/status/2076824870072238299
-- https://x.com/sama/status/2076823209589313910
+https://x.com/nikunj/status/2077144910508257317
+https://x.com/nikunj/status/2077233695556067336
 
 ---
 
-**🎙️ PODCAST: Inside Nemotron & NVIDIA's AI Lab | Bryan Catanzaro**
-*The MAD Podcast with Matt Turck*
+Peter Steinberger (steipete on X)
 
-Bryan Catanzaro, who leads NVIDIA's Nemotron project, sat down with Matt Turck for a wide-ranging conversation on open-source AI, NVIDIA's frontier model efforts, and the architecture of Nemotron 3 Ultra.
-NVIDIA Nemotron 项目负责人 Bryan Catanzaro 与 Matt Turck 进行了一次深度对话，内容涵盖开源 AI、NVIDIA 的前沿模型工作以及 Nemotron 3 Ultra 的架构设计。
+Peter Steinberger, an iOS developer and tools builder, advocated for running `autoreview` as a best practice in AI-assisted coding workflows.
+Peter Steinberger 是一位 iOS 开发者和工具构建者，他倡导在 AI 辅助编码工作流中将 `autoreview` 作为最佳实践。
 
-Nemotron has two jobs: helping NVIDIA understand how to build better chips (by training frontier models), and supporting the open-source AI ecosystem so it remains viable.
-Nemotron 肩负两项使命：一是通过训练前沿模型帮助 NVIDIA 理解如何构建更好的芯片；二是支持开源 AI 生态系统，使其保持活力。
+*"yes, it'll burn ya tokens, but it'll calm your nerves"*
+*"是的，它会消耗你的 token，但它会让你安心"*
 
-Nemotron 3 Ultra was pretrained using 4-bit arithmetic (MXFP4) — a technically challenging feat that reduces memory and energy costs, and makes inference dramatically cheaper at scale.
-Nemotron 3 Ultra 采用 4 位算术（MXFP4）进行预训练——这是一项技术上颇具挑战性的成就，可降低内存和能耗，并在大规模推理时显著降低成本。
+The implied message: automated review catches problems before they compound — a token cost worth paying in production AI coding.
+隐含的信息是：自动审查能在问题累积之前发现它们——在生产级 AI 编码中，这点 token 消耗是值得的。
 
-The architecture is a hybrid of Transformers and state space models (SSMs) — NVIDIA research showed that mostly-SSM with some full attention actually produces a smarter model, not just a faster one.
-其架构融合了 Transformer 和状态空间模型（SSM）——NVIDIA 研究表明，以 SSM 为主、辅以部分全注意力的架构实际上能产生更智能的模型，而不仅仅是更快的模型。
+https://x.com/steipete/status/2077265627379843242
+https://x.com/steipete/status/2077266132625698820
 
-Mixture of Experts (MoE) is now the default for frontier AI, and NVIDIA's Blackwell hardware (NVL72) was specifically designed around MoE's dynamic token routing requirements.
-混合专家（MoE）现已成为前沿 AI 的默认架构，NVIDIA 的 Blackwell 硬件（NVL72）正是专为 MoE 动态 token 路由需求而设计的。
+---
 
-Multi-token prediction can deliver up to 3-4x inference speedups with zero accuracy loss — and uniquely, the more accurate the model, the faster the inference.
-多 token 预测可以在零精度损失的前提下实现高达 3-4 倍的推理加速——独特之处在于，模型越精准，推理速度越快。
+Dan Shipper (danshipper on X, Every CEO)
 
-Multi-teacher distillation (MOPD) allowed ~10-15 specialized "teacher" models to train one unified "student" model — with the bonus that it helps large teams (500+ people) collaborate without competing priorities.
-多教师蒸馏（MOPD）使约 10-15 个专业化"教师"模型能够共同训练出一个统一的"学生"模型——额外好处是帮助大型团队（500人以上）在没有优先级竞争的情况下协同工作。
+Dan Shipper, CEO of Every, is celebrating that his publication predicted Codex's rise six months ago — and now has the receipts to prove it.
+Every 的 CEO Dan Shipper 正在庆祝他的媒体机构在六个月前就预测了 Codex 的崛起——现在有数据为证。
 
-On safety: Bryan offered a somewhat unconventional take — arguing that open-source AI is inherently safer because more "sunlight" (diverse perspectives and scrutiny) is better than a small group controlling safety for everyone.
-关于安全性：Bryan 提出了一个略显非主流的观点——他认为开源 AI 本质上更安全，因为更多的"阳光"（多元视角和审查）胜过由少数人为所有人把控安全。
+*"if you are reading @every, you knew codex was about to take off 6 months ago :)"*
+*"如果你在读 Every，你六个月前就知道 Codex 即将腾飞 :)"*
 
-Source: https://www.youtube.com/@DataDrivenNYC/videos
+He shared metrics from their Codex Desktop app launch, which appears to have had a strong reception.
+他分享了 Codex Desktop 应用发布的相关数据，显示反响非常热烈。
+
+He also hosted an Every subscriber meetup at their Brooklyn brownstone on July 15th — signaling the publication's growth into a real-world community.
+他还在布鲁克林的联排别墅举办了 Every 订阅者线下聚会（7 月 15 日），标志着这家媒体正在成长为一个真实的线下社区。
+
+https://x.com/danshipper/status/2077196636971815135
+https://x.com/danshipper/status/2077196796586025327
+
+---
+
+Aditya Agarwal (adityaag on X)
+
+Aditya Agarwal shared a pointed critique of the new ChatGPT app redesign.
+Aditya Agarwal 对新版 ChatGPT 应用的重新设计提出了尖锐批评。
+
+*"I appreciate the in-depth feature set of the new 'ChatGPT' app... But there is a real tradeoff. I used ChatGPT (Legacy) 15-20 times a day for queries... And now it feels so heavyweight for that use case."*
+*"我很欣赏新版 'ChatGPT' 应用的深度功能集……但这存在真实的权衡。我以前每天使用 ChatGPT（旧版）进行 15-20 次查询……而现在对于这个使用场景来说感觉太重了。"*
+
+This highlights a growing tension in AI products: the push toward comprehensive "super apps" can erode the low-friction utility that made them popular in the first place.
+这凸显了 AI 产品中日益突出的张力：向全面"超级应用"的推进，可能会侵蚀最初使其流行的低摩擦实用性。
+
+https://x.com/adityaag/status/2077130899733553560
+
+---
+
+Sam Altman (sama on X, OpenAI CEO)
+
+OpenAI CEO Sam Altman posted briefly but signaled something important about GPT-5.6 Sol's rapid adoption.
+OpenAI CEO Sam Altman 发帖简短，但传递了一个关于 GPT-5.6 Sol 快速被采用的重要信号。
+
+*"5.6 sol growth is insane. the inference team has done heroic work to be able to support demand."*
+*"5.6 sol 的增长势头疯狂。推理团队为支持这一需求做出了英雄般的贡献。"*
+
+He warned that there may be "some hiccups soon" as they continue to scale to meet demand — a candid acknowledgment that infrastructure is being pushed to its limits.
+他警告说，随着他们继续扩容以满足需求，可能很快会出现"一些小波折"——坦率地承认基础设施正在被推向极限。
+
+He also briefly noted a reason to favor open-source harnesses, suggesting ongoing thinking about the open/closed model ecosystem.
+他还简短提到了倾向于开源框架的一个理由，暗示他对开放/封闭模型生态系统的持续思考。
+
+https://x.com/sama/status/2077106587307798989
+https://x.com/sama/status/2077053226080436235
+
+---
+
+Claude (claudeai on X, Anthropic)
+
+Anthropic's Claude official account announced Claude for Teachers, a new K-12 education product.
+Anthropic 旗下 Claude 官方账号宣布推出面向 K-12 教育的新产品——Claude for Teachers。
+
+The product connects to Learning Commons to pull state standards and high-quality curricula, then drafts lesson plans and student-facing materials that teachers can revise and bring directly into class.
+该产品接入 Learning Commons，提取各州课程标准和高质量教材，然后起草教案和面向学生的材料，教师可以修改后直接带入课堂。
+
+Privacy is a centerpiece: Anthropic never trains on teacher or student conversations, and student data is protected by a FERPA-compliant data processing agreement.
+隐私保护是核心卖点：Anthropic 永远不会用教师或学生的对话进行训练，学生数据受符合 FERPA（家庭教育权利和隐私法）的数据处理协议保护。
+
+https://x.com/claudeai/status/2077047279689535705
+https://x.com/claudeai/status/2077047280767488218
+https://x.com/claudeai/status/2077047282109714488
+
+---
+
+PODCASTS
+
+Training Data — Anthropic's Katelyn Lesse & Angela Jiang: Building an Ecosystem, not a Walled Garden
+
+This episode of Training Data features Anthropic's Katelyn Lesse and Angela Jiang discussing how Anthropic is thinking about its partner ecosystem.
+本期 Training Data 邀请到 Anthropic 的 Katelyn Lesse 和 Angela Jiang，探讨 Anthropic 如何思考其合作伙伴生态系统。
+
+The central thesis is that Anthropic is deliberately building an open ecosystem rather than a walled garden — a strategic choice with significant implications for how AI capabilities get distributed and integrated.
+核心论点是：Anthropic 正在有意构建一个开放的生态系统，而非封闭花园——这一战略选择对 AI 能力的分发和整合方式具有深远影响。
+
+The conversation covers the layered architecture of AI coordination: knowledge layer, execution layer, and what they're calling the "coordination layer," where strategies enable agents to work together at scale.
+对话涵盖了 AI 协调的分层架构：知识层、执行层，以及他们所称的"协调层"——在这里，策略使 Agent 能够大规模协同工作。
+
+*"The last layer of abstraction on top of this is probably the coordination layer. So you have knowledge, and you have execution, and you have coordination."*
+*"在此之上的最后一层抽象可能就是协调层。所以你有知识层、执行层，以及协调层。"*
+
+This is one of the clearer public articulations of how Anthropic is structuring its platform strategy — recommended listening for anyone building on or partnering with Claude.
+这是 Anthropic 对其平台战略架构最清晰的公开阐述之一——推荐所有在 Claude 之上构建或与其合作的人收听。
+
+https://www.youtube.com/watch?v=vPnVTHYplrQ
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
