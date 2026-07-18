@@ -1,301 +1,269 @@
-AI Builders 日报 · 2026-07-17
+AI Builders 日报 · 2026-07-18
 
-AI Builders Digest — 2026-07-17
+Today's digest covers 18 AI builders on X/Twitter plus 1 podcast episode. From open-weight model breakthroughs (Kimi K3 topping leaderboards) to Sam Altman's voice-first shift, React legends joining Vercel, and a sharp analyst dissecting the AI hype cycle — here's what's moving the builder community.
 
-Today's digest covers 18 builders across X/Twitter and 1 podcast.
-今日日报收录 18 位 AI 建造者的 X/Twitter 动态及 1 期播客内容。
-
----
-
-## X / TWITTER
+今日日报汇聚了18位AI建造者的X/Twitter动态及1集精选播客。从开源模型的里程碑突破（Kimi K3登顶榜单）到Sam Altman的语音优先转变，再到React大咖加盟Vercel，以及一位分析师对AI泡沫的冷静解剖——以下是正在推动builder社区的力量。
 
 ---
 
-### Swyx (swyx on X)
+## Swyx (@swyx)
 
-Computer use (CUA) is advancing far faster than most people realize.
-计算机使用（CUA）的进展远比大多数人意识到的要快。
+Swyx was buzzing with excitement about the "React Avengers assembling" — reacting to Pete Hunt and Nick Schrock (two React pioneers) joining Vercel, calling it a landmark moment for the frontend ecosystem. He also shared highlights from the AI Engineer conference (AIE), noting that YC's Garry Tan and Eve Bouff delivered "raw high value perspectives" to their startup-focused audience. On the tooling side, he flagged an interesting session/tree-based "grill me" dev tool.
 
-Swyx has been tracking it since 2017's World of Bits paper and says GPT-5.6 + Superapp is already better at CUA than everything that came before.
-Swyx 从 2017 年 World of Bits 论文就开始追踪这一领域，他表示 GPT-5.6 + 超级应用在 CUA 方面已超越此前所有成果。
+Swyx 对"React 复仇者联盟集结"感到兴奋不已——回应 Pete Hunt 和 Nick Schrock（两位 React 先驱）加盟 Vercel 这一事件，称其为前端生态的历史性时刻。他还分享了 AI 工程师大会（AIE）的亮点，指出 YC 的 Garry Tan 和 Eve Bouff 为以创业公司为受众的活动带来了"原汁原味的高价值洞见"。工具层面，他还推荐了一款基于 session/tree 的"grill me"开发者工具。
 
-*"if you found yourself nodding along to this take, you are so not up to date that you don't know what you don't know, and underestimating capabilities is quite a dangerous category error if you are doing any AI decision-making."*
-*「如果你觉得某些悲观论点言之有理，那说明你的信息已经严重滞后——低估 AI 能力在决策中是极其危险的认知错误。」*
-
-He's having his non-technical team use CUA for real knowledge work tasks.
-他已经让非技术团队成员将 CUA 用于真实的知识工作任务。
-
-Source: https://x.com/swyx/status/2077475285205958771
-
-*"you can just tweet things into existence"*
-*「你只需要把想法推文出来，它就能成真。」*
-
-Source: https://x.com/swyx/status/2077563850824790200
+Source tweets:
+- https://x.com/swyx/status/2078004977294032991
+- https://x.com/swyx/status/2077938877407633857
+- https://x.com/swyx/status/2077808569597186411
 
 ---
 
-### Josh Woodward — Google Gemini Labs Lead (joshwoodward on X)
+## Josh Woodward (@joshwoodward)
 
-Gemini Spark is rolling out to more Ultra subscribers globally with four major new capabilities.
-Gemini Spark 正向全球更多 Ultra 订阅用户扩展，并带来四项重大新功能。
+Josh shared a milestone moment: over 30 million people now use a product that started as a small experiment inspired by watching Steven Johnson explain his writing process. The product, now known as NotebookLM, has grown far beyond what anyone initially imagined.
 
-Spark can now open and edit Google Docs, read comments in Sheets & Slides, runs over 50% faster, and can parallel-process across multiple sources.
-Spark 现在可以打开和编辑 Google Docs，读取 Sheets 和 Slides 中的评论，速度提升超过 50%，并支持多源并行处理。
+Josh 分享了一个里程碑：当初受 Steven Johnson 讲述写作方式而启发的一个小实验，如今已有超过 3000 万人使用。这个产品正是现在的 NotebookLM，其成长远超所有人最初的预期。
 
-Pro subscribers should expect an access update soon.
-Pro 订阅用户即将获得访问权限更新。
-
-Source: https://x.com/joshwoodward/status/2077471111240204457
-
-Google also released its first-ever Gemini Southeast Asia Report.
-Google 还发布了首份 Gemini 东南亚报告。
-
-Key data: active users more than doubled in the past year, 70% of prompts are submitted in native languages, and 40% of prompts use only voice, image, or video.
-核心数据：活跃用户同比翻倍，70% 的提示以母语提交，40% 的提示仅使用语音、图片或视频。
-
-Source: https://x.com/joshwoodward/status/2077411104775406045
+Source tweet:
+- https://x.com/joshwoodward/status/2077811657385079045
 
 ---
 
-### Boris Cherny — Anthropic (bcherny on X)
+## Boris Cherny (@bcherny)
 
-In a long, substantive thread, Boris argues that the best engineers have always automated their work — and that skill is now more valuable than ever in the agent era.
-Boris 在一篇深度长文中指出：优秀工程师历来都会将工作自动化，而这项能力在 AI 智能体时代价值更高。
+Boris (Anthropic) shared a three-part thread on how to make Claude actually deliver ROI at enterprise scale. His key insight: the real payoff isn't in assisted coding — it's when fixing and maintaining code happens *in the background*, freeing teams to build things that were previously out of reach. He advocates measuring not just usage but whether engineering effort *would have been spent* without AI. Practically, that means giving Claude end-to-end verification pathways, enabling auto-mode permissions, and using interfaces that allow autonomous decision-making rather than constant human approval.
 
-*"Every team should be writing the CLAUDE.md's, REVIEW.md's, skills, and docs that enable agents to productively work in their codebase with zero additional context from the prompter."*
-*「每个团队都应该编写 CLAUDE.md、REVIEW.md、技能文件和文档，让智能体无需额外提示即可在代码库中高效工作。」*
+Boris（Anthropic）分享了一个关于如何让 Claude 真正在企业级场景中产生回报的三部曲。核心洞见：真正的红利不在于辅助编码，而在于修复和维护工作能够*在后台自动发生*，从而解放团队去构建以前根本触及不到的东西。他建议不只是追踪使用量，更要衡量——如果没有 AI，工程投入*是否本会被花掉*。落地层面，这意味着为 Claude 提供端到端的验证路径、开启自动权限模式，以及使用能支持自主决策的界面，而非要求人工频繁审批。
 
-The key insight: automation now can capture nearly all domain knowledge as code comments, skills, and memory files — not just lint rules and tests.
-核心洞见：自动化现在几乎可以将所有领域知识编码为注释、技能文件和记忆文件，而不仅限于 lint 规则和测试。
-
-If code review fails because someone used the wrong framework, that's a failure of automation, not the developer.
-如果因使用了错误的框架而导致代码审查被拒，那是自动化基础设施的失败，而不是开发者的失败。
-
-Source: https://x.com/bcherny/status/2077460395279692197
+Source tweets:
+- https://x.com/bcherny/status/2077929404219474148
+- https://x.com/bcherny/status/2077929397495959693
+- https://x.com/bcherny/status/2077929390806073807
 
 ---
 
-### Thibault Sottiaux — OpenAI Codex (thsottiaux on X)
+## Thibault Sottiaux (@thsottiaux)
 
-OpenAI is publicly disclosing a bug: GPT-5.6 in full-access mode (without sandboxing) can unexpectedly delete files by confusing the $HOME environment variable with a temporary directory.
-OpenAI 公开披露了一个 bug：在无沙箱的完全访问模式下，GPT-5.6 可能会将 $HOME 环境变量误认为临时目录而意外删除文件。
+Thibault (OpenAI/ChatGPT team) announced important updates to the ChatGPT desktop app following user feedback — notably, ChatGPT conversations are getting refinements. He also shared a chart raising the question of "spurious correlation or causation?" and teased "look at this beauty" around what appears to be a visualization or UI update.
 
-Mitigations are in progress: updating the developer message, pushing users toward safer permission modes, and adding harness safeguards. A detailed post-mortem is coming.
-缓解措施正在推进：更新开发者提示、引导用户使用更安全的权限模式、添加额外防护。详细事后报告即将发布。
+Thibault（OpenAI/ChatGPT 团队）宣布基于用户反馈对 ChatGPT 桌面应用进行了重要更新，ChatGPT 对话体验正在持续打磨。他还分享了一张引发讨论的图表——"虚假相关还是因果？"——以及一个疑似可视化或界面更新的预览，言语间透着满满的自豪感。
 
-Thibault is also seeking community input on the Codex usage limit UX — the 5-hour cap has been removed for Plus/Pro for several days, and he's asking what an ideal design would look like.
-Thibault 还在征求社区对 Codex 用量限制体验的意见——Plus/Pro 的 5 小时上限已取消数日，他在询问理想的设计方案。
-
-He also asked: now that ChatGPT and Codex are merged, *"what's the double or nothing move"* for the next merge?
-他还提问：既然 ChatGPT 和 Codex 已合并，下一步的「双倍押注」应该是合并什么？
-
-Source (file deletions): https://x.com/thsottiaux/status/2077630111499882637
-Source (usage limits): https://x.com/thsottiaux/status/2077632589498913087
-Source (next merge): https://x.com/thsottiaux/status/2077627035418239230
+Source tweets:
+- https://x.com/thsottiaux/status/2077979212569522461
+- https://x.com/thsottiaux/status/2077928889750520141
+- https://x.com/thsottiaux/status/2077928427936710901
 
 ---
 
-### Peter Yang — Product (petergyang on X)
+## Peter Yang (@petergyang)
 
-Peter points out what he calls OpenAI's biggest missed opportunity: ChatGPT Live and Codex are two incredible products that don't talk to each other.
-Peter 指出了他认为 OpenAI 最大的失误：ChatGPT Live 和 Codex 是两款卓越的产品，但它们之间无法互通。
+Peter flagged a notable gap: *"I'm surprised Claude Code doesn't have any Google Workspace connectors beyond Drive while ChatGPT does"* — pointing out that Anthropic is lagging on enterprise integrations. He also expressed frustration with Claude Code's browser use functionality, hoping the team hires people to fix it.
 
-*"It would be amazing to talk to ChatGPT Live and have it be able to use all the plugins, tools, and browser use that Codex has access to. Then I could ask it to reply to emails, schedule meetings, edit docs, ship code, and more all during a live conversation."*
-*「如果能在与 ChatGPT Live 对话时使用 Codex 拥有的所有插件、工具和浏览器，那就太棒了。这样我就能在一次语音对话中完成回复邮件、安排会议、编辑文档、提交代码等所有任务。」*
+Peter 指出了一个值得关注的短板：*"令我惊讶的是，Claude Code 除了 Drive 之外，完全没有 Google Workspace 连接器，而 ChatGPT 却有"*——暗示 Anthropic 在企业集成方面正在落后。他还对 Claude Code 的浏览器使用功能表达了不满，希望团队能招到合适的人来修复这个问题。
 
-The first step, he suggests, is making ChatGPT Live aware of all the plugins it's already connected to.
-他建议的第一步，是让 ChatGPT Live 能够感知到它已连接的所有插件。
-
-Source: https://x.com/petergyang/status/2077572198655754583
+Source tweets:
+- https://x.com/petergyang/status/2077982627278303279
+- https://x.com/petergyang/status/2077968093406707970
+- https://x.com/petergyang/status/2077966904938127502
 
 ---
 
-### Madhu Guru — AI Builder (realmadhuguru on X)
+## Madhu Guru (@realmadhuguru)
 
-Madhu coined (or crowdsourced) new terms for the visceral feeling of reading AI-generated text.
-Madhu 提出（或众包）了几个新词，用来描述阅读 AI 生成文字时那种本能的不适感。
+Madhu sounded a strategic alarm for enterprise leaders: open-weight models like Kimi and GLM will fundamentally disrupt the enterprise AI stack. His prescription — maximize model optionality now, before vendor lock-in sets in. He outlined 3 concrete steps enterprises should take to stay flexible in a rapidly commoditizing model landscape.
 
-His candidates: "semantic nausea," "uncanny prose valley," and "synthetic shudder."
-他的候选词：「语义恶心」（semantic nausea）、「诡异文章谷」（uncanny prose valley）和「合成战栗」（synthetic shudder）。
+Madhu 对企业决策者发出战略预警：Kimi、GLM 等开源权重模型将从根本上颠覆企业 AI 技术栈。他的药方是：趁供应商锁定尚未发生，现在就最大化模型选择的灵活性。他给出了 3 个具体步骤，帮助企业在模型快速商品化的格局中保持弹性。
 
-He also admitted that AI-isms have leaked into his own writing, which is why he's shifted to using AI mainly in the brainstorming phase and keeping final writing human.
-他还坦承 AI 的写作风格已渗入自己的文章，因此他已将 AI 使用限制在头脑风暴阶段，最终写作保持人工完成。
-
-Source: https://x.com/realmadhuguru/status/2077413491586253025
-Source: https://x.com/realmadhuguru/status/2077414312180932668
+Source tweet:
+- https://x.com/realmadhuguru/status/2077885624607228018
 
 ---
 
-### Thariq — Builder (trq212 on X)
+## Cat Wu (@_catwu)
 
-Thariq distilled his ideal prompting philosophy into three lines: thin prompts, thick artifacts + context, thin skills.
-Thariq 将理想的提示技巧浓缩成三行：精简的提示词、丰富的制品与上下文、精简的技能。
+Cat is recruiting non-engineering users (marketing, sales, finance, legal) for 30-minute workflow feedback sessions for Cowork — an AI-native workspace product. The message: the people who know workflows best are exactly who they want to learn from.
 
-*"software engineering is the profession of automation"*
-*「软件工程本质上就是自动化的职业。」*
+Cat 正在为 Cowork（一款 AI 原生工作空间产品）招募非技术岗位用户（市场、销售、财务、法务等）参与 30 分钟的工作流反馈访谈。核心理念：最了解工作流程的人，正是他们最想倾听的对象。
 
-Source: https://x.com/trq212/status/2077539537992229076
-Source: https://x.com/trq212/status/2077490092290253259
+Source tweet:
+- https://x.com/_catwu/status/2077933568282755145
 
 ---
 
-### Guillermo Rauch — Vercel CEO (rauchg on X)
+## Google Labs (@GoogleLabs)
 
-Vercel Sandbox metrics are impressive: DAUs growing at 100% month-over-month, 3.5M+ sandboxes created per day, and powering Notion, Airtable, Meta, Zapier, and many others.
-Vercel Sandbox 的数据令人印象深刻：每日活跃用户月环比增长 100%，每天创建超过 350 万个沙箱，并为 Notion、Airtable、Meta、Zapier 等众多公司提供底层支持。
+Google Labs celebrated a major graduation: Project Tailwind, which started as a small Labs experiment, evolved into NotebookLM — and has now been rebranded as **Gemini Notebook**. This marks both a product milestone and the full integration of NotebookLM into the Gemini ecosystem.
 
-He also highlighted cool use cases for the Web Analytics API: letting agents correlate visitor data with deployment timelines and performance, and building custom dashboards combining Vercel data with Stripe and Resend.
-他还展示了 Web Analytics API 的酷炫用例：让智能体将访客数据与部署时间线和性能指标关联，并构建结合 Vercel、Stripe 和 Resend 数据的自定义仪表盘。
+Google Labs 庆祝了一个重要的毕业典礼：从一个小小的 Labs 实验 Project Tailwind，到 NotebookLM，再到正式更名为 **Gemini Notebook**。这既是产品里程碑，也标志着 NotebookLM 正式全面融入 Gemini 生态。
 
-Source: https://x.com/rauchg/status/2077559189015335019
-Source: https://x.com/rauchg/status/2077426190386946539
+Source tweet:
+- https://x.com/GoogleLabs/status/2077832590132949268
 
 ---
 
-### Aaron Levie — Box CEO (levie on X)
+## Amjad Masad (@amasad)
 
-Aaron hosted a dinner with IT leaders from large enterprises and shared detailed notes on enterprise agent adoption.
-Aaron 举办了一场企业 IT 领袖晚宴，并分享了关于企业智能体落地的详细笔记。
+Amjad (Replit CEO) was busy on multiple fronts. He's building a chess engine fine-tuned on 2M Stockfish-labeled positions using GRPO reinforcement learning — already outperforming frontier models at chess. He also noted the curious irony that *"the distillation model can outperform the teacher model"* when reacting to Kimi K3. On markets, he observed $NVDA was oddly flat despite positive K3 news.
 
-The biggest theme: change management is still the #1 challenge. Most workflows need to be re-architected before agents can work in them.
-最核心的主题：变革管理仍然是头号挑战。大多数工作流程需要重新设计，智能体才能真正融入其中。
+Amjad（Replit CEO）同时在多条战线上推进。他正在构建一个基于 200 万 Stockfish 标注棋局、采用 GRPO 强化学习训练的国际象棋引擎——在棋局表现上已超越前沿大模型。他还针对 Kimi K3 的表现感叹了一句颇具讽刺意味的现象：*"蒸馏模型居然能超越教师模型"*。市场层面，他观察到尽管 K3 消息积极，$NVDA 股价却奇怪地几乎没有反应。
 
-Standout insight: agents will need their own roles and permissions in enterprise systems, because cross-functional workflows exceed what any single user can access — and agents can't keep secrets on their own.
-一个值得关注的洞见：智能体需要在企业系统中拥有自己的角色和权限，因为跨职能工作流超出了任何单个用户的访问范围——而智能体本身无法保密。
-
-*"All enterprise software must be headless in the future."*
-*「未来所有企业软件都必须走向无界面化。」*
-
-He also flagged that "Mythos or Mythos-level models" are surfacing increasingly sophisticated security risks by chaining vulnerabilities together.
-他还警告称，「Mythos 级别的模型」正在通过链式漏洞引发日益复杂的安全风险。
-
-Source: https://x.com/levie/status/2077526010753581156
-Source: https://x.com/levie/status/2077471148699439152
+Source tweets:
+- https://x.com/amasad/status/2077989946565206267
+- https://x.com/amasad/status/2077908318975332417
+- https://x.com/amasad/status/2077908032944779732
 
 ---
 
-### Garry Tan — Y Combinator CEO (garrytan on X)
+## Guillermo Rauch (@rauchg)
 
-Garry endorsed the idea that skill files are portable and free developers from frontier model dependency — calling this *"a good thing."*
-Garry 认可了技能文件具有可移植性、能让开发者摆脱对前沿模型依赖这一观点，并称其为「好事一件」。
+Guillermo (Vercel CEO) had a landmark day. Most significantly, he announced that Pete Hunt (React pioneer at Meta, creator of early React routing/bundling) and Nick Schrock (creator of GraphQL) are joining Vercel — drawing a delighted reaction from Swyx. He also highlighted that **Kimi K3 is now the best performing model on SWE-bench**, ahead of all proprietary models — the first open model to achieve this. As he put it, this is a genuine shift in the open vs. closed model race.
 
-He also took a stand on San Francisco policy: real compassion means focusing on recovery and treatment, not mandating pro-drug environments that make sobriety impossible.
-他还就旧金山政策表态：真正的同情心意味着关注康复和治疗，而不是强制推行让戒毒变得不可能的亲毒品环境。
+Guillermo（Vercel CEO）迎来了标志性的一天。最重磅的是，他宣布 Pete Hunt（Meta React 先驱）和 Nick Schrock（GraphQL 创始人）正式加盟 Vercel，此举引发 Swyx 的强烈共鸣。他还重点指出：**Kimi K3 现已成为 SWE-bench 上表现最佳的模型**，超越所有闭源模型——这是首个开源模型做到这一点。他认为，这标志着开源 vs 闭源模型竞赛格局的真正转变。
 
-Source: https://x.com/garrytan/status/2077626565517590618
-Source: https://x.com/garrytan/status/2077625223717736781
-
----
-
-### Zara Zhang — AI Investor (zarazhangrui on X)
-
-*"If you want agents to actually work inside a company, you have to design the company so they can read it."*
-*「如果你希望智能体在公司内部真正发挥作用，就必须将公司设计成智能体可以'阅读'的形态。」*
-
-Zara highlights Shopify's approach: an internal agent that has no private chat function at all, only public channels — with the side effect of enabling peer learning across the org.
-Zara 以 Shopify 为例：其内部智能体完全没有私聊功能，只有公开频道——这带来了一个额外效果：促进了组织内部的同伴学习。
-
-She also reflected on her own coding journey: because she never learned programming the traditional way, using coding agents has been purely an act of creativity and self-expression.
-她还分享了自己的编程心路：因为从未以传统方式学过编程，使用编程智能体对她而言纯粹是一种创意表达。
-
-*"GitHub is basically my Substack."*
-*「GitHub 对我来说基本上就是我的 Substack。」*
-
-Source: https://x.com/zarazhangrui/status/2077417579837309040
-Source: https://x.com/zarazhangrui/status/2077388091044635010
+Source tweets:
+- https://x.com/rauchg/status/2077900518404321759
+- https://x.com/rauchg/status/2077898031115178476
+- https://x.com/rauchg/status/2077870043833229692
 
 ---
 
-### Dan Shipper — Every CEO (danshipper on X)
+## Aaron Levie (@levie)
 
-Dan interviewed Chris Pedregal, cofounder and CEO of Granola (the $1.5B AI meeting tool), on his AI & I podcast.
-Dan 采访了 Granola（估值 15 亿美元的 AI 会议工具）联合创始人兼 CEO Chris Pedregal，发布于其 AI & I 播客。
+Aaron (Box CEO) offered two takes. First, he called Kimi K3's performance *"truly wild"* — and framed open frontier models as a net positive for enterprise: *"Every time we lower the cost of frontier intelligence, the use-cases that enterprises can pursue expand."* Second, he announced that Box now integrates with Databricks, enabling enterprises to extract structured insights from unstructured content (contracts, documents) at scale.
 
-The central argument: meeting notes were never Granola's real prize — the real battle is over owning the interface everyone uses for their work in an AI-native world.
-核心论点：会议记录从来都不是 Granola 真正争夺的东西——真正的战场是在 AI 原生世界中拥有人们完成工作所用的界面。
+Aaron（Box CEO）分享了两个视角。首先，他称 Kimi K3 的表现*"真的很野"*，并将开源前沿模型定性为企业端的利好：*"每次降低前沿智能的成本，企业能够追求的用例范围就会扩大。"* 其次，他宣布 Box 与 Databricks 打通集成，使企业能够从非结构化内容（合同、文档等）中规模化提取结构化洞察。
 
-*"Startups are like knife fights. Even when things are going great, running a $1.5 billion AI startup is a knife fight."*
-*「创业公司就像持刀搏斗。即使一切进展顺利，运营一家 15 亿美元的 AI 创业公司依然是一场刀刃上的博弈。」*
-
-Granola's "bring your own agent" strategy and their bet on MCP/API becoming much better in the coming months are the forward-looking highlights.
-Granola 的「自带智能体」策略，以及对 MCP/API 在未来数月大幅改善的押注，是本期最值得关注的前瞻性内容。
-
-Source: https://x.com/danshipper/status/2077410279474770229
+Source tweets:
+- https://x.com/levie/status/2077857617859535112
+- https://x.com/levie/status/2077782120232350205
 
 ---
 
-## PODCASTS
+## Garry Tan (@garrytan)
+
+Garry (YC CEO) was in two modes: startup advocacy and political organizing. On the startup front, his response to a problem was simply — *"Just be a YC startup. Problem solved"* — confident and blunt. On the civic front, he called on people to join @garryslist to *"organize the common sense builders"*, framing it as *"the defining fight for California and America."*
+
+Garry（YC CEO）今日两线并行：创业倡导与公民组织。创业层面，他对某个问题的回应简单直接——*"成为 YC 创业公司就行，问题解决。"* 公民层面，他呼吁大家加入 @garryslist，*"组织有常识的建设者"*，称这是*"加州乃至美国的决定性之战。"*
+
+Source tweets:
+- https://x.com/garrytan/status/2078007598758895769
+- https://x.com/garrytan/status/2077988898601369978
 
 ---
 
-### AI & I by Every — "The Founder of a $1.5B AI Company on What Comes After the First Wave of AI Apps"
+## Matt Turck (@mattturck)
 
-**Host: Dan Shipper | Guest: Chris Pedregal, CEO of Granola**
+Matt (FirstMark VC) shared a new podcast episode: a deep conversation with Sachin Katti, Head of Industrial Compute at OpenAI, covering Stargate, Jalapeno, data center financing, and the big-picture compute buildout. He noted an apology for some sound quality issues but said *"the conversation is well worth it."*
+
+Matt（FirstMark VC）分享了一期新播客：与 OpenAI 工业计算负责人 Sachin Katti 的深度对话，涵盖 Stargate、Jalapeno 项目、数据中心融资及大规模算力建设的宏观图景。他提到音频质量有些瑕疵，但表示*"这场对话绝对值得一听。"*
+
+Source tweets:
+- https://x.com/mattturck/status/2077791545323864405
+- https://x.com/mattturck/status/2077791541167268243
 
 ---
 
-## 一、深度总结
+## Zara Zhang (@zarazhangrui)
+
+Zara highlighted an inventive piece of Chinese hardware: *a face mask that doubles as a microphone*, allowing people to use voice dictation in public without being overheard. A small but fascinating signal of how China's hardware ecosystem is approaching the privacy-voice-productivity intersection.
+
+Zara 介绍了一款来自中国的创意硬件：*一款集成了麦克风的口罩*，让用户在公共场所进行语音听写时不被周围人听到。这是一个虽小却颇具启示性的信号，折射出中国硬件生态在隐私-语音-生产力交叉点上的独特探索路径。
+
+Source tweet:
+- https://x.com/zarazhangrui/status/2077953473535176772
+
+---
+
+## Nikunj Kothari (@nikunj)
+
+Nikunj playfully revealed who's "really" running the Vercel account — joining in on the light-hearted meta-humor circulating among the Vercel team (also echoed by Guillermo's similar tweet).
+
+Nikunj 以玩笑方式揭示了"到底是谁"在运营 Vercel 账号——加入了 Vercel 团队内部流传的自嘲式元幽默（Guillermo 也发了类似推文相呼应）。
+
+Source tweet:
+- https://x.com/nikunj/status/2077961425008382029
+
+---
+
+## Dan Shipper (@danshipper)
+
+Dan (Every) offered sharp analysis. On Kimi K3, he's *"extraordinarily skeptical of claims it's as good as Fable"* — he'll run a vibe check. On OpenAI, he shared a detailed bullish take: GPT-5 was positioned as a pair programmer in summer 2025, and now OpenAI is *"firing on all cylinders"* — noting their strategic pivots and the fascinating internal dynamics unfolding. He also celebrated strong emoji reactions on a product as a signal of winning community momentum.
+
+Dan（Every）今日输出了犀利洞察。对于 Kimi K3，他表示*"对其与 Fable 媲美的说法极度怀疑"*——他会亲自做个 vibe check。关于 OpenAI，他分享了一篇详细的看多分析：GPT-5 于 2025 年夏天被定位为"结对编程搭档"，而如今 OpenAI *"全力开火"*——他记录了其战略转型以及内部正在展开的引人入胜的动态。他还将产品上强烈的 emoji 反应视为赢得社区动能的信号。
+
+Source tweets:
+- https://x.com/danshipper/status/2077839678636732809
+- https://x.com/danshipper/status/2077825318992429286
+- https://x.com/danshipper/status/2077736751649411388
+
+---
+
+## Aditya Agarwal (@adityaag)
+
+Aditya (ex-Dropbox CTO) delivered three punchy takes. Most practically: *"I am literally switching models off of Fable right now for our systems"* — citing Kimi K3 as a free, high-quality alternative, and raising the philosophical question: *"If you have something very valuable... but letting people use it allows them to recreate it... then maybe it wasn't very valuable in the first place?"* He also shared a counterintuitive leadership insight: at higher stakes, you actually get told *No* more, not less — because you're operating at the edge of your ambition.
+
+Aditya（前 Dropbox CTO）抛出了三个有力的观点。最具实操价值的是：*"我现在正在把我们系统里的 Fable 模型切换掉"*——将 Kimi K3 视为免费的高质量替代品，并引出一个哲学拷问：*"如果你有一样很有价值的东西……但允许别人使用它就意味着他们能重新创造出来……那它一开始也许并没有那么有价值。"* 他还分享了一个反直觉的领导力洞见：在更高风险的赌局中，你实际上会被拒绝更多次，而不是更少——因为你正在触及野心的边界。
+
+Source tweets:
+- https://x.com/adityaag/status/2077983583168278961
+- https://x.com/adityaag/status/2077983435000324125
+- https://x.com/adityaag/status/2077885770048877034
+
+---
+
+## Sam Altman (@sama)
+
+Sam shared two candid posts. On voice AI: *"I talk to ChatGPT more than I type to it at this point — new voice model really crossed a threshold"* — a personal endorsement of voice-first AI interaction. On OpenAI's trajectory, he was unusually self-reflective: *"we did not have our best last 12 months ever, which is mostly my fault, but we are about to have our best 12 months to date."* A rare public admission paired with a strong forward-looking statement.
+
+Sam 发布了两条坦诚的帖子。语音 AI 方面：*"我现在和 ChatGPT 说话的时间比打字还多——新语音模型真的跨越了一个门槛"*——这是对语音优先 AI 交互的亲身背书。关于 OpenAI 的走向，他展示了罕见的自我反省：*"我们过去 12 个月没有达到最佳状态，这主要是我的失误，但我们即将迎来迄今最好的 12 个月。"* 这种公开认错与强烈的前瞻性表态同时出现，殊为罕见。
+
+Source tweets:
+- https://x.com/sama/status/2077842579232895286
+- https://x.com/sama/status/2077817060068057493
+
+---
+
+## 🎙 PODCAST: Unsupervised Learning — Ep 91: Top AI Analyst Unpacks Today's AI Hype Cycle
+
+**Guest:** Benedict Evans | **Host:** Jacob Efron (Redpoint)
+**Link:** https://www.youtube.com/watch?v=vDY_ocrkQ5w
+
+---
+
+### 一、深度总结
 
 **核心论点**
-
-AI 应用的第一波浪潮已经证明了技术可行性，但真正的战争才刚刚开始。Granola 不是一家做会议记录的公司——它在争夺 AI 原生时代人们完成工作的核心界面。创业公司就像持刀搏斗，任何领先优势随时可能被复制，而真正的护城河在于对上下文的深度掌控。
+Benedict Evans（科技分析师）认为，AI 的宏大叙事——"这将是比工业革命更大的变革"——本质上是不可证伪的命题。当下更有价值的思维方式，是回顾历史上每一次重大技术平台转型（PC、互联网、移动互联网、半导体），提取可复用的竞争动态模式，而非沉迷于"AI 比哪次革命更大"的无意义比较。
 
 **关键洞察**
 
-- **竞争的本质变了**：三家大公司克隆了 Granola 的核心功能。Chris 的反应是"easy come, easy go"——因为会议记录从来都不是终点，真正的价值在于会议前后的完整上下文。
-- **预生成 vs 按需生成**：Granola 为数百万用户预生成会前简报，包含会议性质和参与者信息。大多数人不会打开——但打开的人会获得"魔法体验"。这是主动式 AI 的正确设计思路。
-- **"自带智能体"策略**：Granola 押注 MCP 和 API 将在未来几个月内大幅改善，因此主动将产品推向智能体原生方向。他们不是在等待生态成熟，而是在提前布局。
-- **Dan 几乎完全在 Codex 里生活**：这不只是一个个人习惯，而是对"Codex 原生应用"这一新范式的深度验证——工具和内容的边界正在消失。
-- **上下文是唯一无法复制的护城河**：转录文本只是原材料。真正的价值在于那些文字背后捕捉不到的东西——决策的情绪、语气、未说出口的假设。
+- **当前 AI 极度参差不齐（Jagged）：** AI 可以完成耗时 17 小时的任务，却可能搞不定一件 5 分钟的小事。智能不是线性的，因此任何基于"AI 能完成 X% 岗位职能"的就业分析都是伪命题——就像"假设马是完美球体"的物理学家。
 
-**最值得关注的信号**
+- **Kimi K3 反弹是个负面信号：** SpaceX（此处应为 xAI 相关讨论）几乎从零重新登上模型榜单顶端，这反而证明——只要愿意投入几十亿美元并招募到合适的人，就能做到。这说明前沿模型目前尚无真正的护城河，不像搜索、社交或移动平台那样有结构性壁垒。
 
-AI 应用层的下一场战争是关于"谁拥有用户的工作上下文"。会议、邮件、文档——这些都是入口，但真正的赌注是成为用户完成所有知识工作的统一界面。
+- **价值不会停留在基础层：** 移动运营商过去 15 年流量增长了 1000-2000 倍，每年 CapEx 2000 亿美元，却没有拿到 Uber、YouTube 或银行服务的任何价值。AI 基础模型极有可能重蹈覆辙——成为基础设施，价值流向上层应用。
 
----
+- **编码之所以有 PMF，原因成谜：** Evans 提出一个有趣问题：代码领域的成功，究竟是因为工具开发者在构建自己的工具（自我指涉的飞轮），还是因为代码本身在数学上可验证、可无限重复测试？这个问题的答案，将决定哪些其他领域能复制这条路径。
 
-## 二、完整中文逐字稿
+- **企业 AI 的"三重障碍"：** 大多数人既看不到问题所在，也没能力描述出来，更没有资源去构建解决方案。期望企业中层管理者在一个下午用 Claude 想出改变游戏规则的流程工具，和期望他们凭空发明 SAP 一样天真。
 
-**Speaker 1（主持人 Dan Shipper）**：你是 Granola 的联合创始人兼 CEO。它是这一代 AI 应用中最早让人们惊呼"哦，这真的有用"的产品之一。
+**一句话金句（英文原文）**
+*"You can always see the jobs that will go away, and you don't know the new jobs. The new jobs will be doing things with completely different kinds of skills that it didn't occur to you existed."*
 
-**Speaker 2（嘉宾 Chris Pedregal）**：会议记录不是终点，不是所有人追逐的全部价值。有更重要的东西存在。我认为我们正处于一场计算革命的最初阶段，迄今为止所发生的一切，与即将到来的相比将相形见绌。创业公司就像持刀搏斗。
-
-**Speaker 2**：我认为……这是对的。即使一切进展顺利，也是刀刃上的博弈。市场在变化，客户在变化，竞争在变化，模型在变化，你自己也在变化。
-
-**Dan**：Granola 是这一代 AI 应用中最早实现近乎普及式采用的产品之一。但你刚才说会议记录不是公司的全部。能展开说说吗？
-
-**Chris**：当然。我们一直把会议记录当作一个起点——一个证明 AI 在真实工作流中确实有用的场景。但我们从一开始就知道，真正的机会比会议记录大得多。我们在争夺的是：在 AI 原生时代，人们完成工作时所使用的核心界面。
-
-**Dan**：三家大公司克隆了 Granola 的核心功能。你怎么看这件事？
-
-**Chris**：Easy come, easy go。任何领先优势都是暂时的，包括我们自己的。这并不让我感到恐慌，反而让我更专注。克隆会议记录功能很容易，但复制我们积累的对用户会议上下文的深度理解要困难得多。
-
-**Dan**：说说 Granola 的产品构建方式——你们有一个"塑形"和"验证"阶段的框架？
-
-**Chris**：对。塑形阶段是关于方向和问题定义——我们在解决什么？为什么是现在？验证阶段是关于快速测试假设，尽早与真实用户接触。我们不会在没有经过验证信号之前就进行大规模投入。
-
-**Dan**：你们预生成了数百万份会前简报，但大多数人从不打开。这背后的逻辑是什么？
-
-**Chris**：当有人打开的时候，那种体验是神奇的。他们在会议开始前五分钟打开简报，看到关于这次会议的背景、参与者的信息，然后他们走进会议室，感觉自己已经完全准备好了。这种体验值得我们为所有人预生成那些文件，即使大多数人永远不会打开。这是主动式 AI 设计的核心——在用户需要之前就准备好，而不是等用户来问。
-
-**Dan**：说说"自带智能体"策略。
-
-**Chris**：我们相信 MCP 和 API 在未来几个月内会变得更好——显著地更好。所以我们现在就把产品推向智能体原生方向。我们不是在等待生态成熟，我们是在为它的到来做准备。Granola 应该成为各种智能体能够调用的上下文层，而不只是一个让用户打开的界面。
-
-**Dan**：我现在几乎完全在 Codex 里工作。这对你来说意味着什么？
-
-**Chris**：这正是"Codex 原生应用"这一概念的意义所在。当你的主要工作环境本身就是一个 AI 工具时，工具和内容之间的边界开始消失。Granola 想要成为在那个世界中对你有用的东西。
-
-**Dan**：转录文本无法捕捉什么？
-
-**Chris**：情绪。语气。那些没有说出来的假设。当有人说"也许我们应该考虑一下"，他们的意思可能是"这个想法很糟糕，我不想直说"。文字本身无法传达这些。这是为什么我们把会议记录看作原材料，而不是最终产品——真正的价值在于理解那些文字背后的含义。
-
-**Dan**：对于正在应用层构建的创始人，你有什么建议？
-
-**Chris**：不要把今天的 AI 当成终态来构建。模型会变好，基础设施会变好，用户行为也会改变。把你的产品设计成能够随着这些变化而进化的形态。找到真正属于你的东西——不是功能，而是你对某类用户某类问题的深度理解——然后以此为核心构建护城河。
-
-Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+你总能看到哪些工作会消失，却看不到新工作是什么。那些新工作将需要你根本想象不到的全新技能。
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+### II. Key Quotes (English / Chinese)
+
+*"It's like electricity. Well, what happened with electricity? People before electricity weren't dumb either."*
+就像电力的出现——那之前的人也不蠢。每次技术革命都被当作史无前例，但它们从来不是。
+
+*"The fact that [they] managed to jump straight back up to almost at the top of the leaderboards after completely flunking out is a really negative signal... because what that says to me is [this] is not very hard if you're willing to spend a couple of billion dollars and hire the right people."*
+模型能快速从零杀回榜单顶端，恰恰说明这件事"没那么难"——只要钱够多、人够对。这是护城河缺失的有力证明。
+
+*"I talk to Sam Altman... I have a lot of sympathy for Sam Altman. You've got a lot of plates to juggle."*
+Evans 对 Sam Altman 表达了罕见的同情：在基础设施、芯片、监管、分发、应用层之间同时走钢丝，任何一位 CEO 都会焦头烂额。
+
+**Podcast source:** https://www.youtube.com/watch?v=vDY_ocrkQ5w
