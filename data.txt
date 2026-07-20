@@ -1,281 +1,163 @@
-AI Builders 日报 · 2026-07-19
-
-AI Builders Digest — 2026-07-19
-AI Builders 日报 — 2026-07-19
-
-===========================
-X / TWITTER
-===========================
+AI Builders 日报 · 2026-07-20
 
 ---
 
-Swyx (swyx on X)
+🐦 Swyx (@swyx)
 
-Swyx is a developer advocate and AI builder known for the "Learning in Public" philosophy.
-Swyx 是知名开发者布道师与 AI 构建者，以"公开学习"理念著称。
+Swyx defended Europe's AI talent, arguing that the continent houses some of the world's top AI engineers — those in the know understand this.
+Swyx 为欧洲的 AI 人才发声，指出欧洲拥有世界顶级的 AI 工程师，而那些真正了解行业的人对此心知肚明。他正在主办一个全球最具竞争力的 AI 人才竞技场（以讲座和工作坊数量衡量），随着"工作力评估窗口"开启，局势将愈发有趣。
+Source: https://x.com/swyx/status/2078628617987518855
 
-He made a pointed observation about AI agent workflows — if you haven't set up your AI agents (Codex, Claude, Gemini, Devin) to automatically research how to improve your SEO/AEO every week, you're missing out on freely available alpha that the market has yet to fully exploit.
-他对 AI 智能体工作流提出了一个锐利观点：如果你还没有设置 AI 智能体（Codex、Claude、Gemini、Devin）来每周自动研究如何提升你的 SEO/AEO，那你正在错失市场尚未完全挖掘的免费红利。
-
-*"btw if you havent set your {codex | claude | gemini | devin} automations to autoresearch how to improve your seo/aeo every week you are really truly missing out on free, should-be-commoditizing-but-weirdly-untapped alpha"*
-
-He also pushed the AEO (AI Engine Optimization) conversation further, noting the alpha only disappears when people stop asking basic questions and start discussing on-policy autoAEO — raising the meta-question of whether Claude optimizing your AEO disproportionately favors Claude itself.
-他还深化了 AEO（AI 引擎优化）的讨论，指出只有当大家不再问基础问题、开始讨论"在策略 autoAEO"时，这个红利才会消失——并提出了一个元问题：Claude 帮你优化 AEO，是否会不成比例地有利于 Claude 自身？
-
-Source tweets:
-- https://x.com/swyx/status/2078244735794413786
-- https://x.com/swyx/status/2078293998398263587
-- https://x.com/swyx/status/2078364141878952242
+He also shared that AEO (AI Engine Optimization) is on track to account for $1M of his revenue next year — a milestone that signals the growing commercial potential of AI-first content distribution.
+他还透露，AEO（AI 引擎优化）按当前速度将在明年贡献他 100 万美元的营收，这一里程碑信号意味着以 AI 为核心的内容分发正走向成熟的商业化阶段。
+Source: https://x.com/swyx/status/2078581967768166591
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — OpenAI
+🐦 Thibault Sottiaux (@thsottiaux) — Codex & ChatGPT, OpenAI
 
-Thibault Sottiaux is an engineering leader at OpenAI working on infrastructure and product reliability.
-Thibault Sottiaux 是 OpenAI 基础设施与产品可靠性方向的工程负责人。
+Thibault shared an impressive real-world demo of ChatGPT Work: he dictated a complex multi-step instruction to the AI — sort through thousands of DMs, build a spreadsheet, classify users by work type, and rate their sophistication level — all without typing a single character.
+Thibault 展示了一个令人印象深刻的 ChatGPT Work 真实用例：他通过语音输入一条复杂的多步骤指令，让 AI 整理数千条私信、生成电子表格、按工作类型分类用户，并对其使用复杂程度评分——全程无需敲一个字。
+*"My job is basically delegating to ChatGPT Work now. Can't stop using dictation and have it do everything."*
+他的工作方式已彻底转变：完全依赖语音输入，将一切交给 ChatGPT Work 代理执行。
+Source: https://x.com/thsottiaux/status/2078702412085498087
+Source: https://x.com/thsottiaux/status/2078697741455356367
 
-He announced a reset of usage limits for all paid users for Codex and ChatGPT Work, giving the team credit for iterating at "lightspeed" while keeping infrastructure up during unprecedented scaling.
-他宣布为所有付费用户重置 Codex 和 ChatGPT Work 的使用限额，并称赞团队在前所未有的扩展速度下仍能"以光速迭代"并维持基础设施正常运行。
-
-*"Oops... I did it again. Enjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever."*
-
-He also confirmed GPT-5.6 Sol to be "an extremely good model," teasing what appears to be a significant new model release.
-他还确认 GPT-5.6 Sol 是"一个极其出色的模型"，暗示一个重要的新模型即将发布。
-
-Source tweets:
-- https://x.com/thsottiaux/status/2078320950488297917
-- https://x.com/thsottiaux/status/2078321266524881065
-- https://x.com/thsottiaux/status/2078310751878647932
+ChatGPT Work's core capabilities include creating and hosting sites, managing emails, summarizing documents, and producing docs/sheets/slides — already bundled into Plus, Pro, Business, and Enterprise plans.
+ChatGPT Work 的核心能力涵盖建站与托管、邮件管理、文档摘要、以及生成文档/表格/幻灯片，已向 Plus、Pro、Business 和 Enterprise 用户全面开放。
+Source: https://x.com/thsottiaux/status/2078697631019303273
 
 ---
 
-Peter Yang (petergyang on X) — Creator of the Creator Science newsletter
+🐦 Peter Yang (@petergyang)
 
-Peter Yang is a product leader and creator focused on AI workflows and content creation.
-Peter Yang 是一位专注于 AI 工作流与内容创作的产品负责人和创作者。
+Peter built a multiplication-table learning app with his 8-year-old daughter using ChatGPT — complete with AI-generated animal UI characters, music, and a timed boss level. It's a tangible example of how AI lowers the barrier for parent-child co-creation.
+Peter 与 8 岁女儿一起用 ChatGPT 构建了一款乘法练习 App，内含 AI 生成的动物角色界面、配乐和限时关卡。这是 AI 降低亲子共创门槛的生动案例。
+Source: https://x.com/petergyang/status/2078638568784994686
 
-He shared a vision for the future of agent management: rather than spending an entire day staring at screens managing AI agents, he wants to walk around outside talking to agents "on the phone," giving them work and receiving voice status updates.
-他分享了对未来智能体管理方式的愿景：与其整天盯着屏幕管理 AI 智能体，他更希望在户外边走边通过"电话"与智能体交流，分配任务并以语音形式接收状态更新。
-
-*"Much better to be walking around outside talking to the agents 'on the phone' giving them work to do and having them update me on status via voice."*
-
-He also noted that Codex browser use has "finally been defeated," suggesting a frustrating limitation has been resolved.
-他还提到 Codex 的浏览器使用功能"终于被攻克了"，暗示一个令人头疼的限制已被解决。
-
-Source tweets:
-- https://x.com/petergyang/status/2078276992470794531
-- https://x.com/petergyang/status/2078303748649320529
-- https://x.com/petergyang/status/2078293685238993072
+(His other posts were World Cup commentary and unrelated to AI/tech.)
+（他的其他推文为世界杯评论，与 AI/科技无关。）
+Source: https://x.com/petergyang/status/2078622146247733320
+Source: https://x.com/petergyang/status/2078608551745146928
 
 ---
 
-Madhu Guru (realmadhuguru on X) — Enterprise AI Strategist
+🐦 Thariq (@trq212) — Claude Code, Anthropic
 
-Madhu Guru is an enterprise AI strategist focused on adoption patterns and organizational readiness.
-Madhu Guru 是专注于采用模式和组织准备度的企业 AI 战略顾问。
-
-He made an insightful point about Kimi's impact on Google: many enterprises won't consume Kimi directly — they'll route through Google Cloud for enterprise guarantees like security, data residency, and compliance.
-他对 Kimi 影响 Google 的问题提出了独到见解：许多企业不会直接使用 Kimi，而是会通过 Google Cloud 获取企业级保障，如安全性、数据驻留合规等。
-
-*"Many enterprises won't consume Kimi directly. They'll get it through Google Cloud because they still need enterprise guarantees — security, data residency, compliance and most importantly, chips. Money out one pocket into the other."*
-
-He also diagnosed why enterprises struggle to go beyond basic chatbots: the root cause is a talent gap in building harnesses and evals — companies lack the ability to clearly define use cases and translate them into offline and online evaluation frameworks.
-他还诊断出企业难以超越基础聊天机器人的根本原因：人才缺口导致无法构建测试框架和评估体系——企业缺乏将业务场景清晰定义并转化为离线与在线评估框架的能力。
-
-Source tweets:
-- https://x.com/realmadhuguru/status/2078210889778708744
-- https://x.com/realmadhuguru/status/2078131628262752550
+Thariq acknowledged the heroic, around-the-clock effort by the Anthropic team that made the launch of Fable possible — a proud moment for those who pushed through uncertainty to ship on time.
+Thariq 向 Anthropic 团队的无畏付出致敬：正是这群人夜以继日的努力，才让 Fable 得以及时上线。他坦言成功绝非板上钉钉，但最终团队用行动证明了一切。
+Source: https://x.com/trq212/status/2078514180051906864
 
 ---
 
-Thariq (trq212 on X) — AI Builder & Video Creator
+🐦 Guillermo Rauch (@rauchg) — CEO, Vercel
 
-Thariq is a prominent AI builder known for sharing cutting-edge AI video workflows.
-Thariq 是一位著名的 AI 构建者，以分享前沿 AI 视频工作流而闻名。
+Guillermo shared internal stealth evals of new frontier models: Kimi K3 showed top-tier cybersecurity capability with strong raw intelligence; Sol demonstrated a leap ahead in cyber capability at higher cost; Fable refused all eval runs entirely.
+Guillermo 分享了内部隐秘评测结果：Kimi K3 在网络安全领域表现顶尖，具备强大的原始智能；Sol 在安全能力上实现了跃升但成本更高；而 Fable 拒绝完成所有测试任务。
+*"Frontier, open-weight cybersecurity capability is here."*
+前沿开源网络安全能力已然降临。
+Source: https://x.com/rauchg/status/2078647648307880209
 
-He shared a key productivity insight for AI-assisted development: building prototypes of mockups, schemas, data models, and proofs of concept is the best way to avoid wasting tokens on outputs you don't actually want.
-他分享了 AI 辅助开发的关键效率洞察：先构建模型原型、数据库结构、数据模型和概念验证，是避免在不需要的输出上浪费 token 的最佳方式。
-
-*"building prototypes of mockups, schemas, data models, proof of concepts, etc. is the best way to avoid spending tons of tokens before realizing you don't want the output"*
-
-Source tweet: https://x.com/trq212/status/2078189833445654714
-
----
-
-Amjad Masad (amasad on X) — CEO of Replit
-
-Amjad Masad is the CEO and co-founder of Replit, the browser-based coding platform.
-Amjad Masad 是浏览器端编程平台 Replit 的 CEO 和联合创始人。
-
-He highlighted a chess history exploration built by the Replit community, calling it "sick" and noting that the Replit community is "ChessMaxxing" — a playful nod to the creative AI-built projects flourishing on the platform.
-他重点展示了 Replit 社区构建的一个国际象棋历史探索项目，称其"令人叹为观止"，并开玩笑说 Replit 社区正在"ChessMaxx"——以此幽默地赞扬平台上蓬勃涌现的 AI 构建项目。
-
-Source tweet: https://x.com/amasad/status/2078273728618877326
+He also challenged the term "AGI," arguing that today's AI is already far better than humans at most economically relevant tasks — but cannot replace the authentic human voice, identity, or care for others.
+他还质疑了"AGI"这一术语的时代适用性：今天的 AI 在大多数经济相关任务上已远超人类，但无法取代真实的人类声音、个体身份认同或对他人的真情关怀。*"AIs can replace tasks you do, but they can't replace the proverbial you."* AI 可以替代你所做的事，但无法替代"那个你"。
+Source: https://x.com/rauchg/status/2078548458714406959
 
 ---
 
-Guillermo Rauch (rauchg on X) — CEO of Vercel
+🐦 Aaron Levie (@levie) — CEO, Box
 
-Guillermo Rauch is the CEO of Vercel, the platform for frontend and AI applications.
-Guillermo Rauch 是前端与 AI 应用平台 Vercel 的 CEO。
+Aaron offered a detailed landscape of the AI ecosystem, outlining the categories seeing real traction: fine-tuned vertical model providers, applied AI companies for enterprise workflows, domain-specific labs (life sciences, finance, healthcare), new infrastructure layers, and AI services firms.
+Aaron 勾勒出 AI 生态系统的全景图，梳理出真正跑通的几大类别：垂直微调模型提供商、企业工作流 AI 应用公司、领域专属实验室（生命科学/金融/医疗）、新型基础设施层，以及 AI 服务公司。他的判断是：赢家格局远未明朗，这将是一个异质化竞争的市场。
+Source: https://x.com/levie/status/2078567715544121815
 
-He announced that sandbox data for downloads is now free, celebrating it as a Friday ship moment and encouraging the community to "ship more agents."
-他宣布沙箱下载数据现已免费，并以此庆祝周五发布，鼓励社区"发布更多智能体"。
-
-He also endorsed the "ship like shadcn" philosophy — a reference to the community's admiration for shadcn's rapid, high-quality shipping cadence.
-他还认可了"像 shadcn 一样发布"的理念——这是社区对 shadcn 快速、高质量发布节奏的赞美。
-
-Source tweets:
-- https://x.com/rauchg/status/2078305023784620342
-- https://x.com/rauchg/status/2078299647689310270
+He also argued that gatekeeping AI models won't work at scale — China has crossed the frontier threshold (Kimi K3 as evidence), and the US response should be safe acceleration, open-source investment, and infrastructure build-out — not lockdowns.
+他还指出，封锁 AI 模型不可能在规模上奏效——中国已越过前沿门槛（Kimi K3 即为明证），美国的应对之道应是安全加速、投资开源生态与基础设施建设，而非收紧限制。
+Source: https://x.com/levie/status/2078481578779685245
 
 ---
 
-Aaron Levie (levie on X) — CEO of Box
+🐦 Garry Tan (@garrytan) — President & CEO, Y Combinator
 
-Aaron Levie is the CEO and co-founder of Box, the enterprise content management platform.
-Aaron Levie 是企业内容管理平台 Box 的 CEO 和联合创始人。
-
-He made a sharp point about AI cost reduction: the cheaper AI gets, the more opportunity there is for the entire ecosystem — especially end-customers — to benefit.
-他对 AI 成本下降提出了一个敏锐观点：AI 越便宜，整个生态系统——尤其是终端用户——受益的机会就越大。
-
-*"The cheaper AI gets, the more opportunity there is for the entire ecosystem — especially including end-customers — to benefit. Everything is bottlenecked by being able to successfully and cost effectively deploy AI in real workloads."*
-
-The real bottleneck, he argues, isn't capability — it's cost-effective deployment in real production workloads. Every time AI costs drop, that bottleneck loosens and the total addressable value grows.
-他认为，真正的瓶颈不是能力，而是在真实生产工作负载中的高效部署。每当 AI 成本下降，这个瓶颈就会松动，可寻址的总价值也随之增长。
-
-Source tweet: https://x.com/levie/status/2078139206946459853
+Garry's posts today were primarily focused on San Francisco policy: advocating for market-based solutions over state control, calling for accountability in harm reduction programs, and critiquing what he sees as partisan journalism.
+Garry 今日的推文主要聚焦于旧金山政策议题：倡导以市场机制代替国家管控，呼吁对戒毒援助项目加强问责，并批评他认为存在党派倾向的新闻报道。与 AI 相关度较低。
+Source: https://x.com/garrytan/status/2078700313461301470
+Source: https://x.com/garrytan/status/2078699319209984033
+Source: https://x.com/garrytan/status/2078640121369485611
 
 ---
 
-Zara Zhang (zarazhangrui on X) — Investor & Builder
+🐦 Matt Turck (@mattturck) — VC, FirstMark Capital
 
-Zara Zhang is an investor and builder with deep interest in AI and technology trends.
-Zara Zhang 是一位对 AI 和技术趋势有深度洞察的投资人和构建者。
+Matt delivered a sharp one-liner that encapsulates three years of AI discourse: *"2024: 'The model layer is commoditizing.' 2025: 'The model layer is commoditizing.' 2026: 'The model layer is commoditizing.' The model layer: still not commoditized."*
+Matt 用一条推文精准总结了三年来 AI 圈的预言落差："大家年年喊模型层商品化，结果三年过去，模型层依然没有商品化。" 简洁有力，令人会心一笑。
+Source: https://x.com/mattturck/status/2078520552680046920
 
-She offered a practical tip for building in public: if making content feels like extra work, just show the work already happening inside your product.
-她为公开构建提供了一个实用建议：如果制作内容感觉像是额外工作，只需展示产品内部正在发生的工作即可。
-
-*"If making content feels like extra work, show the work already happening inside your product. A tiny screen recording, the first version, or the user behavior that changed your design. The reasoning matters more than production value."*
-
-She also made a cultural observation: just a few years ago, recording meetings felt uncomfortable — now it's assumed that all business meetings are recorded, not for humans, but for agents.
-她还做出了一个文化观察：就在几年前，录制会议还让人感到不舒服，而现在会议被录制已成为默认——不是为了人，而是为了智能体。
-
-*"Technology really changes culture."*
-
-Source tweets:
-- https://x.com/zarazhangrui/status/2078086930756202924
-- https://x.com/zarazhangrui/status/2078076500683997446
+(His other posts were World Cup commentary on France's performance and coach Deschamps' legacy.)
+（其余推文为世界杯相关评论，聚焦法国队表现与主帅德尚的传奇历程。）
+Source: https://x.com/mattturck/status/2078608152086327529
+Source: https://x.com/mattturck/status/2078585551729643573
 
 ---
 
-Peter Steinberger (steipete on X) — iOS Developer & Founder of PSPDFKit
+🐦 Zara Zhang (@zarazhangrui)
 
-Peter Steinberger is an iOS developer and founder of PSPDFKit (now Nutrient), known for deep technical insight.
-Peter Steinberger 是 iOS 开发者及 PSPDFKit（现更名为 Nutrient）的创始人，以深刻的技术洞察力著称。
+Zara made a compelling case for every AI user to build their own "personal eval set" — a handful of tasks specific to their own work — rather than relying solely on industry benchmarks. Real capability is found by bumping into boundaries.
+Zara 主张每个 AI 用户都应建立属于自己的"个人评测集"，用真实工作场景中的任务检验模型，而非单纯依赖行业 benchmark。真正的能力边界，只有亲自去触碰才能感知。
+Source: https://x.com/zarazhangrui/status/2078666187026911488
 
-He shared an entertaining — and revealing — observation about Codex's browser and computer use capabilities: watching it open Chrome, navigate to a PR, and wrestle with the macOS picker just to upload an image is "both amazing and painful."
-他分享了一个既有趣又深刻的观察：看着 Codex 打开 Chrome、导航到 PR、与 macOS 文件选择器搏斗只是为了上传一张图片，这"既令人惊叹又让人痛苦"。
-
-*"It's both amazing and painful to watch codex use browser + computer use to open Chrome, go to my PR, tap on comment and wrangle with the macOS picker — all TO UPLOAD AN IMAGE. GitHub has no API doesn't stop anyone."*
-
-He also provoked a debate on AI agent architecture, asking: "Are we still talking loops or did we shift to graphs yet?" — a pointed question about whether the field has moved past simple loop-based agent patterns to graph-based orchestration.
-他还引发了一场关于 AI 智能体架构的辩论，问道："我们还在讨论循环，还是已经转向图了？"——这是一个关于该领域是否已从简单的循环智能体模式转向图编排的犀利问题。
-
-Additionally, he shared that he built a CodexBar icon customization editor (built by Codex itself), after being driven "crazy" by icon customization issues.
-此外，他分享了他构建的 CodexBar 图标自定义编辑器（由 Codex 本身构建），起因是图标自定义问题让他"抓狂"。
-
-Source tweets:
-- https://x.com/steipete/status/2078318731785359634
-- https://x.com/steipete/status/2078277297791189132
-- https://x.com/steipete/status/2078264088644276598
+She also pinpointed what she sees as the fundamental blocker in enterprise AI adoption: *"The people who understand AI don't understand the business, and the people who understand the business don't understand AI."* A classic two-sided knowledge gap.
+她还精准指出了企业 AI 落地的核心障碍："懂 AI 的人不懂业务，懂业务的人不懂 AI。" 这道双向认知鸿沟，是当下企业智能化转型的最大难题。
+Source: https://x.com/zarazhangrui/status/2078492577788268549
 
 ---
 
-Sam Altman (sama on X) — CEO of OpenAI
+🐦 Nikunj Kothari (@nikunj) — Partner, FPV Ventures
 
-Sam Altman is the CEO of OpenAI.
-Sam Altman 是 OpenAI 的 CEO。
-
-He shared a link he found "cool" — though brief, coming from the CEO of OpenAI, it signals something worth paying attention to in the broader AI ecosystem.
-他分享了一个他认为"很酷"的链接——虽然简短，但来自 OpenAI CEO，这个信号值得关注。
-
-Source tweet: https://x.com/sama/status/2078244242993164716
+Nikunj shared a personal travel moment from Paris — his favorite spot so far is the Orangerie museum, particularly the Water Lilies room and the impressively thoughtful kids' area.
+Nikunj 分享了巴黎之旅的个人片段——他最钟爱的地方是橘园美术馆，尤其是莫奈的睡莲展厅和精心设计的儿童区，令他印象深刻。
+Source: https://x.com/nikunj/status/2078453525080629683
 
 ---
 
-Claude / Anthropic (claudeai on X)
+🐦 Aditya Agarwal (@adityaag) — General Partner, South Park Commons
 
-Anthropic's official Claude account made a significant product announcement regarding access to Claude Fable 5.
-Anthropic 官方 Claude 账号发布了关于 Claude Fable 5 访问权限的重要产品公告。
-
-Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium plans at 50% of limits, providing users with more certainty about what their plans include.
-自 7 月 20 日起，Claude Fable 5 将以 50% 限额标准纳入所有 Max 和 Team Premium 套餐，让用户对套餐内容有更清晰的预期。
-
-Pro and Team Standard users will continue to have access via usage credits, and will receive a one-time $100 credit as compensation for the uncertainty of the past few weeks.
-Pro 和 Team Standard 用户将继续通过使用积分获得访问权限，并将获得 100 美元的一次性积分补偿，以弥补过去几周的不确定性。
-
-The announcement acknowledged that demand for Fable has been "challenging to predict," explaining the rollout approach.
-公告承认 Fable 的需求"难以预测"，这也解释了为何采用分阶段推出的方式。
-
-They also highlighted hackathon projects built with Claude, inviting the community to explore them.
-他们还重点展示了使用 Claude 构建的黑客松项目，邀请社区探索。
-
-Source tweets:
-- https://x.com/claudeai/status/2078302415804379218
-- https://x.com/claudeai/status/2078302417100394737
-- https://x.com/claudeai/status/2078189443878469950
-
-===========================
-PODCASTS
-===========================
+A brief, dry one-liner today: *"I love capitalism."* — with an image attached, context unknown.
+今日仅一句简短的干言：*"I love capitalism."*（"我爱资本主义。"）附有一张图片，语境不明，但言简意赅，颇具风格。
+Source: https://x.com/adityaag/status/2078501506169340099
 
 ---
 
-The MAD Podcast with Matt Turck
-Episode: "OpenAI's Compute Chief: We Can't Build Fast Enough | Sachin Katti"
-https://www.youtube.com/watch?v=wEZBlmvxx4o
+🎙️ PODCAST: Unsupervised Learning
 
-## 深度总结 / Deep Summary
+**Ep 90: AI Pioneer Jürgen Schmidhuber on the State of AI Today**
+**第 90 集：AI 先驱 Jürgen Schmidhuber 谈当今 AI 现状**
 
-**核心论点 / Core Argument**
+Host Jacob Efron sat down with Jürgen Schmidhuber — widely credited as a foundational figure in modern AI — for a wide-ranging conversation that challenges many of today's dominant narratives.
+主持人 Jacob Efron 与被誉为现代 AI 奠基人之一的 Jürgen Schmidhuber 深度对谈，内容颠覆了许多当下的主流叙事。
 
-OpenAI's head of industrial compute, Sachin Katti, argues that AI infrastructure is undergoing the largest buildout in human history — bigger than the railroad or highway era.
-OpenAI 工业计算负责人 Sachin Katti 认为，AI 基础设施正在经历人类历史上最大规模的建设——规模超过铁路和高速公路时代。
+**What's missing from current AI:**
+Schmidhuber argues that true AGI requires physical embodiment — AI "behind the screen" that passes the Turing test is impressive, but without robot hardware comparable to the human body (with its millions of sensors, self-healing capability, and fine motor control), we don't yet have real AGI. He estimates robot hardware could take decades more to catch up.
+**当前 AI 的根本缺失：**
+Schmidhuber 认为，真正的 AGI 需要物理载体——仅能通过图灵测试的"屏幕后 AI"固然了不起，但在机器人硬件追上人类身体（具备数百万传感器、自愈能力和精细运动控制）之前，我们尚未实现真正的 AGI。他预计这一过程还需数十年。
 
-The fundamental constraint is not talent or models, but physical compute supply, which the physical world simply cannot build fast enough to match AI's explosive demand.
-根本瓶颈不是人才或模型，而是物理算力供应——现实世界的建设速度根本跟不上 AI 爆炸式增长的需求。
+**On the CapEx boom and coming crash:**
+He is deeply pessimistic about the current AI infrastructure investment wave. *"Within the next five years, the guys investing a thousand billion dollars into GPUs today are going to lose $900 billion."* Open-source models keep pricing pressure relentless, and the free cash flow of these companies is declining — a misallocation he believes will eventually correct.
+**关于 AI 基础设施投资热潮与即将到来的崩盘：**
+他对当前 AI 基础设施投资热持深度悲观态度。*"今天投入万亿美元购买 GPU 的公司，五年内将损失 9000 亿美元。"* 开源模型持续压低定价空间，这些公司的自由现金流不断收窄——他认为这种资源错配终将被市场修正。
 
-**关键洞察 / Key Insights**
+**On RSI and moats:**
+Schmidhuber doesn't believe recursive self-improvement will create lasting moats for big AI companies — almost all the key algorithmic ideas originated in small academic labs, and open-source researchers will replicate breakthroughs quickly. *"Everybody's cooking with the same water."*
+**关于递归自我改进（RSI）与护城河：**
+Schmidhuber 不认为递归自我改进能为大型 AI 公司构建持久护城河——几乎所有关键算法创新都源自小型学术实验室，开源研究者会迅速跟进复现突破。*"大家都在用同一锅水烹饪。"*
 
-- Data centers are "giant factories turning electrons into tokens" — liquid-cooled supercomputers the size of football fields, where cooling is required everywhere including cables and transformers.
-  数据中心是"将电子转化为 token 的巨型工厂"——足球场大小的液冷超级计算机，冷却系统覆盖电缆和变压器在内的每个角落。
+**On AI safety:**
+He describes the alignment movement of the 2010s as "naive," noting that his lab has built self-goal-inventing AI systems since 1990. He's notably less worried than most — pointing out that sufficiently intelligent AI scientists will likely be motivated to *protect* the biological life that produced them, not destroy it.
+**关于 AI 安全：**
+他将 2010 年代的"对齐运动"定性为"天真"，指出其实验室自 1990 年便在构建能自主设定目标的 AI 系统。他的担忧程度远低于多数同行——他认为足够智能的 AI 科学家，反而会因珍视孕育它们的生命而选择保护而非毁灭。
 
-- OpenAI is not just consuming grid power — they actively invest in new generation infrastructure (solar, gas, hydro) and transmission so they don't take power away from existing communities; a side benefit is that America's grid infrastructure is being rapidly modernized.
-  OpenAI 不只是消耗电网电力——他们主动投资新的发电基础设施（太阳能、天然气、水电）和输电线路，确保不从现有社区抢夺电力；附带效益是美国电网基础设施正在被快速现代化。
+**On the future:**
+Schmidhuber's long-term vision: self-replicating robot societies that can operate all existing human machines will eventually expand beyond Earth — colonizing the Moon, Mercury, and eventually the solar system. He's been saying this for decades, and believes we're finally getting closer.
+**关于未来：**
+Schmidhuber 的长远愿景：能操作所有现有人类机器的自我复制机器人社会，终将走出地球——殖民月球、水星乃至整个太阳系。这是他数十年来一以贯之的信念，而他认为我们正在真正靠近这个时刻。
 
-- OpenAI's custom chip "Jalapeno" is optimized for one metric: maximum tokens per watt — co-designed with the exact workload and model it will serve, offering a decisive efficiency advantage over general-purpose chips.
-  OpenAI 自研芯片"Jalapeno"针对一个核心指标优化：每瓦 token 产出最大化——与其将服务的精确工作负载和模型协同设计，相比通用芯片具有决定性的效率优势。
-
-- Inference is now arguably the majority of compute usage, even during "training" — because synthetic data generation, post-training, and test-time compute are all inference.
-  推理现在可以说已占计算用量的大头，即使在"训练"阶段也是如此——因为合成数据生成、后训练和测试时计算全都是推理。
-
-- AI doing AI research is a compounding multiplier: the number of experiments that can be run is no longer limited by the number of human researchers (a scarce resource), but by compute — which means research acceleration is itself accelerating.
-  AI 做 AI 研究是一个复利乘数：可运行的实验数量不再受人类研究者数量（稀缺资源）限制，而是受算力限制——这意味着研究加速本身也在加速。
-
-**最值得关注的信号 / Most Important Signal**
-
-The world of "recursive AI" — where AI designs the systems it needs to train the next generation of AI — is "not that far."
-"递归 AI"的世界——AI 设计它用来训练下一代 AI 所需的系统——"已经不远了"。
-
-Every time OpenAI has thought they had enough compute and slowed down, it turned out to be a mistake.
-每次 OpenAI 认为算力已经充足而放慢脚步，事后都证明是错误的。
-
-The surprise is always on the downside: never enough compute, never enough fast enough.
-意外总是来自同一个方向：算力永远不够，建设速度永远不够快。
-
-Source: https://www.youtube.com/watch?v=wEZBlmvxx4o
-
-===========================
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Source: https://www.youtube.com/watch?v=RKjR8DQ40po
