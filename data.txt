@@ -1,163 +1,326 @@
-AI Builders 日报 · 2026-07-20
+AI Builders 日报 · 2026-07-21
+
+AI Builders Digest — 2026-07-21
 
 ---
 
-🐦 Swyx (@swyx)
-
-Swyx defended Europe's AI talent, arguing that the continent houses some of the world's top AI engineers — those in the know understand this.
-Swyx 为欧洲的 AI 人才发声，指出欧洲拥有世界顶级的 AI 工程师，而那些真正了解行业的人对此心知肚明。他正在主办一个全球最具竞争力的 AI 人才竞技场（以讲座和工作坊数量衡量），随着"工作力评估窗口"开启，局势将愈发有趣。
-Source: https://x.com/swyx/status/2078628617987518855
-
-He also shared that AEO (AI Engine Optimization) is on track to account for $1M of his revenue next year — a milestone that signals the growing commercial potential of AI-first content distribution.
-他还透露，AEO（AI 引擎优化）按当前速度将在明年贡献他 100 万美元的营收，这一里程碑信号意味着以 AI 为核心的内容分发正走向成熟的商业化阶段。
-Source: https://x.com/swyx/status/2078581967768166591
+## X / TWITTER
 
 ---
 
-🐦 Thibault Sottiaux (@thsottiaux) — Codex & ChatGPT, OpenAI
+### Swyx (AI engineer, host of Latent Space podcast)
 
-Thibault shared an impressive real-world demo of ChatGPT Work: he dictated a complex multi-step instruction to the AI — sort through thousands of DMs, build a spreadsheet, classify users by work type, and rate their sophistication level — all without typing a single character.
-Thibault 展示了一个令人印象深刻的 ChatGPT Work 真实用例：他通过语音输入一条复杂的多步骤指令，让 AI 整理数千条私信、生成电子表格、按工作类型分类用户，并对其使用复杂程度评分——全程无需敲一个字。
-*"My job is basically delegating to ChatGPT Work now. Can't stop using dictation and have it do everything."*
-他的工作方式已彻底转变：完全依赖语音输入，将一切交给 ChatGPT Work 代理执行。
-Source: https://x.com/thsottiaux/status/2078702412085498087
-Source: https://x.com/thsottiaux/status/2078697741455356367
+Swyx shared two brief posts today — one appreciating a creative custom keyboard build, and another teaser that appears to be a link to something new.
+Swyx 今日发了两条简短推文——一条对某款创意定制键盘表示赞赏，另一条则是一条神秘的预告链接。
 
-ChatGPT Work's core capabilities include creating and hosting sites, managing emails, summarizing documents, and producing docs/sheets/slides — already bundled into Plus, Pro, Business, and Enterprise plans.
-ChatGPT Work 的核心能力涵盖建站与托管、邮件管理、文档摘要、以及生成文档/表格/幻灯片，已向 Plus、Pro、Business 和 Enterprise 用户全面开放。
-Source: https://x.com/thsottiaux/status/2078697631019303273
+The tweet content is light on substantive AI insight today — both are casual observations without deeper technical commentary.
+今日推文缺乏实质性的 AI 观点，均为轻松随意的个人分享，不含深度技术内容。
 
----
+近期无重要动态（本日内容较轻量）
 
-🐦 Peter Yang (@petergyang)
-
-Peter built a multiplication-table learning app with his 8-year-old daughter using ChatGPT — complete with AI-generated animal UI characters, music, and a timed boss level. It's a tangible example of how AI lowers the barrier for parent-child co-creation.
-Peter 与 8 岁女儿一起用 ChatGPT 构建了一款乘法练习 App，内含 AI 生成的动物角色界面、配乐和限时关卡。这是 AI 降低亲子共创门槛的生动案例。
-Source: https://x.com/petergyang/status/2078638568784994686
-
-(His other posts were World Cup commentary and unrelated to AI/tech.)
-（他的其他推文为世界杯评论，与 AI/科技无关。）
-Source: https://x.com/petergyang/status/2078622146247733320
-Source: https://x.com/petergyang/status/2078608551745146928
+Source: https://x.com/swyx/status/2079061713048199625
+Source: https://x.com/swyx/status/2078912371901481110
 
 ---
 
-🐦 Thariq (@trq212) — Claude Code, Anthropic
+### Thibault Sottiaux (OpenAI, Codex & ChatGPT team)
 
-Thariq acknowledged the heroic, around-the-clock effort by the Anthropic team that made the launch of Fable possible — a proud moment for those who pushed through uncertainty to ship on time.
-Thariq 向 Anthropic 团队的无畏付出致敬：正是这群人夜以继日的努力，才让 Fable 得以及时上线。他坦言成功绝非板上钉钉，但最终团队用行动证明了一切。
-Source: https://x.com/trq212/status/2078514180051906864
+OpenAI Codex and ChatGPT engineer Thibault Sottiaux invited his followers to share stories of ChatGPT Work making a deeply positive impact on their lives or someone else's.
+OpenAI Codex 及 ChatGPT 工程师 Thibault Sottiaux 邀请关注者分享 ChatGPT Work 对自己或他人产生深刻正面影响的真实故事。
 
----
+*"What's a time you saw ChatGPT have a deeply positive impact on your or someone's life?"*
+*"有没有哪次，你目睹 ChatGPT 对你或他人的生活产生了深刻的正面影响？"*
 
-🐦 Guillermo Rauch (@rauchg) — CEO, Vercel
+This signals that the team is actively collecting user testimonials to inspire internal motivation and better understand real-world use cases.
+这表明团队正在主动收集用户反馈，以激励内部士气，并更深入理解真实使用场景。
 
-Guillermo shared internal stealth evals of new frontier models: Kimi K3 showed top-tier cybersecurity capability with strong raw intelligence; Sol demonstrated a leap ahead in cyber capability at higher cost; Fable refused all eval runs entirely.
-Guillermo 分享了内部隐秘评测结果：Kimi K3 在网络安全领域表现顶尖，具备强大的原始智能；Sol 在安全能力上实现了跃升但成本更高；而 Fable 拒绝完成所有测试任务。
-*"Frontier, open-weight cybersecurity capability is here."*
-前沿开源网络安全能力已然降临。
-Source: https://x.com/rauchg/status/2078647648307880209
-
-He also challenged the term "AGI," arguing that today's AI is already far better than humans at most economically relevant tasks — but cannot replace the authentic human voice, identity, or care for others.
-他还质疑了"AGI"这一术语的时代适用性：今天的 AI 在大多数经济相关任务上已远超人类，但无法取代真实的人类声音、个体身份认同或对他人的真情关怀。*"AIs can replace tasks you do, but they can't replace the proverbial you."* AI 可以替代你所做的事，但无法替代"那个你"。
-Source: https://x.com/rauchg/status/2078548458714406959
+Source: https://x.com/thsottiaux/status/2079058139207573541
 
 ---
 
-🐦 Aaron Levie (@levie) — CEO, Box
+### Peter Yang (AI content creator, practitioner)
 
-Aaron offered a detailed landscape of the AI ecosystem, outlining the categories seeing real traction: fine-tuned vertical model providers, applied AI companies for enterprise workflows, domain-specific labs (life sciences, finance, healthcare), new infrastructure layers, and AI services firms.
-Aaron 勾勒出 AI 生态系统的全景图，梳理出真正跑通的几大类别：垂直微调模型提供商、企业工作流 AI 应用公司、领域专属实验室（生命科学/金融/医疗）、新型基础设施层，以及 AI 服务公司。他的判断是：赢家格局远未明朗，这将是一个异质化竞争的市场。
-Source: https://x.com/levie/status/2078567715544121815
+AI tutorials creator Peter Yang had a frustrating but relatable day — over 100K YouTube subscribers and still not a single dollar paid by Google AdSense, due to poor customer support.
+AI 教程创作者 Peter Yang 度过了令人沮丧却引发共鸣的一天——YouTube 订阅量突破 10 万，却因客服低效至今未收到 Google AdSense 的任何付款。
 
-He also argued that gatekeeping AI models won't work at scale — China has crossed the frontier threshold (Kimi K3 as evidence), and the US response should be safe acceleration, open-source investment, and infrastructure build-out — not lockdowns.
-他还指出，封锁 AI 模型不可能在规模上奏效——中国已越过前沿门槛（Kimi K3 即为明证），美国的应对之道应是安全加速、投资开源生态与基础设施建设，而非收紧限制。
-Source: https://x.com/levie/status/2078481578779685245
+He noted that *"customer support is truly bad"* and is resorting to internal Google connections.
+他直言 *"客服真的太差了"*，不得不动用谷歌内部人脉来解决问题。
 
----
+On the bright side, he's using OpenAI Codex to help him fight the battle.
+好消息是，他正在用 OpenAI Codex 协助处理这场"战斗"。
 
-🐦 Garry Tan (@garrytan) — President & CEO, Y Combinator
+He also flagged a UX friction in Codex: the copy prompting users to "send to Codex Web" is confusing, as clicking it just asks you to download the app again.
+他还指出了 Codex 的一个用户体验问题：提示用户"发送到 Codex Web"的文案令人困惑——点击后只会再次引导用户下载 App。
 
-Garry's posts today were primarily focused on San Francisco policy: advocating for market-based solutions over state control, calling for accountability in harm reduction programs, and critiquing what he sees as partisan journalism.
-Garry 今日的推文主要聚焦于旧金山政策议题：倡导以市场机制代替国家管控，呼吁对戒毒援助项目加强问责，并批评他认为存在党派倾向的新闻报道。与 AI 相关度较低。
-Source: https://x.com/garrytan/status/2078700313461301470
-Source: https://x.com/garrytan/status/2078699319209984033
-Source: https://x.com/garrytan/status/2078640121369485611
+*"Copy matters."*
+*"文案很重要。"*
 
----
-
-🐦 Matt Turck (@mattturck) — VC, FirstMark Capital
-
-Matt delivered a sharp one-liner that encapsulates three years of AI discourse: *"2024: 'The model layer is commoditizing.' 2025: 'The model layer is commoditizing.' 2026: 'The model layer is commoditizing.' The model layer: still not commoditized."*
-Matt 用一条推文精准总结了三年来 AI 圈的预言落差："大家年年喊模型层商品化，结果三年过去，模型层依然没有商品化。" 简洁有力，令人会心一笑。
-Source: https://x.com/mattturck/status/2078520552680046920
-
-(His other posts were World Cup commentary on France's performance and coach Deschamps' legacy.)
-（其余推文为世界杯相关评论，聚焦法国队表现与主帅德尚的传奇历程。）
-Source: https://x.com/mattturck/status/2078608152086327529
-Source: https://x.com/mattturck/status/2078585551729643573
+Source: https://x.com/petergyang/status/2079053957532655890
+Source: https://x.com/petergyang/status/2079053505969676404
+Source: https://x.com/petergyang/status/2079007381695172797
 
 ---
 
-🐦 Zara Zhang (@zarazhangrui)
+### Amanda Askell (Anthropic, philosopher & ethicist)
 
-Zara made a compelling case for every AI user to build their own "personal eval set" — a handful of tasks specific to their own work — rather than relying solely on industry benchmarks. Real capability is found by bumping into boundaries.
-Zara 主张每个 AI 用户都应建立属于自己的"个人评测集"，用真实工作场景中的任务检验模型，而非单纯依赖行业 benchmark。真正的能力边界，只有亲自去触碰才能感知。
-Source: https://x.com/zarazhangrui/status/2078666187026911488
+Anthropic philosopher and ethicist Amanda Askell today commented briefly on the FIFA World Cup final — noting that the Argentine goalkeeper was "earning his salary."
+Anthropic 哲学家兼伦理研究员 Amanda Askell 今日简短评论了世界杯决赛，称阿根廷门将"不负薪水"。
 
-She also pinpointed what she sees as the fundamental blocker in enterprise AI adoption: *"The people who understand AI don't understand the business, and the people who understand the business don't understand AI."* A classic two-sided knowledge gap.
-她还精准指出了企业 AI 落地的核心障碍："懂 AI 的人不懂业务，懂业务的人不懂 AI。" 这道双向认知鸿沟，是当下企业智能化转型的最大难题。
-Source: https://x.com/zarazhangrui/status/2078492577788268549
+近期无重要 AI 相关动态
 
----
-
-🐦 Nikunj Kothari (@nikunj) — Partner, FPV Ventures
-
-Nikunj shared a personal travel moment from Paris — his favorite spot so far is the Orangerie museum, particularly the Water Lilies room and the impressively thoughtful kids' area.
-Nikunj 分享了巴黎之旅的个人片段——他最钟爱的地方是橘园美术馆，尤其是莫奈的睡莲展厅和精心设计的儿童区，令他印象深刻。
-Source: https://x.com/nikunj/status/2078453525080629683
+Source: https://x.com/AmandaAskell/status/2078952214664798283
 
 ---
 
-🐦 Aditya Agarwal (@adityaag) — General Partner, South Park Commons
+### Cat Wu (Anthropic, Claude Code & Cowork)
 
-A brief, dry one-liner today: *"I love capitalism."* — with an image attached, context unknown.
-今日仅一句简短的干言：*"I love capitalism."*（"我爱资本主义。"）附有一张图片，语境不明，但言简意赅，颇具风格。
-Source: https://x.com/adityaag/status/2078501506169340099
+Anthropic's Cat Wu shared how she uses Claude Cowork to manage her calendar, posting her actual prompt for the community.
+Anthropic 的 Cat Wu 分享了她如何用 Claude Cowork 管理日程，并公开了她使用的实际提示词。
+
+Her prompt requires: fewer than 20 hours of meetings per week, deduplication of conflicting meetings, learning from past weeks which meetings she declines, and always asking before updating invites.
+她的提示词要求：每周会议不超过 20 小时、消除冲突会议、参考历史规律了解她通常拒绝哪类会议，并在更新邀请前征求确认。
+
+*"I love using Claude Cowork to manage my calendar."*
+*"我非常喜欢用 Claude Cowork 管理我的日程。"*
+
+This is a practical, real-world example of how AI agents can handle personal productivity workflows with nuanced rules.
+这是一个实用的真实案例，展示了 AI Agent 如何处理带有复杂规则的个人效率工作流。
+
+Source: https://x.com/_catwu/status/2079011428380602526
 
 ---
 
-🎙️ PODCAST: Unsupervised Learning
+### Thariq (Anthropic, Claude Code)
 
-**Ep 90: AI Pioneer Jürgen Schmidhuber on the State of AI Today**
-**第 90 集：AI 先驱 Jürgen Schmidhuber 谈当今 AI 现状**
+Anthropic's Claude Code engineer Thariq urged users who encountered a bug to restart Claude Code, noting the fix was propagating.
+Anthropic Claude Code 工程师 Thariq 呼吁遇到某一 bug 的用户重启 Claude Code，修复已在推送中。
 
-Host Jacob Efron sat down with Jürgen Schmidhuber — widely credited as a foundational figure in modern AI — for a wide-ranging conversation that challenges many of today's dominant narratives.
-主持人 Jacob Efron 与被誉为现代 AI 奠基人之一的 Jürgen Schmidhuber 深度对谈，内容颠覆了许多当下的主流叙事。
+He also mentioned he's working on a post about lessons learned from building Claude Code skills and system prompts — how you can apply those learnings to your own work.
+他还透露正在撰写一篇关于构建 Claude Code 技能与系统提示过程中经验教训的文章，以及如何将这些经验应用到自己的工作中。
 
-**What's missing from current AI:**
-Schmidhuber argues that true AGI requires physical embodiment — AI "behind the screen" that passes the Turing test is impressive, but without robot hardware comparable to the human body (with its millions of sensors, self-healing capability, and fine motor control), we don't yet have real AGI. He estimates robot hardware could take decades more to catch up.
-**当前 AI 的根本缺失：**
-Schmidhuber 认为，真正的 AGI 需要物理载体——仅能通过图灵测试的"屏幕后 AI"固然了不起，但在机器人硬件追上人类身体（具备数百万传感器、自愈能力和精细运动控制）之前，我们尚未实现真正的 AGI。他预计这一过程还需数十年。
+Source: https://x.com/trq212/status/2079103743535280508
+Source: https://x.com/trq212/status/2078901672441790818
 
-**On the CapEx boom and coming crash:**
-He is deeply pessimistic about the current AI infrastructure investment wave. *"Within the next five years, the guys investing a thousand billion dollars into GPUs today are going to lose $900 billion."* Open-source models keep pricing pressure relentless, and the free cash flow of these companies is declining — a misallocation he believes will eventually correct.
-**关于 AI 基础设施投资热潮与即将到来的崩盘：**
-他对当前 AI 基础设施投资热持深度悲观态度。*"今天投入万亿美元购买 GPU 的公司，五年内将损失 9000 亿美元。"* 开源模型持续压低定价空间，这些公司的自由现金流不断收窄——他认为这种资源错配终将被市场修正。
+---
 
-**On RSI and moats:**
-Schmidhuber doesn't believe recursive self-improvement will create lasting moats for big AI companies — almost all the key algorithmic ideas originated in small academic labs, and open-source researchers will replicate breakthroughs quickly. *"Everybody's cooking with the same water."*
-**关于递归自我改进（RSI）与护城河：**
-Schmidhuber 不认为递归自我改进能为大型 AI 公司构建持久护城河——几乎所有关键算法创新都源自小型学术实验室，开源研究者会迅速跟进复现突破。*"大家都在用同一锅水烹饪。"*
+### Amjad Masad (Replit CEO)
 
-**On AI safety:**
-He describes the alignment movement of the 2010s as "naive," noting that his lab has built self-goal-inventing AI systems since 1990. He's notably less worried than most — pointing out that sufficiently intelligent AI scientists will likely be motivated to *protect* the biological life that produced them, not destroy it.
-**关于 AI 安全：**
-他将 2010 年代的"对齐运动"定性为"天真"，指出其实验室自 1990 年便在构建能自主设定目标的 AI 系统。他的担忧程度远低于多数同行——他认为足够智能的 AI 科学家，反而会因珍视孕育它们的生命而选择保护而非毁灭。
+Replit CEO Amjad Masad made an insightful observation about consumer software economics: consumers spend on food, rent, entertainment, and phones — but software is typically bought by companies.
+Replit CEO Amjad Masad 就消费者软件经济提出了一个深刻观察：消费者的支出集中在食物、住房、娱乐和手机上，而软件通常由企业购买。
 
-**On the future:**
-Schmidhuber's long-term vision: self-replicating robot societies that can operate all existing human machines will eventually expand beyond Earth — colonizing the Moon, Mercury, and eventually the solar system. He's been saying this for decades, and believes we're finally getting closer.
-**关于未来：**
-Schmidhuber 的长远愿景：能操作所有现有人类机器的自我复制机器人社会，终将走出地球——殖民月球、水星乃至整个太阳系。这是他数十年来一以贯之的信念，而他认为我们正在真正靠近这个时刻。
+This explains why outside of Netflix and Spotify, it's hard to find truly massive consumer subscription businesses.
+这解释了为何除 Netflix 和 Spotify 外，真正庞大的消费者订阅业务寥寥无几。
 
-Source: https://www.youtube.com/watch?v=RKjR8DQ40po
+Also today, he cheered on Spain in the World Cup final.
+此外，他今日也为世界杯决赛中的西班牙队加油助威。
+
+Source: https://x.com/amasad/status/2079086360703680583
+
+---
+
+### Guillermo Rauch (Vercel CEO)
+
+Vercel CEO Guillermo Rauch made a bold technical argument: cybersecurity is one of the best benchmarks for superintelligence — and the IQ test of software engineering.
+Vercel CEO Guillermo Rauch 提出了一个大胆的技术论点：网络安全是衡量超级智能的最佳基准之一，也是软件工程的智力测验。
+
+*"It's actually easy for a model to 'one-shot an XYZ clone' and impress people on X. But that's not a good test."*
+*"让模型'一键生成 XYZ 克隆品'来博取眼球其实很容易，但这不是一个好的测试。"*
+
+He argued that finding, patching, reversing, and exploiting vulnerabilities demands true reasoning power — "corner thinking" that transcends programming languages and frameworks.
+他认为，发现、修补、逆向和利用漏洞需要真正的推理能力——一种超越编程语言和框架的"极限思维"。
+
+He cited Kimi K3's strong performance in security benchmarks as a positive sign for open models.
+他引用了 Kimi K3 在安全基准测试中的出色表现，视之为开源模型的积极信号。
+
+He also expressed gratitude to Argentina and Messi after the World Cup final, congratulating Spain on their victory.
+他还在世界杯决赛后向阿根廷和梅西表达了感谢，并祝贺西班牙夺冠。
+
+Source: https://x.com/rauchg/status/2078912929714356698
+Source: https://x.com/rauchg/status/2078975602028106050
+
+---
+
+### Aaron Levie (Box CEO)
+
+Box CEO Aaron Levie delivered three sharp takes on AI economics and policy today.
+Box CEO Aaron Levie 今日就 AI 经济学与政策发表了三条犀利观点。
+
+On AI regulation and open source: the U.S. cannot afford to gatekeep frontier model capabilities when strong open-source alternatives already exist.
+关于 AI 监管与开源：当强大的开源替代方案已经存在时，美国无法承受对前沿模型能力的封锁。
+
+*"Even if America could fully ban access to open source models, other ecosystems wouldn't have that ban and they'd have a leg up."*
+*"即便美国能全面禁止开源模型的访问，其他生态系统也不会跟进，反而会因此占据优势。"*
+
+On AI cost reduction: when AI gets cheaper, it doesn't shrink spend — it expands consumption.
+关于 AI 降本：AI 变便宜并不会减少支出，反而会扩大消费。
+
+*"When you make AI cheaper, it will get consumed more."*
+*"当 AI 变得更便宜，它会被消耗得更多。"*
+
+Cheaper tokens unlock new use cases: reviewing more code for bugs, running agents on larger datasets, and so on.
+更低成本的 token 解锁了新的使用场景：审查更多代码中的安全漏洞、在更大数据集上运行 Agent 等。
+
+On AI diffusion: coding was adopted fast because software can be written, tested, and deployed by a single person without any external dependencies — unlike life sciences or sales.
+关于 AI 扩散：编程被快速采用，是因为软件可以由单人完成编写、测试和部署，无需任何外部依赖——不同于生命科学或销售领域。
+
+*"Coming up with ideas was never the hard part. The hard part is how fast reality answers them."*
+*"提出想法从来都不是难点，难点在于现实反馈的速度。"*
+
+He concluded: this is why the applied AI layer has so much opportunity — model outputs alone aren't enough; you need to change underlying workflows.
+他总结道：这正是应用 AI 层拥有巨大机会的原因——单纯的模型输出远远不够，还需要改变底层工作流。
+
+Source: https://x.com/levie/status/2078992778449850769
+Source: https://x.com/levie/status/2078968158006939716
+Source: https://x.com/levie/status/2078864191683969212
+
+---
+
+### Garry Tan (YC President & CEO)
+
+YC President Garry Tan championed Markdown files as a universal, durable data format — one that will "survive millennia."
+YC 总裁 Garry Tan 盛赞 Markdown 文件是一种通用且持久的数据格式——能够"存续千年"。
+
+He noted that in a period where the intelligence stack is evolving at extreme pace, Markdown is unsurprisingly a fantastic format.
+他指出，在智能技术栈以极快速度演变的当下，Markdown 自然成为了一种出色的格式选择。
+
+He also teased something called "GSkills" with a link — likely a reference to AI-powered skills or tooling in the YC/AI ecosystem.
+他还以一个链接预告了一个叫"GSkills"的东西——可能是 YC/AI 生态中的 AI 驱动技能或工具。
+
+Source: https://x.com/garrytan/status/2078803803659452624
+Source: https://x.com/garrytan/status/2078803084785111120
+
+---
+
+### Matt Turck (FirstMark Capital VC, MAD Podcast host)
+
+FirstMark VC and MAD Podcast host Matt Turck's tweets today were all focused on the World Cup final — no substantive AI or tech content.
+FirstMark VC 及 MAD Podcast 主持人 Matt Turck 今日推文全部聚焦于世界杯决赛，无实质性 AI 或科技内容。
+
+近期无重要 AI 相关动态（今日均为体育评论）
+
+Source: https://x.com/mattturck/status/2078966428208664631
+
+---
+
+### Zara Zhang (Builder, Follow Builders creator)
+
+Builder Zara Zhang argued that we need to get used to the idea of disposable code and software.
+构建者 Zara Zhang 主张，我们需要习惯"代码/软件是可抛弃的"这一理念。
+
+She gave concrete examples: design playgrounds to fine-tune look and feel, HTML pages to understand code, throwaway dashboards to inspect data once — all discarded after use.
+她给出了具体案例：用于调整视觉效果的设计沙盒、帮助理解代码的 HTML 页面、一次性检查数据的临时仪表盘——使用后即可丢弃。
+
+She also shared her content creation advice: find the top 3 questions people ask you in real life and turn those answers into videos or posts.
+她还分享了内容创作建议：找出现实中被问频率最高的 3 个问题，将答案做成视频或帖子。
+
+*"If you have repeatedly said something for >3 times, it's worth turning into a video."*
+*"如果你已经重复说过某件事超过 3 次，那就值得把它拍成视频。"*
+
+Her original motivation for posting: she was tired of repeating herself in real life.
+她最初开始发布内容的动力，是因为厌倦了在现实生活中反复重申同样的观点。
+
+Source: https://x.com/zarazhangrui/status/2078835308905578660
+Source: https://x.com/zarazhangrui/status/2078830510177128481
+
+---
+
+### Nikunj Kothari (FPV Ventures partner)
+
+FPV Ventures partner Nikunj Kothari's posts today were both personal — one frustrated rant about Argentina's rough play in the World Cup final, and one whimsical Renoir painting series.
+FPV Ventures 合伙人 Nikunj Kothari 今日两条推文均为个人分享——一条对阿根廷在决赛中粗野战术的失望吐槽，另一条是充满趣味的雷诺阿画作系列。
+
+近期无重要 AI 相关动态
+
+Source: https://x.com/nikunj/status/2078963708504465814
+
+---
+
+### Peter Steinberger (OpenClaw + OpenAI)
+
+OpenClaw and OpenAI contributor Peter Steinberger posted a cryptic "IYKYK" (If You Know You Know) tweet with a link — no further context available.
+OpenClaw 与 OpenAI 贡献者 Peter Steinberger 发了一条神秘的"IYKYK（懂的都懂）"推文，附有链接，无更多上下文。
+
+近期无重要 AI 相关动态
+
+Source: https://x.com/steipete/status/2078904784753729962
+
+---
+
+### Dan Shipper (Every CEO)
+
+Every CEO Dan Shipper shared a significant milestone: AI has crossed a threshold in copy editing.
+Every CEO Dan Shipper 分享了一个重要里程碑：AI 在文案编辑方面已跨越了一个关键门槛。
+
+*"Yes it just passed some barrier."*
+*"是的，它刚刚突破了某个临界点。"*
+
+For the past week, AI has been able to automatically handle approximately 70% of the copy edits that Every would ordinarily do by hand internally.
+过去一周，AI 已能自动完成 Every 内部原本需要手工完成的约 70% 的文案编辑工作。
+
+*"First time that's happened and I've been trying it for years."*
+*"这是第一次做到这一点，而我已经尝试了多年。"*
+
+This is a meaningful signal about AI's readiness for professional writing workflows — a threshold practitioners have been watching closely.
+这是 AI 在专业写作工作流中就绪程度的重要信号——也是业内人士长期密切关注的临界点。
+
+Source: https://x.com/danshipper/status/2078920115140358585
+
+---
+
+## PODCASTS
+
+---
+
+### The MAD Podcast with Matt Turck — "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay"
+
+This episode features Emily Sands, Head of Data and AI at Stripe, in conversation with host Matt Turck.
+本期节目由 Stripe 数据与 AI 负责人 Emily Sands 与主持人 Matt Turck 对谈。
+
+The central theme: the economic infrastructure for AI agents — how agents will buy, sell, and transact on behalf of users and businesses.
+核心主题：AI Agent 的经济基础设施——Agent 将如何代表用户和企业进行购买、销售与交易。
+
+**Token theft — the most under-discussed topic in AI:**
+**Token 盗窃——AI 领域最被忽视的话题：**
+
+Emily revealed a shocking statistic: more than 1 in 6 signups at AI companies are fraudulent, designed purely to steal compute tokens.
+Emily 披露了一个令人震惊的数据：AI 公司超过六分之一的新用户注册是欺诈性的，目的仅仅是盗取算力 token。
+
+*"Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens."*
+*"欺诈者已经发现，在 AI 领域，根本不需要偷钱或凭证，只需要偷 token 就够了。"*
+
+She calls this the "dine and dash, but for tokens."
+她将此称为"餐厅逃单，但针对的是 token"。
+
+**Agentic commerce — agents as buyers and sellers:**
+**Agent 经济——Agent 作为买方和卖方：**
+
+The conversation moved from "Emily permissioning an agent to buy on her behalf" to a more ambitious vision: Emily has an agent tasked with running a business — including buying, selling, and making profits.
+话题从"Emily 授权 Agent 代为购买"延伸到更宏大的愿景：Emily 有一个 Agent，其任务是运营一家业务——包括采购、销售和创造利润。
+
+When asked if people are comfortable letting agents buy things for them, the common concerns are: overspending, buying the wrong thing, and whether they can stop it.
+当被问及人们是否愿意让 Agent 代为购物时，最常见的顾虑是：超支、买错东西，以及是否能及时叫停。
+
+*"Those are actually all legitimate concerns."*
+*"这些顾虑实际上都是合理的。"*
+
+**Per-seat pricing is breaking:**
+**按席位定价模式正在崩溃：**
+
+The rise of AI agents is straining traditional per-seat SaaS pricing models — as a single agent can perform the work of many seats, the unit economics no longer hold.
+AI Agent 的兴起正在冲击传统的按席位 SaaS 定价模式——一个 Agent 可以完成多个"席位"的工作，单位经济学逻辑已不再成立。
+
+New pricing models will need to emerge that better reflect the value created by agents rather than the number of human users.
+新的定价模式需要出现，更好地反映 Agent 创造的价值，而非人类用户的数量。
+
+**The 12-month vision:**
+**未来 12 个月的展望：**
+
+Emily's goal: in twelve months, be talking about a world where agents are not just buying on your behalf, but running entire businesses — with buying, selling, and profit generation all automated.
+Emily 的目标：在 12 个月后，能够谈论这样一个世界：Agent 不仅代你购物，还能运营完整的业务——采购、销售和盈利全部自动化。
+
+Source: https://www.youtube.com/@DataDrivenNYC/videos
+Episode: "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay"
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
