@@ -1,325 +1,199 @@
-AI Builders 日报 · 2026-07-21
-
-AI Builders Digest — 2026-07-21
+AI Builders 日报 · 2026-07-22
 
 ---
 
 ## X / TWITTER
 
----
+### Swyx (swyx on X) — AI Engineer & @latentspacepod
 
-### Swyx (AI engineer, host of Latent Space podcast)
+**On AI benchmark integrity and RLM generalization:**
+A notable trajectory comparison writeup is buried in the RLM paper from researchers at late interaction.
+一篇值得关注的轨迹对比分析，深藏在来自 late interaction 研究者的 RLM 论文中。
 
-Swyx shared two brief posts today — one appreciating a creative custom keyboard build, and another teaser that appears to be a link to something new.
-Swyx 今日发了两条简短推文——一条对某款创意定制键盘表示赞赏，另一条则是一条神秘的预告链接。
+An open secret of "frontier" model training is that even without training on test sets directly, you can basically cheat by training on test lookalikes, enabling you to goalseek almost any benchmark number you want.
+"前沿"模型训练有个公开的秘密：即使不直接在测试集上训练，也可以通过训练测试集的"仿制品"来作弊，几乎可以把任何 benchmark 数字调到想要的水平。
 
-The tweet content is light on substantive AI insight today — both are casual observations without deeper technical commentary.
-今日推文缺乏实质性的 AI 观点，均为轻松随意的个人分享，不含深度技术内容。
+However, when models are released as open weights, 99% of the time you don't get the datasets/RL environments that would easily show if someone was training on benchmark lookalikes, so there is plausible deniability.
+然而，当模型以开放权重发布时，99% 的情况下你拿不到训练数据集或 RL 环境，无法轻易判断是否有人在 benchmark 仿制品上训练，因此存在"合理推诿"空间。
 
-近期无重要动态（本日内容较轻量）
+The researchers apply standard NLP distance metrics on hidden trajectories — it supports the finding that RLMs can generalize to unseen tasks that share latent structure with training.
+研究者将标准 NLP 距离度量应用于隐藏轨迹，支持了 RLM 能够泛化到与训练数据具有潜在结构相似性的未见任务这一发现。
 
-Source: https://x.com/swyx/status/2079061713048199625
-Source: https://x.com/swyx/status/2078912371901481110
-
----
-
-### Thibault Sottiaux (OpenAI, Codex & ChatGPT team)
-
-OpenAI Codex and ChatGPT engineer Thibault Sottiaux invited his followers to share stories of ChatGPT Work making a deeply positive impact on their lives or someone else's.
-OpenAI Codex 及 ChatGPT 工程师 Thibault Sottiaux 邀请关注者分享 ChatGPT Work 对自己或他人产生深刻正面影响的真实故事。
-
-*"What's a time you saw ChatGPT have a deeply positive impact on your or someone's life?"*
-*"有没有哪次，你目睹 ChatGPT 对你或他人的生活产生了深刻的正面影响？"*
-
-This signals that the team is actively collecting user testimonials to inspire internal motivation and better understand real-world use cases.
-这表明团队正在主动收集用户反馈，以激励内部士气，并更深入理解真实使用场景。
-
-Source: https://x.com/thsottiaux/status/2079058139207573541
+Source: https://x.com/swyx/status/2079411861150429402
 
 ---
 
-### Peter Yang (AI content creator, practitioner)
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @OpenAI
 
-AI tutorials creator Peter Yang had a frustrating but relatable day — over 100K YouTube subscribers and still not a single dollar paid by Google AdSense, due to poor customer support.
-AI 教程创作者 Peter Yang 度过了令人沮丧却引发共鸣的一天——YouTube 订阅量突破 10 万，却因客服低效至今未收到 Google AdSense 的任何付款。
+**On life at OpenAI:**
+"Never a dull moment when you work at OpenAI. Absolutely incredible place."
+"在 OpenAI 工作从不无聊，这是一个令人叹为观止的地方。"
 
-He noted that *"customer support is truly bad"* and is resorting to internal Google connections.
-他直言 *"客服真的太差了"*，不得不动用谷歌内部人脉来解决问题。
+This tweet generated enormous engagement (3,672 likes, 1,310 replies), suggesting something significant is happening internally at OpenAI.
+这条推文引发了大量互动（3,672 个点赞，1,310 条回复），暗示 OpenAI 内部正在发生重要事情。
 
-On the bright side, he's using OpenAI Codex to help him fight the battle.
-好消息是，他正在用 OpenAI Codex 协助处理这场"战斗"。
-
-He also flagged a UX friction in Codex: the copy prompting users to "send to Codex Web" is confusing, as clicking it just asks you to download the app again.
-他还指出了 Codex 的一个用户体验问题：提示用户"发送到 Codex Web"的文案令人困惑——点击后只会再次引导用户下载 App。
-
-*"Copy matters."*
-*"文案很重要。"*
-
-Source: https://x.com/petergyang/status/2079053957532655890
-Source: https://x.com/petergyang/status/2079053505969676404
-Source: https://x.com/petergyang/status/2079007381695172797
+Source: https://x.com/thsottiaux/status/2079355529101705264
 
 ---
 
-### Amanda Askell (Anthropic, philosopher & ethicist)
+### Peter Yang (petergyang on X) — AI Educator & Creator
 
-Anthropic philosopher and ethicist Amanda Askell today commented briefly on the FIFA World Cup final — noting that the Argentine goalkeeper was "earning his salary."
-Anthropic 哲学家兼伦理研究员 Amanda Askell 今日简短评论了世界杯决赛，称阿根廷门将"不负薪水"。
+**On banning Chinese AI models:**
+"Banning Chinese models will be the same self-own as banning Chinese EVs."
+"禁止中国 AI 模型，将是和禁止中国电动车一样的自伤之举。"
 
-近期无重要 AI 相关动态
+This post sparked significant debate, with over 1,000 likes and 71 replies.
+这篇帖子引发了大量讨论，超过 1,000 个点赞和 71 条回复。
 
-Source: https://x.com/AmandaAskell/status/2078952214664798283
+Source: https://x.com/petergyang/status/2079273815004303477
 
----
+**On multi-agent review patterns:**
+Use one agent to do the work and another to review it against a rubric.
+用一个 agent 完成任务，再用另一个 agent 按照评分标准进行审查。
 
-### Cat Wu (Anthropic, Claude Code & Cowork)
+For subjective tasks like "Is this a good video short?" there's no deterministic answer — a separate verification agent reading a rubric and giving feedback helps overcome "self-preferential bias," where a model is more lenient when reviewing its own output.
+对于"这个短视频好不好？"这类主观任务，没有确定性答案——让一个独立的验证 agent 阅读评分标准并给出反馈，有助于克服"自我偏好偏差"，即模型在审查自己输出时会更宽松的倾向。
 
-Anthropic's Cat Wu shared how she uses Claude Cowork to manage her calendar, posting her actual prompt for the community.
-Anthropic 的 Cat Wu 分享了她如何用 Claude Cowork 管理日程，并公开了她使用的实际提示词。
-
-Her prompt requires: fewer than 20 hours of meetings per week, deduplication of conflicting meetings, learning from past weeks which meetings she declines, and always asking before updating invites.
-她的提示词要求：每周会议不超过 20 小时、消除冲突会议、参考历史规律了解她通常拒绝哪类会议，并在更新邀请前征求确认。
-
-*"I love using Claude Cowork to manage my calendar."*
-*"我非常喜欢用 Claude Cowork 管理我的日程。"*
-
-This is a practical, real-world example of how AI agents can handle personal productivity workflows with nuanced rules.
-这是一个实用的真实案例，展示了 AI Agent 如何处理带有复杂规则的个人效率工作流。
-
-Source: https://x.com/_catwu/status/2079011428380602526
+Source: https://x.com/petergyang/status/2079257646939742542
 
 ---
 
-### Thariq (Anthropic, Claude Code)
+### Madhu Guru (realmadhuguru on X) — Sr Director, AI at Meta; Prev: Google (led Gemini, Veo, Nano)
 
-Anthropic's Claude Code engineer Thariq urged users who encountered a bug to restart Claude Code, noting the fix was propagating.
-Anthropic Claude Code 工程师 Thariq 呼吁遇到某一 bug 的用户重启 Claude Code，修复已在推送中。
+**On the path to AGI running through enterprise:**
+"The road to AGI is paved with economically valuable tasks. That's why enterprise AI is one of the most important frontiers — it's where many of those tasks live."
+"通往 AGI 的道路，是由具有经济价值的任务铺就的。这就是为什么企业级 AI 是最重要的前沿阵地之一——大多数这类任务都在那里。"
 
-He also mentioned he's working on a post about lessons learned from building Claude Code skills and system prompts — how you can apply those learnings to your own work.
-他还透露正在撰写一篇关于构建 Claude Code 技能与系统提示过程中经验教训的文章，以及如何将这些经验应用到自己的工作中。
+Source: https://x.com/realmadhuguru/status/2079369965569003691
 
-Source: https://x.com/trq212/status/2079103743535280508
-Source: https://x.com/trq212/status/2078901672441790818
+**On the real "tokenomics" debate:**
+Four years post peak web3, it turns out the tokenomics debate that truly matters is open vs. closed weights, inference costs, and model routing.
+web3 热潮退去四年后，真正重要的 tokenomics 辩题原来是开放 vs 闭源权重、推理成本和模型路由。
 
----
+Source: https://x.com/realmadhuguru/status/2079227605031829700
 
-### Amjad Masad (Replit CEO)
+**On product sense in the AI era:**
+"It's literally the greatest time ever to have product sense."
+"现在绝对是有产品感觉最好的时代。"
 
-Replit CEO Amjad Masad made an insightful observation about consumer software economics: consumers spend on food, rent, entertainment, and phones — but software is typically bought by companies.
-Replit CEO Amjad Masad 就消费者软件经济提出了一个深刻观察：消费者的支出集中在食物、住房、娱乐和手机上，而软件通常由企业购买。
-
-This explains why outside of Netflix and Spotify, it's hard to find truly massive consumer subscription businesses.
-这解释了为何除 Netflix 和 Spotify 外，真正庞大的消费者订阅业务寥寥无几。
-
-Also today, he cheered on Spain in the World Cup final.
-此外，他今日也为世界杯决赛中的西班牙队加油助威。
-
-Source: https://x.com/amasad/status/2079086360703680583
+Source: https://x.com/realmadhuguru/status/2079387984852668780
 
 ---
 
-### Guillermo Rauch (Vercel CEO)
+### Thariq (trq212 on X) — Claude Code @Anthropic, prev YC W20
 
-Vercel CEO Guillermo Rauch made a bold technical argument: cybersecurity is one of the best benchmarks for superintelligence — and the IQ test of software engineering.
-Vercel CEO Guillermo Rauch 提出了一个大胆的技术论点：网络安全是衡量超级智能的最佳基准之一，也是软件工程的智力测验。
+**On a short-lived bug:**
+"This was a bug that was only live for a few minutes. Ran into it on my personal account while doing some late-night coding though."
+"这个 bug 只存活了几分钟，不过我在深夜写代码时用自己的个人账号撞上了。"
 
-*"It's actually easy for a model to 'one-shot an XYZ clone' and impress people on X. But that's not a good test."*
-*"让模型'一键生成 XYZ 克隆品'来博取眼球其实很容易，但这不是一个好的测试。"*
-
-He argued that finding, patching, reversing, and exploiting vulnerabilities demands true reasoning power — "corner thinking" that transcends programming languages and frameworks.
-他认为，发现、修补、逆向和利用漏洞需要真正的推理能力——一种超越编程语言和框架的"极限思维"。
-
-He cited Kimi K3's strong performance in security benchmarks as a positive sign for open models.
-他引用了 Kimi K3 在安全基准测试中的出色表现，视之为开源模型的积极信号。
-
-He also expressed gratitude to Argentina and Messi after the World Cup final, congratulating Spain on their victory.
-他还在世界杯决赛后向阿根廷和梅西表达了感谢，并祝贺西班牙夺冠。
-
-Source: https://x.com/rauchg/status/2078912929714356698
-Source: https://x.com/rauchg/status/2078975602028106050
+Source: https://x.com/trq212/status/2079105479125741675
 
 ---
 
-### Aaron Levie (Box CEO)
+### Amjad Masad (amasad on X) — CEO @Replit
 
-Box CEO Aaron Levie delivered three sharp takes on AI economics and policy today.
-Box CEO Aaron Levie 今日就 AI 经济学与政策发表了三条犀利观点。
+**On coding agents shipping physical products:**
+"First physical product shipped by a coding agent?"
+"编程 agent 交付的第一个实体产品？"
 
-On AI regulation and open source: the U.S. cannot afford to gatekeep frontier model capabilities when strong open-source alternatives already exist.
-关于 AI 监管与开源：当强大的开源替代方案已经存在时，美国无法承受对前沿模型能力的封锁。
+Source: https://x.com/amasad/status/2079282869063786541
 
-*"Even if America could fully ban access to open source models, other ecosystems wouldn't have that ban and they'd have a leg up."*
-*"即便美国能全面禁止开源模型的访问，其他生态系统也不会跟进，反而会因此占据优势。"*
+**On resilience and being "cancelled":**
+"'Being cancelled is a choice' turned out to be a nice sound bite."
+"'被取消是一种选择'，这句话后来成了一个不错的金句。"
 
-On AI cost reduction: when AI gets cheaper, it doesn't shrink spend — it expands consumption.
-关于 AI 降本：AI 变便宜并不会减少支出，反而会扩大消费。
-
-*"When you make AI cheaper, it will get consumed more."*
-*"当 AI 变得更便宜，它会被消耗得更多。"*
-
-Cheaper tokens unlock new use cases: reviewing more code for bugs, running agents on larger datasets, and so on.
-更低成本的 token 解锁了新的使用场景：审查更多代码中的安全漏洞、在更大数据集上运行 Agent 等。
-
-On AI diffusion: coding was adopted fast because software can be written, tested, and deployed by a single person without any external dependencies — unlike life sciences or sales.
-关于 AI 扩散：编程被快速采用，是因为软件可以由单人完成编写、测试和部署，无需任何外部依赖——不同于生命科学或销售领域。
-
-*"Coming up with ideas was never the hard part. The hard part is how fast reality answers them."*
-*"提出想法从来都不是难点，难点在于现实反馈的速度。"*
-
-He concluded: this is why the applied AI layer has so much opportunity — model outputs alone aren't enough; you need to change underlying workflows.
-他总结道：这正是应用 AI 层拥有巨大机会的原因——单纯的模型输出远远不够，还需要改变底层工作流。
-
-Source: https://x.com/levie/status/2078992778449850769
-Source: https://x.com/levie/status/2078968158006939716
-Source: https://x.com/levie/status/2078864191683969212
+Source: https://x.com/amasad/status/2079401256448340378
 
 ---
 
-### Garry Tan (YC President & CEO)
+### Guillermo Rauch (rauchg on X) — CEO @Vercel
 
-YC President Garry Tan championed Markdown files as a universal, durable data format — one that will "survive millennia."
-YC 总裁 Garry Tan 盛赞 Markdown 文件是一种通用且持久的数据格式——能够"存续千年"。
+**On AI's biggest lesson:**
+"The big lesson from AI is that everything is code. A slide deck is code. Design is code. That cool promo video? Code. Excel automation? Code. The universe? Probably made of code too."
+"AI 带来的最大启示是：一切皆代码。PPT 是代码，设计是代码，那个酷炫的宣传视频？代码。Excel 自动化？代码。宇宙？可能也是代码。"
 
-He noted that in a period where the intelligence stack is evolving at extreme pace, Markdown is unsurprisingly a fantastic format.
-他指出，在智能技术栈以极快速度演变的当下，Markdown 自然成为了一种出色的格式选择。
+This post was one of the most viral of the week, with over 4,300 likes and 400 retweets.
+这篇帖子是本周最具传播力的之一，超过 4,300 个点赞和 400 次转发。
 
-He also teased something called "GSkills" with a link — likely a reference to AI-powered skills or tooling in the YC/AI ecosystem.
-他还以一个链接预告了一个叫"GSkills"的东西——可能是 YC/AI 生态中的 AI 驱动技能或工具。
-
-Source: https://x.com/garrytan/status/2078803803659452624
-Source: https://x.com/garrytan/status/2078803084785111120
+Source: https://x.com/rauchg/status/2079274102129304026
 
 ---
 
-### Matt Turck (FirstMark Capital VC, MAD Podcast host)
+### Aaron Levie (levie on X) — CEO @Box
 
-FirstMark VC and MAD Podcast host Matt Turck's tweets today were all focused on the World Cup final — no substantive AI or tech content.
-FirstMark VC 及 MAD Podcast 主持人 Matt Turck 今日推文全部聚焦于世界杯决赛，无实质性 AI 或科技内容。
+**On multi-model agentic systems as the future:**
+Multi-model agentic systems are clearly the future.
+多模型 agentic 系统显然是未来的方向。
 
-近期无重要 AI 相关动态（今日均为体育评论）
+Cursor's new research shows that using a frontier model as a planner/orchestrator with a cheaper workhorse model can result in a 15X cost improvement on large coding projects.
+Cursor 的最新研究表明，将前沿模型用作规划者/编排者，配合更廉价的执行模型，在大型编码项目上可实现 15 倍的成本改善。
 
-Source: https://x.com/mattturck/status/2078966428208664631
+The key insight: "Few moments in a large task genuinely require frontier intelligence — such as the original decomposition, the design decisions, and certain trade-offs. Once a frontier planner has collapsed the ambiguity into a detailed, explicit instruction, less expensive models simply have to follow it."
+核心洞察："在大型任务中，真正需要前沿智能的时刻很少——比如最初的任务分解、设计决策和某些权衡取舍。一旦前沿规划者将模糊性转化为详细、明确的指令，更廉价的模型只需执行即可。"
 
----
+This is increasingly becoming the core design pattern of complex agents — routing to different model tiers based on task complexity.
+这正在成为复杂 agent 的核心设计模式——根据任务复杂度路由到不同层级的模型。
 
-### Zara Zhang (Builder, Follow Builders creator)
+Companies that master this in coding, finance, legal, healthcare, and life sciences will be well-positioned to take on larger workloads that would otherwise be too expensive.
+在编码、金融、法律、医疗和生命科学等领域掌握这一模式的公司，将具备承接更大规模工作负载的优势，而这些工作负载若用单一前沿模型处理则成本过高。
 
-Builder Zara Zhang argued that we need to get used to the idea of disposable code and software.
-构建者 Zara Zhang 主张，我们需要习惯"代码/软件是可抛弃的"这一理念。
-
-She gave concrete examples: design playgrounds to fine-tune look and feel, HTML pages to understand code, throwaway dashboards to inspect data once — all discarded after use.
-她给出了具体案例：用于调整视觉效果的设计沙盒、帮助理解代码的 HTML 页面、一次性检查数据的临时仪表盘——使用后即可丢弃。
-
-She also shared her content creation advice: find the top 3 questions people ask you in real life and turn those answers into videos or posts.
-她还分享了内容创作建议：找出现实中被问频率最高的 3 个问题，将答案做成视频或帖子。
-
-*"If you have repeatedly said something for >3 times, it's worth turning into a video."*
-*"如果你已经重复说过某件事超过 3 次，那就值得把它拍成视频。"*
-
-Her original motivation for posting: she was tired of repeating herself in real life.
-她最初开始发布内容的动力，是因为厌倦了在现实生活中反复重申同样的观点。
-
-Source: https://x.com/zarazhangrui/status/2078835308905578660
-Source: https://x.com/zarazhangrui/status/2078830510177128481
+Source: https://x.com/levie/status/2079402164988895293
 
 ---
 
-### Nikunj Kothari (FPV Ventures partner)
+### Garry Tan (garrytan on X) — President & CEO @YCombinator
 
-FPV Ventures partner Nikunj Kothari's posts today were both personal — one frustrated rant about Argentina's rough play in the World Cup final, and one whimsical Renoir painting series.
-FPV Ventures 合伙人 Nikunj Kothari 今日两条推文均为个人分享——一条对阿根廷在决赛中粗野战术的失望吐槽，另一条是充满趣味的雷诺阿画作系列。
+**On compute dominance:**
+"Compute rules everything around me CREAM."
+"算力主宰我周围的一切——CREAM（Compute Rules Everything Around Me）。"
 
-近期无重要 AI 相关动态
+Source: https://x.com/garrytan/status/2079240755135357356
 
-Source: https://x.com/nikunj/status/2078963708504465814
+**On California policy:**
+Tan criticized the proposed "asset seizure tax" in California, calling it a "naked cash grab" by SEIU-UHW that will only make the state more impoverished.
+Tan 批评加州拟议的"资产扣押税"，称其为 SEIU-UHW 的"赤裸裸的圈钱行为"，只会让这个州更加贫困。
 
----
-
-### Peter Steinberger (OpenClaw + OpenAI)
-
-OpenClaw and OpenAI contributor Peter Steinberger posted a cryptic "IYKYK" (If You Know You Know) tweet with a link — no further context available.
-OpenClaw 与 OpenAI 贡献者 Peter Steinberger 发了一条神秘的"IYKYK（懂的都懂）"推文，附有链接，无更多上下文。
-
-近期无重要 AI 相关动态
-
-Source: https://x.com/steipete/status/2078904784753729962
-
----
-
-### Dan Shipper (Every CEO)
-
-Every CEO Dan Shipper shared a significant milestone: AI has crossed a threshold in copy editing.
-Every CEO Dan Shipper 分享了一个重要里程碑：AI 在文案编辑方面已跨越了一个关键门槛。
-
-*"Yes it just passed some barrier."*
-*"是的，它刚刚突破了某个临界点。"*
-
-For the past week, AI has been able to automatically handle approximately 70% of the copy edits that Every would ordinarily do by hand internally.
-过去一周，AI 已能自动完成 Every 内部原本需要手工完成的约 70% 的文案编辑工作。
-
-*"First time that's happened and I've been trying it for years."*
-*"这是第一次做到这一点，而我已经尝试了多年。"*
-
-This is a meaningful signal about AI's readiness for professional writing workflows — a threshold practitioners have been watching closely.
-这是 AI 在专业写作工作流中就绪程度的重要信号——也是业内人士长期密切关注的临界点。
-
-Source: https://x.com/danshipper/status/2078920115140358585
+Source: https://x.com/garrytan/status/2079369233218306285
 
 ---
 
 ## PODCASTS
 
----
+### No Priors — "Travel Through the Lens of AI with Booking.com CEO Glenn Fogel"
 
-### The MAD Podcast with Matt Turck — "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay"
+Glenn Fogel, the 27-year veteran CEO of Booking Holdings, joined No Priors to discuss AI's transformative role in travel, lessons from the dot-com bubble, and enterprise moats.
+Booking Holdings 的 CEO Glenn Fogel 在公司效力了 27 年，他加入 No Priors 节目，探讨 AI 在旅游行业的变革性作用、互联网泡沫的教训，以及企业护城河的本质。
 
-This episode features Emily Sands, Head of Data and AI at Stripe, in conversation with host Matt Turck.
-本期节目由 Stripe 数据与 AI 负责人 Emily Sands 与主持人 Matt Turck 对谈。
+**AI in travel is already working:**
+Booking Holdings' Priceline has launched "Penny," an agentic AI travel assistant that has doubled in adoption every month.
+Booking Holdings 旗下的 Priceline 已推出 AI 旅行助手"Penny"，其用户采用率每月翻倍增长。
 
-The central theme: the economic infrastructure for AI agents — how agents will buy, sell, and transact on behalf of users and businesses.
-核心主题：AI Agent 的经济基础设施——Agent 将如何代表用户和企业进行购买、销售与交易。
+Penny handles complex multi-destination family trips, weighing frequent flyer miles vs. cash, hotel sequencing, and more — resulting in measurable lifts in conversion, faster search, shorter path to booking, lower cancellation, and higher customer satisfaction.
+Penny 能处理复杂的多目的地家庭出行，权衡飞行里程与现金支付、酒店排序等问题——并带来了可量化的转化率提升、更快的搜索、更短的预订路径、更低的取消率和更高的客户满意度。
 
-**Token theft — the most under-discussed topic in AI:**
-**Token 盗窃——AI 领域最被忽视的话题：**
+**On customer service:**
+"AI can pick up the call immediately — it's not a problem. And solve the problem even better and faster than a human ever will."
+"AI 可以立即接听电话——这不是问题。而且解决问题比人类更好、更快。"
 
-Emily revealed a shocking statistic: more than 1 in 6 signups at AI companies are fraudulent, designed purely to steal compute tokens.
-Emily 披露了一个令人震惊的数据：AI 公司超过六分之一的新用户注册是欺诈性的，目的仅仅是盗取算力 token。
+Customer service cost-per-contact is already down ~10%, while customer satisfaction is up.
+每次客服接触的成本已下降约 10%，而客户满意度有所提升。
 
-*"Fraudsters have figured out that in AI, you actually don't really need to steal money or credentials. You can just steal tokens."*
-*"欺诈者已经发现，在 AI 领域，根本不需要偷钱或凭证，只需要偷 token 就够了。"*
+**On the "no moat" reality:**
+"There is no such thing as a moat. There is no such thing as somewhere you're going to be protected against innovation. Today, we have a competitive advantage in certain areas. But those can go away tomorrow."
+"护城河根本不存在。没有任何地方能让你免受创新的冲击。今天，我们在某些领域具有竞争优势，但这些优势明天就可能消失。"
 
-She calls this the "dine and dash, but for tokens."
-她将此称为"餐厅逃单，但针对的是 token"。
+**On AI and jobs:**
+Fogel expressed concern about the speed of job displacement outpacing retraining, citing the 50-year-old truck driver as a symbol of those at risk.
+Fogel 对工作岗位消失速度超过再培训速度表示担忧，以 50 岁的卡车司机作为高风险群体的象征。
 
-**Agentic commerce — agents as buyers and sellers:**
-**Agent 经济——Agent 作为买方和卖方：**
+He emphasized that Booking Holdings actively upskills its 25,000 employees for AI readiness: "It's not just good for our company — it helps them for their career too."
+他强调 Booking Holdings 积极为其 25,000 名员工进行 AI 能力提升："这不仅对我们公司有好处，对他们的职业发展也有帮助。"
 
-The conversation moved from "Emily permissioning an agent to buy on her behalf" to a more ambitious vision: Emily has an agent tasked with running a business — including buying, selling, and making profits.
-话题从"Emily 授权 Agent 代为购买"延伸到更宏大的愿景：Emily 有一个 Agent，其任务是运营一家业务——包括采购、销售和创造利润。
+**On AI being more than hype:**
+"This is literally the most exciting time ever, because of the ability to build these new things."
+"这确实是有史以来最令人兴奋的时代，因为我们有能力构建这些全新的东西。"
 
-When asked if people are comfortable letting agents buy things for them, the common concerns are: overspending, buying the wrong thing, and whether they can stop it.
-当被问及人们是否愿意让 Agent 代为购物时，最常见的顾虑是：超支、买错东西，以及是否能及时叫停。
-
-*"Those are actually all legitimate concerns."*
-*"这些顾虑实际上都是合理的。"*
-
-**Per-seat pricing is breaking:**
-**按席位定价模式正在崩溃：**
-
-The rise of AI agents is straining traditional per-seat SaaS pricing models — as a single agent can perform the work of many seats, the unit economics no longer hold.
-AI Agent 的兴起正在冲击传统的按席位 SaaS 定价模式——一个 Agent 可以完成多个"席位"的工作，单位经济学逻辑已不再成立。
-
-New pricing models will need to emerge that better reflect the value created by agents rather than the number of human users.
-新的定价模式需要出现，更好地反映 Agent 创造的价值，而非人类用户的数量。
-
-**The 12-month vision:**
-**未来 12 个月的展望：**
-
-Emily's goal: in twelve months, be talking about a world where agents are not just buying on your behalf, but running entire businesses — with buying, selling, and profit generation all automated.
-Emily 的目标：在 12 个月后，能够谈论这样一个世界：Agent 不仅代你购物，还能运营完整的业务——采购、销售和盈利全部自动化。
-
-Source: https://www.youtube.com/@DataDrivenNYC/videos
-Episode: "Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay"
+Source: https://www.youtube.com/watch?v=8nj_0wZkbtA
 
 ---
 
