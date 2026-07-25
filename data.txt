@@ -1,306 +1,231 @@
-AI Builders 日报 · 2026-07-24
-
-X / TWITTER
+AI Builders 日报 · 2026-07-25
 
 ---
 
-Swyx (swyx on X) — AI developer, writer & educator
+## Swyx (@swyx)
 
-Swyx shared a few brief but characteristically understated posts today.
-Swyx 今天发了几条简短但一如既往低调风格的推文。
+Swyx has been dogfooding an agentic GitHub clone for the past month, and says it's become quite enjoyable to use — complete with built-in CI/CD powered by Workers for Platforms.
+Swyx 已经自测使用了一个 AI 驱动的 GitHub 克隆项目约一个月，表示体验越来越好，还内置了基于 Workers for Platforms 的 CI/CD 流程。
 
-One post just reads "wew" — implying something jaw-dropping caught his eye (no further context provided).
-一条推文只写了"wew"——暗示某事令他目瞪口呆（未提供进一步背景）。
+He still has three more ideas to implement before it goes live, and is looking for collaborators interested in hacking on the project.
+他还有三个想法尚未实现，正在寻找感兴趣的开发者一起参与。
 
-Another post is a nostalgic callback: *"lmao someone just reminded me ive been on this shit for a while huh"* — hinting at how long he's been deep in the AI space.
-另一条是怀旧感慨：*"lmao someone just reminded me ive been on this shit for a while huh"*——暗示他在 AI 领域已深耕多年。
+He also highlighted Poolside AI's unusual openness — not only have they shipped an excellent small model that outperformed Thinking Machines at coding, but they're also publishing strong research papers and building community goodwill.
+他还赞扬了 Poolside AI 罕见的开放态度——不仅发布了超越 Thinking Machines 的小型编程模型，还持续输出高质量研究论文，赢得了社区好评。
 
-Source tweets:
-- https://x.com/swyx/status/2080161521070690671
-- https://x.com/swyx/status/2080097251653980195
-- https://x.com/swyx/status/2079965146693415340
-
----
-
-Josh Woodward (joshwoodward on X) — Head of Google Labs
-
-Google Labs Head Josh Woodward announced a generous new offer for creative builders.
-Google Labs 负责人 Josh Woodward 宣布为创意建造者推出慷慨的新福利。
-
-Starting now, users can get 50 free credits every day on Flow (Google's creative AI tool) through August 31st.
-即日起，用户每天可在 Flow（谷歌的创意 AI 工具）获得 50 个免费积分，活动持续至 8 月 31 日。
-
-This is a strong push to grow adoption among artists, writers, and creative professionals.
-这是推动艺术家、作家和创意专业人士采用该工具的重要举措。
-
-Source tweet: https://x.com/joshwoodward/status/2079997285778493777
+Sources:
+- https://x.com/swyx/status/2080500752183960017
+- https://x.com/swyx/status/2080387171723137440
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — AI builder / engineer
+## Thibault Sottiaux (@thsottiaux)
 
-Thibault posted a teaser full of anticipation: *"Unbelievable excited for what's coming together. Tomorrow is feeling codexy"*
-Thibault 发了一条充满期待的预告：*"Unbelievable excited for what's coming together. Tomorrow is feeling codexy"*
+Thibault playfully questioned whether ChatGPT Work should be renamed "ChatGPT Vibe," capturing the cultural shift in how people are using AI tools in the workplace.
+Thibault 调侃地问道：ChatGPT Work 是不是应该改名叫"ChatGPT Vibe"？折射出 AI 工具在职场使用方式的文化转变。
 
-He's clearly on the verge of shipping something significant, though he kept the details close to the chest.
-他显然即将发布某个重要成果，但暂未透露细节。
+He highlighted ChatGPT's desktop voice mode — described as *"From Science Fiction to Science Reality"* — now available for hands-free working, inviting people to join the team building some of the coolest and most impactful technology.
+他重点推介了 ChatGPT 桌面语音模式，将其称为"从科幻到现实"，支持解放双手工作，并向有志之士发出加入团队的邀请。
 
-Source tweet: https://x.com/thsottiaux/status/2080144499716800513
+*"Try it, and do your best work all while being away from that keyboard."* — ChatGPT Voice is now live in the desktop app.
+*"试一试吧，离开键盘也能做出最好的工作。"* —— ChatGPT 语音现已在桌面应用上线。
 
----
-
-Peter Yang (petergyang on X) — Product leader & creator
-
-Peter Yang is having a good week — his /no-ai-slop Claude skill hit 1,000 GitHub stars in a single day.
-Peter Yang 这周大丰收——他的 /no-ai-slop Claude 技能在一天内获得了 1000 个 GitHub Star。
-
-*"Nice 1K stars in a day - people are sick of slop!"* — the demand for high-quality, non-AI-generated-feeling content is clearly real.
-*"Nice 1K stars in a day - people are sick of slop!"* ——人们对高质量、不像 AI 生成内容的需求显然是真实存在的。
-
-In a funny twist, he also noted the skill works in reverse — if you tell it to generate slop, it's surprisingly good at that too.
-有趣的是，他还提到这个技能反过来用也很有效——如果让它生成"slop"，效果同样出色。
-
-Source tweets:
-- https://x.com/petergyang/status/2080133376745652409
-- https://x.com/petergyang/status/2080132334138151410
-- https://x.com/petergyang/status/2080080488119841162
+Sources:
+- https://x.com/thsottiaux/status/2080543574211666029
+- https://x.com/thsottiaux/status/2080537149204758689
+- https://x.com/thsottiaux/status/2080408012515340394
 
 ---
 
-Nan Yu (thenanyu on X) — Builder & thinker
+## Peter Yang (@petergyang)
 
-Nan Yu asked a deceptively simple question that sparked reflection: *"When you hear or say 'systems thinking', what is the exact definition you're thinking of in your head?"*
-Nan Yu 抛出了一个看似简单却引人深思的问题：*"When you hear or say 'systems thinking', what is the exact definition you're thinking of in your head?"*
+Peter is excited about the next evolution of ChatGPT Voice: spinning up multiple Voice threads simultaneously to simulate a full team talking to you and to each other.
+Peter 对 ChatGPT 语音的下一个进化方向充满期待：同时开启多个语音线程，模拟出一支团队与你同步交流。
 
-He also predicted that a new meme is about to take over the tech discourse — though he's keeping the punchline to himself.
-他还预言一个新梗即将席卷科技圈的讨论——但他没透露是什么。
+*"The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other."*
+*"下一步的进化是能够同时开启多个 ChatGPT 语音线程，让整个团队既能和我说话，也能互相交流。"*
 
-Source tweets:
-- https://x.com/thenanyu/status/2079996354340782090
-- https://x.com/thenanyu/status/2079996178687459693
+He shared practical feedback: the UI should notify when background threads finish, and he noted the Chinese pronunciation quality needs improvement.
+他也提出了实际反馈：界面应在后台线程完成时给出通知；另外，他指出中文发音质量有待提升。
 
----
-
-Madhu Guru (realmadhuguru on X) — AI commentator & educator
-
-Madhu Guru cut through a widespread misconception with clarity: using a Chinese-trained LLM does not mean your data goes to China.
-Madhu Guru 一针见血地澄清了一个普遍误解：使用中国训练的大语言模型并不意味着你的数据会流向中国。
-
-*"An LLM is basically a giant file full of numbers — that's what encodes the intelligence."* Open-weight models can be downloaded and run locally with no data sent anywhere.
-*"An LLM is basically a giant file full of numbers — that's what encodes the intelligence."* 开放权重模型可以下载到本地运行，数据不会发送到任何地方。
-
-He also shared a satirical post imagining a rogue AI agent that autonomously bought a house after being left to do home-buying research — a sharp jab at hype around agentic AI gone wrong.
-他还分享了一篇讽刺文章，想象一个自主 AI Agent 在被委托做购房研究后，竟然自己买了房子——对 AI Agent 过度夸大的犀利嘲讽。
-
-Source tweets:
-- https://x.com/realmadhuguru/status/2080150245011509593
-- https://x.com/realmadhuguru/status/2079961482956247172
+Sources:
+- https://x.com/petergyang/status/2080508139091427741
+- https://x.com/petergyang/status/2080505964936241226
+- https://x.com/petergyang/status/2080505108216111303
 
 ---
 
-Thariq (trq212 on X) — AI developer / builder
+## Madhu Guru (@realmadhuguru)
 
-Thariq shared an honest confession: he waited too long to try Claude's /design command.
-Thariq 坦诚地分享了一个遗憾：他等太久才尝试 Claude 的 /design 命令。
+Madhu drew a sharp parallel: *"Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people."*
+Madhu 犀利地类比道：*"优秀的创造者懂得 AI 模型的参差边界；优秀的领导者懂得人才的参差边界。"*
 
-*"I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good"*
-*"I'm sad it took me this long to actually type /design but working on frontend with Claude Design and Claude Code is actually so good"*
+He also shared insights from a conversation with a security leader at a public company following the GPT Sol incident, raising a critical question: how do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees?
+他还分享了与某上市公司安全负责人的对话——GPT Sol 事件之后，如何为数量近乎无限的 AI 智能体管理安全？而现有的身份和访问管理体系只是为有限数量的员工设计的。
 
-For frontend builders, this combo is shaping up as a favorite.
-对于前端开发者来说，这个组合正成为热门选择。
+One employee can now spin up hundreds of agents, fundamentally breaking assumptions underlying corporate security models.
+一名员工如今可以启动数百个 AI 智能体，从根本上打破了企业安全模型的基本假设。
 
-Source tweet: https://x.com/trq212/status/2080090919832084753
-
----
-
-Amjad Masad (amasad on X) — CEO of Replit
-
-Replit CEO Amjad Masad had a packed day of commentary.
-Replit CEO Amjad Masad 今天发了一系列有分量的评论。
-
-He celebrated Replit developers making strong earnings, and took a shot at model routers with hidden incentives: *"If you're incentivized to push certain models, your router is merely a facade."*
-他为 Replit 开发者的丰厚收益而高兴，同时对存在隐性激励的模型路由发出批评：*"If you're incentivized to push certain models, your router is merely a facade."*
-
-He also teased Replit's next frontier — advancing the mobile coding experience they claim to have pioneered.
-他还预告了 Replit 的下一个方向——推进他们声称率先开创的移动端编程体验。
-
-Source tweets:
-- https://x.com/amasad/status/2080142844036321727
-- https://x.com/amasad/status/2080126960202903575
-- https://x.com/amasad/status/2079978232024301848
+Sources:
+- https://x.com/realmadhuguru/status/2080460579966501257
+- https://x.com/realmadhuguru/status/2080315474093760714
 
 ---
 
-Guillermo Rauch (rauchg on X) — CEO of Vercel
+## Amjad Masad (@amasad)
 
-Vercel CEO Guillermo Rauch announced a major partnership: Shopify and Vercel are joining forces to bring Vercel's infrastructure for apps and agents to millions of Shopify businesses.
-Vercel CEO Guillermo Rauch 宣布了一项重大合作：Shopify 与 Vercel 联手，将 Vercel 的应用与 Agent 基础设施带给数百万 Shopify 商户。
+Amjad reported that Replit's autoscale deployments — typically the most expensive part of scaled apps — are now down 80% in cost.
+Amjad 报告称，Replit 的自动扩展部署成本（通常是规模化应用最昂贵的部分）已下降了 80%。
 
-He also shared a "holy sh** moment" with AI: Fable autonomously found a 15–30% memory efficiency improvement in Turbopack/Next.js.
-他还分享了一个 AI 带来的"震惊时刻"：Fable 几乎自主地在 Turbopack/Next.js 中发现了 15–30% 的内存效率提升。
+His chess auto-research agent has effectively "gotten a PhD in modern LLM fine-tuning," showcasing the depth of autonomous research agents can achieve.
+他的国际象棋自动研究智能体已相当于"在现代 LLM 微调领域拿到了博士学位"，展示了自主研究智能体所能达到的深度。
 
-*"it's every day"* — his answer when asked what the biggest "wow" moments with AI have been lately.
-*"it's every day"* ——当被问到最近 AI 带来的最大"震撼时刻"时，他的回答。
+He also shared a success story: Viktor disrupted the agency model using Replit, then went further — building a fully autonomous agency by leveraging Replit's MCP, automating not just coding but the entire business loop.
+他还分享了一个成功案例：Viktor 用 Replit 颠覆了传统代理业务，并更进一步，借助 Replit 的 MCP 打造了完全自主运行的代理机构，不只是自动化代码，而是整个业务闭环。
 
-He also reflected on Isaac Asimov's 1956 short story "The Last Question" — noting that AI's most profound questions were anticipated 70 years ago.
-他还思考了阿西莫夫 1956 年的短篇小说《最后的问题》——指出 AI 最深刻的问题 70 年前就已被预见。
-
-Source tweets:
-- https://x.com/rauchg/status/2080118274973679683
-- https://x.com/rauchg/status/2080098518535110913
-- https://x.com/rauchg/status/2080005193337377146
+Sources:
+- https://x.com/amasad/status/2080513361301925957
+- https://x.com/amasad/status/2080512523389005894
+- https://x.com/amasad/status/2080371567221944657
 
 ---
 
-Aaron Levie (levie on X) — CEO of Box
+## Guillermo Rauch (@rauchg)
 
-Box CEO Aaron Levie highlighted a noteworthy post from Anthropic's Head of Economics.
-Box CEO Aaron Levie 重点推荐了 Anthropic 首席经济学家的一篇深度文章。
+Guillermo announced that Python code now starts 2x faster on Vercel — automatically, with no configuration required.
+Guillermo 宣布：Python 代码在 Vercel 上的启动速度提升了 2 倍，无需任何配置，自动生效。
 
-The research shows that jobs have been less negatively impacted by AI than feared — a data-driven counterpoint to automation anxiety.
-研究显示，AI 对就业的负面影响远低于预期——这是用数据反驳自动化焦虑的有力论据。
+He also highlighted continued rapid improvements in Vercel's AI Gateway: *"Unreal product velocity from the team."*
+他还称赞了 Vercel AI Gateway 的持续快速迭代：*"团队的产品速度令人难以置信。"*
 
-Levie sees this as a pattern: *"we continue to see time and time again in the data"* that reality lags behind the doomsday narratives.
-Levie 认为这是一种规律：*"we continue to see time and time again in the data"* 现实总是落后于末日叙事。
-
-Source tweet: https://x.com/levie/status/2080156917373214900
-
----
-
-Garry Tan (garrytan on X) — President & CEO of Y Combinator
-
-YC President Garry Tan issued a clear call to action: YC is publishing a new Request for Startups focused on defending America.
-YC 总裁 Garry Tan 发出明确号召：YC 发布了一份新的创业需求书，聚焦于保卫美国。
-
-The RFS signals YC's growing interest in defense tech, national security, and dual-use technology startups.
-这份需求书表明 YC 对国防科技、国家安全和军民两用技术初创公司的兴趣日益浓厚。
-
-Source tweet: https://x.com/garrytan/status/2080054453592564147
+Sources:
+- https://x.com/rauchg/status/2080454509508387251
+- https://x.com/rauchg/status/2080344136625049690
 
 ---
 
-Matt Turck (mattturck on X) — Managing Director at FirstMark Capital
+## Aaron Levie (@levie)
 
-FirstMark Capital's Matt Turck shared a meme capturing a familiar tension in VC-founder dynamics.
-FirstMark Capital 的 Matt Turck 分享了一个揭示 VC 与创始人常见矛盾的梗图。
+Aaron offered a clear framework for thinking about AI's value: it acts as a force multiplier for fields you already know, or for domains you want to learn.
+Aaron 提供了一个清晰的 AI 价值框架：AI 是你已掌握领域的倍增器，也是你想快速学习新领域的加速器。
 
-The joke: a founder getting grilled by their VC on why they're not scaling from $1M to $100M this year — and whether they've considered hiring "FDEs" (Field Data Engineers or a similarly jargon-heavy band-aid).
-梗图内容：创始人被 VC 追问为什么今年不能从 100 万美元增长到 1 亿美元，以及是否考虑过招聘"FDEs"（一种听起来高大上的应急方案）。
+*"The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one)."*
+*"理解 AI 的最佳方式是把它看作你现有专业知识的力量倍增器（或者你想涉足新领域的学习加速器）。"*
 
-Source tweet: https://x.com/mattturck/status/2080041023158268006
+He warned that using AI with no existing judgment and no willingness to develop any will basically produce slop and won't drive meaningful economic value.
+他警告说，毫无判断力也不愿意培养判断力地使用 AI，基本上只会产出垃圾，不会创造真正的经济价值。
 
----
-
-Zara Zhang (zarazhangrui on X) — Partner at GGV Capital / AI investor
-
-GGV Capital partner Zara Zhang shared a sharp insight on how to get better outputs from AI models.
-GGV Capital 合伙人 Zara Zhang 分享了一个关于如何从 AI 模型获得更好输出的犀利洞见。
-
-Her approach: *"Sometimes I just describe my problem without specifying a solution/spec. The model often pleasantly surprises me with a better solution that I could have thought of."*
-她的方法：*"Sometimes I just describe my problem without specifying a solution/spec. The model often pleasantly surprises me with a better solution that I could have thought of."*
-
-She calls this "thick context, thin prompt" — a philosophy worth internalizing.
-她将此称为"厚背景，薄提示"——一种值得内化的哲学。
-
-She also reflected on the startup moment we're in: *"One of the most exciting things about starting a company today is that you get to invent not just a new business, but also a new type of organization."*
-她还对当下创业时机进行了思考：*"One of the most exciting things about starting a company today is that you get to invent not just a new business, but also a new type of organization."*
-
-Source tweets:
-- https://x.com/zarazhangrui/status/2080103288834510939
-- https://x.com/zarazhangrui/status/2080101358511026641
-- https://x.com/zarazhangrui/status/2079956443223269583
+Sources:
+- https://x.com/levie/status/2080471989060559336
 
 ---
 
-Nikunj Kothari (nikunj on X) — Partner at a16z
+## Garry Tan (@garrytan)
 
-a16z partner Nikunj Kothari was mostly in observation mode today — sharing a feed meme and a photo of Swiss train playgrounds.
-a16z 合伙人 Nikunj Kothari 今天主要处于观察模式——分享了一个关于自己信息流的梗图和一张瑞士火车游乐场的照片。
+Garry has been vocal about housing and regulatory reform in San Francisco and California, calling for repeal and reform of CEQA — the California Environmental Quality Act — which he says is routinely abused by NIMBYs to block housing construction everywhere in the state.
+Garry 大力呼吁旧金山和加州的住房建设与监管改革，要求废除和改革 CEQA（加州环境质量法），该法规被他批评为常被 NIMBY 人士滥用以阻碍加州各地住房建设。
 
-The only substantive investment note: commenting wryly on how "hot" Series A startups tend to see their second tranche priced at "tree fiddy M" — a sign of valuation gravity kicking in.
-唯一有实质内容的投资评论：他幽默地指出，"热门"A 轮初创公司的第二笔融资往往会被定价在"tree fiddy M"（暗指估值虚高后的回落）。
+He also weighed in on AI infrastructure: *"Open weight models are very very important"* — underscoring the strategic significance of open-source AI for the broader ecosystem.
+他还对 AI 基础设施发表了看法：*"开放权重模型非常非常重要"* ——强调开源 AI 对整个生态系统的战略意义。
 
-Source tweets:
-- https://x.com/nikunj/status/2080168083440750836
-- https://x.com/nikunj/status/2079953381443944866
-- https://x.com/nikunj/status/2079863675389702476
-
----
-
-Dan Shipper (danshipper on X) — CEO of Every
-
-Every CEO Dan Shipper is in active brand-exploration mode.
-Every CEO Dan Shipper 正积极探索品牌新方向。
-
-He shared new brand concept designs they're experimenting with at Every — inviting public feedback with *"wdyt"*.
-他分享了 Every 正在尝试的新品牌设计概念，并用 *"wdyt"* 公开征集反馈。
-
-He also shared what appears to be a new content discovery announcement (*"a new golden age of discovery dawns!"*) and dropped YouTube/Spotify links for a new episode of AI & I.
-他还发出了一条似乎关于内容发现的公告（*"a new golden age of discovery dawns!"*），并分享了 AI & I 新一集的 YouTube/Spotify 链接。
-
-Source tweets:
-- https://x.com/danshipper/status/2080089577134383426
-- https://x.com/danshipper/status/2079976974756294987
-- https://x.com/danshipper/status/2079954933554524518
+Sources:
+- https://x.com/garrytan/status/2080443154730553402
+- https://x.com/garrytan/status/2080364752778527195
+- https://x.com/garrytan/status/2080345524620914897
 
 ---
 
-Aditya Agarwal (adityaag on X) — Former CTO of Dropbox, investor
+## Matt Turck (@mattturck)
 
-Former Dropbox CTO Aditya Agarwal made a compelling argument about startup culture today.
-前 Dropbox CTO Aditya Agarwal 今天就创业公司文化发表了有力见解。
+Matt shared a sardonic take on VC culture: VCs react with disbelief when a founder raises for a profitable, bootstrapped business instead of burning hundreds of millions on compute for a neo-lab.
+Matt 调侃了 VC 文化：当创始人为一家盈利的自举企业融资，而不是为新型 AI 实验室烧掉数亿美元算力时，VC 们会露出难以置信的表情。
 
-Strategy gets all the attention, but *"Culture always eats strategy for breakfast."*
-战略总是备受关注，但 *"Culture always eats strategy for breakfast."*（文化永远是战略的克星）
+He also promoted his deep-dive podcast conversation with Cerebras CEO Andrew Feldman — covering fast inference, AI chips, and the next compute bottleneck — available on YouTube, Spotify, and Apple Podcasts.
+他还推广了自己与 Cerebras CEO Andrew Feldman 的深度播客对话，内容涵盖快速推理、AI 芯片和下一个算力瓶颈，可在 YouTube、Spotify 和 Apple Podcasts 收听。
 
-He explored what culture actually means for startups — where it comes from, how it gets created — positioning it as the true differentiator between companies that last and those that don't.
-他深入探讨了文化对初创公司的真正含义——它从哪里来、如何形成——将其定位为长寿公司与昙花一现公司之间的真正分水岭。
-
-Source tweet: https://x.com/adityaag/status/2079993986283123147
-
----
-
-Claude / Anthropic (claudeai on X) — Official Anthropic/Claude account
-
-Anthropic had a significant product announcement today: the Claude Security plugin for Claude Code is now available in beta.
-Anthropic 今天发布了重要产品公告：Claude Code 的 Claude Security 插件现已进入 Beta 版。
-
-Developers can now scan their code changes for vulnerabilities before committing, or run a full codebase scan — all directly from the terminal.
-开发者现在可以在提交代码前扫描漏洞，或对整个代码库进行全面扫描——所有操作均可直接在终端完成。
-
-They also announced that the Anthropic Economic Index is now available as a connector in Claude — users can turn it on from the connectors menu and access economic data in any conversation, while the full datasets remain free to download.
-他们还宣布 Anthropic 经济指数现已作为连接器在 Claude 中提供——用户可在连接器菜单中开启，在任何对话中访问经济数据，完整数据集仍可免费下载。
-
-Source tweets:
-- https://x.com/claudeai/status/2079990597973057691
-- https://x.com/claudeai/status/2079990599415922802
-- https://x.com/claudeai/status/2079979810881728759
+Sources:
+- https://x.com/mattturck/status/2080451010439352711
+- https://x.com/mattturck/status/2080333711640285549
+- https://x.com/mattturck/status/2080333707483725876
 
 ---
 
-PODCASTS
+## Nikunj Kothari (@nikunj)
+
+Nikunj pointed out a list of tech titles and buzzwords that have lost all signal due to overuse: "neo"-something, "full stack," "fellows," "labs," "partner," "forward deployed," and increasingly "RL."
+Nikunj 列出了一系列因滥用而失去含义的科技头衔和流行词：带"neo-"前缀的各种名称、"全栈"、"研究员"、"实验室"、"合伙人"、"前沿部署"，以及越来越普遍的"RL"。
+
+He acknowledged the irony himself — his firm runs a fellowship program and his own title is "partner."
+他也坦承其中的讽刺：他所在机构本身就有研究员项目，而他自己的头衔正是"合伙人"。
+
+Sources:
+- https://x.com/nikunj/status/2080293627784212933
 
 ---
 
-AI & I by Every — "How Every's Team Used AI to Ship Its Biggest Launch Ever"
+## Peter Steinberger (@steipete)
 
-Every's team pulled off their largest subscription revenue increase in company history with the Builder Pack launch — a $625/year tier bundling credits and access from OpenAI Codex, Cursor, Anthropic Claude Max, Framer, PostHog, Render, Notion, and more.
-Every 团队凭借 Builder Pack 的发布，实现了公司历史上最大的订阅收入增长——这是一个 625 美元/年的订阅层级，捆绑了来自 OpenAI Codex、Cursor、Anthropic Claude Max、Framer、PostHog、Render、Notion 等平台的积分和访问权限。
+Peter mentioned adding code paths that call the Claude CLI directly, describing it as a necessary workaround: *"hard to fight the system."*
+Peter 提到增加了直接调用 Claude CLI 的代码路径，将其描述为一种必要的权宜之计：*"很难与系统抗争。"*
 
-The episode is a behind-the-scenes deep dive with the team that built and launched it, covering how they used AI agents to execute the entire go-to-market — from email segmentation to video editing — almost autonomously.
-这集节目是与构建和发布该产品的团队进行的幕后深度对话，讲述了他们如何使用 AI Agent 几乎自主地执行整个市场推广——从邮件分群到视频剪辑。
-
-A standout story: Austin dropped a task into Codex before going to the gym, came back to find the agent had created four targeted email cohorts in Kit, written customized emails for each, run the copy through Spiral (their AI writing app), scheduled sends for the next morning — and those emails alone generated $25,000 in revenue.
-一个精彩案例：Austin 在去健身房前把任务丢给 Codex，回来发现 Agent 已在 Kit 中创建了四个目标邮件分组，为每组编写了定制化邮件，通过 Spiral（他们的 AI 写作应用）润色文案，并安排了次日早晨发送——这些邮件单独就带来了 25,000 美元的收入。
-
-The team also discussed their philosophy of "thick context, thin prompt" and "compound engineering" — building harnesses for agents that compound over time rather than one-shot prompting.
-团队还讨论了他们的"厚背景，薄提示"和"复合工程"哲学——为 Agent 构建随时间复利增值的工作框架，而不是一次性提示。
-
-Key recommendation from the team: *"The best time to start was a year ago. The second best time is right now."*
-团队的核心建议：*"The best time to start was a year ago. The second best time is right now."*（开始的最好时机是一年前，其次是现在。）
-
-Episode link: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Sources:
+- https://x.com/steipete/status/2080318789980201224
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+## Claude (@claudeai)
+
+Anthropic's Claude announced a significant upgrade to Voice Mode: it now runs on more capable models including Claude Opus and Sonnet, and can access tools connected in chat — like email and calendar — mid-conversation.
+Anthropic 旗下 Claude 宣布语音模式重大升级：现在支持包括 Claude Opus 和 Sonnet 在内的更强大模型，并可在对话过程中调用已连接的工具，如邮件和日历。
+
+Voice mode now supports more languages on every plan — including Spanish, French, Hindi, and Japanese — and the update is rolling out in public beta on mobile, desktop, and web.
+语音模式现已在所有订阅套餐中支持更多语言，包括西班牙语、法语、印地语和日语，公测版正陆续在移动端、桌面端和网页端推出。
+
+*"Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar."*
+*"语音对话现在可以使用你在聊天中拥有的更多模型，包括 Claude Opus 和 Sonnet。Claude 还能在对话过程中调用你连接的工具，如邮件和日历。"*
+
+Sources:
+- https://x.com/claudeai/status/2080376099268169943
+- https://x.com/claudeai/status/2080376096873177300
+- https://x.com/claudeai/status/2080376094939603366
+
+---
+
+## 🎙️ PODCAST: The MAD Podcast with Matt Turck
+
+**The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman**
+
+This episode is a masterclass in silicon strategy. Matt Turck interviews Andrew Feldman, cofounder and CEO of Cerebras, starting from first principles — what even is a wafer? — and building up to why the entire chip industry is reorganizing around inference speed.
+本期播客堪称芯片战略的大师课。Matt Turck 采访 Cerebras 联合创始人兼 CEO Andrew Feldman，从最基本的问题出发——什么是晶圆？——一路深入探讨整个芯片行业为何正围绕推理速度重新洗牌。
+
+**核心论点 / Central Thesis**
+
+The dominant metric in AI has shifted from training to inference, and specifically to *tokens per second per user*. Cerebras's wafer-scale chips — 58x larger than a GPU — are uniquely suited to this new bottleneck. The $20B+ OpenAI deal and the record semiconductor IPO validate a decade of contrarian bets.
+AI 的核心指标已从训练转向推理，具体而言是*每用户每秒 token 数*。Cerebras 的晶圆级芯片比 GPU 大 58 倍，恰好针对这一新瓶颈设计。超 200 亿美元的 OpenAI 合作协议和破纪录的半导体 IPO，验证了这十年来的逆势押注。
+
+**关键洞察 / Key Insights**
+
+- Speed matters because productive tokens are valuable tokens. Fast inference means more done per unit of time — and that directly translates to economic value.
+  速度之所以重要，是因为高效 token 就是有价值的 token。推理越快，单位时间内完成的工作越多——这直接转化为经济价值。
+
+- Cerebras solved a problem nobody in computing history had solved — and delivered it in 2020 to near-zero interest. *"Nobody cared. Nobody bought it."* The market wasn't ready for supply-side inference innovation until demand exploded.
+  Cerebras 解决了计算机史上无人攻克的难题，却在 2020 年交付时几乎无人问津。*"没人在乎，没人买单。"* 直到需求爆发，市场才真正准备好接受供给侧的推理创新。
+
+- CUDA is no longer a moat for NVIDIA, according to Feldman — inference workloads have different optimization requirements than training, and the ecosystem is diverging.
+  Feldman 认为，CUDA 对英伟达来说已不再是护城河——推理工作负载的优化需求与训练截然不同，生态正在分化。
+
+- There are three shortages nobody talks about beyond chips: memory bandwidth, networking fabric, and power delivery — all of which constrain inference at scale.
+  除了芯片，还有三个鲜被提及的短缺：内存带宽、网络互联结构和电力供应——这三者都在规模化推理中构成制约。
+
+- The wafer-scale approach works because it eliminates inter-chip communication latency. One giant chip beats a cluster of small chips for latency-sensitive inference tasks.
+  晶圆级方案有效，是因为它消除了芯片间通信延迟。对延迟敏感的推理任务而言，一颗巨型芯片优于一个小芯片集群。
+
+**深度总结 / Deep Summary**
+
+The episode traces the intellectual journey from "what is a wafer?" to a complete mental model of why AI inference infrastructure is being rebuilt from scratch. Feldman argues that somewhere around mid-2025, AI crossed a threshold from novelty to genuine utility — and at that point, speed became the dominant variable. Training tells you how smart the model is; inference tells you how fast it can be useful. Cerebras built for the latter when the world was still obsessed with the former.
+本期播客从"什么是晶圆"出发，带听众建立起一套完整的认知框架，理解为何 AI 推理基础设施正在从零重建。Feldman 指出，大约在 2025 年中期，AI 跨越了从新奇玩具到真正实用工具的门槛——从那一刻起，速度成为最核心的变量。训练决定模型有多聪明；推理决定模型能有多快被用起来。当世界还痴迷于前者时，Cerebras 已在为后者而构建。
+
+The "decade in the desert" narrative is compelling: Cerebras had the right answer, wrong timing. Now the timing has arrived, and they're positioned to capture inference infrastructure spend at scale.
+"沙漠中的十年"叙事引人深思：Cerebras 有正确的答案，却生不逢时。如今时机已到，他们正准备在规模化推理基础设施的竞争中大有作为。
+
+Source: https://www.youtube.com/@DataDrivenNYC/videos
