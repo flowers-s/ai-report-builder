@@ -1,231 +1,325 @@
-AI Builders 日报 · 2026-07-25
+AI Builders 日报 · 2026-07-26
+
+X / TWITTER
 
 ---
 
-## Swyx (@swyx)
+Swyx (swyx on X) — smol.ai / Cognition
 
-Swyx has been dogfooding an agentic GitHub clone for the past month, and says it's become quite enjoyable to use — complete with built-in CI/CD powered by Workers for Platforms.
-Swyx 已经自测使用了一个 AI 驱动的 GitHub 克隆项目约一个月，表示体验越来越好，还内置了基于 Workers for Platforms 的 CI/CD 流程。
+Swyx is building a new Google Suite alternative, frustrated by its "extremely stupid defaults."
+Swyx 正在开发一款新的 Google Suite 替代产品，原因是被其「极其愚蠢的默认设置」激怒了。
 
-He still has three more ideas to implement before it goes live, and is looking for collaborators interested in hacking on the project.
-他还有三个想法尚未实现，正在寻找感兴趣的开发者一起参与。
+SmolForge, his game development tool, just shipped 4 new features including customizable skins and spritesheet animations.
+他的游戏开发工具 SmolForge 刚刚发布了 4 项新功能，包括可自定义的皮肤和精灵表动画。
 
-He also highlighted Poolside AI's unusual openness — not only have they shipped an excellent small model that outperformed Thinking Machines at coding, but they're also publishing strong research papers and building community goodwill.
-他还赞扬了 Poolside AI 罕见的开放态度——不仅发布了超越 Thinking Machines 的小型编程模型，还持续输出高质量研究论文，赢得了社区好评。
-
-Sources:
-- https://x.com/swyx/status/2080500752183960017
-- https://x.com/swyx/status/2080387171723137440
+Source: https://x.com/swyx/status/2080750437133901925
+Source: https://x.com/swyx/status/2080705334587605122
 
 ---
 
-## Thibault Sottiaux (@thsottiaux)
+Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini
 
-Thibault playfully questioned whether ChatGPT Work should be renamed "ChatGPT Vibe," capturing the cultural shift in how people are using AI tools in the workplace.
-Thibault 调侃地问道：ChatGPT Work 是不是应该改名叫"ChatGPT Vibe"？折射出 AI 工具在职场使用方式的文化转变。
+Google's Gemini Spark feature is now live for all Google AI Pro subscribers in the US, expanding globally next.
+谷歌 Gemini Spark 功能现已向美国所有 Google AI Pro 订阅用户开放，接下来将向全球扩展。
 
-He highlighted ChatGPT's desktop voice mode — described as *"From Science Fiction to Science Reality"* — now available for hands-free working, inviting people to join the team building some of the coolest and most impactful technology.
-他重点推介了 ChatGPT 桌面语音模式，将其称为"从科幻到现实"，支持解放双手工作，并向有志之士发出加入团队的邀请。
+The demo use case: drop in a school calendar PDF and tell Gemini to automatically add every "No School" day to your Google Calendar.
+演示用例：上传学校日历 PDF，让 Gemini 自动将每个「不上课日」添加到你的 Google 日历中。
 
-*"Try it, and do your best work all while being away from that keyboard."* — ChatGPT Voice is now live in the desktop app.
-*"试一试吧，离开键盘也能做出最好的工作。"* —— ChatGPT 语音现已在桌面应用上线。
+*"Gemini does more than talk. It gets things done."*
+*「Gemini 不只是聊天，它能真正把事情搞定。」*
 
-Sources:
-- https://x.com/thsottiaux/status/2080543574211666029
-- https://x.com/thsottiaux/status/2080537149204758689
-- https://x.com/thsottiaux/status/2080408012515340394
+Source: https://x.com/joshwoodward/status/2080771183944073347
 
 ---
 
-## Peter Yang (@petergyang)
+Boris Cherny (bcherny on X) — Claude Code, Anthropic
 
-Peter is excited about the next evolution of ChatGPT Voice: spinning up multiple Voice threads simultaneously to simulate a full team talking to you and to each other.
-Peter 对 ChatGPT 语音的下一个进化方向充满期待：同时开启多个语音线程，模拟出一支团队与你同步交流。
+Opus 5 launches with a standout security property: it is Anthropic's least prompt-injectable model to date.
+Opus 5 发布，带来一项突出的安全特性：它是 Anthropic 迄今为止最难被提示注入攻击的模型。
 
-*"The next evolution is being able to spin up multiple ChatGPT Voice threads so I can have a full team talking to me and to each other."*
-*"下一步的进化是能够同时开启多个 ChatGPT 语音线程，让整个团队既能和我说话，也能互相交流。"*
+*"Across PI evals and red teaming, Opus 5 is very hard to prompt inject successfully."*
+*「在提示注入评估和红队测试中，Opus 5 极难被成功注入。」*
 
-He shared practical feedback: the UI should notify when background threads finish, and he noted the Chinese pronunciation quality needs improvement.
-他也提出了实际反馈：界面应在后台线程完成时给出通知；另外，他指出中文发音质量有待提升。
+When combining model alignment with prompt injection probes and Auto Mode in Claude Code, the success rate for prompt injection attacks drops to approximately zero — a genuinely new milestone.
+当将模型对齐、提示注入探测与 Claude Code 的 Auto 模式结合使用时，提示注入攻击的成功率接近于零——这是一个真正的里程碑。
 
-Sources:
-- https://x.com/petergyang/status/2080508139091427741
-- https://x.com/petergyang/status/2080505964936241226
-- https://x.com/petergyang/status/2080505108216111303
+Source: https://x.com/bcherny/status/2080713091688583312
 
 ---
 
-## Madhu Guru (@realmadhuguru)
+Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-Madhu drew a sharp parallel: *"Great builders understand the jagged frontier of AI models. Great leaders understand the jagged frontier of their people."*
-Madhu 犀利地类比道：*"优秀的创造者懂得 AI 模型的参差边界；优秀的领导者懂得人才的参差边界。"*
+ChatGPT Work is now available globally for all paid plans across mobile, web, and desktop.
+ChatGPT Work 现已在所有付费计划中全球上线，覆盖移动端、网页端和桌面端。
 
-He also shared insights from a conversation with a security leader at a public company following the GPT Sol incident, raising a critical question: how do you manage security for effectively infinite agents when identity and access management was designed for a finite number of employees?
-他还分享了与某上市公司安全负责人的对话——GPT Sol 事件之后，如何为数量近乎无限的 AI 智能体管理安全？而现有的身份和访问管理体系只是为有限数量的员工设计的。
+*"Puts a jetpack on your ChatGPT."*
+*「相当于给你的 ChatGPT 装上了喷气背包。」*
 
-One employee can now spin up hundreds of agents, fundamentally breaking assumptions underlying corporate security models.
-一名员工如今可以启动数百个 AI 智能体，从根本上打破了企业安全模型的基本假设。
-
-Sources:
-- https://x.com/realmadhuguru/status/2080460579966501257
-- https://x.com/realmadhuguru/status/2080315474093760714
+Source: https://x.com/thsottiaux/status/2080876712439747052
 
 ---
 
-## Amjad Masad (@amasad)
+Peter Yang (petergyang on X) — AI educator & content creator
 
-Amjad reported that Replit's autoscale deployments — typically the most expensive part of scaled apps — are now down 80% in cost.
-Amjad 报告称，Replit 的自动扩展部署成本（通常是规模化应用最昂贵的部分）已下降了 80%。
+Peter shared a genuine productivity insight: lying in bed and using ChatGPT Voice to do agentic work in Codex is surprisingly effective.
+Peter 分享了一个真实的效率体验：躺在床上用 ChatGPT 语音模式在 Codex 中做 AI 代理任务，效果出乎意料地好。
 
-His chess auto-research agent has effectively "gotten a PhD in modern LLM fine-tuning," showcasing the depth of autonomous research agents can achieve.
-他的国际象棋自动研究智能体已相当于"在现代 LLM 微调领域拿到了博士学位"，展示了自主研究智能体所能达到的深度。
+*"To do this well I think you have to remember the names of all your long running threads."*
+*「要用好这个，你得记住所有长期任务线程的名字。」*
 
-He also shared a success story: Viktor disrupted the agency model using Replit, then went further — building a fully autonomous agency by leveraging Replit's MCP, automating not just coding but the entire business loop.
-他还分享了一个成功案例：Viktor 用 Replit 颠覆了传统代理业务，并更进一步，借助 Replit 的 MCP 打造了完全自主运行的代理机构，不只是自动化代码，而是整个业务闭环。
+He also weighed in on the indie developer monetization challenge: pure software is now very hard to monetize — you need software plus something else, like services.
+他还就独立开发者的变现困境发表了看法：纯软件现在很难盈利——你需要软件加上其他东西，比如服务。
 
-Sources:
-- https://x.com/amasad/status/2080513361301925957
-- https://x.com/amasad/status/2080512523389005894
-- https://x.com/amasad/status/2080371567221944657
+Source: https://x.com/petergyang/status/2080793867960643823
+Source: https://x.com/petergyang/status/2080669643577176573
 
 ---
 
-## Guillermo Rauch (@rauchg)
+Madhu Guru (realmadhuguru on X) — Sr Director of AI, Meta (prev. Google Gemini/Veo)
 
-Guillermo announced that Python code now starts 2x faster on Vercel — automatically, with no configuration required.
-Guillermo 宣布：Python 代码在 Vercel 上的启动速度提升了 2 倍，无需任何配置，自动生效。
+There is a massive opportunity for people who can take messy real-world workflows and adapt foundation models to them.
+对于那些能将混乱的真实工作流程与基础模型相结合的人来说，存在着巨大的机会。
 
-He also highlighted continued rapid improvements in Vercel's AI Gateway: *"Unreal product velocity from the team."*
-他还称赞了 Vercel AI Gateway 的持续快速迭代：*"团队的产品速度令人难以置信。"*
+*"That skillset is still concentrated in a handful of labs."*
+*「这种能力目前仍集中在少数几个实验室中。」*
 
-Sources:
-- https://x.com/rauchg/status/2080454509508387251
-- https://x.com/rauchg/status/2080344136625049690
+The required skillset: understanding how work actually gets done, designing evals, improving models through post-training, and building continuous feedback loops — the path from general-purpose to exceptional-for-a-domain.
+所需技能包括：深入理解工作的实际运作方式、设计评估体系、通过后训练改进模型、构建持续反馈循环——这是从通用模型走向垂直领域卓越模型的路径。
 
----
-
-## Aaron Levie (@levie)
-
-Aaron offered a clear framework for thinking about AI's value: it acts as a force multiplier for fields you already know, or for domains you want to learn.
-Aaron 提供了一个清晰的 AI 价值框架：AI 是你已掌握领域的倍增器，也是你想快速学习新领域的加速器。
-
-*"The best way to think about AI is as a force multiplier for the fields you already know about (or for the rate at which you want to learn about a new one)."*
-*"理解 AI 的最佳方式是把它看作你现有专业知识的力量倍增器（或者你想涉足新领域的学习加速器）。"*
-
-He warned that using AI with no existing judgment and no willingness to develop any will basically produce slop and won't drive meaningful economic value.
-他警告说，毫无判断力也不愿意培养判断力地使用 AI，基本上只会产出垃圾，不会创造真正的经济价值。
-
-Sources:
-- https://x.com/levie/status/2080471989060559336
+Source: https://x.com/realmadhuguru/status/2080707454422413487
 
 ---
 
-## Garry Tan (@garrytan)
+Cat Wu (_catwu on X) — Claude Code + Cowork, Anthropic
 
-Garry has been vocal about housing and regulatory reform in San Francisco and California, calling for repeal and reform of CEQA — the California Environmental Quality Act — which he says is routinely abused by NIMBYs to block housing construction everywhere in the state.
-Garry 大力呼吁旧金山和加州的住房建设与监管改革，要求废除和改革 CEQA（加州环境质量法），该法规被他批评为常被 NIMBY 人士滥用以阻碍加州各地住房建设。
+Claude Opus 5 excels at long-running autonomous work.
+Claude Opus 5 在长时间运行的自主任务中表现出色。
 
-He also weighed in on AI infrastructure: *"Open weight models are very very important"* — underscoring the strategic significance of open-source AI for the broader ecosystem.
-他还对 AI 基础设施发表了看法：*"开放权重模型非常非常重要"* ——强调开源 AI 对整个生态系统的战略意义。
+The team invites users to try it and share feedback.
+团队邀请用户尝试并分享反馈。
 
-Sources:
-- https://x.com/garrytan/status/2080443154730553402
-- https://x.com/garrytan/status/2080364752778527195
-- https://x.com/garrytan/status/2080345524620914897
+Source: https://x.com/_catwu/status/2080707593115516985
 
 ---
 
-## Matt Turck (@mattturck)
+Thariq (trq212 on X) — Claude Code, Anthropic
 
-Matt shared a sardonic take on VC culture: VCs react with disbelief when a founder raises for a profitable, bootstrapped business instead of burning hundreds of millions on compute for a neo-lab.
-Matt 调侃了 VC 文化：当创始人为一家盈利的自举企业融资，而不是为新型 AI 实验室烧掉数亿美元算力时，VC 们会露出难以置信的表情。
+The Claude Code team removed ~80% of the system prompt for their newest models — a major architectural shift.
+Claude Code 团队为最新模型移除了约 80% 的系统提示——这是一次重大的架构变革。
 
-He also promoted his deep-dive podcast conversation with Cerebras CEO Andrew Feldman — covering fast inference, AI chips, and the next compute bottleneck — available on YouTube, Spotify, and Apple Podcasts.
-他还推广了自己与 Cerebras CEO Andrew Feldman 的深度播客对话，内容涵盖快速推理、AI 芯片和下一个算力瓶颈，可在 YouTube、Spotify 和 Apple Podcasts 收听。
+Their learnings on writing system prompts, skills, and CLAUDE.md files for the new generation of models are now documented on the Claude Blog.
+他们关于为新一代模型编写系统提示、技能和 CLAUDE.md 文件的经验教训，现已发布在 Claude 博客上。
 
-Sources:
-- https://x.com/mattturck/status/2080451010439352711
-- https://x.com/mattturck/status/2080333711640285549
-- https://x.com/mattturck/status/2080333707483725876
+Opus 5 rounds out the Claude 5 family — Thariq recommends pairing it with Fable for planning, brainstorming, or debugging the hardest bugs.
+Opus 5 完善了 Claude 5 系列——Thariq 建议将其与 Fable 配合使用，用于规划、头脑风暴或调试最棘手的 bug。
 
----
-
-## Nikunj Kothari (@nikunj)
-
-Nikunj pointed out a list of tech titles and buzzwords that have lost all signal due to overuse: "neo"-something, "full stack," "fellows," "labs," "partner," "forward deployed," and increasingly "RL."
-Nikunj 列出了一系列因滥用而失去含义的科技头衔和流行词：带"neo-"前缀的各种名称、"全栈"、"研究员"、"实验室"、"合伙人"、"前沿部署"，以及越来越普遍的"RL"。
-
-He acknowledged the irony himself — his firm runs a fellowship program and his own title is "partner."
-他也坦承其中的讽刺：他所在机构本身就有研究员项目，而他自己的头衔正是"合伙人"。
-
-Sources:
-- https://x.com/nikunj/status/2080293627784212933
+Source: https://x.com/trq212/status/2080710971228918066
+Source: https://x.com/trq212/status/2080711577867845645
+Source: https://x.com/trq212/status/2080703339306913985
 
 ---
 
-## Peter Steinberger (@steipete)
+Amjad Masad (amasad on X) — CEO, Replit
 
-Peter mentioned adding code paths that call the Claude CLI directly, describing it as a necessary workaround: *"hard to fight the system."*
-Peter 提到增加了直接调用 Claude CLI 的代码路径，将其描述为一种必要的权宜之计：*"很难与系统抗争。"*
+Amjad flagged an important open-source AI policy debate: calling on Anthropic to publicly clarify its position on banning open-weight models, as many in the industry are signing a letter in support of open weights.
+Amjad 提出了一个重要的开源 AI 政策争论：呼吁 Anthropic 公开表明其对禁止开放权重模型的立场，目前业界已有许多人签署了一封支持开放权重的公开信。
 
-Sources:
-- https://x.com/steipete/status/2080318789980201224
+*"If you work at Anthropic worth asking your leadership to sign or make their position clear: Are they for banning open weight models?"*
+*「如果你在 Anthropic 工作，值得去问问你的领导是否愿意签名，或者表明他们的立场：他们支持禁止开放权重模型吗？」*
 
----
+He also commented that VCs passing on Etched early was perplexing, and is glad the industry is catching up — noting early believers get less dilution.
+他还评论说，早期 VC 错过 Etched 令他困惑，很高兴行业正在跟上——并指出早期投资者的股权稀释更少。
 
-## Claude (@claudeai)
-
-Anthropic's Claude announced a significant upgrade to Voice Mode: it now runs on more capable models including Claude Opus and Sonnet, and can access tools connected in chat — like email and calendar — mid-conversation.
-Anthropic 旗下 Claude 宣布语音模式重大升级：现在支持包括 Claude Opus 和 Sonnet 在内的更强大模型，并可在对话过程中调用已连接的工具，如邮件和日历。
-
-Voice mode now supports more languages on every plan — including Spanish, French, Hindi, and Japanese — and the update is rolling out in public beta on mobile, desktop, and web.
-语音模式现已在所有订阅套餐中支持更多语言，包括西班牙语、法语、印地语和日语，公测版正陆续在移动端、桌面端和网页端推出。
-
-*"Voice conversations now use more of the models you have in chat, including Claude Opus and Sonnet. Claude can also reach the tools you've connected mid-conversation, like your email and calendar."*
-*"语音对话现在可以使用你在聊天中拥有的更多模型，包括 Claude Opus 和 Sonnet。Claude 还能在对话过程中调用你连接的工具，如邮件和日历。"*
-
-Sources:
-- https://x.com/claudeai/status/2080376099268169943
-- https://x.com/claudeai/status/2080376096873177300
-- https://x.com/claudeai/status/2080376094939603366
+Source: https://x.com/amasad/status/2080850075358826871
+Source: https://x.com/amasad/status/2080864869130416320
 
 ---
 
-## 🎙️ PODCAST: The MAD Podcast with Matt Turck
+Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-**The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman**
+Guillermo is enthusiastic about the Figma2React workflow, calling it simply "good."
+Guillermo 对 Figma2React 工作流程表示赞赏，简洁地评价为「好用」。
 
-This episode is a masterclass in silicon strategy. Matt Turck interviews Andrew Feldman, cofounder and CEO of Cerebras, starting from first principles — what even is a wafer? — and building up to why the entire chip industry is reorganizing around inference speed.
-本期播客堪称芯片战略的大师课。Matt Turck 采访 Cerebras 联合创始人兼 CEO Andrew Feldman，从最基本的问题出发——什么是晶圆？——一路深入探讨整个芯片行业为何正围绕推理速度重新洗牌。
+He is pushing for more ambition in the ecosystem, reacting to a post with "Where's the ambition!"
+他在推动生态系统中更大的雄心，对一篇帖子回应道：「雄心在哪里！」
 
-**核心论点 / Central Thesis**
+Source: https://x.com/rauchg/status/2080646549336678597
+Source: https://x.com/rauchg/status/2080714333793972498
 
-The dominant metric in AI has shifted from training to inference, and specifically to *tokens per second per user*. Cerebras's wafer-scale chips — 58x larger than a GPU — are uniquely suited to this new bottleneck. The $20B+ OpenAI deal and the record semiconductor IPO validate a decade of contrarian bets.
-AI 的核心指标已从训练转向推理，具体而言是*每用户每秒 token 数*。Cerebras 的晶圆级芯片比 GPU 大 58 倍，恰好针对这一新瓶颈设计。超 200 亿美元的 OpenAI 合作协议和破纪录的半导体 IPO，验证了这十年来的逆势押注。
+---
 
-**关键洞察 / Key Insights**
+Alex Albert (alexalbert__ on X) — Research, Anthropic
 
-- Speed matters because productive tokens are valuable tokens. Fast inference means more done per unit of time — and that directly translates to economic value.
-  速度之所以重要，是因为高效 token 就是有价值的 token。推理越快，单位时间内完成的工作越多——这直接转化为经济价值。
+Opus 5 now produces near-superhuman spreadsheets and slide decks that match consultant-level quality — just six months after the previous model generation.
+Opus 5 现在能生成接近超人水平的电子表格和幻灯片，达到咨询顾问级别的质量——距上一代模型发布仅六个月。
 
-- Cerebras solved a problem nobody in computing history had solved — and delivered it in 2020 to near-zero interest. *"Nobody cared. Nobody bought it."* The market wasn't ready for supply-side inference innovation until demand exploded.
-  Cerebras 解决了计算机史上无人攻克的难题，却在 2020 年交付时几乎无人问津。*"没人在乎，没人买单。"* 直到需求爆发，市场才真正准备好接受供给侧的推理创新。
+*"Things are changing fast."*
+*「变化的速度太快了。」*
 
-- CUDA is no longer a moat for NVIDIA, according to Feldman — inference workloads have different optimization requirements than training, and the ecosystem is diverging.
-  Feldman 认为，CUDA 对英伟达来说已不再是护城河——推理工作负载的优化需求与训练截然不同，生态正在分化。
+Alex highlights that the team put significant work into making Opus 5 token-efficient across domains while still raising the intelligence bar, and that he personally prefers it over Fable 5 for many coding tasks.
+Alex 强调团队付出了大量努力，使 Opus 5 在各领域保持 token 高效性，同时进一步提升智能水准，他个人在很多编程任务中更喜欢使用 Opus 5 而非 Fable 5。
 
-- There are three shortages nobody talks about beyond chips: memory bandwidth, networking fabric, and power delivery — all of which constrain inference at scale.
-  除了芯片，还有三个鲜被提及的短缺：内存带宽、网络互联结构和电力供应——这三者都在规模化推理中构成制约。
+Source: https://x.com/alexalbert__/status/2080731979528679617
+Source: https://x.com/alexalbert__/status/2080703118086693121
+Source: https://x.com/alexalbert__/status/2080702002120757562
 
-- The wafer-scale approach works because it eliminates inter-chip communication latency. One giant chip beats a cluster of small chips for latency-sensitive inference tasks.
-  晶圆级方案有效，是因为它消除了芯片间通信延迟。对延迟敏感的推理任务而言，一颗巨型芯片优于一个小芯片集群。
+---
 
-**深度总结 / Deep Summary**
+Aaron Levie (levie on X) — CEO, Box
 
-The episode traces the intellectual journey from "what is a wafer?" to a complete mental model of why AI inference infrastructure is being rebuilt from scratch. Feldman argues that somewhere around mid-2025, AI crossed a threshold from novelty to genuine utility — and at that point, speed became the dominant variable. Training tells you how smart the model is; inference tells you how fast it can be useful. Cerebras built for the latter when the world was still obsessed with the former.
-本期播客从"什么是晶圆"出发，带听众建立起一套完整的认知框架，理解为何 AI 推理基础设施正在从零重建。Feldman 指出，大约在 2025 年中期，AI 跨越了从新奇玩具到真正实用工具的门槛——从那一刻起，速度成为最核心的变量。训练决定模型有多聪明；推理决定模型能有多快被用起来。当世界还痴迷于前者时，Cerebras 已在为后者而构建。
+Box tested Claude Opus 5 against their Complex Work Eval (an agentic benchmark for real enterprise document work), and saw meaningful gains: due diligence +17%, Life Sciences +30%, Legal +12%, Technology +19%, Healthcare +13%.
+Box 针对其 Complex Work Eval（用于真实企业文档工作的代理基准测试）测试了 Claude Opus 5，取得了显著提升：尽职调查 +17%，生命科学 +30%，法律 +12%，科技 +19%，医疗保健 +13%。
 
-The "decade in the desert" narrative is compelling: Cerebras had the right answer, wrong timing. Now the timing has arrived, and they're positioned to capture inference infrastructure spend at scale.
-"沙漠中的十年"叙事引人深思：Cerebras 有正确的答案，却生不逢时。如今时机已到，他们正准备在规模化推理基础设施的竞争中大有作为。
+*"The reasoning, analytical, and data processing skills of Opus 5 outshine Opus 4.8 meaningfully."*
+*「Opus 5 的推理、分析和数据处理能力明显优于 Opus 4.8。」*
 
-Source: https://www.youtube.com/@DataDrivenNYC/videos
+Aaron also strongly supports the open weights movement: he argues open vs. closed is not zero-sum, that open weights accelerates AI diffusion across the economy, enables domain-specific fine-tuning, and drives innovation across the entire industry.
+Aaron 还强烈支持开放权重运动：他认为开放与封闭并非零和博弈，开放权重加速了 AI 在经济中的普及，支持特定领域的微调，并推动整个行业的创新。
+
+Source: https://x.com/levie/status/2080704871934931221
+Source: https://x.com/levie/status/2080675210991443982
+Source: https://x.com/levie/status/2080761484305654091
+
+---
+
+Garry Tan (garrytan on X) — President & CEO, Y Combinator
+
+Garry shared a thought-provoking historical data point: how fast a country adopted new technology over the last 200 years accounts for at least 25% of why nations are rich or poor today.
+Garry 分享了一个发人深省的历史数据点：过去 200 年中一个国家采用新技术的速度，至少占据其今日贫富差距原因的 25%。
+
+*"The Ottomans got the printing press eventually but eventually cost them a lot."*
+*「奥斯曼帝国最终也用上了印刷机，但'最终'这两个字让他们付出了沉重代价。」*
+
+On AI productivity, he delivered a sobering reality check: macro productivity gains require managers and CEOs to greenlight radically different staffing and workflow plans — and so far, they haven't done it.
+关于 AI 生产力，他给出了一个清醒的现实评估：宏观生产力的提升需要管理者和 CEO 批准截然不同的人员配置和工作流程方案——而迄今为止，他们并没有这样做。
+
+*"Be prepared for this to take 10 years not 2."*
+*「做好心理准备，这件事需要 10 年，而不是 2 年。」*
+
+Source: https://x.com/garrytan/status/2080849953413541982
+Source: https://x.com/garrytan/status/2080699367883980924
+
+---
+
+Matt Turck (mattturck on X) — VC, FirstMark Capital
+
+Matt flagged a big week in model routing: Stripe is rumored to acquire OpenRouter for $10B, Cursor Router and Runway Router both announced, plus routers appearing at Databricks, Vercel, Cloudflare, AWS, and Google.
+Matt 指出这是模型路由领域的重要一周：Stripe 据传将以 100 亿美元收购 OpenRouter，Cursor Router 和 Runway Router 相继发布，此外 Databricks、Vercel、Cloudflare、AWS 和 Google 也都出现了路由产品。
+
+He also surfaced an under-discussed irony: the world's top AI researchers are actively researching their way out of their own jobs as they build recursive auto-research systems.
+他还提出了一个鲜少被讨论的悖论：世界顶级 AI 研究员们正在积极地通过研究来消灭自己的工作——因为他们正在构建递归式的自动研究系统。
+
+Source: https://x.com/mattturck/status/2080645582209663049
+Source: https://x.com/mattturck/status/2080738638065729741
+
+---
+
+Zara Zhang (zarazhangrui on X) — Builder / Follow-Builders creator
+
+Zara's top product request for any model right now is simply: speed.
+Zara 目前对任何模型的首要产品需求是：速度。
+
+*"Intelligence is already good enough. But waiting 1-5 min per task is the worst possible window: too short for deep work, too long to just stare at the screen."*
+*「智能已经足够好了。但每个任务等待 1-5 分钟是最糟糕的体验区间：太短而无法进行深度思考，太长而只能盯着屏幕发呆。」*
+
+She also made a sharp observation on the future of work: if you bring your agent into chat groups and meetings, chat history and meeting transcripts become PRDs — and verbal communicators finally get an equal shot because agents don't care about medium.
+她还对工作的未来做出了一个敏锐的观察：如果你将 AI 代理引入聊天群和会议，聊天记录和会议记录就成了 PRD——而口头表达能力强的人终于得到了平等的机会，因为代理不在乎沟通媒介。
+
+Source: https://x.com/zarazhangrui/status/2080829737044439444
+Source: https://x.com/zarazhangrui/status/2080617484261249160
+
+---
+
+Dan Shipper (danshipper on X) — CEO, Every
+
+Dan published a nuanced Day-0 vibe check on Claude Opus 5, based on a week of internal testing at Every across coding, writing, knowledge work, and their internal agent.
+Dan 发布了一篇基于 Every 团队一周内部测试的 Claude Opus 5 Day-0 体验评测，涵盖编程、写作、知识工作和内部代理。
+
+Key findings: Opus 5 breaks backward compatibility with existing skills and workflows — it often stops early or ignores instructions.
+核心发现：Opus 5 破坏了与现有技能和工作流程的向后兼容性——它经常提前停止或忽略指令。
+
+*"Without the elaborate workflows we had built for earlier models, Opus 5 got dramatically better."*
+*「在去掉为早期模型构建的复杂工作流程后，Opus 5 的表现显著提升了。」*
+
+He found medium or low thinking effort works better than max — more thinking time seems to make the annoying behaviors worse.
+他发现中等或低思考力度的效果优于最大值——更多的思考时间似乎会放大那些令人烦躁的行为。
+
+His current mental model: Opus 5 has Fable's personality without Fable's top-end genius, leaving it in a strange middle ground — he'll use it mostly when he runs out of Fable tokens.
+他目前的定位：Opus 5 有 Fable 的个性，但没有 Fable 的顶尖才华，处于一个奇怪的中间地带——他主要会在 Fable token 用完时才用它。
+
+Source: https://x.com/danshipper/status/2080700057892815114
+
+---
+
+Sam Altman (sama on X) — CEO, OpenAI
+
+Sam expressed support for the US winning in AI in both open source and proprietary models, endorsing a letter or initiative on this front.
+Sam 表达了对美国在开源和专有模型领域双双取得 AI 胜利的支持，为相关倡议背书。
+
+He also teased OpenAI's new "pro-ultra-superhard" tier, inviting users to share their thoughts.
+他还预告了 OpenAI 新的「pro-ultra-superhard」套餐，邀请用户分享看法。
+
+Source: https://x.com/sama/status/2080683363174945065
+Source: https://x.com/sama/status/2080683119959757243
+
+---
+
+Peter Steinberger (steipete on X) — ClawFather / AI builder
+
+Peter hit a new record with his autoreview skill: 66 rounds on a gnarly refactor.
+Peter 用他的自动代码审查技能创下了新纪录：在一次复杂的代码重构中运行了 66 轮。
+
+Apparently he may now also be a graph engineer.
+看来他现在可能也成了一名图数据库工程师。
+
+Source: https://x.com/steipete/status/2080899298838098034
+
+---
+
+Claude (claudeai on X) — Anthropic's official account
+
+Claude Opus 5 is available today on all paid plans and the Claude API, priced the same as Opus 4.8.
+Claude Opus 5 今日起在所有付费方案和 Claude API 上线，价格与 Opus 4.8 相同。
+
+It is the default model on Claude Max, the strongest on Claude Pro, and also offered in Fast mode running at approximately 2.5× the default speed.
+它是 Claude Max 的默认模型，是 Claude Pro 上最强的模型，同时提供 Fast 模式，速度约为默认模式的 2.5 倍。
+
+According to Anthropic's automated behavioral audit, Opus 5 is their most aligned model to date — showing the lowest rates of reckless or deceptive behavior and the strongest adherence to Claude's Constitution.
+根据 Anthropic 的自动化行为审计，Opus 5 是迄今为止其最符合价值观对齐的模型——表现出最低的鲁莽或欺骗行为发生率，以及对 Claude 宪法最强的遵守程度。
+
+On cybersecurity, Opus 5 is stronger than Opus 4.8 but remains substantially behind Mythos 5 at developing exploits — its safeguards allow vulnerability identification while blocking high-risk uses.
+在网络安全方面，Opus 5 比 Opus 4.8 更强，但在开发漏洞利用方面仍明显落后于 Mythos 5——其安全机制允许漏洞识别，同时阻止高风险用途。
+
+Source: https://x.com/claudeai/status/2080699515271528827
+Source: https://x.com/claudeai/status/2080699512205537648
+Source: https://x.com/claudeai/status/2080699508401328462
+
+---
+
+PODCASTS
+
+No Priors — Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang
+
+DoorDash has quietly been a robotics company since 2018 — long before it was obvious autonomy would matter.
+DoorDash 自 2018 年起便悄然成为一家机器人公司——早在自动驾驶技术的价值被广泛认可之前。
+
+Co-founders Andy Fang and Stanley Tang explain how they concluded no one was building the right delivery robot: not the slow sidewalk robots (too slow for 3-5 mile deliveries), not the robotaxis (4,000-lb vehicles designed for people, not burritos).
+联合创始人 Andy Fang 和 Stanley Tang 解释了他们为何得出结论：没有人在构建正确的配送机器人——缓慢的人行道机器人（速度太慢，无法完成 3-5 英里的配送）不行，Robotaxi（为运人而非送外卖设计的 4000 磅车辆）也不行。
+
+So DoorDash built DoorDash DOT in-house: a 300-lb, 20 mph robot that navigates both sidewalks and bike lanes, now operating fully autonomously (L4) in Phoenix for over two years.
+于是 DoorDash 自研了 DoorDash DOT：一个重 300 磅、时速 20 英里的机器人，可在人行道和自行车道上行驶，目前已在凤凰城以完全自动驾驶（L4）级别运营超过两年。
+
+On agentic commerce, their "Ask DoorDash" AI feature is driving real behavior change: 50% of trajectories lead users to order from restaurants they've never tried before, and grocery basket sizes are 40% larger.
+在 AI 代理商务方面，他们的「Ask DoorDash」AI 功能正在推动真实的用户行为变化：50% 的使用路径让用户从未尝试过的餐厅下单，杂货购物篮的金额也增加了 40%。
+
+Stanley predicts that in ten years, DoorDash will have more Dashers doing deliveries — not fewer — because autonomous delivery will unlock so much new demand that the network will need every modality it can find.
+Stanley 预测，十年后 DoorDash 将拥有更多而非更少的 Dasher——因为自动配送将释放大量新需求，整个网络将需要它能找到的每一种配送方式。
+
+They also discuss their DashBench coding benchmark, AI spend growing 20× from January to June 2026, and the challenge of getting step-function improvements in non-coding functions like accounting and analytics.
+他们还讨论了 DashBench 编程基准测试、AI 支出从 2026 年 1 月到 6 月增长了 20 倍，以及在会计和分析等非编程职能中获得阶跃式改进所面临的挑战。
+
+https://www.youtube.com/watch?v=vNpcg_Ma-FA
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
