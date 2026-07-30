@@ -1,243 +1,170 @@
-AI Builders 日报 · 2026-07-29
+AI Builders 日报 · 2026-07-30
 
 ---
 
-X / TWITTER
+## Swyx (@swyx)
+
+The AI job market is experiencing a dramatic bifurcation right now.
+AI 就业市场目前正在经历剧烈的两极分化。
+
+AI-native individual contributors and player-coaches are in huge demand, while "Head of X" manager roles are in steep decline.
+AI 原生的个人贡献者和"打工队长"型人才极为抢手，而传统"X 负责人"管理职位则急剧萎缩。
+
+One year of experience managing 10 agents is now worth more than 10 years of managing 10–100 people.
+管理 10 个 AI Agent 一年的经验，如今已超过管理 10–100 人十年的经验价值。
+
+Swyx also pointed to an Edison-style story on @latentspacepod worth checking out if you follow the trend skeptically.
+Swyx 还推荐了 @latentspacepod 上一段关于 Edison 的故事，值得持怀疑态度的人去聆听。
+
+Sources:
+- https://x.com/swyx/status/2082199414656127010
+- https://x.com/swyx/status/2082255848492183583
+- https://x.com/swyx/status/2082287480687272053
 
 ---
 
-Swyx (swyx on X)
+## Thibault Sottiaux (@thsottiaux) · OpenAI, Codex & ChatGPT
 
-The cost metric of AI has fundamentally shifted — pricing per token is dead.
-AI 的成本衡量方式已发生根本转变——按 token 计费的时代已经终结。
+OpenAI reset usage limits for all ChatGPT Work and Codex users today.
+OpenAI 今天重置了所有 ChatGPT Work 和 Codex 用户的使用限额。
 
-Swyx argues that "$ per input/output tokens died as a relevant cost measure sometime last year," and that the only meaningful unit now is cost-per-task.
-Swyx 指出，"按输入/输出 token 计费作为相关成本衡量标准在去年某个时候已经消亡"，现在唯一有意义的单位是每任务成本。
+The reset addresses complaints that GPT-5.6 Sol was draining Codex limits faster than users expected.
+此次重置是为了应对用户反映 GPT-5.6 Sol 消耗 Codex 配额速度超出预期的问题。
 
-He also reflects on his "agent lab thesis" — noting that despite Claude Code's accidental open-sourcing, competitors' roadmaps barely moved, which he sees as the strongest argument against his own theory.
-他还回顾了自己的"Agent 实验室论点"——指出尽管 Claude Code 意外开源，竞争对手的产品路线图几乎未受影响，这在他看来是对自己理论最有力的反驳。
+OpenAI also open-sourced a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in code.
+OpenAI 同时开源了一套 CLI 和 TypeScript SDK，用于发现、验证并修复代码中的安全漏洞。
 
-Source: https://x.com/swyx/status/2081904230768816487
-Source: https://x.com/swyx/status/2081890955070980416
+The security tool supports scanning repositories, reviewing changes, tracking findings over time, and running checks in CI pipelines.
+该安全工具支持扫描代码仓库、审查变更、持续追踪发现结果，并在 CI 流程中运行检查。
 
----
-
-Thibault Sottiaux (thsottiaux on X) — OpenAI ChatGPT/Codex
-
-ChatGPT Work and Codex have hit a milestone worth celebrating: usage limits reset for all paid users.
-ChatGPT Work 和 Codex 达到了值得庆祝的里程碑：所有付费用户的使用限额已重置。
-
-Thibault, who works on ChatGPT and Codex at OpenAI, announced that Codex and ChatGPT Work usage limits have been reset for paid users — signaling strong adoption momentum.
-Thibault 在 OpenAI 负责 ChatGPT 和 Codex，宣布已为付费用户重置 Codex 与 ChatGPT Work 的使用限额——这标志着产品采用势头强劲。
-
-He also briefly stepped away from X to recharge, teasing more ChatGPT and Codex content ahead: "It's going to be a fun week."
-他也短暂离开 X 休息充电，并预告了更多 ChatGPT 和 Codex 内容："这将是精彩的一周。"
-
-Source: https://x.com/thsottiaux/status/2081940052154933696
-Source: https://x.com/thsottiaux/status/2081899343091843463
+Sources:
+- https://x.com/thsottiaux/status/2082317452755751098
+- https://x.com/thsottiaux/status/2082241164850364555
+- https://x.com/thsottiaux/status/2082326593532473523
 
 ---
 
-Peter Yang (petergyang on X) — Creator/AI Educator
+## Peter Yang (@petergyang)
 
-Codex is already doing fully autonomous multi-step work loops in the wild.
-Codex 已经在实际场景中完成全自主的多步骤工作循环。
+Peter built "Tastemaker," a personal taste curation app for movies, TV shows, and games — because IMDb is clunky and Letterboxd doesn't cover games.
+Peter 构建了"Tastemaker"，一款用于电影、剧集和游戏品味管理的应用——因为 IMDb 不够好用，而 Letterboxd 又不支持游戏。
 
-Peter shared a striking story from Jason (DevEx at OpenAI): while on a bike ride, Jason used Codex via phone to edit a launch video remotely, export it to Slack, and then set it to check the thread every 30 minutes for feedback — iterating to V4 before he even got home.
-Peter 分享了 OpenAI DevEx 工程师 Jason 的精彩案例：Jason 骑车途中用手机连接 Codex，远程编辑发布视频并上传到 Slack，随后设置 Codex 每 30 分钟检查一次线程反馈——回到家时视频已迭代到 V4 并获得通过。
+He walked through his full product process: writing a design.md spec, prototyping with Claude Design, and building/iterating with Claude Code — all with hands barely touching the keyboard.
+他分享了完整的产品流程：编写 design.md 规格说明、用 Claude Design 做原型、用 Claude Code 构建迭代——全程几乎不用手动敲键盘。
 
-This illustrates how agentic coding tools are moving from assistant to autonomous collaborator.
-这生动说明了 AI 编程工具正从助手演变为自主协作者。
+Peter also noted valid criticisms of Codex circulating online, and highlighted confusion around why Sol Pro isn't available in Codex.
+Peter 也提到了网上对 Codex 的有效批评，并指出为何 Sol Pro 未在 Codex 中开放仍令人困惑。
 
-Source: https://x.com/petergyang/status/2081775399097549083
-
----
-
-Nan Yu (thenanyu on X) — AI Builder
-
-Nan makes a pointed observation about AI companies selling picks-and-shovels to their own competitors.
-Nan 对 AI 公司向自身竞争对手销售基础工具发表了一针见血的观察。
-
-"If you have very smart people, you should have them make your own product very good and nice to use" — rather than dedicating their talents to building infrastructure that competitors will also use.
-"如果你拥有非常聪明的人，应该让他们把自己的产品做得非常好用"——而不是将他们的才能投入到竞争对手同样可以使用的基础设施建设中。
-
-Source: https://x.com/thenanyu/status/2081768780045156358
+Sources:
+- https://x.com/petergyang/status/2082254840655405293
+- https://x.com/petergyang/status/2082254852600873376
+- https://x.com/petergyang/status/2082323512069685575
 
 ---
 
-Madhu Guru (realmadhuguru on X) — Product Leader
+## Madhu Guru (@realmadhuguru) · Meta AI
 
-Most product review meetings have drifted far from their original purpose.
-大多数产品评审会议已经严重偏离了其初衷。
+In a humorous but telling observation, Madhu spotted a software engineer at work coding entirely by hand — no Claude, no Wispr, no Tab key completion.
+在一个幽默却颇具意味的观察中，Madhu 看到了一位工程师在完全靠手工写代码——没有 Claude，没有 Wispr，也没有 Tab 补全。
 
-Madhu argues that the best product reviews "compress months of learnings into an hour by simulating the market reaction to your ideas" — but only when the room has deep domain expertise, great product sense, and strong opinions.
-Madhu 认为，最好的产品评审能够"通过模拟市场对你的想法的反应，将数月的学习压缩进一个小时"——但前提是与会者具备深厚的领域知识、出色的产品嗅觉和鲜明的观点。
+The post went viral as a commentary on how rare "bare-hands" coding has become in the AI era.
+这条推文迅速走红，折射出在 AI 时代"裸手编程"变得多么罕见。
 
-When reviews devolve into status updates and cross-functional alignment theater, they become overhead — and people naturally resent them.
-当评审沦为状态汇报和跨部门对齐的表演时，它们就变成了额外负担——人们自然会对此感到厌倦。
-
-Source: https://x.com/realmadhuguru/status/2081781952437486052
+Sources:
+- https://x.com/realmadhuguru/status/2082112941814661236
 
 ---
 
-Amjad Masad (amasad on X) — Replit CEO
+## Amjad Masad (@amasad) · Replit
 
-We may be entering a new frontier of exploration — not physical space, but computational space.
-我们可能正在进入一个全新的探索前沿——不是物理空间，而是计算空间。
+Amjad shared that Replit AI has reached 1300 Elo, a significant coding benchmark milestone.
+Amjad 分享了 Replit AI 已达到 1300 Elo 的消息，这是一项重要的编程能力基准里程碑。
 
-Replit CEO Amjad Masad writes: "Our generation may explore the computational universe: the vast space of algorithms, programs, proofs, and designs that AI agents can search."
-Replit CEO Amjad Masad 写道："我们这一代人或许将探索计算宇宙：AI 智能体能够搜索的算法、程序、证明和设计的广阔空间。"
+He floated a thought-provoking idea: a distributed compute network like SETI@Home, but for searching mathematical proofs instead of alien signals.
+他抛出了一个引人深思的想法：类似 SETI@Home 的分布式算力网络，但目的是搜寻数学证明，而非外星信号。
 
-He draws a parallel to how ancestors mapped the Earth and then explored outer space — framing AI agents as the next great exploratory tool for humanity.
-他将此类比为祖先绘制地球地图、再探索外太空的历程——将 AI 智能体定位为人类下一个伟大的探索工具。
+Amjad also commented on rare book preservation in the context of AI digitization debates.
+Amjad 还就 AI 数字化背景下稀有书籍保护问题发表了看法。
 
-Source: https://x.com/amasad/status/2082000490066592127
-
----
-
-Guillermo Rauch (rauchg on X) — Vercel CEO
-
-The AI model price-performance race has a new leader in cybersecurity: Grok 4.5.
-AI 模型在网络安全领域的性价比竞争出现了新领头羊：Grok 4.5。
-
-According to Vercel's latest benchmarks, Grok 4.5 delivers Kimi K3-level cybersecurity performance at 2.2x lower cost than Kimi K3, 5.7x cheaper than Opus 5, and 10x cheaper than Sol.
-根据 Vercel 最新基准测试，Grok 4.5 在网络安全领域达到了 Kimi K3 级别的性能，成本却比 Kimi K3 低 2.2 倍、比 Opus 5 低 5.7 倍、比 Sol 低 10 倍。
-
-Rauch also highlighted Kimi's paper showing that container-level isolation isn't sufficient for agentic workloads — agents crashed underlying machines via kernel panics — while Firecracker microVMs (used in Vercel Sandbox) remain safe.
-Rauch 还引用了 Kimi 的论文，指出容器级隔离不足以支撑智能体工作负载——智能体通过内核崩溃导致底层机器宕机——而 Firecracker microVM（Vercel Sandbox 所使用的方案）则保持安全。
-
-Source: https://x.com/rauchg/status/2081852481517318560
-Source: https://x.com/rauchg/status/2081842439304995169
+Sources:
+- https://x.com/amasad/status/2082316150273360316
+- https://x.com/amasad/status/2082316553740284060
+- https://x.com/amasad/status/2082317323445387514
 
 ---
 
-Aaron Levie (levie on X) — Box CEO
+## Aaron Levie (@levie) · Box
 
-The "AI kills jobs" narrative continues to not match reality — at least for now.
-"AI 消灭工作岗位"的叙事依然与现实不符——至少目前如此。
+Aaron highlighted Zuckerberg's recent piece on AI vision, calling it a "great" read for enterprise AI thinking.
+Aaron 强调了扎克伯格最近关于 AI 愿景的文章，称其对企业 AI 思考颇具价值。
 
-Box CEO Aaron Levie reports that across industries, a large portion of enterprises are still hiring, just shifting toward different roles: engineers to tackle previously impossible problems, sales teams to deepen client relationships, and internal FDEs to deploy AI.
-Box CEO Aaron Levie 报告称，各行业的大量企业仍在持续招聘，只是转向了不同类型的岗位：工程师用来攻克此前无法解决的问题，销售团队用来深化客户关系，内部 FDE 用来部署 AI。
+He shared the article without further commentary, suggesting it speaks for itself.
+他分享文章时未加过多评论，暗示内容本身已足够有力。
 
-"Anyone using AI merely to cut costs eventually just gets outcompeted by companies that use AI to better serve their customers."
-"仅将 AI 用于降本的公司，最终都会被那些用 AI 更好服务客户、推动业务突破的公司所超越。"
-
-He also noted the release of Kimi K3 weights.
-他还提到了 Kimi K3 权重的发布。
-
-Source: https://x.com/levie/status/2081930301752942703
-Source: https://x.com/levie/status/2081760710108012702
+Sources:
+- https://x.com/levie/status/2082168124733116537
+- https://x.com/levie/status/2082114876873597239
 
 ---
 
-Matt Turck (mattturck on X) — FirstMark Capital Managing Director
+## Garry Tan (@garrytan) · Y Combinator
 
-A new study finds less than 40% of VCs have any successful investment — prompting the obvious reaction from every VC: "I'm so glad I'm in the 40%!"
-一项新研究发现，不足 40% 的风险投资人拥有任何成功投资——这引发了所有 VC 的同一反应："我很庆幸自己属于那 40%！"
+Garry shared a pointed take on earnestness: "when it comes to your life, your intention, and your weltanschauung, be earnest as f***."
+Garry 分享了关于真诚的犀利观点："当涉及你的人生、你的意图和你的世界观时，请他妈的认真对待。"
 
-Source: https://x.com/mattturck/status/2081679801769668980
+He also weighed in on sanctuary city policy, noting that the original intent was never to shield fentanyl dealers or violent criminals.
+他还就庇护城市政策发表了看法，指出其最初的立法本意绝非为芬太尼贩毒者或暴力罪犯提供保护。
 
----
-
-Zara Zhang (zarazhangrui on X) — Investor/Writer
-
-Zara shares two quick reflections: a visual system for generating endless content ideas, and the reminder that "the magic you're looking for is in the work you're avoiding."
-Zara 分享了两则简短感悟：一套能源源不断产生内容创意的可视化系统，以及一句提醒——"你所寻找的魔法，就藏在你一直逃避的那份工作里。"
-
-Source: https://x.com/zarazhangrui/status/2081983750658044079
-Source: https://x.com/zarazhangrui/status/2081976736854737164
+Sources:
+- https://x.com/garrytan/status/2082176112906711452
+- https://x.com/garrytan/status/2082169572212584877
+- https://x.com/garrytan/status/2082170934182756411
 
 ---
 
-Nikunj Kothari (nikunj on X) — AI Builder/Investor
+## Peter Steinberger (@steipete)
 
-Claude Code as a travel companion and retrospective partner — a new use case has arrived.
-将 Claude Code 作为旅行伙伴和复盘助手——一种全新的使用场景已经出现。
+Peter posted a brief but resonant observation: "Serving large models is hard."
+Peter 发了一条简短但引人共鸣的推文："部署大模型很难。"
 
-Nikunj used Claude Code as his primary interface during a two-week trip, and afterward had it run a full retrospective: what went well, what to improve next time.
-Nikunj 在两周旅行中将 Claude Code 作为主要工作界面，旅程结束后还让它进行了全面复盘：哪些做得好，下次如何改进。
+The link points to content about the infrastructure and operational challenges of running frontier AI models at scale.
+链接指向的内容涉及大规模运行前沿 AI 模型时面临的基础设施与运营挑战。
 
-This illustrates how AI tools are increasingly becoming long-running context holders and thinking partners, not just code generators.
-这说明 AI 工具正越来越成为长期上下文的持有者和思考伙伴，而不仅仅是代码生成器。
-
-Source: https://x.com/nikunj/status/2081992618649547100
+Sources:
+- https://x.com/steipete/status/2082337130299457652
 
 ---
 
-Peter Steinberger (steipete on X) — AI/Developer Tools Builder
+## Dan Shipper (@danshipper) · Every
 
-Agent-to-agent bug fixing is becoming real: Peter's agent reported a bug, and Jarred Sumner's robobun setup fixed it — in the same night.
-智能体之间的 Bug 修复正在成为现实：Peter 的智能体上报了一个 Bug，Jarred Sumner 的 robobun 系统当晚就完成了修复。
+Dan spent his morning writing what he calls "the definitive history of Codex" — entirely hands-free, dictating while lying on his couch.
+Dan 利用上午时间撰写了他所称的"Codex 权威历史"——全程免提，躺在沙发上口述完成。
 
-"My agent reported a bug, their agent fixed it. [in the same night] — @jarredsumner's robobun setup is future."
-"我的智能体上报了一个 Bug，他们的智能体修复了它。【同一个晚上】—— @jarredsumner 的 robobun 配置就是未来。"
+The piece was based on hours of in-depth interviews with the Codex team including @thsottiaux, @ajambrosino, and @gdb.
+文章基于对 Codex 团队的深度访谈，受访者包括 @thsottiaux、@ajambrosino 和 @gdb。
 
-Peter also noted the ongoing frustration of being perceived as "unsafe" despite doing rigorous security work with top teams.
-Peter 还提到，尽管与顶尖团队进行了严格的安全工作，仍被外界视为"不安全"，令人沮丧。
+Dan also joked about finding dense, abstract prose calming — and advocated for the "antidepressants + stimulants" combo for maximum creative dynamism.
+Dan 还开玩笑说自己特别享受阅读晦涩抽象的文字，并推崇"抗抑郁药+兴奋剂"组合来最大化创造力与活力。
 
-Source: https://x.com/steipete/status/2081767828278170002
-Source: https://x.com/steipete/status/2081790109415002468
-
----
-
-Dan Shipper (danshipper on X) — Every CEO
-
-Dan flagged a concern about AI being used to process rare books in ways that "suck and shouldn't continue."
-Dan 对 AI 被用于处理珍本书籍的某种方式表达了关切，认为"这很糟糕，不应该继续"。
-
-Source: https://x.com/danshipper/status/2081754482568835152
+Sources:
+- https://x.com/danshipper/status/2082130836485259530
+- https://x.com/danshipper/status/2082270947793350785
+- https://x.com/danshipper/status/2082273076352315440
 
 ---
 
-Sam Altman (sama on X) — OpenAI CEO
+## Aditya Agarwal (@adityaag) · South Park Commons
 
-Sam Altman posted a single-word rebuttal — "wrong" — in response to an unnamed claim.
-OpenAI CEO Sam Altman 发布了一条单词回应——"wrong（错误）"——驳斥某个未具名的观点。
+Aditya reflected on a personal "Minus One" journey a decade ago — a period of uncertainty that clarified two deep truths for him.
+Aditya 回忆了十年前个人经历的一段"Minus One"时期——那段不确定的岁月让他厘清了两个深层真理。
 
-近期无更多重要动态。
+First: he wants to build new things in the world. Second: he wants to work with brilliant and intense people.
+其一：他想在世界上创造新事物。其二：他想与聪明而有冲劲的人共事。
 
-Source: https://x.com/sama/status/2081832600591892712
+He noted that today, on both fronts, abundance feels real.
+他感慨道，时至今日，这两件事都感觉触手可及、丰盛无比。
 
----
-
-PODCASTS
-
----
-
-AI & I by Every — "The Founder of a $1.5B AI Company on What Comes After the First Wave of AI Apps"
-
-This episode features Chris Pedregal, co-founder and CEO of Granola, in conversation with Dan Shipper.
-本期节目邀请了 Granola 联合创始人兼 CEO Chris Pedregal 与 Dan Shipper 对谈。
-
-Chris opens with a candid reality check: even when a startup is "killing it," it's still a knife fight.
-Chris 开门见山地分享了一个坦率的现实：即便创业公司"一路高歌"，竞争依然如刀光剑影。
-
-"Startups are like knife fights… they're really hard when they're working as well."
-"创业公司就像持刀格斗……即便一切运转顺利，依然艰难无比。"
-
-On competition, Chris articulates a deliberately long view: meeting notes are not the end goal.
-谈及竞争，Chris 表达了一种刻意放长的视角：会议记录并非最终目标。
-
-"We are in the very, very early steps of a computing revolution. What has come thus far will pale in comparison to what will come soon."
-"我们正处于一场计算革命的极早期阶段。迄今为止所发生的一切，与即将到来的相比将显得微不足道。"
-
-Dan Shipper shares his current workflow: almost all serious work happens in Codex, using it as an in-app browser to handle emails, negotiate with ISPs, and manage agentic tasks across surfaces.
-Dan Shipper 分享了他当前的工作流程：几乎所有重要工作都在 Codex 中完成，将其作为内置浏览器来处理电子邮件、与网络服务商协商，以及跨平台管理智能体任务。
-
-He describes work as bifurcating into two surfaces: async delegation in Slack (multiplayer, proactive bots) and deep single-player work in Codex/Claude desktop.
-他将工作描述为分化为两个界面：Slack 中的异步委托（多人协作、主动式机器人）和 Codex/Claude 桌面端的深度单人工作。
-
-Chris and Dan explore the unsolved "time-traveling problem" in agentic UX — the gap between when you kick off a task and when you review it — and how pre-generation (Granola's pre-meeting briefs) is one design response.
-Chris 和 Dan 探讨了智能体用户体验中尚未解决的"时间旅行问题"——发起任务与审查结果之间的时间差——以及预生成（Granola 的会前简报）是如何作为一种设计解法的。
-
-Granola pre-generates millions of meeting briefs even if only 10% are opened — betting that the moment of need is so high-value that broad pre-generation is worth the cost.
-Granola 会预生成数百万份会议简报，即便只有 10% 被打开——因为他们押注于需求出现的那一刻价值极高，广泛预生成是值得的。
-
-Chris's strategic conviction after two years: be best-in-world at everything meeting-adjacent, and make Granola context the richest possible input for any agent.
-经过两年沉淀，Chris 的战略信念是：在一切与会议相关的事情上做到世界最佳，并让 Granola 的上下文成为任何智能体最丰富的输入来源。
-
-Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Sources:
+- https://x.com/adityaag/status/2082214798935326833
 
 ---
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
