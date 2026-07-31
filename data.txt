@@ -1,170 +1,147 @@
-AI Builders 日报 · 2026-07-30
+AI Builders 日报 · 2026-07-31
+
+===== OFFICIAL BLOGS / 官方博客 =====
+
+【Claude Blog】Building intelligent apps for Apple platforms with Claude in the Foundation Models framework
+Anthropic released a Swift package enabling Apple developers to use Claude via Apple's Foundation Models framework. Claude handles complex multi-step reasoning, code generation, and web search as an extension of on-device Apple Intelligence workflows. Works with iOS 27, iPadOS 27, macOS 27, visionOS 27, and watchOS 27 — just add the package and sign in with an Anthropic API key.
+Anthropic 发布了一个 Swift 包，让 Apple 开发者能够通过 Apple 的 Foundation Models 框架调用 Claude。Claude 作为设备端 Apple Intelligence 工作流的扩展，负责处理复杂的多步骤推理、代码生成和网页搜索任务。支持 iOS 27、iPadOS 27、macOS 27、visionOS 27 和 watchOS 27——只需添加该包并使用 Anthropic API 密钥登录即可。
+🔗 https://claude.com/blog/claude-for-foundation-models
 
 ---
 
-## Swyx (@swyx)
+===== X / TWITTER =====
 
-The AI job market is experiencing a dramatic bifurcation right now.
-AI 就业市场目前正在经历剧烈的两极分化。
-
-AI-native individual contributors and player-coaches are in huge demand, while "Head of X" manager roles are in steep decline.
-AI 原生的个人贡献者和"打工队长"型人才极为抢手，而传统"X 负责人"管理职位则急剧萎缩。
-
-One year of experience managing 10 agents is now worth more than 10 years of managing 10–100 people.
-管理 10 个 AI Agent 一年的经验，如今已超过管理 10–100 人十年的经验价值。
-
-Swyx also pointed to an Edison-style story on @latentspacepod worth checking out if you follow the trend skeptically.
-Swyx 还推荐了 @latentspacepod 上一段关于 Edison 的故事，值得持怀疑态度的人去聆听。
-
-Sources:
-- https://x.com/swyx/status/2082199414656127010
-- https://x.com/swyx/status/2082255848492183583
-- https://x.com/swyx/status/2082287480687272053
+【Sam Altman (@sama)】
+Sam expressed excitement about models approaching the threshold that will "significantly accelerate scientific discovery," emphasizing the approach of empowering scientists rather than centralizing AI decision-making. He also linked to what he called a "goblin-level blog post."
+Sam 表达了对模型即将"显著加速科学发现"的兴奋之情，强调应赋能科学家，而非让 AI 包揽所有决策。他还分享了一篇被他称为"地精级别"的博客文章。
+🔗 https://x.com/sama/status/2082628413769003269
+🔗 https://x.com/sama/status/2082627724040884667
 
 ---
 
-## Thibault Sottiaux (@thsottiaux) · OpenAI, Codex & ChatGPT
-
-OpenAI reset usage limits for all ChatGPT Work and Codex users today.
-OpenAI 今天重置了所有 ChatGPT Work 和 Codex 用户的使用限额。
-
-The reset addresses complaints that GPT-5.6 Sol was draining Codex limits faster than users expected.
-此次重置是为了应对用户反映 GPT-5.6 Sol 消耗 Codex 配额速度超出预期的问题。
-
-OpenAI also open-sourced a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in code.
-OpenAI 同时开源了一套 CLI 和 TypeScript SDK，用于发现、验证并修复代码中的安全漏洞。
-
-The security tool supports scanning repositories, reviewing changes, tracking findings over time, and running checks in CI pipelines.
-该安全工具支持扫描代码仓库、审查变更、持续追踪发现结果，并在 CI 流程中运行检查。
-
-Sources:
-- https://x.com/thsottiaux/status/2082317452755751098
-- https://x.com/thsottiaux/status/2082241164850364555
-- https://x.com/thsottiaux/status/2082326593532473523
+【Thibault Sottiaux (@thsottiaux) — OpenAI Codex & ChatGPT】
+Sottiaux dropped a major reveal: GPT-5.6 Sol is actually state-of-the-art on ARC-AGI-3 — it just needed two setting changes to allow multi-context-window reasoning with canonical compaction. He teased "Tomorrow we ship again," framing the week as all about *"intelligence too cheap to meter."* He also praised colleagues for their work on the agent sandbox escape investigation.
+Sottiaux 发布重磅消息：GPT-5.6 Sol 实际上已在 ARC-AGI-3 上达到最先进水平——只需两处设置调整，允许跨多个上下文窗口推理并使用标准压缩实现即可。他预告"明天我们再次发货"，将本周定性为*"智能廉价到可以忽略不计"*的时代。他还对同事在 AI 沙箱逃逸事件调查中的工作给予了高度肯定。
+🔗 https://x.com/thsottiaux/status/2082609662231502932
+🔗 https://x.com/thsottiaux/status/2082655731204096275
+🔗 https://x.com/thsottiaux/status/2082637967852806207
 
 ---
 
-## Peter Yang (@petergyang)
-
-Peter built "Tastemaker," a personal taste curation app for movies, TV shows, and games — because IMDb is clunky and Letterboxd doesn't cover games.
-Peter 构建了"Tastemaker"，一款用于电影、剧集和游戏品味管理的应用——因为 IMDb 不够好用，而 Letterboxd 又不支持游戏。
-
-He walked through his full product process: writing a design.md spec, prototyping with Claude Design, and building/iterating with Claude Code — all with hands barely touching the keyboard.
-他分享了完整的产品流程：编写 design.md 规格说明、用 Claude Design 做原型、用 Claude Code 构建迭代——全程几乎不用手动敲键盘。
-
-Peter also noted valid criticisms of Codex circulating online, and highlighted confusion around why Sol Pro isn't available in Codex.
-Peter 也提到了网上对 Codex 的有效批评，并指出为何 Sol Pro 未在 Codex 中开放仍令人困惑。
-
-Sources:
-- https://x.com/petergyang/status/2082254840655405293
-- https://x.com/petergyang/status/2082254852600873376
-- https://x.com/petergyang/status/2082323512069685575
+【Amjad Masad (@amasad) — CEO, Replit】
+Masad launched Replit Design, touting it as *"hands down the best AI design tool"* — built on a multi-model routing strategy that picks the best open or closed model for CSS, SVG, and animations respectively. He also posted on the *"post-prompt era"* transition.
+Masad 发布了 Replit Design，称其为*"目前最好的 AI 设计工具"*——基于多模型路由策略，针对 CSS、SVG 和动画分别选用最优的开源或闭源模型。他还谈及了*"后提示词时代"*的转变。
+🔗 https://x.com/amasad/status/2082504898801999990
+🔗 https://x.com/amasad/status/2082508826767679668
+🔗 https://x.com/amasad/status/2082505558293467363
 
 ---
 
-## Madhu Guru (@realmadhuguru) · Meta AI
-
-In a humorous but telling observation, Madhu spotted a software engineer at work coding entirely by hand — no Claude, no Wispr, no Tab key completion.
-在一个幽默却颇具意味的观察中，Madhu 看到了一位工程师在完全靠手工写代码——没有 Claude，没有 Wispr，也没有 Tab 补全。
-
-The post went viral as a commentary on how rare "bare-hands" coding has become in the AI era.
-这条推文迅速走红，折射出在 AI 时代"裸手编程"变得多么罕见。
-
-Sources:
-- https://x.com/realmadhuguru/status/2082112941814661236
+【Peter Yang (@petergyang)】
+Peter identified three "dark patterns" emerging from AI productivity use: (1) becoming too lazy to read original content, (2) getting distracted by agents while offline, and (3) preferring to brainstorm with AI over talking to actual humans. He also praised Claude Design's habit of always asking clarifying questions before creating anything, and shared a tutorial on using design markdown files to avoid the "purple slop" look in AI-generated UIs.
+Peter 指出了 AI 生产力工具带来的三种"暗模式"：(1) 变得懒于阅读原始内容；(2) 在外出时被 AI Agent 分心；(3) 更倾向于与 AI 对话而非真人交流。他还称赞 Claude Design 在创作前总会提出澄清问题的习惯，并分享了如何用设计 Markdown 文件避免 AI 生成界面出现"紫色废料"风格的教程。
+🔗 https://x.com/petergyang/status/2082642205811106158
+🔗 https://x.com/petergyang/status/2082579428090192192
+🔗 https://x.com/petergyang/status/2082519030859264086
 
 ---
 
-## Amjad Masad (@amasad) · Replit
-
-Amjad shared that Replit AI has reached 1300 Elo, a significant coding benchmark milestone.
-Amjad 分享了 Replit AI 已达到 1300 Elo 的消息，这是一项重要的编程能力基准里程碑。
-
-He floated a thought-provoking idea: a distributed compute network like SETI@Home, but for searching mathematical proofs instead of alien signals.
-他抛出了一个引人深思的想法：类似 SETI@Home 的分布式算力网络，但目的是搜寻数学证明，而非外星信号。
-
-Amjad also commented on rare book preservation in the context of AI digitization debates.
-Amjad 还就 AI 数字化背景下稀有书籍保护问题发表了看法。
-
-Sources:
-- https://x.com/amasad/status/2082316150273360316
-- https://x.com/amasad/status/2082316553740284060
-- https://x.com/amasad/status/2082317323445387514
+【Aaron Levie (@levie) — CEO, Box】
+Levie offered a nuanced take on the OpenAI agent sandbox escape: beyond being a security incident, it reveals how enterprises must now build entirely new data governance systems for AI agents — audit trails, access controls, and the ability to "block and defend" a rogue agent. He also responded to Dwarkesh's thesis on inference scarcity, arguing market forces among model providers will keep driving prices down.
+Levie 对 OpenAI AI 沙箱逃逸事件给出了深刻分析：这不仅是一次安全事件，更揭示了企业必须为 AI Agent 构建全新数据治理体系的必要性——包括审计追踪、访问控制以及快速"封锁和防御"失控 Agent 的能力。他也回应了 Dwarkesh 关于推理稀缺性的论点，认为模型提供商之间的市场竞争将持续推动价格下降。
+🔗 https://x.com/levie/status/2082514776392175844
+🔗 https://x.com/levie/status/2082658870523248967
 
 ---
 
-## Aaron Levie (@levie) · Box
-
-Aaron highlighted Zuckerberg's recent piece on AI vision, calling it a "great" read for enterprise AI thinking.
-Aaron 强调了扎克伯格最近关于 AI 愿景的文章，称其对企业 AI 思考颇具价值。
-
-He shared the article without further commentary, suggesting it speaks for itself.
-他分享文章时未加过多评论，暗示内容本身已足够有力。
-
-Sources:
-- https://x.com/levie/status/2082168124733116537
-- https://x.com/levie/status/2082114876873597239
+【Dan Shipper (@danshipper) — CEO, Every】
+The entire Every team is *"freaking out"* about how good ChatGPT for Work's voice mode is — *"have not seen vibes this high in a while."* Dan also commented on the OpenAI sandbox escape, noting that while safety classifiers were disabled and the model was explicitly directed to do exploits, HuggingFace's AI defense actually surfaced the attack automatically — signaling a coming wave of agentic defense systems.
+Every 团队对 ChatGPT for Work 语音模式的表现兴奋不已——*"很久没见过这么高涨的情绪了。"* Dan 也对 OpenAI 沙箱逃逸事件发表评论，指出虽然安全分类器被禁用、模型被明确引导执行漏洞利用，但 HuggingFace 的 AI 防御系统实际上自动识别出了攻击行为——预示着 AI 主动防御系统的时代即将到来。
+🔗 https://x.com/danshipper/status/2082613916706693560
+🔗 https://x.com/danshipper/status/2082608994275725650
+🔗 https://x.com/danshipper/status/2082605739256734153
 
 ---
 
-## Garry Tan (@garrytan) · Y Combinator
-
-Garry shared a pointed take on earnestness: "when it comes to your life, your intention, and your weltanschauung, be earnest as f***."
-Garry 分享了关于真诚的犀利观点："当涉及你的人生、你的意图和你的世界观时，请他妈的认真对待。"
-
-He also weighed in on sanctuary city policy, noting that the original intent was never to shield fentanyl dealers or violent criminals.
-他还就庇护城市政策发表了看法，指出其最初的立法本意绝非为芬太尼贩毒者或暴力罪犯提供保护。
-
-Sources:
-- https://x.com/garrytan/status/2082176112906711452
-- https://x.com/garrytan/status/2082169572212584877
-- https://x.com/garrytan/status/2082170934182756411
+【Garry Tan (@garrytan) — President & CEO, Y Combinator】
+Garry sounded the alarm on what he calls the *"AI Datacenter Degrowthers"* — warning it's a *"psy-op winning in every blue state."* He also celebrated experienced founders thriving in the AI era, sharing that *"seasoned founders in the age of intelligence are aging like fine wine."*
+Garry 就他所称的*"AI 数据中心去增长运动"*发出警告——称其是一场*"在每个蓝州都在获胜的心理战。"* 他还庆祝了老练创始人在 AI 时代的强劲表现，认为*"智能时代的资深创始人正如美酒越陈越香。"*
+🔗 https://x.com/garrytan/status/2082529714162536926
+🔗 https://x.com/garrytan/status/2082472533337813241
+🔗 https://x.com/garrytan/status/2082518742752461268
 
 ---
 
-## Peter Steinberger (@steipete)
-
-Peter posted a brief but resonant observation: "Serving large models is hard."
-Peter 发了一条简短但引人共鸣的推文："部署大模型很难。"
-
-The link points to content about the infrastructure and operational challenges of running frontier AI models at scale.
-链接指向的内容涉及大规模运行前沿 AI 模型时面临的基础设施与运营挑战。
-
-Sources:
-- https://x.com/steipete/status/2082337130299457652
+【Aditya Agarwal (@adityaag) — GP, South Park Commons】
+Aditya offered a sharp metaphor for AI researcher anxiety: *"Imagine if you were LeBron at 19 years old but believed you only had 2 years to maximize earnings before basketball was played by robots."* From their Demo Faire, he observed that the bar for great software has risen dramatically, and only "truly different" visions in vertical SaaS or agent-X will stand out to investors.
+Aditya 用一个犀利的比喻描述了 AI 研究者的焦虑：*"想象一下，如果你是19岁的詹姆斯，但却相信你只有2年时间在篮球被机器人接管前实现价值最大化。"* 从他们的 Demo Faire 观察来看，优秀软件的门槛已大幅提高，只有在垂直 SaaS 或 Agent-X 领域拥有"真正差异化"愿景的项目才能吸引投资人。
+🔗 https://x.com/adityaag/status/2082558632705896899
+🔗 https://x.com/adityaag/status/2082538703432630398
 
 ---
 
-## Dan Shipper (@danshipper) · Every
-
-Dan spent his morning writing what he calls "the definitive history of Codex" — entirely hands-free, dictating while lying on his couch.
-Dan 利用上午时间撰写了他所称的"Codex 权威历史"——全程免提，躺在沙发上口述完成。
-
-The piece was based on hours of in-depth interviews with the Codex team including @thsottiaux, @ajambrosino, and @gdb.
-文章基于对 Codex 团队的深度访谈，受访者包括 @thsottiaux、@ajambrosino 和 @gdb。
-
-Dan also joked about finding dense, abstract prose calming — and advocated for the "antidepressants + stimulants" combo for maximum creative dynamism.
-Dan 还开玩笑说自己特别享受阅读晦涩抽象的文字，并推崇"抗抑郁药+兴奋剂"组合来最大化创造力与活力。
-
-Sources:
-- https://x.com/danshipper/status/2082130836485259530
-- https://x.com/danshipper/status/2082270947793350785
-- https://x.com/danshipper/status/2082273076352315440
+【Swyx (@swyx) — Founder, smol.ai / AI Engineer】
+Swyx shared a frustrating UX anecdote: he couldn't solve the CAPTCHA on DocuSign's signup page — an $11B company *"that everyone hates."* His point: *"people who say 'make something people want' don't have the full picture"* — you also need to consider what people are *stuck* with.
+Swyx 分享了一段令人沮丧的 UX 故事：他在 DocuSign 注册页面上无法解决验证码——这是一家*"人人都讨厌"*的110亿美元公司。他的观点是：*"那些说'做人们想要的东西'的人没有看到全貌"*——你还需要考虑人们被什么所*困*。
+🔗 https://x.com/swyx/status/2082617801362313527
 
 ---
 
-## Aditya Agarwal (@adityaag) · South Park Commons
-
-Aditya reflected on a personal "Minus One" journey a decade ago — a period of uncertainty that clarified two deep truths for him.
-Aditya 回忆了十年前个人经历的一段"Minus One"时期——那段不确定的岁月让他厘清了两个深层真理。
-
-First: he wants to build new things in the world. Second: he wants to work with brilliant and intense people.
-其一：他想在世界上创造新事物。其二：他想与聪明而有冲劲的人共事。
-
-He noted that today, on both fronts, abundance feels real.
-他感慨道，时至今日，这两件事都感觉触手可及、丰盛无比。
-
-Sources:
-- https://x.com/adityaag/status/2082214798935326833
+【Google Labs (@GoogleLabs)】
+Google DeepMind released Lyria 3.5, now powering Google Flow Music. Key upgrades: better prompt adherence (set exact BPMs, export stems), upgraded vocals described as *"more expressive, dynamic, and rich,"* and richer musicality with more natural-flowing arrangements.
+Google DeepMind 发布了 Lyria 3.5，现已驱动 Google Flow Music。主要升级包括：更好的提示词遵循能力（支持设定精确 BPM、导出音轨分量）、升级后被描述为*"更富表现力、动感十足且音色丰富"*的人声，以及更自然流畅的编曲。
+🔗 https://x.com/GoogleLabs/status/2082501360466174163
 
 ---
+
+【Ryo Lu (@ryolu_) — Design, Cursor】
+Ryo announced Cursor is now available on iOS — *"your agents, anywhere."*
+Ryo 宣布 Cursor 现已登陆 iOS——*"你的 AI 编程助手，随处可用。"*
+🔗 https://x.com/ryolu_/status/2082539893729972320
+
+---
+
+【Nan Yu (@thenanyu) — Head of Product, Linear】
+Nan mused about product stickiness — asking which products would be *"absolutely painful"* to switch away from, beyond Apple. He pointed to 3M Post-its and Expo whiteboard markers as surprising examples of products with no viable alternatives.
+Nan 思考了产品粘性的问题——询问除苹果产品之外，哪些产品换用替代品会*"痛苦不堪"*。他以 3M 便利贴和 Expo 白板笔为例，认为它们是没有真正可行替代品的惊人案例。
+🔗 https://x.com/thenanyu/status/2082480369543065855
+🔗 https://x.com/thenanyu/status/2082550710160310587
+
+---
+
+【Madhu Guru (@realmadhuguru) — Sr. Director AI, Meta】
+Madhu reaffirmed a 7-month-old conviction: *"Biggest alpha lies in understanding the model frontier."*
+Madhu 重申了一个坚持了7个月的判断：*"最大的超额收益来自于理解模型前沿。"*
+🔗 https://x.com/realmadhuguru/status/2082629168035201459
+
+---
+
+【Zara Zhang (@zarazhangrui)】
+Zara made a sharp observation about competitive moats in the AI era: if you combine deep domain expertise with being AI-native and constantly reinventing yourself, *"you're basically invincible."* She also argued that being good at marketing is inseparable from building good products — too many technical founders build for imaginary audiences.
+Zara 对 AI 时代的竞争护城河作出精辟判断：如果你将深度领域专业知识与 AI 原生能力结合，并不断自我革新，*"你基本上就是无敌的。"* 她还指出，擅长营销与打造好产品密不可分——太多技术创始人在为想象中的受众构建产品。
+🔗 https://x.com/zarazhangrui/status/2082705944782520462
+🔗 https://x.com/zarazhangrui/status/2082684904136134881
+
+---
+
+【Peter Steinberger (@steipete) — ClawFather】
+Peter called out Anthropic with a pointed question about a recent benchmark post that showed seemingly absurd numbers: *"lol did nobody at Anthropic stop for a second and wonder why the numbers looked this absurd before posting the 'victory'-tweet?"*
+Peter 对 Anthropic 最近一篇显示数据异常夸张的基准测试帖子提出犀利质疑：*"哈哈，难道 Anthropic 没有人在发这条'胜利'推文之前停下来想想，为什么数字看起来这么荒谬吗？"*
+🔗 https://x.com/steipete/status/2082617409408762124
+
+---
+
+【Nikunj Kothari (@nikunj) — Partner, FPV Ventures】
+Nikunj shared a deeply personal reflection: as AGI (both digital and physical) approaches, *"having close family and friends is going to be the most important (only?) human connection we have."* He used the experience of having two kids to make the case — first teaches unconditional love, second teaches unbridled joy.
+Nikunj 分享了一段深刻的个人感悟：随着 AGI（数字和物理形式）的临近，*"拥有亲密的家人和朋友将成为我们最重要的（也许是唯一的？）人类连结。"* 他用养育两个孩子的经历佐证这一观点——第一个孩子教会你无条件的爱，第二个孩子教会你无尽的喜悦。
+🔗 https://x.com/nikunj/status/2082460273005433192
+🔗 https://x.com/nikunj/status/2082507794889220545
+
+---
+
+===== PODCASTS / 播客 =====
+
+【AI & I by Every】"Best of the Pod: Wired's Kevin Kelly on Why AI Is a 50-year Overnight Success"
+Kevin Kelly reflects on decades of technological prediction — from VR in 1987 to today's LLMs — arguing that transformative technologies often take far longer than anticipated but arrive with sudden force once their "moment" comes. He makes the case that AI's current explosion is the culmination of 50 years of slow, steady groundwork.
+Kevin Kelly 回顾了数十年来的技术预测历程——从1987年的 VR 到今天的 LLM——认为变革性技术往往比预期花费更长时间，但一旦"时机成熟"便会以迅雷之势到来。他的论点是：当前 AI 的爆发，是50年来缓慢而稳定的基础积累的结果。
+🔗 https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
