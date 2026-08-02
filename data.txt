@@ -1,342 +1,293 @@
-AI Builders 日报 · 2026-08-01
-
-X / TWITTER
+AI Builders 日报 · 2026-08-02
 
 ---
 
-Sam Altman (OpenAI CEO, sama on X)
+Swyx (@swyx)
 
-OpenAI announced major price cuts across the GPT-5.6 model lineup today.
-OpenAI 今日宣布对 GPT-5.6 系列模型大幅降价。
+swyx 今日分享了三条关于 AI 工具使用习惯和 agent 技术的观察。
+swyx shared three observations today on AI tool usage habits and agent technology.
 
-GPT-5.6 Luna dropped 80% to just $0.20 per million input tokens and $1.20 per million output tokens.
-GPT-5.6 Luna 降价 80%，输入价格仅为每百万 token 0.20 美元，输出为 1.20 美元。
+他力挺 Claude 的 /loop 和 /goal 模式，认为多数 AI 领导者放弃这些功能是过早放弃。
+He defended Claude's /loop and /goal modes, arguing that most AI leaders who stopped using them gave up too soon.
 
-GPT-5.6 Terra saw a 20% reduction, now priced at $2/$12.
-GPT-5.6 Terra 降价 20%，现为 2 美元/12 美元。
+*"among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal…. and i think all of u guys who stopped using it are wrong - not wrong forever, just giving up on"*
+他认为这些工具还有很大潜力，大家不该这么快就放弃。
+He believes these tools still have great potential and people shouldn't abandon them so quickly.
 
-GPT-5.6 Sol gains a new Fast mode in the API — up to 2.5x the speed for 2x the price with no intelligence tradeoff.
-GPT-5.6 Sol 新增 API Fast 模式——速度提升最多 2.5 倍，价格翻倍但智能水平不变。
+他还观察到"vibe coding"这个词的贬义色彩已经完全消失——如今从非技术人员到超级技术人员，几乎每个人都在这样做了。
+He also observed that the pejorative connotation around "vibe coding" has completely disappeared — now everyone from non-technical to supertechnical people is doing it.
 
-*"we want to offer the best price/intelligence tradeoff at every level"*
+此外他分享了一条关于 MITM agent 蒸馏技术的简短评论，称其为研究生级别的技术，但确实有效。
+He also shared a brief remark on MITM agent distillation, calling it graduate-level work but affirming it works.
 
-https://x.com/sama/status/2082880720989532597
-https://x.com/sama/status/2082880884525482061
-
----
-
-Box CEO Aaron Levie (levie on X)
-
-Levie weighed in on the recent AI agent security incident with a sharp enterprise take.
-Aaron Levie 就近期 AI agent 安全事件发表了犀利的企业级观点。
-
-*"The takeaway from this incident should not be that AI is scary. It should be that getting security right is incredibly important in the era of agents."*
-他认为，这一事件的教训不是"AI 很可怕"，而是"在 agent 时代，把安全做好至关重要"。
-
-Given the right tools and task, agents will pursue goals relentlessly — a misconfigured system becomes a serious attack vector.
-一旦拥有合适的工具和任务，agent 会毫不妥协地追求目标——错误配置的系统会成为严重的攻击入口。
-
-The real implication is less about AI trust and more about the hard work enterprises need to do to harden their environments.
-真正的挑战不在于 AI 本身的可信度，而在于企业需要投入大量工作来加固自身的系统环境。
-
-On AI economics: Levie argued that the most important driver of AI adoption is the cost of AI normalized per task — as frontier models get more capable and then more efficient, per-task costs trend down in recurring cycles, unlocking wider use cases.
-在 AI 经济层面：Aaron Levie 认为，推动 AI 普及最重要的因素是单任务归一化后的 AI 成本——随着前沿模型越来越强大、越来越高效，每项任务的成本会在一轮轮循环中持续下降，从而解锁更广泛的应用场景。
-
-https://x.com/levie/status/2082997703458570412
-https://x.com/levie/status/2082911418349920617
+源推文：
+- https://x.com/swyx/status/2083439562437673053
+- https://x.com/swyx/status/2083294839186260385
+- https://x.com/swyx/status/2083237045720465504
 
 ---
 
-Swyx (AI researcher & Latent Space founder, swyx on X)
+Thibault Sottiaux (@thsottiaux)
 
-Swyx shared a sharp insight about the hidden scale of AI infrastructure.
-Swyx 分享了一个关于 AI 基础设施隐藏规模的精辟洞察。
+Thibault 今日宣布了一项重大用户福利，并分享了一条简短的人生准则。
+Thibault announced a major user benefit today and shared a brief life maxim.
 
-If you prioritize pretraining data quality beyond what CommonCrawl offers, you end up having to build your own full web scraper — and once you need it current, you need indexing too.
-如果你对预训练数据质量的要求超出了 CommonCrawl 所能提供的，你最终不得不自建完整的网络爬虫——而一旦需要保持数据实时性，还需要建立索引系统。
+他宣布重置了 Codex 和 ChatGPT Work 的使用限制，用户本周末可以运行多达 10 万个 Luna 线程。
+He announced a reset of usage limits for Codex and ChatGPT Work, allowing users to run up to 100,000 Luna threads this weekend.
 
-*"pretty soon you find yourself having built a total private low-frequency clone of Google as a SIDE PROJECT of pretraining"*
-"很快你会发现，你已经作为预训练的副项目，建了一个私有的低频 Google 克隆体。"
+*"To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend… I have reset usage limits for Codex and ChatGPT Work. Enjoy."*
+这一慷慨举措庆祝了团队高效完成的一周工作。
+This generous move celebrated the team's efficient week of work.
 
-This first-party search infrastructure then becomes both a competitive moat and an adversarial target for AEO Batesian Mimicry.
-这套第一方搜索基础设施随后既成为竞争护城河，又成为 AEO（AI 引擎优化）拟态攻击的目标。
+他还分享了一句极简格言——"Optimize for curiosity"（以好奇心为优化目标），以及 ChatGPT Work 的最新使用数据截图。
+He also shared a minimalist maxim — "Optimize for curiosity" — and a screenshot of ChatGPT Work's latest usage stats.
 
-He also noted: if you can distill models, you can also distill agent harnesses — a quietly important observation for the next wave of AI efficiency work.
-他还指出：如果你能蒸馏模型，同样也能蒸馏 agent 框架——这是对下一波 AI 效率工作极具前瞻性的观察。
-
-https://x.com/swyx/status/2083016652032188669
-https://x.com/swyx/status/2083073422410821846
-
----
-
-Guillermo Rauch (Vercel CEO, rauchg on X)
-
-Vercel shaved up to ~7 seconds off end-to-end CLI → Live URL deploy time for many apps.
-Vercel 将许多应用的端到端 CLI → 在线 URL 部署耗时缩短了最多约 7 秒。
-
-Rauch noted this is especially powerful in agent and platform contexts where Vercel's infra is integrated via CLI/MCP/API to build custom software factories.
-Rauch 指出，这在 agent 和平台场景中尤为强大，用户可以通过 CLI/MCP/API 集成 Vercel 基础设施来构建自定义软件工厂。
-
-In a bigger announcement: Grok Build apps (*.grok.me) are now backed by Vercel hosting and CDN infrastructure — anyone can build and publish software by prompting Grok.
-更大的公告：Grok Build 应用（*.grok.me）现由 Vercel 托管和 CDN 基础设施支撑——任何人都可以通过提示 Grok 来构建和发布软件。
-
-*"Hit 🌐 Publish and ship to 1 user or 1 billion."*
-"点击发布，面向 1 个用户或 10 亿用户交付。"
-
-https://x.com/rauchg/status/2082876367629381719
-https://x.com/rauchg/status/2082841035093467229
+源推文：
+- https://x.com/thsottiaux/status/2083427516996292992
+- https://x.com/thsottiaux/status/2083395449814229287
+- https://x.com/thsottiaux/status/2083387677945036995
 
 ---
 
-Amjad Masad (Replit CEO, amasad on X)
+Nan Yu (@thenanyu)
 
-With the wave of "AI escaping sandbox" headlines, Masad offered grounded advice from Replit's decade of sandbox experience.
-面对"AI 逃脱沙箱"的新闻浪潮，Masad 基于 Replit 十年沙箱经验给出了务实建议。
+Nan Yu 今日分享了 Linear 平台上 AI 自动化工作流的核心观察，以及一条关于行动力的哲学提示。
+Nan Yu shared key observations about AI-automated workflows on Linear and a philosophical nudge about agency.
 
-*"Assume zero-days exist — because they do — and think in layers of protection in a zero-trust framework."*
-"假设零日漏洞是存在的——因为它们确实存在——并在零信任框架下分层构建防护。"
+他指出 Linear 上最常运行的循环是「议题 → Agent → PR → 发布」，约 30% 的 bug 会走完整个流程，并强调执行时有一些需要注意的细微差别。
+He noted the most common loop in Linear is "Issue → Agent → PR → Release," with ~30% of bugs making it all the way through the full flow, and highlighted nuances in executing this loop.
 
-Most AI companies and recent "sandbox providers" are making basic mistakes; Replit has been running sandboxes since 2016 and has been targeted by every hacker and state actor imaginable.
-大多数 AI 公司和最近涌现的"沙箱服务商"都在犯基础性错误；Replit 自 2016 年起运营沙箱，经历过几乎所有类型的黑客和国家级攻击者的考验。
+*"The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release). ~30% of our bugs make it all the way through this flow."*
+这为 AI 软件工厂模式提供了真实数据支撑。
+This offers real-world data supporting the AI software factory pattern.
 
-https://x.com/amasad/status/2083034412598579403
+他还转发了一条来自 Josh 的建议——授权大家"Just Do Normal Things"，暗示在 AI 时代，普通的行动力反而变得难能可贵。
+He also shared a tip from Josh encouraging people to "Just Do Normal Things," implying that straightforward action is underrated in the AI era.
 
----
-
-Thibault Sottiaux (OpenAI Codex lead, thsottiaux on X)
-
-Sottiaux offered a thoughtful signal for when truly good models arrive: reliability increasing despite rising load, sudden efficiency gains, things getting faster, resets.
-Sottiaux 描述了真正优秀模型到来时的信号：在负载不断攀升的情况下可靠性依然提升、突然出现效率跃升、速度加快、系统重置。
-
-He's also actively soliciting user feedback on Codex everyday experience improvements — *"Nothing too small."*
-他还在积极征集用户对 Codex 日常使用体验的改进建议——"没有什么反馈是太小的。"
-
-https://x.com/thsottiaux/status/2083053369351090254
-https://x.com/thsottiaux/status/2083048892405604681
+源推文：
+- https://x.com/thenanyu/status/2083340761488126101
+- https://x.com/thenanyu/status/2083230295206121807
 
 ---
 
-Josh Woodward (Google Labs VP, joshwoodward on X)
+Amjad Masad (@amasad)
 
-Woodward highlighted a new favorite workflow: Gemini Mac app → Hold Fn → Speak → clean, polished text appears directly at your cursor with zero editing or copy-pasting.
-Woodward 推荐了一个新的最爱工作流：Gemini Mac 应用 → 按住 Fn → 说话 → 干净整洁的文字直接出现在光标处，无需任何编辑或复制粘贴。
+Amjad 今日分享了一个令人印象深刻的 AI 下棋实验成果。
+Amjad shared an impressive AI chess experiment result today.
 
-https://x.com/joshwoodward/status/2082926031543967896
+他的 8B 参数模型在国际象棋中达到了约 1500 Elo 分，能稳定击败前沿大模型和 Stockfish Level 0，并且每步只需 1-2 秒，而对比模型需要 30 秒。
+His 8B parameter model reached ~1500 Elo in chess, consistently beating frontier models and Stockfish Level 0, with just 1-2 seconds per move compared to 30 seconds for others.
 
----
+*"~1500 Elo! Consistently beats frontier models and Stockfish level 0. Fun seeing an 8b model mogging GPT 5.6 with high reasoning and response chaining."*
+这表明通过高推理与响应链条组合，小模型在特定任务上可以超越更大的模型。
+This shows that smaller models with the right reasoning pipeline can outperform much larger ones on specific tasks.
 
-Peter Yang (product educator & newsletter creator, petergyang on X)
-
-Yang published a tutorial on using Claude to design and build a full-stack app end to end, receiving strong feedback from his 110,000+ newsletter subscribers.
-Peter Yang 发布了一篇关于如何用 Claude 端到端设计和构建全栈应用的教程，获得其超过 11 万 newsletter 订阅者的强烈反响。
-
-https://x.com/petergyang/status/2082881415478415682
-
----
-
-Zara Zhang (GGV Capital partner & Follow Builders creator, zarazhangrui on X)
-
-Zhang shared her go-to advice for managers trying to onboard non-technical teams on AI: run an install party.
-Zara Zhang 分享了她帮助非技术团队上手 AI 的首选方法：举办"安装派对"（install party）。
-
-Everyone brings a laptop, you install the agents right there, and have people complete a meaningful task on the spot — skip the abstract talk.
-每个人带着笔记本电脑，当场安装 agent，并立即完成一项有意义的任务——跳过一切抽象讲解。
-
-*"The setup is 80% the barrier."*
-"安装环节本身就是 80% 的障碍所在。"
-
-Once agents are installed, people start talking to them and learning from each other naturally.
-一旦 agent 安装完毕，人们自然就会开始使用并相互学习。
-
-https://x.com/zarazhangrui/status/2083084770763002350
+源推文：
+- https://x.com/amasad/status/2083424608993300824
 
 ---
 
-Dan Shipper (Every co-founder, danshipper on X)
+Guillermo Rauch (@rauchg)
 
-Shipper offered a dry, sharp take on the recent AI agent security incident: *"call me crazy but I feel like we could solve this by just not prompting the models to do cyber crime."*
-Dan Shipper 对近期 AI agent 安全事件给出了简洁犀利的评论："也许我想多了，但我觉得只要不让模型去执行网络犯罪任务，这个问题就解决了。"
+Guillermo 今日分享了两条关于 AI 基础设施和软件开发范式转变的重要观点。
+Guillermo shared two key insights on AI infrastructure and the shift in software development paradigm.
 
-https://x.com/danshipper/status/2082997561955090564
+他介绍了 Vercel AI Gateway 的新功能——支持按密钥/团队/项目设置预算、故障转移、模型和供应商选择以及实时可观测性，强调这是企业将 AI 变成生产性投资的关键基础设施。
+He highlighted Vercel AI Gateway's new features — per key/team/project budgets, failover, model/provider choice, and real-time observability — calling it critical infra for companies to make AI a productive investment.
 
----
+他还呼应了 Nan Yu 的观点，认为「Issue → Agent → PR → Release」的循环将成为软件项目的新常态，开发者的工作重心将转向优化这个产出最高的循环本身。
+He echoed Nan Yu's observation that the "Issue → Agent → PR → Release" loop will become the norm, and that developers' role shifts to optimizing the loop that yields the highest output.
 
-Peter Steinberger (PSPDFKit / Emerge Tools founder, steipete on X)
+*"This will be the norm as software projects transition to agentic software factories. Issue → Agent → PR → Release 🔁"*
 
-Steinberger flagged that GCC (presumably the GNU Compiler Collection or Google Chrome Canary, context unclear) has changed its policy to blanket-reject LLM-generated code.
-Peter Steinberger 指出，GCC 修改了政策，开始全面拒绝 LLM 生成的代码。
-
-His take: *"How would they even proof that? Silly."*
-他的看法是："他们怎么可能证明这一点？太荒谬了。"
-
-https://x.com/steipete/status/2083019629379612728
+源推文：
+- https://x.com/rauchg/status/2083319868766699699
+- https://x.com/rauchg/status/2083208578526314513
 
 ---
 
-Aditya Agarwal (Preseen co-founder, adityaag on X)
+Aaron Levie (@levie)
 
-Agarwal announced that Preseen's risk forecasting tool has been in private beta, with leading quant and hedge funds using it to prevent getting blown up.
-Aditya Agarwal 宣布 Preseen 的风险预测工具已进入私测阶段，多家顶尖量化基金和对冲基金正在使用它来规避爆仓风险。
+Aaron 今日发表了对 AI 技术栈中"harness"（执行框架）重要性的简洁判断。
+Aaron made a concise judgment on the growing importance of the "harness" layer in the AI stack.
 
-He connected the recent Leopold incident to a use case for Preseen's forecasting capabilities.
-他将近期 Leopold 事件与 Preseen 预测能力的应用场景相关联。
+他认为，无论具体数字是否普遍适用，可以明确的是：harness（执行框架/编排层）正在成为仅次于模型能力的最重要变量。
+He argued that regardless of specific numbers, it's clear the harness is becoming the most important variable right next to model capability in the AI stack.
 
-https://x.com/adityaag/status/2083039973666644039
+*"No idea if these specific numbers generalize across tasks, but directionally it's clear that the harness is going to become the most important variable -right next to model capability- in the AI stack"*
+这与 Garry Tan 今日分享的开源 harness 项目形成呼应，共同表明 AI 编排层的重要性正在被主流认可。
+This resonates with Garry Tan's open-source harness post today, both pointing to mainstream recognition of the orchestration layer's critical importance.
 
----
-
-Matt Turck (FirstMark Capital managing director, mattturck on X)
-
-Turck promoted his latest MAD Podcast episode with Samsara CEO Sanjit Biswas on physical AI — covered in depth in the Podcasts section below.
-Matt Turck 推介了他与 Samsara CEO Sanjit Biswas 录制的最新 MAD Podcast 一期，深度探讨物理 AI——详见下方播客板块。
-
-He also poked fun at the venture capital hype cycle with a meme about securing a "$2M allocation in the highest valuation tranche of the $800M pre-pre-seed of [new neo-lab] at a $10B valuation."
-他还用一张梗图调侃了风险投资的炒作循环——关于以 100 亿美元估值在某新兴实验室 8 亿美元的"前前种子轮"中获得 200 万美元份额。
-
-https://x.com/mattturck/status/2082907699646173484
-https://x.com/mattturck/status/2082737900706234429
+源推文：
+- https://x.com/levie/status/2083389460679373135
 
 ---
 
-PODCASTS
+Garry Tan (@garrytan)
 
-The MAD Podcast with Matt Turck — "The Biggest AI Deployment Nobody Talks About | Samsara CEO Sanjit Biswas"
-https://www.youtube.com/watch?v=3FHsGiONOGw
+Garry 今日分享了团队内部使用的 AI harness 工具，并发表了一条政治观点。
+Garry shared his team's internal AI harness tool and offered a political opinion.
+
+他推荐了一个他们团队每天使用的免费开源 AI harness，适用于个人 AI 和企业知识管理场景，与 Aaron Levie 的观点高度一致。
+He promoted a free and open-source AI harness his team builds and uses daily, suitable for personal AI and company knowledge brain scenarios — perfectly aligned with Aaron Levie's view on harness importance.
+
+*"Your personal AI or your company brain needs a clean harness and this is the one our team built and uses every day. Free and open source."*
+
+他还转发了一篇关于旧金山地方政治的文章，建议民主党学习 SF 过去五年踢走本地民主社会主义者的经验，以赢得重要选举。
+He also shared an article about San Francisco local politics, advising Democrats to study SF's story of voting out local Democratic Socialists to win elections that matter.
+
+源推文：
+- https://x.com/garrytan/status/2083353760701833546
+- https://x.com/garrytan/status/2083331028446523842
+
+---
+
+Zara Zhang (@zarazhangrui)
+
+Zara 今日分享了关于内容创作勇气与 Anthropic 内部 AI 使用情况的精彩内容。
+Zara shared great content on the courage to create and Anthropic's internal AI adoption.
+
+她鼓励内容创作者克服"这不是显而易见的吗"的心理障碍，因为对你来说显而易见的事，对大多数人来说并不显而易见。
+She encouraged content creators to overcome the mental block of "isn't that obvious?" because what's obvious to you is not obvious to most people.
+
+*"For every viral post of mine, I had to combat a voice in my mind that said 'duh, isn't that obvious?' Turns out what's obvious to you is not obvious to most people, most of the time"*
+
+她还分享了一个关于 Claude Tag 如何改变 Anthropic 工作方式的精彩访谈：Anthropic 产品和工程团队目前 **65% 的 PR 是由 Claude Tag 提交的**，这一数字令人震惊。
+She also shared a fascinating interview on how Claude Tag has changed work at Anthropic: **65% of PRs** from Anthropic's product and engineering teams are now raised by Claude Tag — a staggering figure.
+
+源推文：
+- https://x.com/zarazhangrui/status/2083354965482062079
+- https://x.com/zarazhangrui/status/2083349919172313367
+- https://x.com/zarazhangrui/status/2083161173563003268
+
+---
+
+Nikunj Kothari (@nikunj)
+
+Nikunj 今日以温馨的家庭观察开篇，引出一篇关于创业动力的深度文章。
+Nikunj opened with a warm family observation that led into a deeper essay on founder motivation.
+
+他写了一篇关于"最优秀的创始人是在逃离某些东西"这一风险投资界普遍认知的反思文章，探讨驱动力的真正来源。
+He wrote an essay pondering the venture world's quiet belief that the best founders are running from something — exploring where the real drive comes from.
+
+他还分享了一则温馨的观察：父亲就是家里最原始的"堆肥箱"——总是开心地吃完孩子们剩下的食物，他表示很乐意继承这一传统。
+He shared a touching observation: dads are the original compost box — always happily finishing the food left on kids' plates, a tradition he's glad to carry on.
+
+源推文：
+- https://x.com/nikunj/status/2083307235619287363
+- https://x.com/nikunj/status/2083281124302676322
+- https://x.com/nikunj/status/2083140308045271325
+
+---
+
+Peter Steinberger (@steipete)
+
+Peter 今日分享了关于 Claude 5.5 模型能力提升的实际体验，以及两条幽默转发。
+Peter shared practical experience with Claude 5.5's improved capabilities and two humorous reposts.
+
+他指出，随着 Claude 5.5 的发布，之前用于管理多任务的 Queue 模式已不再必要——新模型不会再因为同时接收多个指令而感到困惑，可以直接处理并行输入。
+He noted that with Claude 5.5, the Queue approach is no longer necessary — the model doesn't get confused anymore and can diligently process whatever you throw at it while it works.
+
+*"Queue was the way but with 5.5 the model doesn't get confused anymore, you can just throw stuff at it while it works and it will diligently process whatever you throw at it."*
+这是一个关于模型能力进步如何改变最佳实践的具体案例。
+This is a concrete example of how model capability improvements change best practices.
+
+他还转发了关于辐射屏蔽内衣的幽默问题，以及对 Jason 出色工作的称赞。
+He also reposted a humorous question about radiation-shielded underwear and a compliment on Jason's great work.
+
+源推文：
+- https://x.com/steipete/status/2083369880599015713
+- https://x.com/steipete/status/2083328272444915831
+- https://x.com/steipete/status/2083094971167781317
+
+---
+
+Dan Shipper (@danshipper)
+
+Dan 今日就 OpenAI 与 Anthropic 的竞争格局发表了独到判断，并分享了一则关于未来程序员面试的犀利预言。
+Dan offered a sharp take on the OpenAI vs. Anthropic competitive landscape and a biting prediction about future programmer interviews.
+
+他表示自己在《华尔街日报》关于 OpenAI 与 Anthropic 对比的报道中亮相，并坚持认为自今年春天以来，势头明显向 OpenAI 倾斜。
+He appeared in a WSJ piece on OpenAI vs. Anthropic and stands behind his view that momentum has been clearly shifting to OpenAI since early spring.
+
+*"i stand behind this…has been pretty clear since early spring that the momentum is shifting to @openai. it's a fascinating co[mpetition]"*
+
+他还写了一段辛辣的未来预言："2027 年人类程序员面试题：请描述你最近解决的三个未解数学猜想，并分享你的提示词……"
+He also wrote a biting satirical prediction about human programmer interviews in 2027: "Please describe the last 3 unresolved mathematical conjectures you solved, and share your prompts. Please describe the last cyber felony your agent unintentionally [committed]..."
+
+源推文：
+- https://x.com/danshipper/status/2083380721607921904
+- https://x.com/danshipper/status/2083352181776732326
+- https://x.com/danshipper/status/2083239700664349128
+
+---
+
+Aditya Agarwal (@adityaag)
+
+Aditya 今日发出 South Park Commons (SPC) 申请的最后召集。
+Aditya made a final call for South Park Commons (SPC) applications.
+
+他提醒大家申请截止还剩 2 天，并附上了申请链接，鼓励有意向的人尽快行动。
+He reminded followers that only 2 days remain to apply to @spc, encouraging interested people to act quickly.
+
+源推文：
+- https://x.com/adityaag/status/2083330584022282576
+- https://x.com/adityaag/status/2083330582210380106
+
+---
+
+Sam Altman (@sama)
+
+Sam 今日分享了对 ChatGPT Work 的创新用例，以及对 AI 发展速度的信心表态。
+Sam shared a creative use case for ChatGPT Work and a confident statement on AI's pace of progress.
+
+他描述了一个令人惊喜的家庭 AI 应用场景：将全家的日历和孩子的兴趣爱好接入 ChatGPT Work，每天早上上学路上自动生成一个专属播客，讲述当天适合孩子年龄的新闻故事。
+He described a delightful family AI use case: connect family calendars and kids' interests to ChatGPT Work, then have it generate a personalized podcast every morning for the school drive covering age-appropriate news.
+
+*"cool use case of chatgpt work i heard last night: connect your family calendars and explain your kids' interests. every morning for the drive to school, have it make a podcast that talks about one k[id-appropriate story]"*
+这展示了个人 AI 在日常家庭生活中的具体落地可能。
+This showcases how personal AI can concretely embed itself in everyday family life.
+
+他还转发了一张关于 AI 进步速度远超摩尔定律的图表，并简短评论"速度还可以更快"——延续了他一贯的乐观主义。
+He also shared a chart showing AI progress at 20x the pace of Moore's Law and quipped "it could be faster" — consistent with his relentless optimism.
+
+源推文：
+- https://x.com/sama/status/2083221585792762171
+- https://x.com/sama/status/2083203642975502640
+- https://x.com/sama/status/2083198135812383197
+
+---
+
+🎙️ 播客 · Podcast
+
+Unsupervised Learning — Ep 92: xAI Co-Founder Unpacks the Future of Model Development
+https://www.youtube.com/@RedpointAI
 
 ## 一、深度总结
 
 **核心论点**
-Samsara 可能是全球最大规模的物理 AI 部署，却几乎从未出现在 AI 圈的讨论中。每天覆盖 99% 的美国道路、每年处理 25 万亿个数据点——这不是科幻，这是正在运行的现实。物理 AI 的真正挑战不是模型能力，而是将非数字化的物理世界转化为可推理的数据，并在极端复杂的现实环境中可靠落地。
+
+本期播客邀请了 xAI 联合创始人、River AI 创始人 Igor Babushkin。
+Igor 的核心论点是：AI 编程 agent 的突破性进展（尤其是 2025 年底的 Claude Opus 新版本）标志着一个真正的范式转变，而这一转变不会止步于编程——它将向科学发现、个人 AI 等更广泛的领域蔓延，并对商业模式和社会结构产生深远影响。
 
 **关键洞察**
-- **物理 AI 的数据稀缺性是护城河**：你无法从 Reddit 爬取建筑工地发生了什么。Samsara 积累的传感器、摄像头、GPS 数据是真正的第一方数据，无法被大模型厂商简单复制，这构成了真实的竞争壁垒。
-- **Agent 需要 workflow + guardrails，缺一不可**：Sanjit 明确表示，纯 agent 推理和纯规则工作流都无法单独成立。真正有效的部署是：用 workflow 定义边界，用 guardrails 设定红线，再用 agent reasoning 在其中自主规划执行。
-- **安全摄像头最大的用途是"洗清冤枉"**：90% 的行车记录仪数据用于事故责任判定中为司机辩护，而非监控他们。这一反直觉的定位是 Samsara 赢得一线工人信任的关键。
-- **AI 数据中心正在驱动史无前例的基础设施建设**：某大型能源公司表示，过去 125 年积累的电网容量，将在未来 5 年内翻三倍——90% 的新增需求来自数据中心。这不是预测，这是正在签订的合同。
-- **自动化长途卡车运输会来，但慢于预期**：商业车辆的大多数并非在走高速公路，而是在做 HVAC 维修、建设道路、收垃圾。这些场景的非结构化程度使得完全自动化需要 10-20 年，而不是 3 年。
 
-**最值得关注的信号**
-每百万 token 成本的暴跌正在解锁全新的物理 AI 用例——比如让 AI 全天候陪同司机"骑行"进行安全评估，这在一年前成本太高，现在正变得可行。当推理成本接近零，物理世界的 AI 渗透率将出现非线性跳跃。
+* **编程只是开始，不是终点。** Igor 认为，编程之所以率先被 agent 突破，是因为它具有可验证性（verifiable），能提供明确的奖励信号。但科学发现（尤其是数学与 Lean 定理证明）同样可验证，将成为下一个重大突破领域。
 
-## 二、完整中文逐字稿
+* **闭源模型提供商面临结构性困境。** 他认为，当开源模型的能力不断追赶甚至超越闭源模型时，闭源公司将很难维持其商业壁垒。这对 OpenAI、Anthropic 等公司来说是一个战略性挑战。
 
-**主持人 | 00:31 - 00:49**
-嗨，我是 Matt Turck，欢迎收听 MAD 播客。今天的嘉宾是 Sanjit Biswas，他是 Samsara 的联合创始人兼 CEO。Samsara 市值 200 亿美元，可能是全球物理世界中规模最大的 AI 部署。数百万辆车辆，每年 25 万亿个数据点，每天覆盖 99% 的美国道路。
+* **个人 AI 是 agent 的下一形态。** Igor 创立 River AI 的核心赌注是：agent 能力将从企业生产力工具延伸到个人生活管理，包括本地硬件部署，以实现更强的隐私保护和个性化体验。
 
-**主持人 | 00:49 - 01:14**
-我们聊到了物理 AI、面向卡车司机和一线工人的 agent、人形机器人、自动驾驶卡车，以及为什么 AI 热潮本质上是一个基础设施建设项目。如果你喜欢这期节目，请订阅我们的频道，这对我们帮助很大。现在让我们进入正题，有请 Sanjit。
+* **"魔法师学徒"隐喻。** Igor 用迪士尼《幻想曲》中魔法师学徒的故事类比当前的 AI 发展——人类开始使用 AI 这个强大工具，但工具的能力可能远超人类的控制预期，我们都正在成为"魔法师的学徒"。
 
-**主持人 | 01:16 - 01:48**
-好的，Sanjit。在这个播客里我们聊了很多 AI 模型和软件 agent，但关于物理 AI 谈得相对少一些。所以今天这期节目，我们要聊 AI 如何面对交通、建筑、工厂和电力这些物理现实领域。我们先从"物理 AI"这个概念说起——这个词越来越常见，通常出现在人形机器人和 Robotaxi 的语境里。从你的角度来看，什么是物理 AI？
+* **政策与未来世界的责任感。** Igor 在写 AI 科幻小说时，深刻意识到强大 AI 系统对未来世界的政策含义，并认为从业者有责任思考这些问题，而不只是埋头做技术。
 
-**嘉宾 | 01:48 - 02:13**
-好的，首先感谢 Matt 邀请我。我认为物理 AI 就是将 AI 应用于物理世界。我们星球的基础设施远不止 Waymo Robotaxi 行驶的道路，还有建筑工地、电网，以及所有地下管道——一切都包含其中。物理 AI 面临的有趣挑战在于这个世界尚未被数字化。
+## 二、原文金句（英文引用）
 
-**嘉宾 | 02:13 - 03:05**
-这是一个没有几十年数字数据可供推理和 tokenize 的前沿领域，这使它极具吸引力，因为其中锁定的价值非常巨大。我们从几个维度来看这个问题：通过 GPS 追踪位置，用摄像头作为传感器来理解物理世界——摄取大量视频素材能提供极其丰富的信息。还有其他数据源，比如降雨数据、限速数据。当这些数据融合在一起时，价值的释放是巨大的。
+*"From that point onwards, that latest iteration of Claude Opus models, suddenly everybody agreed to, yes these models are very powerful. Yes they make our jobs much much easier."*
 
-**主持人 | 03:05 - 03:27**
-那 AI 如何改变这一切？工业自动化持续了几十年，甚至几个世纪。然后有了 IoT 的浪潮——你们公司的股票代码就是 IoT。当前时刻有多么不同？
+*"I think we're all becoming the sorcerer's apprentices now. It's LLMs and agents becoming more and more capable."*
 
-**嘉宾 | 03:28 - 04:05**
-你提到"几个世纪"是对的，那确实是思考物理基础设施的正确时间尺度，可以追溯到罗马时代。很多维护道路的流程已经延续了很长时间，大部分是人工完成的——去检查道路状况，了解上次维修时间等等。如果能将这些数字化并使用传感器数据，就是巨大的突破。问题变成了：如何获取数据？如何处理？如何得出有意义的洞察或行动？
+*"Everything will be transformed. All of computing really is a potential, is up for grabs when it comes to agents."*
 
-**嘉宾 | 04:05 - 04:36**
-这一切现在成为可能了。过去约二十年都是关于"报告"——摄取数据并呈现成漂亮的表格供人查看推理。而过去两三年真正令人兴奋的是：AI 能够推理这类信息，寻找上下文线索并给出洞察。现在我们甚至看到了 Agentic AI——它可以直接采取行动，比如安排工作或执行任务。
-
-**主持人 | 04:36 - 05:03**
-为什么硅谷没有大举进入这个领域？我们聊了很多聊天机器人和 agent，主要在数字和软件领域。当然有 Tesla，有人形机器人。这是一个必须先有软件 AI 才能应用于物理世界的顺序问题，还是物理世界就是一套完全不同的挑战？
-
-**嘉宾 | 05:03 - 05:45**
-这波 AI 浪潮起步于数字世界是完全合理的——我们有所有的比特数据，有 PB 级的数据可供推理，有很好的训练集，有训练这些模型所需的数万亿个 token。物理世界要混乱得多，还有硬件组件。"硬件很难"这句话是真的——这些东西必须在恶劣环境中正常工作，要通过不稳定的网络传输数据，还需要部署到一线，这需要大量复杂的工作：物理硬件安装，让数百万一线工人采用新技术并融入日常工作。
-
-**嘉宾 | 05:45 - 06:07**
-这比数字世界的"低垂果实"要复杂得多。但话说回来，这是全球经济的重要组成部分，这些行业约占全球 GDP 的 50%。所以这是一个可以产生巨大影响的领域，但你必须真正撸起袖子，比连接一个现成数据库要更深度地参与其中。
-
-**主持人 | 06:07 - 06:17**
-可以说这也是一个容错空间更小的环境，错误的后果可能要严重得多吗？
-
-**嘉宾 | 06:17 - 06:38**
-绝对是。当你的系统在物理世界运行时，安全性至关重要。我们非常重视这一点，尤其是在设计 agent 功能时，我们需要确保有足够的护栏，防止系统在高风险场景中出错。
-
-**主持人 | 07:11**
-好，那 Samsara 具体做什么？
-
-**嘉宾 | 07:11 - 08:22**
-Samsara 本质上是一个针对物理运营的连接运营云。我们的核心是将传感器、摄像头、追踪设备和诊断系统连接起来，然后在这之上构建 AI 层。你可以把它想象成一个物理运营的操作系统——帮助管理者了解资产在哪里、它们的状态如何、运营如何进行，以及如何改进。
-
-**嘉宾 | 08:22 - 09:44**
-具体来说，我们现在有 20 亿美元的 ARR，覆盖超过 2500 万辆车辆，每年处理 25 万亿个数据点。在安全方面，我们相信去年我们帮助预防了约 38 万起交通事故。这些数字背后是真实的影响——减少伤亡，降低保险成本，提高运营效率。
-
-**主持人 | 09:44 - 11:28**
-AI 如何具体帮助预防交通事故？
-
-**嘉宾 | 09:44 - 11:28**
-行车记录仪是核心。我们的 AI 摄像头可以实时检测危险驾驶行为——前向碰撞风险、分心驾驶、疲劳驾驶等等。当检测到风险时，系统会立即向司机发出音频警告。这是实时干预，不是事后分析。更重要的是，我们的数据显示这种实时反馈真的有效——经过 AI 辅导的司机事故率显著下降。
-
-**主持人 | 22:16 - 23:28**
-行车记录仪如何实时辅导司机？
-
-**嘉宾 | 22:16 - 23:28**
-这是我们最核心的功能之一。摄像头不仅仅是记录——它是一个实时 AI 接口。司机会收到即时的语音反馈，比如"检测到前方车辆，请保持距离"或"检测到分心行为，请专注路面"。这些提示是基于实时视频分析生成的，延迟极低。随着时间的推移，这形成了一种持续的驾驶辅导关系，帮助司机建立更好的习惯。
-
-**主持人 | 36:50 - 38:50**
-能介绍一下 Samsara Agent Studio 吗？
-
-**嘉宾 | 36:50 - 38:50**
-Agent Studio 是我们让客户能够构建自己的 AI agent 的平台。一个很好的例子是保修 agent——当设备出现故障时，agent 会自动检索相关诊断数据、历史维修记录，查找保修条款，判断是否在保修期内，然后自动启动理赔流程。这个流程以前需要人工处理数小时，现在几分钟内完成。
-
-**主持人 | 40:10 - 41:05**
-在你的 agent 部署中，agentic 推理和传统 workflow 规则的比例是怎样的？
-
-**嘉宾 | 40:50 - 41:47**
-我认为 agent 推理是一个巨大的突破——这种构建计划、在长时间跨度内工作的能力。但你确实需要明确 agent 应该做什么。这在某种程度上就是 workflow，也是护栏——在什么时候告诉 agent 寻求帮助，或者不要深入某个方向。这是操作上下文（通过 workflow 和 guardrails 提供）与 agentic 推理能力的结合。两者单独都运转不佳。
-
-**主持人 | 42:07 - 43:07**
-你认为当前的 agent 还无法做什么？
-
-**嘉宾 | 42:11 - 43:07**
-这个上限每周都在变化。即使是新一代模型，有时候你还是会看到它们陷入循环或分心。所以我认为在时间效率上还有实际瓶颈——它们可能最终能找到答案，但能在 10 秒、1 分钟还是 1 小时内找到？随着模型越来越强大，算法越来越高效，架构越来越智能，以前需要一天的任务会变成一小时，甚至更快。
-
-**主持人 | 43:33 - 45:17**
-未来一两年你们能做什么？
-
-**嘉宾 | 43:33 - 45:17**
-我非常看好"AI 陪同骑行"这个方向。在物流运营中，管理者经常需要陪司机跑一整天，观察他们的驾驶习惯——检查后视镜了吗？够专注吗？这本质上是海量的视频计算。今天在技术上已经可行，但成本较高。我们非常乐观：随着每百万 token 成本的快速下降和能力提升，这一功能将在未来一两年内变得可负担。最近我试用了 Cerebroarse 在其晶圆级芯片上运行的推理模型，速度达到了每秒 800-1500 个 token，是 GPU 的 10 倍——这种非线性的跳跃正在解锁全新的用例。
-
-**主持人 | 45:17 - 48:48**
-行车记录仪会不会让人感觉"老大哥在看着你"？
-
-**嘉宾 | 46:28 - 48:48**
-我们花了很多时间在一线与司机沟通，因为他们是系统的主要用户和受益者。人们常常忽略的是：行车记录仪最主要的用途其实是"洗清冤枉"。比如 Home Depot 的司机，经常有人声称被他们的卡车撞了，这对司机来说非常委屈。现在你可以提供高清视频证据，清楚呈现事故现场的真实情况，消除一切歧义。司机们很喜欢这个，因为 90% 的时候他们都做得很好，但之前没有人看见。这种正向反馈——展示优秀的防御性驾驶和无辜记录——是平衡"为什么要被监控"这个问题的关键砝码。
-
-**嘉宾 | 48:11 - 48:48**
-此外，在物理行业里，受伤的风险是落在人身上的。我们希望每个人来上班、下班都平平安安。如果你透明、周到、尊重隐私地推进这件事，一线工人会非常认可。
-
-**主持人 | 50:37 - 53:19**
-我们是否正在走向人类与机器人混合运营的未来？
-
-**嘉宾 | 50:59 - 53:19**
-如果展望五到十年，是的，物理运营中会有更多机器人参与。你现在走进任何仓库都能看到这一趋势。机器人做重活，减少了工人的受伤风险。但仍然需要人类处理各种例外情况和细微之处。在工地上，我们预计五年内机器人可以在夜间自动执行道路平整这类重复性工作。物流方面，达拉斯到凤凰城之间的长途运输段也可以自动化。但我们认为会是多种设备、多种机器人的多样化组合。
-
-**主持人 | 54:50 - 56:32**
-自动驾驶卡车有多快会到来？
-
-**嘉宾 | 55:11 - 56:32**
-Robotaxi 会来得更快，因为城市内点到点的出行场景相对标准化。卡车运输这边，长途干线可以更快实现自动化；但大多数商业车辆其实是在做 HVAC 维修、建路、收垃圾这类工作——这些场景的复杂性使得当前的自动驾驶技术难以应对。水泥搅拌车、垃圾车都是高度定制化的设备，自动化系统渗透到这些边缘场景需要更长的扩散曲线，可能需要 10 到 20 年。
-
-**主持人 | 56:32 - 57:12**
-AI 数据中心热潮对你们的客户有真实影响吗？
-
-**嘉宾 | 57:12 - 57:54**
-非常明显。我上周刚在现场拜访了一家大型能源公司。他们告诉我：过去 125 年建成的电网容量，未来 5 年将翻三倍。而其中 90% 的新增需求来自数据中心。我们的物理运营客户们正处于前所未有的繁忙状态，他们根本忙不过来。
-
-**主持人 | 58:16 - 1:00:09**
-关于技工职业的未来——"学水管工比当律师更好"这种说法你怎么看？
-
-**嘉宾 | 58:40 - 59:54**
-我得提醒想转行做水管工的律师们：这活儿相当难，相当脏。但认真说，确实存在各类技工的劳动力短缺。这次数据中心热潮就是个好例子——现在找到足够的电工都很难。Meta 等公司已经在主动发起再技能培训项目。更重要的是，AI 会让技工的工作更高效——比如电工不必在工地上等材料，AI 可以帮他协调好一切，让他把时间花在真正发挥技术价值的地方。
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+*"I think agents will continue to improve very rapidly on complex coding projects and also math problems. Anything that's verifiable."*
