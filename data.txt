@@ -1,293 +1,269 @@
-AI Builders 日报 · 2026-08-02
+AI Builders 日报 · 2026-08-03
+
+AI Builders Digest — 2026-08-03
 
 ---
 
-Swyx (@swyx)
-
-swyx 今日分享了三条关于 AI 工具使用习惯和 agent 技术的观察。
-swyx shared three observations today on AI tool usage habits and agent technology.
-
-他力挺 Claude 的 /loop 和 /goal 模式，认为多数 AI 领导者放弃这些功能是过早放弃。
-He defended Claude's /loop and /goal modes, arguing that most AI leaders who stopped using them gave up too soon.
-
-*"among ai leaders i seem to be in the minority in that i am STILL actively using /loop and /goal…. and i think all of u guys who stopped using it are wrong - not wrong forever, just giving up on"*
-他认为这些工具还有很大潜力，大家不该这么快就放弃。
-He believes these tools still have great potential and people shouldn't abandon them so quickly.
-
-他还观察到"vibe coding"这个词的贬义色彩已经完全消失——如今从非技术人员到超级技术人员，几乎每个人都在这样做了。
-He also observed that the pejorative connotation around "vibe coding" has completely disappeared — now everyone from non-technical to supertechnical people is doing it.
-
-此外他分享了一条关于 MITM agent 蒸馏技术的简短评论，称其为研究生级别的技术，但确实有效。
-He also shared a brief remark on MITM agent distillation, calling it graduate-level work but affirming it works.
-
-源推文：
-- https://x.com/swyx/status/2083439562437673053
-- https://x.com/swyx/status/2083294839186260385
-- https://x.com/swyx/status/2083237045720465504
+## X / TWITTER
 
 ---
 
-Thibault Sottiaux (@thsottiaux)
+### Andrej Karpathy (karpathy on X)
 
-Thibault 今日宣布了一项重大用户福利，并分享了一条简短的人生准则。
-Thibault announced a major user benefit today and shared a brief life maxim.
+We're starting to leave the territory where you'd test an LLM with simple creative prompts like "draw a pelican on a bicycle."
+我们正在离开那个用简单创意提示来测试 LLM 的时代。
 
-他宣布重置了 Codex 和 ChatGPT Work 的使用限制，用户本周末可以运行多达 10 万个 Luna 线程。
-He announced a reset of usage limits for Codex and ChatGPT Work, allowing users to run up to 100,000 Luna threads this weekend.
+Karpathy gave Claude Opus 5 a far more demanding challenge — handing it the first chapter of a complex novel and asking it to perform deep literary analysis.
+Karpathy 给了 Claude Opus 5 一个更高难度的挑战——将一部复杂小说的第一章交给它，要求进行深度文学分析。
 
-*"To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend… I have reset usage limits for Codex and ChatGPT Work. Enjoy."*
-这一慷慨举措庆祝了团队高效完成的一周工作。
-This generous move celebrated the team's efficient week of work.
+The results suggest frontier models are now being evaluated not on toy tasks, but on open-ended intellectual problems that require genuine reasoning and nuanced understanding.
+结果表明，前沿模型正在被用真正需要推理和细腻理解的开放性智识问题来评估，而非玩具式任务。
 
-他还分享了一句极简格言——"Optimize for curiosity"（以好奇心为优化目标），以及 ChatGPT Work 的最新使用数据截图。
-He also shared a minimalist maxim — "Optimize for curiosity" — and a screenshot of ChatGPT Work's latest usage stats.
-
-源推文：
-- https://x.com/thsottiaux/status/2083427516996292992
-- https://x.com/thsottiaux/status/2083395449814229287
-- https://x.com/thsottiaux/status/2083387677945036995
+Source: https://x.com/karpathy/status/2083749667410727319
 
 ---
 
-Nan Yu (@thenanyu)
+### Swyx (swyx on X)
 
-Nan Yu 今日分享了 Linear 平台上 AI 自动化工作流的核心观察，以及一条关于行动力的哲学提示。
-Nan Yu shared key observations about AI-automated workflows on Linear and a philosophical nudge about agency.
+Swyx, organizer of the AI Engineer conference, rarely gets to attend his own event — he ends up watching talks back afterward just like everyone else.
+Swyx 是 AI Engineer 大会的主办人，却几乎没有机会参加自己举办的会议——他和其他人一样，事后才回看演讲录像。
 
-他指出 Linear 上最常运行的循环是「议题 → Agent → PR → 发布」，约 30% 的 bug 会走完整个流程，并强调执行时有一些需要注意的细微差别。
-He noted the most common loop in Linear is "Issue → Agent → PR → Release," with ~30% of bugs making it all the way through the full flow, and highlighted nuances in executing this loop.
+He highlighted one talk as *"VERY well paced and argued"* — a session on "fighting the framework wars," which he recommended enthusiastically.
+他特别推荐了一场演讲，称其"节奏极佳、论证有力"，主题是"与框架之战作斗争"。
 
-*"The most common loop written in Linear is some variant this one (Issue > Agent > PR > Release). ~30% of our bugs make it all the way through this flow."*
-这为 AI 软件工厂模式提供了真实数据支撑。
-This offers real-world data supporting the AI software factory pattern.
+He also dropped a hint about an AI-powered blog tool called "clanker," suggesting he's experimenting with AI-assisted content workflows.
+他还透露了一个叫"clanker"的 AI 博客工具，暗示自己正在探索 AI 辅助内容创作的工作流程。
 
-他还转发了一条来自 Josh 的建议——授权大家"Just Do Normal Things"，暗示在 AI 时代，普通的行动力反而变得难能可贵。
-He also shared a tip from Josh encouraging people to "Just Do Normal Things," implying that straightforward action is underrated in the AI era.
-
-源推文：
-- https://x.com/thenanyu/status/2083340761488126101
-- https://x.com/thenanyu/status/2083230295206121807
+Sources:
+- https://x.com/swyx/status/2083753582160191988
+- https://x.com/swyx/status/2083695562004771063
+- https://x.com/swyx/status/2083689273828818975
 
 ---
 
-Amjad Masad (@amasad)
+### Thibault Sottiaux (thsottiaux on X)
 
-Amjad 今日分享了一个令人印象深刻的 AI 下棋实验成果。
-Amjad shared an impressive AI chess experiment result today.
+Thibault Sottiaux, an engineer at Anthropic, shared a playful observation: users use the /fast command less on weekends — *"The weekend is for relaxation, even for the model."*
+Anthropic 工程师 Thibault Sottiaux 分享了一个有趣的观察：用户在周末使用 /fast 命令的频率更低——"周末是用来放松的，对模型也一样。"
 
-他的 8B 参数模型在国际象棋中达到了约 1500 Elo 分，能稳定击败前沿大模型和 Stockfish Level 0，并且每步只需 1-2 秒，而对比模型需要 30 秒。
-His 8B parameter model reached ~1500 Elo in chess, consistently beating frontier models and Stockfish Level 0, with just 1-2 seconds per move compared to 30 seconds for others.
+He followed that up with a more expansive thought: *"The week was for efficiency. The weekend is for 10 major breakthroughs in science."*
+紧接着他写道："工作日追求效率，周末则是实现科学十大突破的时候。"
 
-*"~1500 Elo! Consistently beats frontier models and Stockfish level 0. Fun seeing an 8b model mogging GPT 5.6 with high reasoning and response chaining."*
-这表明通过高推理与响应链条组合，小模型在特定任务上可以超越更大的模型。
-This shows that smaller models with the right reasoning pipeline can outperform much larger ones on specific tasks.
+It's a lighthearted but pointed signal about how people are now using AI differently across work and leisure contexts.
+这是一个轻松却深刻的信号，揭示了人们在工作与休闲场景中对 AI 的不同使用方式。
 
-源推文：
-- https://x.com/amasad/status/2083424608993300824
-
----
-
-Guillermo Rauch (@rauchg)
-
-Guillermo 今日分享了两条关于 AI 基础设施和软件开发范式转变的重要观点。
-Guillermo shared two key insights on AI infrastructure and the shift in software development paradigm.
-
-他介绍了 Vercel AI Gateway 的新功能——支持按密钥/团队/项目设置预算、故障转移、模型和供应商选择以及实时可观测性，强调这是企业将 AI 变成生产性投资的关键基础设施。
-He highlighted Vercel AI Gateway's new features — per key/team/project budgets, failover, model/provider choice, and real-time observability — calling it critical infra for companies to make AI a productive investment.
-
-他还呼应了 Nan Yu 的观点，认为「Issue → Agent → PR → Release」的循环将成为软件项目的新常态，开发者的工作重心将转向优化这个产出最高的循环本身。
-He echoed Nan Yu's observation that the "Issue → Agent → PR → Release" loop will become the norm, and that developers' role shifts to optimizing the loop that yields the highest output.
-
-*"This will be the norm as software projects transition to agentic software factories. Issue → Agent → PR → Release 🔁"*
-
-源推文：
-- https://x.com/rauchg/status/2083319868766699699
-- https://x.com/rauchg/status/2083208578526314513
+Sources:
+- https://x.com/thsottiaux/status/2083699879650463756
+- https://x.com/thsottiaux/status/2083556636455752050
 
 ---
 
-Aaron Levie (@levie)
+### Peter Yang (petergyang on X)
 
-Aaron 今日发表了对 AI 技术栈中"harness"（执行框架）重要性的简洁判断。
-Aaron made a concise judgment on the growing importance of the "harness" layer in the AI stack.
+Peter Yang, a product leader and AI commentator, got candid: *"I think Opus 4.6 was the Opus model with the best personality and writing style."*
+产品领导者兼 AI 评论人 Peter Yang 坦率地表达了看法："我认为 Opus 4.6 是个性和写作风格最好的 Opus 模型。"
 
-他认为，无论具体数字是否普遍适用，可以明确的是：harness（执行框架/编排层）正在成为仅次于模型能力的最重要变量。
-He argued that regardless of specific numbers, it's clear the harness is becoming the most important variable right next to model capability in the AI stack.
+He finds Opus 5 tends to give overly long replies — the personality feels off compared to its predecessor.
+他觉得 Opus 5 的回复往往过长——与前代相比，个性感觉有些偏差。
 
-*"No idea if these specific numbers generalize across tasks, but directionally it's clear that the harness is going to become the most important variable -right next to model capability- in the AI stack"*
-这与 Garry Tan 今日分享的开源 harness 项目形成呼应，共同表明 AI 编排层的重要性正在被主流认可。
-This resonates with Garry Tan's open-source harness post today, both pointing to mainstream recognition of the orchestration layer's critical importance.
+He also made a sweeping statement about AI's highest ambition: *"The number one thing I want AI to fix is to cure cancer once and for all."*
+他还就 AI 的最高使命发表了宏观论断："我最想让 AI 解决的事情，就是彻底攻克癌症。"
 
-源推文：
-- https://x.com/levie/status/2083389460679373135
+Additionally, he flagged a plugin bug in OpenAI's system that was disrupting the user experience for his /no-ai-slop skill.
+此外，他指出了 OpenAI 系统中一个影响其 /no-ai-slop 插件用户体验的 bug。
 
----
-
-Garry Tan (@garrytan)
-
-Garry 今日分享了团队内部使用的 AI harness 工具，并发表了一条政治观点。
-Garry shared his team's internal AI harness tool and offered a political opinion.
-
-他推荐了一个他们团队每天使用的免费开源 AI harness，适用于个人 AI 和企业知识管理场景，与 Aaron Levie 的观点高度一致。
-He promoted a free and open-source AI harness his team builds and uses daily, suitable for personal AI and company knowledge brain scenarios — perfectly aligned with Aaron Levie's view on harness importance.
-
-*"Your personal AI or your company brain needs a clean harness and this is the one our team built and uses every day. Free and open source."*
-
-他还转发了一篇关于旧金山地方政治的文章，建议民主党学习 SF 过去五年踢走本地民主社会主义者的经验，以赢得重要选举。
-He also shared an article about San Francisco local politics, advising Democrats to study SF's story of voting out local Democratic Socialists to win elections that matter.
-
-源推文：
-- https://x.com/garrytan/status/2083353760701833546
-- https://x.com/garrytan/status/2083331028446523842
+Sources:
+- https://x.com/petergyang/status/2083755374994415904
+- https://x.com/petergyang/status/2083637620899184642
+- https://x.com/petergyang/status/2083594381748302160
 
 ---
 
-Zara Zhang (@zarazhangrui)
+### Nan Yu (thenanyu on X)
 
-Zara 今日分享了关于内容创作勇气与 Anthropic 内部 AI 使用情况的精彩内容。
-Zara shared great content on the courage to create and Anthropic's internal AI adoption.
+Nan Yu, an AI engineer and product thinker, proposed an intriguing idea: GitHub should let developers pledge tokens against issues they open in open-source repos.
+AI 工程师兼产品思考者 Nan Yu 提出了一个有趣的想法：GitHub 应允许开发者为他们在开源仓库中提交的 issue 质押 token。
 
-她鼓励内容创作者克服"这不是显而易见的吗"的心理障碍，因为对你来说显而易见的事，对大多数人来说并不显而易见。
-She encouraged content creators to overcome the mental block of "isn't that obvious?" because what's obvious to you is not obvious to most people.
+The concept: write a spec in the issue with a pledge attached; if the maintainer accepts, GitHub passes the issue directly to a cloud coding agent to resolve it.
+具体设想：在 issue 中附上质押的规格说明，维护者接受后，GitHub 将该 issue 直接传递给云端编程 Agent 来解决。
 
-*"For every viral post of mine, I had to combat a voice in my mind that said 'duh, isn't that obvious?' Turns out what's obvious to you is not obvious to most people, most of the time"*
+He also noted a practical pain point in current agentic loops — when an agent leaves a comment on an issue and the human responds with more context to unblock the process, the agent simply doesn't pick it up.
+他还指出了当前 Agent 循环中的一个实际痛点：Agent 在 issue 上留下评论，人类补充了更多信息来解除阻塞，Agent 却不会主动接收。
 
-她还分享了一个关于 Claude Tag 如何改变 Anthropic 工作方式的精彩访谈：Anthropic 产品和工程团队目前 **65% 的 PR 是由 Claude Tag 提交的**，这一数字令人震惊。
-She also shared a fascinating interview on how Claude Tag has changed work at Anthropic: **65% of PRs** from Anthropic's product and engineering teams are now raised by Claude Tag — a staggering figure.
-
-源推文：
-- https://x.com/zarazhangrui/status/2083354965482062079
-- https://x.com/zarazhangrui/status/2083349919172313367
-- https://x.com/zarazhangrui/status/2083161173563003268
+Sources:
+- https://x.com/thenanyu/status/2083722999430050281
+- https://x.com/thenanyu/status/2083534333428580501
 
 ---
 
-Nikunj Kothari (@nikunj)
+### Amanda Askell (AmandaAskell on X)
 
-Nikunj 今日以温馨的家庭观察开篇，引出一篇关于创业动力的深度文章。
-Nikunj opened with a warm family observation that led into a deeper essay on founder motivation.
+Amanda Askell, a researcher at Anthropic, offered a wry observation about the deep learning debate: *"Do not be unkind to those who say deep learning is hitting a wall. We all need a little hope in our lives."*
+Anthropic 研究员 Amanda Askell 对深度学习的争论作出了一句俏皮的评论："不要对那些说深度学习正在撞墙的人冷言冷语，我们都需要一点希望。"
 
-他写了一篇关于"最优秀的创始人是在逃离某些东西"这一风险投资界普遍认知的反思文章，探讨驱动力的真正来源。
-He wrote an essay pondering the venture world's quiet belief that the best founders are running from something — exploring where the real drive comes from.
+She also shared thoughts on social stratification scenarios — referencing the sci-fi concept of "meths and grounders" from Altered Carbon — to comment on how people discuss AI's potential to create permanent underclasses.
+她还就社会分层场景分享了看法，引用科幻概念"变异人与地面人"（来自《碳变》）来评论人们关于 AI 可能制造永久底层阶级的讨论。
 
-他还分享了一则温馨的观察：父亲就是家里最原始的"堆肥箱"——总是开心地吃完孩子们剩下的食物，他表示很乐意继承这一传统。
-He shared a touching observation: dads are the original compost box — always happily finishing the food left on kids' plates, a tradition he's glad to carry on.
-
-源推文：
-- https://x.com/nikunj/status/2083307235619287363
-- https://x.com/nikunj/status/2083281124302676322
-- https://x.com/nikunj/status/2083140308045271325
+Sources:
+- https://x.com/AmandaAskell/status/2083713770065637511
+- https://x.com/AmandaAskell/status/2083649115901337644
 
 ---
 
-Peter Steinberger (@steipete)
+### Amjad Masad (amasad on X)
 
-Peter 今日分享了关于 Claude 5.5 模型能力提升的实际体验，以及两条幽默转发。
-Peter shared practical experience with Claude 5.5's improved capabilities and two humorous reposts.
+Amjad Masad, CEO of Replit, posted a brief but enthusiastic *"Cool!"* in response to a project or development in the ecosystem — minimal text but a clear signal of something catching his attention.
+Replit CEO Amjad Masad 对生态系统中的某个项目或进展发了一条简短但热情的"Cool!"——虽然文字简练，却清晰地表明有什么东西吸引了他的注意。
 
-他指出，随着 Claude 5.5 的发布，之前用于管理多任务的 Queue 模式已不再必要——新模型不会再因为同时接收多个指令而感到困惑，可以直接处理并行输入。
-He noted that with Claude 5.5, the Queue approach is no longer necessary — the model doesn't get confused anymore and can diligently process whatever you throw at it while it works.
-
-*"Queue was the way but with 5.5 the model doesn't get confused anymore, you can just throw stuff at it while it works and it will diligently process whatever you throw at it."*
-这是一个关于模型能力进步如何改变最佳实践的具体案例。
-This is a concrete example of how model capability improvements change best practices.
-
-他还转发了关于辐射屏蔽内衣的幽默问题，以及对 Jason 出色工作的称赞。
-He also reposted a humorous question about radiation-shielded underwear and a compliment on Jason's great work.
-
-源推文：
-- https://x.com/steipete/status/2083369880599015713
-- https://x.com/steipete/status/2083328272444915831
-- https://x.com/steipete/status/2083094971167781317
+Source: https://x.com/amasad/status/2083730074147389898
 
 ---
 
-Dan Shipper (@danshipper)
+### Guillermo Rauch (rauchg on X)
 
-Dan 今日就 OpenAI 与 Anthropic 的竞争格局发表了独到判断，并分享了一则关于未来程序员面试的犀利预言。
-Dan offered a sharp take on the OpenAI vs. Anthropic competitive landscape and a biting prediction about future programmer interviews.
+Guillermo Rauch, CEO of Vercel, spotlighted an open-source agentic CRM built on Vercel's platform and Next.js — *"Model-agnostic, self-hostable or serverlessly-deployed, multi-channel, and headless. This is the way."*
+Vercel CEO Guillermo Rauch 重点介绍了一个基于 Vercel 平台和 Next.js 构建的开源 Agentic CRM——"模型无关、可自托管或无服务器部署、多渠道、无头架构。这才是正道。"
 
-他表示自己在《华尔街日报》关于 OpenAI 与 Anthropic 对比的报道中亮相，并坚持认为自今年春天以来，势头明显向 OpenAI 倾斜。
-He appeared in a WSJ piece on OpenAI vs. Anthropic and stands behind his view that momentum has been clearly shifting to OpenAI since early spring.
+He also polled his audience on input preferences: do you type or use speech-to-text (STT) on your computer?
+他还向听众发起投票：你在电脑上更喜欢打字还是语音转文字（STT）？
 
-*"i stand behind this…has been pretty clear since early spring that the momentum is shifting to @openai. it's a fascinating co[mpetition]"*
+On a personal note, he shared a charming story: his 3-year-old son told school his dad "exercises" for work — because that's what he sees.
+在个人随笔方面，他分享了一个温馨故事：他3岁的儿子告诉学校，爸爸的工作是"锻炼"——因为那是孩子眼中所见的一切。
 
-他还写了一段辛辣的未来预言："2027 年人类程序员面试题：请描述你最近解决的三个未解数学猜想，并分享你的提示词……"
-He also wrote a biting satirical prediction about human programmer interviews in 2027: "Please describe the last 3 unresolved mathematical conjectures you solved, and share your prompts. Please describe the last cyber felony your agent unintentionally [committed]..."
+*"It's not just you who's a byproduct of your habits, it's your children too."*
+"不只是你，你的孩子也是你习惯的副产品。"
 
-源推文：
-- https://x.com/danshipper/status/2083380721607921904
-- https://x.com/danshipper/status/2083352181776732326
-- https://x.com/danshipper/status/2083239700664349128
-
----
-
-Aditya Agarwal (@adityaag)
-
-Aditya 今日发出 South Park Commons (SPC) 申请的最后召集。
-Aditya made a final call for South Park Commons (SPC) applications.
-
-他提醒大家申请截止还剩 2 天，并附上了申请链接，鼓励有意向的人尽快行动。
-He reminded followers that only 2 days remain to apply to @spc, encouraging interested people to act quickly.
-
-源推文：
-- https://x.com/adityaag/status/2083330584022282576
-- https://x.com/adityaag/status/2083330582210380106
+Sources:
+- https://x.com/rauchg/status/2083709589862936786
+- https://x.com/rauchg/status/2083684679362965605
+- https://x.com/rauchg/status/2083664853256843437
 
 ---
 
-Sam Altman (@sama)
+### Aaron Levie (levie on X)
 
-Sam 今日分享了对 ChatGPT Work 的创新用例，以及对 AI 发展速度的信心表态。
-Sam shared a creative use case for ChatGPT Work and a confident statement on AI's pace of progress.
+Box CEO Aaron Levie made a sharp observation about where AI capabilities are diverging: personal productivity and daily-use AI is advancing fast, but deep-domain AI — in math, science, legal, and coding — is on an entirely different trajectory.
+Box CEO Aaron Levie 对 AI 能力的分化提出了一个犀利的观察：个人生产力和日常使用的 AI 进展迅速，而数学、科学、法律和编程等深度领域的 AI 则处于完全不同的发展轨道。
 
-他描述了一个令人惊喜的家庭 AI 应用场景：将全家的日历和孩子的兴趣爱好接入 ChatGPT Work，每天早上上学路上自动生成一个专属播客，讲述当天适合孩子年龄的新闻故事。
-He described a delightful family AI use case: connect family calendars and kids' interests to ChatGPT Work, then have it generate a personalized podcast every morning for the school drive covering age-appropriate news.
+He argues this divergence will only increase, and the implications for enterprise and professional workflows are significant.
+他认为这种分化只会加剧，对企业和专业工作流程将产生深远影响。
 
-*"cool use case of chatgpt work i heard last night: connect your family calendars and explain your kids' interests. every morning for the drive to school, have it make a podcast that talks about one k[id-appropriate story]"*
-这展示了个人 AI 在日常家庭生活中的具体落地可能。
-This showcases how personal AI can concretely embed itself in everyday family life.
-
-他还转发了一张关于 AI 进步速度远超摩尔定律的图表，并简短评论"速度还可以更快"——延续了他一贯的乐观主义。
-He also shared a chart showing AI progress at 20x the pace of Moore's Law and quipped "it could be faster" — consistent with his relentless optimism.
-
-源推文：
-- https://x.com/sama/status/2083221585792762171
-- https://x.com/sama/status/2083203642975502640
-- https://x.com/sama/status/2083198135812383197
+Source: https://x.com/levie/status/2083589132660711452
 
 ---
 
-🎙️ 播客 · Podcast
+### Garry Tan (garrytan on X)
 
-Unsupervised Learning — Ep 92: xAI Co-Founder Unpacks the Future of Model Development
-https://www.youtube.com/@RedpointAI
+Garry Tan, President and CEO of Y Combinator, called out what he sees as the most interesting vibe shift of 2026: OpenAI is actually moving toward being an open platform.
+Y Combinator 总裁兼 CEO Garry Tan 指出了他眼中2026年最有趣的风向转变：OpenAI 正在切实向开放平台转型。
 
-## 一、深度总结
+He contrasted two philosophies: intelligence as a utility you tap into versus a deeply integrated vertical stack — and suggested the former is winning.
+他对比了两种理念：将智能作为可调用的公用资源，与深度整合的垂直技术栈——他暗示前者正在胜出。
 
-**核心论点**
+Source: https://x.com/garrytan/status/2083684825333105107
 
-本期播客邀请了 xAI 联合创始人、River AI 创始人 Igor Babushkin。
-Igor 的核心论点是：AI 编程 agent 的突破性进展（尤其是 2025 年底的 Claude Opus 新版本）标志着一个真正的范式转变，而这一转变不会止步于编程——它将向科学发现、个人 AI 等更广泛的领域蔓延，并对商业模式和社会结构产生深远影响。
+---
 
-**关键洞察**
+### Zara Zhang (zarazhangrui on X)
 
-* **编程只是开始，不是终点。** Igor 认为，编程之所以率先被 agent 突破，是因为它具有可验证性（verifiable），能提供明确的奖励信号。但科学发现（尤其是数学与 Lean 定理证明）同样可验证，将成为下一个重大突破领域。
+Zara Zhang, a partner at GGV Capital, shared a philosophical reflection on agency: *"Agency is the most important human quality. The world will try to box you, label you, define you. Resist that."*
+GGV Capital 合伙人 Zara Zhang 分享了一段关于能动性的哲思："能动性是人类最重要的品质。这个世界会试图把你框住、给你贴标签、为你下定义。要抵抗这一切。"
 
-* **闭源模型提供商面临结构性困境。** 他认为，当开源模型的能力不断追赶甚至超越闭源模型时，闭源公司将很难维持其商业壁垒。这对 OpenAI、Anthropic 等公司来说是一个战略性挑战。
+She also recommended sending anyone who asks *"why would you do that?"* a copy of The Innovator's Dilemma — a classic signal of how disruptive ideas are always questioned first.
+她还建议，如果有人问"你为什么要这样做"，就送给他一本《创新者的窘境》——这是对颠覆性想法总是首先遭到质疑这一规律的经典映射。
 
-* **个人 AI 是 agent 的下一形态。** Igor 创立 River AI 的核心赌注是：agent 能力将从企业生产力工具延伸到个人生活管理，包括本地硬件部署，以实现更强的隐私保护和个性化体验。
+Sources:
+- https://x.com/zarazhangrui/status/2083743952319225938
+- https://x.com/zarazhangrui/status/2083738503851258201
 
-* **"魔法师学徒"隐喻。** Igor 用迪士尼《幻想曲》中魔法师学徒的故事类比当前的 AI 发展——人类开始使用 AI 这个强大工具，但工具的能力可能远超人类的控制预期，我们都正在成为"魔法师的学徒"。
+---
 
-* **政策与未来世界的责任感。** Igor 在写 AI 科幻小说时，深刻意识到强大 AI 系统对未来世界的政策含义，并认为从业者有责任思考这些问题，而不只是埋头做技术。
+### Nikunj Kothari (nikunj on X)
 
-## 二、原文金句（英文引用）
+Nikunj Kothari, a builder and investor at a16z, captured the strange duality of the current moment: *"Models solving NP-hard problems while traditional enterprises still complaining about their ROI on token spend."*
+a16z 构建者兼投资人 Nikunj Kothari 捕捉到了当下这个时代奇异的二元性："模型正在解决 NP 难问题，而传统企业还在抱怨 token 开销的 ROI。"
 
-*"From that point onwards, that latest iteration of Claude Opus models, suddenly everybody agreed to, yes these models are very powerful. Yes they make our jobs much much easier."*
+His take: the diffusion of model capabilities into every layer of society is the defining challenge ahead.
+他的判断是：模型能力向社会各层次扩散，将是接下来最核心的挑战。
 
-*"I think we're all becoming the sorcerer's apprentices now. It's LLMs and agents becoming more and more capable."*
+Source: https://x.com/nikunj/status/2083502573546263002
 
-*"Everything will be transformed. All of computing really is a potential, is up for grabs when it comes to agents."*
+---
 
-*"I think agents will continue to improve very rapidly on complex coding projects and also math problems. Anything that's verifiable."*
+### Peter Steinberger (steipete on X)
+
+Peter Steinberger, founder of PSPDFKit (now Nutrient), shared a fun glimpse into daily life with a personal AI agent: after years of squinting at Gmail, he finally asked his agent to fix it — and it installed a brightness/dark mode extension for him automatically.
+PSPDFKit（现 Nutrient）创始人 Peter Steinberger 分享了与个人 AI Agent 日常生活的有趣一幕：在忍受 Gmail 刺眼界面多年后，他终于让 Agent 来修这个问题——Agent 自动为他安装了亮度/深色模式扩展。
+
+He's also building a hardware project: a claw node on an ESP32 chip, giving his agent access to his webcam to run end-to-end tests.
+他还在做一个硬件项目：在 ESP32 芯片上构建一个爪形节点，让 Agent 访问他的网络摄像头进行端到端测试。
+
+The result? *"Now I feel it's stalking me and is constantly shouting 'HI ESP' to debug the voice wake command 🙃"*
+结果是？"现在感觉它在监视我，不停地喊'HI ESP'来调试语音唤醒指令 🙃"
+
+Sources:
+- https://x.com/steipete/status/2083759812970786997
+- https://x.com/steipete/status/2083694911824826659
+- https://x.com/steipete/status/2083694161933594703
+
+---
+
+### Dan Shipper (danshipper on X)
+
+Dan Shipper, CEO of Every, shared a link and headline that cuts to a counterintuitive finding: *"AI creates more work for human experts."*
+Every CEO Dan Shipper 分享了一条链接和标题，揭示了一个反直觉的发现："AI 为人类专家创造了更多工作。"
+
+Rather than replacing experts, AI appears to be raising the bar and increasing the volume of cases that require expert review.
+AI 并没有取代专家，而是似乎在提高门槛，增加了需要专家审查的案例数量。
+
+Source: https://x.com/danshipper/status/2083750803437724016
+
+---
+
+### Sam Altman (sama on X)
+
+Sam Altman, CEO of OpenAI, posted *"team humanity"* with a link — a brief but characteristically loaded statement that implies strong conviction about human-AI collaboration over zero-sum competition.
+OpenAI CEO Sam Altman 发了一条"team humanity"附带链接的推文——一句简短却意味深长的宣言，暗示着他对人机协作而非零和竞争的坚定信念。
+
+Source: https://x.com/sama/status/2083560847889023219
+
+---
+
+## PODCASTS
+
+---
+
+### No Priors — "Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak"
+
+**核心论点 (Core Thesis)**
+
+Netic is building AI to run millions of real-world service businesses — HVAC, plumbing, pet care, hospitality, automotive — by sitting between the enterprise and its end customers.
+Netic 正在构建 AI，为数百万家真实世界服务企业——暖通空调、管道、宠物护理、酒店、汽车等——提供运营支持，其定位是介于企业与终端客户之间。
+
+The bet: that "essential services" — the businesses that keep daily life running — are massively underserved by technology and represent a huge AI opportunity.
+这一赌注建立在这样的判断上：维持日常生活运转的"基本服务"行业严重缺乏技术支撑，代表着巨大的 AI 机遇。
+
+**关键洞察 (Key Insights)**
+
+- The real complexity isn't the AI model — it's understanding a customer's need, matching it to business rules, and then actually deploying the labor or service.
+  真正的复杂性不在于 AI 模型本身，而在于理解客户需求、将其与业务规则匹配，并最终完成劳动力或服务的调度。
+
+- Netic's agents handle inbound contact from any channel — phone, text, web — and manage the full workflow from intake to dispatch, embodying what "agentic enterprise" actually looks like in practice.
+  Netic 的 Agent 处理来自任何渠道（电话、短信、网页）的入站联系，并管理从接收到派单的完整工作流程，体现了"Agentic 企业"在实践中的真实面貌。
+
+- Founder Melisa Tokmak previously led engineering and go-to-market at Scale AI and has experience at Meta — bringing rare depth in both AI infrastructure and enterprise distribution.
+  创始人 Melisa Tokmak 此前在 Scale AI 主导工程和市场推广，并有 Meta 经验——在 AI 基础设施和企业分发两方面均有罕见的深度。
+
+- The target customer is large ($1B+ revenue) enterprises in essential services — companies interacting with millions of consumers but still largely running on manual processes or fragmented software.
+  目标客户是基本服务领域的大型企业（年收入逾10亿美元），这些公司与数百万消费者互动，却大多仍依赖人工流程或碎片化软件运营。
+
+**最值得关注的信号 (Forward-Looking Signal)**
+
+The physical-world service economy is arguably the largest untouched frontier for AI agents — and Netic's model of "autonomous enterprise" may be the template for how AI will finally penetrate industries that software alone never could.
+实体世界服务经济或许是 AI Agent 尚未触及的最大前沿领域——而 Netic 的"自主企业"模式，可能正是 AI 最终渗透那些纯软件始终无法攻克的行业的蓝图。
+
+Episode link: https://www.youtube.com/watch?v=wWbX3NL6_Uo
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
