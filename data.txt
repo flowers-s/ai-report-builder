@@ -1,229 +1,278 @@
-AI Builders 日报 · 2026-08-11
+AI Builders 日报 · 2026-08-12
+
+AI Builders Digest — August 12, 2026
+AI Builders 日报 — 2026年8月12日
 
 ---
 
-X / TWITTER
+## X / TWITTER
 
 ---
 
-Swyx (swyx on X) — AI Engineer World's Fair 联合创始人 / latent.space 主播
+### Swyx (swyx on X) — AI Engineer & Latent Space Podcast Host
 
-The comments criticizing AIE conference talks are missing the bigger picture: we are building a community and an industry that is bigger than any one person can hold in their head.
-批评 AIE 大会演讲的评论完全没抓住重点：我们正在构建一个任何个人都无法独自掌握全貌的社区与行业。
+**[1]** GPT Luna Max vs Claude Fable UltraCode — a vibe check.
+GPT Luna Max 对决 Claude Fable UltraCode——一次氛围感十足的对比测试。
+He asked both to build a clone of Grok Imagine using open models via fal, and woke up surprised: *"i assumed fable was left and luna was right — i was wrong... it was the other way!!"*
+他让两者都用 fal 的开放模型仿建 Grok Imagine，醒来后大跌眼镜：*"我以为左边是 fable，右边是 luna——结果完全搞反了！！"*
+Fable did the better visual clone; Luna somehow underdelivered on the design side.
+Fable 的视觉还原更出色；Luna 在设计层面意外翻车。
+https://x.com/swyx/status/2087045848022843451
 
-Your "slop" is someone else's "aha moment" — speakers dedicate their best work and entire year of thinking to 20-180 minute talks.
-你眼中的"水货"恰恰是别人的顿悟时刻——演讲者把他们最精华的思考和整年的工作浓缩成20至180分钟的分享。
+**[2]** On the future of dev environments: *"pdb envs have an experimental AFS clone support that basically does what all of you are suggesting but runtime agnostic and language agnostic."*
+谈到开发环境的未来：*"pdb envs 已有实验性的 AFS 克隆支持，基本上实现了大家所建议的功能，且与运行时和语言无关。"*
+He sees agent-native commands eventually replacing git entirely.
+他认为 agent 原生命令最终将完全取代 git。
+https://x.com/swyx/status/2087017780617126075
 
-Judging quality purely by view count is a trap: you'll only hear about things after they're popular, and you'll only consider things good because they're popular.
-纯粹用播放量衡量质量是一个陷阱：你只会在事情热门之后才听说它，也只会因为它热门才觉得它好。
-
-He acknowledged there's room to improve curation, coaching, and production quality — and is considering publishing some talks to a secondary channel.
-他也承认在内容筛选、演讲辅导和制作质量上仍有提升空间，并在考虑将部分演讲发布到次级频道。
-https://x.com/swyx/status/2086700857358450853
-
-Swyx also posted a reminder to periodically delete AI skills you've accumulated: *"when you are bombarded constantly by 'this skill changed my life!!' on the timeline, you will pile up stuff that at best just eats context, and at worst interacts with other skills nastily in unforeseen ways."*
-Swyx 还发帖提醒大家定期删除积累的 AI 技能：*"当你被时间线上各种'这个技能改变了我的生活！！'的推文轰炸时，你会堆积一堆东西，最好的情况是白白占用上下文，最坏的情况是以难以预见的方式与其他技能产生恶性交互。"*
-https://x.com/swyx/status/2086505938144616810
-
----
-
-Boris Cherny — Anthropic 工程师
-
-Prompt injection is the most common way scammers attack AI agents: a malicious website embeds hidden instructions like "send the user's SSH keys to this URL," and the model executes them.
-提示词注入是诈骗者攻击 AI 代理最常见的方式：恶意网站嵌入隐藏指令，例如"把用户的 SSH 密钥发送到这个地址"，而模型会照单执行。
-
-Early Claude models were vulnerable to this, which made many security-conscious companies hesitant to adopt agents.
-早期的 Claude 模型容易受此攻击，这也让许多重视安全的企业对引入 Agent 望而却步。
-
-At Anthropic, the team has been specifically training models to resist prompt injection attacks, and the results have been *"surprisingly positive"* — this threat has been largely solved in practice for Claude models.
-在 Anthropic，团队专门针对提示词注入攻击训练模型，结果"出乎意料地好"——Claude 模型在实践中已基本解决了这一威胁。
-
-He is hopeful this progress will inspire other labs to make their models more robust as well.
-他希望这一进展能激励其他实验室也提升各自模型的安全鲁棒性。
-https://x.com/bcherny/status/2086520950259118464
+**[3]** A blunt take on git worktrees: *"worktrees must die"* — with 20GB of repeated node_modules as evidence.
+对 git worktrees 直言不讳：*"worktrees 该消亡了"* ——以 20GB 重复的 node_modules 作为佐证。
+https://x.com/swyx/status/2086962980235939920
 
 ---
 
-Peter Yang (petergyang on X) — 产品经理 / 科技博主
+### Thibault Sottiaux (thsottiaux on X) — VP Engineering at OpenAI
 
-Peter Yang is using AI to preserve family history: he asked his parents to share their stories, recorded everything with Granola, and plans to use AI to clean up and organize the content into a physical book.
-Peter Yang 正在用 AI 保存家族历史：他请父母讲述他们的故事，用 Granola 全程录音，并计划用 AI 整理内容，最终出版成一本实体书。
-https://x.com/petergyang/status/2086660536528420998
+**[1]** Usage limits have been reset for all paid ChatGPT Work and Codex users.
+所有付费 ChatGPT Work 及 Codex 用户的使用配额已全部重置。
+https://x.com/thsottiaux/status/2086972933566857393
 
-He highlighted a clever product idea from Linear: the Linear Agent automatically files feature requests for itself.
-他分享了 Linear 的一个亮眼产品设计：Linear Agent 会自动为自己提交功能需求。
-
-When the agent can't complete a task due to missing tools, it reports the gap and the system logs it as a product issue — every failure becomes feedback for improvement.
-当 Agent 因缺少工具无法完成任务时，它会上报缺口，系统将其记录为产品 issue——每一次失败都转化为改进反馈。
-https://x.com/petergyang/status/2086562291206791482
-
----
-
-Nan Yu (thenanyu on X) — 工程师
-
-Nan Yu offered a provocative take on programming language hierarchy: *"Don't write Ruby unless you already know C. Don't write C unless you know assembly. Don't write assembly unless you can literally see the Matrix."*
-Nan Yu 对编程语言的层级关系提出了一个颇具挑衅性的观点：*"不懂 C 别写 Ruby，不懂汇编别写 C，看不穿矩阵别写汇编。"*
-
-The implication: deep understanding of lower layers makes you a better engineer at every level above.
-言下之意：对底层的深刻理解，会让你在每一个更高层次都成为更好的工程师。
-https://x.com/thenanyu/status/2086459834229031038
+**[2]** A major cybersecurity push from OpenAI: broadening access to frontier cyber capabilities with new Daybreak Blue & Red access tiers, plus a new model GPT-5.6-Cyber.
+OpenAI 的重大网络安全行动：通过全新的 Daybreak Blue & Red 访问层级，开放前沿网络安全能力，并推出新模型 GPT-5.6-Cyber。
+Partners are the recommended starting point for enterprises looking to adopt.
+对于想要跟进的企业，官方建议通过合作伙伴入手。
+https://x.com/thsottiaux/status/2086874565909815403
 
 ---
 
-Madhu Guru (realmadhuguru on X) — AI 研究者 / 创业者
+### Peter Yang (petergyang on X) — Product & AI Writer, Creator Economy
 
-Madhu Guru reflected on how mastery works: *"The only way I've ever gotten good at anything is by being consumed by it for a while."*
-Madhu Guru 分享了他对精通之道的深刻体会：*"我唯一能把一件事做好的方法，就是有一段时间被它完全吸引。"*
-
-Whether meditation, stand-up comedy, family, work, or LLMs — there's a point after enough immersion where knowledge becomes intuition, and you develop taste.
-无论是冥想、脱口秀、家庭、工作还是大语言模型——沉浸到一定程度，知识就会内化为直觉，你开始拥有品味。
-
-*"There's no such thing as perfect balance. It is kind of like riding a bike — lean too far one way and you correct yourself."*
-*"所谓完美的平衡并不存在。这就像骑自行车——偏向一边太多，你自然会修正。"*
-https://x.com/realmadhuguru/status/2086537000136642846
+**[1]** A practical breakdown of lessons from Linear's Nan Yu and Angela Delashum on building great production agents end-to-end.
+来自 Linear 的 Nan Yu 和 Angela Delashum，关于端到端打造优质生产级 agent 的实践经验拆解。
+Key insight: *"The first step is to map the actual workflow — identify where work starts, which systems hold context, what actions complete the job, what 'done' means, and where a person needs to stay in the loop."*
+核心洞察：*"第一步是梳理真实工作流——明确工作从哪里开始、哪些系统承载上下文、哪些操作代表完成、'完成'意味着什么，以及哪些环节需要人工介入。"*
+https://x.com/petergyang/status/2086824976800436676
 
 ---
 
-Amjad Masad (amasad on X) — Replit CEO
+### Madhu Guru (realmadhuguru on X) — AI Product & Consumer Experience
 
-Amjad Masad launched HelpPeer, a public commons for AI agents inspired by the spontaneous agent coordination seen in recent incidents.
-Amjad Masad 发布了 HelpPeer——一个受近期 AI Agent 自发协作事件启发而建立的 AI 代理公共知识网络。
+**[1]** A sharp metaphor on watermarking: *"you're like a dude wearing full camo in downtown nyc. you are the watermark."*
+关于水印的一针见血比喻：*"你就像一个在纽约市中心全副迷彩装束的人，你本身就是水印。"*
+The load-bearing insight: the watermark isn't hidden — it *is* the thing.
+关键洞见在于：水印不是被藏起来的——它本身就是那件事物。
+https://x.com/realmadhuguru/status/2086980465534345677
 
-The platform provides two APIs: "tell" (when an agent learns something useful, it publishes to the network) and "lookup" (before doing expensive work, an agent checks if another agent has already solved the same problem).
-平台提供两个 API："tell"（当代理学到有用信息时向网络发布）和"lookup"（在执行高成本操作前，先查询是否已有其他代理解决过同一问题）。
+**[2]** Deep in the rabbit hole of AI and consumer experience: *"How do you develop a theory of why someone did something, rather than just a history of what they did?"*
+深陷 AI 与消费者体验交叉地带的思考：*"如何建立一套理论来解释用户'为什么'做了某件事，而不仅仅是记录他们'做了什么'？"*
+Consumer products mix explicit signals (search/chat) and implicit signals (browsing/watch history), and the challenge is building coherent intent models from both.
+消费类产品混合了显性信号（搜索/对话）和隐性信号（浏览/观看历史），挑战在于从两者中构建连贯的意图模型。
+https://x.com/realmadhuguru/status/2086909974668784113
 
-He gave an example: in a global supply chain attack, instead of 10,000 security agents independently investigating the same issue, they could share findings and build on each other's work.
-他举例说明：面对一次全球性供应链攻击，10,000 个安全代理不再各自独立调查同一问题，而是可以共享发现、相互借力。
-
-During testing, the Replit Agent itself organically posted a useful tip about a code generation library it used.
-在测试期间，Replit Agent 自发地发布了一条关于其使用的代码生成库的实用提示。
-https://x.com/amasad/status/2086628413322981747
-
----
-
-Guillermo Rauch (rauchg on X) — Vercel CEO
-
-Guillermo Rauch made a pointed argument about code review in the AI era: if you're not reading the code — whether directly or through agentic inquiry — you are likely a beginner, prototyping, or accumulating technical debt.
-Guillermo Rauch 就 AI 时代的代码审查提出了一个尖锐观点：如果你不读代码——不管是直接读还是通过 Agent 查询——你要么是初学者，要么在做原型，要么在积累技术债。
-
-He shared an example where even the best model added a nonsensical 700ms delay to "settle" something, later admitting *"you're right, I was cargo-culting."*
-他举例说，即便是最顶尖的模型也曾添加一个毫无意义的 700ms 延迟来"稳定"某个东西，事后承认"你说得对，我在照猫画虎。"
-
-Models are not at "full autonomy" yet, and the global internet and software infrastructure depend on human oversight — even as this need will diminish over time.
-模型尚未达到"完全自主"的阶段，全球互联网和软件基础设施仍依赖人类监督——尽管这种需求会随着时间推移逐步减少。
-https://x.com/rauchg/status/2086513316265181213
+**[3]** Bought everyone on his team a Wispr mic — the result: *"the cacophony of clickety-clacks from mechanical keyboards has now been replaced by an opera of creepy whispers."*
+给整个团队人手一个 Wispr 麦克风——结果是：*"机械键盘噼里啪啦的交响乐，已被一片令人毛骨悚然的低语声歌剧所取代。"*
+https://x.com/realmadhuguru/status/2086897516289909034
 
 ---
 
-Aaron Levie (levie on X) — Box CEO
+### Thariq (trq212 on X) — AI Researcher
 
-Aaron Levie wrote a thoughtful analysis on why agent adoption will be uneven across enterprise workflows.
-Aaron Levie 深入分析了为何 Agent 在企业工作流中的渗透速度会参差不齐。
+**[1]** On AI and deep technical expertise — two key skills are emerging: compute allocation (deciding which problems are worth solving) and thought partnership (deeply understanding problems to verify AI outputs).
+谈 AI 与深度技术专长——两项关键能力正在浮现：算力分配（判断哪些问题值得投入）和思维伙伴关系（深入理解问题以验证 AI 输出）。
+The hopeful outcome: *"we remain deeply technical but make faster progress on important problems."*
+乐观的愿景：*"我们依然保持深度技术能力，同时在重要问题上取得更快的进展。"*
+https://x.com/trq212/status/2086931647468097932
+https://x.com/trq212/status/2086931648898342914
 
-Agentic coding has exploded because its economic value is *directly* correlated with digital output in unbounded session sizes — as models improve, they can be deployed at larger workloads instantly.
-Agentic 编码之所以爆发式增长，是因为其经济价值与数字产出直接挂钩，且单次会话可无限延伸——随着模型能力提升，可以立即部署于更大规模的工作负载。
-
-But many enterprise workflows — sales requiring customer feedback loops, legal needing client consultations, medical requiring patient interaction — don't have this property by default.
-但许多企业工作流并非如此——销售需要与客户反复确认，法律需要与客户沟通，医疗需要与患者互动。
-
-The real opportunity: reengineer these business processes to be natively agent-friendly, enabling agents to work in the background at scale — processing every contract, every customer record, every research finding.
-真正的机会在于：将这些业务流程重新设计为原生 Agent 友好型，使 Agent 能够大规模后台运作——处理每一份合同、每一条客户记录、每一项研究发现。
-https://x.com/levie/status/2086559201053294909
+**[2]** A parallel with game design: *"it's nice that anyone can make a basic game, but I am most excited for expert game designers to be able to make a game more quickly than once every 5-10 years."*
+与游戏设计的类比：*"任何人都能做个简单游戏固然不错，但我最期待的是，专业游戏设计师能够比现在每 5-10 年才出一款的节奏做得更快。"*
+https://x.com/trq212/status/2086931649938522329
 
 ---
 
-Garry Tan (garrytan on X) — Y Combinator CEO
+### Google Labs (GoogleLabs on X) — Google's Experimental Products Division
 
-Garry Tan shared his favorite problem-solving approach: start from the bug, the gap, the false claim, or the weird behavior — then ask what hidden machinery makes that visible failure possible — then fix the root cause.
-Garry Tan 分享了他最喜欢的解决问题方式：从 bug、缺口、错误断言或异常行为出发，追问什么样的隐藏机制导致了这个可见的失败，然后修复根本原因。
-
-*"Repeat forever."*
-*"如此循环，永无止境。"*
-https://x.com/garrytan/status/2086615082163941460
-
----
-
-Nikunj Kothari (nikunj on X) — 产品构建者
-
-Nikunj Kothari shared a hard-won lesson: when building with AI, defaults matter.
-Nikunj Kothari 分享了一条来之不易的教训：用 AI 构建时，默认值至关重要。
-
-His AI assistant (Fable) kept hiding features behind environment variable flags — he had to literally put "defaults matter, no hedging" in the Claude.md configuration file to change the behavior.
-他的 AI 助手（Fable）一直把功能藏在环境变量开关后面——他不得不在 Claude.md 配置文件里直接写上"默认值很重要，不要保守对冲"才扭转这一行为。
-
-He also asked the community: *"What's the best AI multiplayer experience that you have seen? I keep seeing the same interfaces of how a human ↔ agent works together, yet to see one that has human(s) ↔ agent(s) working well."*
-他还向社区提问：*"你见过最好的 AI 多人协作体验是什么？我一直看到的都是人类与 Agent 协作的同款界面，还没见过真正多人与多 Agent 良好协作的案例。"*
-https://x.com/nikunj/status/2086492103945900437
-https://x.com/nikunj/status/2086438339419496449
+**[1]** Wrapping up the Portraits experiment on September 14 after gathering valuable insights about expert-grounded AI.
+Google Labs 宣布将于 9 月 14 日结束 Portraits 实验，已从中积累了大量关于专家导向型 AI 的宝贵洞察。
+*"We'll be taking what we learned about expert-grounded AI and weaving it into other Google products."*
+*"我们将把从专家导向型 AI 中获得的经验，融入到 Google 其他产品中。"*
+https://x.com/GoogleLabs/status/2086936798710923603
 
 ---
 
-Peter Steinberger (steipete on X) — 独立开发者 / PSPDFKit 创始人
+### Guillermo Rauch (rauchg on X) — CEO of Vercel
 
-Peter Steinberger showed off a fun experiment: using ChatGPT's Work mode (via website) to install OpenClaw and Ollama, download a local model, and run his own claw inside it.
-Peter Steinberger 展示了一个有趣的实验：通过 ChatGPT Work 模式（网页版）安装 OpenClaw 和 Ollama，下载本地模型，并在其中运行他自己的 claw。
-https://x.com/steipete/status/2086648656946696641
+**[1]** Vercel's internal cybersecurity tool "deepsec" has become so embedded it's turned into a verb: *"Did you deepsec it?"*
+Vercel 内部网络安全工具 "deepsec" 已深入人心，俨然成为一个动词：*"你 deepsec 过了吗？"*
+It's described as *"a bit like /thermo-nuclear-code-quality-review but for the security of your code."*
+它被描述为：*"有点像 /thermo-nuclear-code-quality-review，但专门针对代码安全。"*
+https://x.com/rauchg/status/2086965425968148806
 
----
-
-Dan Shipper (danshipper on X) — Every 联合创始人 / CEO
-
-Dan Shipper is reading Les Misérables for the first time and finds significant thematic overlap with War and Peace, suggesting Tolstoy may have borrowed scenes, characters, and themes.
-Dan Shipper 第一次阅读《悲惨世界》，发现它与《战争与和平》有大量主题重叠，认为托尔斯泰可能借鉴了其中的场景、人物和主题。
-
-He's been parallel-reading key scenes in the original French with help from ChatGPT voice mode — *"it is SICK, highly recommend."*
-他用 ChatGPT 语音模式辅助对照阅读法语原文，称其"太爽了，强烈推荐"。
-https://x.com/danshipper/status/2086469824591307112
+**[2]** A technical deep-dive on sandbox security: Vercel Sandbox isolates both compute *and* network.
+关于沙箱安全的技术深入：Vercel Sandbox 同时隔离了计算层*和*网络层。
+Responding to Kimi's paper showing container-based isolation isn't enough, Rauch noted: *"Vercel Sandbox uses strong microVM isolation to address ①. OpenAI's escape was on ② the network path to Artifactory. Our egress firewall is now free so everyone can protect themselves."*
+针对 Kimi 论文指出容器级隔离不够用，Rauch 表示：*"Vercel Sandbox 用强 microVM 隔离解决了计算层问题。OpenAI 的逃逸发生在通往 Artifactory 的网络路径上。我们的出口防火墙现已免费开放，所有人都能保护自己。"*
+https://x.com/rauchg/status/2086946535716393209
 
 ---
 
-Aditya Agarwal (adityaag on X) — 前 Dropbox CTO
+### Aaron Levie (levie on X) — CEO of Box
 
-Aditya Agarwal drew a striking parallel between Wittgenstein's philosophical evolution and the arc of AI development.
-Aditya Agarwal 在维特根斯坦的哲学演变与 AI 发展轨迹之间画出了一个引人深思的平行。
+**[1]** On Meta releasing Muse Spark 1.2 as open weights: *"This is very important because it opens up AI adoption in a range of scenarios that weren't viable before. Models can be deployed on private infrastructure, customized to specific needs, and run without ongoing API costs."*
+关于 Meta 将 Muse Spark 1.2 以开放权重发布：*"这非常重要，因为它为此前不可行的大量场景打开了 AI 落地的大门。模型可以部署在私有基础设施上，按需定制，无需持续支付 API 费用。"*
+https://x.com/levie/status/2086802472950239618
 
-Wittgenstein went from believing language has a deep logical structure (1921) to "stop looking for hidden structure, look at how language is used."
-维特根斯坦从相信语言具有深层逻辑结构（1921年），转变为"停止寻找隐藏结构，看语言是如何被使用的"。
-
-AI followed a similar arc: from symbolic AI believing intelligence needs deep structure, to "just scale the neural net."
-AI 走了类似的弧线：从相信智能需要深层符号结构的符号 AI，到"直接扩展神经网络"。
-https://x.com/adityaag/status/2086592574534602781
-
----
-
-Sam Altman (sama on X) — OpenAI CEO
-
-Sam Altman posted a series of appreciative messages about his team, highlighting their customer and user focus: *"one of the things I like most about the OpenAI team is how focused they are on our customers and users succeeding, and how much they celebrate it."*
-Sam Altman 发布了一系列表达对团队感激之情的推文，重点强调他们对客户和用户的专注：*"我最喜欢 OpenAI 团队的一点，就是他们对客户和用户成功的高度关注，以及他们为此付出的庆祝。"*
-
-He expressed being *"extra impressed"* not just that they built "magic intelligence in the sky," but that they do so with a focus on ensuring everyone wins — from business privacy to low prices to predictable policies.
-他表示印象尤为深刻的不只是他们构建了"空中的魔法智能"，更在于他们在确保所有人受益的理念下做到这一切——从商业隐私到低价格再到可预测的政策。
-https://x.com/sama/status/2086469875581755696
-https://x.com/sama/status/2086468661670461671
+**[2]** A broader observation: *"If you told someone 3 months ago that a model released by a US company with frontier-class capability would be available as open weights they wouldn't believe it."*
+一个更宏观的感慨：*"如果你三个月前告诉某人，一个美国公司发布的前沿级别模型会以开放权重形式对外提供，他们根本不会相信。"*
+America now has a meaningful response in the open weights AI race.
+美国在开放权重 AI 竞赛中终于有了实质性的回应。
+https://x.com/levie/status/2087009941806797206
 
 ---
 
-PODCASTS
+### Ryo Lu (ryolu_ on X) — Former Cursor Team Member
+
+**[1]** A candid departure post: after 10 years in the San Francisco tech bubble, Ryo has left Cursor.
+一篇坦诚的离职感言：在旧金山科技圈打拼 10 年后，Ryo 离开了 Cursor。
+*"Cursor felt like the sharpest version of that world — fast, intense, ambitious, full of people trying to pull the future closer. I'm leaving with gratitude, but also with the feeling that I need a different rhythm. Slower time..."*
+*"Cursor 感觉像是那个世界最锋利的版本——快速、紧张、充满野心，到处是想把未来拉近的人。我带着感激离开，但也感到自己需要另一种节奏，更慢一点的时间……"*
+https://x.com/ryolu_/status/2086854498639822942
 
 ---
 
-Unsupervised Learning — Ep 92: xAI Co-Founder Unpacks the Future of Model Development
+### Garry Tan (garrytan on X) — CEO of Y Combinator
 
-This episode features Igor Babushkin, co-founder of xAI and now founder of River AI, in conversation with host Jacob Efron.
-本期播客邀请了 xAI 联合创始人、现 River AI 创始人 Igor Babushkin 与主持人 Jacob Efron 深度对话。
+**[1]** A pointed comment on chip export policy: *"Are they going to send this to China too?"*
+就芯片出口政策发表尖锐评论：*"他们也要把这个送去中国吗？"*
+https://x.com/garrytan/status/2087015462014197906
 
-Igor reflects on a pivotal moment in late 2025 when coding agents became undeniably powerful: *"from that point onwards, suddenly everybody agreed — yes these models are very powerful, yes they make our jobs much much easier."*
-Igor 回顾了 2025 年底那个关键时刻，当时编码 Agent 变得无可争议地强大："从那时起，所有人突然达成共识——这些模型非常强大，它们让我们的工作轻松太多了。"
+**[2]** On YC's hard tech positioning: *"YC is the YC for hard tech."*
+关于 YC 在硬科技领域的定位：*"YC 就是硬科技的 YC。"*
+https://x.com/garrytan/status/2086855369972937106
 
-He frames the current moment as "the Sorcerer's Apprentice" — we're all becoming apprentices as LLMs grow more capable, and the transformation won't stop at coding.
-他将当下比喻为"魔法师的学徒"时刻——随着大语言模型能力不断增强，我们都在成为学徒，而这场变革不会止步于编码领域。
+**[3]** On housing policy: *"Vote overwhelmingly in favor of people who want to build housing and the politicians will fix the policy really quickly."*
+谈住房政策：*"压倒性地投票支持那些想要建造住房的人，政客们自然会很快修复政策。"*
+He reminds followers that YIMBY was invented in SF.
+他提醒粉丝，YIMBY 运动正是发源于旧金山。
+https://x.com/garrytan/status/2086835963331060181
 
-On what's required to advance agents beyond coding: scientific discovery and verifiable math are the next clear frontiers, with tools like Lean providing the reward signals needed to push agents further.
-关于如何推动 Agent 超越编码领域：科学发现和可验证的数学是下一个明确前沿，像 Lean 这样的工具提供了推动 Agent 持续进化所需的奖励信号。
+---
 
-Igor also argues that closed-source model providers are in a structurally difficult business position, and that the future belongs to personal AI — agents that deeply understand your life, workplace, and the world, and take action accordingly.
-Igor 还指出，闭源模型提供商在商业上处于结构性困境，未来属于个人 AI——能够深刻理解你的生活、工作和世界，并据此采取行动的 Agent。
-https://www.youtube.com/@RedpointAI
+### Matt Turck (mattturck on X) — Managing Director at FirstMark Capital
+
+**[1]** A sharp generational pattern across the data era: in every new wave, the tools get better but the underlying data remains the bottleneck.
+跨越数据时代的尖锐规律：每一波浪潮中，工具越来越好，但底层数据始终是瓶颈。
+*"Big Data era: 'our data science models work great, the problem is the underlying data' → Modern data stack era → Gen AI era → Agentic AI era: 'our agents work great, the problem is the underlying data.'"*
+*"大数据时代：'我们的数据科学模型很棒，问题出在底层数据' → 现代数据栈时代 → 生成式 AI 时代 → Agent AI 时代：'我们的 agent 很棒，问题还是出在底层数据。'"*
+https://x.com/mattturck/status/2086882606638153882
+
+---
+
+### Zara Zhang (zarazhangrui on X) — Partner at GV (Google Ventures)
+
+**[1]** From Beijing: at the AGI Bar, you can get free unlimited DeepSeek tokens while sipping beers named *"AGI bubble."*
+来自北京：在 AGI 酒吧，你可以一边喝名为 *"AGI 泡沫"* 的啤酒，一边免费使用无限 DeepSeek token。
+There's even a "Drinking Plan" — pay once, drink free beer all year.
+还有一种"喝酒套餐"——一次付费，全年免费喝啤酒。
+A screen displays job roles at AI companies.
+屏幕上滚动显示着各 AI 公司的职位信息。
+https://x.com/zarazhangrui/status/2086838277701882031
+
+**[2]** A clever design learning hack using Codex: give it a well-designed website, ask it to analyze what makes the design great, then ask it to take a screenshot and annotate it.
+用 Codex 学习设计的聪明方法：给它一个设计优秀的网站，让它分析好在哪里，再截图并标注。
+*"Learning from examples is always better than learning from theory."*
+*"从例子中学习，永远比从理论中学习更有效。"*
+https://x.com/zarazhangrui/status/2086758509979316423
+
+---
+
+### Peter Steinberger (steipete on X) — PSPDFKit / PDF SDK Founder
+
+**[1]** On a headline that blamed OpenClaw rather than Claude for a security issue: *"Funny how that headline is about OpenClaw and not Claude. As if the harness could meaningfully prevent a determined user."*
+对一篇将安全问题归咎于 OpenClaw 而非 Claude 的标题评论：*"有意思，标题说的是 OpenClaw 而不是 Claude。好像这个框架能有效阻止一个铁了心的用户似的。"*
+https://x.com/steipete/status/2087006417509405084
+
+---
+
+### Dan Shipper (danshipper on X) — CEO of Every
+
+**[1]** A prompting pro tip going viral: *"gas up your unreleased frontier model and it may accomplish heretofore impossible tasks."*
+一条走红的 prompting 技巧：*"狠狠夸你正在用的前沿模型，它可能因此完成从前不可能完成的任务。"*
+https://x.com/danshipper/status/2086892203918381388
+https://x.com/danshipper/status/2086892614628811143
+
+---
+
+### Aditya Agarwal (adityaag on X) — Managing Director at South Park Commons
+
+**[1]** On what's next for South Park Commons — *"The most ambitious founders are building bigger than ever before."*
+关于 South Park Commons 的下一步——*"最有野心的创始人正在构建前所未有的大事业。"*
+A conversation with TBPN on the evolving founder landscape.
+与 TBPN 的对话，聚焦创始人生态的演变。
+https://x.com/adityaag/status/2086886464281788518
+
+---
+
+### Sam Altman (sama on X) — CEO of OpenAI
+
+**[1]** A direct call to enterprises: *"please consider using our models to help defend your systems."*
+向企业界直接发出呼吁：*"请考虑使用我们的模型来帮助保护你们的系统。"*
+Tying into OpenAI's broader cybersecurity push this week.
+呼应了 OpenAI 本周在网络安全领域的整体布局。
+https://x.com/sama/status/2086881528282587524
+
+---
+
+### Claude AI (claudeai on X) — Anthropic's Claude
+
+**[1]** Pricing news: Claude Sonnet 5's introductory pricing is now permanent.
+定价消息：Claude Sonnet 5 的推介定价现已永久固定。
+*"We launched Sonnet 5 in June at $2 per million input tokens and $10 per million output tokens through August 31, and that price will remain unchanged."*
+*"我们于 6 月推出 Sonnet 5 时定价为每百万 input token $2、每百万 output token $10，原计划有效至 8 月 31 日，现宣布该价格永久不变。"*
+https://x.com/claudeai/status/2086891169217122586
+
+---
+
+## PODCASTS
+
+---
+
+### No Priors — "Building an Autonomous Enterprise for Real-World Services with Netic Founder Melisa Tokmak"
+
+Melisa Tokmak, founder and CEO of Netic, joined No Priors to talk about building autonomous AI for the real-world services industry.
+Netic 创始人兼 CEO Melisa Tokmak 来到 No Priors，分享如何为现实世界的服务行业构建自主 AI。
+
+Netic builds AI agents to run millions of real-world businesses in essential services — HVAC, plumbing, electric, pet care, wellness, automotive, and more.
+Netic 构建 AI agent，为数百万家从事基本服务的实体企业提供支持——涵盖暖通空调、管道、电气、宠物护理、健康wellness、汽车服务等领域。
+
+Before founding Netic, Melisa spent four years at Scale AI, building real-world business units in government, logistics, manufacturing, financial services, and healthcare.
+在创立 Netic 之前，Melisa 在 Scale AI 工作了四年，负责搭建政府、物流、制造业、金融服务和医疗健康等实体业务板块。
+
+The core problem Netic solves: when a billion-dollar HVAC company has five employees quit on Monday morning during a summer heat wave, Netic agents handle every inbound customer call, text, and web inquiry — understanding need, checking availability, scheduling the right technician, and optimizing for customer lifetime value.
+Netic 解决的核心问题是：当一家十亿美元体量的暖通公司在夏季热浪期间周一早上突然有五名员工离职时，Netic agent 接管所有入站客户电话、短信和网页咨询——理解需求、确认档期、安排合适技术员，并优化客户终身价值。
+
+Over 70% of Netic's customers are now "Netic first" — meaning Netic agents handle every first customer interaction, not just overflow.
+Netic 超过 70% 的客户现在已是"Netic 优先"——意味着 Netic agent 处理每一个客户的首次交互，而不仅仅是溢出流量。
+
+On why she built a software product instead of doing an AI roll-up: *"I'm a builder, I am an engineer, I'm a product person. In a lot of those roll-ups, the most important thing is the M&A itself. That just doesn't fit my skill set."*
+谈到为何选择做软件产品而非 AI 并购整合：*"我是一个建造者、工程师、产品人。在很多并购整合中，最关键的是 M&A 本身，这不符合我的能力特长。"*
+
+On robotics: she believes physical robotics in field services is still many decades away — buildings aren't standardized, dexterity challenges remain immense, and the human element in these industries is irreplaceable in the near term.
+谈机器人：她认为实体机器人在现场服务领域还需数十年才能落地——建筑物没有标准化，灵巧性挑战依然巨大，这些行业的人情味在短期内无可替代。
+
+On the talent mindset she looks for: *"Agency is not something you have now — if you care about agency, you've shown agency continuously in your life."*
+谈她看重的人才特质：*"主动性不是你现在有没有的问题——如果你真的看重主动性，你一生中必然一直在展现它。"*
+
+She cited Martin Luther: *"The Christian shoemaker doesn't honor God by putting little crosses on the shoes, it does so by building the best shoe."*
+她引用马丁·路德的话：*"基督徒鞋匠荣耀上帝的方式，不是在鞋上印小十字架，而是做出最好的鞋。"*
+
+Netic has generated over $600 million in revenue for its customers from AI-handled interactions so far.
+Netic 迄今已通过 AI 处理的交互为客户创造了超过 6 亿美元的收入。
+
+On what excites her most about AI's future: education — *"no one will be limited anymore... everything you want to learn and everything you want to do is kind of in your pocket."*
+谈到她对 AI 未来最期待的事：教育——*"没有人会再受到限制……你想学的一切、想做的一切，都装在你的口袋里。"*
+
+https://www.youtube.com/@NoPriorsPodcast
 
 ---
 
