@@ -1,337 +1,274 @@
-AI Builders 日报 · 2026-08-14
+AI Builders 日报 · 2026-08-15
 
----
-
-## OFFICIAL BLOGS
-
-### Anthropic Engineering
-
-**An update on recent Claude Code quality reports**
-https://www.anthropic.com/engineering/april-23-postmortem
-
-Over the past month, Anthropic investigated reports that Claude's responses had worsened for some users.
-过去一个月，Anthropic 调查了部分用户反映 Claude 响应质量下降的问题。
-
-Three separate issues were identified affecting Claude Code, the Claude Agent SDK, and Claude Cowork — the API was not impacted.
-共发现三个独立问题，分别影响 Claude Code、Claude Agent SDK 和 Claude Cowork，API 层未受影响。
-
-First, on March 4, the default reasoning effort was lowered from high to medium to reduce latency — this hurt intelligence and was reverted on April 7.
-第一，3 月 4 日，默认推理强度从 high 降至 medium 以减少延迟，但这损害了智能表现，已于 4 月 7 日恢复原设置。
-
-Second, a caching optimization shipped March 26 had a bug: instead of clearing old thinking blocks once after an idle session, it cleared them on every subsequent turn, making Claude forgetful and causing faster usage limit drain — fixed April 10.
-第二，3 月 26 日上线的缓存优化存在 bug：原本只在会话闲置后清除一次旧的思考块，却变成每轮都清除，导致 Claude 出现遗忘、重复等问题，并加速消耗使用限额，已于 4 月 10 日修复。
-
-Third, a system prompt change on April 16 to reduce verbosity — "keep text between tool calls to ≤25 words" — hurt coding quality and was reverted April 20.
-第三，4 月 16 日为减少冗余输出添加了系统提示词（"工具调用间文本不超过 25 字"），影响了代码质量，已于 4 月 20 日撤回。
-
-As of April 23, Anthropic reset usage limits for all subscribers.
-自 4 月 23 日起，Anthropic 已为所有订阅用户重置使用限额。
-
-Going forward: broader eval suites, tighter system prompt controls, gradual rollouts, and a new @ClaudeDevs account on X for transparent product updates.
-后续措施：扩大评估套件覆盖范围、加强系统提示词变更管控、实施灰度发布，并新开 @ClaudeDevs 账号在 X 上透明同步产品动态。
-
----
-
-**Scaling Managed Agents: Decoupling the brain from the hands**
-https://www.anthropic.com/engineering/managed-agents
-
-Anthropic published a deep engineering post on Managed Agents, their hosted service for running long-horizon agents.
-Anthropic 发布了关于 Managed Agents 的深度技术文章，介绍其托管长周期 Agent 的服务架构。
-
-The key architectural insight: decouple the "brain" (Claude and harness) from the "hands" (sandboxes and tools) and the "session" (event log).
-核心架构思路：将"大脑"（Claude 及 harness）与"双手"（沙箱和工具）及"会话"（事件日志）彻底解耦。
-
-By moving the harness out of the container, each component becomes "cattle not pets" — if a container dies, the harness catches the error and a new container can be initialized cleanly.
-通过将 harness 移出容器，每个组件都变成"可替换的牲口"而非"娇贵的宠物"——容器崩溃时，harness 捕获错误并可干净地重启新容器。
-
-This decoupling dropped p50 time-to-first-token by ~60% and p95 by over 90%.
-这一解耦使 p50 首 token 延迟降低约 60%，p95 降低超过 90%。
-
-The session log acts as durable external context storage — Claude can interrogate it via getEvents() to slice positional windows without irreversibly destroying context.
-会话日志作为持久化的外部上下文存储，Claude 可通过 getEvents() 按位置切片查询，无需不可逆地丢弃上下文。
-
-Security is also improved: credentials never enter the sandbox where Claude's generated code runs — Git tokens are wired into the remote at init time, and OAuth tokens are held in a vault accessed via a proxy.
-安全性同样得到提升：凭证永远不会进入 Claude 生成代码所在的沙箱——Git token 在初始化时直接写入远程配置，OAuth token 存储于 vault 并通过代理访问。
-
----
-
-### Claude Blog
-
-**New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels**
-https://claude.com/blog/claude-managed-agents-updates
-
-Claude Managed Agents now supports two major enterprise features: self-hosted sandboxes and MCP tunnels.
-Claude Managed Agents 现已支持两项重要企业功能：自托管沙箱和 MCP 隧道。
-
-Self-hosted sandboxes let agent tool execution run on infrastructure you control — supported providers include Cloudflare, Daytona, Modal, and Vercel.
-自托管沙箱允许 Agent 的工具执行运行在用户自己控制的基础设施上，支持 Cloudflare、Daytona、Modal 和 Vercel 等提供商。
-
-Code, sensitive files, packages, and data stay within your enterprise perimeter; Anthropic's orchestration layer handles the agent loop while tool execution moves to your environment.
-代码、敏感文件、软件包和数据保留在企业边界内；Anthropic 的编排层负责 Agent 循环，工具执行则迁移至用户自有环境。
-
-MCP tunnels connect Managed Agents to private MCP servers inside your network — no inbound firewall rules, no public endpoints, traffic encrypted end to end.
-MCP 隧道可将 Managed Agents 连接到企业内网的私有 MCP 服务器，无需开放入站防火墙规则，无需公开端点，全程流量加密。
-
-Self-hosted sandboxes is in public beta; MCP tunnels is in research preview (request access via Claude Console).
-自托管沙箱已进入公开测试；MCP 隧道处于研究预览阶段（可通过 Claude Console 申请访问）。
+AI Builders Digest — 2026-08-15
+AI Builders 日报 — 2026年8月15日
 
 ---
 
 ## X / TWITTER
 
-### Swyx (smol.ai / Latent Space)
+---
 
-Swyx flagged what he called *"already one of the most important papers of this year"* — a paper whose methodology he found unclear, so he wrote up notes with further distillation.
-Swyx 标记了一篇他称之为"今年最重要的论文之一"的文章，由于他认为论文方法论阐述不清，他专门撰写了笔记进行进一步提炼。
+### Swyx (swyx on X) — smol.ai / Cognition / AI Engineer
 
-He also noted, as a scheduled callback tweet, that Perplexity offered to buy Google Chrome one year ago today.
-他还发布了一条预设推文，提醒大家：就在一年前的今天，Perplexity 曾提出收购 Google Chrome。
+Swyx has been experimenting with a new "/align-me" modification that batches AI clarification questions rather than asking them one by one — inspired by spec decoding, it looks ahead 2–10 steps at once.
+Swyx 正在尝试一种新的 "/align-me" 改进方法，将 AI 的澄清问题批量处理，而非逐条提问——灵感来自推测解码，一次性向前预判 2–10 步。
 
-Source: https://x.com/swyx/status/2087437017840046156
-Source: https://x.com/swyx/status/2087691099691475285
+*"human i/o is costly, so after listening to @mattpocockuk and @trq212 i made an /align-me modification which allows for batches of questions instead of round-by-round. same intuition as spec decoding, you speed up by looking ahead 2-10 steps"*
+*"人类 I/O 成本很高，所以在听了 mattpocockuk 和 trq212 的分享后，我做了一个 /align-me 改进，允许批量提问而非每轮单个提问。和推测解码的直觉一样，通过向前看 2–10 步来提速。"*
+
+He also highlighted three researchers — Matt, Thariq, and Philipp Schmid — all contributing to discussions on "frontier skills" in AI, calling it "a beautiful thing to see."
+他还特别提到了三位研究者 Matt、Thariq 和 Philipp Schmid，表示他们都在为 AI "前沿技能"的讨论做出贡献，称之为"非常美好的景象"。
+
+https://x.com/swyx/status/2088073777779515615
+https://x.com/swyx/status/2088074149260673441
 
 ---
 
-### Josh Woodward (VP, Google Labs / Gemini)
+### Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini
 
-Josh Woodward announced a new wave of Gemini integrations rolling out across everyday apps — including Angi, Fever, GetYourGuide, Granola, iHeartRadio, OpenTable, Otter, Pandora, Thumbtack, Ticketmaster, Wix, Zocdoc, and Zoho.
-Google Labs 副总裁 Josh Woodward 宣布 Gemini 新一波集成正式上线，覆盖日常使用的多款应用，包括 Angi、Fever、GetYourGuide、Granola、iHeartRadio、OpenTable、Otter、Pandora、Thumbtack、Ticketmaster、Wix、Zocdoc 和 Zoho。
+Google Labs VP Josh Woodward announced Gemini 3.7 Flash: faster, 50% cheaper, shipped in roughly three weeks.
+谷歌 Labs 副总裁 Josh Woodward 宣布推出 Gemini 3.7 Flash：速度更快、成本降低 50%，大约三周内完成交付。
 
-He invited partners to DM him directly to explore integrations.
-他邀请有意合作的伙伴直接私信联系。
+*"3.7 Flash: Fast, 50% cheaper, happened in ~3 weeks"*
+*"3.7 Flash：速度快，成本降低 50%，约三周内上线。"*
 
-Source: https://x.com/joshwoodward/status/2087751559606407615
-
----
-
-### Thibault Sottiaux (Codex & ChatGPT, OpenAI)
-
-OpenAI Codex 产品负责人 Thibault Sottiaux 宣布 ChatGPT 突破 1500 万用户里程碑，并面向所有用户发放了 /fast 模式的使用额度重置。
-Thibault Sottiaux from OpenAI's Codex and ChatGPT team announced crossing the 15 million user milestone and issued a usage reset for /fast mode to all users.
-
-He also teased with *"Also don't say Linux, we just shipped that"* — hinting at a freshly-shipped Linux feature.
-他还暗示刚刚上线了 Linux 相关功能，*"别再喊 Linux 了，我们刚刚把它发出去了。"*
-
-A lighter note: he shared a playful exchange with colleague @ajambrosino about "core alignment," adding that he's *"never been more excited about what him and the team are building."*
-他还晒出了与同事 @ajambrosino 关于"核心对齐"的一段玩笑对话，表示对对方团队正在构建的事物"从未如此兴奋"。
-
-Source: https://x.com/thsottiaux/status/2087706104814023111
-Source: https://x.com/thsottiaux/status/2087614555203809395
-Source: https://x.com/thsottiaux/status/2087439859493617908
+https://x.com/joshwoodward/status/2088016871710957587
 
 ---
 
-### Peter Yang (AI educator / creator)
+### Boris Cherny (bcherny on X) — Claude Code, Anthropic
 
-Peter Yang published a new free essay arguing that how we use computers is about to change forever — from manual keyboard/mouse/laptop work to directing cloud agents by voice.
-AI 教育者 Peter Yang 发布了一篇免费长文，论述人机交互方式即将迎来根本性变革：从键盘鼠标操作转向用语音指挥云端 Agent。
+Anthropic's Claude Code engineer Boris Cherny is running an unusual experiment: handing day-to-day maintenance of apps entirely over to Claude.
+Anthropic Claude Code 工程师 Boris Cherny 正在进行一项不寻常的实验：将应用程序的日常维护工作完全交给 Claude 来处理。
 
-His three theses: voice becomes the orchestration layer, personal computers move to the cloud, and trust becomes the key differentiator.
-他的三个核心论点：语音成为编排层、个人计算迁移至云端、信任成为关键差异化要素。
+*"A weird experiment I've been trying the last few weeks is having Claude take over day-to-day maintenance of our apps. Seeing early signs of life that this might be possible."*
+*"过去几周，我一直在尝试一个奇怪的实验：让 Claude 接管我们应用程序的日常维护。已经看到一些早期迹象，表明这或许真的可行。"*
 
-Source: https://x.com/petergyang/status/2087547168764862495
+The setup involves giving Claude a structured role and runbook-style instructions for recurring tasks, suggesting a new paradigm for autonomous software maintenance.
+其方案是给 Claude 设定结构化角色，并为重复性任务提供类似操作手册的指令，暗示了自主软件维护的新范式。
 
----
-
-### Madhu Guru (Sr. Director AI, Meta)
-
-Meta AI 高级总监 Madhu Guru 认为，未来几年 AI 产品的最大 alpha 在应用层。
-Madhu Guru, Sr. Director of AI at Meta, argued that the biggest alpha in AI products over the next few years is in the application layer.
-
-*"Models will keep getting cheaper, better and more local. The differentiation will come from deeply understanding specific user workflows."*
-"模型会持续变得更便宜、更强、更本地化。差异化将来自对特定用户工作流的深度理解。"
-
-He also lamented the loss of in-person whiteboarding culture since the WFH era: *"Years of Zoom and Google Meet seem to have beaten that instinct out of people."*
-他还感慨远程办公时代抹杀了线下白板文化：*"多年的 Zoom 和 Google Meet 似乎已经把那种本能从人们身上磨掉了。"*
-
-Source: https://x.com/realmadhuguru/status/2087553833098723547
-Source: https://x.com/realmadhuguru/status/2087706598542290958
+https://x.com/bcherny/status/2088014489438621990
 
 ---
 
-### Amanda Askell (Philosopher & AI Ethics, Anthropic)
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-Anthropic 哲学家兼 AI 伦理研究员 Amanda Askell 近期无重要技术动态，仅发布了两条关于电子游戏伦理的趣味观察——在《上古卷轴：天际》中她专注于慈善救助孤儿，在《生化奇兵》中"道德通关"的标准仅仅是不杀小孩。
-Amanda Askell from Anthropic shared lighthearted gaming observations — no substantive AI/tech content this cycle.
+OpenAI's Thibault Sottiaux highlighted a fun ChatGPT trick: install the Computer History plugin, go about your day, then ask it to roast your computer usage — and brace for insightful (and humbling) feedback.
+OpenAI 的 Thibault Sottiaux 分享了一个有趣的 ChatGPT 技巧：安装 Computer History 插件，正常使用电脑，然后让它"吐槽"你的电脑使用习惯——结果既犀利又发人深省。
 
-近期无重要 AI 动态。
+He also touted ChatGPT's Google Docs/Sheets/Slides integration as a workflow changer, noting he now writes and edits documents entirely through conversation.
+他还力推 ChatGPT 与 Google Docs/Sheets/Slides 的集成，称之为改变工作流的功能，表示现在完全通过对话来撰写和编辑文档。
 
-Source: https://x.com/AmandaAskell/status/2087597131800674495
+Sam Altman also teased "/ultrafast" — Sottiaux echoed the hint with a brief post pointing to the same feature.
+Sam Altman 预告了 "/ultrafast" 功能，Sottiaux 也在一篇简短帖子中呼应了这一暗示。
 
----
-
-### Guillermo Rauch (CEO, Vercel)
-
-Vercel CEO Guillermo Rauch shared two product updates.
-Vercel CEO Guillermo Rauch 分享了两条产品动态。
-
-First, he highlighted an improvement to the npx sandbox tool: *"it's mind-blowing. It feels faster than your local machine"* — sandboxes now come with a default set of pre-installed tools and are fully customizable.
-首先，他重点介绍了 npx sandbox 工具的改进：*"令人惊叹，感觉比本地机器还快"*——沙箱现在内置了合理的预装工具集，并支持完全自定义。
-
-He also demoed Seedance 2.5 running on the Vercel AI Gateway.
-他还演示了 Seedance 2.5 在 Vercel AI Gateway 上的运行效果。
-
-And struck a characteristically bullish note with: *"Endless opportunity everywhere you look."*
-一如既往地乐观：*"放眼望去，处处都是机会。"*
-
-Source: https://x.com/rauchg/status/2087698195120116064
-Source: https://x.com/rauchg/status/2087631388359242050
-Source: https://x.com/rauchg/status/2087736311885218160
+https://x.com/thsottiaux/status/2088133823619895712
+https://x.com/thsottiaux/status/2088103609477238858
+https://x.com/thsottiaux/status/2088019704803897705
 
 ---
 
-### Aaron Levie (CEO, Box)
+### Peter Yang (petergyang on X) — AI Product Creator / Educator
 
-Box CEO Aaron Levie wrote a detailed take on the day's new model releases from DeepSeek and Grok — calling them *"huge jumps in capability at insanely low costs."*
-Box CEO Aaron Levie 就当日 DeepSeek 和 Grok 的新模型发布发表了详细看法，称其为"以极低成本实现的能力大幅跃升"。
+Product creator Peter Yang is thinking about how to write product specs in the age of agents: should specs have separate sections for humans vs. AI agents, or a unified format?
+产品创造者 Peter Yang 正在思考智能体时代如何撰写产品规格文档：规格文档是否应该为人类和 AI 智能体分别设立独立章节，还是使用统一格式？
 
-He framed it as Jevons paradox playing out in AI: cheaper models don't reduce demand — they unlock entirely new enterprise use cases that were previously too expensive.
-他将此定性为 AI 领域的杰文斯悖论：更便宜的模型不会减少需求，反而会解锁此前因成本过高而无法实施的全新企业用例。
+He also shared that during a family health situation, he found AI most useful not for medical research, but for navigating the healthcare bureaucracy — a candid and relatable observation.
+他还分享道，在一次家庭健康危机中，AI 对他最大的帮助并非医疗研究，而是应对医疗系统的繁文缛节——这一观察既坦诚又引人共鸣。
 
-*"They want agents to scan their codebases for security issues. They want agents to review all their documents."*
-"他们希望 Agent 扫描代码库中的安全漏洞，希望 Agent 审阅所有文档。"
-
-He concluded this is great for the applied AI layer — more model choice creates more value for the routing and optimization layer.
-他总结道，这对应用 AI 层是利好——模型选择越多，路由和优化层的价值就越大。
-
-Source: https://x.com/levie/status/2087719356763672917
+https://x.com/petergyang/status/2088108304274960667
+https://x.com/petergyang/status/2087946170274570385
 
 ---
 
-### Garry Tan (President & CEO, Y Combinator)
+### Madhu Guru (realmadhuguru on X) — Sr. Director of AI, Meta (prev. Google Gemini/Veo)
 
-YC 总裁兼 CEO Garry Tan 宣布 GBrain v0.45.6.0 正式发布，新增 17 项通过其个人 OpenClaw Agent（含数十万个 Markdown 文件）实战打磨的 brain skills。
-Garry Tan announced GBrain v0.45.6.0, adding 17 new brain skills hardened through his personal OpenClaw agent with hundreds of thousands of Markdown files.
+Meta AI Sr. Director Madhu Guru called out a naming crisis: he counted 20+ AI products named "Studio" (Google AI Studio, Vertex AI Studio, Workspace Studio, etc.) — a funny sign of the industry's creativity ceiling.
+Meta AI 高级总监 Madhu Guru 指出了 AI 行业的命名危机：他数了数，竟有 20 多款 AI 产品以 "Studio" 命名（如 Google AI Studio、Vertex AI Studio、Workspace Studio 等）——这是行业创造力天花板的有趣佐证。
 
-GBrain now works with Codex and Claude Code — but he emphasized it should run as a *separate* agent, not inside your main coding agent: *"Think of it more like a personal AI version of ChatGPT or Claude that has its own git repo for memory and custom skills."*
-GBrain 现已支持 Codex 和 Claude Code，但他强调应作为独立 Agent 运行，而非嵌入主编码 Agent 中：*"把它想象成一个有自己 git 记忆仓库和自定义 skills 的个人 AI 版 ChatGPT 或 Claude。"*
+He also issued a sharp warning: *"Prompt debt is the new tech debt. With every model update, you should be cutting at least 50% of your prompts."*
+他还发出了尖锐警告：*"提示词债务是新的技术债务。每次模型更新，你都应该至少削减 50% 的提示词。"*
 
-He also teased a new conversation on "markdown skill-maxxing."
-他还预告了一段关于"markdown skill-maxxing"的新对话内容。
+Most AI products, he argues, carry bloated prompts that actively hurt quality — and the solution is disciplined pruning with each model upgrade.
+他认为，大多数 AI 产品的提示词过于臃肿，反而损害了质量——解决之道是在每次模型升级时进行严格精简。
 
-Source: https://x.com/garrytan/status/2087594114372259890
-Source: https://x.com/garrytan/status/2087597829065945249
-Source: https://x.com/garrytan/status/2087625178293604438
-
----
-
-### Matt Turck (VC, FirstMark Capital)
-
-FirstMark Capital 投资人 Matt Turck 用一条幽默推文概括了 AI 工程领域的命名通胀现象。
-Matt Turck from FirstMark Capital offered a wry observation on AI engineering trend-naming.
-
-*"Graph engineering is the new loop engineering which is the new harness engineering which is the new context engineering which is the new prompt engineering. Hope this clarifies any confusion."*
-"图工程是新的循环工程，循环工程是新的 harness 工程，harness 工程是新的上下文工程，上下文工程是新的提示词工程。希望这能消除一些困惑。"
-
-Source: https://x.com/mattturck/status/2087528600849252696
+https://x.com/realmadhuguru/status/2088074515188519182
+https://x.com/realmadhuguru/status/2087916590964851172
 
 ---
 
-### Zara Zhang (Builder / GitHub)
+### Cat Wu (_catwu on X) — Claude Code & Cowork, Anthropic
 
-Zara Zhang 推荐了一套 Stanford 公开课系列，称其为"pure gold"。
-Zara Zhang highlighted a Stanford lecture series as *"pure gold"*, noting it's *"crazy that such high-quality knowledge is freely disseminated on YouTube."*
+Anthropic's Cat Wu is running office hours for Claude's Cowork product, specifically targeting non-engineering roles (marketing, sales, finance, legal, ops) to learn how they use it and improve the product for them.
+Anthropic 的 Cat Wu 正在为 Claude 的 Cowork 产品举办办公室答疑时间，特别面向非工程岗位（市场、销售、财务、法务、运营等）——目的是了解他们的使用方式并据此改进产品。
 
-该讲座系列在 YouTube 上免费开放，她感叹如此高质量的知识能够如此广泛地传播。
-She found it remarkable that such high-quality content is available for free.
-
-Source: https://x.com/zarazhangrui/status/2087547174662136273
+https://x.com/_catwu/status/2088006642189361564
 
 ---
 
-### Nikunj Kothari (Partner, FPV Ventures)
+### Thariq (trq212 on X) — Claude Code, Anthropic
 
-FPV Ventures 合伙人 Nikunj Kothari 推荐了 Ethan Ding 的最新文章，称他是"疯狂的天才"。
-Nikunj Kothari of FPV Ventures gave a strong shoutout to Ethan Ding's latest post, calling him *"a mad mad genius."*
+Anthropic Claude Code team member Thariq posted a concise but thought-provoking take: *"everything truly is code."*
+Anthropic Claude Code 团队成员 Thariq 发了一条简洁而发人深省的帖子：*"一切真的都是代码。"*
 
-近期无独立原创观点，主要为推荐转发。
-No original insights this cycle beyond the recommendation.
-
-Source: https://x.com/nikunj/status/2087664045797294212
+https://x.com/trq212/status/2088049989306192106
 
 ---
 
-### Peter Steinberger (OpenClaw + OpenAI)
+### Amjad Masad (amasad on X) — CEO, Replit
 
-Peter Steinberger (steipete on X) shared an observation on the evolution of AI coding tools: *"cli was a year ago. apps maybe 6 months. now it's services, web, cloud sessions."*
-Peter Steinberger（X 上的 steipete）分享了对 AI 编程工具演化路径的观察：*"CLI 是一年前的事，应用是六个月前，现在已经进入服务、Web、云端会话的阶段。"*
+Replit CEO Amjad Masad made a bold prediction: ARC-AGI-3, once considered a key benchmark against AI generalization, is now nearly solved simply by adding a coding harness to LLMs.
+Replit CEO Amjad Masad 做出了大胆预测：曾被视为 AI 泛化能力关键测试的 ARC-AGI-3，如今仅需为 LLM 添加编程工具链便几乎可以解决。
 
-He also went live on stream.
-他还进行了一次直播。
+*"ARC-AGI-3 is nearly solved by merely adding a coding harness. As predicted, coding generalizes LLMs."*
+*"仅仅添加编程工具链，ARC-AGI-3 就几乎被攻克了。正如预测，编程能力让 LLM 具备了更强的泛化能力。"*
 
-Source: https://x.com/steipete/status/2087568620465607078
-Source: https://x.com/steipete/status/2087607369908023354
+He also declared: *"By next year, using a computer will be optional. Work will radically change."*
+他还断言：*"到明年，使用电脑将成为可选项。工作方式将发生根本性变化。"*
 
----
-
-### Dan Shipper (CEO, Every)
-
-Every CEO Dan Shipper was in a playful mood — he joked about starting a content agency called "One Word" inspired by @ajambrosino's one-word-a-day posting strategy, then immediately followed up with *"Update: we're rebranding to 'Word' it's cleaner."*
-Every CEO Dan Shipper 发布了一系列幽默推文，开玩笑说受 @ajambrosino 单词每日发帖策略启发，要创办一家名为"One Word"的内容机构，随后又宣布"更新：改名叫'Word'，更简洁。"
-
-He also teased *"something analog dropping tomorrow"* with a cryptic preview image.
-他还预告明天将发布"一些模拟的东西"，附上了一张神秘的预览图。
-
-Source: https://x.com/danshipper/status/2087555423893065872
-Source: https://x.com/danshipper/status/2087678775517442399
+https://x.com/amasad/status/2088124774824521786
+https://x.com/amasad/status/2088110851681386864
 
 ---
 
-### Aditya Agarwal (General Partner, SPC)
+### Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-SPC 普通合伙人 Aditya Agarwal 宣布 SPC India 正式落地，称其为美国以外的第一个投资赌注。
-Aditya Agarwal of SPC announced SPC India as their first bet outside the US, expressing strong conviction: *"We are bullish on India. Some of the most ambitious projects of the decade will be built there."*
+Vercel CEO Guillermo Rauch shared that a single-command approach to AI coding at scale — covering uptime, model choice, cost, observability, and ZDR — is becoming the default.
+Vercel CEO Guillermo Rauch 分享道，一种用于大规模 AI 编程的单命令方式——涵盖正常运行时间、模型选择、成本控制、可观察性和 ZDR——正在成为行业默认选择。
 
-"印度的活力将长期持续。"他在接受 ETtech 采访时详细介绍了这一布局。
-He spoke to ETtech about SPC's conviction in the India opportunity.
+*"I predict that this will become the default way of using coding AI at scale."*
+*"我预测，这将成为大规模使用编程 AI 的默认方式。"*
 
-Source: https://x.com/adityaag/status/2087563716350902530
-Source: https://x.com/adityaag/status/2087563719181996295
+https://x.com/rauchg/status/2088020529039180204
 
 ---
 
-### Claude (Anthropic)
+### Aaron Levie (levie on X) — CEO, Box
 
-Anthropic 官方 Claude 账号发布了三条重要产品更新。
-The official Claude account posted three significant product updates.
+Box CEO Aaron Levie pushed back hard on the "AI will replace engineers" narrative.
+Box CEO Aaron Levie 对"AI 将取代工程师"的说法进行了有力反驳。
 
-Claude in Chrome now runs the same Cowork session as desktop, web, and mobile — sessions live with your account, not on a single device, so you can start in a browser tab and pick it up anywhere.
-Chrome 插件中的 Claude 现在与桌面端、Web 端和移动端共享同一个 Cowork 会话——会话绑定账户而非设备，可在任意平台无缝衔接。
+*"The elimination of engineers was one of the wilder hypotheses out there. Just like absurdly wrong. We just gave engineers a power tool that can accelerate the development of whatever we want."*
+*"'消灭工程师'是最荒诞的预测之一，简直大错特错。我们只是给了工程师一件能加速实现一切的强力工具而已。"*
 
-This is available to Max and Team subscribers today, rolling out to Pro in coming weeks.
-该功能今日对 Max 和 Team 订阅用户开放，未来几周将向 Pro 用户推出。
+https://x.com/levie/status/2088105350201270529
 
-Claude also warned that browser agents can be tricked by prompt injection attacks hidden in web pages, and shared best practice recommendations.
-Claude 还提醒用户，浏览器 Agent 可能被网页中隐藏的提示注入攻击所欺骗，并分享了防护最佳实践。
+---
 
-Source: https://x.com/claudeai/status/2087635262390026525
-Source: https://x.com/claudeai/status/2087635263774232617
-Source: https://x.com/claudeai/status/2087635265066004694
+### Ryo Lu (ryolu_ on X) — Designer at Cursor / Notion / Stripe
+
+Designer Ryo Lu praised the Matic robot vacuum, noting it *"feels like it gets smarter with every update"* — echoing a broader theme in today's digest about AI hardware finding its footing.
+设计师 Ryo Lu 称赞了 Matic 扫地机器人，表示它"感觉每次更新都变得更聪明了"——与本期日报中 AI 硬件逐渐站稳脚跟的大主题相呼应。
+
+https://x.com/ryolu_/status/2087992867918864668
+
+---
+
+### Garry Tan (garrytan on X) — President & CEO, Y Combinator
+
+YC President Garry Tan hosted California gubernatorial hopeful Xavier Becerra at a citizen's union gathering, making the case that California can be both business-friendly and worker-friendly.
+YC 总裁 Garry Tan 在一场公民联盟聚会上接待了加利福尼亚州长候选人 Xavier Becerra，主张加州可以同时对商业和劳工友好。
+
+He also doubled down on YC's hard-tech identity: *"YC is the YC for hard tech."*
+他还再次强调了 YC 的硬科技身份：*"YC 就是硬科技的 YC。"*
+
+https://x.com/garrytan/status/2088066634074443901
+https://x.com/garrytan/status/2087929926070710381
+
+---
+
+### Matt Turck (mattturck on X) — VC at FirstMark Capital
+
+FirstMark VC Matt Turck articulated the uncomfortable dilemma facing today's companies: you're either an AI-native rocketship (perpetual fundraising, scary valuations, talent wars) or a legacy player trying to retrofit AI.
+FirstMark 风险投资人 Matt Turck 阐述了当今企业面临的两难困境：要么成为 AI 原生的火箭飞船（永无止境的融资、令人咋舌的估值、人才争夺战），要么是试图在 AI 时代转型的传统玩家。
+
+https://x.com/mattturck/status/2087978386195103916
+
+---
+
+### Zara Zhang (zarazhangrui on X) — Builder
+
+Builder Zara Zhang noted the irony that AI coding was supposed to reduce demand for engineers — but the hottest job titles now all contain the word "engineer": forward-deployed engineer, design engineer, and more.
+创业者 Zara Zhang 指出了一个讽刺现象：AI 编程本应降低对工程师的需求，但如今最热门的职位名称都带有"工程师"二字：前线部署工程师、设计工程师等等。
+
+*"Ironic that many people thought AI coding would make engineers less valuable when in reality the most in-demand jobs all have the word 'engineer' in them."*
+*"颇具讽刺意味的是，很多人以为 AI 编程会让工程师贬值，但现实中需求最旺盛的职位名称里全都有'工程师'三个字。"*
+
+https://x.com/zarazhangrui/status/2088087765267386564
+
+---
+
+### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+
+FPV Ventures partner Nikunj Kothari offered a charming anecdote: "Matic" was one of the first ten words his son learned, treating the robot as a fifth family member — his conclusion: useful home robots are here to stay.
+FPV Ventures 合伙人 Nikunj Kothari 分享了一个可爱的故事："Matic" 是他儿子学会的前十个单词之一，孩子把这台机器人当作家里第五个成员——他的结论是：实用的家用机器人已经真正进入日常生活。
+
+He also reflected on Grok Bot's polished UX and onboarding, but raised an open question: will users want one super-agent that knows everything, or a specialized agent per domain?
+他还对 Grok Bot 精良的用户体验和引导流程给予好评，同时提出了一个开放性问题：用户究竟想要一个无所不知的超级智能体，还是每个领域都有专属的智能体？
+
+https://x.com/nikunj/status/2088029329624371544
+https://x.com/nikunj/status/2087906119914340540
+
+---
+
+### Dan Shipper (danshipper on X) — CEO, Every
+
+Every CEO Dan Shipper posted a "concerning" link (no further context — one to check yourself), and announced that Every is receiving roughly 2 applications per minute from top organizations including Citadel, OpenAI, Red Bull, Microsoft, Google, and more.
+Every CEO Dan Shipper 发了一条标注为"令人担忧"的链接（无更多上下文——值得自行查看），并宣布 Every 目前每分钟约收到 2 份来自顶级机构的求职申请，包括 Citadel、OpenAI、Red Bull、微软、谷歌等。
+
+https://x.com/danshipper/status/2088015579093295157
+https://x.com/danshipper/status/2087995350745244083
+
+---
+
+### Aditya Agarwal (adityaag on X) — General Partner, SPC; Co-Founder, Bevel Health
+
+SPC General Partner Aditya Agarwal posted about a conversation with investor Samir Kaji on what makes great companies work and SPC's approach to the future — worth a listen.
+SPC 普通合伙人 Aditya Agarwal 发布了一段与投资人 Samir Kaji 的对话，谈及是什么让伟大公司得以运转，以及 SPC 对未来的思考——值得一听。
+
+He also expressed a desire to host Jeff Dean at SPC for a fireside chat, calling on the community to help make it happen.
+他还表达了希望邀请 Jeff Dean 到 SPC 参加炉边对话的愿望，并呼吁社区帮助促成这一想法。
+
+https://x.com/adityaag/status/2087959516545470973
+https://x.com/adityaag/status/2088058783767658541
+
+---
+
+### Sam Altman (sama on X) — CEO, OpenAI
+
+OpenAI CEO Sam Altman posted a single-word tease: "/ultrafast" with a link — signaling a new speed-focused feature or mode coming to ChatGPT.
+OpenAI CEO Sam Altman 发布了一条简短预告："/ultrafast"附带一个链接——暗示 ChatGPT 即将推出一项专注于速度的新功能或模式。
+
+https://x.com/sama/status/2088101491802243121
 
 ---
 
 ## PODCASTS
 
-### AI & I by Every — "Microsoft's Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)"
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+---
 
-Every CEO Dan Shipper interviewed Microsoft CTO Kevin Scott on the agentic web, MCP, and the future of software engineering.
-Every CEO Dan Shipper 采访了微软 CTO Kevin Scott，探讨 Agent 网络、MCP 以及软件工程的未来。
+### No Priors — "What Chess.com Teaches Us About Superhuman Capabilities, with CEO Erik Allebest"
 
-Scott's central thesis: last year was about scaling laws; this year is about the "capability overhang" — model reasoning has gotten ahead of what products actually deliver to users.
-Scott 的核心论点：去年的主题是扩展定律，今年的主题是"能力溢出"——模型推理能力已经超越了产品实际交付给用户的价值。
+Published: 2026-08-13
+发布日期：2026年8月13日
 
-*"We actually have some work to do collectively across the whole industry to close the gap between what the models are actually capable of and what we're delivering to users."*
-"我们整个行业需要共同努力，弥合模型真实能力与我们实际交付给用户的价值之间的差距。"
+Chess.com CEO Erik Allebest joined No Priors to share how he built the dominant chess platform — bought the domain for $56,000 in a 2005 bankruptcy auction after being turned down by every VC.
+Chess.com CEO Erik Allebest 做客 No Priors，讲述了他如何打造这一全球最大棋类平台——2005 年他以 5.6 万美元在破产拍卖中竞得该域名，此前遭到所有风险投资人的拒绝。
 
-On the agentic web: Scott sees MCP playing the same role as HTTP does on the internet, and NL Web playing the role of HTML — simple, composable, open protocols that enable agents to actually do things.
-关于 Agent 网络：Scott 认为 MCP 之于 Agent 网络如同 HTTP 之于互联网，NL Web 则扮演 HTML 的角色——简单、可组合、开放的协议让 Agent 真正能够行动。
+Today, Chess.com has 250 million registered members, 10 million daily active users, and over $200 million in annual revenue — all without ever raising outside capital.
+如今，Chess.com 拥有 2.5 亿注册会员、1000 万日活用户，年收入超过 2 亿美元——且从未进行过外部融资。
 
-On the future of agentic interaction: within a year, the mode will shift from synchronous (prompt and wait) to asynchronous — you'll delegate a task, the agent will make many calls, take significant time, then return with results when done.
-关于 Agent 交互的未来：一年内，交互模式将从同步（发送提示并等待）转向异步——你委派任务，Agent 进行大量调用，耗费相当时间，完成后返回结果。
+He explained the platform's multiple growth waves: COVID + The Queen's Gambit, followed by short-form content and school programs in 2023, each leaving a permanently higher baseline of users.
+他解释了平台经历的多轮增长浪潮：疫情 + 《后翼弃兵》，随后是 2023 年短视频内容和校园推广，每一波都将用户基础永久性地推上了更高台阶。
 
-On the craft of coding with agents: Scott pushed back on the idea that agents diminish craftsmanship — drawing an analogy to woodworking debates about hand tools vs. power tools vs. CNC: *"Be curious. Try. And if it works for you, use it. And if it doesn't, don't."*
-关于用 Agent 编程是否有损工艺感：Scott 援引木工领域关于手工工具、电动工具和 CNC 的争论，反驳了 Agent 削弱工匠精神的观点：*"保持好奇，去尝试。如果对你有用就用，如果没用就不用。"*
+On AI: Allebest discussed how computers have outclassed humans at chess for 30 years, yet the game is more popular than ever — a lesson about human skills remaining valuable even against superhuman AI.
+关于 AI：Allebest 探讨了电脑超越人类棋手已达三十年，但国际象棋却比以往任何时候都更受欢迎——这启示我们，即便面对超人类 AI，人类技能依然有其独特价值。
+
+He also revealed plans to bring the "chess playbook" — a robust rating system focused on genuine skill rather than chips or bots — to poker.
+他还透露了将"国际象棋经验"——一套专注于真实技能而非筹码或机器人的完善评级体系——引入扑克领域的计划。
+
+https://www.youtube.com/@NoPriorsPodcast
 
 ---
 
