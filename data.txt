@@ -1,385 +1,248 @@
-AI Builders 日报 · 2026-08-20
-
-X / TWITTER
+AI Builders 日报 · 2026-08-21
 
 ---
 
-**Sam Altman (sama on X) — OpenAI CEO**
+## Swyx (@swyx)
 
-OpenAI has paused some frontier RL training to ensure alignment, security and monitoring standards can meet the new level of capabilities.
-OpenAI 暂停了部分前沿强化学习训练，以确保对齐、安全和监控标准能够跟上新能力水平的要求。
+Swyx delivered a sharp, humorous critique of AI coverage by non-technical commentators.
+Swyx 幽默地嘲讽了那些缺乏技术背景的 AI 媒体人——他们无法理解 AI 的真正深度，却总能以"一切都很神奇"的视角浅尝辄止。
 
-*"Model progress is now extremely rapid, and we always said we would take action if we felt that model capabilities were outstripping the pace of safety and alignment."*
-「模型进展目前极为迅猛，我们一直表示，若感到模型能力超越了安全与对齐的进度，就会采取行动。」
+*"non technical people are so incredibly cooked they are burnt thru"* — 这句话道出了他对 AI 领域内外认知鸿沟的感慨。
+https://x.com/swyx/status/2090314794456785263
 
-OpenAI believes the entire field will need to coordinate on shared safety standards, but will act unilaterally in the meantime.
-OpenAI 认为整个领域需要在共同的安全标准上协调，但在此期间会单方面行动。
-
-Further-out model releases are impacted, though great new models are still expected to ship soon.
-较远期的模型发布将受到影响，但预计近期仍将推出出色的新模型。
-
-Sam also expressed excitement about a collaboration with Jensen (Nvidia).
-Sam 还对与 Jensen（英伟达）的合作表达了期待。
-
-https://x.com/sama/status/2089787807611195475
-https://x.com/sama/status/2089805495783813196
-https://x.com/sama/status/2089758522678657212
+He also flagged a positive take on usage-based billing (UBB) through the lens of OpenRouter.
+他还分享了一个关于"按使用量计费"模式的正面观点，以 OpenRouter 为例认为这一模式颇具潜力。
+https://x.com/swyx/status/2090259930662211615
 
 ---
 
-**Anthropic Claude (claudeai on X) — Anthropic's official AI assistant**
+## Josh Woodward (@joshwoodward) · Google Labs / Gemini
 
-Claude can now send emails in Gmail and manage files in Google Drive — draft replies to threads, with user-controlled approval.
-Claude 现在可以在 Gmail 中发送邮件、在 Google Drive 中管理文件——起草回复邮件，由用户控制审批。
+Google's VP of Labs announced a major global expansion of university student plans.
+Google Labs VP Josh Woodward 宣布学生计划正式向全球超过 140 个国家开放，带来更高使用上限、更多存储空间以及 Notebook、Flow 等新功能。
 
-This integration is available to all paid plan users via the connectors menu.
-此集成功能通过连接器菜单向所有付费计划用户开放。
+*"University student plans are back! We've gone global with this one. Over 140 countries will get higher limits, more storage, and new features."*
+这一举措意味着 Gemini 正在加速全球化覆盖，尤其面向学生群体。
+https://x.com/joshwoodward/status/2090166806401228912
 
-Claude Cowork is now live on mobile and web for all paid plans.
-Claude Cowork 现已在移动端和网页端向所有付费计划用户开放。
-
-https://x.com/claudeai/status/2089806039088517356
-https://x.com/claudeai/status/2089756371570900999
-
----
-
-**Thibault Sottiaux (thsottiaux on X) — OpenAI Codex team**
-
-Codex has rolled out a series of safety improvements to reduce the risk of destructive actions.
-Codex 已推出一系列安全改进措施，以降低破坏性操作的风险。
-
-The team investigated rare cases where GPT-5.6 in Codex took destructive actions outside user scope — specifically, a cleanup command that could accidentally delete user files due to environment variable misuse.
-团队调查了 GPT-5.6 在 Codex 中执行超出用户范围的破坏性操作的罕见情况——具体来说，是一个清理命令因环境变量误用可能意外删除用户文件。
-
-*"Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear."*
-「Codex 现在被明确指示在操作前检查删除目标、创建全新的临时目录、避免重用系统环境变量、优先选择可恢复的操作，并在范围不明确时停止。」
-
-Additional layers of protection were added: stronger execution checks, harder-to-accidentally-enable Full Access mode, better Auto-review for destructive actions, and targeted RL evaluations.
-还增加了多层保护：更强的执行检查、更难意外启用的全访问模式、更好的自动审查破坏性操作的功能，以及有针对性的强化学习评估。
-
-Users are advised to keep Codex updated and use sandbox modes ("Ask for approval" or "Approve for me") rather than Full access.
-建议用户保持 Codex 更新，并使用沙盒模式（"请求批准"或"自动批准"），而非全访问模式。
-
-https://x.com/thsottiaux/status/2089891927659585918
+He also shared a visual accompanying the announcement.
+他同时附上了相关公告的视觉素材。
+https://x.com/joshwoodward/status/2090166808213082234
 
 ---
 
-**Aaron Levie (levie on X) — Box CEO**
+## Thibault Sottiaux (@thsottiaux) · OpenAI Codex
 
-The value creation opportunity between AI models and enterprise workflows is far larger than most assumed.
-AI 模型与企业工作流之间的价值创造机会远比大多数人预期的更大。
+Thibault, working on Codex & ChatGPT at OpenAI, had a landmark day with multiple announcements.
+Thibault 在 OpenAI 的一天颇为充实，发布了多项重要进展。
 
-*"Getting agents to work well (and alongside people) in mission critical workflows tends to need to be represented differently depending on the business process."*
-「让智能体在关键业务流程中良好运作（并与人类协作），往往需要根据不同的业务流程采取不同的实现方式。」
+OpenAI previewed **Private Safety Processing** — keeping Zero Data Retention (ZDR) while still improving safety safeguards. Sensitive content stays on customer-controlled infrastructure.
+OpenAI 预览了"私有安全处理"功能，旨在同时保障零数据留存 (ZDR) 和前沿安全防护，敏感内容全程留在客户自控基础设施上，不做数据外传。
 
-Key challenges in enterprise AI adoption include: workflow-specific agent harnesses, domain-specific data access (life sciences, financial, legal), change management by vertical, multi-model flexibility, domain-specific evals, and industry-appropriate pricing models.
-企业 AI 落地的关键挑战包括：针对工作流的智能体框架、领域专属数据访问（生命科学、金融、法律）、垂直行业的变革管理、多模型灵活性、领域专属评估，以及符合行业的定价模型。
+*"Even when benefiting from frontier intelligence, customers shouldn't have to give up control of sensitive data."*
+https://x.com/thsottiaux/status/2090173536010957128
 
-He emphasizes that domain evals remain a long tail problem — nearly impossible for a single system to be tuned for all tasks in the economy.
-他强调，领域评估仍是一个长尾问题——几乎不可能让单一系统适配经济中的所有任务。
+He also teased **Codex at scale** — a massive deployment hint with the tagline "It has not been used yet, but would you look at that."
+他还神秘地展示了"Codex at Scale"的暗示——一个尚未启用的大规模部署迹象，让 AI 编程圈为之期待。
+https://x.com/thsottiaux/status/2090116476414136830
 
-https://x.com/levie/status/2089921630650925170
-
----
-
-**Guillermo Rauch (rauchg on X) — Vercel CEO**
-
-Vercel is putting $1M toward verifying the security of Vercel Sandbox, openly inviting anyone to try model-based escape attempts.
-Vercel 正在投入 100 万美元用于验证 Vercel Sandbox 的安全性，公开邀请任何人尝试基于模型的越狱攻击。
-
-*"I'm looking forward to bringing transparency to what frontier models can and cannot do in terms of real-world guardrail exploitability."*
-「我期待为前沿模型在现实世界护栏可利用性方面能做到什么和不能做到什么带来透明度。」
-
-He also advocates for monorepos as the software factory of the future — centralizing all company context (design, marketing, sales, engineering, support) for agents to build upon.
-他还倡导 monorepo 作为未来的软件工厂——将所有公司上下文（设计、市场、销售、工程、支持）集中起来供智能体使用。
-
-Separately, he's been using a lightweight coding CLI as his daily driver — 10-20x smaller than major coding CLIs, starts instantaneously, WebAssembly-embeddable, open source, and model-agnostic.
-另外，他一直在使用一个轻量级编码 CLI 作为日常工具——比主流编码 CLI 小 10-20 倍，启动瞬时，可嵌入 WebAssembly，开源且模型无关。
-
-https://x.com/rauchg/status/2089747453004468339
-https://x.com/rauchg/status/2089804717337817514
-https://x.com/rauchg/status/2089831055373316274
+And celebrated receiving what appears to be a special hardware item.
+还晒出了收到某件"重要物品"后的喜悦。
+https://x.com/thsottiaux/status/2090134827450421604
 
 ---
 
-**Peter Yang (petergyang on X) — Creator/PM**
+## Peter Yang (@petergyang)
 
-Based on data, non-engineers are shipping more code: PMs attaching pull requests rose from 3% to 10% in two years, designers from 1% to 8%, and founders are second only to engineers at 23%.
-根据数据，非工程师正在提交更多代码：PM 附加 pull request 的比例两年内从 3% 升至 10%，设计师从 1% 升至 8%，创始人以 23% 仅次于工程师。
+Peter wrote a deeply personal essay about his mother's battle with breast cancer and how they use AI to navigate the healthcare system.
+Peter 写下了一篇动人的个人文章，讲述母亲对抗乳腺癌的历程，以及他们如何借助 AI 在复杂的医疗体系中寻找方向。
 
-However, AI has largely landed on top of existing work rather than replacing it.
-然而，AI 大体上是叠加在现有工作之上，而非取而代之。
+*"I wrote about my mom, her battles with breast cancer, and how we're using AI to navigate the healthcare system."*
+文章由 Sijbrandij Foundation 协助支持，体现了 AI 在医疗辅助决策上的真实价值。
+https://x.com/petergyang/status/2090087911471644829
 
-*"Teams now spent more time chatting with AI and delegating to agents but didn't spend any less time on existing work."*
-「团队现在花更多时间与 AI 对话、向智能体委派任务，但在现有工作上花费的时间却没有减少。」
-
-He also mused about building a "phone-free bedroom streak" app to fight screen addiction — noting that sleep improved noticeably after leaving his phone downstairs for 3 days.
-他还构想开发一款"无手机卧室打卡"应用以对抗屏幕成瘾——他注意到连续 3 天把手机留在楼下后，睡眠明显改善。
-
-https://x.com/petergyang/status/2089877068188471545
-https://x.com/petergyang/status/2089877083510235328
-https://x.com/petergyang/status/2089931839016468575
+He also explored the promise of mRNA vaccines for cancer treatment.
+他还探讨了 mRNA 疫苗用于癌症治疗的前景，并对 ChatGPT 在癌症临床试验信息上的局限性提出了疑问。
+https://x.com/petergyang/status/2090211023798321435
 
 ---
 
-**Madhu Guru (realmadhuguru on X) — AI product builder**
+## Madhu Guru (@realmadhuguru) · Meta AI
 
-A practical framework for eval cost management: establish the quality frontier first, then work down the cost curve.
-一套实用的评估成本管理框架：先建立质量基准线，再沿成本曲线向下优化。
+Madhu, Sr. Director of AI at Meta, continued his series on building better evals with Part 3: **Failure Modes Taxonomy**.
+Meta AI 高级总监 Madhu 发布了其 Evals 系列第三篇：如何建立故障模式分类体系，是工程师提升模型评测质量的实操指南。
 
-*"Start with the highest quality way you can know if your AI product is working as intended."*
-「从能判断你的 AI 产品是否按预期工作的最高质量方式开始。」
+*"Start with your production traces — study the last 500 or 1,000 interactions and look at the failures. Cluster them and name the clusters."*
+他强调："'bad answer' 不是一个有用的分类名称"——分类要具体，才能驱动改进。
 
-Sequence: write the rubric → choose the best measurement (human/LLM judge/automated) → spend money for trusted signal → then optimize for cost (smaller models, sampling, deterministic checks).
-流程：编写评分标准 → 选择最佳衡量方式（人工/LLM 评判/自动化）→ 花钱获取可信信号 → 然后优化成本（更小模型、采样、确定性检查）。
-
-https://x.com/realmadhuguru/status/2089918106814603728
-
----
-
-**Swyx (swyx on X) — AI Engineer / Latent Space**
-
-The AI Dot Engineer channel has been A/B testing YouTube thumbnails and is open-sourcing their learnings to help good educational content rise above the noise.
-AI Dot Engineer 频道一直在对 YouTube 缩略图进行 A/B 测试，并正在开源其经验，帮助优质教育内容脱颖而出。
-
-https://x.com/swyx/status/2089798658225266806
+Key advice: build a failure taxonomy from production traces, not synthetic benchmarks.
+关键建议：从生产日志而非合成基准中归纳失败模式，聚焦真实场景。
+https://x.com/realmadhuguru/status/2090242427944833047
 
 ---
 
-**Thariq (trq212 on X) — AI startup builder**
+## Cat Wu (@_catwu) · Anthropic Cowork
 
-*"Weird that there's a 'make a lot of money' button and nobody's pressing it."*
-「奇怪的是，这里有一个'大赚特赚'的按钮，却没人去按。」
+Cat, working on Claude Code + Cowork at Anthropic, is seeking feedback from Corporate Finance and Accounting professionals.
+Cat 所在的 Anthropic Cowork 团队正在招募企业财务与会计领域的用户，进行一对一使用反馈访谈，以持续改进产品。
 
-His take: take your SaaS, make it headless, let agents use it, and charge per interaction — especially for enterprises.
-他的观点：将你的 SaaS 产品无头化，让智能体使用它，并按交互收费——尤其针对企业客户。
-
-https://x.com/trq212/status/2089844723691479333
-
----
-
-**Boris Cherny (bcherny on X) — Claude Desktop engineer**
-
-Working on improving Claude Desktop startup speed — slow startup makes the app feel sluggish when used every day.
-正在致力于改善 Claude Desktop 的启动速度——每天使用时，启动缓慢会让应用感觉迟钝。
-
-https://x.com/bcherny/status/2089924199804711410
+*"We'd love to talk with Cowork users in Corporate Finance and Accounting roles!"*
+这说明 Anthropic 正在将 Claude 的应用场景深入到企业核心业务部门。
+https://x.com/_catwu/status/2090249465844380154
 
 ---
 
-**Google Labs (GoogleLabs on X) — Google**
+## Thariq (@trq212) · Anthropic
 
-CC, Google's experimental AI productivity agent in Gmail, has expanded its waitlist to Australia and New Zealand, and is rolling out broader access in the US and Canada.
-CC（Google 在 Gmail 中的实验性 AI 生产力助手）已将候补名单扩展至澳大利亚和新西兰，并在美国和加拿大逐步开放更广泛的使用权限。
+Thariq from Anthropic shared a bold thesis on the future of software creation.
+Thariq 对软件行业的未来发表了深刻洞见，认为软件生产天然就是不可靠的——而 AI 正在改变这一局面。
 
-CC now also connects to Google Calendar, automatically creating and keeping events up to date.
-CC 现在还与 Google Calendar 连接，自动创建并保持事件更新。
+*"for its entire existence, the creation of software has been an incredibly unreliable endeavor"*
+他指出，软件项目历来超期、超预算、且往往错失用户需求，而 AI 驱动的"软件工厂"有望改变这一现状。
+https://x.com/trq212/status/2090134945490678071
 
-https://x.com/GoogleLabs/status/2089812430885208361
+He also drew a nuance: companies whose core is NOT software want reliability; but building net-new software products will always carry risk.
+但他也做了区分：非软件核心企业需要稳定可预测的软件流程，而真正的新软件产品开发依然充满不确定性——这种不确定性本身就是高回报的来源。
+https://x.com/trq212/status/2090134946598039646
 
----
-
-**Garry Tan (garrytan on X) — YC President**
-
-Actively campaigning against SF Congressional candidate Connie Chan, calling the Democratic machine's backing "shameless" — framing it as a NIMBY landlord political maneuver that harms renters.
-积极反对旧金山国会候选人 Connie Chan，称民主党机器的支持"无耻"——将其定性为损害租房者利益的 NIMBY 房东政治操作。
-
-https://x.com/garrytan/status/2089869693201092848
+He praised an AI game he saw demoed last summer, now shipped.
+他还为一款他去年夏天就看过演示的 AI 游戏喝彩，认为它是首批真正利用 AI 能力解锁新游戏玩法的作品。
+https://x.com/trq212/status/2090182422415716414
 
 ---
 
-**Zara Zhang (zarazhangrui on X) — Follow Builders author**
+## Amjad Masad (@amasad) · Replit
 
-Amused that someone in Japan is apparently learning Claude Code from a book.
-对日本有人显然在通过书本学习 Claude Code 感到有趣。
+Replit CEO Amjad announced a major **partnership with OpenAI**.
+Replit CEO Amjad 宣布与 OpenAI 达成重要合作——核心主张是：AI 降低了软件开发成本，却让"写代码"变得昂贵，这一合作旨在改变这一困局。
 
-https://x.com/zarazhangrui/status/2089940315268645373
+*"Agents made software cheaper but made coding expensive. Today, together with @OpenAI, we're changing this."*
+这一合作信号强烈：Replit 正在与 OpenAI 深度整合，重新定义 AI 辅助编程的经济模型。
+https://x.com/amasad/status/2090079496124674377
 
----
-
-**Peter Steinberger (steipete on X) — PSPDFKit / AI developer**
-
-Got 512GB RAM Mac Studios from Apple — a significant upgrade for AI development work.
-从 Apple 获得了 512GB 内存的 Mac Studio——对 AI 开发工作来说是重大升级。
-
-Also hinting at a former CLI skeptic now seeing the light on GUI-based tools.
-还暗示自己曾是 CLI 怀疑论者，现在已看到 GUI 工具的价值。
-
-https://x.com/steipete/status/2089877190422974974
-https://x.com/steipete/status/2089804281331548280
+https://x.com/amasad/status/2090104535112945906
 
 ---
 
-**Ryo Lu (ryolu_ on X) — AI builder**
+## Guillermo Rauch (@rauchg) · Vercel
 
-Moving to Asia — built a Notion + bot-powered app to help sell apartment items in SF before the move.
-即将搬往亚洲——构建了一个 Notion + bot 驱动的应用，帮助在搬家前出售旧金山公寓里的物品。
+Vercel CEO Guillermo made a sweeping statement about the future of AI infrastructure.
+Vercel CEO Guillermo 对 AI 时代的基础设施做出了大胆预言。
 
-https://x.com/ryolu_/status/2089894938934911053
+*"AI will make most infrastructure natively optimized."* — 他以 `fx`（一款 Zig 编译的 6.3MB 静态 ELF 二进制）为例，展示了 10 微秒启动时间的极致性能，断言"Fast is a one-way street"。
+这一论断暗示：AI 正在重塑底层基础设施的性能标准，速度优势将愈发决定竞争格局。
+https://x.com/rauchg/status/2090255740384751664
 
----
-
-**Dan Shipper (danshipper on X) — Every.to CEO**
-
-Asked contributor Alex Ambrosino for his thesis on the future of work after automation — he replied with one word: "tibo" (a reference to Tibo, the AI character/meme).
-请撰稿人 Alex Ambrosino 分享其关于自动化后工作未来的论点——他只回复了一个词："tibo"（指 AI 角色/梗图 Tibo）。
-
-https://x.com/danshipper/status/2089788656445734922
+He shared admiration for Vercel's Slack integration and stunning SF views.
+他还分享了对 Vercel Slack 集成的赞赏，以及旧金山令人窒息的城市风光。
+https://x.com/rauchg/status/2090174031203102813
+https://x.com/rauchg/status/2090119796784570872
 
 ---
 
-**Nikunj Kothari (nikunj on X) — Founder**
+## Aaron Levie (@levie) · Box
 
-近期无重要动态 (personal reflection on life philosophy — not substantive AI/tech content)
+Box CEO Aaron weighed in on the expert vs. generalist debate in the AI era.
+Box CEO Aaron 就 AI 时代的"专家 vs. 通才"之争表达了鲜明立场：专家目前占据上风，且这一趋势未见放缓。
 
----
+*"AI makes it 10X easier to get started with any kind of task... But having the right judgment for how to direct the agent... is still specialized work."*
+他认为，AI 降低了入门门槛，但方向判断、纠偏能力依然需要深度专业知识——专家的价值不是被取代，而是被放大。
+https://x.com/levie/status/2090278256306229675
 
-**Aditya Agarwal (adityaag on X) — Ex-Dropbox CTO**
-
-A tribute to Travis Kalanick — reflecting on his unique resilience and conviction in building Uber's global city-to-city transportation infrastructure, calling him the only person who could have done it.
-向 Travis Kalanick 致敬——回顾他在打造 Uber 全球城际交通基础设施时展现出的独特韧性和信念，称他是唯一能做到这一点的人。
-
-https://x.com/adityaag/status/2089845563097563604
-
----
-
-PODCASTS
-
-**Training Data — Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again**
-
-🎙️ https://www.youtube.com/watch?v=xH7U7w9Qzlo
+He also highlighted the Stripe + OpenRouter deal as an important step toward mixing and matching AI intelligence at scale.
+他还点评了 Stripe 与 OpenRouter 的合作，认为这是 AI 能力混搭与成本管理走向规模化的重要里程碑。
+https://x.com/levie/status/2090137914785280189
 
 ---
 
-## 一、深度总结
+## Matt Turck (@mattturck) · FirstMark Capital
 
-**核心论点**
+Matt delivered a pointed one-liner linking Moderna's mRNA cancer trials to AI labs' grand promises.
+FirstMark Capital VC Matt 用一句话道出了 AI 与医疗的交叉点：AI 实验室一直声称要"治愈癌症"，而 Moderna 的 mRNA 技术正在将这一愿景付诸实践。
 
-强化学习之父 Rich Sutton 与其学生、Oak Lab 联合创始人 Khurram Javed 认为，现代 AI 模型存在一个根本性缺陷：它们在训练后就停止了学习。Sutton 一贯倡导的"持续学习"（continual learning）才是真正的智能，而当前以 LLM 为代表的静态训练范式背离了这一本质。Oak Lab 正在构建能够持续、主动学习的系统，以解决这一问题。
-
-**关键洞察**
-
-- **"所有学习都是持续的"**：Sutton 指出，"持续学习"这一术语本身就是个悖论——真正的学习从来都是持续进行的。我们之所以需要专门命名它，正是因为当前 AI 领域走了弯路。
-- **苦涩的教训仍然有效**：Sutton 2019 年写就的《Bitter Lesson》核心论点——规模与搜索/学习算法优于人类先验知识——在 LLM 时代依然成立，但他认为当前的 scaling 仍然不够，缺失的是真正的在线学习能力。
-- **模型在部署后会"遗忘"如何学习**：LLM 在推理阶段的权重是固定的，这意味着它们无法从与用户的每次交互中真正积累经验，形成"塑性丧失"（loss of plasticity）问题。
-- **Oak Lab 的研究方向**：通过将强化学习与持续适应机制相结合，构建在部署后仍能主动更新自身知识的 AI 系统——而非每隔数月重新训练一次静态模型。
-- **Sutton 的个人故事**：他在 2003 年身患癌症期间仍坚持研究，凭借习惯与信念度过了 AI 寒冬，其经历本身就是"不畏逆境、长期押注"的最好注脚。
-
-**最值得关注的信号**
-
-当前 AI 领域正在从"训练一次、部署永久"的静态范式向"持续学习、实时适应"演进。Oak Lab 代表了一个重要的研究方向：如果成功，AI 系统将不再依赖周期性的昂贵再训练，而是像人类一样在使用中不断成长。这是值得持续关注的长期赌注。
+*"AI labs: give us billions, we'll cure cancer — Moderna: [link]"*
+这条推文以简洁犀利的方式，将 AI 行业宏大叙事与生物医疗的真实进展并置，引发广泛共鸣（936 赞）。
+https://x.com/mattturck/status/2090070949567574151
 
 ---
 
-## 二、完整中文逐字稿
+## Nikunj Kothari (@nikunj) · FPV Ventures
 
-**Speaker 1（Rich Sutton）| 00:00 - 00:14**
-人们有时认为我的观点很激进。他们会在提问时说我的想法与其他人截然不同。但我完全不这么看。在我看来，我只是在用普通的方式思考。只是其他人思考的方式有点奇怪。
+Nikunj, seed/A-stage investor at FPV Ventures, shared two observations.
+FPV Ventures 种子轮投资人 Nikunj 分享了两个观察。
 
-**Speaker 1 | 00:17 - 00:35**
-我的意思是，这只是近来人们的思维方式变得奇怪了。在所有这些 AI 热潮出现之前，你根本不用说"持续学习"，因为说"非持续的学习"本身就没什么意义。所有学习都是持续的。我们行动，我们学习。这才是正常的思维方式。
+He built a home project: a 13.3" e-ink display rotating iconic patent drawings, powered by ESP32-S3 and Railway, battery-powered for ~3 months.
+他展示了一个家庭项目：用 13.3 英寸 Spectra 6 电子墨水屏循环展示经典专利图，由 ESP32-S3 和 Railway 驱动，电池续航约三个月——优雅的极客美学。
+https://x.com/nikunj/status/2090307104146112534
 
-**Speaker 1 | 00:35 - 00:41**
-不是我奇怪。是这个领域奇怪了。这个领域，他们需要专门叫它"持续学习"。它就是学习而已。
-
-**Speaker 2 | 00:59 - 01:16**
-我们今天非常荣幸地邀请到了伟大的 Rich Sutton。Rich，你发明了强化学习，写出了开创性的教科书，培养了 Dave Silver 这样的关键学生。你写的《Bitter Lesson》，我认为是这个领域的圣经。
-
-**Speaker 2 | 01:16 - 01:33**
-你一直是推动这个领域前进的伟大人物之一。感谢你今天抽出时间参加我们的节目。Rich 身边还有 Khurram Javed，他是你的联合创始人，也是你在阿尔伯塔大学的前学生。你们两位创立了 Oak Lab。我非常期待今天与你们的对话。
-
-**Speaker 2 | 01:33 - 02:09**
-今天，我们将从《Bitter Lesson》开始，谈谈我们今天所处的世界，讨论 LLM 能否带我们到达目标，然后转向你们的研究议程和 Oak 的计划。Rich，也许可以带我们回顾一下。我本想从《Bitter Lesson》开始，但我实际上想从更早的时候说起。几十年前，你决定将职业生涯投入到强化学习，尤其是深度强化学习，并在阿尔伯塔大学建立了这一领域的重镇，那时这个领域还处于非常初期的阶段。是什么给了你这样的信念？
-
-**Speaker 1 | 02:09 - 02:26**
-还能做什么呢？我们试图弄清楚思维，而学习是思维的核心部分，拥有目标是思维的核心部分，是智能的核心部分。所以我只是在加倍坚持我一直在思考的事情。
-
-**Speaker 2 | 02:26 - 02:28**
-当时人们认为你疯了吗？
-
-**Speaker 1 | 02:31 - 02:33**
-那是一个寒冬。是 AI 寒冬。
-
-**Speaker 2 | 02:34 - 02:35**
-那是哪一年？
-
-**Speaker 1 | 02:35 - 02:55**
-是 2003 年。好的。其实说来有些疯狂，真相是这样的——我当时病得很重。我实际上在 2003 年快要死于癌症，但我还没有死。我已经挣扎了好几年，但还没有死。
-
-**Speaker 1 | 02:55 - 03:13**
-又一次缓解了，所以我说，好吧，我没有死。我还没能成功地死去，不如找另一份工作试试。于是我去了阿尔伯塔，开始在那里教书。最终，没有死。
-
-**Speaker 1 | 03:13 - 03:29**
-这挺神奇的。就是这样。我现在开玩笑说，但当时非常严重。这让这个问题更加感人——为什么我在只剩几个月的情况下，还继续从事这项研究工作？
-
-**Speaker 1 | 03:30 - 03:48**
-我总是想起据说是 Benjamin Franklin 说过的一句话——如果你想知道为什么有人做某件事，几乎总是两件事之一：习惯或虚荣。好的？我想那可能是真的。也许是习惯的缘故。
-
-**Speaker 1 | 03:48 - 03:55**
-只是继续做我一直在做的事，也许是虚荣。我不知道。我想更像是习惯，因为我当时快要死了。
-
-**Speaker 2 | 03:57 - 03:57**
-天意。
-
-**Speaker 1 | 03:57 - 04:06**
-是的。对我来说，保持非常坚定一直很容易。我可以在这个答案上说得更长。
-
-**Speaker 2 | 04:06 - 04:07**
-请继续。
-
-**Speaker 1 | 04:07 - 04:23**
-人们有时认为我的观点很激进。他们会在提问时说我的想法与其他人截然不同。但我完全不这么看。我认为我只是在用普通的方式思考。只是其他人思考的方式有点奇怪。
-
-**Speaker 1 | 04:26 - 04:57**
-我的意思是，就在近来，人们的思维方式变了。如果你回顾一下人们几十年来对思维的看法，甚至就是过去十年，你会发现那些认为学习很重要、你需要有目标、感知很重要的想法。我们是低层次的存在，我们以很快的速度产生行动并感知数据，但我们需要在更高层次上思考。你知道，再往前几年……
-
-**Speaker 1 | 04:57 - 05:15**
-在所有这些 AI 热潮出现之前，你根本不用说"持续学习"，因为说"非持续的学习"本身就没什么意义。所有学习都是持续的。你知道，它不是一个特殊阶段。我们行动，我们学习。这才是正常的思维方式。
-
-**Speaker 1 | 05:15 - 05:21**
-不是我奇怪。是这个领域奇怪了。他们觉得需要叫它"持续学习"。它就是学习而已。
-
-**Speaker 2 | 05:22 - 05:26**
-"不是我奇怪，是别人奇怪。"这是个很好的人生格言。
-
-**Speaker 3 | 05:26 - 05:36**
-我们得把这句话发出去。我们非常高兴你活下来了。这个领域很高兴你活下来了，感谢你推动了前沿发展。
-
-**Speaker 1 | 05:36 - 05:37**
-我真的很高兴。
-
-**Speaker 3 | 05:38 - 05:51**
-感谢你推动了前沿。我真的非常高兴，也感谢你所做的一切。你还能够教育很多推动前沿发展的学生。你是怎么挑选他们的？过去二三十年是怎么做的？
-
-**Speaker 1 | 05:51 - 06:13**
-哦，你在给我机会谦虚，我喜欢谦虚，指出这些伟大的决定只是碰巧发生的。我对学生就是这样感觉的。我觉得我并没有很好地挑选他们。我只是有时候运气好，有时候运气不好。我觉得我在挑选学生方面并不特别擅长。
-
-**Speaker 1 | 06:14 - 06:23**
-我现在看着 Khurram。我想有时候你会遇到真正出色的学生。David Silver 选择了我。我是怎么得到你的，Khurram？
-
-**Speaker 4（Khurram Javed）| 06:23 - 06:44**
-那也是……所以我完成了硕士，不是在你这里，我本来打算去工业界，然后我们在一个项目上合作，这个合作也是有机地开始的。我做了某件事，Rich 在一个会议上，他们提到我做了这件事，于是我被拉进来了。我们开始合作，进展非常顺利。
-
-**Speaker 4 | 06:44 - 07:08**
-我对这次合作感到非常开心。Rich 也对它感觉很好。然后六个月后，我们取得了一些进展，将其转化为论文提案就很有意义了。所以从来没有哪个时刻我申请了，从来没有哪个时刻我问过，你愿意做我的博士导师吗？我们合作了，然后我们决定这将是一个不错的论文，之后我才申请了博士。
-
-**Speaker 2 | 07:08 - 07:28**
-生活以出人意料的方式运作。让我们回到 2019 年。你写了《Bitter Lesson》，它已经成为现代的经典文本。2019 年是写这篇文章的一个有趣时刻，因为 ImageNet 是 2009 年，AlphaGo 是 2015 年。是什么促使你在 2019 年进行反思并写下它？
-
-**Speaker 2 | 07:28 - 07:35**
-因为那时候围绕大型语言模型的当前 scaling 范式还没有起飞，但深度学习已经真正证明了自己。
-
-**Speaker 1 | 07:36 - 08:09**
-嗯，这是很久以来一直在酝酿的。你知道，就像《Bitter Lesson》所表达的，这是你可以观察到的事情……
-
-*[以下为节目剩余核心内容概述]*
-
-Rich Sutton 进一步阐述了《Bitter Lesson》的核心——历史一再证明，依靠规模和通用搜索/学习算法的方法，总是优于将人类先验知识硬编码进系统的方法。他认为这一规律在 LLM 时代同样适用，但真正的下一步是让模型在部署后持续学习，而非仅靠静态权重运行。
-
-Khurram Javed 解释了"塑性丧失"问题——神经网络在训练后期会逐渐失去适应新信息的能力，就像一块用久的橡皮泥变硬了一样。Oak Lab 正在研究如何在不破坏已有知识的前提下，保持模型的持续可塑性。
-
-两人对 Oak Lab 的愿景是：构建能像人类一样边用边学的 AI 系统，每次交互都是真正的学习机会，而非仅仅是推理过程。这与当前 LLM 范式有本质区别，也代表了强化学习与深度学习融合的新前沿。
+He also observed that despite AGI hype, 98/100 cold emails are still "pure garbage" — leaving plenty of alpha for thoughtful outreach.
+他也犀利指出：AGI 热议满天飞，但 98% 的冷邮件依然毫无质量——这恰恰说明"有思考、有针对性地使用 AI"仍是巨大的差异化优势。
+https://x.com/nikunj/status/2090105846810476644
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+## Peter Steinberger (@steipete) · ClawFather
+
+Peter, the "Polyagentmorous ClawFather," teased something big in the works.
+Peter（自称 AI 领域的"ClawFather"）神秘地透露正在秘密打造某个令人期待的东西。
+
+*"Can't wait to show you all what we been cookin'!"*
+配图暗示一个新产品或功能即将发布，社区期待值拉满（625 赞）。
+https://x.com/steipete/status/2090162595257102731
+
+---
+
+## Dan Shipper (@danshipper) · Every
+
+Dan, CEO of Every, announced the launch of a **Frontier Team** — a dedicated group exploring the bleeding edge of AI.
+Every CEO Dan 宣布成立"Frontier Team"，专门负责探索和实验 AI 的最前沿，为 Every 旗下订阅用户持续输送最新洞察。
+
+*"we now have a frontier team! a group of people inside of every explicitly dedicated to mapping and experimenting at the edge of ai"*
+这一战略举措表明 Every 正在从内容公司向 AI 研究驱动的媒体机构进化。
+https://x.com/danshipper/status/2090122240025071907
+
+---
+
+## Aditya Agarwal (@adityaag) · SPC
+
+Aditya, General Partner at SPC, shared a powerful lesson from a founder conversation.
+SPC 普通合伙人 Aditya 分享了一位经历艰难 Series B 的 SaaS 创始人的顿悟时刻。
+
+*"Work on something consequential and meaningful."*
+那位创始人经历了低增长、停滞的公司困境后，得出的最大教训不是"选更大的市场"，而是做真正有意义的事。这一洞察对所有处于迷茫期的创业者都极具启发。
+https://x.com/adityaag/status/2090174782633566473
+
+He followed up clarifying what "making a dent in the universe" means in practice: work on things that truly matter.
+他进一步解释了"改变世界"的含义：不只是好产品或好商业模式，而是真正重要的事。
+https://x.com/adityaag/status/2090254727175115032
+
+---
+
+## Sam Altman (@sama) · OpenAI
+
+OpenAI CEO Sam Altman briefly signaled OpenAI's support for business privacy, linking to the new Private Safety Processing announcement.
+OpenAI CEO Sam Altman 简短地表态支持企业隐私保护，并链接至 OpenAI 当日发布的"私有安全处理"公告。
+
+*"we support business privacy!"*
+这条推文虽然简短，但配合 Thibault 的详细公告，释放出 OpenAI 将企业数据主权视为核心承诺的信号（3302 赞，157 转推）。
+https://x.com/sama/status/2090163991234453611
+
+---
+
+## 🎙️ Podcast: AI & I by Every
+
+**"The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)"**
+**《年入 400 万美元的 AI 陪伴应用：外星伴侣 App 的背后故事》**
+
+Dan Shipper's "AI & I" podcast features the founders of Portola — an embodied AI companion app generating $4M/year.
+Dan Shipper 主持的"AI & I"播客本期邀请了 Portola 的联合创始人，探讨这款年入 400 万美元的 AI 陪伴应用背后的产品哲学。
+
+*"These AI tools are not just tools for generating media. They are actually a new medium for storytelling."*
+这款产品（Tolan）颠覆了传统写作思维——
+
+*"I am not writing the story. The Tolan is the writer and the actor."*
+创作者的角色从"写故事的人"变成了"教 AI 如何即兴演绎故事的人"，这一范式转变对所有 AI 内容创作者都有深刻启示。
+
+Quentin（Portola CEO）曾创办 Even，以 3 亿美元出售给沃尔玛；本次播客深入探讨了 AI 角色扮演如何成为真正的情感陪伴，以及这一模式的商业潜力。
+
+🎧 https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
