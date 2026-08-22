@@ -1,248 +1,215 @@
-AI Builders 日报 · 2026-08-21
+AI Builders 日报 · 2026-08-22
 
 ---
 
 ## Swyx (@swyx)
 
-Swyx delivered a sharp, humorous critique of AI coverage by non-technical commentators.
-Swyx 幽默地嘲讽了那些缺乏技术背景的 AI 媒体人——他们无法理解 AI 的真正深度，却总能以"一切都很神奇"的视角浅尝辄止。
+Swyx is celebrating the AI Engineer community's growing reach, highlighting speaker Matt Pocock as the top viewed presenter in the show's history — his /grill-me session has reached all the way up to Satya Nadella.
+Swyx 正在庆祝 AI Engineer 社区不断扩大的影响力，特别提到演讲者 Matt Pocock 成为该节目历史上观看量最高的主讲人——他的 /grill-me 环节甚至传到了微软 CEO Satya Nadella 那里。
 
-*"non technical people are so incredibly cooked they are burnt thru"* — 这句话道出了他对 AI 领域内外认知鸿沟的感慨。
-https://x.com/swyx/status/2090314794456785263
+He's also proud of the latest Latent Space Podcast episode with @eisokant, exploring why NVIDIA paid $6B to acquire his company — a model factory producing competitive results against top-tier models.
+他还为最新一期《Latent Space Podcast》感到自豪，这期节目与 @eisokant 共同探讨了为何英伟达花 60 亿美元收购其公司——那是一个能够产出媲美顶级模型成果的"模型工厂"。
 
-He also flagged a positive take on usage-based billing (UBB) through the lens of OpenRouter.
-他还分享了一个关于"按使用量计费"模式的正面观点，以 OpenRouter 为例认为这一模式颇具潜力。
-https://x.com/swyx/status/2090259930662211615
-
----
-
-## Josh Woodward (@joshwoodward) · Google Labs / Gemini
-
-Google's VP of Labs announced a major global expansion of university student plans.
-Google Labs VP Josh Woodward 宣布学生计划正式向全球超过 140 个国家开放，带来更高使用上限、更多存储空间以及 Notebook、Flow 等新功能。
-
-*"University student plans are back! We've gone global with this one. Over 140 countries will get higher limits, more storage, and new features."*
-这一举措意味着 Gemini 正在加速全球化覆盖，尤其面向学生群体。
-https://x.com/joshwoodward/status/2090166806401228912
-
-He also shared a visual accompanying the announcement.
-他同时附上了相关公告的视觉素材。
-https://x.com/joshwoodward/status/2090166808213082234
+Source tweets:
+- https://x.com/swyx/status/2090550020496040266
+- https://x.com/swyx/status/2090577677916807429
+- https://x.com/swyx/status/2090678390575513991
 
 ---
 
-## Thibault Sottiaux (@thsottiaux) · OpenAI Codex
+## Boris Cherny (@bcherny)
 
-Thibault, working on Codex & ChatGPT at OpenAI, had a landmark day with multiple announcements.
-Thibault 在 OpenAI 的一天颇为充实，发布了多项重要进展。
+Boris (from Anthropic) teased a major upcoming enterprise product: customers will be able to own and fully control their own data with "Mythos-class" models, with Anthropic retaining none of it — rolling out this fall.
+Boris（来自 Anthropic）预告了一个即将推出的重大企业级产品：客户将能够完全掌控自己的数据，用于"Mythos 级别"模型推理，Anthropic 不保留任何数据——预计今秋推出。
 
-OpenAI previewed **Private Safety Processing** — keeping Zero Data Retention (ZDR) while still improving safety safeguards. Sensitive content stays on customer-controlled infrastructure.
-OpenAI 预览了"私有安全处理"功能，旨在同时保障零数据留存 (ZDR) 和前沿安全防护，敏感内容全程留在客户自控基础设施上，不做数据外传。
+He emphasized that enterprise-grade models require additional safety measures to meet companies' own privacy and compliance rules.
+他强调，企业级模型需要额外的安全措施，以满足企业自身的隐私和合规要求。
 
-*"Even when benefiting from frontier intelligence, customers shouldn't have to give up control of sensitive data."*
-https://x.com/thsottiaux/status/2090173536010957128
+Source tweet:
+- https://x.com/bcherny/status/2090537902912815536
 
-He also teased **Codex at scale** — a massive deployment hint with the tagline "It has not been used yet, but would you look at that."
-他还神秘地展示了"Codex at Scale"的暗示——一个尚未启用的大规模部署迹象，让 AI 编程圈为之期待。
-https://x.com/thsottiaux/status/2090116476414136830
+---
 
-And celebrated receiving what appears to be a special hardware item.
-还晒出了收到某件"重要物品"后的喜悦。
-https://x.com/thsottiaux/status/2090134827450421604
+## Thibault Sottiaux (@thsottiaux)
+
+Thibault (OpenAI) announced that GPT-Image-2 now supports transparent image generation — available in ChatGPT and via the API.
+Thibault（OpenAI）宣布 GPT-Image-2 现已支持透明图像生成，可在 ChatGPT 及 API 中使用。
+
+He also launched "ChatGPT Sites" — a feature for creating and sharing collaborative mini-sites directly from ChatGPT.
+他还推出了"ChatGPT Sites"功能——用户可以直接在 ChatGPT 中创建并分享协作式小网站。
+
+On a policy note, he clarified that Codex usage limits are not being secretly changed — but accounts flagged by fraud detection due to "sub2api" abuse (converting subscriptions into API traffic to share across users) may see different behavior.
+在政策层面，他澄清 Codex 的使用限制并没有被悄悄修改——但因"sub2api"滥用（将订阅转换成 API 流量分发给多人使用）而被欺诈检测系统标记的账号，可能会遭遇不同的限流体验。
+
+Source tweets:
+- https://x.com/thsottiaux/status/2090518287532916854
+- https://x.com/thsottiaux/status/2090631723302469995
+- https://x.com/thsottiaux/status/2090675027670978569
 
 ---
 
 ## Peter Yang (@petergyang)
 
-Peter wrote a deeply personal essay about his mother's battle with breast cancer and how they use AI to navigate the healthcare system.
-Peter 写下了一篇动人的个人文章，讲述母亲对抗乳腺癌的历程，以及他们如何借助 AI 在复杂的医疗体系中寻找方向。
+Peter Yang celebrated hitting 100K YouTube subscribers, with upcoming practical AI interviews lined up featuring experts on evals, vibe-coded apps turned real businesses, ChatGPT Finance, and Grok.
+Peter Yang 庆祝 YouTube 订阅量突破 10 万，并透露了即将上线的一系列实战 AI 访谈，嘉宾涵盖 eval 专家、成功商业化的 vibe-coding 应用创始人、ChatGPT Finance 产品负责人以及 Grok 团队成员。
 
-*"I wrote about my mom, her battles with breast cancer, and how we're using AI to navigate the healthcare system."*
-文章由 Sijbrandij Foundation 协助支持，体现了 AI 在医疗辅助决策上的真实价值。
-https://x.com/petergyang/status/2090087911471644829
+He shared a practical insight: AI output quality can be significantly improved by building a "manager agent loop" that prompts the worker agent with critiques like "Are you sure this is the best you can do?" to drive self-refinement.
+他还分享了一个实用洞见：通过构建"管理者 Agent 循环"，用"你确定这是你能做到的最好结果吗？"等批判性提示来驱动工作 Agent 自我改进，可以显著提升 AI 输出质量。
 
-He also explored the promise of mRNA vaccines for cancer treatment.
-他还探讨了 mRNA 疫苗用于癌症治疗的前景，并对 ChatGPT 在癌症临床试验信息上的局限性提出了疑问。
-https://x.com/petergyang/status/2090211023798321435
-
----
-
-## Madhu Guru (@realmadhuguru) · Meta AI
-
-Madhu, Sr. Director of AI at Meta, continued his series on building better evals with Part 3: **Failure Modes Taxonomy**.
-Meta AI 高级总监 Madhu 发布了其 Evals 系列第三篇：如何建立故障模式分类体系，是工程师提升模型评测质量的实操指南。
-
-*"Start with your production traces — study the last 500 or 1,000 interactions and look at the failures. Cluster them and name the clusters."*
-他强调："'bad answer' 不是一个有用的分类名称"——分类要具体，才能驱动改进。
-
-Key advice: build a failure taxonomy from production traces, not synthetic benchmarks.
-关键建议：从生产日志而非合成基准中归纳失败模式，聚焦真实场景。
-https://x.com/realmadhuguru/status/2090242427944833047
+Source tweets:
+- https://x.com/petergyang/status/2090564541499498919
+- https://x.com/petergyang/status/2090589731927282021
+- https://x.com/petergyang/status/2090660707968704888
 
 ---
 
-## Cat Wu (@_catwu) · Anthropic Cowork
+## Madhu Guru (@realmadhuguru)
 
-Cat, working on Claude Code + Cowork at Anthropic, is seeking feedback from Corporate Finance and Accounting professionals.
-Cat 所在的 Anthropic Cowork 团队正在招募企业财务与会计领域的用户，进行一对一使用反馈访谈，以持续改进产品。
+Madhu shared part 4 of her series on building great AI evals, focusing on "laddered eval strategies" that enterprises need for real production AI systems.
+Madhu 分享了她关于构建优质 AI eval 系列文章的第四篇，聚焦于企业在真实生产 AI 系统中所需的"阶梯式 eval 策略"。
 
-*"We'd love to talk with Cowork users in Corporate Finance and Accounting roles!"*
-这说明 Anthropic 正在将 Claude 的应用场景深入到企业核心业务部门。
-https://x.com/_catwu/status/2090249465844380154
+She outlined four key eval types: hill-climbing evals (pushing product quality frontiers), regression evals (ensuring you haven't broken existing functionality), smoke test evals (catching critical failures), and launch evals (close to real traffic, most realistic).
+她梳理了四种核心 eval 类型：爬坡 eval（推动产品质量边界）、回归 eval（确保未破坏现有功能）、冒烟测试 eval（捕捉关键故障）以及上线 eval（接近真实流量，最贴近实际）。
 
----
-
-## Thariq (@trq212) · Anthropic
-
-Thariq from Anthropic shared a bold thesis on the future of software creation.
-Thariq 对软件行业的未来发表了深刻洞见，认为软件生产天然就是不可靠的——而 AI 正在改变这一局面。
-
-*"for its entire existence, the creation of software has been an incredibly unreliable endeavor"*
-他指出，软件项目历来超期、超预算、且往往错失用户需求，而 AI 驱动的"软件工厂"有望改变这一现状。
-https://x.com/trq212/status/2090134945490678071
-
-He also drew a nuance: companies whose core is NOT software want reliability; but building net-new software products will always carry risk.
-但他也做了区分：非软件核心企业需要稳定可预测的软件流程，而真正的新软件产品开发依然充满不确定性——这种不确定性本身就是高回报的来源。
-https://x.com/trq212/status/2090134946598039646
-
-He praised an AI game he saw demoed last summer, now shipped.
-他还为一款他去年夏天就看过演示的 AI 游戏喝彩，认为它是首批真正利用 AI 能力解锁新游戏玩法的作品。
-https://x.com/trq212/status/2090182422415716414
+Source tweets:
+- https://x.com/realmadhuguru/status/2090595384905113939
+- https://x.com/realmadhuguru/status/2090635465120424067
 
 ---
 
-## Amjad Masad (@amasad) · Replit
+## Thariq (@trq212)
 
-Replit CEO Amjad announced a major **partnership with OpenAI**.
-Replit CEO Amjad 宣布与 OpenAI 达成重要合作——核心主张是：AI 降低了软件开发成本，却让"写代码"变得昂贵，这一合作旨在改变这一困局。
+Thariq announced new "Fable Safeguards" for enterprises — running on the customer's own infrastructure so companies maintain full control over where their data lives and who can access it.
+Thariq 宣布了面向企业的全新"Fable Safeguards"——运行在客户自己的基础设施上，让企业完全掌控数据存放位置和访问权限。
 
-*"Agents made software cheaper but made coding expensive. Today, together with @OpenAI, we're changing this."*
-这一合作信号强烈：Replit 正在与 OpenAI 深度整合，重新定义 AI 辅助编程的经济模型。
-https://x.com/amasad/status/2090079496124674377
+The feature has been co-developed with roughly 100 companies and is set for broader rollout in fall.
+该功能已与约 100 家公司共同开发打磨，预计今秋更大范围推出。
 
-https://x.com/amasad/status/2090104535112945906
-
----
-
-## Guillermo Rauch (@rauchg) · Vercel
-
-Vercel CEO Guillermo made a sweeping statement about the future of AI infrastructure.
-Vercel CEO Guillermo 对 AI 时代的基础设施做出了大胆预言。
-
-*"AI will make most infrastructure natively optimized."* — 他以 `fx`（一款 Zig 编译的 6.3MB 静态 ELF 二进制）为例，展示了 10 微秒启动时间的极致性能，断言"Fast is a one-way street"。
-这一论断暗示：AI 正在重塑底层基础设施的性能标准，速度优势将愈发决定竞争格局。
-https://x.com/rauchg/status/2090255740384751664
-
-He shared admiration for Vercel's Slack integration and stunning SF views.
-他还分享了对 Vercel Slack 集成的赞赏，以及旧金山令人窒息的城市风光。
-https://x.com/rauchg/status/2090174031203102813
-https://x.com/rauchg/status/2090119796784570872
+Source tweet:
+- https://x.com/trq212/status/2090569474139439335
 
 ---
 
-## Aaron Levie (@levie) · Box
+## Amjad Masad (@amasad)
 
-Box CEO Aaron weighed in on the expert vs. generalist debate in the AI era.
-Box CEO Aaron 就 AI 时代的"专家 vs. 通才"之争表达了鲜明立场：专家目前占据上风，且这一趋势未见放缓。
+Amjad announced a major partnership between Replit and OpenAI — a collaboration he describes as "long overdue," tracing back to a story where PG asked Sam Altman to recruit Replit before they even joined YC.
+Amjad 宣布了 Replit 与 OpenAI 的重大合作——他称这次合作"早就应该发生了"，并回溯了 YC 面试前 PG 就请 Sam Altman 接触 Replit 的往事。
 
-*"AI makes it 10X easier to get started with any kind of task... But having the right judgment for how to direct the agent... is still specialized work."*
-他认为，AI 降低了入门门槛，但方向判断、纠偏能力依然需要深度专业知识——专家的价值不是被取代，而是被放大。
-https://x.com/levie/status/2090278256306229675
+He's also highlighting Replit's new Free Mode, praising its speed and the fact that you can build a surprising amount without paying.
+他还重点推介了 Replit 全新的免费模式，称赞其速度之快，以及免费情况下能构建的内容之丰富令人惊喜。
 
-He also highlighted the Stripe + OpenRouter deal as an important step toward mixing and matching AI intelligence at scale.
-他还点评了 Stripe 与 OpenRouter 的合作，认为这是 AI 能力混搭与成本管理走向规模化的重要里程碑。
-https://x.com/levie/status/2090137914785280189
-
----
-
-## Matt Turck (@mattturck) · FirstMark Capital
-
-Matt delivered a pointed one-liner linking Moderna's mRNA cancer trials to AI labs' grand promises.
-FirstMark Capital VC Matt 用一句话道出了 AI 与医疗的交叉点：AI 实验室一直声称要"治愈癌症"，而 Moderna 的 mRNA 技术正在将这一愿景付诸实践。
-
-*"AI labs: give us billions, we'll cure cancer — Moderna: [link]"*
-这条推文以简洁犀利的方式，将 AI 行业宏大叙事与生物医疗的真实进展并置，引发广泛共鸣（936 赞）。
-https://x.com/mattturck/status/2090070949567574151
+Source tweets:
+- https://x.com/amasad/status/2090434587075793146
+- https://x.com/amasad/status/2090484698413740186
+- https://x.com/amasad/status/2090514571513708874
 
 ---
 
-## Nikunj Kothari (@nikunj) · FPV Ventures
+## Guillermo Rauch (@rauchg)
 
-Nikunj, seed/A-stage investor at FPV Ventures, shared two observations.
-FPV Ventures 种子轮投资人 Nikunj 分享了两个观察。
+Guillermo teased a new release (v0.0.5) that's gotten even smaller — fitting in 2 floppy disks when xz-compressed — with the most-requested feature shipping soon.
+Guillermo 预告了新版本（v0.0.5）的发布，压缩后体积进一步缩小——经 xz 压缩后仅需两张软盘大小——并宣布最受用户期待的功能即将上线。
 
-He built a home project: a 13.3" e-ink display rotating iconic patent drawings, powered by ESP32-S3 and Railway, battery-powered for ~3 months.
-他展示了一个家庭项目：用 13.3 英寸 Spectra 6 电子墨水屏循环展示经典专利图，由 ESP32-S3 和 Railway 驱动，电池续航约三个月——优雅的极客美学。
-https://x.com/nikunj/status/2090307104146112534
+He also framed Vercel's vision boldly: "We're building AWS for agents" — positioning Vercel as the foundational infrastructure layer for the agentic computing era.
+他还为 Vercel 的愿景做了大胆定位："我们正在打造 Agent 时代的 AWS"——将 Vercel 定位为智能体计算时代的核心基础设施层。
 
-He also observed that despite AGI hype, 98/100 cold emails are still "pure garbage" — leaving plenty of alpha for thoughtful outreach.
-他也犀利指出：AGI 热议满天飞，但 98% 的冷邮件依然毫无质量——这恰恰说明"有思考、有针对性地使用 AI"仍是巨大的差异化优势。
-https://x.com/nikunj/status/2090105846810476644
+He welcomed the Bun acquisition by Vercel, calling Bun's pursuit of "simple, fast & open" a perfect philosophical match.
+他对 Vercel 收购 Bun 表示欢迎，称 Bun 追求"简单、快速、开放"的理念与 Vercel 的世界观完美契合。
 
----
-
-## Peter Steinberger (@steipete) · ClawFather
-
-Peter, the "Polyagentmorous ClawFather," teased something big in the works.
-Peter（自称 AI 领域的"ClawFather"）神秘地透露正在秘密打造某个令人期待的东西。
-
-*"Can't wait to show you all what we been cookin'!"*
-配图暗示一个新产品或功能即将发布，社区期待值拉满（625 赞）。
-https://x.com/steipete/status/2090162595257102731
+Source tweets:
+- https://x.com/rauchg/status/2090470175674179695
+- https://x.com/rauchg/status/2090520415336845595
+- https://x.com/rauchg/status/2090600467592266240
 
 ---
 
-## Dan Shipper (@danshipper) · Every
+## Aaron Levie (@levie)
 
-Dan, CEO of Every, announced the launch of a **Frontier Team** — a dedicated group exploring the bleeding edge of AI.
-Every CEO Dan 宣布成立"Frontier Team"，专门负责探索和实验 AI 的最前沿，为 Every 旗下订阅用户持续输送最新洞察。
+Aaron highlighted a compelling post on "post-training for applied AI" — the practice of fine-tuning models specifically for vertical enterprise workflows to reduce cost and improve accuracy.
+Aaron 重点介绍了一篇关于"应用 AI 的后训练"的精彩文章——即针对垂直企业工作流对模型进行专项微调，以降低成本、提升准确率。
 
-*"we now have a frontier team! a group of people inside of every explicitly dedicated to mapping and experimenting at the edge of ai"*
-这一战略举措表明 Every 正在从内容公司向 AI 研究驱动的媒体机构进化。
-https://x.com/danshipper/status/2090122240025071907
+His key insight: once you have deep domain expertise and sufficient task volume, purpose-built models make enormous sense — especially when co-optimizing for cost and quality simultaneously.
+他的核心洞见是：一旦你积累了足够深厚的领域专业知识和足够大的任务量，为特定任务专门构建模型就非常合理——尤其是在同时优化成本与质量的场景下。
 
----
-
-## Aditya Agarwal (@adityaag) · SPC
-
-Aditya, General Partner at SPC, shared a powerful lesson from a founder conversation.
-SPC 普通合伙人 Aditya 分享了一位经历艰难 Series B 的 SaaS 创始人的顿悟时刻。
-
-*"Work on something consequential and meaningful."*
-那位创始人经历了低增长、停滞的公司困境后，得出的最大教训不是"选更大的市场"，而是做真正有意义的事。这一洞察对所有处于迷茫期的创业者都极具启发。
-https://x.com/adityaag/status/2090174782633566473
-
-He followed up clarifying what "making a dent in the universe" means in practice: work on things that truly matter.
-他进一步解释了"改变世界"的含义：不只是好产品或好商业模式，而是真正重要的事。
-https://x.com/adityaag/status/2090254727175115032
+Source tweet:
+- https://x.com/levie/status/2090664811185205722
 
 ---
 
-## Sam Altman (@sama) · OpenAI
+## Garry Tan (@garrytan)
 
-OpenAI CEO Sam Altman briefly signaled OpenAI's support for business privacy, linking to the new Private Safety Processing announcement.
-OpenAI CEO Sam Altman 简短地表态支持企业隐私保护，并链接至 OpenAI 当日发布的"私有安全处理"公告。
+Garry made a series of punchy statements positioning YC as the go-to accelerator for both AI researchers and consumer hardware founders — doubling down on YC's relevance at the frontier of the AI wave.
+Garry 发表了一系列简短有力的声明，将 YC 定位为 AI 研究者和消费硬件创始人的首选加速器——进一步强调 YC 在 AI 浪潮前沿的重要地位。
 
-*"we support business privacy!"*
-这条推文虽然简短，但配合 Thibault 的详细公告，释放出 OpenAI 将企业数据主权视为核心承诺的信号（3302 赞，157 转推）。
-https://x.com/sama/status/2090163991234453611
+He also flagged an interesting irony: a company violating the classic "dogfood your own product" principle — worth watching how that plays out.
+他还点出了一个有趣的悖论：某公司明显违背了"自己用自己的产品"这一经典原则——值得持续关注后续发展。
+
+Source tweets:
+- https://x.com/garrytan/status/2090469087722041567
+- https://x.com/garrytan/status/2090470082053050655
+- https://x.com/garrytan/status/2090471408996659339
 
 ---
 
-## 🎙️ Podcast: AI & I by Every
+## Zara Zhang (@zarazhangrui)
 
-**"The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)"**
-**《年入 400 万美元的 AI 陪伴应用：外星伴侣 App 的背后故事》**
+Zara shared a small but resonant moment: when she felt unmotivated, Claude offered her the reframe — "Motivation follows action more than it precedes it."
+Zara 分享了一个小而深刻的瞬间：在她感到缺乏动力时，Claude 给了她一句醍醐灌顶的话——"动力往往跟随行动而来，而非行动的前提。"
 
-Dan Shipper's "AI & I" podcast features the founders of Portola — an embodied AI companion app generating $4M/year.
-Dan Shipper 主持的"AI & I"播客本期邀请了 Portola 的联合创始人，探讨这款年入 400 万美元的 AI 陪伴应用背后的产品哲学。
+The quote stuck, and she's passing it along — a reminder that sometimes the best coaching comes from unexpected places.
+这句话深深打动了她，她将其传递出去——提醒我们，有时最好的指引来自意想不到的地方。
 
-*"These AI tools are not just tools for generating media. They are actually a new medium for storytelling."*
-这款产品（Tolan）颠覆了传统写作思维——
+Source tweet:
+- https://x.com/zarazhangrui/status/2090399357145317837
 
-*"I am not writing the story. The Tolan is the writer and the actor."*
-创作者的角色从"写故事的人"变成了"教 AI 如何即兴演绎故事的人"，这一范式转变对所有 AI 内容创作者都有深刻启示。
+---
 
-Quentin（Portola CEO）曾创办 Even，以 3 亿美元出售给沃尔玛；本次播客深入探讨了 AI 角色扮演如何成为真正的情感陪伴，以及这一模式的商业潜力。
+## Nikunj Kothari (@nikunj)
 
-🎧 https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Nikunj wrote a sharp breakdown on why ambition matters so much to venture investors — rooted in the math of mega-fund economics.
+Nikunj 深度剖析了为何"野心"对风投如此重要——背后是大型基金的数学逻辑在驱动。
+
+With companies like Anthropic, OpenAI, and SpaceX reaching trillion-dollar valuations, and Cursor hitting $60B in four years, LP money is flooding into mega-funds whose portfolio math demands every investment be underwritten to a potential trillion-dollar outcome — making the "error of omission" far more costly than the "error of admission."
+随着 Anthropic、OpenAI、SpaceX 相继达到万亿美元估值，Cursor 四年内达到 600 亿美元，LP 资金正涌入大型基金——这些基金的投资逻辑要求每一笔投资都必须锚定潜在的万亿级回报，这使得"错过好机会"的代价远大于"投错了"。
+
+Source tweet:
+- https://x.com/nikunj/status/2090585553947517298
+
+---
+
+## Aditya Agarwal (@adityaag)
+
+Aditya released a new episode of his "Minus One" podcast featuring Sridhar Ramaswamy (ex-Google Ads head, now leading Snowflake) — exploring lessons from Google's founders, the failure of Neeva, and Snowflake's enduring value in the AI era.
+Aditya 发布了新一期"Minus One"播客，嘉宾是 Sridhar Ramaswamy（前 Google 广告业务主管，现任 Snowflake CEO）——深入探讨了谷歌创始人的经验教训、Neeva 的失败反思以及 Snowflake 在 AI 时代的持续价值。
+
+His takeaway on the best founders: they are reductionists — cutting through complexity with clarity, honesty, and the ability to chart a path through murky waters.
+他对顶尖创始人的总结：他们是"减法主义者"——以清晰度、诚实和在迷雾中指引方向的能力，穿透一切复杂性。
+
+Source tweets:
+- https://x.com/adityaag/status/2090478527313252494
+- https://x.com/adityaag/status/2090478530513543631
+- https://x.com/adityaag/status/2090501112927223889
+
+---
+
+## Claude (@claudeai)
+
+The official Claude account opened up the floor with a simple but open question: "What are you building with Claude?" — inviting the community to share their projects.
+Claude 官方账号抛出了一个简单而开放的问题："你在用 Claude 构建什么？"——邀请社区分享各自的项目。
+
+Source tweet:
+- https://x.com/claudeai/status/2090557653294383151
+
+---
+
+## 🎙 Podcast: No Priors
+
+**From Restoring Sight to Reimagining the Brain, with Max Hodak**
+
+This episode of No Priors features Max Hodak — co-founder of Neuralink and founder of Science Corp — discussing his journey from brain-computer interfaces to his latest work restoring vision in blind patients using light-sensitive proteins (optogenetics), and his broader vision for reimagining what the brain can do.
+这期《No Priors》邀请了 Max Hodak——Neuralink 联合创始人、Science Corp 创始人——讲述他从脑机接口到最新研究的历程：通过光敏蛋白（光遗传学技术）让盲人患者恢复视力，以及他对重塑人脑潜能的宏大愿景。
+
+The conversation spans the ethics of brain enhancement, the hardware and biology challenges of neural interfaces, and what it truly means to push the frontier of human cognition in the age of AI.
+对话涵盖脑增强的伦理问题、神经接口的硬件与生物学挑战，以及在 AI 时代真正推动人类认知边界意味着什么。
+
+Source: https://www.youtube.com/watch?v=7HXqMepjvy8
