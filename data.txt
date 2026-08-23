@@ -1,215 +1,301 @@
-AI Builders 日报 · 2026-08-22
+AI Builders 日报 · 2026-08-23
 
 ---
 
 ## Swyx (@swyx)
 
-Swyx is celebrating the AI Engineer community's growing reach, highlighting speaker Matt Pocock as the top viewed presenter in the show's history — his /grill-me session has reached all the way up to Satya Nadella.
-Swyx 正在庆祝 AI Engineer 社区不断扩大的影响力，特别提到演讲者 Matt Pocock 成为该节目历史上观看量最高的主讲人——他的 /grill-me 环节甚至传到了微软 CEO Satya Nadella 那里。
+"Simulation is a new scaling law" — and Swyx says he went from shitposting about it to taking it very seriously midway through a conversation.
+"模拟是新的扩展定律"——Swyx 表示，在一次访谈途中，他从半开玩笑聊这个话题，变得极为认真起来。
 
-He's also proud of the latest Latent Space Podcast episode with @eisokant, exploring why NVIDIA paid $6B to acquire his company — a model factory producing competitive results against top-tier models.
-他还为最新一期《Latent Space Podcast》感到自豪，这期节目与 @eisokant 共同探讨了为何英伟达花 60 亿美元收购其公司——那是一个能够产出媲美顶级模型成果的"模型工厂"。
+He now understands why Karpathy, Fei-Fei Li, and others backed the Smallville team: once AI automates more of ML research and engineering, the last barrier is simulating humans and human feedback — and Simile is already finding product-market fit at Fortune 100 companies.
+他终于理解了为何 Karpathy、李飞飞等人当初支持 Smallville 团队：当 AI 逐渐自动化 ML 研究和 AI 工程的各个环节，最后一道屏障就是模拟人类和人类反馈——而 Simile 已经在《财富》100 强企业中找到了产品市场契合点。
 
-Source tweets:
-- https://x.com/swyx/status/2090550020496040266
-- https://x.com/swyx/status/2090577677916807429
-- https://x.com/swyx/status/2090678390575513991
+He's also teasing a second "Kill My SaaS" experiment, with results from the first coming next week.
+他还预告了第二个"Kill My SaaS"实验，第一期的结果将于下周公布。
 
----
-
-## Boris Cherny (@bcherny)
-
-Boris (from Anthropic) teased a major upcoming enterprise product: customers will be able to own and fully control their own data with "Mythos-class" models, with Anthropic retaining none of it — rolling out this fall.
-Boris（来自 Anthropic）预告了一个即将推出的重大企业级产品：客户将能够完全掌控自己的数据，用于"Mythos 级别"模型推理，Anthropic 不保留任何数据——预计今秋推出。
-
-He emphasized that enterprise-grade models require additional safety measures to meet companies' own privacy and compliance rules.
-他强调，企业级模型需要额外的安全措施，以满足企业自身的隐私和合规要求。
-
-Source tweet:
-- https://x.com/bcherny/status/2090537902912815536
+Sources:
+- https://x.com/swyx/status/2090948945753076141
+- https://x.com/swyx/status/2090908959590740033
+- https://x.com/swyx/status/2091000431996473688
 
 ---
 
-## Thibault Sottiaux (@thsottiaux)
+## Thibault Sottiaux (@thsottiaux) · OpenAI Codex
 
-Thibault (OpenAI) announced that GPT-Image-2 now supports transparent image generation — available in ChatGPT and via the API.
-Thibault（OpenAI）宣布 GPT-Image-2 现已支持透明图像生成，可在 ChatGPT 及 API 中使用。
+Thibault gave users a heads-up that some Codex users experienced worse cache hit rates this week, causing credits to drain faster than usual — the team is investigating.
+Thibault 提醒用户：本周部分 Codex 用户的缓存命中率有所下降，导致额度消耗加快，团队正在调查中。
 
-He also launched "ChatGPT Sites" — a feature for creating and sharing collaborative mini-sites directly from ChatGPT.
-他还推出了"ChatGPT Sites"功能——用户可以直接在 ChatGPT 中创建并分享协作式小网站。
+He also confirmed that the **banked reset** — a long-awaited feature for paid ChatGPT Work and Codex subscribers — landed on Friday by 8 PM PST.
+他还确认了广受期待的**配额重置功能**已于太平洋时间周五晚 8 点上线，面向所有付费的 ChatGPT Work 和 Codex 用户。
 
-On a policy note, he clarified that Codex usage limits are not being secretly changed — but accounts flagged by fraud detection due to "sub2api" abuse (converting subscriptions into API traffic to share across users) may see different behavior.
-在政策层面，他澄清 Codex 的使用限制并没有被悄悄修改——但因"sub2api"滥用（将订阅转换成 API 流量分发给多人使用）而被欺诈检测系统标记的账号，可能会遭遇不同的限流体验。
+*"The banked reset has landed, I repeat, the banked reset has landed. Have an amazing weekend."*
+"配额重置已落地，我再说一遍，配额重置已落地。祝大家周末愉快。"
 
-Source tweets:
-- https://x.com/thsottiaux/status/2090518287532916854
-- https://x.com/thsottiaux/status/2090631723302469995
-- https://x.com/thsottiaux/status/2090675027670978569
+Sources:
+- https://x.com/thsottiaux/status/2091033630147854385
+- https://x.com/thsottiaux/status/2090964822422949999
+- https://x.com/thsottiaux/status/2090947196107764189
 
 ---
 
 ## Peter Yang (@petergyang)
 
-Peter Yang celebrated hitting 100K YouTube subscribers, with upcoming practical AI interviews lined up featuring experts on evals, vibe-coded apps turned real businesses, ChatGPT Finance, and Grok.
-Peter Yang 庆祝 YouTube 订阅量突破 10 万，并透露了即将上线的一系列实战 AI 访谈，嘉宾涵盖 eval 专家、成功商业化的 vibe-coding 应用创始人、ChatGPT Finance 产品负责人以及 Grok 团队成员。
+Peter tested out the new AI assistant **Instinct** and came away with mixed feelings.
+Peter 试用了新 AI 助手 **Instinct**，感受喜忧参半。
 
-He shared a practical insight: AI output quality can be significantly improved by building a "manager agent loop" that prompts the worker agent with critiques like "Are you sure this is the best you can do?" to drive self-refinement.
-他还分享了一个实用洞见：通过构建"管理者 Agent 循环"，用"你确定这是你能做到的最好结果吗？"等批判性提示来驱动工作 Agent 自我改进，可以显著提升 AI 输出质量。
+He praised its smooth onboarding for iMessages, Google Workspace, and MCPs, and noted it feels more proactive than other assistants — but he can't see himself doing serious work in a single-thread UX.
+他称赞其 iMessages、Google Workspace 和 MCP 的顺畅接入流程，以及比其他助手更主动的交互体验——但他认为单线程 UX 让他无法用于正式工作。
 
-Source tweets:
-- https://x.com/petergyang/status/2090564541499498919
-- https://x.com/petergyang/status/2090589731927282021
-- https://x.com/petergyang/status/2090660707968704888
+He also flagged a privacy concern: Instinct indexes and retains emails without explicit permission and won't let users delete their data.
+他还指出了一个隐私隐患：Instinct 在未经明确授权的情况下索引并保留邮件内容，且不允许用户删除数据。
 
----
+*"Hey Instinct, it's not cool to index and retain my emails without my permission."*
+"嘿 Instinct，未经我允许就索引并保留我的邮件，这不太好吧。"
 
-## Madhu Guru (@realmadhuguru)
-
-Madhu shared part 4 of her series on building great AI evals, focusing on "laddered eval strategies" that enterprises need for real production AI systems.
-Madhu 分享了她关于构建优质 AI eval 系列文章的第四篇，聚焦于企业在真实生产 AI 系统中所需的"阶梯式 eval 策略"。
-
-She outlined four key eval types: hill-climbing evals (pushing product quality frontiers), regression evals (ensuring you haven't broken existing functionality), smoke test evals (catching critical failures), and launch evals (close to real traffic, most realistic).
-她梳理了四种核心 eval 类型：爬坡 eval（推动产品质量边界）、回归 eval（确保未破坏现有功能）、冒烟测试 eval（捕捉关键故障）以及上线 eval（接近真实流量，最贴近实际）。
-
-Source tweets:
-- https://x.com/realmadhuguru/status/2090595384905113939
-- https://x.com/realmadhuguru/status/2090635465120424067
+Sources:
+- https://x.com/petergyang/status/2090814910720835633
+- https://x.com/petergyang/status/2090936583814025417
 
 ---
 
-## Thariq (@trq212)
+## Madhu Guru (@realmadhuguru) · Google
 
-Thariq announced new "Fable Safeguards" for enterprises — running on the customer's own infrastructure so companies maintain full control over where their data lives and who can access it.
-Thariq 宣布了面向企业的全新"Fable Safeguards"——运行在客户自己的基础设施上，让企业完全掌控数据存放位置和访问权限。
+Madhu continued his "How to build great evals" series with Part 5, arguing against collapsing complex eval suites into a single score.
+Madhu 继续其"如何构建优质 Eval"系列，第五期聚焦于反对将复杂评测套件压缩成单一分数。
 
-The feature has been co-developed with roughly 100 companies and is set for broader rollout in fall.
-该功能已与约 100 家公司共同开发打磨，预计今秋更大范围推出。
+He calls it **the tyranny of the average**: a weighted composite score can mask real regressions on your most critical use cases.
+他将其称为**平均值的暴政**：加权综合分数可能掩盖在最关键用例上的真实退步。
 
-Source tweet:
-- https://x.com/trq212/status/2090569474139439335
+His advice: keep a prioritized eval list, get people who can engage with the details, and make holistic decisions — not math-dressed judgment calls.
+他的建议是：维护一份优先级排序的评测清单，找能深入细节的人来分析，做出全面判断，而非用数学外壳包装主观决策。
 
----
-
-## Amjad Masad (@amasad)
-
-Amjad announced a major partnership between Replit and OpenAI — a collaboration he describes as "long overdue," tracing back to a story where PG asked Sam Altman to recruit Replit before they even joined YC.
-Amjad 宣布了 Replit 与 OpenAI 的重大合作——他称这次合作"早就应该发生了"，并回溯了 YC 面试前 PG 就请 Sam Altman 接触 Replit 的往事。
-
-He's also highlighting Replit's new Free Mode, praising its speed and the fact that you can build a surprising amount without paying.
-他还重点推介了 Replit 全新的免费模式，称赞其速度之快，以及免费情况下能构建的内容之丰富令人惊喜。
-
-Source tweets:
-- https://x.com/amasad/status/2090434587075793146
-- https://x.com/amasad/status/2090484698413740186
-- https://x.com/amasad/status/2090514571513708874
+Sources:
+- https://x.com/realmadhuguru/status/2090930137885774324
 
 ---
 
-## Guillermo Rauch (@rauchg)
+## Thariq (@trq212) · Anthropic
 
-Guillermo teased a new release (v0.0.5) that's gotten even smaller — fitting in 2 floppy disks when xz-compressed — with the most-requested feature shipping soon.
-Guillermo 预告了新版本（v0.0.5）的发布，压缩后体积进一步缩小——经 xz 压缩后仅需两张软盘大小——并宣布最受用户期待的功能即将上线。
+Thariq shared an internal Anthropic productivity trick: the **ELI5 slash command** for Claude Code.
+Thariq 分享了 Anthropic 内部的生产力小技巧：Claude Code 的 **/eli5 斜杠命令**。
 
-He also framed Vercel's vision boldly: "We're building AWS for agents" — positioning Vercel as the foundational infrastructure layer for the agentic computing era.
-他还为 Vercel 的愿景做了大胆定位："我们正在打造 Agent 时代的 AWS"——将 Vercel 定位为智能体计算时代的核心基础设施层。
+Type `/eli5 <topic>` and Claude explains it "like you know nothing about it," rendered as an HTML artifact with big pictures and few words.
+输入 `/eli5 <主题>`，Claude 会以"完全不了解该话题的人"的视角解释，并渲染为图文并茂、文字精简的 HTML 产物。
 
-He welcomed the Bun acquisition by Vercel, calling Bun's pursuit of "simple, fast & open" a perfect philosophical match.
-他对 Vercel 收购 Bun 表示欢迎，称 Bun 追求"简单、快速、开放"的理念与 Vercel 的世界观完美契合。
+*"a skill people at Anthropic have been using a lot recently: ELI5"*
+"这是 Anthropic 内部最近大量使用的一个技能：ELI5"
 
-Source tweets:
-- https://x.com/rauchg/status/2090470175674179695
-- https://x.com/rauchg/status/2090520415336845595
-- https://x.com/rauchg/status/2090600467592266240
+The plugin can be installed via the Claude community marketplace: `claude plugin install eli5@claude-community`.
+该插件可通过 Claude 社区插件市场安装：`claude plugin install eli5@claude-community`。
 
----
-
-## Aaron Levie (@levie)
-
-Aaron highlighted a compelling post on "post-training for applied AI" — the practice of fine-tuning models specifically for vertical enterprise workflows to reduce cost and improve accuracy.
-Aaron 重点介绍了一篇关于"应用 AI 的后训练"的精彩文章——即针对垂直企业工作流对模型进行专项微调，以降低成本、提升准确率。
-
-His key insight: once you have deep domain expertise and sufficient task volume, purpose-built models make enormous sense — especially when co-optimizing for cost and quality simultaneously.
-他的核心洞见是：一旦你积累了足够深厚的领域专业知识和足够大的任务量，为特定任务专门构建模型就非常合理——尤其是在同时优化成本与质量的场景下。
-
-Source tweet:
-- https://x.com/levie/status/2090664811185205722
+Sources:
+- https://x.com/trq212/status/2090884854590382515
+- https://x.com/trq212/status/2090884855798407576
+- https://x.com/trq212/status/2090890394880155888
 
 ---
 
-## Garry Tan (@garrytan)
+## Amjad Masad (@amasad) · Replit
 
-Garry made a series of punchy statements positioning YC as the go-to accelerator for both AI researchers and consumer hardware founders — doubling down on YC's relevance at the frontier of the AI wave.
-Garry 发表了一系列简短有力的声明，将 YC 定位为 AI 研究者和消费硬件创始人的首选加速器——进一步强调 YC 在 AI 浪潮前沿的重要地位。
+Amjad highlighted that you can now make real money directly from your phone using Replit.
+Amjad 强调现在可以直接用手机通过 Replit 赚钱。
 
-He also flagged an interesting irony: a company violating the classic "dogfood your own product" principle — worth watching how that plays out.
-他还点出了一个有趣的悖论：某公司明显违背了"自己用自己的产品"这一经典原则——值得持续关注后续发展。
+*"You can just make money from your phone!"*
+"你就可以直接用手机赚钱！"
 
-Source tweets:
-- https://x.com/garrytan/status/2090469087722041567
-- https://x.com/garrytan/status/2090470082053050655
-- https://x.com/garrytan/status/2090471408996659339
+Short on text, heavy on excitement — fitting for a builder who believes the future of software creation is mobile-first and accessible to everyone.
+推文内容简短，但充满激情——与他认为软件创作的未来属于移动优先、人人可及的理念十分契合。
+
+Sources:
+- https://x.com/amasad/status/2090845035537522925
+- https://x.com/amasad/status/2090846057408483668
+- https://x.com/amasad/status/2090922626890031428
+
+---
+
+## Guillermo Rauch (@rauchg) · Vercel
+
+Guillermo announced that v0 (Vercel's AI coding tool) now supports **Grok and Codex subscriptions** — users can bring their own subs.
+Guillermo 宣布 Vercel 的 AI 编程工具 v0 现已支持 **Grok 和 Codex 订阅**——用户可携带自己的订阅使用。
+
+He also shared a fascinating dogfooding story: they ran `is-agentic` in a loop against their own scoring benchmark until it hit 100/100, using the process to close real product gaps.
+他还分享了一个有趣的内部测试故事：他们将 `is-agentic` 循环跑在自家评分基准上，直至达到 100/100，借此发现并填补了真实的产品漏洞。
+
+The Python team at Vercel is also making rapid progress.
+Vercel 的 Python 团队也在高速推进中。
+
+Sources:
+- https://x.com/rauchg/status/2090953806624489501
+- https://x.com/rauchg/status/2090858571613470919
+- https://x.com/rauchg/status/2090856968407978031
+
+---
+
+## Aaron Levie (@levie) · Box
+
+Aaron made a sweeping observation about the current AI moment: models are getting cheaper, more capable, faster, and deeper across every domain simultaneously — a pace unlike anything in tech history.
+Aaron 对当前 AI 时代做出了一个宏观判断：模型正在同时变得更便宜、更强大、更快速、覆盖更多领域——这是科技史上前所未有的速度。
+
+*"As intelligence becomes too cheap to meter, then the big opportunity is driving diffusion of AI into the economy."*
+"当智能便宜到无需计量，最大的机会就在于推动 AI 向整个经济体扩散。"
+
+He sees this as a golden window for applied AI startups, which benefit from fierce model competition as a tailwind.
+他认为这是应用 AI 初创公司的黄金窗口，激烈的模型竞争正成为这些公司顺风而行的助力。
+
+Sources:
+- https://x.com/levie/status/2091038566260539574
+
+---
+
+## Garry Tan (@garrytan) · Y Combinator
+
+Garry was in culture commentary mode this weekend, calling out what he sees as a "luxury belief industrial complex" still alive and well.
+Garry 本周末进入文化评论模式，直言他眼中"奢侈观念工业综合体"依然盛行。
+
+He also flagged what he describes as Asian American erasure, with a UC Berkeley CS professor as a case example.
+他还指出了他所称的亚裔美国人被抹去的现象，并以一位加州大学伯克利分校计算机科学教授为例。
+
+Sources:
+- https://x.com/garrytan/status/2090889728719777952
+- https://x.com/garrytan/status/2090801607894344047
+- https://x.com/garrytan/status/2090797527222439998
+
+---
+
+## Matt Turck (@mattturck) · FirstMark Capital
+
+Matt kept it light this weekend with a meme about the VC experience of watching a company they passed on at seed raise another huge round.
+Matt 本周末以轻松的方式分享了一个梗：VC 眼睁睁看着当初在种子轮放弃的公司又完成了一轮大融资。
+
+Sources:
+- https://x.com/mattturck/status/2090870362007281984
 
 ---
 
 ## Zara Zhang (@zarazhangrui)
 
-Zara shared a small but resonant moment: when she felt unmotivated, Claude offered her the reframe — "Motivation follows action more than it precedes it."
-Zara 分享了一个小而深刻的瞬间：在她感到缺乏动力时，Claude 给了她一句醍醐灌顶的话——"动力往往跟随行动而来，而非行动的前提。"
+Zara distilled a builder's mantra in three lines: show up every day, always be launching, and don't be afraid to repeat yourself.
+Zara 用三行话提炼了一个创业者的信条：每天出现，持续发布，不要害怕重复自己。
 
-The quote stuck, and she's passing it along — a reminder that sometimes the best coaching comes from unexpected places.
-这句话深深打动了她，她将其传递出去——提醒我们，有时最好的指引来自意想不到的地方。
+*"Show up every day. Always be launching. And don't be afraid of repeating yourself, over and over and over again."*
+"每天坚持出现。始终保持发布。不要害怕一遍又一遍地重复自己。"
 
-Source tweet:
-- https://x.com/zarazhangrui/status/2090399357145317837
+Sources:
+- https://x.com/zarazhangrui/status/2090702627206214081
 
 ---
 
 ## Nikunj Kothari (@nikunj)
 
-Nikunj wrote a sharp breakdown on why ambition matters so much to venture investors — rooted in the math of mega-fund economics.
-Nikunj 深度剖析了为何"野心"对风投如此重要——背后是大型基金的数学逻辑在驱动。
+Nikunj shared a delightful real-world AI use case: his daughter just started kindergarten, and her school's meal schedule was buried in unstructured data on a random website.
+Nikunj 分享了一个温馨的 AI 实际应用案例：女儿刚上幼儿园，学校的每日餐单藏在一个随机网站的非结构化数据里。
 
-With companies like Anthropic, OpenAI, and SpaceX reaching trillion-dollar valuations, and Cursor hitting $60B in four years, LP money is flooding into mega-funds whose portfolio math demands every investment be underwritten to a potential trillion-dollar outcome — making the "error of omission" far more costly than the "error of admission."
-随着 Anthropic、OpenAI、SpaceX 相继达到万亿美元估值，Cursor 四年内达到 600 亿美元，LP 资金正涌入大型基金——这些基金的投资逻辑要求每一笔投资都必须锚定潜在的万亿级回报，这使得"错过好机会"的代价远大于"投错了"。
+He asked Claude Code to find the unauthenticated API through network requests, parse the format, and pipe it into their home bot — now every morning it tells the family what's for breakfast and lunch.
+他让 Claude Code 通过网络请求找到未经认证的 API，解析数据格式后接入家庭机器人——现在每天早上家人都能得知当天的早餐和午餐菜单。
 
-Source tweet:
-- https://x.com/nikunj/status/2090585553947517298
+He's also teasing a new podcast episode dropping next week with @toddsaunders.
+他还预告了下周与 @toddsaunders 合录的新播客节目。
 
----
-
-## Aditya Agarwal (@adityaag)
-
-Aditya released a new episode of his "Minus One" podcast featuring Sridhar Ramaswamy (ex-Google Ads head, now leading Snowflake) — exploring lessons from Google's founders, the failure of Neeva, and Snowflake's enduring value in the AI era.
-Aditya 发布了新一期"Minus One"播客，嘉宾是 Sridhar Ramaswamy（前 Google 广告业务主管，现任 Snowflake CEO）——深入探讨了谷歌创始人的经验教训、Neeva 的失败反思以及 Snowflake 在 AI 时代的持续价值。
-
-His takeaway on the best founders: they are reductionists — cutting through complexity with clarity, honesty, and the ability to chart a path through murky waters.
-他对顶尖创始人的总结：他们是"减法主义者"——以清晰度、诚实和在迷雾中指引方向的能力，穿透一切复杂性。
-
-Source tweets:
-- https://x.com/adityaag/status/2090478527313252494
-- https://x.com/adityaag/status/2090478530513543631
-- https://x.com/adityaag/status/2090501112927223889
+Sources:
+- https://x.com/nikunj/status/2090884422178627624
+- https://x.com/nikunj/status/2090859831964152283
 
 ---
 
-## Claude (@claudeai)
+## Peter Steinberger (@steipete)
 
-The official Claude account opened up the floor with a simple but open question: "What are you building with Claude?" — inviting the community to share their projects.
-Claude 官方账号抛出了一个简单而开放的问题："你在用 Claude 构建什么？"——邀请社区分享各自的项目。
+Peter spoke at the **Agentic AI Summit in Berkeley**, delivering a talk titled *"No Doors for Agents"* — on the barriers that still block AI agents from acting freely in the world.
+Peter 在**伯克利 Agentic AI 峰会**上发表了题为《无门之墙：代理的障碍》的演讲，探讨仍然阻止 AI 代理在世界中自由行动的种种壁垒。
 
-Source tweet:
-- https://x.com/claudeai/status/2090557653294383151
+He's also dropping a new skill, though kept the details mysterious with a simple "brb."
+他还透露即将发布一个新技能，但仅以一句"brb"卖了个关子。
+
+Sources:
+- https://x.com/steipete/status/2090898421108605078
+- https://x.com/steipete/status/2090946181564440727
 
 ---
 
-## 🎙 Podcast: No Priors
+## Dan Shipper (@danshipper) · Every
 
-**From Restoring Sight to Reimagining the Brain, with Max Hodak**
+Dan posted a brief but enthusiastic "gang gang" — short on words but presumably pointing at something exciting in the Every ecosystem.
+Dan 发布了一条简短但热情的"gang gang"——话不多，但似乎在暗示 Every 生态里有什么令人兴奋的事情即将到来。
 
-This episode of No Priors features Max Hodak — co-founder of Neuralink and founder of Science Corp — discussing his journey from brain-computer interfaces to his latest work restoring vision in blind patients using light-sensitive proteins (optogenetics), and his broader vision for reimagining what the brain can do.
-这期《No Priors》邀请了 Max Hodak——Neuralink 联合创始人、Science Corp 创始人——讲述他从脑机接口到最新研究的历程：通过光敏蛋白（光遗传学技术）让盲人患者恢复视力，以及他对重塑人脑潜能的宏大愿景。
+Sources:
+- https://x.com/danshipper/status/2090860697504653480
 
-The conversation spans the ethics of brain enhancement, the hardware and biology challenges of neural interfaces, and what it truly means to push the frontier of human cognition in the age of AI.
-对话涵盖脑增强的伦理问题、神经接口的硬件与生物学挑战，以及在 AI 时代真正推动人类认知边界意味着什么。
+---
 
-Source: https://www.youtube.com/watch?v=7HXqMepjvy8
+## Aditya Agarwal (@adityaag) · South Park Commons
+
+Aditya shared a full episode from South Park Commons featuring @RamaswmySridhar, focused on the frontier model race.
+Aditya 分享了 South Park Commons 与 @RamaswmySridhar 的完整播客节目，聚焦前沿模型竞争。
+
+*"The frontier model race is just getting started."*
+"前沿模型的竞赛才刚刚开始。"
+
+Sources:
+- https://x.com/adityaag/status/2090814576270975265
+- https://x.com/adityaag/status/2090814574400307585
+
+---
+
+## Claude AI (@claudeai) · Anthropic
+
+Anthropic announced **Claude Security**, a new capability that points Claude (running Mythos 5) at a GitHub repo to scan for vulnerabilities — tracing data across files and reasoning about component interactions.
+Anthropic 宣布推出 **Claude Security**：将 Claude（运行 Mythos 5 模型）指向 GitHub 仓库，扫描漏洞——跨文件追踪数据流，并推理组件间的交互关系。
+
+Each finding comes with a CWE category, confidence and severity ratings, and a suggested patch that opens directly in Claude Code on the web.
+每条发现都附带 CWE 类别、置信度与严重性评级，以及可直接在网页版 Claude Code 中打开的修复建议。
+
+To accelerate adoption: a **$35M Defender Advantage Fund** provides credits for open-source security projects, and the Cyber Verification Program is expanding.
+为加速推广：Anthropic 还设立了 **3500 万美元 Defender Advantage 基金**，为开源安全项目提供额度支持，并将扩展其网络安全验证计划。
+
+Sources:
+- https://x.com/claudeai/status/2090852316328902930
+- https://x.com/claudeai/status/2090852318527033804
+- https://x.com/claudeai/status/2090852320128938319
+
+---
+
+## 🎙️ Podcast: No Priors — "What Chess.com Teaches Us About Superhuman Capabilities"
+
+Source: https://www.youtube.com/@NoPriorsPodcast
+Published: 2026-08-13
+
+---
+
+### 一、深度总结
+
+**核心论点**
+
+Chess.com CEO Erik Allebest built the world's dominant chess platform without VC funding, growing from a $56,000 domain purchase to 250M members and $200M/year in revenue. The episode explores what Chess.com's experience — thriving despite computers surpassing humans at chess 30 years ago — can teach us about the future of human skills in an age of AI.
+
+**关键洞察**
+
+- **超人能力不会杀死游戏，反而能激活它。** 计算机早在1997年就超越了最顶尖的人类棋手，但国际象棋的参与度反而大幅增长。人们并不只是为了"赢"而玩——他们为了自我提升、社区归属感和竞技认同而玩。
+- **评级系统创造了人机共存的意义框架。** Chess.com 正在将"棋类评级"模型复制到扑克领域，核心洞察是：当人们有了可信的技能度量，他们会比金钱本身更在意自己的评级。
+- **增长可以不依赖融资。** Erik 在被所有 VC 拒绝后，凭借自有资金和会员订阅收入以"现金速度"增长，从未再考虑融资。这一路径稀有但有效。
+- **病毒式文化事件可以重置增长基线。** Queen's Gambit、Magnus Carlsen 的作弊丑闻、短视频内容浪潮——每次都带来一波新用户，且每次潮水退去后，留存基线都比之前更高。
+- **"十亿人下棋"不是口号，而是战略。** 如果 2.5 亿注册用户中只有 1/25 每天活跃，这既说明保留问题，也说明尚未开发的巨大潜力——Erik 的雄心已从"做好一个棋类网站"演变为"让国际象棋成为全球基础技能"。
+
+---
+
+### 二、Bilingual Summary
+
+Chess.com CEO Erik Allebest bought the chess.com domain for $56,000 in a 2005 bankruptcy auction after VCs told him it was "uninvestable."
+Chess.com CEO Erik Allebest 于 2005 年以 5.6 万美元在一次破产拍卖中购得 chess.com 域名，此前所有 VC 都告诉他这"不值得投资"。
+
+Two decades later, the platform has 250 million registered members, 10 million daily active users, and over $200M in annual revenue — all bootstrapped.
+二十年后，该平台拥有 2.5 亿注册用户、1000 万日活用户，年收入超 2 亿美元——全程自力更生，未融一分钱。
+
+The central lesson: computers have outplayed humans at chess for 30 years, yet chess is more popular than ever.
+核心启示：计算机在国际象棋上超越人类已有 30 年，但国际象棋从未像今天这样受欢迎。
+
+Superhuman AI doesn't kill human engagement — it reframes what humans are competing for: skill, identity, and community.
+超人 AI 并不会扼杀人类的参与热情——它重新定义了人类竞争的意义：技能、身份认同和社区归属。
+
+Chess.com is now applying this playbook to poker, building rating systems that make players care more about their skill rating than the money on the table.
+Chess.com 正将这套方法论移植到扑克领域，构建让玩家比在意桌上筹码更在意自身技能评级的评分系统。
+
+Source: https://www.youtube.com/@NoPriorsPodcast
