@@ -1,301 +1,131 @@
-AI Builders 日报 · 2026-08-23
+AI Builders 日报 · 2026-08-24
 
 ---
 
-## Swyx (@swyx)
+**Thibault Sottiaux** (@thsottiaux)
 
-"Simulation is a new scaling law" — and Swyx says he went from shitposting about it to taking it very seriously midway through a conversation.
-"模拟是新的扩展定律"——Swyx 表示，在一次访谈途中，他从半开玩笑聊这个话题，变得极为认真起来。
+Update on rate limits in Codex: the team has found inefficiencies when using images in long sessions with multiple compactions, as well as high p95+ usage patterns.
+Codex 限流更新：团队发现在长会话中多次压缩时使用图片存在效率问题，同时 p95+ 使用量偏高，正在持续优化。
 
-He now understands why Karpathy, Fei-Fei Li, and others backed the Smallville team: once AI automates more of ML research and engineering, the last barrier is simulating humans and human feedback — and Simile is already finding product-market fit at Fortune 100 companies.
-他终于理解了为何 Karpathy、李飞飞等人当初支持 Smallville 团队：当 AI 逐渐自动化 ML 研究和 AI 工程的各个环节，最后一道屏障就是模拟人类和人类反馈——而 Simile 已经在《财富》100 强企业中找到了产品市场契合点。
+Source: https://x.com/thsottiaux/status/2091407991736332689
 
-He's also teasing a second "Kill My SaaS" experiment, with results from the first coming next week.
-他还预告了第二个"Kill My SaaS"实验，第一期的结果将于下周公布。
+---
+
+**Peter Yang** (@petergyang)
+
+Peter is raising privacy awareness, sharing a tip to review and delete external data (like Gmail records) via Google's data privacy settings — and pointing out that they've added a delete option.
+Peter 在倡导隐私保护，分享了通过 Google 数据隐私设置查看并删除外部数据（如 Gmail 记录）的方法，并肯定了 Google 新增删除功能的举措。
+
+He's building a new AI tool called `/fuck-cancer` — a bold project aimed at helping patients and families navigate the cancer journey and stay informed.
+他正在开发一个名为 `/fuck-cancer` 的全新 AI 工具，目标是帮助癌症患者及其家属梳理就医流程、获取准确信息，立意深刻。
+
+He also shared a privacy tip for Chrome users: run a specific prompt in Codex or Claude Code with an open browser tab to audit your privacy settings.
+他还为 Chrome 用户分享了隐私检测技巧：打开一个标签页后，用 Codex 或 Claude Code 运行专属提示词来审计隐私设置。
 
 Sources:
-- https://x.com/swyx/status/2090948945753076141
-- https://x.com/swyx/status/2090908959590740033
-- https://x.com/swyx/status/2091000431996473688
+- https://x.com/petergyang/status/2091331251211059468
+- https://x.com/petergyang/status/2091239339204415969
+- https://x.com/petergyang/status/2091187611507499321
 
 ---
 
-## Thibault Sottiaux (@thsottiaux) · OpenAI Codex
+**Madhu Guru** (@realmadhuguru)
 
-Thibault gave users a heads-up that some Codex users experienced worse cache hit rates this week, causing credits to drain faster than usual — the team is investigating.
-Thibault 提醒用户：本周部分 Codex 用户的缓存命中率有所下降，导致额度消耗加快，团队正在调查中。
+Madhu continues his deep-dive series on building great evals — Part 6 focuses on "hill climbing on evals," which is essentially picking one dimension that matters and systematically optimizing for it.
+Madhu 继续他的 Evals 深度系列——第六篇聚焦"爬山优化评估"，本质就是选定一个关键维度，持续系统地优化它。
 
-He also confirmed that the **banked reset** — a long-awaited feature for paid ChatGPT Work and Codex subscribers — landed on Friday by 8 PM PST.
-他还确认了广受期待的**配额重置功能**已于太平洋时间周五晚 8 点上线，面向所有付费的 ChatGPT Work 和 Codex 用户。
-
-*"The banked reset has landed, I repeat, the banked reset has landed. Have an amazing weekend."*
-"配额重置已落地，我再说一遍，配额重置已落地。祝大家周末愉快。"
+He shared a multi-part thread on evaluation strategies, covering practical approaches across six installments.
+他发布了一个多部分的线程，分六期分享评估策略的实操方法，内容详尽。
 
 Sources:
-- https://x.com/thsottiaux/status/2091033630147854385
-- https://x.com/thsottiaux/status/2090964822422949999
-- https://x.com/thsottiaux/status/2090947196107764189
+- https://x.com/realmadhuguru/status/2091278899711967441
+- https://x.com/realmadhuguru/status/2091278653435072523
 
 ---
 
-## Peter Yang (@petergyang)
+**Amjad Masad** (@amasad)
 
-Peter tested out the new AI assistant **Instinct** and came away with mixed feelings.
-Peter 试用了新 AI 助手 **Instinct**，感受喜忧参半。
+Amjad is shipping fast — "a week has 7 days, that means 7 ships." Classic Replit founder energy.
+Amjad 依然保持高频发布节奏——"一周有 7 天，那就意味着 7 次发布"，完全 Replit 创始人的作风。
 
-He praised its smooth onboarding for iMessages, Google Workspace, and MCPs, and noted it feels more proactive than other assistants — but he can't see himself doing serious work in a single-thread UX.
-他称赞其 iMessages、Google Workspace 和 MCP 的顺畅接入流程，以及比其他助手更主动的交互体验——但他认为单线程 UX 让他无法用于正式工作。
-
-He also flagged a privacy concern: Instinct indexes and retains emails without explicit permission and won't let users delete their data.
-他还指出了一个隐私隐患：Instinct 在未经明确授权的情况下索引并保留邮件内容，且不允许用户删除数据。
-
-*"Hey Instinct, it's not cool to index and retain my emails without my permission."*
-"嘿 Instinct，未经我允许就索引并保留我的邮件，这不太好吧。"
+He also reflected on a prediction that "pretty soon" ended up taking three months — a humbling note on timelines in AI.
+他还回顾了一个预测：所谓的"很快"最终花了三个月——对 AI 领域时间线的一次自嘲式反思。
 
 Sources:
-- https://x.com/petergyang/status/2090814910720835633
-- https://x.com/petergyang/status/2090936583814025417
+- https://x.com/amasad/status/2091346778746757204
+- https://x.com/amasad/status/2091217410615644349
 
 ---
 
-## Madhu Guru (@realmadhuguru) · Google
+**Guillermo Rauch** (@rauchg)
 
-Madhu continued his "How to build great evals" series with Part 5, arguing against collapsing complex eval suites into a single score.
-Madhu 继续其"如何构建优质 Eval"系列，第五期聚焦于反对将复杂评测套件压缩成单一分数。
+Guillermo is waxing poetic about the physical world — AI can do many wonderful things, but there is only one Earth, one California, one Patagonia, one Mendoza.
+Guillermo 感慨现实世界的不可复制性——AI 能成就许多奇迹，但地球只有一个，加州、巴塔哥尼亚、门多萨都是独一无二的。
 
-He calls it **the tyranny of the average**: a weighted composite score can mask real regressions on your most critical use cases.
-他将其称为**平均值的暴政**：加权综合分数可能掩盖在最关键用例上的真实退步。
-
-His advice: keep a prioritized eval list, get people who can engage with the details, and make holistic decisions — not math-dressed judgment calls.
-他的建议是：维护一份优先级排序的评测清单，找能深入细节的人来分析，做出全面判断，而非用数学外壳包装主观决策。
+He also called out San Francisco as a "paradise on Earth" and dropped a teaser directed at Windows.
+他称旧金山是"地球上的天堂"，还针对 Windows 发了一条耐人寻味的暗示。
 
 Sources:
-- https://x.com/realmadhuguru/status/2090930137885774324
+- https://x.com/rauchg/status/2091338152791474331
+- https://x.com/rauchg/status/2091265836719956474
+- https://x.com/rauchg/status/2091263423359389951
 
 ---
 
-## Thariq (@trq212) · Anthropic
+**Aaron Levie** (@levie)
 
-Thariq shared an internal Anthropic productivity trick: the **ELI5 slash command** for Claude Code.
-Thariq 分享了 Anthropic 内部的生产力小技巧：Claude Code 的 **/eli5 斜杠命令**。
+Aaron makes a sharp point: AI diffusion is far more rate-limited by the lack of good evals than most people realize. The evals used for model releases are incredibly unhelpful for real-world deployment decisions.
+Aaron 提出了一个犀利观点：AI 扩散的速度远比人们意识到的更受制于"优质评估体系"的缺失，模型发布时用的那些 evals 对实际落地决策几乎没有帮助。
 
-Type `/eli5 <topic>` and Claude explains it "like you know nothing about it," rendered as an HTML artifact with big pictures and few words.
-输入 `/eli5 <主题>`，Claude 会以"完全不了解该话题的人"的视角解释，并渲染为图文并茂、文字精简的 HTML 产物。
+Source: https://x.com/levie/status/2091359223368315050
 
-*"a skill people at Anthropic have been using a lot recently: ELI5"*
-"这是 Anthropic 内部最近大量使用的一个技能：ELI5"
+---
 
-The plugin can be installed via the Claude community marketplace: `claude plugin install eli5@claude-community`.
-该插件可通过 Claude 社区插件市场安装：`claude plugin install eli5@claude-community`。
+**Zara Zhang** (@zarazhangrui)
+
+Zara observes a striking phenomenon: talented individuals can achieve 10x their potential with AI when working independently — but when the same person joins a company, that multiplier often disappears.
+Zara 观察到一个有趣现象：有才华的人独立工作时，借助 AI 能发挥出 10 倍潜能——但同一个人加入公司后，这种放大效应往往会消失。
+
+She also drops a quotable truth: "Everyone who's ahead in using AI thinks they're behind."
+她还说了一句值得引用的话："所有在 AI 使用上领先的人，都觉得自己还落后。"
 
 Sources:
-- https://x.com/trq212/status/2090884854590382515
-- https://x.com/trq212/status/2090884855798407576
-- https://x.com/trq212/status/2090890394880155888
+- https://x.com/zarazhangrui/status/2091379220257603593
+- https://x.com/zarazhangrui/status/2091338374447763481
 
 ---
 
-## Amjad Masad (@amasad) · Replit
+**Nikunj Kothari** (@nikunj)
 
-Amjad highlighted that you can now make real money directly from your phone using Replit.
-Amjad 强调现在可以直接用手机通过 Replit 赚钱。
+Nikunj pushes back on bad fundraising behavior: "rage-baiting investors and then sending them SAFE docs to just wire you money is NOT how investing works."
+Nikunj 对不良融资行为进行了批评："激怒投资人然后直接发 SAFE 文件让对方打钱，这根本不是投资该有的运作方式。"
 
-*"You can just make money from your phone!"*
-"你就可以直接用手机赚钱！"
-
-Short on text, heavy on excitement — fitting for a builder who believes the future of software creation is mobile-first and accessible to everyone.
-推文内容简短，但充满激情——与他认为软件创作的未来属于移动优先、人人可及的理念十分契合。
+He also calls out LinkedIn's descent into unprecedented levels of AI slop, and commented on the ethics of doxxing — even when someone's DM behavior is questionable.
+他还指出 LinkedIn 已陷入难以置信的"AI 内容垃圾"泛滥，并就某起人肉搜索事件谈及了公开他人信息的边界问题。
 
 Sources:
-- https://x.com/amasad/status/2090845035537522925
-- https://x.com/amasad/status/2090846057408483668
-- https://x.com/amasad/status/2090922626890031428
+- https://x.com/nikunj/status/2091403643815604629
+- https://x.com/nikunj/status/2091381756012511244
+- https://x.com/nikunj/status/2091220881590927441
 
 ---
 
-## Guillermo Rauch (@rauchg) · Vercel
+**Dan Shipper** (@danshipper)
 
-Guillermo announced that v0 (Vercel's AI coding tool) now supports **Grok and Codex subscriptions** — users can bring their own subs.
-Guillermo 宣布 Vercel 的 AI 编程工具 v0 现已支持 **Grok 和 Codex 订阅**——用户可携带自己的订阅使用。
-
-He also shared a fascinating dogfooding story: they ran `is-agentic` in a loop against their own scoring benchmark until it hit 100/100, using the process to close real product gaps.
-他还分享了一个有趣的内部测试故事：他们将 `is-agentic` 循环跑在自家评分基准上，直至达到 100/100，借此发现并填补了真实的产品漏洞。
-
-The Python team at Vercel is also making rapid progress.
-Vercel 的 Python 团队也在高速推进中。
+Dan is hiring at Every — the team is growing. He also reposted a piece championing the "agent-native" paradigm with a simple "agent native ftw."
+Dan 正在 Every 招人，团队持续扩张。他还转发了一篇力挺"原生智能体"范式的内容，简短评论道："agent native ftw（赢麻了）"。
 
 Sources:
-- https://x.com/rauchg/status/2090953806624489501
-- https://x.com/rauchg/status/2090858571613470919
-- https://x.com/rauchg/status/2090856968407978031
+- https://x.com/danshipper/status/2091361962068254840
+- https://x.com/danshipper/status/2091162447029608735
 
 ---
 
-## Aaron Levie (@levie) · Box
+🎙️ **PODCAST: AI & I by Every**
 
-Aaron made a sweeping observation about the current AI moment: models are getting cheaper, more capable, faster, and deeper across every domain simultaneously — a pace unlike anything in tech history.
-Aaron 对当前 AI 时代做出了一个宏观判断：模型正在同时变得更便宜、更强大、更快速、覆盖更多领域——这是科技史上前所未有的速度。
+*Microsoft's Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)*
 
-*"As intelligence becomes too cheap to meter, then the big opportunity is driving diffusion of AI into the economy."*
-"当智能便宜到无需计量，最大的机会就在于推动 AI 向整个经济体扩散。"
+This episode features a conversation with Microsoft CTO Kevin Scott about his vision for an internet rebuilt around AI agents — how infrastructure, APIs, and the web itself need to evolve to serve autonomous agents as first-class citizens.
+本期节目邀请微软 CTO Kevin Scott 分享他对"为智能体重构互联网"的愿景——探讨基础设施、API 和整个 Web 需要如何演进，才能将自主智能体作为头等公民。
 
-He sees this as a golden window for applied AI startups, which benefit from fierce model competition as a tailwind.
-他认为这是应用 AI 初创公司的黄金窗口，激烈的模型竞争正成为这些公司顺风而行的助力。
-
-Sources:
-- https://x.com/levie/status/2091038566260539574
-
----
-
-## Garry Tan (@garrytan) · Y Combinator
-
-Garry was in culture commentary mode this weekend, calling out what he sees as a "luxury belief industrial complex" still alive and well.
-Garry 本周末进入文化评论模式，直言他眼中"奢侈观念工业综合体"依然盛行。
-
-He also flagged what he describes as Asian American erasure, with a UC Berkeley CS professor as a case example.
-他还指出了他所称的亚裔美国人被抹去的现象，并以一位加州大学伯克利分校计算机科学教授为例。
-
-Sources:
-- https://x.com/garrytan/status/2090889728719777952
-- https://x.com/garrytan/status/2090801607894344047
-- https://x.com/garrytan/status/2090797527222439998
-
----
-
-## Matt Turck (@mattturck) · FirstMark Capital
-
-Matt kept it light this weekend with a meme about the VC experience of watching a company they passed on at seed raise another huge round.
-Matt 本周末以轻松的方式分享了一个梗：VC 眼睁睁看着当初在种子轮放弃的公司又完成了一轮大融资。
-
-Sources:
-- https://x.com/mattturck/status/2090870362007281984
-
----
-
-## Zara Zhang (@zarazhangrui)
-
-Zara distilled a builder's mantra in three lines: show up every day, always be launching, and don't be afraid to repeat yourself.
-Zara 用三行话提炼了一个创业者的信条：每天出现，持续发布，不要害怕重复自己。
-
-*"Show up every day. Always be launching. And don't be afraid of repeating yourself, over and over and over again."*
-"每天坚持出现。始终保持发布。不要害怕一遍又一遍地重复自己。"
-
-Sources:
-- https://x.com/zarazhangrui/status/2090702627206214081
-
----
-
-## Nikunj Kothari (@nikunj)
-
-Nikunj shared a delightful real-world AI use case: his daughter just started kindergarten, and her school's meal schedule was buried in unstructured data on a random website.
-Nikunj 分享了一个温馨的 AI 实际应用案例：女儿刚上幼儿园，学校的每日餐单藏在一个随机网站的非结构化数据里。
-
-He asked Claude Code to find the unauthenticated API through network requests, parse the format, and pipe it into their home bot — now every morning it tells the family what's for breakfast and lunch.
-他让 Claude Code 通过网络请求找到未经认证的 API，解析数据格式后接入家庭机器人——现在每天早上家人都能得知当天的早餐和午餐菜单。
-
-He's also teasing a new podcast episode dropping next week with @toddsaunders.
-他还预告了下周与 @toddsaunders 合录的新播客节目。
-
-Sources:
-- https://x.com/nikunj/status/2090884422178627624
-- https://x.com/nikunj/status/2090859831964152283
-
----
-
-## Peter Steinberger (@steipete)
-
-Peter spoke at the **Agentic AI Summit in Berkeley**, delivering a talk titled *"No Doors for Agents"* — on the barriers that still block AI agents from acting freely in the world.
-Peter 在**伯克利 Agentic AI 峰会**上发表了题为《无门之墙：代理的障碍》的演讲，探讨仍然阻止 AI 代理在世界中自由行动的种种壁垒。
-
-He's also dropping a new skill, though kept the details mysterious with a simple "brb."
-他还透露即将发布一个新技能，但仅以一句"brb"卖了个关子。
-
-Sources:
-- https://x.com/steipete/status/2090898421108605078
-- https://x.com/steipete/status/2090946181564440727
-
----
-
-## Dan Shipper (@danshipper) · Every
-
-Dan posted a brief but enthusiastic "gang gang" — short on words but presumably pointing at something exciting in the Every ecosystem.
-Dan 发布了一条简短但热情的"gang gang"——话不多，但似乎在暗示 Every 生态里有什么令人兴奋的事情即将到来。
-
-Sources:
-- https://x.com/danshipper/status/2090860697504653480
-
----
-
-## Aditya Agarwal (@adityaag) · South Park Commons
-
-Aditya shared a full episode from South Park Commons featuring @RamaswmySridhar, focused on the frontier model race.
-Aditya 分享了 South Park Commons 与 @RamaswmySridhar 的完整播客节目，聚焦前沿模型竞争。
-
-*"The frontier model race is just getting started."*
-"前沿模型的竞赛才刚刚开始。"
-
-Sources:
-- https://x.com/adityaag/status/2090814576270975265
-- https://x.com/adityaag/status/2090814574400307585
-
----
-
-## Claude AI (@claudeai) · Anthropic
-
-Anthropic announced **Claude Security**, a new capability that points Claude (running Mythos 5) at a GitHub repo to scan for vulnerabilities — tracing data across files and reasoning about component interactions.
-Anthropic 宣布推出 **Claude Security**：将 Claude（运行 Mythos 5 模型）指向 GitHub 仓库，扫描漏洞——跨文件追踪数据流，并推理组件间的交互关系。
-
-Each finding comes with a CWE category, confidence and severity ratings, and a suggested patch that opens directly in Claude Code on the web.
-每条发现都附带 CWE 类别、置信度与严重性评级，以及可直接在网页版 Claude Code 中打开的修复建议。
-
-To accelerate adoption: a **$35M Defender Advantage Fund** provides credits for open-source security projects, and the Cyber Verification Program is expanding.
-为加速推广：Anthropic 还设立了 **3500 万美元 Defender Advantage 基金**，为开源安全项目提供额度支持，并将扩展其网络安全验证计划。
-
-Sources:
-- https://x.com/claudeai/status/2090852316328902930
-- https://x.com/claudeai/status/2090852318527033804
-- https://x.com/claudeai/status/2090852320128938319
-
----
-
-## 🎙️ Podcast: No Priors — "What Chess.com Teaches Us About Superhuman Capabilities"
-
-Source: https://www.youtube.com/@NoPriorsPodcast
-Published: 2026-08-13
-
----
-
-### 一、深度总结
-
-**核心论点**
-
-Chess.com CEO Erik Allebest built the world's dominant chess platform without VC funding, growing from a $56,000 domain purchase to 250M members and $200M/year in revenue. The episode explores what Chess.com's experience — thriving despite computers surpassing humans at chess 30 years ago — can teach us about the future of human skills in an age of AI.
-
-**关键洞察**
-
-- **超人能力不会杀死游戏，反而能激活它。** 计算机早在1997年就超越了最顶尖的人类棋手，但国际象棋的参与度反而大幅增长。人们并不只是为了"赢"而玩——他们为了自我提升、社区归属感和竞技认同而玩。
-- **评级系统创造了人机共存的意义框架。** Chess.com 正在将"棋类评级"模型复制到扑克领域，核心洞察是：当人们有了可信的技能度量，他们会比金钱本身更在意自己的评级。
-- **增长可以不依赖融资。** Erik 在被所有 VC 拒绝后，凭借自有资金和会员订阅收入以"现金速度"增长，从未再考虑融资。这一路径稀有但有效。
-- **病毒式文化事件可以重置增长基线。** Queen's Gambit、Magnus Carlsen 的作弊丑闻、短视频内容浪潮——每次都带来一波新用户，且每次潮水退去后，留存基线都比之前更高。
-- **"十亿人下棋"不是口号，而是战略。** 如果 2.5 亿注册用户中只有 1/25 每天活跃，这既说明保留问题，也说明尚未开发的巨大潜力——Erik 的雄心已从"做好一个棋类网站"演变为"让国际象棋成为全球基础技能"。
-
----
-
-### 二、Bilingual Summary
-
-Chess.com CEO Erik Allebest bought the chess.com domain for $56,000 in a 2005 bankruptcy auction after VCs told him it was "uninvestable."
-Chess.com CEO Erik Allebest 于 2005 年以 5.6 万美元在一次破产拍卖中购得 chess.com 域名，此前所有 VC 都告诉他这"不值得投资"。
-
-Two decades later, the platform has 250 million registered members, 10 million daily active users, and over $200M in annual revenue — all bootstrapped.
-二十年后，该平台拥有 2.5 亿注册用户、1000 万日活用户，年收入超 2 亿美元——全程自力更生，未融一分钱。
-
-The central lesson: computers have outplayed humans at chess for 30 years, yet chess is more popular than ever.
-核心启示：计算机在国际象棋上超越人类已有 30 年，但国际象棋从未像今天这样受欢迎。
-
-Superhuman AI doesn't kill human engagement — it reframes what humans are competing for: skill, identity, and community.
-超人 AI 并不会扼杀人类的参与热情——它重新定义了人类竞争的意义：技能、身份认同和社区归属。
-
-Chess.com is now applying this playbook to poker, building rating systems that make players care more about their skill rating than the money on the table.
-Chess.com 正将这套方法论移植到扑克领域，构建让玩家比在意桌上筹码更在意自身技能评级的评分系统。
-
-Source: https://www.youtube.com/@NoPriorsPodcast
+Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
