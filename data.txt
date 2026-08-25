@@ -1,131 +1,135 @@
-AI Builders 日报 · 2026-08-24
+AI Builders 日报 · 2026-08-25
+
+AI Builders Digest — 2026-08-25
+AI Builders 日报 — 2026-08-25
+
+═══════════════════════════════════════
+X / TWITTER
+═══════════════════════════════════════
 
 ---
 
-**Thibault Sottiaux** (@thsottiaux)
+Thibault Sottiaux — Codex & ChatGPT PM at OpenAI (thsottiaux on X)
 
-Update on rate limits in Codex: the team has found inefficiencies when using images in long sessions with multiple compactions, as well as high p95+ usage patterns.
-Codex 限流更新：团队发现在长会话中多次压缩时使用图片存在效率问题，同时 p95+ 使用量偏高，正在持续优化。
+2026 is the year companies start seriously caring about model efficiency and reliability as it becomes critical infrastructure.
+2026 年，随着 AI 模型逐渐成为关键基础设施，企业开始认真关注模型效率与可靠性。
 
-Source: https://x.com/thsottiaux/status/2091407991736332689
+OpenAI Codex PM Thibault Sottiaux announced that account-level resets have been propagated and usage fixes have been deployed.
+OpenAI Codex 产品经理 Thibault Sottiaux 宣布账户重置已传播完成，使用相关的 bug 修复也已上线。
 
----
+Users should feel a positive difference, with more improvements coming the following day.
+用户应该能感受到明显改善，更多优化将于次日继续推进。
 
-**Peter Yang** (@petergyang)
-
-Peter is raising privacy awareness, sharing a tip to review and delete external data (like Gmail records) via Google's data privacy settings — and pointing out that they've added a delete option.
-Peter 在倡导隐私保护，分享了通过 Google 数据隐私设置查看并删除外部数据（如 Gmail 记录）的方法，并肯定了 Google 新增删除功能的举措。
-
-He's building a new AI tool called `/fuck-cancer` — a bold project aimed at helping patients and families navigate the cancer journey and stay informed.
-他正在开发一个名为 `/fuck-cancer` 的全新 AI 工具，目标是帮助癌症患者及其家属梳理就医流程、获取准确信息，立意深刻。
-
-He also shared a privacy tip for Chrome users: run a specific prompt in Codex or Claude Code with an open browser tab to audit your privacy settings.
-他还为 Chrome 用户分享了隐私检测技巧：打开一个标签页后，用 Codex 或 Claude Code 运行专属提示词来审计隐私设置。
-
-Sources:
-- https://x.com/petergyang/status/2091331251211059468
-- https://x.com/petergyang/status/2091239339204415969
-- https://x.com/petergyang/status/2091187611507499321
+https://x.com/thsottiaux/status/2091688655828246890
+https://x.com/thsottiaux/status/2091581575108653374
 
 ---
 
-**Madhu Guru** (@realmadhuguru)
+Peter Yang — AI educator and podcast host (petergyang on X)
 
-Madhu continues his deep-dive series on building great evals — Part 6 focuses on "hill climbing on evals," which is essentially picking one dimension that matters and systematically optimizing for it.
-Madhu 继续他的 Evals 深度系列——第六篇聚焦"爬山优化评估"，本质就是选定一个关键维度，持续系统地优化它。
+Peter Yang shared a key insight on AI evals from researcher Shreya Rajpal: top-down evals are tasks you can design from a description, while bottom-up evals emerge from observing real outputs.
+Peter Yang 分享了来自研究员 Shreya Rajpal 的 AI 评估核心洞见：自上而下的 eval 是基于任务描述设计的，而自下而上的 eval 则来自对真实输出的观察归纳。
 
-He shared a multi-part thread on evaluation strategies, covering practical approaches across six installments.
-他发布了一个多部分的线程，分六期分享评估策略的实操方法，内容详尽。
+*"Claude does a very good job of helping you with these top-down evals. Bottom-up evals are the other half. When you look at lots and lots of sample outputs, what is your gut feedback that you want externalized into evals? Claude is very, very bad at coming up with bottom-up evals. That's all you."*
+— Shreya Rajpal
 
-Sources:
-- https://x.com/realmadhuguru/status/2091278899711967441
-- https://x.com/realmadhuguru/status/2091278653435072523
+这句话点出了一个常被忽视的盲区：模型善于帮你构建顶层框架，但从大量样本中提炼直觉式评估标准，仍然需要人类的判断力。
+This highlights a commonly overlooked blind spot: models are good at building top-level frameworks, but extracting intuitive eval criteria from many samples still requires human judgment.
 
----
-
-**Amjad Masad** (@amasad)
-
-Amjad is shipping fast — "a week has 7 days, that means 7 ships." Classic Replit founder energy.
-Amjad 依然保持高频发布节奏——"一周有 7 天，那就意味着 7 次发布"，完全 Replit 创始人的作风。
-
-He also reflected on a prediction that "pretty soon" ended up taking three months — a humbling note on timelines in AI.
-他还回顾了一个预测：所谓的"很快"最终花了三个月——对 AI 领域时间线的一次自嘲式反思。
-
-Sources:
-- https://x.com/amasad/status/2091346778746757204
-- https://x.com/amasad/status/2091217410615644349
+https://x.com/petergyang/status/2091586298779955512
 
 ---
 
-**Guillermo Rauch** (@rauchg)
+Madhu Guru — Senior Director of AI at Meta, formerly led Gemini/Veo/Nano at Google (realmadhuguru on X)
 
-Guillermo is waxing poetic about the physical world — AI can do many wonderful things, but there is only one Earth, one California, one Patagonia, one Mendoza.
-Guillermo 感慨现实世界的不可复制性——AI 能成就许多奇迹，但地球只有一个，加州、巴塔哥尼亚、门多萨都是独一无二的。
+In part 7 of his "How to Build Great Evals" series, Meta AI Sr. Director Madhu Guru introduced the Goldilocks principle: evals should be scoped to each intermediate job-to-be-done, not just the final answer.
+Meta AI 高级总监 Madhu Guru 在其"如何构建优秀 Eval"系列第 7 篇中提出了"金发姑娘原则"：eval 应该覆盖每个中间环节，而非只检验最终答案。
 
-He also called out San Francisco as a "paradise on Earth" and dropped a teaser directed at Windows.
-他称旧金山是"地球上的天堂"，还针对 Windows 发了一条耐人寻味的暗示。
+Using a financial analysis agent as an example, he outlined four stages — client understanding, evidence gathering, data analysis, and final recommendation — each deserving its own eval.
+他以金融分析 agent 为例，列出了四个阶段：理解客户、收集证据、数据分析、最终推荐，每个阶段都应有独立的 eval 覆盖。
 
-Sources:
-- https://x.com/rauchg/status/2091338152791474331
-- https://x.com/rauchg/status/2091265836719956474
-- https://x.com/rauchg/status/2091263423359389951
+*"Not too granular. Not too coarse. Just right. Make your eval set as granular as you need to diagnose and act."*
+"不要太细，也不要太粗，恰到好处。让你的 eval 细粒度足以定位问题、指导行动。"
 
----
+A well-designed eval suite tells you exactly which stage broke down, so you know where to dig.
+一套设计良好的 eval 体系能精确告诉你哪个阶段出了问题，让你知道该往哪里深挖。
 
-**Aaron Levie** (@levie)
-
-Aaron makes a sharp point: AI diffusion is far more rate-limited by the lack of good evals than most people realize. The evals used for model releases are incredibly unhelpful for real-world deployment decisions.
-Aaron 提出了一个犀利观点：AI 扩散的速度远比人们意识到的更受制于"优质评估体系"的缺失，模型发布时用的那些 evals 对实际落地决策几乎没有帮助。
-
-Source: https://x.com/levie/status/2091359223368315050
+https://x.com/realmadhuguru/status/2091684812012875981
 
 ---
 
-**Zara Zhang** (@zarazhangrui)
+Guillermo Rauch — CEO at Vercel (rauchg on X)
 
-Zara observes a striking phenomenon: talented individuals can achieve 10x their potential with AI when working independently — but when the same person joins a company, that multiplier often disappears.
-Zara 观察到一个有趣现象：有才华的人独立工作时，借助 AI 能发挥出 10 倍潜能——但同一个人加入公司后，这种放大效应往往会消失。
+Vercel CEO Guillermo Rauch noted that OpenAI Sol's price reductions, combined with discounts on Vercel AI Gateway, have made Sol Vercel's fastest-growing frontier model.
+Vercel CEO Guillermo Rauch 指出，OpenAI Sol 的降价加上 Vercel AI Gateway 的折扣，使 Sol 成为 Vercel 平台上增长最快的前沿模型。
 
-She also drops a quotable truth: "Everyone who's ahead in using AI thinks they're behind."
-她还说了一句值得引用的话："所有在 AI 使用上领先的人，都觉得自己还落后。"
+He drew two conclusions: demand for intelligence is highly elastic as inference costs fall, and using a gateway is now essential to capture price volatility and protect margins.
+他得出两点结论：推理成本下降时对智能的需求高度弹性增长；使用 AI 网关现在是捕捉价格波动、保护利润率的必要手段。
 
-Sources:
-- https://x.com/zarazhangrui/status/2091379220257603593
-- https://x.com/zarazhangrui/status/2091338374447763481
+*"It's no wonder the router space has heated up… gateways are inevitable."*
+"难怪路由器赛道这么热……网关是必然趋势。"
 
----
+On the engineering side, Rauch shared Vercel's philosophy for extending the `fx` framework: embrace open protocols — MCP, Skills (agentskills.io), Plugins (agent-plugins.org) — and the Unix philosophy of small, composable programs.
+在工程层面，Rauch 分享了 Vercel 扩展 `fx` 框架的理念：拥抱开放协议（MCP、Skills、Plugins），以及 Unix 的小程序组合哲学。
 
-**Nikunj Kothari** (@nikunj)
-
-Nikunj pushes back on bad fundraising behavior: "rage-baiting investors and then sending them SAFE docs to just wire you money is NOT how investing works."
-Nikunj 对不良融资行为进行了批评："激怒投资人然后直接发 SAFE 文件让对方打钱，这根本不是投资该有的运作方式。"
-
-He also calls out LinkedIn's descent into unprecedented levels of AI slop, and commented on the ethics of doxxing — even when someone's DM behavior is questionable.
-他还指出 LinkedIn 已陷入难以置信的"AI 内容垃圾"泛滥，并就某起人肉搜索事件谈及了公开他人信息的边界问题。
-
-Sources:
-- https://x.com/nikunj/status/2091403643815604629
-- https://x.com/nikunj/status/2091381756012511244
-- https://x.com/nikunj/status/2091220881590927441
+https://x.com/rauchg/status/2091671326897713424
+https://x.com/rauchg/status/2091583525661384813
 
 ---
 
-**Dan Shipper** (@danshipper)
+Aaron Levie — CEO at Box (levie on X)
 
-Dan is hiring at Every — the team is growing. He also reposted a piece championing the "agent-native" paradigm with a simple "agent native ftw."
-Dan 正在 Every 招人，团队持续扩张。他还转发了一篇力挺"原生智能体"范式的内容，简短评论道："agent native ftw（赢麻了）"。
+Box CEO Aaron Levie posted a brief but characteristically playful tweet referencing something milestone-worthy.
+Box CEO Aaron Levie 发了一条简短而一贯幽默的推文，暗示某件里程碑式的事情。
 
-Sources:
-- https://x.com/danshipper/status/2091361962068254840
-- https://x.com/danshipper/status/2091162447029608735
+近期仅有一条互动性内容，实质性技术观点较少。
+Only one brief engagement post this cycle; no substantial technical insights to summarize.
+
+https://x.com/levie/status/2091580656598102047
 
 ---
 
-🎙️ **PODCAST: AI & I by Every**
+Ryo Lu — Designer of Cursor AI and Notion (ryolu_ on X)
 
-*Microsoft's Vision for an Internet Made for Agents With CTO Kevin Scott (Best of the Pod)*
+Cursor designer Ryo Lu shared a deeply personal poem titled "Leaving" — a meditation on transition, emptiness, and the pursuit of freedom.
+Cursor 设计师 Ryo Lu 分享了一首深情的诗《离开》——一首关于转变、空无与追寻自由的冥想之作。
 
-This episode features a conversation with Microsoft CTO Kevin Scott about his vision for an internet rebuilt around AI agents — how infrastructure, APIs, and the web itself need to evolve to serve autonomous agents as first-class citizens.
-本期节目邀请微软 CTO Kevin Scott 分享他对"为智能体重构互联网"的愿景——探讨基础设施、API 和整个 Web 需要如何演进，才能将自主智能体作为头等公民。
+The poem reflects on departing from familiar rhythms and places, emptying oneself of accumulated identity, and facing the unknown with both fear and longing.
+这首诗描述了离开熟悉的节奏与地方、清空积累的自我认同、带着恐惧与渴望面对未知的心路历程。
 
-Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+*"No longer mistaking the waves for fate / or the shore for salvation"*
+"不再把浪潮误认为命运，也不再把岸边当作救赎。"
+
+A rare introspective moment from a builder known for product craft — signaling a significant personal transition.
+这是一位以产品匠心著称的创造者难得的自我剖白时刻，暗示着一次重大的人生转变。
+
+https://x.com/ryolu_/status/2091596272654582062
+
+---
+
+Garry Tan — President & CEO at Y Combinator (garrytan on X)
+
+YC President and CEO Garry Tan made a bold prediction: systems of record must evolve into AI harnesses, or face replacement by agents.
+YC 总裁兼 CEO Garry Tan 做出了一个大胆预测：记录系统必须进化成 AI 驱动的平台，否则将被 agent 取而代之。
+
+This signals a major structural shift in enterprise software — legacy databases and CRMs that don't expose AI-native interfaces risk becoming obsolete.
+这预示着企业软件领域的重大结构性变革——不开放 AI 原生接口的传统数据库和 CRM 系统将面临淘汰风险。
+
+https://x.com/garrytan/status/2091742825042030681
+
+---
+
+Peter Steinberger — Co-creator of OpenClaw, partnered with OpenAI (steipete on X)
+
+OpenClaw co-creator Peter Steinberger demonstrated a fun hardware experiment: he integrated the rotation USB protocol into his claw robot and connected it to a 360° webcam, letting the agent look around autonomously.
+OpenClaw 联合创始人 Peter Steinberger 展示了一个有趣的硬件实验：他将旋转 USB 协议集成到爪形机器人中，并连接了 360° 摄像头，让 agent 能够自主环顾四周。
+
+He also noted that while CLI tools are useful, having UI visualizations and keeping your team together in the same workspace where you work is even better.
+他还指出，虽然 CLI 工具很实用，但拥有 UI 可视化界面、并让团队在同一工作空间协作，效果会更好。
+
+https://x.com/steipete/status/2091650136506327253
+https://x.com/steipete/status/2091639468935831910
+
+═══════════════════════════════════════
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
