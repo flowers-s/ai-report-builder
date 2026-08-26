@@ -1,135 +1,198 @@
-AI Builders 日报 · 2026-08-25
+AI Builders 日报 · 2026-08-26
 
-AI Builders Digest — 2026-08-25
-AI Builders 日报 — 2026-08-25
+AI Builders Digest — 2026-08-26
+AI Builders 日报 — 2026-08-26
 
-═══════════════════════════════════════
+---
+
 X / TWITTER
-═══════════════════════════════════════
 
 ---
 
-Thibault Sottiaux — Codex & ChatGPT PM at OpenAI (thsottiaux on X)
+Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-2026 is the year companies start seriously caring about model efficiency and reliability as it becomes critical infrastructure.
-2026 年，随着 AI 模型逐渐成为关键基础设施，企业开始认真关注模型效率与可靠性。
+OpenAI DevDay 2026 is coming, and Thibault Sottiaux is calling it the best DevDay in the company's history — and it won't be close.
+OpenAI DevDay 2026 即将到来，Thibault Sottiaux 称其将是公司历史上最好的 DevDay，而且差距不会小。
 
-OpenAI Codex PM Thibault Sottiaux announced that account-level resets have been propagated and usage fixes have been deployed.
-OpenAI Codex 产品经理 Thibault Sottiaux 宣布账户重置已传播完成，使用相关的 bug 修复也已上线。
+He also announced a significant policy change: the 5-hour limit for Plus accounts in ChatGPT Work and Codex will return tomorrow.
+他还宣布了一项重要政策变化：Plus 账户在 ChatGPT Work 和 Codex 中的 5 小时使用限制将于明日恢复。
 
-Users should feel a positive difference, with more improvements coming the following day.
-用户应该能感受到明显改善，更多优化将于次日继续推进。
+He explained this is necessary because the limit helps manage infrastructure costs while also providing a clear signal to users about responsible usage.
+他解释说，这一限制是必要的，因为它有助于管控基础设施成本，同时也向用户传递了负责任使用的明确信号。
 
-https://x.com/thsottiaux/status/2091688655828246890
-https://x.com/thsottiaux/status/2091581575108653374
-
----
-
-Peter Yang — AI educator and podcast host (petergyang on X)
-
-Peter Yang shared a key insight on AI evals from researcher Shreya Rajpal: top-down evals are tasks you can design from a description, while bottom-up evals emerge from observing real outputs.
-Peter Yang 分享了来自研究员 Shreya Rajpal 的 AI 评估核心洞见：自上而下的 eval 是基于任务描述设计的，而自下而上的 eval 则来自对真实输出的观察归纳。
-
-*"Claude does a very good job of helping you with these top-down evals. Bottom-up evals are the other half. When you look at lots and lots of sample outputs, what is your gut feedback that you want externalized into evals? Claude is very, very bad at coming up with bottom-up evals. That's all you."*
-— Shreya Rajpal
-
-这句话点出了一个常被忽视的盲区：模型善于帮你构建顶层框架，但从大量样本中提炼直觉式评估标准，仍然需要人类的判断力。
-This highlights a commonly overlooked blind spot: models are good at building top-level frameworks, but extracting intuitive eval criteria from many samples still requires human judgment.
-
-https://x.com/petergyang/status/2091586298779955512
+Sources:
+- https://x.com/thsottiaux/status/2092117461646856505
+- https://x.com/thsottiaux/status/2092058556707344708
 
 ---
 
-Madhu Guru — Senior Director of AI at Meta, formerly led Gemini/Veo/Nano at Google (realmadhuguru on X)
+Peter Yang (petergyang on X) — Practical AI tutorials and interviews
 
-In part 7 of his "How to Build Great Evals" series, Meta AI Sr. Director Madhu Guru introduced the Goldilocks principle: evals should be scoped to each intermediate job-to-be-done, not just the final answer.
-Meta AI 高级总监 Madhu Guru 在其"如何构建优秀 Eval"系列第 7 篇中提出了"金发姑娘原则"：eval 应该覆盖每个中间环节，而非只检验最终答案。
+Peter Yang shared a strong product opinion: he would rather stop using a product than deal with forced logins for websites, apps, or agents.
+Peter Yang 分享了一个强烈的产品观点：他宁愿停用产品，也不愿忍受网站、应用或 Agent 要求强制登录的体验。
 
-Using a financial analysis agent as an example, he outlined four stages — client understanding, evidence gathering, data analysis, and final recommendation — each deserving its own eval.
-他以金融分析 agent 为例，列出了四个阶段：理解客户、收集证据、数据分析、最终推荐，每个阶段都应有独立的 eval 覆盖。
+He's now managing three AI chief of staffs, and humorously suggested the next logical step is to add one more.
+他目前已有三个 AI "参谋长"，并幽默地暗示下一步当然是再加一个。
 
-*"Not too granular. Not too coarse. Just right. Make your eval set as granular as you need to diagnose and act."*
-"不要太细，也不要太粗，恰到好处。让你的 eval 细粒度足以定位问题、指导行动。"
+He also floated a product idea worth building: using AI voice agents to navigate terrible automated phone systems, talk to human reps, and handle tasks like booking appointments or cancelling subscriptions on your behalf.
+他还提出了一个值得构建的产品想法：用 AI 语音 Agent 导航糟糕的自动电话系统，和人工客服对话，代替用户完成预约或取消订阅等事务。
 
-A well-designed eval suite tells you exactly which stage broke down, so you know where to dig.
-一套设计良好的 eval 体系能精确告诉你哪个阶段出了问题，让你知道该往哪里深挖。
-
-https://x.com/realmadhuguru/status/2091684812012875981
-
----
-
-Guillermo Rauch — CEO at Vercel (rauchg on X)
-
-Vercel CEO Guillermo Rauch noted that OpenAI Sol's price reductions, combined with discounts on Vercel AI Gateway, have made Sol Vercel's fastest-growing frontier model.
-Vercel CEO Guillermo Rauch 指出，OpenAI Sol 的降价加上 Vercel AI Gateway 的折扣，使 Sol 成为 Vercel 平台上增长最快的前沿模型。
-
-He drew two conclusions: demand for intelligence is highly elastic as inference costs fall, and using a gateway is now essential to capture price volatility and protect margins.
-他得出两点结论：推理成本下降时对智能的需求高度弹性增长；使用 AI 网关现在是捕捉价格波动、保护利润率的必要手段。
-
-*"It's no wonder the router space has heated up… gateways are inevitable."*
-"难怪路由器赛道这么热……网关是必然趋势。"
-
-On the engineering side, Rauch shared Vercel's philosophy for extending the `fx` framework: embrace open protocols — MCP, Skills (agentskills.io), Plugins (agent-plugins.org) — and the Unix philosophy of small, composable programs.
-在工程层面，Rauch 分享了 Vercel 扩展 `fx` 框架的理念：拥抱开放协议（MCP、Skills、Plugins），以及 Unix 的小程序组合哲学。
-
-https://x.com/rauchg/status/2091671326897713424
-https://x.com/rauchg/status/2091583525661384813
+Sources:
+- https://x.com/petergyang/status/2092080901094248474
+- https://x.com/petergyang/status/2092048940732682395
+- https://x.com/petergyang/status/2092031413319266382
 
 ---
 
-Aaron Levie — CEO at Box (levie on X)
+Nan Yu (thenanyu on X) — Product Enthusiast
 
-Box CEO Aaron Levie posted a brief but characteristically playful tweet referencing something milestone-worthy.
-Box CEO Aaron Levie 发了一条简短而一贯幽默的推文，暗示某件里程碑式的事情。
+Nan Yu found setting up a new computer with Codex surprisingly pleasant — just telling it to install Handy, Slack, Chrome, CleanShot, and Rectangle gets the job done.
+Nan Yu 发现用 Codex 配置新电脑出奇地顺手——只需告诉它安装 Handy、Slack、Chrome、CleanShot 和 Rectangle 就搞定了。
 
-近期仅有一条互动性内容，实质性技术观点较少。
-Only one brief engagement post this cycle; no substantial technical insights to summarize.
+*"makes you wish Siri was good"* — he quipped, capturing the gap between what AI assistants promise and what most of them deliver.
+*"makes you wish Siri was good"* ——他的一句调侃，道出了 AI 助手的承诺与现实之间的差距。
 
-https://x.com/levie/status/2091580656598102047
+He also called out Google's decision to add emoji reactions to Gmail that render as garbled single-character emails in every other mail client — including iPhone Mail, the most widely used mail app on Earth.
+他还批评了 Google 在 Gmail 中添加 emoji 回应的决定——在所有其他邮件客户端（包括地球上最常用的 iPhone 邮件应用）中，这些反应都会变成乱码的单字符邮件。
 
----
-
-Ryo Lu — Designer of Cursor AI and Notion (ryolu_ on X)
-
-Cursor designer Ryo Lu shared a deeply personal poem titled "Leaving" — a meditation on transition, emptiness, and the pursuit of freedom.
-Cursor 设计师 Ryo Lu 分享了一首深情的诗《离开》——一首关于转变、空无与追寻自由的冥想之作。
-
-The poem reflects on departing from familiar rhythms and places, emptying oneself of accumulated identity, and facing the unknown with both fear and longing.
-这首诗描述了离开熟悉的节奏与地方、清空积累的自我认同、带着恐惧与渴望面对未知的心路历程。
-
-*"No longer mistaking the waves for fate / or the shore for salvation"*
-"不再把浪潮误认为命运，也不再把岸边当作救赎。"
-
-A rare introspective moment from a builder known for product craft — signaling a significant personal transition.
-这是一位以产品匠心著称的创造者难得的自我剖白时刻，暗示着一次重大的人生转变。
-
-https://x.com/ryolu_/status/2091596272654582062
+Sources:
+- https://x.com/thenanyu/status/2092048044502192374
+- https://x.com/thenanyu/status/2091993558018572434
 
 ---
 
-Garry Tan — President & CEO at Y Combinator (garrytan on X)
+Madhu Guru (realmadhuguru on X) — Sr Director of AI, Meta (prev: Google Gemini, Veo, Nano)
 
-YC President and CEO Garry Tan made a bold prediction: systems of record must evolve into AI harnesses, or face replacement by agents.
-YC 总裁兼 CEO Garry Tan 做出了一个大胆预测：记录系统必须进化成 AI 驱动的平台，否则将被 agent 取而代之。
+In Part 8 of his series on building great evals, Madhu Guru introduced the concept of the "discriminatory property" of evals.
+在其构建优质评测系列的第 8 期中，Meta AI 高级总监 Madhu Guru 介绍了评测的"区分属性"概念。
 
-This signals a major structural shift in enterprise software — legacy databases and CRMs that don't expose AI-native interfaces risk becoming obsolete.
-这预示着企业软件领域的重大结构性变革——不开放 AI 原生接口的传统数据库和 CRM 系统将面临淘汰风险。
+A good hill-climbing eval must be able to distinguish between AI systems that are meaningfully different from one another — otherwise it's just noise.
+一个好的爬坡式评测必须能够区分彼此有实质差异的 AI 系统，否则它只是噪音。
 
-https://x.com/garrytan/status/2091742825042030681
+Source:
+- https://x.com/realmadhuguru/status/2092058332735693264
 
 ---
 
-Peter Steinberger — Co-creator of OpenClaw, partnered with OpenAI (steipete on X)
+Amjad Masad (amasad on X) — CEO, Replit
 
-OpenClaw co-creator Peter Steinberger demonstrated a fun hardware experiment: he integrated the rotation USB protocol into his claw robot and connected it to a 360° webcam, letting the agent look around autonomously.
-OpenClaw 联合创始人 Peter Steinberger 展示了一个有趣的硬件实验：他将旋转 USB 协议集成到爪形机器人中，并连接了 360° 摄像头，让 agent 能够自主环顾四周。
+Amjad Masad shared that Replit Agent has completely replaced Claude CoWork in his daily workflow.
+Replit CEO Amjad Masad 表示，Replit Agent 已完全取代 Claude CoWork 成为他日常工作的主力工具。
 
-He also noted that while CLI tools are useful, having UI visualizations and keeping your team together in the same workspace where you work is even better.
-他还指出，虽然 CLI 工具很实用，但拥有 UI 可视化界面、并让团队在同一工作空间协作，效果会更好。
+*"It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks."*
+*"它更具持久性和严谨性，在利用代码/软件完成任务方面也更为高效。"*
 
-https://x.com/steipete/status/2091650136506327253
-https://x.com/steipete/status/2091639468935831910
+Sources:
+- https://x.com/amasad/status/2091962601907638352
 
-═══════════════════════════════════════
+---
+
+Guillermo Rauch (rauchg on X) — CEO, Vercel
+
+Guillermo Rauch made a case for software that bucks the trend: his project is architected from the start to stay faster, cheaper, more capable, and smaller as it evolves — the opposite of how most software ages.
+Vercel CEO Guillermo Rauch 为逆潮流而行的软件发声：他的项目从一开始就在架构上确保随着迭代变得更快、更便宜、更强大、更精简——这与大多数软件的老化方式恰恰相反。
+
+He also shared a fascinating bit of computing history: the `reset` command on Unix has a `sleep(1)` delay that dates back to 1979, when it was needed to let mechanical printer-and-ink terminals finish their work.
+他还分享了一个有趣的计算机历史细节：Unix 的 `reset` 命令中有一个 `sleep(1)` 延迟，可以追溯到 1979 年，当时是为了让机械打字机终端完成收尾工作而设计的。
+
+Sources:
+- https://x.com/rauchg/status/2092081554814320677
+- https://x.com/rauchg/status/2091957823945216474
+
+---
+
+Aaron Levie (levie on X) — CEO, Box
+
+Aaron Levie argued that systems of record have never been more important than in an AI-agent world, where agents will query and act on enterprise data at 100x the volume of human workers.
+Box CEO Aaron Levie 指出，在 AI Agent 时代，记录系统的重要性前所未有——Agent 对企业数据的查询和操作量将是人工的 100 倍。
+
+He also highlighted that Zero Data Retention (ZDR) has been a quiet but substantial driver of enterprise AI adoption, because it dramatically simplified the compliance process for companies handling sensitive data.
+他还强调，零数据留存（ZDR）政策一直是企业 AI 采用的低调但重要推动力，因为它大幅简化了企业处理敏感数据时的合规流程。
+
+Sources:
+- https://x.com/levie/status/2092087679240569126
+- https://x.com/levie/status/2091909170308296950
+
+---
+
+Garry Tan (garrytan on X) — President & CEO, Y Combinator
+
+Garry Tan pushed back on data center skepticism: data centers create real jobs and prosperity — a point he backed with links.
+YC 总裁兼 CEO Garry Tan 回击了对数据中心的质疑：数据中心切实创造就业机会和经济繁荣——他附上链接为此背书。
+
+He also praised Conductor Cloud for making him significantly more productive, to the point where he no longer needs his MacBook Pro open at all times.
+他还称赞 Conductor Cloud 大幅提升了他的生产效率，以至于他不再需要随时打开 MacBook Pro 了。
+
+He shared a crisp mental model for decision-making: form a view → turn it into an artifact or experiment → put it in contact with reality → read the result without self-deception → revise and run again.
+他分享了一个简洁的决策心智模型：形成观点 → 转化为产物或实验 → 让它接触现实 → 不自欺地解读结果 → 修正后再次运行。
+
+Sources:
+- https://x.com/garrytan/status/2092062820229890209
+- https://x.com/garrytan/status/2092062231488061584
+- https://x.com/garrytan/status/2092059517446156640
+
+---
+
+Zara Zhang (zarazhangrui on X) — Builder
+
+Zara Zhang shared an unpopular opinion: hackathons are an outdated event format, at least in the way they're traditionally run.
+Zara Zhang 分享了一个"少数派意见"：黑客马拉松是一种过时的活动形式，至少以传统方式举办的黑客马拉松如此。
+
+She also praised David Senra's interviewing style, noting that among all the Sam Altman interviews she's watched, the one with Senra felt the most natural and comfortable.
+她还称赞了 David Senra 的采访风格，指出在她看过的所有 Sam Altman 访谈中，与 Senra 的这一期是最自然、最轻松的。
+
+Sources:
+- https://x.com/zarazhangrui/status/2092079390301556883
+- https://x.com/zarazhangrui/status/2092053829772881972
+
+---
+
+Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+
+Nikunj Kothari reflected on the nature of unconventional venture deals: every non-standard deal dies a hundred times before it closes.
+FPV Ventures 合伙人 Nikunj Kothari 反思了非常规风投交易的本质：每一笔非标准交易在成交前都会经历百次"死亡"。
+
+It usually takes one champion who sticks their neck out for the founder and quietly steers the deal to the finish line.
+通常需要一个愿意为创始人挺身而出、默默将交易推向终点的关键推动者。
+
+Source:
+- https://x.com/nikunj/status/2092079149028716877
+
+---
+
+Peter Steinberger (steipete on X) — ClawFather, OpenClaw + OpenAI
+
+Peter Steinberger made a call to action: we need to get away from software that we can't change with a prompt.
+OpenClaw 联合创始人 Peter Steinberger 发出号召：我们需要告别那些无法通过一句话提示进行修改的软件。
+
+Source:
+- https://x.com/steipete/status/2091923535513928015
+
+---
+
+Dan Shipper (danshipper on X) — CEO, Every
+
+Dan Shipper reported that Google disabled the YouTube account for Every with zero notice and no reason given — and he publicly called on Google and YouTube to help resolve it.
+Every CEO Dan Shipper 报告称，Google 在毫无预警、未给任何理由的情况下停用了 Every 的 YouTube 账户，他公开呼吁 Google 和 YouTube 帮助解决此事。
+
+Sources:
+- https://x.com/danshipper/status/2092026065644335446
+- https://x.com/danshipper/status/2092034751037096260
+
+---
+
+Aditya Agarwal (adityaag on X) — General Partner, SPC; Co-Founder, Bevel Health
+
+Aditya Agarwal is hosting Hans Robertson at SPC this week — the co-founder of Meraki (acquired by Cisco for $1.2B) and Verkada, which he continues to run today.
+SPC 普通合伙人、Bevel Health 联合创始人 Aditya Agarwal 本周将在 SPC 迎来 Hans Robertson——Meraki（以 12 亿美元被 Cisco 收购）和 Verkada 的联合创始人，他至今仍在运营 Verkada。
+
+He also reminded builders that SPC applications are open.
+他还提醒创业者：SPC 申请通道已开放。
+
+Sources:
+- https://x.com/adityaag/status/2091958074827313523
+- https://x.com/adityaag/status/2091958077591347630
+
+---
 
 Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
