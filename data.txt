@@ -1,7 +1,4 @@
-AI Builders 日报 · 2026-08-26
-
-AI Builders Digest — 2026-08-26
-AI Builders 日报 — 2026-08-26
+AI Builders 日报 · 2026-08-27
 
 ---
 
@@ -9,189 +6,286 @@ X / TWITTER
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
+## Swyx (swyx on X) — AI Researcher & Developer
 
-OpenAI DevDay 2026 is coming, and Thibault Sottiaux is calling it the best DevDay in the company's history — and it won't be close.
-OpenAI DevDay 2026 即将到来，Thibault Sottiaux 称其将是公司历史上最好的 DevDay，而且差距不会小。
+Swyx issued a public service announcement warning developers not to use Codex's "locked use" capabilities right now.
+Swyx 发出公告，警告开发者目前不要使用 Codex 的"locked use"功能。
 
-He also announced a significant policy change: the 5-hour limit for Plus accounts in ChatGPT Work and Codex will return tomorrow.
-他还宣布了一项重要政策变化：Plus 账户在 ChatGPT Work 和 Codex 中的 5 小时使用限制将于明日恢复。
+The feature is relying on unstable macOS features and has completely locked him out of his macOS keychain twice this week.
+该功能依赖不稳定的 macOS 特性，本周已经两次将他完全锁出了 macOS 钥匙串。
 
-He explained this is necessary because the limit helps manage infrastructure costs while also providing a clear signal to users about responsible usage.
-他解释说，这一限制是必要的，因为它有助于管控基础设施成本，同时也向用户传递了负责任使用的明确信号。
+He noted that Apple has acknowledged this as a "known bug" on its developer forums, and the fix — running everything in the cloud — isn't ready yet.
+他指出，苹果已在开发者论坛上承认这是"已知 Bug"，而目前的解决方案——将一切迁移至云端——尚未就绪。
 
-Sources:
-- https://x.com/thsottiaux/status/2092117461646856505
-- https://x.com/thsottiaux/status/2092058556707344708
+Source: https://x.com/swyx/status/2092492963435946494
 
 ---
 
-Peter Yang (petergyang on X) — Practical AI tutorials and interviews
+## Boris Cherny (bcherny on X) — Claude Code Engineer at Anthropic
 
-Peter Yang shared a strong product opinion: he would rather stop using a product than deal with forced logins for websites, apps, or agents.
-Peter Yang 分享了一个强烈的产品观点：他宁愿停用产品，也不愿忍受网站、应用或 Agent 要求强制登录的体验。
+Boris Cherny announced a small but meaningful improvement: Claude's memory is now simpler and more powerful.
+Boris Cherny 宣布了一项小而有意义的改进：Claude 的记忆系统现在更简单、更强大了。
 
-He's now managing three AI chief of staffs, and humorously suggested the next logical step is to add one more.
-他目前已有三个 AI "参谋长"，并幽默地暗示下一步当然是再加一个。
-
-He also floated a product idea worth building: using AI voice agents to navigate terrible automated phone systems, talk to human reps, and handle tasks like booking appointments or cancelling subscriptions on your behalf.
-他还提出了一个值得构建的产品想法：用 AI 语音 Agent 导航糟糕的自动电话系统，和人工客服对话，代替用户完成预约或取消订阅等事务。
-
-Sources:
-- https://x.com/petergyang/status/2092080901094248474
-- https://x.com/petergyang/status/2092048940732682395
-- https://x.com/petergyang/status/2092031413319266382
+Source: https://x.com/bcherny/status/2092355642363453943
 
 ---
 
-Nan Yu (thenanyu on X) — Product Enthusiast
+## Thibault Sottiaux (thsottiaux on X) — Product Builder
 
-Nan Yu found setting up a new computer with Codex surprisingly pleasant — just telling it to install Handy, Slack, Chrome, CleanShot, and Rectangle gets the job done.
-Nan Yu 发现用 Codex 配置新电脑出奇地顺手——只需告诉它安装 Handy、Slack、Chrome、CleanShot 和 Rectangle 就搞定了。
+Thibault shared that good products take time — at least 34 days.
+Thibault 分享道，好产品需要时间——至少 34 天。
 
-*"makes you wish Siri was good"* — he quipped, capturing the gap between what AI assistants promise and what most of them deliver.
-*"makes you wish Siri was good"* ——他的一句调侃，道出了 AI 助手的承诺与现实之间的差距。
+He teased a new ChatGPT plan designed for teams and small companies, similar to the Pro $100/month plan but with additional enterprise features: Google Workspace, Slack, GitHub, Microsoft 365 integrations, SAML/SSO/MFA security, centralized billing, usage analytics, and no 5-hour limits.
+他预告了一个面向团队和中小企业的新 ChatGPT 计划，类似 Pro 100 美元/月方案，但新增了企业级功能：支持 Google Workspace、Slack、GitHub、Microsoft 365 集成，以及 SAML/SSO/MFA 安全认证、集中账单、用量分析，且无 5 小时限制。
 
-He also called out Google's decision to add emoji reactions to Gmail that render as garbled single-character emails in every other mail client — including iPhone Mail, the most widely used mail app on Earth.
-他还批评了 Google 在 Gmail 中添加 emoji 回应的决定——在所有其他邮件客户端（包括地球上最常用的 iPhone 邮件应用）中，这些反应都会变成乱码的单字符邮件。
+He also hinted at wanting to see a Polymarket prediction market for the launch.
+他还暗示希望看到一个关于该产品发布的 Polymarket 预测市场。
 
-Sources:
-- https://x.com/thenanyu/status/2092048044502192374
-- https://x.com/thenanyu/status/2091993558018572434
-
----
-
-Madhu Guru (realmadhuguru on X) — Sr Director of AI, Meta (prev: Google Gemini, Veo, Nano)
-
-In Part 8 of his series on building great evals, Madhu Guru introduced the concept of the "discriminatory property" of evals.
-在其构建优质评测系列的第 8 期中，Meta AI 高级总监 Madhu Guru 介绍了评测的"区分属性"概念。
-
-A good hill-climbing eval must be able to distinguish between AI systems that are meaningfully different from one another — otherwise it's just noise.
-一个好的爬坡式评测必须能够区分彼此有实质差异的 AI 系统，否则它只是噪音。
-
-Source:
-- https://x.com/realmadhuguru/status/2092058332735693264
+Source: https://x.com/thsottiaux/status/2092487667426738179
+Source: https://x.com/thsottiaux/status/2092345330272780499
 
 ---
 
-Amjad Masad (amasad on X) — CEO, Replit
+## Peter Yang (petergyang on X) — Product Builder & Creator
 
-Amjad Masad shared that Replit Agent has completely replaced Claude CoWork in his daily workflow.
-Replit CEO Amjad Masad 表示，Replit Agent 已完全取代 Claude CoWork 成为他日常工作的主力工具。
+Peter Yang open-sourced /fuck-cancer, a free AI skill designed to help patients and caregivers navigate cancer diagnosis and treatment.
+Peter Yang 开源了 /fuck-cancer，这是一个免费的 AI 技能，旨在帮助患者和照护者应对癌症诊断与治疗。
 
-*"It's much more persistent and fastidious, and it uses code/software more effectively to complete tasks."*
-*"它更具持久性和严谨性，在利用代码/软件完成任务方面也更为高效。"*
+The skill builds a practical brief with five sections: patient and care-team info, next actions (limited to three), known facts vs. unknowns, medical terms explained in plain English, and a care log.
+该技能会生成一份包含五部分的实用摘要：患者与护理团队信息、下一步行动（最多三项）、已确认事实与未知项、通俗化的医学术语解释，以及护理日志。
 
-Sources:
-- https://x.com/amasad/status/2091962601907638352
+*"ChatGPT / Codex is basically the OS I use for everything I do on my computer."*
+"ChatGPT / Codex 基本上就是我电脑上做任何事情的操作系统。"
 
----
+He also expressed excitement about attending OpenAI Dev Day.
+他还表达了对参加 OpenAI Dev Day 的期待。
 
-Guillermo Rauch (rauchg on X) — CEO, Vercel
-
-Guillermo Rauch made a case for software that bucks the trend: his project is architected from the start to stay faster, cheaper, more capable, and smaller as it evolves — the opposite of how most software ages.
-Vercel CEO Guillermo Rauch 为逆潮流而行的软件发声：他的项目从一开始就在架构上确保随着迭代变得更快、更便宜、更强大、更精简——这与大多数软件的老化方式恰恰相反。
-
-He also shared a fascinating bit of computing history: the `reset` command on Unix has a `sleep(1)` delay that dates back to 1979, when it was needed to let mechanical printer-and-ink terminals finish their work.
-他还分享了一个有趣的计算机历史细节：Unix 的 `reset` 命令中有一个 `sleep(1)` 延迟，可以追溯到 1979 年，当时是为了让机械打字机终端完成收尾工作而设计的。
-
-Sources:
-- https://x.com/rauchg/status/2092081554814320677
-- https://x.com/rauchg/status/2091957823945216474
+Source: https://x.com/petergyang/status/2092249012913258946
+Source: https://x.com/petergyang/status/2092311110871617915
+Source: https://x.com/petergyang/status/2092281120650047746
 
 ---
 
-Aaron Levie (levie on X) — CEO, Box
+## Madhu Guru (realmadhuguru on X) — AI Product & Evals Expert
 
-Aaron Levie argued that systems of record have never been more important than in an AI-agent world, where agents will query and act on enterprise data at 100x the volume of human workers.
-Box CEO Aaron Levie 指出，在 AI Agent 时代，记录系统的重要性前所未有——Agent 对企业数据的查询和操作量将是人工的 100 倍。
+Madhu Guru published Part 9 of his "How to Build Great Evals" series, focusing on the Eval Roadmap Problem.
+Madhu Guru 发布了"如何构建卓越 Evals"系列的第 9 篇，聚焦于 Eval 路线图问题。
 
-He also highlighted that Zero Data Retention (ZDR) has been a quiet but substantial driver of enterprise AI adoption, because it dramatically simplified the compliance process for companies handling sensitive data.
-他还强调，零数据留存（ZDR）政策一直是企业 AI 采用的低调但重要推动力，因为它大幅简化了企业处理敏感数据时的合规流程。
+*"Most evals fail because teams treat them as static artifacts while their users' expectations and behaviors have evolved."*
+"大多数 evals 失败，是因为团队将其视为静态产物，而用户的期望和行为早已不断演进。"
 
-Sources:
-- https://x.com/levie/status/2092087679240569126
-- https://x.com/levie/status/2091909170308296950
+He argues that evals must evolve alongside usage patterns — from short-context single-turn QA to long-context multi-turn agentic workflows — and provides a five-step practical roadmap for keeping evals ahead of actual user behavior.
+他认为，evals 必须随使用模式演进——从短上下文单轮问答，到长上下文多轮 Agent 工作流——并给出了一套五步实践路线图，帮助团队让 evals 始终领先于实际用户行为。
 
----
+He also compiled the full nine-part eval series into a single thread for easy reference.
+他还将完整的九篇 evals 系列整理成一个合集，方便查阅。
 
-Garry Tan (garrytan on X) — President & CEO, Y Combinator
-
-Garry Tan pushed back on data center skepticism: data centers create real jobs and prosperity — a point he backed with links.
-YC 总裁兼 CEO Garry Tan 回击了对数据中心的质疑：数据中心切实创造就业机会和经济繁荣——他附上链接为此背书。
-
-He also praised Conductor Cloud for making him significantly more productive, to the point where he no longer needs his MacBook Pro open at all times.
-他还称赞 Conductor Cloud 大幅提升了他的生产效率，以至于他不再需要随时打开 MacBook Pro 了。
-
-He shared a crisp mental model for decision-making: form a view → turn it into an artifact or experiment → put it in contact with reality → read the result without self-deception → revise and run again.
-他分享了一个简洁的决策心智模型：形成观点 → 转化为产物或实验 → 让它接触现实 → 不自欺地解读结果 → 修正后再次运行。
-
-Sources:
-- https://x.com/garrytan/status/2092062820229890209
-- https://x.com/garrytan/status/2092062231488061584
-- https://x.com/garrytan/status/2092059517446156640
+Source: https://x.com/realmadhuguru/status/2092426017118028266
+Source: https://x.com/realmadhuguru/status/2092461206783373758
 
 ---
 
-Zara Zhang (zarazhangrui on X) — Builder
+## Cat Wu (_catwu on X) — Product at Anthropic
 
-Zara Zhang shared an unpopular opinion: hackathons are an outdated event format, at least in the way they're traditionally run.
-Zara Zhang 分享了一个"少数派意见"：黑客马拉松是一种过时的活动形式，至少以传统方式举办的黑客马拉松如此。
+Cat Wu announced that Claude's memory has been unified across Chat and Cowork surfaces, based on user feedback.
+Cat Wu 宣布，根据用户反馈，Claude 的记忆已在 Chat 和 Cowork 两个端面实现统一。
 
-She also praised David Senra's interviewing style, noting that among all the Sam Altman interviews she's watched, the one with Senra felt the most natural and comfortable.
-她还称赞了 David Senra 的采访风格，指出在她看过的所有 Sam Altman 访谈中，与 Senra 的这一期是最自然、最轻松的。
+Now users can tell Claude to remember something once, and it will retain that context across all surfaces.
+现在用户只需告诉 Claude 记住某件事一次，它便会在所有界面保留该上下文。
 
-Sources:
-- https://x.com/zarazhangrui/status/2092079390301556883
-- https://x.com/zarazhangrui/status/2092053829772881972
+Source: https://x.com/_catwu/status/2092337156455051345
 
 ---
 
-Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+## Thariq (trq212 on X) — Engineer at Anthropic (Claude Code)
 
-Nikunj Kothari reflected on the nature of unconventional venture deals: every non-standard deal dies a hundred times before it closes.
-FPV Ventures 合伙人 Nikunj Kothari 反思了非常规风投交易的本质：每一笔非标准交易在成交前都会经历百次"死亡"。
+Thariq teased that the team is working on making Claude Code more "hackable" and will share more details soon.
+Thariq 预告团队正在致力于让 Claude Code 更具"可扩展性"，并将很快分享更多细节。
 
-It usually takes one champion who sticks their neck out for the founder and quietly steers the deal to the finish line.
-通常需要一个愿意为创始人挺身而出、默默将交易推向终点的关键推动者。
-
-Source:
-- https://x.com/nikunj/status/2092079149028716877
+Source: https://x.com/trq212/status/2092303682616627311
 
 ---
 
-Peter Steinberger (steipete on X) — ClawFather, OpenClaw + OpenAI
+## Google Labs (GoogleLabs on X) — Google Labs
 
-Peter Steinberger made a call to action: we need to get away from software that we can't change with a prompt.
-OpenClaw 联合创始人 Peter Steinberger 发出号召：我们需要告别那些无法通过一句话提示进行修改的软件。
+Google Labs announced a new experiment called Play with Putty, a collaborative "vibe coding" tool that lets users build tools and websites together in real time.
+Google Labs 发布了名为 Play with Putty 的新实验项目，这是一款协作式"氛围编程"工具，支持用户实时共同构建工具和网站。
 
-Source:
-- https://x.com/steipete/status/2091923535513928015
+The tool is currently in waitlist phase, US only, ages 18+.
+该工具目前处于候补名单阶段，仅限美国用户，年满 18 岁。
 
----
-
-Dan Shipper (danshipper on X) — CEO, Every
-
-Dan Shipper reported that Google disabled the YouTube account for Every with zero notice and no reason given — and he publicly called on Google and YouTube to help resolve it.
-Every CEO Dan Shipper 报告称，Google 在毫无预警、未给任何理由的情况下停用了 Every 的 YouTube 账户，他公开呼吁 Google 和 YouTube 帮助解决此事。
-
-Sources:
-- https://x.com/danshipper/status/2092026065644335446
-- https://x.com/danshipper/status/2092034751037096260
+Source: https://x.com/GoogleLabs/status/2092293667688173593
 
 ---
 
-Aditya Agarwal (adityaag on X) — General Partner, SPC; Co-Founder, Bevel Health
+## Guillermo Rauch (rauchg on X) — CEO of Vercel
 
-Aditya Agarwal is hosting Hans Robertson at SPC this week — the co-founder of Meraki (acquired by Cisco for $1.2B) and Verkada, which he continues to run today.
-SPC 普通合伙人、Bevel Health 联合创始人 Aditya Agarwal 本周将在 SPC 迎来 Hans Robertson——Meraki（以 12 亿美元被 Cisco 收购）和 Verkada 的联合创始人，他至今仍在运营 Verkada。
+Guillermo Rauch made two major infrastructure announcements today.
+Guillermo Rauch 今日发布了两项重要基础设施公告。
 
-He also reminded builders that SPC applications are open.
-他还提醒创业者：SPC 申请通道已开放。
+First, Vercel introduced the Run SDK: a lightweight QuickJS secure context for evaluating agent-generated code without needing a full sandbox — faster and more cost-efficient.
+首先，Vercel 推出了 Run SDK：一个基于 QuickJS 的轻量级安全上下文，用于执行 Agent 生成的代码，无需完整沙箱，速度更快、成本更低。
 
-Sources:
-- https://x.com/adityaag/status/2091958074827313523
-- https://x.com/adityaag/status/2091958077591347630
+Second, Vercel Connect is now generally available, solving what Rauch called *"the hardest problem in building agents"* — secure connectivity to services and data.
+其次，Vercel Connect 正式 GA，解决了 Rauch 所称的"构建 Agent 最难的问题"——安全连接服务与数据。
+
+*"The hardest problem in building agents is secure connectivity to services and data."*
+"构建 Agent 最难的问题是对服务和数据的安全连接。"
+
+Source: https://x.com/rauchg/status/2092382653161107534
+Source: https://x.com/rauchg/status/2092352411839193234
+
+---
+
+## Aaron Levie (levie on X) — CEO of Box
+
+Box CEO Aaron Levie shared a thoughtful post on applied AI strategy at scale, emphasizing the gap between raw AI models and enterprise workflows.
+Box CEO Aaron Levie 分享了一篇关于规模化应用 AI 战略的深度思考，强调了原始 AI 模型与企业工作流之间的巨大鸿沟。
+
+*"The world doesn't just want raw models and agents; it wants problems resolved and outcomes achieved. The premium will sit with the companies that can diffuse this intelligence through every aspect of civilization."*
+"世界不只想要原始模型和 Agent，它想要的是问题的解决和结果的实现。溢价将属于那些能够将智能渗透到文明每个角落的公司。"
+
+He argues that the real value lies in context understanding, change management, model routing, business system integration, UX for agent workflows, and domain-specific evals — creating a significant window of opportunity for applied AI companies right now.
+他认为，真正的价值在于上下文理解、变革管理、模型路由、业务系统集成、Agent 工作流的 UX 设计以及垂直领域的 evals——这为应用 AI 公司创造了当下难得的机遇窗口。
+
+Source: https://x.com/levie/status/2092466424694649066
+
+---
+
+## Garry Tan (garrytan on X) — CEO of Y Combinator
+
+Garry Tan recommended "cross-harness memory maxxing" as a productivity approach, sharing a link to a related resource.
+Garry Tan 推荐了"跨工具记忆最大化"作为一种生产力方法，并分享了相关资源链接。
+
+近期无其他重要动态（其余推文为轻松内容）。
+No other substantive updates; other tweets were casual in nature.
+
+Source: https://x.com/garrytan/status/2092277912053657722
+
+---
+
+## Nikunj Kothari (nikunj on X) — Builder
+
+Nikunj Kothari launched elneenyo.com, a real-time El Niño situation monitor built with ChatGPT Codex and Railway.
+Nikunj Kothari 上线了 elneenyo.com，这是一个用 ChatGPT Codex 和 Railway 构建的 El Niño（厄尔尼诺）实时监测平台。
+
+The tool provides real-time updates from government sources, regional impact data and costs, historical records, and a glossary/FAQ on all readings.
+该工具提供来自政府来源的实时更新、各地区影响数据与成本、历史记录，以及所有指标的词汇表和常见问题解答。
+
+He credited the inspiration to The Stalwart's Odd Lots episode, with design polish from emilkowalski's skills and generative loaders.
+他表示灵感来源于 The Stalwart 的 Odd Lots 节目，设计优化借助了 emilkowalski 的工具技能和生成式加载器。
+
+Source: https://x.com/nikunj/status/2092383834470002922
+Source: https://x.com/nikunj/status/2092384774459674957
+
+---
+
+## Peter Steinberger (steipete on X) — Developer & Entrepreneur
+
+近期无重要动态（推文内容为纯链接，缺乏实质性信息）。
+No substantive updates this week — tweet was a link-only post without additional context.
+
+Source: https://x.com/steipete/status/2092294123638362346
+
+---
+
+## Dan Shipper (danshipper on X) — CEO of Every
+
+近期无重要动态（推文为纯链接或极简文字，缺乏实质性信息）。
+No substantive updates — tweets were either link-only or minimal-text posts without additional context.
+
+Source: https://x.com/danshipper/status/2092279611988050181
+
+---
+
+## Aditya Agarwal (adityaag on X) — Investor & Former CTO
+
+Aditya Agarwal offered a contrarian take: it's unsurprising that the general public resents datacenter buildout, because AI today primarily helps highly-paid knowledge workers.
+Aditya Agarwal 给出了一个逆向观点：公众对数据中心建设的反感并不令人意外，因为 AI 目前主要惠及高薪知识工作者。
+
+He believes the real turning point will come when AI can find cures for diseases that affect everyone — and that the industry hasn't helped itself by focusing on fear-mongering instead of painting a positive vision of the future.
+他认为，真正的转折点将在 AI 能够攻克普惠性疾病时到来——同时批评行业一直热衷于渲染恐惧，而非描绘积极的未来愿景。
+
+Source: https://x.com/adityaag/status/2092290497826173186
+
+---
+
+## Sam Altman (sama on X) — CEO of OpenAI
+
+OpenAI CEO Sam Altman dropped a brief but significant update: *"we made a chip and it is fast."*
+OpenAI CEO Sam Altman 发布了一条简短但意味深长的更新："我们造了一块芯片，它很快。"
+
+This confirms OpenAI is moving forward with its custom silicon strategy.
+这证实了 OpenAI 正在推进其自研芯片战略。
+
+Source: https://x.com/sama/status/2092339694210040187
+
+---
+
+## Claude AI (claudeai on X) — Anthropic's Claude
+
+Anthropic's Claude account made three announcements about its updated memory system, consistent with Boris Cherny's and Cat Wu's posts earlier today.
+Anthropic 的 Claude 官方账号发布了三条关于更新后记忆系统的公告，与今日早些时候 Boris Cherny 和 Cat Wu 的帖子相呼应。
+
+Claude now has unified memory across Chat and Claude Cowork, giving users full visibility and control over what is stored.
+Claude 现在在 Chat 和 Claude Cowork 之间拥有统一记忆，用户可以完全看到并控制存储的内容。
+
+Sensitive topics like health or religious beliefs are excluded from memory by default, and users can review, edit, or delete any stored item in Settings.
+健康或宗教信仰等敏感话题默认不会被存入记忆，用户可以随时在"设置"中查看、编辑或删除任何存储条目。
+
+Source: https://x.com/claudeai/status/2092299704864284888
+Source: https://x.com/claudeai/status/2092299707653439497
+Source: https://x.com/claudeai/status/2092299710002319742
+
+---
+
+PODCASTS
+
+---
+
+## Parallel's Parag Agrawal: Building a New Web for AI Agents
+Training Data Podcast
+
+This episode features Parag Agrawal — former Twitter CEO, now founder of Parallel Web Systems — discussing how agents are fundamentally changing web search.
+本期节目嘉宾是前推特 CEO、现 Parallel Web Systems 创始人 Parag Agrawal，探讨 Agent 如何从根本上改变网络搜索。
+
+**核心论点 / Core Thesis**
+
+The web was built for humans, but AI agents will use it at 1,000x the scale humans do — requiring an entirely new search infrastructure and business model built specifically for agents.
+互联网是为人类构建的，但 AI Agent 使用互联网的规模将是人类的 1000 倍——这需要一套专为 Agent 打造的全新搜索基础设施和商业模式。
+
+**关键洞察 / Key Insights**
+
+Human click data is a bug, not a feature.
+人类点击数据是一个 Bug，而非特性。
+
+*"Our view at Parallel is that human click data is a bug, and agent doing work with search should rely on agent feedback, not human feedback."*
+"我们在 Parallel 的观点是，人类点击数据是一个 Bug，执行搜索任务的 Agent 应依赖 Agent 的反馈，而非人类反馈。"
+
+Agent feedback enables cheaper, better-quality training signals because LLMs are highly capable at compressing and evaluating information — making it possible for a startup to compete with Google-scale indices.
+Agent 反馈能提供更低成本、更高质量的训练信号，因为大语言模型在信息压缩和评估方面能力极强——这让初创公司有可能与谷歌量级的索引展开竞争。
+
+Parallel launched a search agent first, not a search product.
+Parallel 首先推出了搜索 Agent，而非搜索产品。
+
+By allowing agents to crawl the web live in response to deep-research queries (tolerating up to 10 minutes of latency), they built an incrementally growing index without requiring massive upfront infrastructure investment.
+通过允许 Agent 在收到深度研究查询后实时爬取网页（可容忍最多 10 分钟的延迟），他们在无需大量前期基础设施投入的情况下，逐步构建起不断扩大的索引。
+
+Unlearning post-PMF instincts is critical when building for a customer that doesn't yet exist.
+为尚不存在的客户构建产品时，必须主动卸载已达 PMF 阶段的直觉。
+
+Parag explicitly contrasts the data-rich feedback loops of running a scaled consumer product (Twitter) with the uncertainty of building pre-PMF infrastructure for agents — arguing that operating instincts from one context actively hurt you in the other.
+Parag 明确对比了运营成熟消费产品（推特）时数据丰富的反馈循环，与为 Agent 构建 PMF 前基础设施的不确定性——他认为一种场景下的运营直觉会在另一种场景中成为负担。
+
+**最值得关注的信号 / Most Forward-Looking Signal**
+
+The agent is already a distinct customer category — not just a technology.
+Agent 已经是一个独立的客户类别，而不仅仅是一种技术。
+
+This reframe matters enormously: it means search infra, pricing, and business models for agents need to be designed from scratch, not retrofitted from human-facing products.
+这一重新定义至关重要：它意味着 Agent 的搜索基础设施、定价和商业模式需要从零设计，而不是在面向人类的产品上打补丁。
+
+Episode URL: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
 ---
 
