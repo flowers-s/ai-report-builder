@@ -1,245 +1,195 @@
-AI Builders 日报 · 2026-08-28
+AI Builders 日报 · 2026-08-29
 
-AI Builders Digest — 2026-08-28
-AI Builders 精选日报 — 2026-08-28
+AI Builders Digest — 2026-08-29
+AI Builders 日报 — 2026-08-29
 
----
-
-## OFFICIAL BLOGS
-## 官方博客
-
-### Claude Blog
-
-**Claude in Chrome is generally available**
-**Chrome 版 Claude 正式全面上线**
-
-Claude in Chrome is now generally available on all paid plans.
-Chrome 版 Claude 现已向所有付费用户全面开放。
-
-If you already use it, it remains your default.
-如果你此前已在使用，它将继续作为默认浏览器工具。
-
-Source: https://claude.com/blog/claude-in-chrome-generally-available
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+X / TWITTER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ---
 
-**Claude gets its own built-in browser in Cowork**
-**Claude 在 Cowork 中获得专属内置浏览器**
+Josh Woodward — VP, Google Labs / Gemini / Google AI Studio (joshwoodward on X)
 
-Claude now has its own built-in browser in Cowork.
-Claude 现在在 Cowork 中拥有专属内置浏览器。
+Google's Josh Woodward announced that Gemini can now act on voice commands — you tell it what you want done, and it gets to work.
+谷歌 Google Labs/Gemini 副总裁 Josh Woodward 宣布，Gemini 现在可以根据语音指令自主执行任务——你说出你想做的事，它就开始工作。
 
-When your task involves a website, a browser opens in Cowork's side panel, and Claude navigates, fills forms, and finishes the job.
-当任务涉及网页时，浏览器会在 Cowork 侧边栏打开，Claude 将自动导航、填写表单并完成任务。
+He called this moment *"the Year of Voice"*, signaling a major shift in how people interact with AI assistants.
+他将这一时刻称为 *"语音之年"*，标志着人们与 AI 助手交互方式的重大转变。
 
-There's nothing to install — Claude's browser is built into the desktop app and stays separate from your own browser and logins.
-无需安装任何插件 —— Claude 的浏览器已内置于桌面应用，并与你自己的浏览器和账号完全隔离。
+Woodward also announced a new NotebookLM feature: you can buy a book, drop it into Notebook, and apply the author's lessons to your own project — turning books into a personal brain trust.
+Woodward 还宣布了 NotebookLM 的新功能：你可以购买一本书，将其上传到 Notebook，然后将作者的思想直接应用到你自己的项目中——把书籍变成你的私人智囊团。
 
-Rolling out over the next week on the desktop app for all paid plans.
-将在接下来一周内向所有付费计划的桌面端用户逐步推送。
+This program was co-created with authors and publishers to help them reach more engaged readers.
+该计划与作者和出版商共同打造，旨在帮助他们触达更多深度读者。
 
-Source: https://claude.com/blog/cowork-built-in-browser
-
----
-
-## X / TWITTER
-## 推特精选
-
-### Claude · Anthropic AI官方账号 (claudeai on X)
-
-Claude now has its own built-in browser in Cowork.
-Claude 现在在 Cowork 中拥有专属内置浏览器。
-
-When your task involves a website, a browser opens in Cowork's side panel, and Claude navigates, fills forms, and finishes the job.
-当任务涉及网页时，浏览器会在 Cowork 侧边栏自动打开，Claude 完成导航、填表等操作。
-
-Source: https://x.com/claudeai/status/2092755571455758427
-
-There's nothing to install — Claude's browser is built into the desktop app and stays completely separate from your personal browser and logins.
-无需安装 —— Claude 的浏览器内置于桌面应用，与个人浏览器环境完全分离。
-
-Rolling out over the next week on the desktop app for all paid plans.
-将在接下来一周内向所有付费桌面用户逐步开放。
-
-Source: https://x.com/claudeai/status/2092755573183828193
-
-If you prefer to work in your own browser where you're already signed in, Claude in Chrome is now generally available on all paid plans.
-如果你习惯在自己的浏览器中操作，Chrome 版 Claude 现已向所有付费用户正式开放。
-
-Source: https://x.com/claudeai/status/2092755574563741871
+Source: https://x.com/joshwoodward/status/2093074288295481470
+Source: https://x.com/joshwoodward/status/2093070717508296923
 
 ---
 
-### Thariq · Claude Code工程师 @Anthropic (trq212 on X)
+Thibault Sottiaux — Codex & ChatGPT, OpenAI (thsottiaux on X)
 
-Claude now has a `SendFeedback` tool, so instead of manually filing `/feedback` reports, users can simply tell Claude to draft and approve feedback.
-Claude 现已新增 `SendFeedback` 工具，用户无需手动执行 `/feedback` 命令，只需告诉 Claude 起草并确认反馈即可。
+OpenAI's Thibault Sottiaux shared that ChatGPT can now handle real-world tasks like grocery orders, Uber rides, and haircut appointments — all without ever seeing your actual credentials.
+OpenAI Codex 与 ChatGPT 团队成员 Thibault Sottiaux 分享道，ChatGPT 现在可以处理现实世界的任务，例如购买杂货、叫 Uber、预约理发——且全程无需接触你的真实账号密码。
 
-*"This was my change, excited to roll it out"* — Thariq 表示这一改进出自他本人，期待正式推出。
-用户反馈将帮助团队更好地理解问题并持续改进产品。
+He also observed a notable cultural shift: *"Starting to see more and more Codex users on airplanes and in cafés. Underdog energy gone mainstream."*
+他还观察到一个值得关注的文化转变：*"在飞机上和咖啡馆里越来越多地看到 Codex 用户。曾经的小众能量，已然成为主流。"*
 
-Source: https://x.com/trq212/status/2092696449616376140
-
-Thariq also flagged that several customers are being targeted by fraudulent requests, and praised Stripe's work to combat these attacks.
-Thariq 还指出，多位客户遭遇欺诈性请求攻击，并对 Stripe 在打击此类攻击方面的工作给予肯定。
-
-*"Still a lot of work to do, these sort of attacks hurt everyone's ability to provide usage to legitimate users."*
-"仍有大量工作要做，此类攻击会损害为合法用户提供服务的能力。"
-
-Source: https://x.com/trq212/status/2092729394565657010
+Source: https://x.com/thsottiaux/status/2093074717590921245
+Source: https://x.com/thsottiaux/status/2093207246977318928
 
 ---
 
-### Guillermo Rauch · Vercel CEO (rauchg on X)
+Peter Yang — AI教程创作者、Creator Economy研究者 (petergyang on X)
 
-Vercel is launching a security dashboard and a `vercel security check` CLI, designed to let agents improve your security posture with human-in-the-loop, or run automatically in crons.
-Vercel 正在推出安全仪表盘和 `vercel security check` 命令行工具，支持 AI agent 以人在回路方式或定时任务的形式提升项目安全性。
+Creator and AI educator Peter Yang shared three substantial observations this week.
+AI 教程创作者 Peter Yang 本周分享了三条有深度的观察。
 
-*"Who would have thunk CLIs would save the world"* — Rauch 幽默地感慨 CLI 工具正在"拯救世界"。
+First, his /no-ai-slop skill (6K GitHub stars) can work in reverse — he demonstrated it by generating a wedding vow for a couple united by their love of B2B SaaS.
+首先，他的 /no-ai-slop 技能（已获 6K GitHub 星标）可以反向使用——他展示了为一对因热爱 B2B SaaS 而结缘的夫妇生成婚礼誓词的例子。
 
-Source: https://x.com/rauchg/status/2092621371914482026
+Second, he made a bold product prediction: *"The new products that I'm mostly likely to adopt need to work in today's top AI harnesses"* — arguing that context-rich platforms like ChatGPT and Grok make standalone AI apps increasingly hard to justify.
+其次，他做出了一个大胆的产品预测：*"我最有可能采用的新产品，必须能在当今顶级 AI 平台中运行"*——他认为，像 ChatGPT 和 Grok 这样拥有丰富上下文的平台，让独立 AI 应用越来越难以立足。
 
-Vercel also announced global compute infrastructure for agents: multiple regions, failover, up to 10,000 concurrent sandboxes and 5,000 vCPUs/min ramp by default.
-Vercel 还发布了面向 Agent 的全球计算基础设施：多区域部署、故障转移支持，默认提供最高 10,000 个并发沙箱和 5,000 vCPUs/分钟的弹性扩容能力。
+Third, after uploading 160 pages of medical records to AI, he called the experience incredible — but urged ChatGPT Health to support caregivers and family sharing, not just individual patients.
+第三，在将 160 页病历上传给 AI 后，他称这一体验令人惊叹——但同时呼吁 ChatGPT Health 不仅服务个人患者，还要支持护理人员和家庭成员之间的数据共享。
 
-*"Global compute at your (agents') fingertips."*
-"全球算力，尽在 Agent 指尖。"
-
-Source: https://x.com/rauchg/status/2092735785460277627
-
----
-
-### Josh Woodward · Google Labs VP (joshwoodward on X)
-
-Josh shared a link experimenting with multiplayer AI — exploring what it looks like when multiple AI agents collaborate in real time.
-Josh 分享了一个多人协作 AI 的实验项目，探索多个 AI 代理实时协同运行的可能性。
-
-Source: https://x.com/joshwoodward/status/2092614266818064389
+Source: https://x.com/petergyang/status/2093132262602920002
+Source: https://x.com/petergyang/status/2093126719888916616
+Source: https://x.com/petergyang/status/2093099238381240447
 
 ---
 
-### Thibault Sottiaux · OpenAI Codex & ChatGPT工程师 (thsottiaux on X)
+Nan Yu — 产品爱好者 (thenanyu on X)
 
-Thibault shared a vivid impression of OpenAI's pace of work: *"A few weeks at OpenAI feel like years at other companies in terms of how much gets done."*
-Thibault 生动描述了 OpenAI 的工作节奏：*"在 OpenAI 的几周，抵得上其他公司的几年产出。"*
+Product enthusiast Nan Yu shared a video calling it *"the future of the tech job market (if we get this AI thing right)"*.
+产品爱好者 Nan Yu 分享了一段视频，称其为 *"科技就业市场的未来（如果我们把 AI 这件事做对的话）"*。
 
-他感叹在这种高强度下，人会在短短几天内迅速"成长"，甚至感觉自己老了很多。
+He also shared a CleanShot productivity tip about an important non-default setting that most users miss.
+他还分享了一个关于 CleanShot 的生产力小技巧，提示了一个大多数用户忽略的重要非默认设置。
 
-Source: https://x.com/thsottiaux/status/2092756702349398036
-
----
-
-### Aaron Levie · Box CEO (levie on X)
-
-Box reported Q2 results: revenue of $321.1 million, up 9% year-over-year (11% in constant currency), the highest constant-currency growth rate in 14 quarters.
-Box 公布第二季度财报：营收 3.211 亿美元，同比增长 9%（按固定汇率计算增长 11%），创近 14 个季度最高固定汇率增速。
-
-The company raised its full-year revenue target to $1.290 billion, with growth driven by AI-related demand.
-公司将全年营收目标上调至 12.9 亿美元，增长主要由 AI 相关需求驱动。
-
-Source: https://x.com/levie/status/2092702955292230100
+Source: https://x.com/thenanyu/status/2093053415429677155
+Source: https://x.com/thenanyu/status/2093010530403561964
 
 ---
 
-### Matt Turck · FirstMark Capital合伙人 (mattturck on X)
+Madhu Guru — Meta AI 高级总监，前 Google Gemini/Veo 负责人 (realmadhuguru on X)
 
-Matt celebrated NVIDIA's investment in Hugging Face as a landmark moment: *"NVIDIA is officially the center of open source AI"* — a win for NVIDIA, Hugging Face, and the open-source AI ecosystem alike.
-Matt 盛赞英伟达入股 Hugging Face 是一个里程碑事件：*"英伟达正式成为开源 AI 的中心"* —— 对英伟达、Hugging Face 和整个开源 AI 生态都是重大利好。
+Meta's Senior Director of AI Madhu Guru issued a sharp directive to enterprise AI leaders: make your AI stack model-agnostic, and invest in two things now.
+Meta AI 高级总监 Madhu Guru 向企业 AI 负责人发出了清晰的指令：让你的 AI 技术栈与模型解耦，并立即在两件事上投资。
 
-Source: https://x.com/mattturck/status/2092808287280329097
+First, today: build an eval suite that fully captures your use cases and business outcomes — *"most companies I've seen do not do a good job of this."*
+第一，现在就做：构建能够全面覆盖你的用例和业务结果的评估体系——*"我见过的大多数公司在这方面做得都不好。"*
 
-Matt also discussed key themes in a podcast guest appearance: why NVIDIA might be the world's best venture firm, the "hyper power law," why apps are becoming labs faster than labs are becoming apps, and the AI bubble vs. duration mismatch.
-Matt 还以嘉宾身份出席播客，深入探讨了英伟达为何可能是全球最优秀的风投机构、"超幂次定律"、应用公司比实验室公司更快走向研究化的趋势，以及 AI 泡沫与久期错配等议题。
+Second, within a year: build the capability to post-train open models, as the talent gap in this area is severe.
+第二，一年内完成：建立对开源模型进行后训练的能力，因为这一领域的人才缺口极为突出。
 
-Source: https://x.com/mattturck/status/2092688916969095587
+His bottom line: *"own the evals, own the models."*
+他的核心结论是：*"掌控评估，掌控模型。"*
 
----
-
-### Zara Zhang · 创业者/投资人 (zarazhangrui on X)
-
-Zara made a sharp observation: most PR teams at large companies exist to block real marketing and branding, which is deeply ironic.
-Zara 犀利指出：大公司的公关团队往往阻碍了真正的市场营销和品牌建设，而这恰恰与其存在的初衷背道而驰。
-
-*"It's so ironic that a function designed to enhance a company's brand ends up being antithetical to it."*
-"一个旨在提升品牌的职能，最终却成了品牌的阻力，讽刺至极。"
-
-Source: https://x.com/zarazhangrui/status/2092774923320369394
-
-Zara also called out a double standard around AI writing: people think it's fine when they use it, but not when others do.
-Zara 还指出 AI 写作中的双重标准现象：人们往往觉得自己用 AI 写作无可厚非，却对他人的同样行为持批判态度。
-
-Source: https://x.com/zarazhangrui/status/2092773720112988366
+Source: https://x.com/realmadhuguru/status/2093143877087879377
 
 ---
 
-### Dan Shipper · Every CEO (danshipper on X)
+Guillermo Rauch — Vercel CEO (rauchg on X)
 
-Dan highlighted the launch of Codex native apps — a significant milestone for AI-powered development tools.
-Dan 重点介绍了 Codex 原生应用的发布，这是 AI 驱动开发工具领域的重要里程碑。
+Vercel CEO Guillermo Rauch launched a new agent-native devtool, born from internal WebGPU creative productions.
+Vercel CEO Guillermo Rauch 推出了一款全新的"面向智能体原生"开发工具，源自其团队内部的 WebGPU 创意实验。
 
-Source: https://x.com/danshipper/status/2092686463859126492
+He described it as *"fully agent-native: it was designed for agents, not humans alone"* — part of a new generation of tools built for the post-agent world.
+他将其描述为 *"完全面向智能体原生：它是为智能体设计的，而不仅仅是为人类"*——这是为后智能体时代打造的新一代工具之一。
 
-Dan also reflected on what he sees as a golden age for polymaths and philosophers, calling it an *"incredible time."*
-Dan 还感慨当下是博学者和哲学家的黄金时代，称其为一个"不可思议的时代"。
+He also shared a philosophical observation: shaders and WebGPU are *"further proof that 'everything is computer'"* — geometry, light, materials, reflections are all just massively parallel programs.
+他还分享了一个哲学性观察：着色器和 WebGPU 是 *"'万物皆计算机'的又一佐证"*——几何、光线、材质、反射，本质上都是大规模并行运行的程序。
 
-Source: https://x.com/danshipper/status/2092636264902148262
-
----
-
-### Aditya Agarwal · SPC 合伙人，前 Dropbox CTO (adityaag on X)
-
-Aditya announced that DeepCogito, a post-training research lab focused on large-scale reinforcement learning and recursive self-improvement, has raised a $43M Series A.
-Aditya 宣布 DeepCogito 完成 4300 万美元 A 轮融资。该公司是一家专注于大规模强化学习与递归自我改进的后训练研究实验室。
-
-*"The AI frontier will be determined by post-training."*
-"AI 的前沿将由后训练决定。"
-
-Their core method is iterated distillation and amplification.
-其核心方法为迭代蒸馏与放大（Iterated Distillation and Amplification）。
-
-Source: https://x.com/adityaag/status/2092679288869019700
+Source: https://x.com/rauchg/status/2093019310725951683
+Source: https://x.com/rauchg/status/2093119693846630842
 
 ---
 
-### Sam Altman · OpenAI CEO (sama on X)
+Aaron Levie — Box CEO (levie on X)
 
-Sam floated the idea of throwing another party for OpenAI's next model release, following the success of the "5.5 party," and asked the community what would make it awesome.
-Sam 提议为 OpenAI 下一个模型发布举办派对，继"5.5 派对"之后，他向社区征集关于如何让下一次活动更精彩的建议。
+Box CEO Aaron Levie offered a nuanced take on tech earnings season: software and AI are not in competition — they are co-dependent growth engines.
+Box CEO Aaron Levie 对本周科技公司财报季给出了深刻见解：软件与 AI 并非竞争关系，而是相互依存的增长引擎。
 
-Source: https://x.com/sama/status/2092733018838290817
+Software provides the deterministic guardrails — data governance, workflow logic, access control, security — while agents operate *within* those systems to execute tasks at a scale humans never could.
+软件提供了确定性的护栏——数据治理、工作流逻辑、访问控制、安全性——而智能体则在这些系统内部运行，以人类无法企及的规模执行任务。
 
-Sam also shared a report describing a concerning development with the note: *"this is a good report about a bad thing."*
-Sam 还分享了一份值得关注的报告，并简短评论道："这是一份关于坏事的好报告。"
+He argued: *"The net result is both software and AI adoption go up, hand in hand"* — and predicted this will dramatically expand the overall IT total addressable market.
+他认为：*"最终结果是软件与 AI 的采用率双双提升，携手并进"*——并预测这将大幅扩大整体 IT 的可寻址市场规模。
 
-Source: https://x.com/sama/status/2092712656096358527
-
----
-
-### Peter Steinberger · Polyagentmorous ClawFather (steipete on X)
-
-Peter noted that Codex's visualization feature has gotten really good, sharing a screenshot as evidence.
-Peter 指出 Codex 的可视化功能已经变得相当出色，并附上截图佐证。
-
-Source: https://x.com/steipete/status/2092822007843061823
+Source: https://x.com/levie/status/2093192697331011846
 
 ---
 
-## PODCASTS
-## 播客精选
+Garry Tan — Y Combinator 总裁兼 CEO (garrytan on X)
 
-### AI & I by Every
+YC President and CEO Garry Tan made a sweeping macro prediction: *"Seems likely that on a long enough time frame, AI will generate cash flows faster than the economy can find productive uses for new capital."*
+YC 总裁兼 CEO Garry Tan 做出了一个宏观预测：*"从足够长的时间维度来看，AI 很可能产生现金流的速度，会快于经济体为新资本找到生产性用途的速度。"*
 
-**A $10B Hedge Fund's AI Playbook (Best of the Pod)**
-**一家百亿美元对冲基金的 AI 打法（精选集）**
-
-This episode dives into how a $10 billion hedge fund is deploying AI across its investment and operations workflow — a rare look inside institutional AI adoption at scale.
-本期节目深入探讨了一家管理规模达 100 亿美元的对冲基金如何在投资与运营流程中全面部署 AI，是难得一见的机构级 AI 大规模落地案例。
-
-The conversation covers practical playbooks, tooling choices, and the cultural shifts required to make AI work inside a high-stakes financial environment.
-对话涵盖了实战操作手册、工具选型以及在高风险金融环境中推动 AI 落地所需的文化变革。
-
-Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Source: https://x.com/garrytan/status/2093056910631293063
 
 ---
+
+Sam Altman — OpenAI CEO (sama on X)
+
+OpenAI CEO Sam Altman issued an urgent call to action on cybersecurity: *"This is a critically important moment for cyber defense with AI; there is not much time to act."*
+OpenAI CEO Sam Altman 就网络安全发出了紧急呼吁：*"这是 AI 网络防御的关键时刻；留给我们行动的时间已经不多了。"*
+
+He urged companies, competitors, and partners alike to treat this as an emergency — stressing that *"only an urgent and intense collective response will work."*
+他呼吁各公司、竞争对手和合作伙伴将此视为紧急情况——强调 *"只有紧迫而密集的集体行动才能奏效。"*
+
+Source: https://x.com/sama/status/2093060670472241368
+
+---
+
+Claude — Anthropic AI 助手官方账号 (claudeai on X)
+
+Anthropic's official Claude account announced a major expansion for the scientific community: 10,000 scientists across math, chemistry, physics, and more can now access Claude through a new Team plan for scientists.
+Anthropic 官方 Claude 账号宣布了一项面向科学界的重大扩展：来自数学、化学、物理等领域的 10,000 名科学家，现在可以通过全新的"科学家专属团队计划"使用 Claude。
+
+Standard seats are free; premium seats with 5x usage limits are available at $15/month — an 80% discount for one year.
+标准席位免费；拥有 5 倍使用额度的高级席位每月 15 美元——首年享受 80% 折扣。
+
+This builds on the Claude Science program launched in June and the AI for Science initiative, with plans to expand well beyond the initial 10,000 seats in the coming months.
+这一举措建立在今年 6 月启动的 Claude Science 计划和 AI for Science 项目基础之上，未来几个月将计划大幅扩展，超越最初的 10,000 个席位。
+
+Source: https://x.com/claudeai/status/2093059087298601113
+
+---
+
+Peter Steinberger — OpenClaw 联合创始人，OpenAI (steipete on X)
+
+OpenClaw co-founder and OpenAI contributor Peter Steinberger shared something that *"turned out so good"* — a GitHub collaboration he was grateful to the GitHub team for making happen.
+OpenClaw 联合创始人、OpenAI 贡献者 Peter Steinberger 分享了一件让他欣喜的事——一次他对 GitHub 团队深表感激的合作成果。
+
+Source: https://x.com/steipete/status/2093013213038469205
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PODCASTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+---
+
+The MAD Podcast with Matt Turck
+Episode: "AI Could Take Over in 2029. Is It Already Too Late? | Ryan Greenblatt"
+
+FirstMark Capital VC Matt Turck sat down with Ryan Greenblatt of Redwood AI for a deeply sobering conversation about the path to superintelligence.
+FirstMark Capital 风险投资人 Matt Turck 与 Redwood AI 的 Ryan Greenblatt 进行了一场令人警醒的深度对话，主题是通往超级智能的道路。
+
+Greenblatt's core message: plan as though superintelligence arrives in 2029, not because it's certain, but because the cost of being unprepared is catastrophic.
+Greenblatt 的核心观点是：按照超级智能将于 2029 年到来进行规划——不是因为这是必然的，而是因为毫无准备的代价将是灾难性的。
+
+They discussed recursive self-improvement (RSI), the AI 2040: Plan A framework, and what "mutually assured compute destruction" with China might look like.
+两人讨论了递归自我改进（RSI）、"AI 2040: 计划 A"框架，以及与中国之间"相互保证算力毁灭"的可能形态。
+
+Greenblatt also detailed the alignment faking story — a real experiment he ran — and laid out a year-by-year timeline from today to potential AI takeover.
+Greenblatt 还详细讲述了他亲自主导的"对齐伪装"实验，并逐年列出了从今天到 AI 潜在接管的时间线。
+
+Source (video): https://www.youtube.com/watch?v=SK9ITBK5osA
+Podcast tweet: https://x.com/mattturck/status/2093016366475276662
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
