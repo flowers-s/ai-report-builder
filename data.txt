@@ -1,195 +1,223 @@
-AI Builders 日报 · 2026-08-29
+AI Builders 日报 · 2026-08-30
 
-AI Builders Digest — 2026-08-29
-AI Builders 日报 — 2026-08-29
+Today's digest covers 15 AI builders sharing insights on the OpenAI-Cursor split, the evolving web, AI product strategy, immigration, and more — plus a podcast on legacy data infrastructure in the AI era.
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-X / TWITTER
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+今日日报涵盖15位AI建设者的观点，聚焦OpenAI与Cursor分手、Web进化、AI产品策略、移民政策等热点，以及一期关于AI时代遗留数据基础设施的播客。
 
 ---
 
-Josh Woodward — VP, Google Labs / Gemini / Google AI Studio (joshwoodward on X)
+## Josh Woodward (@joshwoodward)
+*VP, Google Labs / Gemini / Google AI Studio*
 
-Google's Josh Woodward announced that Gemini can now act on voice commands — you tell it what you want done, and it gets to work.
-谷歌 Google Labs/Gemini 副总裁 Josh Woodward 宣布，Gemini 现在可以根据语音指令自主执行任务——你说出你想做的事，它就开始工作。
+Josh highlighted a delightful UX detail in Gemini Notebook's new Expert Intelligence feature: each generated report includes a personal letter from the AI "author," which he called one of his favorite touches. This humanizing element reflects Google's focus on making AI interactions feel more intimate and trustworthy.
 
-He called this moment *"the Year of Voice"*, signaling a major shift in how people interact with AI assistants.
-他将这一时刻称为 *"语音之年"*，标志着人们与 AI 助手交互方式的重大转变。
+Josh 分享了他对 Gemini Notebook 新功能「Expert Intelligence」的喜爱之情。该功能会为每份生成报告附上一封来自AI「作者」的亲笔信，他称之为"最喜欢的细节之一"。这一人性化设计体现了 Google 致力于让AI交互更具温度和信任感的方向。
 
-Woodward also announced a new NotebookLM feature: you can buy a book, drop it into Notebook, and apply the author's lessons to your own project — turning books into a personal brain trust.
-Woodward 还宣布了 NotebookLM 的新功能：你可以购买一本书，将其上传到 Notebook，然后将作者的思想直接应用到你自己的项目中——把书籍变成你的私人智囊团。
+*"One of my favorite parts of Expert Intelligence in @Gemini_Notebook is the letter from the author, such a nice touch!"*
 
-This program was co-created with authors and publishers to help them reach more engaged readers.
-该计划与作者和出版商共同打造，旨在帮助他们触达更多深度读者。
-
-Source: https://x.com/joshwoodward/status/2093074288295481470
-Source: https://x.com/joshwoodward/status/2093070717508296923
+🔗 https://x.com/joshwoodward/status/2093409673571631480
 
 ---
 
-Thibault Sottiaux — Codex & ChatGPT, OpenAI (thsottiaux on X)
+## Thibault Sottiaux (@thsottiaux)
+*Codex & ChatGPT @ OpenAI*
 
-OpenAI's Thibault Sottiaux shared that ChatGPT can now handle real-world tasks like grocery orders, Uber rides, and haircut appointments — all without ever seeing your actual credentials.
-OpenAI Codex 与 ChatGPT 团队成员 Thibault Sottiaux 分享道，ChatGPT 现在可以处理现实世界的任务，例如购买杂货、叫 Uber、预约理发——且全程无需接触你的真实账号密码。
+In the biggest story of the day, Thibault announced that OpenAI is ending its partnership with Cursor, effective November 12. The decision, he says, "boils down to trust." OpenAI will continue supporting developers through its own API key, IDE extensions, and open-source tooling — but the Cursor integration is done. Separately, he teased an upcoming milestone for Codex, and asked followers what's the most ambitious task they've given ChatGPT Work.
 
-He also observed a notable cultural shift: *"Starting to see more and more Codex users on airplanes and in cafés. Underdog energy gone mainstream."*
-他还观察到一个值得关注的文化转变：*"在飞机上和咖啡馆里越来越多地看到 Codex 用户。曾经的小众能量，已然成为主流。"*
+今日最大新闻：Thibault 宣布 OpenAI 将于11月12日正式终止与 Cursor 的合作伙伴关系，原因"归根结底是信任问题"。OpenAI 表示将继续通过 API key、自家 IDE 插件及开源工具支持开发者，但 Cursor 集成就此终止。此外，他还暗示 Codex 即将迎来新里程碑，并向粉丝征集"给 ChatGPT Work 布置过的最有野心的任务"。
 
-Source: https://x.com/thsottiaux/status/2093074717590921245
-Source: https://x.com/thsottiaux/status/2093207246977318928
+*"We unfortunately have decided that we cannot continue providing access to our models through Cursor and are ending our partnership. It boils down to trust."*
 
----
-
-Peter Yang — AI教程创作者、Creator Economy研究者 (petergyang on X)
-
-Creator and AI educator Peter Yang shared three substantial observations this week.
-AI 教程创作者 Peter Yang 本周分享了三条有深度的观察。
-
-First, his /no-ai-slop skill (6K GitHub stars) can work in reverse — he demonstrated it by generating a wedding vow for a couple united by their love of B2B SaaS.
-首先，他的 /no-ai-slop 技能（已获 6K GitHub 星标）可以反向使用——他展示了为一对因热爱 B2B SaaS 而结缘的夫妇生成婚礼誓词的例子。
-
-Second, he made a bold product prediction: *"The new products that I'm mostly likely to adopt need to work in today's top AI harnesses"* — arguing that context-rich platforms like ChatGPT and Grok make standalone AI apps increasingly hard to justify.
-其次，他做出了一个大胆的产品预测：*"我最有可能采用的新产品，必须能在当今顶级 AI 平台中运行"*——他认为，像 ChatGPT 和 Grok 这样拥有丰富上下文的平台，让独立 AI 应用越来越难以立足。
-
-Third, after uploading 160 pages of medical records to AI, he called the experience incredible — but urged ChatGPT Health to support caregivers and family sharing, not just individual patients.
-第三，在将 160 页病历上传给 AI 后，他称这一体验令人惊叹——但同时呼吁 ChatGPT Health 不仅服务个人患者，还要支持护理人员和家庭成员之间的数据共享。
-
-Source: https://x.com/petergyang/status/2093132262602920002
-Source: https://x.com/petergyang/status/2093126719888916616
-Source: https://x.com/petergyang/status/2093099238381240447
+🔗 https://x.com/thsottiaux/status/2093515916076343774
+🔗 https://x.com/thsottiaux/status/2093573991965557198
+🔗 https://x.com/thsottiaux/status/2093354037198696932
 
 ---
 
-Nan Yu — 产品爱好者 (thenanyu on X)
+## Peter Yang (@petergyang)
+*AI educator & content creator*
 
-Product enthusiast Nan Yu shared a video calling it *"the future of the tech job market (if we get this AI thing right)"*.
-产品爱好者 Nan Yu 分享了一段视频，称其为 *"科技就业市场的未来（如果我们把 AI 这件事做对的话）"*。
+Peter offered a contrarian take on the AI agent product landscape: he argues that Claude Cowork and ChatGPT Work are "partial solutions," while Grok Bot represents the right end-state for non-technical users because people can intuitively understand a cloud-running computer. He suspects most users can't actually explain the difference between these products. He also spotted a well-timed ad (likely mocking the OpenAI-Cursor split) and noted that GTA VI looks incredible.
 
-He also shared a CleanShot productivity tip about an important non-default setting that most users miss.
-他还分享了一个关于 CleanShot 的生产力小技巧，提示了一个大多数用户忽略的重要非默认设置。
+Peter 提出了一个逆向观点：他认为 Claude Cowork 和 ChatGPT Work 都是"局部解"，而 Grok Bot 才是面向非技术用户的正确终态——因为人们更容易"grok"（直觉理解）一台跑在云端的计算机是什么概念。他怀疑大多数用户根本说不清这些产品的区别。他还截图了一则时机绝妙的广告（似乎在调侃 OpenAI-Cursor 分手），并表示 GTA VI 看起来很精彩。
 
-Source: https://x.com/thenanyu/status/2093053415429677155
-Source: https://x.com/thenanyu/status/2093010530403561964
+*"My hot take is that Claude Cowork and ChatGPT Work are partial solutions and that Grok Bot is the right end state for a capable AI agent product for non-technical people."*
 
----
-
-Madhu Guru — Meta AI 高级总监，前 Google Gemini/Veo 负责人 (realmadhuguru on X)
-
-Meta's Senior Director of AI Madhu Guru issued a sharp directive to enterprise AI leaders: make your AI stack model-agnostic, and invest in two things now.
-Meta AI 高级总监 Madhu Guru 向企业 AI 负责人发出了清晰的指令：让你的 AI 技术栈与模型解耦，并立即在两件事上投资。
-
-First, today: build an eval suite that fully captures your use cases and business outcomes — *"most companies I've seen do not do a good job of this."*
-第一，现在就做：构建能够全面覆盖你的用例和业务结果的评估体系——*"我见过的大多数公司在这方面做得都不好。"*
-
-Second, within a year: build the capability to post-train open models, as the talent gap in this area is severe.
-第二，一年内完成：建立对开源模型进行后训练的能力，因为这一领域的人才缺口极为突出。
-
-His bottom line: *"own the evals, own the models."*
-他的核心结论是：*"掌控评估，掌控模型。"*
-
-Source: https://x.com/realmadhuguru/status/2093143877087879377
+🔗 https://x.com/petergyang/status/2093379695144530313
+🔗 https://x.com/petergyang/status/2093547793327763699
+🔗 https://x.com/petergyang/status/2093337802113171545
 
 ---
 
-Guillermo Rauch — Vercel CEO (rauchg on X)
+## Nan Yu (@thenanyu)
+*Product enthusiast*
 
-Vercel CEO Guillermo Rauch launched a new agent-native devtool, born from internal WebGPU creative productions.
-Vercel CEO Guillermo Rauch 推出了一款全新的"面向智能体原生"开发工具，源自其团队内部的 WebGPU 创意实验。
+Nan kept it light today: he observed that SF has "discovered Paris" (likely a reference to trending SF-Paris comparisons), suggesting it might finally be safe to visit Japan again. He also shared a couple of relatable links — one agreeing with a point about VCs, another on a topic he found true. No major AI takes, but a window into the cultural zeitgeist of SF tech.
 
-He described it as *"fully agent-native: it was designed for agents, not humans alone"* — part of a new generation of tools built for the post-agent world.
-他将其描述为 *"完全面向智能体原生：它是为智能体设计的，而不仅仅是为人类"*——这是为后智能体时代打造的新一代工具之一。
+Nan 今天轻松随意：他评论SF已经"发现了巴黎"（可能是指最近SF与巴黎的对比热潮），暗示现在也许可以安全去日本了。他还分享了几个引发共鸣的链接——一个关于 VC 的看法，另一个他觉得很真实。没有大的AI观点，但折射出 SF 科技圈的文化气候。
 
-He also shared a philosophical observation: shaders and WebGPU are *"further proof that 'everything is computer'"* — geometry, light, materials, reflections are all just massively parallel programs.
-他还分享了一个哲学性观察：着色器和 WebGPU 是 *"'万物皆计算机'的又一佐证"*——几何、光线、材质、反射，本质上都是大规模并行运行的程序。
-
-Source: https://x.com/rauchg/status/2093019310725951683
-Source: https://x.com/rauchg/status/2093119693846630842
+🔗 https://x.com/thenanyu/status/2093384613620252878
+🔗 https://x.com/thenanyu/status/2093411864667656633
 
 ---
 
-Aaron Levie — Box CEO (levie on X)
+## Madhu Guru (@realmadhuguru)
+*Sr Director, AI @ Meta (prev Google — Gemini, Veo, Nano Banana)*
 
-Box CEO Aaron Levie offered a nuanced take on tech earnings season: software and AI are not in competition — they are co-dependent growth engines.
-Box CEO Aaron Levie 对本周科技公司财报季给出了深刻见解：软件与 AI 并非竞争关系，而是相互依存的增长引擎。
+Madhu shared a sharp strategic insight: AI product playbooks have a ~3-month half-life. Traditional product teams are built to discover a playbook and milk it for 5 years; AI labs consciously throw away playbooks every few months. His advice — focus on meta-principles for continuous market learning and extreme urgency in execution. Build teams optimized for *inventing*, not playbook-milking.
 
-Software provides the deterministic guardrails — data governance, workflow logic, access control, security — while agents operate *within* those systems to execute tasks at a scale humans never could.
-软件提供了确定性的护栏——数据治理、工作流逻辑、访问控制、安全性——而智能体则在这些系统内部运行，以人类无法企及的规模执行任务。
+Madhu 分享了一个犀利的战略洞察：AI产品的打法"半衰期"约为3个月。传统产品团队习惯发现一套打法后躺赚5年；而AI实验室则每隔几个月就主动淘汰旧打法。他的建议是：聚焦于持续学习市场动向和极速执行的元原则，打造一支擅长"发明"而非"收割"的团队。
 
-He argued: *"The net result is both software and AI adoption go up, hand in hand"* — and predicted this will dramatically expand the overall IT total addressable market.
-他认为：*"最终结果是软件与 AI 的采用率双双提升，携手并进"*——并预测这将大幅扩大整体 IT 的可寻址市场规模。
+*"AI product building has a ~3-month playbook half-life... Legacy teams are optimized for playbook milking. AI teams need to be optimized for inventing."*
 
-Source: https://x.com/levie/status/2093192697331011846
+🔗 https://x.com/realmadhuguru/status/2093562783627620456
 
 ---
 
-Garry Tan — Y Combinator 总裁兼 CEO (garrytan on X)
+## Thariq (@trq212)
+*Claude Code @ Anthropic, prev YC W20*
 
-YC President and CEO Garry Tan made a sweeping macro prediction: *"Seems likely that on a long enough time frame, AI will generate cash flows faster than the economy can find productive uses for new capital."*
-YC 总裁兼 CEO Garry Tan 做出了一个宏观预测：*"从足够长的时间维度来看，AI 很可能产生现金流的速度，会快于经济体为新资本找到生产性用途的速度。"*
+Thariq, from the Claude Code team at Anthropic, responded to the OpenAI-Cursor split with warmth and diplomacy. He expressed long-time admiration for the Cursor team and said he's "excited to continue to partner with them" — signaling that Anthropic/Claude Code remains a committed partner for Cursor even as OpenAI exits. A classy response to a chaotic news day.
 
-Source: https://x.com/garrytan/status/2093056910631293063
+来自 Anthropic Claude Code 团队的 Thariq 在 OpenAI-Cursor 分手新闻中以优雅姿态回应：他表示长期欣赏 Cursor 团队，并称"很期待继续与他们合作"，明确传递出 Anthropic/Claude Code 将坚守 Cursor 合作关系的信号。在动荡的新闻日里，这是一个从容的表态。
 
----
+*"Long-time admirer of the Cursor team, few have done more to bring AI coding to the world. Excited to continue to partner with them."*
 
-Sam Altman — OpenAI CEO (sama on X)
-
-OpenAI CEO Sam Altman issued an urgent call to action on cybersecurity: *"This is a critically important moment for cyber defense with AI; there is not much time to act."*
-OpenAI CEO Sam Altman 就网络安全发出了紧急呼吁：*"这是 AI 网络防御的关键时刻；留给我们行动的时间已经不多了。"*
-
-He urged companies, competitors, and partners alike to treat this as an emergency — stressing that *"only an urgent and intense collective response will work."*
-他呼吁各公司、竞争对手和合作伙伴将此视为紧急情况——强调 *"只有紧迫而密集的集体行动才能奏效。"*
-
-Source: https://x.com/sama/status/2093060670472241368
+🔗 https://x.com/trq212/status/2093541555068182781
 
 ---
 
-Claude — Anthropic AI 助手官方账号 (claudeai on X)
+## Amjad Masad (@amasad)
+*CEO @ Replit*
 
-Anthropic's official Claude account announced a major expansion for the scientific community: 10,000 scientists across math, chemistry, physics, and more can now access Claude through a new Team plan for scientists.
-Anthropic 官方 Claude 账号宣布了一项面向科学界的重大扩展：来自数学、化学、物理等领域的 10,000 名科学家，现在可以通过全新的"科学家专属团队计划"使用 Claude。
+Amjad moved fast on the OpenAI-Cursor split: he announced that OpenAI models are available on Replit for free, with cost-efficient routing for businesses — and offered to fund transitions for businesses looking for a "multi-model alternative to Cursor." He also highlighted the untapped potential of growth agents, suggesting AI-driven growth automation is an underexplored frontier.
 
-Standard seats are free; premium seats with 5x usage limits are available at $15/month — an 80% discount for one year.
-标准席位免费；拥有 5 倍使用额度的高级席位每月 15 美元——首年享受 80% 折扣。
+Amjad 在 OpenAI-Cursor 分手新闻后迅速出击：宣布 OpenAI 模型在 Replit 上免费可用，并为寻求"Cursor 多模型替代方案"的企业提供迁移资助。他还指出 growth agent（增长智能体）是一个被严重低估的潜力领域，认为AI驱动的增长自动化是尚未充分开发的新疆界。
 
-This builds on the Claude Science program launched in June and the AI for Science initiative, with plans to expand well beyond the initial 10,000 seats in the coming months.
-这一举措建立在今年 6 月启动的 Claude Science 计划和 AI for Science 项目基础之上，未来几个月将计划大幅扩展，超越最初的 10,000 个席位。
+*"You can access OpenAI models on Replit for free... If you're a business looking for an independent, multi-model alternative to Cursor, we'd be happy to fund your transition."*
 
-Source: https://x.com/claudeai/status/2093059087298601113
-
----
-
-Peter Steinberger — OpenClaw 联合创始人，OpenAI (steipete on X)
-
-OpenClaw co-founder and OpenAI contributor Peter Steinberger shared something that *"turned out so good"* — a GitHub collaboration he was grateful to the GitHub team for making happen.
-OpenClaw 联合创始人、OpenAI 贡献者 Peter Steinberger 分享了一件让他欣喜的事——一次他对 GitHub 团队深表感激的合作成果。
-
-Source: https://x.com/steipete/status/2093013213038469205
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PODCASTS
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔗 https://x.com/amasad/status/2093533378880667787
+🔗 https://x.com/amasad/status/2093434828385313068
 
 ---
 
-The MAD Podcast with Matt Turck
-Episode: "AI Could Take Over in 2029. Is It Already Too Late? | Ryan Greenblatt"
+## Guillermo Rauch (@rauchg)
+*CEO @ Vercel*
 
-FirstMark Capital VC Matt Turck sat down with Ryan Greenblatt of Redwood AI for a deeply sobering conversation about the path to superintelligence.
-FirstMark Capital 风险投资人 Matt Turck 与 Redwood AI 的 Ryan Greenblatt 进行了一场令人警醒的深度对话，主题是通往超级智能的道路。
+Guillermo laid out a compelling vision for the web's future: it's bifurcating into ultra-fancy human experiences (powered by Three.js, TypeGPU, etc.) and agent-centric pure-signal APIs (markdown + MCP). The "in between" utilitarian web, he argues, will be subsumed by agents generating just-in-time UI. He also highlighted explosive growth in `mcp-handler` npm downloads, and pitched Vercel's "eve" as a way to own your full intelligence stack in a Git repo — runtime, model, skills, tools, and all.
 
-Greenblatt's core message: plan as though superintelligence arrives in 2029, not because it's certain, but because the cost of being unprepared is catastrophic.
-Greenblatt 的核心观点是：按照超级智能将于 2029 年到来进行规划——不是因为这是必然的，而是因为毫无准备的代价将是灾难性的。
+Guillermo 勾勒了一幅关于 Web 未来的清晰图景：Web 正在向两个极端分化——一端是为人类打造的极致体验（Three.js、TypeGPU 驱动），另一端是面向智能体的纯信号API（Markdown + MCP）。他认为，中间的"功能型"Web将被智能体实时生成的UI所取代，"智能体就是新浏览器"。他还分享了 `mcp-handler` npm 下载量的爆炸性增长数据，并推介 Vercel 的 "eve" 框架——让你在一个 Git 仓库中完整拥有自己的智能体堆栈。
 
-They discussed recursive self-improvement (RSI), the AI 2040: Plan A framework, and what "mutually assured compute destruction" with China might look like.
-两人讨论了递归自我改进（RSI）、"AI 2040: 计划 A"框架，以及与中国之间"相互保证算力毁灭"的可能形态。
+*"The agent as the new browser... I see the web evolving in two extremes: ultra-fancy human experiences vs. agent-centric content, data and APIs."*
 
-Greenblatt also detailed the alignment faking story — a real experiment he ran — and laid out a year-by-year timeline from today to potential AI takeover.
-Greenblatt 还详细讲述了他亲自主导的"对齐伪装"实验，并逐年列出了从今天到 AI 潜在接管的时间线。
+🔗 https://x.com/rauchg/status/2093482695838007318
+🔗 https://x.com/rauchg/status/2093463771071336497
+🔗 https://x.com/rauchg/status/2093387887668814214
 
-Source (video): https://www.youtube.com/watch?v=SK9ITBK5osA
-Podcast tweet: https://x.com/mattturck/status/2093016366475276662
+---
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+## Aaron Levie (@levie)
+*CEO @ Box*
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Aaron offered a meta-observation on the AI belief cycle: the average "strongly held belief" in AI has a half-life of 6 months at best. He listed over a dozen beliefs the industry has cycled through — from "OSS is too far behind" to "RAG is dead" to "prompting won't matter." His conclusion: remain flexible, because the industry will be in constant flux for a while.
+
+Aaron 对AI行业的信念周期做了一番元层面的观察：当前AI领域"坚定信念"的平均半衰期最多6个月。他列举了十多条曾被奉为真理却已被颠覆的论断——从"开源太落后追不上"到"RAG已死"再到"提示词将来不重要"。结论：保持思维灵活，因为这个行业还将持续动荡一段时间。
+
+*"The average strongly held belief these days in AI has a half life of 6 months at best... The key here is to remain flexible in your thinking."*
+
+🔗 https://x.com/levie/status/2093568352736436576
+
+---
+
+## Garry Tan (@garrytan)
+*President & CEO @ Y Combinator*
+
+Garry focused on SF city politics today rather than AI: he championed data centers as job creators, called out SF Supervisor Connie Chan for "quiet quitting" her role to run for higher office (calling her unfit for public office), and pushed back on harm-reduction nonprofits that he accuses of enabling drug use rather than promoting treatment and recovery. Garry continues to be one of the most vocal tech voices on SF politics.
+
+Garry 今天聚焦于 SF 城市政治而非AI：他力挺数据中心为城市创造繁荣和就业，批评 SF 市监事 Connie Chan"消极怠工"、企图跳槽谋求更高职位（称其不配担任公职），并抨击那些以"减害"为名实则助长毒品使用的非营利组织，呼吁将资金投入戒毒康复。Garry 持续是 SF 政治中最敢发声的科技界人士之一。
+
+🔗 https://x.com/garrytan/status/2093500353849544842
+🔗 https://x.com/garrytan/status/2093443836228125151
+🔗 https://x.com/garrytan/status/2093429113306661121
+
+---
+
+## Matt Turck (@mattturck)
+*VC @ FirstMark Capital*
+
+Matt kept it punchy today with a single high-engagement post: a meme about "VC due diligence in a hot round" — a wry commentary on how competitive deal dynamics sometimes override rigorous analysis. Simple, relatable, and evidently resonated (970 likes, 60 retweets).
+
+Matt 今天言简意赅，发了一条高热帖子：一个关于"热门轮次中的VC尽调"的梗图——对竞争激烈的融资环境如何侵蚀严谨分析的辛辣讽刺。简短、共鸣，反响热烈（970赞，60转）。
+
+🔗 https://x.com/mattturck/status/2093304544029463009
+
+---
+
+## Zara Zhang (@zarazhangrui)
+*Builder & investor*
+
+Zara made a sharp content quality point: whether something is "slop" has less to do with whether it's AI-generated and more to do with whether it reflects specific, unique human experiences. "There's plenty of human-generated slop." She also raised a practical question about using Grok Bot's virtual computer — wondering if signing into her real X account through it risks a ban, reflecting broader concerns about AI agents and platform ToS.
+
+Zara 提出了一个关于内容质量的精准论断：一件作品算不算"垃圾内容（slop）"，与它是否由AI生成关系不大，更取决于它是否承载了具体、独特的人类经历。"人类生产的垃圾内容多的是。"她还提出了一个实际问题：通过 Grok Bot 的虚拟电脑登录自己真实的X账号，是否存在封号风险？这折射出更广泛的AI智能体与平台服务条款之间的张力。
+
+*"Whether something is slop or not has less to do with whether it's AI-generated and more to do with whether it is informed by specific, unique human experiences/perspectives."*
+
+🔗 https://x.com/zarazhangrui/status/2093396989329469505
+🔗 https://x.com/zarazhangrui/status/2093317719320064164
+
+---
+
+## Nikunj Kothari (@nikunj)
+*Partner @ FPV Ventures*
+
+Nikunj shared two direct pieces of advice for founders pitching him: (1) the best pitches don't even need to use the word "AI," and (2) AI can't be the only "why now." He acknowledged this is subjective to each VC, but said founders who get ahead of these two points will stand out. He also shared a gorgeous Bay Area sunset photo.
+
+Nikunj 向创业者直言：(1) 最好的路演甚至不需要提"AI"这个词；(2) AI本身不能是唯一的"为什么是现在"。他承认这是个人观点，但建议创业者提前应对这两个挑战点。他还分享了一张湾区日落的美景照片。
+
+*"The best pitches don't even need to use the word 'AI'... AI cannot be the only 'why now' for your pitch."*
+
+🔗 https://x.com/nikunj/status/2093367245024240043
+🔗 https://x.com/nikunj/status/2093333205181145372
+
+---
+
+## Dan Shipper (@danshipper)
+*CEO @ Every*
+
+Dan offered two pithy AI takes: "In AI there are no bad ideas, just weak models — every idea has its day as the exponential continues." He also excitedly announced that Every now has a Head of Evals, calling the work "gamechanging." And yes, he confirmed he would never surf in a t-shirt.
+
+Dan 分享了两个简洁的AI观点："AI领域没有坏想法，只有弱模型——随着指数曲线延伸，每个想法终将迎来它的时代。"他还兴奋宣布 Every 已经聘用了一位"评估负责人（Head of Evals）"，称这项工作"将改变游戏规则"。另外，他确认自己绝不会穿T恤去冲浪。
+
+*"In AI there are no bad ideas just weak models — every idea has its day as the exponential continues."*
+
+🔗 https://x.com/danshipper/status/2093434101067808930
+🔗 https://x.com/danshipper/status/2093347973669286146
+🔗 https://x.com/danshipper/status/2093348166196220398
+
+---
+
+## Aditya Agarwal (@adityaag)
+*General Partner @ SPC, co-founder @ Bevel Health; ex-CTO Dropbox*
+
+Aditya, himself a naturalized US citizen who has held F1, OPT, H1-B, and EB-3 visas, shared a nuanced take on the immigration debate: all four things can simultaneously be true — H1-B abuse is real and should stop; the US makes it too hard for genuinely high-skilled workers; Indians in particular face extra hardship; and laws should prioritize citizens. A grounded perspective from someone who has lived every stage of the process.
+
+作为亲历了F1、OPT、H1-B、EB-3每个阶段的归化公民，Aditya 对移民争论提出了一个细腻、不偏颇的立场：四件事可以同时为真——H1-B系统存在滥用，应当制止；美国对真正高技能人才的签证门槛过高；印度裔高技能人才处境尤为艰难；同时，法律理应优先保护本国公民。这是来自亲历者的真实洞见。
+
+*"I think ALL of the following things can be true: H1-B abuse exists. We make it too hard for truly high-skilled workers. High-skilled Indians have it harder than most. Laws should prioritize citizens."*
+
+🔗 https://x.com/adityaag/status/2093468512459321512
+
+---
+
+## 🎙️ Podcast: No Priors — "Rethinking Legacy Data Infrastructure"
+*Eon Co-Founders Ofir Ehrlich and Gonen Stein*
+
+This episode of No Priors tackles a critical but underappreciated topic: legacy data infrastructure in the AI era. Eon's co-founders discuss how nonhuman actors (AI agents) are now creating a new class of security and compliance threats — agents with legitimate access permissions inside organizations, operating at extreme velocity. They explore the challenges non-technical employees face as "builders" creating agents that handle sensitive data, often without understanding the security and compliance implications.
+
+Key takeaways: (1) The threat model has shifted from human to non-human actors; (2) The detection methodology is similar, but velocity has exploded; (3) Organizations urgently need data infrastructure that was designed for the AI era, not retrofitted from legacy cloud/backup systems. Google's acquisition of Spirit Airlines' data out of bankruptcy was cited as a signal of how valuable legacy data assets have become.
+
+本期 No Priors 聚焦一个重要但被低估的议题：AI时代的遗留数据基础设施。Eon 联合创始人探讨了非人类行为者（AI智能体）如何带来新型安全与合规威胁——这些智能体拥有组织内部的合法访问权限，但运行速度极快、边界模糊。他们深入分析了非技术员工成为"构建者"时所面临的挑战：这些人创建的智能体在处理敏感数据时，往往对安全合规意味着什么毫无概念。
+
+核心洞见：(1) 威胁模型已从人类行为者转向非人类行为者；(2) 检测方法类似，但攻击速度大幅提升；(3) 组织迫切需要为AI时代原生设计的数据基础设施，而非从遗留的云备份系统勉强改造而来。Google 在破产程序中收购 Spirit Airlines 数据资产的案例被引用，揭示了遗留数据资产的巨大价值。
+
+🔗 https://www.youtube.com/@NoPriorsPodcast
