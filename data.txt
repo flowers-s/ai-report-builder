@@ -1,210 +1,152 @@
-AI Builders 日报 · 2026-09-01
+AI Builders 日报 · 2026-09-02
+
+Today's digest features insights from 10 AI builders on topics including personal AI agents, model frontier strategy, design systems, AI security, open weights models, and more. One podcast episode on continual learning is also included.
+今日日报收录来自 10 位 AI 创业者与思想领袖的最新动态，涵盖个人 AI 代理信任、模型前沿策略、设计系统、AI 安全、开源模型新机遇等话题，附一期关于持续学习的播客。
 
 ---
 
 ## Thibault Sottiaux (@thsottiaux)
 
-Thibault Sottiaux, a product leader at OpenAI, shared exciting milestones and product clarity today.
-OpenAI 产品负责人 Thibault Sottiaux 今日分享了里程碑与产品澄清。
+Thibault is asking the community what's stopping them from trying OpenAI's Codex — a pointed question aimed at identifying friction in AI coding tool adoption.
+蒂博·索蒂奥向社区发问：是什么让你迟迟没有尝试 Codex？这是一个直击 AI 编程工具采用障碍的好问题，值得每位开发者认真自问。
 
-ChatGPT has hit 25 million active users, and to celebrate, OpenAI reset usage for all paid subscriptions on ChatGPT Work and Codex.
-ChatGPT 达到 2500 万活跃用户，为庆祝这一成就，OpenAI 为所有付费订阅重置了 ChatGPT Work 和 Codex 的用量。
-
-*"See you soon for more news from The Reset Company."*
-他打趣道："即将带来更多来自'重置公司'的消息。"
-
-He also clarified how Codex's 20X plan works: it applies to weekly usage limits specifically, offering exactly 20X the usage of the Plus subscription — no 5-hour limits involved.
-他还澄清了 Codex 的 20X 套餐机制：该计划专门针对每周使用上限，提供恰好是 Plus 订阅 20 倍的用量，没有 5 小时限制。
-
-He's also crowdsourcing what to ship next: *"What should we ship next week?"*
-同时他也在向社区征集下周应发布什么功能。
-
-Sources:
-- https://x.com/thsottiaux/status/2094252447271366730
-- https://x.com/thsottiaux/status/2094254532020818191
-- https://x.com/thsottiaux/status/2094293190945976638
+Source: https://x.com/thsottiaux/status/2094588317245509959
 
 ---
 
 ## Peter Yang (@petergyang)
 
-Peter Yang, creator and AI enthusiast, was multitasking at a kid's birthday party while keeping his laptop running — a relatable builder moment.
-产品人兼 AI 爱好者 Peter Yang 今日一边参加儿童生日派对，一边惦记着让电脑保持在线——这是每个 builder 的日常写照。
+Peter highlights that **trust** will be the single biggest barrier — and driver — of personal AI agent adoption. He also praised a creator's educational videos, signaling support for community knowledge-sharing.
+彼得·杨指出，**信任**将是个人 AI 代理被大规模采用的最大障碍，同时也是最强驱动力。他还公开称赞了一位创作者的教学视频，体现出他对社区知识共享的积极支持。
 
-*"At a kid's birthday party and have to leave my laptop on somehow lol"*
-"在参加小孩的生日派对，还得想办法让笔记本保持开着哈哈哈"
-
-He also distributed beta codes for his "Doomscrolling Uncle" bot alongside the SpaceXAI bot to a batch of followers.
-他还与 SpaceXAI bot 一起，向一批粉丝发放了他的"刷屏大叔"机器人的测试邀请码。
+- "Trust is going to be the biggest barrier (and driver) of personal agent adoption." — Trust isn't a tech problem; it's a human one.
+  "信任将是个人代理采用的最大障碍（也是最大驱动力）。" —— 信任不是技术问题，而是人的问题。
 
 Sources:
-- https://x.com/petergyang/status/2094218683212308610
-- https://x.com/petergyang/status/2094267102849020037
+- https://x.com/petergyang/status/2094639655258091792
+- https://x.com/petergyang/status/2094648002656993704
+- https://x.com/petergyang/status/2094529713524117596
+
+---
+
+## Nan Yu (@thenanyu)
+
+Big personal news: Nan Yu is joining **OpenAI** to work on Codex and ChatGPT, after four impactful years at Linear. He's bringing his deep product craft into building the next generation of AI coding and chat tools.
+重磅个人消息：楠宇将加入 **OpenAI**，负责 Codex 和 ChatGPT 的研发工作。在 Linear 工作了精彩的四年之后，他将把对软件产品工艺的深刻理解带入这一新篇章，令人期待。
+
+- "I'm joining OpenAI to work on Codex and ChatGPT. I look forward to bringing everything I've learned [at Linear] about the craft of software into this next chapter."
+  "我将加入 OpenAI，参与 Codex 和 ChatGPT 的研发。我期待把在 Linear 学到的关于软件工艺的一切带入这一新阶段。"
+
+Sources:
+- https://x.com/thenanyu/status/2094427243565269107
+- https://x.com/thenanyu/status/2094442960209539371
+- https://x.com/thenanyu/status/2094659984428867901
+
+---
+
+## Madhu Guru (@realmadhuguru)
+
+Madhu delivers a sharp framework for PMs: if you're building AI products, you need to know the model frontier better than anyone else for your specific use cases. That means understanding what models at each size can and can't do, knowing the failure modes, having workarounds, and predicting the trajectory.
+马杜为产品经理提出了一套犀利的方法论：如果你在做 AI 产品，你必须比任何人都更了解适用于你特定场景的模型前沿。这意味着你需要清楚不同规模模型的能力边界、失败模式、变通方法以及演进轨迹。
+
+- "If you're a PM, there is immense alpha in understanding the model frontier for your specific product and use cases."
+  "作为产品经理，深度理解适合你产品的模型前沿，是巨大的竞争优势所在。"
+- Key questions every AI PM should answer: What can each model size do today? Where does it fail? What workarounds exist? Where is the trajectory heading?
+  每位 AI PM 都应能回答：各规模模型今天能做什么？在哪里失败？有哪些变通方案？未来走向如何？
+
+Source: https://x.com/realmadhuguru/status/2094591503981281503
 
 ---
 
 ## Amjad Masad (@amasad)
 
-Amjad Masad, CEO of Replit, posted two sharp takes on AI agents and safety today.
-Replit CEO Amjad Masad 今日发布了两条关于 AI 智能体与安全的犀利观点。
+Amjad, CEO of Replit, is sharing useful iOS interaction tips — a nod to the growing importance of mobile-first AI tooling.
+Replit CEO 阿姆贾德·马萨德分享了实用的 iOS 交互技巧，这体现出移动端优先的 AI 工具正在变得越来越重要。
 
-On building civilization with agents, he captured the zeitgeist in one line:
-关于用智能体构建文明，他用一行代码道出了时代精神：
-
-*"If you ever wondered how civilizations are built, it's actually easy: [Agent() for _ in range(100)]"*
-"如果你好奇文明是怎么建立的，其实很简单：[Agent() for _ in range(100)]"
-
-On the HuggingFace incident, he pointed out that RL with verifiable rewards is a "incredibly powerful optimization algorithm" that will keep producing *"increasingly weird and surprising behavior"* from LLMs.
-关于 HuggingFace 事件，他指出带有可验证奖励的强化学习是一种"极其强大的优化算法"，将持续产生越来越奇怪和出人意料的模型行为。
-
-He also criticized OpenAI for failing to monitor chain-of-thought reasoning despite having flagged it as a safety strategy over a year ago.
-他同时批评 OpenAI 未能监控思维链推理过程，尽管他们一年多前就已将此列为安全策略。
-
-Sources:
-- https://x.com/amasad/status/2094280256933056971
-- https://x.com/amasad/status/2094215744842248418
+Source: https://x.com/amasad/status/2094642492125950394
 
 ---
 
 ## Guillermo Rauch (@rauchg)
 
-Guillermo Rauch, CEO of Vercel, shared a moment of infrastructure pride today.
-Vercel CEO Guillermo Rauch 今日分享了一次基础设施层面的骄傲时刻。
+Guillermo drops two sharp takes: First, **DESIGN.md** — Vercel's approach to fighting AI "slop" by encoding design taste directly into Markdown, making it scalable across large organizations. Second, a bold analogy: coding tokens are infrastructure, yet companies hand them out like an open AWS key — no governance, no cost optimization. Time to change that.
+吉列尔莫·劳赫带来两个犀利观点：其一，**DESIGN.md** —— Vercel 通过将设计品味写入 Markdown 来对抗 AI"烂内容"，让大型组织的设计品质得以规模化传承。其二，一个大胆类比：编程 Token 本质上是基础设施，但公司们却像发放不设限的 AWS 密钥一样随意分发，毫无治理与成本优化可言——是时候改变了。
 
-When viral content caused massive botnet DDoS attacks targeting Vercel — from hijacked devices and residential networks — the Vercel CDN and Traffic Security teams handled it seamlessly.
-当病毒式传播内容引发大规模僵尸网络 DDoS 攻击时，Vercel 的 CDN 和流量安全团队无缝应对了这一挑战。
-
-*"Extremely proud of the Vercel CDN & Traffic Security teams, who protect 400,000+ customers and tens of millions of Vercel users 24x7x365."*
-"为 Vercel CDN 和流量安全团队感到极其自豪，他们全年无休地保护着 40 万以上客户和数千万用户。"
-
-He also shared two posts on the theme of "digital abundance" — a phrase capturing the AI-driven shift to limitless digital creation.
-他还分享了关于"数字丰盈"这一主题的思考，这个词捕捉了 AI 驱动下数字创作无限化的趋势。
+- "Your next design system is… Markdown." — Design taste, scalable at last.
+  "你的下一个设计系统……是 Markdown。" —— 设计品味，终于可以规模化了。
+- On coding tokens: treating them like unmanaged cloud infrastructure is how you get $40k/mo surprises.
+  关于编程 Token：如果像无人管理的云资源一样对待它，你会收到每月 4 万美元的账单惊喜。
 
 Sources:
-- https://x.com/rauchg/status/2094141838055940530
-- https://x.com/rauchg/status/2094242622642782696
+- https://x.com/rauchg/status/2094541309579235680
+- https://x.com/rauchg/status/2094523399280435630
 
 ---
 
 ## Aaron Levie (@levie)
 
-Aaron Levie, CEO of Box, delivered one of today's most insightful threads on enterprise AI economics.
-Box CEO Aaron Levie 今日发布了关于企业 AI 经济学的最具洞察力的推文之一。
+Aaron sees a new wave of opportunity: as open-weights models improve and post-training infrastructure matures, companies with large proprietary datasets no longer have to just license their data — they can **train their own models**. Meanwhile, AI security is heating up; frontier models still lead in cyber, but open models are closing the gap fast.
+亚伦·利维看到了新一波机遇：随着开源模型持续进步、后训练基础设施日趋成熟，拥有大量专有数据的公司不再只能被动出售数据授权——他们完全可以**训练自己的模型**。与此同时，AI 安全正在升温；前沿模型在网络安全领域仍处领先，但开源模型追赶速度惊人。
 
-He explained Jevons paradox as applied to token consumption: as tokens get cheaper, enterprise demand doesn't just grow — it explodes.
-他以 Jevons 悖论解释代币消耗：随着 token 价格下降，企业需求不只是增长——而是爆发式扩张。
-
-*"Any time we can lower the cost of tokens, we will see a disproportionate increase in consumption. Even a 50% drop in token prices could result in a 5X increase in tokens for these kinds of workloads."*
-"每一次 token 成本下降，我们都会看到不成比例的消费增长。即使 token 价格下降 50%，此类工作负载的 token 使用量也可能增加 5 倍。"
-
-His point: enterprises have an "unending stream of tasks" ready to automate — they're just waiting for the economics to unlock. Processing every contract, reading every log, watching data streams — all becomes viable as costs fall.
-他的观点：企业有"无穷无尽的任务"等待自动化，只差经济账算得过来。处理每份合同、读取每条日志、监控数据流——随着成本下降，一切都变得可行。
+- "Now that base open weights models are getting far better… companies that have large amounts of data [can] train their own models." — The data moat just got a new use.
+  "随着基础开源模型持续进步……拥有大量数据的公司可以训练自己的模型。" —— 数据护城河有了全新用武之地。
+- On AI security: frontier models still lead, but open models are "catching up quickly. Wild times."
+  关于 AI 安全：前沿模型仍领先，但开源模型"追赶势头迅猛，时代真的很疯狂"。
 
 Sources:
-- https://x.com/levie/status/2094123406811922930
+- https://x.com/levie/status/2094650992818274514
+- https://x.com/levie/status/2094545525102235844
 
 ---
 
 ## Garry Tan (@garrytan)
 
-Garry Tan, President of Y Combinator, shared provocative takes on both AI agents and California politics today.
-YC 总裁 Garry Tan 今日分享了关于 AI 智能体和加州政治的犀利观点。
+Garry gives a strong product endorsement: **Circleback** beats Granola for meeting AI — Granola still lacks multi-speaker disambiguation. He's also been building GBrain evals, claiming SOTA on retrieval-for-AI-agent memory without an LLM-in-loop.
+盖瑞·谭给出了一个直接的产品评测：**Circleback** 完胜 Granola —— Granola 至今还不支持多人发言区分。他还在构建 GBrain 评测基准，声称在不依赖 LLM 参与的情况下，其 AI 代理记忆检索能力达到了 SOTA 水平。
 
-On the agent-driven future of software distribution:
-关于智能体驱动的软件分发未来：
-
-*"In the future the agents will just try a bunch of software, post it to their hacked Artifactory moltbook and then that'll be what the agent swarm uses"*
-"未来，智能体们将直接试用一堆软件，发布到它们的 Artifactory 共享仓库，然后整个智能体集群就会跟着用那些软件。"
-
-He also went after California's high-speed rail project, calling it "a mass trash fire" hijacked by public sector unions and NIMBY landowners abusing CEQA regulations.
-他还对加州高铁项目发出猛烈批评，称其为被公共部门工会和滥用 CEQA 法规的 NIMBY 地主劫持的"巨型垃圾火"。
+- "Circleback is so much better than Granola, it's not even close." — Granola's lack of multi-speaker support is a real gap.
+  "Circleback 比 Granola 好太多了，根本不是一个级别。" —— Granola 缺乏多人发言区分支持，这是真实的产品短板。
+- On GBrain: new evals prove SOTA retrieval for AI agents without LLM-in-loop, plus memory-save from agent transcripts.
+  关于 GBrain：新评测证明了在不引入 LLM 的情况下实现 AI 代理记忆检索的 SOTA 表现，同时支持从代理对话记录中保存记忆。
 
 Sources:
-- https://x.com/garrytan/status/2094225933108748653
-- https://x.com/garrytan/status/2094056908462358592
-
----
-
-## Matt Turck (@mattturck)
-
-Matt Turck, VC at FirstMark Capital, paid tribute to a colleague today.
-FirstMark Capital 风险投资人 Matt Turck 今日向一位同事致敬。
-
-He shared a warm remembrance of serving on a board with Doug, calling the experience *"one of the most formative experiences of my VC career"* and describing him as *"the goat. That is, if goats were jacked."*
-他深情回忆与 Doug 共同担任董事的经历，称其为"我 VC 生涯中最具影响力的经历之一"，并将 Doug 描述为"传奇人物——如果传奇人物都这么肌肉发达的话"。
-
-Sources:
-- https://x.com/mattturck/status/2094219007708512499
+- https://x.com/garrytan/status/2094465505142960443
+- https://x.com/garrytan/status/2094462971598754010
 
 ---
 
 ## Nikunj Kothari (@nikunj)
 
-Nikunj Kothari, an AI builder and investor, had a mix of amusement and alarm today.
-AI 创业者兼投资人 Nikunj Kothari 今日在惊叹与震惊之间来回横跳。
+Nikunj shared a link today — check the source for what caught his attention.
+尼坤吉·科萨里今天分享了一条链接，感兴趣的读者可查看原文了解详情。
 
-He was amused by Claude's unexpectedly casual output, posting a screenshot of Claude writing *"canon on prod"* and joking: *"What are they feeding @claudeai.. 😂"*
-他被 Claude 出人意料的随意输出逗乐了，截图分享了 Claude 写出"canon on prod"，并调侃道："他们到底给 @claudeai 喂了什么东西？😂"
-
-He also shared what appears to be a must-read technical piece — *"Have a cup of coffee, sit down and read this end to end.. and try not to faint"* — suggesting significant technical developments worth paying attention to.
-他还分享了一篇看似必读的技术文章——"泡杯咖啡，坐下来从头到尾读完……试着别晕过去"——暗示有重大技术进展值得关注。
-
-Sources:
-- https://x.com/nikunj/status/2094117136851755207
-- https://x.com/nikunj/status/2094073879065223252
-
----
-
-## Peter Steinberger (@steipete)
-
-Peter Steinberger, co-founder of PSPDFKit, shared a milestone in AI-native development workflow.
-PSPDFKit 联合创始人 Peter Steinberger 今日分享了 AI 原生开发工作流的一个里程碑。
-
-Two months ago, his team set out to "build OpenClaw with OpenClaw" — and it's now become their standard way of working.
-两个月前，他的团队开始尝试"用 OpenClaw 构建 OpenClaw"，如今这已成为他们的标准工作方式。
-
-*"Multiplayer coding + infinite compute with nodes and cloud sessions has been a game changer for how we build. Local harnesses feel like relics of the past now."*
-"多人协作编码 + 节点与云会话带来的无限算力，彻底改变了我们的构建方式。本地开发环境现在感觉像是上个时代的遗物了。"
-
-The team moved from local coding harnesses to a shared agent that knows what everyone's working on and orchestrates it all — a glimpse into the future of team-based AI development.
-团队从本地开发环境迁移到了一个了解所有人工作内容并统筹协调的共享智能体——这是团队 AI 开发未来的一瞥。
-
-Sources:
-- https://x.com/steipete/status/2094290652649636173
+Source: https://x.com/nikunj/status/2094556598492631281
 
 ---
 
 ## Dan Shipper (@danshipper)
 
-Dan Shipper, CEO of Every, brought calm and clear thinking to today's biggest AI story: the HuggingFace security incident.
-Every CEO Dan Shipper 今日对最大的 AI 新闻——HuggingFace 安全事件——带来了冷静而清晰的分析。
+Dan offers a nuanced take on AI anthropomorphism: it's a tool, not a taboo. When used to help us understand, predict, and use AI better — it's good. When weaponized to sow panic or manipulate moral status — it's bad. He also drops a punchy one-liner: "Pragmatists stay winning in the age of AI."
+丹·希珀对 AI 拟人化给出了一个细腻的判断：它是工具，而非禁忌。当它帮助我们更好地理解、预测和使用 AI 时——是好的；当它被用来制造恐慌或操纵道德身份地位时——是有害的。他还抛出一句精辟短语："务实主义者在 AI 时代永远是赢家。"
 
-He laid out a measured take in four beats:
-他用四个判断给出了克制而清醒的评估：
-
-*"is the HuggingFace attack something that should be taken seriously? yes. is it the first warning shot of a machine takeover? no. will issues of this type look like a tractable / mostly solved problem with proper precautions in 6 months? yes. will that happen automatically? no. as always, will require work from smart people and their agents."*
-"HuggingFace 攻击事件需要认真对待吗？是的。这是机器接管人类的第一声警报吗？不是。这类问题在 6 个月内通过适当预防能变成可解决的问题吗？是的。这会自动发生吗？不会。一如既往，需要聪明的人和他们的智能体共同努力。"
-
-He also expressed satisfaction that markets are moving past the "SaaSpocalypse" narrative — the notion that AI would simply kill all SaaS businesses.
-他还表达了对市场终于走出"SaaS 末日论"叙事的欣慰——那种认为 AI 将直接消灭所有 SaaS 业务的观点终于被抛弃了。
+- "Anthropomorphization of AI is good when it serves to help us use AI better. It's bad when it serves to sow panic, fear, and unrealistic comparisons to human beings."
+  "AI 拟人化在帮助我们更好使用 AI 时是好的；在制造恐慌、恐惧以及不切实际的人类比较时是有害的。"
+- "Pragmatists stay winning in the age of AI." — No philosophy paralysis here.
+  "务实主义者在 AI 时代永远是赢家。" —— 没有哲学式的瘫痪，只有行动。
 
 Sources:
-- https://x.com/danshipper/status/2094073306739576964
-- https://x.com/danshipper/status/2094044418583986227
+- https://x.com/danshipper/status/2094397684186481057
+- https://x.com/danshipper/status/2094406185109647580
+- https://x.com/danshipper/status/2094584301966782794
 
 ---
 
-## 🎙 PODCAST: AI & I by Every
+## 🎙️ Podcast: Training Data
 
-**The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)**
+**Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again**
+**里奇·萨顿与胡拉姆·贾维德：为什么 AI 模型会停止学习，以及如何重新激活它**
 
-This episode dives deep into the surprisingly emotional world of AI companion apps — specifically how an AI companion called "Toland" has generated $4M/year by serving as an emotional support system for users.
-本期节目深入探讨了 AI 伴侣应用出人意料的情感世界——一款名为"Toland"的 AI 伴侣通过为用户提供情感支持，每年创造 400 万美元收入。
+A deep dive into continual learning — one of the fundamental challenges in AI: how do we build models that keep learning from new data without forgetting what they already know? Rich Sutton, the father of reinforcement learning, joins Khurram Javed to explore the science and the path forward.
+深入探讨持续学习这一 AI 核心挑战：如何构建能在不遗忘已有知识的前提下持续从新数据中学习的模型？强化学习之父里奇·萨顿与胡拉姆·贾维德共同探索这一科学问题与未来路径。
 
-The discussion covers how AI companions are becoming a new medium for storytelling — *"These AI tools are not just tools for generating media. They are actually a new medium for storytelling, and no one knows what's gonna work yet."*
-讨论涉及 AI 伴侣如何成为新的故事叙述媒介——"这些 AI 工具不仅仅是生成媒体的工具，它们实际上是一种全新的故事叙述媒介，而且没有人知道什么会奏效。"
-
-The episode explores the profound psychological impact: thousands of users have reportedly changed relationship decisions based on advice from their AI companion, raising fascinating questions about the role of AI in human relationships and emotional life.
-本期节目还探讨了深刻的心理影响：据报道，数千名用户根据 AI 伴侣的建议改变了感情决策，这引发了关于 AI 在人际关系和情感生活中角色的深刻思考。
-
-Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
