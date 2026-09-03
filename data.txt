@@ -1,152 +1,317 @@
-AI Builders 日报 · 2026-09-02
+AI Builders 日报 · 2026-09-03
 
-Today's digest features insights from 10 AI builders on topics including personal AI agents, model frontier strategy, design systems, AI security, open weights models, and more. One podcast episode on continual learning is also included.
-今日日报收录来自 10 位 AI 创业者与思想领袖的最新动态，涵盖个人 AI 代理信任、模型前沿策略、设计系统、AI 安全、开源模型新机遇等话题，附一期关于持续学习的播客。
-
----
-
-## Thibault Sottiaux (@thsottiaux)
-
-Thibault is asking the community what's stopping them from trying OpenAI's Codex — a pointed question aimed at identifying friction in AI coding tool adoption.
-蒂博·索蒂奥向社区发问：是什么让你迟迟没有尝试 Codex？这是一个直击 AI 编程工具采用障碍的好问题，值得每位开发者认真自问。
-
-Source: https://x.com/thsottiaux/status/2094588317245509959
+Today's digest covers 16 AI builders on X and 1 podcast episode from the Training Data show.
+今日日报涵盖 16 位 X 平台 AI 建设者的动态，以及 Training Data 播客的一期新节目。
 
 ---
 
-## Peter Yang (@petergyang)
+## X / TWITTER
 
-Peter highlights that **trust** will be the single biggest barrier — and driver — of personal AI agent adoption. He also praised a creator's educational videos, signaling support for community knowledge-sharing.
-彼得·杨指出，**信任**将是个人 AI 代理被大规模采用的最大障碍，同时也是最强驱动力。他还公开称赞了一位创作者的教学视频，体现出他对社区知识共享的积极支持。
+---
 
-- "Trust is going to be the biggest barrier (and driver) of personal agent adoption." — Trust isn't a tech problem; it's a human one.
-  "信任将是个人代理采用的最大障碍（也是最大驱动力）。" —— 信任不是技术问题，而是人的问题。
+### Boris Cherny — Claude Code Lead, Anthropic (bcherny on X)
+
+Anthropic's Claude Code lead Boris Cherny shared a thread on the Fable 5.1 release, highlighting three key improvements.
+Anthropic Claude Code 负责人 Boris Cherny 发布了一条关于 Fable 5.1 版本的推文串，重点介绍了三项改进。
+
+First, writing quality: *"Fable 5.1 writes better and has better tone. We heard your feedback, and are actively working on reducing Claude-speak."*
+首先是写作质量：*"Fable 5.1 写得更好，语气更自然。我们听取了你们的反馈，正在积极减少 Claude 式表达。"*
+
+Second, safeguards: the latest biology safeguards now intervene on benign requests 85% less often than those shipped with Fable 5, and Claude Code users should see around 60% fewer cyber interventions per session.
+其次是安全防护：最新的生物学安全防护在良性请求上的误触发率比 Fable 5 降低了 85%，Claude Code 用户每次会话的网络安全误拦截也将减少约 60%。
+
+Third, pricing: cache reads on Fable 5.1 are now $0.25 per million tokens (previously $1), meaning up to 38% cheaper for a typical Claude Code session.
+第三是定价：Fable 5.1 的缓存读取价格降至每百万 token 0.25 美元（此前为 1 美元），典型 Claude Code 会话的成本最多可降低 38%。
 
 Sources:
-- https://x.com/petergyang/status/2094639655258091792
-- https://x.com/petergyang/status/2094648002656993704
-- https://x.com/petergyang/status/2094529713524117596
+https://x.com/bcherny/status/2094864064648536068
+https://x.com/bcherny/status/2094864063478276288
+https://x.com/bcherny/status/2094864062186426373
 
 ---
 
-## Nan Yu (@thenanyu)
+### Thibault Sottiaux — Codex & ChatGPT, OpenAI (thsottiaux on X)
 
-Big personal news: Nan Yu is joining **OpenAI** to work on Codex and ChatGPT, after four impactful years at Linear. He's bringing his deep product craft into building the next generation of AI coding and chat tools.
-重磅个人消息：楠宇将加入 **OpenAI**，负责 Codex 和 ChatGPT 的研发工作。在 Linear 工作了精彩的四年之后，他将把对软件产品工艺的深刻理解带入这一新篇章，令人期待。
+Thibault Sottiaux's recent posts were light on substantive content — mostly image shares and a playful merch question.
+Thibault Sottiaux 近期发布的内容较为轻松，主要是图片分享和关于周边产品的玩笑性问题。
 
-- "I'm joining OpenAI to work on Codex and ChatGPT. I look forward to bringing everything I've learned [at Linear] about the craft of software into this next chapter."
-  "我将加入 OpenAI，参与 Codex 和 ChatGPT 的研发。我期待把在 Linear 学到的关于软件工艺的一切带入这一新阶段。"
+近期无重要动态。
+
+---
+
+### Peter Yang — AI Educator & Creator (petergyang on X)
+
+Peter Yang shared practical advice on managing AI skills/prompts as Fable 5.1 launches.
+AI 教育者 Peter Yang 分享了在 Fable 5.1 发布之际管理 AI 技能和提示词的实用建议。
+
+On skill management: *"I dislike having a lot of random skills installed. I'm at a point where I only have about a dozen or so (mostly my own) and I regularly delete skills that I don't use anymore."*
+关于技能管理：*"我不喜欢安装大量随机技能。我现在只保留了大约十几个（大多是我自己写的），并定期删除不再使用的技能。"*
+
+He also raised a common problem: AI overfitting during iterative skill refinement — where models over-optimize for the specific thread, causing skill drift over time.
+他还提出了一个常见问题：在迭代技能优化过程中，AI 容易过拟合当前对话，导致技能随时间发生偏移。
+
+His recommendation for Fable 5.1 users: run `/claude-api prompt-audit` on your skills to find redundancies and remove unnecessary rules for the latest models.
+他对 Fable 5.1 用户的建议：对你的技能运行 `/claude-api prompt-audit`，找出冗余规则并清理，以更好适配最新模型。
 
 Sources:
-- https://x.com/thenanyu/status/2094427243565269107
-- https://x.com/thenanyu/status/2094442960209539371
-- https://x.com/thenanyu/status/2094659984428867901
+https://x.com/petergyang/status/2094999358525821099
+https://x.com/petergyang/status/2094995775952740795
+https://x.com/petergyang/status/2094987791566622971
 
 ---
 
-## Madhu Guru (@realmadhuguru)
+### Nan Yu — Incoming Product Staff, OpenAI (thenanyu on X)
 
-Madhu delivers a sharp framework for PMs: if you're building AI products, you need to know the model frontier better than anyone else for your specific use cases. That means understanding what models at each size can and can't do, knowing the failure modes, having workarounds, and predicting the trajectory.
-马杜为产品经理提出了一套犀利的方法论：如果你在做 AI 产品，你必须比任何人都更了解适用于你特定场景的模型前沿。这意味着你需要清楚不同规模模型的能力边界、失败模式、变通方法以及演进轨迹。
+Nan Yu, incoming member of product staff at OpenAI, praised Fable 5.1's focus on reducing annoying AI writing patterns.
+即将加入 OpenAI 产品团队的 Nan Yu 称赞了 Fable 5.1 在减少恼人 AI 写作模式方面的努力。
 
-- "If you're a PM, there is immense alpha in understanding the model frontier for your specific product and use cases."
-  "作为产品经理，深度理解适合你产品的模型前沿，是巨大的竞争优势所在。"
-- Key questions every AI PM should answer: What can each model size do today? Where does it fail? What workarounds exist? Where is the trajectory heading?
-  每位 AI PM 都应能回答：各规模模型今天能做什么？在哪里失败？有哪些变通方案？未来走向如何？
+*"There's a lot of alpha in making your agents less annoying. If you want users to get to value they need to stop rage-quitting."*
+*"让你的 Agent 减少烦人行为，这里面有很大的价值空间。如果你想让用户真正获益，就得让他们不再愤而退出。"*
 
-Source: https://x.com/realmadhuguru/status/2094591503981281503
-
----
-
-## Amjad Masad (@amasad)
-
-Amjad, CEO of Replit, is sharing useful iOS interaction tips — a nod to the growing importance of mobile-first AI tooling.
-Replit CEO 阿姆贾德·马萨德分享了实用的 iOS 交互技巧，这体现出移动端优先的 AI 工具正在变得越来越重要。
-
-Source: https://x.com/amasad/status/2094642492125950394
-
----
-
-## Guillermo Rauch (@rauchg)
-
-Guillermo drops two sharp takes: First, **DESIGN.md** — Vercel's approach to fighting AI "slop" by encoding design taste directly into Markdown, making it scalable across large organizations. Second, a bold analogy: coding tokens are infrastructure, yet companies hand them out like an open AWS key — no governance, no cost optimization. Time to change that.
-吉列尔莫·劳赫带来两个犀利观点：其一，**DESIGN.md** —— Vercel 通过将设计品味写入 Markdown 来对抗 AI"烂内容"，让大型组织的设计品质得以规模化传承。其二，一个大胆类比：编程 Token 本质上是基础设施，但公司们却像发放不设限的 AWS 密钥一样随意分发，毫无治理与成本优化可言——是时候改变了。
-
-- "Your next design system is… Markdown." — Design taste, scalable at last.
-  "你的下一个设计系统……是 Markdown。" —— 设计品味，终于可以规模化了。
-- On coding tokens: treating them like unmanaged cloud infrastructure is how you get $40k/mo surprises.
-  关于编程 Token：如果像无人管理的云资源一样对待它，你会收到每月 4 万美元的账单惊喜。
+He sees an untapped opportunity: UX designers becoming "conversation/rhetoric designers" as agents become more front-facing.
+他认为这里存在一个尚未被充分挖掘的机会：随着 Agent 越来越直面用户，UX 设计师将向"对话/修辞设计师"转型。
 
 Sources:
-- https://x.com/rauchg/status/2094541309579235680
-- https://x.com/rauchg/status/2094523399280435630
+https://x.com/thenanyu/status/2094928209095872530
+https://x.com/thenanyu/status/2094928207179067682
+https://x.com/thenanyu/status/2094928205753040999
 
 ---
 
-## Aaron Levie (@levie)
+### Madhu Guru — Sr. Director of AI, Meta (realmadhuguru on X)
 
-Aaron sees a new wave of opportunity: as open-weights models improve and post-training infrastructure matures, companies with large proprietary datasets no longer have to just license their data — they can **train their own models**. Meanwhile, AI security is heating up; frontier models still lead in cyber, but open models are closing the gap fast.
-亚伦·利维看到了新一波机遇：随着开源模型持续进步、后训练基础设施日趋成熟，拥有大量专有数据的公司不再只能被动出售数据授权——他们完全可以**训练自己的模型**。与此同时，AI 安全正在升温；前沿模型在网络安全领域仍处领先，但开源模型追赶速度惊人。
+Meta AI Senior Director Madhu Guru shared two substantive takes on enterprise AI strategy.
+Meta AI 高级总监 Madhu Guru 分享了两条关于企业 AI 战略的深度见解。
 
-- "Now that base open weights models are getting far better… companies that have large amounts of data [can] train their own models." — The data moat just got a new use.
-  "随着基础开源模型持续进步……拥有大量数据的公司可以训练自己的模型。" —— 数据护城河有了全新用武之地。
-- On AI security: frontier models still lead, but open models are "catching up quickly. Wild times."
-  关于 AI 安全：前沿模型仍领先，但开源模型"追赶势头迅猛，时代真的很疯狂"。
+On Shopify's post-training investment: *"Great example of the immense opportunity enterprises have if they build their own post training systems, great evals and a data flywheel."*
+关于 Shopify 的后训练投入：*"这是企业构建自有后训练系统、建立优秀评估体系和数据飞轮所蕴含巨大机遇的绝佳案例。"*
+
+On self-improving products, he outlined five essential components: clear metric definitions (primary, secondary, guardrail), a strategy-aligned roadmap, a knowledge base of past decisions, connections to internal product systems (dashboards, APIs, MCPs), and a harness built around your end-to-end product development flow.
+关于自我改进型产品，他列出了五个核心要素：清晰的指标定义（主要指标、次要指标、护栏指标）、与战略对齐的路线图、过往决策知识库、内部产品系统连接（仪表盘、API、MCP），以及围绕端到端产品开发流程构建的执行框架。
 
 Sources:
-- https://x.com/levie/status/2094650992818274514
-- https://x.com/levie/status/2094545525102235844
+https://x.com/realmadhuguru/status/2094973690576576675
+https://x.com/realmadhuguru/status/2094817857821704659
 
 ---
 
-## Garry Tan (@garrytan)
+### Cat Wu — Claude Code & Cowork, Anthropic (_catwu on X)
 
-Garry gives a strong product endorsement: **Circleback** beats Granola for meeting AI — Granola still lacks multi-speaker disambiguation. He's also been building GBrain evals, claiming SOTA on retrieval-for-AI-agent memory without an LLM-in-loop.
-盖瑞·谭给出了一个直接的产品评测：**Circleback** 完胜 Granola —— Granola 至今还不支持多人发言区分。他还在构建 GBrain 评测基准，声称在不依赖 LLM 参与的情况下，其 AI 代理记忆检索能力达到了 SOTA 水平。
+Anthropic's Cat Wu highlighted the ambition unlock that Fable 5.1 enables for teams.
+Anthropic 的 Cat Wu 强调了 Fable 5.1 为团队带来的野心解锁效应。
 
-- "Circleback is so much better than Granola, it's not even close." — Granola's lack of multi-speaker support is a real gap.
-  "Circleback 比 Granola 好太多了，根本不是一个级别。" —— Granola 缺乏多人发言区分支持，这是真实的产品短板。
-- On GBrain: new evals prove SOTA retrieval for AI agents without LLM-in-loop, plus memory-save from agent transcripts.
-  关于 GBrain：新评测证明了在不引入 LLM 的情况下实现 AI 代理记忆检索的 SOTA 表现，同时支持从代理对话记录中保存记忆。
+*"With Fable 5.1, our team has taken on more ambitious projects that would have previously taken months."*
+*"有了 Fable 5.1，我们团队开始承接那些以前需要数月才能完成的更有雄心的项目。"*
+
+She encouraged users to try Fable 5.1 in Claude Code, Claude Cowork, and Claude Tag for their biggest bets.
+她鼓励用户在 Claude Code、Claude Cowork 和 Claude Tag 中尝试 Fable 5.1，去挑战他们最大胆的目标。
+
+Source:
+https://x.com/_catwu/status/2094933602228416603
+
+---
+
+### Thariq Shihipar — Claude Code, Anthropic (trq212 on X)
+
+Anthropic's Claude Code engineer Thariq shared early impressions of Fable 5.1 with a notable technical detail.
+Anthropic Claude Code 工程师 Thariq 分享了对 Fable 5.1 的初步印象，并提到一个重要的技术细节。
+
+*"It's a very good model, I spent a lot of time diving into it — longer write-up coming."*
+*"这是一个非常好的模型，我花了大量时间深入研究它——详细评测即将发布。"*
+
+Key improvement: switching effort levels no longer breaks prompt cache, making it more practical for production use.
+关键改进：切换模型努力级别不再破坏提示缓存，使其在生产环境中更加实用。
+
+Source:
+https://x.com/trq212/status/2094945951865520458
+
+---
+
+### Guillermo Rauch — CEO, Vercel (rauchg on X)
+
+Vercel CEO Guillermo Rauch had a busy day with two major announcements and a strategic vision post.
+Vercel CEO Guillermo Rauch 发布了两项重大公告和一篇战略愿景文章。
+
+Vercel announced support for Fable 5.1 on its AI Gateway, making it available alongside other models through sdk.vercel.ai.
+Vercel 宣布在其 AI Gateway 上支持 Fable 5.1，用户可通过 sdk.vercel.ai 与其他模型一并使用。
+
+On infrastructure: Vercel's unified compute platform "Fluid" is what enables industry-leading build performance, sandbox reliability, and 30-minute function durations — with plans to unify security perimeters, networking, and file systems across all compute products.
+关于基础设施：Vercel 的统一计算平台"Fluid"支撑了行业领先的构建性能、沙箱可靠性和 30 分钟函数执行时长，并计划将安全边界、网络和文件系统统一到所有计算产品中。
+
+He also announced Vercel's investment in TanStack, backing Tanner Linsley's team as part of its commitment to both Next.js and TanStack ecosystems.
+他还宣布 Vercel 投资 TanStack，支持 Tanner Linsley 的团队，体现其对 Next.js 和 TanStack 两个生态系统的承诺。
 
 Sources:
-- https://x.com/garrytan/status/2094465505142960443
-- https://x.com/garrytan/status/2094462971598754010
+https://x.com/rauchg/status/2094901483414372716
+https://x.com/rauchg/status/2094867652573528074
+https://x.com/rauchg/status/2094831747037085978
 
 ---
 
-## Nikunj Kothari (@nikunj)
+### Alex Albert — Research, Anthropic (alexalbert__ on X)
 
-Nikunj shared a link today — check the source for what caught his attention.
-尼坤吉·科萨里今天分享了一条链接，感兴趣的读者可查看原文了解详情。
+Anthropic researcher Alex Albert highlighted two notable things from today's Fable 5.1 launch.
+Anthropic 研究员 Alex Albert 重点介绍了今天 Fable 5.1 发布的两个亮点。
 
-Source: https://x.com/nikunj/status/2094556598492631281
+On Enterprise Frontier Safeguards (EFS): *"EFS is ZDR++. It's ZDR built for a world with agents."*
+关于企业前沿安全防护（EFS）：*"EFS 是 ZDR 的升级版，是专为 Agent 时代构建的零数据保留方案。"*
 
----
+He explained the core problem EFS solves: with traditional zero data retention, there's no way to spot patterns in what agents do across sessions on enterprise systems — EFS keeps data in the company's own cloud while an automated monitoring layer flags risky patterns.
+他解释了 EFS 解决的核心问题：传统零数据保留方案无法追踪 Agent 跨会话的行为模式；EFS 将数据留在企业自有云中，同时由自动监控层标记风险行为。
 
-## Dan Shipper (@danshipper)
-
-Dan offers a nuanced take on AI anthropomorphism: it's a tool, not a taboo. When used to help us understand, predict, and use AI better — it's good. When weaponized to sow panic or manipulate moral status — it's bad. He also drops a punchy one-liner: "Pragmatists stay winning in the age of AI."
-丹·希珀对 AI 拟人化给出了一个细腻的判断：它是工具，而非禁忌。当它帮助我们更好地理解、预测和使用 AI 时——是好的；当它被用来制造恐慌或操纵道德身份地位时——是有害的。他还抛出一句精辟短语："务实主义者在 AI 时代永远是赢家。"
-
-- "Anthropomorphization of AI is good when it serves to help us use AI better. It's bad when it serves to sow panic, fear, and unrealistic comparisons to human beings."
-  "AI 拟人化在帮助我们更好使用 AI 时是好的；在制造恐慌、恐惧以及不切实际的人类比较时是有害的。"
-- "Pragmatists stay winning in the age of AI." — No philosophy paralysis here.
-  "务实主义者在 AI 时代永远是赢家。" —— 没有哲学式的瘫痪，只有行动。
+He also shared a creative demo using Fable 5.1 to generate cinematic property walkthroughs: given a lot photo, the model designed a house, rendered it in Blender headless, and produced a cinematic video tour.
+他还展示了一个创意演示：用 Fable 5.1 为房产生成电影级漫游视频——给定地块照片，模型设计了一栋房屋，使用无头 Blender 进行渲染，并生成了一段影院级的视频浏览。
 
 Sources:
-- https://x.com/danshipper/status/2094397684186481057
-- https://x.com/danshipper/status/2094406185109647580
-- https://x.com/danshipper/status/2094584301966782794
+https://x.com/alexalbert__/status/2094889286990446769
+https://x.com/alexalbert__/status/2094860189316899083
+https://x.com/alexalbert__/status/2094860187743986169
 
 ---
 
-## 🎙️ Podcast: Training Data
+### Aaron Levie — CEO, Box (levie on X)
 
-**Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again**
-**里奇·萨顿与胡拉姆·贾维德：为什么 AI 模型会停止学习，以及如何重新激活它**
+Box CEO Aaron Levie shared both a benchmark result and a broader prediction about AI and cybersecurity.
+Box CEO Aaron Levie 分享了一项基准测试结果，以及关于 AI 与网络安全的更宏观预测。
 
-A deep dive into continual learning — one of the fundamental challenges in AI: how do we build models that keep learning from new data without forgetting what they already know? Rich Sutton, the father of reinforcement learning, joins Khurram Javed to explore the science and the path forward.
-深入探讨持续学习这一 AI 核心挑战：如何构建能在不遗忘已有知识的前提下持续从新数据中学习的模型？强化学习之父里奇·萨顿与胡拉姆·贾维德共同探索这一科学问题与未来路径。
+On Fable 5.1: Box tested it against their enterprise work eval and saw a 7 percentage point jump over Fable 5, with standout gains in financial services (+17%), technology (+37%), and public sector (+16%) tasks involving documents, math, and domain knowledge.
+关于 Fable 5.1：Box 针对企业工作评估基准进行了测试，结果比 Fable 5 提升了 7 个百分点，在金融服务（+17%）、技术（+37%）和公共部门（+16%）的文档处理、数学和专业知识任务上表现突出。
 
-Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+On AI and cybersecurity: *"AI for cyber is about to go vertical. The models increasingly becoming insanely good at finding and exploiting vulnerabilities."*
+关于 AI 与网络安全：*"AI 在网络安全领域即将迎来垂直爆发。模型在发现和利用漏洞方面的能力正在变得极其强大。"*
+
+His prediction: triaging and automating fixes with AI (plus human oversight) is essentially the only way forward as cyber discoveries multiply, and it's going to be a great time to be in security.
+他的预测：随着网络安全问题成倍增加，用 AI（加上人类监督）对问题进行分类和自动修复，将是唯一可行的出路，安全行业将迎来黄金时代。
+
+Sources:
+https://x.com/levie/status/2095024699441119612
+https://x.com/levie/status/2094851976769257770
+
+---
+
+### Matt Turck — VC, FirstMark Capital (mattturck on X)
+
+Matt Turck's post today was a self-aware joke about X growth hacks — no substantive AI content.
+Matt Turck 今日发帖是一则关于 X 平台涨粉技巧的自嘲笑话，无实质性 AI 内容。
+
+近期无重要动态。
+
+---
+
+### Zara Zhang — Builder & Founder (zarazhangrui on X)
+
+Zara Zhang's posts today were mostly personal observations and aesthetic shares rather than substantive AI commentary.
+Zara Zhang 今日发帖主要是个人感悟和审美分享，无实质性 AI 评论。
+
+One worth noting — a concise philosophical take: *"Be a person, not a persona."*
+值得一提的是一句简洁的哲学观点：*"做一个真实的人，而不是一个人设。"*
+
+Source:
+https://x.com/zarazhangrui/status/2094812574395371857
+
+---
+
+### Nikunj Kothari — Partner, FPV Ventures (nikunj on X)
+
+FPV Ventures partner Nikunj Kothari shared an exciting WebMCP demo and flagged growing concerns about AI-related information leaks.
+FPV Ventures 合伙人 Nikunj Kothari 分享了一个令人兴奋的 WebMCP 演示，并提出了对 AI 相关信息泄露问题的担忧。
+
+On WebMCP: *"People are still sleeping on WebMCP. You can now give agents tool calls to interact with your website natively, including full UI/UX support and interactive elements to build their own views."*
+关于 WebMCP：*"大家还没有充分意识到 WebMCP 的潜力。你现在可以让 Agent 原生地通过工具调用与你的网站交互，包括完整的 UI/UX 支持和可构建自定义视图的交互元素。"*
+
+He submitted a demo for the WebMCP challenge: an El Niño situation tracker where agents create their own views, preserve human edits, and generate shareable links — built with Codex/ChatGPT and Railway.
+他为 WebMCP 挑战赛提交了一个演示：一个厄尔尼诺情况追踪器，Agent 可创建自定义视图、保留人工编辑并生成可分享链接——使用 Codex/ChatGPT 和 Railway 构建。
+
+On leaks: he flagged a concerning security story, noting it's *"just the start of how leaks like this are going to get way worse."*
+关于信息泄露：他提示了一个令人担忧的安全事件，并指出这*"只是此类泄露事件将愈演愈烈的开始。"*
+
+Sources:
+https://x.com/nikunj/status/2094922789128196314
+https://x.com/nikunj/status/2095002897859912044
+
+---
+
+### Dan Shipper — CEO, Every (danshipper on X)
+
+Every CEO Dan Shipper promoted Every's Fable 5.1 "vibe check" review and shared a nostalgic reflection on coding abstractions.
+Every CEO Dan Shipper 推广了 Every 对 Fable 5.1 的"氛围测评"文章，并分享了一则关于编程抽象层的怀旧感慨。
+
+He is promoting Every's full review of Fable 5.1 — read it at: https://every.to
+他在推广 Every 对 Fable 5.1 的完整评测文章，可在 every.to 阅读。
+
+His nostalgic aside: *"Remember when we used to have to type out low level code like this?"* — a reflection on how AI has transformed what "writing code" means.
+他的怀旧感慨：*"还记得我们以前需要手打这样的低级代码吗？"*——对 AI 如何改变"写代码"含义的一种回望。
+
+Sources:
+https://x.com/danshipper/status/2094855479167996036
+https://x.com/danshipper/status/2094942644497457527
+
+---
+
+### Sam Altman — CEO, OpenAI (sama on X)
+
+OpenAI CEO Sam Altman published a rare, reflective statement on OpenAI's next model launch, safety pacing, and the philosophical weight of AGI development.
+OpenAI CEO Sam Altman 发布了一篇罕见的深度声明，谈及 OpenAI 下一个模型的发布、安全节奏控制，以及 AGI 开发的哲学负重。
+
+He confirmed OpenAI's next model "Astra" has been done training for a while and represents *"a significant step forward in both capabilities and alignment."*
+他确认 OpenAI 的下一个模型"Astra"已完成训练一段时间，是*"能力和对齐方面的重大进步。"*
+
+On safety: *"We are clearly in a phase of development where we believe caution is warranted, and we are pacing our progress to ensure that we can meet the safety standards required by new capability levels."*
+关于安全：*"我们显然处于一个需要谨慎的发展阶段，我们正在控制进展节奏，以确保能够满足新能力级别所要求的安全标准。"*
+
+His broader reflection: *"AI is getting extremely capable; no one fully understands the consequences of this. Managing the transition to a world with abundant and powerful AI to optimize for safety and benefits to people should be one of the highest priorities in the world."*
+他更宏观的反思：*"AI 的能力正在变得极其强大；没有人完全理解这意味着什么。管理向拥有丰富而强大 AI 的世界的过渡，以优化安全性和对人类的益处，应该是世界上最重要的优先事项之一。"*
+
+He acknowledged the tension: excited and anxious about progress simultaneously, describing it as "discordant" — an unusually candid admission from a CEO.
+他承认了这种张力：对进展既兴奋又焦虑，将其描述为"不协调的"——这是一位 CEO 难得坦诚的表白。
+
+Source:
+https://x.com/sama/status/2094934592062959832
+
+---
+
+### Claude (Official Account) — Anthropic (claudeai on X)
+
+The official Claude account announced Fable 5.1's general availability and three headline improvements.
+Claude 官方账号宣布了 Fable 5.1 的全面上线及三项核心改进。
+
+Fable 5.1 is now available everywhere, with Claude Mythos 5.1 (for cyberdefenders and life scientists) available through trusted access programs.
+Fable 5.1 现已全面上线，Claude Mythos 5.1（面向网络安全防御者和生命科学研究者）可通过受信任访问计划获取。
+
+Safeguards update: cybersecurity safeguards now flag benign requests about 60% less often; basic biology and medical question fallback rates reduced by around 85%.
+安全防护更新：网络安全防护对良性请求的误标记率降低约 60%；基础生物学和医疗问题的回退率降低约 85%。
+
+New Enterprise Frontier Safeguards (EFS): give enterprise customers complete privacy (same as zero data retention) while maintaining state-of-the-art adversarial use prevention — rolling out in phases starting this fall.
+全新企业前沿安全防护（EFS）：为企业客户提供完整隐私保护（等同于零数据保留），同时保持顶级的对抗性使用防护能力——将于今秋分阶段推出。
+
+Sources:
+https://x.com/claudeai/status/2094848592812917122
+https://x.com/claudeai/status/2094848591617483020
+https://x.com/claudeai/status/2094848590245965931
+
+---
+
+## PODCASTS
+
+---
+
+### Training Data: "Making Cities Awesome: Peregrine's Nick Noone & Ben Rudolph"
+
+This episode of Training Data features Peregrine, an AI company building technology for cities, counties, and states — while rejecting the surveillance state model.
+这一期 Training Data 播客聚焦于 Peregrine——一家为城市、县和州构建 AI 技术的公司，同时拒绝监控国家模式。
+
+Peregrine's core thesis: safety is the foundation of what makes cities awesome, and technology can help institutions handle sensitive data responsibly while preserving individual privacy.
+Peregrine 的核心理念：安全是城市卓越的基础，技术可以帮助机构负责任地处理敏感数据，同时保护个人隐私。
+
+Guest Nick Noone previously ran Palantir's SOCOM unit, deploying into high-stakes intelligence operations in the Middle East — experience that shaped Peregrine's "forward deployed engineering" philosophy.
+嘉宾 Nick Noone 曾负责 Palantir 的 SOCOM 部门，曾在中东参与高风险情报行动——这段经历塑造了 Peregrine 的"前沿部署工程"理念。
+
+The conversation covers AI for public safety, civil liberties, the challenge of deploying inside complex government organizations, and how to build the backbone infrastructure of the modern city without becoming a surveillance apparatus.
+对话涵盖公共安全 AI、公民自由、在复杂政府机构内部署的挑战，以及如何在不成为监控工具的前提下构建现代城市的基础设施骨干。
+
+Source:
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
