@@ -1,59 +1,116 @@
-AI Builders 日报 · 2026-09-07
+AI Builders 日报 · 2026-09-08
 
 ---
 
-Thibault Sottiaux (@thsottiaux) — Codex & ChatGPT @ OpenAI
-
-To calibrate you all on which reasoning effort to use for Astra, know that GPT-6 Astra on low performs better than GPT-5.6 Sol on high.
-GPT-6 Astra（低推理强度）的表现已超过 GPT-5.6 Sol（高推理强度），这意味着新模型在效率上实现了质的飞跃。
-
-If you were using high reasoning efforts with Sol and were happy, I suggest you move down to low or medium for Astra.
-Thibault 建议此前使用 Sol 高推理强度的用户，切换到 Astra 时可直接降至低或中等强度，既省成本又能获得更好结果。
-
-Source: https://x.com/thsottiaux/status/2096688770523467947
+X / TWITTER
 
 ---
 
-Peter Yang (@petergyang) — AI tutorials & interviews
+Peter Yang (petergyang on X)
 
-"Cheating and explaining the answer [to your child] are closer than you'd think."
-Peter 分享了与 Brilliant 联创 Sue Khim 的最新播客对话，探讨 AI 时代如何让孩子真正学会思考，而不是依赖 AI 跳过思考过程。
+Peter Yang shared a pointed, tongue-in-cheek comment about AI thought leadership and credibility.
+Peter Yang 发布了一条带讽刺意味的评论，调侃 AI 领域的"意见领袖"资质问题。
 
-"Using AI to skip learning is like bringing a robotic arm to the gym to lift weights for you."
-Sue 用一个犀利比喻点出核心：用 AI 代替学习，就像带机械臂去健身房——结果是什么都没练到。
+*"This man isn't even on Time's 100 Top AI List so why are we listening to him /s"* — implying that clout and list placements don't equal real insight.
+*"这个人连《时代》百大 AI 人物榜都没上，我们凭什么听他的 /s"* —— 暗示人气和榜单排名并不等于真正的洞见。
 
-"Learning isn't about the answer. It is about strengthening that part of you that can concentrate and struggle, that's unafraid of trying new problems."
-学习的本质不在于得到答案，而在于磨砺专注力与面对难题的勇气——这也是 Brilliant 产品设计的第一原则："永远不要直接告诉学习者答案"。
-
-Source: https://x.com/petergyang/status/2096612718098911590
+Source: https://x.com/petergyang/status/2096815819997204639
 
 ---
 
-Nan Yu (@thenanyu) — (soon) Product Staff @ OpenAI, prev Head of Product @ Linear
+Nan Yu (thenanyu on X)
 
-Every tech startup logo
-Nan 分享了一张关于科技创业公司 Logo 的幽默图，暗示行业审美趋于同质化。虽是轻松一笑，却也折射出 AI 时代品牌辨识度的现实困境。
+Nan Yu reacted to a notable AGI-related statement from "J-dog" (likely referring to a prominent figure in the AI community making an AGI call).
+Nan Yu 对 AI 圈内知名人士"J-dog"关于 AGI 的一番断言作出了回应。
 
-Source: https://x.com/thenanyu/status/2096438571838370096
+The post was brief but pointed, signaling attention to bold AGI predictions circulating in the community.
+这条推文简短而有力，表明他正在关注社区内流传的大胆 AGI 预测。
+
+Source: https://x.com/thenanyu/status/2096796392102752507
 
 ---
 
-Peter Steinberger (@steipete) — Polyagentmorous ClawFather, AI builder
+Box CEO Aaron Levie (levie on X)
 
-Can't remember last time we had such a large jump in capabilities.
-Peter 感叹从未见过如此大的能力跃升，言简意赅却分量十足——这正是当前 AI 进展令从业者也目瞪口呆的真实写照。
+The internet is almost entirely unprepared for a future where everyone's personal agents are running around executing tasks for them.
+互联网几乎完全没有为"每个人的个人智能体四处执行任务"这一未来做好准备。
 
-One step closer in building the harness I wanna use. The one thing that's not yet there are cloud sessions, goal is seconds, which requires clever snapshotting. (Right now it still clones repos fresh which isn't fast enough.)
-他正在构建自己心目中理想的 AI 工作框架，目前的瓶颈是云端 session 管理：每次都重新 clone 仓库太慢，需要聪明的快照机制把启动时间压到秒级。他预计下周完成这一关键优化。
+There are going to be endless new challenges and opportunities at the infrastructure layer, for user experiences, new business models, and more.
+在基础设施层、用户体验、新商业模式等方面，将会涌现出无数新的挑战与机遇。
 
-Source 1: https://x.com/steipete/status/2096403459579015374
-Source 2: https://x.com/steipete/status/2096400749869830325
+Levie's observation cuts to the heart of the agentic transition: the web was built for humans, not for billions of autonomous agents acting on their behalf.
+Levie 的观察直击智能体时代转型的核心：互联网是为人类构建的，而非为数十亿代替人类行动的自主智能体所设计。
+
+Source: https://x.com/levie/status/2096735726750908464
+
+---
+
+Zara Zhang (zarazhangrui on X)
+
+One of the biggest crises of our time is the shortening of the human attention span — and agents just make things worse.
+我们这个时代最严重的危机之一，是人类注意力持续时间的缩短——而智能体只会让情况变得更糟。
+
+Zhang connects the agent revolution to a deeper cognitive concern: as AI handles more tasks autonomously, humans may become even less practiced at sustained focus.
+张扎拉将智能体革命与更深层的认知隐患联系起来：随着 AI 自主处理越来越多的任务，人类的持续专注能力可能会进一步退化。
+
+Source: https://x.com/zarazhangrui/status/2096824861108928701
+
+---
+
+Nikunj Kothari (nikunj on X)
+
+Nikunj shared a charming behind-the-scenes moment from Fable's engineering workflow, where their AI PM "Fable" reviewed every code change from their engineer Astra.
+Nikunj 分享了 Fable 工程团队一个有趣的幕后瞬间：他们的 AI 产品经理"Fable"对工程师 Astra 提交的每一处代码变更都进行了审查。
+
+*"This fix is the real deal"* — the AI PM's verdict, suggesting a future where AI agents serve as enthusiastic (and opinionated) code reviewers.
+*"这个修复真是一流"* —— 这是 AI 产品经理的裁定，暗示了一个 AI 智能体担任充满热情（且颇有主见）代码审查员的未来。
+
+Source: https://x.com/nikunj/status/2096798671547646134
 
 ---
 
 PODCASTS
 
-The MAD Podcast with Matt Turck — "AI Could Take Over in 2029. Is It Already Too Late?" | Ryan Greenblatt
-Ryan Greenblatt 在本期节目中讨论了 AI 在 2029 年前接管关键系统的可能性，以及我们现在是否已经错过了部署安全护栏的最佳窗口期。这是一期关于 AI 安全与时间窗口的深度对话，适合所有关注 AI 长期风险的听众。
+---
 
-Source: https://www.youtube.com/watch?v=SK9ITBK5osA
+No Priors: "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein"
+
+In this episode of No Priors, hosts spoke with Ofir Ehrlich and Gonen Stein, co-founders of Eon — a cloud backup and disaster recovery platform built for the AI era.
+在本期《No Priors》播客中，主持人与 Eon 联合创始人 Ofir Ehrlich 和 Gonen Stein 进行了深入对话。Eon 是一个为 AI 时代打造的云备份与灾难恢复平台。
+
+The core thesis: data is the new moat, and most organizations don't even know what data they have.
+核心论点：数据是新时代的护城河，而大多数企业甚至不清楚自己拥有哪些数据。
+
+A striking example — Google recently purchased data from the bankrupt Spirit Airlines for $10 million, not the planes, just the data.
+一个引人注目的案例——谷歌最近以 1000 万美元购买了破产的 Spirit 航空公司的数据，买的不是飞机，而是数据本身。
+
+Models and compute have near-zero switching costs; your proprietary data is what's irreplaceable.
+模型和算力的迁移成本几乎为零，而你的专有数据才是无可替代的。
+
+*"The most valuable thing that you have is actually your data."*
+*"你拥有的最有价值的东西，其实是你的数据。"*
+
+On AI security: non-human actors (AI agents) now pose the same threats as ransomware — with legitimate access credentials and extreme velocity.
+关于 AI 安全：非人类行为者（AI 智能体）如今造成的威胁与勒索软件相当——它们持有合法的访问凭证，且攻击速度极快。
+
+*"The velocity of that happening is extreme."*
+*"这种情况发生的速度极为惊人。"*
+
+Six months ago, no enterprise leader would discuss agent security risks; now it's the number one or two concern for CIOs.
+六个月前，没有任何企业领导者愿意讨论智能体安全风险；如今，这已成为 CIO 们最关心的一两个问题之首。
+
+Eon's approach: automatically map and classify all organizational data across environments, ingest it into a cost-efficient foundation, and make it accessible to AI workflows — without compromising security, compliance, or production uptime.
+Eon 的解决方案：自动映射和分类企业各环境中的所有数据，将其导入高性价比的数据基础设施，并在不影响安全、合规和生产稳定性的前提下，使其可供 AI 工作流使用。
+
+The AI era is like the cloud transition "on steroids" — but moving far faster, with organizations losing control at a pace that's becoming an inhibitor rather than an enabler.
+AI 时代就像云计算转型的"加强版"——但速度快得多，企业失控的速度之快，已从推动因素变成了阻碍因素。
+
+*"Customers are losing control to a point where that's becoming an inhibitor, not an enabler."*
+*"企业正在失去控制，这种失控已经从推动力变成了阻碍力。"*
+
+Episode link: https://www.youtube.com/@NoPriorsPodcast
+(Note: specific video URL not available in feed; search "Rethinking Legacy Data Infrastructure Eon No Priors" on YouTube)
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
