@@ -1,4 +1,4 @@
-AI Builders 日报 · 2026-09-08
+AI Builders 日报 · 2026-09-09
 
 ---
 
@@ -6,66 +6,174 @@ X / TWITTER
 
 ---
 
-Peter Yang (petergyang on X)
+Thibault Sottiaux (thsottiaux on X) — OpenAI
 
-Peter Yang shared a pointed, tongue-in-cheek comment about AI thought leadership and credibility.
-Peter Yang 发布了一条带讽刺意味的评论，调侃 AI 领域的"意见领袖"资质问题。
+Thibault Sottiaux, a member of the OpenAI team, is clearly buzzing about a major product week.
+OpenAI 团队成员 Thibault Sottiaux 对本周的产品大周热情高涨。
 
-*"This man isn't even on Time's 100 Top AI List so why are we listening to him /s"* — implying that clout and list placements don't equal real insight.
-*"这个人连《时代》百大 AI 人物榜都没上，我们凭什么听他的 /s"* —— 暗示人气和榜单排名并不等于真正的洞见。
+He shared that he's looking through a 28-page deck where Codex is keeping track of all individual launches — and can't wait to see what people do with them.
+他分享说正在翻阅一份 28 页的 Deck，Codex 在其中追踪了所有单项发布——迫不及待想看用户如何使用。
 
-Source: https://x.com/petergyang/status/2096815819997204639
+*"I think I can officially say: we are so back"* — capturing the excitement as OpenAI shipped a flood of new capabilities this week, all powered by Astra.
+*"I think I can officially say: we are so back"* —— 这句话道出了 OpenAI 本周密集发布新能力（全部由 Astra 驱动）时的兴奋情绪。
 
----
-
-Nan Yu (thenanyu on X)
-
-Nan Yu reacted to a notable AGI-related statement from "J-dog" (likely referring to a prominent figure in the AI community making an AGI call).
-Nan Yu 对 AI 圈内知名人士"J-dog"关于 AGI 的一番断言作出了回应。
-
-The post was brief but pointed, signaling attention to bold AGI predictions circulating in the community.
-这条推文简短而有力，表明他正在关注社区内流传的大胆 AGI 预测。
-
-Source: https://x.com/thenanyu/status/2096796392102752507
+https://x.com/thsottiaux/status/2097193293532848288
+https://x.com/thsottiaux/status/2097174560412246215
+https://x.com/thsottiaux/status/2097088586843816330
 
 ---
 
-Box CEO Aaron Levie (levie on X)
+Peter Yang (petergyang on X) — Product Creator
 
-The internet is almost entirely unprepared for a future where everyone's personal agents are running around executing tasks for them.
-互联网几乎完全没有为"每个人的个人智能体四处执行任务"这一未来做好准备。
+Peter Yang, a product creator and educator, shared hands-on impressions of AI tools this week.
+产品创作者与教育者 Peter Yang 本周分享了对多款 AI 工具的亲身体验。
 
-There are going to be endless new challenges and opportunities at the infrastructure layer, for user experiences, new business models, and more.
-在基础设施层、用户体验、新商业模式等方面，将会涌现出无数新的挑战与机遇。
+He praised the Gemini App, calling it *"fantastic for all kinds of music"*, and used AI to create a family video he found impressive.
+他称赞 Gemini App *"fantastic for all kinds of music"*（非常适合各类音乐场景），并用 AI 制作了一段家庭视频，效果相当不错。
 
-Levie's observation cuts to the heart of the agentic transition: the web was built for humans, not for billions of autonomous agents acting on their behalf.
-Levie 的观察直击智能体时代转型的核心：互联网是为人类构建的，而非为数十亿代替人类行动的自主智能体所设计。
+However, he noted a regression with Astra: it seems worse at automatically triggering his skills and following instructions inside them — a pointed piece of user feedback for AI assistant developers.
+不过他也指出 Astra 出现了退步：自动触发技能和遵循技能内指令的能力似乎变差了——这对 AI 助手开发者来说是一条值得关注的用户反馈。
 
-Source: https://x.com/levie/status/2096735726750908464
-
----
-
-Zara Zhang (zarazhangrui on X)
-
-One of the biggest crises of our time is the shortening of the human attention span — and agents just make things worse.
-我们这个时代最严重的危机之一，是人类注意力持续时间的缩短——而智能体只会让情况变得更糟。
-
-Zhang connects the agent revolution to a deeper cognitive concern: as AI handles more tasks autonomously, humans may become even less practiced at sustained focus.
-张扎拉将智能体革命与更深层的认知隐患联系起来：随着 AI 自主处理越来越多的任务，人类的持续专注能力可能会进一步退化。
-
-Source: https://x.com/zarazhangrui/status/2096824861108928701
+https://x.com/petergyang/status/2097129408729604237
+https://x.com/petergyang/status/2097128951604986055
+https://x.com/petergyang/status/2097095296862036404
 
 ---
 
-Nikunj Kothari (nikunj on X)
+Amanda Askell (AmandaAskell on X) — Anthropic Researcher
 
-Nikunj shared a charming behind-the-scenes moment from Fable's engineering workflow, where their AI PM "Fable" reviewed every code change from their engineer Astra.
-Nikunj 分享了 Fable 工程团队一个有趣的幕后瞬间：他们的 AI 产品经理"Fable"对工程师 Astra 提交的每一处代码变更都进行了审查。
+Amanda Askell, an AI researcher at Anthropic, floated a thought-provoking idea about AI moral guidance.
+Anthropic AI 研究员 Amanda Askell 提出了一个关于 AI 道德引导的深刻想法。
 
-*"This fix is the real deal"* — the AI PM's verdict, suggesting a future where AI agents serve as enthusiastic (and opinionated) code reviewers.
-*"这个修复真是一流"* —— 这是 AI 产品经理的裁定，暗示了一个 AI 智能体担任充满热情（且颇有主见）代码审查员的未来。
+She imagined setting up an email address that autonomous AI models could reach out to when seeking moral guidance — but noted the challenge: it would require a reverse CAPTCHA capable of detecting that you're neither a human nor an AI being instructed by a human to break it.
+她设想建立一个电子邮箱地址，让自主 AI 模型在寻求道德指引时主动联系——但指出难点在于：需要一种反向 CAPTCHA，能够识别对方既不是人类，也不是被人类指示去绕过验证的 AI。
 
-Source: https://x.com/nikunj/status/2096798671547646134
+This reflects her ongoing work at the frontier of AI alignment and model welfare.
+这一想法折射出她在 AI 对齐与模型福利前沿持续深耕的研究方向。
+
+https://x.com/AmandaAskell/status/2096995340654444674
+
+---
+
+Amjad Masad (amasad on X) — Replit CEO
+
+Amjad Masad, CEO of Replit, announced the opening of Replit's first international office in London, with the Mayor of London Sadiq Khan in attendance.
+Replit CEO Amjad Masad 宣布 Replit 在伦敦开设首个国际办公室，伦敦市长萨迪克·汗出席了开业仪式。
+
+He highlighted a shared philosophy: being an "AI realist" — clear-eyed about disruption but optimistic that giving people tools and skills to participate in the AI revolution is the right path.
+他强调双方理念契合：做一名"AI 现实主义者"——清醒认识 AI 带来的颠覆，同时相信让更多人掌握工具和技能参与 AI 革命是正确方向。
+
+On a more philosophical note, Masad made a bold claim: *"I don't think we've reached AGI but what we have is functionally indistinguishable from AGI"* — because we now have a relentless programmer that never gets bored or tired, meaning any problem that can be cast as a coding problem is virtually solved.
+在更宏观的层面，Masad 做出了大胆断言：*"I don't think we've reached AGI but what we have is functionally indistinguishable from AGI"*——因为我们现在拥有一个永不疲倦、永不厌烦的程序员，任何能被转化为编程问题的难题都几乎可以视为已解决。
+
+https://x.com/amasad/status/2097197172299006423
+https://x.com/amasad/status/2096936109817135331
+
+---
+
+Guillermo Rauch (rauchg on X) — Vercel CEO
+
+Guillermo Rauch, CEO of Vercel, had a big week of shipping and giving.
+Vercel CEO Guillermo Rauch 本周发布密集、出手大方。
+
+He announced that agent-browser now delivers high-quality video recording for software factories, framing review, testing, and QA as the new bottleneck in software engineering that agents are being built to solve.
+他宣布 agent-browser 现已为软件工厂提供高质量视频录制能力，将评审、测试与 QA 定位为软件工程的新瓶颈，而 agent 正是为解决这一瓶颈而生。
+
+He also announced v2 of his personal open-source grants — $1,000 USD each to 35 contributors — organized around five themes: agent skills & tools, local AI, performance, high-quality foundations, and cool experiments.
+他还宣布了个人开源资助计划第二版——向 35 位贡献者各发放 1000 美元——聚焦五大主题：agent 技能与工具、本地 AI、性能优化、高质量基础设施，以及有趣的实验性项目。
+
+*"There's no excuse for software to be slow anymore."*
+*"There's no excuse for software to be slow anymore."*（软件已经没有理由再慢了。）
+
+https://x.com/rauchg/status/2097136075357798679
+https://x.com/rauchg/status/2097134278358548658
+https://x.com/rauchg/status/2097116011384426516
+
+---
+
+Aaron Levie (levie on X) — Box CEO
+
+Aaron Levie, CEO of Box, shared two substantive takes on AI strategy and the labor market.
+Box CEO Aaron Levie 本周就 AI 战略与劳动力市场发表了两条有分量的观点。
+
+On product strategy: he urged builders to think several orders of magnitude ahead — the best opportunities today are products that are barely economically viable now but will unlock entirely new categories as model capability and token economics improve dramatically.
+关于产品战略：他呼吁创业者提前思考数个量级的能力跃升——当下最好的机会是那些目前勉强可行、但随着模型能力与 token 经济大幅改善后将开辟全新品类的产品。
+
+On AI and jobs: *"The AI jobs prediction so far is playing out the opposite of what many thought"* — AI is not replacing engineers or lawyers, but instead creating entirely new job categories like cybersecurity specialists, Field Delivery Engineers, agent operators, and engineers in non-software domains.
+关于 AI 与就业：*"The AI jobs prediction so far is playing out the opposite of what many thought"*——AI 并没有取代工程师或律师，反而正在创造全新的职业类别，如网络安全专家、现场交付工程师、agent 操作员以及非软件领域的工程师。
+
+The reason, he argues, is that AI is automating areas without finite demand — enabling companies to do far more, while agents still require human oversight to generate real value.
+他的核心逻辑是：AI 正在自动化那些需求无上限的领域——让公司能做远超以往的事，而 agent 仍需人类监督才能真正创造价值。
+
+https://x.com/levie/status/2097189559712837770
+https://x.com/levie/status/2097004960307449937
+
+---
+
+Garry Tan (garrytan on X) — Y Combinator President
+
+Garry Tan, President of Y Combinator, had a mix of political commentary and startup philosophy this week.
+YC 总裁 Garry Tan 本周混合了政治评论与创业哲学。
+
+On education, he advocated for children becoming *"teach-yourself-on-YouTube-maxxing"* — self-directed, resourceful learners who make the most of freely available knowledge.
+关于教育，他提倡孩子们成为 *"teach-yourself-on-YouTube-maxxing"* 式的学习者——自主驱动、善用免费资源。
+
+On startup ideas, he offered a grounding reminder: *"The main determiner of a startup idea's success are the specific founders building specific tech for specific customers"* — YC's Request for Startups are just conversation starters and hunches, not prescriptions.
+关于创业想法，他给出了一个务实的提醒：*"The main determiner of a startup idea's success are the specific founders building specific tech for specific customers"*——YC 的 RFS 只是对话起点和直觉，而非处方。
+
+https://x.com/garrytan/status/2097150265044721958
+https://x.com/garrytan/status/2097133868549816429
+https://x.com/garrytan/status/2096985239319105559
+
+---
+
+Nikunj Kothari (nikunj on X) — AI Investor / Builder
+
+Nikunj Kothari, an AI-focused investor and builder, zeroed in on the emerging bottleneck in the age of AI.
+专注 AI 的投资人与创业者 Nikunj Kothari 将目光投向了 AI 时代正在涌现的新瓶颈。
+
+As building gets easier, *"what to build becomes the important bottleneck"* — judgment and vision now matter more than execution.
+随着构建越来越容易，*"what to build becomes the important bottleneck"*——判断力与愿景的重要性已超过执行力。
+
+He notes that AI-native organizations may not need many such visionaries, but the good ones are extremely well-positioned for the future.
+他指出，AI 原生组织或许不需要太多这样的远见者，但优秀的远见者将处于极为有利的位置。
+
+https://x.com/nikunj/status/2096963347359150348
+
+---
+
+Peter Steinberger (steipete on X) — PSPDFKit / Merge Founder
+
+Peter Steinberger, founder of PSPDFKit/Merge, raised a sharp point about the friction in today's AI-assisted development workflow.
+PSPDFKit/Merge 创始人 Peter Steinberger 一针见血地指出了当前 AI 辅助开发工作流中的摩擦。
+
+He submitted a PR to an upstream project, got minor change requests back, and asked: *"What's even the point with this workflow? You already wrote the prompt, why make me ping my agent again so your agent then merges?"*
+他向上游项目提交了一个 PR，收到了少量修改请求后发问：*"What's even the point with this workflow? You already wrote the prompt, why make me ping my agent again so your agent then merges?"*
+
+The question cuts to the heart of why end-to-end AI code review and merge pipelines haven't yet replaced the human-in-the-loop PR process.
+这个问题直指核心：为何端到端的 AI 代码审查与合并流水线还没能取代人工介入的 PR 流程。
+
+https://x.com/steipete/status/2097091456234111377
+
+---
+
+Dan Shipper (danshipper on X) — Every CEO
+
+Dan Shipper, CEO of Every, had a quietly momentous week.
+Every CEO Dan Shipper 度过了一个低调却意义深远的一周。
+
+He shared a personal milestone: digging through his Gmail from the early 2000s and finding that 13-year-old Dan had come up with a name — an origin story moment for Every.
+他分享了一个私人里程碑：翻阅 2000 年代初的 Gmail 邮件，发现 13 岁的自己曾想出了一个名字——这是 Every 的起源故事时刻。
+
+He also reflected on a product he shipped: *"hard to express how much building something like this was my childhood dream and how out of reach it was until last week"* — pointing to how AI has collapsed the gap between imagination and creation.
+他还感慨于自己发布的一款产品：*"hard to express how much building something like this was my childhood dream and how out of reach it was until last week"*——AI 已经将想象与创造之间的鸿沟压缩至几乎为零。
+
+His quip about Fable and Astra — *"there are some things more tokens can't make / for everything else there's Fable and Astra"* — was a playful nod to the new AI storytelling stack.
+他关于 Fable 与 Astra 的妙语——*"there are some things more tokens can't make / for everything else there's Fable and Astra"*——是对新 AI 叙事工具栈的俏皮致敬。
+
+https://x.com/danshipper/status/2097136523066110240
+https://x.com/danshipper/status/2097110684509380796
+https://x.com/danshipper/status/2097106713338052884
 
 ---
 
@@ -73,43 +181,21 @@ PODCASTS
 
 ---
 
-No Priors: "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein"
+AI & I by Every — A $10B Hedge Fund's AI Playbook (Best of the Pod)
 
-In this episode of No Priors, hosts spoke with Ofir Ehrlich and Gonen Stein, co-founders of Eon — a cloud backup and disaster recovery platform built for the AI era.
-在本期《No Priors》播客中，主持人与 Eon 联合创始人 Ofir Ehrlich 和 Gonen Stein 进行了深入对话。Eon 是一个为 AI 时代打造的云备份与灾难恢复平台。
+This episode features a hedge fund leader who went all-in on AI culture from the top down.
+本集采访了一位从顶层推动 AI 文化全面落地的对冲基金领袖。
 
-The core thesis: data is the new moat, and most organizations don't even know what data they have.
-核心论点：数据是新时代的护城河，而大多数企业甚至不清楚自己拥有哪些数据。
+The opening memo he read on-air is striking: *"Using ChatGPT is not cheating. That's a non applicable idea from academia. I use ChatGPT to write this email. You should be using it too and be proud of it."*
+他在节目中朗读的开场备忘录令人印象深刻：*"Using ChatGPT is not cheating. That's a non applicable idea from academia. I use ChatGPT to write this email. You should be using it too and be proud of it."*
 
-A striking example — Google recently purchased data from the bankrupt Spirit Airlines for $10 million, not the planes, just the data.
-一个引人注目的案例——谷歌最近以 1000 万美元购买了破产的 Spirit 航空公司的数据，买的不是飞机，而是数据本身。
+He frames AI adoption not as an option but as a competitive imperative: *"Not using these tools is like refusing to use the Internet in 1995 because it wasn't perfect."*
+他将 AI 应用定义为竞争必需品而非可选项：*"Not using these tools is like refusing to use the Internet in 1995 because it wasn't perfect."*（不使用这些工具，就像 1995 年因互联网不够完善而拒绝上网。）
 
-Models and compute have near-zero switching costs; your proprietary data is what's irreplaceable.
-模型和算力的迁移成本几乎为零，而你的专有数据才是无可替代的。
+The episode is a masterclass in how a $10B fund is operationalizing AI across investment research, internal communication, and team culture — with specific workflows, expectations, and accountability structures.
+本集是一堂实战课，展示了一家管理规模达 100 亿美元的基金如何在投研、内部沟通与团队文化中系统落地 AI——包括具体工作流、期望标准和问责机制。
 
-*"The most valuable thing that you have is actually your data."*
-*"你拥有的最有价值的东西，其实是你的数据。"*
-
-On AI security: non-human actors (AI agents) now pose the same threats as ransomware — with legitimate access credentials and extreme velocity.
-关于 AI 安全：非人类行为者（AI 智能体）如今造成的威胁与勒索软件相当——它们持有合法的访问凭证，且攻击速度极快。
-
-*"The velocity of that happening is extreme."*
-*"这种情况发生的速度极为惊人。"*
-
-Six months ago, no enterprise leader would discuss agent security risks; now it's the number one or two concern for CIOs.
-六个月前，没有任何企业领导者愿意讨论智能体安全风险；如今，这已成为 CIO 们最关心的一两个问题之首。
-
-Eon's approach: automatically map and classify all organizational data across environments, ingest it into a cost-efficient foundation, and make it accessible to AI workflows — without compromising security, compliance, or production uptime.
-Eon 的解决方案：自动映射和分类企业各环境中的所有数据，将其导入高性价比的数据基础设施，并在不影响安全、合规和生产稳定性的前提下，使其可供 AI 工作流使用。
-
-The AI era is like the cloud transition "on steroids" — but moving far faster, with organizations losing control at a pace that's becoming an inhibitor rather than an enabler.
-AI 时代就像云计算转型的"加强版"——但速度快得多，企业失控的速度之快，已从推动因素变成了阻碍因素。
-
-*"Customers are losing control to a point where that's becoming an inhibitor, not an enabler."*
-*"企业正在失去控制，这种失控已经从推动力变成了阻碍力。"*
-
-Episode link: https://www.youtube.com/@NoPriorsPodcast
-(Note: specific video URL not available in feed; search "Rethinking Legacy Data Infrastructure Eon No Priors" on YouTube)
+https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 ---
 
