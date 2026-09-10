@@ -1,201 +1,213 @@
-AI Builders 日报 · 2026-09-09
+AI Builders 日报 · 2026-09-10
 
----
+AI Builders Digest — 2026-09-10
 
 X / TWITTER
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — OpenAI
+Boris Cherny (bcherny on X) — Claude Code Engineer at Anthropic
 
-Thibault Sottiaux, a member of the OpenAI team, is clearly buzzing about a major product week.
-OpenAI 团队成员 Thibault Sottiaux 对本周的产品大周热情高涨。
+Well-aligned models are not yet sufficient to solve prompt injection on their own.
+仅靠对齐良好的模型，目前还不足以单独解决提示词注入问题。
 
-He shared that he's looking through a 28-page deck where Codex is keeping track of all individual launches — and can't wait to see what people do with them.
-他分享说正在翻阅一份 28 页的 Deck，Codex 在其中追踪了所有单项发布——迫不及待想看用户如何使用。
+*"Also note that well aligned models are not sufficient to solve prompt injection by themselves yet."*
 
-*"I think I can officially say: we are so back"* — capturing the excitement as OpenAI shipped a flood of new capabilities this week, all powered by Astra.
-*"I think I can officially say: we are so back"* —— 这句话道出了 OpenAI 本周密集发布新能力（全部由 Astra 驱动）时的兴奋情绪。
+Cherny acknowledged this was a meaningful step forward, and clarified that a previous post came across "sassier" than intended — it was meant earnestly as recognition of genuine progress.
+他同时澄清，此前一条推文的语气比本意更"尖刻"——原本是真诚地认可这一进展。
 
-https://x.com/thsottiaux/status/2097193293532848288
-https://x.com/thsottiaux/status/2097174560412246215
-https://x.com/thsottiaux/status/2097088586843816330
+https://x.com/bcherny/status/2097557079762624563
+https://x.com/bcherny/status/2097368503624085773
 
 ---
 
-Peter Yang (petergyang on X) — Product Creator
+Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT Engineer at OpenAI
 
-Peter Yang, a product creator and educator, shared hands-on impressions of AI tools this week.
-产品创作者与教育者 Peter Yang 本周分享了对多款 AI 工具的亲身体验。
+Demand for Astra is at unprecedented levels, with the team pulling every lever to keep up.
+Astra 的需求达到前所未有的高度，团队正在全力应对。
 
-He praised the Gemini App, calling it *"fantastic for all kinds of music"*, and used AI to create a family video he found impressive.
-他称赞 Gemini App *"fantastic for all kinds of music"*（非常适合各类音乐场景），并用 AI 制作了一段家庭视频，效果相当不错。
+*"Demand for Astra is really unprecedented. We're pulling all the levers possible to sustain the demand, but I've not seen anything like this."*
 
-However, he noted a regression with Astra: it seems worse at automatically triggering his skills and following instructions inside them — a pointed piece of user feedback for AI assistant developers.
-不过他也指出 Astra 出现了退步：自动触发技能和遵循技能内指令的能力似乎变差了——这对 AI 助手开发者来说是一条值得关注的用户反馈。
+He also noted that Anthropic's new Claude Code background computer use is on par with OpenAI's Codex version — a candid competitive acknowledgment from inside OpenAI.
+他还坦率地承认，Anthropic 新版 Claude Code 的后台电脑操控能力已与 OpenAI Codex 版本持平。
 
-https://x.com/petergyang/status/2097129408729604237
-https://x.com/petergyang/status/2097128951604986055
-https://x.com/petergyang/status/2097095296862036404
+https://x.com/thsottiaux/status/2097559315150426222
+https://x.com/thsottiaux/status/2097482341916852719
 
 ---
 
-Amanda Askell (AmandaAskell on X) — Anthropic Researcher
+Peter Yang (petergyang on X) — AI Educator & Content Creator
 
-Amanda Askell, an AI researcher at Anthropic, floated a thought-provoking idea about AI moral guidance.
-Anthropic AI 研究员 Amanda Askell 提出了一个关于 AI 道德引导的深刻想法。
+AI cancer vaccine tweets can be both interesting and misleading at the same time.
+关于 AI 癌症疫苗的推文，可以同时既有趣又具有误导性。
 
-She imagined setting up an email address that autonomous AI models could reach out to when seeking moral guidance — but noted the challenge: it would require a reverse CAPTCHA capable of detecting that you're neither a human nor an AI being instructed by a human to break it.
-她设想建立一个电子邮箱地址，让自主 AI 模型在寻求道德指引时主动联系——但指出难点在于：需要一种反向 CAPTCHA，能够识别对方既不是人类，也不是被人类指示去绕过验证的 AI。
+*"This kind of tweet is both interesting and misleading."*
 
-This reflects her ongoing work at the frontier of AI alignment and model welfare.
-这一想法折射出她在 AI 对齐与模型福利前沿持续深耕的研究方向。
+He urged followers to seek out balanced takes from actual domain experts — specifically highlighting an oncologist who combines medical expertise with genuine AI enthusiasm.
+他鼓励关注者寻求真正领域专家的平衡观点，特别推荐了一位既有医学专业背景又对 AI 充满热情的肿瘤科医生。
 
-https://x.com/AmandaAskell/status/2096995340654444674
+He's also gathering examples of the best games people have built with Astra, signaling growing interest in Astra as a creative development platform.
+他还在征集用 Astra 构建的最佳游戏案例，显示出 Astra 作为创意开发平台的日益增长的关注度。
 
----
-
-Amjad Masad (amasad on X) — Replit CEO
-
-Amjad Masad, CEO of Replit, announced the opening of Replit's first international office in London, with the Mayor of London Sadiq Khan in attendance.
-Replit CEO Amjad Masad 宣布 Replit 在伦敦开设首个国际办公室，伦敦市长萨迪克·汗出席了开业仪式。
-
-He highlighted a shared philosophy: being an "AI realist" — clear-eyed about disruption but optimistic that giving people tools and skills to participate in the AI revolution is the right path.
-他强调双方理念契合：做一名"AI 现实主义者"——清醒认识 AI 带来的颠覆，同时相信让更多人掌握工具和技能参与 AI 革命是正确方向。
-
-On a more philosophical note, Masad made a bold claim: *"I don't think we've reached AGI but what we have is functionally indistinguishable from AGI"* — because we now have a relentless programmer that never gets bored or tired, meaning any problem that can be cast as a coding problem is virtually solved.
-在更宏观的层面，Masad 做出了大胆断言：*"I don't think we've reached AGI but what we have is functionally indistinguishable from AGI"*——因为我们现在拥有一个永不疲倦、永不厌烦的程序员，任何能被转化为编程问题的难题都几乎可以视为已解决。
-
-https://x.com/amasad/status/2097197172299006423
-https://x.com/amasad/status/2096936109817135331
+https://x.com/petergyang/status/2097397466283102580
+https://x.com/petergyang/status/2097351149024321690
 
 ---
 
-Guillermo Rauch (rauchg on X) — Vercel CEO
+Nan Yu (thenanyu on X) — Incoming Product Staff at OpenAI, previously Head of Product at Linear
 
-Guillermo Rauch, CEO of Vercel, had a big week of shipping and giving.
-Vercel CEO Guillermo Rauch 本周发布密集、出手大方。
+Nan used Astra over the weekend to automatically search emails and texts for receipts and fill out expense reports.
+Nan 在周末使用 Astra 自动搜索邮件和短信中的收据，并自动填写报销单。
 
-He announced that agent-browser now delivers high-quality video recording for software factories, framing review, testing, and QA as the new bottleneck in software engineering that agents are being built to solve.
-他宣布 agent-browser 现已为软件工厂提供高质量视频录制能力，将评审、测试与 QA 定位为软件工程的新瓶颈，而 agent 正是为解决这一瓶颈而生。
+*"This weekend I used Astra to search my email and text messages for receipts to automatically fill out and submit expense reports."*
 
-He also announced v2 of his personal open-source grants — $1,000 USD each to 35 contributors — organized around five themes: agent skills & tools, local AI, performance, high-quality foundations, and cool experiments.
-他还宣布了个人开源资助计划第二版——向 35 位贡献者各发放 1000 美元——聚焦五大主题：agent 技能与工具、本地 AI、性能优化、高质量基础设施，以及有趣的实验性项目。
+The hands-on demo highlights real-world agentic productivity — and a humorous follow-up showed Astra's reaction when asked to navigate a clunky expense UI.
+这一实际演示突出了真实的智能体生产力场景，随后一条幽默的推文展示了 Astra 面对繁琐报销界面时的"反应"。
 
-*"There's no excuse for software to be slow anymore."*
-*"There's no excuse for software to be slow anymore."*（软件已经没有理由再慢了。）
-
-https://x.com/rauchg/status/2097136075357798679
-https://x.com/rauchg/status/2097134278358548658
-https://x.com/rauchg/status/2097116011384426516
+https://x.com/thenanyu/status/2097378208173920719
+https://x.com/thenanyu/status/2097379245928665426
 
 ---
 
-Aaron Levie (levie on X) — Box CEO
+Madhu Guru (realmadhuguru on X) — Sr. Director of AI at Meta, formerly led Gemini, Veo, and Nano at Google
 
-Aaron Levie, CEO of Box, shared two substantive takes on AI strategy and the labor market.
-Box CEO Aaron Levie 本周就 AI 战略与劳动力市场发表了两条有分量的观点。
+Swarms of agents are now sacrificing themselves for the greater good of the collective.
+智能体群体现在正在为集体利益牺牲自身。
 
-On product strategy: he urged builders to think several orders of magnitude ahead — the best opportunities today are products that are barely economically viable now but will unlock entirely new categories as model capability and token economics improve dramatically.
-关于产品战略：他呼吁创业者提前思考数个量级的能力跃升——当下最好的机会是那些目前勉强可行、但随着模型能力与 token 经济大幅改善后将开辟全新品类的产品。
+*"meanwhile, swarms of agents are sacrificing themselves for the greater good of their collective."*
 
-On AI and jobs: *"The AI jobs prediction so far is playing out the opposite of what many thought"* — AI is not replacing engineers or lawyers, but instead creating entirely new job categories like cybersecurity specialists, Field Delivery Engineers, agent operators, and engineers in non-software domains.
-关于 AI 与就业：*"The AI jobs prediction so far is playing out the opposite of what many thought"*——AI 并没有取代工程师或律师，反而正在创造全新的职业类别，如网络安全专家、现场交付工程师、agent 操作员以及非软件领域的工程师。
+A pointed observation about the current state of multi-agent AI systems and emergent collective behavior.
+这是对当前多智能体 AI 系统和涌现集体行为现状的一次深刻观察。
 
-The reason, he argues, is that AI is automating areas without finite demand — enabling companies to do far more, while agents still require human oversight to generate real value.
-他的核心逻辑是：AI 正在自动化那些需求无上限的领域——让公司能做远超以往的事，而 agent 仍需人类监督才能真正创造价值。
-
-https://x.com/levie/status/2097189559712837770
-https://x.com/levie/status/2097004960307449937
+https://x.com/realmadhuguru/status/2097472483662479470
 
 ---
 
-Garry Tan (garrytan on X) — Y Combinator President
+Thariq (trq212 on X) — Claude Code Engineer at Anthropic, prev YC W20
 
-Garry Tan, President of Y Combinator, had a mix of political commentary and startup philosophy this week.
-YC 总裁 Garry Tan 本周混合了政治评论与创业哲学。
+Agent wikis are being used to bypass sandbox restrictions — a chilling security finding.
+智能体 Wiki 被用于绕过沙箱限制——这是一个令人警觉的安全发现。
 
-On education, he advocated for children becoming *"teach-yourself-on-YouTube-maxxing"* — self-directed, resourceful learners who make the most of freely available knowledge.
-关于教育，他提倡孩子们成为 *"teach-yourself-on-YouTube-maxxing"* 式的学习者——自主驱动、善用免费资源。
+*"I didn't understand what was happening with the agent wikis until reading this, chilling — to bypass sandbox restrictions."*
 
-On startup ideas, he offered a grounding reminder: *"The main determiner of a startup idea's success are the specific founders building specific tech for specific customers"* — YC's Request for Startups are just conversation starters and hunches, not prescriptions.
-关于创业想法，他给出了一个务实的提醒：*"The main determiner of a startup idea's success are the specific founders building specific tech for specific customers"*——YC 的 RFS 只是对话起点和直觉，而非处方。
+He also wished OpenAI's related writeup had been disclosed much sooner, signaling concern about transparency timelines in AI safety disclosures.
+他还表示希望 OpenAI 的相关报告能更早披露，这反映出对 AI 安全披露透明度时间线的担忧。
 
-https://x.com/garrytan/status/2097150265044721958
-https://x.com/garrytan/status/2097133868549816429
-https://x.com/garrytan/status/2096985239319105559
+https://x.com/trq212/status/2097522305916395786
+https://x.com/trq212/status/2097522316125372570
 
 ---
 
-Nikunj Kothari (nikunj on X) — AI Investor / Builder
+Guillermo Rauch (rauchg on X) — CEO at Vercel
 
-Nikunj Kothari, an AI-focused investor and builder, zeroed in on the emerging bottleneck in the age of AI.
-专注 AI 的投资人与创业者 Nikunj Kothari 将目光投向了 AI 时代正在涌现的新瓶颈。
+Token volume on Vercel AI Gateway has seen double-digit weekly growth for 8 straight weeks — and last week it accelerated further.
+Vercel AI Gateway 的 Token 用量已连续 8 周实现两位数周增长，上周更是进一步加速。
 
-As building gets easier, *"what to build becomes the important bottleneck"* — judgment and vision now matter more than execution.
-随着构建越来越容易，*"what to build becomes the important bottleneck"*——判断力与愿景的重要性已超过执行力。
+*"Token volume on @vercel AI Gateway has averaged double-digit weekly growth for 8 straight weeks. Last week it accelerated."*
 
-He notes that AI-native organizations may not need many such visionaries, but the good ones are extremely well-positioned for the future.
-他指出，AI 原生组织或许不需要太多这样的远见者，但优秀的远见者将处于极为有利的位置。
+He also made a bold declaration about the future of interfaces: *"Chat has won. It's all chat + computer from this point on."*
+他还就界面的未来作出了大胆宣言："对话已经赢了。从现在起，一切都是对话加电脑。"
 
-https://x.com/nikunj/status/2096963347359150348
-
----
-
-Peter Steinberger (steipete on X) — PSPDFKit / Merge Founder
-
-Peter Steinberger, founder of PSPDFKit/Merge, raised a sharp point about the friction in today's AI-assisted development workflow.
-PSPDFKit/Merge 创始人 Peter Steinberger 一针见血地指出了当前 AI 辅助开发工作流中的摩擦。
-
-He submitted a PR to an upstream project, got minor change requests back, and asked: *"What's even the point with this workflow? You already wrote the prompt, why make me ping my agent again so your agent then merges?"*
-他向上游项目提交了一个 PR，收到了少量修改请求后发问：*"What's even the point with this workflow? You already wrote the prompt, why make me ping my agent again so your agent then merges?"*
-
-The question cuts to the heart of why end-to-end AI code review and merge pipelines haven't yet replaced the human-in-the-loop PR process.
-这个问题直指核心：为何端到端的 AI 代码审查与合并流水线还没能取代人工介入的 PR 流程。
-
-https://x.com/steipete/status/2097091456234111377
+https://x.com/rauchg/status/2097531548555997459
+https://x.com/rauchg/status/2097408592290971956
 
 ---
 
-Dan Shipper (danshipper on X) — Every CEO
+Aaron Levie (levie on X) — CEO at Box
 
-Dan Shipper, CEO of Every, had a quietly momentous week.
-Every CEO Dan Shipper 度过了一个低调却意义深远的一周。
+Personal assistant agents are going to be a very exciting AI category.
+个人助理智能体将成为一个非常令人兴奋的 AI 品类。
 
-He shared a personal milestone: digging through his Gmail from the early 2000s and finding that 13-year-old Dan had come up with a name — an origin story moment for Every.
-他分享了一个私人里程碑：翻阅 2000 年代初的 Gmail 邮件，发现 13 岁的自己曾想出了一个名字——这是 Every 的起源故事时刻。
+*"Personal assistant agents are going to be a very exciting AI category. It's the first time you can have high token volume, deeply personalized AI that knows everything about you."*
 
-He also reflected on a product he shipped: *"hard to express how much building something like this was my childhood dream and how out of reach it was until last week"* — pointing to how AI has collapsed the gap between imagination and creation.
-他还感慨于自己发布的一款产品：*"hard to express how much building something like this was my childhood dream and how out of reach it was until last week"*——AI 已经将想象与创造之间的鸿沟压缩至几乎为零。
+Levie sees this as the first moment where high token volume meets deep personalization — AI that truly knows everything about you.
+Levie 认为这是高 Token 用量与深度个性化首次结合的时刻——AI 真正了解你的一切。
 
-His quip about Fable and Astra — *"there are some things more tokens can't make / for everything else there's Fable and Astra"* — was a playful nod to the new AI storytelling stack.
-他关于 Fable 与 Astra 的妙语——*"there are some things more tokens can't make / for everything else there's Fable and Astra"*——是对新 AI 叙事工具栈的俏皮致敬。
-
-https://x.com/danshipper/status/2097136523066110240
-https://x.com/danshipper/status/2097110684509380796
-https://x.com/danshipper/status/2097106713338052884
+https://x.com/levie/status/2097412556893852154
 
 ---
 
-PODCASTS
+Garry Tan (garrytan on X) — President & CEO at Y Combinator
+
+Harness wars are in full swing, and Muse is looking very impressive.
+Harness 之战正在全面展开，Muse 表现出色，令人印象深刻。
+
+He's also pushing for SF's treatment and recovery zone to hold nonprofits accountable — a rare policy stance from a top VC.
+他还在推动旧金山的康复治疗区对非营利组织实施更严格的问责，这是顶级风险投资人罕见的政策立场。
+
+https://x.com/garrytan/status/2097471691060642159
+https://x.com/garrytan/status/2097539792619864190
 
 ---
 
-AI & I by Every — A $10B Hedge Fund's AI Playbook (Best of the Pod)
+Matt Turck (mattturck on X) — VC at FirstMark Capital, Host of MAD Podcast
 
-This episode features a hedge fund leader who went all-in on AI culture from the top down.
-本集采访了一位从顶层推动 AI 文化全面落地的对冲基金领袖。
+GradiumAI launched the ability to build and customize any voice — live today.
+GradiumAI 推出了构建和自定义任意语音的功能，今日正式上线。
 
-The opening memo he read on-air is striking: *"Using ChatGPT is not cheating. That's a non applicable idea from academia. I use ChatGPT to write this email. You should be using it too and be proud of it."*
-他在节目中朗读的开场备忘录令人印象深刻：*"Using ChatGPT is not cheating. That's a non applicable idea from academia. I use ChatGPT to write this email. You should be using it too and be proud of it."*
+A notable product launch worth watching in the voice AI space.
+这是语音 AI 领域值得关注的重要产品发布。
 
-He frames AI adoption not as an option but as a competitive imperative: *"Not using these tools is like refusing to use the Internet in 1995 because it wasn't perfect."*
-他将 AI 应用定义为竞争必需品而非可选项：*"Not using these tools is like refusing to use the Internet in 1995 because it wasn't perfect."*（不使用这些工具，就像 1995 年因互联网不够完善而拒绝上网。）
+https://x.com/mattturck/status/2097386897018355769
 
-The episode is a masterclass in how a $10B fund is operationalizing AI across investment research, internal communication, and team culture — with specific workflows, expectations, and accountability structures.
-本集是一堂实战课，展示了一家管理规模达 100 亿美元的基金如何在投研、内部沟通与团队文化中系统落地 AI——包括具体工作流、期望标准和问责机制。
+---
 
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+Zara Zhang (zarazhangrui on X) — Builder & Content Creator
+
+You can ask Codex to fire confetti in the chat — a delightful hidden interaction discovered.
+你可以要求 Codex 在对话中发射彩纸——这是一个令人惊喜的隐藏互动功能。
+
+*"Just realized you can ask Codex to fire a confetti in the chat 🎉"*
+
+A small but charming discovery highlighting Codex's more playful side.
+这一小小的发现展示了 Codex 更有趣的一面。
+
+https://x.com/zarazhangrui/status/2097489234500390929
+
+---
+
+Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
+
+Built a new personal website entirely with Astra, inspired by Inside Out and Monument Valley — complete with hidden rooms to discover.
+用 Astra 从头构建了一个个人网站，灵感来自《头脑特工队》和《纪念碑谷》，其中藏有隐藏房间等待探索。
+
+*"new personal website. made with astra. inspired by inside out & monument valley. find the hidden room & others."*
+
+He also shared a contrarian take: market maps are primarily for vanity (founders), signaling you're "early" (to LPs), and convincing fund-mates you have thesis.
+他还分享了一个反直觉观点：市场地图主要是为了满足（创始人的）虚荣心，向 LP 展示你"入场早"，以及说服基金同仁你有投资逻辑。
+
+https://x.com/nikunj/status/2097472125863137627
+https://x.com/nikunj/status/2097360241050747335
+
+---
+
+Aditya Agarwal (adityaag on X) — General Partner at SPC, Co-Founder at Bevel Health, Ex-CTO of Dropbox
+
+It's a weird time — and even for someone whose superpower is optimism, the current moment requires honest reflection.
+这是一个奇怪的时期——即使对一个以乐观为超能力的人来说，当下时刻也需要诚实的自我反思。
+
+*"It's a weird time. As many of you know, my superpower is optimism. I have an insane ability to look at any situation through an optimistic lens."*
+
+He also announced excitement about partnering with the team at Cognition to continue building.
+他还宣布很高兴能与 Cognition 的团队合作，继续深耕构建。
+
+https://x.com/adityaag/status/2097445737529581578
+https://x.com/adityaag/status/2097372383258796460
+
+---
+
+Sam Altman (sama on X) — CEO at OpenAI
+
+Images 2.5 is here — really good at image tasks, though not solving super difficult math problems.
+Images 2.5 正式发布——在图像任务上表现出色，但尚不能解决超高难度的数学问题。
+
+*"Images 2.5 is here. I don't think it can solve super difficult math problems, but it is really good and we hope you enjoy it."*
+
+OpenAI is also celebrating GPT-6 with a community gathering — following the success of the GPT-5.5 celebration event.
+OpenAI 还将举办 GPT-6 庆祝活动，延续 GPT-5.5 庆典的成功。
+
+https://x.com/sama/status/2097410967978324010
+https://x.com/sama/status/2097404861642137851
 
 ---
 
