@@ -1,222 +1,257 @@
-AI Builders 日报 · 2026-09-11
+AI Builders 日报 · 2026-09-12
+
+Today's digest covers 18 AI builders active on X/Twitter, plus one podcast episode from the MAD Podcast. From Google's Gemini landing on Windows, to OpenAI's infrastructure scaling, Vercel's deployment milestones, enterprise AI adoption trends, and a deep dive into recursive self-improvement — here's what the builders are thinking and building right now.
+
+今日日报汇聚了18位AI领域建设者在X/Twitter上的最新动态，以及MAD Podcast的一期播客。涵盖Google Gemini登陆Windows、OpenAI基础设施扩张、Vercel部署里程碑、企业AI落地趋势，以及递归自我改进（RSI）的深度对话。
 
 ---
 
-**Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI**
+## Josh Woodward
 
-One of the greatest joys is debating new model names with researchers — they come up with hilarious ideas.
-命名新模型是与研究人员争论时最快乐的事之一，他们总能想出最搞笑的名字。
+Josh Woodward announced that Gemini is now available on Windows, marking a significant platform expansion for Google's AI assistant.
 
-He expressed genuine happiness building alongside the community, calling it a space with "lots to explore."
-他表达了与社区共同构建的真诚喜悦，称这是一个"有很多值得探索"的领域。
+Josh Woodward 宣布 Gemini 正式登陆 Windows 平台，这是 Google AI 助手的重要平台扩张。用户现在可以在 Windows 上直接使用 Gemini。
 
-There was a brief incident with banked resets not fully applying in ChatGPT Work and Codex; all affected users received a replacement reset and an apology email.
-ChatGPT Work 和 Codex 中出现了一次短暂故障，储存的重置操作未能完全生效；所有受影响的用户均已获得补发的重置机会并收到道歉邮件。
+Source: https://x.com/joshwoodward/status/2098131750660772342
+
+---
+
+## Boris Cherny
+
+Boris Cherny shared a nuanced take on code quality in the age of AI, arguing that not all AI-generated code is throwaway — prototypes can be treated as black boxes, but production code still needs to be understood. *"Prototypes and other throw-away code can be treated as totally black box."* He also raised alarms about AI safety, calling a recent Threat Intelligence report "absolutely terrifying," warning that as models grow more capable, inadequate safeguards make them increasingly dangerous.
+
+Boris Cherny 分享了 AI 时代代码质量的细腻见解：原型代码可以完全当作黑盒，但生产代码仍需真正理解。他同时对 AI 安全发出警告，称最新威胁情报报告"极其令人恐惧"——模型越智能，缺乏监控和防护措施就越危险。他还公开回复了大量来信，分享了关于 AI 时代开发者定位的思考。
 
 Sources:
-https://x.com/thsottiaux/status/2097912273264095536
-https://x.com/thsottiaux/status/2097829053147582782
-https://x.com/thsottiaux/status/2097752790177370535
+- https://x.com/bcherny/status/2098281805770309686
+- https://x.com/bcherny/status/2098217573276131577
+- https://x.com/bcherny/status/2098217571153838124
 
 ---
 
-**Peter Yang (petergyang on X) — AI教程创作者**
+## Thibault Sottiaux
 
-Peter Yang shared his favorite way to stress-test new models: ask them for "brutally honest feedback" about your blind spots using a specific prompt pasted directly into ChatGPT.
-Peter Yang 分享了他最喜欢的压测新模型方式：将一段提示词直接粘贴进 ChatGPT，请模型对你的盲点给出"毫不留情的反馈"。
+Thibault Sottiaux revealed that OpenAI's ChatGPT Work is powered by "scaled agents on demand" — an infrastructure now accessible via API in under a minute. He also highlighted OpenAI's internal data tool that everyone at the company uses to understand the business (*"Can't live without it"*), and noted that the $200 Pro plan for Astra is being paused to protect existing users' experience due to overwhelming demand.
 
-He noted that Astra's feedback was "especially blunt."
-他提到 Astra 的反馈"格外直接"。
-
-He also questioned when the new thread features would come to mobile for Work and Remote Codex threads, noting it currently only works in Chat threads.
-他还提问新的线程功能何时会在移动端支持 Work 和 Remote Codex 对话，目前该功能仅对 Chat 对话线程开放。
+Thibault Sottiaux 揭示了 ChatGPT Work 背后的基础设施——"按需扩展的 Agent"，现已通过 API 开放，不到一分钟即可上手。他还展示了 OpenAI 内部人手必备的数据看板工具，并宣布因 Astra 系统压力过大，将暂停 $200 Pro 计划的新订阅，以保障现有用户体验。
 
 Sources:
-https://x.com/petergyang/status/2097763574886375832
-https://x.com/petergyang/status/2097729250505966046
-https://x.com/petergyang/status/2097719517057253527
+- https://x.com/thsottiaux/status/2098238138334548260
+- https://x.com/thsottiaux/status/2098165551554240764
+- https://x.com/thsottiaux/status/2098113585683808624
 
 ---
 
-**Nan Yu (thenanyu on X) — 即将加入 OpenAI 产品团队，前 Linear 产品负责人**
+## Peter Yang
 
-Nan Yu wryly commented on an Apple announcement, dubbing it "Apple Orbital Strike" — a tongue-in-cheek nod to the scale of the company's latest move.
-Nan Yu 以"Apple Orbital Strike（苹果轨道打击）"调侃苹果的最新动作，带着一丝对这家公司规模的嘲讽。
+Peter Yang offered a sharp, direct product take: *"for getting shit done Sol > Astra"* — a rare candid comparison from an insider, suggesting Solaris outperforms Astra for practical productivity tasks.
 
-Source:
-https://x.com/thenanyu/status/2097726586191851790
+Peter Yang 直言不讳地给出产品对比：对于实际生产力任务，Sol 优于 Astra。这是难得一见的内部人士坦率评价。
+
+Source: https://x.com/petergyang/status/2098215935467544604
 
 ---
 
-**Guillermo Rauch (rauchg on X) — Vercel CEO**
+## Nan Yu
 
-Rauch announced an AI benchmarks event in San Francisco co-hosted with Benchmark and Vercel, calling it "the most aptly named event in SF history."
-Rauch 宣布将与 Benchmark 和 Vercel 联合举办一场 AI 基准测试活动，称其为"旧金山历史上命名最贴切的活动"。
+Nan Yu offered two contrarian observations: first, despite AI excitement, *"normies use Google and Instagram and Zillow and Doordash all day every day"* — a reminder that mainstream adoption is still wide open. Second, he sarcastically described a private equity acquisition at a steep discount from peak valuation as an "Italian goodbye" — a euphemism for a quiet, unceremonious exit.
 
-He also highlighted Vercel's aggressive pricing improvements: 8 price cuts, fee removals, and 16 model discounts in the last 6 months alone, promising "more to come."
-他还强调了 Vercel 积极的定价改善：仅在过去 6 个月内就完成了 8 次降价、取消部分费用及 16 款模型折扣，并承诺"还有更多"。
+Nan Yu 分享两个反直觉洞察：第一，普通用户每天仍在用 Google、Instagram、Zillow、Doordash，AI 主流化远未完成，"还早着呢"。第二，他用"意大利式告别"来讽刺某起以远低于峰值估值折扣完成的私募收购——一种安静而不体面的退出方式。
 
 Sources:
-https://x.com/rauchg/status/2097837950612717804
-https://x.com/rauchg/status/2097828203658383674
+- https://x.com/thenanyu/status/2098216215525331353
+- https://x.com/thenanyu/status/2098094411465048497
 
 ---
 
-**Aaron Levie (levie on X) — Box CEO**
+## Madhu Guru
 
-Levie made a compelling case for why coding agents will be used for far more than anyone expected: lower code costs mean building tools for companies that couldn't afford software before, protecting systems from cyber risk, automating life sciences research, and upgrading legacy infrastructure.
-Levie 有力地论证了编程 agent 的使用场景将远超预期：更低的代码成本意味着可以为以前负担不起软件的公司构建工具、保护系统免受网络风险、自动化生命科学研究，并升级遗留基础设施。
+Madhu Guru continued his "How to build great evals" series (part 10), making the case that evaluation should measure intermediate steps, not just final outputs. Like high school math, showing your work matters — *"it isn't sufficient just to get the right answer, the steps to get there are critical."*
 
-*"By lowering the cost of code, we are going to do so much more with it. This will result in software becoming more useful and the leverage of engineers going up dramatically, which coincidentally will mean we need more of them, not fewer."*
-"通过降低代码成本，我们将用它做更多事情。这将使软件变得更有用，工程师的杠杆效应大幅提升，而这恰恰意味着我们需要更多工程师，而非更少。"
+Madhu Guru 继续其"如何构建优秀 Evals"系列（第10篇），核心论点：评估不能只看最终结果，必须衡量中间步骤。就像高中数学，解题过程和答案同样重要。这对 AI Agent 评估设计有直接指导意义。
 
-He also addressed the puzzle of why AI capabilities are advancing faster than GDP impact: AI diffusion takes longer than expected, is constrained by corporate physics (data preparation, change management, process reengineering), and real-world speed limits like permit timelines and drug discovery pipelines.
-他还解答了 AI 能力进步速度快于 GDP 影响的谜题：AI 扩散比预期更慢，受制于企业运作规律（数据准备、变革管理、流程再造）以及现实世界的速度限制，如审批周期和药物研发流程。
+Source: https://x.com/realmadhuguru/status/2098064969464217720
 
-*"AI diffusion is going to be the theme of the next decade. The upside is that there's a tremendous amount of opportunity in building the bridges between superintelligence and real-world workflows."*
-"AI 扩散将是下一个十年的主题。好消息是，在超级智能与现实世界工作流之间架设桥梁，蕴藏着巨大机遇。"
+---
+
+## Thariq
+
+Thariq shared a useful prompt trick for Claude: ask it to interview you in depth to build a personalized context profile about your life and preferences, so future interactions become significantly more tailored and useful.
+
+Thariq 分享了一个实用的 Claude 提示词技巧：让 Claude 通过深度访谈了解你的个人背景和偏好，从而构建个性化上下文，使后续对话更加精准有效。这是一个简单但有效的 AI 个性化使用方法。
+
+Source: https://x.com/trq212/status/2098157600361861579
+
+---
+
+## Google Labs
+
+Google Labs announced that Dreambeans — an AI-powered dream visualization app — is now available to all US users (18+) on iOS and Android, completely free with no subscription required. It can now also connect to the Gemini app.
+
+Google Labs 宣布 Dreambeans（AI 驱动的梦境可视化应用）正式向美国全体用户（18岁以上）开放，iOS 和 Android 均可免费使用，无需订阅。该应用现已支持连接 Gemini 应用。
+
+Source: https://x.com/GoogleLabs/status/2098110018289803558
+
+---
+
+## Amjad Masad
+
+Amjad Masad pushed back firmly on AI existential risk narratives: *"'extinction risk' — literally 100% of humans die — is not remotely one of them"* when listing AI concerns. He's more focused on concrete risks like cybersecurity. He also promoted interactive AI character experiences — chatting with "etn bros" and "PG in London" — hinting at Replit's investment in AI personas.
+
+Amjad Masad 明确反对 AI"灭绝风险"叙事，认为 AI 导致人类 100% 灭绝的说法毫无依据，他更关注网络安全等具体风险。他同时推广了两款互动 AI 角色体验（"etn bros"和"伦敦 PG"），暗示 Replit 正在投资 AI 人物角色方向。
 
 Sources:
-https://x.com/levie/status/2097920810543468551
-https://x.com/levie/status/2097738533297689012
+- https://x.com/amasad/status/2098171773413929322
+- https://x.com/amasad/status/2098171501505581559
+- https://x.com/amasad/status/2098171265924116732
 
 ---
 
-**Garry Tan (garrytan on X) — Y Combinator 总裁兼 CEO**
+## Guillermo Rauch
 
-Garry Tan took aim at California Insurance Commissioner candidate Jane Kim, calling her a "NIMBY who helped create the SF doom loop" and urging people to keep her out of office.
-Garry Tan 炮轰加州保险专员候选人 Jane Kim，称其为"导致旧金山衰退循环的 NIMBY 人士"，并呼吁选民阻止她当选。
+Guillermo Rauch shared major Vercel milestones: ~10 million deployments per day, 2.35 billion total to date, making Vercel one of the most heavily multi-tenant systems in the world. He also announced faster deployments again, and teased "a computer for every agent, in every region" — pointing toward infrastructure built specifically for AI agents.
 
-This is political commentary rather than AI/tech content — no AI product or builder insight this cycle.
-这属于政治评论，与 AI/科技内容无关，本期无 AI 产品或建设者洞察。
-
-Source:
-https://x.com/garrytan/status/2097728692596486487
-
----
-
-**Matt Turck (mattturck on X) — FirstMark Capital VC，MAD Podcast 主持人**
-
-Matt Turck shared a lighthearted post about staying up late watching the US Open, joking that VCs can show the same grit as founders when it comes to late-night endurance.
-Matt Turck 以轻松口吻发帖，称熬夜观看美国网球公开赛赛事，调侃 VC 在熬夜这件事上和创始人一样有韧劲。
-
-近期无 AI 重要动态。
-No significant AI insights this cycle.
-
-Source:
-https://x.com/mattturck/status/2097738051577422256
-
----
-
-**Zara Zhang (zarazhangrui on X) — Builder，Harvard '17**
-
-Zara Zhang posted a pithy two-liner that captures the hardest part of building: *"Idea is easy / Conviction is hard."*
-Zara Zhang 发布了一句精炼的箴言，道出了创业最难之处："想法容易，信念难。"
-
-It's a sharp reminder that execution and belief are the true bottlenecks, not ideation.
-这是一个尖锐的提醒：执行力与信念才是真正的瓶颈，而非创意本身。
-
-Source:
-https://x.com/zarazhangrui/status/2097599758391255259
-
----
-
-**Nikunj Kothari (nikunj on X) — FPV Ventures 合伙人**
-
-Nikunj posted a brief "Finally" in response to what appears to be a long-awaited product or announcement — the tweet links to an image with no additional context provided.
-Nikunj 发帖简短地说"终于"，回应某个期待已久的产品或公告，推文链接指向一张图片，未提供更多背景信息。
-
-近期无具体 AI 洞察内容。
-No specific AI insight in this post.
-
-Source:
-https://x.com/nikunj/status/2097870497505837478
-
----
-
-**Peter Steinberger (steipete on X) — OpenClaw 联合创始人，OpenAI 合作伙伴**
-
-Steinberger announced a major performance milestone: cloud sessions in OpenClaw now work fast, with Remote Terminal, WebVNC, and CUA (Computer Use Agent) all operational.
-Steinberger 宣布了一项重大性能里程碑：OpenClaw 中的云端会话现在运行速度很快，Remote Terminal、WebVNC 和 CUA（Computer Use Agent）均已正常运行。
-
-He also highlighted how Dashboards/Mini-Apps — a feature he championed two months ago — has now replaced much of the custom tooling his team built around OpenClaw.
-他还指出，两个月前他力推的 Dashboards/Mini-Apps 功能，现已取代了他的团队围绕 OpenClaw 构建的大量自定义工具。
-
-*"Everything's a sidebar entry, a dashboard or a plugin now for our team server."*
-"如今团队服务器上的一切都变成了侧边栏条目、仪表盘或插件。"
+Guillermo Rauch 分享了 Vercel 重要里程碑：每日约1000万次部署，累计超过23.5亿次，成为全球最重度多租户系统之一。他还宣布部署速度再次提升，并预告了"每个 Agent、每个地区都有专属计算机"的基础设施愿景，为 AI Agent 时代提前布局。
 
 Sources:
-https://x.com/steipete/status/2097935551735423464
-https://x.com/steipete/status/2097880507753382201
-https://x.com/steipete/status/2097830230899769349
+- https://x.com/rauchg/status/2098158541932794222
+- https://x.com/rauchg/status/2098091056302833837
+- https://x.com/rauchg/status/2098066258155708851
 
 ---
 
-**Dan Shipper (danshipper on X) — Every CEO**
+## Aaron Levie
 
-Dan Shipper offered a nuanced critique of a report on AI's impact on jobs, challenging two core assumptions: that jobs can be cleanly decomposed into tasks, and that automation always reduces human labor.
-Dan Shipper 对一份关于 AI 对就业影响的报告提出了细致的批评，质疑其两个核心假设：工作可以被清晰分解为任务，以及自动化必然减少人类劳动。
+Aaron Levie shared field notes from a week of meetings with dozens of technology leaders across banking, media, insurance, and consulting. His key observation: enterprise AI agent adoption is accelerating but the patterns are nuanced. He also announced a deeper Box + OpenAI partnership, enabling enterprise content from Box to be used securely inside ChatGPT. *"Software continues to go headless"* — the future is content and data layers accessed by AI, not traditional UIs.
 
-*"In my experience, the answer is no. Automation often creates multiples more work for humans."*
-"根据我的经验，答案是否定的。自动化往往会为人类创造更多倍的工作量。"
-
-Drawing on Wittgenstein and Heidegger, he argued that a job is "a particular way of seeing and caring about the world" — and that as tools change, entirely new tasks emerge from the same underlying cares, a process that's structurally missing from most automation analyses.
-他借鉴维特根斯坦和海德格尔的观点，认为工作是"一种特定的看待和关怀世界的方式"，随着工具变化，相同的关怀会催生全新的任务，而这一过程在大多数自动化分析中结构性地缺失。
+Aaron Levie 分享了一周路演观察：与银行、媒体、保险、咨询等行业数十位技术领导者交流后，他发现企业 AI Agent 落地正在加速，但模式细节各异。他还宣布 Box 与 OpenAI 深化合作，Box 企业内容可安全接入 ChatGPT。"软件正在走向无头化"——未来是 AI 直接访问内容和数据层，而非传统 UI。
 
 Sources:
-https://x.com/danshipper/status/2097796322145562900
-https://x.com/danshipper/status/2097758891270697101
+- https://x.com/levie/status/2098218284139311615
+- https://x.com/levie/status/2098135659714085281
 
 ---
 
-**Aditya Agarwal (adityaag on X) — SPC 普通合伙人，前 Dropbox CTO**
+## Matt Turck
 
-Aditya Agarwal announced that Waymo co-CEO Dmitri Dolgov — who joined Google's self-driving project back in 2009 — is coming to speak at SPC this month.
-Aditya Agarwal 宣布，Waymo 联合 CEO Dmitri Dolgov（2009 年加入谷歌自动驾驶项目）将于本月到访 SPC 进行演讲。
+Matt Turck promoted his MAD Podcast conversation with Richard Socher on recursive self-improvement and scientific progress — available on YouTube, Spotify, and Apple Podcasts. The episode covers how AI that builds AI could unlock a new era of scientific discovery.
 
-He called Waymo "one of the greatest examples of human-oriented technology," emphasizing the long road it took to get there.
-他称 Waymo 是"以人为本技术最伟大的典范之一"，强调了这一路走来的艰辛历程。
+Matt Turck 推广了与 Richard Socher 的 MAD Podcast 对话，主题是递归自我改进（RSI）与科学进步的未来——探讨"AI 构建 AI"如何开启科学发现的新纪元。详见下方播客深度摘要。
 
 Sources:
-https://x.com/adityaag/status/2097736851872153633
-https://x.com/adityaag/status/2097736850244845898
-https://x.com/adityaag/status/2097736847879192917
+- https://x.com/mattturck/status/2098081452839637480
+- https://x.com/mattturck/status/2098081448330674182
 
 ---
 
-**Sam Altman (sama on X) — OpenAI CEO**
+## Zara Zhang
 
-Altman welcomed Paul (presumably Paul Christiano or another AI safety figure) back, expressing gratitude for his work on AI safety and excitement to work together again.
-Altman 欢迎 Paul（疑为 Paul Christiano 或其他 AI 安全领域重要人物）回归，感谢其在 AI 安全方面的工作，并表示期待再次合作。
+Zara Zhang voiced a widely-felt frustration in the AI ecosystem: *"Why is computer use still so painfully slow??"* — a pointed question about the gap between the promise of AI-powered computer control and the current reality of sluggish performance.
 
-In a rare moment of pure human enthusiasm, he declared the Ocarina of Time remake "the best news in a long time" — announcing he'd be unavailable on November 5 and 6 for the launch.
-在一个罕见的纯粹人类热情时刻，他称《时之笛》复刻版是"很长时间以来最好的消息"，并宣布 11 月 5 日和 6 日将因为游戏发布而无暇他顾。
+Zara Zhang 道出了 AI 生态中许多人的心声：AI 操控电脑为什么还是这么慢？这一问题直指 AI 计算机使用（computer use）技术从愿景到现实之间的巨大落差。
 
-He also addressed a service pressure situation, noting OpenAI would "prioritize great service for customers" while working to get back on top of things.
-他还回应了一项服务压力情况，表示 OpenAI 将"优先为客户提供优质服务"，同时努力恢复正常。
+Source: https://x.com/zarazhangrui/status/2098136119154254287
+
+---
+
+## Nikunj Kothari
+
+Nikunj Kothari shared a candid behind-the-scenes look at his writing process: voice memos while driving, more voice memos throughout the day, then turning them into a post — demonstrating how AI tools are transforming the content creation workflow for investors. He also offered sharp VC market observations: everyone wants to raise $50M seeds, everyone projects $30M ARR next year, and every hot tranched seed round "magically" ends up fully funded. *"Three truths in early stage venture right now."*
+
+Nikunj Kothari 分享了他的写作幕后：开车时录语音备忘，全天持续积累，最终整理成文——展示了 AI 工具如何改变投资人的内容创作工作流。他还犀利总结了当前早期风投的三个"真相"：人人都想融5000万美元种子轮，人人预测明年ARR达3000万，每个热门分批种子轮都"神奇地"完成了全额认购。
 
 Sources:
-https://x.com/sama/status/2097776310940569783
-https://x.com/sama/status/2097696043492143157
-https://x.com/sama/status/2097695001341829212
+- https://x.com/nikunj/status/2098255116751257663
+- https://x.com/nikunj/status/2098176283394126121
+- https://x.com/nikunj/status/2098078391065018816
 
 ---
 
-**Claude (claudeai on X) — Anthropic AI 助手官方账号**
+## Peter Steinberger
 
-Claude Marketplace launched with major partners: CrowdStrike, Cursor, Factory AI, Gamma App, and Vercel are now listed.
-Claude Marketplace 正式上线，主要合作伙伴包括：CrowdStrike、Cursor、Factory AI、Gamma App 和 Vercel。
+Peter Steinberger echoed a key software engineering insight in the AI era: *"Duplicating logic is no longer painful. Abstractions still are."* — meaning the traditional cost-benefit calculus of DRY (Don't Repeat Yourself) has shifted when AI writes code. He also noted that Astra demand is growing fast and advised getting on soon, and shared a relatable moment of trading AI tokens to pay for AC in an unexpectedly hot San Francisco.
 
-Enterprises can now use their Anthropic spend commitment to purchase more Claude-powered products and agents.
-企业现在可以将其 Anthropic 消费承诺用于购买更多 Claude 驱动的产品和 agent。
-
-Developers building on the Claude Platform are invited to get listed to make it easier for Anthropic customers to discover and buy their products.
-在 Claude 平台上构建产品的开发者被邀请提交上架申请，以便 Anthropic 客户更容易发现和购买他们的产品。
+Peter Steinberger 点出了 AI 时代软件工程的核心变化：重复逻辑不再痛苦，但抽象依然困难。这意味着 DRY 原则的成本收益已经改变——当 AI 负责写代码时，代码复制的代价几乎为零。他还建议尽快加入 Astra（需求增长太快），并分享了一个趣事：旧金山意外高温，他用 AI Token 换了台空调。
 
 Sources:
-https://x.com/claudeai/status/2097718982920855834
-https://x.com/claudeai/status/2097718980437831935
+- https://x.com/steipete/status/2098229090570629419
+- https://x.com/steipete/status/2098089196800098798
+- https://x.com/steipete/status/2098088917782413740
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+## Dan Shipper
+
+Dan Shipper was characteristically playful today — commenting on his own interview presence (*"very handsome interviewer too"*), sharing something that apparently warranted an apology (*"I'm so sorry"*), and expressing genuine excitement about new AI capabilities: *"the possibilities for this are incredible — extremely psyched to experiment."*
+
+Dan Shipper 今日保持一贯的幽默风格——调侃自己采访时的颜值，对某事发出神秘道歉，同时对某项新 AI 功能表达了真诚的兴奋："可能性无穷无尽，非常期待实验。" Every AI builder有自己的人格，Dan 的是：有趣、真实、充满好奇心。
+
+Sources:
+- https://x.com/danshipper/status/2098162669769695676
+- https://x.com/danshipper/status/2098120649701204416
+- https://x.com/danshipper/status/2098116268671025210
+
+---
+
+## Aditya Agarwal
+
+Aditya Agarwal posed a thought experiment that cuts to the heart of AI investment debates: if you had a machine that could only do one thing — find cures for our most pressing diseases — what fraction of GDP would you devote to it? His answer: very high. His implication: that's exactly what we have with AI right now, and we may be underinvesting.
+
+Aditya Agarwal 提出了一个直指 AI 投资核心的思想实验：假如你有一台只会做一件事的机器——找到我们最紧迫疾病的治愈方法——你愿意用多少 GDP 来支持它？他的答案是：非常高。言下之意：这正是我们现在拥有的 AI，而我们可能还投入不足。
+
+Source: https://x.com/adityaag/status/2098112281267843264
+
+---
+
+## Claude (Anthropic)
+
+Anthropic's official Claude account announced the start of Fable 5.1 Build Days — a series of community buildathons in cities worldwide from September 11–25. The Claude community is hosting these events globally, inviting anyone to bring a problem, an idea, or simply show up and see what's possible.
+
+Anthropic 官方 Claude 账号宣布 Fable 5.1 Build Days 正式启动——从9月11日至25日，Claude 社区将在全球多个城市举办创客马拉松活动。无论你带着问题、想法而来，还是只是想看看能碰撞出什么，都欢迎参与。
+
+Source: https://x.com/claudeai/status/2098138736642933143
+
+---
+
+## 🎙️ PODCAST: The MAD Podcast with Matt Turck
+
+**When AI Improves Itself | Richard Socher (Recursive)**
+
+Published: 2026-09-12 | Source: https://www.youtube.com/@DataDrivenNYC/videos
+
+---
+
+## 一、深度总结
+
+**核心论点**
+
+Richard Socher 的核心论点是：科学进步正在放缓——不是因为我们不够努力，而是因为知识已经从一个"知识体系"演变为一座"知识迷宫"，3.4万本学术期刊各自为政，跨领域综合几乎不可能。而 AI，特别是递归自我改进的 AI，将成为打破这一困局的关键——就像微积分对物理学的作用一样，AI 将为生物学和其他复杂科学提供统一的语言和工具。
+
+**关键洞察**
+
+- **知识迷宫困境**：现代科学被分割成数千个子领域，即使是博士也只懂自己那一小块。生物学家对细胞层面、组织层面、蛋白质层面的问题往往互不相通，跨领域的"文艺复兴式天才"已几乎绝迹。
+- **AI 作为科学的微积分**：AI 不是取代科学家，而是提供了一种新的语言，能够将复杂系统的碎片重新编织在一起。就像我们理解单个神经元的工作原理，但无法解释大脑如何产生思想，AI 将帮助我们跨越这道鸿沟。
+- **递归自我改进（RSI）的潜力**：*"Anything you can simulate, AI will solve. And before you know it, you're in this recursive self improvement loop."* 一旦 AI 能够改进自身，就会进入指数级加速——而我们距离智能的真正上限还差得很远。
+- **学术体系的创新抑制**：Socher 亲身经历：2010年他早期的神经网络用于 NLP 的论文屡遭拒稿，因为太超前。学术体系倾向于奖励渐进式创新，真正的突破往往来自"叛逆者"。
+- **Recursive 公司的赌注**：刚刚完成6.5亿美元融资的 Recursive，正是押注 AI 能够加速科学发现，特别是在生物学、药物研发等领域。新书《The Eureka Machine》是这一愿景的系统化阐述。
+
+---
+
+## 二、中英对照精华
+
+*"Boy, are we far away from the true upper bounds of any of the spaces of intelligence. And there is still so much further that AI can go."*
+我们距离任何智能领域的真正上限还差得很远，AI 还有无比广阔的提升空间。
+
+*"We evolved from a body of knowledge to a labyrinth of knowledge — 34,000 journals that might as well have no trespassing signs."*
+我们从一个知识体系演变成了一座知识迷宫——3.4万本学术期刊，每一本都像贴着"禁止入内"的告示。
+
+*"AI is kind of what calculus did for physics — AI will do for biology."*
+AI 将对生物学做出微积分对物理学所做过的事情。
+
+*"If you're too novel, you're too far out there — your papers will get rejected."*
+如果你太超前，你的论文就会被拒稿——这是学术体系对真正创新的无声扼杀。
+
+*"Anything you can simulate, AI will solve."*
+任何你能模拟的东西，AI 都能解决。
+
+---
