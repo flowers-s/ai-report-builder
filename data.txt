@@ -1,257 +1,250 @@
-AI Builders 日报 · 2026-09-12
+AI Builders 日报 · 2026-09-13
 
-Today's digest covers 18 AI builders active on X/Twitter, plus one podcast episode from the MAD Podcast. From Google's Gemini landing on Windows, to OpenAI's infrastructure scaling, Vercel's deployment milestones, enterprise AI adoption trends, and a deep dive into recursive self-improvement — here's what the builders are thinking and building right now.
-
-今日日报汇聚了18位AI领域建设者在X/Twitter上的最新动态，以及MAD Podcast的一期播客。涵盖Google Gemini登陆Windows、OpenAI基础设施扩张、Vercel部署里程碑、企业AI落地趋势，以及递归自我改进（RSI）的深度对话。
+X / TWITTER
 
 ---
 
-## Josh Woodward
+Thibault Sottiaux — OpenAI Astra Product Lead (thsottiaux on X)
 
-Josh Woodward announced that Gemini is now available on Windows, marking a significant platform expansion for Google's AI assistant.
+OpenAI shipped a massive wave of updates this week, all powered by Astra: Images 2.5, GPT-Live-1, Agents API, Data Agent, and ChatGPT for Financial Services — and DevDay hasn't even happened yet.
+OpenAI 本周在 Astra 的驱动下密集发布：Images 2.5、GPT-Live-1、Agents API、Data Agent 和面向金融服务的 ChatGPT——而 DevDay 还没到来。
 
-Josh Woodward 宣布 Gemini 正式登陆 Windows 平台，这是 Google AI 助手的重要平台扩张。用户现在可以在 Windows 上直接使用 Gemini。
+Thibault posted a transparent quality-control update to Astra users, detailing two bugs that have been fixed: over-triggering skills from older models, and an opt-in context management experiment that caused early stops or replies to stale messages — roughly 4,000–5,000 users were affected.
+Thibault 向 Astra 用户发布了透明的质量控制更新，列出了已修复的两个 bug：旧模型 skill 触发过度，以及一个导致提前停止或回复旧消息的上下文管理实验（约影响 4,000–5,000 名用户）。
 
-Source: https://x.com/joshwoodward/status/2098131750660772342
+OpenAI welcomed Aidan & Sasha from the Git AI team, who built an open-source tool that helps developers understand how coding agents contribute to their codebase; together they'll keep Git AI open source while making Codex impact more visible for teams.
+OpenAI 迎来了 Git AI 团队的 Aidan 和 Sasha，他们打造了一款开源工具，帮助开发者了解编程 agent 对代码库的贡献；双方将继续保持 Git AI 开源，并让 Codex 对团队的贡献更清晰可见。
 
----
-
-## Boris Cherny
-
-Boris Cherny shared a nuanced take on code quality in the age of AI, arguing that not all AI-generated code is throwaway — prototypes can be treated as black boxes, but production code still needs to be understood. *"Prototypes and other throw-away code can be treated as totally black box."* He also raised alarms about AI safety, calling a recent Threat Intelligence report "absolutely terrifying," warning that as models grow more capable, inadequate safeguards make them increasingly dangerous.
-
-Boris Cherny 分享了 AI 时代代码质量的细腻见解：原型代码可以完全当作黑盒，但生产代码仍需真正理解。他同时对 AI 安全发出警告，称最新威胁情报报告"极其令人恐惧"——模型越智能，缺乏监控和防护措施就越危险。他还公开回复了大量来信，分享了关于 AI 时代开发者定位的思考。
-
-Sources:
-- https://x.com/bcherny/status/2098281805770309686
-- https://x.com/bcherny/status/2098217573276131577
-- https://x.com/bcherny/status/2098217571153838124
+https://x.com/thsottiaux/status/2098639827084480864
+https://x.com/thsottiaux/status/2098612714704891959
+https://x.com/thsottiaux/status/2098569976143806918
 
 ---
 
-## Thibault Sottiaux
+Peter Yang — Product Lead & AI Builder (petergyang on X)
 
-Thibault Sottiaux revealed that OpenAI's ChatGPT Work is powered by "scaled agents on demand" — an infrastructure now accessible via API in under a minute. He also highlighted OpenAI's internal data tool that everyone at the company uses to understand the business (*"Can't live without it"*), and noted that the $200 Pro plan for Astra is being paused to protect existing users' experience due to overwhelming demand.
+Peter made a deliberate workflow decision: all local scheduled tasks go to Codex, and all cloud tasks are moving to Grok Bot — a clean split.
+Peter 做出了深思熟虑的工作流决策：所有本地定时任务交给 Codex，所有云端任务迁移到 Grok Bot——实现清晰的分工。
 
-Thibault Sottiaux 揭示了 ChatGPT Work 背后的基础设施——"按需扩展的 Agent"，现已通过 API 开放，不到一分钟即可上手。他还展示了 OpenAI 内部人手必备的数据看板工具，并宣布因 Astra 系统压力过大，将暂停 $200 Pro 计划的新订阅，以保障现有用户体验。
+He pushed back on the hype around "software factories," arguing that AI still isn't at a point where it can build new features end-to-end without a human in the loop: *"Whenever I loop something overnight to build something new = if it makes one wrong assumption the whole thing becomes a waste of tokens."*
+他对"软件工厂"的炒作提出了质疑，认为 AI 仍无法在没有人工介入的情况下端到端完成新功能开发：*"每当我让它通宵循环构建新功能，只要有一个错误假设，整件事就变成了 token 的浪费。"*
 
-Sources:
-- https://x.com/thsottiaux/status/2098238138334548260
-- https://x.com/thsottiaux/status/2098165551554240764
-- https://x.com/thsottiaux/status/2098113585683808624
-
----
-
-## Peter Yang
-
-Peter Yang offered a sharp, direct product take: *"for getting shit done Sol > Astra"* — a rare candid comparison from an insider, suggesting Solaris outperforms Astra for practical productivity tasks.
-
-Peter Yang 直言不讳地给出产品对比：对于实际生产力任务，Sol 优于 Astra。这是难得一见的内部人士坦率评价。
-
-Source: https://x.com/petergyang/status/2098215935467544604
+https://x.com/petergyang/status/2098614492066435228
+https://x.com/petergyang/status/2098565668241334366
 
 ---
 
-## Nan Yu
+Madhu Guru — Enterprise AI Strategist (realmadhuguru on X)
 
-Nan Yu offered two contrarian observations: first, despite AI excitement, *"normies use Google and Instagram and Zillow and Doordash all day every day"* — a reminder that mainstream adoption is still wide open. Second, he sarcastically described a private equity acquisition at a steep discount from peak valuation as an "Italian goodbye" — a euphemism for a quiet, unceremonious exit.
+Madhu laid out why most enterprise AI efforts fail, identifying two root causes: using old-school playbooks designed for incremental product development rather than AI's requirement for experimentation and invention, and under-investing in the real skill gap.
+Madhu 分析了大多数企业 AI 项目失败的原因，指出两个核心问题：沿用为增量产品迭代设计的旧打法（而 AI 需要的是实验与创新），以及对真实技能差距的投资严重不足。
 
-Nan Yu 分享两个反直觉洞察：第一，普通用户每天仍在用 Google、Instagram、Zillow、Doordash，AI 主流化远未完成，"还早着呢"。第二，他用"意大利式告别"来讽刺某起以远低于峰值估值折扣完成的私募收购——一种安静而不体面的退出方式。
+The central argument: the team structures, product patterns, and launch-and-learn methods that got companies to where they are today simply do not work with AI.
+核心论点：那些帮助企业走到今天的团队结构、产品模式和"发布-学习"方法，在 AI 时代根本行不通。
 
-Sources:
-- https://x.com/thenanyu/status/2098216215525331353
-- https://x.com/thenanyu/status/2098094411465048497
-
----
-
-## Madhu Guru
-
-Madhu Guru continued his "How to build great evals" series (part 10), making the case that evaluation should measure intermediate steps, not just final outputs. Like high school math, showing your work matters — *"it isn't sufficient just to get the right answer, the steps to get there are critical."*
-
-Madhu Guru 继续其"如何构建优秀 Evals"系列（第10篇），核心论点：评估不能只看最终结果，必须衡量中间步骤。就像高中数学，解题过程和答案同样重要。这对 AI Agent 评估设计有直接指导意义。
-
-Source: https://x.com/realmadhuguru/status/2098064969464217720
+https://x.com/realmadhuguru/status/2098448235048378456
 
 ---
 
-## Thariq
+Thariq — Claude Plugin & Tooling Engineer at Anthropic (trq212 on X)
 
-Thariq shared a useful prompt trick for Claude: ask it to interview you in depth to build a personalized context profile about your life and preferences, so future interactions become significantly more tailored and useful.
+Thariq announced plugin evals, a new feature that lets developers run `claude plugin eval init` in their plugin folder to check if skills are still working correctly after new model releases.
+Thariq 宣布推出插件评估（plugin evals）功能，开发者可在插件目录运行 `claude plugin eval init`，检查技能在新模型发布后是否仍正常工作。
 
-Thariq 分享了一个实用的 Claude 提示词技巧：让 Claude 通过深度访谈了解你的个人背景和偏好，从而构建个性化上下文，使后续对话更加精准有效。这是一个简单但有效的 AI 个性化使用方法。
+He also made a sharp observation about benchmark interpretation: *"It's basically impossible to interpret evals by looking at just the pass/fail scores these days"* — many benchmark failures are due to overly strict hidden tests, and sometimes the model's answer makes more sense than the expected eval result.
+他还对 benchmark 解读提出了犀利观点：*"如今仅凭通过/失败分数来解读评估结果基本是不可能的"*——许多失败源于过于严苛的隐藏测试，有时模型的答案比预期结果更合理。
 
-Source: https://x.com/trq212/status/2098157600361861579
-
----
-
-## Google Labs
-
-Google Labs announced that Dreambeans — an AI-powered dream visualization app — is now available to all US users (18+) on iOS and Android, completely free with no subscription required. It can now also connect to the Gemini app.
-
-Google Labs 宣布 Dreambeans（AI 驱动的梦境可视化应用）正式向美国全体用户（18岁以上）开放，iOS 和 Android 均可免费使用，无需订阅。该应用现已支持连接 Gemini 应用。
-
-Source: https://x.com/GoogleLabs/status/2098110018289803558
+https://x.com/trq212/status/2098531560643539440
+https://x.com/trq212/status/2098490139798655427
 
 ---
 
-## Amjad Masad
+Amjad Masad — CEO of Replit (amasad on X)
 
-Amjad Masad pushed back firmly on AI existential risk narratives: *"'extinction risk' — literally 100% of humans die — is not remotely one of them"* when listing AI concerns. He's more focused on concrete risks like cybersecurity. He also promoted interactive AI character experiences — chatting with "etn bros" and "PG in London" — hinting at Replit's investment in AI personas.
+Amjad announced that Replit acquired a business that was built entirely on Replit itself — calling it *"first of many to come."*
+Amjad 宣布 Replit 收购了一家完全构建在 Replit 上的企业，并称这是"许多收购案的第一个"。
 
-Amjad Masad 明确反对 AI"灭绝风险"叙事，认为 AI 导致人类 100% 灭绝的说法毫无依据，他更关注网络安全等具体风险。他同时推广了两款互动 AI 角色体验（"etn bros"和"伦敦 PG"），暗示 Replit 正在投资 AI 人物角色方向。
+He also shared two quick product updates: Routines now support budgets, and Astra 3D experiments on Replit are generating community excitement.
+他还分享了两条产品更新：Routines 现在支持预算设置，同时 Replit 上的 Astra 3D 实验也引发了社区的广泛热情。
 
-Sources:
-- https://x.com/amasad/status/2098171773413929322
-- https://x.com/amasad/status/2098171501505581559
-- https://x.com/amasad/status/2098171265924116732
-
----
-
-## Guillermo Rauch
-
-Guillermo Rauch shared major Vercel milestones: ~10 million deployments per day, 2.35 billion total to date, making Vercel one of the most heavily multi-tenant systems in the world. He also announced faster deployments again, and teased "a computer for every agent, in every region" — pointing toward infrastructure built specifically for AI agents.
-
-Guillermo Rauch 分享了 Vercel 重要里程碑：每日约1000万次部署，累计超过23.5亿次，成为全球最重度多租户系统之一。他还宣布部署速度再次提升，并预告了"每个 Agent、每个地区都有专属计算机"的基础设施愿景，为 AI Agent 时代提前布局。
-
-Sources:
-- https://x.com/rauchg/status/2098158541932794222
-- https://x.com/rauchg/status/2098091056302833837
-- https://x.com/rauchg/status/2098066258155708851
+https://x.com/amasad/status/2098548464452055437
+https://x.com/amasad/status/2098317466682179643
+https://x.com/amasad/status/2098316298820219058
 
 ---
 
-## Aaron Levie
+Guillermo Rauch — CEO of Vercel (rauchg on X)
 
-Aaron Levie shared field notes from a week of meetings with dozens of technology leaders across banking, media, insurance, and consulting. His key observation: enterprise AI agent adoption is accelerating but the patterns are nuanced. He also announced a deeper Box + OpenAI partnership, enabling enterprise content from Box to be used securely inside ChatGPT. *"Software continues to go headless"* — the future is content and data layers accessed by AI, not traditional UIs.
+Guillermo announced that Tailscale's model router is powered by Vercel AI Gateway as its underlying infrastructure, making a bold analogy: *"AI Gateways are the new CDNs. You could go 'direct to origin', but it's brittle. You could DIY, but it's painful and costly."*
+Guillermo 宣布 Tailscale 的模型路由器底层基础设施由 Vercel AI Gateway 提供，并做出大胆类比：*"AI Gateway 是新一代 CDN。你可以'直连源站'，但这很脆弱；你也可以自己搭，但费时费钱。"*
 
-Aaron Levie 分享了一周路演观察：与银行、媒体、保险、咨询等行业数十位技术领导者交流后，他发现企业 AI Agent 落地正在加速，但模式细节各异。他还宣布 Box 与 OpenAI 深化合作，Box 企业内容可安全接入 ChatGPT。"软件正在走向无头化"——未来是 AI 直接访问内容和数据层，而非传统 UI。
-
-Sources:
-- https://x.com/levie/status/2098218284139311615
-- https://x.com/levie/status/2098135659714085281
+https://x.com/rauchg/status/2098531157230969062
 
 ---
 
-## Matt Turck
+Aaron Levie — CEO of Box (levie on X)
 
-Matt Turck promoted his MAD Podcast conversation with Richard Socher on recursive self-improvement and scientific progress — available on YouTube, Spotify, and Apple Podcasts. The episode covers how AI that builds AI could unlock a new era of scientific discovery.
+Aaron highlighted a significant new integration: Box can now be mounted to agent sandboxes, making it far easier for agents to read and write files on their own compute. *"As AI agents execute critical workflows in the enterprise, they're going to need the same primitives that people have had."*
+Aaron 重点介绍了一项重要新集成：Box 现可挂载到 agent 沙箱，让 agent 能更轻松地在自己的计算环境中读写文件。*"随着 AI agent 在企业中执行关键工作流，它们将需要与人类相同的基础能力。"*
 
-Matt Turck 推广了与 Richard Socher 的 MAD Podcast 对话，主题是递归自我改进（RSI）与科学进步的未来——探讨"AI 构建 AI"如何开启科学发现的新纪元。详见下方播客深度摘要。
-
-Sources:
-- https://x.com/mattturck/status/2098081452839637480
-- https://x.com/mattturck/status/2098081448330674182
+https://x.com/levie/status/2098478938003841123
 
 ---
 
-## Zara Zhang
+Ryo Lu — Co-creator of Cursor (ryolu_ on X)
 
-Zara Zhang voiced a widely-felt frustration in the AI ecosystem: *"Why is computer use still so painfully slow??"* — a pointed question about the gap between the promise of AI-powered computer control and the current reality of sluggish performance.
+Ryo announced that long-lived agents for big, complex tasks are now available in Cursor — a meaningful step for sustained agentic coding sessions.
+Ryo 宣布 Cursor 现已支持面向大型复杂任务的长寿命 agent，这对持续性 agentic 编程会话是一个重要进展。
 
-Zara Zhang 道出了 AI 生态中许多人的心声：AI 操控电脑为什么还是这么慢？这一问题直指 AI 计算机使用（computer use）技术从愿景到现实之间的巨大落差。
+On a personal note, she also shared that she's relocated to Taipei.
+在个人动态方面，她也分享了自己已搬迁至台北的消息。
 
-Source: https://x.com/zarazhangrui/status/2098136119154254287
-
----
-
-## Nikunj Kothari
-
-Nikunj Kothari shared a candid behind-the-scenes look at his writing process: voice memos while driving, more voice memos throughout the day, then turning them into a post — demonstrating how AI tools are transforming the content creation workflow for investors. He also offered sharp VC market observations: everyone wants to raise $50M seeds, everyone projects $30M ARR next year, and every hot tranched seed round "magically" ends up fully funded. *"Three truths in early stage venture right now."*
-
-Nikunj Kothari 分享了他的写作幕后：开车时录语音备忘，全天持续积累，最终整理成文——展示了 AI 工具如何改变投资人的内容创作工作流。他还犀利总结了当前早期风投的三个"真相"：人人都想融5000万美元种子轮，人人预测明年ARR达3000万，每个热门分批种子轮都"神奇地"完成了全额认购。
-
-Sources:
-- https://x.com/nikunj/status/2098255116751257663
-- https://x.com/nikunj/status/2098176283394126121
-- https://x.com/nikunj/status/2098078391065018816
+https://x.com/ryolu_/status/2098324260867772806
+https://x.com/ryolu_/status/2098612137321201942
 
 ---
 
-## Peter Steinberger
+Garry Tan — President & CEO of Y Combinator (garrytan on X)
 
-Peter Steinberger echoed a key software engineering insight in the AI era: *"Duplicating logic is no longer painful. Abstractions still are."* — meaning the traditional cost-benefit calculus of DRY (Don't Repeat Yourself) has shifted when AI writes code. He also noted that Astra demand is growing fast and advised getting on soon, and shared a relatable moment of trading AI tokens to pay for AC in an unexpectedly hot San Francisco.
+Garry weighed in on SAT and meritocracy: he argued that once a student scores 1600, a second, harder test should unlock to measure higher excellence — instead of banning standardized tests entirely, which he sees as turning admissions into a random lottery and erasing the ability to recognize exceptional performance.
+Garry 就 SAT 和精英选拔问题发表观点：他认为一旦学生考到 1600 分，应解锁第二道更难的测试以衡量更高层次的卓越——而不是彻底废除标准化考试，那只会让录取变成随机抽签，消除对卓越表现的认可。
 
-Peter Steinberger 点出了 AI 时代软件工程的核心变化：重复逻辑不再痛苦，但抽象依然困难。这意味着 DRY 原则的成本收益已经改变——当 AI 负责写代码时，代码复制的代价几乎为零。他还建议尽快加入 Astra（需求增长太快），并分享了一个趣事：旧金山意外高温，他用 AI Token 换了台空调。
-
-Sources:
-- https://x.com/steipete/status/2098229090570629419
-- https://x.com/steipete/status/2098089196800098798
-- https://x.com/steipete/status/2098088917782413740
+https://x.com/garrytan/status/2098615692425851205
 
 ---
 
-## Dan Shipper
+Matt Turck — Managing Director at FirstMark Capital (mattturck on X)
 
-Dan Shipper was characteristically playful today — commenting on his own interview presence (*"very handsome interviewer too"*), sharing something that apparently warranted an apology (*"I'm so sorry"*), and expressing genuine excitement about new AI capabilities: *"the possibilities for this are incredible — extremely psyched to experiment."*
+Matt shared a personal essay: a lightly updated version of a 9/11 remembrance he wrote in 2016, recounting where he was in September 2001 as a young co-founder of NYC tech startup TripleHop Technologies — a company building enterprise search software that he says would be close to what Glean does today.
+Matt 分享了一篇私人文章：这是他 2016 年写下的 9/11 纪念文章的更新版，回顾了 2001 年 9 月他作为纽约科技初创公司 TripleHop Technologies 年轻联合创始人的经历——那家公司当时在做企业搜索软件，他说放在今天大概类似于 Glean。
 
-Dan Shipper 今日保持一贯的幽默风格——调侃自己采访时的颜值，对某事发出神秘道歉，同时对某项新 AI 功能表达了真诚的兴奋："可能性无穷无尽，非常期待实验。" Every AI builder有自己的人格，Dan 的是：有趣、真实、充满好奇心。
-
-Sources:
-- https://x.com/danshipper/status/2098162669769695676
-- https://x.com/danshipper/status/2098120649701204416
-- https://x.com/danshipper/status/2098116268671025210
+https://x.com/mattturck/status/2098517022049190227
 
 ---
 
-## Aditya Agarwal
+Zara Zhang — Partner at GGV Capital / Follow Builders creator (zarazhangrui on X)
 
-Aditya Agarwal posed a thought experiment that cuts to the heart of AI investment debates: if you had a machine that could only do one thing — find cures for our most pressing diseases — what fraction of GDP would you devote to it? His answer: very high. His implication: that's exactly what we have with AI right now, and we may be underinvesting.
+Zara pushed back on the "one-person company" narrative, arguing it is overrated: yes, AI lets one person do far more, but building something new is profoundly lonely — you need someone to brainstorm with, suffer with, and celebrate with. *"It is extremely easy to lose motivation when you don't tie yourself to the mast together with somebody else."*
+Zara 对"单人公司"叙事提出了质疑，认为这一概念被过度美化：AI 确实让一个人能做更多，但创造新事物是极度孤独的——你需要有人一起头脑风暴、一起煎熬、一起庆祝。*"当你不与另一个人共同绑在桅杆上时，极容易失去动力。"*
 
-Aditya Agarwal 提出了一个直指 AI 投资核心的思想实验：假如你有一台只会做一件事的机器——找到我们最紧迫疾病的治愈方法——你愿意用多少 GDP 来支持它？他的答案是：非常高。言下之意：这正是我们现在拥有的 AI，而我们可能还投入不足。
-
-Source: https://x.com/adityaag/status/2098112281267843264
-
----
-
-## Claude (Anthropic)
-
-Anthropic's official Claude account announced the start of Fable 5.1 Build Days — a series of community buildathons in cities worldwide from September 11–25. The Claude community is hosting these events globally, inviting anyone to bring a problem, an idea, or simply show up and see what's possible.
-
-Anthropic 官方 Claude 账号宣布 Fable 5.1 Build Days 正式启动——从9月11日至25日，Claude 社区将在全球多个城市举办创客马拉松活动。无论你带着问题、想法而来，还是只是想看看能碰撞出什么，都欢迎参与。
-
-Source: https://x.com/claudeai/status/2098138736642933143
+https://x.com/zarazhangrui/status/2098483800456179923
 
 ---
 
-## 🎙️ PODCAST: The MAD Podcast with Matt Turck
+Nikunj Kothari — Partner at a16z (nikunj on X)
 
-**When AI Improves Itself | Richard Socher (Recursive)**
+Nikunj reflected on the quote *"Success has many fathers, but failure is an orphan"* — and said he only understood its full gravity when he witnessed top VCs fighting over attribution on hot deals. Because large exits are genuinely rare and are what funds get raised on, he predicts that in the next few years many names will be scrubbed from deal histories as everyone rewrites the record to claim credit.
+Nikunj 对"成功有很多父亲，失败是孤儿"这句话进行了深刻反思——他说直到亲眼目睹顶级 VC 为热门项目争夺署名权，才真正理解了这句话的分量。由于大型退出极为罕见，且正是凭此募集下一期基金，他预测未来几年将有大量名字从交易记录中被删除，人人都想改写历史来领功。
 
-Published: 2026-09-12 | Source: https://www.youtube.com/@DataDrivenNYC/videos
-
----
-
-## 一、深度总结
-
-**核心论点**
-
-Richard Socher 的核心论点是：科学进步正在放缓——不是因为我们不够努力，而是因为知识已经从一个"知识体系"演变为一座"知识迷宫"，3.4万本学术期刊各自为政，跨领域综合几乎不可能。而 AI，特别是递归自我改进的 AI，将成为打破这一困局的关键——就像微积分对物理学的作用一样，AI 将为生物学和其他复杂科学提供统一的语言和工具。
-
-**关键洞察**
-
-- **知识迷宫困境**：现代科学被分割成数千个子领域，即使是博士也只懂自己那一小块。生物学家对细胞层面、组织层面、蛋白质层面的问题往往互不相通，跨领域的"文艺复兴式天才"已几乎绝迹。
-- **AI 作为科学的微积分**：AI 不是取代科学家，而是提供了一种新的语言，能够将复杂系统的碎片重新编织在一起。就像我们理解单个神经元的工作原理，但无法解释大脑如何产生思想，AI 将帮助我们跨越这道鸿沟。
-- **递归自我改进（RSI）的潜力**：*"Anything you can simulate, AI will solve. And before you know it, you're in this recursive self improvement loop."* 一旦 AI 能够改进自身，就会进入指数级加速——而我们距离智能的真正上限还差得很远。
-- **学术体系的创新抑制**：Socher 亲身经历：2010年他早期的神经网络用于 NLP 的论文屡遭拒稿，因为太超前。学术体系倾向于奖励渐进式创新，真正的突破往往来自"叛逆者"。
-- **Recursive 公司的赌注**：刚刚完成6.5亿美元融资的 Recursive，正是押注 AI 能够加速科学发现，特别是在生物学、药物研发等领域。新书《The Eureka Machine》是这一愿景的系统化阐述。
+https://x.com/nikunj/status/2098550718923997430
 
 ---
 
-## 二、中英对照精华
+Peter Steinberger — Founder of PSPDFKit / Astra power user (steipete on X)
 
-*"Boy, are we far away from the true upper bounds of any of the spaces of intelligence. And there is still so much further that AI can go."*
-我们距离任何智能领域的真正上限还差得很远，AI 还有无比广阔的提升空间。
+Peter shared that he submitted a patch to the trycua project to fix key handling reliability under Linux, while praising it as a "dope framework overall."
+Peter 分享了他向 trycua 项目提交的一个补丁，修复了 Linux 下按键处理的可靠性问题，同时盛赞该框架"整体来说很酷"。
 
-*"We evolved from a body of knowledge to a labyrinth of knowledge — 34,000 journals that might as well have no trespassing signs."*
-我们从一个知识体系演变成了一座知识迷宫——3.4万本学术期刊，每一本都像贴着"禁止入内"的告示。
+He also demoed Astra running on OpenClaw in a cloud session playing Doom with CUA (Computer Use Agent) — *"Not quite AGI yet, but probably beats fly brain."*
+他还展示了 Astra 在云端 OpenClaw 会话中通过 CUA（计算机使用 Agent）玩《毁灭战士》的场景——*"还不算 AGI，但大概比苍蝇的大脑强。"*
 
-*"AI is kind of what calculus did for physics — AI will do for biology."*
-AI 将对生物学做出微积分对物理学所做过的事情。
-
-*"If you're too novel, you're too far out there — your papers will get rejected."*
-如果你太超前，你的论文就会被拒稿——这是学术体系对真正创新的无声扼杀。
-
-*"Anything you can simulate, AI will solve."*
-任何你能模拟的东西，AI 都能解决。
+https://x.com/steipete/status/2098527982709256637
+https://x.com/steipete/status/2098527519213604889
 
 ---
+
+Dan Shipper — CEO of Every (danshipper on X)
+
+Dan announced that Every is doubling down on model evaluation: after three years of "vibe checks" on new models (long-form reviews based on hands-on testing for real work), they've now built an internal platform where every team member can create personal benchmarks based on their actual day-to-day tasks — moving from vibes-only to quantitative.
+Dan 宣布 Every 正在加大对模型评估的投入：在三年"感觉评测"（基于实际工作的长篇深度评测）的基础上，团队现已构建了内部平台，每位成员都可以基于自己的实际日常工作创建个人 benchmark——从纯感性走向定量化。
+
+He also noted: *"Better benchmark scores don't tell you much about how well a model does on your real work."*
+他还指出：*"更好的 benchmark 分数并不能告诉你一个模型在你真实工作中表现如何。"*
+
+https://x.com/danshipper/status/2098481799047647715
+
+---
+
+Aditya Agarwal — Co-founder of SPC (South Park Commons) (adityaag on X)
+
+Aditya announced that SPC is hosting a fall tech policy conversation series, starting with Steve Hilton on September 23rd, covering questions like how to encourage true innovation in California, how to enable a two-party state, and how technology should be regulated.
+Aditya 宣布 SPC 将举办秋季科技政策对话系列活动，首场于 9 月 23 日邀请 Steve Hilton，探讨如何鼓励加州真正的创新、如何建立两党制州，以及技术应如何被监管。
+
+He also spent the day reflecting on 9/11 — recalling being at CMU in a lecture in Wean Hall room 7500 when the attacks happened, with fears about one of the planes being near Pittsburgh.
+他也用这一天追思 9/11——回忆起当年在 CMU Wean Hall 7500 室上课时听到袭击消息，当时有消息称其中一架飞机飞近匹兹堡，令人十分恐惧。
+
+https://x.com/adityaag/status/2098472517845328303
+https://x.com/adityaag/status/2098580235268899123
+
+---
+
+PODCASTS
+
+No Priors — "Coinbase's Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong"
+https://www.youtube.com/watch?v=uLDK4l_-gUE
+
+In this episode, Coinbase CEO Brian Armstrong sits down with No Priors to discuss the future of crypto, agentic finance, and longevity biotech.
+本期节目中，Coinbase CEO Brian Armstrong 与 No Priors 深入探讨加密货币、智能体金融以及长寿生物技术的未来。
+
+**On Agentic Finance (AIFi):**
+**关于智能体金融（AIFi）：**
+
+Armstrong argues that AI agents will need their own financial accounts — and that we shouldn't let AIs be "unbanked."
+Armstrong 认为 AI agent 需要拥有自己的金融账户——我们不应让 AI 成为"无银行账户"群体。
+
+Coinbase has built tools that let any AI agent spin up a self-custodial wallet with a single prompt, without KYC, enabling agents to pay for goods, API calls, and AWS resources autonomously.
+Coinbase 已构建工具，让任何 AI agent 只需一条 prompt 即可开设自托管钱包，无需 KYC，使 agent 能够自主支付商品、API 调用和 AWS 资源费用。
+
+*"There'll be more agents than humans in the not too distant future. It kind of stands to reason that the agentic economy will be bigger than the human economy."*
+*"在不远的将来，agent 的数量将超过人类。由此推断，智能体经济将会超越人类经济，这是合乎逻辑的。"*
+
+A key reason crypto is better than traditional payment rails for agents: 76% of agentic e-commerce transactions are under 30 cents — below the minimum fee floor of credit/debit cards.
+加密货币比传统支付轨道更适合 agent 的关键原因：76% 的智能体电商交易金额低于 30 美分——低于信用卡/借记卡的最低手续费门槛。
+
+Coinbase incubated the X402 payment protocol (now in the Linux Foundation), with Google, Cloudflare, and AWS as collaborators.
+Coinbase 孵化了 X402 支付协议（现已纳入 Linux 基金会），Google、Cloudflare 和 AWS 均为合作方。
+
+**On the Everything Exchange:**
+**关于万物交易所（Everything Exchange）：**
+
+88% of Coinbase's revenue now comes from non-Bitcoin trading.
+Coinbase 目前 88% 的收入来自非比特币交易。
+
+Coinbase launched tokenized stocks — the first product where tokens are actually backed 1:1 by the real security in custody, not synthetics. There are 4 billion people globally who can't access US brokerage accounts.
+Coinbase 推出了代币化股票——这是首个真正以 1:1 实物证券托管支持（而非合成品）的产品。全球有 40 亿人无法开设美国券商账户。
+
+Prediction markets inside Coinbase hit a $100M revenue run rate within months of launch, growing over 100% quarter over quarter.
+Coinbase 内部预测市场在上线后数月内达到 1 亿美元年化收入，季度环比增长超过 100%。
+
+**On Recursive Self-Improvement at Coinbase:**
+**关于 Coinbase 的递归自我改进：**
+
+Coinbase's internal agent harness ("Toshi") is being wired with a "brain" per service repository — containing incident histories, financial controls, A/B test results, and full PR history.
+Coinbase 的内部 agent 框架（"Toshi"）正在为每个服务仓库配置"大脑"——包含事故历史、财务控制要求、A/B 测试结果和完整 PR 历史。
+
+When an agent makes a change and a human corrects it, that correction loops back into the brain — making future one-shot PRs progressively more accurate.
+当 agent 进行变更、人工纠正后，纠正内容会回流到"大脑"——使未来的一次性 PR 逐步提高准确率。
+
+Armstrong himself is now spinning up 10 parallel agents to execute phases of complex features, getting completion pings two minutes before a podcast recording.
+Armstrong 本人现在会同时启动 10 个并行 agent 来执行复杂功能的各个阶段，在播客录制前两分钟收到完成通知。
+
+**On New Limit (Longevity Biotech):**
+**关于 New Limit（长寿生物技术）：**
+
+New Limit has built a frontier AI model for epigenetic reprogramming, running large-scale pooled screens in their South San Francisco lab to find compounds that restore younger cell function.
+New Limit 已建立了用于表观遗传重编程的前沿 AI 模型，在南旧金山实验室开展大规模汇集筛选，寻找能恢复细胞年轻功能的化合物。
+
+Successful reprogramming of at least one human cell type in humanized mouse models has been demonstrated; non-human primate trials are underway; first Phase 1 clinical trial launches next year.
+已在人源化小鼠模型中成功实现至少一种人类细胞类型的重编程；非人灵长类动物试验正在进行；首个一期临床试验将于明年启动。
+
+The initial indication is alcohol-related liver disease (ALD) — a high unmet need with no good treatment options beyond transplant; estimated market value of $20 billion if the drug works.
+初始适应症为酒精性肝病（ALD）——目前除肝移植外几乎没有有效治疗方案，属于高度未满足的医疗需求；若药物有效，预计市场规模达 200 亿美元。
+
+The long-term vision: a cocktail of therapies targeting multiple cell types (liver, vasculature, immune, skin, brain, muscle) to restore them to a younger biological age, attacking the root cause of age-correlated disease rather than individual symptoms.
+长期愿景：一套针对多种细胞类型（肝脏、血管、免疫、皮肤、大脑、肌肉）的复合疗法，将其恢复到更年轻的生物学年龄，从根源上攻克与年龄相关的疾病，而非单独应对各种症状。
+
+https://www.youtube.com/watch?v=uLDK4l_-gUE
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
