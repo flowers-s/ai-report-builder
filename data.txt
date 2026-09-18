@@ -1,249 +1,311 @@
-AI Builders 日报 · 2026-09-17
+AI Builders 日报 · 2026-09-18
+
+Today's digest covers a major product shift from Anthropic: Claude Cowork and chat are merging into one unified experience, with new Docs, Slides, and Design capabilities built directly into conversations.
+今日日报聚焦 Anthropic 的重大产品变化：Claude Cowork 与普通对话正式合并为统一体验，全新的 Docs、Slides 和 Design 功能直接内嵌于对话中。
 
 ---
 
-## X / TWITTER
+OFFICIAL BLOGS
+
+Claude Blog — Claude Cowork and chat are now one Claude
+https://claude.com/blog/cowork-is-now-claude
+Published: Sep 16, 2026
+
+Starting today, Claude Cowork and chat are merging into one Claude.
+即日起，Claude Cowork 与普通对话正式合并为统一的 Claude。
+
+Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you've closed your laptop.
+无论是一个简单问题，还是一份正午截止的报告，Claude 都会从容接手，即使你已经合上了电脑。
+
+It's rolling out on Pro and Max plans over the next few weeks, with more plans to follow.
+这项功能将在未来几周内向 Pro 和 Max 用户推出，更多方案也将陆续跟进。
+
+Claude Docs and Claude Slides are new today, and Claude Design now works inside your conversations too.
+Claude Docs 和 Claude Slides 今天正式上线，Claude Design 也已集成至对话界面中。
+
+Ask for a document, and you and Claude write it together.
+只需提出需求，你与 Claude 便可共同完成一份文档。
+
+Ask for a presentation, and Claude drafts the slides — you can edit directly, present straight from Claude, or download as PowerPoint or PDF.
+请求一份演示文稿，Claude 会自动生成幻灯片，你可以直接编辑、在 Claude 中直接演示，或导出为 PowerPoint / PDF。
+
+All three are in beta on paid plans.
+三项功能目前均处于付费方案的 beta 阶段。
+
+People used both Cowork and Design, and told us the frustrating part was deciding where a task belonged.
+用户同时使用 Cowork 和 Design，但反映最令人头疼的是不知道该把任务放在哪里。
+
+So we stopped making you choose — Claude can now figure out what a task needs.
+于是我们取消了这个选择的负担，Claude 现在会自动判断任务所需的处理方式。
 
 ---
 
-### Josh Woodward (Google Labs)
+X / TWITTER
 
-Josh Woodward announced new updates to Gemini Notebook specifically designed for students.
-Josh Woodward 宣布了 Gemini Notebook 专为学生推出的新功能更新。
+Boris Cherny (bcherny on X) — Claude Code Engineer at Anthropic
 
-His two favorite additions: live spoken Q&A with class materials in ~100 languages, and automatic saving of lecture recordings and audio notes into your chosen notebook.
-他最喜欢的两项新功能：支持约 100 种语言的课堂材料实时语音问答，以及讲座录音和音频笔记自动保存到所选笔记本。
+Claude Code showed that AI could do real work, not just answer questions.
+Claude Code 证明了 AI 能够完成真正的工作，而不仅仅是回答问题。
 
-University students can also still access a free Google AI Plan in 140+ countries for expanded limits and more Google product access.
-在 140 多个国家/地区，在校大学生仍可免费获取 Google AI Plan，享受更大配额和更多 Google 产品的访问权限。
+Developers hand Claude a feature, come back to shipped code.
+开发者把一个功能交给 Claude，回来就能看到已交付的代码。
 
-Source: https://x.com/joshwoodward/status/2099921866014306633
+Cowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files.
+Cowork 证明了知识工作者也能做到同样的事：把需求交给 Claude，回来就有完成的文件。
 
----
+Today, chat and Cowork start merging into one Claude — one Claude that carries context across everything you're working on, wherever you are.
+今天，对话与 Cowork 开始合并为一个统一的 Claude，跨越你所有任务、随时随地保持上下文。
 
-### Peter Yang (Solopreneur / Content Creator)
+*"I've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful."*
+（原文引用）
 
-Peter Yang shared his philosophy for solopreneurs: design your business to spend more time on work you actually enjoy.
-Peter Yang 分享了他对独立创业者的核心理念：把业务设计成让你能花更多时间做自己真正享受的工作。
+Claude is rolling this out slowly to fine-tune for speed and reliability.
+Claude 将逐步推出此功能，以确保速度与稳定性。
 
-*"My advice is to design your business so you can spend more time doing work you actually enjoy."*
-*「我的建议是，把你的业务设计成让你能花更多时间做自己真正享受的工作。」*
+Also, Claude Docs, Claude Slides, and Claude Design are now in every conversation — ask for a presentation and you get one you can open, edit, and export as PowerPoint or PDF.
+此外，Claude Docs、Claude Slides 和 Claude Design 现已内嵌于每个对话中，请求一份演示文稿，你将直接获得可编辑、可导出为 PowerPoint 或 PDF 的成品。
 
-He noted there will always be choices that could make more money, but if those choices lead to work you don't enjoy, it defeats the purpose of going solo — delegate boring work to bots instead.
-他指出，总会有一些选择能赚更多钱，但如果这些选择让你做不喜欢的事，那就失去了独立创业的意义——不如把无聊的工作交给 bot 去做。
-
-He also highlighted diverse use cases from his community: from lead generation and ad monitoring, to automating paperwork for electrical contracting businesses and building a daily AI research brief.
-他还列举了社区用户的多样化使用场景：从挖掘潜在客户、监控广告账户，到为电气承包商自动化文书工作，再到构建每日 AI 研究简报。
+There's no separate tool to navigate to — they're just in the chat.
+无需跳转到其他工具，一切就在对话里。
 
 Sources:
-- https://x.com/petergyang/status/2099968897323778416
-- https://x.com/petergyang/status/2100027487681953834
+https://x.com/bcherny/status/2100259951398789487
+https://x.com/bcherny/status/2100260544087535639
 
 ---
 
-### Thariq (Builder / Developer)
+Cat Wu (_catwu on X) — Claude Code + Cowork at Anthropic
 
-Thariq shared a surprising shift in his perspective on developer tooling.
-Thariq 分享了他在开发者工具观念上的一次意外转变。
+Today, Anthropic is merging Claude Cowork and chat to simplify how you use Claude.
+今天，Anthropic 将 Claude Cowork 与普通对话合并，简化 Claude 的使用方式。
 
-*"I was not expecting things to go this way, but I think MCPs are better than CLIs for most integrations."*
-*「我没料到事情会走到这一步，但我认为对于大多数集成场景，MCP 比 CLI 更好用。」*
+Claude Design is also now integrated, so you can ask Claude to make a Slide, Design, or Doc without needing to switch tabs or apps.
+Claude Design 也已整合进来，你可以直接在对话中请求 Claude 制作幻灯片、设计稿或文档，无需切换标签或应用。
 
-His reasoning: models have gotten much better at tool calling, tools can now be deferred, and MCP is now stateless — and if you need to compose or filter data, you can just add query params to your MCP tools.
-他的理由是：模型的工具调用能力已经大幅提升，工具现在可以延迟执行，MCP 也已经变为无状态——如果需要组合或过滤数据，只需给 MCP 工具加上 query 参数即可。
+Many users shared that they didn't want to choose which Claude product to use for any task.
+许多用户表示，他们不希望为每项任务选择使用哪个 Claude 产品。
 
-Source: https://x.com/trq212/status/2099958388230873165
+As Claude models have become more capable, Claude can now handle the routing for you — based on your prompt, it decides whether to give a quick answer or do deeper agentic work, and what kind of output best fits the task.
+随着 Claude 模型能力不断提升，Claude 现在可以自动判断路由，根据你的提示决定是快速回答还是开展更深入的 agentic 工作，以及输出什么形式最为合适。
+
+*"You're in control the whole time: you can still stop, redirect, or exert finer control over Claude's effort or approach."*
+（原文引用）
+
+Source:
+https://x.com/_catwu/status/2100260655312089562
 
 ---
 
-### Amjad Masad (Replit CEO)
+Alex Albert (alexalbert__ on X) — Researcher at Anthropic
 
-Amjad Masad offered a pointed technical take on structured output approaches.
-Amjad Masad 就结构化输出方案提出了一个犀利的技术观点。
+The team did an amazing job with this merge — the resulting UX feels so much better than chat or Cowork did on their own.
+团队在这次合并上做得非常出色，最终的用户体验比单独的对话或 Cowork 都要好得多。
 
-If your output domain is known in advance, why not just train a model to produce logprobs over enums directly, rather than relying on constrained decoding tricks?
-如果输出域是预先确定的，为什么不直接训练模型在枚举值上输出对数概率，而非依赖约束解码技巧呢？
+The new slides, docs, and design integrations work very well.
+新的幻灯片、文档和设计集成效果十分出色。
 
-He also weighed in sharply on the tech industry's naming problem: *"The AI naming curse strikes again. 'AI Safety' firm made AI unsafe. 'Effective Altruists' are both ineffective and enabling criminal activity."*
-他还就科技行业的命名问题发出了犀利的评论：*「AI 命名魔咒再度出击。'AI Safety' 公司让 AI 变得不安全。'有效利他主义者' 既无效，又在助长犯罪活动。」*
+Source:
+https://x.com/alexalbert__/status/2100295757953917120
+
+---
+
+Thariq (trq212 on X) — Claude Code at Anthropic
+
+Thariq shared evolving views on agent architecture, noting that bash is no longer all you need for reliable tool calling — but sandboxes and bash are still good for work involving code generation and execution.
+Thariq 分享了对 agent 架构的最新看法：bash 不再是可靠工具调用的唯一方案，但对于涉及代码生成与执行的工作，沙箱加 bash 依然是好选择。
+
+*"I think increasingly you can just give Claude tools shaped in the way you want vs tricking it with a layer of indirection — e.g. for data storage do you really want a file system or do you want an API to a database."*
+（原文引用）
+
+He also highlighted Claude Managed Agents as striking the right balance — the sandbox is optional and can be spun up independently of the agent loop.
+他还指出 Claude Managed Agents 实现了恰当的平衡，沙箱是可选的，可独立于 agent 循环启动。
 
 Sources:
-- https://x.com/amasad/status/2100056178705514703
-- https://x.com/amasad/status/2099760428314411232
+https://x.com/trq212/status/2100315535758217422
+https://x.com/trq212/status/2100315537251463523
+https://x.com/trq212/status/2100315538472009897
 
 ---
 
-### Guillermo Rauch (Vercel CEO)
+Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT at OpenAI
 
-Guillermo Rauch formally introduced Vercel Labs — Vercel's in-public research and experimentation arm.
-Guillermo Rauch 正式发布了 Vercel Labs —— Vercel 的公开研究与实验部门。
+Thibault posted about Astra — OpenAI's model described as fast, frontier, efficient, and for everyone.
+Thibault 发文介绍 Astra，OpenAI 的新模型，以"快速、前沿、高效、面向所有人"为特点。
 
-With 247 million downloads, Vercel wanted to publicly share what they're supporting, what they're researching, and even what experiments didn't pan out.
-凭借 2.47 亿次下载量，Vercel 希望公开分享他们正在支持什么、研究什么，甚至是哪些实验没有成功。
+He also referenced Sam Altman's post about a delayed launch, commenting *"Sometimes physics can't be cheated"* — a nod to the fundamental limits of shipping fast.
+他还引用了 Sam Altman 关于发布延期的帖子，评论道"有时候物理规律无法被绕过"，暗示快速交付的内在极限。
 
-He also shared a technical milestone: Safari 27 now supports JSPI (JavaScript Promise Integration), a WebAssembly capability that allows sync native code to suspend on an async Promise — and on v0.dev, libfx uses the built-in browser fetch stack to make API calls.
-他还分享了一个技术进展：Safari 27 现已支持 JSPI（JavaScript Promise Integration），这是一项允许同步原生代码在异步 Promise 上挂起的 WebAssembly 能力——在 v0.dev 上，libfx 使用浏览器内置的 fetch 栈来发起 API 调用。
-
-On model strategy, he was direct: *"The future is multi-model. Trying to hide the choice confuses and hurts customers."*
-在模型策略上，他直言不讳：*「未来是多模型的。试图隐藏选择会让用户感到困惑，也会伤害他们。」*
+He also simply tweeted "What is ChatGPT" — apparently prompting significant discussion (1,468 replies).
+他还发了一条简单的推文"What is ChatGPT"，引发了大量讨论（1468 条回复）。
 
 Sources:
-- https://x.com/rauchg/status/2099911447598059812
-- https://x.com/rauchg/status/2099974859023683975
-- https://x.com/rauchg/status/2099905740505055680
+https://x.com/thsottiaux/status/2100297380968997327
+https://x.com/thsottiaux/status/2100363668051603608
+https://x.com/thsottiaux/status/2100295443620007993
 
 ---
 
-### Aaron Levie (Box CEO)
+Guillermo Rauch (rauchg on X) — CEO at Vercel
 
-Aaron Levie articulated what he sees as the defining opportunity in enterprise AI: the massive gap between model capability and actual enterprise workflows.
-Aaron Levie 阐述了他眼中企业级 AI 的核心机遇：模型能力与企业实际工作流之间巨大的鸿沟。
+Guillermo shared exciting results from typesafe AI in Vercel's fx tool, where a safety reviewer running on GPT Luna analyzes every command.
+Guillermo 分享了 typesafe AI 在 Vercel fx 工具中的出色表现，GPT Luna 驱动的安全审查器对每条命令进行分析。
 
-*"There's a massive chasm between the power of AI models and the ultimate workflows that enterprises are trying to automate. This gap is the opportunity for the applied AI layer to fill."*
-*「AI 模型的能力与企业试图自动化的终极工作流之间，存在着巨大的鸿沟。这个差距，正是应用 AI 层的填补机会。」*
+*"Jev is up to 18x faster (p95) and more accurate. It's coming to Vercel AI Gateway and likely new default."*
+（原文引用）
 
-Bridging that gap requires connecting intelligence to workflows, re-engineering processes, aggregating context and data, enabling human-in-the-loop experiences, handling domain-specific evals, and managing security and governance.
-弥合这一差距，需要将智能连接到工作流、重新设计流程、汇聚上下文与数据、支持人机协同体验、处理领域特定的评估，以及管理安全与治理。
-
-His counterintuitive point: even as models keep improving at incredible rates, this applied AI layer doesn't become less necessary — it may actually become *more* important as greater capability enables tackling even more complex tasks.
-他提出了一个反直觉的论点：即使模型以惊人的速度持续进步，这个应用 AI 层也不会变得不那么必要——随着能力增强使得更复杂的任务成为可能，它实际上可能变得更加重要。
-
-Source: https://x.com/levie/status/2099976021311398230
+Source:
+https://x.com/rauchg/status/2100307962262872105
 
 ---
 
-### Garry Tan (Y Combinator CEO)
+Aaron Levie (levie on X) — CEO at Box
 
-Garry Tan shared that he's been using capy.ai with GStack/GBrain for fixing outstanding issues and PRs — and was genuinely amazed by the results.
-Garry Tan 分享了他使用 capy.ai 配合 GStack/GBrain 来修复 issue 和 PR 的体验，并对结果感到真心惊叹。
+Aaron Levie expressed excitement about new AI innovation spaces that weren't on most radars.
+Box CEO Aaron Levie 对那些此前未被广泛关注的 AI 创新领域表达了兴奋。
 
-*"It did what would have taken a day with raw Codex/Claude Code in about half as much time, using the same frontier models."*
-*「它用同样的前沿模型，在大约一半的时间内完成了用 Codex/Claude Code 需要一整天才能完成的工作。」*
+He highlighted that processing information insanely quickly, at crazy low costs, with high levels of capability is huge for enterprise tasks.
+他指出，以极低成本超高速处理信息、同时保持强大能力，对企业级任务意义重大。
 
-He also briefly shared his conviction on a consumer product: *"I think Muse is going to win tbh."*
-他还简短表达了对一款消费产品的信念：*「说真的，我觉得 Muse 会赢。」*
+*"Data classification tasks, routing decisions inside of a workflow, decision making when handed a particular domain problem, quick judgment calls about safety or security... all are the gates in a large number of processes."*
+（原文引用）
+
+He sees this model and approach as particularly promising for agentic workflows in the enterprise.
+他认为这种模型和方法在企业 agentic 工作流中具有相当大的潜力。
+
+Source:
+https://x.com/levie/status/2100448648672993540
+
+---
+
+Garry Tan (garrytan on X) — President & CEO at Y Combinator
+
+Garry Tan noted he can use any harness he wants and it's the same personality and full memory of his personal AGI — pointing to growing flexibility of AI agents across different surfaces.
+YC 总裁 Garry Tan 表示，无论使用哪种框架，他的个人 AGI 都能保持相同的人格和完整记忆，指出 AI 智能体在不同平台上的灵活性正在提升。
+
+He also announced he'll be speaking at Supabase Select in conversation with kiwicopple about building startups in the time of AI.
+他还宣布将在 Supabase Select 大会上与 kiwicopple 对话，主题为 AI 时代的创业。
 
 Sources:
-- https://x.com/garrytan/status/2099964487667454097
-- https://x.com/garrytan/status/2099980972641124629
+https://x.com/garrytan/status/2100339347669279149
+https://x.com/garrytan/status/2100354983053111365
 
 ---
 
-### Nikunj Kothari (Investor / Advisor)
+Dan Shipper (danshipper on X) — CEO at Every
 
-Nikunj Kothari sent a wake-up call to founders who are too dependent on raising their next round.
-Nikunj Kothari 向那些过度依赖下一轮融资的创始人发出了警告。
+Dan Shipper celebrated the Anthropic merge announcement with enthusiasm: *"THEY DID IT. THE END OF THE TABS ERA IS UPON US."*
+Every CEO Dan Shipper 对 Anthropic 的合并公告充满热情："他们做到了。标签页时代即将终结。"
 
-*"Capital is a weapon for acceleration. Used well you're unbeatable."*
-*「资本是加速的武器。用好了，你无敌；用不好，却可能让你被小小的逆风所击倒。」*
-
-His advice: always figure out the default path that ensures your company's survival and a self-sustaining business first, then map out how abundant or scarce capital changes your trajectory.
-他的建议是：首先找到确保公司存活和自我造血的默认路径，再规划资本充裕或匮乏时会如何改变你的发展轨迹。
-
-Capital markets over the next 6-18 months are simply unknowable — build accordingly.
-未来 6-18 个月的资本市场根本无从预测——请据此构建你的公司。
-
-Source: https://x.com/nikunj/status/2100008917980102863
-
----
-
-### Dan Shipper (Every CEO)
-
-Dan Shipper teased a new foundation model that Every has been testing for about a week — and called it "pretty wild."
-Dan Shipper 预告了 Every 测试了约一周的一款新基础模型，并称之为"相当疯狂"。
-
-The model doesn't produce words as output — it produces probabilities, making it highly efficient as a judge in cases where you'd normally need a Fable-level model.
-这款模型的输出不是文字，而是概率，这使其在通常需要 Fable 级别模型的评判场景中非常高效。
-
-In their testing, it was 25x faster and 600x lower priced than comparable alternatives — the kind of thing that will be "obviously indispensable in 6-12 months."
-在他们的测试中，它比同类方案快 25 倍、价格低 600 倍——正是那种"6-12 个月后会显然不可或缺"的东西。
-
-Source: https://x.com/danshipper/status/2099947471518474522
-
----
-
-### Aditya Agarwal (SPC Partner)
-
-Aditya Agarwal celebrated Profound's $180M Series D, co-led by Sequoia and Kleiner Perkins — now valued at $1.8B, with one-third of the Fortune 100 running on it.
-Aditya Agarwal 庆祝了 Profound 完成 1.8 亿美元 D 轮融资，由红杉资本和 Kleiner Perkins 联合领投——当前估值 18 亿美元，财富 100 强中三分之一的企业在使用它。
-
-SPC backed Profound from the very beginning — before there was even a clear product to see.
-SPC 从最初就支持了 Profound——那时甚至还看不到清晰的产品雏形。
-
-The founders — an Uber maps engineer and a founder with no college degree who "willed businesses into existence" — met at SPC, and the partnership formed before the idea did.
-两位创始人——一位 Uber 地图工程师和一位靠意志力"把业务从无到有"的没有大学学历的创始人——在 SPC 相遇，合伙关系在想法成形之前就已建立。
-
-Profound has since evolved into the fastest-growing AI marketing platform.
-Profound 此后已演变为增长最快的 AI 营销平台。
+He also drew a technical analogy: *"LLMs are just JSON autocomplete"* — comparing the simplicity underlying LLMs to classifier-style thinking.
+他还做了一个技术类比："LLM 不过是 JSON 自动补全" — 将 LLM 底层的简洁性比作分类器式思维。
 
 Sources:
-- https://x.com/adityaag/status/2099939685657141257
-- https://x.com/adityaag/status/2099939689738191146
+https://x.com/danshipper/status/2100269017977987341
+https://x.com/danshipper/status/2100284086703046903
+https://x.com/danshipper/status/2100251499443998766
 
 ---
 
-### Sam Altman (OpenAI CEO)
+Zara Zhang (zarazhangrui on X) — Builder
 
-Sam Altman hinted at a big product week ahead — and an even bigger DevDay.
-Sam Altman 暗示本周将有重大产品发布——DevDay 的阵仗更大。
+Zara Zhang shared a candid critique: she finds herself using Claude less because of how it communicates.
+Zara Zhang 坦率地分享了一个批评：她发现自己越来越少使用 Claude，原因在于它的表达方式。
 
-*"big 🚢 this week, and then for devday 🚢🚢🚢🚢🚢🚢"*
-*「本周大发布，DevDay 更是大发布叠加大发布。」*
+*"I find myself using Claude less these days because the way it speaks has just become insufferable — like it's constantly trying to showcase how smart/sophisticated it is, rather than actually communicating a point across."*
+（原文引用）
 
-No specifics — but six ship emojis for DevDay says everything about scale of ambition.
-没有具体细节——但 DevDay 六个"发布"表情符号已经说明了一切。
+The post resonated strongly, receiving 1,830 likes and 306 replies.
+这条推文引发强烈共鸣，获得 1830 个赞和 306 条回复。
 
-Source: https://x.com/sama/status/2099872600977760451
-
----
-
-### Claude (Anthropic)
-
-Salesforce in Claude is now available in beta.
-Salesforce 与 Claude 的集成现已进入测试版。
-
-It brings accounts, opportunities, and pipeline directly into Claude — with 37 pre-built sales skills covering call prep, deal reviews, pipeline dashboards, and sending forecasts without leaving the conversation.
-它将账户、商机和销售管道直接带入 Claude——配备 37 个预构建销售技能，涵盖通话准备、交易评审、管道仪表盘，以及无需离开对话即可发送预测。
-
-Source: https://x.com/claudeai/status/2099876514330206578
+Source:
+https://x.com/zarazhangrui/status/2100278750776824115
 
 ---
 
-## PODCASTS
+Peter Yang (petergyang on X) — AI Educator & Podcaster
+
+Peter Yang shared how he uses 8 AI skills to produce his entire podcast while still applying his own taste and judgment throughout.
+AI 教育者 Peter Yang 分享了他如何利用 8 个 AI skills 完成整个播客制作流程，同时在过程中保留自己的品味与判断。
+
+Key skills include: /podcast-prep for guest research and interview guides, /podcast-edit for transcript review and quote selection, and /podcast-production for orchestrating 5 skills into 6 different assets.
+核心 skills 包括：/podcast-prep 用于嘉宾研究和访谈准备，/podcast-edit 用于转录稿审阅和精彩片段筛选，/podcast-production 用于将完整剧集编排为 6 种不同素材。
+
+*"Some people think the latest models make skills redundant but they've been indispensable for me to get AI to follow my specific edit and browser-use instructions."*
+（原文引用）
+
+Source:
+https://x.com/petergyang/status/2100328939034128856
 
 ---
 
-### Training Data — Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion
+Madhu Guru (realmadhuguru on X) — Sr Director AI at Meta
 
-**核心论点**
-AI diffusion in the enterprise is not primarily a technology problem — it's an organizational, process, and change management problem.
-企业 AI 的扩散，本质上不是技术问题——而是组织、流程和变革管理问题。
+Madhu Guru made a pointed argument about AI product philosophy: safety and security are features of your AI product and model — not guardrails imposed from the outside.
+Meta AI 高级总监 Madhu Guru 就 AI 产品理念提出了一个鲜明论点：安全与安全性是 AI 产品和模型的内在特性，而非从外部强加的护栏。
 
-Enterprise AI adoption requires bridging a gap that pure model improvements cannot close: you need the right data, workflows, governance, and human-in-the-loop systems to get value at scale.
-企业 AI 落地需要填补一道纯模型进步无法弥合的鸿沟：要在规模上创造价值，你需要正确的数据、工作流、治理机制和人机协同系统。
+Source:
+https://x.com/realmadhuguru/status/2100312717739667963
 
-**关键洞察**
+---
 
-- Being "wired in" to the right information feed (like Twitter/X) can put you a full year ahead of your peers — a compound advantage that's dramatically undervalued by most professionals.
-  接入正确的信息流（如 Twitter/X）可以让你比同龄人整整领先一年——这种复利优势被大多数从业者严重低估。
+Sam Altman (sama on X) — CEO at OpenAI
 
-- The "applied AI layer" is not a temporary workaround until models get smarter; as models become more capable, they unlock even more complex enterprise tasks, which *increases* the value of the surrounding orchestration layer.
-  "应用 AI 层"并非等待模型更聪明的临时方案；随着模型能力增强，它们解锁了更复杂的企业任务，这反而*增加*了周边编排层的价值。
+Sam Altman posted a brief update: the main launch he was most excited about this week will be delayed to next week instead.
+OpenAI CEO Sam Altman 发布了一条简短更新：他本周最期待的主要发布将推迟至下周。
 
-- Box has had to fundamentally rethink its product as an AI-first platform — not just adding AI features on top of existing workflows, but re-architecting around what becomes possible when intelligence is embedded everywhere.
-  Box 不得不从根本上将自身重塑为 AI 优先平台——不是在现有工作流上叠加 AI 功能，而是围绕"智能无处不在时何为可能"重新设计架构。
+The post gathered 8,692 likes, sparking widespread speculation about what the delayed release might be.
+这条推文获得 8692 个赞，引发了广泛的猜测。
 
-- Founders who reinvent themselves for a new technology wave need to genuinely internalize the new paradigm, not just add it as a veneer — the competitive moat comes from deep, non-obvious application, not surface-level adoption.
-  在新技术浪潮中完成自我重塑的创始人，需要真正内化新范式，而非只是表面涂一层——竞争护城河来自深层的、非显而易见的应用，而非浅层的跟风。
+Source:
+https://x.com/sama/status/2100351958167220547
 
-- Enterprise diffusion of AI is slower than the hype, but the ceiling is far higher — the organizations doing the hard integration work now will compound their advantage significantly over the next 3-5 years.
-  AI 的企业扩散比炒作的速度慢，但上限远高于想象——现在做深度集成工作的组织，将在未来 3-5 年内显著积累复利优势。
+---
 
-**最值得关注的信号**
-The companies building the "applied AI layer" — connecting raw model intelligence to actual enterprise workflows with proper governance, context, and change management — may end up capturing more long-term value than the model providers themselves.
-正在构建"应用 AI 层"的公司——将原始模型智能与真实企业工作流对接，并配以完善的治理、上下文和变革管理——最终捕获的长期价值，可能超过模型提供商本身。
+Claude (claudeai on X) — Official Anthropic Account
 
-Podcast: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+The official Claude account announced the new unified experience in a series of posts.
+Claude 官方账号通过系列推文宣布了全新统一体验。
+
+You can now make decks, docs, and designs directly in your conversation — draft the structure, then refine with Claude, or ask Claude to build the whole thing.
+你现在可以直接在对话中创建幻灯片、文档和设计稿，可以先起草结构再与 Claude 共同完善，也可以直接让 Claude 全权完成。
+
+You can fix a line in the doc yourself, leave a comment for Claude on a slide, or select any element to update it.
+你可以自己修改文档中的某行，也可以在幻灯片上给 Claude 留注释，或选中任意元素进行更新。
+
+If you've been working in Cowork, everything is where you left it: chats, projects, artifacts, connectors, and skills.
+如果你此前在使用 Cowork，所有内容都保留在原处：对话、项目、产物、连接器和 skills。
+
+Sources:
+https://x.com/claudeai/status/2100258492590207079
+https://x.com/claudeai/status/2100258494221812123
+https://x.com/claudeai/status/2100258495543071016
+
+---
+
+Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
+
+Nikunj Kothari shared updates on a personal "Home" agent he's been tinkering with for months using NousResearch — it has finally gotten really good.
+FPV Ventures 合伙人 Nikunj Kothari 分享了他基于 NousResearch 折腾了数月的个人"Home" agent 的最新进展，表示终于达到了不错的水准。
+
+It's also their first "group" bot where both he and his wife interact with it daily — a fun experiment especially when it fails.
+这也是他们第一个"群体"机器人，他和妻子每天都与它互动，尤其是在它出错的时候颇为有趣。
+
+Source:
+https://x.com/nikunj/status/2100212813625196917
+
+---
+
+Aditya Agarwal (adityaag on X) — General Partner at SPC
+
+Aditya Agarwal noted that great ideas rarely emerge from isolation, sharing a link to further context.
+SPC 普通合伙人 Aditya Agarwal 指出，伟大的想法很少在孤立中涌现，并分享了相关链接。
+
+He also announced he's hosting a California startup-style discussion and invited followers to join.
+他还宣布将主持一场以创业视角探讨加利福尼亚的讨论，欢迎关注者参与。
+
+Sources:
+https://x.com/adityaag/status/2100347763502329951
+https://x.com/adityaag/status/2100275836792492463
 
 ---
 
