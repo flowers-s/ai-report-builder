@@ -1,311 +1,224 @@
-AI Builders 日报 · 2026-09-18
-
-Today's digest covers a major product shift from Anthropic: Claude Cowork and chat are merging into one unified experience, with new Docs, Slides, and Design capabilities built directly into conversations.
-今日日报聚焦 Anthropic 的重大产品变化：Claude Cowork 与普通对话正式合并为统一体验，全新的 Docs、Slides 和 Design 功能直接内嵌于对话中。
-
----
-
-OFFICIAL BLOGS
-
-Claude Blog — Claude Cowork and chat are now one Claude
-https://claude.com/blog/cowork-is-now-claude
-Published: Sep 16, 2026
-
-Starting today, Claude Cowork and chat are merging into one Claude.
-即日起，Claude Cowork 与普通对话正式合并为统一的 Claude。
-
-Bring a quick question, or hand over a report due at noon, and Claude takes it from there, even after you've closed your laptop.
-无论是一个简单问题，还是一份正午截止的报告，Claude 都会从容接手，即使你已经合上了电脑。
-
-It's rolling out on Pro and Max plans over the next few weeks, with more plans to follow.
-这项功能将在未来几周内向 Pro 和 Max 用户推出，更多方案也将陆续跟进。
-
-Claude Docs and Claude Slides are new today, and Claude Design now works inside your conversations too.
-Claude Docs 和 Claude Slides 今天正式上线，Claude Design 也已集成至对话界面中。
-
-Ask for a document, and you and Claude write it together.
-只需提出需求，你与 Claude 便可共同完成一份文档。
-
-Ask for a presentation, and Claude drafts the slides — you can edit directly, present straight from Claude, or download as PowerPoint or PDF.
-请求一份演示文稿，Claude 会自动生成幻灯片，你可以直接编辑、在 Claude 中直接演示，或导出为 PowerPoint / PDF。
-
-All three are in beta on paid plans.
-三项功能目前均处于付费方案的 beta 阶段。
-
-People used both Cowork and Design, and told us the frustrating part was deciding where a task belonged.
-用户同时使用 Cowork 和 Design，但反映最令人头疼的是不知道该把任务放在哪里。
-
-So we stopped making you choose — Claude can now figure out what a task needs.
-于是我们取消了这个选择的负担，Claude 现在会自动判断任务所需的处理方式。
+AI Builders 日报 · 2026-09-19
 
 ---
 
 X / TWITTER
 
-Boris Cherny (bcherny on X) — Claude Code Engineer at Anthropic
+---
 
-Claude Code showed that AI could do real work, not just answer questions.
-Claude Code 证明了 AI 能够完成真正的工作，而不仅仅是回答问题。
+**Josh Woodward — Google Labs VP (joshwoodward on X)**
 
-Developers hand Claude a feature, come back to shipped code.
-开发者把一个功能交给 Claude，回来就能看到已交付的代码。
+Josh Woodward, VP at Google Labs, shared two notable updates from the Google ecosystem.
+Josh Woodward，Google Labs 副总裁，分享了来自 Google 生态系统的两项重要动态。
 
-Cowork proved knowledge workers could do the same: hand Claude the brief, come back to finished files.
-Cowork 证明了知识工作者也能做到同样的事：把需求交给 Claude，回来就有完成的文件。
+Google Labs launched CC, a new AI agent designed for families — adding up to 5 members, syncing schedules, coordinating tasks in Google Chat, and handling paperwork under user direction.
+Google Labs 推出了 CC，一款专为家庭设计的 AI agent——支持添加最多 5 位成员、同步日程、在 Google Chat 中协调任务，并在用户指导下处理各类文书工作。
 
-Today, chat and Cowork start merging into one Claude — one Claude that carries context across everything you're working on, wherever you are.
-今天，对话与 Cowork 开始合并为一个统一的 Claude，跨越你所有任务、随时随地保持上下文。
+He also highlighted Gemini Notebook on mobile: *"If you're not using @Gemini_Notebook on your phone yet, you're missing out."*
+他还特别推荐了手机端的 Gemini Notebook：*"如果你还没在手机上用 @Gemini_Notebook，那你真的错过了好东西。"*
 
-*"I've been using this experience every day for the last few weeks, and it feels awesome. Simpler, faster, and more powerful."*
-（原文引用）
-
-Claude is rolling this out slowly to fine-tune for speed and reliability.
-Claude 将逐步推出此功能，以确保速度与稳定性。
-
-Also, Claude Docs, Claude Slides, and Claude Design are now in every conversation — ask for a presentation and you get one you can open, edit, and export as PowerPoint or PDF.
-此外，Claude Docs、Claude Slides 和 Claude Design 现已内嵌于每个对话中，请求一份演示文稿，你将直接获得可编辑、可导出为 PowerPoint 或 PDF 的成品。
-
-There's no separate tool to navigate to — they're just in the chat.
-无需跳转到其他工具，一切就在对话里。
-
-Sources:
-https://x.com/bcherny/status/2100259951398789487
-https://x.com/bcherny/status/2100260544087535639
+Source: https://x.com/joshwoodward/status/2100665648825483726
+Source: https://x.com/joshwoodward/status/2100616682431807860
 
 ---
 
-Cat Wu (_catwu on X) — Claude Code + Cowork at Anthropic
+**Boris Cherny — Claude Code at Anthropic (bcherny on X)**
 
-Today, Anthropic is merging Claude Cowork and chat to simplify how you use Claude.
-今天，Anthropic 将 Claude Cowork 与普通对话合并，简化 Claude 的使用方式。
+Boris Cherny, Claude Code engineer at Anthropic, announced the new Projects experience rolling out for Claude Code.
+Boris Cherny，Anthropic Claude Code 工程师，宣布 Claude Code 的全新 Projects 功能正在向用户推送。
 
-Claude Design is also now integrated, so you can ask Claude to make a Slide, Design, or Doc without needing to switch tabs or apps.
-Claude Design 也已整合进来，你可以直接在对话中请求 Claude 制作幻灯片、设计稿或文档，无需切换标签或应用。
+Projects fundamentally change how he codes: *"I stopped managing sessions. I just send thoughts as they come, Claude splits them into threads, and the project remembers how I work."*
+Projects 从根本上改变了他的编程方式：*"我不再管理会话了。我随想随发，Claude 自动把它们拆分成线程，项目会记住我的工作方式。"*
 
-Many users shared that they didn't want to choose which Claude product to use for any task.
-许多用户表示，他们不希望为每项任务选择使用哪个 Claude 产品。
+The new experience lets users fire off batches of tasks, get aggregated status updates, and benefit from long-lived memory that evolves with usage.
+新体验允许用户批量发起任务、获取聚合进度更新，并受益于随使用不断演进的持久化记忆。
 
-As Claude models have become more capable, Claude can now handle the routing for you — based on your prompt, it decides whether to give a quick answer or do deeper agentic work, and what kind of output best fits the task.
-随着 Claude 模型能力不断提升，Claude 现在可以自动判断路由，根据你的提示决定是快速回答还是开展更深入的 agentic 工作，以及输出什么形式最为合适。
-
-*"You're in control the whole time: you can still stop, redirect, or exert finer control over Claude's effort or approach."*
-（原文引用）
-
-Source:
-https://x.com/_catwu/status/2100260655312089562
+Source: https://x.com/bcherny/status/2100669598995816511
+Source: https://x.com/bcherny/status/2100639991244427490
 
 ---
 
-Alex Albert (alexalbert__ on X) — Researcher at Anthropic
+**Thibault Sottiaux — Codex & ChatGPT at OpenAI (thsottiaux on X)**
 
-The team did an amazing job with this merge — the resulting UX feels so much better than chat or Cowork did on their own.
-团队在这次合并上做得非常出色，最终的用户体验比单独的对话或 Cowork 都要好得多。
+Thibault Sottiaux, Codex and ChatGPT engineer at OpenAI, posed an intriguing challenge to the community.
+Thibault Sottiaux，OpenAI Codex 与 ChatGPT 工程师，向社区抛出了一个有趣的挑战。
 
-The new slides, docs, and design integrations work very well.
-新的幻灯片、文档和设计集成效果十分出色。
+*"Has anyone yet tried to get Astra and Fable to agree on the perfect styleguide? And then host it somewhere with a web mcp."*
+*"有没有人试过让 Astra 和 Fable 就完美的代码风格指南达成共识？然后用 web mcp 把它托管到某个地方。"*
 
-Source:
-https://x.com/alexalbert__/status/2100295757953917120
+The tweet sparked significant engagement (5,524 likes, 1,800 replies), reflecting widespread interest in multi-agent coordination and style standardization workflows.
+这条推文引发了极高的互动热度（5524 个赞，1800 条回复），反映出业界对多 agent 协作与风格规范化工作流的广泛兴趣。
 
----
-
-Thariq (trq212 on X) — Claude Code at Anthropic
-
-Thariq shared evolving views on agent architecture, noting that bash is no longer all you need for reliable tool calling — but sandboxes and bash are still good for work involving code generation and execution.
-Thariq 分享了对 agent 架构的最新看法：bash 不再是可靠工具调用的唯一方案，但对于涉及代码生成与执行的工作，沙箱加 bash 依然是好选择。
-
-*"I think increasingly you can just give Claude tools shaped in the way you want vs tricking it with a layer of indirection — e.g. for data storage do you really want a file system or do you want an API to a database."*
-（原文引用）
-
-He also highlighted Claude Managed Agents as striking the right balance — the sandbox is optional and can be spun up independently of the agent loop.
-他还指出 Claude Managed Agents 实现了恰当的平衡，沙箱是可选的，可独立于 agent 循环启动。
-
-Sources:
-https://x.com/trq212/status/2100315535758217422
-https://x.com/trq212/status/2100315537251463523
-https://x.com/trq212/status/2100315538472009897
+Source: https://x.com/thsottiaux/status/2100645454245720513
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT at OpenAI
+**Cat Wu — Claude Code at Anthropic (_catwu on X)**
 
-Thibault posted about Astra — OpenAI's model described as fast, frontier, efficient, and for everyone.
-Thibault 发文介绍 Astra，OpenAI 的新模型，以"快速、前沿、高效、面向所有人"为特点。
+Cat Wu, Claude Code team member at Anthropic, described how the new Projects feature changes her daily workflow.
+Cat Wu，Anthropic Claude Code 团队成员，描述了新的 Projects 功能如何改变她的日常工作流程。
 
-He also referenced Sam Altman's post about a delayed launch, commenting *"Sometimes physics can't be cheated"* — a nod to the fundamental limits of shipping fast.
-他还引用了 Sam Altman 关于发布延期的帖子，评论道"有时候物理规律无法被绕过"，暗示快速交付的内在极限。
+In Projects, Claude coordinates all sessions and maintains long-lived memory that evolves with usage: *"I fire off a batch of tasks and move on. Claude has context on everything I'm working on and can give me an aggregated status update whenever I ask."*
+在 Projects 中，Claude 协调所有会话，并维护随使用不断演进的持久化记忆：*"我批量发出任务就可以继续干其他事了。Claude 掌握我所有工作的上下文，随时可以给我一个聚合的进度汇报。"*
 
-He also simply tweeted "What is ChatGPT" — apparently prompting significant discussion (1,468 replies).
-他还发了一条简单的推文"What is ChatGPT"，引发了大量讨论（1468 条回复）。
+The rollout is gradual, spanning the coming weeks.
+该功能将在未来数周内逐步向用户推送。
 
-Sources:
-https://x.com/thsottiaux/status/2100297380968997327
-https://x.com/thsottiaux/status/2100363668051603608
-https://x.com/thsottiaux/status/2100295443620007993
+Source: https://x.com/_catwu/status/2100641163120423057
 
 ---
 
-Guillermo Rauch (rauchg on X) — CEO at Vercel
+**Thariq — Claude Code at Anthropic (trq212 on X)**
 
-Guillermo shared exciting results from typesafe AI in Vercel's fx tool, where a safety reviewer running on GPT Luna analyzes every command.
-Guillermo 分享了 typesafe AI 在 Vercel fx 工具中的出色表现，GPT Luna 驱动的安全审查器对每条命令进行分析。
+Thariq, Claude Code engineer at Anthropic, explained the architecture behind the new Projects feature.
+Thariq，Anthropic Claude Code 工程师，解释了新 Projects 功能背后的架构设计。
 
-*"Jev is up to 18x faster (p95) and more accurate. It's coming to Vercel AI Gateway and likely new default."*
-（原文引用）
+Projects brings the architecture of Claude Tag to Claude Code — one agent per project manages memory and spins off subagents for tasks.
+Projects 将 Claude Tag 的架构引入 Claude Code——每个项目有一个专属 agent 负责管理记忆，并为具体任务派生子 agent。
 
-Source:
-https://x.com/rauchg/status/2100307962262872105
+*"You can ask it to be proactive, to do things on a schedule, etc. It feels a lot nicer than a bunch of sessions."*
+*"你可以让它主动出击、按计划执行任务等等。感觉比一堆零散会话好用多了。"*
 
----
-
-Aaron Levie (levie on X) — CEO at Box
-
-Aaron Levie expressed excitement about new AI innovation spaces that weren't on most radars.
-Box CEO Aaron Levie 对那些此前未被广泛关注的 AI 创新领域表达了兴奋。
-
-He highlighted that processing information insanely quickly, at crazy low costs, with high levels of capability is huge for enterprise tasks.
-他指出，以极低成本超高速处理信息、同时保持强大能力，对企业级任务意义重大。
-
-*"Data classification tasks, routing decisions inside of a workflow, decision making when handed a particular domain problem, quick judgment calls about safety or security... all are the gates in a large number of processes."*
-（原文引用）
-
-He sees this model and approach as particularly promising for agentic workflows in the enterprise.
-他认为这种模型和方法在企业 agentic 工作流中具有相当大的潜力。
-
-Source:
-https://x.com/levie/status/2100448648672993540
+Source: https://x.com/trq212/status/2100638355872706571
 
 ---
 
-Garry Tan (garrytan on X) — President & CEO at Y Combinator
+**Google Labs (GoogleLabs on X)**
 
-Garry Tan noted he can use any harness he wants and it's the same personality and full memory of his personal AGI — pointing to growing flexibility of AI agents across different surfaces.
-YC 总裁 Garry Tan 表示，无论使用哪种框架，他的个人 AGI 都能保持相同的人格和完整记忆，指出 AI 智能体在不同平台上的灵活性正在提升。
+Google Labs officially announced CC, an AI agent built specifically for families.
+Google Labs 正式发布了 CC，一款专为家庭打造的 AI agent。
 
-He also announced he'll be speaking at Supabase Select in conversation with kiwicopple about building startups in the time of AI.
-他还宣布将在 Supabase Select 大会上与 kiwicopple 对话，主题为 AI 时代的创业。
+CC supports adding up to 5 family members, sends a shared "Your Day Ahead" morning brief, auto-syncs with Google Calendar and Tasks, and can delegate paperwork like permission slips and forms.
+CC 支持添加最多 5 位家庭成员，发送共享的"今日前瞻"早报邮件，自动同步 Google 日历和任务，并可代为处理如授权书、表单等文书工作。
 
-Sources:
-https://x.com/garrytan/status/2100339347669279149
-https://x.com/garrytan/status/2100354983053111365
+The product is live with a waitlist for US users (18+): it remembers what applies to everyone (grocery lists, favorite restaurants) versus what's personal (dietary restrictions, local timezones).
+该产品已面向美国用户（18岁以上）开放候补名单：它能区分适用于全家的信息（购物清单、常去餐厅）与个人专属信息（饮食限制、本地时区）。
 
----
-
-Dan Shipper (danshipper on X) — CEO at Every
-
-Dan Shipper celebrated the Anthropic merge announcement with enthusiasm: *"THEY DID IT. THE END OF THE TABS ERA IS UPON US."*
-Every CEO Dan Shipper 对 Anthropic 的合并公告充满热情："他们做到了。标签页时代即将终结。"
-
-He also drew a technical analogy: *"LLMs are just JSON autocomplete"* — comparing the simplicity underlying LLMs to classifier-style thinking.
-他还做了一个技术类比："LLM 不过是 JSON 自动补全" — 将 LLM 底层的简洁性比作分类器式思维。
-
-Sources:
-https://x.com/danshipper/status/2100269017977987341
-https://x.com/danshipper/status/2100284086703046903
-https://x.com/danshipper/status/2100251499443998766
+Source: https://x.com/GoogleLabs/status/2100653821907366366
 
 ---
 
-Zara Zhang (zarazhangrui on X) — Builder
+**Claude — Anthropic's official account (claudeai on X)**
 
-Zara Zhang shared a candid critique: she finds herself using Claude less because of how it communicates.
-Zara Zhang 坦率地分享了一个批评：她发现自己越来越少使用 Claude，原因在于它的表达方式。
+Claude's official account posted a thread explaining the new Projects rollout in detail.
+Claude 官方账号发布了一组推文，详细介绍 Projects 功能的上线细节。
 
-*"I find myself using Claude less these days because the way it speaks has just become insufferable — like it's constantly trying to showcase how smart/sophisticated it is, rather than actually communicating a point across."*
-（原文引用）
+Projects maintain shared memory across all threads: *"A project builds over time. Every thread adds to and draws from its shared memory, so Claude can remember that the release moved to Friday, or who to ask before touching the billing service."*
+Projects 在所有线程间维护共享记忆：*"项目随时间不断积累。每条线程都在向共享记忆中添加内容、并从中取用，所以 Claude 能记住发布时间改到周五了，或者谁在动账单服务前需要先问一下。"*
 
-The post resonated strongly, receiving 1,830 likes and 306 replies.
-这条推文引发强烈共鸣，获得 1830 个赞和 306 条回复。
+Threads run in the cloud and remain active even when your computer is offline, though local file and tool access is still coming soon.
+线程在云端运行，即使你的电脑不在线也能持续工作，不过对本地文件和工具的支持仍在即将推出中。
 
-Source:
-https://x.com/zarazhangrui/status/2100278750776824115
+Existing projects on Pro and Max plans continue working as before.
+Pro 和 Max 计划上的现有项目将保持原有运作方式不变。
 
----
-
-Peter Yang (petergyang on X) — AI Educator & Podcaster
-
-Peter Yang shared how he uses 8 AI skills to produce his entire podcast while still applying his own taste and judgment throughout.
-AI 教育者 Peter Yang 分享了他如何利用 8 个 AI skills 完成整个播客制作流程，同时在过程中保留自己的品味与判断。
-
-Key skills include: /podcast-prep for guest research and interview guides, /podcast-edit for transcript review and quote selection, and /podcast-production for orchestrating 5 skills into 6 different assets.
-核心 skills 包括：/podcast-prep 用于嘉宾研究和访谈准备，/podcast-edit 用于转录稿审阅和精彩片段筛选，/podcast-production 用于将完整剧集编排为 6 种不同素材。
-
-*"Some people think the latest models make skills redundant but they've been indispensable for me to get AI to follow my specific edit and browser-use instructions."*
-（原文引用）
-
-Source:
-https://x.com/petergyang/status/2100328939034128856
+Source: https://x.com/claudeai/status/2100632688625348890
+Source: https://x.com/claudeai/status/2100632687316730327
+Source: https://x.com/claudeai/status/2100632684074549309
 
 ---
 
-Madhu Guru (realmadhuguru on X) — Sr Director AI at Meta
+**Amjad Masad — CEO of Replit (amasad on X)**
 
-Madhu Guru made a pointed argument about AI product philosophy: safety and security are features of your AI product and model — not guardrails imposed from the outside.
-Meta AI 高级总监 Madhu Guru 就 AI 产品理念提出了一个鲜明论点：安全与安全性是 AI 产品和模型的内在特性，而非从外部强加的护栏。
+Amjad Masad, CEO of Replit, made the case for massive AI infrastructure investment.
+Amjad Masad，Replit CEO，为大规模 AI 基础设施投资正名。
 
-Source:
-https://x.com/realmadhuguru/status/2100312717739667963
+*"This is why we need a gazillion data centers (worth it)"* — signaling his conviction that the compute demands of AI are worth any infrastructure cost.
+*"这就是为什么我们需要数以亿计的数据中心（完全值得）"* ——表明他坚信 AI 的算力需求值得任何基础设施投入。
 
----
-
-Sam Altman (sama on X) — CEO at OpenAI
-
-Sam Altman posted a brief update: the main launch he was most excited about this week will be delayed to next week instead.
-OpenAI CEO Sam Altman 发布了一条简短更新：他本周最期待的主要发布将推迟至下周。
-
-The post gathered 8,692 likes, sparking widespread speculation about what the delayed release might be.
-这条推文获得 8692 个赞，引发了广泛的猜测。
-
-Source:
-https://x.com/sama/status/2100351958167220547
+Source: https://x.com/amasad/status/2100829093923320083
 
 ---
 
-Claude (claudeai on X) — Official Anthropic Account
+**Guillermo Rauch — CEO of Vercel (rauchg on X)**
 
-The official Claude account announced the new unified experience in a series of posts.
-Claude 官方账号通过系列推文宣布了全新统一体验。
+Guillermo Rauch, Vercel CEO, shared major deployment milestones and a new feature.
+Guillermo Rauch，Vercel CEO，分享了重要的部署里程碑和一项新功能。
 
-You can now make decks, docs, and designs directly in your conversation — draft the structure, then refine with Claude, or ask Claude to build the whole thing.
-你现在可以直接在对话中创建幻灯片、文档和设计稿，可以先起草结构再与 Claude 共同完善，也可以直接让 Claude 全权完成。
+Vercel went from 1 billion total deployments in 10 years to adding 1.4 billion more in just 10 months: *"It's likely that more software will be produced next year than in all of the history of computing."*
+Vercel 用 10 年积累了 10 亿次部署，却在随后短短 10 个月内又新增了 14 亿次：*"明年生产的软件数量，很可能超过人类计算史上所有软件的总和。"*
 
-You can fix a line in the doc yourself, leave a comment for Claude on a slide, or select any element to update it.
-你可以自己修改文档中的某行，也可以在幻灯片上给 Claude 留注释，或选中任意元素进行更新。
+Vercel now achieves sub-1-second deployments including global CDN, Firewall, immutable deployments, domain assignment, observability, and rollbacks.
+Vercel 现已实现 1 秒以内完成部署，涵盖全球 CDN、防火墙、不可变部署、域名分配、可观测性和回滚能力。
 
-If you've been working in Cowork, everything is where you left it: chats, projects, artifacts, connectors, and skills.
-如果你此前在使用 Cowork，所有内容都保留在原处：对话、项目、产物、连接器和 skills。
+A new `vercel --turbo --prod` flag lets agents use the fastest available build machines for hotfixes.
+新增的 `vercel --turbo --prod` 标志允许 agent 在处理紧急修复时使用最快的构建机器。
 
-Sources:
-https://x.com/claudeai/status/2100258492590207079
-https://x.com/claudeai/status/2100258494221812123
-https://x.com/claudeai/status/2100258495543071016
-
----
-
-Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
-
-Nikunj Kothari shared updates on a personal "Home" agent he's been tinkering with for months using NousResearch — it has finally gotten really good.
-FPV Ventures 合伙人 Nikunj Kothari 分享了他基于 NousResearch 折腾了数月的个人"Home" agent 的最新进展，表示终于达到了不错的水准。
-
-It's also their first "group" bot where both he and his wife interact with it daily — a fun experiment especially when it fails.
-这也是他们第一个"群体"机器人，他和妻子每天都与它互动，尤其是在它出错的时候颇为有趣。
-
-Source:
-https://x.com/nikunj/status/2100212813625196917
+Source: https://x.com/rauchg/status/2100698591417499972
+Source: https://x.com/rauchg/status/2100682030170489160
+Source: https://x.com/rauchg/status/2100745015362552312
 
 ---
 
-Aditya Agarwal (adityaag on X) — General Partner at SPC
+**Aaron Levie — CEO of Box (levie on X)**
 
-Aditya Agarwal noted that great ideas rarely emerge from isolation, sharing a link to further context.
-SPC 普通合伙人 Aditya Agarwal 指出，伟大的想法很少在孤立中涌现，并分享了相关链接。
+Aaron Levie, Box CEO, offered a sweeping vision of where AI inference is heading.
+Aaron Levie，Box CEO，分享了对 AI 推理未来走向的宏观预判。
 
-He also announced he's hosting a California startup-style discussion and invited followers to join.
-他还宣布将主持一场以创业视角探讨加利福尼亚的讨论，欢迎关注者参与。
+Agents already make up the majority of inference, and this will trend toward nearly all inference within one to two years.
+Agents 已经占据了推理量的大多数，这一趋势将在一到两年内发展为几乎全部的推理需求。
 
-Sources:
-https://x.com/adityaag/status/2100347763502329951
-https://x.com/adityaag/status/2100275836792492463
+*"Just in the past week I've introduced multiple completely new workflows that would not have been possible technically even a month ago."* — The rate of new agent adoption is accelerating faster than most realize.
+*"就在过去这一周，我就引入了好几个全新工作流，这些一个月前在技术上根本无法实现。"* ——新 agent 的落地速度比大多数人意识到的都要快。
+
+Source: https://x.com/levie/status/2100799668573946191
+
+---
+
+**Garry Tan — President & CEO of Y Combinator (garrytan on X)**
+
+Garry Tan, YC President and CEO, highlighted three key themes across AI safety, memory innovation, and the future.
+Garry Tan，YC 总裁兼 CEO，聚焦 AI 安全、记忆创新和未来愿景三大主题发声。
+
+He spotlighted Memorable, a YC-backed startup using embeddings instead of more tokens for memory optimization — a powerful new architectural direction.
+他特别点赞了 YC 支持的初创公司 Memorable，该公司用 embedding 而非更多 token 来实现记忆优化——这是一种强大的新架构方向。
+
+On AI alignment: *"Be careful what you wish for — this is why we need alignment to humankind vs any other goal."* He also expressed optimism: *"The future is already here. We just have to choose it and spread it faster."*
+关于 AI 对齐：*"小心你的愿望——这就是为什么我们需要对齐人类目标而非其他任何目标。"* 他同时表达了乐观态度：*"未来已经到来。我们只需要选择它，并让它更快传播。"*
+
+Source: https://x.com/garrytan/status/2100668489178456268
+Source: https://x.com/garrytan/status/2100636443127210112
+Source: https://x.com/garrytan/status/2100612808568172830
+
+---
+
+**Nikunj Kothari — Partner at FPV Ventures (nikunj on X)**
+
+Nikunj Kothari, FPV Ventures partner, shared a personal autonomous agent project he built from scratch.
+Nikunj Kothari，FPV Ventures 合伙人，分享了他从零开始搭建的一个自主 agent 项目。
+
+He launched nosugarforkids.com — a catalog of healthy snacks for kids, powered by a Claude agent that wakes daily to check the catalog, prune dead products, find content ideas, analyze SEO performance, write articles, and reach out for backlinks.
+他推出了 nosugarforkids.com——一个儿童健康零食目录，由一个每日唤醒的 Claude agent 驱动，负责检查商品目录、清理失效产品、发现内容创意、分析 SEO 表现、撰写文章并主动联系其他网站获取外链。
+
+The site grew to ~6,000 impressions and 60 clicks per day organically, with zero backlinks and no social presence — a compelling proof of autonomous content agents.
+该网站在零外链、零社交媒体存在的情况下，自然增长到每天约 6000 次曝光和 60 次点击——有力证明了自主内容 agent 的实际效果。
+
+Source: https://x.com/nikunj/status/2100714665571737885
+Source: https://x.com/nikunj/status/2100718806004064730
+
+---
+
+**Dan Shipper — CEO of Every (danshipper on X)**
+
+Dan Shipper, CEO of Every (the AI-focused publication), shared a brief but enthusiastic update: *"it's happening!"*
+Dan Shipper，Every（AI 聚焦媒体）CEO，简短而热情地分享了一则动态：*"它来了！"*
+
+While cryptic on its own, the quote tweet suggests something significant is launching or being announced in the Every ecosystem.
+虽然含义模糊，但这条引用推文暗示 Every 生态中有某个重要事项正在启动或宣布。
+
+Source: https://x.com/danshipper/status/2100587802748440581
+
+---
+
+**Aditya Agarwal — General Partner at SPC (adityaag on X)**
+
+Aditya Agarwal, General Partner at South Park Commons and former CTO of Dropbox, called out Goodfire AI as the leading non-frontier-lab company working on AI alignment and safety.
+Aditya Agarwal，South Park Commons 普通合伙人、Dropbox 前 CTO，点名 Goodfire AI 是在 AI 对齐与安全领域领先的非前沿实验室公司。
+
+*"This is the right way to solve alignment and safety... This is generationally important."*
+*"这才是解决对齐与安全问题的正确方式……这件事的重要性将跨越几代人。"*
+
+Source: https://x.com/adityaag/status/2100746235426836708
 
 ---
 
