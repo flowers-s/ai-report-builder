@@ -1,224 +1,241 @@
-AI Builders 日报 · 2026-09-19
+AI Builders 日报 · 2026-09-20
 
 ---
 
-X / TWITTER
+## X / TWITTER
 
 ---
 
-**Josh Woodward — Google Labs VP (joshwoodward on X)**
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @OpenAI
 
-Josh Woodward, VP at Google Labs, shared two notable updates from the Google ecosystem.
-Josh Woodward，Google Labs 副总裁，分享了来自 Google 生态系统的两项重要动态。
+OpenAI's Thibault Sottiaux, who works on Codex and ChatGPT, hinted at a major upcoming keynote packed with new announcements.
+OpenAI Codex 和 ChatGPT 团队的 Thibault Sottiaux 暗示，一场重大主题演讲即将到来，内容十分密集。
 
-Google Labs launched CC, a new AI agent designed for families — adding up to 5 members, syncing schedules, coordinating tasks in Google Chat, and handling paperwork under user direction.
-Google Labs 推出了 CC，一款专为家庭设计的 AI agent——支持添加最多 5 位成员、同步日程、在 Google Chat 中协调任务，并在用户指导下处理各类文书工作。
+He teased that there are "so many good things in quick succession" that they are figuring out how to present it all clearly.
+他表示即将发布的内容"接连不断、非常精彩"，团队正在思考如何清晰地向外界呈现。
 
-He also highlighted Gemini Notebook on mobile: *"If you're not using @Gemini_Notebook on your phone yet, you're missing out."*
-他还特别推荐了手机端的 Gemini Notebook：*"如果你还没在手机上用 @Gemini_Notebook，那你真的错过了好东西。"*
+Some things will be revealed as early as next week, so the wait won't be long.
+部分内容最早下周就会揭晓，不用等太久。
 
-Source: https://x.com/joshwoodward/status/2100665648825483726
-Source: https://x.com/joshwoodward/status/2100616682431807860
+> *"there is so much good stuff in there that it's a bit ridiculous all in quick succession"*
 
----
-
-**Boris Cherny — Claude Code at Anthropic (bcherny on X)**
-
-Boris Cherny, Claude Code engineer at Anthropic, announced the new Projects experience rolling out for Claude Code.
-Boris Cherny，Anthropic Claude Code 工程师，宣布 Claude Code 的全新 Projects 功能正在向用户推送。
-
-Projects fundamentally change how he codes: *"I stopped managing sessions. I just send thoughts as they come, Claude splits them into threads, and the project remembers how I work."*
-Projects 从根本上改变了他的编程方式：*"我不再管理会话了。我随想随发，Claude 自动把它们拆分成线程，项目会记住我的工作方式。"*
-
-The new experience lets users fire off batches of tasks, get aggregated status updates, and benefit from long-lived memory that evolves with usage.
-新体验允许用户批量发起任务、获取聚合进度更新，并受益于随使用不断演进的持久化记忆。
-
-Source: https://x.com/bcherny/status/2100669598995816511
-Source: https://x.com/bcherny/status/2100639991244427490
+Source: https://x.com/thsottiaux/status/2101157729037586694
 
 ---
 
-**Thibault Sottiaux — Codex & ChatGPT at OpenAI (thsottiaux on X)**
+### Peter Yang (petergyang on X) — Practical AI Tutorials
 
-Thibault Sottiaux, Codex and ChatGPT engineer at OpenAI, posed an intriguing challenge to the community.
-Thibault Sottiaux，OpenAI Codex 与 ChatGPT 工程师，向社区抛出了一个有趣的挑战。
+Peter Yang, creator of practical AI content, shared a humorous but pointed observation: the smarter AI becomes, the harder it is for him to write a grammatically correct sentence on his own.
+AI 实战教程创作者 Peter Yang 幽默但一针见血地指出：AI 越聪明，他自己写出语法正确的句子反而越难。
 
-*"Has anyone yet tried to get Astra and Fable to agree on the perfect styleguide? And then host it somewhere with a web mcp."*
-*"有没有人试过让 Astra 和 Fable 就完美的代码风格指南达成共识？然后用 web mcp 把它托管到某个地方。"*
+He also spotlighted Meta's Muse agent, which autonomously called customer support and negotiated $288 in annual cable bill savings for him.
+他还重点介绍了 Meta 的 Muse 智能体——它自主拨打客服电话，为他每年节省了 288 美元的有线电视费用。
 
-The tweet sparked significant engagement (5,524 likes, 1,800 replies), reflecting widespread interest in multi-agent coordination and style standardization workflows.
-这条推文引发了极高的互动热度（5524 个赞，1800 条回复），反映出业界对多 agent 协作与风格规范化工作流的广泛兴趣。
+> *"I think most companies' customer support lines are NOT ready for agents"*
 
-Source: https://x.com/thsottiaux/status/2100645454245720513
+He calls Muse the best personal agent he has tried to date, capable of building personalized morning news feeds, habit trackers, and negotiating bills — and sees it potentially becoming Meta's next billion-user app.
+他称 Muse 是迄今为止他用过最好的个人智能体，能构建个性化早间新闻、习惯追踪器并自动谈判账单，有望成为 Meta 的下一个十亿用户级应用。
 
----
-
-**Cat Wu — Claude Code at Anthropic (_catwu on X)**
-
-Cat Wu, Claude Code team member at Anthropic, described how the new Projects feature changes her daily workflow.
-Cat Wu，Anthropic Claude Code 团队成员，描述了新的 Projects 功能如何改变她的日常工作流程。
-
-In Projects, Claude coordinates all sessions and maintains long-lived memory that evolves with usage: *"I fire off a batch of tasks and move on. Claude has context on everything I'm working on and can give me an aggregated status update whenever I ask."*
-在 Projects 中，Claude 协调所有会话，并维护随使用不断演进的持久化记忆：*"我批量发出任务就可以继续干其他事了。Claude 掌握我所有工作的上下文，随时可以给我一个聚合的进度汇报。"*
-
-The rollout is gradual, spanning the coming weeks.
-该功能将在未来数周内逐步向用户推送。
-
-Source: https://x.com/_catwu/status/2100641163120423057
+Sources:
+- https://x.com/petergyang/status/2101104320897040627
+- https://x.com/petergyang/status/2101083891507593576
+- https://x.com/petergyang/status/2101033599319613533
 
 ---
 
-**Thariq — Claude Code at Anthropic (trq212 on X)**
+### Nan Yu (thenanyu on X) — (soon) Product Staff @OpenAI, prev Head of Product @Linear
 
-Thariq, Claude Code engineer at Anthropic, explained the architecture behind the new Projects feature.
-Thariq，Anthropic Claude Code 工程师，解释了新 Projects 功能背后的架构设计。
+Nan Yu's tweets today were mostly casual reactions without substantive product or insight content.
+Nan Yu 今日的推文以轻松互动为主，无实质性产品或见解内容。
 
-Projects brings the architecture of Claude Tag to Claude Code — one agent per project manages memory and spins off subagents for tasks.
-Projects 将 Claude Tag 的架构引入 Claude Code——每个项目有一个专属 agent 负责管理记忆，并为具体任务派生子 agent。
+近期无重要动态
 
-*"You can ask it to be proactive, to do things on a schedule, etc. It feels a lot nicer than a bunch of sessions."*
-*"你可以让它主动出击、按计划执行任务等等。感觉比一堆零散会话好用多了。"*
-
-Source: https://x.com/trq212/status/2100638355872706571
+Sources:
+- https://x.com/thenanyu/status/2101140304976056779
+- https://x.com/thenanyu/status/2101013559287435709
 
 ---
 
-**Google Labs (GoogleLabs on X)**
+### Thariq (trq212 on X) — Claude Code @Anthropic
 
-Google Labs officially announced CC, an AI agent built specifically for families.
-Google Labs 正式发布了 CC，一款专为家庭打造的 AI agent。
+Thariq from Anthropic's Claude Code team announced that Claude Code now supports AGENTS.md files starting in version 2.1.277.
+Anthropic Claude Code 团队的 Thariq 宣布：从 2.1.277 版本起，Claude Code 正式支持 AGENTS.md 文件。
 
-CC supports adding up to 5 family members, sends a shared "Your Day Ahead" morning brief, auto-syncs with Google Calendar and Tasks, and can delegate paperwork like permission slips and forms.
-CC 支持添加最多 5 位家庭成员，发送共享的"今日前瞻"早报邮件，自动同步 Google 日历和任务，并可代为处理如授权书、表单等文书工作。
+If no CLAUDE.md is found in a folder, Claude will automatically look for and use AGENTS.md instead — with behavior toggleable via /config.
+当项目目录中没有 CLAUDE.md 时，Claude 会自动查找并使用 AGENTS.md，该行为可通过 /config 开关控制。
 
-The product is live with a waitlist for US users (18+): it remembers what applies to everyone (grocery lists, favorite restaurants) versus what's personal (dietary restrictions, local timezones).
-该产品已面向美国用户（18岁以上）开放候补名单：它能区分适用于全家的信息（购物清单、常去餐厅）与个人专属信息（饮食限制、本地时区）。
+This support is built on Claude Code's upcoming "mods" system, which will allow developers to build custom project instruction modules.
+该功能基于 Claude Code 即将推出的"mods"系统构建，开发者将能自行创建自定义项目指令模块。
 
-Source: https://x.com/GoogleLabs/status/2100653821907366366
-
----
-
-**Claude — Anthropic's official account (claudeai on X)**
-
-Claude's official account posted a thread explaining the new Projects rollout in detail.
-Claude 官方账号发布了一组推文，详细介绍 Projects 功能的上线细节。
-
-Projects maintain shared memory across all threads: *"A project builds over time. Every thread adds to and draws from its shared memory, so Claude can remember that the release moved to Friday, or who to ask before touching the billing service."*
-Projects 在所有线程间维护共享记忆：*"项目随时间不断积累。每条线程都在向共享记忆中添加内容、并从中取用，所以 Claude 能记住发布时间改到周五了，或者谁在动账单服务前需要先问一下。"*
-
-Threads run in the cloud and remain active even when your computer is offline, though local file and tool access is still coming soon.
-线程在云端运行，即使你的电脑不在线也能持续工作，不过对本地文件和工具的支持仍在即将推出中。
-
-Existing projects on Pro and Max plans continue working as before.
-Pro 和 Max 计划上的现有项目将保持原有运作方式不变。
-
-Source: https://x.com/claudeai/status/2100632688625348890
-Source: https://x.com/claudeai/status/2100632687316730327
-Source: https://x.com/claudeai/status/2100632684074549309
+Sources:
+- https://x.com/trq212/status/2101009392611278961
+- https://x.com/trq212/status/2101009393731223817
+- https://x.com/trq212/status/2101009395052343462
 
 ---
 
-**Amjad Masad — CEO of Replit (amasad on X)**
+### Amjad Masad (amasad on X) — CEO @Replit
 
-Amjad Masad, CEO of Replit, made the case for massive AI infrastructure investment.
-Amjad Masad，Replit CEO，为大规模 AI 基础设施投资正名。
+Amjad Masad's post today was a link without accompanying commentary, lacking substantive content to summarize.
+Amjad Masad 今日仅发布了一条无文字说明的链接，无实质内容可总结。
 
-*"This is why we need a gazillion data centers (worth it)"* — signaling his conviction that the compute demands of AI are worth any infrastructure cost.
-*"这就是为什么我们需要数以亿计的数据中心（完全值得）"* ——表明他坚信 AI 的算力需求值得任何基础设施投入。
+近期无重要动态
 
-Source: https://x.com/amasad/status/2100829093923320083
-
----
-
-**Guillermo Rauch — CEO of Vercel (rauchg on X)**
-
-Guillermo Rauch, Vercel CEO, shared major deployment milestones and a new feature.
-Guillermo Rauch，Vercel CEO，分享了重要的部署里程碑和一项新功能。
-
-Vercel went from 1 billion total deployments in 10 years to adding 1.4 billion more in just 10 months: *"It's likely that more software will be produced next year than in all of the history of computing."*
-Vercel 用 10 年积累了 10 亿次部署，却在随后短短 10 个月内又新增了 14 亿次：*"明年生产的软件数量，很可能超过人类计算史上所有软件的总和。"*
-
-Vercel now achieves sub-1-second deployments including global CDN, Firewall, immutable deployments, domain assignment, observability, and rollbacks.
-Vercel 现已实现 1 秒以内完成部署，涵盖全球 CDN、防火墙、不可变部署、域名分配、可观测性和回滚能力。
-
-A new `vercel --turbo --prod` flag lets agents use the fastest available build machines for hotfixes.
-新增的 `vercel --turbo --prod` 标志允许 agent 在处理紧急修复时使用最快的构建机器。
-
-Source: https://x.com/rauchg/status/2100698591417499972
-Source: https://x.com/rauchg/status/2100682030170489160
-Source: https://x.com/rauchg/status/2100745015362552312
+Source: https://x.com/amasad/status/2101129866779545727
 
 ---
 
-**Aaron Levie — CEO of Box (levie on X)**
+### Guillermo Rauch (rauchg on X) — CEO @Vercel
 
-Aaron Levie, Box CEO, offered a sweeping vision of where AI inference is heading.
-Aaron Levie，Box CEO，分享了对 AI 推理未来走向的宏观预判。
+Vercel CEO Guillermo Rauch reported what may be a record day for open-model token volume on Vercel AI Gateway — open models now account for 78.4% of token traffic vs. 21.6% for closed models.
+Vercel CEO Guillermo Rauch 报告称，Vercel AI Gateway 上开源模型的 token 使用量可能创下历史新高——开源模型占比达 78.4%，闭源模型仅占 21.6%。
 
-Agents already make up the majority of inference, and this will trend toward nearly all inference within one to two years.
-Agents 已经占据了推理量的大多数，这一趋势将在一到两年内发展为几乎全部的推理需求。
+He noted that Moonshot AI and DeepSeek rank #3 and #4 in spending, and combined with Z.ai they surpass OpenAI in inference spend.
+他指出 Moonshot AI 和 DeepSeek 在推理花费上分列第三和第四，加上 Z.ai 后合计超过了 OpenAI。
 
-*"Just in the past week I've introduced multiple completely new workflows that would not have been possible technically even a month ago."* — The rate of new agent adoption is accelerating faster than most realize.
-*"就在过去这一周，我就引入了好几个全新工作流，这些一个月前在技术上根本无法实现。"* ——新 agent 的落地速度比大多数人意识到的都要快。
+> *"The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it."*
 
-Source: https://x.com/levie/status/2100799668573946191
+Rauch also highlighted Jev's explosive adoption, attributing it both to great product quality and a broader "AI is too expensive/slow" zeitgeist driving developers to optimize.
+Rauch 还指出 Jev 的爆炸性普及，认为这既源于产品本身的质量，也反映了开发者对"AI 太贵/太慢"的广泛担忧，推动了优化需求。
 
----
-
-**Garry Tan — President & CEO of Y Combinator (garrytan on X)**
-
-Garry Tan, YC President and CEO, highlighted three key themes across AI safety, memory innovation, and the future.
-Garry Tan，YC 总裁兼 CEO，聚焦 AI 安全、记忆创新和未来愿景三大主题发声。
-
-He spotlighted Memorable, a YC-backed startup using embeddings instead of more tokens for memory optimization — a powerful new architectural direction.
-他特别点赞了 YC 支持的初创公司 Memorable，该公司用 embedding 而非更多 token 来实现记忆优化——这是一种强大的新架构方向。
-
-On AI alignment: *"Be careful what you wish for — this is why we need alignment to humankind vs any other goal."* He also expressed optimism: *"The future is already here. We just have to choose it and spread it faster."*
-关于 AI 对齐：*"小心你的愿望——这就是为什么我们需要对齐人类目标而非其他任何目标。"* 他同时表达了乐观态度：*"未来已经到来。我们只需要选择它，并让它更快传播。"*
-
-Source: https://x.com/garrytan/status/2100668489178456268
-Source: https://x.com/garrytan/status/2100636443127210112
-Source: https://x.com/garrytan/status/2100612808568172830
+Sources:
+- https://x.com/rauchg/status/2101186741042663579
+- https://x.com/rauchg/status/2101116978677285241
+- https://x.com/rauchg/status/2101079472732848510
 
 ---
 
-**Nikunj Kothari — Partner at FPV Ventures (nikunj on X)**
+### Aaron Levie (levie on X) — CEO @Box
 
-Nikunj Kothari, FPV Ventures partner, shared a personal autonomous agent project he built from scratch.
-Nikunj Kothari，FPV Ventures 合伙人，分享了他从零开始搭建的一个自主 agent 项目。
+Box CEO Aaron Levie made a compelling case for Jev in the enterprise, demonstrating how it can handle near-instant, near-zero-cost classification tasks like routing incident reports and setting metadata.
+Box CEO Aaron Levie 为 Jev 在企业场景中的价值做了有力论证：展示了它如何以近乎即时、近乎零成本的方式处理分类任务，例如路由事故报告、设置元数据等。
 
-He launched nosugarforkids.com — a catalog of healthy snacks for kids, powered by a Claude agent that wakes daily to check the catalog, prune dead products, find content ideas, analyze SEO performance, write articles, and reach out for backlinks.
-他推出了 nosugarforkids.com——一个儿童健康零食目录，由一个每日唤醒的 Claude agent 驱动，负责检查商品目录、清理失效产品、发现内容创意、分析 SEO 表现、撰写文章并主动联系其他网站获取外链。
+He envisions Jev-powered agents for insurance claims, contract management, loan processing, security reviews, and customer log analysis.
+他设想 Jev 驱动的智能体将应用于保险理赔、合同管理、贷款处理、安全审查和客户日志分析等场景。
 
-The site grew to ~6,000 impressions and 60 clicks per day organically, with zero backlinks and no social presence — a compelling proof of autonomous content agents.
-该网站在零外链、零社交媒体存在的情况下，自然增长到每天约 6000 次曝光和 60 次点击——有力证明了自主内容 agent 的实际效果。
+> *"This all happens nearly instantly and at almost no cost."*
 
-Source: https://x.com/nikunj/status/2100714665571737885
-Source: https://x.com/nikunj/status/2100718806004064730
+Source: https://x.com/levie/status/2101007708044574906
 
 ---
 
-**Dan Shipper — CEO of Every (danshipper on X)**
+### Zara Zhang (zarazhangrui on X) — Builder & Investor
 
-Dan Shipper, CEO of Every (the AI-focused publication), shared a brief but enthusiastic update: *"it's happening!"*
-Dan Shipper，Every（AI 聚焦媒体）CEO，简短而热情地分享了一则动态：*"它来了！"*
+Zara Zhang, founder of the Follow Builders project, shared a sharp mental model about content quality: it's nearly impossible to produce high-quality output when your inputs are dominated by low-quality content.
+Follow Builders 项目创始人 Zara Zhang 分享了一个关于内容质量的深刻洞见：当你消费的内容大多是"垃圾"时，几乎不可能产出高质量的内容。
 
-While cryptic on its own, the quote tweet suggests something significant is launching or being announced in the Every ecosystem.
-虽然含义模糊，但这条引用推文暗示 Every 生态中有某个重要事项正在启动或宣布。
+> *"It's hard not to create slop when most things you consume are slop. To fix output, first fix input."*
+> "当你消费的大多是垃圾内容时，很难不产出垃圾。要改善输出，先改善输入。"
 
-Source: https://x.com/danshipper/status/2100587802748440581
+Source: https://x.com/zarazhangrui/status/2101123389528457596
 
 ---
 
-**Aditya Agarwal — General Partner at SPC (adityaag on X)**
+### Nikunj Kothari (nikunj on X) — Partner @FPV Ventures
 
-Aditya Agarwal, General Partner at South Park Commons and former CTO of Dropbox, called out Goodfire AI as the leading non-frontier-lab company working on AI alignment and safety.
-Aditya Agarwal，South Park Commons 普通合伙人、Dropbox 前 CTO，点名 Goodfire AI 是在 AI 对齐与安全领域领先的非前沿实验室公司。
+FPV Ventures Partner Nikunj Kothari built and shared "Jevable" — a community website showcasing Jev demos filterable by category, with a + button for others to add their own projects.
+FPV Ventures 合伙人 Nikunj Kothari 构建并分享了"Jevable"——一个展示 Jev demos 的社区网站，支持分类筛选，并有 + 按钮供他人添加项目。
 
-*"This is the right way to solve alignment and safety... This is generationally important."*
-*"这才是解决对齐与安全问题的正确方式……这件事的重要性将跨越几代人。"*
+He also demoed scoring 3,000 kids' snacks across multiple criteria in 28 seconds for just $0.11 using Jev — a vivid illustration of the cost-efficiency.
+他还演示了用 Jev 在 28 秒内以 0.11 美元对 3000 种儿童零食进行多维度评分，生动展示了其成本效益。
 
-Source: https://x.com/adityaag/status/2100746235426836708
+Sources:
+- https://x.com/nikunj/status/2101077053567332618
+- https://x.com/nikunj/status/2101006585481073093
+
+---
+
+### Peter Steinberger (steipete on X) — OpenClaw + OpenAI
+
+Peter Steinberger, co-creator of OpenClaw, shared how his team is running OpenClaw ("roboclaw") as a live team server on Discord, connected to GPT-Live and aware of all concurrent sessions.
+OpenClaw 联合创始人 Peter Steinberger 分享了团队如何将 OpenClaw（"roboclaw"）作为在线团队服务器运行在 Discord 上，与 GPT-Live 连接并实时感知所有并发会话。
+
+The team can query their AI assistant about session context even during live meetings.
+团队成员甚至可以在会议进行中向 AI 助手查询会话上下文。
+
+He also praised a teammate for "desloping" sessions before PRs land, and highlighted CUA (Computer Use Agent) working across all setups for more efficient agent interactions.
+他还称赞了队友在 PR 合并前"去垃圾化"会话的工作方式，并强调 CUA（电脑使用智能体）可在所有设置中运行，让智能体交互更高效。
+
+Sources:
+- https://x.com/steipete/status/2101141707375227372
+- https://x.com/steipete/status/2101139037801283997
+- https://x.com/steipete/status/2101115690719809873
+
+---
+
+### Dan Shipper (danshipper on X) — CEO @Every
+
+Every CEO Dan Shipper pushed back strongly against someone calling a colleague's AI demo "fake," defending Jack Cheng as "one of the smartest, most intellectually honest, and craft-focused people" he's worked with.
+Every CEO Dan Shipper 强烈反对有人将同事的 AI demo 称为"假的"，为 Jack Cheng 发声，称其为他合作过的"最聪明、最诚实、最注重工艺"的人之一。
+
+His other posts were reaction-style without substantive content.
+其他推文为轻松互动，无实质内容。
+
+Source: https://x.com/danshipper/status/2101155521818476693
+
+---
+
+### Aditya Agarwal (adityaag on X) — General Partner @SPC, Ex-CTO @Dropbox
+
+SPC General Partner and former Dropbox CTO Aditya Agarwal offered a brief but thought-provoking observation: "AI is a full circle. Everything old is new again."
+SPC 普通合伙人、前 Dropbox CTO Aditya Agarwal 发表了一个简短但发人深省的观点："AI 是一个完整的循环，一切旧事物都将以新面貌归来。"
+
+The linked content was not accessible, but the sentiment reflects a recurring theme among veterans: current AI breakthroughs often echo older ideas that are finally finding their moment.
+链接内容无法访问，但这一观点反映了业界老兵的共同感受：当前的 AI 突破往往呼应了那些终于迎来时机的旧思想。
+
+Source: https://x.com/adityaag/status/2101097330107875437
+
+---
+
+### Claude Official (claudeai on X) — @Anthropic
+
+Claude's official account asked followers "What are you building this weekend?" and shared two image/link posts without text commentary.
+Claude 官方账号询问粉丝"这个周末你在做什么？"并发布了两条无文字说明的图片/链接。
+
+近期无重要动态
+
+Sources:
+- https://x.com/claudeai/status/2101017910365901059
+- https://x.com/claudeai/status/2101017908843352238
+- https://x.com/claudeai/status/2101017907136258511
+
+---
+
+## PODCASTS
+
+---
+
+### No Priors — "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon"
+
+**核心论点 / Core Thesis**
+
+Stefano Ermon, a Stanford professor and one of the founding researchers of diffusion models, argues that diffusion-based architectures will ultimately dominate AI inference — not just image generation — because of their fundamental advantages in speed and efficiency.
+Stefano Ermon 是斯坦福大学教授，也是扩散模型的奠基研究者之一，他主张扩散架构最终将主导 AI 推理——不仅仅是图像生成——因为其在速度和效率上具有本质性优势。
+
+His company, Inception, is built around this thesis: challenge the large labs not by scaling bigger, but by being faster and cheaper.
+他创立的公司 Inception 正是围绕这一论点构建：不靠规模更大来挑战大型实验室，而是靠更快、更便宜。
+
+**关键洞察 / Key Insights**
+
+- Ermon was working on generative models at Stanford as early as 2014, when the field was so unfashionable that papers were hard to publish — he had to justify training generative models as a way to learn features for supervised tasks.
+  Ermon 早在 2014 年就在斯坦福从事生成模型研究，那时这个领域不受重视，论文难以发表，他不得不将生成模型的训练包装为监督任务的特征学习工具来获得认可。
+
+- Diffusion models are not just for images — they can be applied to any generative task, and their iterative refinement process creates a natural efficiency-accuracy tradeoff that autoregressive models lack.
+  扩散模型不仅适用于图像——它们可应用于任何生成任务，其迭代细化过程创造了自回归模型所缺乏的效率与精度之间的天然权衡空间。
+
+- The "AI is too expensive/slow" zeitgeist is creating massive market opportunity for inference-optimized players; speed and cost are becoming the primary competitive vectors.
+  "AI 太贵/太慢"的时代情绪正在为专注推理优化的玩家创造巨大的市场机会；速度和成本正成为主要的竞争维度。
+
+- Inception's bet is that the hardware-software co-optimization frontier is where the real leverage lies — not in just having more GPUs.
+  Inception 的赌注在于：硬件-软件协同优化的前沿才是真正的杠杆所在，而不仅仅是拥有更多 GPU。
+
+**最值得关注的信号 / Key Forward-Looking Signal**
+
+The inference efficiency race is intensifying: as open models close the quality gap with closed models (as Vercel's token data also shows today), the winning factor shifts to who can serve them fastest and cheapest at scale.
+推理效率竞赛正在加剧：随着开源模型在质量上逐渐缩小与闭源模型的差距（Vercel 今日的 token 数据也印证了这一点），胜负的关键将转向谁能以最快速度、最低成本大规模提供服务。
+
+Podcast URL: https://www.youtube.com/@NoPriorsPodcast
+Episode: "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon"
 
 ---
 
