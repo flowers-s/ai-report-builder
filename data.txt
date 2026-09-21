@@ -1,241 +1,177 @@
-AI Builders 日报 · 2026-09-20
+AI Builders 日报 · 2026-09-21
 
 ---
 
-## X / TWITTER
+X / TWITTER
 
 ---
 
-### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @OpenAI
+**Thibault Sottiaux** (thsottiaux on X) · Head of AI Engineering
 
-OpenAI's Thibault Sottiaux, who works on Codex and ChatGPT, hinted at a major upcoming keynote packed with new announcements.
-OpenAI Codex 和 ChatGPT 团队的 Thibault Sottiaux 暗示，一场重大主题演讲即将到来，内容十分密集。
+2026 is the year of linux desktop.
+2026 年是 Linux 桌面年。
 
-He teased that there are "so many good things in quick succession" that they are figuring out how to present it all clearly.
-他表示即将发布的内容"接连不断、非常精彩"，团队正在思考如何清晰地向外界呈现。
-
-Some things will be revealed as early as next week, so the wait won't be long.
-部分内容最早下周就会揭晓，不用等太久。
-
-> *"there is so much good stuff in there that it's a bit ridiculous all in quick succession"*
-
-Source: https://x.com/thsottiaux/status/2101157729037586694
+https://x.com/thsottiaux/status/2101431497437950458
 
 ---
 
-### Peter Yang (petergyang on X) — Practical AI Tutorials
+**Peter Yang** (petergyang on X) · Product at Roblox, Creator of Creator Science
 
-Peter Yang, creator of practical AI content, shared a humorous but pointed observation: the smarter AI becomes, the harder it is for him to write a grammatically correct sentence on his own.
-AI 实战教程创作者 Peter Yang 幽默但一针见血地指出：AI 越聪明，他自己写出语法正确的句子反而越难。
+Peter Yang is experimenting with a personalized /tastemaker skill that tracks his ratings for movies, TV shows, and books, and automatically surfaces relevant new releases each week — he's asking if he should open source it.
+Peter Yang 正在实验一个个性化的 /tastemaker skill，追踪他对电影、电视和书籍的评分，并每周自动推荐相关新上线内容——他在征询是否要开源。
 
-He also spotlighted Meta's Muse agent, which autonomously called customer support and negotiated $288 in annual cable bill savings for him.
-他还重点介绍了 Meta 的 Muse 智能体——它自主拨打客服电话，为他每年节省了 288 美元的有线电视费用。
+*"I have a simple markdown file and a /tastemaker skill that I use to add ratings for movies, TV shows, and books I've seen. Then every week it looks up new releases and stuff I haven't seen and makes incredibly relevant suggestions."*
+https://x.com/petergyang/status/2101503916743749878
 
-> *"I think most companies' customer support lines are NOT ready for agents"*
+He's also bullish on Apple TV, canceling his Netflix after praising Widow's Peak (9.5/10) and Silo Season 3 (9/10).
+他对 Apple TV 赞不绝口，看完《Widow's Peak》（9.5分）和《孤舟》第三季（9分）之后已取消 Netflix 订阅。
 
-He calls Muse the best personal agent he has tried to date, capable of building personalized morning news feeds, habit trackers, and negotiating bills — and sees it potentially becoming Meta's next billion-user app.
-他称 Muse 是迄今为止他用过最好的个人智能体，能构建个性化早间新闻、习惯追踪器并自动谈判账单，有望成为 Meta 的下一个十亿用户级应用。
+https://x.com/petergyang/status/2101497327861248090
 
-Sources:
-- https://x.com/petergyang/status/2101104320897040627
-- https://x.com/petergyang/status/2101083891507593576
-- https://x.com/petergyang/status/2101033599319613533
+His upcoming podcast episode features the product lead for ChatGPT Finances at OpenAI, sharing six practical personal finance prompts covering tax savings, credit card rewards, and financial independence forecasting.
+他即将发布的播客邀请了 OpenAI ChatGPT Finances 产品负责人，分享六个可直接使用的个人理财 prompt，涵盖税务节省、信用卡奖励和财务独立路径规划。
 
----
-
-### Nan Yu (thenanyu on X) — (soon) Product Staff @OpenAI, prev Head of Product @Linear
-
-Nan Yu's tweets today were mostly casual reactions without substantive product or insight content.
-Nan Yu 今日的推文以轻松互动为主，无实质性产品或见解内容。
-
-近期无重要动态
-
-Sources:
-- https://x.com/thenanyu/status/2101140304976056779
-- https://x.com/thenanyu/status/2101013559287435709
+https://x.com/petergyang/status/2101342055352201519
 
 ---
 
-### Thariq (trq212 on X) — Claude Code @Anthropic
+**Nan Yu** (thenanyu on X) · Co-founder at Muse
 
-Thariq from Anthropic's Claude Code team announced that Claude Code now supports AGENTS.md files starting in version 2.1.277.
-Anthropic Claude Code 团队的 Thariq 宣布：从 2.1.277 版本起，Claude Code 正式支持 AGENTS.md 文件。
+Nan Yu reports that both Muse and Instinct still claim to be unable to place calls, suggesting the feature rollout is still in progress.
+Nan Yu 反馈 Muse 和 Instinct 均表示无法拨打电话，暗示该功能仍在灰度发布中。
 
-If no CLAUDE.md is found in a folder, Claude will automatically look for and use AGENTS.md instead — with behavior toggleable via /config.
-当项目目录中没有 CLAUDE.md 时，Claude 会自动查找并使用 AGENTS.md，该行为可通过 /config 开关控制。
-
-This support is built on Claude Code's upcoming "mods" system, which will allow developers to build custom project instruction modules.
-该功能基于 Claude Code 即将推出的"mods"系统构建，开发者将能自行创建自定义项目指令模块。
-
-Sources:
-- https://x.com/trq212/status/2101009392611278961
-- https://x.com/trq212/status/2101009393731223817
-- https://x.com/trq212/status/2101009395052343462
+https://x.com/thenanyu/status/2101383106372805103
 
 ---
 
-### Amjad Masad (amasad on X) — CEO @Replit
+**Guillermo Rauch** (rauchg on X) · CEO of Vercel
 
-Amjad Masad's post today was a link without accompanying commentary, lacking substantive content to summarize.
-Amjad Masad 今日仅发布了一条无文字说明的链接，无实质内容可总结。
+Guillermo Rauch shared Ronald Reagan's iconic 1989 farewell speech quote about "the shining city" — a vision of openness, commerce, and people of all kinds — apparently as a commentary on the current moment.
+Guillermo Rauch 引用了里根 1989 年告别演说中关于"闪耀之城"的经典段落——一座开放、充满活力、对所有人敞开大门的城市——似乎是对当下时代的隐喻式回应。
 
-近期无重要动态
+*"I've spoken of the shining city […] a tall, proud city built on rocks stronger than oceans, wind-swept, God-blessed, and teeming with people of all kinds living in harmony and peace; a city with free ports that hummed with commerce and creativity."*
+https://x.com/rauchg/status/2101420720807100855
 
-Source: https://x.com/amasad/status/2101129866779545727
+He also offered an optimistic read on the AI wave: beyond the noise, what's most exciting is that everyone is energized to build and ship, not just consume — and he sees that as immeasurably good for the world.
+他也对 AI 浪潮给出了一个乐观判断：撇开短期争议，最令人振奋的是人人都想创造和交付，而不只是消费——他认为这对世界是无可估量的好事。
 
----
-
-### Guillermo Rauch (rauchg on X) — CEO @Vercel
-
-Vercel CEO Guillermo Rauch reported what may be a record day for open-model token volume on Vercel AI Gateway — open models now account for 78.4% of token traffic vs. 21.6% for closed models.
-Vercel CEO Guillermo Rauch 报告称，Vercel AI Gateway 上开源模型的 token 使用量可能创下历史新高——开源模型占比达 78.4%，闭源模型仅占 21.6%。
-
-He noted that Moonshot AI and DeepSeek rank #3 and #4 in spending, and combined with Z.ai they surpass OpenAI in inference spend.
-他指出 Moonshot AI 和 DeepSeek 在推理花费上分列第三和第四，加上 Z.ai 后合计超过了 OpenAI。
-
-> *"The data and the anecdata on Jev's adoption are shocking. Everyone is adopting it."*
-
-Rauch also highlighted Jev's explosive adoption, attributing it both to great product quality and a broader "AI is too expensive/slow" zeitgeist driving developers to optimize.
-Rauch 还指出 Jev 的爆炸性普及，认为这既源于产品本身的质量，也反映了开发者对"AI 太贵/太慢"的广泛担忧，推动了优化需求。
-
-Sources:
-- https://x.com/rauchg/status/2101186741042663579
-- https://x.com/rauchg/status/2101116978677285241
-- https://x.com/rauchg/status/2101079472732848510
+*"The coolest thing about the recent wave of AI is that everyone is excited about building. All short-term drama aside, this is an immeasurably good development for the world. The people want to create and ship, not just consume."*
+https://x.com/rauchg/status/2101397206595231765
 
 ---
 
-### Aaron Levie (levie on X) — CEO @Box
+**Aaron Levie** (levie on X) · CEO of Box
 
-Box CEO Aaron Levie made a compelling case for Jev in the enterprise, demonstrating how it can handle near-instant, near-zero-cost classification tasks like routing incident reports and setting metadata.
-Box CEO Aaron Levie 为 Jev 在企业场景中的价值做了有力论证：展示了它如何以近乎即时、近乎零成本的方式处理分类任务，例如路由事故报告、设置元数据等。
+Aaron Levie argues that personal agents like Muse represent the ultimate "build something that agents want" moment — the new attention to compete for is no longer the user, but the agent itself.
+Box CEO Aaron Levie 认为，像 Muse 这样的个人 agent 代表了终极的"为 agent 而建"时刻——新的注意力争夺对象不再是用户本身，而是 agent。
 
-He envisions Jev-powered agents for insurance claims, contract management, loan processing, security reviews, and customer log analysis.
-他设想 Jev 驱动的智能体将应用于保险理赔、合同管理、贷款处理、安全审查和客户日志分析等场景。
+*"Personal agents are the ultimate manifestation of 'build something that agents want'. The new attention you need to compete for is not from the user itself but instead for the agent."*
 
-> *"This all happens nearly instantly and at almost no cost."*
+He sees the tools that let agents order food, handle e-commerce, book flights, and interact with data as the biggest opportunity in consumer tech since the App Store.
+他认为，能让 agent 点餐、处理电商交易、预订机票并与数据交互的工具，将是自 App Store 以来消费科技领域最大的机会和颠覆。
 
-Source: https://x.com/levie/status/2101007708044574906
-
----
-
-### Zara Zhang (zarazhangrui on X) — Builder & Investor
-
-Zara Zhang, founder of the Follow Builders project, shared a sharp mental model about content quality: it's nearly impossible to produce high-quality output when your inputs are dominated by low-quality content.
-Follow Builders 项目创始人 Zara Zhang 分享了一个关于内容质量的深刻洞见：当你消费的内容大多是"垃圾"时，几乎不可能产出高质量的内容。
-
-> *"It's hard not to create slop when most things you consume are slop. To fix output, first fix input."*
-> "当你消费的大多是垃圾内容时，很难不产出垃圾。要改善输出，先改善输入。"
-
-Source: https://x.com/zarazhangrui/status/2101123389528457596
+https://x.com/levie/status/2101427997597446636
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Partner @FPV Ventures
+**Garry Tan** (garrytan on X) · CEO of Y Combinator
 
-FPV Ventures Partner Nikunj Kothari built and shared "Jevable" — a community website showcasing Jev demos filterable by category, with a + button for others to add their own projects.
-FPV Ventures 合伙人 Nikunj Kothari 构建并分享了"Jevable"——一个展示 Jev demos 的社区网站，支持分类筛选，并有 + 按钮供他人添加项目。
+近期无重要动态（Garry Tan 近期转发了一条关于加州大学系统种族歧视政策的内容，属于政治议题转发，无 AI 或创业相关实质内容）。
 
-He also demoed scoring 3,000 kids' snacks across multiple criteria in 28 seconds for just $0.11 using Jev — a vivid illustration of the cost-efficiency.
-他还演示了用 Jev 在 28 秒内以 0.11 美元对 3000 种儿童零食进行多维度评分，生动展示了其成本效益。
-
-Sources:
-- https://x.com/nikunj/status/2101077053567332618
-- https://x.com/nikunj/status/2101006585481073093
+https://x.com/garrytan/status/2101456284482441656
 
 ---
 
-### Peter Steinberger (steipete on X) — OpenClaw + OpenAI
+**Nikunj Kothari** (nikunj on X) · Partner at Andreessen Horowitz (a16z)
 
-Peter Steinberger, co-creator of OpenClaw, shared how his team is running OpenClaw ("roboclaw") as a live team server on Discord, connected to GPT-Live and aware of all concurrent sessions.
-OpenClaw 联合创始人 Peter Steinberger 分享了团队如何将 OpenClaw（"roboclaw"）作为在线团队服务器运行在 Discord 上，与 GPT-Live 连接并实时感知所有并发会话。
+a16z 合伙人 Nikunj Kothari 每天花约两小时写代码、做 side project，他认为这是在 AI 时代保持投资判断力的必要方式。
+a16z partner Nikunj Kothari spends about two hours a day coding and tinkering, and argues this hands-on approach is essential for staying sharp as an investor in the AI era.
 
-The team can query their AI assistant about session context even during live meetings.
-团队成员甚至可以在会议进行中向 AI 助手查询会话上下文。
+*"Unlike other eras, things are moving SO fast that if you don't do this, I simply don't understand how folks will ever learn what's coming next."*
 
-He also praised a teammate for "desloping" sessions before PRs land, and highlighted CUA (Computer Use Agent) working across all setups for more efficient agent interactions.
-他还称赞了队友在 PR 合并前"去垃圾化"会话的工作方式，并强调 CUA（电脑使用智能体）可在所有设置中运行，让智能体交互更高效。
+他给出了一个清晰的 AI 时代投资认知框架：（1）理解模型能力以预判下一代模型的改进方向；（2）识别 agent 完成长周期任务所需的工具和基础设施；（3）理解将驱动自主公司落地的应用层 harness 能力。
+He offers a clear three-part framework for AI-era investment conviction: (1) understand model capabilities to spot where future models will improve; (2) identify the tools agents need to complete longer-horizon tasks; (3) understand the application-layer harness capabilities that will enable autonomous companies.
 
-Sources:
-- https://x.com/steipete/status/2101141707375227372
-- https://x.com/steipete/status/2101139037801283997
-- https://x.com/steipete/status/2101115690719809873
+https://x.com/nikunj/status/2101340098356990058
 
 ---
 
-### Dan Shipper (danshipper on X) — CEO @Every
+**Aditya Agarwal** (adityaag on X) · Former CTO of Dropbox, Investor
 
-Every CEO Dan Shipper pushed back strongly against someone calling a colleague's AI demo "fake," defending Jack Cheng as "one of the smartest, most intellectually honest, and craft-focused people" he's worked with.
-Every CEO Dan Shipper 强烈反对有人将同事的 AI demo 称为"假的"，为 Jack Cheng 发声，称其为他合作过的"最聪明、最诚实、最注重工艺"的人之一。
+在大模型厂商密集发布更多 agent 功能之后，前 Dropbox CTO Aditya Agarwal 发出警告：他认为已可以 100% 确定，多家大型企业在不知情的情况下已遭到国家级黑客渗透。
+Following the rush of announcements from Gemini, OpenAI, and Anthropic about expanded agent capabilities, former Dropbox CTO Aditya Agarwal warns that he is 100% certain multiple major companies have been silently penetrated by nation-state actors.
 
-His other posts were reaction-style without substantive content.
-其他推文为轻松互动，无实质内容。
+*"After seeing the rush of announcements by Gemini (Google), OpenAI and Anthropic about even more agent intrusions......I take it for 100% granted that a number of major companies have been penetrated by nation states without them knowing about it."*
 
-Source: https://x.com/danshipper/status/2101155521818476693
-
----
-
-### Aditya Agarwal (adityaag on X) — General Partner @SPC, Ex-CTO @Dropbox
-
-SPC General Partner and former Dropbox CTO Aditya Agarwal offered a brief but thought-provoking observation: "AI is a full circle. Everything old is new again."
-SPC 普通合伙人、前 Dropbox CTO Aditya Agarwal 发表了一个简短但发人深省的观点："AI 是一个完整的循环，一切旧事物都将以新面貌归来。"
-
-The linked content was not accessible, but the sentiment reflects a recurring theme among veterans: current AI breakthroughs often echo older ideas that are finally finding their moment.
-链接内容无法访问，但这一观点反映了业界老兵的共同感受：当前的 AI 突破往往呼应了那些终于迎来时机的旧思想。
-
-Source: https://x.com/adityaag/status/2101097330107875437
+https://x.com/adityaag/status/2101426570850451914
 
 ---
 
-### Claude Official (claudeai on X) — @Anthropic
-
-Claude's official account asked followers "What are you building this weekend?" and shared two image/link posts without text commentary.
-Claude 官方账号询问粉丝"这个周末你在做什么？"并发布了两条无文字说明的图片/链接。
-
-近期无重要动态
-
-Sources:
-- https://x.com/claudeai/status/2101017910365901059
-- https://x.com/claudeai/status/2101017908843352238
-- https://x.com/claudeai/status/2101017907136258511
+PODCASTS
 
 ---
 
-## PODCASTS
+**The MAD Podcast with Matt Turck**
+When AI Improves Itself | Richard Socher (Recursive)
+
+## 一、深度总结
+
+**核心论点**
+Richard Socher 以 $6.5 亿美元融资创立 Recursive，核心命题是：AI 将驱动科学研究进入递归式自我改进的循环——AI 不仅辅助科学，更将生成新的科学假设、设计实验、验证结果，并以此训练出更强的下一代 AI。
+Richard Socher founded Recursive with $650M raised, built on the central thesis that AI will drive science into a recursive self-improvement loop — AI that not only assists science but generates hypotheses, designs experiments, validates results, and uses that to train even better AI.
+
+**关键洞察**
+
+- 科学进步正在放缓，不是因为人变懒了，而是知识已从"一个知识体系"碎裂为"3.4 万个期刊构成的迷宫"，跨领域整合几乎不可能。
+  Scientific progress is slowing not because researchers are less capable, but because the body of knowledge has shattered from a unified whole into a labyrinth of 34,000 journals, making cross-domain synthesis nearly impossible.
+
+- Socher 认为"任何可以被模拟的，AI 都将解决"——这是 RSI（递归自我改进）的底层逻辑：模拟能力一旦到位，AI 改进 AI 的飞轮就会启动。
+  Socher argues "anything you can simulate, AI will solve" — this is the foundational logic of RSI: once simulation capability is in place, the flywheel of AI improving AI begins to spin.
+
+- 当前 AI 距离智能上限还有巨大距离。学术系统的风险规避文化（论文被拒）抑制了基础创新，而 AI 研究恰恰需要大量高风险实验——Socher 本人早年 NLP 论文屡遭拒稿的经历印证了这一点。
+  Current AI is still far from the upper bounds of intelligence. The risk-averse culture of academia suppresses fundamental innovation — Socher's own early NLP papers were repeatedly rejected, a pattern that validates why AI research needs to escape institutional constraints.
+
+- 他的新书《The Eureka Machine》主张：AI + RSI 将是解锁下一代科学突破（癌症、新材料、能源）的关键，而不只是效率工具。
+  His new book *The Eureka Machine* argues that AI + RSI will be the key to unlocking the next generation of scientific breakthroughs — cancer, new materials, energy — not merely an efficiency tool.
+
+- 生物学是 RSI 最有潜力的战场：领域够深、实验可模拟、数据量巨大，但当前跨领域沟通成本极高（行话壁垒），AI 正好可以成为"翻译层"。
+  Biology is the most promising frontier for RSI: deep enough, simulatable, data-rich — yet currently plagued by jargon barriers that make cross-domain communication nearly impossible, exactly where AI can serve as a translation layer.
+
+**最值得关注的信号**
+RSI 不是遥远的科幻概念，而是 Recursive 正在用真实资本落地的工程命题。$6.5 亿的融资规模意味着这一赛道已进入主流资本视野；Socher 的科研背景（Stanford NLP、Salesforce Einstein）使这一押注比纯商业叙事更具可信度。
+RSI is not a distant science-fiction concept — it's an engineering thesis being capitalized at $650M right now. Socher's research pedigree (Stanford NLP, Salesforce Einstein) lends this bet considerably more credibility than a purely commercial narrative.
 
 ---
 
-### No Priors — "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon"
+## 二、完整中文逐字稿
 
-**核心论点 / Core Thesis**
+主持人：任何可以被模拟的，AI 都将解决。在你意识到之前，你已经进入了这个递归自我改进的循环，我们相信这将是一个巨大的突破口。我们距离任何智能空间的真正上限还差得远。AI 还有很长的路要走。
 
-Stefano Ermon, a Stanford professor and one of the founding researchers of diffusion models, argues that diffusion-based architectures will ultimately dominate AI inference — not just image generation — because of their fundamental advantages in speed and efficiency.
-Stefano Ermon 是斯坦福大学教授，也是扩散模型的奠基研究者之一，他主张扩散架构最终将主导 AI 推理——不仅仅是图像生成——因为其在速度和效率上具有本质性优势。
+主持人：嗨，我是 Matt Turk，欢迎回到 MAD 播客。我今天的嘉宾是 Richard Socher，他是 AI 领域被引用次数最多的研究员之一，现在处于每个人都在谈论的一个词的核心——递归自我改进，即 AI 制造更好的 AI。Richard 刚刚为 Recursive 筹集了 6.5 亿美元，这家公司正是为此而生，他的新书《The Eureka Machine》是一份关于 AI 和 RSI 如何革命性地改变科学的迷人蓝图。
 
-His company, Inception, is built around this thesis: challenge the large labs not by scaling bigger, but by being faster and cheaper.
-他创立的公司 Inception 正是围绕这一论点构建：不靠规模更大来挑战大型实验室，而是靠更快、更便宜。
+主持人：请享受我与一直出色的 Richard Socher 的对话。嘿，Richard，欢迎回来。
 
-**关键洞察 / Key Insights**
+嘉宾：很高兴回来，感谢邀请。
 
-- Ermon was working on generative models at Stanford as early as 2014, when the field was so unfashionable that papers were hard to publish — he had to justify training generative models as a way to learn features for supervised tasks.
-  Ermon 早在 2014 年就在斯坦福从事生成模型研究，那时这个领域不受重视，论文难以发表，他不得不将生成模型的训练包装为监督任务的特征学习工具来获得认可。
+主持人：好的，有很多要聊的。我们将谈到递归智能，谈到 Recursive 这家公司。但首先，也是最重要的，我们将谈到你的新书《The Eureka Machine》，我读得很有兴趣，强烈推荐，我相信再过几周就会出版。
 
-- Diffusion models are not just for images — they can be applied to any generative task, and their iterative refinement process creates a natural efficiency-accuracy tradeoff that autoregressive models lack.
-  扩散模型不仅适用于图像——它们可应用于任何生成任务，其迭代细化过程创造了自回归模型所缺乏的效率与精度之间的天然权衡空间。
+主持人：这本书以一个我认为很多人会感到惊讶和震惊的前提开篇——科学进步正在放缓——这感觉违反直觉，因为我们有那么多来自世界各地的研究人员，以及投入这一领域的巨额资金。那么，为什么会这样？
 
-- The "AI is too expensive/slow" zeitgeist is creating massive market opportunity for inference-optimized players; speed and cost are becoming the primary competitive vectors.
-  "AI 太贵/太慢"的时代情绪正在为专注推理优化的玩家创造巨大的市场机会；速度和成本正成为主要的竞争维度。
+嘉宾：是的，这是一个有些令人惊讶的事实，你可能会争辩说显然不是。比如我们在很多不同的事情上都取得了很多小进步，但当你想到我们在抗生素上取得了多大的进步时——细菌感染从死刑和瘟疫变成了小麻烦，比如我们现在有了几乎所有不同细菌的抗生素，我们真正解决了这个问题。但我们显然没有以同样的方式解决病毒或癌症。
 
-- Inception's bet is that the hardware-software co-optimization frontier is where the real leverage lies — not in just having more GPUs.
-  Inception 的赌注在于：硬件-软件协同优化的前沿才是真正的杠杆所在，而不仅仅是拥有更多 GPU。
+嘉宾：当你想到像 E=mc² 和广义相对论这样的基础性新事物时，我们显然在许多理论和物理学方面也没有取得进展，而这些基础性的东西字面上导致了核能和裂变及其他类型的研究，这些研究在概念上是可以完成的。因此，很多领域已经从我们理解了一些基础部分，到我们现在可以做很多工程，但它们也分裂成了数千个不同的子领域。如今，要成为那种可以涉足所有这些不同领域的通才天才几乎是不可能的，因为每个领域都需要多年时间才能真正深入。因此，我们发现，随着越来越多的子领域和细分领域的出现，实际上很难在每个子领域中拥有足够的人，Stanis Ablem 和其他人已经谈到了这一点，并预测这将是我们放缓的重要原因。
 
-**最值得关注的信号 / Key Forward-Looking Signal**
+主持人：是的，你有一个很好的表达，你谈到我们如何从知识体系演变为知识迷宫，3.4 万个期刊，几乎都挂着"禁止入内"的标志。
 
-The inference efficiency race is intensifying: as open models close the quality gap with closed models (as Vercel's token data also shows today), the winning factor shifts to who can serve them fastest and cheapest at scale.
-推理效率竞赛正在加剧：随着开源模型在质量上逐渐缩小与闭源模型的差距（Vercel 今日的 token 数据也印证了这一点），胜负的关键将转向谁能以最快速度、最低成本大规模提供服务。
+嘉宾：是的，很难理解所有的术语，我自己也经历过这一切，先是学习语言学，然后是计算机科学，但现在，当我试图研究并在过去几年里在生物学方面进行了一些研究时，每次与生物学家交谈，说了十句话，他们就会告诉你很多你不熟悉的缩写和术语，大多数人过了一会儿就会走神了。所以，向那些没有深入某个领域的人描述和解释非常复杂的深层领域真的很难。
 
-Podcast URL: https://www.youtube.com/@NoPriorsPodcast
-Episode: "Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon"
+主持人：你还提到，在某种程度上，有某种社会性的人为因素在其中，在学术界，你不一定被鼓励去冒险，这也与你自己的经历有关？
+
+嘉宾：是的，100%，就像人们通常——职业发展的方式是你想要有点新颖，但如果你太新颖，太超前，那么你的论文就会被拒绝，这肯定发生在我身上，在 2010 年早期的神经网络用于自然语言处理领域，我最初的几篇论文中的大多数都被 NLP 会议拒绝了。当它们在一些小的细分领域和子组中被接受时，我仍然记得在 NIPS（现在的 NeurIPS）举办的第一个深度学习研讨会，当时基本上只有三四十人……
+
+（转录内容因篇幅限制至此，完整对话请收听原集）
+
+https://www.youtube.com/@DataDrivenNYC/videos
 
 ---
 
