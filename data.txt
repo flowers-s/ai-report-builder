@@ -1,178 +1,181 @@
-AI Builders 日报 · 2026-09-21
+AI Builders 日报 · 2026-09-22
 
 ---
 
-X / TWITTER
+🎙️ Podcast: No Priors — Coinbase's Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong
+Source: https://www.youtube.com/@NoPriorsPodcast
 
----
-
-**Thibault Sottiaux** (thsottiaux on X) · Head of AI Engineering
-
-2026 is the year of linux desktop.
-2026 年是 Linux 桌面年。
-
-https://x.com/thsottiaux/status/2101431497437950458
-
----
-
-**Peter Yang** (petergyang on X) · Product at Roblox, Creator of Creator Science
-
-Peter Yang is experimenting with a personalized /tastemaker skill that tracks his ratings for movies, TV shows, and books, and automatically surfaces relevant new releases each week — he's asking if he should open source it.
-Peter Yang 正在实验一个个性化的 /tastemaker skill，追踪他对电影、电视和书籍的评分，并每周自动推荐相关新上线内容——他在征询是否要开源。
-
-*"I have a simple markdown file and a /tastemaker skill that I use to add ratings for movies, TV shows, and books I've seen. Then every week it looks up new releases and stuff I haven't seen and makes incredibly relevant suggestions."*
-https://x.com/petergyang/status/2101503916743749878
-
-He's also bullish on Apple TV, canceling his Netflix after praising Widow's Peak (9.5/10) and Silo Season 3 (9/10).
-他对 Apple TV 赞不绝口，看完《Widow's Peak》（9.5分）和《孤舟》第三季（9分）之后已取消 Netflix 订阅。
-
-https://x.com/petergyang/status/2101497327861248090
-
-His upcoming podcast episode features the product lead for ChatGPT Finances at OpenAI, sharing six practical personal finance prompts covering tax savings, credit card rewards, and financial independence forecasting.
-他即将发布的播客邀请了 OpenAI ChatGPT Finances 产品负责人，分享六个可直接使用的个人理财 prompt，涵盖税务节省、信用卡奖励和财务独立路径规划。
-
-https://x.com/petergyang/status/2101342055352201519
-
----
-
-**Nan Yu** (thenanyu on X) · Co-founder at Muse
-
-Nan Yu reports that both Muse and Instinct still claim to be unable to place calls, suggesting the feature rollout is still in progress.
-Nan Yu 反馈 Muse 和 Instinct 均表示无法拨打电话，暗示该功能仍在灰度发布中。
-
-https://x.com/thenanyu/status/2101383106372805103
-
----
-
-**Guillermo Rauch** (rauchg on X) · CEO of Vercel
-
-Guillermo Rauch shared Ronald Reagan's iconic 1989 farewell speech quote about "the shining city" — a vision of openness, commerce, and people of all kinds — apparently as a commentary on the current moment.
-Guillermo Rauch 引用了里根 1989 年告别演说中关于"闪耀之城"的经典段落——一座开放、充满活力、对所有人敞开大门的城市——似乎是对当下时代的隐喻式回应。
-
-*"I've spoken of the shining city […] a tall, proud city built on rocks stronger than oceans, wind-swept, God-blessed, and teeming with people of all kinds living in harmony and peace; a city with free ports that hummed with commerce and creativity."*
-https://x.com/rauchg/status/2101420720807100855
-
-He also offered an optimistic read on the AI wave: beyond the noise, what's most exciting is that everyone is energized to build and ship, not just consume — and he sees that as immeasurably good for the world.
-他也对 AI 浪潮给出了一个乐观判断：撇开短期争议，最令人振奋的是人人都想创造和交付，而不只是消费——他认为这对世界是无可估量的好事。
-
-*"The coolest thing about the recent wave of AI is that everyone is excited about building. All short-term drama aside, this is an immeasurably good development for the world. The people want to create and ship, not just consume."*
-https://x.com/rauchg/status/2101397206595231765
-
----
-
-**Aaron Levie** (levie on X) · CEO of Box
-
-Aaron Levie argues that personal agents like Muse represent the ultimate "build something that agents want" moment — the new attention to compete for is no longer the user, but the agent itself.
-Box CEO Aaron Levie 认为，像 Muse 这样的个人 agent 代表了终极的"为 agent 而建"时刻——新的注意力争夺对象不再是用户本身，而是 agent。
-
-*"Personal agents are the ultimate manifestation of 'build something that agents want'. The new attention you need to compete for is not from the user itself but instead for the agent."*
-
-He sees the tools that let agents order food, handle e-commerce, book flights, and interact with data as the biggest opportunity in consumer tech since the App Store.
-他认为，能让 agent 点餐、处理电商交易、预订机票并与数据交互的工具，将是自 App Store 以来消费科技领域最大的机会和颠覆。
-
-https://x.com/levie/status/2101427997597446636
-
----
-
-**Garry Tan** (garrytan on X) · CEO of Y Combinator
-
-近期无重要动态（Garry Tan 近期转发了一条关于加州大学系统种族歧视政策的内容，属于政治议题转发，无 AI 或创业相关实质内容）。
-
-https://x.com/garrytan/status/2101456284482441656
-
----
-
-**Nikunj Kothari** (nikunj on X) · Partner at Andreessen Horowitz (a16z)
-
-a16z 合伙人 Nikunj Kothari 每天花约两小时写代码、做 side project，他认为这是在 AI 时代保持投资判断力的必要方式。
-a16z partner Nikunj Kothari spends about two hours a day coding and tinkering, and argues this hands-on approach is essential for staying sharp as an investor in the AI era.
-
-*"Unlike other eras, things are moving SO fast that if you don't do this, I simply don't understand how folks will ever learn what's coming next."*
-
-他给出了一个清晰的 AI 时代投资认知框架：（1）理解模型能力以预判下一代模型的改进方向；（2）识别 agent 完成长周期任务所需的工具和基础设施；（3）理解将驱动自主公司落地的应用层 harness 能力。
-He offers a clear three-part framework for AI-era investment conviction: (1) understand model capabilities to spot where future models will improve; (2) identify the tools agents need to complete longer-horizon tasks; (3) understand the application-layer harness capabilities that will enable autonomous companies.
-
-https://x.com/nikunj/status/2101340098356990058
-
----
-
-**Aditya Agarwal** (adityaag on X) · Former CTO of Dropbox, Investor
-
-在大模型厂商密集发布更多 agent 功能之后，前 Dropbox CTO Aditya Agarwal 发出警告：他认为已可以 100% 确定，多家大型企业在不知情的情况下已遭到国家级黑客渗透。
-Following the rush of announcements from Gemini, OpenAI, and Anthropic about expanded agent capabilities, former Dropbox CTO Aditya Agarwal warns that he is 100% certain multiple major companies have been silently penetrated by nation-state actors.
-
-*"After seeing the rush of announcements by Gemini (Google), OpenAI and Anthropic about even more agent intrusions......I take it for 100% granted that a number of major companies have been penetrated by nation states without them knowing about it."*
-
-https://x.com/adityaag/status/2101426570850451914
-
----
-
-PODCASTS
-
----
-
-**The MAD Podcast with Matt Turck**
-When AI Improves Itself | Richard Socher (Recursive)
-
-## 一、深度总结
+## Deep Dive Summary
 
 **核心论点**
-Richard Socher 以 $6.5 亿美元融资创立 Recursive，核心命题是：AI 将驱动科学研究进入递归式自我改进的循环——AI 不仅辅助科学，更将生成新的科学假设、设计实验、验证结果，并以此训练出更强的下一代 AI。
-Richard Socher founded Recursive with $650M raised, built on the central thesis that AI will drive science into a recursive self-improvement loop — AI that not only assists science but generates hypotheses, designs experiments, validates results, and uses that to train even better AI.
+Brian Armstrong, CEO of Coinbase, argues that the agentic economy is not just coming—it is already here. He contends that AI agents need financial infrastructure just as humans do, and that stablecoins and crypto rails are uniquely suited to serve this new category of economic actor. Coinbase's strategy is to become the "everything exchange" that powers both human and agent finance.
 
-**关键洞察**
+**关键论点**
+Armstrong highlights that 76% of agent e-commerce transactions are under 30¢—a threshold at which traditional debit/credit card fees (30¢ flat + percentage) are completely unworkable. This single data point frames the entire conversation: legacy payment rails cannot serve the agentic economy. Stablecoins, by contrast, enable micro-payments at negligible cost.
 
-- 科学进步正在放缓，不是因为人变懒了，而是知识已从"一个知识体系"碎裂为"3.4 万个期刊构成的迷宫"，跨领域整合几乎不可能。
-  Scientific progress is slowing not because researchers are less capable, but because the body of knowledge has shattered from a unified whole into a labyrinth of 34,000 journals, making cross-domain synthesis nearly impossible.
+He introduces the concept of "banking the AIs"—giving AI agents their own financial accounts with a single prompt command. Coinbase has already built tooling for this. The implication: agents will have wallets, sign transactions, and participate in markets autonomously.
 
-- Socher 认为"任何可以被模拟的，AI 都将解决"——这是 RSI（递归自我改进）的底层逻辑：模拟能力一旦到位，AI 改进 AI 的飞轮就会启动。
-  Socher argues "anything you can simulate, AI will solve" — this is the foundational logic of RSI: once simulation capability is in place, the flywheel of AI improving AI begins to spin.
+Armstrong forecasts that there will be more agents than humans in the "not too distant future," and that the agentic economy will eventually surpass the human economy in size. This is not framed as speculation but as a near-term engineering reality that Coinbase is actively building for.
 
-- 当前 AI 距离智能上限还有巨大距离。学术系统的风险规避文化（论文被拒）抑制了基础创新，而 AI 研究恰恰需要大量高风险实验——Socher 本人早年 NLP 论文屡遭拒稿的经历印证了这一点。
-  Current AI is still far from the upper bounds of intelligence. The risk-averse culture of academia suppresses fundamental innovation — Socher's own early NLP papers were repeatedly rejected, a pattern that validates why AI research needs to escape institutional constraints.
-
-- 他的新书《The Eureka Machine》主张：AI + RSI 将是解锁下一代科学突破（癌症、新材料、能源）的关键，而不只是效率工具。
-  His new book *The Eureka Machine* argues that AI + RSI will be the key to unlocking the next generation of scientific breakthroughs — cancer, new materials, energy — not merely an efficiency tool.
-
-- 生物学是 RSI 最有潜力的战场：领域够深、实验可模拟、数据量巨大，但当前跨领域沟通成本极高（行话壁垒），AI 正好可以成为"翻译层"。
-  Biology is the most promising frontier for RSI: deep enough, simulatable, data-rich — yet currently plagued by jargon barriers that make cross-domain communication nearly impossible, exactly where AI can serve as a translation layer.
-
-**最值得关注的信号**
-RSI 不是遥远的科幻概念，而是 Recursive 正在用真实资本落地的工程命题。$6.5 亿的融资规模意味着这一赛道已进入主流资本视野；Socher 的科研背景（Stanford NLP、Salesforce Einstein）使这一押注比纯商业叙事更具可信度。
-RSI is not a distant science-fiction concept — it's an engineering thesis being capitalized at $650M right now. Socher's research pedigree (Stanford NLP, Salesforce Einstein) lends this bet considerably more credibility than a purely commercial narrative.
+**值得记住的一句话**
+"We don't want the AIs to be unbanked."
 
 ---
 
-## 二、完整中文逐字稿
+## 一、深度总结（中文）
 
-主持人：任何可以被模拟的，AI 都将解决。在你意识到之前，你已经进入了这个递归自我改进的循环，我们相信这将是一个巨大的突破口。我们距离任何智能空间的真正上限还差得远。AI 还有很长的路要走。
+**核心论点**：Brian Armstrong 认为，AI 代理经济已经到来，而非遥远未来。他指出 AI 代理需要专属的金融基础设施，而加密稳定币天然适合成为这一新经济体的底层支付轨道。Coinbase 的战略是成为服务人类与代理的"全能交易所"。
 
-主持人：嗨，我是 Matt Turk，欢迎回到 MAD 播客。我今天的嘉宾是 Richard Socher，他是 AI 领域被引用次数最多的研究员之一，现在处于每个人都在谈论的一个词的核心——递归自我改进，即 AI 制造更好的 AI。Richard 刚刚为 Recursive 筹集了 6.5 亿美元，这家公司正是为此而生，他的新书《The Eureka Machine》是一份关于 AI 和 RSI 如何革命性地改变科学的迷人蓝图。
+**关键数据**：76% 的代理电商交易金额不足 30 美分——这恰好是信用卡收费的最低门槛。传统支付轨道对代理经济完全失效，稳定币的微支付能力则完美契合这一场景。
 
-主持人：请享受我与一直出色的 Richard Socher 的对话。嘿，Richard，欢迎回来。
+**产品动作**：Coinbase 已推出让 AI 代理一键开户的工具，代理可以拥有自己的账户、签署交易、独立参与市场。
 
-嘉宾：很高兴回来，感谢邀请。
-
-主持人：好的，有很多要聊的。我们将谈到递归智能，谈到 Recursive 这家公司。但首先，也是最重要的，我们将谈到你的新书《The Eureka Machine》，我读得很有兴趣，强烈推荐，我相信再过几周就会出版。
-
-主持人：这本书以一个我认为很多人会感到惊讶和震惊的前提开篇——科学进步正在放缓——这感觉违反直觉，因为我们有那么多来自世界各地的研究人员，以及投入这一领域的巨额资金。那么，为什么会这样？
-
-嘉宾：是的，这是一个有些令人惊讶的事实，你可能会争辩说显然不是。比如我们在很多不同的事情上都取得了很多小进步，但当你想到我们在抗生素上取得了多大的进步时——细菌感染从死刑和瘟疫变成了小麻烦，比如我们现在有了几乎所有不同细菌的抗生素，我们真正解决了这个问题。但我们显然没有以同样的方式解决病毒或癌症。
-
-嘉宾：当你想到像 E=mc² 和广义相对论这样的基础性新事物时，我们显然在许多理论和物理学方面也没有取得进展，而这些基础性的东西字面上导致了核能和裂变及其他类型的研究，这些研究在概念上是可以完成的。因此，很多领域已经从我们理解了一些基础部分，到我们现在可以做很多工程，但它们也分裂成了数千个不同的子领域。如今，要成为那种可以涉足所有这些不同领域的通才天才几乎是不可能的，因为每个领域都需要多年时间才能真正深入。因此，我们发现，随着越来越多的子领域和细分领域的出现，实际上很难在每个子领域中拥有足够的人，Stanis Ablem 和其他人已经谈到了这一点，并预测这将是我们放缓的重要原因。
-
-主持人：是的，你有一个很好的表达，你谈到我们如何从知识体系演变为知识迷宫，3.4 万个期刊，几乎都挂着"禁止入内"的标志。
-
-嘉宾：是的，很难理解所有的术语，我自己也经历过这一切，先是学习语言学，然后是计算机科学，但现在，当我试图研究并在过去几年里在生物学方面进行了一些研究时，每次与生物学家交谈，说了十句话，他们就会告诉你很多你不熟悉的缩写和术语，大多数人过了一会儿就会走神了。所以，向那些没有深入某个领域的人描述和解释非常复杂的深层领域真的很难。
-
-主持人：你还提到，在某种程度上，有某种社会性的人为因素在其中，在学术界，你不一定被鼓励去冒险，这也与你自己的经历有关？
-
-嘉宾：是的，100%，就像人们通常——职业发展的方式是你想要有点新颖，但如果你太新颖，太超前，那么你的论文就会被拒绝，这肯定发生在我身上，在 2010 年早期的神经网络用于自然语言处理领域，我最初的几篇论文中的大多数都被 NLP 会议拒绝了。当它们在一些小的细分领域和子组中被接受时，我仍然记得在 NIPS（现在的 NeurIPS）举办的第一个深度学习研讨会，当时基本上只有三四十人……
-
-（转录内容因篇幅限制至此，完整对话请收听原集）
-
-https://www.youtube.com/@DataDrivenNYC/videos
+**大胆预测**：代理数量将很快超过人类，代理经济规模终将超越人类经济体量。Armstrong 将此视为工程现实而非科幻预言。
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+🐦 Swyx (@swyx)
+Source: https://x.com/swyx/status/2101873256097804529
+
+Swyx announced that a "Jev pod" episode is dropping tomorrow on the Latent Space Podcast, expressing thanks to guests @allenpark and Ke for making it happen.
+Swyx 宣布明天将在 Latent Space Podcast 发布一期关于"Jev"的播客，并向嘉宾 @allenpark 和 Ke 表示感谢。
+
+The episode appears to be about Jev—the AI model/assistant that has been dominating AI Twitter conversation this week.
+此集播客内容似乎聚焦于本周刷屏 AI 推特圈的模型/助手"Jev"。
+
+Subscribe on Apple or YouTube via @latentspacepod.
+可在苹果播客或 YouTube 上通过 @latentspacepod 订阅收听。
+
+---
+
+🐦 Peter Yang (@petergyang)
+Sources:
+- https://x.com/petergyang/status/2101862331345154469
+- https://x.com/petergyang/status/2101865476145959373
+- https://x.com/petergyang/status/2101917073081598255
+
+Peter Yang shared a detailed breakdown of the personal agent race, naming his picks and reasoning for each major player.
+Peter Yang 发布了一篇关于个人 AI 代理竞争格局的详细分析，逐一点评各大玩家的优劣。
+
+Meta's Muse is his pick for the likely winner—the app feels intuitive, Meta is aggressively cross-promoting it, and standalone agent apps make more sense than agents living inside messaging apps.
+他认为 Meta 的 Muse 最有可能胜出——应用体验直观，Meta 正在全线产品中强推，且独立代理 App 比嵌入 iMessage 等即时通讯的代理更合逻辑。
+
+ChatGPT remains the current leader by user volume (1B+), but suffers from the tension of serving both enterprise and consumer use cases with the same UX.
+ChatGPT 凭借超过 10 亿用户仍是现任领头羊，但同一产品同时服务企业与个人消费者的 UX 张力正在成为其软肋。
+
+Grok Bot is more focused on work—his bull case: it's a few features away from being "multiplayer agentic Slack."
+Grok Bot 更偏向工作场景，他的看多逻辑是：再加几个功能，它就可以成为"多人协作的智能 Slack"。
+
+Google's dark horse status comes from owning Gmail and Calendar data, but their track record in consumer AI is poor and Spark needs to become far more aggressive.
+谷歌的黑马潜力来自对 Gmail 和日历数据的掌控，但其消费级 AI 的历史战绩不佳，Spark 需要大幅提速才能竞争。
+
+Multiplayer AI remains unsolved—nobody has figured out how to loop in a spouse for vacation planning or a coworker in an agent thread.
+多人协作 AI 仍是行业空白——无论是与配偶共同规划假期，还是将同事拉进代理对话，目前都没有好的解决方案。
+
+On Apple/Siri: they have the devices and privacy reputation, but their annual release cycle and lack of social feedback loops make their iteration speed far too slow to compete.
+关于苹果/Siri：设备生态和隐私口碑是优势，但年度发布节奏加上缺乏社交反馈回路，使其迭代速度远不足以参与竞争。
+
+His current personal AI stack: Muse for personal, Grok Bot for cloud tasks, Claude for specific use cases, ChatGPT for everything else.
+他当前的个人 AI 工具栈：个人事务用 Muse，云端任务用 Grok Bot，特定场景用 Claude，其余都交给 ChatGPT。
+
+Bold take: design your personal skills and files to be portable between agents—otherwise you'll spend half your time migrating.
+犀利观点：将你的个人技能和文件设计成跨平台可迁移的格式——否则你会把一半时间浪费在工具迁移上。
+
+---
+
+🐦 Thariq (@trq212)
+Source: https://x.com/trq212/status/2101844435353145452
+
+Thariq, working on Claude Code at Anthropic, mused that video games uniquely give young people high stakes and real responsibilities that they can't access in real life—but noted there's a fine line, and at some point you need to graduate.
+在 Anthropic 从事 Claude Code 工作的 Thariq 思考道：电子游戏能赋予年轻人现实中难以获得的高风险感和真实责任感，但这是一把双刃剑，终究需要"毕业"迈向现实。
+
+The observation touches on the deeper question of whether virtual environments (including AI agents?) can serve as training grounds for real-world capability and responsibility.
+这一观察触及一个更深的命题：虚拟环境（包括 AI 代理？）能否成为真实世界能力与责任感的训练场。
+
+---
+
+🐦 Amjad Masad (@amasad)
+Source: https://x.com/amasad/status/2101852258468299182
+
+Replit CEO Amjad Masad shared a personal milestone: he built his son his first computer.
+Replit CEO Amjad Masad 分享了一个温馨时刻：他亲手为儿子组装了人生中的第一台电脑。
+
+A reminder that even the most software-native builders still find meaning in the hardware ritual of the first build.
+这提醒我们，即使是最纯粹的软件创业者，仍会在"第一次组装电脑"这个硬件仪式中找到特别的意义。
+
+---
+
+🐦 Guillermo Rauch (@rauchg)
+Source: https://x.com/rauchg/status/2101846262840799251
+
+Vercel CEO Guillermo Rauch shared a firsthand account of agent-powered QA that genuinely impressed him: he flagged a mobile rendering bug, and the agent went to extraordinary lengths to reproduce, simulate, fix, deploy, and verify the fix—including spinning up an ephemeral Vercel deployment to test against an iPhone simulator.
+Vercel CEO Guillermo Rauch 分享了一次真实震撼他的代理 QA 经历：他指出一个移动端渲染 bug，代理竟层层深入地复现、模拟、修复、部署并验证，甚至临时创建了一个 Vercel 部署来针对 iPhone 模拟器进行测试。
+
+His conclusion: "Humans could simply never match this level of intensity." Software of the future will be of a quality and performance we've never experienced before.
+他的结论是："人类根本无法匹敌这种强度。"未来的软件将达到我们从未体验过的质量和性能水准。
+
+This is a vivid, concrete example of the emergent quality jump that agentic software development is delivering right now.
+这是一个生动具体的案例，展示了代理软件开发正在实时交付的跨越式质量提升。
+
+---
+
+🐦 Aaron Levie (@levie)
+Source: https://x.com/levie/status/2101731574668747081
+
+Box CEO Aaron Levie posted a cryptic one-liner: "Literally impenetrable from agent swarms."
+Box CEO Aaron Levie 发了一句意味深长的话："对代理群完全无懈可击。"
+
+The context is unclear—likely referencing a product, system, or interface that is either impressively robust or frustratingly hard for AI agents to interact with.
+语境不明——可能是指某个产品、系统或界面，要么对 AI 代理极为坚固，要么极难被代理操控。
+
+Either way it underscores a growing industry concern: designing systems and content that can (or cannot) be traversed by autonomous agent swarms.
+无论如何，这句话折射出一个日益突出的行业议题：如何设计能够（或无法）被自主代理群穿透的系统和内容。
+
+---
+
+🐦 Matt Turck (@mattturck)
+Source: https://x.com/mattturck/status/2101820308009206077
+
+FirstMark Capital VC Matt Turck delivered the wry commentary of the day: "Everyone is obsessed with Jev now, but I'm old enough to remember when people couldn't shut up about Instinct, all the way back to mid last week. Simpler times."
+FirstMark Capital 投资人 Matt Turck 贡献了今日最妙的一句吐槽："现在大家都在谈 Jev，但我老到还记得上上周中期所有人都在刷 Instinct 的日子。那时候多单纯啊。"
+
+A dry observation on the hyper-compressed hype cycles of the current AI moment—new models and "model of the week" culture is now measured in days, not months.
+这是对当前 AI 时代极度压缩的炒作周期的冷静旁观——"本周最热模型"的窗口期现在以天计，而非月计。
+
+---
+
+🐦 Nikunj Kothari (@nikunj)
+Source: https://x.com/nikunj/status/2101742225906655315
+
+FPV Ventures partner Nikunj Kothari jokingly pitched a "next day curry" cloud kitchen concept—ordering the best curries, storing overnight, and serving the next day—because leftover Indian food, Ramen, and Thai curry taste better the next day.
+FPV Ventures 合伙人 Nikunj Kothari 半开玩笑地提出了"隔夜咖喱"云厨房概念——采购最好的咖喱，存放一夜后第二天再卖，因为隔夜的印度菜、拉面和泰式咖喱确实更好吃。
+
+A rare non-AI tweet from the builder community—a reminder that the people building the future also have opinions about fermentation chemistry.
+AI 圈难得一见的非 AI 推文——这提醒我们，造未来的人同样关心"为什么隔夜食物更美味"这种日常哲学。
+
+---
+
+🐦 Peter Steinberger (@steipete)
+Sources:
+- https://x.com/steipete/status/2101748928274419843
+- https://x.com/steipete/status/2101748820237500557
+
+OpenClaw co-creator Peter Steinberger announced two things: first, that OpenClaw can now FaceTime you—a significant new capability for the AI assistant platform.
+OpenClaw 联合创建者 Peter Steinberger 同时宣布了两件事：第一，OpenClaw 现在可以主动 FaceTime 你了——这是这款 AI 助手平台的重要新能力。
+
+Second, "New benchmark dropped"—suggesting a new evaluation or performance benchmark has been released, likely related to OpenClaw or a model it uses.
+第二，"New benchmark dropped"——暗示发布了一项新的评测基准，可能与 OpenClaw 或其使用的模型相关。
+
+Peter's bio ("Polyagentmorous ClawFather") perfectly captures his role at the intersection of AI infrastructure and experimental agent design.
+Peter 的 bio（"多代理爸爸，蟹钳教父"）完美地概括了他在 AI 基础设施与实验性代理设计交叉点上的角色。
+
+---
+
+🐦 Dan Shipper (@danshipper)
+Source: https://x.com/danshipper/status/2101816740741329218
+
+Every CEO Dan Shipper simply posted: "highly recommend / this is my favorite book"—without naming the book.
+Every CEO Dan Shipper 只发了一句："强烈推荐 / 这是我最爱的书"——但没有说是哪本书。
+
+The mystery is either a deliberate tease or the link preview does the work. Either way, from the CEO of one of AI's most thoughtful writing platforms, the recommendation carries weight even without a title.
+这要么是刻意的悬念营销，要么是靠链接预览来说话。但无论如何，来自 AI 写作领域最有深度的平台创始人的推荐，即便没有书名也自带分量。
