@@ -1,312 +1,256 @@
-AI Builders 日报 · 2026-09-24
+AI Builders 日报 · 2026-09-25
 
-Today's digest features 17 AI builders sharing insights on Claude Opus 5.5, GPT-6, model pricing, and the future of software.
-今日日报收录17位AI建设者的动态，聚焦Claude Opus 5.5、GPT-6发布、模型降价以及软件未来等议题。
-
----
-
-Josh Woodward (@joshwoodward)
-VP, Google Labs / Gemini / Google AI Studio
-
-Josh celebrated a big milestone today with the Google Labs team.
-Josh今日庆祝了Google Labs团队达成的一项重要里程碑。
-
-Source: https://x.com/joshwoodward/status/2102498448364954083
+AI Builders Digest — 2026-09-25
+AI Builders 日报 · 2026-09-25
 
 ---
 
-Boris Cherny (@bcherny)
-
-Boris has been deeply impressed by Claude Opus 5.5, calling it his daily driver for the past few weeks.
-Boris对Claude Opus 5.5印象深刻，称其已连续数周将其作为日常主力模型使用。
-
-He ran a fascinating benchmark — having both Opus 5.5 and Fable 5.1 port HAProxy from C to Rust. Both passed nearly all tests, but Opus 5.5 won on key metrics.
-他进行了一项有趣的基准测试——分别让Opus 5.5和Fable 5.1将HAProxy从C语言移植到Rust，两者几乎通过了所有测试，但Opus 5.5在关键指标上胜出。
-
-*"Opus 5.5 is a really good model."*
-"Opus 5.5真的是一个非常出色的模型。"
-
-He also used Opus 5.5 to formally verify the Claude Agent SDK using Lean — just a couple of short prompts resulted in 16 PRs that fixed various bugs and race conditions.
-他还使用Opus 5.5配合Lean对Claude Agent SDK进行了形式化验证——仅凭几个简短提示就生成了16个PR，修复了各种bug和竞争条件。
-
-Additionally, Opus 5.5 made an infographic for him.
-此外，Opus 5.5还为他生成了一张信息图。
-
-Sources:
-https://x.com/bcherny/status/2102439069053747549
-https://x.com/bcherny/status/2102543349102338309
-https://x.com/bcherny/status/2102543350436180277
+X / TWITTER
 
 ---
 
-Thibault Sottiaux (@thsottiaux)
+**Swyx (swyx on X)** — AI engineer, founder of smol.ai and Latent Space Podcast
+Swyx (smol.ai 创始人、Latent Space Podcast 主持人)
 
-Thibault's team launched GPT-6 Sol and Luna today — a very significant improvement across the board, especially in writing quality and that hard-to-define "you know when you try it" feeling.
-Thibault的团队今日发布了GPT-6 Sol和Luna，在各项指标上都有显著提升，尤其是写作质量以及那种"用过才知道"的感觉。
+Swyx ran his AINews newsletter side-by-side with Claude Opus 5.5 versus Sonnet 6 and found the difference was "night and day."
+Swyx 将 AINews 简报分别用 Claude Opus 5.5 和 Sonnet 6 并排对比，发现差距"天差地别"。
 
-The team is also permanently reducing prices.
-团队同时宣布永久降价。
+He declared Opus 5.5 the new default model for AINews, praising its conciseness and tasteful reporting with far less "slop" than even Opus 5.
+他宣布 Opus 5.5 将成为 AINews 的默认模型，称赞其简洁性和报道品味远超 Opus 5，"废话"明显减少。
 
-*"We have been focusing on efficiency and intelligence for all."*
-"我们一直专注于让所有人都能享受到更高效、更智能的体验。"
+*"5.5 Opus is the new default model for AINews going forward. so much more concise and tasteful reporting, with much less slopese than even 5 Opus."*
 
-He shared pride in the team's achievement: building highly capable frontier models that then enable more efficient, smaller models at lower cost — a compounding flywheel.
-他为团队的成就感到自豪：打造出顶尖前沿模型，再用其驱动更小、更高效的低成本模型——形成复利飞轮效应。
-
-He also teased their "cutest launch so far" that still packs the biggest punch.
-他还预告了他们"迄今最可爱但威力最强"的发布。
-
-Sources:
-https://x.com/thsottiaux/status/2102440619616682120
-https://x.com/thsottiaux/status/2102463847714247142
-https://x.com/thsottiaux/status/2102509507415048245
+https://x.com/swyx/status/2102650014552182920
 
 ---
 
-Peter Yang (@petergyang)
+**Josh Woodward (joshwoodward on X)** — VP, Google Labs / Gemini
+Josh Woodward（谷歌实验室 / Gemini 副总裁）
 
-Peter shared that he's more excited about Claude Opus 5.5 than any recent Claude model, writing about it for his newsletter with 110,000+ subscribers.
-Peter表示他对Claude Opus 5.5的兴奋程度超过了近期任何一个Claude版本，并为其拥有超过11万订阅者的Newsletter撰文介绍。
+Josh teased that more popular third-party apps are coming to Gemini, inviting users to share which ones they want next.
+Josh 预告更多热门第三方应用即将接入 Gemini，并邀请用户分享他们最希望优先支持哪些应用。
 
-He also randomly discovered a great Australian show on Apple TV.
-他还偶然在Apple TV上发现了一部很不错的澳大利亚剧。
-
-Sources:
-https://x.com/petergyang/status/2102577425838485916
-https://x.com/petergyang/status/2102589061445939508
-https://x.com/petergyang/status/2102628682301046875
+https://x.com/joshwoodward/status/2102800209894056351
 
 ---
 
-Cat Wu (@_catwu)
+**Boris Cherny (bcherny on X)** — Claude Code, Anthropic
+Boris Cherny（Anthropic Claude Code 工程师）
 
-Cat announced that Claude Opus 5.5 is now the default model in Claude Code and the Claude app — including Cowork — for Pro, Max, and Team plans.
-Cat宣布Claude Opus 5.5现已成为Claude Code和Claude应用（含Cowork）中Pro、Max和Team计划的默认模型。
+Boris shared how Claude.ai and the Desktop app achieved significant speed improvements in recent weeks, publishing a blog post with technical techniques for engineers wanting to speed up their own apps.
+Boris 分享了 Claude.ai 和桌面应用如何在近期实现大幅提速，并发布了一篇面向工程师的技术博客，介绍了可复用的加速技巧。
 
-*"I've been using Opus 5.5 as a daily driver and love its clear communication."*
-"我一直将Opus 5.5作为日常主力使用，非常喜欢它清晰的沟通方式。"
+He also revealed a fascinating technical detail: Claude is now using formal methods-inspired techniques on codebases — building program models, finding counter-examples (suspected bugs), reproducing them, and fixing the code.
+他还揭示了一个有趣的技术细节：Claude 正在对代码库应用形式化验证思路——构建程序模型、找出反例（疑似 Bug）、复现并修复。
 
-She also shared tips on how to try Opus 5.5 and Claude Tag in Slack.
-她还分享了在Slack中使用Opus 5.5和Claude Tag的技巧。
+*"It's not that the whole codebase is formally verified (yet!..), more that the hairiest parts of the code are modeled, checked for counter-examples, and fixed."*
 
-Sources:
-https://x.com/_catwu/status/2102437713781944397
-https://x.com/_catwu/status/2102569951974584612
+He also had the honor of meeting legendary computer scientist Donald Knuth at the Computer History Museum.
+他还有幸在计算机历史博物馆会见了传奇计算机科学家高德纳（Donald Knuth）。
 
----
-
-Thariq (@trq212)
-
-Thariq shared some thoughtful product philosophy today.
-Thariq今日分享了一些深刻的产品理念。
-
-On using AI capabilities: the right approach isn't to ship 10x more features to production — it's to spend more time understanding users, running experiments, building prototypes, and learning.
-关于如何使用AI能力：正确方式不是向生产环境推出10倍功能，而是花更多时间理解用户、进行实验、构建原型、持续学习。
-
-*"The right way to use model capabilities is not to ship 10x more features to prod."*
-"使用模型能力的正确方式不是向生产环境推出10倍的功能。"
-
-On game development: 3D generation is great for visualizing your game, but you need to figure out a satisfying game loop first.
-关于游戏开发：3D生成虽然有助于想象游戏效果，但首先得设计出令人满意的游戏循环。
-
-He also noted that Claude Workflows (with Fable-level intelligence) have become a core part of how he uses Claude daily — making it cost-effective too.
-他还提到Claude工作流（具备Fable级别智能）已成为他日常使用Claude的核心方式，且性价比极高。
-
-Sources:
-https://x.com/trq212/status/2102477527688388752
-https://x.com/trq212/status/2102548686303854790
-https://x.com/trq212/status/2102549030303867257
+https://x.com/bcherny/status/2102898067133595992
+https://x.com/bcherny/status/2102854267782705648
+https://x.com/bcherny/status/2102971275543216623
 
 ---
 
-Amjad Masad (@amasad)
+**Thibault Sottiaux (thsottiaux on X)** — Codex & ChatGPT, OpenAI
+Thibault Sottiaux（OpenAI Codex 与 ChatGPT 工程师）
 
-Amjad took a playful jab at the AI naming wars: while others have "artificial" intelligence, he's claiming "Super Intelligence" — SI.
-Amjad以幽默方式加入AI命名大战：别人是"人工"智能，而他要的是"超级"智能——SI。
+Thibault is excited for OpenAI DevDay next Tuesday, hinting at "really fun stuff" and "many many things that should change the way you work."
+Thibault 对下周二的 OpenAI DevDay 充满期待，暗示届时将公布"非常有趣的东西"以及"很多能改变你工作方式的内容"。
 
-*"Your intelligence is fake. It's artificial. Mine? It's super."*
-"你的智能是假的，是人工的。而我的？是超级的。"
+*"It's been our most ambitious sprint and Astra has really made new things possible in such short amounts of time."*
 
-Source: https://x.com/amasad/status/2102489320766800002
+He also highlighted ChatGPT Voice as a game-changer for his daily workflow — handling emails, coding, calendar management all through voice, with support for third-party plugins.
+他还着重提到 ChatGPT 语音功能已成为他日常工作流的核心——用语音处理邮件、写代码、管理日历，并支持第三方插件生态。
 
----
-
-Guillermo Rauch (@rauchg)
-
-Guillermo shared three big ideas today.
-Guillermo今日分享了三个重要观点。
-
-He ran fresh Next.js evals and found that Opus 5.5, GPT-6 Sol, and Fable 5.1 all tied at 97%, with Grok 4.7 close behind at 94% — but notably 2–7x cheaper.
-他进行了最新的Next.js评估，发现Opus 5.5、GPT-6 Sol和Fable 5.1均以97%并列第一，Grok 4.7以94%紧随其后——但价格便宜2到7倍。
-
-He praised Anthropic's tasteful shipping style, noting that with AI, web pages can now take any whimsical or unique shape — "headless" for the web is finally exciting.
-他称赞Anthropic的产品发布风格有品味，并指出借助AI，网页现在可以呈现任何奇特独特的形态——"无头"Web终于令人兴奋了。
-
-*"Software will never die again. You liked Google Reader? Cool, you can generate and deploy your own. Yours, forever."*
-"软件将永远不再死去。你喜欢Google Reader？太好了，你可以生成并部署属于自己的版本，永久拥有。"
-
-Sources:
-https://x.com/rauchg/status/2102438365455167883
-https://x.com/rauchg/status/2102519097770885231
-https://x.com/rauchg/status/2102594015669756323
+https://x.com/thsottiaux/status/2102996313780736363
+https://x.com/thsottiaux/status/2102814202117411196
 
 ---
 
-Alex Albert (@alexalbert__)
+**Peter Yang (petergyang on X)** — AI educator and creator
+Peter Yang（AI 教育者与内容创作者）
 
-Alex has been on a Blender kick with Claude Opus 5.5, leveraging its improved 3D modeling and vision capabilities.
-Alex最近迷上了用Claude Opus 5.5玩Blender，充分利用其增强的3D建模和视觉能力。
+Peter gave Opus 5.5 a rave review, calling it smart, fast, fun to talk to, good at writing, friendly on rate limits, and "constantly surprising at just how much it is capable of."
+Peter 对 Opus 5.5 给出了极高评价：聪明、快速、对话有趣、写作出色、速率限制宽松，且"其能力之强令人不断惊叹"。
 
-He built an entire historically accurate scene of 1906 San Francisco's Market Street — pre-earthquake — from a single prompt.
-他仅用一个提示词就构建出了1906年旧金山市场街地震前的完整历史还原场景。
+He also shared a prompt that replaced "crappy corporate slides" with impressive AI-generated presentations.
+他还分享了一个 prompt，将"糟糕的企业幻灯片"替换为令人印象深刻的 AI 生成演示文稿。
 
-*"I've been on a Blender kick with Opus 5.5. Its better 3D modeling and vision mean you can build an entire world from a single prompt."*
-"我最近沉迷于用Opus 5.5玩Blender。其更强的3D建模和视觉能力意味着你可以从一个提示词构建出整个世界。"
+On the model-vs-harness debate, Peter noted: *"Right now one lab has the best model and another has the best harness"* — arguing Claude Code needs better live voice and browser/computer use to fully capitalize on Claude's model quality.
+在模型与工具链的讨论上，Peter 指出："目前一家实验室拥有最好的模型，另一家拥有最好的工具链"——认为 Claude Code 需要更好的实时语音和浏览器/计算机操控能力，才能充分发挥 Claude 的模型优势。
 
-He also reminded users to update to the latest Claude version rolling out to everyone.
-他还提醒用户更新到正在向所有人推送的最新Claude版本。
-
-Sources:
-https://x.com/alexalbert__/status/2102458350348935454
-https://x.com/alexalbert__/status/2102466523164274839
-https://x.com/alexalbert__/status/2102466524934271381
+https://x.com/petergyang/status/2102946952740741394
+https://x.com/petergyang/status/2102952201350254667
+https://x.com/petergyang/status/2102956775645552645
 
 ---
 
-Aaron Levie (@levie)
+**Madhu Guru (realmadhuguru on X)** — Sr Director of AI, Meta (prev Google: Gemini, Veo, Nano)
+Madhu Guru（Meta AI 高级总监，前谷歌 Gemini/Veo/Nano 负责人）
 
-Aaron called today "an insane day in AI" — Opus 5.5 price cuts plus GPT-6 Sol and Luna dropping token prices by 50%.
-Aaron称今天是"AI领域疯狂的一天"——Opus 5.5降价，加上GPT-6 Sol和Luna将token价格降低了50%。
+Madhu pushed back on Ben Thompson's take on AI agents, arguing that consumers don't have a single relationship with "doing things" — sometimes browsing is entertainment, sometimes you just want zero friction.
+Madhu 反驳了 Ben Thompson 关于 AI Agent 的观点，指出消费者对"做事"并没有单一的期待——有时浏览本身就是享受，有时则只想零摩擦地完成任务。
 
-*"The rate at which the cost of intelligence is dropping is unlike anything we've ever seen in enterprise software."*
-"智能成本下降的速度是企业软件史上前所未有的。"
+He drew a parallel to early e-commerce skepticism: people said you couldn't buy a $500 TV online, or clothes without trying them on.
+他类比了早期电商时代的质疑：当年人们说不可能在网上买 500 美元的电视，也不可能买没试穿的衣服。
 
-At Box, they tested Opus 5.5 on complex enterprise knowledge work tasks with unstructured data via the Box Agent — seeing frontier capability levels with major improvements.
-在Box，他们通过Box Agent测试了Opus 5.5在复杂企业知识型任务（非结构化数据）上的表现，达到了前沿能力水平并有重大提升。
+*"The latent demand for agents that remove this friction for consumers is immense."*
+"消费者对能消除这种摩擦的 Agent 存在巨大的潜在需求。"
 
-Sources:
-https://x.com/levie/status/2102448415775051790
-https://x.com/levie/status/2102477253070430322
-
----
-
-Garry Tan (@garrytan)
-
-Garry shared that Capy (@capydotai) lets him drop PRs much faster than he could with Codex or Claude Code alone.
-Garry分享道，Capy（@capydotai）让他提交PR的速度远超单独使用Codex或Claude Code。
-
-He emphasized the need to teach the world to prompt and maximally use AI — so it can give wings to all people in all their pursuits.
-他强调了向世界传授如何提示和最大化使用AI的必要性——让AI为所有人的各项追求插上翅膀。
-
-He also noted that GStack does encourage promising builders to apply to YC.
-他还提到GStack确实会鼓励有潜力的构建者申请YC。
-
-Sources:
-https://x.com/garrytan/status/2102501556348440983
-https://x.com/garrytan/status/2102537390774759761
-https://x.com/garrytan/status/2102544711647129902
+https://x.com/realmadhuguru/status/2102777931764498536
 
 ---
 
-Nikunj Kothari (@nikunj)
+**Thariq (trq212 on X)** — Claude Code, Anthropic (prev YC W20)
+Thariq（Anthropic Claude Code 工程师，前 YC W20）
 
-Nikunj released a new episode of his "A Walk In The Park" podcast (Part III), featuring Todd Saunders — a councilman who went from Google to flooring software, involving a $10M pivot and life after the tech industry.
-Nikunj发布了"A Walk In The Park"播客第三期，嘉宾Todd Saunders是一位从Google转型到地板软件创业的议员，故事涉及1000万美元的业务转型和离开科技行业后的人生。
+Thariq's team launched a new type of post format: in-depth sharing of how they actually do their work at Anthropic, with specific prompts and techniques readers can replicate.
+Thariq 的团队推出了一种新型内容形式：深度分享他们在 Anthropic 的实际工作方法，提供可直接复用的具体 prompt 和技巧。
 
-He also observed that the amount of SPVs organized by top investors is "mind boggling" — suggesting that large fundraise headlines now routinely involve substantial SPV portions.
-他还指出，顶级投资机构发起的SPV数量"令人震惊"——意味着大额融资新闻背后往往隐藏着大量SPV参与。
+He added a sharp observation about "Claude one-shot this" posts: *"the prompt: 10k characters with good takes plus skills, examples and API keys"* — pointing out that impressive results come from heavily engineered prompts, not magic.
+他犀利地指出那些"Claude 一击即中"的帖子背后的真相：*"那个 prompt：1 万字符，包含精心设计的思路、技能说明、示例和 API 密钥"*——说明令人印象深刻的结果来自精心工程化的提示，而非魔法。
 
-Sources:
-https://x.com/nikunj/status/2102395699895677325
-https://x.com/nikunj/status/2102409907278602622
-https://x.com/nikunj/status/2102534909076349291
-
----
-
-Peter Steinberger (@steipete)
-
-Peter discovered that ChatGPT had been crashing on macOS 27 after an update — and found the culprit: Astra (Google's AI agent) traced it to an approximately 14-year-old bug in libuv.
-Peter发现ChatGPT在更新后在macOS 27上频繁崩溃——查明原因后发现：Astra（Google的AI智能体）将其追溯到libuv中一个约14年历史的老bug。
-
-This is a fascinating example of AI agents surfacing deeply hidden, long-standing system bugs.
-这是AI智能体挖掘出深藏已久的系统级bug的绝佳案例。
-
-Source: https://x.com/steipete/status/2102501642176528743
+https://x.com/trq212/status/2102857025206255902
+https://x.com/trq212/status/2102870353781641416
 
 ---
 
-Dan Shipper (@danshipper)
+**Amjad Masad (amasad on X)** — CEO, Replit
+Amjad Masad（Replit CEO）
 
-Dan gained almost 10,000 new followers today — a viral day.
-Dan今日新增近1万名关注者——迎来了一个爆发性的传播日。
+Amjad shared a teaser (👀) hinting at something new coming from Replit.
+Amjad 发布了一个神秘预告（👀），暗示 Replit 有新动作即将到来。
 
-For newcomers, he highlighted two must-reads: his vibe check comparing Opus 5.5 vs GPT-6 Sol on Every, and his piece on life after automation.
-他为新粉丝推荐了两篇必读文章：在Every上发布的Opus 5.5与GPT-6 Sol对比评测，以及关于自动化时代之后生活的深度思考。
+He also reflected on education, arguing that ideal colleges should cultivate young people who break molds, question deeply held beliefs, and attempt the impossible.
+他还就教育发表看法，认为理想的大学应该培养那些打破常规、质疑根深蒂固信念、敢于尝试不可能之事的年轻人。
 
-He also shared a link to Every's latest content.
-他还分享了Every平台的最新内容链接。
-
-Sources:
-https://x.com/danshipper/status/2102555830080205130
-https://x.com/danshipper/status/2102556723244564715
-https://x.com/danshipper/status/2102557212581536207
+https://x.com/amasad/status/2102939873384792340
+https://x.com/amasad/status/2102799031038878172
 
 ---
 
-Aditya Agarwal (@adityaag)
+**Guillermo Rauch (rauchg on X)** — CEO, Vercel
+Guillermo Rauch（Vercel CEO）
 
-Aditya has hosted over 50 Minus One fireside chats at SPC with well-known guests — but the first one his 9-year-old asked to attend was yesterday's chat with Dmitri of Waymo.
-Aditya在SPC举办了超过50场Minus One炉边对话，但他9岁的孩子第一次主动要求参加的，是昨天与Waymo的Dmitri的对话。
+Guillermo introduced Vercel Drives — a new "external disk" that can be attached to agents without booting up the full agent computer, solving the missing storage layer for cloud-based agents.
+Guillermo 发布了 Vercel Drives——一种无需启动完整 Agent 计算机即可挂载的"外置磁盘"，解决了云端 Agent 缺失存储层的问题。
 
-He reflected on how AI in autonomous vehicles predates today's model safety debates — his first Waymo ride "felt like a religious experience."
-他回顾道，自动驾驶汽车中的AI早于当今的模型安全讨论——他第一次乘坐Waymo"感觉像是一种宗教体验"。
+He outlined a framework for all successful agents (Muse, Instinct, OpenClaw, Claude Code): Brain (model + harness), Hands (tools/browser/computer), and Files (memories/skills/repos).
+他提出了所有成功 Agent（Muse、Instinct、OpenClaw、Claude Code）的三要素框架：大脑（模型+工具链）、双手（工具/浏览器/计算机）、文件（记忆/技能/代码仓库）。
 
-He also reminded builders not to forget that AI products should be delightful and fun — praising Sentience for its magic moments.
-他还提醒构建者不要忘记AI产品应该令人愉悦和有趣——并称赞Sentience带来的神奇体验。
+*"Breaking apart the agent into these independent parts not only optimizes costs in a big way, it also massively improves security and auditability. I'd argue you can't even run a secure agent otherwise!"*
+"将 Agent 拆分为独立组件，不仅能大幅优化成本，还能极大地提升安全性和可审计性。我认为，不这样做根本无法运行一个安全的 Agent！"
 
-*"In the mad dash for productivity...we often forget that AI products should be delightful and FUN."*
-"在疯狂追求生产力的过程中……我们常常忘记AI产品应该令人愉悦、充满乐趣。"
+He also shared that Claude Opus 5.5 found great shell startup time optimizations for his .zshrc that other models missed.
+他还分享了 Claude Opus 5.5 为他的 .zshrc 找到的绝佳 shell 启动时间优化方案，这是其他模型所忽略的。
 
-Sources:
-https://x.com/adityaag/status/2102421668509733058
-https://x.com/adityaag/status/2102457464432284019
-https://x.com/adityaag/status/2102498288658526614
-
----
-
-Sam Altman (@sama)
-
-Sam had a bit of a clarification moment — he meant VOICE not video in a previous post. *"argh i meant VOICE not video :("*
-Sam发了一条更正推文——他之前说的是VOICE（语音）不是video（视频）。"唉，我是指语音不是视频 :("
-
-He shared thoughts on startups being naturally good at something that's hard for bigger companies to maintain — an underexplored space he finds fascinating.
-他分享了对初创企业天然擅长某些事情的看法——而大公司难以维持这种能力，这是他认为值得深入探索的领域。
-
-He praised Michelle (likely Michelle Fradin) and OpenAI's luck in having her — hinting at exciting things she and her team have in the pipeline.
-他称赞了Michelle，并表达了OpenAI因拥有她而感到幸运——暗示她和团队正在酝酿令人期待的新事物。
-
-Sources:
-https://x.com/sama/status/2102468713866055872
-https://x.com/sama/status/2102469008079679640
-https://x.com/sama/status/2102512794235207758
+https://x.com/rauchg/status/2102820148629614685
+https://x.com/rauchg/status/2102947745132924993
 
 ---
 
-Claude (@claudeai)
+**Aaron Levie (levie on X)** — CEO, Box
+Aaron Levie（Box CEO）
 
-The official Claude account announced Claude Opus 5.5 is available today.
-Claude官方账号宣布Claude Opus 5.5今日正式上线。
+Aaron shared a compelling vision for AI and the creative industry, drawing parallels to how sound, color, and CGI each expanded storytelling rather than shrinking it.
+Aaron 分享了一个关于 AI 与创意产业的远见，类比了声音、色彩和 CGI 如何不断扩展而非压缩叙事空间。
 
-They showcased two creative demos built with Opus 5.5:
-他们展示了两个用Opus 5.5构建的创意演示：
+*"As the barriers and the costs come down, more films will get made, not fewer. Studios will get to take more risks... Every time storytelling has met a genuine technological shift... it has redefined the boundaries of the medium and grown larger in the process."*
+"随着门槛和成本的降低，会有更多影片被制作出来，而不是更少。每当叙事与真正的技术变革相遇……它都会重新定义媒介的边界，并在这个过程中变得更大。"
 
-1. An algorithmic drawing program by @kevin_t_ngo where every drawing is based on a different seed.
-   @kevin_t_ngo创作的算法绘画程序，每幅画都基于不同的随机种子生成。
+He also announced that Muse and Box are now integrated together.
+他还宣布 Muse 与 Box 已完成集成。
 
-2. A toy brick-building app that turns a photo or description into a buildable model with custom instructions.
-   一个积木搭建应用，能将照片或描述转换为可搭建的模型，并支持自定义指令。
+https://x.com/levie/status/2102934874470617303
+https://x.com/levie/status/2102915863989075979
 
-Sources:
-https://x.com/claudeai/status/2102471885061812714
-https://x.com/claudeai/status/2102471889092276516
-https://x.com/claudeai/status/2102471892099866883
+---
+
+**Ryo Lu (ryolu_ on X)** — Designer of Cursor, Notion, Stripe
+Ryo Lu（Cursor、Notion、Stripe 设计师）
+
+Ryo published a deeply reflective essay-thread challenging the AI-era obsession with speed, productivity, and endless output.
+Ryo 发表了一篇深刻的反思性长文，质疑 AI 时代对速度、生产力和无限产出的痴迷。
+
+He argued that the real danger of AI is not making us lazy, but making us "endlessly busy" — giving us infinite production before we've found intention, infinite execution before we've developed taste.
+他认为，AI 的真正危险不是让我们变懒，而是让我们"无休止地忙碌"——在我们找到意图之前给予无限产出，在我们培养出品味之前给予无限执行力。
+
+*"Speed is not meaning. Scale is not wisdom. Automation is not freedom if it only makes everyone run faster."*
+"速度不是意义。规模不是智慧。如果自动化只是让所有人跑得更快，那它并不是自由。"
+
+He called for AI to help people "become more human — more imaginative, more free" rather than turning life into a factory without humans.
+他呼吁 AI 应帮助人们"变得更有人情味——更富想象力、更自由"，而不是将生活变成一座没有人类的工厂。
+
+https://x.com/ryolu_/status/2102933485795369213
+
+---
+
+**Garry Tan (garrytan on X)** — President & CEO, Y Combinator
+Garry Tan（Y Combinator 总裁兼 CEO）
+
+Garry shared a key insight for startup customer acquisition in the AI era: two simultaneous trends — making software agents want your product, and using agents to make people want software.
+Garry 分享了 AI 时代创业公司获客的关键洞察：两个同时发生的趋势——让软件 Agent 主动选择你的产品，以及用 Agent 来让用户主动需要软件。
+
+He expressed strong admiration for Muse, calling it "very impressive."
+他对 Muse 赞赏有加，称其"非常令人印象深刻"。
+
+He also teased something "not priced in yet" — hinting at an underappreciated shift in the market.
+他还暗示某些东西"尚未被市场定价"，暗示市场存在一个被低估的转变。
+
+https://x.com/garrytan/status/2102955139875397806
+https://x.com/garrytan/status/2102974165800399274
+https://x.com/garrytan/status/2102972765989151226
+
+---
+
+**Dan Shipper (danshipper on X)** — CEO, Every
+Dan Shipper（Every CEO）
+
+Dan hosted a real-world experiment: Every's AI agent planned the company's September meetup in Brooklyn — from food and drinks menu to the guest list.
+Dan 进行了一场真实世界的实验：Every 的 AI Agent 全权规划了公司在布鲁克林举办的九月聚会——从餐饮菜单到宾客名单。
+
+The event served as a live grading session for whether an AI agent can throw a good party.
+这场活动本身也成为了一次现场评审，检验 AI Agent 是否能办好一场派对。
+
+https://x.com/danshipper/status/2102826854357016793
+
+---
+
+**Aditya Agarwal (adityaag on X)** — General Partner, SPC; Co-Founder, Bevel Health; Ex-CTO Dropbox
+Aditya Agarwal（SPC 普通合伙人、Bevel Health 联合创始人、前 Dropbox CTO）
+
+Aditya made the case that team longevity is a far better metric than team size — a team working together 3+ years has significantly higher throughput and resilience than one that just formed.
+Aditya 论证了团队稳定性远比团队规模更重要——一个合作超过 3 年的团队，其效率和韧性显著优于刚组建的团队。
+
+*"AUC for teams is the right metric."*
+"团队的'曲线下面积'（长期累积表现）才是正确的衡量指标。"
+
+He also celebrated Mark Zuckerberg's leadership style: *"You think Zuck is good when he is down and in the trenches... Just see how he dominates when he has the big stack."*
+他还高度评价了扎克伯格的领导风格："你以为扎克在艰难时期才好？看看他手握优势时是如何主宰全局的。"
+
+https://x.com/adityaag/status/2102782451643040074
+https://x.com/adityaag/status/2102948781813792996
+
+---
+
+**Claude AI (claudeai on X)** — Official Anthropic Claude account
+Claude AI（Anthropic 官方 Claude 账号）
+
+Anthropic launched Claude Marketplace — a new hub where users can discover tools, agents, and expert partners.
+Anthropic 推出了 Claude Marketplace——一个供用户发现工具、Agent 和专业合作伙伴的全新平台。
+
+The marketplace lets users add connectors and plugins (like Slack and Notion), buy agents and products from companies like Cursor and CrowdStrike, and scale with service partners like Accenture and Deloitte.
+该平台支持用户添加连接器和插件（如 Slack 和 Notion）、购买来自 Cursor 和 CrowdStrike 等公司的 Agent 与产品，以及与埃森哲、德勤等服务合作伙伴携手扩展。
+
+Developers can also list their own tools, agents, or services on the marketplace.
+开发者也可以将自己的工具、Agent 或服务上架至该平台。
+
+https://x.com/claudeai/status/2102840851538080172
+https://x.com/claudeai/status/2102840855258452037
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
