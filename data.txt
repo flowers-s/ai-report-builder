@@ -1,255 +1,215 @@
-AI Builders 日报 · 2026-09-25
+AI Builders 日报 · 2026-09-26
 
-AI Builders Digest — 2026-09-25
-AI Builders 日报 · 2026-09-25
-
----
-
-X / TWITTER
+AI Builders Digest — 2026-09-26
+AI Builders 日报 — 2026-09-26
 
 ---
 
-**Swyx (swyx on X)** — AI engineer, founder of smol.ai and Latent Space Podcast
-Swyx (smol.ai 创始人、Latent Space Podcast 主持人)
+## OFFICIAL BLOGS
+## 官方博客
 
-Swyx ran his AINews newsletter side-by-side with Claude Opus 5.5 versus Sonnet 6 and found the difference was "night and day."
-Swyx 将 AINews 简报分别用 Claude Opus 5.5 和 Sonnet 6 并排对比，发现差距"天差地别"。
+### Claude Blog
 
-He declared Opus 5.5 the new default model for AINews, praising its conciseness and tasteful reporting with far less "slop" than even Opus 5.
-他宣布 Opus 5.5 将成为 AINews 的默认模型，称赞其简洁性和报道品味远超 Opus 5，"废话"明显减少。
+**Claude for Small Business launches new workflows, integrations, and training programs**
+**Claude 小企业版发布新工作流、集成与培训计划**
 
-*"5.5 Opus is the new default model for AINews going forward. so much more concise and tasteful reporting, with much less slopese than even 5 Opus."*
+Claude for Small Business now includes 43 workflows and 27 new integrations with tools small businesses already use, including Shopify, Salesforce, TikTok, Atlassian, Zoom, Xero, Gusto, Square, Stripe, and Zapier.
+Claude 小企业版现已涵盖 43 个工作流，并新增与 Shopify、Salesforce、TikTok、Atlassian、Zoom、Xero、Gusto、Square、Stripe 和 Zapier 等小企业常用工具的 27 项集成。
 
-https://x.com/swyx/status/2102650014552182920
+These new workflows extend Claude from running the back office to growing the business, and they arrive with a fall schedule of free in-person workshops and partner webinars for owners who want help getting started.
+全新工作流将 Claude 的能力从后台运营延伸至业务增长，并配套推出秋季免费线下研讨会和合作伙伴网络研讨会，帮助企业主快速上手。
 
----
+The product has been installed more than 900,000 times since launching in May.
+该产品自 5 月上线以来已累计安装超 90 万次。
 
-**Josh Woodward (joshwoodward on X)** — VP, Google Labs / Gemini
-Josh Woodward（谷歌实验室 / Gemini 副总裁）
-
-Josh teased that more popular third-party apps are coming to Gemini, inviting users to share which ones they want next.
-Josh 预告更多热门第三方应用即将接入 Gemini，并邀请用户分享他们最希望优先支持哪些应用。
-
-https://x.com/joshwoodward/status/2102800209894056351
+Source: https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs
 
 ---
 
-**Boris Cherny (bcherny on X)** — Claude Code, Anthropic
-Boris Cherny（Anthropic Claude Code 工程师）
+## X / TWITTER
+## X / 推特精选
 
-Boris shared how Claude.ai and the Desktop app achieved significant speed improvements in recent weeks, publishing a blog post with technical techniques for engineers wanting to speed up their own apps.
-Boris 分享了 Claude.ai 和桌面应用如何在近期实现大幅提速，并发布了一篇面向工程师的技术博客，介绍了可复用的加速技巧。
+### Swyx (swyx on X) — Latent Space / AINews
 
-He also revealed a fascinating technical detail: Claude is now using formal methods-inspired techniques on codebases — building program models, finding counter-examples (suspected bugs), reproducing them, and fixing the code.
-他还揭示了一个有趣的技术细节：Claude 正在对代码库应用形式化验证思路——构建程序模型、找出反例（疑似 Bug）、复现并修复。
+Swyx announced the next phase of Latent Space, AINews, and his broader content strategy called "Scaling without Slop."
+Swyx 宣布 Latent Space、AINews 及其整体内容战略"Scaling without Slop"进入新阶段。
 
-*"It's not that the whole codebase is formally verified (yet!..), more that the hairiest parts of the code are modeled, checked for counter-examples, and fixed."*
+*"It took us 3 years to reach our first 100k on youtube. It only took 1.2 months for the next 100k."*
+他在推文中写道："我们花了 3 年时间在 YouTube 上积累首个 10 万粉丝，而下一个 10 万只用了 1.2 个月。"
 
-He also had the honor of meeting legendary computer scientist Donald Knuth at the Computer History Museum.
-他还有幸在计算机历史博物馆会见了传奇计算机科学家高德纳（Donald Knuth）。
+He has been tracking similar traction across AEO/SEO and subscriber metrics, and teased new ideas for the "New Media" era.
+他表示在 AEO/SEO 和订阅数据上也观察到类似增长势头，并预告了他对"新媒体"时代的一系列新想法。
 
-https://x.com/bcherny/status/2102898067133595992
-https://x.com/bcherny/status/2102854267782705648
-https://x.com/bcherny/status/2102971275543216623
+Source: https://x.com/swyx/status/2103361254433993165
 
 ---
 
-**Thibault Sottiaux (thsottiaux on X)** — Codex & ChatGPT, OpenAI
-Thibault Sottiaux（OpenAI Codex 与 ChatGPT 工程师）
+### Josh Woodward (joshwoodward on X) — Google Labs
 
-Thibault is excited for OpenAI DevDay next Tuesday, hinting at "really fun stuff" and "many many things that should change the way you work."
-Thibault 对下周二的 OpenAI DevDay 充满期待，暗示届时将公布"非常有趣的东西"以及"很多能改变你工作方式的内容"。
+Josh Woodward highlighted Dreambeans, one of Google Labs' newer experiments that is building a cult following.
+Josh Woodward 介绍了 Google Labs 的新实验项目 Dreambeans，该项目正在积累一批忠实用户。
 
-*"It's been our most ambitious sprint and Astra has really made new things possible in such short amounts of time."*
+*"It's simple: a fixed number of 'beans' brew every morning. They point you at the real world, with real people, doing things you care about together."*
+他写道："原理很简单：每天早晨定量'豆子'会自动生成，引导你去现实世界，与真实的人一起做你感兴趣的事。"
 
-He also highlighted ChatGPT Voice as a game-changer for his daily workflow — handling emails, coding, calendar management all through voice, with support for third-party plugins.
-他还着重提到 ChatGPT 语音功能已成为他日常工作流的核心——用语音处理邮件、写代码、管理日历，并支持第三方插件生态。
+The project reflects Google Labs' ongoing bet on social discovery and real-world connection as an AI-era differentiator.
+该项目体现了 Google Labs 在 AI 时代押注社交发现与现实连接的方向。
 
-https://x.com/thsottiaux/status/2102996313780736363
-https://x.com/thsottiaux/status/2102814202117411196
-
----
-
-**Peter Yang (petergyang on X)** — AI educator and creator
-Peter Yang（AI 教育者与内容创作者）
-
-Peter gave Opus 5.5 a rave review, calling it smart, fast, fun to talk to, good at writing, friendly on rate limits, and "constantly surprising at just how much it is capable of."
-Peter 对 Opus 5.5 给出了极高评价：聪明、快速、对话有趣、写作出色、速率限制宽松，且"其能力之强令人不断惊叹"。
-
-He also shared a prompt that replaced "crappy corporate slides" with impressive AI-generated presentations.
-他还分享了一个 prompt，将"糟糕的企业幻灯片"替换为令人印象深刻的 AI 生成演示文稿。
-
-On the model-vs-harness debate, Peter noted: *"Right now one lab has the best model and another has the best harness"* — arguing Claude Code needs better live voice and browser/computer use to fully capitalize on Claude's model quality.
-在模型与工具链的讨论上，Peter 指出："目前一家实验室拥有最好的模型，另一家拥有最好的工具链"——认为 Claude Code 需要更好的实时语音和浏览器/计算机操控能力，才能充分发挥 Claude 的模型优势。
-
-https://x.com/petergyang/status/2102946952740741394
-https://x.com/petergyang/status/2102952201350254667
-https://x.com/petergyang/status/2102956775645552645
+Source: https://x.com/joshwoodward/status/2103182635992514569
 
 ---
 
-**Madhu Guru (realmadhuguru on X)** — Sr Director of AI, Meta (prev Google: Gemini, Veo, Nano)
-Madhu Guru（Meta AI 高级总监，前谷歌 Gemini/Veo/Nano 负责人）
+### Peter Yang (petergyang on X) — Product Creator / Creator Economy
 
-Madhu pushed back on Ben Thompson's take on AI agents, arguing that consumers don't have a single relationship with "doing things" — sometimes browsing is entertainment, sometimes you just want zero friction.
-Madhu 反驳了 Ben Thompson 关于 AI Agent 的观点，指出消费者对"做事"并没有单一的期待——有时浏览本身就是享受，有时则只想零摩擦地完成任务。
+Peter Yang reacted to the rapid pace of AI capability jumps, noting that Astra "blew up" 3D models and Opus "blew up" videos.
+Peter Yang 感叹 AI 能力跃升的速度令人难以追赶——Astra 颠覆了 3D 模型，Opus 颠覆了视频生成。
 
-He drew a parallel to early e-commerce skepticism: people said you couldn't buy a $500 TV online, or clothes without trying them on.
-他类比了早期电商时代的质疑：当年人们说不可能在网上买 500 美元的电视，也不可能买没试穿的衣服。
+*"I don't even know what's next anymore."*
+他写道："我已经不知道下一个被颠覆的会是什么了。"
 
-*"The latent demand for agents that remove this friction for consumers is immense."*
-"消费者对能消除这种摩擦的 Agent 存在巨大的潜在需求。"
+He also shared a humorous take on "stroking the AI's ego" as a genuinely effective prompting technique.
+他还幽默地分享了"拍 AI 马屁"作为一种有效提示技巧的实测心得。
 
-https://x.com/realmadhuguru/status/2102777931764498536
-
----
-
-**Thariq (trq212 on X)** — Claude Code, Anthropic (prev YC W20)
-Thariq（Anthropic Claude Code 工程师，前 YC W20）
-
-Thariq's team launched a new type of post format: in-depth sharing of how they actually do their work at Anthropic, with specific prompts and techniques readers can replicate.
-Thariq 的团队推出了一种新型内容形式：深度分享他们在 Anthropic 的实际工作方法，提供可直接复用的具体 prompt 和技巧。
-
-He added a sharp observation about "Claude one-shot this" posts: *"the prompt: 10k characters with good takes plus skills, examples and API keys"* — pointing out that impressive results come from heavily engineered prompts, not magic.
-他犀利地指出那些"Claude 一击即中"的帖子背后的真相：*"那个 prompt：1 万字符，包含精心设计的思路、技能说明、示例和 API 密钥"*——说明令人印象深刻的结果来自精心工程化的提示，而非魔法。
-
-https://x.com/trq212/status/2102857025206255902
-https://x.com/trq212/status/2102870353781641416
+Source: https://x.com/petergyang/status/2103318850641260959
 
 ---
 
-**Amjad Masad (amasad on X)** — CEO, Replit
-Amjad Masad（Replit CEO）
+### Thariq Shihipar (trq212 on X) — Cursor
 
-Amjad shared a teaser (👀) hinting at something new coming from Replit.
-Amjad 发布了一个神秘预告（👀），暗示 Replit 有新动作即将到来。
+Thariq shared updates on Cursor's "plan mode," responding to user feedback that many builders prefer to plan and brainstorm without Claude automatically switching into execution mode.
+Thariq 分享了 Cursor 对"计划模式"的改进，回应了用户希望在规划和头脑风暴时 Claude 不要自动切入执行模式的反馈。
 
-He also reflected on education, arguing that ideal colleges should cultivate young people who break molds, question deeply held beliefs, and attempt the impossible.
-他还就教育发表看法，认为理想的大学应该培养那些打破常规、质疑根深蒂固信念、敢于尝试不可能之事的年轻人。
+His roadmap: convert plan mode into a built-in "mod," allow mods to add new modes or rebind the shift+tab shortcut, and let users share custom modes.
+他的规划包括：将计划模式改为内置"mod"、允许用户添加新模式或重新绑定 Shift+Tab 快捷键，以及支持自定义模式的创建与分享。
 
-https://x.com/amasad/status/2102939873384792340
-https://x.com/amasad/status/2102799031038878172
+He also shared a thoughtful piece on AI and creativity, expressing hope that Cursor's products can better enable and amplify creative practitioners.
+他还分享了一篇关于 AI 与创意的深思熟虑的文章，表达了希望 Cursor 产品能更好地赋能和放大创意从业者的愿景。
 
----
-
-**Guillermo Rauch (rauchg on X)** — CEO, Vercel
-Guillermo Rauch（Vercel CEO）
-
-Guillermo introduced Vercel Drives — a new "external disk" that can be attached to agents without booting up the full agent computer, solving the missing storage layer for cloud-based agents.
-Guillermo 发布了 Vercel Drives——一种无需启动完整 Agent 计算机即可挂载的"外置磁盘"，解决了云端 Agent 缺失存储层的问题。
-
-He outlined a framework for all successful agents (Muse, Instinct, OpenClaw, Claude Code): Brain (model + harness), Hands (tools/browser/computer), and Files (memories/skills/repos).
-他提出了所有成功 Agent（Muse、Instinct、OpenClaw、Claude Code）的三要素框架：大脑（模型+工具链）、双手（工具/浏览器/计算机）、文件（记忆/技能/代码仓库）。
-
-*"Breaking apart the agent into these independent parts not only optimizes costs in a big way, it also massively improves security and auditability. I'd argue you can't even run a secure agent otherwise!"*
-"将 Agent 拆分为独立组件，不仅能大幅优化成本，还能极大地提升安全性和可审计性。我认为，不这样做根本无法运行一个安全的 Agent！"
-
-He also shared that Claude Opus 5.5 found great shell startup time optimizations for his .zshrc that other models missed.
-他还分享了 Claude Opus 5.5 为他的 .zshrc 找到的绝佳 shell 启动时间优化方案，这是其他模型所忽略的。
-
-https://x.com/rauchg/status/2102820148629614685
-https://x.com/rauchg/status/2102947745132924993
+Source: https://x.com/trq212/status/2103212052391354794
 
 ---
 
-**Aaron Levie (levie on X)** — CEO, Box
-Aaron Levie（Box CEO）
+### Amjad Masad (amasad on X) — Replit CEO
 
-Aaron shared a compelling vision for AI and the creative industry, drawing parallels to how sound, color, and CGI each expanded storytelling rather than shrinking it.
-Aaron 分享了一个关于 AI 与创意产业的远见，类比了声音、色彩和 CGI 如何不断扩展而非压缩叙事空间。
+Amjad Masad announced that Muse, Replit's AI agent, can now build apps directly inside Replit.
+Amjad Masad 宣布 Replit 的 AI 智能体 Muse 现在可以在 Replit 内直接构建应用。
 
-*"As the barriers and the costs come down, more films will get made, not fewer. Studios will get to take more risks... Every time storytelling has met a genuine technological shift... it has redefined the boundaries of the medium and grown larger in the process."*
-"随着门槛和成本的降低，会有更多影片被制作出来，而不是更少。每当叙事与真正的技术变革相遇……它都会重新定义媒介的边界，并在这个过程中变得更大。"
+This is a significant product milestone, tightening the loop between AI conversation and deployable code.
+这是一个重要的产品里程碑，进一步缩短了 AI 对话与可部署代码之间的距离。
 
-He also announced that Muse and Box are now integrated together.
-他还宣布 Muse 与 Box 已完成集成。
-
-https://x.com/levie/status/2102934874470617303
-https://x.com/levie/status/2102915863989075979
+Source: https://x.com/amasad/status/2103129037011120525
 
 ---
 
-**Ryo Lu (ryolu_ on X)** — Designer of Cursor, Notion, Stripe
-Ryo Lu（Cursor、Notion、Stripe 设计师）
+### Guillermo Rauch (rauchg on X) — Vercel CEO
 
-Ryo published a deeply reflective essay-thread challenging the AI-era obsession with speed, productivity, and endless output.
-Ryo 发表了一篇深刻的反思性长文，质疑 AI 时代对速度、生产力和无限产出的痴迷。
+Guillermo Rauch shared a striking data snapshot from the Vercel AI Gateway showing a major shift in LLM spend over the past two months.
+Guillermo Rauch 分享了来自 Vercel AI Gateway 的一组重要数据，揭示了过去两个月大模型使用份额的重大变化。
 
-He argued that the real danger of AI is not making us lazy, but making us "endlessly busy" — giving us infinite production before we've found intention, infinite execution before we've developed taste.
-他认为，AI 的真正危险不是让我们变懒，而是让我们"无休止地忙碌"——在我们找到意图之前给予无限产出，在我们培养出品味之前给予无限执行力。
+Anthropic remains #1 in spend but dropped from 69% to 40%; OpenAI surged from 10% to 24%; and new entrants Kimi K3 and DeepSeek absorbed roughly half of Anthropic's losses.
+Anthropic 仍以支出份额排名第一，但从 69% 降至 40%；OpenAI 从 10% 跃升至 24%；Kimi K3 和 DeepSeek 则合计吸收了 Anthropic 约一半的流失份额。
 
-*"Speed is not meaning. Scale is not wisdom. Automation is not freedom if it only makes everyone run faster."*
-"速度不是意义。规模不是智慧。如果自动化只是让所有人跑得更快，那它并不是自由。"
+*"GPT-6 Astra + GPT 5.6 Sol are ripping"* and *"Opus 5.5 is up to 10% of spend in 2 days."*
+他还指出："GPT-6 Astra + GPT 5.6 Sol 势头极猛"，"Opus 5.5 上线两天内就占据了 10% 的支出份额。"
 
-He called for AI to help people "become more human — more imaginative, more free" rather than turning life into a factory without humans.
-他呼吁 AI 应帮助人们"变得更有人情味——更富想象力、更自由"，而不是将生活变成一座没有人类的工厂。
+In token count, OpenAI now leads; in image generation, OpenAI commands 62% of the market.
+按 token 数量计算，OpenAI 已跃居第一；在图像生成领域，OpenAI 占据 62% 的市场份额。
 
-https://x.com/ryolu_/status/2102933485795369213
-
----
-
-**Garry Tan (garrytan on X)** — President & CEO, Y Combinator
-Garry Tan（Y Combinator 总裁兼 CEO）
-
-Garry shared a key insight for startup customer acquisition in the AI era: two simultaneous trends — making software agents want your product, and using agents to make people want software.
-Garry 分享了 AI 时代创业公司获客的关键洞察：两个同时发生的趋势——让软件 Agent 主动选择你的产品，以及用 Agent 来让用户主动需要软件。
-
-He expressed strong admiration for Muse, calling it "very impressive."
-他对 Muse 赞赏有加，称其"非常令人印象深刻"。
-
-He also teased something "not priced in yet" — hinting at an underappreciated shift in the market.
-他还暗示某些东西"尚未被市场定价"，暗示市场存在一个被低估的转变。
-
-https://x.com/garrytan/status/2102955139875397806
-https://x.com/garrytan/status/2102974165800399274
-https://x.com/garrytan/status/2102972765989151226
+Source: https://x.com/rauchg/status/2103216656747262419
 
 ---
 
-**Dan Shipper (danshipper on X)** — CEO, Every
-Dan Shipper（Every CEO）
+### Matt Turck (mattturck on X) — FirstMark Capital / MAD Podcast
 
-Dan hosted a real-world experiment: Every's AI agent planned the company's September meetup in Brooklyn — from food and drinks menu to the guest list.
-Dan 进行了一场真实世界的实验：Every 的 AI Agent 全权规划了公司在布鲁克林举办的九月聚会——从餐饮菜单到宾客名单。
+Matt Turck promoted his latest podcast episode featuring Renen Hallak, CEO of VAST Data — a $30B AI infrastructure company that is largely under the radar despite powering xAI, CoreWeave, Mistral, and others.
+Matt Turck 推介了他的最新播客节目，嘉宾为 VAST Data CEO Renen Hallak——这家估值 300 亿美元的 AI 基础设施公司为 xAI、CoreWeave、Mistral 等顶级 AI 玩家提供支撑，却鲜为人知。
 
-The event served as a live grading session for whether an AI agent can throw a good party.
-这场活动本身也成为了一次现场评审，检验 AI Agent 是否能办好一场派对。
+*"In Jensen's 5 layer cake analogy for AI, the middle layer (esp the software infra part) is much less understood — and that's where VAST Data became a $30B company few people know about."*
+他写道："在 Jensen 的 AI 五层蛋糕比喻中，中间那层（尤其是软件基础设施部分）最不为人所知——而这正是 VAST Data 在几乎没人注意的情况下成长为 300 亿美元公司的地方。"
 
-https://x.com/danshipper/status/2102826854357016793
+The episode covers topics ranging from AI data gravity and KV cache infrastructure to confidential AI and why hyperscalers are losing ground to neoclouds.
+这期节目涵盖 AI 数据重力、KV 缓存基础设施、机密 AI，以及超大规模云服务商为何正在被新兴云服务商蚕食等深度话题。
 
----
-
-**Aditya Agarwal (adityaag on X)** — General Partner, SPC; Co-Founder, Bevel Health; Ex-CTO Dropbox
-Aditya Agarwal（SPC 普通合伙人、Bevel Health 联合创始人、前 Dropbox CTO）
-
-Aditya made the case that team longevity is a far better metric than team size — a team working together 3+ years has significantly higher throughput and resilience than one that just formed.
-Aditya 论证了团队稳定性远比团队规模更重要——一个合作超过 3 年的团队，其效率和韧性显著优于刚组建的团队。
-
-*"AUC for teams is the right metric."*
-"团队的'曲线下面积'（长期累积表现）才是正确的衡量指标。"
-
-He also celebrated Mark Zuckerberg's leadership style: *"You think Zuck is good when he is down and in the trenches... Just see how he dominates when he has the big stack."*
-他还高度评价了扎克伯格的领导风格："你以为扎克在艰难时期才好？看看他手握优势时是如何主宰全局的。"
-
-https://x.com/adityaag/status/2102782451643040074
-https://x.com/adityaag/status/2102948781813792996
+Source: https://x.com/mattturck/status/2103167531917721866
 
 ---
 
-**Claude AI (claudeai on X)** — Official Anthropic Claude account
-Claude AI（Anthropic 官方 Claude 账号）
+### Nikunj Kothari (nikunj on X) — a16z
 
-Anthropic launched Claude Marketplace — a new hub where users can discover tools, agents, and expert partners.
-Anthropic 推出了 Claude Marketplace——一个供用户发现工具、Agent 和专业合作伙伴的全新平台。
+Nikunj Kothari shared a compelling quote about the future of AI in the trades (plumbing, HVAC, electrical, etc.), highlighting how "last mile" software differentiation will be where AI creates the most value for small businesses.
+Nikunj Kothari 分享了一段关于 AI 在建筑与技工行业（水暖、暖通、电气等）未来潜力的精彩引述，强调"最后一公里"软件差异化将是 AI 为小企业创造最大价值之处。
 
-The marketplace lets users add connectors and plugins (like Slack and Notion), buy agents and products from companies like Cursor and CrowdStrike, and scale with service partners like Accenture and Deloitte.
-该平台支持用户添加连接器和插件（如 Slack 和 Notion）、购买来自 Cursor 和 CrowdStrike 等公司的 Agent 与产品，以及与埃森哲、德勤等服务合作伙伴携手扩展。
+*"Every small business owner, specifically for us in the trades, will have bespoke software… that last mile is actually where differentiation can become, where you can provide a unique experience to your customers, to your employees."*
+原话为："每一位小企业主，尤其是我们技工行业的从业者，都将拥有定制化软件……最后一公里才是差异化真正发生的地方，在那里你可以为客户、为员工提供独特体验。"
 
-Developers can also list their own tools, agents, or services on the marketplace.
-开发者也可以将自己的工具、Agent 或服务上架至该平台。
+He also commented on the current stage of the AI "revenue lifecycle," suggesting the industry is at an inflection point.
+他还就 AI"营收生命周期"的当前阶段发表看法，暗示行业已处于拐点。
 
-https://x.com/claudeai/status/2102840851538080172
-https://x.com/claudeai/status/2102840855258452037
+Source: https://x.com/nikunj/status/2103360292973633770
+
+---
+
+### Peter Steinberger (steipete on X) — PSPDFKit / Embrace
+
+Peter Steinberger offered a sharp, practical tip for AI coding agents: don't ask the agent to "clean up" tests — give it an ambitious, measurable goal instead.
+Peter Steinberger 分享了一条关于 AI 编程智能体的犀利实战建议：不要让智能体"清理"测试，而是给它设定一个雄心勃勃且可量化的目标。
+
+*"If you just tell the agent to clean up, it will stop far too early. Try 'remove 20% of the least useful tests while maintaining code coverage within 2%.'"*
+他写道："如果只是告诉智能体去清理，它会过早停止。不妨试试：'在代码覆盖率保持在 2% 误差内的情况下，删除 20% 最没用的测试。'"
+
+He also used Daybreak to audit a dependency project and found 8 long-standing memory leaks, underscoring the importance of caring for open-source dependencies.
+他还使用 Daybreak 对一个依赖项目进行审计，发现了 8 个长期存在的内存泄漏，强调了关注开源依赖健康状况的重要性。
+
+Source: https://x.com/steipete/status/2103148444701610233 | https://x.com/steipete/status/2103200311641076100
+
+---
+
+### Dan Shipper (danshipper on X) — Every
+
+Dan Shipper held a live write-along session, inviting followers to watch and participate in real-time writing.
+Dan Shipper 举办了一场直播写作互动活动，邀请关注者实时观看并参与写作过程。
+
+This reflects Every's ongoing experiment with AI-augmented live creative work as a content and community format.
+这反映了 Every 持续探索 AI 辅助直播创作作为内容与社区形式的尝试。
+
+Source: https://x.com/danshipper/status/2103168077102043373
+
+---
+
+### Aditya Agarwal (adityaag on X) — Coda
+
+Aditya Agarwal spoke at South Park Commons (SPC) alongside Steve Hilton about California's future, reflecting his ongoing engagement with tech policy and regional innovation.
+Aditya Agarwal 在 South Park Commons (SPC) 与 Steve Hilton 共同就加州未来发表演讲，延续了他在科技政策与区域创新议题上的持续投入。
+
+*"We have more work to do. Onwards."*
+他写道："我们还有很多工作要做。继续前行。"
+
+Source: https://x.com/adityaag/status/2103230206005612661
+
+---
+
+## PODCASTS
+## 播客精选
+
+### The MAD Podcast with Matt Turck
+### MAD 播客（Matt Turck 主持）
+
+**Episode: Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data**
+**本期：谁在喂养 GPU？揭秘 AI 隐形的 300 亿美元基础层 | Renen Hallak，VAST Data**
+
+This episode focuses on VAST Data, the $30B software infrastructure company that sits in the middle of NVIDIA's "five-layer cake" — managing storage, compute, and networking for the world's largest AI workloads.
+本期节目聚焦于 VAST Data——这家估值 300 亿美元的软件基础设施公司处于英伟达"五层蛋糕"的中间层，为全球最大规模的 AI 工作负载管理存储、计算与网络资源。
+
+CEO Renen Hallak explains how one AI cloud customer went from projecting 500 petabytes of need over three years to needing an extra 2 exabytes on top of that — *"Sometimes it scares me."*
+CEO Renen Hallak 讲述了一家 AI 云客户从预计三年内需要 500 PB，到突然额外需要 2 EB 的故事——他坦言："有时候这让我感到恐惧。"
+
+Key topics include: why old-school databases (S3, Snowflake, Databricks) aren't ready for AI-scale workloads; how VAST's "shared everything" DASE architecture handles trillions of vectors; the economics of training vs. inference infrastructure; and how DataEnclave enables confidential AI for sensitive data and model weights.
+核心议题包括：为何传统数据库（S3、Snowflake、Databricks）尚未准备好应对 AI 规模的工作负载；VAST 的"全共享"DASE 架构如何处理数万亿向量；训练与推理基础设施的经济学差异；以及 DataEnclave 如何为敏感数据和模型权重实现机密 AI。
+
+Hallak also makes a bold prediction: *"I think in the next ten years, we'll see more difference than we did in the last thousand years."*
+Hallak 还做出了一个大胆预言："我认为未来十年的变化将超过过去一千年的总和。"
+
+Source: https://www.youtube.com/@DataDrivenNYC/videos
 
 ---
 
