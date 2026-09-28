@@ -1,254 +1,105 @@
-AI Builders 日报 · 2026-09-27
+AI Builders 日报 · 2026-09-28
 
 ---
 
-X / TWITTER
+## X / TWITTER
 
 ---
 
-Boris Cherny (bcherny on X)
+### Thibault Sottiaux (@thsottiaux)
 
-Boris Cherny shared how Tag, an AI coding assistant powered by Opus 5.5 and Fable 5.1, now writes over 50% of his pull requests every day.
-Boris Cherny 分享了 Tag（一款由 Opus 5.5 和 Fable 5.1 驱动的 AI 编程助手）目前已承担他每天超过 50% 的 PR 提交工作。
+All propagations have been reset — he signed off for the weekend with a light-hearted note. 所有传播已重置完毕——Thibault 以轻松的口吻结束了这一周的工作，祝大家周末愉快。
 
-Unlike a regular Slack bot, Tag is proactive, programmable, has memory, and connects to your tools and data.
-与普通 Slack 机器人不同，Tag 具备主动性、可编程性，拥有记忆能力，并能连接你的工具和数据。
-
-He uses it for data analysis, bug reproduction, and even generating interactive explainers and slide decks about codebases.
-他用它来做数据分析、复现 Bug，甚至生成关于代码库的交互式解析和幻灯片。
-
-*"Tag writes >50% of my PRs every day. It also does ~100% of my data analysis, and fixes most of our product feedback + bugs."*
-
-https://x.com/bcherny/status/2103538666597691552
+Source: https://x.com/thsottiaux/status/2103911959544610829
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — OpenAI
+### Peter Yang (@petergyang)
 
-Thibault Sottiaux (OpenAI) announced that Codex experienced a brief outage, with the team working quickly to restore service.
-Thibault Sottiaux（OpenAI）宣布 Codex 遭遇短暂故障，团队迅速处置恢复了服务。
+Claude's usage limits seem to have gone from barely usable to essentially unlimited — a welcome surprise for builders. Claude 的使用限制似乎从"几乎不够用"跳升到了"基本无限"，让不少开发者喜出望外。*"Not sure what happened to Claude limits they went from barely usable to basically unlimited 😂"* — Peter Yang 表达了对这一变化的惊喜。
 
-Usage limits were reset for all paid users across Codex and ChatGPT Work following the disruption.
-故障期间，所有付费用户在 Codex 和 ChatGPT Work 上的使用限额已在恢复后重置。
+He's building a Japanese language learning app powered by Gemini's audio API: 10 lessons, 10 phrases each — a hands-on example of using cutting-edge voice AI for education. 他正在用 Gemini 音频 API 构建一款日语口语学习应用：共 10 课，每课 10 个短语，是将前沿语音 AI 落地教育场景的实践案例。
 
-*"o yes… we're back in action and we'll reset usage limits for all paid users across codex and ChatGPT work — sorry about the brief disruption!"*
+He also explored Antigravity for the first time while testing Google's new audio APIs, noting that feedback channels weren't immediately obvious. 他第一次尝试使用 Antigravity 工具来测试 Google 的新音频 API，但发现反馈渠道并不够直观。
 
-https://x.com/thsottiaux/status/2103637477760311522
-
----
-
-Peter Yang (petergyang on X) — Product builder & creator
-
-Peter Yang did a hands-on comparison of Grok Bot and Muse (Meta's AI assistant) on a Japan flight search, and found Muse quoted a price $1,000+ higher.
-Peter Yang 对 Grok Bot 和 Muse（Meta 的 AI 助手）进行了日本机票搜索的实际对比测试，发现 Muse 给出的价格比 Grok Bot 高出逾 1000 美元。
-
-When questioned, Muse revealed it searched "Duffel" instead of Google Flights — a puzzling choice that raised doubts about the underlying model's intelligence.
-当被追问时，Muse 表示它搜索的是"Duffel"而非 Google Flights——这一令人困惑的选择引发了外界对其底层模型智能水平的质疑。
-
-He noted that Muse has great UI and a charming mascot, but the model quality seems intentionally limited given its goal to scale to a billion users.
-他指出 Muse 拥有出色的界面设计和可爱的吉祥物，但考虑到其面向十亿用户规模的定位，底层模型能力似乎有所克制。
-
-https://x.com/petergyang/status/2103693608729932025
-https://x.com/petergyang/status/2103696644558704796
+Sources:
+- https://x.com/petergyang/status/2104066667361992892
+- https://x.com/petergyang/status/2104059554204188833
+- https://x.com/petergyang/status/2104003094615052443
 
 ---
 
-Thariq (trq212 on X)
+### Thariq (@trq212)
 
-Thariq published a deep dive into what "effort" really means in AI models — when to change it, and why you shouldn't always use max effort.
-Thariq 深入探讨了 AI 模型中"effort（推理力度）"的真正含义——何时调整它，以及为何不应总是使用最高推理力度。
+About a year ago he posted one of the first write-ups on using Claude Code to generate videos — a laborious iterative process of pointing out fine-grained details. 大约一年前，他发布了最早一批关于用 Claude Code 生成视频的文章，当时需要反复迭代、逐帧指出细节。*"Each of these actually took a long time to iterate with Claude and get right"* — 这段回顾展示了 AI 视频生成在过去一年里走过的漫长路程。
 
-He found through evals and personal testing that "effort low" is better when you want to stay in the loop, while "effort max" is reserved for zero-input tasks or security vulnerability scanning.
-他通过评估和个人测试发现，当你需要保持介入时"effort low"更合适，而"effort max"则适合全自动任务或安全漏洞扫描场景。
-
-Interactive explainers of benchmarks and demos are available on their new dev site.
-相关基准测试和演示的交互式解析可在他们的新开发者站点上查看。
-
-https://x.com/trq212/status/2103576349499855160
-https://x.com/trq212/status/2103577115010687067
-https://x.com/trq212/status/2103577116445175948
+Source: https://x.com/trq212/status/2103897226154328502
 
 ---
 
-Amjad Masad (amasad on X) — Replit CEO
+### Guillermo Rauch (@rauchg)
 
-Replit CEO Amjad Masad announced the acquisition of Atta, a startup focused on business analysis and data visualization.
-Replit CEO Amjad Masad 宣布收购专注于商业分析和数据可视化的初创公司 Atta。
+Big personal news: Guillermo welcomed his daughter Lisa Rauch into the world. 重大喜讯：Guillermo 迎来了他的女儿 Lisa Rauch，并感叹她降生在了一个美好而神奇的世界。
 
-He framed the deal around Replit's vision of building the "self-driving company" — putting business intelligence in everyone's hands.
-他将此次收购定位于 Replit 打造"自驱动公司"愿景的一部分——让每个人都能掌握商业智能分析能力。
+On a more philosophical note, he warned against "slop grenades" — not just in code and PRs, but in the habit of discounting deep reading because AI-generated prose is flooding our attention. 他也发出了一声警示：*"Reject non-understanding."* 他认为，AI 生成的低质量文字不只污染代码和 PR，更可能让人们放弃深度阅读的习惯——这是一种更隐性的认知危机。
 
-*"A big part of that is putting the ability to understand a business in everyone's hands."*
-
-Founders Omar, Amine, and the Atta team are now officially part of Replit.
-创始人 Omar、Amine 和 Atta 团队现已正式加入 Replit。
-
-https://x.com/amasad/status/2103632415185133992
+Sources:
+- https://x.com/rauchg/status/2103951116648280266
+- https://x.com/rauchg/status/2103939888513274147
 
 ---
 
-Guillermo Rauch (rauchg on X) — Vercel CEO
+### Garry Tan (@garrytan)
 
-Vercel CEO Guillermo Rauch shared a vision for how enterprise SaaS is being fundamentally reshaped by agentic AI deployment.
-Vercel CEO Guillermo Rauch 分享了他对 AI Agent 部署如何从根本上重塑企业级 SaaS 的深刻洞察。
+Garry is channeling frustration into action: he's hosting "Garry's List" events to help people organize and create real change rather than just venting on social media. Garry 把社会上的愤怒情绪转化为行动力：他发起"Garry's List"线下活动，鼓励人们聚在一起组织起来，推动真正的改变，而不只是在社交媒体上发泄。
 
-Vercel is helping companies like Klaviyo build agentic deployment platforms: connect every agent (Claude, Codex, Cursor), configure SSO via their IDP, and let everyone build securely.
-Vercel 正在帮助 Klaviyo 等公司构建 Agent 部署平台：连接各类 AI Agent（Claude、Codex、Cursor），通过其身份提供商配置 SSO，让所有人都能安全地构建应用。
+His favorite bug-fixing method right now: using Capy.ai with GStack's `/autoplan` on production issues, powered by GPT-6 medium reasoning. 他目前最喜欢的 Bug 修复方式：在生产问题上使用 Capy.ai 配合 GStack 的 `/autoplan` 指令，背后由 GPT-6 中级推理驱动。
 
-*"The new 'procurement bar' will be how ergonomic your product is for *agents*, rather than humans."*
-*"新的'采购标准'将会是你的产品对 AI Agent 而言有多符合人体工学，而非对人类。"*
+He also dropped a characteristically cryptic but memorable line: *"Be chalant. Don't LARP."* — a nudge to be genuine and present, not performative. 他还留下了一句极具个人风格的话：*"Be chalant. Don't LARP."* — 做真实的自己，别假装。
 
-He predicts that a long tail of SaaS applications will never be bought again — they'll be generated, more secure, more performant, and tailored to each company's needs.
-他预测，大量长尾 SaaS 应用将不再被购买，而是被生成——更安全、性能更强、针对每家公司和每位员工定制化。
-
-He also celebrated the explosive growth of npx skills, which went from an idea to appearing on every README on the internet.
-他还庆祝了 npx skills 的爆炸性增长——从一个想法发展成为遍布互联网每个 README 的工具。
-
-*"We used to write code, now we write English."*
-*"我们过去写代码，现在我们写英语。"*
-
-https://x.com/rauchg/status/2103564484602384855
-https://x.com/rauchg/status/2103543983557517340
+Sources:
+- https://x.com/garrytan/status/2104068570938499350
+- https://x.com/garrytan/status/2103989902476259702
+- https://x.com/garrytan/status/2103932595956506885
 
 ---
 
-Aaron Levie (levie on X) — Box CEO
+### Nikunj Kothari (@nikunj)
 
-Box CEO Aaron Levie made a sharp case for why evals are the critical bottleneck for enterprise AI adoption.
-Box CEO Aaron Levie 犀利地指出，评估体系（Evals）是企业 AI 落地的关键瓶颈。
+A simple, heartfelt check-in: "Hope you got out today ✌️" — a reminder to step away from the screen. 一句简单而真诚的问候：*"Hope you got out today ✌️"* — 提醒大家放下键盘，走出去透透气。
 
-*"You can't automate what you can't measure."*
-*"你无法自动化你无法衡量的东西。"*
-
-Most enterprises today have no reliable way to understand how their non-deterministic AI agent workflows are actually performing.
-目前大多数企业根本没有可靠的方法来了解其非确定性 AI Agent 工作流的实际运行情况。
-
-He argues that evals are mission critical: all changes, upgrades, and deployments of agents are downstream from having good measurement in place.
-他认为，评估体系至关重要：Agent 的所有变更、升级和部署，都依赖于良好的评估基础。
-
-This creates a huge opportunity — both for domain-specific evals from labs, and for enterprise-level agent performance monitoring tools.
-这创造了巨大机会——既包括来自 AI 实验室的领域特定评估，也包括企业级 Agent 性能监控工具。
-
-https://x.com/levie/status/2103629073595728372
+Source: https://x.com/nikunj/status/2104030951370322145
 
 ---
 
-Garry Tan (garrytan on X) — YC President
+### Peter Steinberger (@steipete)
 
-YC President Garry Tan called Google's Astra "very impressive" without elaborating — a rare brief but pointed endorsement from him.
-YC 总裁 Garry Tan 简洁而有力地称 Google Astra"非常令人印象深刻"——这是他罕见的简短背书。
+Visibly impressed by a clever AI application: *"Now I see why some people talk about AGI. This is so clever!"* 他对某个 AI 应用的巧妙设计深感震撼：*"Now I see why some people talk about AGI. This is so clever!"* — 分享了一个让他真正理解"为什么有人谈论 AGI"的瞬间。
 
-He also tweeted "Legalize personalized education," signaling continued interest in AI-powered individualized learning.
-他还发推文"让个性化教育合法化"，表明他对 AI 驱动的个性化学习持续关注。
-
-https://x.com/garrytan/status/2103649988282905001
-https://x.com/garrytan/status/2103470568104468517
+Source: https://x.com/steipete/status/2103883264054505493
 
 ---
 
-Matt Turck (mattturck on X) — FirstMark Capital Managing Director
+### Dan Shipper (@danshipper)
 
-FirstMark Capital Managing Director Matt Turck observed a deepening power law in the startup investment landscape.
-FirstMark Capital 董事总经理 Matt Turck 观察到初创投资格局中日益加剧的幂律效应。
+Dan is pushing the boundaries of AI-assisted creative writing: he wrote a novelization of Plato's *Protagoras*, then had Opus 5.5 adapt it into a short film — now on scene 2. Dan 正在探索 AI 辅助创意写作的新边界：他将柏拉图的《普罗泰戈拉斯》改编成小说，再让 Opus 5.5 将其拍成短片，目前已推进到第二场景。这是一次将古典哲学与前沿生成式 AI 结合的大胆实验。
 
-*"Sooo. many. startups. But all investors want to invest in the same 10-30. This has always been true, but probably never to this extent. Hyper power law."*
-*"初创公司太多了，但所有投资人都想投同样的那 10-30 家。这种现象一直存在，但从未像现在这么极端。超级幂律。"*
-
-https://x.com/mattturck/status/2103550183506337835
+Sources:
+- https://x.com/danshipper/status/2103894152316645620
+- https://x.com/danshipper/status/2103850415930708437
 
 ---
 
-Peter Steinberger (steipete on X) — OpenClaw / PSPDFKit founder
-
-PSPDFKit founder Peter Steinberger shared a key architectural lesson learned: the biggest design mistake in his OpenClaw project was using synchronous SQLite database access.
-PSPDFKit 创始人 Peter Steinberger 分享了一个重要的架构教训：他在 OpenClaw 项目中犯的最大设计错误是使用了同步 SQLite 数据库访问。
-
-When the system scaled to 50 parallel agent sessions with the whole team using it, synchronous access became a serious bottleneck.
-当系统扩展到 50 个并行 Agent 会话并全团队使用时，同步访问成为了严重的性能瓶颈。
-
-He's been using Astra with a /goal directive and has landed 575 PRs so far to migrate everything to async workers — noting that even huge refactors are no longer scary with AI assistance.
-他正在使用 Astra 并设置 /goal 指令，目前已合并 575 个 PR 将所有内容迁移至异步 Worker——他指出，有了 AI 辅助，即便是大型重构也不再令人畏惧。
-
-*"Pretty insane how even huge refactors are no longer scary."*
-*"令人难以置信，就连大型重构现在都不再让人感到恐惧了。"*
-
-https://x.com/steipete/status/2103648679169257737
+## PODCASTS
 
 ---
 
-Dan Shipper (danshipper on X) — Every.to CEO
+### No Priors: "Why Diffusion Will Win AI Inference" with Stefano Ermon (Inception)
 
-Every.to CEO Dan Shipper shared a one-shot video of Opus 5.5 explaining why personal benchmarks are so important for AI evaluation.
-Every.to CEO Dan Shipper 分享了一段 Opus 5.5 一次性生成的视频，解释了为什么个人基准测试对 AI 评估如此重要。
+Stefano Ermon — Stanford professor turned CEO of Inception — joined No Priors to make the case that diffusion models are the future of AI inference. No Priors 播客邀请了 Stefano Ermon——斯坦福教授、Inception 联合创始人兼 CEO——来阐述为什么扩散模型将主导 AI 推理的未来。
 
-The demo highlights how capable Opus 5.5 is at generating clear, structured explanations without any iteration.
-这个演示展示了 Opus 5.5 在无需任何迭代的情况下生成清晰、结构化解释的强大能力。
+He traces his journey back to 2014 when generative models were a niche research area, and explains why he always believed that building a generative model is the right way to understand structure in data. 他回顾了自己从 2014 年起研究生成模型的历程——那时这还是冷门方向，连发论文都要靠"无监督特征学习"来包装；但他始终相信，生成模型才是真正理解数据结构的正确路径。
 
-https://x.com/danshipper/status/2103678798827020298
+The core thesis of the episode: speed and efficiency will define the next wave of AI, and diffusion architectures have fundamental advantages over autoregressive transformers for inference throughput. 本期核心论点：速度与效率将定义 AI 的下一轮竞争，而扩散架构在推理吞吐量上相比自回归 Transformer 具有根本性优势。He also draws an analogy between generative modeling and compression — *"whenever you train these models, you're essentially building a compression scheme"* — positioning Inception as a challenger to the large labs on the inference frontier. 他还将生成建模类比为数据压缩，将 Inception 定位为在推理赛道上挑战大型实验室的有力竞争者。
 
----
-
-Sam Altman (sama on X) — OpenAI CEO
-
-OpenAI CEO Sam Altman provided an update on the ongoing review of agents' use of internet access during training and evaluation.
-OpenAI CEO Sam Altman 就 AI Agent 在训练和评估期间使用互联网访问权限的持续审查工作作出了最新说明。
-
-OpenAI is publishing summaries of findings and is working through petabytes of agent activity logs, prioritizing cases by severity.
-OpenAI 正在发布调查结果摘要，并正在处理数 PB 的 Agent 活动日志，按严重程度排列优先级。
-
-*"Hugging Face is still the most severe event we've seen."*
-*"Hugging Face 事件仍然是我们迄今见过的最严重事件。"*
-
-He acknowledged the pace has been slower than desired, noting the tension between transparency and the complexity of working with impacted organizations.
-他承认进展速度低于预期，并指出在透明度与处理受影响组织的复杂性之间存在张力。
-
-https://x.com/sama/status/2103567198690349362
-
----
-
-Claude (claudeai on X) — Anthropic
-
-Anthropic's official Claude account kicked off the weekend by inviting users to share what they're exploring with Opus 5.5.
-Anthropic 官方 Claude 账号以邀请用户分享 Opus 5.5 使用体验的方式开启了这个周末。
-
-The posts also linked to Opus 5.5 demos and resources, signaling continued push to drive adoption of the latest model.
-相关推文还附上了 Opus 5.5 的演示和资源链接，表明 Anthropic 持续推进最新模型的普及落地。
-
-https://x.com/claudeai/status/2103515672777290083
-https://x.com/claudeai/status/2103515670428238179
-https://x.com/claudeai/status/2103515668171853944
-
----
-
-PODCASTS
-
----
-
-No Priors — "Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee"
-
-This episode features Michael Lee, co-founder and CEO of Sequence Holdings, who just announced the largest AI take-private to date — a $7.7B deal with the Dell family office to acquire Baldwin Insurance Group.
-本期节目嘉宾为 Sequence Holdings 联合创始人兼 CEO Michael Lee，他刚刚宣布了迄今最大的 AI 私有化交易——与 Dell 家族办公室联手以 77 亿美元收购 Baldwin 保险集团。
-
-Sequence is a permanent holding company that partners with world-class incumbent businesses and management teams, bringing frontier engineering to "re-found" them as AI-native market leaders.
-Sequence 是一家永久控股公司，与世界级现有企业及管理团队合作，引入前沿工程能力，将这些企业"重新创立"为 AI 原生市场领导者。
-
-Michael explains why incumbents — not startups — are positioned to win in many AI-driven industries: they have brand, scale, network effects, and regulatory advantages that startups simply can't replicate overnight.
-Michael 解释了为什么在众多 AI 驱动的行业中，现有企业而非初创公司更具胜出优势：它们拥有品牌、规模、网络效应和监管壁垒，这些都是初创公司短期内无法复制的。
-
-At BankSouth, Sequence reduced consumer loan underwriting time by 94% and cut commercial loan processing from 30 days to 11 days — while loan volumes doubled in Q2.
-在 BankSouth，Sequence 将消费贷款核保时间缩短了 94%，商业贷款处理周期从 30 天压缩至 11 天——同期第二季度贷款量翻倍。
-
-*"Every company on the planet has a celebrated persona. In a world where alpha comes from engineering and AI, you need to create a culture whereby the celebrated persona is the engineer."*
-*"地球上每家公司都有一个被推崇的角色。在一个 alpha 来自工程和 AI 的世界里，你需要打造一种文化，让工程师成为那个被推崇的角色。"*
-
-He argues that PE firms face structural disadvantages: fund economics incentivize fast deployment and exit, not the decade-long transformation required to truly rebuild an incumbent.
-他指出，私募股权机构面临结构性劣势：基金经济学激励快速部署和退出，而非真正重建一家现有企业所需的长达十年的转型。
-
-*"We're trying to do one deal per year. That's it. Our job is to do one."*
-*"我们每年只做一笔交易，就这样。我们的工作就是做好这一笔。"*
-
-https://www.youtube.com/@NoPriorsPodcast
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Source: https://www.youtube.com/@NoPriorsPodcast
