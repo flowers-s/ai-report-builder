@@ -1,4 +1,7 @@
-AI Builders 日报 · 2026-09-28
+AI Builders 日报 · 2026-09-29
+
+AI Builders Digest — 2026-09-29
+AI 创作者日报 — 2026-09-29
 
 ---
 
@@ -6,87 +9,205 @@ AI Builders 日报 · 2026-09-28
 
 ---
 
-### Thibault Sottiaux (@thsottiaux)
+### Thibault Sottiaux (thsottiaux on X)
 
-All propagations have been reset — he signed off for the weekend with a light-hearted note. 所有传播已重置完毕——Thibault 以轻松的口吻结束了这一周的工作，祝大家周末愉快。
+Thibault Sottiaux shared a thought-provoking observation about software releases in the age of AI.
+Thibault Sottiaux 分享了一个关于 AI 时代软件发布的深刻观察。
 
-Source: https://x.com/thsottiaux/status/2103911959544610829
+He noted that "code freeze" before releases is no longer really a thing — and in the future, code might even be generated online per request according to some constraints.
+他指出，发布前的"代码冻结"已经不再是常规操作——未来，代码甚至可能根据某些约束条件在线按需生成。
 
----
+This signals a fundamental shift in how software is built and shipped.
+这标志着软件构建和交付方式的根本性转变。
 
-### Peter Yang (@petergyang)
-
-Claude's usage limits seem to have gone from barely usable to essentially unlimited — a welcome surprise for builders. Claude 的使用限制似乎从"几乎不够用"跳升到了"基本无限"，让不少开发者喜出望外。*"Not sure what happened to Claude limits they went from barely usable to basically unlimited 😂"* — Peter Yang 表达了对这一变化的惊喜。
-
-He's building a Japanese language learning app powered by Gemini's audio API: 10 lessons, 10 phrases each — a hands-on example of using cutting-edge voice AI for education. 他正在用 Gemini 音频 API 构建一款日语口语学习应用：共 10 课，每课 10 个短语，是将前沿语音 AI 落地教育场景的实践案例。
-
-He also explored Antigravity for the first time while testing Google's new audio APIs, noting that feedback channels weren't immediately obvious. 他第一次尝试使用 Antigravity 工具来测试 Google 的新音频 API，但发现反馈渠道并不够直观。
-
-Sources:
-- https://x.com/petergyang/status/2104066667361992892
-- https://x.com/petergyang/status/2104059554204188833
-- https://x.com/petergyang/status/2104003094615052443
+Source: https://x.com/thsottiaux/status/2104108167806550046
 
 ---
 
-### Thariq (@trq212)
+### Peter Yang (petergyang on X) — Product leader & creator
 
-About a year ago he posted one of the first write-ups on using Claude Code to generate videos — a laborious iterative process of pointing out fine-grained details. 大约一年前，他发布了最早一批关于用 Claude Code 生成视频的文章，当时需要反复迭代、逐帧指出细节。*"Each of these actually took a long time to iterate with Claude and get right"* — 这段回顾展示了 AI 视频生成在过去一年里走过的漫长路程。
+Peter Yang reflected on the staying power of different software categories.
+Peter Yang 对不同软件类别的持久影响力进行了深刻思考。
 
-Source: https://x.com/trq212/status/2103897226154328502
+He observed that almost nobody has fond memories of SaaS or business software from the past, but everyone remembers their favorite games — and *"LLM models are probably the inverse of that 😂"*
+他观察到，几乎没有人对过去使用过的 SaaS 或企业软件留有美好记忆，但人人都记得自己最喜欢的游戏——而 *"大语言模型可能恰好与之相反 😂"*
 
----
+This is a sharp, memorable take on what software actually creates lasting emotional resonance.
+这是一个关于什么软件能真正产生持久情感共鸣的犀利见解。
 
-### Guillermo Rauch (@rauchg)
-
-Big personal news: Guillermo welcomed his daughter Lisa Rauch into the world. 重大喜讯：Guillermo 迎来了他的女儿 Lisa Rauch，并感叹她降生在了一个美好而神奇的世界。
-
-On a more philosophical note, he warned against "slop grenades" — not just in code and PRs, but in the habit of discounting deep reading because AI-generated prose is flooding our attention. 他也发出了一声警示：*"Reject non-understanding."* 他认为，AI 生成的低质量文字不只污染代码和 PR，更可能让人们放弃深度阅读的习惯——这是一种更隐性的认知危机。
-
-Sources:
-- https://x.com/rauchg/status/2103951116648280266
-- https://x.com/rauchg/status/2103939888513274147
+Source: https://x.com/petergyang/status/2104414495376564517
 
 ---
 
-### Garry Tan (@garrytan)
+### Nan Yu (thenanyu on X)
 
-Garry is channeling frustration into action: he's hosting "Garry's List" events to help people organize and create real change rather than just venting on social media. Garry 把社会上的愤怒情绪转化为行动力：他发起"Garry's List"线下活动，鼓励人们聚在一起组织起来，推动真正的改变，而不只是在社交媒体上发泄。
+近期无重要动态（推文内容为媒体转发，无原创观点）。
 
-His favorite bug-fixing method right now: using Capy.ai with GStack's `/autoplan` on production issues, powered by GPT-6 medium reasoning. 他目前最喜欢的 Bug 修复方式：在生产问题上使用 Capy.ai 配合 GStack 的 `/autoplan` 指令，背后由 GPT-6 中级推理驱动。
-
-He also dropped a characteristically cryptic but memorable line: *"Be chalant. Don't LARP."* — a nudge to be genuine and present, not performative. 他还留下了一句极具个人风格的话：*"Be chalant. Don't LARP."* — 做真实的自己，别假装。
-
-Sources:
-- https://x.com/garrytan/status/2104068570938499350
-- https://x.com/garrytan/status/2103989902476259702
-- https://x.com/garrytan/status/2103932595956506885
+Source: https://x.com/thenanyu/status/2104424388309496182
 
 ---
 
-### Nikunj Kothari (@nikunj)
+### Amanda Askell (AmandaAskell on X) — Anthropic researcher
 
-A simple, heartfelt check-in: "Hope you got out today ✌️" — a reminder to step away from the screen. 一句简单而真诚的问候：*"Hope you got out today ✌️"* — 提醒大家放下键盘，走出去透透气。
+Amanda Askell went on a delightful personal experiment: she researched and bought samples of the fanciest, most well-reviewed perfumes to see if her aversion to perfume was just from never trying good ones.
+Amanda Askell 进行了一场有趣的个人实验：她研究并购买了多款最顶级、评价最高的香水小样，想验证自己对香水的厌恶是否只是因为没用过好货。
 
-Source: https://x.com/nikunj/status/2104030951370322145
+The verdict: *"I can now confidently confirm that all perfume smells disgusting."*
+结论是：*"我现在可以自信地确认，所有香水闻起来都很恶心。"*
+
+Light-hearted and relatable — a reminder that even AI researchers have strong sensory opinions.
+轻松有趣且引人共鸣——提醒我们即使是 AI 研究员也有强烈的感官偏好。
+
+Source: https://x.com/AmandaAskell/status/2104261424625381528
 
 ---
 
-### Peter Steinberger (@steipete)
+### Thariq (trq212 on X)
 
-Visibly impressed by a clever AI application: *"Now I see why some people talk about AGI. This is so clever!"* 他对某个 AI 应用的巧妙设计深感震撼：*"Now I see why some people talk about AGI. This is so clever!"* — 分享了一个让他真正理解"为什么有人谈论 AGI"的瞬间。
+Thariq raised a sharp concern about the real risk of AI agents: not that they will be too powerful, but that humans will simply become lazier.
+Thariq 提出了一个关于 AI 代理真正风险的深刻警告：不是它们会变得太强大，而是人类会因此变得更懒。
 
-Source: https://x.com/steipete/status/2103883264054505493
+*"I am most afraid of us eating the productivity gains of agents by just becoming lazier."*
+*"我最担心的是，我们通过变得更懒来消耗掉代理带来的生产力收益。"*
+
+This is a contrarian and important counter-narrative to mainstream AI optimism.
+这是对主流 AI 乐观主义的一个重要且另辟蹊径的反驳。
+
+Source: https://x.com/trq212/status/2104273243599405395
 
 ---
 
-### Dan Shipper (@danshipper)
+### Amjad Masad (amasad on X) — CEO of Replit
 
-Dan is pushing the boundaries of AI-assisted creative writing: he wrote a novelization of Plato's *Protagoras*, then had Opus 5.5 adapt it into a short film — now on scene 2. Dan 正在探索 AI 辅助创意写作的新边界：他将柏拉图的《普罗泰戈拉斯》改编成小说，再让 Opus 5.5 将其拍成短片，目前已推进到第二场景。这是一次将古典哲学与前沿生成式 AI 结合的大胆实验。
+Amjad Masad shared that Replit is becoming popular even in the Chan-Zuckerberg household, expressing genuine excitement about the platform's reach.
+Amjad Masad 分享了 Replit 在 Chan-Zuckerberg 家庭中也大受欢迎的消息，对平台影响力的扩展表示了真诚的喜悦。
 
-Sources:
-- https://x.com/danshipper/status/2103894152316645620
-- https://x.com/danshipper/status/2103850415930708437
+While light on detail, this is a signal of Replit's growing cultural footprint beyond the developer community.
+虽然细节不多，但这表明 Replit 的文化影响力正在超越开发者社区，向更广泛的人群延伸。
+
+Source: https://x.com/amasad/status/2104428789417857436
+
+---
+
+### Guillermo Rauch (rauchg on X) — CEO of Vercel
+
+Guillermo Rauch announced a significant personal project: he ported his mini web browser to Rust & Swift.
+Guillermo Rauch 宣布了一个重要的个人项目：他将自己的迷你网页浏览器移植到了 Rust 和 Swift。
+
+He reports it is *"faster, more secure, and shockingly, nicer to iterate on than Electron + Bun"* — and used the `fx acp` crate to embed an AI agent without bloating the app.
+他表示这款浏览器 *"比 Electron + Bun 更快、更安全，而且令人震惊地更易于迭代"*——并使用了 `fx acp` crate 在不增加应用体积的情况下嵌入了 AI 代理。
+
+This is a technical and product statement about the viability of Rust/Swift for browser-level work with embedded AI.
+这是一个关于 Rust/Swift 在内嵌 AI 的浏览器级开发中可行性的技术与产品声明。
+
+Source: https://x.com/rauchg/status/2104428800134013205
+
+---
+
+### Aaron Levie (levie on X) — CEO of Box
+
+Aaron Levie shared a thought-provoking reflection on what happens when AI agents begin making optimal choices for users.
+Aaron Levie 分享了一个发人深省的思考：当 AI 代理开始为用户做出最优选择时会发生什么。
+
+He noted that parts of the economy currently benefit from friction — the inertia that keeps customers from changing habits — and agents that eliminate that friction will have profound economic implications.
+他指出，经济的某些部分目前受益于摩擦——即让客户不轻易改变习惯的惰性——而消除这种摩擦的代理将产生深远的经济影响。
+
+This is a bold and nuanced take on how agentic AI will reshape entire industries, not just productivity.
+这是一个关于代理式 AI 将如何重塑整个行业（而不仅仅是生产力）的大胆而深刻的见解。
+
+Source: https://x.com/levie/status/2104350592290406849
+
+---
+
+### Garry Tan (garrytan on X) — CEO of Y Combinator
+
+Garry Tan weighed in on the anti-bot debate with a characteristically direct take: *"Anti-bot is for losers tbh"*
+Garry Tan 以一贯直接的风格加入了反机器人的讨论：*"说实话，反机器人是输家才做的事"*
+
+He pushed back on the notion that anti-bot measures are effective, suggesting that workarounds (like using Chrome DevTools Protocol) are often trivial — until you hit "real" anti-bot systems.
+他质疑反机器人措施的有效性，暗示绕过它们（比如使用 Chrome DevTools Protocol）往往轻而易举——除非你遇到"真正的"反机器人系统。
+
+The underlying message: building walls around your product is a losing strategy in an AI-native world.
+潜在的信息是：在 AI 原生的世界中，为产品筑墙是一种失败的策略。
+
+Source: https://x.com/garrytan/status/2104402742517420517
+
+---
+
+### Matt Turck (mattturck on X) — Partner at FirstMark Capital
+
+Matt Turck made a sharp observation about the AI doom/acceleration debate.
+Matt Turck 对 AI 末日论/加速主义的争论发表了犀利见解。
+
+He noted that AI researchers who actually understand how AI works tend to hold measured, nuanced views — neither doomer nor accelerationist — while non-experts with limited knowledge often hold the most certain and extreme positions.
+他指出，真正了解 AI 工作原理的 AI 研究人员往往持有克制而细致的观点——既非末日论者，也非加速主义者——而知识有限的非专家们反而常常持有最笃定、最极端的立场。
+
+This is a valuable epistemological point about calibrated uncertainty in technology forecasting.
+这是关于技术预测中校准不确定性的一个有价值的认识论观点。
+
+Source: https://x.com/mattturck/status/2104331402385002831
+
+---
+
+### Zara Zhang (zarazhangrui on X) — Partner at GGV Capital
+
+Zara Zhang shared two thoughtful observations today.
+Zara Zhang 今日分享了两个深刻的观察。
+
+First, she pushed back on the "why post without monetizing" criticism: *"Self-expression is an innate human instinct that requires no justification or utilitarian motive"* — and influence, she argues, is far more valuable than money.
+首先，她反驳了"为什么不变现却一直发帖"的批评：*"自我表达是人类与生俱来的本能，不需要任何理由或功利动机"*——她认为，影响力远比金钱更有价值。
+
+Second, she offered a warning about the seductive nature of new technology: it can be so dazzling that it blinds us to ways it's not working — and even makes us feel that failures are our own fault, not the technology's.
+其次，她对新技术的诱惑性发出了警告：它可能如此耀眼，以至于让我们看不到它不奏效的地方——甚至让我们觉得失败是自己的问题，而非技术本身的问题。
+
+Source: https://x.com/zarazhangrui/status/2104253882025341231
+Source: https://x.com/zarazhangrui/status/2104112917264126195
+
+---
+
+### Nikunj Kothari (nikunj on X)
+
+Nikunj Kothari expressed excitement about Google's Astra agent, calling it *"absurd"* in the best possible sense.
+Nikunj Kothari 对 Google 的 Astra 代理表达了极大的兴奋，以最正面的方式称其"太离谱了"。
+
+He noted that given the right tools and sufficiently hard verifiable end-to-end tasks, Astra simply *"flies"* — a strong endorsement of its practical capability.
+他指出，给定合适的工具和足够难的可验证端到端任务，Astra 简直 *"一飞冲天"*——这是对其实际能力的有力背书。
+
+He also shared his current reading list, including *White Mirror* and *Challenger*, signaling his interests beyond pure tech.
+他还分享了当前的阅读清单，包括《白色镜子》和《挑战者》，展示了他在纯技术之外的兴趣。
+
+Source: https://x.com/nikunj/status/2104444216017637575
+Source: https://x.com/nikunj/status/2104261968043663591
+
+---
+
+### Peter Steinberger (steipete on X) — iOS developer & open source contributor
+
+Peter Steinberger shared his plan to dramatically reduce CI costs and run time using AI.
+Peter Steinberger 分享了他利用 AI 大幅降低 CI 成本和运行时间的计划。
+
+His approach: let Codex decide which tests actually need to run, dramatically cutting CI, and shifting to hourly test runs instead of per-commit.
+他的方法是：让 Codex 决定哪些测试真正需要运行，从而大幅精简 CI，并将测试改为每小时运行一次，而非每次提交都运行。
+
+This is a practical, actionable AI-native approach to developer infrastructure optimization.
+这是一种实用、可操作的 AI 原生开发者基础设施优化方式。
+
+Source: https://x.com/steipete/status/2104305554760114488
+
+---
+
+### Dan Shipper (danshipper on X) — CEO of Every
+
+Dan Shipper landed one of the sharpest one-liners of the day.
+Dan Shipper 贡献了今日最犀利的金句之一。
+
+*"industry built on modeling humans as rational agents panics as humans adopt rational agents"*
+*"建立在将人类视为理性代理模型基础上的行业，正因人类开始采用真正的理性代理而陷入恐慌"*
+
+This is a brilliant and compact observation about how AI agents are disrupting economics, behavioral science, and behavioral finance all at once.
+这是一个精妙且简洁的观察，关于 AI 代理如何同时颠覆经济学、行为科学和行为金融学。
+
+Source: https://x.com/danshipper/status/2104302924251951553
 
 ---
 
@@ -94,12 +215,28 @@ Sources:
 
 ---
 
-### No Priors: "Why Diffusion Will Win AI Inference" with Stefano Ermon (Inception)
+### Training Data — "Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion"
 
-Stefano Ermon — Stanford professor turned CEO of Inception — joined No Priors to make the case that diffusion models are the future of AI inference. No Priors 播客邀请了 Stefano Ermon——斯坦福教授、Inception 联合创始人兼 CEO——来阐述为什么扩散模型将主导 AI 推理的未来。
+This episode of Training Data features a wide-ranging conversation with Aaron Levie, founder and CEO of Box.
+这期《Training Data》播客收录了与 Box 创始人兼 CEO Aaron Levie 的深度对话。
 
-He traces his journey back to 2014 when generative models were a niche research area, and explains why he always believed that building a generative model is the right way to understand structure in data. 他回顾了自己从 2014 年起研究生成模型的历程——那时这还是冷门方向，连发论文都要靠"无监督特征学习"来包装；但他始终相信，生成模型才是真正理解数据结构的正确路径。
+Levie argues that application companies — once dismissed as "LLM wrappers" — are now proving their value by bridging the enormous gap between raw model capability and real enterprise workflows.
+Levie 认为，应用公司——曾被嘲为"大语言模型套壳"——如今正通过弥合原始模型能力与真实企业工作流之间的巨大鸿沟来证明其价值。
 
-The core thesis of the episode: speed and efficiency will define the next wave of AI, and diffusion architectures have fundamental advantages over autoregressive transformers for inference throughput. 本期核心论点：速度与效率将定义 AI 的下一轮竞争，而扩散架构在推理吞吐量上相比自回归 Transformer 具有根本性优势。He also draws an analogy between generative modeling and compression — *"whenever you train these models, you're essentially building a compression scheme"* — positioning Inception as a challenger to the large labs on the inference frontier. 他还将生成建模类比为数据压缩，将 Inception 定位为在推理赛道上挑战大型实验室的有力竞争者。
+He explains that the "bridge" between a model and an enterprise workflow is vast: it requires connecting to legacy data systems, supporting human-in-the-loop interactions, managing change, and handling operational complexity that pure research organizations simply don't want to tackle.
+他解释说，模型与企业工作流之间的"桥梁"是巨大的：它需要连接遗留数据系统、支持人机协同交互、管理变革，以及处理纯研究机构根本不想涉足的运营复杂性。
 
-Source: https://www.youtube.com/@NoPriorsPodcast
+Levie draws a compelling historical parallel: just as AWS infrastructure gave rise to trillion-dollar application companies like Snowflake and Databricks, today's AI model infrastructure will spawn application-layer companies nobody can yet predict.
+Levie 提出了一个令人信服的历史类比：正如 AWS 基础设施催生了 Snowflake 和 Databricks 等市值万亿的应用公司，今天的 AI 模型基础设施将孕育出目前无人能预测的应用层公司。
+
+He also makes a pointed observation about the Valley mindset: researchers are so "research-pilled" that they underestimate how much operational work is needed to actually deploy intelligence in real organizations.
+他还对硅谷的思维方式提出了犀利批评：研究人员过于沉浸于研究，以至于低估了在真实组织中实际部署智能所需的大量运营工作。
+
+On Twitter's value: Levie opened by urging young professionals to be on Twitter, arguing that *"you're either a year ahead or a year behind simply based on your feed"* — a strong endorsement of staying wired in to the AI conversation.
+关于 Twitter 的价值：Levie 开场便敦促年轻职场人使用 Twitter，他认为 *"你超前还是落后一年，完全取决于你的信息流"*——这是对保持 AI 对话参与度的有力背书。
+
+Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
