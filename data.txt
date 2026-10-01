@@ -1,176 +1,180 @@
-AI Builders 日报 · 2026-09-30
+AI Builders 日报 · 2026-10-01
 
-AI Builders Digest — 2026-09-30
-
-X / TWITTER
-
----
-
-Boris Cherny (bcherny on X) — Claude Code Engineer at Anthropic
-
-Sonnet 5.5 is out, and it's fixing bugs in Claude Code 30% faster with 30% less token usage.
-Sonnet 5.5 正式发布，在 Claude Code 中修复 bug 的速度提升 30%，token 用量减少 30%。
-https://x.com/bcherny/status/2104638725317923228
+Today's digest covers OpenAI Dev Day highlights, the launch of Dots, AI SDK milestones, investor candor on founder culture, and more from 14 builders across the AI ecosystem.
+今日日报涵盖 OpenAI Dev Day 亮点、Dots 正式发布、AI SDK 里程碑、投资人对创始人文化的坦诚反思，以及来自 14 位 AI 生态建设者的最新动态。
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT at OpenAI
+Swyx (@swyx)
 
-OpenAI is re-opening Pro $200 subscriptions to new subscribers, with a significant change to how usage is calculated — in effect, the plan now delivers half the API dollar spend compared to the old Pro $200 plan.
-OpenAI 将重新向新用户开放 Pro $200 订阅，但使用量计算方式有重大调整，实际上该套餐现在的 API 消耗相当于旧版 Pro $200 方案的一半。
-https://x.com/thsottiaux/status/2104823812042940713
+The annual ranking of best AI podcasts just dropped — worth checking if you're trying to stay sharp on the field.
+年度最佳 AI 播客排名刚刚发布，想保持对行业的敏锐感知不妨一看。
+He was live at the Gateway Pavilion at OpenAI Dev Day, fielding community questions on Dots, Sol 6.1, CUA, and the new Decisions API alongside @AriX and @nikunjhanda.
+他在 OpenAI Dev Day 的 Gateway 展台现场，和 @AriX、@nikunjhanda 一起回答社区关于 Dots、Sol 6.1、CUA 及新版 Decisions API 的热辣问题。
 
-OpenAI commits to not reintroducing the 5-hour limit, and guarantees that subscribers will always get more work done over time as models become more efficient.
-OpenAI 承诺不会重新引入 5 小时限制，并保证随着模型效率的提升，订阅用户能完成的工作量将持续增加。
-https://x.com/thsottiaux/status/2104823812042940713
-
-*"We don't want to put an incentive on ourselves to artificially inflate the API list prices to make it look like you are getting a lot."*
-"我们不希望人为抬高 API 定价来制造'你占便宜了'的假象。"
-This week, OpenAI introduced GPT-6 Sol and GPT-6 Luna at 50% of their previous price, signaling continued momentum on price reductions.
-本周，OpenAI 推出了 GPT-6 Sol 和 GPT-6 Luna，价格降至此前的 50%，延续了持续降价的势头。
-https://x.com/thsottiaux/status/2104823812042940713
+Sources:
+- https://x.com/swyx/status/2105057391490498660
+- https://x.com/swyx/status/2105000738745376769
 
 ---
 
-Peter Yang (petergyang on X) — AI tutorials creator
+Thibault Sottiaux (@thsottiaux)
 
-Peter Yang used Sonnet 5.5 to build a fully working StarCraft level playable in the browser, featuring Terran vs. Zerg gameplay with Marines, Siege Tanks, and Battlecruisers, using 3D models from Sketchfab and Suno-generated music.
-Peter Yang 用 Sonnet 5.5 构建了一个可在浏览器中运行的完整星际争霸关卡，包含陆战队、攻城坦克和战列巡洋舰对战虫族的玩法，配合 Sketchfab 的 3D 模型和 Suno 生成的音乐。
-https://x.com/petergyang/status/2104736498151256303
+Thibault is genuinely excited about Dots, noting that within just 2–3 days of use, after teaching it his preferences, it learns remarkably fast and can tackle surprisingly ambitious tasks autonomously.
+Thibault 对 Dots 充满期待，他表示仅用 2-3 天、教它了解自己的偏好之后，它的学习速度便令人印象深刻，并且能够独立承担相当有野心的任务。
+He expects millions of Dots to come online within days, and says the team is watching how users engage with their primary Dot before releasing the ability to create entire teams of them.
+他预计数百万个 Dots 将在数日内上线，团队正在观察用户如何使用各自的主 Dot，然后再开放创建 Dot 团队的能力。
+He also shared warm words about the DevDay crowd — "immaculate vibes."
+他还对 DevDay 的氛围大加赞赏，称现场氛围"无可挑剔"。
 
-He also noted that commentary swinging between "OpenAI is mogged by Claude 5.5" and "Anthropic is so cooked by Codex" misses the point — competition between the two is what drives everyone forward.
-他也指出，X 上那些"OpenAI 被 Claude 5.5 碾压"或"Anthropic 被 Codex 干死了"的论调完全跑偏了——两家的竞争才是推动整个行业进步的根本。
-https://x.com/petergyang/status/2104809410040336784
-
----
-
-Cat Wu (_catwu on X) — Claude Code & Co-work at Anthropic
-
-Sonnet 5.5 delivers approximately 30% more tasks completed in Claude Code compared to Sonnet 5, while being smarter and requiring fewer tokens for the same work.
-Sonnet 5.5 在 Claude Code 中的任务完成量比 Sonnet 5 提升约 30%，同时更智能，完成同等工作所需 token 更少。
-https://x.com/_catwu/status/2104639552170377399
-
-In a demonstration, Sonnet 5.5 completed a "rake leaves" task 24 seconds faster than Sonnet 5, using 6,000 fewer tokens.
-演示中，Sonnet 5.5 完成"耙树叶"任务比 Sonnet 5 快 24 秒，减少了 6000 个 token。
-https://x.com/_catwu/status/2104639552170377399
+Sources:
+- https://x.com/thsottiaux/status/2105178959327756396
+- https://x.com/thsottiaux/status/2105105086506840421
+- https://x.com/thsottiaux/status/2105102820706058498
 
 ---
 
-Thariq (trq212 on X) — Claude Code at Anthropic
+Peter Yang (@petergyang)
 
-With Sonnet and Opus 5.5, higher-level abstractions like projects, claude tags, and dynamic workflows are now more accessible because this level of intelligence is no longer cost-prohibitive.
-随着 Sonnet 和 Opus 5.5 的发布，项目管理、claude tag 和动态工作流等高层次抽象变得更加触手可及，因为这种智能水平不再高不可攀。
-https://x.com/trq212/status/2104660926373023830
+Peter spent Dev Day not in sessions, but catching up with a curated crew of builders he admires — and wrote a heartfelt shoutout thread naming names, from @lennysan to @thenanyu to @danshipper.
+Peter 在 Dev Day 没有参加任何分会场，而是与他敬佩的一批建设者叙旧，并发了一条充满温情的感谢长推，点名了从 @lennysan 到 @thenanyu 再到 @danshipper 的诸多朋友。
+He also discovered a hidden YouTube toggle that filters out AI-generated Shorts — and immediately wanted to turn it on.
+他还发现了 YouTube 上一个鲜为人知的开关，可以过滤掉 AI 生成的 Shorts，并表示立刻要打开它。
 
-Thariq observed that modern AI prompting has evolved far beyond simple text instructions — effective prompts now depend on references, skills, and examples pointing to multiple repos, web searches, and external APIs.
-Thariq 指出，现代 AI 提示词已经远不只是简单的文字指令，有效的 prompt 需要引用多个代码仓库、网络搜索结果和外部 API。
-https://x.com/trq212/status/2104608785696440510
-
----
-
-Guillermo Rauch (rauchg on X) — CEO at Vercel
-
-Vercel domains can now be searched without authentication, making it especially useful for AI agents that need to discover and work with Vercel-hosted projects.
-Vercel 域名现在无需认证即可搜索，对于需要发现和操作 Vercel 托管项目的 AI agent 来说尤为方便。
-https://x.com/rauchg/status/2104764419305796094
-
-Vercel migrated a production site with minimal intervention and achieved ~70% faster builds and ~75% faster page paints, completing the migration in under a week despite the site having many legacy dependencies.
-Vercel 以最少人工干预完成了一个生产站点的迁移，实现了约 70% 的构建速度提升和约 75% 的页面渲染速度提升，整个迁移在不到一周内完成，尽管该站点存在大量历史遗留依赖。
-https://x.com/rauchg/status/2104660502723072281
-
-Two AI skills derived from the migration will be shared back to the community.
-此次迁移中总结的两个 AI skill 将开源回馈社区。
-https://x.com/rauchg/status/2104660502723072281
+Sources:
+- https://x.com/petergyang/status/2105127506701644024
+- https://x.com/petergyang/status/2105114973819244676
 
 ---
 
-Alex Albert (alexalbert__ on X) — Research at Anthropic
+Nan Yu (@thenanyu)
 
-*"Sonnet 5.5 has the same feel I liked about Opus 5.5. It writes clearly, it's very fast, and it's a major capabilities jump over Sonnet 5."*
-"Sonnet 5.5 有着我喜欢 Opus 5.5 时的那种感觉：写作清晰、速度极快，能力较 Sonnet 5 有重大飞跃。"
-Alex Albert describes it as a great model to iterate with for research workflows.
-Alex Albert 将其描述为非常适合研究工作流中快速迭代的模型。
-https://x.com/alexalbert__/status/2104633937280811010
+Nan shared a new benchmark worth climbing, signaling he's paying close attention to model evaluation and performance frontiers.
+Nan 分享了一个新的值得攀登的 benchmark，表明他对模型评估和性能前沿保持高度关注。
 
----
-
-Aaron Levie (levie on X) — CEO at Box
-
-Box tested Sonnet 5.5 in early access on complex enterprise knowledge work with the Box Agent, and saw a 4-point overall improvement on its hardest evaluations alongside being 2.4x faster with 12% fewer tokens.
-Box 在早期访问阶段通过 Box Agent 对 Sonnet 5.5 进行了企业级复杂知识工作测试，在最难的评估集上整体提升 4 分，速度提升 2.4 倍，token 减少 12%。
-https://x.com/levie/status/2104648654074343480
-
-Standout vertical results include Financial Services (+48 points on due-diligence tasks, 61% faster), Legal (+14 points on lease review), Life Sciences (+22 points on field trial writeups, 41% faster), and Public Sector (+11 points, 71% faster).
-突出的垂直行业成绩包括：金融服务（尽职调查任务 +48 分，速度提升 61%）、法律（租约审查 +14 分）、生命科学（实地试验报告 +22 分，速度提升 41%）、公共部门（+11 分，速度提升 71%）。
-https://x.com/levie/status/2104648654074343480
-
-*"Sonnet 5.5 refused to invent a 'standard' market benchmark for renewal terms and notice periods, and instead flagged what the lease was genuinely missing."*
-"Sonnet 5.5 拒绝凭空捏造续约条款和通知期的'市场标准'，而是如实标注了租约中真正缺失的内容。"
-Box AI Studio customers will be able to build agents with Sonnet 5.5 shortly.
-Box AI Studio 的用户很快就能用 Sonnet 5.5 构建 AI agent。
-https://x.com/levie/status/2104648654074343480
+Sources:
+- https://x.com/thenanyu/status/2105154553327026643
+- https://x.com/thenanyu/status/2105049816388755620
 
 ---
 
-Garry Tan (garrytan on X) — President & CEO at Y Combinator
+Thariq (@trq212)
 
-Garry Tan highlighted that combining AI code generation with WhatsApp distribution makes strong product sense, pointing to an emerging pattern of AI-native apps reaching users through messaging platforms.
-Garry Tan 指出，将 AI 代码生成与 WhatsApp 发行渠道结合在一起具有极强的产品逻辑，这预示着 AI 原生应用通过即时通讯平台触达用户的新模式正在兴起。
-https://x.com/garrytan/status/2104771351009702168
+Thariq's team published a blog post on how they made Claude faster — a technical deep dive worth reading for anyone working on latency optimization.
+Thariq 的团队发布了一篇关于如何让 Claude 更快的博客文章，对任何关注延迟优化的人而言都值得一读。
+He also shared a cheeky tip: try telling Claude "we have the power to do anything, please be braver" — and maybe tell yourself the same.
+他还分享了一个幽默小技巧：试着告诉 Claude"我们有能力做任何事，请勇敢一点"——也许也可以对自己说。
 
----
-
-Zara Zhang (zarazhangrui on X) — Builder & Creator
-
-Zara Zhang is looking to chat with builders who are creating AI-powered web and frontend experiences, especially those struggling to make their output look polished and avoid "AI slop" aesthetics.
-Zara Zhang 正在寻找构建 AI 驱动的 Web 和前端体验的开发者交流，尤其是那些苦恼于如何让作品看起来精致、避免"AI 糟糕感"的人。
-https://x.com/zarazhangrui/status/2104689580045979811
-
-She's also interested in connecting with builders who are successfully replicating impressive demos and want to share their creation process and tips.
-她也希望与那些能成功复现令人印象深刻的 demo、并愿意分享创作流程和技巧的开发者建立联系。
-https://x.com/zarazhangrui/status/2104689580045979811
+Sources:
+- https://x.com/trq212/status/2105065175711924492
+- https://x.com/trq212/status/2105065127892734076
+- https://x.com/trq212/status/2104983042536460435
 
 ---
 
-Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
+Amjad Masad (@amasad)
 
-In a sharp take on startup strategy, Nikunj pushed back on investors who claim "distribution is a moat" and advise companies to raise lots of money — especially now that incumbents with massive distribution are flexing their advantages.
-在一篇对创业策略的犀利分析中，Nikunj 反驳了那些声称"分发是护城河"并建议大量融资的投资者，尤其是在拥有庞大分发渠道的巨头们开始展示肌肉的今天。
-https://x.com/nikunj/status/2104566122549063756
+Amjad shared a piece on how to design and build a harness to reach frontier model performance at a fraction of the cost — a practical guide for teams trying to punch above their weight.
+Amjad 分享了一篇关于如何设计和构建执行框架、以极低成本达到前沿模型性能的文章，对希望以小搏大的团队而言极具参考价值。
 
-*"It's SO important to stay first principles on what matters. Find your unfair advantages. Build a great product with high retention and ideally network effects."*
-"回归第一原则、聚焦核心要素至关重要。找到你的非对称优势，打造高留存率、理想情况下具有网络效应的好产品。"
-https://x.com/nikunj/status/2104566122549063756
+Sources:
+- https://x.com/amasad/status/2104996638817386820
 
 ---
 
-Dan Shipper (danshipper on X) — CEO at Every
+Guillermo Rauch (@rauchg)
 
-Dan Shipper reported that Sonnet 5.5 has dramatically improved writing quality, surpassing even Opus 5.5 in revision tasks in his testing for Every, while being faster and cheaper.
-Dan Shipper 报告称，Sonnet 5.5 的写作质量大幅提升，在他为 Every 做的测试中，修改任务的表现甚至超过了 Opus 5.5，同时速度更快、成本更低。
-https://x.com/danshipper/status/2104636728992776510
+Vercel's AI SDK hit 30 million weekly downloads — a staggering milestone that Guillermo celebrated by one-shotting a GPU-rendered Rust video using fframes, Opus, and the AI SDK itself.
+Vercel AI SDK 突破每周 3000 万下载量——Guillermo 用 fframes、Opus 以及 AI SDK 本身一次性生成了一段 GPU 渲染的 Rust 视频来庆祝这一里程碑。
+He also plotted the inverse correlation between product defects and downloads — quality compounds.
+他还绘制了产品缺陷与下载量之间的反向相关图，印证了质量的复利效应。
 
-He also noted that this OpenAI DevDay had by far the most launches of any DevDay since 2023, describing it as a packed event.
-他还表示，此次 OpenAI DevDay 是 2023 年以来发布产品最密集的一届，内容极为丰富。
-https://x.com/danshipper/status/2104662907716050988
-
----
-
-Sam Altman (sama on X) — CEO at OpenAI
-
-Sam Altman teased tomorrow's OpenAI DevDay with a characteristic hint: *"We have found a new thing."*
-Sam Altman 以一贯风格预告了次日的 OpenAI DevDay："我们发现了一件新东西。"
-https://x.com/sama/status/2104661956879913457
+Sources:
+- https://x.com/rauchg/status/2105053919642829001
+- https://x.com/rauchg/status/2105043144975011982
+- https://x.com/rauchg/status/2105012176952164777
 
 ---
 
-Claude (claudeai on X) — Official Anthropic Claude Account
+Aaron Levie (@levie)
 
-The official Claude account showcased creative demos built with Sonnet 5.5, including pixel-art forest creatures with every frame drawn in code, and side-by-side bouncing-ball physics comparisons between Sonnet 5 and Sonnet 5.5.
-Claude 官方账号展示了多个用 Sonnet 5.5 构建的创意 demo，包括逐帧用代码绘制的像素风森林生物，以及 Sonnet 5 与 Sonnet 5.5 的弹球物理效果对比。
-https://x.com/claudeai/status/2104675003673325732
-https://x.com/claudeai/status/2104675000787603486
+Aaron argued that the AI industry is still in a phase where shared standards and voluntary practices can handle safety and security — and praised how quickly the whole industry aligned on collective progress without compromising competition.
+Aaron 认为 AI 行业目前仍处于可以通过共享标准和自愿实践来应对安全与保障挑战的阶段，并称赞整个行业能够在不损害竞争的前提下如此迅速地达成集体协作共识，令人振奋。
+
+Sources:
+- https://x.com/levie/status/2105111520913039530
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Garry Tan (@garrytan)
+
+Garry merged a version of OpenClaw's test-audit skill into GStack, calling test bloat a real and underappreciated problem — and noting that with intelligence on tap, it's now very solvable.
+Garry 将 OpenClaw 测试审计技能的一个版本合并进 GStack，直言测试膨胀是一个真实但常被忽视的问题，并指出如今有充裕的 AI 智能可用，这个问题已经非常可解。
+
+Sources:
+- https://x.com/garrytan/status/2105049005147525231
+
+---
+
+Zara Zhang (@zarazhangrui)
+
+Zara built a full marketing website for her water bottle using just 6 prompts to Opus 5.5 — including ElevenLabs-generated music, Meshy 3D assets, and OpenAI-generated images.
+Zara 仅用 6 条提示词、借助 Opus 5.5，就为她的水瓶打造了一个完整的营销网站，涵盖 ElevenLabs 生成的音乐、Meshy 生成的 3D 资产和 OpenAI 生成的图像。
+A playful showcase of how multimodal AI pipelines are becoming accessible to anyone with a creative idea.
+这是一次生动的展示，说明多模态 AI 流水线正在向任何有创意想法的人敞开大门。
+
+Sources:
+- https://x.com/zarazhangrui/status/2105096296831017078
+
+---
+
+Nikunj Kothari (@nikunj)
+
+Nikunj shared two sharp, honest observations about the current market: first, it's harder than ever to find missionaries — founders are jumping ship to "obvious winners," and mercenary behavior is rampant even among people who don't think of themselves that way.
+Nikunj 分享了两个关于当前市场的犀利坦诚观察：其一，如今比以往任何时候都更难找到"传教士型"创始人——创始人们纷纷跳槽去"显而易见的赢家"公司，雇佣军心态泛滥，即使很多人自己都没意识到。
+Second, defensibility is no longer one big moat — it's a thousand small things done well and made invisible, and in this hyper-competitive landscape, execution speed and adaptability have become the real moat for any founder.
+其二，护城河不再是某一件大事，而是千件小事做到极致、融于无形；在这个极度竞争的环境下，执行速度和适应能力才是每位创始人真正的护城河。
+
+Sources:
+- https://x.com/nikunj/status/2105148927599423752
+- https://x.com/nikunj/status/2105097936455786536
+- https://x.com/nikunj/status/2104949147812159672
+
+---
+
+Peter Steinberger (@steipete)
+
+Peter noted that a long-running /goal is still in progress, and shared something he found genuinely amazing — short, cryptic, and intriguing.
+Peter 提到一个长期运行的 /goal 任务仍在继续，并分享了一件让他感到真正震撼的事——言简意赅，引人遐想。
+
+Sources:
+- https://x.com/steipete/status/2105049100983132648
+- https://x.com/steipete/status/2105048996549116268
+
+---
+
+Dan Shipper (@danshipper)
+
+Dan is visibly proud of Every's Dev Day coverage — two vibe checks, a live feed, a livestream, and an upcoming podcast with Sam Altman himself.
+Dan 对 Every 的 Dev Day 报道深感自豪——两篇 vibe check、直播流、实时报道，以及即将发布的与 Sam Altman 的播客对话。
+He urged everyone to read the vibe check, which has become a go-to lens for understanding OpenAI's cultural and product direction.
+他敦促大家阅读 vibe check，这已成为理解 OpenAI 文化与产品方向的重要视角。
+
+Sources:
+- https://x.com/danshipper/status/2105073259507331233
+- https://x.com/danshipper/status/2105066959822114972
+- https://x.com/danshipper/status/2105064711431897369
+
+---
+
+Sam Altman (@sama)
+
+Sam announced Dots — OpenAI's new always-on AI that works 24/7 for you, designed to get more of your time and attention back.
+Sam 宣布推出 Dots——OpenAI 全新的全天候 AI，专为帮助你夺回时间和注意力而设计。
+He also highlighted Sol 6.1 at one-fifth the price of Astra with a 95% cache read discount, calling it an "extremely capable model" — and raved about the Ultrafast mode, saying he never wants to go back.
+他还重点介绍了 Sol 6.1：价格仅为 Astra 的五分之一，并提供 95% 缓存读取折扣，称其为"极其强大的模型"——同时对 Ultrafast 模式赞不绝口，表示再也不想回头了。
+
+Sources:
+- https://x.com/sama/status/2104995014208258235
+- https://x.com/sama/status/2104994601140711896
+- https://x.com/sama/status/2104994395980533804
