@@ -1,180 +1,254 @@
-AI Builders 日报 · 2026-10-01
-
-Today's digest covers OpenAI Dev Day highlights, the launch of Dots, AI SDK milestones, investor candor on founder culture, and more from 14 builders across the AI ecosystem.
-今日日报涵盖 OpenAI Dev Day 亮点、Dots 正式发布、AI SDK 里程碑、投资人对创始人文化的坦诚反思，以及来自 14 位 AI 生态建设者的最新动态。
+AI Builders 日报 · 2026-10-02
 
 ---
 
-Swyx (@swyx)
+## Swyx (@swyx)
 
-The annual ranking of best AI podcasts just dropped — worth checking if you're trying to stay sharp on the field.
-年度最佳 AI 播客排名刚刚发布，想保持对行业的敏锐感知不妨一看。
-He was live at the Gateway Pavilion at OpenAI Dev Day, fielding community questions on Dots, Sol 6.1, CUA, and the new Decisions API alongside @AriX and @nikunjhanda.
-他在 OpenAI Dev Day 的 Gateway 展台现场，和 @AriX、@nikunjhanda 一起回答社区关于 Dots、Sol 6.1、CUA 及新版 Decisions API 的热辣问题。
+Swyx reflected on the ethics and norms of media attribution in tech, questioning whether it's acceptable to crop out logos from YouTube videos without crediting the source.
+Swyx 思考了科技媒体中引用归因的伦理和规范，质疑在不注明来源的情况下从 YouTube 视频中截取 Logo 是否合适。
+
+He also shared excitement about reaching the top of the Apple Podcasts charts, even beating popular creator MKBHD — without doing any deliberate optimization for podcast discovery.
+他还分享了自己登上苹果播客排行榜榜首的喜悦，甚至超过了知名创作者 MKBHD——而这一切都不是刻意优化的结果。
+
+Perhaps most notably, Swyx highlighted Flow, describing it as doing *"for hardware engineering what Git+GitHub did for software engineering"* — enabling massive acceleration by aligning thousands of stakeholders in complex, irreversible, high-value projects.
+最值得关注的是，Swyx 重点介绍了 Flow，将其描述为"为硬件工程所做的事，正如 Git+GitHub 为软件工程所做的那样"——通过让成千上万的利益相关者在复杂、不可逆、高价值项目中保持一致，从而实现大幅提速。
 
 Sources:
-- https://x.com/swyx/status/2105057391490498660
-- https://x.com/swyx/status/2105000738745376769
+- https://x.com/swyx/status/2105538561672085751
+- https://x.com/swyx/status/2105419486383964544
+- https://x.com/swyx/status/2105348724331606411
 
 ---
 
-Thibault Sottiaux (@thsottiaux)
+## Josh Woodward (@joshwoodward)
 
-Thibault is genuinely excited about Dots, noting that within just 2–3 days of use, after teaching it his preferences, it learns remarkably fast and can tackle surprisingly ambitious tasks autonomously.
-Thibault 对 Dots 充满期待，他表示仅用 2-3 天、教它了解自己的偏好之后，它的学习速度便令人印象深刻，并且能够独立承担相当有野心的任务。
-He expects millions of Dots to come online within days, and says the team is watching how users engage with their primary Dot before releasing the ability to create entire teams of them.
-他预计数百万个 Dots 将在数日内上线，团队正在观察用户如何使用各自的主 Dot，然后再开放创建 Dot 团队的能力。
-He also shared warm words about the DevDay crowd — "immaculate vibes."
-他还对 DevDay 的氛围大加赞赏，称现场氛围"无可挑剔"。
+Josh Woodward announced Gemini 4 Argon with a simple but significant post — signaling Google's continued rapid model iteration.
+Josh Woodward 以一条简短但意义重大的推文宣布了 Gemini 4 Argon 的发布，标志着 Google 持续快速的模型迭代。
 
-Sources:
-- https://x.com/thsottiaux/status/2105178959327756396
-- https://x.com/thsottiaux/status/2105105086506840421
-- https://x.com/thsottiaux/status/2105102820706058498
+Source:
+- https://x.com/joshwoodward/status/2105396307250782446
 
 ---
 
-Peter Yang (@petergyang)
+## Thibault Sottiaux (@thsottiaux)
 
-Peter spent Dev Day not in sessions, but catching up with a curated crew of builders he admires — and wrote a heartfelt shoutout thread naming names, from @lennysan to @thenanyu to @danshipper.
-Peter 在 Dev Day 没有参加任何分会场，而是与他敬佩的一批建设者叙旧，并发了一条充满温情的感谢长推，点名了从 @lennysan 到 @thenanyu 再到 @danshipper 的诸多朋友。
-He also discovered a hidden YouTube toggle that filters out AI-generated Shorts — and immediately wanted to turn it on.
-他还发现了 YouTube 上一个鲜为人知的开关，可以过滤掉 AI 生成的 Shorts，并表示立刻要打开它。
+Thibault, who appears to be from the OpenAI team, shared a flurry of OpenAI Dev Day announcements. You can now build and deploy MCP servers directly through ChatGPT and control who gets access — from private use to public sharing.
+Thibault 来自 OpenAI 团队，分享了 OpenAI Dev Day 的一系列公告。用户现在可以直接通过 ChatGPT 构建和部署 MCP 服务器，并控制访问权限——从私人使用到公开分享皆可。
+
+He confirmed that GPT-6.1 Sol is *"our most demanded model pretty much ever both across the API and subscriptions"* and that capacity has been brought online after heavy load.
+他确认 GPT-6.1 Sol 是"迄今为止无论是 API 还是订阅端需求最旺盛的模型"，并表示在经历高负载后已扩容上线。
+
+He also demonstrated Dots — OpenAI's new personal AI agent — showing it finding a recent photo of him online after a simple prompt request.
+他还演示了 Dots——OpenAI 的新个人 AI 助理——仅通过简单的提示指令，Dots 便成功在网上找到了他的近期照片。
 
 Sources:
-- https://x.com/petergyang/status/2105127506701644024
-- https://x.com/petergyang/status/2105114973819244676
+- https://x.com/thsottiaux/status/2105519215092584786
+- https://x.com/thsottiaux/status/2105464274747527543
+- https://x.com/thsottiaux/status/2105395200248156556
 
 ---
 
-Nan Yu (@thenanyu)
+## Peter Yang (@petergyang)
 
-Nan shared a new benchmark worth climbing, signaling he's paying close attention to model evaluation and performance frontiers.
-Nan 分享了一个新的值得攀登的 benchmark，表明他对模型评估和性能前沿保持高度关注。
+Peter Yang had a humorous reflection on his experience at Dev Day: in person, people express appreciation; in YouTube comments, they call him an *"AI shill"*.
+Peter Yang 对自己在 Dev Day 的经历进行了幽默的反思：现场观众表达感谢，而 YouTube 评论区却把他叫做"AI 托儿"。
+
+He noted that *"This is getting nuclear 🌶️"* on a seemingly heated topic, and praised Google's Gemini 4 performance — while noting they still need to be more competitive on the coding side (Antigravity) and personal agent (Spark).
+他用"这已经到核弹级别了 🌶️"来形容某个热点话题，并称赞了 Google Gemini 4 的表现——同时指出其在编程（Antigravity）和个人助理（Spark）方面仍需加强竞争力。
 
 Sources:
-- https://x.com/thenanyu/status/2105154553327026643
-- https://x.com/thenanyu/status/2105049816388755620
+- https://x.com/petergyang/status/2105486915147645063
+- https://x.com/petergyang/status/2105427638236180883
+- https://x.com/petergyang/status/2105393240392585359
 
 ---
 
-Thariq (@trq212)
+## Nan Yu (@thenanyu)
 
-Thariq's team published a blog post on how they made Claude faster — a technical deep dive worth reading for anyone working on latency optimization.
-Thariq 的团队发布了一篇关于如何让 Claude 更快的博客文章，对任何关注延迟优化的人而言都值得一读。
-He also shared a cheeky tip: try telling Claude "we have the power to do anything, please be braver" — and maybe tell yourself the same.
-他还分享了一个幽默小技巧：试着告诉 Claude"我们有能力做任何事，请勇敢一点"——也许也可以对自己说。
+Nan Yu, freshly one week into joining OpenAI, shared a sharp cultural observation: the thing that stands out most is *"absurdly high bias toward action"* — a distinct contrast to the cultures at other companies he's experienced.
+刚入职 OpenAI 一周的 Nan Yu 分享了一个深刻的文化观察：最令他印象深刻的是"极高的行动偏向性"——与他曾经历的其他公司文化形成鲜明对比。
 
-Sources:
-- https://x.com/trq212/status/2105065175711924492
-- https://x.com/trq212/status/2105065127892734076
-- https://x.com/trq212/status/2104983042536460435
+Source:
+- https://x.com/thenanyu/status/2105316751802348005
 
 ---
 
-Amjad Masad (@amasad)
+## Thariq (@trq212)
 
-Amjad shared a piece on how to design and build a harness to reach frontier model performance at a fraction of the cost — a practical guide for teams trying to punch above their weight.
-Amjad 分享了一篇关于如何设计和构建执行框架、以极低成本达到前沿模型性能的文章，对希望以小搏大的团队而言极具参考价值。
+Thariq shared candid progress notes on a game he's been prototyping solo. The graphics and feel are *"prototype quality"* — not yet ready for players — and he's already tried 2-3 variations on a key mechanic (a big jump) that still doesn't fit the control scheme.
+Thariq 分享了他独自开发游戏原型的真实进展。画面和手感都是"原型质量"——尚不具备可玩性——他已经尝试了 2-3 种关键机制（大跳跃），但仍未找到合适的操控方案。
+
+He's thinking about collaborating with 2-3 people, noting that animations and design could really benefit from someone with specialized expertise.
+他正在考虑与 2-3 人合作，认为动画和设计部分确实需要有专业特长的人参与。
 
 Sources:
-- https://x.com/amasad/status/2104996638817386820
+- https://x.com/trq212/status/2105333509246386546
+- https://x.com/trq212/status/2105333507711271060
+- https://x.com/trq212/status/2105333506226503710
 
 ---
 
-Guillermo Rauch (@rauchg)
+## Google Labs (@GoogleLabs)
 
-Vercel's AI SDK hit 30 million weekly downloads — a staggering milestone that Guillermo celebrated by one-shotting a GPU-rendered Rust video using fframes, Opus, and the AI SDK itself.
-Vercel AI SDK 突破每周 3000 万下载量——Guillermo 用 fframes、Opus 以及 AI SDK 本身一次性生成了一段 GPU 渲染的 Rust 视频来庆祝这一里程碑。
-He also plotted the inverse correlation between product defects and downloads — quality compounds.
-他还绘制了产品缺陷与下载量之间的反向相关图，印证了质量的复利效应。
+Google Labs announced the graduation of Opal — the customizable workflow experiment launched in Google Labs — into Skills, a permanent feature. The learnings from Opal directly inspired Gems in Google's main products.
+Google Labs 宣布，在 Google Labs 中推出的可定制工作流实验 Opal 正式毕业并升级为 Skills——一项永久功能。Opal 的经验直接启发了 Google 主要产品中 Gems 功能的诞生。
 
-Sources:
-- https://x.com/rauchg/status/2105053919642829001
-- https://x.com/rauchg/status/2105043144975011982
-- https://x.com/rauchg/status/2105012176952164777
+Source:
+- https://x.com/GoogleLabs/status/2105352889665564838
 
 ---
 
-Aaron Levie (@levie)
+## Amjad Masad (@amasad)
 
-Aaron argued that the AI industry is still in a phase where shared standards and voluntary practices can handle safety and security — and praised how quickly the whole industry aligned on collective progress without compromising competition.
-Aaron 认为 AI 行业目前仍处于可以通过共享标准和自愿实践来应对安全与保障挑战的阶段，并称赞整个行业能够在不损害竞争的前提下如此迅速地达成集体协作共识，令人振奋。
+Replit's Amjad Masad announced the ability to make and one-click publish apps for Meta VR — a significant expansion of Replit's reach into spatial computing.
+Replit 的 Amjad Masad 宣布支持一键制作和发布 Meta VR 应用——这是 Replit 向空间计算领域的重大拓展。
 
-Sources:
-- https://x.com/levie/status/2105111520913039530
-
----
-
-Garry Tan (@garrytan)
-
-Garry merged a version of OpenClaw's test-audit skill into GStack, calling test bloat a real and underappreciated problem — and noting that with intelligence on tap, it's now very solvable.
-Garry 将 OpenClaw 测试审计技能的一个版本合并进 GStack，直言测试膨胀是一个真实但常被忽视的问题，并指出如今有充裕的 AI 智能可用，这个问题已经非常可解。
-
-Sources:
-- https://x.com/garrytan/status/2105049005147525231
+Source:
+- https://x.com/amasad/status/2105321112389443805
 
 ---
 
-Zara Zhang (@zarazhangrui)
+## Guillermo Rauch (@rauchg)
 
-Zara built a full marketing website for her water bottle using just 6 prompts to Opus 5.5 — including ElevenLabs-generated music, Meshy 3D assets, and OpenAI-generated images.
-Zara 仅用 6 条提示词、借助 Opus 5.5，就为她的水瓶打造了一个完整的营销网站，涵盖 ElevenLabs 生成的音乐、Meshy 生成的 3D 资产和 OpenAI 生成的图像。
-A playful showcase of how multimodal AI pipelines are becoming accessible to anyone with a creative idea.
-这是一次生动的展示，说明多模态 AI 流水线正在向任何有创意想法的人敞开大门。
+Guillermo highlighted Vercel AI Gateway as *"the largest trustworthy datasource"* for token aggregation — pointing out that most alternatives are polluted by providers that train on your data or falsely claim zero data retention.
+Guillermo 强调 Vercel AI Gateway 是"最值得信赖的 token 聚合数据源"——指出大多数替代品要么是数据训练提供商的噪音，要么是虚假声称零数据留存。
+
+He also promoted Vercel Connect — a way for services to get in front of *"20M+ developers and the billions of agents they'll ship"* — arguing that with code now being *"free"*, the final bottleneck is connection and distribution.
+他还推广了 Vercel Connect——一种让服务触达"2000 万以上开发者及他们将部署的数十亿 agent"的方式——并指出，随着代码成本趋近于零，最终的瓶颈在于连接与分发。
 
 Sources:
-- https://x.com/zarazhangrui/status/2105096296831017078
+- https://x.com/rauchg/status/2105476587756138942
+- https://x.com/rauchg/status/2105390544096841942
+- https://x.com/rauchg/status/2105285688820400259
 
 ---
 
-Nikunj Kothari (@nikunj)
+## Aaron Levie (@levie)
 
-Nikunj shared two sharp, honest observations about the current market: first, it's harder than ever to find missionaries — founders are jumping ship to "obvious winners," and mercenary behavior is rampant even among people who don't think of themselves that way.
-Nikunj 分享了两个关于当前市场的犀利坦诚观察：其一，如今比以往任何时候都更难找到"传教士型"创始人——创始人们纷纷跳槽去"显而易见的赢家"公司，雇佣军心态泛滥，即使很多人自己都没意识到。
-Second, defensibility is no longer one big moat — it's a thousand small things done well and made invisible, and in this hyper-competitive landscape, execution speed and adaptability have become the real moat for any founder.
-其二，护城河不再是某一件大事，而是千件小事做到极致、融于无形；在这个极度竞争的环境下，执行速度和适应能力才是每位创始人真正的护城河。
+Box's Aaron Levie made a sharp observation about the current AI opportunity: *"There's a huge opportunity right now in being the deployment layer for AI into the economy."* He emphasized that the work required to change enterprise workflows is far greater than most people realize — making the deployment layer a high-value, sticky position.
+Box 的 Aaron Levie 对当前 AI 机遇做出了深刻判断："现在，成为 AI 部署到经济体系中的部署层，是一个巨大的机会。"他强调，改变企业工作流所需的工作量远超大多数人的预期——这使得部署层成为一个高价值、高粘性的位置。
 
-Sources:
-- https://x.com/nikunj/status/2105148927599423752
-- https://x.com/nikunj/status/2105097936455786536
-- https://x.com/nikunj/status/2104949147812159672
+Source:
+- https://x.com/levie/status/2105354449795621179
 
 ---
 
-Peter Steinberger (@steipete)
+## Garry Tan (@garrytan)
 
-Peter noted that a long-running /goal is still in progress, and shared something he found genuinely amazing — short, cryptic, and intriguing.
-Peter 提到一个长期运行的 /goal 任务仍在继续，并分享了一件让他感到真正震撼的事——言简意赅，引人遐想。
+YC President Garry Tan shared his excitement about a new code editor paradigm where *"agent swarms speak to one another as peers and self-coordinate"* — enabling organic exploration of the solution space, unlike traditional top-down child agent coordination.
+YC 总裁 Garry Tan 对一种新的代码编辑器范式表示兴奋，在这种范式中"agent 群体相互以平等身份交流并自我协调"——与传统的自上而下的子 agent 协调不同，能够有机地探索解决方案空间。
+
+He also shared his interview with US Secretary of Transportation Sean Duffy at a Startups event — asking what Americans should be able to do by end of decade that they can't do today.
+他还分享了在创业活动上与美国交通部长 Sean Duffy 的对话——探讨到本十年末，美国人应该能够实现哪些目前尚做不到的事情。
 
 Sources:
-- https://x.com/steipete/status/2105049100983132648
-- https://x.com/steipete/status/2105048996549116268
+- https://x.com/garrytan/status/2105472268482875898
+- https://x.com/garrytan/status/2105449821645480046
+- https://x.com/garrytan/status/2105395957357588561
 
 ---
 
-Dan Shipper (@danshipper)
+## Matt Turck (@mattturck)
 
-Dan is visibly proud of Every's Dev Day coverage — two vibe checks, a live feed, a livestream, and an upcoming podcast with Sam Altman himself.
-Dan 对 Every 的 Dev Day 报道深感自豪——两篇 vibe check、直播流、实时报道，以及即将发布的与 Sam Altman 的播客对话。
-He urged everyone to read the vibe check, which has become a go-to lens for understanding OpenAI's cultural and product direction.
-他敦促大家阅读 vibe check，这已成为理解 OpenAI 文化与产品方向的重要视角。
+Matt Turck (FirstMark Capital) posted a pointed meme: *"SaaS companies seeing Anthropic's ARR growth flatline"* — a nod to how AI-native companies are reshaping the competitive landscape for traditional SaaS.
+Matt Turck（FirstMark Capital）发布了一条犀利的表情包："SaaS 公司看到 Anthropic 的 ARR 增长趋于平稳"——暗示 AI 原生公司正在重塑传统 SaaS 的竞争格局。
 
-Sources:
-- https://x.com/danshipper/status/2105073259507331233
-- https://x.com/danshipper/status/2105066959822114972
-- https://x.com/danshipper/status/2105064711431897369
+Source:
+- https://x.com/mattturck/status/2105261211906384132
 
 ---
 
-Sam Altman (@sama)
+## Nikunj Kothari (@nikunj)
 
-Sam announced Dots — OpenAI's new always-on AI that works 24/7 for you, designed to get more of your time and attention back.
-Sam 宣布推出 Dots——OpenAI 全新的全天候 AI，专为帮助你夺回时间和注意力而设计。
-He also highlighted Sol 6.1 at one-fifth the price of Astra with a 95% cache read discount, calling it an "extremely capable model" — and raved about the Ultrafast mode, saying he never wants to go back.
-他还重点介绍了 Sol 6.1：价格仅为 Astra 的五分之一，并提供 95% 缓存读取折扣，称其为"极其强大的模型"——同时对 Ultrafast 模式赞不绝口，表示再也不想回头了。
+Nikunj Kothari shared an honest reflection on what he's *not* been able to automate away: sourcing and writing outbound emails, meeting founders (especially in-person), and a few other high-touch activities. Despite automating most of his job, these remain stubbornly human.
+Nikunj Kothari 诚实地分享了他仍无法自动化的工作：挖掘潜在客户并撰写主动外发邮件、拜访创始人（尤其是线下见面）以及其他一些高度依赖人际接触的活动。尽管他已将大部分工作自动化，这些事项依然顽固地需要人来完成。
+
+He's also on the lookout for an *"insanely good multiplayer experience"* — inviting builders to DM or reply with demos.
+他还在寻找"极出色的多人协作体验"——邀请开发者私信或回复并提供演示。
 
 Sources:
-- https://x.com/sama/status/2104995014208258235
-- https://x.com/sama/status/2104994601140711896
-- https://x.com/sama/status/2104994395980533804
+- https://x.com/nikunj/status/2105532229866942772
+- https://x.com/nikunj/status/2105397656994652178
+
+---
+
+## Peter Steinberger (@steipete)
+
+Peter Steinberger, developer of PDF Viewer and other apps, shared two friction points he's actively fixing. He changed the visibility of inter-agent communication in the OC harness to a single expandable line — finding the verbose chat stream *"increasingly irritating"* — and predicts others will follow.
+PDF Viewer 等应用的开发者 Peter Steinberger 分享了他正在积极解决的两个摩擦点。他将 OC harness 中的 agent 间通信改为单行可展开显示——因为冗长的聊天流让他"越来越烦"——并预测其他人也会跟进。
+
+He's also in an ongoing battle between CI slowness and GitHub friction, calling it time to rethink how we work.
+他还在与 CI 缓慢和 GitHub 摩擦作斗争，认为是时候重新思考工作方式了。
+
+Sources:
+- https://x.com/steipete/status/2105362785534361996
+- https://x.com/steipete/status/2105341288958869952
+
+---
+
+## Dan Shipper (@danshipper)
+
+Every's Dan Shipper — who is also the host of the podcast featured in today's digest — was clearly in the thick of OpenAI Dev Day. He posted about being ready to *"vibe check"* Gemini 4, initially thinking it was already out, and shared a link to a new piece published on Every.
+Every 的 Dan Shipper——也是今日播客的主持人——显然深度参与了 OpenAI Dev Day。他发帖表示准备好"vibe check"Gemini 4，起初以为已经发布了，并分享了一篇发布在 Every 上的新文章链接。
+
+Sources:
+- https://x.com/danshipper/status/2105443942330503416
+- https://x.com/danshipper/status/2105399004649689347
+- https://x.com/danshipper/status/2105391711950393423
+
+---
+
+## Aditya Agarwal (@adityaag)
+
+Former Dropbox CTO and SPC partner Aditya Agarwal shared a question he asks every founder: *"What is the maximalist version of this company?"* His point: in today's environment, there is no longer a *"build incrementally and see"* — if you're building a company now, the only way is to swing for the absolute maximum possible outcome.
+前 Dropbox CTO、SPC 合伙人 Aditya Agarwal 分享了他向每位创始人提出的问题："这家公司的最大化版本是什么？"他的观点是：在当今环境下，不再存在"先小步走、再观察"的路径——如果你现在在创业，唯一的方式就是全力追求最大可能的结果。
+
+Source:
+- https://x.com/adityaag/status/2105339569139056776
+
+---
+
+## Claude (@claudeai)
+
+Anthropic's Claude account announced Claude Founder House events coming to SF Tech Week (Oct 6–8) and Stockholm (Oct 14) — featuring talks, workshops, office hours with the Anthropic team, and community networking for builders working with Claude.
+Anthropic 旗下的 Claude 账号宣布将举办 Claude Founder House 活动，分别在旧金山科技周（10 月 6-8 日）和斯德哥尔摩（10 月 14 日）举办——包含演讲、工作坊、与 Anthropic 团队的答疑时间以及 Claude 开发者社区交流。
+
+Sources:
+- https://x.com/claudeai/status/2105370681613672773
+- https://x.com/claudeai/status/2105370680485417401
+
+---
+
+## 🎙️ Podcast: AI & I by Every
+
+**How Sam Altman Uses Dots to Take Back His Time**
+
+This episode features Dan Shipper in conversation with Sam Altman, recorded live at OpenAI Dev Day 2026.
+本期节目收录了 Dan Shipper 与 Sam Altman 在 OpenAI Dev Day 2026 现场的对话。
+
+**核心论点 / Core Argument**
+
+Sam Altman argues that AI — particularly OpenAI's new "Dots" personal agent — is ushering in a renaissance, not an industrial revolution. The key distinction: the Renaissance was centered on people and human potential; the Industrial Revolution turned people into cogs. Sam's vision is AI that gives people back control of their time and creative energy, not one that replaces them.
+Sam Altman 认为，AI——尤其是 OpenAI 新推出的个人助理"Dots"——正在开启一场文艺复兴，而非工业革命。核心区别在于：文艺复兴以人和人类潜能为中心；工业革命将人变成了机器的齿轮。Sam 的愿景是用 AI 让人重新掌控自己的时间和创造力，而非取代人类。
+
+**关键洞察 / Key Insights**
+
+- *"People just want so much more stuff."* Latent demand has massively exceeded expectations. Rather than AI eliminating jobs, it's surfaced enormous unmet needs — developers have never been able to do more, but the bar has never been higher either.
+  "人们只是想要更多的东西。"潜在需求已大幅超出预期。AI 并非在消灭工作，而是释放了巨量未被满足的需求——开发者从未有过如此强大的能力，但门槛也从未如此之高。
+
+- Dots gave Sam back his mornings. He describes how checking his phone used to pollute his best creative hours with urgent but manageable issues. Now his Dot handles triage, and he gets deep work time back.
+  Dots 让 Sam 重新找回了清晨的时光。他描述了过去查看手机如何用紧急但可处理的事务污染了他最宝贵的创造力时段。现在他的 Dot 负责分诊，他重新获得了深度工作的时间。
+
+- *"The final boss of building is connecting."* With code now essentially free, distribution and discovery become the critical bottleneck. This is why OpenAI launched its platform ecosystem and app marketplace at Dev Day.
+  "构建的最终 Boss 是连接。"随着代码成本趋近于零，分发和发现成为关键瓶颈。这也是 OpenAI 在 Dev Day 推出平台生态系统和应用市场的原因。
+
+- On Decisions API / ultra-fast inference: Sam confirmed the massive difference speed makes to the iterative thinking loop. He references Brett Victor's talk on creators needing *"immediate connection to what they're creating"* as the intellectual framing for why Ultrafast matters.
+  关于 Decisions API / 超快推理：Sam 确认了速度对迭代思维循环的巨大影响。他引用 Brett Victor 关于创作者需要"与所创造物建立即时连接"的演讲，作为 Ultrafast 重要性的思想框架。
+
+- There will always be a frontier tier (faster, smarter, pricier), but OpenAI is committed to continuing its Moore's-law-beating compression of value per dollar for the mainstream tier.
+  始终会有前沿层级（更快、更智能、更昂贵），但 OpenAI 承诺将继续以超越摩尔定律的速度压缩主流层级的每美元价值。
+
+- Sam wants to build and ship something himself — not just a side project, but a real ChatGPT plugin extension — because he genuinely believes friction reduction unlocks disproportionate creation.
+  Sam 想亲自构建和发布一些东西——不仅仅是个人小项目，而是一个真正的 ChatGPT 插件扩展——因为他真心相信降低摩擦能带来不成比例的创造力释放。
+
+Podcast URL: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
