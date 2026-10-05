@@ -1,4 +1,7 @@
-AI Builders 日报 · 2026-10-04
+AI Builders 日报 · 2026-10-05
+
+AI Builders Digest — 2026-10-05
+AI Builders 日报 — 2026年10月5日
 
 ---
 
@@ -6,232 +9,207 @@ AI Builders 日报 · 2026-10-04
 
 ---
 
-**Swyx (AI Engineer Community Builder & smol.ai Co-founder)**
+### Thibault Sottiaux (thsottiaux on X)
 
-It's time to get serious about Security x AI.
-是时候认真对待 AI 安全领域了。
+Thibault Sottiaux 是 Dot AI 的核心产品负责人，近期分享了他用 AI 助手实现收件箱清零的亲身经历。
 
-Swyx highlighted that one of the joys of running AIE (AI Engineer) is helping others launch high-quality conferences globally — every 2025 partner conference has already launched and more are coming.
-Swyx 分享了参与 AIE 活动的乐趣——帮助全球创业者在各自国家和领域举办高质量会议，2025 年的所有合作方都已启动。
+He had never achieved inbox zero until he made it an active goal for his AI (Dot) to help him accomplish it.
+他从未实现过收件箱清零，直到他把这当成一个明确目标，让他的 AI 助手（Dot）来帮他完成。
 
-He also teased OpenAI's "one more thing" moment, noting that the team has been working on "Dots" for a while — hinting at a significant product reveal.
-他还暗示 OpenAI 正在准备"One more thing"惊喜，提示团队已在"Dots"项目上工作了相当长时间。
+The AI helped by deleting unneeded email categories in batches, identifying labels for different types of work, and walking him through emails that needed replies — searching for relevant context in the background.
+这个 AI 助手批量删除了不需要保留的邮件类别，为不同类型的工作建立了标签，并在需要回复时帮他逐一处理，同时在后台检索相关上下文。
 
-https://x.com/swyx/status/2106042773510177256
-https://x.com/swyx/status/2106103958657958298
+As a follow-up, he also shared a product direction update: *"Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models."*
+他还分享了产品方向更新："当前的工作重心只有几件事：简化体验、提升效率、开发突破性功能或新模型。"
 
----
+User feedback is clear that people want things to get simpler, and the team is acting on it.
+用户反馈明确表明，大家希望产品变得更简单，团队正在为此努力。
 
-**Thibault Sottiaux (OpenAI — Codex & ChatGPT Engineer)**
-
-Our future models will be much better at code deletion and simplification.
-我们未来的模型将在代码删除和简化方面表现得更出色。
-
-Sottiaux acknowledged reports that Pro 500 users didn't receive their expected reset, and confirmed the team investigated and will make it up to affected users.
-Sottiaux 承认有用户反映 Pro 500 套餐未按预期重置，确认团队已排查并将补偿受影响用户。
-
-He noted the issue was fixed, expressing some surprise at the number of Pro 500 users who raised the concern.
-他确认问题已修复，并对提出这一问题的 Pro 500 用户数量感到意外。
-
-https://x.com/thsottiaux/status/2106252868307271752
-https://x.com/thsottiaux/status/2106239435461579088
-https://x.com/thsottiaux/status/2106233145163141249
+https://x.com/thsottiaux/status/2106602729875685780
+https://x.com/thsottiaux/status/2106603980386394123
+https://x.com/thsottiaux/status/2106610099720720811
 
 ---
 
-**Peter Yang (AI Educator & Practical AI Tutorials Creator)**
+### Peter Yang (petergyang on X)
 
-I was paying almost $300/year for a YouTube research tool — I decided to check if Claude can build the core feature set that I actually use.
-我每年花近 300 美元订阅一款 YouTube 研究工具，于是我决定测试 Claude 能否实现我真正需要的核心功能。
+Peter Yang 是一位产品增长领域的创作者，近期发推分享了他对 Google 和 YouTube CEO 使用各自平台方式的观察。
 
-Yang shared that he successfully replaced a pricey SaaS product by building a custom Claude-powered alternative, highlighting the growing trend of AI replacing specialized productivity tools.
-Yang 分享了用 Claude 自建工具取代昂贵 SaaS 产品的经历，印证了 AI 正在取代专业生产力工具的趋势。
+He noted a telling contrast: the Google CEO actually uses and replies to feedback on the app, while the YouTube CEO uses it only as a communications channel to post announcements.
+他指出了一个耐人寻味的对比：Google CEO 真正在使用并回复 app 上的反馈，而 YouTube CEO 只是把它当作发布公告的渠道。
 
-He also hosted a free lightning lesson on building AI systems to automate work, with 500+ people joining live.
-他还举办了一场免费闪电课程，教授如何构建 AI 系统来自动化工作，超过 500 人参与直播。
+His other posts were lighter personal notes about watching the TV show Foundation and a humorous encounter with a squirrel at the park, which lack substantive professional content.
+他的其他推文内容较为轻松，包括观看电视剧《基地》的感想以及公园里被松鼠抓伤的趣事，不含重要行业观点。
 
-https://x.com/petergyang/status/2106072698564874410
-https://x.com/petergyang/status/2106071235696447660
+https://x.com/petergyang/status/2106505635017986394
 
 ---
 
-**Nan Yu (OpenAI — Head of Product, Codex; prev. Head of Product at Linear)**
+### Madhu Guru (realmadhuguru on X)
 
-Everyone is making the same thing.
-大家都在做同一件事。
+Madhu Guru 是一位关注 AI 产品化的投资人与评论者，近期发表了对当前 AI 普及现状的犀利分析。
 
-Nan Yu shared a pointed observation about the current state of AI product development — a cautionary note about homogeneity and lack of differentiation in the space.
-Nan Yu 对当前 AI 产品开发现状发出了一针见血的评论——警示业界产品同质化、缺乏差异化的问题。
+He argues that AI adoption today is largely a product problem.
+他认为，当前 AI 普及率低主要是一个产品问题。
 
-https://x.com/thenanyu/status/2106189530743398867
+Even among the 2% of people paying for AI, usage depth is shallow — because most AI products look like airplane cockpits with 100 levers: connectors, permissions, model selection, token usage, and so on.
+即使在为 AI 付费的 2% 用户中，使用深度也很浅——因为大多数 AI 产品看起来像有 100 个开关的飞机驾驶舱：连接器、权限、模型选择、token 用量等等。
 
----
+He believes this is starting to change, and that things will look materially different in the next 12 months as product teams mature and make AI products easier to use.
+他认为这种情况正在改变，随着产品团队逐渐成熟、AI 产品变得更易用，未来 12 个月内局面将会大不相同。
 
-**Madhu Guru (Meta — Sr. Director of AI; prev. Google Gemini, Veo, Nano)**
-
-Underrated: the feeling of reading great writing that is 100% human written.
-被低估的感受：读到 100% 由人类写就的优秀文字时的那种感动。
-
-Guru offered a refreshingly honest take — in the age of AI-generated content, the distinctly human quality of great writing carries a new kind of value and emotional resonance.
-在 AI 生成内容泛滥的时代，Guru 给出了一个坦诚的观点：真正出色的人类写作拥有一种新的价值和情感共鸣。
-
-https://x.com/realmadhuguru/status/2106102222501376050
+https://x.com/realmadhuguru/status/2106450089938157720
 
 ---
 
-**Thariq (Anthropic — Claude Code Engineer; prev. YC W20)**
+### Amjad Masad (amasad on X)
 
-"You should know" is a great way of staying on top of what's possible with Claude — and also a great example of the kind of things mods enable.
-"你应该知道"是了解 Claude 最新能力的好方式，也是 mods 功能所赋能的典型案例。
+Amjad Masad 是 Replit 的 CEO，近期在 X 上预告了他的一期播客节目。
 
-Thariq highlighted that Claude Code can be deeply customized through mods, making it truly yours — pointing to the product's expanding configurability as a key differentiator.
-Thariq 强调，通过 mods 功能，Claude Code 可以被深度定制，真正成为用户自己的工具，这种可配置性正是其核心差异化优势。
+He shared that he went deep and somewhat technical in a conversation with Alex Atallah of OpenRouter.
+他分享了一期与 OpenRouter 的 Alex Atallah 的深度对话，内容涉及一些技术细节。
 
-https://x.com/trq212/status/2106119299484221762
+He also teased a product called "Replit Drift" with a visual, though no further details were provided in the tweet.
+他还通过一张配图预告了一个叫"Replit Drift"的新产品，但推文中未提供更多细节。
 
----
-
-**Amjad Masad (Replit — CEO)**
-
-近期无重要动态 (No substantive technical or product content this cycle.)
-
-https://x.com/amasad/status/2106237645282324709
+https://x.com/amasad/status/2106450234369085609
+https://x.com/amasad/status/2106406812316827874
 
 ---
 
-**Guillermo Rauch (Vercel — CEO)**
+### Guillermo Rauch (rauchg on X)
 
-Rauch celebrated the Vercel team's rapid shipping pace, sharing excitement about what the team is building and a writeup on Jev and Python integration.
-Rauch 为 Vercel 团队的快速交付节奏喝彩，分享了对团队正在构建内容的兴奋，以及关于 Jev 与 Python 集成的技术文章。
+Guillermo Rauch 是 Vercel 的 CEO，近期发表了两条关于 AI 时代软件行业走向的深度观点。
 
-He continues to champion developer infrastructure speed and quality.
-他一如既往地倡导开发者基础设施的速度和质量。
+On AI and the future of cost: *"AI will make everything free, including itself. The last domino to fall will be free energy, which is humanity's final frontier."*
+关于 AI 与成本的未来，他写道："AI 将让一切都变得免费，包括它自身。最后倒下的多米诺骨牌将是免费能源，那才是人类的终极边疆。"
 
-https://x.com/rauchg/status/2106139305131569178
-https://x.com/rauchg/status/2106133123973214497
+On security becoming a dominant concern in software: he argues that security is both verification engineering ("my code is probably memory-safe") and capital allocation ("what surface should I throw most tokens at?").
+关于安全性成为软件行业的核心议题，他认为安全既是验证工程（"我的代码应该是内存安全的"），也是资本配置问题（"我应该把最多的 token 投入在哪个攻击面？"）。
 
----
+For startups, this is both a challenge and an opportunity: as AI adversaries grow more sophisticated, small teams can disrupt cybersecurity in ways that were previously impossible.
+对于初创公司来说，这既是挑战也是机遇：随着 AI 对手越来越复杂，小团队现在可以在以前无法触及的网络安全领域实现颠覆。
 
-**Garry Tan (Y Combinator — President & CEO)**
-
-My goal with GBrain: I want our agents to feel as native, expressive, and inevitable as the web eventually did — not as a chatbot feature, but as a personal Jiminy Cricket that knows you and helps you grow.
-我对 GBrain 的愿景是：让 AI 代理像当年的互联网一样自然、富有表现力、不可或缺——不是聊天机器人功能，而是了解你、帮助你成长的"个人良知"。
-
-Tan shared an impressive cross-session coordination behavior in Capy: his GBrain collaborator Sina started a fix wave that steered around everything Tan was already working on — like a "24/7 standup for your agents."
-Tan 分享了 Capy 的跨会话协调能力：他的 GBrain 协作者 Sina 发起了一次修复浪潮，自动绕开了 Tan 正在处理的所有任务，宛如"AI 代理的全天候站会"。
-
-This points to a future where multi-agent systems develop emergent coordination behaviors that feel genuinely collaborative.
-这预示着多代理系统未来将涌现出真正协作性的行为。
-
-https://x.com/garrytan/status/2106063850453991758
-https://x.com/garrytan/status/2106092289173213444
-https://x.com/garrytan/status/2106102038706970794
+https://x.com/rauchg/status/2106503460384538793
+https://x.com/rauchg/status/2106516538836856945
 
 ---
 
-**Matt Turck (FirstMark Capital — VC)**
+### Aaron Levie (levie on X)
 
-People call the Bay Area a monoculture, but that's totally unfair: it has both neo-clouds AND neo-labs.
-人们说湾区是单一文化，这完全不公平——它既有新云计算公司，也有新 AI 实验室。
+Aaron Levie 是 Box 的 CEO，近期发表了对 AI agent 采用现状的深度分析。
 
-Turck delivered a sharp, witty observation about the Bay Area's AI ecosystem — pointing out that while it may appear homogeneous, there is at least diversity between infrastructure layers.
-Turck 对湾区 AI 生态系统发表了一针见血的幽默评论：看似同质，但至少在基础设施层面还是有些多样性的。
+He observes that AI agent adoption is currently very bimodal: coding and coding-adjacent tasks have taken off, while everything else is still far behind.
+他观察到，AI agent 的采用目前呈现明显的两极分化：编程及相关任务已经起飞，而其他几乎所有领域依然远远落后。
 
-https://x.com/mattturck/status/2106076198027890750
+Even within coding, there's a wide continuum — a small percentage of developers are deploying background agents working on multiple projects in parallel, while most are still working with agents one-on-one.
+即便在编程领域内，情况也大相径庭——少数开发者已经在并行部署后台 agent 处理多个项目，而大多数人仍在和 agent 一对一地配合工作。
 
----
+For the rest of knowledge work, real agentic adoption is still very early, because most workflows still need to be reengineered: data must be wired up in new ways, accountability and liability practices must be rethought, and governance, compliance, and security paradigms all need to change.
+对于其余的知识工作而言，真正的 agent 化采用仍处于非常早期的阶段，因为大多数工作流还需要被重新设计：数据需要以新方式连接，问责与责任机制需要重新思考，治理、合规和安全范式也都需要改变。
 
-**Nikunj Kothari (FPV Ventures — Partner)**
+*"We're still so unbelievably early in what this is going to look like outside of a few categories of work right now. This is why you can basically expect 100X more agent adoption from what we've seen so far."*
+"在少数几个已经起步的领域之外，我们对未来的样貌还处于难以置信的早期阶段。这就是为什么你基本上可以预期未来 agent 的采用规模将是我们目前所见的 100 倍。"
 
-If you are a home automation nerd, this is a fun prompt to try on Claude Code / Codex: "Can you sniff network packets in our house and see what else can we automate?"
-如果你是智能家居爱好者，不妨在 Claude Code / Codex 上试试这个提示词："能扫描家里的网络数据包，看看还有什么可以自动化吗？"
-
-Kothari shared an insightful exploration of using Claude Code to sniff home network packets and discover new automation opportunities — a great example of AI enabling deeper personal tech exploration.
-Kothari 分享了用 Claude Code 嗅探家庭网络数据包、发现自动化新机遇的探索——一个 AI 赋能个人技术深度探索的典型案例。
-
-He also shared an inspirational Robin Williams quote: "Everyone you meet is fighting a battle you know nothing about. Be kind. Always."
-他还分享了罗宾·威廉姆斯的名言："你遇见的每个人都在经历你一无所知的战斗。请保持善良，始终如一。"
-
-https://x.com/nikunj/status/2106072546206773574
-https://x.com/nikunj/status/2106053219487228081
+https://x.com/levie/status/2106583814709633413
 
 ---
 
-**Peter Steinberger (AI Tinkerer & Claude Power User)**
+### Ryo Lu (ryolu_ on X)
 
-This was by far my favorite slide at DevDay. Kudos to the team!
-这是我在 DevDay 上看到的最喜欢的一张幻灯片，向团队致敬！
+Ryo Lu 是一位独立创作者与产品思考者，近期发表了一篇关于"均值收敛"的深度长文。
 
-Steinberger expressed enthusiasm about OpenAI's DevDay, singling out a particular slide as a highlight — signaling genuine excitement about a product or capability revealed at the event.
-Steinberger 对 OpenAI DevDay 表达了浓厚的兴趣，特别点出某张幻灯片作为亮点，流露出对活动上发布产品或能力的真实兴奋。
+He argues that when everyone looks at everyone else to decide what to make, we eventually stop making anything of our own.
+他认为，当所有人都在互相观望、模仿来决定做什么时，我们最终会停止创作真正属于自己的东西。
 
-https://x.com/steipete/status/2106076508020506722
+We copy what works, borrow the language, the aesthetic, the features — calling it "learning from the market" or "following best practices" — until everything feels familiar, polished, interchangeable, but nothing alive.
+我们复制有效的东西，借用别人的语言、美学和功能——美其名曰"学习市场"或"遵循最佳实践"——直到一切都变得熟悉、精致、可互换，却毫无生气。
 
----
+He points out that AI accelerates this loop: it can draw from more references than we could see in a lifetime, but access to every perspective isn't the same as having one.
+他指出，AI 加速了这个循环：它能调用的参考资料比我们一生所能看到的还多，但获取所有视角并不等于拥有自己的视角。
 
-**Dan Shipper (Every — CEO)**
+His remedy: approach making things more like an artist — develop a perspective through the work itself, through making and noticing and failing and returning.
+他的解药：像艺术家一样去创作——在实际的制作过程中，通过不断创作、观察、失败和回归，来发展出属于自己的视角。
 
-Dev Day vlog is LIVE!!!
-DevDay 视频博客正式上线！！！
+*"What is the point of everyone being able to make something, if we all end up making the same thing?"*
+"如果我们最终做出的都是同一件东西，那让每个人都能创作的意义究竟在哪里？"
 
-Shipper shared a vlog from OpenAI's DevDay and delivered an unofficial food vibe check from the event — keeping his audience entertained with lighter content from the conference scene.
-Shipper 发布了 OpenAI DevDay 的 vlog 视频，并发出了一份非官方的"DevDay 美食氛围测评"，用轻松内容为关注者呈现会场见闻。
-
-https://x.com/danshipper/status/2106043635947225392
-https://x.com/danshipper/status/2106144801653506531
+https://x.com/ryolu_/status/2106337039201505453
 
 ---
 
-**Aditya Agarwal (SPC — General Partner; prev. CTO of Dropbox)**
+### Zara Zhang (zarazhangrui on X)
 
-We had our second portfolio company IPO this week — Moneyview.
-本周我们迎来了第二家投资组合公司 Moneyview 的 IPO。
+Zara Zhang 是 Follow Builders 的创始人，近期提出了一个引发思考的问题。
 
-Agarwal celebrated the IPO of Moneyview (co-founded by Puneet and Sanjay), highlighting their incredible entrepreneurial journey and the partnership SPC has shared with them.
-Agarwal 庆祝 Moneyview（由 Puneet 和 Sanjay 联合创立）成功上市，高度赞扬了他们非凡的创业历程以及与 SPC 的合作。
+She asked: "How will the world change if coding agents get 10x better?"
+她提问道："如果 coding agent 的能力再提升 10 倍，世界将会发生怎样的变化？"
 
-https://x.com/adityaag/status/2106019411635376471
+This is a prompt for reflection rather than an answer, but it signals her continued focus on the implications of rapidly improving AI coding tools.
+这是一个引发思考的问题，而非一个答案，但它表明她持续关注 AI 编程工具快速进步所带来的深远影响。
 
----
-
-**Sam Altman (OpenAI — CEO)**
-
-Dot is my favorite OpenAI product so far!
-Dot 是我迄今为止最喜欢的 OpenAI 产品！
-
-Altman expressed personal excitement about Dot, OpenAI's new ambient AI companion, sharing that it noticeably improves each day as it learns his workflow and style — handling the tasks he dislikes.
-Altman 对 OpenAI 的全新 AI 伴侣 Dot 表达了个人的极度兴奋，分享了它每天随着学习他的工作流和风格而明显进步的体验。
-
-There is some speculation about our partnership with Cerebras — Cerebras is a close partner, and we have a deep engagement pushing on the frontiers of speed.
-关于与 Cerebras 合作的种种猜测——Cerebras 是我们的紧密合作伙伴，我们正在携手突破速度的前沿边界。
-
-He also reflected on the beautiful contrast of high-stakes decision-making followed by the pure joy of being with young children — a rare personal moment of humanity from one of tech's most prominent figures.
-他还分享了一个难得的个人感悟：从一天高风险决策的最后一通电话，到一分钟后回家感受孩子们纯粹的爱与欢笑——这是科技界最知名人物难得流露的人性温度。
-
-https://x.com/sama/status/2106085986606403684
-https://x.com/sama/status/2106147184693620924
-https://x.com/sama/status/2106189841813934140
+https://x.com/zarazhangrui/status/2106405482852434359
 
 ---
 
-**Claude (Anthropic — Official Account)**
+### Nikunj Kothari (nikunj on X)
 
-A jet engine in interactive 3D you can cut away and pull apart — made with Opus 5.5.
-一个可交互切割拆解的 3D 喷气发动机——由 Opus 5.5 生成。
+Nikunj Kothari 是一位关注 AI 与产品方向的投资人，近期发表了对 AI 时代"创新者困境"的洞察。
 
-https://t.co/0q8bZJAi4T
+He observes an interesting innovator's dilemma playing out as personal agents become inevitable: Amazon is protecting its ads cash cow and its brand, while DoorDash — albeit smaller — is opening the gates slowly by building CLIs and allowing orders via text.
+他观察到一个有趣的创新者困境正在上演：随着个人 agent 成为必然趋势，Amazon 在保护其广告现金牛和品牌，而 DoorDash——尽管体量更小——正在缓慢地开放入口，通过构建 CLI 和支持文字下单来迎接变化。
 
-A pop-up city where each building is a paper fold drawn on a flat canvas — made with Sonnet 5.5.
-一座弹出式城市，每栋建筑都是在平面画布上折叠而成的纸艺——由 Sonnet 5.5 生成。
+He also pushed back on "tokenmaxxing" (maximizing token usage for its own sake), arguing it's not genuinely useful in the current era — do it briefly to explore the edges and maybe find the right purpose, but don't do it just to do it.
+他还对"tokenmaxxing"（为了最大化 token 使用量而使用）提出了质疑，认为在当前时代这并没有真正的价值——可以短暂尝试来探索边界并找到正确用途，但不要为了做而做。
 
-https://t.co/04cupOr4Tg
+https://x.com/nikunj/status/2106488814940414455
+https://x.com/nikunj/status/2106452873513201930
 
-The official Anthropic Claude account showcased stunning creative demos from the weekend, inviting users to share what they're exploring.
-Anthropic Claude 官方账号展示了本周末令人惊艳的创意演示，邀请用户分享自己的探索成果。
+---
 
-https://x.com/claudeai/status/2106125478956507480
-https://x.com/claudeai/status/2106125477710901276
-https://x.com/claudeai/status/2106125480193913276
+### Peter Steinberger (steipete on X)
+
+Peter Steinberger 是 OpenClaw 的联合创始人，近期在 X 上分享了两条有趣的动态。
+
+He laughed about how everyone in the AI tools space is building the same thing right now.
+他对 AI 工具圈里大家都在做同一件事感到好笑。
+
+He also publicly asked if anyone at Google could help, as OpenClaw's Android app has been stuck in review limbo for over a week.
+他还公开征询是否有人在 Google 内部能提供帮助，因为 OpenClaw 的 Android 应用已经在审核流程中卡了超过一周。
+
+https://x.com/steipete/status/2106489264443981978
+https://x.com/steipete/status/2106446147791597774
+
+---
+
+### Aditya Agarwal (adityaag on X)
+
+Aditya Agarwal 是 Coda 的联合创始人，近期发表了一条关于 AI 民主化影响的精彩洞察。
+
+He challenges a common misconception: even if you are extremely wealthy, the world's leading cancer doctor will still only see you for 20-30 minutes.
+他挑战了一个常见的误解：即使你极其富有，世界顶级的癌症专家也只会为你看诊 20 到 30 分钟。
+
+This is why AI is so transformative — it both democratizes access to world-class expertise AND makes the amount of time available unlimited for every individual.
+这正是 AI 如此颠覆性的原因——它既让每个人都能获得世界级专业知识，又让这种获取的时间对每个人来说都是无限的。
+
+*"This is the practical effect of intelligence too cheap to meter."*
+"这就是'廉价到无需计量的智能'所带来的实际效果。"
+
+https://x.com/adityaag/status/2106503075209044336
+
+---
+
+### Sam Altman (sama on X)
+
+Sam Altman 是 OpenAI 的 CEO，近期就 AI 安全发表了一条措辞严肃的声明。
+
+*"I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, and think it is a real safety issue."*
+"我对有人试图赋予 AI 模型宗教般的权威、或放弃人类判断力的做法感到非常不安，我认为这是一个真实存在的安全问题。"
+
+This is a pointed warning against the growing trend of treating AI outputs as infallible oracles, which Altman frames not just as a cultural concern but as a genuine safety risk.
+这是对将 AI 输出视为万能神谕这一日益蔓延趋势的尖锐警告，Altman 将其定性为不仅仅是文化问题，而是真正的安全风险。
+
+https://x.com/sama/status/2106388373221118198
 
 ---
 
@@ -239,22 +217,46 @@ https://x.com/claudeai/status/2106125480193913276
 
 ---
 
-**No Priors — "Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile"**
-*Published: 2026-10-02*
+### The MAD Podcast with Matt Turck
+**Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data**
 
-Right now, Fractile is trying to build a single chip for AI — while NVIDIA systems pack six to nine custom chips together.
-目前，Fractile 正在为 AI 研发一块单芯片——而英伟达系统则将六至九块定制芯片整合在一起。
+This episode explores the crucial but often overlooked data infrastructure layer that sits between AI models and the GPUs that power them.
+本期节目深入探讨了一个至关重要却常被忽视的数据基础设施层——它位于 AI 模型与驱动它们的 GPU 之间。
 
-Walter Goodwin, Founder and CEO of Fractile, argues that the key to winning in the frontier chip space is carving out a structural three-to-six month advantage.
-Fractile 创始人兼 CEO Walter Goodwin 认为，赢得前沿芯片市场的关键在于保持结构性的 3 至 6 个月领先优势。
+Host Matt Turck sits down with Renen Hallak, founder and CEO of VAST Data, a company valued at $30 billion that powers top AI players including xAI and many of the world's biggest AI cloud providers.
+主持人 Matt Turck 与 VAST Data 的创始人兼 CEO Renen Hallak 对谈，这家公司估值 300 亿美元，为包括 xAI 在内的顶级 AI 玩家以及全球最大的 AI 云服务商提供支持。
 
-This episode explores the gap between NVIDIA's multi-chip architecture and the opportunity for challengers to build leaner, more purpose-built AI chips — and how maintaining a "rolling frontier of bets" is the strategic engine behind chip leadership.
-本期节目深入探讨英伟达多芯片架构与新挑战者构建更精简、更专用 AI 芯片之间的差距，以及如何通过维持"滚动式前沿押注"来掌握芯片领域的战略主动权。
+**The scale of demand is staggering.**
+需求规模令人震惊。
 
-The conversation dives into what it means to build "frontier chips for frontier AI labs," and how the chip industry mirrors the dynamics of foundation model development — where speed and timing of deployment are everything.
-对话深入讨论了为前沿 AI 实验室打造"前沿芯片"的真正含义，以及芯片行业如何映射基础模型开发的动态规律——部署的速度和时机决定一切。
+One AI cloud customer initially told VAST they would need about 500 petabytes over the next three years — then came back last week saying they now need an extra two exabytes on top of that.
+一位 AI 云客户最初告诉 VAST，他们未来三年大约需要 500 PB 的存储——然后上周回来说，还需要额外再加 2 EB。
 
-https://www.youtube.com/@NoPriorsPodcast
+Hallak argues that the pace of change in the next ten years will exceed what happened in the last thousand years, driven by the insatiable appetite of AI training and inference workloads for data.
+Hallak 认为，由 AI 训练和推理对数据的无尽需求所驱动，未来十年的变化速度将超过过去千年。
+
+**VAST Data's architectural bet is that the traditional separation between storage tiers (hot, warm, cold) is becoming obsolete.**
+VAST Data 的架构赌注是：存储层级（热、温、冷）之间的传统分离正在变得过时。
+
+Instead, they built a unified storage platform that treats all data as equally accessible, which is critical for AI workloads where models need to randomly access massive datasets at high speed.
+他们构建了一个统一的存储平台，将所有数据视为同等可访问的，这对 AI 工作负载至关重要——模型需要高速随机访问海量数据集。
+
+**The company's decision to stay private longer, rather than rushing to IPO, reflects a deliberate strategy to compound value before going public.**
+公司决定继续保持私有状态而非急于 IPO，这体现了一种深思熟虑的策略：在上市之前继续复利增长价值。
+
+Hallak explains that when you are growing fast and have strong economics, the math often favors waiting.
+Hallak 解释说，当你快速增长且具备强劲的财务表现时，数学上往往更倾向于等待。
+
+**A key theme is the convergence of storage and compute.**
+一个关键主题是存储与计算的融合。
+
+Hallak sees a future where data doesn't move to the compute — instead, some computation happens directly where the data lives, dramatically reducing the latency and bandwidth costs that are currently bottlenecks in large-scale AI pipelines.
+Hallak 展望了一个数据不再移动到计算侧的未来——部分计算将直接在数据所在位置发生，从而大幅降低目前大规模 AI pipeline 中瓶颈性的延迟和带宽成本。
+
+**For anyone building or investing in AI infrastructure, this is a must-listen on what happens beneath the model layer.**
+对于任何在 AI 基础设施领域构建或投资的人来说，这期节目是一个必听的深度剖析，揭示了模型层之下的世界。
+
+https://www.youtube.com/watch?v=awoR908Yu5Y
 
 ---
 
