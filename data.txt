@@ -1,263 +1,163 @@
-AI Builders 日报 · 2026-10-05
-
-AI Builders Digest — 2026-10-05
-AI Builders 日报 — 2026年10月5日
+AI Builders 日报 · 2026-10-06
 
 ---
 
-## X / TWITTER
+## Thibault Sottiaux (@thsottiaux) — OpenAI
+
+Over the next 28 days, the team will ship one clear improvement daily for Codex/Work users — or a full reset if needed.
+在接下来的28天里，团队将每天为 Codex/Work 用户推出一项明确的改进，或在必要时进行全面重置。
+
+This signals a focused, iterative approach to shipping AI product improvements in public.
+这标志着一种专注、迭代的方式，在公开场合持续交付 AI 产品改进。
+
+Source: https://x.com/thsottiaux/status/2106845241357824205
 
 ---
 
-### Thibault Sottiaux (thsottiaux on X)
+## Peter Yang (@petergyang) — Creator Science
 
-Thibault Sottiaux 是 Dot AI 的核心产品负责人，近期分享了他用 AI 助手实现收件箱清零的亲身经历。
+Peter shared pointed critique of ChatGPT's product complexity, arguing the "Work" brand was a mistake much like Claude folding Cowork back into Chat.
+Peter 对 ChatGPT 产品复杂性提出了尖锐批评，认为"Work"品牌的推出是个错误，就像 Claude 将 Cowork 重新并入 Chat 一样。
 
-He had never achieved inbox zero until he made it an active goal for his AI (Dot) to help him accomplish it.
-他从未实现过收件箱清零，直到他把这当成一个明确目标，让他的 AI 助手（Dot）来帮他完成。
+He called out confusing overlaps: Work vs. Codex, Spaces vs. Pages vs. Sites, the model/effort picker — all symptoms of a product that has "become a mess."
+他指出令人困惑的功能重叠：Work 与 Codex、Spaces 与 Pages 与 Sites、模型/努力选择器——这些都是产品"变得一团糟"的症状。
 
-The AI helped by deleting unneeded email categories in batches, identifying labels for different types of work, and walking him through emails that needed replies — searching for relevant context in the background.
-这个 AI 助手批量删除了不需要保留的邮件类别，为不同类型的工作建立了标签，并在需要回复时帮他逐一处理，同时在后台检索相关上下文。
+He also shared a candid quote from Sam, co-founder of Granola: as companies scale, MCP integrations become inevitable even if it means users bypass the native UI — and that's okay.
+他还分享了 Granola 联合创始人 Sam 的坦诚之言：随着公司规模扩大，MCP 集成变得不可避免，即使这意味着用户绕过原生 UI——这没关系。
 
-As a follow-up, he also shared a product direction update: *"Only things being worked on are simplifications, more efficiency for more usage, groundbreaking features or new models."*
-他还分享了产品方向更新："当前的工作重心只有几件事：简化体验、提升效率、开发突破性功能或新模型。"
+Finally, Peter highlighted a key insight from the same interview: "The easier it gets to build stuff, the more it matters to really sweat the details and go the extra mile."
+最后，Peter 强调了同一采访中的一个关键洞见："构建东西越来越容易，越发需要在细节上下功夫、精益求精。"
 
-User feedback is clear that people want things to get simpler, and the team is acting on it.
-用户反馈明确表明，大家希望产品变得更简单，团队正在为此努力。
-
-https://x.com/thsottiaux/status/2106602729875685780
-https://x.com/thsottiaux/status/2106603980386394123
-https://x.com/thsottiaux/status/2106610099720720811
-
----
-
-### Peter Yang (petergyang on X)
-
-Peter Yang 是一位产品增长领域的创作者，近期发推分享了他对 Google 和 YouTube CEO 使用各自平台方式的观察。
-
-He noted a telling contrast: the Google CEO actually uses and replies to feedback on the app, while the YouTube CEO uses it only as a communications channel to post announcements.
-他指出了一个耐人寻味的对比：Google CEO 真正在使用并回复 app 上的反馈，而 YouTube CEO 只是把它当作发布公告的渠道。
-
-His other posts were lighter personal notes about watching the TV show Foundation and a humorous encounter with a squirrel at the park, which lack substantive professional content.
-他的其他推文内容较为轻松，包括观看电视剧《基地》的感想以及公园里被松鼠抓伤的趣事，不含重要行业观点。
-
-https://x.com/petergyang/status/2106505635017986394
+Sources:
+- https://x.com/petergyang/status/2106926956554195018
+- https://x.com/petergyang/status/2106897211766530299
+- https://x.com/petergyang/status/2106825485624004691
 
 ---
 
-### Madhu Guru (realmadhuguru on X)
+## Guillermo Rauch (@rauchg) — Vercel
 
-Madhu Guru 是一位关注 AI 产品化的投资人与评论者，近期发表了对当前 AI 普及现状的犀利分析。
+Guillermo noted that as models speed up (e.g. Astra ultrafast), harness overhead increasingly matters — and Vercel's next release will target session storage/retrieval performance plus cloud durability improvements in libfx.
+Guillermo 指出，随着模型速度加快（如 Astra 超快模式），底层框架开销愈发重要——Vercel 的下一个版本将专注于会话存储/检索性能以及 libfx 中云持久性的改进。
 
-He argues that AI adoption today is largely a product problem.
-他认为，当前 AI 普及率低主要是一个产品问题。
+He weighed in on the Rust vs. Go debate: DHH is fundamentally right about Rust's tradeoffs. Vercel's Turborepo migration from Go to Rust had controversial ROI internally — Go is fast, beautifully designed, and has lower human migration costs.
+他就 Rust 与 Go 的争论表态：DHH 对 Rust 权衡取舍的看法从根本上是正确的。Vercel 将 Turborepo 从 Go 迁移到 Rust 的内部 ROI 颇具争议——Go 速度快、设计优雅，人员迁移成本更低。
 
-Even among the 2% of people paying for AI, usage depth is shallow — because most AI products look like airplane cockpits with 100 levers: connectors, permissions, model selection, token usage, and so on.
-即使在为 AI 付费的 2% 用户中，使用深度也很浅——因为大多数 AI 产品看起来像有 100 个开关的飞机驾驶舱：连接器、权限、模型选择、token 用量等等。
+He shared a neat rule of thumb for AI-era writing: READMEs and blogs should be written by humans for humans; internal documentation can be AI-generated English for agents.
+他分享了一个 AI 时代写作的简洁原则：README 和博客应由人类为人类撰写；内部文档可以是为代理生成的 AI 英文。
 
-He believes this is starting to change, and that things will look materially different in the next 12 months as product teams mature and make AI products easier to use.
-他认为这种情况正在改变，随着产品团队逐渐成熟、AI 产品变得更易用，未来 12 个月内局面将会大不相同。
-
-https://x.com/realmadhuguru/status/2106450089938157720
-
----
-
-### Amjad Masad (amasad on X)
-
-Amjad Masad 是 Replit 的 CEO，近期在 X 上预告了他的一期播客节目。
-
-He shared that he went deep and somewhat technical in a conversation with Alex Atallah of OpenRouter.
-他分享了一期与 OpenRouter 的 Alex Atallah 的深度对话，内容涉及一些技术细节。
-
-He also teased a product called "Replit Drift" with a visual, though no further details were provided in the tweet.
-他还通过一张配图预告了一个叫"Replit Drift"的新产品，但推文中未提供更多细节。
-
-https://x.com/amasad/status/2106450234369085609
-https://x.com/amasad/status/2106406812316827874
+Sources:
+- https://x.com/rauchg/status/2106885457212825983
+- https://x.com/rauchg/status/2106863842450133114
+- https://x.com/rauchg/status/2106848085267902815
 
 ---
 
-### Guillermo Rauch (rauchg on X)
+## Aaron Levie (@levie) — Box
 
-Guillermo Rauch 是 Vercel 的 CEO，近期发表了两条关于 AI 时代软件行业走向的深度观点。
+Aaron pushed back on pessimistic AI job displacement narratives: AI is actively creating new roles — AI engineers, field deployment engineers (FDEs), new services firms — and published stats likely undercount the full wave.
+Aaron 反驳了 AI 取代就业的悲观叙事：AI 正在积极创造新岗位——AI 工程师、现场部署工程师（FDE）、新型服务公司——已发布的统计数据可能还低估了这一浪潮。
 
-On AI and the future of cost: *"AI will make everything free, including itself. The last domino to fall will be free energy, which is humanity's final frontier."*
-关于 AI 与成本的未来，他写道："AI 将让一切都变得免费，包括它自身。最后倒下的多米诺骨牌将是免费能源，那才是人类的终极边疆。"
+He also offered a nuanced take on consumer AI monetization: the metric of willingness-to-pay may plateau lower than expected, as consumer AI will likely be subsidized through ads, commerce, or device/service bundles.
+他还对消费者 AI 货币化提出了细致看法：付费意愿指标可能比预期更早触顶，因为消费者 AI 很可能通过广告、电商或设备/服务捆绑来补贴。
 
-On security becoming a dominant concern in software: he argues that security is both verification engineering ("my code is probably memory-safe") and capital allocation ("what surface should I throw most tokens at?").
-关于安全性成为软件行业的核心议题，他认为安全既是验证工程（"我的代码应该是内存安全的"），也是资本配置问题（"我应该把最多的 token 投入在哪个攻击面？"）。
-
-For startups, this is both a challenge and an opportunity: as AI adversaries grow more sophisticated, small teams can disrupt cybersecurity in ways that were previously impossible.
-对于初创公司来说，这既是挑战也是机遇：随着 AI 对手越来越复杂，小团队现在可以在以前无法触及的网络安全领域实现颠覆。
-
-https://x.com/rauchg/status/2106503460384538793
-https://x.com/rauchg/status/2106516538836856945
+Sources:
+- https://x.com/levie/status/2106893015063421357
+- https://x.com/levie/status/2106802940879192260
 
 ---
 
-### Aaron Levie (levie on X)
+## Ryo Lu (@ryolu_) — Builder
 
-Aaron Levie 是 Box 的 CEO，近期发表了对 AI agent 采用现状的深度分析。
+Ryo shared a design update featuring full-bleed desktop layout with a side dock — framing the product vision as "a little computer in your pocket."
+Ryo 分享了一个设计更新，采用全出血桌面布局配侧边栏——将产品愿景定位为"口袋里的小电脑"。
 
-He observes that AI agent adoption is currently very bimodal: coding and coding-adjacent tasks have taken off, while everything else is still far behind.
-他观察到，AI agent 的采用目前呈现明显的两极分化：编程及相关任务已经起飞，而其他几乎所有领域依然远远落后。
-
-Even within coding, there's a wide continuum — a small percentage of developers are deploying background agents working on multiple projects in parallel, while most are still working with agents one-on-one.
-即便在编程领域内，情况也大相径庭——少数开发者已经在并行部署后台 agent 处理多个项目，而大多数人仍在和 agent 一对一地配合工作。
-
-For the rest of knowledge work, real agentic adoption is still very early, because most workflows still need to be reengineered: data must be wired up in new ways, accountability and liability practices must be rethought, and governance, compliance, and security paradigms all need to change.
-对于其余的知识工作而言，真正的 agent 化采用仍处于非常早期的阶段，因为大多数工作流还需要被重新设计：数据需要以新方式连接，问责与责任机制需要重新思考，治理、合规和安全范式也都需要改变。
-
-*"We're still so unbelievably early in what this is going to look like outside of a few categories of work right now. This is why you can basically expect 100X more agent adoption from what we've seen so far."*
-"在少数几个已经起步的领域之外，我们对未来的样貌还处于难以置信的早期阶段。这就是为什么你基本上可以预期未来 agent 的采用规模将是我们目前所见的 100 倍。"
-
-https://x.com/levie/status/2106583814709633413
+Source: https://x.com/ryolu_/status/2106777615801713054
 
 ---
 
-### Ryo Lu (ryolu_ on X)
+## Garry Tan (@garrytan) — Y Combinator
 
-Ryo Lu 是一位独立创作者与产品思考者，近期发表了一篇关于"均值收敛"的深度长文。
+When many builders converge on the same primitives, Garry sees it as a signal of intensifying need — and a belief that the field is moving toward a correct "OS" for AI.
+当许多构建者聚焦于相同的基础原语时，Garry 将其视为需求加剧的信号——以及对该领域正在走向正确 AI "操作系统"的信念。
 
-He argues that when everyone looks at everyone else to decide what to make, we eventually stop making anything of our own.
-他认为，当所有人都在互相观望、模仿来决定做什么时，我们最终会停止创作真正属于自己的东西。
-
-We copy what works, borrow the language, the aesthetic, the features — calling it "learning from the market" or "following best practices" — until everything feels familiar, polished, interchangeable, but nothing alive.
-我们复制有效的东西，借用别人的语言、美学和功能——美其名曰"学习市场"或"遵循最佳实践"——直到一切都变得熟悉、精致、可互换，却毫无生气。
-
-He points out that AI accelerates this loop: it can draw from more references than we could see in a lifetime, but access to every perspective isn't the same as having one.
-他指出，AI 加速了这个循环：它能调用的参考资料比我们一生所能看到的还多，但获取所有视角并不等于拥有自己的视角。
-
-His remedy: approach making things more like an artist — develop a perspective through the work itself, through making and noticing and failing and returning.
-他的解药：像艺术家一样去创作——在实际的制作过程中，通过不断创作、观察、失败和回归，来发展出属于自己的视角。
-
-*"What is the point of everyone being able to make something, if we all end up making the same thing?"*
-"如果我们最终做出的都是同一件东西，那让每个人都能创作的意义究竟在哪里？"
-
-https://x.com/ryolu_/status/2106337039201505453
+Source: https://x.com/garrytan/status/2106901111106097210
 
 ---
 
-### Zara Zhang (zarazhangrui on X)
+## Matt Turck (@mattturck) — FirstMark Capital
 
-Zara Zhang 是 Follow Builders 的创始人，近期提出了一个引发思考的问题。
+Matt flagged interpretability as the most underappreciated challenge in AI outside expert circles: "Models are grown, not built" — and we don't really understand how they work.
+Matt 指出可解释性是 AI 领域在专家圈子之外最被低估的挑战："模型是培育出来的，而非构建的"——我们并不真正了解它们的工作原理。
 
-She asked: "How will the world change if coding agents get 10x better?"
-她提问道："如果 coding agent 的能力再提升 10 倍，世界将会发生怎样的变化？"
+He highlighted the urgent need for better interpretability research, pointing to Goodfire AI's work in this space.
+他强调了对更好的可解释性研究的迫切需求，并指出 Goodfire AI 在这一领域的工作。
 
-This is a prompt for reflection rather than an answer, but it signals her continued focus on the implications of rapidly improving AI coding tools.
-这是一个引发思考的问题，而非一个答案，但它表明她持续关注 AI 编程工具快速进步所带来的深远影响。
-
-https://x.com/zarazhangrui/status/2106405482852434359
+Source: https://x.com/mattturck/status/2106821381765956044
 
 ---
 
-### Nikunj Kothari (nikunj on X)
+## Zara Zhang (@zarazhangrui) — Investor / Builder
 
-Nikunj Kothari 是一位关注 AI 与产品方向的投资人，近期发表了对 AI 时代"创新者困境"的洞察。
+Zara marveled at Claude Opus 5.5's long-horizon autonomous work: it quietly goes off for 20+ minutes and comes back with a complete masterpiece.
+Zara 对 Claude Opus 5.5 的长程自主工作能力叹为观止：它静静地离开 20 多分钟，然后带回一件完整的杰作。
 
-He observes an interesting innovator's dilemma playing out as personal agents become inevitable: Amazon is protecting its ads cash cow and its brand, while DoorDash — albeit smaller — is opening the gates slowly by building CLIs and allowing orders via text.
-他观察到一个有趣的创新者困境正在上演：随着个人 agent 成为必然趋势，Amazon 在保护其广告现金牛和品牌，而 DoorDash——尽管体量更小——正在缓慢地开放入口，通过构建 CLI 和支持文字下单来迎接变化。
+She also noted a cultural shift: X profiles are replacing resumes as the primary signal of professional identity.
+她还指出一种文化转变：X 个人主页正在取代简历，成为职业身份认同的主要信号。
 
-He also pushed back on "tokenmaxxing" (maximizing token usage for its own sake), arguing it's not genuinely useful in the current era — do it briefly to explore the edges and maybe find the right purpose, but don't do it just to do it.
-他还对"tokenmaxxing"（为了最大化 token 使用量而使用）提出了质疑，认为在当前时代这并没有真正的价值——可以短暂尝试来探索边界并找到正确用途，但不要为了做而做。
-
-https://x.com/nikunj/status/2106488814940414455
-https://x.com/nikunj/status/2106452873513201930
-
----
-
-### Peter Steinberger (steipete on X)
-
-Peter Steinberger 是 OpenClaw 的联合创始人，近期在 X 上分享了两条有趣的动态。
-
-He laughed about how everyone in the AI tools space is building the same thing right now.
-他对 AI 工具圈里大家都在做同一件事感到好笑。
-
-He also publicly asked if anyone at Google could help, as OpenClaw's Android app has been stuck in review limbo for over a week.
-他还公开征询是否有人在 Google 内部能提供帮助，因为 OpenClaw 的 Android 应用已经在审核流程中卡了超过一周。
-
-https://x.com/steipete/status/2106489264443981978
-https://x.com/steipete/status/2106446147791597774
+Sources:
+- https://x.com/zarazhangrui/status/2106876921082712250
+- https://x.com/zarazhangrui/status/2106782239493427588
+- https://x.com/zarazhangrui/status/2106779057220378725
 
 ---
 
-### Aditya Agarwal (adityaag on X)
+## Nikunj Kothari (@nikunj) — Investor
 
-Aditya Agarwal 是 Coda 的联合创始人，近期发表了一条关于 AI 民主化影响的精彩洞察。
+Nikunj made a case for in-person founder meetings: beyond "vibes," visiting a startup's office reveals office energy, team dynamics, co-founder chemistry, and early product quality — signals that a Zoom call simply can't capture.
+Nikunj 为亲自拜访创始人的价值辩护：除了"氛围"，参观初创公司办公室能揭示办公室能量、团队动态、联合创始人默契和早期产品质量——这些都是 Zoom 会议无法捕捉的信号。
 
-He challenges a common misconception: even if you are extremely wealthy, the world's leading cancer doctor will still only see you for 20-30 minutes.
-他挑战了一个常见的误解：即使你极其富有，世界顶级的癌症专家也只会为你看诊 20 到 30 分钟。
-
-This is why AI is so transformative — it both democratizes access to world-class expertise AND makes the amount of time available unlimited for every individual.
-这正是 AI 如此颠覆性的原因——它既让每个人都能获得世界级专业知识，又让这种获取的时间对每个人来说都是无限的。
-
-*"This is the practical effect of intelligence too cheap to meter."*
-"这就是'廉价到无需计量的智能'所带来的实际效果。"
-
-https://x.com/adityaag/status/2106503075209044336
+Source: https://x.com/nikunj/status/2106957269212742135
 
 ---
 
-### Sam Altman (sama on X)
+## Peter Steinberger (@steipete) — Builder
 
-Sam Altman 是 OpenAI 的 CEO，近期就 AI 安全发表了一条措辞严肃的声明。
+Peter's post was brief but resonant: "bug fixes & performance improvements" — a knowing nod to the eternal cycle of shipping, accompanied by a screenshot hint of what's coming.
+Peter 的帖子简短而意味深长："bug 修复和性能改进"——对永恒发布循环的会心一笑，并附上了即将推出内容的截图暗示。
 
-*"I am very uncomfortable about people trying to ascribe religious force or a surrender of human judgment to AI models, and think it is a real safety issue."*
-"我对有人试图赋予 AI 模型宗教般的权威、或放弃人类判断力的做法感到非常不安，我认为这是一个真实存在的安全问题。"
-
-This is a pointed warning against the growing trend of treating AI outputs as infallible oracles, which Altman frames not just as a cultural concern but as a genuine safety risk.
-这是对将 AI 输出视为万能神谕这一日益蔓延趋势的尖锐警告，Altman 将其定性为不仅仅是文化问题，而是真正的安全风险。
-
-https://x.com/sama/status/2106388373221118198
+Source: https://x.com/steipete/status/2106796559400882209
 
 ---
 
-## PODCASTS
+## Dan Shipper (@danshipper) — Every
+
+Dan reflected on "dot" becoming his primary AI interface — his instance is named Boo. But he suspects that in a year, the persistent agent model will stick while the personality layer disappears, much like early ChatGPT days when users loved their "Claws" but eventually dropped them for something more capable.
+Dan 反思了"dot"成为他主要 AI 界面的体验——他的实例名叫 Boo。但他预测，一年后，持久代理模式会留存，而个性化层会消失，就像 ChatGPT 早期用户喜爱自己的"Claws"但最终为更强大的工具放弃了它们一样。
+
+Source: https://x.com/danshipper/status/2106892868564431255
 
 ---
 
-### The MAD Podcast with Matt Turck
-**Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data**
+## 🎙️ Podcast: No Priors — Re-Founding Incumbents for the AI Era
 
-This episode explores the crucial but often overlooked data infrastructure layer that sits between AI models and the GPUs that power them.
-本期节目深入探讨了一个至关重要却常被忽视的数据基础设施层——它位于 AI 模型与驱动它们的 GPU 之间。
+**Guest:** Michael Lee, Co-Founder & CEO of Sequence Holdings
+**Episode:** Re-Founding Incumbents for the AI Era with Sequence Holdings
+**Link:** https://www.youtube.com/watch?v=TCpRwJBQvW0
 
-Host Matt Turck sits down with Renen Hallak, founder and CEO of VAST Data, a company valued at $30 billion that powers top AI players including xAI and many of the world's biggest AI cloud providers.
-主持人 Matt Turck 与 VAST Data 的创始人兼 CEO Renen Hallak 对谈，这家公司估值 300 亿美元，为包括 xAI 在内的顶级 AI 玩家以及全球最大的 AI 云服务商提供支持。
+Michael Lee and co-founder Alex started Sequence Holdings 20 months ago with a thesis: partner with world-class businesses and management teams, deploy a frontier engineering team, and forge market leaders in the AI era.
+Michael Lee 和联合创始人 Alex 在 20 个月前创立了 Sequence Holdings，基于这一论点：与世界级企业和管理团队合作，部署前沿工程团队，在 AI 时代打造市场领导者。
 
-**The scale of demand is staggering.**
-需求规模令人震惊。
+Their first major deal: a $7.7 billion AI take-private of Baldwin Insurance with the Dell family office — the largest AI take-private to date.
+他们的第一笔重大交易：与戴尔家族办公室合作，以 77 亿美元完成对 Baldwin 保险公司的 AI 私有化——迄今最大的 AI 私有化交易。
 
-One AI cloud customer initially told VAST they would need about 500 petabytes over the next three years — then came back last week saying they now need an extra two exabytes on top of that.
-一位 AI 云客户最初告诉 VAST，他们未来三年大约需要 500 PB 的存储——然后上周回来说，还需要额外再加 2 EB。
+The core insight driving Sequence: most large enterprises have "celebrated personas" built around sales or finance. To truly transform with AI, companies must re-engineer their culture to celebrate the engineer.
+驱动 Sequence 的核心洞见：大多数大型企业都有围绕销售或财务建立的"明星人设"。要真正通过 AI 实现转型，公司必须重塑文化，将工程师奉为明星。
 
-Hallak argues that the pace of change in the next ten years will exceed what happened in the last thousand years, driven by the insatiable appetite of AI training and inference workloads for data.
-Hallak 认为，由 AI 训练和推理对数据的无尽需求所驱动，未来十年的变化速度将超过过去千年。
+Traditional PE firms optimize for packaging and selling — a 3-5 year exit. Sequence operates on a permanent holding model, making just one deal per year, and focuses on deep technological transformation with no exit pressure.
+传统 PE 公司优化打包和出售——3-5 年退出。Sequence 采用永久持股模式，每年只做一笔交易，专注于深度技术转型，没有退出压力。
 
-**VAST Data's architectural bet is that the traditional separation between storage tiers (hot, warm, cold) is becoming obsolete.**
-VAST Data 的架构赌注是：存储层级（热、温、冷）之间的传统分离正在变得过时。
+Michael argues that AI transformation isn't about layoffs — it's about redeploying talent toward higher-leverage work, and the companies that get this right will pull dramatically ahead.
+Michael 认为，AI 转型不是关于裁员——而是将人才重新部署到更高杠杆的工作中，做到这一点的公司将大幅领先。
 
-Instead, they built a unified storage platform that treats all data as equally accessible, which is critical for AI workloads where models need to randomly access massive datasets at high speed.
-他们构建了一个统一的存储平台，将所有数据视为同等可访问的，这对 AI 工作负载至关重要——模型需要高速随机访问海量数据集。
-
-**The company's decision to stay private longer, rather than rushing to IPO, reflects a deliberate strategy to compound value before going public.**
-公司决定继续保持私有状态而非急于 IPO，这体现了一种深思熟虑的策略：在上市之前继续复利增长价值。
-
-Hallak explains that when you are growing fast and have strong economics, the math often favors waiting.
-Hallak 解释说，当你快速增长且具备强劲的财务表现时，数学上往往更倾向于等待。
-
-**A key theme is the convergence of storage and compute.**
-一个关键主题是存储与计算的融合。
-
-Hallak sees a future where data doesn't move to the compute — instead, some computation happens directly where the data lives, dramatically reducing the latency and bandwidth costs that are currently bottlenecks in large-scale AI pipelines.
-Hallak 展望了一个数据不再移动到计算侧的未来——部分计算将直接在数据所在位置发生，从而大幅降低目前大规模 AI pipeline 中瓶颈性的延迟和带宽成本。
-
-**For anyone building or investing in AI infrastructure, this is a must-listen on what happens beneath the model layer.**
-对于任何在 AI 基础设施领域构建或投资的人来说，这期节目是一个必听的深度剖析，揭示了模型层之下的世界。
-
-https://www.youtube.com/watch?v=awoR908Yu5Y
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Source: https://www.youtube.com/watch?v=TCpRwJBQvW0
