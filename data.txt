@@ -1,163 +1,221 @@
-AI Builders 日报 · 2026-10-06
+AI Builders 日报 · 2026-10-07
+
+Today's digest covers 15 AI builders from X/Twitter, sharing updates across OpenAI products, AI agent evals, TypeScript safety, robotics, and personal reflections on Steve Jobs.
+今日日报收录了 15 位 AI 领域创造者在 X/Twitter 上的最新动态，涵盖 OpenAI 产品进展、AI agent 评测、TypeScript 安全设计、机器人学习算法，以及对 Steve Jobs 的深情回忆。
 
 ---
 
-## Thibault Sottiaux (@thsottiaux) — OpenAI
+Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-Over the next 28 days, the team will ship one clear improvement daily for Codex/Work users — or a full reset if needed.
-在接下来的28天里，团队将每天为 Codex/Work 用户推出一项明确的改进，或在必要时进行全面重置。
+This might have been his best day yet at OpenAI — filled with "ridiculous amounts of fun and intensity."
+他说这可能是他在 OpenAI 迄今为止最好的一天，充满了"难以置信的乐趣和紧张感"。
+He called out the real story behind a viral AI moment, pointing followers to the source.
+他也指出了一次病毒式 AI 事件背后的真正故事，引导关注者去看原始内容。
+He highlighted Sergio's work on collaborative spaces directly inside ChatGPT, describing it as "improving leaps and bounds every day."
+他重点介绍了同事 Sergio 在 ChatGPT 内构建协作空间的工作，称其"每天都在突飞猛进"。
 
-This signals a focused, iterative approach to shipping AI product improvements in public.
-这标志着一种专注、迭代的方式，在公开场合持续交付 AI 产品改进。
-
-Source: https://x.com/thsottiaux/status/2106845241357824205
-
----
-
-## Peter Yang (@petergyang) — Creator Science
-
-Peter shared pointed critique of ChatGPT's product complexity, arguing the "Work" brand was a mistake much like Claude folding Cowork back into Chat.
-Peter 对 ChatGPT 产品复杂性提出了尖锐批评，认为"Work"品牌的推出是个错误，就像 Claude 将 Cowork 重新并入 Chat 一样。
-
-He called out confusing overlaps: Work vs. Codex, Spaces vs. Pages vs. Sites, the model/effort picker — all symptoms of a product that has "become a mess."
-他指出令人困惑的功能重叠：Work 与 Codex、Spaces 与 Pages 与 Sites、模型/努力选择器——这些都是产品"变得一团糟"的症状。
-
-He also shared a candid quote from Sam, co-founder of Granola: as companies scale, MCP integrations become inevitable even if it means users bypass the native UI — and that's okay.
-他还分享了 Granola 联合创始人 Sam 的坦诚之言：随着公司规模扩大，MCP 集成变得不可避免，即使这意味着用户绕过原生 UI——这没关系。
-
-Finally, Peter highlighted a key insight from the same interview: "The easier it gets to build stuff, the more it matters to really sweat the details and go the extra mile."
-最后，Peter 强调了同一采访中的一个关键洞见："构建东西越来越容易，越发需要在细节上下功夫、精益求精。"
-
-Sources:
-- https://x.com/petergyang/status/2106926956554195018
-- https://x.com/petergyang/status/2106897211766530299
-- https://x.com/petergyang/status/2106825485624004691
+https://x.com/thsottiaux/status/2107311729768353844
+https://x.com/thsottiaux/status/2107295839655952486
+https://x.com/thsottiaux/status/2107200530477101461
 
 ---
 
-## Guillermo Rauch (@rauchg) — Vercel
+Peter Yang (petergyang on X) — Practical AI tutorials
 
-Guillermo noted that as models speed up (e.g. Astra ultrafast), harness overhead increasingly matters — and Vercel's next release will target session storage/retrieval performance plus cloud durability improvements in libfx.
-Guillermo 指出，随着模型速度加快（如 Astra 超快模式），底层框架开销愈发重要——Vercel 的下一个版本将专注于会话存储/检索性能以及 libfx 中云持久性的改进。
+He published a tutorial on building an AI language learning app that teaches Japanese via live voice calls using Gemini Live APIs.
+他发布了一个教程，介绍如何用 Gemini Live API 构建一款通过实时语音通话学习日语的 AI 应用。
+The tutorial covers using a spec skill to create key designs, setting up Gemini Live APIs for voice, and creating diorama art with Nano Banana.
+教程涵盖：用 spec skill 做关键设计、配置 Gemini Live 语音 API，以及用 Nano Banana 制作场景艺术。
+You can follow along to build your own app for learning 100 phrases in any language before a trip.
+你可以跟着教程打造自己的应用，在出行前掌握任意语言的 100 个常用短语。
+He also shared a link to learn more about Gemini 3.8 Live.
+他还分享了了解 Gemini 3.8 Live 的更多资源链接。
 
-He weighed in on the Rust vs. Go debate: DHH is fundamentally right about Rust's tradeoffs. Vercel's Turborepo migration from Go to Rust had controversial ROI internally — Go is fast, beautifully designed, and has lower human migration costs.
-他就 Rust 与 Go 的争论表态：DHH 对 Rust 权衡取舍的看法从根本上是正确的。Vercel 将 Turborepo 从 Go 迁移到 Rust 的内部 ROI 颇具争议——Go 速度快、设计优雅，人员迁移成本更低。
-
-He shared a neat rule of thumb for AI-era writing: READMEs and blogs should be written by humans for humans; internal documentation can be AI-generated English for agents.
-他分享了一个 AI 时代写作的简洁原则：README 和博客应由人类为人类撰写；内部文档可以是为代理生成的 AI 英文。
-
-Sources:
-- https://x.com/rauchg/status/2106885457212825983
-- https://x.com/rauchg/status/2106863842450133114
-- https://x.com/rauchg/status/2106848085267902815
+https://x.com/petergyang/status/2107108755699900459
+https://x.com/petergyang/status/2107108768240796093
 
 ---
 
-## Aaron Levie (@levie) — Box
+Nan Yu (thenanyu on X) — Product, Codex, OpenAI
 
-Aaron pushed back on pessimistic AI job displacement narratives: AI is actively creating new roles — AI engineers, field deployment engineers (FDEs), new services firms — and published stats likely undercount the full wave.
-Aaron 反驳了 AI 取代就业的悲观叙事：AI 正在积极创造新岗位——AI 工程师、现场部署工程师（FDE）、新型服务公司——已发布的统计数据可能还低估了这一浪潮。
+A quiet but pointed message: "You can just fix things."
+简短而有力的一句话："你就可以直接修好它。"
+This reads as a rallying call for builders not to overthink — just act and fix problems.
+这像是在鼓励创造者们不要想太多，直接行动、解决问题。
 
-He also offered a nuanced take on consumer AI monetization: the metric of willingness-to-pay may plateau lower than expected, as consumer AI will likely be subsidized through ads, commerce, or device/service bundles.
-他还对消费者 AI 货币化提出了细致看法：付费意愿指标可能比预期更早触顶，因为消费者 AI 很可能通过广告、电商或设备/服务捆绑来补贴。
-
-Sources:
-- https://x.com/levie/status/2106893015063421357
-- https://x.com/levie/status/2106802940879192260
+https://x.com/thenanyu/status/2107262460675891640
 
 ---
 
-## Ryo Lu (@ryolu_) — Builder
+Madhu Guru (realmadhuguru on X) — Sr Director of AI, Meta; prev Google (Gemini, Veo, Nano Banana)
 
-Ryo shared a design update featuring full-bleed desktop layout with a side dock — framing the product vision as "a little computer in your pocket."
-Ryo 分享了一个设计更新，采用全出血桌面布局配侧边栏——将产品愿景定位为"口袋里的小电脑"。
+He called out one of the most common AI product mistakes: treating evals as an afterthought QA step after the agent is built.
+他指出了 AI 产品开发中最常见的错误之一：把评测（evals）当成 agent 构建完成后的事后 QA 步骤。
+"AI products are fundamentally different. Your evals are your product spec."
+"AI 产品有其根本的不同之处。你的评测就是你的产品规格说明书。"
+This is a strong reminder that for AI systems, evaluation design IS the product design.
+这有力地提醒我们：对于 AI 系统而言，评测设计本身就是产品设计。
 
-Source: https://x.com/ryolu_/status/2106777615801713054
-
----
-
-## Garry Tan (@garrytan) — Y Combinator
-
-When many builders converge on the same primitives, Garry sees it as a signal of intensifying need — and a belief that the field is moving toward a correct "OS" for AI.
-当许多构建者聚焦于相同的基础原语时，Garry 将其视为需求加剧的信号——以及对该领域正在走向正确 AI "操作系统"的信念。
-
-Source: https://x.com/garrytan/status/2106901111106097210
+https://x.com/realmadhuguru/status/2107292113214091355
 
 ---
 
-## Matt Turck (@mattturck) — FirstMark Capital
+Thariq (trq212 on X) — Claude Code, Anthropic
 
-Matt flagged interpretability as the most underappreciated challenge in AI outside expert circles: "Models are grown, not built" — and we don't really understand how they work.
-Matt 指出可解释性是 AI 领域在专家圈子之外最被低估的挑战："模型是培育出来的，而非构建的"——我们并不真正了解它们的工作原理。
+He introduced the concept of "local hands" — Claude runs in the cloud but can access your local files.
+他介绍了"local hands"（本地之手）这一概念：Claude 运行在云端，但可以访问你的本地文件。
+This pattern is coming to Cowork, making it possible for cloud AI to feel grounded in your local environment.
+这一模式将引入 Cowork，让云端 AI 能够真正扎根于你的本地环境。
+He also shared that structured planning in Claude Code is significantly more token-efficient than raw HTML generation — the model doesn't need to recreate components for common patterns like state machines, diagrams, or code snippets.
+他还分享了：在 Claude Code 中使用结构化规划远比直接生成原始 HTML 更节省 token，模型无需为状态机、图表、代码片段等常见模式重复生成组件。
+For those getting into game design, he pointed to good learning resources available in the space.
+对于想入门游戏设计的人，他也推荐了一些不错的学习资源。
 
-He highlighted the urgent need for better interpretability research, pointing to Goodfire AI's work in this space.
-他强调了对更好的可解释性研究的迫切需求，并指出 Goodfire AI 在这一领域的工作。
-
-Source: https://x.com/mattturck/status/2106821381765956044
-
----
-
-## Zara Zhang (@zarazhangrui) — Investor / Builder
-
-Zara marveled at Claude Opus 5.5's long-horizon autonomous work: it quietly goes off for 20+ minutes and comes back with a complete masterpiece.
-Zara 对 Claude Opus 5.5 的长程自主工作能力叹为观止：它静静地离开 20 多分钟，然后带回一件完整的杰作。
-
-She also noted a cultural shift: X profiles are replacing resumes as the primary signal of professional identity.
-她还指出一种文化转变：X 个人主页正在取代简历，成为职业身份认同的主要信号。
-
-Sources:
-- https://x.com/zarazhangrui/status/2106876921082712250
-- https://x.com/zarazhangrui/status/2106782239493427588
-- https://x.com/zarazhangrui/status/2106779057220378725
+https://x.com/trq212/status/2107229483015258493
+https://x.com/trq212/status/2107294499282293017
+https://x.com/trq212/status/2107340728380870868
 
 ---
 
-## Nikunj Kothari (@nikunj) — Investor
+Amjad Masad (amasad on X) — CEO, Replit
 
-Nikunj made a case for in-person founder meetings: beyond "vibes," visiting a startup's office reveals office energy, team dynamics, co-founder chemistry, and early product quality — signals that a Zoom call simply can't capture.
-Nikunj 为亲自拜访创始人的价值辩护：除了"氛围"，参观初创公司办公室能揭示办公室能量、团队动态、联合创始人默契和早期产品质量——这些都是 Zoom 会议无法捕捉的信号。
+He shared pride in the many family-run businesses now powered by Replit — a quiet nod to Replit's democratizing effect on software creation.
+他为众多以 Replit 为基础的家族企业感到骄傲，这也默默印证了 Replit 在让软件创作平民化方面的成效。
+He highlighted a fun use case: using Replit to "promote my app on TikTok."
+他展示了一个有趣的使用场景：用 Replit 来"在 TikTok 上推广我的应用"。
+He noted that the US is catching up on open-weights models, sharing a relevant post.
+他指出美国在开源权重模型领域正在迎头赶上，并分享了相关内容。
 
-Source: https://x.com/nikunj/status/2106957269212742135
-
----
-
-## Peter Steinberger (@steipete) — Builder
-
-Peter's post was brief but resonant: "bug fixes & performance improvements" — a knowing nod to the eternal cycle of shipping, accompanied by a screenshot hint of what's coming.
-Peter 的帖子简短而意味深长："bug 修复和性能改进"——对永恒发布循环的会心一笑，并附上了即将推出内容的截图暗示。
-
-Source: https://x.com/steipete/status/2106796559400882209
+https://x.com/amasad/status/2107222889946898893
+https://x.com/amasad/status/2107252697162543255
+https://x.com/amasad/status/2107222388429766970
 
 ---
 
-## Dan Shipper (@danshipper) — Every
+Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-Dan reflected on "dot" becoming his primary AI interface — his instance is named Boo. But he suspects that in a year, the persistent agent model will stick while the personality layer disappears, much like early ChatGPT days when users loved their "Claws" but eventually dropped them for something more capable.
-Dan 反思了"dot"成为他主要 AI 界面的体验——他的实例名叫 Boo。但他预测，一年后，持久代理模式会留存，而个性化层会消失，就像 ChatGPT 早期用户喜爱自己的"Claws"但最终为更强大的工具放弃了它们一样。
+He introduced gdp-ts (Ghosts of Departed Proofs for TypeScript) — a library, linter, and AI skill for safer API design.
+他发布了 gdp-ts（Ghosts of Departed Proofs for TypeScript）——一个用于更安全 API 设计的库、linter 和 AI skill。
+Under this contract, sensitive functions require typed "proofs" that the caller has performed an authorization check; the typechecker verifies these at compile time.
+在这套机制下，敏感函数需要调用方提供类型化的"证明"，表明已执行了授权检查；类型检查器会在编译时验证这些证明。
+This prevents both human developers and AI agents from shipping catastrophic security bugs.
+这可以防止人类开发者和 AI agent 在不经意间发布灾难性的安全漏洞。
+The key insight: agents thrive in tight loops with hard constraints that would frustrate humans, similar to how Rust's borrow checker works.
+核心洞察：agent 在有严格约束的紧密循环中能发挥最佳性能，就像 Rust 的借用检查器一样，而这类约束往往会让人类开发者感到沮丧。
+The README models a real Vercel product constraint: changing a Project's password requires proof of a certain role plus a certain entitlement.
+README 以一个真实的 Vercel 产品约束为例：修改项目密码需要同时证明具备特定角色和特定权限。
 
-Source: https://x.com/danshipper/status/2106892868564431255
+https://x.com/rauchg/status/2107119811444748555
 
 ---
 
-## 🎙️ Podcast: No Priors — Re-Founding Incumbents for the AI Era
+Aaron Levie (levie on X) — CEO, Box
 
-**Guest:** Michael Lee, Co-Founder & CEO of Sequence Holdings
-**Episode:** Re-Founding Incumbents for the AI Era with Sequence Holdings
-**Link:** https://www.youtube.com/watch?v=TCpRwJBQvW0
+He observed that a major bottleneck in enterprise agent adoption is the inability to test and optimize agents against "real" work environments — actual files, CRM systems, email, and more.
+他指出，企业级 agent 落地的主要瓶颈在于：无法针对"真实"工作环境（实际文件、CRM 系统、邮件等）来测试和优化 agent。
+Without the right evals infrastructure, enterprises can't know how agents perform today — or how a model change will affect them tomorrow.
+缺乏合适的评测基础设施，企业就无法了解 agent 当前的表现，也无法预判模型升级后的影响。
+Every enterprise currently has to build this 1-by-1, which is slow and tedious — creating a huge opportunity for infrastructure tooling.
+每家企业目前都得单独构建这套体系，既慢又繁琐，这为基础设施工具创造了巨大机会。
+"Every enterprise is going to have someone managing evals, infrastructure for building and running evals and simulated environments, and more. Huge space."
+"每家企业都将需要专人管理评测，以及用于构建和运行评测与模拟环境的基础设施。这是一片巨大的蓝海。"
 
-Michael Lee and co-founder Alex started Sequence Holdings 20 months ago with a thesis: partner with world-class businesses and management teams, deploy a frontier engineering team, and forge market leaders in the AI era.
-Michael Lee 和联合创始人 Alex 在 20 个月前创立了 Sequence Holdings，基于这一论点：与世界级企业和管理团队合作，部署前沿工程团队，在 AI 时代打造市场领导者。
+https://x.com/levie/status/2107283615247999257
 
-Their first major deal: a $7.7 billion AI take-private of Baldwin Insurance with the Dell family office — the largest AI take-private to date.
-他们的第一笔重大交易：与戴尔家族办公室合作，以 77 亿美元完成对 Baldwin 保险公司的 AI 私有化——迄今最大的 AI 私有化交易。
+---
 
-The core insight driving Sequence: most large enterprises have "celebrated personas" built around sales or finance. To truly transform with AI, companies must re-engineer their culture to celebrate the engineer.
-驱动 Sequence 的核心洞见：大多数大型企业都有围绕销售或财务建立的"明星人设"。要真正通过 AI 实现转型，公司必须重塑文化，将工程师奉为明星。
+Ryo Lu (ryolu_ on X) — Designer (Cursor, Notion, Stripe)
 
-Traditional PE firms optimize for packaging and selling — a 3-5 year exit. Sequence operates on a permanent holding model, making just one deal per year, and focuses on deep technological transformation with no exit pressure.
-传统 PE 公司优化打包和出售——3-5 年退出。Sequence 采用永久持股模式，每年只做一笔交易，专注于深度技术转型，没有退出压力。
+On the anniversary of Steve Jobs' passing, he wrote a deeply personal tribute.
+在乔布斯逝世周年之际，他写下了一篇极为私人的纪念文章。
+He grew up with beige boxes, then saw the iMac G4 in Canada and was struck by how beautiful computers could be.
+他从小用的是米色机箱，后来在加拿大第一次看到 iMac G4，被电脑也能如此美丽所震撼。
+Unable to afford a Mac, he made his PC look like one — and that's how he got into interface design.
+买不起 Mac，他就把自己的 PC 改造成 Mac 的样子，这也是他走上界面设计之路的起点。
+"Since he died, I've felt us getting stuck in a loop. Constant refinement. Better supply chains. More ways to keep people scrolling. So much talent spent on tiny improvements, so little room for something truly great and heartfelt."
+"自从他离开，我感到我们陷入了一个循环：不断打磨、优化供应链、让人们刷得更久。太多才华被消耗在微小的改进上，留给真正伟大、发自内心之作的空间越来越少。"
+He also shipped a small but lovely side project: ryOS Subtitles — a Chrome extension for watching Netflix with subtitles in any two languages, with pronunciation guides for Japanese, Chinese, and Korean.
+他还发布了一个小而精的副项目：ryOS Subtitles，这是一个 Chrome 插件，可以在 Netflix 上同时显示任意两种语言的字幕，并支持日语、中文和韩语的发音指南。
 
-Michael argues that AI transformation isn't about layoffs — it's about redeploying talent toward higher-leverage work, and the companies that get this right will pull dramatically ahead.
-Michael 认为，AI 转型不是关于裁员——而是将人才重新部署到更高杠杆的工作中，做到这一点的公司将大幅领先。
+https://x.com/ryolu_/status/2107246891977335049
+https://x.com/ryolu_/status/2107146629338042853
+https://x.com/ryolu_/status/2107146721591726323
 
-Source: https://www.youtube.com/watch?v=TCpRwJBQvW0
+---
+
+Garry Tan (garrytan on X) — President & CEO, Y Combinator
+
+He predicted that AGI Science Loops are coming, and that there will be a Muse/Instinct layer for those loops — calling out Halmos as the startup building this.
+他预言 AGI Science Loops（AGI 科学循环）即将到来，届时将出现专属的 Muse/Instinct 层，并点名 Halmos 正在构建这一基础设施。
+He highlighted an important competitive dynamic: AI labs have an incentive to burn tokens (it benefits their revenue), while startups can provide real utility by swapping token-burning tasks for deterministic, tested, repeatable code.
+他指出了一个重要的竞争动态：AI 实验室有动力消耗更多 token（这有助于营收），而初创公司则可以通过将烧 token 任务替换为确定性、经过测试、可复现的代码来提供真正的价值。
+He used Grep as an example — it can automatically learn from agent use and replace expensive model calls with deterministic code.
+他以 Grep 为例，说明其可以自动从 agent 的使用行为中学习，并用确定性代码替代昂贵的模型调用。
+On public infrastructure, he argued that high-speed rail in California has been derailed into a bulk transfer of taxpayer dollars to special interests, with no working outcome in sight, calling for competence and accountability in leadership.
+在公共基础设施方面，他指出加州高铁已沦为向特殊利益集团的大规模财政转移，至今没有实质性成果，并呼吁领导层展现能力与担当。
+
+https://x.com/garrytan/status/2107173670699622830
+https://x.com/garrytan/status/2107129959550685660
+https://x.com/garrytan/status/2107127940635070905
+
+---
+
+Matt Turck (mattturck on X) — VC at FirstMark Capital; Host, MAD Podcast
+
+He shared a humorous post about the perennial "too late to invest in crypto" anxiety — implying the timing debate never ends.
+他转发了一则关于"买币太晚了"这一永恒焦虑的幽默帖子，暗示这场时机之争永远不会结束。
+
+https://x.com/mattturck/status/2107182105201696858
+
+---
+
+Zara Zhang (zarazhangrui on X) — Follow Builders creator
+
+Near期无重要动态。
+近期无重要动态。
+
+https://x.com/zarazhangrui/status/2107357316844802298
+
+---
+
+Nikunj Kothari (nikunj on X)
+
+近期无重要动态。
+
+https://x.com/nikunj/status/2107238370669941082
+
+---
+
+Dan Shipper (danshipper on X) — CEO, Every
+
+He made a promise on behalf of Every: "As the frontier advances, so do you."
+他以 Every 的名义许下承诺："前沿在进步，你也在进步。"
+This is a mission statement for Every's positioning — helping professionals level up alongside AI, not get left behind.
+这是 Every 定位的使命宣言：帮助专业人士与 AI 同步成长，而不是被时代甩下。
+He also shared a visual showing a connection animation — "waiting for your dot to pick up."
+他还分享了一段连接动画的视觉演示，配文"等待你的节点接入"。
+He highlighted a great article by Arielle Shipper.
+他推荐了 Arielle Shipper 写的一篇好文章。
+
+https://x.com/danshipper/status/2107173061313388636
+https://x.com/danshipper/status/2107099152161095955
+https://x.com/danshipper/status/2107098678141804829
+
+---
+
+Aditya Agarwal (adityaag on X) — Investor / Operator
+
+He spotlighted Sergey Levine (svlevine), a Berkeley EECS faculty member and cofounder of Physical Intelligence, who builds algorithms that let robots learn from experience — connecting what they see to how they move.
+他重点介绍了 Sergey Levine（svlevine），一位 Berkeley EECS 教授和 Physical Intelligence 联合创始人，专注于构建让机器人从经验中学习的算法，将机器人的"所见"转化为"所动"。
+There are final few spots left for an upcoming event he's hosting or promoting.
+他正在举办或推广的某活动还剩最后几个名额。
+He also mused that it would be interesting to run the Muse/Dot "computer" locally, noting that a local agent environment feels better than the increasingly locked-down macOS.
+他还思考了在本地运行 Muse/Dot "电脑"的可能性，认为本地 agent 环境比日益封闭的 macOS 更适合作为 agent 运行平台。
+
+https://x.com/adityaag/status/2107171588194152936
+https://x.com/adityaag/status/2107171589783748608
+https://x.com/adityaag/status/2107133989941387282
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
