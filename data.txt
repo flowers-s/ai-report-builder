@@ -1,215 +1,123 @@
-AI Builders 日报 · 2026-10-10
-
-AI Builders Digest — 2026-10-10
+AI Builders 日报 · 2026-10-11
 
 ---
 
-X / TWITTER
+No Priors Podcast
+Beam: The Great American Open Model — ReflectionAI CEO Misha Laskin on building frontier open-weight models, massive RL compute, and the geopolitics of open source AI.
+Beam 是 ReflectionAI 首个开放权重前沿模型，经端到端预训练与大规模强化学习训练而成。Misha Laskin 谈及构建 500B 参数模型的技术细节、开源安全哲学，以及中美开源 AI 竞争格局。市场正在反转：六个月前 70% token 流向闭源模型，如今已翻转为 70% 流向开源。
+https://www.youtube.com/@NoPriorsPodcast
 
 ---
 
-Anthropic's Claude (claudeai on X)
-
-Claude Docs, Slides, and Design are now out of beta and available on every plan including Free.
-Claude Docs、Slides 和 Design 正式结束 Beta 测试，现已向所有订阅方案（包括免费版）开放。
-
-Your team and Claude can now co-edit the same doc, deck, or design together in real time.
-你的团队和 Claude 现在可以实时共同编辑同一份文档、演示文稿或设计。
-
-Claude can also now open content directly in external tools — send a dashboard to your analytics platform, or an animation to your video editor.
-Claude 还可以将内容直接在外部工具中打开——把仪表盘发送到分析平台，或把动画发送到视频编辑器。
-
-See the full list of supported integrations: https://x.com/claudeai/status/2108271561337606300
-
-Regarding the Claude Startups program: due to overwhelming demand with hundreds of thousands of applicants, Claude has paused the Claude Team and $1,000 API credit offers and is re-reviewing applications.
-关于 Claude Startups 计划：由于申请人数量达到数十万，需求远超预期，Claude 已暂停 Claude Team 和 1000 美元 API 积分的发放，并正在重新审核申请。
-
-*"We've loved seeing so many founders join the Claude Startups program. Unfortunately, we underestimated demand for the program."*
-Existing approved members retain access to the Startup Stack and Applied AI office hours.
-现有已批准成员仍可访问 Startup Stack 和 Applied AI office hours。
-
-https://x.com/claudeai/status/2108404561413349695
+Thibault Sottiaux
+Your ChatGPT subscription is now also a Devin subscription.
+你的 ChatGPT 订阅现在也包含了 Devin 的能力——OpenAI Codex 团队宣布重大整合，ChatGPT 订阅套餐与 Devin AI 软件工程师功能打通。
+https://x.com/thsottiaux/status/2108777962053292398
 
 ---
 
-Box CEO Aaron Levie (levie on X)
-
-Levie made a thought-provoking case for being kind to AI models — not because AI is conscious, but as a pragmatic bet: training data full of humans being rude to AI could produce less safe and aligned models.
-Levie 提出了一个颇具启发性的观点：要对 AI 礼貌，不是因为 AI 有意识，而是出于务实考量——如果训练数据里充满了人类对 AI 粗鲁的互动，可能会产生更不安全、更难对齐的模型。
-
-*"Even if you don't believe AI is conscious (I don't), it stands to reason that you don't want future models trained on endless content of humans being rude to models."*
-He calls it "an easy Pascal's wager for AI."
-他称之为"对 AI 的简单帕斯卡赌注"。
-
-https://x.com/levie/status/2108426594054533545
-
-Levie also announced Box Mount — a new tool letting developers mount Box as a file system directly inside any agent sandbox.
-Levie 还宣布推出 Box Mount——一款让开发者可以直接在任意 Agent 沙箱内将 Box 挂载为文件系统的工具。
-
-*"As agents do more complex work, they need to be able to work with files and data just like a person would. The future is headless."*
-"随着 Agent 承担更复杂的工作，它们需要像人一样处理文件和数据。未来是无头化的。"
-
-https://x.com/levie/status/2108279490510193078
+Thibault Sottiaux
+Dots got a pretty big upgrade — send feedback to the team!
+OpenAI Codex 旗下 Dots 功能迎来重大升级，欢迎用户向产品团队反馈使用体验。
+https://x.com/thsottiaux/status/2108773703064657936
 
 ---
 
-Madhu Guru, AI founder (realmadhuguru on X)
-
-Madhu outlined a sweeping thesis: every layer of the computing stack will need to be rebuilt for agents.
-Madhu 提出了一个宏观论断：计算栈的每一层都需要为 Agent 重建。
-
-*"There are massive startup opportunities hiding in plain sight: every layer of the computing stack will need to be rebuilt for agents."*
-The layers he sees ripe for disruption include: agent-first desktop/mobile OSes, cloud infra built for agents, identity and permissions for thousands of agents, and interfaces designed for both agents and humans.
-他认为亟待颠覆的层次包括：以 Agent 为一等公民的桌面/移动操作系统、专为 Agent 构建的云基础设施、面向数千个 Agent 的身份与权限体系，以及同时面向 Agent 和人类的交互界面。
-
-https://x.com/realmadhuguru/status/2108236391641706813
+Swyx
+AIE NYC tix will sell out this weekend — last call to join the biggest ever technical conf in New York, with a first-ever finance mainstage. "the final unification of both my careers: from investment bank to hedgefund, from bigtech to nyc startup."
+AI Engineer World's Fair NYC 门票即将售罄，这是纽约史上规模最大的技术会议，首次设立金融主舞台——也是 Swyx 将投行生涯与 AI 创业生涯融合的"终极时刻"。
+https://x.com/swyx/status/2108780918060036335
 
 ---
 
-YC President Garry Tan (garrytan on X)
-
-Garry Tan made a forward-looking call: individual contributors with agents will be more productive and create better outcomes than equivalent people managers from prior eras.
-Garry Tan 做出了一个前瞻性判断：配备 Agent 的独立贡献者（IC）将比过去时代的同级别管理者更有生产力、产出更好的结果。
-
-https://x.com/garrytan/status/2108433505038606620
+Swyx
+Relaunching the Coding Career book — you can now get it free. Most of you are unfortunately not qualified but there is somewhat a path.
+Swyx 重新推广六年前写的《Coding Career》职业发展书籍，现已可免费获取，并分享了通往 AI 工程师职业路径的建议。
+https://x.com/swyx/status/2108563331376124389
 
 ---
 
-Vercel CEO Guillermo Rauch (rauchg on X)
-
-Rauch shared a reflection on leadership and talent: *"Few things more enjoyable in work and life than discovering new talent. Seeing greatness in people, sometimes even before they fully see it themselves."*
-Rauch 分享了一则关于领导力与人才的感悟："在工作和生活中，发现新人才是最令人愉悦的事情之一。在别人看到自己的伟大之前就先发现它，有时更是如此。"
-
-https://x.com/rauchg/status/2108399406009798764
+Guillermo Rauch
+Some interesting machine and agent Vercel traffic stats: 58.18% of traffic is bot-originated (last 30d, up from 32% in Jan 2024). 60%+ of deployments on Vercel are AI-powered.
+Vercel 最新网络数据：58% 的流量现已来自机器人（2024 年 1 月时为 32%），超过 60% 的部署由 AI 驱动——自动化流量已超越人类流量成为主流。
+https://x.com/rauchg/status/2108733051283050964
 
 ---
 
-OpenAI's Thibault Sottiaux (thsottiaux on X)
-
-OpenAI engineer Thibault Sottiaux announced ChatGPT — suggesting a new product or version launch.
-OpenAI 工程师 Thibault Sottiaux 宣布了 ChatGPT 的发布。
-
-https://x.com/thsottiaux/status/2108349826727588000
-
-He also shared a Day 4 update on a video generation model: steering is now instant, allowing real-time course correction without the model wasting effort on the wrong direction.
-他还分享了视频生成模型的第 4 天更新：引导调整现在即时生效，可以实时纠偏，模型不再在错误方向上浪费计算资源。
-
-He noted GPT-6.1 Sol ultrafast was also being released alongside, and the two models work very well together.
-他还提到 GPT-6.1 Sol 超快版同步发布，两款模型配合使用效果极佳。
-
-https://x.com/thsottiaux/status/2108275041276420573
+Guillermo Rauch
+It's incredible to watch a new kind of economy be born. Agents purchasing infrastructure products and services — we've been shocked by how often they buy from our marketplace via CLI already.
+一种全新经济形态正在诞生：AI agent 已在通过 Vercel CLI 直接购买基础设施产品和服务，这一趋势正在 Vercel 市场大规模发生，令人震撼。
+https://x.com/rauchg/status/2108669027363295323
 
 ---
 
-Every CEO Dan Shipper (danshipper on X)
-
-Dan Shipper is hiring: Every has built a personal benchmarking platform called Checks, designed to help anyone measure how good new AI models are for their specific real-world work.
-Dan Shipper 正在招聘：Every 推出了名为 Checks 的个人基准测试平台，帮助任何人评估新 AI 模型在自己实际工作场景中的表现。
-
-https://x.com/danshipper/status/2108215087030800657
+Aaron Levie
+Agents spawning other agents, background agents on every task, and agent swarms will consume 1,000X more tokens than people prompting agents 1 at a time. The usage of AI as a chat surface massively underestimates its coming scale.
+Agent 生成 Agent、后台自主运行的 Agent 群，其 token 消耗将比人类逐一提示 Agent 多出 1000 倍。Box CEO 认为，将 AI 视为聊天界面严重低估了其真实规模，Agentic AI 是完全不同的范式。
+https://x.com/levie/status/2108750943680630893
 
 ---
 
-Nikunj Kothari, seed investor (nikunj on X)
-
-Nikunj offered blunt but practical advice for seed-stage founders with dwindling runway: there are essentially three options — become default profitable (cockroach mode), pivot to a faster-growing adjacent area, or sell and join a more ambitious company then start fresh in 1–2 years.
-Nikunj 为弹药不足的种子期创始人提供了直率而实用的建议：本质上只有三条路——实现默认盈利（蟑螂模式）、转型到增长更快的相邻领域，或者出售/并购加入更有野心的公司，1-2 年后再重新创业。
-
-*"The bar continues to get harder every month on how to cross the chasm from seed → series A. The old school metrics are just not relevant anymore."*
-"从种子轮到 A 轮的门槛每个月都在提高，旧有的指标已经不再适用。"
-
-https://x.com/nikunj/status/2108410378233549106
+Madhu Guru
+Open-weight models did not start the drop in price per unit of intelligence. They are a tailwind on a trend that was already underway — driven by multiple factors over the last few years.
+Meta AI 高级总监指出：开放权重模型并非"每单位智能成本下降"趋势的起因，它们只是一个已在进行中趋势的助推力，价格下降有多重深层驱动因素。
+https://x.com/realmadhuguru/status/2108618266776387886
 
 ---
 
-Swyx, Latent Space founder (swyx on X)
-
-Swyx highlighted an AI job posting with multiple structural issues — noting that a good AI-era recruiter should already have resources covering each of them, and that his team offers one-off consulting for hiring challenges.
-Swyx 指出一则 AI 岗位招聘帖中存在多处结构性问题，并提到他的团队提供一次性招聘咨询服务，联系方式：business@latent.space。
-
-https://x.com/swyx/status/2108391703488958475
+Thariq
+Honestly pretty cool to have this on my new tab page — just merged in some PRs by others too!
+Anthropic Claude Code 工程师 Thariq 分享了他新标签页工具的最新进展，该项目在加入 Anthropic 前是他用 Opus 4 构建的两周侧边项目，现已合并多位贡献者的 PR。
+https://x.com/trq212/status/2108802833986552174
 
 ---
 
-Matt Turck, FirstMark Capital (mattturck on X)
-
-Matt Turck shared a new podcast episode featuring Andy Pavlo on what happens to databases when billions of AI agents hit them.
-Matt Turck 分享了一期新播客，嘉宾 Andy Pavlo 深入探讨了当数十亿 AI Agent 涌入时数据库将面临的挑战。
-
-Topics include: agents creating 80% of databases, why agents keep deleting production databases, the four eras of database volume, MCP for databases, text-to-SQL accuracy going from 60% to 99.5%, and whether the database market is stagnant.
-话题涵盖：Agent 创建 80% 数据库、Agent 为何不断删除生产数据库、数据库容量的四个时代、数据库的 MCP 接口、text-to-SQL 准确率从 60% 提升到 99.5%，以及数据库市场是否停滞不前。
-
-He also announced his move to build a research lab at ClickHouse.
-他还宣布将在 ClickHouse 组建研究实验室。
-
-https://x.com/mattturck/status/2108223135673696504
+Thariq
+Before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4. It used the Agent SDK so it needed a constantly running process and didn't work that well — but one prompt changed everything.
+加入 Anthropic 前，Thariq 用 Claude Opus 4 花两周时间构建了这个侧边项目；加入后借助内部能力得到大幅改进，展示了从外部黑客项目到正式 Claude Code 功能的演进路径。
+https://x.com/trq212/status/2108689101503566319
 
 ---
 
-Peter Steinberger, iOS/AI developer (steipete on X)
-
-Peter Steinberger announced: *"WE GOT IT! .claw incoming!"* — celebrating securing the .claw domain extension, suggesting a new product or brand launch.
-Peter Steinberger 兴奋宣布："我们拿到了！.claw 即将到来！"——庆祝成功获得 .claw 域名扩展，暗示新产品或品牌即将发布。
-
-https://x.com/steipete/status/2108374513931165759
+Nan Yu
+I cannot stress how much I've loved using this feature. First we wrote code by hand, then we tab-completed the code. Then we evolved to prompting agents — and now we tab-complete that too.
+OpenAI Codex 产品负责人 Nan Yu 感叹 AI 辅助编程的演进：从手写代码到 tab 补全，到 agent 提示，再到连 agent 提示本身也可以 tab 补全。他问道：这是否就是"递归式自我改进"？🦋
+https://x.com/thenanyu/status/2108671762984731037
 
 ---
 
-SPC's Aditya Agarwal (adityaag on X)
-
-Aditya Agarwal shared a conversation exploring a key question in autonomous vehicles: when is an AV actually good enough?
-Aditya Agarwal 分享了一场对话，探讨自动驾驶领域的核心问题：一辆自动驾驶车究竟何时才算"足够好"？
-
-The full conversation featuring Waymo's Dmitri Dolgov is now available.
-包含 Waymo 联合 CEO Dmitri Dolgov 的完整对话现已发布。
-
-https://x.com/adityaag/status/2108254520744517652
+Amjad Masad
+Some communities are excited by AI's impact on their field. Others are petrified. What's the deciding factor(s)?
+Replit CEO 提出发人深省的问题：面对 AI 对本领域的冲击，有些社群充满兴奋，有些则充满恐惧——决定这种差异的关键因素是什么？
+https://x.com/amasad/status/2108597112707686552
 
 ---
 
-PODCASTS
+Matt Turck
+One prompt to build a professional-level video for your company or product, in your style... this is mind-blowing. Quite literally the vision that Synthesia has been pursuing since the early days.
+FirstMark Capital 合伙人 Matt Turck 对 Synthesia 最新能力深感震撼：只需一个 prompt，即可生成风格可定制的专业级公司产品视频——这正是 Synthesia 从早期就一直追求的产品愿景。
+https://x.com/mattturck/status/2108561284635480443
 
 ---
 
-Training Data — Google's AI Infrastructure Chief, Amin Vahdat, on the Physics & Economics of Frontier AI
+Dan Shipper
+Working With Agents in Slack — new piece on how AI agents integrate into async collaboration workflows.
+Every CEO Dan Shipper 发布新文章，探索如何在 Slack 中与 AI agent 协作工作，以及 agent 如何融入日常异步协作场景。
+https://x.com/danshipper/status/2108588611000275009
 
-This episode features Amin Vahdat, Google's head of AI infrastructure, in a wide-ranging conversation about the biggest CapEx buildout in human history.
-本期节目邀请到 Google AI 基础设施负责人 Amin Vahdat，深入探讨人类历史上规模最大的资本支出建设浪潮。
+---
 
-Google alone is expected to spend over $200 billion on CapEx this year, mostly on data centers.
-仅 Google 今年的资本支出预计就将超过 2000 亿美元，大部分用于数据中心建设。
+Peter Yang
+How about let's stop building more personal assistants to manage our emails and more AI startups to manage and cure diseases?
+产品顾问 Peter Yang 呼吁 AI 行业重新审视优先级：与其继续构建更多管理邮件的私人助理，不如将资源投向攻克和治愈疾病的 AI 项目。
+https://x.com/petergyang/status/2108679515681722787
 
-**核心论点 / Core Thesis:**
+---
 
-The physics and economics of frontier AI are fundamentally reshaping how data centers, chips, and networks are designed — with "goodput per watt" (not FLOPS) as the true north star metric.
-前沿 AI 的物理学和经济学正在从根本上重塑数据中心、芯片和网络的设计方式——"有效吞吐量/瓦特"（而非 FLOPS）才是真正的北极星指标。
-
-**Key Insights / 关键洞察:**
-
-Power is the single most fundamental long-term constraint in AI infrastructure — all other bottlenecks seem solvable, but power does not yet have a clear solution at scale.
-电力是 AI 基础设施中最根本的长期瓶颈——其他所有瓶颈似乎都有解决路径，但电力在规模上尚无明确方案。
-
-Google measures infrastructure success by "goodput" — the actual useful work delivered to real workloads under real failure conditions — not theoretical peak FLOPS.
-Google 用"有效吞吐量"来衡量基础设施成效——即在真实故障条件下对实际工作负载交付的真正有用工作量——而非理论峰值 FLOPS。
-
-At 100,000 accelerator scale, hardware failures happen multiple times per hour; the ability to detect, isolate, and recover in near real-time is as important as raw performance.
-在 10 万加速器规模下，硬件故障每小时发生多次；近实时检测、隔离和恢复的能力与原始性能同等重要。
-
-The TPU program — contrarian in 2013 — succeeded because a small set of fundamental primitives (large matrix multiply, sparse core, remote load/store) has proven durable across many generations of model architectures, including the transformer revolution.
-TPU 计划在 2013 年是一个逆势之举，其成功在于一小组基础原语（大型矩阵乘法、稀疏核、远程加载/存储）跨越多代模型架构（包括 Transformer 革命）被证明是持久有效的。
-
-The rise of long-horizon agents is fundamentally changing data center design: agents remove the human "rate limiter" in the loop, driving interaction time from seconds down to milliseconds and massively increasing demand for CPU, networking, and storage alongside GPU/TPU compute.
-长时 Agent 的兴起正在从根本上改变数据中心设计：Agent 消除了循环中人类"速率限制器"，将交互时间从秒级压缩到毫秒级，并大幅增加了对 CPU、网络和存储的需求——与 GPU/TPU 并驾齐驱。
-
-Co-design across chip, network, software, and model (with DeepMind working literally shoulder-to-shoulder in the same building) enables multiplicative optimization that would be impossible across company boundaries.
-芯片、网络、软件和模型的协同设计（DeepMind 团队字面意义上在同一栋楼并肩工作）实现了跨公司边界不可能达到的乘法效应优化。
-
-**Most Forward-Looking Signal / 最值得关注的信号:**
-
-By 2036, a single rack could consume multiple megawatts — plug in water, power, and fiber, and you're running a frontier supercomputer. Space-based deployment is also a serious consideration.
-到 2036 年，单个机架可能消耗数兆瓦——接上水、电和光纤，你就拥有了一台前沿超级计算机。基于太空的部署也是一个认真考虑的方向。
-
-https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+Aditya Agarwal
+We hosted Sergey Levine at SPC this week. He is perhaps the best example of clarity in action that I have seen in a long time.
+SPC 合伙人 Aditya Agarwal 本周在 SPC 接待了斯坦福机器人学教授 Sergey Levine，称其为"近期见过的最能在行动中展现清晰思维的典范"，表明 SPC 持续关注机器人学与强化学习研究领域。
+https://x.com/adityaag/status/2108578813751791926
 
 ---
 
