@@ -1,123 +1,168 @@
-AI Builders 日报 · 2026-10-11
+AI Builders 日报 · 2026-10-12
 
 ---
 
-No Priors Podcast
-Beam: The Great American Open Model — ReflectionAI CEO Misha Laskin on building frontier open-weight models, massive RL compute, and the geopolitics of open source AI.
-Beam 是 ReflectionAI 首个开放权重前沿模型，经端到端预训练与大规模强化学习训练而成。Misha Laskin 谈及构建 500B 参数模型的技术细节、开源安全哲学，以及中美开源 AI 竞争格局。市场正在反转：六个月前 70% token 流向闭源模型，如今已翻转为 70% 流向开源。
-https://www.youtube.com/@NoPriorsPodcast
+X / TWITTER
 
 ---
 
-Thibault Sottiaux
-Your ChatGPT subscription is now also a Devin subscription.
-你的 ChatGPT 订阅现在也包含了 Devin 的能力——OpenAI Codex 团队宣布重大整合，ChatGPT 订阅套餐与 Devin AI 软件工程师功能打通。
-https://x.com/thsottiaux/status/2108777962053292398
+Thibault Sottiaux (thsottiaux on X)
+
+Thibault Sottiaux has been working on a major update rollout, celebrating that propagation is complete and hinting at future improvements.
+Thibault Sottiaux 正在进行重大更新发布，庆祝传播完成并暗示未来的改进方向。
+
+He shared cryptically: *"Put the reset in the bag. All propagated."* — signaling a successful deployment milestone.
+他神秘地分享道：*"Put the reset in the bag. All propagated."* — 这标志着一个成功的部署里程碑。
+
+He also teased a long-term vision: *"The day we reach perfection it will be resets from there onwards"* — suggesting continuous iteration is the real endgame.
+他还预示了长远愿景：*"The day we reach perfection it will be resets from there onwards"* — 暗示持续迭代才是真正的终极目标。
+
+Sources:
+- https://x.com/thsottiaux/status/2109132167112782291
+- https://x.com/thsottiaux/status/2109090080497508356
 
 ---
 
-Thibault Sottiaux
-Dots got a pretty big upgrade — send feedback to the team!
-OpenAI Codex 旗下 Dots 功能迎来重大升级，欢迎用户向产品团队反馈使用体验。
-https://x.com/thsottiaux/status/2108773703064657936
+Peter Yang (petergyang on X)
+
+Peter Yang commented wryly on the current state of AI with a simple *"Something went wrong alright"* — a nod to the turbulence in the ecosystem.
+Peter Yang 用一句简单的 *"Something went wrong alright"* 对当前 AI 生态的混乱状态做出了辛辣评论。
+
+Source: https://x.com/petergyang/status/2109107670229930458
 
 ---
 
-Swyx
-AIE NYC tix will sell out this weekend — last call to join the biggest ever technical conf in New York, with a first-ever finance mainstage. "the final unification of both my careers: from investment bank to hedgefund, from bigtech to nyc startup."
-AI Engineer World's Fair NYC 门票即将售罄，这是纽约史上规模最大的技术会议，首次设立金融主舞台——也是 Swyx 将投行生涯与 AI 创业生涯融合的"终极时刻"。
-https://x.com/swyx/status/2108780918060036335
+Nan Yu (thenanyu on X)
+
+Nan Yu shared a sharp insight on how AI agents are changing team dynamics: agents make engineers dramatically more powerful, but product managers remain bottlenecked by customer bandwidth.
+Nan Yu 分享了一个深刻见解：AI 智能体正在改变团队动态——智能体让工程师的能力大幅提升，但产品经理仍受限于与客户沟通的带宽。
+
+His conclusion: the ideal engineer-to-PM ratio in an AI-native team is now 1:1.
+他的结论是：在以 AI 为核心的团队中，工程师与产品经理的理想比例现在是 1:1。
+
+He also posted enigmatically about running out of gas — likely a metaphor for execution challenges mid-project.
+他还神秘地发文说"跑没油了"（Ran outta gas）— 可能是对项目中途执行挑战的隐喻。
+
+Sources:
+- https://x.com/thenanyu/status/2108976262698115550
+- https://x.com/thenanyu/status/2108948921007681902
 
 ---
 
-Swyx
-Relaunching the Coding Career book — you can now get it free. Most of you are unfortunately not qualified but there is somewhat a path.
-Swyx 重新推广六年前写的《Coding Career》职业发展书籍，现已可免费获取，并分享了通往 AI 工程师职业路径的建议。
-https://x.com/swyx/status/2108563331376124389
+Madhu Guru (realmadhuguru on X)
+
+Madhu Guru laid out a compelling thesis on the evolutionary arc of the AI agents space: capability → trust → autonomy.
+Madhu Guru 提出了一个关于 AI 智能体演进弧线的有力论点：能力 → 信任 → 自主。
+
+The first phase was about capability — can an agent reliably get work done?
+第一阶段是关于能力——智能体能否可靠地完成工作？
+
+Now the focus shifts to trust: does the system take the right actions with the right permissions, and can we observe, audit, and establish accountability?
+现在重点转向信任：系统是否以正确的权限采取正确的行动，我们能否观察、审计并建立问责机制？
+
+He argues that agentic security (identity, permissions, observability) must outpace the rapidly accelerating capability curve.
+他认为，智能体安全（身份、权限、可观测性）必须超越快速加速的能力曲线。
+
+Source: https://x.com/realmadhuguru/status/2108982858513776899
 
 ---
 
-Guillermo Rauch
-Some interesting machine and agent Vercel traffic stats: 58.18% of traffic is bot-originated (last 30d, up from 32% in Jan 2024). 60%+ of deployments on Vercel are AI-powered.
-Vercel 最新网络数据：58% 的流量现已来自机器人（2024 年 1 月时为 32%），超过 60% 的部署由 AI 驱动——自动化流量已超越人类流量成为主流。
-https://x.com/rauchg/status/2108733051283050964
+Guillermo Rauch (rauchg on X)
+
+Guillermo Rauch, CEO of Vercel, offered a sweeping optimistic take on our technological moment.
+Vercel CEO Guillermo Rauch 对我们所处的技术时刻给出了宏观乐观的判断。
+
+*"All plausible science fiction will be realized within our lifetime."*
+*"所有合理的科幻设想都将在我们有生之年实现。"*
+
+He added: *"If you're reading this, you're one of the luckiest humans to have ever been born (if we play our cards right.)"*
+他补充道：*"如果你正在读这段话，你是有史以来最幸运的人类之一（前提是我们打好手中的牌）。"*
+
+Source: https://x.com/rauchg/status/2109038632518782989
 
 ---
 
-Guillermo Rauch
-It's incredible to watch a new kind of economy be born. Agents purchasing infrastructure products and services — we've been shocked by how often they buy from our marketplace via CLI already.
-一种全新经济形态正在诞生：AI agent 已在通过 Vercel CLI 直接购买基础设施产品和服务，这一趋势正在 Vercel 市场大规模发生，令人震撼。
-https://x.com/rauchg/status/2108669027363295323
+Aaron Levie — Box CEO (levie on X)
+
+Aaron Levie, CEO of Box, published two substantive threads on the future of enterprise AI.
+Box CEO Aaron Levie 发布了两条关于企业 AI 未来的实质性长文。
+
+On agent swarms: he argued that the ability to parallelize agents against a unified goal will be transformative — enabling qualitatively different outcomes in medicine, research, cybersecurity, and scientific discovery.
+关于智能体集群：他认为，将智能体并行化以实现统一目标的能力将具有变革性——在医学、研究、网络安全和科学发现中产生质的不同结果。
+
+*"This is why we're going to need 1,000X more compute."*
+*"这就是为什么我们将需要 1000 倍的算力。"*
+
+On enterprise AI safety: he called for a "zero trust era" for AI — treating frontier models like insider risks, not because they're malicious, but because any sufficiently capable actor with access to important systems can make mistakes or be compromised.
+关于企业 AI 安全：他呼吁 AI 进入"零信任时代"——将前沿模型视为内部风险，不是因为它们是恶意的，而是因为任何能够访问重要系统的足够强大的参与者都可能犯错或被攻破。
+
+Sources:
+- https://x.com/levie/status/2109079686286565378
+- https://x.com/levie/status/2108952226714865966
 
 ---
 
-Aaron Levie
-Agents spawning other agents, background agents on every task, and agent swarms will consume 1,000X more tokens than people prompting agents 1 at a time. The usage of AI as a chat surface massively underestimates its coming scale.
-Agent 生成 Agent、后台自主运行的 Agent 群，其 token 消耗将比人类逐一提示 Agent 多出 1000 倍。Box CEO 认为，将 AI 视为聊天界面严重低估了其真实规模，Agentic AI 是完全不同的范式。
-https://x.com/levie/status/2108750943680630893
+Garry Tan — Y Combinator President (garrytan on X)
+
+Garry Tan, President of Y Combinator, shared his hands-on workflow for running AI coding agents at scale.
+Y Combinator 总裁 Garry Tan 分享了他大规模运行 AI 编程智能体的实操工作流程。
+
+He uses GStack with experimental Captain mode enabled, running a single thread that coordinates the merge PR queue, monitors CI, and ensures only green runs make it to master.
+他使用开启了实验性 Captain 模式的 GStack，运行单线程来协调合并 PR 队列、监控 CI，并确保只有绿色运行结果才能进入主分支。
+
+His approach: use /autoplan and ask the agent to ELI5 its plan before execution — he rarely needs to intervene, but the approval step keeps him in control.
+他的方法：使用 /autoplan 并让智能体在执行前用简单语言解释其计划——他很少需要干预，但审批步骤让他保持控制权。
+
+For retrieval and latency tasks, he recommends setting up clear evals around retrieval quality, latency, and cost per compute before letting agents auto-research and auto-improve.
+对于检索和延迟任务，他建议在让智能体自动研究和自动改进之前，围绕检索质量、延迟和每算力成本建立清晰的评估标准。
+
+Sources:
+- https://x.com/garrytan/status/2108954741065879945
+- https://x.com/garrytan/status/2108954740013043789
+- https://x.com/garrytan/status/2108954738540863498
 
 ---
 
-Madhu Guru
-Open-weight models did not start the drop in price per unit of intelligence. They are a tailwind on a trend that was already underway — driven by multiple factors over the last few years.
-Meta AI 高级总监指出：开放权重模型并非"每单位智能成本下降"趋势的起因，它们只是一个已在进行中趋势的助推力，价格下降有多重深层驱动因素。
-https://x.com/realmadhuguru/status/2108618266776387886
+Zara Zhang (zarazhangrui on X)
+
+Zara Zhang offered a pithy framing that resonated widely: *"Code is the new medium for creative self-expression."*
+Zara Zhang 提出了一个广受共鸣的简洁表述：*"代码是创意自我表达的新媒介。"*
+
+Source: https://x.com/zarazhangrui/status/2109087739287384387
 
 ---
 
-Thariq
-Honestly pretty cool to have this on my new tab page — just merged in some PRs by others too!
-Anthropic Claude Code 工程师 Thariq 分享了他新标签页工具的最新进展，该项目在加入 Anthropic 前是他用 Opus 4 构建的两周侧边项目，现已合并多位贡献者的 PR。
-https://x.com/trq212/status/2108802833986552174
+Nikunj Kothari (nikunj on X)
+
+Nikunj Kothari had two notable posts — one a personal milestone celebration (23 months in the making), and one a thoughtful take on VC trust and contracts.
+Nikunj Kothari 发布了两条值得关注的推文——一条是个人里程碑的庆祝（历时23个月），另一条是对风险投资信任与合同的深思。
+
+On VC dynamics: he argued that you philosophically cannot simultaneously ask a fund to show conviction by doubling down, while also asking them not to exercise contracted pro rata rights.
+关于 VC 动态：他认为，从哲学上讲，你不能同时要求基金通过加倍投入来展示信心，同时又要求他们不行使合同约定的按比例跟投权利。
+
+His warning to founders: *"Choose your partners AND contracts well. It's so so so important."*
+他对创始人的警示：*"好好选择你的合伙人和合同条款，这非常非常重要。"*
+
+Sources:
+- https://x.com/nikunj/status/2109060688446677004
+- https://x.com/nikunj/status/2109038632975876395
 
 ---
 
-Thariq
-Before I joined Anthropic, I spent about 2 weeks hacking on this as a side project with Opus 4. It used the Agent SDK so it needed a constantly running process and didn't work that well — but one prompt changed everything.
-加入 Anthropic 前，Thariq 用 Claude Opus 4 花两周时间构建了这个侧边项目；加入后借助内部能力得到大幅改进，展示了从外部黑客项目到正式 Claude Code 功能的演进路径。
-https://x.com/trq212/status/2108689101503566319
+Dan Shipper — Every CEO (danshipper on X)
 
----
+Dan Shipper, CEO of Every, made two quick but pointed observations.
+Every CEO Dan Shipper 发布了两条简短但犀利的观察。
 
-Nan Yu
-I cannot stress how much I've loved using this feature. First we wrote code by hand, then we tab-completed the code. Then we evolved to prompting agents — and now we tab-complete that too.
-OpenAI Codex 产品负责人 Nan Yu 感叹 AI 辅助编程的演进：从手写代码到 tab 补全，到 agent 提示，再到连 agent 提示本身也可以 tab 补全。他问道：这是否就是"递归式自我改进"？🦋
-https://x.com/thenanyu/status/2108671762984731037
+On company culture in the AI era: *"If your company Slack is not a constant source of wonder and inspiration right now something is wrong."*
+关于 AI 时代的公司文化：*"如果你公司的 Slack 现在不是持续的惊喜和灵感来源，那就说明有什么地方出了问题。"*
 
----
+He also flagged an "incredibly interesting research exploration" — pointing followers to what appears to be significant new AI research worth tracking.
+他还标注了一项"incredibly interesting research exploration"——引导关注者关注一项似乎值得追踪的重要新 AI 研究。
 
-Amjad Masad
-Some communities are excited by AI's impact on their field. Others are petrified. What's the deciding factor(s)?
-Replit CEO 提出发人深省的问题：面对 AI 对本领域的冲击，有些社群充满兴奋，有些则充满恐惧——决定这种差异的关键因素是什么？
-https://x.com/amasad/status/2108597112707686552
-
----
-
-Matt Turck
-One prompt to build a professional-level video for your company or product, in your style... this is mind-blowing. Quite literally the vision that Synthesia has been pursuing since the early days.
-FirstMark Capital 合伙人 Matt Turck 对 Synthesia 最新能力深感震撼：只需一个 prompt，即可生成风格可定制的专业级公司产品视频——这正是 Synthesia 从早期就一直追求的产品愿景。
-https://x.com/mattturck/status/2108561284635480443
-
----
-
-Dan Shipper
-Working With Agents in Slack — new piece on how AI agents integrate into async collaboration workflows.
-Every CEO Dan Shipper 发布新文章，探索如何在 Slack 中与 AI agent 协作工作，以及 agent 如何融入日常异步协作场景。
-https://x.com/danshipper/status/2108588611000275009
-
----
-
-Peter Yang
-How about let's stop building more personal assistants to manage our emails and more AI startups to manage and cure diseases?
-产品顾问 Peter Yang 呼吁 AI 行业重新审视优先级：与其继续构建更多管理邮件的私人助理，不如将资源投向攻克和治愈疾病的 AI 项目。
-https://x.com/petergyang/status/2108679515681722787
-
----
-
-Aditya Agarwal
-We hosted Sergey Levine at SPC this week. He is perhaps the best example of clarity in action that I have seen in a long time.
-SPC 合伙人 Aditya Agarwal 本周在 SPC 接待了斯坦福机器人学教授 Sergey Levine，称其为"近期见过的最能在行动中展现清晰思维的典范"，表明 SPC 持续关注机器人学与强化学习研究领域。
-https://x.com/adityaag/status/2108578813751791926
+Sources:
+- https://x.com/danshipper/status/2108941466785439796
+- https://x.com/danshipper/status/2108893466998571442
 
 ---
 
