@@ -1,168 +1,237 @@
-AI Builders 日报 · 2026-10-12
-
----
+AI Builders 日报 · 2026-10-13
 
 X / TWITTER
 
 ---
 
-Thibault Sottiaux (thsottiaux on X)
+**Andrej Karpathy** (karpathy on X) — AI 研究员 / 前 OpenAI & Tesla
 
-Thibault Sottiaux has been working on a major update rollout, celebrating that propagation is complete and hinting at future improvements.
-Thibault Sottiaux 正在进行重大更新发布，庆祝传播完成并暗示未来的改进方向。
+Karpathy 重新分享了他四月份关于 LLM 认知鸿沟的帖子，并指出这一鸿沟正在进一步加剧。
+Karpathy re-shared his April tweet about the LLM comprehension gap, noting it has only widened since.
+他写道，全球约 60 亿人（约 75% 的人口）几乎没有接触过 LLM，而另一端的重度用户群则已经在依赖 AI 进行深度推理和工作。
+He notes that roughly 6 billion people (~75% of the population) have barely come into contact with LLMs, while at the other extreme, power users are relying on AI for deep reasoning and work.
+这种分布呈现出一个越来越尖锐的"漏斗型"结构，而非两群人简单地鸡同鸭讲。
+The distribution is becoming a sharp funnel — not just "two groups talking past each other," but a dramatically skewed gap in understanding.
 
-He shared cryptically: *"Put the reset in the bag. All propagated."* — signaling a successful deployment milestone.
-他神秘地分享道：*"Put the reset in the bag. All propagated."* — 这标志着一个成功的部署里程碑。
-
-He also teased a long-term vision: *"The day we reach perfection it will be resets from there onwards"* — suggesting continuous iteration is the real endgame.
-他还预示了长远愿景：*"The day we reach perfection it will be resets from there onwards"* — 暗示持续迭代才是真正的终极目标。
-
-Sources:
-- https://x.com/thsottiaux/status/2109132167112782291
-- https://x.com/thsottiaux/status/2109090080497508356
+🔗 https://x.com/karpathy/status/2109361546505966046
 
 ---
 
-Peter Yang (petergyang on X)
+**Swyx** (swyx on X) — AI Engineer / Latent Space 播客主持人
 
-Peter Yang commented wryly on the current state of AI with a simple *"Something went wrong alright"* — a nod to the turbulence in the ecosystem.
-Peter Yang 用一句简单的 *"Something went wrong alright"* 对当前 AI 生态的混乱状态做出了辛辣评论。
+Swyx 正在为 AIE NYC 活动的演讲者提行前叮嘱，重新推送了他关于演讲技巧的帖子，并预告明天将举行演讲者晚宴。
+Swyx is prepping speakers for the AIE NYC event, resharing his talk tips thread and previewing a speaker dinner tomorrow.
+虽然内容偏向日常运营，但对于关注 AI 工程师社区动态的人而言不失为有价值的信号。
+While operational in nature, it's a useful signal for those tracking the AI engineer community scene.
 
-Source: https://x.com/petergyang/status/2109107670229930458
-
----
-
-Nan Yu (thenanyu on X)
-
-Nan Yu shared a sharp insight on how AI agents are changing team dynamics: agents make engineers dramatically more powerful, but product managers remain bottlenecked by customer bandwidth.
-Nan Yu 分享了一个深刻见解：AI 智能体正在改变团队动态——智能体让工程师的能力大幅提升，但产品经理仍受限于与客户沟通的带宽。
-
-His conclusion: the ideal engineer-to-PM ratio in an AI-native team is now 1:1.
-他的结论是：在以 AI 为核心的团队中，工程师与产品经理的理想比例现在是 1:1。
-
-He also posted enigmatically about running out of gas — likely a metaphor for execution challenges mid-project.
-他还神秘地发文说"跑没油了"（Ran outta gas）— 可能是对项目中途执行挑战的隐喻。
-
-Sources:
-- https://x.com/thenanyu/status/2108976262698115550
-- https://x.com/thenanyu/status/2108948921007681902
+🔗 https://x.com/swyx/status/2109365419937239158
 
 ---
 
-Madhu Guru (realmadhuguru on X)
+**Thibault Sottiaux** (thsottiaux on X) — OpenAI 产品负责人
 
-Madhu Guru laid out a compelling thesis on the evolutionary arc of the AI agents space: capability → trust → autonomy.
-Madhu Guru 提出了一个关于 AI 智能体演进弧线的有力论点：能力 → 信任 → 自主。
+Sottiaux 连续发布了多条关于 OpenAI 订阅策略与 GPT-6.1 Sol 的重要更新。
+Sottiaux posted several significant updates about OpenAI subscription strategy and GPT-6.1 Sol.
 
-The first phase was about capability — can an agent reliably get work done?
-第一阶段是关于能力——智能体能否可靠地完成工作？
+第一条：GPT-6.1 Sol 的默认上下文长度已从 272k 提升至 500k（增幅约 80%），此更改适用于通过 Codex 和 Work 使用的场景，有助于减少长任务中的上下文压缩问题。
+First: The default context length for GPT-6.1 Sol has been increased from 272k to 500k (an ~80% increase) when used through Codex & Work, reducing compactions on long tasks.
 
-Now the focus shifts to trust: does the system take the right actions with the right permissions, and can we observe, audit, and establish accountability?
-现在重点转向信任：系统是否以正确的权限采取正确的行动，我们能否观察、审计并建立问责机制？
+第二条：通过订阅额度使用 GPT-6.1 Sol 时，将不再收取长上下文附加费用，这是一个对重度用户友好的重要政策调整。
+Second: OpenAI is not charging long context fees for GPT-6.1 Sol when drawing usage from the subscription — a meaningful policy improvement for power users.
 
-He argues that agentic security (identity, permissions, observability) must outpace the rapidly accelerating capability curve.
-他认为，智能体安全（身份、权限、可观测性）必须超越快速加速的能力曲线。
+第三条：他对一项民调结果感到困惑——他原本预期用户会倾向于以恢复 5 小时限制为代价换取更高的 2X 使用量，结果却并非如此。
+Third: He expressed surprise at a poll showing users don't favor trading back 5h limits for higher 2X usage multiples at Pro tiers, which he had expected.
 
-Source: https://x.com/realmadhuguru/status/2108982858513776899
-
----
-
-Guillermo Rauch (rauchg on X)
-
-Guillermo Rauch, CEO of Vercel, offered a sweeping optimistic take on our technological moment.
-Vercel CEO Guillermo Rauch 对我们所处的技术时刻给出了宏观乐观的判断。
-
-*"All plausible science fiction will be realized within our lifetime."*
-*"所有合理的科幻设想都将在我们有生之年实现。"*
-
-He added: *"If you're reading this, you're one of the luckiest humans to have ever been born (if we play our cards right.)"*
-他补充道：*"如果你正在读这段话，你是有史以来最幸运的人类之一（前提是我们打好手中的牌）。"*
-
-Source: https://x.com/rauchg/status/2109038632518782989
+🔗 https://x.com/thsottiaux/status/2109439315570999598
+🔗 https://x.com/thsottiaux/status/2109430894604026039
+🔗 https://x.com/thsottiaux/status/2109430343346581527
 
 ---
 
-Aaron Levie — Box CEO (levie on X)
+**Peter Yang** (petergyang on X) — 产品思考者 / Creator Economy 写作者
 
-Aaron Levie, CEO of Box, published two substantive threads on the future of enterprise AI.
-Box CEO Aaron Levie 发布了两条关于企业 AI 未来的实质性长文。
+Yang 分享了一段他和女儿一起用 Codex 开发 ModRetro 游戏的经历，展现了 AI 辅助编程在家庭创意项目中的实际应用。
+Yang shared a clip of building a ModRetro game with his daughter using Codex — a genuine, personal example of AI-assisted creativity with family.
 
-On agent swarms: he argued that the ability to parallelize agents against a unified goal will be transformative — enabling qualitatively different outcomes in medicine, research, cybersecurity, and scientific discovery.
-关于智能体集群：他认为，将智能体并行化以实现统一目标的能力将具有变革性——在医学、研究、网络安全和科学发现中产生质的不同结果。
+他还引用了 AI 教育者 Micky（Rasmic）的观点，强调在 AI 辅助开发流程中，人工最终审核仍然不可缺少：
+He also quoted AI educator Micky (Rasmic), highlighting that manual review remains essential in AI-assisted workflows:
 
-*"This is why we're going to need 1,000X more compute."*
-*"这就是为什么我们将需要 1000 倍的算力。"*
+*"The manual review is like the final step. All the work's done, and I have as much evidence from the agent as possible."*
+人工审查是最后一步。所有工作都已完成，而我需要从 agent 那里获取尽可能多的证据支撑。
 
-On enterprise AI safety: he called for a "zero trust era" for AI — treating frontier models like insider risks, not because they're malicious, but because any sufficiently capable actor with access to important systems can make mistakes or be compromised.
-关于企业 AI 安全：他呼吁 AI 进入"零信任时代"——将前沿模型视为内部风险，不是因为它们是恶意的，而是因为任何能够访问重要系统的足够强大的参与者都可能犯错或被攻破。
+这一观点对于目前正在探索如何将 AI 代理融入生产流程的构建者而言颇具参考价值。
+This framing of "evidence-driven" agent use is valuable for builders integrating agents into production workflows.
 
-Sources:
-- https://x.com/levie/status/2109079686286565378
-- https://x.com/levie/status/2108952226714865966
-
----
-
-Garry Tan — Y Combinator President (garrytan on X)
-
-Garry Tan, President of Y Combinator, shared his hands-on workflow for running AI coding agents at scale.
-Y Combinator 总裁 Garry Tan 分享了他大规模运行 AI 编程智能体的实操工作流程。
-
-He uses GStack with experimental Captain mode enabled, running a single thread that coordinates the merge PR queue, monitors CI, and ensures only green runs make it to master.
-他使用开启了实验性 Captain 模式的 GStack，运行单线程来协调合并 PR 队列、监控 CI，并确保只有绿色运行结果才能进入主分支。
-
-His approach: use /autoplan and ask the agent to ELI5 its plan before execution — he rarely needs to intervene, but the approval step keeps him in control.
-他的方法：使用 /autoplan 并让智能体在执行前用简单语言解释其计划——他很少需要干预，但审批步骤让他保持控制权。
-
-For retrieval and latency tasks, he recommends setting up clear evals around retrieval quality, latency, and cost per compute before letting agents auto-research and auto-improve.
-对于检索和延迟任务，他建议在让智能体自动研究和自动改进之前，围绕检索质量、延迟和每算力成本建立清晰的评估标准。
-
-Sources:
-- https://x.com/garrytan/status/2108954741065879945
-- https://x.com/garrytan/status/2108954740013043789
-- https://x.com/garrytan/status/2108954738540863498
+🔗 https://x.com/petergyang/status/2109435203269878242
+🔗 https://x.com/petergyang/status/2109434554729824397
+🔗 https://x.com/petergyang/status/2109433961223180517
 
 ---
 
-Zara Zhang (zarazhangrui on X)
+**Thariq** (trq212 on X) — AI 产品/工程 Builder
 
-Zara Zhang offered a pithy framing that resonated widely: *"Code is the new medium for creative self-expression."*
-Zara Zhang 提出了一个广受共鸣的简洁表述：*"代码是创意自我表达的新媒介。"*
+Thariq 赞同 Terrence Tao 关于 AI 不应不透明的观点，并进一步延伸：真正的智能应该能与人类建立共同理解，而不是将人类排除在外。
+Thariq endorsed Terrence Tao's view that we shouldn't settle for an opaque superintelligence, extending the argument further.
+他认为，沟通本身就是智能的关键信号，AI 产品和模型应该以增进人类理解为目标，而非将人类边缘化。
+He argues that communication is a key signal of intelligence, and that AI products and models should strive to build understanding with humans rather than disintermediate them.
 
-Source: https://x.com/zarazhangrui/status/2109087739287384387
-
----
-
-Nikunj Kothari (nikunj on X)
-
-Nikunj Kothari had two notable posts — one a personal milestone celebration (23 months in the making), and one a thoughtful take on VC trust and contracts.
-Nikunj Kothari 发布了两条值得关注的推文——一条是个人里程碑的庆祝（历时23个月），另一条是对风险投资信任与合同的深思。
-
-On VC dynamics: he argued that you philosophically cannot simultaneously ask a fund to show conviction by doubling down, while also asking them not to exercise contracted pro rata rights.
-关于 VC 动态：他认为，从哲学上讲，你不能同时要求基金通过加倍投入来展示信心，同时又要求他们不行使合同约定的按比例跟投权利。
-
-His warning to founders: *"Choose your partners AND contracts well. It's so so so important."*
-他对创始人的警示：*"好好选择你的合伙人和合同条款，这非常非常重要。"*
-
-Sources:
-- https://x.com/nikunj/status/2109060688446677004
-- https://x.com/nikunj/status/2109038632975876395
+🔗 https://x.com/trq212/status/2109329495341867391
 
 ---
 
-Dan Shipper — Every CEO (danshipper on X)
+**Guillermo Rauch** (rauchg on X) — Vercel CEO
 
-Dan Shipper, CEO of Every, made two quick but pointed observations.
-Every CEO Dan Shipper 发布了两条简短但犀利的观察。
+Rauch 分享了一个他称之为"学习未来"的内容，评价为"太酷了"。
+Rauch shared something he called "the future of learning," calling it "so cool."
+内容为转发链接，无法独立评估具体内容，但考虑到其在 AI 与 Web 开发领域的关注焦点，这可能与 AI 驱动的教育工具有关。
+The content is a shared link — without being able to evaluate it independently, it signals enthusiasm for what appears to be AI-driven education tooling.
 
-On company culture in the AI era: *"If your company Slack is not a constant source of wonder and inspiration right now something is wrong."*
-关于 AI 时代的公司文化：*"如果你公司的 Slack 现在不是持续的惊喜和灵感来源，那就说明有什么地方出了问题。"*
+🔗 https://x.com/rauchg/status/2109297685392175488
 
-He also flagged an "incredibly interesting research exploration" — pointing followers to what appears to be significant new AI research worth tracking.
-他还标注了一项"incredibly interesting research exploration"——引导关注者关注一项似乎值得追踪的重要新 AI 研究。
+---
 
-Sources:
-- https://x.com/danshipper/status/2108941466785439796
-- https://x.com/danshipper/status/2108893466998571442
+**Aaron Levie** (levie on X) — Box CEO
+
+Levie 对 Karpathy 关于 AI 扩散现状的帖子进行了深度回应，从企业视角补充了更多洞察。
+Levie offered a substantive response to Karpathy's AI diffusion post, adding enterprise context.
+他指出，绝大多数人目前只是将 AI 当作"高级搜索引擎"来使用，虽然有价值，但远未发挥出 AI 的全部能力。
+He notes that the vast majority of people are using AI as a chatbot approximating next-generation search — useful, but dramatically underrepresenting full AI capability.
+在另一端，真正深度使用 AI 的人将其视为一种全新的推理和工作方式，而非单纯的生产力工具。
+At the other extreme, deep users are treating AI as a fundamentally new way to reason and work, not just a productivity tool.
+这一观察对于思考 AI 产品如何跨越"鸿沟"触达主流用户的团队而言极具参考价值。
+This is a useful frame for teams thinking about how AI products cross the chasm to mainstream users.
+
+🔗 https://x.com/levie/status/2109467575025578330
+
+---
+
+**Garry Tan** (garrytan on X) — Y Combinator CEO
+
+Tan 发表了多条立场鲜明的帖子，话题跨越 AI 与旧金山政治。
+Tan posted on both AI and San Francisco politics with characteristic directness.
+
+在 AI 方面，他赞同"用确定性代码替换 LLM 调用"的理念，认为这不仅更合理，还能产出更符合用户需求的代码：
+On AI, he endorsed replacing LLM calls with deterministic code where possible, calling it a "no brainer" that produces better code matching user intent:
+
+*"Replacing LLM calls with deterministic code is a no brainer and also results in better code that better matches what users want."*
+用确定性代码替换 LLM 调用是理所当然的，同时也能产出更符合用户需求的更好代码。
+
+在政治方面，他强力反对旧金山公共银行提案，批评其将资源输送给关联非营利组织，而非惠及普通市民。
+On politics, he strongly opposed the SF Public Bank proposal, framing it as benefiting "grifter cronies" rather than ordinary residents.
+
+🔗 https://x.com/garrytan/status/2109418482953814026
+🔗 https://x.com/garrytan/status/2109417956929327510
+🔗 https://x.com/garrytan/status/2109410082769482174
+
+---
+
+**Matt Turck** (mattturck on X) — FirstMark Capital 合伙人
+
+Turck 发了一条颇具深度的关于技术就业演变的思考，令人印象深刻。
+Turck offered a historically resonant take on tech job evolution worth quoting directly.
+他观察到，人们曾经是打孔卡操作员、Lotus Notes 管理员、Flash 开发者、DevOps 工程师……如今正在成为"代理管理者"和"工具链工程师"。
+He observed that people were once punch card operators, then Lotus Notes admins, then Flash developers, DevOps engineers — and now they're becoming agent managers and harness engineers.
+
+*"It will work out just fine."*
+一切都会好起来的。
+
+这是一种带有历史眼光的乐观主义，对于当下关于 AI 取代工作的焦虑讨论，是一剂有力的清醒剂。
+This historically-grounded optimism is a useful counterweight to current anxieties about AI displacing jobs.
+
+🔗 https://x.com/mattturck/status/2109345191010472332
+
+---
+
+**Zara Zhang** (zarazhangrui on X) — AI 观察者 / 播客人
+
+Zhang 分享了一个简洁但耐人寻味的观察：她如今唯一使用 Gemini 的地方就是 Chrome 浏览器。
+Zhang shared a concise but telling observation: the only place she uses Gemini these days is in Chrome.
+这暗示了 Gemini 在 Google 生态系统之外的独立吸引力有限，而 AI 助手领域的竞争格局依然由 ChatGPT 和 Claude 主导。
+This implies Gemini's standalone appeal outside Google's ecosystem remains limited, with ChatGPT and Claude dominating the AI assistant landscape.
+
+🔗 https://x.com/zarazhangrui/status/2109483079106740500
+
+---
+
+**Dan Shipper** (danshipper on X) — Every 创始人 / AI 写作工具构建者
+
+Shipper 展示了一个他构建的个人阅读记录 feed，自动追踪他正在阅读的书籍（以及追溯至 2012 年的历史书单）。
+Shipper showed off a personal reading feed he built that automatically tracks the books he's reading — going back to 2012.
+他随后提议为 Every 的所有成员创建类似的 feed，将个人的阅读旅程变成一种集体知识分享体验。
+He then proposed building similar feeds for all Every members, turning personal reading journeys into collective knowledge sharing.
+这是一个关于 AI 如何将个人元数据转化为有意义内容产品的小而美的案例。
+It's a small but elegant example of how AI can turn personal metadata into meaningful content products.
+
+🔗 https://x.com/danshipper/status/2109331798282915907
+
+---
+
+PODCASTS
+
+---
+
+**No Priors — Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile**
+
+## 一、深度总结
+
+**核心论点**
+Fractile 是一家"全栈"AI 芯片公司，押注于速度驱动的推理芯片。
+Fractile is a "full stack" AI chip company betting on speed-first inference silicon.
+Walter Goodwin 认为，在 AI 推理时代，芯片速度将成为前沿 AI 实验室的核心竞争力，而不仅仅是吞吐量的提升。
+Walter Goodwin argues that chip speed will become a core competitive advantage for frontier AI labs in the inference era — not merely throughput improvement.
+能够在内存带宽上实现数量级突破的芯片，将从根本上解锁长上下文 Agent 的潜力，并加速 AI 对硬科学问题的攻克。
+Chips that unlock orders-of-magnitude improvements in memory bandwidth will fundamentally enable long-context agents and accelerate AI's impact on hard scientific problems.
+
+**关键洞察**
+
+- **内存带宽是关键瓶颈**：过去 20 年，算力（FLOPs）增长了约百万倍，而内存带宽仅增长了约 40 倍。Fractile 正在研发能提供比 HBM GPU 高 25 倍带宽的芯片，这将开启全新的模型架构可能性。
+  Memory bandwidth is the core bottleneck: FLOPs have scaled ~1,000,000x in 20 years; memory bandwidth only ~40x. Fractile is building chips with 25x more bandwidth per chip than HBM-based GPUs, unlocking new architectural possibilities.
+
+- **全栈优势加速迭代**：通过掌控从架构设计到物理设计的完整链路，Fractile 能以更快的周期验证架构假设，在芯片竞争中建立"结构性时间优势"。
+  Owning the full stack from architecture to physical design allows Fractile to compress the chip design cycle and maintain a structural 3–6 month lead over competitors.
+
+- **"更快的马"vs 真正的突破**：更快的聊天机器人是"更快的马"，而真正的突破在于让超大模型以极高速度运行长上下文 Agent 任务。
+  A "snappier chatbot" is the faster horse; the real prize is running multi-trillion parameter models at thousands of tokens per second for long-running agent tasks.
+
+- **前沿实验室不能孤注一掷于自研芯片**：如果一家实验室完全押注于自研硅，而竞争对手发现了一种只在其他芯片上高效运行的计算突破，这家实验室可能在追上之前就已经出局。这为独立芯片玩家的长期存在提供了结构性理由。
+  Frontier labs face existential risk from going all-in on proprietary silicon: a competitor's computational breakthrough optimized for different hardware could be fatal. This provides structural rationale for independent chip players to persist long-term.
+
+- **AI 辅助芯片设计**：Goodwin 预计，从架构意图到完整 GDS2 文件的端到端 AI 辅助芯片设计将在约 2.5 年内出现原型（他将行业专家的"10 年预测"除以 4）。
+  AI-assisted chip design end-to-end (intent → GDS2) will likely have prototypes in ~2.5 years — Goodwin applies a "divide by 4" heuristic to the conventional 10-year prediction from top semiconductor CEOs.
+
+## 二、逐句双语原文
+
+Right now, we're trying to build a single chip.
+目前，我们正在努力打造一块芯片。
+
+If you crack open an NVIDIA system, it has anywhere between six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent.
+如果你打开一台 NVIDIA 系统，里面有六到九块 NVIDIA 自研芯片协同工作，共同构成一个极其强大的整体。
+
+So there's already a gap there.
+所以差距已经存在了。
+
+It'd be great to be productive enough that we could start to build our own responses in that same kind of way.
+如果我们能够有足够的生产力，以同样的方式构建自己的响应方案，那将是极好的。
+
+This idea of being able to have at any given moment a kind of rolling frontier of bets that you hope are deeply aligned — in which you're ready to trigger the ramp of — this is a huge advantage if you can build that machine and build that engine.
+能够在任何时刻保有一批深度对齐的"押注前沿"，并随时准备好启动量产，这是一个巨大的优势——如果你能构建起这样的机器和引擎。
+
+It's equivalent of the frontier model for the chip space: if you can just find a way to structurally carve out a three to six months advantage, you will be winning all of those deployments.
+这就相当于芯片领域的"前沿模型"逻辑：只要你能找到一种方式，在结构上保持三到六个月的领先优势，你就能赢得所有的部署机会。
+
+People were punch card operators then they were Lotus Notes admins, then they were Flash developers and Dreamweaver webmasters, then they were DevOps and Tableau analysts, and now they're becoming agent managers and harness engineers.
+人们曾经是打孔卡操作员，后来是 Lotus Notes 管理员，再后来是 Flash 开发者和 Dreamweaver 网站管理员，然后是 DevOps 工程师和 Tableau 分析师，而现在，他们正在成为代理管理者和工具链工程师。
+
+It will work out just fine.
+一切都会好起来的。
+
+The snappier chatbot is kind of the faster horses of kind of fast inference.
+"更快的聊天机器人"不过是快速推理领域的"更快的马"。
+
+The place where the ability to take a multi-trillion parameter model and run it comfortably at many thousands of tokens per second is a kind of fundamental elevator on capability for AI — is in taking these kind of very long running agents and making them radically faster.
+真正能从根本上提升 AI 能力的地方，是让超大参数量的模型以每秒数千 token 的速度舒适地运行长时间运行的 Agent 任务，并让其速度大幅提升。
+
+🎙️ https://www.youtube.com/watch?v=OpeCP4wCxkA
 
 ---
 
