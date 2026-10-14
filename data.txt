@@ -1,237 +1,288 @@
-AI Builders 日报 · 2026-10-13
-
-X / TWITTER
+AI Builders 日报 · 2026-10-14
 
 ---
 
-**Andrej Karpathy** (karpathy on X) — AI 研究员 / 前 OpenAI & Tesla
-
-Karpathy 重新分享了他四月份关于 LLM 认知鸿沟的帖子，并指出这一鸿沟正在进一步加剧。
-Karpathy re-shared his April tweet about the LLM comprehension gap, noting it has only widened since.
-他写道，全球约 60 亿人（约 75% 的人口）几乎没有接触过 LLM，而另一端的重度用户群则已经在依赖 AI 进行深度推理和工作。
-He notes that roughly 6 billion people (~75% of the population) have barely come into contact with LLMs, while at the other extreme, power users are relying on AI for deep reasoning and work.
-这种分布呈现出一个越来越尖锐的"漏斗型"结构，而非两群人简单地鸡同鸭讲。
-The distribution is becoming a sharp funnel — not just "two groups talking past each other," but a dramatically skewed gap in understanding.
-
-🔗 https://x.com/karpathy/status/2109361546505966046
+## X / TWITTER
 
 ---
 
-**Swyx** (swyx on X) — AI Engineer / Latent Space 播客主持人
+### Swyx (swyx on X) — AI Engineer / Smol AI
 
-Swyx 正在为 AIE NYC 活动的演讲者提行前叮嘱，重新推送了他关于演讲技巧的帖子，并预告明天将举行演讲者晚宴。
-Swyx is prepping speakers for the AIE NYC event, resharing his talk tips thread and previewing a speaker dinner tomorrow.
-虽然内容偏向日常运营，但对于关注 AI 工程师社区动态的人而言不失为有价值的信号。
-While operational in nature, it's a useful signal for those tracking the AI engineer community scene.
+Swyx is sharing updates from the AI Engineer New York event.
+Swyx 正在分享 AI Engineer 纽约活动的最新动态。
 
-🔗 https://x.com/swyx/status/2109365419937239158
+The AI Engineer workshop writeup from the New York event is now live.
+纽约 AI Engineer 活动的 Workshop 总结报告已发布。
 
----
+Source: https://x.com/swyx/status/2109837651893485844
 
-**Thibault Sottiaux** (thsottiaux on X) — OpenAI 产品负责人
+He also highlighted the excitement of working with AI communities across cities, expressing particular love for New York.
+他还表达了在各城市与 AI 社区合作的热情，尤其对纽约充满深情。
 
-Sottiaux 连续发布了多条关于 OpenAI 订阅策略与 GPT-6.1 Sol 的重要更新。
-Sottiaux posted several significant updates about OpenAI subscription strategy and GPT-6.1 Sol.
+*"one of the best parts of my job is bringing out the best in ai in each city"*
 
-第一条：GPT-6.1 Sol 的默认上下文长度已从 272k 提升至 500k（增幅约 80%），此更改适用于通过 Codex 和 Work 使用的场景，有助于减少长任务中的上下文压缩问题。
-First: The default context length for GPT-6.1 Sol has been increased from 272k to 500k (an ~80% increase) when used through Codex & Work, reducing compactions on long tasks.
+Source: https://x.com/swyx/status/2109797444204572880
 
-第二条：通过订阅额度使用 GPT-6.1 Sol 时，将不再收取长上下文附加费用，这是一个对重度用户友好的重要政策调整。
-Second: OpenAI is not charging long context fees for GPT-6.1 Sol when drawing usage from the subscription — a meaningful policy improvement for power users.
+The Arize AI and Seldo workshop at #aiengineerny also drew a packed room.
+Arize AI 和 Seldo 在 #aiengineerny 举办的 workshop 同样吸引了满座观众。
 
-第三条：他对一项民调结果感到困惑——他原本预期用户会倾向于以恢复 5 小时限制为代价换取更高的 2X 使用量，结果却并非如此。
-Third: He expressed surprise at a poll showing users don't favor trading back 5h limits for higher 2X usage multiples at Pro tiers, which he had expected.
-
-🔗 https://x.com/thsottiaux/status/2109439315570999598
-🔗 https://x.com/thsottiaux/status/2109430894604026039
-🔗 https://x.com/thsottiaux/status/2109430343346581527
+Source: https://x.com/swyx/status/2109772705532715166
 
 ---
 
-**Peter Yang** (petergyang on X) — 产品思考者 / Creator Economy 写作者
+### Josh Woodward (@joshwoodward) — VP, Google Labs / Gemini App / Google AI Studio
 
-Yang 分享了一段他和女儿一起用 Codex 开发 ModRetro 游戏的经历，展现了 AI 辅助编程在家庭创意项目中的实际应用。
-Yang shared a clip of building a ModRetro game with his daughter using Codex — a genuine, personal example of AI-assisted creativity with family.
+Josh Woodward praised his interview experience with Lenny, a well-known product interviewer.
+Josh Woodward 高度称赞了与知名产品采访者 Lenny 的访谈体验。
 
-他还引用了 AI 教育者 Micky（Rasmic）的观点，强调在 AI 辅助开发流程中，人工最终审核仍然不可缺少：
-He also quoted AI educator Micky (Rasmic), highlighting that manual review remains essential in AI-assisted workflows:
+He noted that great interviewers do their homework, and Lenny took the conversation to places that have never been discussed publicly before.
+他指出，优秀的访谈者做足了功课，Lenny 将对话引向了从未公开讨论过的话题。
 
-*"The manual review is like the final step. All the work's done, and I have as much evidence from the agent as possible."*
-人工审查是最后一步。所有工作都已完成，而我需要从 agent 那里获取尽可能多的证据支撑。
+*"he's kind, prepared, and deeply curious... he took our conversation to places that I've never talked about in public"*
 
-这一观点对于目前正在探索如何将 AI 代理融入生产流程的构建者而言颇具参考价值。
-This framing of "evidence-driven" agent use is valuable for builders integrating agents into production workflows.
-
-🔗 https://x.com/petergyang/status/2109435203269878242
-🔗 https://x.com/petergyang/status/2109434554729824397
-🔗 https://x.com/petergyang/status/2109433961223180517
+Source: https://x.com/joshwoodward/status/2109646793713786970
 
 ---
 
-**Thariq** (trq212 on X) — AI 产品/工程 Builder
+### Thibault Sottiaux (@thsottiaux) — Codex & ChatGPT, OpenAI
 
-Thariq 赞同 Terrence Tao 关于 AI 不应不透明的观点，并进一步延伸：真正的智能应该能与人类建立共同理解，而不是将人类排除在外。
-Thariq endorsed Terrence Tao's view that we shouldn't settle for an opaque superintelligence, extending the argument further.
-他认为，沟通本身就是智能的关键信号，AI 产品和模型应该以增进人类理解为目标，而非将人类边缘化。
-He argues that communication is a key signal of intelligence, and that AI products and models should strive to build understanding with humans rather than disintermediate them.
+Thibault teased a significant product plan.
+Thibault 暗示了一项重要的产品计划。
 
-🔗 https://x.com/trq212/status/2109329495341867391
+*"Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon."*
+「好的计划都是简单的。我有一个计划，应该能让所有人的使用量大幅提升。希望很快能完成。」
 
----
+Source: https://x.com/thsottiaux/status/2109892247580000595
 
-**Guillermo Rauch** (rauchg on X) — Vercel CEO
+He also hinted at a "reset" feature going live, potentially a product update or UX change.
+他还暗示某个"重置"功能已上线，可能是产品更新或用户体验改版。
 
-Rauch 分享了一个他称之为"学习未来"的内容，评价为"太酷了"。
-Rauch shared something he called "the future of learning," calling it "so cool."
-内容为转发链接，无法独立评估具体内容，但考虑到其在 AI 与 Web 开发领域的关注焦点，这可能与 AI 驱动的教育工具有关。
-The content is a shared link — without being able to evaluate it independently, it signals enthusiasm for what appears to be AI-driven education tooling.
+*"What would you like with your side of reset? It's done."*
 
-🔗 https://x.com/rauchg/status/2109297685392175488
+Source: https://x.com/thsottiaux/status/2109873287853707513
 
 ---
 
-**Aaron Levie** (levie on X) — Box CEO
+### Peter Yang (@petergyang) — AI Educator / Practical AI Tutorials
 
-Levie 对 Karpathy 关于 AI 扩散现状的帖子进行了深度回应，从企业视角补充了更多洞察。
-Levie offered a substantive response to Karpathy's AI diffusion post, adding enterprise context.
-他指出，绝大多数人目前只是将 AI 当作"高级搜索引擎"来使用，虽然有价值，但远未发挥出 AI 的全部能力。
-He notes that the vast majority of people are using AI as a chatbot approximating next-generation search — useful, but dramatically underrepresenting full AI capability.
-在另一端，真正深度使用 AI 的人将其视为一种全新的推理和工作方式，而非单纯的生产力工具。
-At the other extreme, deep users are treating AI as a fundamentally new way to reason and work, not just a productivity tool.
-这一观察对于思考 AI 产品如何跨越"鸿沟"触达主流用户的团队而言极具参考价值。
-This is a useful frame for teams thinking about how AI products cross the chasm to mainstream users.
+Peter Yang shared his enthusiasm for Grok as an agent platform, explaining its persona-based architecture.
+Peter Yang 分享了他对 Grok 作为 Agent 平台的热情，并解释了其基于人设的架构。
 
-🔗 https://x.com/levie/status/2109467575025578330
+Instead of chat threads, Grok uses "personas" that each own specific jobs — making it feel like hiring employees rather than talking to a chatbot.
+Grok 不使用传统聊天线程，而是采用"人设"（personas），每个人设负责特定工作——让人感觉像是在雇用员工，而不是与聊天机器人对话。
 
----
+*"It's built on personas instead of chat threads, so it really feels like hiring employees to work for you."*
 
-**Garry Tan** (garrytan on X) — Y Combinator CEO
+Source: https://x.com/petergyang/status/2109803399332213090
 
-Tan 发表了多条立场鲜明的帖子，话题跨越 AI 与旧金山政治。
-Tan posted on both AI and San Francisco politics with characteristic directness.
+He also expressed passion for the StarCraft franchise, calling on Blizzard to crowdfund StarCraft 3 and expand into movies and TV shows.
+他还表达了对《星际争霸》系列的热情，呼吁暴雪为《星际争霸 3》众筹，并拓展至电影和电视剧领域。
 
-在 AI 方面，他赞同"用确定性代码替换 LLM 调用"的理念，认为这不仅更合理，还能产出更符合用户需求的代码：
-On AI, he endorsed replacing LLM calls with deterministic code where possible, calling it a "no brainer" that produces better code matching user intent:
-
-*"Replacing LLM calls with deterministic code is a no brainer and also results in better code that better matches what users want."*
-用确定性代码替换 LLM 调用是理所当然的，同时也能产出更符合用户需求的更好代码。
-
-在政治方面，他强力反对旧金山公共银行提案，批评其将资源输送给关联非营利组织，而非惠及普通市民。
-On politics, he strongly opposed the SF Public Bank proposal, framing it as benefiting "grifter cronies" rather than ordinary residents.
-
-🔗 https://x.com/garrytan/status/2109418482953814026
-🔗 https://x.com/garrytan/status/2109417956929327510
-🔗 https://x.com/garrytan/status/2109410082769482174
+Source: https://x.com/petergyang/status/2109820627561676970
 
 ---
 
-**Matt Turck** (mattturck on X) — FirstMark Capital 合伙人
+### Nan Yu (@thenanyu) — Product, Codex at OpenAI (prev. Head of Product at Linear)
 
-Turck 发了一条颇具深度的关于技术就业演变的思考，令人印象深刻。
-Turck offered a historically resonant take on tech job evolution worth quoting directly.
-他观察到，人们曾经是打孔卡操作员、Lotus Notes 管理员、Flash 开发者、DevOps 工程师……如今正在成为"代理管理者"和"工具链工程师"。
-He observed that people were once punch card operators, then Lotus Notes admins, then Flash developers, DevOps engineers — and now they're becoming agent managers and harness engineers.
-
-*"It will work out just fine."*
-一切都会好起来的。
-
-这是一种带有历史眼光的乐观主义，对于当下关于 AI 取代工作的焦虑讨论，是一剂有力的清醒剂。
-This historically-grounded optimism is a useful counterweight to current anxieties about AI displacing jobs.
-
-🔗 https://x.com/mattturck/status/2109345191010472332
+近期无重要动态 — Nan Yu's recent post was non-substantive.
+Nan Yu 近期无重要动态。
 
 ---
 
-**Zara Zhang** (zarazhangrui on X) — AI 观察者 / 播客人
+### Thariq (@trq212) — Claude Code, Anthropic (prev. YC W20)
 
-Zhang 分享了一个简洁但耐人寻味的观察：她如今唯一使用 Gemini 的地方就是 Chrome 浏览器。
-Zhang shared a concise but telling observation: the only place she uses Gemini these days is in Chrome.
-这暗示了 Gemini 在 Google 生态系统之外的独立吸引力有限，而 AI 助手领域的竞争格局依然由 ChatGPT 和 Claude 主导。
-This implies Gemini's standalone appeal outside Google's ecosystem remains limited, with ChatGPT and Claude dominating the AI assistant landscape.
-
-🔗 https://x.com/zarazhangrui/status/2109483079106740500
+近期无重要动态 — Thariq's recent post was non-substantive.
+Thariq 近期无重要动态。
 
 ---
 
-**Dan Shipper** (danshipper on X) — Every 创始人 / AI 写作工具构建者
+### Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-Shipper 展示了一个他构建的个人阅读记录 feed，自动追踪他正在阅读的书籍（以及追溯至 2012 年的历史书单）。
-Shipper showed off a personal reading feed he built that automatically tracks the books he's reading — going back to 2012.
-他随后提议为 Every 的所有成员创建类似的 feed，将个人的阅读旅程变成一种集体知识分享体验。
-He then proposed building similar feeds for all Every members, turning personal reading journeys into collective knowledge sharing.
-这是一个关于 AI 如何将个人元数据转化为有意义内容产品的小而美的案例。
-It's a small but elegant example of how AI can turn personal metadata into meaningful content products.
+Guillermo advocated for minimal, fast, model-agnostic CLI tools over increasingly bloated coding CLIs.
+Guillermo 倡导使用轻量、快速、模型无关的 CLI 工具，反对日益臃肿的编程 CLI。
 
-🔗 https://x.com/danshipper/status/2109331798282915907
+*"Coding CLIs keep getting more complicated. Daemons, 3 layers of TUIs, client-server architectures. The whole point of a CLI is to deliver intelligence with zero friction, and be unix-like."*
+「编程 CLI 越来越复杂，有守护进程、三层 TUI、客户端-服务器架构。CLI 的本质是以零摩擦交付智能，应当遵循 Unix 哲学。」
+
+He highlighted `fx` as a 6MB, millisecond-startup, MCP-supporting, tastefully minimal alternative.
+他推荐了 `fx` 作为替代方案——仅 6MB，毫秒级启动，支持 MCP，极简风格。
+
+Source: https://x.com/rauchg/status/2109734766107099312
+
+He also announced that Muse Wonder is now available on Vercel AI Gateway.
+他还宣布 Muse Wonder 现已在 Vercel AI Gateway 上线。
+
+Source: https://x.com/rauchg/status/2109719267344261375
 
 ---
 
-PODCASTS
+### Aaron Levie (levie on X) — CEO, Box
+
+Aaron Levie commented on three major AI trends this week.
+Aaron Levie 本周就三大 AI 趋势发表了评论。
+
+First, he praised new research on self-adaptive agent harnesses, calling it "the eventual architecture of agents" — AI that determines its own scaffolding based on the task at hand.
+首先，他称赞了关于自适应 Agent 框架的新研究，称其为「Agent 的最终架构」——AI 能够根据当前任务自主决定自身的脚手架结构。
+
+*"In the limit, AI will obviously be better at determining its own harness once it sees the task at hand, than us being able to do this in advance."*
+
+Source: https://x.com/levie/status/2109788979952558255
+
+Second, he noted that Meta entering the frontier AI race will accelerate advances and further reduce token costs for top-tier capabilities.
+其次，他指出 Meta 全面进入前沿 AI 竞争将加速技术进步，并进一步降低顶级能力的 token 成本。
+
+Source: https://x.com/levie/status/2109711062757216738
+
+Third, he argued that cybersecurity will be one of the biggest beneficiaries of agent swarms, given the inherently parallelizable nature of security testing.
+第三，他认为网络安全将是 Agent 集群最大的受益领域之一，因为安全测试本质上具有高度可并行化的特性。
+
+Source: https://x.com/levie/status/2109682812811137061
 
 ---
 
-**No Priors — Frontier Chips for Frontier AI Labs, with Walter Goodwin, Founder/CEO of Fractile**
+### Ryo Lu (ryolu_ on X) — Designer of Cursor, Notion, Stripe / ryOS creator
 
-## 一、深度总结
+Ryo Lu announced two new apps for his personal OS project ryOS: Dictionary and Fitness.
+Ryo Lu 为其个人操作系统项目 ryOS 发布了两款新应用：词典和健身。
 
-**核心论点**
-Fractile 是一家"全栈"AI 芯片公司，押注于速度驱动的推理芯片。
-Fractile is a "full stack" AI chip company betting on speed-first inference silicon.
-Walter Goodwin 认为，在 AI 推理时代，芯片速度将成为前沿 AI 实验室的核心竞争力，而不仅仅是吞吐量的提升。
-Walter Goodwin argues that chip speed will become a core competitive advantage for frontier AI labs in the inference era — not merely throughput improvement.
-能够在内存带宽上实现数量级突破的芯片，将从根本上解锁长上下文 Agent 的潜力，并加速 AI 对硬科学问题的攻克。
-Chips that unlock orders-of-magnitude improvements in memory bandwidth will fundamentally enable long-context agents and accelerate AI's impact on hard scientific problems.
+The Dictionary app supports word learning, pronunciation, and Kanji/Hanzi.
+词典应用支持单词学习、发音和汉字查询。
 
-**关键洞察**
+The Fitness app helps plan workouts and track body metrics and food with AI.
+健身应用支持 AI 辅助制定训练计划、追踪身体指标和饮食。
 
-- **内存带宽是关键瓶颈**：过去 20 年，算力（FLOPs）增长了约百万倍，而内存带宽仅增长了约 40 倍。Fractile 正在研发能提供比 HBM GPU 高 25 倍带宽的芯片，这将开启全新的模型架构可能性。
-  Memory bandwidth is the core bottleneck: FLOPs have scaled ~1,000,000x in 20 years; memory bandwidth only ~40x. Fractile is building chips with 25x more bandwidth per chip than HBM-based GPUs, unlocking new architectural possibilities.
+Both sync to your ryOS account and were built with Cursor.
+两款应用均与 ryOS 账户同步，并使用 Cursor 构建。
 
-- **全栈优势加速迭代**：通过掌控从架构设计到物理设计的完整链路，Fractile 能以更快的周期验证架构假设，在芯片竞争中建立"结构性时间优势"。
-  Owning the full stack from architecture to physical design allows Fractile to compress the chip design cycle and maintain a structural 3–6 month lead over competitors.
+Source: https://x.com/ryolu_/status/2109568690358555064
 
-- **"更快的马"vs 真正的突破**：更快的聊天机器人是"更快的马"，而真正的突破在于让超大模型以极高速度运行长上下文 Agent 任务。
-  A "snappier chatbot" is the faster horse; the real prize is running multi-trillion parameter models at thousands of tokens per second for long-running agent tasks.
+---
 
-- **前沿实验室不能孤注一掷于自研芯片**：如果一家实验室完全押注于自研硅，而竞争对手发现了一种只在其他芯片上高效运行的计算突破，这家实验室可能在追上之前就已经出局。这为独立芯片玩家的长期存在提供了结构性理由。
-  Frontier labs face existential risk from going all-in on proprietary silicon: a competitor's computational breakthrough optimized for different hardware could be fatal. This provides structural rationale for independent chip players to persist long-term.
+### Garry Tan (garrytan on X) — President & CEO, Y Combinator
 
-- **AI 辅助芯片设计**：Goodwin 预计，从架构意图到完整 GDS2 文件的端到端 AI 辅助芯片设计将在约 2.5 年内出现原型（他将行业专家的"10 年预测"除以 4）。
-  AI-assisted chip design end-to-end (intent → GDS2) will likely have prototypes in ~2.5 years — Goodwin applies a "divide by 4" heuristic to the conventional 10-year prediction from top semiconductor CEOs.
+Garry Tan posted a characteristically motivational message this week.
+Garry Tan 本周发布了一条极具激励性的推文。
 
-## 二、逐句双语原文
+*"Nobody is coming to save you. You don't need saving."*
+「没有人会来拯救你。你也不需要被拯救。」
 
-Right now, we're trying to build a single chip.
-目前，我们正在努力打造一块芯片。
+Source: https://x.com/garrytan/status/2109749184639488265
 
-If you crack open an NVIDIA system, it has anywhere between six and nine custom chips all built by NVIDIA to come together to build something that is really, really potent.
-如果你打开一台 NVIDIA 系统，里面有六到九块 NVIDIA 自研芯片协同工作，共同构成一个极其强大的整体。
+His other posts were non-substantive.
+其他推文无重要动态。
 
-So there's already a gap there.
-所以差距已经存在了。
+---
 
-It'd be great to be productive enough that we could start to build our own responses in that same kind of way.
-如果我们能够有足够的生产力，以同样的方式构建自己的响应方案，那将是极好的。
+### Zara Zhang (zarazhangrui on X) — Builder / Follow Builders creator
 
-This idea of being able to have at any given moment a kind of rolling frontier of bets that you hope are deeply aligned — in which you're ready to trigger the ramp of — this is a huge advantage if you can build that machine and build that engine.
-能够在任何时刻保有一批深度对齐的"押注前沿"，并随时准备好启动量产，这是一个巨大的优势——如果你能构建起这样的机器和引擎。
+Zara Zhang shared a touching story about AI-assisted vibe coding with emotional meaning.
+Zara Zhang 分享了一个关于 AI 辅助氛围编程的感人故事。
 
-It's equivalent of the frontier model for the chip space: if you can just find a way to structurally carve out a three to six months advantage, you will be winning all of those deployments.
-这就相当于芯片领域的"前沿模型"逻辑：只要你能找到一种方式，在结构上保持三到六个月的领先优势，你就能赢得所有的部署机会。
+A friend's mother had turned a childhood pest problem (cockroaches) into a game for her daughter.
+一位朋友的母亲曾将童年的害虫问题（蟑螂）变成了女儿的小游戏。
 
-People were punch card operators then they were Lotus Notes admins, then they were Flash developers and Dreamweaver webmasters, then they were DevOps and Tableau analysts, and now they're becoming agent managers and harness engineers.
-人们曾经是打孔卡操作员，后来是 Lotus Notes 管理员，再后来是 Flash 开发者和 Dreamweaver 网站管理员，然后是 DevOps 工程师和 Tableau 分析师，而现在，他们正在成为代理管理者和工具链工程师。
+When that friend shared the story, another friend vibe-coded an actual game based on it — turning a personal memory into playable software in moments.
+当这位朋友分享这个故事时，另一位朋友用 AI 将其"氛围编程"成了一款真实的游戏——瞬间将个人记忆变成了可玩的软件。
 
-It will work out just fine.
-一切都会好起来的。
+*"I just heard the most touching AI coding story."*
 
-The snappier chatbot is kind of the faster horses of kind of fast inference.
-"更快的聊天机器人"不过是快速推理领域的"更快的马"。
+Source: https://x.com/zarazhangrui/status/2109673430245421415
 
-The place where the ability to take a multi-trillion parameter model and run it comfortably at many thousands of tokens per second is a kind of fundamental elevator on capability for AI — is in taking these kind of very long running agents and making them radically faster.
-真正能从根本上提升 AI 能力的地方，是让超大参数量的模型以每秒数千 token 的速度舒适地运行长时间运行的 Agent 任务，并让其速度大幅提升。
+---
 
-🎙️ https://www.youtube.com/watch?v=OpeCP4wCxkA
+### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+
+近期无重要动态 — Nikunj's recent post was about a social event, not substantive AI/tech insight.
+Nikunj 近期无重要动态。
+
+---
+
+### Peter Steinberger (steipete on X) — AI Builder / "PolyagentMorous ClawFather"
+
+Peter Steinberger made a pointed observation about model speed tiers.
+Peter Steinberger 就模型速度层级发表了犀利观点。
+
+*"6.1 Sol ultrafast >>> 6 Astra — same cost but whole different game with 250 tpm"*
+「6.1 Sol 超快版 >>> 6 Astra——同等成本，但 250 tpm 完全是另一个档次」
+
+Source: https://x.com/steipete/status/2109730774593487009
+
+He also pushed back on the term "vibe coding," calling it a slur.
+他还再次反对"氛围编程"这一说法，称其为一种贬义词。
+
+*"vibes coding is a slur."*
+
+Source: https://x.com/steipete/status/2109724776168300631
+
+---
+
+### Dan Shipper (danshipper on X) — CEO, Every
+
+Dan Shipper experimented with Muse Wonder to generate AI video, noting it was "pretty rough" but interesting.
+Dan Shipper 用 Muse Wonder 尝试生成 AI 视频，称效果"相当粗糙"但很有趣。
+
+He found it curious that all its videos so far are narrated in an Australian accent.
+他发现迄今为止所有视频都使用澳大利亚口音旁白，颇感奇特。
+
+Note: Only Muse Wonder Standard is available on the API; Muse Wonder Full is not yet accessible.
+注：目前 API 仅支持 Muse Wonder Standard；Muse Wonder Full 尚不可用。
+
+Source: https://x.com/danshipper/status/2109778026091209087
+Source: https://x.com/danshipper/status/2109800647575146906
+
+---
+
+### Aditya Agarwal (adityaag on X) — General Partner, SPC / Ex-CTO Dropbox
+
+Aditya Agarwal highlighted a significant capability gap in AI adoption.
+Aditya Agarwal 指出了 AI 应用中存在的显著能力差距。
+
+There is a large delta between how frontier lab employees use AI and how even the top 1% of AI organizations use AI — even on public capabilities.
+前沿实验室员工使用 AI 的方式，与即使是顶尖 AI 组织中最优秀的 1% 的使用方式之间，存在巨大差距——即便只看公开可用的能力。
+
+He believes this gap will persist for a while, and sees a horizontal company opportunity in bridging it.
+他认为这一差距将持续一段时间，并从中看到了一个横向加速器型公司的机会。
+
+*"There is a big delta in how frontier lab employees use AI and how even the top 1% of AI orgs use AI."*
+
+Source: https://x.com/adityaag/status/2109748501982872003
+
+---
+
+## PODCASTS
+
+---
+
+### AI & I by Every — "How Sam Altman Uses Dots to Take Back His Time"
+
+This episode features a conversation between Dan Shipper (CEO of Every) and Sam Altman (CEO of OpenAI), recorded live at OpenAI's Dev Day.
+本期节目收录了 Every CEO Dan Shipper 与 OpenAI CEO Sam Altman 在 OpenAI Dev Day 上的现场对话。
+
+Sam Altman shared how OpenAI's new "Dots" (AI agents) feature has given him back creative mornings by filtering urgent issues overnight.
+Sam Altman 分享了 OpenAI 全新的「Dots」（AI Agent）功能如何帮助他找回了富有创造力的早晨——通过在夜间自动过滤紧急问题。
+
+*"The first thing that has given me back control of my mornings and my mental space in the mornings."*
+「这是第一个让我重新掌控早晨和心理空间的东西。」
+
+He revealed that his Dot (named "Dottie") alerted a team member about a failing live demo five minutes before it happened, having read the presentation and detected the issue proactively.
+他透露，他的 Dot（名为"Dottie"）在一次现场演示出错前五分钟提醒了团队成员，Dot 已读取演示文稿并主动发现了问题。
+
+Sam also discussed the distinction between an "Industrial Revolution" vs. a "Renaissance" model for AI's impact on society, arguing strongly for the Renaissance framing — where humans remain at the center, with AI amplifying individual creative potential.
+Sam 还讨论了 AI 对社会影响的「工业革命」与「文艺复兴」两种模式的区别，强烈主张采用文艺复兴框架——人类始终处于中心，AI 放大个体的创造潜力。
+
+*"I get sad to hear people talk about, oh, AI is going to automate everything... We're going to be like house cats and the AI will decide how to reward us."*
+「听到有人说 AI 将自动化一切……我们会像家猫一样，由 AI 决定如何奖励我们，我感到很悲伤。」
+
+He also commented on the Decisions API, "Space" (OpenAI's collaborative documents platform), ChatGPT native app extensions, and the importance of bringing down the cost of AI speed (not just intelligence).
+他还评论了 Decisions API、「Space」（OpenAI 协作文档平台）、ChatGPT 原生应用扩展，以及降低 AI 速度成本（不仅仅是智能成本）的重要性。
+
+On inference speed:
+关于推理速度：
+
+*"I think we can deliver 8X at a great price in the not distant future, but then we'll have 100X faster."*
+「我认为在不久的将来，我们能以很好的价格提供 8 倍速度提升，之后还会有 100 倍速度提升。」
+
+Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 ---
 
