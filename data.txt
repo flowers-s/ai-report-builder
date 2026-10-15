@@ -1,288 +1,221 @@
-AI Builders 日报 · 2026-10-14
+AI Builders 日报 · 2026-10-15
 
 ---
 
-## X / TWITTER
+OFFICIAL BLOGS
+
+--- Anthropic Engineering ---
+
+Redesigning Source Control at Anthropic
+https://www.anthropic.com/engineering/redesigning-source-control
+
+At Anthropic, coding is no longer the bottleneck to building systems or doing research.
+在 Anthropic，编写代码已不再是构建系统或开展研究的瓶颈。
+
+Claude can autonomously iterate on research loops, micro-optimize complex programs, and build new services from the ground up at a speed and scale never seen before.
+Claude 能够自主迭代研究循环、对复杂程序进行微优化，并以前所未有的速度和规模从零搭建新服务。
+
+The new bottleneck is developer infrastructure built for human scale: source control, builds, and CI.
+新的瓶颈变成了为人类规模设计的开发基础设施：版本控制、构建系统和持续集成。
+
+In May 2026, Anthropic averaged around 2,500 code changes merged per day; as of September, that number surpassed 30,000 per day.
+2026 年 5 月，Anthropic 每天平均合并约 2,500 次代码变更；到 9 月，这一数字已超过每天 30,000 次。
+
+To support this growth, Anthropic built Scion — an in-house version control system — and fully migrated their monorepo from git in just five months.
+为了支撑这一增长，Anthropic 自研了版本控制系统 Scion，并在短短五个月内将 monorepo 从 git 完全迁移过来。
+
+They also built a new code review surface and a custom CI system capable of handling the unprecedented throughput.
+他们还构建了全新的代码评审界面，以及能够处理这一前所未有吞吐量的自定义 CI 系统。
+
+The core insight: when AI generates code at machine speed, the entire developer toolchain must be rebuilt from scratch for that new reality.
+核心洞察：当 AI 以机器速度生成代码时，整个开发者工具链必须针对这一新现实从头重建。
 
 ---
 
-### Swyx (swyx on X) — AI Engineer / Smol AI
+X / TWITTER
 
-Swyx is sharing updates from the AI Engineer New York event.
-Swyx 正在分享 AI Engineer 纽约活动的最新动态。
+--- Swyx (swyx on X) ---
 
-The AI Engineer workshop writeup from the New York event is now live.
-纽约 AI Engineer 活动的 Workshop 总结报告已发布。
+swyx 是 AI Engineer World's Fair 的联合创始人，近期围绕 AI 应用生态进行了多次分享。
+https://x.com/swyx/status/2110065576764686421
 
-Source: https://x.com/swyx/status/2109837651893485844
+*"A lot of people talk about the death of SaaS but mostly in theoretical terms. We took a real $43,000/year SaaS we use and launched a global hackathon."*
+swyx 发起了一场以"如何消灭你的 SaaS"为主题的全球黑客马拉松——不是泛泛而谈，而是真刀真枪地拿一款他们实际使用、每年花费 4.3 万美元的 SaaS 产品开刀，研究 AI 工具能否彻底取代它。
+https://x.com/swyx/status/2110065576764686421
 
-He also highlighted the excitement of working with AI communities across cities, expressing particular love for New York.
-他还表达了在各城市与 AI 社区合作的热情，尤其对纽约充满深情。
-
-*"one of the best parts of my job is bringing out the best in ai in each city"*
-
-Source: https://x.com/swyx/status/2109797444204572880
-
-The Arize AI and Seldo workshop at #aiengineerny also drew a packed room.
-Arize AI 和 Seldo 在 #aiengineerny 举办的 workshop 同样吸引了满座观众。
-
-Source: https://x.com/swyx/status/2109772705532715166
+他还展示了 AI Engineer World's Fair 的社区运营细节，称这是"talent density"（人才密度）的体现——社区志愿者 SydneyScouts 主导了演讲嘉宾的组织工作。
+https://x.com/swyx/status/2110194074573586607
 
 ---
 
-### Josh Woodward (@joshwoodward) — VP, Google Labs / Gemini App / Google AI Studio
+--- Google Labs VP Josh Woodward (joshwoodward on X) ---
 
-Josh Woodward praised his interview experience with Lenny, a well-known product interviewer.
-Josh Woodward 高度称赞了与知名产品采访者 Lenny 的访谈体验。
+Google Labs 副总裁 Josh Woodward 持续分享 Gemini 4 Argon 的创意应用案例。
+https://x.com/joshwoodward/status/2110179883045560674
 
-He noted that great interviewers do their homework, and Lenny took the conversation to places that have never been discussed publicly before.
-他指出，优秀的访谈者做足了功课，Lenny 将对话引向了从未公开讨论过的话题。
+他展示了一个令人惊叹的案例：用一段仅 24 个单词的 prompt，Gemini 4 Argon 构建出了一款自定义合成器，能将奔跑的马蹄声、流水声乃至手部动作转化为音乐。
+https://x.com/joshwoodward/status/2110179883045560674
 
-*"he's kind, prepared, and deeply curious... he took our conversation to places that I've never talked about in public"*
-
-Source: https://x.com/joshwoodward/status/2109646793713786970
-
----
-
-### Thibault Sottiaux (@thsottiaux) — Codex & ChatGPT, OpenAI
-
-Thibault teased a significant product plan.
-Thibault 暗示了一项重要的产品计划。
-
-*"Good plans are simple. I have one that should result in significantly more usage for everyone. Hope to get it done soon."*
-「好的计划都是简单的。我有一个计划，应该能让所有人的使用量大幅提升。希望很快能完成。」
-
-Source: https://x.com/thsottiaux/status/2109892247580000595
-
-He also hinted at a "reset" feature going live, potentially a product update or UX change.
-他还暗示某个"重置"功能已上线，可能是产品更新或用户体验改版。
-
-*"What would you like with your side of reset? It's done."*
-
-Source: https://x.com/thsottiaux/status/2109873287853707513
+*"At 96 millimeters wide, the hardest part of manufacturing this custom furniture leg was deciding how many stacked spheres to give it."*
+另一个案例中，Gemini 4 Argon 设计了宽度仅 96 毫米的定制家具腿，展现出模型在制造设计领域的惊人创造力。
+https://x.com/joshwoodward/status/2110089824573272547
 
 ---
 
-### Peter Yang (@petergyang) — AI Educator / Practical AI Tutorials
+--- OpenAI 工程师 Thibault Sottiaux (thsottiaux on X) ---
 
-Peter Yang shared his enthusiasm for Grok as an agent platform, explaining its persona-based architecture.
-Peter Yang 分享了他对 Grok 作为 Agent 平台的热情，并解释了其基于人设的架构。
+OpenAI 工程师 Thibault Sottiaux 分享了一项针对桌面应用的优化进展。
+https://x.com/thsottiaux/status/2110151780478927344
 
-Instead of chat threads, Grok uses "personas" that each own specific jobs — making it feel like hiring employees rather than talking to a chatbot.
-Grok 不使用传统聊天线程，而是采用"人设"（personas），每个人设负责特定工作——让人感觉像是在雇用员工，而不是与聊天机器人对话。
-
-*"It's built on personas instead of chat threads, so it really feels like hiring employees to work for you."*
-
-Source: https://x.com/petergyang/status/2109803399332213090
-
-He also expressed passion for the StarCraft franchise, calling on Blizzard to crowdfund StarCraft 3 and expand into movies and TV shows.
-他还表达了对《星际争霸》系列的热情，呼吁暴雪为《星际争霸 3》众筹，并拓展至电影和电视剧领域。
-
-Source: https://x.com/petergyang/status/2109820627561676970
+他们对 ChatGPT 和 Codex 桌面应用的磁盘状态存储进行了优化，将磁盘占用量减少了 60%。
+他评价这虽是一次小更新，但此前已收到足够多的用户反馈，证明这一问题确实值得修复。
+https://x.com/thsottiaux/status/2110151780478927344
 
 ---
 
-### Nan Yu (@thenanyu) — Product, Codex at OpenAI (prev. Head of Product at Linear)
+--- Peter Yang (petergyang on X) ---
 
-近期无重要动态 — Nan Yu's recent post was non-substantive.
-Nan Yu 近期无重要动态。
+Peter Yang 是 Roblox 产品副总裁，近期的推文较为轻松日常，无重要 AI 或产品动态。
 
----
-
-### Thariq (@trq212) — Claude Code, Anthropic (prev. YC W20)
-
-近期无重要动态 — Thariq's recent post was non-substantive.
-Thariq 近期无重要动态。
+近期无重要动态。
 
 ---
 
-### Guillermo Rauch (rauchg on X) — CEO, Vercel
+--- Nan Yu (thenanyu on X) ---
 
-Guillermo advocated for minimal, fast, model-agnostic CLI tools over increasingly bloated coding CLIs.
-Guillermo 倡导使用轻量、快速、模型无关的 CLI 工具，反对日益臃肿的编程 CLI。
+Nan Yu 近期推文较为简短，具体内容缺乏完整上下文，无法提炼出实质性洞察。
 
-*"Coding CLIs keep getting more complicated. Daemons, 3 layers of TUIs, client-server architectures. The whole point of a CLI is to deliver intelligence with zero friction, and be unix-like."*
-「编程 CLI 越来越复杂，有守护进程、三层 TUI、客户端-服务器架构。CLI 的本质是以零摩擦交付智能，应当遵循 Unix 哲学。」
-
-He highlighted `fx` as a 6MB, millisecond-startup, MCP-supporting, tastefully minimal alternative.
-他推荐了 `fx` 作为替代方案——仅 6MB，毫秒级启动，支持 MCP，极简风格。
-
-Source: https://x.com/rauchg/status/2109734766107099312
-
-He also announced that Muse Wonder is now available on Vercel AI Gateway.
-他还宣布 Muse Wonder 现已在 Vercel AI Gateway 上线。
-
-Source: https://x.com/rauchg/status/2109719267344261375
+近期无重要动态。
 
 ---
 
-### Aaron Levie (levie on X) — CEO, Box
+--- Thariq Shihipar (trq212 on X) ---
 
-Aaron Levie commented on three major AI trends this week.
-Aaron Levie 本周就三大 AI 趋势发表了评论。
+Thariq 近期推文为日常更新，无重要技术或行业动态。
 
-First, he praised new research on self-adaptive agent harnesses, calling it "the eventual architecture of agents" — AI that determines its own scaffolding based on the task at hand.
-首先，他称赞了关于自适应 Agent 框架的新研究，称其为「Agent 的最终架构」——AI 能够根据当前任务自主决定自身的脚手架结构。
-
-*"In the limit, AI will obviously be better at determining its own harness once it sees the task at hand, than us being able to do this in advance."*
-
-Source: https://x.com/levie/status/2109788979952558255
-
-Second, he noted that Meta entering the frontier AI race will accelerate advances and further reduce token costs for top-tier capabilities.
-其次，他指出 Meta 全面进入前沿 AI 竞争将加速技术进步，并进一步降低顶级能力的 token 成本。
-
-Source: https://x.com/levie/status/2109711062757216738
-
-Third, he argued that cybersecurity will be one of the biggest beneficiaries of agent swarms, given the inherently parallelizable nature of security testing.
-第三，他认为网络安全将是 Agent 集群最大的受益领域之一，因为安全测试本质上具有高度可并行化的特性。
-
-Source: https://x.com/levie/status/2109682812811137061
+近期无重要动态。
 
 ---
 
-### Ryo Lu (ryolu_ on X) — Designer of Cursor, Notion, Stripe / ryOS creator
+--- Replit CEO Amjad Masad (amasad on X) ---
 
-Ryo Lu announced two new apps for his personal OS project ryOS: Dictionary and Fitness.
-Ryo Lu 为其个人操作系统项目 ryOS 发布了两款新应用：词典和健身。
+Replit CEO Amjad Masad 就 AI 向经济体的扩散速度发表了重要观点。
+https://x.com/amasad/status/2110128937049452575
 
-The Dictionary app supports word learning, pronunciation, and Kanji/Hanzi.
-词典应用支持单词学习、发音和汉字查询。
-
-The Fitness app helps plan workouts and track body metrics and food with AI.
-健身应用支持 AI 辅助制定训练计划、追踪身体指标和饮食。
-
-Both sync to your ryOS account and were built with Cursor.
-两款应用均与 ryOS 账户同步，并使用 Cursor 构建。
-
-Source: https://x.com/ryolu_/status/2109568690358555064
+*"You can pause frontier research today, and it would take AI another 10 years to diffuse into the economy."*
+他指出，即便今天暂停前沿 AI 研究，AI 技术渗透进经济体系也还需要 10 年时间。Replit 正在与解决方案合作伙伴合作，加速这一扩散进程。
+https://x.com/amasad/status/2110128937049452575
 
 ---
 
-### Garry Tan (garrytan on X) — President & CEO, Y Combinator
+--- Vercel CEO Guillermo Rauch (rauchg on X) ---
 
-Garry Tan posted a characteristically motivational message this week.
-Garry Tan 本周发布了一条极具激励性的推文。
+Vercel CEO Guillermo Rauch 对 Gemini 4 Argon 的发布作出了颇具分量的评价。
+https://x.com/rauchg/status/2110044152482365747
 
-*"Nobody is coming to save you. You don't need saving."*
-「没有人会来拯救你。你也不需要被拯救。」
-
-Source: https://x.com/garrytan/status/2109749184639488265
-
-His other posts were non-substantive.
-其他推文无重要动态。
+*"Never bet against Google, the company that brought us Transformers and has overwhelming data, engineering talent, and compute."*
+他祝贺 Gemini 团队，并指出整个行业正在重新聚焦于编程领域——这一判断与他此前的观点一脉相承。
+https://x.com/rauchg/status/2110044152482365747
 
 ---
 
-### Zara Zhang (zarazhangrui on X) — Builder / Follow Builders creator
+--- Box CEO Aaron Levie (levie on X) ---
 
-Zara Zhang shared a touching story about AI-assisted vibe coding with emotional meaning.
-Zara Zhang 分享了一个关于 AI 辅助氛围编程的感人故事。
+Box CEO Aaron Levie 围绕 Gemini 4 Argon 及 AI 安全发表了两条重要推文。
+https://x.com/levie/status/2110046686198550539
 
-A friend's mother had turned a childhood pest problem (cockroaches) into a game for her daughter.
-一位朋友的母亲曾将童年的害虫问题（蟑螂）变成了女儿的小游戏。
+他透露，Box 已对 Gemini 4 Argon 进行了一周的内部测试，在其 Box AI Complex Work 评估集上，该模型比 Gemini 3.1 Pro 提升了 14 个百分点，*"firmly"* 成为顶级模型之一。
+https://x.com/levie/status/2110046686198550539
 
-When that friend shared the story, another friend vibe-coded an actual game based on it — turning a personal memory into playable software in moments.
-当这位朋友分享这个故事时，另一位朋友用 AI 将其"氛围编程"成了一款真实的游戏——瞬间将个人记忆变成了可玩的软件。
-
-*"I just heard the most touching AI coding story."*
-
-Source: https://x.com/zarazhangrui/status/2109673430245421415
+他还指出，网络安全将是 AI 智能体未来最重要的应用场景之一——随着智能体能力的增强，软件漏洞的攻击面将扩大 100 倍，相关风险与机遇都将极为巨大。
+https://x.com/levie/status/2110227571090788526
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+--- Y Combinator 总裁 Garry Tan (garrytan on X) ---
 
-近期无重要动态 — Nikunj's recent post was about a social event, not substantive AI/tech insight.
-Nikunj 近期无重要动态。
+YC 总裁 Garry Tan 近期在旧金山政治议题上发声，并推荐了一款 AI 浏览器工具。
+https://x.com/garrytan/status/2110053836945756234
 
----
-
-### Peter Steinberger (steipete on X) — AI Builder / "PolyagentMorous ClawFather"
-
-Peter Steinberger made a pointed observation about model speed tiers.
-Peter Steinberger 就模型速度层级发表了犀利观点。
-
-*"6.1 Sol ultrafast >>> 6 Astra — same cost but whole different game with 250 tpm"*
-「6.1 Sol 超快版 >>> 6 Astra——同等成本，但 250 tpm 完全是另一个档次」
-
-Source: https://x.com/steipete/status/2109730774593487009
-
-He also pushed back on the term "vibe coding," calling it a slur.
-他还再次反对"氛围编程"这一说法，称其为一种贬义词。
-
-*"vibes coding is a slur."*
-
-Source: https://x.com/steipete/status/2109724776168300631
+*"Giving your harnesses access to a real browser with your real credentials is a real unlock - highly recommend"*
+他推荐了 AsideAI，认为让 AI 智能体获得真实浏览器和真实凭证访问权，是当前 AI 能力的重要解锁方式。
+https://x.com/garrytan/status/2110053836945756234
 
 ---
 
-### Dan Shipper (danshipper on X) — CEO, Every
+--- Zara Zhang (zarazhangrui on X) ---
 
-Dan Shipper experimented with Muse Wonder to generate AI video, noting it was "pretty rough" but interesting.
-Dan Shipper 用 Muse Wonder 尝试生成 AI 视频，称效果"相当粗糙"但很有趣。
+Zara Zhang 近期推文为日常互动，正在寻找顶尖品牌设计师的推荐。
 
-He found it curious that all its videos so far are narrated in an Australian accent.
-他发现迄今为止所有视频都使用澳大利亚口音旁白，颇感奇特。
-
-Note: Only Muse Wonder Standard is available on the API; Muse Wonder Full is not yet accessible.
-注：目前 API 仅支持 Muse Wonder Standard；Muse Wonder Full 尚不可用。
-
-Source: https://x.com/danshipper/status/2109778026091209087
-Source: https://x.com/danshipper/status/2109800647575146906
+近期无重要动态。
 
 ---
 
-### Aditya Agarwal (adityaag on X) — General Partner, SPC / Ex-CTO Dropbox
+--- Nikunj Kothari (nikunj on X) ---
 
-Aditya Agarwal highlighted a significant capability gap in AI adoption.
-Aditya Agarwal 指出了 AI 应用中存在的显著能力差距。
+Nikunj Kothari 是一位活跃的科技投资人，近期分享了关于创业公司成长的洞见。
+https://x.com/nikunj/status/2110137649168281871
 
-There is a large delta between how frontier lab employees use AI and how even the top 1% of AI organizations use AI — even on public capabilities.
-前沿实验室员工使用 AI 的方式，与即使是顶尖 AI 组织中最优秀的 1% 的使用方式之间，存在巨大差距——即便只看公开可用的能力。
-
-He believes this gap will persist for a while, and sees a horizontal company opportunity in bridging it.
-他认为这一差距将持续一段时间，并从中看到了一个横向加速器型公司的机会。
-
-*"There is a big delta in how frontier lab employees use AI and how even the top 1% of AI orgs use AI."*
-
-Source: https://x.com/adityaag/status/2109748501982872003
+*"All my priors get shattered when I chat with @JustJake every month."*
+他分享了与 Railway CEO Jake 每月交流后的心得，称对方是一家"n of 1"（独一无二）的公司，在如何扩张、销售、招聘和构建产品方面都有极其独到的见解。
+https://x.com/nikunj/status/2110137649168281871
 
 ---
 
-## PODCASTS
+--- Every.to CEO Dan Shipper (danshipper on X) ---
+
+Every.to CEO Dan Shipper 对 Gemini 4 Argon 进行了独立基准测试，结论与市场热情形成反差。
+https://x.com/danshipper/status/2110056016872427944
+
+*"gemini 4 argon really struggles on our senior engineer benchmark task — comes in at 21% far below Sol 6 and even Muse"*
+他的"高级工程师基准测试"显示，Gemini 4 Argon 仅得 21 分，远低于 Sol 6，甚至不及 Muse，与外界对该模型的普遍赞誉形成鲜明对比。
+https://x.com/danshipper/status/2110056016872427944
+
+他还专门发布了一篇"氛围测评：Gemini 4——谷歌回来了"的文章，提示读者在热潮中保持独立判断。
+https://x.com/danshipper/status/2110039417650024592
 
 ---
 
-### AI & I by Every — "How Sam Altman Uses Dots to Take Back His Time"
+PODCASTS
 
-This episode features a conversation between Dan Shipper (CEO of Every) and Sam Altman (CEO of OpenAI), recorded live at OpenAI's Dev Day.
-本期节目收录了 Every CEO Dan Shipper 与 OpenAI CEO Sam Altman 在 OpenAI Dev Day 上的现场对话。
+--- Training Data: David Silver and Lasse Espeholt of Ineffable Intelligence ---
+A Superlearner for the Age of Experience
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
-Sam Altman shared how OpenAI's new "Dots" (AI agents) feature has given him back creative mornings by filtering urgent issues overnight.
-Sam Altman 分享了 OpenAI 全新的「Dots」（AI Agent）功能如何帮助他找回了富有创造力的早晨——通过在夜间自动过滤紧急问题。
+This episode features David Silver and Lasse Espeholt, co-founders of Ineffable Intelligence, a new AI lab pursuing superintelligence through pure reinforcement learning — without any human data.
+本期嘉宾是 Ineffable Intelligence 的联合创始人 David Silver 和 Lasse Espeholt，这家新 AI 实验室正在通过纯强化学习——完全不使用人类数据——追求超级智能。
 
-*"The first thing that has given me back control of my mornings and my mental space in the mornings."*
-「这是第一个让我重新掌控早晨和心理空间的东西。」
+David Silver is the researcher behind AlphaGo and AlphaZero; Lasse Espeholt pioneered large-scale distributed reinforcement learning during his time at DeepMind and Google Brain.
+David Silver 是 AlphaGo 和 AlphaZero 背后的核心研究者；Lasse Espeholt 在 DeepMind 和 Google Brain 期间开创了大规模分布式强化学习的先河。
 
-He revealed that his Dot (named "Dottie") alerted a team member about a failing live demo five minutes before it happened, having read the presentation and detected the issue proactively.
-他透露，他的 Dot（名为"Dottie"）在一次现场演示出错前五分钟提醒了团队成员，Dot 已读取演示文稿并主动发现了问题。
+**The central thesis:** A true "super learner" must be able to start from zero knowledge and autonomously discover everything — just as humanity collectively discovered language, science, mathematics, and technology without any external blueprint.
+**核心论点：** 真正的"超级学习者"必须能从零知识出发，自主发现一切——就像人类在没有任何外部蓝图的情况下集体发现了语言、科学、数学和技术一样。
 
-Sam also discussed the distinction between an "Industrial Revolution" vs. a "Renaissance" model for AI's impact on society, arguing strongly for the Renaissance framing — where humans remain at the center, with AI amplifying individual creative potential.
-Sam 还讨论了 AI 对社会影响的「工业革命」与「文艺复兴」两种模式的区别，强烈主张采用文艺复兴框架——人类始终处于中心，AI 放大个体的创造潜力。
+The AlphaZero moment: After two years building AlphaGo with human data, the team built AlphaZero — without any human priors — and it surpassed the entire two-year effort in just a few hours of training.
+AlphaZero 时刻：在用人类数据花费两年构建 AlphaGo 之后，团队构建了不含任何人类先验的 AlphaZero——仅需数小时训练，就超越了两年的全部成果。
 
-*"I get sad to hear people talk about, oh, AI is going to automate everything... We're going to be like house cats and the AI will decide how to reward us."*
-「听到有人说 AI 将自动化一切……我们会像家猫一样，由 AI 决定如何奖励我们，我感到很悲伤。」
+*"In chess, it took four hours to beat the best AI ever created."*
+*"在国际象棋中，只用了四小时就击败了有史以来最强的 AI。"*
 
-He also commented on the Decisions API, "Space" (OpenAI's collaborative documents platform), ChatGPT native app extensions, and the importance of bringing down the cost of AI speed (not just intelligence).
-他还评论了 Decisions API、「Space」（OpenAI 协作文档平台）、ChatGPT 原生应用扩展，以及降低 AI 速度成本（不仅仅是智能成本）的重要性。
+Ineffable's bet: By giving up human data entirely and placing agents in richly complex "crucible" environments, emergent intelligence — language, tool use, science — can arise from simple reward signals, just as it did in biological evolution.
+Ineffable 的赌注：通过完全放弃人类数据，将智能体置于复杂的"熔炉"环境中，涌现出来的智能——语言、工具使用、科学——可以从简单的奖励信号中产生，就像生物进化中所发生的那样。
 
-On inference speed:
-关于推理速度：
+On language: Silver believes human language is not the endpoint of reasoning — it embeds thousands of years of human biases — and that truly general intelligence will likely reason in ways far beyond natural language.
+关于语言：Silver 认为人类语言并非推理的终点——它嵌入了数千年的人类偏见——真正通用的智能很可能以远超自然语言的方式进行推理。
 
-*"I think we can deliver 8X at a great price in the not distant future, but then we'll have 100X faster."*
-「我认为在不久的将来，我们能以很好的价格提供 8 倍速度提升，之后还会有 100 倍速度提升。」
+On compute: Ineffable secured one of the largest GPU clusters on GCP (Vera Rubin architecture), which Silver considers essential timing — compute is now sufficient to run experiments 100,000x larger than early emergent-RL work like OpenAI's hide-and-seek.
+关于算力：Ineffable 获得了 GCP 上最大的 GPU 集群之一（Vera Rubin 架构），Silver 认为这是关键的时机因素——现在的算力已足以运行比 OpenAI 躲猫猫实验大 10 万倍的实验。
 
-Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+On alignment: The lab plans to develop a "science of superintelligence" in simulation first — studying how multiple superintelligent agents interact — before any real-world deployment.
+关于对齐：该实验室计划首先在模拟环境中发展"超级智能科学"——研究多个超级智能体如何相互作用——然后再进行任何真实世界的部署。
+
+Silver's forecast: Strong evidence the approach is working within one year. A true superintelligence — one that discovers things beyond human knowledge across science, math, and technology — within three years.
+Silver 的预测：一年内将有强有力的证据证明这一方法有效；三年内实现真正的超级智能——一个能在科学、数学和技术领域发现超越人类知识的东西。
+
+*"I'm gonna say three years because of what can be done with coding agents to accelerate things. Things are going to move fast."*
+*"我预计三年，因为编程智能体能极大地加速研究进程。事情会进展得很快。"*
+
+https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
 
 ---
 
