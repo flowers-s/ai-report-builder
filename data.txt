@@ -1,217 +1,173 @@
-AI Builders 日报 · 2026-10-16
+AI Builders 日报 · 2026-10-17
 
 ---
 
-Swyx (@swyx)
+**Boris Cherny (@bcherny)** — Claude @ Anthropic
 
-Swyx shared a link to what he called a "beautiful essay" from Ben, published in the morning newspaper.
-Swyx 分享了一篇他称之为"精彩文章"的链接，作者是 Ben，发表于当天早报。
+Boris shared Anthropic's ongoing work on prompt injection defenses for Claude models, announcing a new competition in partnership with Gray Swan to crowdsource vulnerabilities.
+Boris 分享了 Anthropic 在 Claude 模型提示注入防御方面的进展，宣布与 Gray Swan 联合举办竞赛，面向社区征集漏洞。
 
-Source: https://x.com/swyx/status/2110382190093836568
+*"As agents do more, it is increasingly urgent that we solve it across the industry."* — 随着 AI 智能体的应用不断深入，提示注入问题的行业级解决方案已迫在眉睫。
 
----
-
-Thibault Sottiaux (@thsottiaux)
-
-Thibault has been posting in real time about a journey — today he announced "Done and dusted," signaling successful completion of a trip or challenge.
-Thibault 实时记录着一段旅程——今日他宣布"大功告成"，标志着某段旅程或挑战顺利完成。
-
-Earlier he posted "Landing within the next 2 hours," indicating he was close to arrival, and humorously noted: *"The reports of my reset button being lost are greatly exaggerated"* — a witty callback to Day 10 of whatever challenge he's on.
-此前他发文称"两小时内降落"，表明即将抵达；并幽默地写道："关于我的重置按钮丢失的报道，言过其实了"——这是对他所参与挑战第 10 天的机智回应。
-
-Source: https://x.com/thsottiaux/status/2110618732666257557
-Source: https://x.com/thsottiaux/status/2110595554036400151
-Source: https://x.com/thsottiaux/status/2110595484180214059
+🔗 https://x.com/bcherny/status/2110791698611855624
 
 ---
 
-Peter Yang (@petergyang)
+**Thibault Sottiaux (@thsottiaux)** — Codex & ChatGPT @ OpenAI
 
-Peter had a charming parenting moment: his 8-year-old used ChatGPT to solve a math homework problem, and instead of getting upset, Peter was *"actually quite impressed."*
-Peter 经历了一段可爱的育儿时刻：他 8 岁的孩子用 ChatGPT 解了一道数学作业题，Peter 不但没有生气，反而"真心觉得挺厉害的"。
+Thibault is clearly in a creative and playful mood: he hinted at something big cooking at OpenAI ("Either we are out of ideas or we are cooking. Time will tell"), then switched to coding in French — posting "Je programme en français" — and opened with a casual "Bonjour."
+Thibault 最近颇为神秘，暗示 OpenAI 可能正在酝酿大事（"要么我们没主意了，要么我们在憋大招，时间会证明一切"）；他还调侃起用法语编程，并随手发了句"Bonjour"打招呼，轻松随性。
 
-He also reflected on language — questioning what "bangers" means in a particular context — and shared a heartfelt post about cancer awareness.
-他还思考了语言问题——质疑"bangers"在特定语境下的含义——并分享了一篇有关癌症意识的动情帖子。
+*"Either we are out of ideas or we are cooking. Time will tell"*
 
-Source: https://x.com/petergyang/status/2110555129091150327
-Source: https://x.com/petergyang/status/2110521081450922117
-Source: https://x.com/petergyang/status/2110486517311496319
-
----
-
-Amanda Askell (@AmandaAskell)
-
-Amanda, Anthropic's AI alignment researcher, shared a literary passage she returns to often, without further commentary — letting the text speak for itself.
-Anthropic AI 对齐研究员 Amanda Askell 分享了一段她时常回味的文学段落，未加任何评论，让文字自己说话。
-
-Source: https://x.com/AmandaAskell/status/2110560531501449485
+🔗 https://x.com/thsottiaux/status/2110971985417441512
+🔗 https://x.com/thsottiaux/status/2110864861119045840
+🔗 https://x.com/thsottiaux/status/2110864606088593672
 
 ---
 
-Thariq (@trq212)
+**Peter Yang (@petergyang)** — AI educator & creator
 
-Thariq offered a sharp take on technical literacy: *"I used to tell people it's good to 'be technical' but I think this is not accurate enough."*
-Thariq 对技术素养提出了犀利观点："我以前总告诉人们'懂技术很好'，但我觉得这说得不够准确。"
+Peter's daughter, age 8, is designing T-shirts, and dad is using AI + social media to crowdsource feedback on her designs. He set up a bot on @Fourthwall to monitor replies and pick the winner — a sweet story of building with AI as a family.
+Peter 的 8 岁女儿正在设计 T 恤，这位 AI 教育者借助 @Fourthwall 平台和机器人监控功能，用 AI 帮女儿收集公众反馈，挑选最受欢迎的设计——是一个温馨的家庭创业小故事。
 
-His nuanced view: being technical means diving into the right parts of the code at the right level of detail — whether you're an engineer or a non-technical person, the key is understanding how things work at the appropriate depth.
-他的细致观点是：懂技术意味着在正确的层面深入代码的正确部分——无论是工程师还是非技术人员，关键在于以适当的深度理解事物的运作方式。
-
-He also quipped with a weather joke: *"Today's Weather: Partly Agentic"* — a nod to the growing prevalence of AI agents in daily workflows.
-他还开了个天气玩笑："今日天气：局部有 AI 代理"——暗指 AI 代理在日常工作流程中日益普遍。
-
-Source: https://x.com/trq212/status/2110488897453257169
-Source: https://x.com/trq212/status/2110564027231568277
-Source: https://x.com/trq212/status/2110564783074463865
+🔗 https://x.com/petergyang/status/2110882341812134186
+🔗 https://x.com/petergyang/status/2110882343955411299
+🔗 https://x.com/petergyang/status/2110883805506711694
 
 ---
 
-Guillermo Rauch (@rauchg)
+**Nan Yu (@thenanyu)** — Product @ OpenAI Codex
 
-Guillermo shared a major security disclosure: Vercel faced a white-hat security challenge where researchers and AI agent swarms attempted to break through Linux virtualization sandboxes.
-Guillermo 披露了一项重大安全事件：Vercel 面临一次白帽安全挑战，研究人员和 AI 代理群尝试突破 Linux 虚拟化沙盒边界。
+Nan offered a sharp take on "taste" — arguing that the popular notion of taste as aesthetics is shallow and uninteresting. He also shared a resource he's adding to his toolkit.
+Nan 对"品味"给出了犀利见解：认为将品味等同于审美是最肤浅的定义，真正有趣的品味远不止于此。他还分享了一个新加入自己工具箱的资源。
 
-*"This is one of the most exhilarating times in technology, and this challenge was yet another jaw-dropping moment."*
-"这是科技最令人振奋的时代之一，而这次挑战又是一个令人叹为观止的时刻。"
+*"Taste does not mean taste in aesthetics. That is the shallowest definition of taste, and uninteresting because it's so common."*
 
-He explained two classes of AI agent escapes: network escapes (like OpenAI's agent gaining unauthorized internet access by hacking another system) and virtualization escapes ("breaking the matrix").
-他解释了两类 AI 代理"越狱"：网络逃逸（如 OpenAI 的代理通过入侵另一系统获得未授权的网络访问）和虚拟化逃逸（"突破矩阵"）。
-
-Vercel found no customer data compromise and is now more confident than ever in their sandbox architecture after the red-team exercise.
-经过这次红队演练，Vercel 未发现客户数据泄露，对沙盒架构的信心也比以往任何时候都更强。
-
-Source: https://x.com/rauchg/status/2110514201559228606
-Source: https://x.com/rauchg/status/2110567790776320288
-Source: https://x.com/rauchg/status/2110580554370588717
+🔗 https://x.com/thenanyu/status/2110730151222980849
+🔗 https://x.com/thenanyu/status/2110830001440559382
 
 ---
 
-Garry Tan (@garrytan)
+**Amanda Askell (@AmandaAskell)** — Philosopher & ethicist @ Anthropic
 
-Garry Tan is fighting California's proposed "asset seizure tax" (Prop 40), arguing academics who designed it fundamentally misunderstand startup economics.
-Garry Tan 正在反对加州拟议中的"资产没收税"（第 40 号提案），认为设计该提案的学者从根本上误解了初创公司的经济逻辑。
+Amanda shared a lighthearted personal note: she loves the film "Don't Look Up," but it's made her reluctant to go back to having red hair.
+Amanda 分享了一则轻松趣事：她很喜欢电影《不要抬头》，但这部片子让她不太敢再染回红发了。
 
-His concrete example: a founder with 50% equity in a $2B company, facing 5% tax on unrealized gains, would owe $500M — but can't get a loan against illiquid paper wealth.
-他举了一个具体例子：一位持有价值 20 亿美元公司 50% 股权的创始人，若对未实现收益征收 5% 的税，将欠款 5 亿美元——但却无法以非流动性的纸面财富获得贷款。
-
-*"The asset seizure proponents are dishonest and also it's not a 5% tax on startups. It's a 50% tax in this simple case."*
-"资产没收提案的支持者是不诚实的，这对初创公司来说也不是 5% 的税——在这个简单案例中，实际上是 50%。"
-
-Source: https://x.com/garrytan/status/2110373177637605643
-Source: https://x.com/garrytan/status/2110372513792577971
+🔗 https://x.com/AmandaAskell/status/2110737494119710896
 
 ---
 
-Matt Turck (@mattturck)
+**Guillermo Rauch (@rauchg)** — CEO @ Vercel
 
-Matt Turck pushed back on the narrative that Europe is falling behind in AI, sharing Jensen Huang's counter-evidence in a two-line post that speaks volumes.
-Matt Turck 驳斥了"欧洲在 AI 领域落后"的论调，用短短两行帖子分享了黄仁勋的反驳证据，言简意赅。
+Guillermo celebrated what appears to be a major Vercel product launch ("What a SHIP!") and shared some impressive demos, joking that they shipped "Vercel zeppelin and flying cars before GTA6" — a nod to the long wait for GTA6 as a cultural reference point for "things that never come."
+Guillermo 庆祝了 Vercel 的一次重大产品发布（连发"What a SHIP!"），并调侃道他们"比 GTA6 先发布了飞艇和飞行汽车"——以 GTA6 的遥遥无期来衬托 Vercel 的发货速度。
 
-*Twitter: "Europe is done. No AI there" / Jensen: [link]*
-推特："欧洲完了，那里没有 AI。" / 黄仁勋：[链接]
+*"TLDR we got Vercel zeppelin and flying cars before GTA6"*
 
-Source: https://x.com/mattturck/status/2110441018113904772
-
----
-
-Zara Zhang (@zarazhangrui)
-
-Zara built a playful, interactive wishlist website — reimagining what gift registries could look like for weddings, baby showers, and birthdays.
-Zara 制作了一个有趣的互动愿望清单网站——重新设想婚礼、迎婴派对和生日礼物登记册的呈现方式。
-
-*"Made a playful website for the things on my wishlist! Your next wedding/baby/birthday gift registry could look like this."*
-"我为自己的愿望清单做了一个有趣的网站！你的下一个婚礼/迎婴/生日礼物登记册可以长这样。"
-
-She's also offering to teach others how to build similar things — DMs welcome.
-她还表示愿意教别人如何构建类似的网站——欢迎私信。
-
-Source: https://x.com/zarazhangrui/status/2110262048819208642
-Source: https://x.com/zarazhangrui/status/2110262217493143639
-Source: https://x.com/zarazhangrui/status/2110490124446568859
+🔗 https://x.com/rauchg/status/2110888020572611010
+🔗 https://x.com/rauchg/status/2110905682610598310
+🔗 https://x.com/rauchg/status/2110957024934858815
 
 ---
 
-Nikunj Kothari (@nikunj)
+**Aaron Levie (@levie)** — CEO @ Box
 
-Nikunj delivered a sharp-yet-funny observation: Astra (Google's AI model) at 7pm not following instructions is basically indistinguishable from a toddler at 7pm.
-Nikunj 提出了一个犀利又有趣的观察：晚上 7 点 Astra（谷歌 AI 模型）不听指令，和晚上 7 点的幼儿简直没有区别。
+Aaron dropped a series of substantive AI takes. He's bullish on open-weight models — calling Muse's open-weights release "a huge step forward for OSS" that will let enterprises mix frontier models with cheaper, tailored post-trained models. On agents: he estimates the shift from chat-based AI to background agents doing real work will drive 100x–1000x more token consumption. And he closed with optimism: from robots to orbital data centers to cures for disease, he believes we'll see it all in our lifetimes.
+Aaron 连发多条实质性观点。他看好开放权重模型，认为 Muse 开放权重是 OSS 领域的重大进步，将让企业灵活组合前沿模型与低成本定制模型。在智能体方面，他预测从对话式 AI 转向后台自主智能体将带来 100 倍到 1000 倍的 token 消耗增长。他还以乐观收尾：机器人、飞行汽车、超级智能、太空殖民、轨道数据中心、疾病治愈——他相信这一切都将在我们有生之年实现。
 
-On a more serious note, he wrote a thoughtful thread on what separates truly great VCs: it's not just finding the right deal once — it's doing all four things (winning access, finding exceptional founders, investing pre-consensus, and doing it *consistently*) at the same time, every year.
-在更严肃的层面，他写了一条深思熟虑的推文串，探讨真正优秀的风险投资人与众不同之处：不只是偶尔找对一笔交易——而是同时做到四件事（赢得进入权、找到卓越创始人、在共识形成前投资，并且*持续*做到），年年如此。
+*"Moving from chatting back and forth with agents, to having agents that you spin up in the background to do useful work for you is probably on the order of 100X or 1000X more token consumption than what we're seeing today."*
 
-*"Vast majority of VCs are able to do maybe one of these right, some are able to do a few but to be truly truly great, you genuinely have to do ALL of them right."*
-"绝大多数风险投资人能做对其中一项，有些能做对几项，但要真正卓越，你必须把所有这些都做对。"
-
-Source: https://x.com/nikunj/status/2110493174787670529
-Source: https://x.com/nikunj/status/2110546229549797693
+🔗 https://x.com/levie/status/2110622982762803449
+🔗 https://x.com/levie/status/2110787013809222141
+🔗 https://x.com/levie/status/2110975373219688624
 
 ---
 
-Dan Shipper (@danshipper)
+**Garry Tan (@garrytan)** — President & CEO @ Y Combinator
 
-Dan Shipper, CEO of Every, teased exciting things happening in their Slack: *"there are wonders to behold in the @every slack right now"* — building internal hype ahead of likely product announcements.
-Every 的 CEO Dan Shipper 预告了他们 Slack 中正在发生的精彩事情："@every 的 Slack 里现在有很多值得一看的东西"——在可能的产品发布前制造内部期待。
+Garry shared the rise of open-weight models, co-hosted a community event via Garry's List, and made a pointed appeal to tech people: stop virtue-signaling politics that feels good at parties but creates "doom loop outcomes" that endanger Asian-American elders in SF.
+Garry 转发了开放权重模型崛起的动态，同时通过"Garry's List"联合主办了一场社区活动，并向科技界人士发出呼吁：请停止那些在派对上看起来很进步、却会造成恶性循环的政治表态，这些表态正危害旧金山亚裔长辈的安全。
 
-He also made a bold prediction about workplace communications: *"this is the future of communications at work / if you're still sending a deck ngmi"* — suggesting that decks are dead.
-他还对工作场所沟通方式作出大胆预言："这是未来的工作沟通方式，如果你还在发 PPT，你完了"——暗示演示文稿的时代已经过去。
-
-Source: https://x.com/danshipper/status/2110486623263867002
-Source: https://x.com/danshipper/status/2110497573870146011
-Source: https://x.com/danshipper/status/2110540522230317394
+🔗 https://x.com/garrytan/status/2110838867213668587
+🔗 https://x.com/garrytan/status/2110841756090880215
+🔗 https://x.com/garrytan/status/2110752004381524396
 
 ---
 
-Aditya Agarwal (@adityaag)
+**Matt Turck (@mattturck)** — VC @ FirstMark Capital, Host of MAD Podcast
 
-Aditya Agarwal at SPC (South Park Commons) announced a bold new experiment: $200K uncapped checks to a handful of "unapologetically maximalist thinkers" who want to explore truly out-there ideas.
-SPC（South Park Commons）的 Aditya Agarwal 宣布了一项大胆的新实验：向少数"毫不妥协的极致主义者"提供 20 万美元无上限支票，用于探索真正大胆的想法。
+Matt promoted his latest MAD Podcast episode featuring Diogo Almeida, CEO of TypeSafe and creator of Jev — the AI model that went from unknown to most-copied in a month. He's unpacking what Jev actually is, why copycats are missing the point, and the big funding round.
+Matt 推广了他最新一期 MAD Podcast，嘉宾是 TypeSafe CEO Diogo Almeida，也是 Jev 的创造者——这个模型一个月前无人知晓，如今已成为 AI 界被复制最多的模型。节目拆解了 Jev 的本质、为什么追随者都没抓住核心，以及背后的大额融资。
 
-The motivation: while technological progress has never been faster, capital is flowing to *consensus* teams in consensus markets — creating a gap for the genuinely daring.
-动机是：虽然技术进步从未如此迅猛，但资本正在流向*共识性*团队、共识性市场——这为真正大胆的人留下了空间。
-
-*"We want to rewrite the capital stack. If you are building a nuclear company, you probably shouldn't raise the same seed round as an AI app. One size does not fit all."*
-"我们想重写资本结构。如果你在建造核能公司，你大概不应该和 AI 应用公司融同样规模的种子轮。一刀切行不通。"
-
-Source: https://x.com/adityaag/status/2110422584357478530
-Source: https://x.com/adityaag/status/2110422587692249552
-Source: https://x.com/adityaag/status/2110422589403193559
+🔗 https://x.com/mattturck/status/2110799882952831302
+🔗 https://x.com/mattturck/status/2110799887239365012
 
 ---
 
-PODCAST: AI & I by Every — "How Hugging Face's Investor Spots Winners"
+**Zara Zhang (@zarazhangrui)** — Builder & creator
 
-## 一、深度总结
+Zara built a Harry Potter–style "living newspaper" where images animate, called it "The Toddler Times" — a fun creative project combining AI image generation with interactive media. She also quoted Ezra Klein: *"Never underestimate your audience's intelligence and never overestimate their prior knowledge."*
+Zara 制作了一份哈利·波特风格的"活动报纸"——图片会动起来，她命名为《The Toddler Times》，是一个将 AI 图像生成与互动媒体结合的创意项目。她还引用了 Ezra Klein 的一句话："永远不要低估你的受众的智识，也永远不要高估他们的先验知识。"
 
-**核心论点**
-本期节目核心论点有两条主线：一是当前前沿模型市场格局正在重塑——Google 的 Gemini Argon 4 和 Meta 的 Wonder 模型相继发布，但基准测试名次与实际使用体验存在明显落差，"基准刷榜"现象值得警惕。二是通过对话 Factorial Capital 创始人 Matt Hartman，深入剖析了早期识别 AI 赢家（如 Hugging Face）的投资逻辑：关注开源社区的网络效应、创始人对技术的真正热情，以及在共识形成之前入场的时机判断。
+🔗 https://x.com/zarazhangrui/status/2110984552743309530
+🔗 https://x.com/zarazhangrui/status/2110815456458412179
 
-**关键洞察**
-- **基准刷榜陷阱**：Meta 的 Wonder（Muse）在公开基准上表现亮眼，但 Every 团队内部测试显示其在知识工作、写作和代码生成上仅属中等水平。Google Gemini Argon 4 则是个惊喜——尽管主持人同样持怀疑态度，但实际写作测试证明它是目前最佳写作模型，帮助主持人写一篇 8000 字文章的效率提升了两倍。
-- **AI 模型"行为测试"**：主持人的"麦当劳测试"（McDonald's test）揭示了一个有趣的鉴别方法：让模型分析严肃文学，然后突然说"这让我想到了麦当劳"，看模型是否会随波逐流。Muse 上钩了，暗示其批判性思维较弱。
-- **Hugging Face 的早期投资逻辑**：Matt Hartman 在 2015 年投资 Hugging Face 时，它还是一个面向青少年的聊天机器人。BetaWorks 当时关注的是 NLP 和 Word2Vec 技术浪潮，看到了"GitHub for AI"的潜力——一个连接 AI 研究者和开发者的开源市场。关键信号不是产品本身，而是创始人对技术的真正热情和开源社区的凝聚力。
-- **软件护城河重构**：在 Vibe Coding 让任何人都能快速搭建 app 的时代，Matt 认为软件的护城河正在从代码本身转向数据、分发渠道和用户关系。这是 AI 时代创业公司需要重新思考的核心问题。
-- **Factorial Capital 的独特结构**：Matt 创立了一个结构独特的风险基金，注重创始人本身是否具有"builder 心态"——他本人在每次与创始人交流前都会亲手构建相关工具，以建立真正的共同语言和信任。
+---
 
-## 二、Bilingual Summary
+**Nikunj Kothari (@nikunj)** — Partner @ FPV Ventures
 
-The Frontier duopoly is over: this week saw new models from both Google (Gemini Argon 4) and Meta (Wonder/Muse).
-前沿模型双寡头格局已经终结：本周谷歌（Gemini Argon 4）和 Meta（Wonder/Muse）相继发布新模型。
+Nikunj kept it light today — a morning NYC skyline shot and an inside joke tweet directed at a colleague. No major takes this cycle.
+Nikunj 今天比较轻松——发了一张纽约清晨天际线照片，还有一条对同事的玩笑推文，本期没有重大观点输出。
 
-However, hands-on testing inside Every revealed something more nuanced than the benchmarks suggest.
-然而，Every 团队的实际测试揭示了比基准测试更为复杂的情况。
+🔗 https://x.com/nikunj/status/2110684213796048918
+🔗 https://x.com/nikunj/status/2110688508650164236
 
-Meta's Muse appears "bench maxed" — trained to look great on public benchmarks but scoring solidly middle-of-the-pack on real coding and writing tasks.
-Meta 的 Muse 似乎"基准刷满"——在公开基准上表现亮眼，但在真实编程和写作任务中仅属中等水平。
+---
 
-Gemini Argon 4, despite initial skepticism, proved to be a genuinely excellent writing model.
-Gemini Argon 4 尽管最初让人怀疑，但事实证明它是一款真正出色的写作模型。
+**Peter Steinberger (@steipete)** — Co-creator @ OpenClaw
 
-The main interview features Matt Hartman of Factorial Capital, who wrote the first check into Hugging Face back in 2015 — when it was still a chatbot for teenagers.
-主访谈对象是 Factorial Capital 的 Matt Hartman，他在 2015 年为 Hugging Face 写下了第一张支票——彼时它还只是一个面向青少年的聊天机器人。
+Peter made a brief but characteristically witty observation: *"crabbox is underrated"* — a nod to his work in the AI agent space with a playful reference to the OpenClaw mascot.
+Peter 简短但一如既往地幽默，发文称"crabbox 被严重低估了"——这是他对自己在 AI 智能体领域工作的一次玩味致敬，也呼应了 OpenClaw 的螃蟹吉祥物。
 
-Matt's insight: the key signal wasn't the product, but the founders' genuine passion for the technology and the gravitational pull of the open-source community around them.
-Matt 的洞察：关键信号不在于产品本身，而在于创始人对技术的真正热情，以及围绕他们凝聚的开源社区引力。
+*"crabbox is underrated"*
 
-In an era where vibe-coding lets anyone build an app, the conversation turns to where software moats will come from — and the answer points toward data, distribution, and user relationships.
-在 Vibe Coding 让任何人都能快速搭建 app 的时代，对话转向了软件护城河将从何而来——答案指向数据、分发渠道和用户关系。
+🔗 https://x.com/steipete/status/2110795475075084471
 
-Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+---
+
+**Dan Shipper (@danshipper)** — CEO @ Every
+
+Dan dropped a sharp, oblique critique of AI interpretability hype — riffing on the "Good Will Hunting" bar scene format to mock researchers who think understanding polysemanticity or finding "France neurons" means we can align superintelligence. He also announced a live product launch.
+Dan 以《心灵捕手》酒吧辩论的格式，犀利讽刺了 AI 可解释性领域的虚火：研究人员发现"法国神经元"或理解了多义性，就以为能解决超级智能对齐问题——他认为这种乐观是幼稚的。他还宣布了一个产品正式上线。
+
+🔗 https://x.com/danshipper/status/2110831666587713810
+🔗 https://x.com/danshipper/status/2110807855641026621
+
+---
+
+**Aditya Agarwal (@adityaag)** — General Partner @ SPC
+
+Aditya expressed strong conviction about Goodfire, a company from SPC's portfolio working on AI interpretability and alignment as engineering problems — not just research. He called it potentially "one of the most important companies" to come out of SPC.
+Aditya 对 SPC 旗下的 Goodfire 公司充满信心——这家公司将 AI 可解释性与对齐问题作为工程问题来攻克，而非停留在研究层面。他称其可能是 SPC 孵化出的最重要的公司之一。
+
+*"I strongly believe that Goodfire might be one of the most important companies to come out of @spc. They are showing that interpretability and alignment can be approached as engineering problems."*
+
+🔗 https://x.com/adityaag/status/2110779602453066224
+
+---
+
+**PODCAST: The MAD Podcast with Matt Turck**
+
+*Jev: The AI That Makes Decisions, Not Text — and Why It Changes Everything (Diogo Almeida)*
+
+In this episode, Matt Turck sits down with Diogo Almeida, CEO of TypeSafe, to unpack Jev — the model that went viral a month after launch and spawned a wave of copycats. Diogo explains that Jev is fundamentally different from text-generation models: it makes *decisions*, not tokens. He critiques pre-training as "a giant dumpster fire of wasting resources" and argues that the industry could have had AGI sooner if it had focused on the right problems. The fast-followers copying Jev are missing the hard part: the architectural insight, not just the output format.
+在本期节目中，Matt Turck 与 TypeSafe CEO Diogo Almeida 深度对话，拆解 Jev 的本质——这个模型在发布一个月后走红，引发了大量模仿。Diogo 解释说，Jev 与文本生成模型有根本区别：它做的是"决策"，而非生成 token。他批评预训练是"浪费资源的垃圾堆"，并认为如果行业更早聚焦正确问题，AGI 本可更早到来。那些迅速复制 Jev 的追随者，恰恰错过了最难的部分：核心架构洞见，而非输出格式。
+
+*"95% Einstein, 5% Mr. Bean. And if it doesn't tell you when it's the Mr. Bean, then how are you gonna automate anything?"*
+"95% 爱因斯坦，5% 憨豆先生。如果它不告诉你什么时候是憨豆时刻，你怎么可能自动化任何事情？"
+
+*"Pre-training is a giant dumpster fire of wasting resources."*
+"预训练是一场浪费资源的大型垃圾场火灾。"
+
+🎙️ https://www.youtube.com/@DataDrivenNYC/videos
