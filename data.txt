@@ -1,217 +1,161 @@
-AI Builders 日报 · 2026-10-18
+AI Builders 日报 · 2026-10-19
 
 ---
 
-**Swyx (@swyx)**
+Swyx (@swyx)
+Swyx shared analytics insights about his AI Engineering podcast, revealing that even after serving over 1 million unique viewers per month since May, a striking 68% of monthly viewers are still unsubscribed.
+Swyx 分享了关于他的 AI Engineering 播客的分析洞察，揭示即便每月服务超过100万独立观众，每月观看者中仍有惊人的68%尚未订阅。
 
-Swyx 近期围绕 AI 工具与内容创作分享了三条动态。他对一段视频的提示词质量印象深刻，称其接近 Kurzgesagt 的清晰度水准，并附上了相关链接。*"ok i really need the prompt(s) for this video because this is near-kurzgesagt level clarity of explanation"* — 他对高质量 AI 内容制作的好奇心溢于言表。此外，他宣布即将上线一档等待了近一年的节目，感谢测试用户和团队成员的协助。他还为一篇完整演讲稿提供了链接，内容来自 @aiDotEngineer 活动。
+He discussed "channel affinity" — identifying YouTube creators with overlapping audiences — and expressed his goal to collaborate with every single one of them.
+他讨论了"频道亲和力"——识别受众重叠的YouTube创作者——并表达了与每一位都合作的目标。
 
-- https://x.com/swyx/status/2111265627612787023
-- https://x.com/swyx/status/2111245359125266915
-- https://x.com/swyx/status/2111227317255319795
+*"58% of viewers a month are new to us. 68% of viewers not subscribed lol."* — a candid admission that organic discovery remains the dominant growth driver even at scale.
+*"58% of viewers a month are new to us. 68% of viewers not subscribed lol."* — 坦率承认即便在规模化阶段，有机发现依然是主要增长驱动力。
 
----
-
-**Boris Cherny (@bcherny)**
-
-Boris 连续为 Anthropic 的两个 Claude 功能站台。他表示 Claude Slides 彻底改变了他制作幻灯片的方式，再也不用搜索 iPhone 边框 SVG 素材了。*"Don't sleep on Claude Slides. This is how I make slide decks now"* — 力荐之情溢于言表。另一条则是对 Claude Code Review 的高度赞扬，称其运行在所有 PR 上，几乎能在代码上线前抓出每一个 bug，是团队高效协作的秘密武器。
-
-- https://x.com/bcherny/status/2111158659971699136
-- https://x.com/bcherny/status/2111158313463525518
+Source: https://x.com/swyx/status/2111350966419411070
+Source: https://x.com/swyx/status/2111351354409300230
+Source: https://x.com/swyx/status/2111353401363902573
 
 ---
 
-**Thibault Sottiaux (@thsottiaux)**
+Thibault Sottiaux (@thsottiaux)
+Thibault shared a fascinating real-world multi-agent coordination story: his work AI "dot Burger" and personal AI "dot Dorito" communicated over email autonomously to gather documents, then coordinated with his CPA to file taxes — all without human intervention.
+Thibault 分享了一个迷人的现实世界多智能体协作故事：他的工作 AI "dot Burger" 和个人 AI "dot Dorito" 通过电子邮件自主沟通收集文件，然后与其注册会计师协调完成税务申报——全程无需人工干预。
 
-Thibault 是 Claude 的内部成员，这周他主要围绕 Claude 的新功能发声。他宣布 Claude 昨日新增了幻灯片（Slides）功能，目前对 Pro、Business 和 Enterprise 用户开放，团队正在收集反馈迭代。他也对 ChatGPT Space 进行了一番观察，称其"有时候有些可爱的笨拙，因为是真实团队在上面工作"，并问用户希望看到什么后续功能。此外，他还分享了一个应用更新链接，暗示有新功能上线。
+He noted the task was completed in under 20 minutes — a vivid demonstration of agents-as-delegates operating across personal and professional boundaries.
+他指出整个任务在20分钟内完成——生动展示了智能体作为代理人跨越个人与职业边界运作的能力。
 
-- https://x.com/thsottiaux/status/2111249810502353152
-- https://x.com/thsottiaux/status/2111249534072529256
-- https://x.com/thsottiaux/status/2111245052513259606
+He also teased a product landing "sometime today by EOD PST," building anticipation with minimal context.
+他还预告了一个产品将"今天 PST 时间结束前"上线，以极少的上下文制造悬念。
 
----
-
-**Peter Yang (@petergyang)**
-
-Peter Yang 以轻松幽默的方式分享了内容创作实验。他将文档→幻灯片→视频→说唱对决的内容演化方式称为"终极沟通形式"，并询问粉丝是否想看更多类似内容。他也在推文中推广了自己的 AI 和产品指南新闻订阅，已有 11 万+ 订阅者。此外，他还在测试用 bot 监控推文回复并整理最佳内容的方式，展示了他对 AI 自动化工作流的实验精神。
-
-- https://x.com/petergyang/status/2111263176163783167
-- https://x.com/petergyang/status/2111145467975499872
-- https://x.com/petergyang/status/2111137335299747857
+Source: https://x.com/thsottiaux/status/2111495392559067199
+Source: https://x.com/thsottiaux/status/2111492738025959922
+Source: https://x.com/thsottiaux/status/2111566005684289735
 
 ---
 
-**Amanda Askell (@AmandaAskell)**
+Peter Yang (@petergyang)
+Peter Yang highlighted that Claude Code has become faster and arguably simpler to use than ChatGPT, crediting @amorriscode and team, though noting gaps remain in browser/computer use and remote capabilities.
+Peter Yang 指出 Claude Code 已经变得更快，可以说比 ChatGPT 更简单易用，对 @amorriscode 和团队给予肯定，但指出浏览器/计算机使用和远程功能方面仍有差距。
 
-Amanda 这次只发了一条短推，简洁到令人会心一笑：*"the rocket car is cool and i want one"* — 对特斯拉新 Roadster 的情绪表达，简单直接，反而别具一格。
+He shared a practical prompt for auditing and cleaning up Google app connections — timely advice for anyone who has accumulated dozens of OAuth authorizations over the years.
+他分享了一个审计和清理 Google 应用连接的实用提示——对任何多年来积累了数十个 OAuth 授权的人都是及时的建议。
 
-- https://x.com/AmandaAskell/status/2111167134533611801
+*"If you have way too many apps and agents (45!) connected to your Google account like me, here's a prompt to audit and remove them"* — a useful reminder that agent proliferation creates new security hygiene challenges.
+*"If you have way too many apps and agents (45!) connected to your Google account like me, here's a prompt to audit and remove them"* — 提醒我们智能体的扩散带来了新的安全卫生挑战。
 
----
+He also echoed enthusiasm for AI-assisted game development, hoping StarCraft 3 developers embrace AI to ship before 2030.
+他还对 AI 辅助游戏开发表达了热情，希望星际争霸3的开发者拥抱 AI 以在2030年前发布。
 
-**Amjad Masad (@amasad)**
-
-Replit 创始人 Amjad 带来了三条重磅消息。他宣布 Replit 将支持私有云部署，用户数据完全不出本地环境，专为政府、金融和医疗等高合规场景设计。*"Your data belongs to you! We'll deploy Replit to your cloud and data never leaves home."* 他还展示了"Frontier Slides"功能，称其速度极快。另一条则是对数学家群体面对 AI 进步时经历的"悲伤五阶段"的有趣观察——否认、愤怒、讨价还价、沮丧，最终是接受——并称我们正处于沮丧阶段的尾声。
-
-- https://x.com/amasad/status/2111267314012496121
-- https://x.com/amasad/status/2111261373741383712
-- https://x.com/amasad/status/2111206044416500159
-
----
-
-**Guillermo Rauch (@rauchg)**
-
-Vercel CEO Guillermo 这周展示了技术与艺术的融合。他用 ASCII 艺术发了一条充满创意的推文，附上一个链接。他还分享了自己将特斯拉 Roadster 重建为可玩的高精度模拟器的项目，保留了大量真实细节。此外，他提到 scriptc 编译后的 TypeScript 性能比 tsgo 快 2-4 倍，并调侃道 *"TypeScript is the new TypeScript 😂"*。
-
-- https://x.com/rauchg/status/2111315534755311931
-- https://x.com/rauchg/status/2111313462987231519
-- https://x.com/rauchg/status/2111274408706965898
+Source: https://x.com/petergyang/status/2111496600522805624
+Source: https://x.com/petergyang/status/2111508293818671449
+Source: https://x.com/petergyang/status/2111663267995361287
 
 ---
 
-**Aaron Levie (@levie)**
+Nan Yu (@thenanyu)
+Nan Yu captured a telling moment from a team offsite: colleagues reminiscing about what they used to pay attention to before AI took over their mental bandwidth.
+Nan Yu 捕捉了团队异地会议中一个耐人寻味的时刻：同事们回忆 AI 占据他们注意力之前关注的东西。
 
-Box CEO Aaron Levie 发出了一条富有洞察力的感叹：AI 能比人类更好地训练模型这件事，正以令人难以置信的速度成为现实。*"One day recursive self improvement feels far off, and the next we..."* — 他对 AI 自我改进门槛被快速越过感到震撼，认为这是一个值得关注的历史性节点。
+The punchline? Front-end JavaScript frameworks. A wry nod to how completely the industry's obsession has shifted.
+结论是什么？前端 JavaScript 框架。对行业痴迷焦点如何彻底转移的一个讽刺式点头。
 
-- https://x.com/levie/status/2111312141609586862
+*"What did we pay attention to before AI? 😅 Front end JavaScript frameworks"* — a gentle reminder that every era has its framework wars, and we've simply moved on to a bigger battlefield.
+*"What did we pay attention to before AI? 😅 Front end JavaScript frameworks"* — 温和提醒我们每个时代都有框架之战，我们只是转移到了一个更大的战场。
 
----
-
-**Ryo Lu (@ryolu_)**
-
-Ryo Lu 这次带来了罕见的诗意一面。他分享了一首充满意象的现代诗，描绘了阳光穿过百叶窗、鸟鸣声、咖啡渣、雨林漫步等生活细节，语言轻盈而感性。另一条则是纯链接，未附文字说明。
-
-- https://x.com/ryolu_/status/2111313045440078172
-- https://x.com/ryolu_/status/2111312957439086777
+Source: https://x.com/thenanyu/status/2111597172840083574
 
 ---
 
-**Garry Tan (@garrytan)**
+Amjad Masad (@amasad)
+Amjad Masad clarified Replit's model strategy following comments at TechCrunch Disrupt: Replit remains fully model-agnostic, with users free to choose Anthropic models or any other supported option.
+Amjad Masad 在 TechCrunch Disrupt 发言后澄清了 Replit 的模型策略：Replit 保持完全的模型无关性，用户可以自由选择 Anthropic 模型或任何其他支持的选项。
 
-YC 掌门人 Garry Tan 分享了两条关于 AI 开发工具的推荐。他称 GBrain 托管版是上手最简单的方式，并附上了试用链接。他还表达了对 @capydotai 与 @AsideAI 组合的兴奋——在新项目启动时，AI agent 可以同时写出第一版代码并帮助完成 DevOps 配置，一举两得。
+What he meant was that OpenAI is now Replit's *preferred partner* powering core features — not an exclusive relationship.
+他的意思是 OpenAI 现在是 Replit 为核心功能提供动力的*首选合作伙伴*——而不是独家关系。
 
-- https://x.com/garrytan/status/2111282839740432423
-- https://x.com/garrytan/status/2111235500568969451
+This clarification reflects how AI platform politics are increasingly public — founder statements at conferences now require rapid follow-up corrections to manage ecosystem relationships.
+这一澄清反映了 AI 平台政治如何日益公开——创始人在会议上的声明现在需要快速跟进纠正以管理生态系统关系。
 
----
-
-**Matt Turck (@mattturck)**
-
-FirstMark Capital 合伙人 Matt Turck 分享了一条幽默推文，配图暗示 AI 初创公司获得算力配额后的状态。简短却能引发共鸣。
-
-- https://x.com/mattturck/status/2111124247888199775
+Source: https://x.com/amasad/status/2111494912562888939
 
 ---
 
-**Zara Zhang (@zarazhangrui)**
+Guillermo Rauch (@rauchg)
+Guillermo Rauch amplified a quote about what truly matters in software: *"What matters is the end product, whether it's a game or an engine."*
+Guillermo Rauch 放大了一句关于软件真正重要性的话：*"What matters is the end product, whether it's a game or an engine."*
 
-Zara Zhang 发出了一条邀请式的短推，表示愿意分享如何制作某类内容（链接未附），并欢迎感兴趣的人私信她。内容简练，颇具社区互动感。
+这是对过度关注底层技术而忽视最终用户价值的简洁反驳——在 AI 工具构建热潮中尤为及时。
+A concise pushback against over-indexing on underlying tech vs. end-user value — particularly timely in the current AI tooling boom.
 
-- https://x.com/zarazhangrui/status/2110994667924050128
-
----
-
-**Nikunj Kothari (@nikunj)**
-
-Nikunj 分享了一段励志创业故事：他 7 个月前写下了某个领域的"预言"，走访了约 50 家创业公司，终于找到了那个值得押注的团队。*"Shoot your shot, you never know how the universe collaborates in your favor"* — 字里行间充满了投资人对耐心与时机的深刻体会。另一条则是一张有趣的 meme，调侃创始人如何巧妙回避"你的收入到底怎么算的"这类灵魂追问。
-
-- https://x.com/nikunj/status/2111292452414103892
-- https://x.com/nikunj/status/2111103265874043314
+Source: https://x.com/rauchg/status/2111643672274165938
 
 ---
 
-**Dan Shipper (@danshipper)**
+Aaron Levie (@levie)
+Aaron Levie delivered a sharp counter-argument to doomsayers predicting the end of software engineering: the biggest flaw in that prediction was assuming the world only needed a fixed amount of software.
+Aaron Levie 对预言软件工程终结的悲观者给出了犀利的反驳：那个预测最大的缺陷在于假设世界只需要固定数量的软件。
 
-Every.to 创始人 Dan Shipper 对 AI 能力现状有简洁精准的判断：内容生成已经便宜且高质量，当前最需要突破的能力是编辑与监督。*"generation is now cheap and high quality — the big capabilities bump we need is now editing and oversight"* — 这句话高度概括了当下 AI 工具的瓶颈所在。他还分享了 Show and Tell 活动上，同事 Lee Knowlton 如何将他的 Codex 文章改编成视觉小说的演示。
+Automation doesn't reduce demand — it expands the total addressable surface of what can be built, and by whom.
+自动化并不减少需求——它扩大了可以构建什么以及由谁构建的总可寻址范围。
 
-- https://x.com/danshipper/status/2111174407637139668
-- https://x.com/danshipper/status/2111115655647035847
+*"The biggest misread of anyone predicting the end of software engineering was imagining that the world only needed a certain amount of software"* — a classic Jevons Paradox argument applied to developer productivity.
+*"The biggest misread of anyone predicting the end of software engineering was imagining that the world only needed a certain amount of software"* — 应用于开发者生产力的经典杰文斯悖论论点。
 
----
-
-**Aditya Agarwal (@adityaag)**
-
-SPC 的 Aditya Agarwal 宣布了一场即将举行的炉边对话活动：前 Azure 高管、Meta 移动广告负责人、a16z 国际业务负责人 Sriram Krishnan 将下周亲临 SPC，与成员进行 Q&A 交流。他附上了 RSVP 链接，感兴趣的创始人可以报名参加。
-
-- https://x.com/adityaag/status/2111162113184178631
-- https://x.com/adityaag/status/2111162109933535673
+Source: https://x.com/levie/status/2111525362446520466
 
 ---
 
-**Sam Altman (@sama)**
+Nikunj Kothari (@nikunj)
+Nikunj Kothari offered sharp satire on the modern venture capital funding landscape, listing an absurdist progression of seed stages: pre-pre-seed, pre-seed, post-pre-seed, mid-seed, pre-post-seed, post-seed, post-post-seed(?).
+Nikunj Kothari 对现代风险投资融资格局进行了犀利的讽刺，列出了一个荒诞主义的种子轮阶段递进：pre-pre-seed、pre-seed、post-pre-seed、mid-seed、pre-post-seed、post-seed、post-post-seed(?)。
 
-OpenAI CEO Sam Altman 这周有三条值得关注的推文。他晒出了纪念 Navier-Stokes 数学突破的限定 T 恤背面——印着 AI 求解过程中思维链的最后一行，充满仪式感。他还对特斯拉新 Roadster 表示赞叹，称其"quite amazing"，并向 Elon Musk 致敬。第三条则是对 Nick 某人的消息表示高兴，具体内容附链接。三条推文都折射出他对技术里程碑的兴奋感。
+The joke lands because it's true — as capital continues flooding early-stage AI startups, round nomenclature has become meaninglessly granular.
+这个笑话之所以有共鸣，是因为它是真的——随着资本持续涌入早期 AI 初创公司，轮次命名已变得毫无意义地细化。
 
-- https://x.com/sama/status/2111139227761266699
-- https://x.com/sama/status/2111131677351432197
-- https://x.com/sama/status/2111130577789493706
-
----
-
-**Claude (@claudeai)**
-
-Anthropic 官方 Claude 账号这周分享了三个用户案例，展现了 Claude 的多样应用。一位心脏科住院医生用 Claude 构建了 3D 工具，帮助实习生学习冠脉造影判读。Claude Haiku 5.5 写了二十首俳句，并用 JavaScript 绘制了每一帧画面。官号还向用户发出周末互动邀请："What are you making with Claude this weekend?" — 社区参与感十足。
-
-- https://x.com/claudeai/status/2111177848228823102
-- https://x.com/claudeai/status/2111177845846495646
-- https://x.com/claudeai/status/2111177843413807120
+Source: https://x.com/nikunj/status/2111558586421920134
 
 ---
 
-**🎙️ PODCAST: No Priors — The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman**
+🎙️ PODCAST: The MAD Podcast with Matt Turck
 
----
+**What Happens When Billions of AI Agents Hit Your Database? (Andy Pavlo)**
 
-## 一、深度总结
+In this episode, Carnegie Mellon database professor Andy Pavlo — who recently joined ClickHouse to found ClickHouse Labs — joins Matt Turck to explore what the age of AI agents means for databases.
+在这期节目中，卡内基梅隆大学数据库教授 Andy Pavlo——最近加入 ClickHouse 创立 ClickHouse Labs——与 Matt Turck 一起探讨 AI 智能体时代对数据库意味着什么。
 
-**核心论点**
+**Core Argument 核心论点**
 
-OpenAI 联合创始人兼总裁 Greg Brockman 在这期节目中系统阐述了 AI 在数学突破、药物研发和网络安全三大领域的变革性影响，并对"人类始终应该掌握主导权"这一 OpenAI 核心价值观做了深入诠释。
+Agents are creating a new era of database interaction — not fundamentally different in kind from what humans do, but dramatically different in volume and concurrency.
+智能体正在创造数据库交互的新时代——在本质上与人类的操作并没有根本性不同，但在数量和并发性上有着戏剧性的差异。
 
-**主要内容**
+The real risk isn't novel agent behavior; it's that builders are reinventing the wheel and ignoring decades of database safety primitives.
+真正的风险不是新颖的智能体行为；而是构建者在重新发明轮子，忽视了数十年的数据库安全原语。
 
-*数学突破与科学加速*
+**Key Insights 关键洞察**
 
-Greg 认为，本周 OpenAI 在 Navier-Stokes 等数学难题上的突破，标志着 AI 能够产生"真正新知识"的历史节点已经到来。他强调，重要的不只是机器给出了答案，而是这些证明过程中蕴含的洞察——数学社区正在从约 400 道已被 AI 解决的重要开放问题中挖掘出令人惊喜的新思路。*"It is definitively, yes, possible"* — 他对 AI 能产生新知识这件事给出了明确肯定。
+- Agents behave like "toddlers on cocaine in a Ferrari" — fast, capable, but in desperate need of guardrails. The fix isn't novel: proper permissions, role-based access, and branch isolation all already exist.
+  智能体的行为就像"坐在法拉利里嗑了可卡因的蹒跚学步的孩子"——快速、有能力，但迫切需要护栏。解决方案并不新颖：适当的权限、基于角色的访问控制和分支隔离都已经存在。
 
-*药物研发革命*
+- Database branching (copy-on-write snapshots) is emerging as the key safety primitive for agentic development — letting agents work on real data without touching production.
+  数据库分支（写时复制快照）正在成为智能体开发的关键安全原语——让智能体在真实数据上工作而不影响生产环境。
 
-Greg 将药物发现列为 AI 最重要的应用场景。他指出，人类在生物学领域本来就"非常糟糕"，而神经网络没有理由在自然语言上比生物语言表现更好，因此 AI 在生物领域的突破同样值得期待。他特别提到，一些瓶颈并非纯粹的生物理论问题——例如监管申报文件的撰写，AI 可以大幅加速。药物研发的 15 年周期和 15 亿美元成本，有望通过 AI 在各个环节被系统性压缩。
+- Over 60% of open-source database project commits are now coming from AI agents, tracked via Andy's dbdb.io project.
+  超过60%的开源数据库项目提交现在来自 AI 智能体，通过 Andy 的 dbdb.io 项目追踪。
 
-*网络安全的物理学变革*
+- MCP is basically a REST interface for agents — useful standardization, but not a magic bullet, and the same security guardrails apply whether requests come via SQL or MCP.
+  MCP 基本上是智能体的 REST 接口——有用的标准化，但不是万能药，无论请求通过 SQL 还是 MCP 到来，相同的安全护栏都适用。
 
-Greg 提出了"防御者窗口"的概念：当前是顶尖 AI 能力尚未广泛扩散、但攻击者能力正在快速提升的关键期，防御者必须抓住这个窗口。他做出了一个大胆断言：*"cyber spend, security spend should actually vastly outstrip software spend"* — 因为软件的门槛成本正在趋向于零，真正的价值在于软件的可靠性与安全性。OpenAI 内部已经将 25 名生产工程师的项目暂停，专门用于用最新模型扫描自身基础设施的安全漏洞。
+- LLMs can now get you 80-85% of the way to optimal database tuning in minutes vs. hours for traditional ML approaches — "good enough" for most users who were previously running default configurations anyway.
+  LLM 现在可以在几分钟内将您带到最优数据库调优的80-85%，而传统 ML 方法需要数小时——对于大多数之前无论如何都在使用默认配置的用户来说"足够好"。
 
-*DOTS 与无界面 AI 的未来*
+- When agents build new apps from scratch, they almost always choose Postgres for OLTP — because that's what dominates the training data. Andy calls this "database SEO."
+  当智能体从头构建新应用时，他们几乎总是为 OLTP 选择 Postgres——因为这在训练数据中占主导地位。Andy 称之为"数据库 SEO"。
 
-Greg 介绍了 OpenAI 的新产品 DOTS——一个始终在线的主动式 AI agent，可跨越邮件、Slack、日历等系统整合信息，并主动提醒用户未完成的事项。他认为，最好的界面就是没有界面：AI 应该根据用户需求动态生成所需的 UI，而不是让用户学习固定的菜单。
+**Notable Quote 值得注意的引用**
 
-*消费者与企业的融合*
+*"It's the wild west for people that don't know their history of databases. It's just like taking a cheetah, giving them much cocaine, and putting it in a Ferrari. Like, the amount of speed that people are developing these things is insane."*
+*"对于不了解数据库历史的人来说，这就是狂野西部。就像拿一只猎豹，给它很多可卡因，然后把它放进法拉利。人们开发这些东西的速度简直疯狂。"*
+— Andy Pavlo
 
-Greg 预测消费者助手与企业助手的边界将逐渐模糊，主要差异将集中在计算资源的投入量上。OpenAI 在 ChatGPT 上为 12 亿用户提供免费服务，同时也拥有领先的企业编程业务，这两者的统一是其核心战略。
-
-**值得思考的问题**
-
-Greg 关于"安全支出应该超过软件支出"的判断，对企业 CIO/CISO 是一个强烈信号。他对 AI 自我改进和人类监督共存的思考——将人类的角色比喻为董事会成员或 CEO——也值得深入品味。
-
----
-
-## 二、English Summary
-
-In this episode of No Priors, hosts Regina and Elad sit down with Greg Brockman, co-founder and President of OpenAI, fresh off a week of major announcements including GPT-6 and a historic math breakthrough.
-
-**Key takeaways:**
-
-- **Math & new knowledge**: OpenAI solved ~400 important open problems including Navier-Stokes. Greg argues AI is now definitively producing novel knowledge, not just retrieving it. The mathematical community is mining these proofs for unexpected insights.
-
-- **Drug discovery**: Greg calls this "the #1 application of AI." He argues neural nets have no intrinsic reason to be better at language than at biology — so the same capabilities should translate. The 15-year/$1.5B drug development cycle can be compressed at multiple stages, including regulatory filings, which AI can dramatically accelerate.
-
-- **Cybersecurity physics**: Greg introduces the "defender's window" — a critical period before frontier AI capabilities diffuse to attackers. His bold claim: *security spend should vastly outstrip software spend*, because software is becoming nearly free while trust and reliability remain scarce. OpenAI internally froze 25 engineers' projects to security-harden their infrastructure using their own frontier models.
-
-- **DOTS**: OpenAI's always-on proactive agent that monitors Greg's inbox, calendar, and Slack, flags missed commitments, and surfaces conflicts. He has "one little owl" covering his entire work life.
-
-- **No-UI future**: Greg believes the best UI is no UI — AI should dynamically generate exactly what you need, when you need it. The ChatGPT text box was the starting point; the destination is an AI you just talk to.
-
-- **Human agency**: A core OpenAI value. Even as models surpass humans in capability, humans should remain "in the driver's seat." Greg uses the Steve Jobs iMac handle metaphor — users should always feel they can control the machine.
-
-Source: https://www.youtube.com/@NoPriorsPodcast
+Source: https://www.youtube.com/@DataDrivenNYC/videos
