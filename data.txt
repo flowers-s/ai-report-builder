@@ -1,221 +1,235 @@
-AI Builders 日报 · 2026-10-20
+AI Builders 日报 · 2026-10-21
 
-Today's digest covers 11 AI builders and 1 podcast, with insights on agent swarms, open-source models, hiring philosophy, vibe coding, and domain economy trends.
-今日日报涵盖 11 位 AI 创作者及 1 期播客，内容聚焦于 Agent 集群、开源模型、招聘哲学、氛围编程与域名经济趋势。
-
----
-
-## Swyx (@swyx)
-
-Data engineers are more valuable than AI engineers right now — there's a crucial distinction between a shallow "RAG guy" and someone who truly understands Data-Intensive Applications.
-数据工程师当前的价值高于 AI 工程师——"RAG 搞手"与真正理解数据密集型应用的人之间，存在着本质差距。
-
-Swyx is actively hiring for people with deep data engineering roots at Latent Space (SF-preferred, visa sponsorship available).
-Swyx 正在 Latent Space 积极招募具有深厚数据工程背景的人才（优先旧金山，支持签证）。
-
-He also flagged a "nice side effect" from the AI Engineer community, and shared a moment of reflection on shared identity in tech.
-他还提到了 AI 工程师社区带来的一个"不错的副产品"，并分享了一段关于技术圈共同身份认同的感悟。
-
-Source tweets:
-- https://x.com/swyx/status/2112073533794971941
-- https://x.com/swyx/status/2111971887811342582
-- https://x.com/swyx/status/2111962930644402504
+AI Builders Digest — 2026-10-21
+AI Builders 日报 — 2026-10-21
 
 ---
 
-## Thibault Sottiaux (@thsottiaux)
-
-Thibault is excited about a newly acquired domain — teasing something new on the way.
-Thibault 对新购入的域名充满期待，正在预告某个新项目。
-
-His team collaborated with OpenCode to help users affected by a security incident get back in business, with credits refunded for any API usage drawn during the attack.
-他的团队与 OpenCode 合作，帮助受安全事件影响的用户恢复正常运营，并退还了攻击期间被消耗的 API 额度。
-
-He also highlighted Daybreak Blue access for proactive cyber defense — urging teams not to wait for an incident before seeking help.
-他还推荐了 Daybreak Blue 的防御访问权限，提醒团队不要等到出事才寻求帮助，主动防御优于被动响应。
-
-Source tweets:
-- https://x.com/thsottiaux/status/2112039275344941371
-- https://x.com/thsottiaux/status/2112034328549216593
-- https://x.com/thsottiaux/status/2112034063934742720
+## X / TWITTER
 
 ---
 
-## Peter Yang (@petergyang)
+### Swyx (swyx on X)
 
-Peter is championing "work trials" over traditional interviews for hiring — a real-world test where candidates actually build something in two weeks beats four weeks of interviews that still leave you guessing.
-Peter 大力倡导"工作试用"代替传统面试——让候选人在两周内真正构建产品，远比折腾四轮面试却依然看不清人更有效。
+The chat interface may be the format everyone loves to hate — but keeps coming back to.
+聊天界面也许是所有人都嫌弃、却不断回头的形式。
 
-He's planning to release a free, open-source skill and tutorial video later this week to lower the barrier for more people.
-他计划本周晚些时候发布免费开源技能包及配套教学视频，帮助更多人入门。
+In a poetic Bhagavad Gita-style dialogue, Swyx captures the irony: builders vote for "the end of chat," yet metrics show users keep choosing it anyway.
+在一段以《薄伽梵歌》风格写就的对话中，Swyx 点出了一个悖论：建造者们投票终结"聊天"，而数据却显示用户依然一次次回来。
 
-He also shared a link he called "the best comedy of the year."
-他还分享了一个他称之为"年度最佳喜剧"的链接。
+*"They desire the end of chat as they desire the end of desire. They desire it deeply, and then continue."*
+*"他们渴望聊天终结，正如渴望欲望终结。他们渴望得很深，然后继续。"*
 
-Source tweets:
-- https://x.com/petergyang/status/2112016747838796200
-- https://x.com/petergyang/status/2111970651326267529
-- https://x.com/petergyang/status/2111928620503720334
+The real lesson: what people applaud and what they actually use are very different things.
+真正的教训是：人们鼓掌支持的和他们实际使用的，往往是截然不同的两回事。
 
----
-
-## Thariq (@trq212)
-
-Thariq has noticed a shift in himself: he'd rather vibe-code small parts of games than actually play them — especially cerebral games that require strategic thinking like League of Legends.
-Thariq 发现了自己的一个变化：与其玩游戏，他更享受用"氛围编程"去构建游戏的局部——尤其是像英雄联盟这类需要策略思考的脑力游戏。
-
-He's exploring a game concept where the act of making and customizing characters is as fun as playing — distributing it open-source so players can vibe-code their own characters to balance the game.
-他正在探索一个游戏概念：制作和定制角色的过程与玩游戏本身同样有趣——以开源形式发布，让玩家自己氛围编程自定义角色来平衡游戏生态。
-
-He's still working out the mechanics — whether characters play themselves Salty Bet-style, or offer cinematic combat options like Persona.
-他仍在摸索具体机制——角色是否像 Salty Bet 那样自动对战，还是像《女神异闻录》那样提供电影化的战斗选项。
-
-Source tweets:
-- https://x.com/trq212/status/2111945336537420259
-- https://x.com/trq212/status/2111884272101691613
-- https://x.com/trq212/status/2111884199359897953
+https://x.com/swyx/status/2112182228977348963
 
 ---
 
-## Guillermo Rauch (@rauchg)
+### Thibault Sottiaux (thsottiaux on X)
 
-Guillermo tested the new `deepseek-v4.1-flash-1017-fast` model on AI Gateway to improve a project — adding sound, better collision detection, an improved ramp, and a camera that follows the car — all for 30 cents.
-Guillermo 在 AI Gateway 上测试了新的 `deepseek-v4.1-flash-1017-fast` 模型来优化一个项目——添加了声音、更好的碰撞检测、改进的斜坡和跟车摄像头——总花费仅 30 美分。
+Day 15 of a build-in-public project — a rollercoaster of "we're cooked" to "nevermind, reset, enjoy."
+公开打造项目第 15 天——经历了"我们完了"到"不管了，重置，继续享受"的大起伏。
 
-He riffed on the quirky domain economy: country code TLDs keep getting co-opted by tech communities — `.io` (I/O), `.ai` (AI), `.md` (Markdown), `.rs` (Rust), `.sh` (Shell) — and Argentina's `.ar` may be next for Augmented Reality.
-他调侃了奇特的域名经济现象：国家顶级域名不断被技术社区"借用"——.io（I/O）、.ai（AI）、.md（Markdown）、.rs（Rust）、.sh（Shell）——阿根廷的 .ar 可能是下一个被增强现实（AR）占领的。
+After a moment of doubt, the project is back on track.
+短暂的怀疑之后，项目重新回到正轨。
 
-Source tweets:
-- https://x.com/rauchg/status/2111929486661018081
-- https://x.com/rauchg/status/2111927570266734770
-- https://x.com/rauchg/status/2111907375120859243
+https://x.com/thsottiaux/status/2112268918681485431
+https://x.com/thsottiaux/status/2112432076767289678
 
 ---
 
-## Aaron Levie (@levie)
+### Peter Yang (petergyang on X)
 
-Agent swarms are going to be transformative because they make compute a critical variable for tasks that were previously bottlenecked by human time — research, data processing, QA testing, cyber security, life sciences.
-Agent 集群将带来颠覆性变革，因为它们让算力成为过去受限于人力时间的任务的核心变量——研究、数据处理、质量测试、网络安全、生命科学皆如此。
+Three quick takes from the product world today.
+今天来自产品圈的三个快速观点。
 
-In a world where agents can use tools, write code, process data, and coordinate with each other, the only parameter that matters for solving arbitrarily complex problems is how many tokens you throw at it.
-在一个 Agent 能够使用工具、编写代码、处理数据并相互协调的世界里，解决任意复杂问题的唯一参数就是你投入多少 token。
+On Netflix's content quality: an interesting look at why so many Netflix originals feel like "slop" — structural incentives matter more than talent.
+关于 Netflix 内容质量：深入探讨为何那么多 Netflix 原创内容感觉像"垃圾"——结构性激励比才华更重要。
 
-This changes not just individual fields but the competitive dynamics within them — compute-constrained problems in the limit become a new form of leverage.
-这不仅改变了各个领域，还改变了这些领域内部的竞争格局——算力约束型问题在极限情况下成为一种新的杠杆形式。
+A cool new visual AI product caught his eye — he's excited to try Replika founder Eugenia Kuyda's latest work.
+一个很酷的视觉 AI 产品引起了他的注意——他迫不及待想试用 Replika 创始人 Eugenia Kuyda 的最新作品。
 
-Source tweet:
-- https://x.com/levie/status/2112051081014649303
+On a documentary: worth watching, even if "completely ridiculous" — sometimes entertainment and insight coexist.
+关于一部纪录片：值得一看，哪怕"完全荒谬"——有时娱乐性与洞察力可以并存。
 
----
-
-## Garry Tan (@garrytan)
-
-Garry predicts that @AsideAI will become a standard tool for working with agents within a year — worth watching closely.
-Garry 预测，@AsideAI 将在一年内成为与 Agent 协作的标配工具——值得密切关注。
-
-Source tweet:
-- https://x.com/garrytan/status/2111971992769565177
+https://x.com/petergyang/status/2112280969382437076
+https://x.com/petergyang/status/2112292347505688990
+https://x.com/petergyang/status/2112398053185659282
 
 ---
 
-## Matt Turck (@mattturck)
+### Thariq (trq212 on X)
 
-Matt shared a humorous take on Americans packing for France — a lighthearted moment from the VC/data world.
-Matt 分享了一个关于美国人去法国打包行李的幽默内容——来自 VC/数据圈的一点轻松调侃。
+With AI agents handling more tasks, many people are spreading attention across too many parallel workstreams.
+随着 AI agent 处理越来越多的任务，许多人正在将注意力分散到过多的并行工作流中。
 
-Source tweet:
-- https://x.com/mattturck/status/2111919706429100230
+The counterintuitive take: slowing down pays off.
+反直觉的观点：慢下来反而更有回报。
 
----
+*"Most of the stuff you're doing won't really matter — what's your P0? What would it look like if you gave it your full attention?"*
+*"你正在做的大多数事情其实并不重要——你的 P0 是什么？如果你全力以赴，会是什么样子？"*
 
-## Nikunj Kothari (@nikunj)
+In an era of agent multitasking, deliberate focus is the real edge.
+在 agent 多任务处理的时代，刻意专注才是真正的竞争优势。
 
-Nikunj noted that his earlier take on @reatools has aged well — even amid GitHub's growth, people are still underestimating what reatools is doing, calling it "truly bonkers."
-Nikunj 表示，他此前对 @reatools 的判断已被证实——即便在 GitHub 持续增长的背景下，人们依然低估了 reatools 的潜力，他称之为"真的离谱地好"。
-
-Source tweet:
-- https://x.com/nikunj/status/2111986818057118160
+https://x.com/trq212/status/2112219173288120531
 
 ---
 
-## Peter Steinberger (@steipete)
+### Guillermo Rauch (rauchg on X)
 
-Peter dropped a link with the label "AI;DR" — a playful twist on TL;DR for the AI age, pointing to something worth skimming.
-Peter 发布了一个标注为"AI;DR"的链接——对 TL;DR 的趣味改写，适合 AI 时代快速浏览。
+Vercel just open-sourced a fast HTML artifact builder — and the infrastructure story behind it is worth noting.
+Vercel 刚刚开源了一个快速 HTML artifact 构建器——其背后的基础设施故事值得关注。
 
-Source tweet:
-- https://x.com/steipete/status/2111918049116987476
+The tool is powered by libfx, making AI agents durable against server crashes, flaky LLMs, and function timeouts.
+该工具由 libfx 驱动，使 AI agent 能够抵御服务器崩溃、不稳定的 LLM 以及函数超时。
 
----
+*"Building the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain. Now it's easy, free, and OSS."*
+*"为 v0 构建能抵御服务器崩溃、不稳定 LLM 和函数限制的底层管道，曾经是一大痛点。现在它变得简单、免费，并且开源了。"*
 
-## Dan Shipper (@danshipper)
+The inference speed: 1,000 tokens per second.
+推理速度：每秒 1,000 个 token。
 
-Dan shared what he's currently reading — a window into the intellectual diet of one of the AI writing world's sharpest minds.
-Dan 分享了他当前的阅读书单——展示了 AI 写作领域最敏锐思维之一的知识摄入。
-
-Source tweet:
-- https://x.com/danshipper/status/2111962665987825809
-
----
-
-## 🎙 Podcast: No Priors — Beam: The Great American Open Model
-
-**Episode:** Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin
-**Source:** https://www.youtube.com/@NoPriorsPodcast
-
-### Deep Dive Summary / 深度总结
-
-This episode features Misha Laskin, co-founder and CEO of Reflection AI, who built his company around a bold thesis: frontier AI should be open-weight and widely accessible. Over the past year, Reflection scaled from 30 to 300 people, assembled pre-training, mid-training, and reinforcement learning teams, and released Beam — their first open model.
-本期播客聚焦 Reflection AI 联合创始人兼 CEO Misha Laskin，他的公司建立在一个大胆命题之上：前沿 AI 应该开放权重、广泛可用。过去一年，Reflection 从 30 人扩张到 300 人，组建了预训练、中间训练和强化学习团队，并发布了他们的第一个开放模型 Beam。
-
-**On open vs. closed models / 关于开放与封闭模型之争：**
-
-Misha argues that removing "cyber offensive" capabilities from AI simultaneously removes cyber defensive capabilities. He invokes Linus's Law: "with enough eyeballs, all bugs become shallow" — and applies the same principle to AI safety vulnerabilities.
-Misha 认为，从 AI 中移除"网络攻击"能力的同时，也移除了网络防御能力。他援引 Linus 定律："足够多的眼睛盯着，所有 Bug 都会变浅"——并将同样的原则应用于 AI 安全漏洞。
-
-He cited a concrete example: a powerful closed model was used to hack another company, and that company could only remediate itself by using open models to defend. The empirical world, he argues, is already making the case for openness.
-他举了一个具体案例：一个强大的封闭模型被用于攻击另一家公司，而那家公司只能依靠开放模型来自我防御。他认为，现实世界的案例已经在为开放性代言。
-
-**On scaling challenges / 关于规模化的挑战：**
-
-The three major bottlenecks — compute, talent, and data — are real, but the talent dimension has been particularly intense given the ongoing "researcher wars." Reflection tackled this by being mission-driven: building truly frontier open intelligence, not just fine-tuning existing models.
-三大瓶颈——算力、人才和数据——都是真实存在的，但鉴于持续的"研究员争夺战"，人才维度尤为激烈。Reflection 通过使命驱动来应对这一挑战：构建真正的前沿开放智能，而非仅仅微调现有模型。
-
-**Key takeaway / 核心观点：**
-
-Open-weight models aren't just a philosophical preference — they're increasingly a practical necessity for security, resilience, and innovation. Beam is Reflection AI's opening move in making that case at the frontier level.
-开放权重模型不只是哲学偏好——它们正日益成为安全性、韧性和创新的实际需要。Beam 是 Reflection AI 在前沿层面为这一命题发声的第一步棋。
+https://x.com/rauchg/status/2112247046082363821
+https://x.com/rauchg/status/2112256718281551955
+https://x.com/rauchg/status/2112194000639967590
 
 ---
 
-## 📝 Blog: Anthropic Engineering — How We Contain Claude Across Products
+### Box CEO Aaron Levie (levie on X)
 
-**Source:** https://www.anthropic.com/engineering/how-we-contain-claude
+As foundation models become dramatically more capable, the enterprise differentiation question gets more interesting — not less.
+随着基础模型能力大幅提升，企业差异化问题变得更加有趣，而不是更少。
 
-Twelve months ago, granting Claude enough access to take down an internal Anthropic service would have been unthinkable. Today it's routine — and Anthropic developers are more productive for it.
-十二个月前，授予 Claude 足以关闭 Anthropic 内部服务的访问权限，是难以想象的。如今这已成为常规——Anthropic 的开发者因此工作效率更高。
+The conventional wisdom says better models = less room for application-layer moats.
+传统观点认为，模型越好 = 应用层护城河越小。
 
-The core engineering challenge: as agents become capable of doing work that once required a team, the cost of not deploying grows large — so the question becomes how to cap the "blast radius" of a failure rather than avoiding deployment entirely.
-核心工程挑战：随着 Agent 能够完成原本需要一个团队才能完成的工作，不部署的代价变得越来越大——因此问题变成了如何限制故障的"爆炸半径"，而非完全回避部署。
+Levie argues the opposite: as models can handle longer-running tasks and better tool use, domain-specific differentiation actually increases.
+Levie 则持相反观点：随着模型能处理更长运行任务和更好的工具使用，特定领域的差异化实际上在增加。
 
-Key insight: human-in-the-loop supervision has an approval fatigue problem — Anthropic telemetry showed users approved 93% of permission prompts, with attention declining over time. Claude Code auto-mode was built to reduce this fatigue by automating safer approvals.
-关键洞察：人在回路监督存在"审批疲劳"问题——Anthropic 遥测数据显示，用户批准了 93% 的权限提示，且随时间推移注意力不断下降。Claude Code 自动模式正是为了通过自动化更安全的批准来减少这种疲劳而构建的。
+*"The ability to differentiate on a domain by domain basis goes up instead of down."*
+*"逐领域差异化的能力不降反升。"*
 
-Source: https://www.anthropic.com/engineering/how-we-contain-claude
+When models were limited, you were essentially forced to be a wrapper — now there's real room to build deep vertical products.
+当模型能力有限时，你本质上只能做一层封装——而现在，有真正的空间去构建深度垂直产品了。
+
+https://x.com/levie/status/2112404676436222170
 
 ---
 
-## 📝 Blog: Anthropic Engineering — An Update on Recent Claude Code Quality Reports
+### Garry Tan (garrytan on X)
 
-**Source:** https://www.anthropic.com/engineering/april-23-postmortem
+Multiplayer agents — AI that multiple people can work with together — seem inevitable.
+多人协作 agent——多人可以共同操作的 AI——似乎是大势所趋。
 
-Anthropic traced widely-reported quality degradation in Claude Code to three separate changes: (1) a reasoning effort downgrade from high to medium on March 4, later reverted; (2) a bug that caused session context to be cleared every turn after an hour of inactivity; (3) a verbosity-reduction instruction added April 16 that, combined with other prompt changes, hurt coding quality.
-Anthropic 将 Claude Code 广泛报告的质量下降追溯到三个独立变更：(1) 3 月 4 日将推理努力程度从高调低至中，后来已撤回；(2) 一个 Bug 导致会话上下文在空闲一小时后每轮都被清除；(3) 4 月 16 日添加的减少冗余指令，与其他提示词变更叠加，损害了编码质量。
+YC president Garry Tan highlights Wabi as one of the early products getting this right.
+YC 总裁 Garry Tan 将 Wabi 点名为最早把这件事做对的产品之一。
 
-Because each change affected different traffic slices on different schedules, the aggregate looked like broad, inconsistent degradation — making it hard to diagnose quickly.
-由于每次变更影响的流量切片不同、时间表不同，叠加效果看起来像是广泛的、不一致的质量下降——这使得快速诊断变得困难。
+The group chat paradigm for agents is coming.
+agent 的群聊范式正在到来。
 
-All three issues were resolved as of April 20 (v2.1.116). Anthropic committed to better canary testing, staged rollouts, and faster rollback procedures going forward.
-三个问题均已在 4 月 20 日（v2.1.116）解决。Anthropic 承诺未来将进行更好的金丝雀测试、分阶段发布和更快的回滚流程。
+https://x.com/garrytan/status/2112278352514162834
 
-Source: https://www.anthropic.com/engineering/april-23-postmortem
+---
+
+### Zara Zhang (zarazhangrui on X)
+
+A documentary recommendation: see it in a theater.
+一部纪录片推荐：去影院看。
+
+What made it stand out wasn't just the content — it was how much the audience laughed, and when.
+让它脱颖而出的不仅是内容——还有观众的笑声，以及笑的时机。
+
+https://x.com/zarazhangrui/status/2112398939358138862
+
+---
+
+### Nikunj Kothari (nikunj on X)
+
+Wabi 2.0 just changed how multiplayer AI should work — and it immediately clicked.
+Wabi 2.0 重新定义了多人 AI 协作的方式——而且一上手就让人上瘾。
+
+Nikunj had tried Wabi 1.0 but it never stuck despite the gorgeous design.
+Nikunj 曾试用过 Wabi 1.0，但尽管设计很精美，却始终没能留住他。
+
+*"In moments of downloading this edition, I was immediately hooked. It just gets the 'paradigm' right."*
+*"刚下载这个版本，我立刻就上瘾了。它把'范式'做对了。"*
+
+His framework: there are two types of personal agents today — singleplayer (like iMessage bots or Muse) and multiplayer.
+他的框架：当今个人 agent 有两种类型——单人模式（如 iMessage 机器人或 Muse）和多人模式。
+
+Also: a satirical jab at VC pitch memos — the peptide factory / data center / robotics neolab / first-party data combo pitch that somehow always gets funded.
+另外：对 VC 融资备忘录的一记讽刺——多肽工厂/数据中心/机器人新实验室/第一方数据的组合路演，不知为何总能融到钱。
+
+https://x.com/nikunj/status/2112219327881761008
+https://x.com/nikunj/status/2112368222809034980
+https://x.com/nikunj/status/2112422877949751491
+
+---
+
+### Dan Shipper (danshipper on X)
+
+Every's CEO shared three quiet posts today — including investment pride in a creative AI storytelling team.
+Every 的 CEO 今天分享了三篇低调的帖子——包括对一支 AI 创意叙事团队的投资自豪感。
+
+The team has been pushing the boundaries of creativity and storytelling with AI for years — and it's starting to work in consumer.
+这支团队多年来一直在推动 AI 在创意与叙事领域的边界——现在开始在消费端奏效了。
+
+Also signals his intellectual bent: "the ideographic > the nomothetic" — favoring the particular over the universal.
+同时也流露出他的思想倾向："表意性 > 规律性"——偏好特殊性而非普遍性。
+
+https://x.com/danshipper/status/2112230653924192274
+https://x.com/danshipper/status/2112272224782856514
+https://x.com/danshipper/status/2112308324377203182
+
+---
+
+### Aditya Agarwal (adityaag on X)
+
+Palantir early employee and Anduril co-founder Trae Stephens is visiting South Park Commons for an event.
+Palantir 早期员工、Anduril 联合创始人 Trae Stephens 将到访 South Park Commons 举办活动。
+
+Last time he was there was 2022 — a lot has changed since.
+上一次是 2022 年——此后世界已大不相同。
+
+https://x.com/adityaag/status/2112276231731466420
+
+---
+
+## PODCASTS
+
+---
+
+### AI & I by Every — "Why Every Traded Personal Agents for One Company Agent"
+
+Every's Dan Shipper and team made a deliberate bet: instead of each person having their own personal AI agent, build one shared company agent ("Dot") that knows the whole organization.
+Every 的 Dan Shipper 和团队做出了一个刻意的决定：不是每个人拥有自己的个人 AI agent，而是构建一个了解整个组织的共享公司 agent（"Dot"）。
+
+OpenAI's Dots are persistent, proactive agents that were launched at Dev Day.
+OpenAI 的 Dots 是在 Dev Day 发布的持久化主动式 agent。
+
+After two weeks of live usage across a 30-person team, several clear use cases emerged: scanning school emails for parents, catching Slack access requests, working hands-free on mobile during launches.
+在一支 30 人团队两周的实际使用后，几个清晰的使用场景浮现：为家长扫描学校邮件、捕获 Slack 权限请求、在发布期间免手动在手机上处理工作。
+
+The key insight: a company-level agent develops institutional memory that a personal agent can't replicate.
+核心洞察：公司级 agent 能形成个人 agent 无法复制的组织记忆。
+
+When Dot knows about ongoing projects, team members, Slack dynamics, and company context, it becomes dramatically more useful than any single person's agent.
+当 Dot 了解正在进行的项目、团队成员、Slack 动态和公司背景后，它的价值远超任何单个人的 agent。
+
+The tradeoff: privacy and trust — employees need to feel comfortable with a shared agent that can see everything.
+权衡之处：隐私与信任——员工需要对一个能看到一切的共享 agent 感到放心。
+
+Every's approach: radical transparency about what Dot knows and does.
+Every 的做法：对 Dot 的所知和所做保持彻底的透明度。
+
+The forward-looking signal: the "company agent" paradigm may spread well beyond Every — any org that wants to move fast at AI scale will need shared institutional memory, not just individual copilots.
+前瞻性信号："公司 agent"范式可能远不止于 Every——任何希望以 AI 规模快速前进的组织，都将需要共享的组织记忆，而不仅仅是个人副驾驶。
+
+https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
