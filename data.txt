@@ -1,234 +1,190 @@
-AI Builders 日报 · 2026-10-21
+AI Builders 日报 · 2026-10-22
 
-AI Builders Digest — 2026-10-21
-AI Builders 日报 — 2026-10-21
-
----
-
-## X / TWITTER
+AI Builders Digest — 2026-10-22
+AI Builders 日报 — 2026-10-22
 
 ---
 
-### Swyx (swyx on X)
-
-The chat interface may be the format everyone loves to hate — but keeps coming back to.
-聊天界面也许是所有人都嫌弃、却不断回头的形式。
-
-In a poetic Bhagavad Gita-style dialogue, Swyx captures the irony: builders vote for "the end of chat," yet metrics show users keep choosing it anyway.
-在一段以《薄伽梵歌》风格写就的对话中，Swyx 点出了一个悖论：建造者们投票终结"聊天"，而数据却显示用户依然一次次回来。
-
-*"They desire the end of chat as they desire the end of desire. They desire it deeply, and then continue."*
-*"他们渴望聊天终结，正如渴望欲望终结。他们渴望得很深，然后继续。"*
-
-The real lesson: what people applaud and what they actually use are very different things.
-真正的教训是：人们鼓掌支持的和他们实际使用的，往往是截然不同的两回事。
-
-https://x.com/swyx/status/2112182228977348963
+X / TWITTER
 
 ---
 
-### Thibault Sottiaux (thsottiaux on X)
+Swyx (swyx on X) — AI Engineer / smol_ai / Latent Space Pod
 
-Day 15 of a build-in-public project — a rollercoaster of "we're cooked" to "nevermind, reset, enjoy."
-公开打造项目第 15 天——经历了"我们完了"到"不管了，重置，继续享受"的大起伏。
+Swyx expressed frustration with Claude's Opus model triggering content filters unexpectedly, blocking his work on an AI media organization.
+Swyx 对 Claude Opus 模型意外触发内容过滤器感到沮丧，这阻碍了他的 AI 媒体机构项目推进。
 
-After a moment of doubt, the project is back on track.
-短暂的怀疑之后，项目重新回到正轨。
+*"jfc, give me prod, not god. i cant build an ai media org with this in the critical path."*
+*"老天，给我一个能用的生产版本，别给我一个'神'。这东西卡在关键路径上，我根本没法做 AI 媒体机构。"*
 
-https://x.com/thsottiaux/status/2112268918681485431
-https://x.com/thsottiaux/status/2112432076767289678
+He also attempted to use OpenAI's Codex to generate animated explainer videos, but found it wasn't up to the task ("ngmi").
+他还尝试用 OpenAI 的 Codex 生成动画讲解视频，但发现它无法胜任这项工作（"ngmi"，做不到）。
 
----
-
-### Peter Yang (petergyang on X)
-
-Three quick takes from the product world today.
-今天来自产品圈的三个快速观点。
-
-On Netflix's content quality: an interesting look at why so many Netflix originals feel like "slop" — structural incentives matter more than talent.
-关于 Netflix 内容质量：深入探讨为何那么多 Netflix 原创内容感觉像"垃圾"——结构性激励比才华更重要。
-
-A cool new visual AI product caught his eye — he's excited to try Replika founder Eugenia Kuyda's latest work.
-一个很酷的视觉 AI 产品引起了他的注意——他迫不及待想试用 Replika 创始人 Eugenia Kuyda 的最新作品。
-
-On a documentary: worth watching, even if "completely ridiculous" — sometimes entertainment and insight coexist.
-关于一部纪录片：值得一看，哪怕"完全荒谬"——有时娱乐性与洞察力可以并存。
-
-https://x.com/petergyang/status/2112280969382437076
-https://x.com/petergyang/status/2112292347505688990
-https://x.com/petergyang/status/2112398053185659282
+Source: https://x.com/swyx/status/2112772374823407870
+Source: https://x.com/swyx/status/2112764130197451209
 
 ---
 
-### Thariq (trq212 on X)
+Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini App / Google AI Studio
 
-With AI agents handling more tasks, many people are spreading attention across too many parallel workstreams.
-随着 AI agent 处理越来越多的任务，许多人正在将注意力分散到过多的并行工作流中。
+Google VP Josh Woodward announced a major milestone for the Gemini App Trusted Tester community, with a large number of users eager to try early features on Web, Android, and iOS.
+谷歌副总裁 Josh Woodward 宣布 Gemini App 可信测试者社区达到重要里程碑，大量用户迫切希望在网页、Android 和 iOS 上体验早期功能。
 
-The counterintuitive take: slowing down pays off.
-反直觉的观点：慢下来反而更有回报。
+He also shared Sundar Pichai's commitment to staying at the frontier of AI: *"We are so committed to being at the frontier. It's in our DNA. We won't do it any other way."*
+他还分享了 Sundar Pichai 对 AI 前沿的坚定承诺：*"我们全力致力于站在前沿，这是我们的 DNA，我们不会以任何其他方式行事。"*
 
-*"Most of the stuff you're doing won't really matter — what's your P0? What would it look like if you gave it your full attention?"*
-*"你正在做的大多数事情其实并不重要——你的 P0 是什么？如果你全力以赴，会是什么样子？"*
-
-In an era of agent multitasking, deliberate focus is the real edge.
-在 agent 多任务处理的时代，刻意专注才是真正的竞争优势。
-
-https://x.com/trq212/status/2112219173288120531
+Source: https://x.com/joshwoodward/status/2112676777290248675
+Source: https://x.com/joshwoodward/status/2112679011839344651
 
 ---
 
-### Guillermo Rauch (rauchg on X)
+Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-Vercel just open-sourced a fast HTML artifact builder — and the infrastructure story behind it is worth noting.
-Vercel 刚刚开源了一个快速 HTML artifact 构建器——其背后的基础设施故事值得关注。
+OpenAI 的 Thibault Sottiaux 宣布了 API 缓存改进：API 缓存时长现已延长至 12 小时，Codex 和 Work 中登录用户可永久保留缓存，无论间隔多长时间重新访问旧对话都不会受到惩罚，且保证命中缓存。
+OpenAI's Thibault Sottiaux announced caching improvements: API cache duration has been extended to 12 hours, and logged-in users in Codex and Work now get permanent cache retention — returning to old conversations after any length of time will no longer incur penalties and is guaranteed to hit the cache.
 
-The tool is powered by libfx, making AI agents durable against server crashes, flaky LLMs, and function timeouts.
-该工具由 libfx 驱动，使 AI agent 能够抵御服务器崩溃、不稳定的 LLM 以及函数超时。
+他还就近期部分用户用量异常消耗过快的问题作出说明：大约 40,000 个账户的实际用量未与其所选套餐正确匹配，OpenAI 已识别问题并逐一联系受影响用户，为其添加积分补偿。
+He also addressed recent reports of usage draining faster than expected: approximately 40,000 accounts had an inconsistency where actual usage did not correspond to their selected plan — OpenAI has identified the issue and is reaching out individually to affected users to add credits.
 
-*"Building the low-level plumbing for v0 to survive server crashes, flaky LLMs, function limits was a huge pain. Now it's easy, free, and OSS."*
-*"为 v0 构建能抵御服务器崩溃、不稳定 LLM 和函数限制的底层管道，曾经是一大痛点。现在它变得简单、免费，并且开源了。"*
-
-The inference speed: 1,000 tokens per second.
-推理速度：每秒 1,000 个 token。
-
-https://x.com/rauchg/status/2112247046082363821
-https://x.com/rauchg/status/2112256718281551955
-https://x.com/rauchg/status/2112194000639967590
+Source: https://x.com/thsottiaux/status/2112712984644784534
+Source: https://x.com/thsottiaux/status/2112592264686149749
 
 ---
 
-### Box CEO Aaron Levie (levie on X)
+Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-As foundation models become dramatically more capable, the enterprise differentiation question gets more interesting — not less.
-随着基础模型能力大幅提升，企业差异化问题变得更加有趣，而不是更少。
+Vercel CEO Guillermo Rauch announced they are extending their open-source, runtime-agnostic durability infrastructure — which powers Eve and Workflows — to all harnesses including Pi and OpenCode, available locally, on Vercel, or self-hosted.
+Vercel CEO Guillermo Rauch 宣布，他们正在将为 Eve 和 Workflows 提供支持的开源、运行时无关的持久化基础设施扩展到所有执行框架，包括 Pi 和 OpenCode，可在本地、Vercel 或自托管环境中使用。
 
-The conventional wisdom says better models = less room for application-layer moats.
-传统观点认为，模型越好 = 应用层护城河越小。
+He noted an interesting detail: *"even Claude Code and Codex can be made durable (and observable!) this way."* However, since they aren't designed for embedding, they are less efficient and require an extra sandbox.
+他还指出一个有趣细节：*"即使是 Claude Code 和 Codex 也可以通过这种方式实现持久化（并可观测！）。"* 不过，由于它们并非为嵌入式设计，效率较低且需要额外的沙箱环境。
 
-Levie argues the opposite: as models can handle longer-running tasks and better tool use, domain-specific differentiation actually increases.
-Levie 则持相反观点：随着模型能处理更长运行任务和更好的工具使用，特定领域的差异化实际上在增加。
+Rauch also shared a vision for AI-powered personalized education: AI will be able to compute the perfect delta of what you understand and don't, helping you progressively learn any idea — offering the ultimate education, for free.
+Rauch 还分享了对 AI 驱动个性化教育的愿景：AI 将能够精准计算你已知与未知之间的差距，帮助你循序渐进地学习任何知识——这将是终极教育，且免费。
 
-*"The ability to differentiate on a domain by domain basis goes up instead of down."*
-*"逐领域差异化的能力不降反升。"*
-
-When models were limited, you were essentially forced to be a wrapper — now there's real room to build deep vertical products.
-当模型能力有限时，你本质上只能做一层封装——而现在，有真正的空间去构建深度垂直产品了。
-
-https://x.com/levie/status/2112404676436222170
+Source: https://x.com/rauchg/status/2112658577110520122
+Source: https://x.com/rauchg/status/2112638107749355867
 
 ---
 
-### Garry Tan (garrytan on X)
+Aaron Levie (levie on X) — CEO, Box
 
-Multiplayer agents — AI that multiple people can work with together — seem inevitable.
-多人协作 agent——多人可以共同操作的 AI——似乎是大势所趋。
+Box CEO Aaron Levie shared a detailed analysis of why we are now entering a true era of autonomous AI agents, identifying three key enablers.
+Box CEO Aaron Levie 就我们为何正在进入真正的自主 AI 智能体时代进行了深入分析，并指出了三大关键驱动因素。
 
-YC president Garry Tan highlights Wabi as one of the early products getting this right.
-YC 总裁 Garry Tan 将 Wabi 点名为最早把这件事做对的产品之一。
+First, improved tool and computer use capabilities allow agents to access external data systems and operate software much like a human would — and where software doesn't exist, the agent simply builds it.
+首先，工具使用和计算机操控能力的提升使智能体能够访问外部数据系统并像人类一样操作软件——当软件不存在时，智能体甚至可以自己构建。
 
-The group chat paradigm for agents is coming.
-agent 的群聊范式正在到来。
+Second, model capabilities are improving across vertical domains — legal, biomedical research, security, supply chain — making agent judgment calls more reliable.
+其次，模型在各垂直领域（法律、生物医学研究、安全、供应链）的能力持续提升，使智能体的判断更加可靠。
 
-https://x.com/garrytan/status/2112278352514162834
+Third, the surrounding infrastructure — sandboxes, file systems, data pipelines — now supports longer-running agents capable of handling arbitrarily complex tasks at enormous scale.
+第三，周边基础设施（沙箱、文件系统、数据管道）现已支持长时间运行的智能体，能够处理任意复杂的任务和大规模数据。
 
----
+*"You can almost imagine one or more of these systems for every role in the economy."*
+*"几乎可以想象，经济中的每一个岗位都将对应一个或多个这样的系统。"*
 
-### Zara Zhang (zarazhangrui on X)
-
-A documentary recommendation: see it in a theater.
-一部纪录片推荐：去影院看。
-
-What made it stand out wasn't just the content — it was how much the audience laughed, and when.
-让它脱颖而出的不仅是内容——还有观众的笑声，以及笑的时机。
-
-https://x.com/zarazhangrui/status/2112398939358138862
+Source: https://x.com/levie/status/2112769686798832013
 
 ---
 
-### Nikunj Kothari (nikunj on X)
+Garry Tan (garrytan on X) — President & CEO, Y Combinator
 
-Wabi 2.0 just changed how multiplayer AI should work — and it immediately clicked.
-Wabi 2.0 重新定义了多人 AI 协作的方式——而且一上手就让人上瘾。
+YC 总裁 Garry Tan 宣布 GStack 现已支持 Capy，并与其"软件工厂"功能 Captains 完美兼容。
+YC President Garry Tan announced that GStack is now Capy-aware and works great with their software factory feature, Captains.
 
-Nikunj had tried Wabi 1.0 but it never stuck despite the gorgeous design.
-Nikunj 曾试用过 Wabi 1.0，但尽管设计很精美，却始终没能留住他。
+他还分享了对于初创创始人来说，找到合适联系人是最大的解锁之一。
+He also highlighted that finding the right people to connect with is one of the greatest unlocks for any startup founder.
 
-*"In moments of downloading this edition, I was immediately hooked. It just gets the 'paradigm' right."*
-*"刚下载这个版本，我立刻就上瘾了。它把'范式'做对了。"*
-
-His framework: there are two types of personal agents today — singleplayer (like iMessage bots or Muse) and multiplayer.
-他的框架：当今个人 agent 有两种类型——单人模式（如 iMessage 机器人或 Muse）和多人模式。
-
-Also: a satirical jab at VC pitch memos — the peptide factory / data center / robotics neolab / first-party data combo pitch that somehow always gets funded.
-另外：对 VC 融资备忘录的一记讽刺——多肽工厂/数据中心/机器人新实验室/第一方数据的组合路演，不知为何总能融到钱。
-
-https://x.com/nikunj/status/2112219327881761008
-https://x.com/nikunj/status/2112368222809034980
-https://x.com/nikunj/status/2112422877949751491
+Source: https://x.com/garrytan/status/2112698243553579485
+Source: https://x.com/garrytan/status/2112611824432742493
 
 ---
 
-### Dan Shipper (danshipper on X)
+Matt Turck (mattturck on X) — VC, FirstMark Capital
 
-Every's CEO shared three quiet posts today — including investment pride in a creative AI storytelling team.
-Every 的 CEO 今天分享了三篇低调的帖子——包括对一支 AI 创意叙事团队的投资自豪感。
+FirstMark Capital 的 Matt Turck 分享了投资组合的喜讯：Daytona 完成 B 轮融资，Baba 完成 A 轮融资，GradiumAI 发布最新开源设备端语音 AI 模型，Synthesia 和 Rillet 同日宣布进驻纽约地铁广告。
+FirstMark Capital's Matt Turck shared a busy day for his portfolio: Daytona announced their Series B, Baba their Series A, GradiumAI launched a new SOTA open-source on-device voice AI model, and Synthesia and Rillet both took over the NYC subway with launch ads.
 
-The team has been pushing the boundaries of creativity and storytelling with AI for years — and it's starting to work in consumer.
-这支团队多年来一直在推动 AI 在创意与叙事领域的边界——现在开始在消费端奏效了。
+他还特别为开源语音 AI 领域的突破感到振奋：GradiumAI 推出了一套小型设备端文本转语音 SOTA 模型。
+He was particularly excited about a breakthrough in open-source voice AI: GradiumAI released a suite of tiny on-device SOTA text-to-speech models.
 
-Also signals his intellectual bent: "the ideographic > the nomothetic" — favoring the particular over the universal.
-同时也流露出他的思想倾向："表意性 > 规律性"——偏好特殊性而非普遍性。
+FirstMark Capital 领投了 Daytona 的 B 轮融资（此前也领投了其 A 轮），Matt Turck 称其为"AI 时代标志性公司之一"。
+FirstMark Capital led Daytona's Series B (having also led the Series A), with Turck calling it *"one of the iconic companies of the AI era."*
 
-https://x.com/danshipper/status/2112230653924192274
-https://x.com/danshipper/status/2112272224782856514
-https://x.com/danshipper/status/2112308324377203182
-
----
-
-### Aditya Agarwal (adityaag on X)
-
-Palantir early employee and Anduril co-founder Trae Stephens is visiting South Park Commons for an event.
-Palantir 早期员工、Anduril 联合创始人 Trae Stephens 将到访 South Park Commons 举办活动。
-
-Last time he was there was 2022 — a lot has changed since.
-上一次是 2022 年——此后世界已大不相同。
-
-https://x.com/adityaag/status/2112276231731466420
+Source: https://x.com/mattturck/status/2112696155519775041
+Source: https://x.com/mattturck/status/2112623582098428015
+Source: https://x.com/mattturck/status/2112570721499042246
 
 ---
 
-## PODCASTS
+Zara Zhang (zarazhangrui on X) — Builder / Product
+
+产品构建者 Zara Zhang 分享了一个关于创业者自建受众的深刻洞察：拥有受众最大的优势并不是流量分发，而是能够测试不同想法和角度，找到最先引起共鸣的方向，并发现最初的 100 个早期用户。
+Builder Zara Zhang shared a key insight for early-stage product builders: the biggest advantage of having your own audience isn't distribution — it's being able to test different ideas and angles to find what resonates, and to find your first 100 early adopters.
+
+*"Signals > distribution"*
+*"信号反馈 > 流量分发"*
+
+Source: https://x.com/zarazhangrui/status/2112530473994072225
 
 ---
 
-### AI & I by Every — "Why Every Traded Personal Agents for One Company Agent"
+Peter Steinberger (steipete on X) — Co-creator, OpenClaw / OpenAI
 
-Every's Dan Shipper and team made a deliberate bet: instead of each person having their own personal AI agent, build one shared company agent ("Dot") that knows the whole organization.
-Every 的 Dan Shipper 和团队做出了一个刻意的决定：不是每个人拥有自己的个人 AI agent，而是构建一个了解整个组织的共享公司 agent（"Dot"）。
+OpenClaw 联合创始人 Peter Steinberger 分享了一个多智能体工作流的实战经验：使用 Astra 规划、Sol 6.1 编码，并让第二个智能体全程监督，效果远优于单一智能体的子任务模式。
+OpenClaw co-creator Peter Steinberger shared a hands-on multi-agent workflow insight: using Astra for planning, Sol 6.1 for coding, and a second oversight agent to keep Astra on track — which works far better than relying on subagents alone.
 
-OpenAI's Dots are persistent, proactive agents that were launched at Dev Day.
-OpenAI 的 Dots 是在 Dev Day 发布的持久化主动式 agent。
+*"I found that the workflow of prompting Astra to run codex cli in worktrees works FAR better than relying on subagents."*
+*"我发现让 Astra 在 worktree 中运行 codex cli 的工作流，效果远优于依赖子智能体的方式。"*
 
-After two weeks of live usage across a 30-person team, several clear use cases emerged: scanning school emails for parents, catching Slack access requests, working hands-free on mobile during launches.
-在一支 30 人团队两周的实际使用后，几个清晰的使用场景浮现：为家长扫描学校邮件、捕获 Slack 权限请求、在发布期间免手动在手机上处理工作。
+他还为此开发了一个 OpenClaw 插件，实现了"智能目标"（smart goal）功能——由第二个智能体实时挑战和审查第一个智能体的进展。
+He also wrote an OpenClaw plugin for this "smart goal" feature, where a second agent actively challenges and reviews the progress of the first.
 
-The key insight: a company-level agent develops institutional memory that a personal agent can't replicate.
-核心洞察：公司级 agent 能形成个人 agent 无法复制的组织记忆。
+He will be speaking at Cloudflare Connect, chatting about agents.
+他将出席 Cloudflare Connect 活动，就智能体主题进行对话。
 
-When Dot knows about ongoing projects, team members, Slack dynamics, and company context, it becomes dramatically more useful than any single person's agent.
-当 Dot 了解正在进行的项目、团队成员、Slack 动态和公司背景后，它的价值远超任何单个人的 agent。
+Source: https://x.com/steipete/status/2112605703219347503
+Source: https://x.com/steipete/status/2112735411688857770
 
-The tradeoff: privacy and trust — employees need to feel comfortable with a shared agent that can see everything.
-权衡之处：隐私与信任——员工需要对一个能看到一切的共享 agent 感到放心。
+---
 
-Every's approach: radical transparency about what Dot knows and does.
-Every 的做法：对 Dot 的所知和所做保持彻底的透明度。
+Dan Shipper (danshipper on X) — CEO, Every
 
-The forward-looking signal: the "company agent" paradigm may spread well beyond Every — any org that wants to move fast at AI scale will need shared institutional memory, not just individual copilots.
-前瞻性信号："公司 agent"范式可能远不止于 Every——任何希望以 AI 规模快速前进的组织，都将需要共享的组织记忆，而不仅仅是个人副驾驶。
+Every CEO Dan Shipper shared a thoughtful book review of Meghan O'Gieblyn's *Will and Attention* (God, Human, Animal Machine), exploring themes of pragmatism, alcoholism, and how the stories we tell ourselves can both save and ruin us.
+Every CEO Dan Shipper 分享了对 Meghan O'Gieblyn 所著《Will and Attention》（上帝、人类、动物与机器）的深度书评，探讨了实用主义、酗酒以及我们自我叙事如何既能拯救又能毁掉自己这些主题。
 
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+He found the book's central tension particularly striking: a pragmatic approach to sobriety — treating beliefs as useful rather than true — creates a gap between inner desires and behavior; and once you ask whether sobriety is "useful," you open yourself to concluding it might not be.
+他认为书中核心张力尤为引人深思：将清醒戒酒视为"有用"而非"真理"的实用主义方式，会在内心欲望与行为之间制造裂缝；而一旦你开始追问清醒是否"有用"，你就为自己打开了一扇通往相反结论的门。
+
+*"Even if you're not an alcoholic these are the kinds of mental gymnastics all of us do to justify and rationalize any number of behaviors or beliefs."*
+*"即便你不是酗酒者，我们所有人都会进行这种思维体操，来为各种行为或信念寻找合理化依据。"*
+
+Source: https://x.com/danshipper/status/2112561443249786901
+
+---
+
+Aditya Agarwal (adityaag on X) — General Partner, SPC / Ex-CTO, Dropbox
+
+前 Dropbox CTO、SPC 合伙人 Aditya Agarwal 提出了一个深刻的技术历史类比：推理时扩展 → 子智能体 → 智能体群，与 CPU 线程 → 多核 CPU → 多节点分布式系统的演进路径惊人相似。
+Former Dropbox CTO and SPC Partner Aditya Agarwal drew a striking historical parallel: inference time scaling → subagents → agent swarms looks an awful lot like CPU threads → multi-core CPUs → multi-node distributed systems.
+
+*"History rhymes well."*
+*"历史总是惊人地相似。"*
+
+Source: https://x.com/adityaag/status/2112579526379401408
+
+---
+
+Sam Altman (sama on X) — CEO, OpenAI
+
+OpenAI CEO Sam Altman announced that Aleksander has accepted a request to take on a new leadership role focused on safety and security, as the challenges ahead in confronting superintelligence are immense.
+OpenAI CEO Sam Altman 宣布，Aleksander 已接受邀请，将担任专注于安全与保障的新领导职务，因为面对超级智能所带来的挑战是巨大的。
+
+*"the safety and security challenges in front of us as we confront superintelligence are immense, and he has an excellent set of skills to work on this."*
+*"我们在面对超级智能时所面临的安全与保障挑战是巨大的，而他拥有出色的技能来应对这一任务。"*
+
+Source: https://x.com/sama/status/2112652656602923366
 
 ---
 
