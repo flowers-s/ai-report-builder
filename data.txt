@@ -1,190 +1,236 @@
-AI Builders 日报 · 2026-10-22
-
-AI Builders Digest — 2026-10-22
-AI Builders 日报 — 2026-10-22
+AI Builders 日报 · 2026-10-23
 
 ---
 
-X / TWITTER
+## X / TWITTER
 
 ---
 
-Swyx (swyx on X) — AI Engineer / smol_ai / Latent Space Pod
+### Cat Wu (Anthropic, Claude Code)
 
-Swyx expressed frustration with Claude's Opus model triggering content filters unexpectedly, blocking his work on an AI media organization.
-Swyx 对 Claude Opus 模型意外触发内容过滤器感到沮丧，这阻碍了他的 AI 媒体机构项目推进。
+Anthropic has launched Claude Duet, a proactive personal agent that notices work that needs to be done and does it before you ask.
+Anthropic 正式推出 Claude Duet，这是一款主动式个人 AI 助手，能够主动发现需要完成的任务并在用户开口之前自动执行。
 
-*"jfc, give me prod, not god. i cant build an ai media org with this in the critical path."*
-*"老天，给我一个能用的生产版本，别给我一个'神'。这东西卡在关键路径上，我根本没法做 AI 媒体机构。"*
+Cat Wu, who works on Claude Code and Cowork at Anthropic, shared the announcement and opened a waitlist for early access.
+任职于 Anthropic 的 Cat Wu 发布了这一消息，并为感兴趣的用户开放了候选等候名单。
 
-He also attempted to use OpenAI's Codex to generate animated explainer videos, but found it wasn't up to the task ("ngmi").
-他还尝试用 OpenAI 的 Codex 生成动画讲解视频，但发现它无法胜任这项工作（"ngmi"，做不到）。
+*"We heard your feedback that you want Claude to proactively take more off your plate! Claude Duet is a large step in this direction - it'll notice work that needs to be done, and then do it before you ask."*
+*"我们听到了你们的反馈——你们希望 Claude 能更主动地替你分担。Claude Duet 正是朝这个方向迈出的重要一步——它会主动发现需要完成的工作，并在你开口之前就付诸行动。"*
 
-Source: https://x.com/swyx/status/2112772374823407870
-Source: https://x.com/swyx/status/2112764130197451209
-
----
-
-Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini App / Google AI Studio
-
-Google VP Josh Woodward announced a major milestone for the Gemini App Trusted Tester community, with a large number of users eager to try early features on Web, Android, and iOS.
-谷歌副总裁 Josh Woodward 宣布 Gemini App 可信测试者社区达到重要里程碑，大量用户迫切希望在网页、Android 和 iOS 上体验早期功能。
-
-He also shared Sundar Pichai's commitment to staying at the frontier of AI: *"We are so committed to being at the frontier. It's in our DNA. We won't do it any other way."*
-他还分享了 Sundar Pichai 对 AI 前沿的坚定承诺：*"我们全力致力于站在前沿，这是我们的 DNA，我们不会以任何其他方式行事。"*
-
-Source: https://x.com/joshwoodward/status/2112676777290248675
-Source: https://x.com/joshwoodward/status/2112679011839344651
+https://x.com/_catwu/status/2112988751576330487
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
+### Claude / Anthropic官方 (claudeai on X)
 
-OpenAI 的 Thibault Sottiaux 宣布了 API 缓存改进：API 缓存时长现已延长至 12 小时，Codex 和 Work 中登录用户可永久保留缓存，无论间隔多长时间重新访问旧对话都不会受到惩罚，且保证命中缓存。
-OpenAI's Thibault Sottiaux announced caching improvements: API cache duration has been extended to 12 hours, and logged-in users in Codex and Work now get permanent cache retention — returning to old conversations after any length of time will no longer incur penalties and is guaranteed to hit the cache.
+Anthropic officially announced Claude Duet, designed around Claude Opus 5.5, which gives it the judgment to decide what needs you, what can wait, and when to check with you first.
+Anthropic 正式宣布推出 Claude Duet，其核心基于 Claude Opus 5.5，赋予它判断力——能够识别哪些事情需要你亲自处理，哪些可以稍候，以及何时应先征询你的意见。
 
-他还就近期部分用户用量异常消耗过快的问题作出说明：大约 40,000 个账户的实际用量未与其所选套餐正确匹配，OpenAI 已识别问题并逐一联系受影响用户，为其添加积分补偿。
-He also addressed recent reports of usage draining faster than expected: approximately 40,000 accounts had an inconsistency where actual usage did not correspond to their selected plan — OpenAI has identified the issue and is reaching out individually to affected users to add credits.
+It carries over memory, skills, and connected apps from your existing Claude account, requiring minimal setup.
+Claude Duet 将继承用户 Claude 账户中的记忆、技能和已连接应用，几乎无需重新配置。
 
-Source: https://x.com/thsottiaux/status/2112712984644784534
-Source: https://x.com/thsottiaux/status/2112592264686149749
+Claude Duet draws on Anthropic's years of safety and security work on agents — it never directly sees your passwords, a new classifier guards against sharing sensitive information, and the important decisions stay with you.
+Claude Duet 融合了 Anthropic 多年来在智能体安全领域的研究成果——它不会直接获取用户密码，新增分类器可防止敏感信息泄露，重要决策权始终保留在用户手中。
 
----
+It is currently available as an early research preview via waitlist for Pro and Max subscribers in the US.
+目前，Claude Duet 以早期研究预览版形式向美国地区 Pro 和 Max 订阅用户开放候选等候名单。
 
-Guillermo Rauch (rauchg on X) — CEO, Vercel
-
-Vercel CEO Guillermo Rauch announced they are extending their open-source, runtime-agnostic durability infrastructure — which powers Eve and Workflows — to all harnesses including Pi and OpenCode, available locally, on Vercel, or self-hosted.
-Vercel CEO Guillermo Rauch 宣布，他们正在将为 Eve 和 Workflows 提供支持的开源、运行时无关的持久化基础设施扩展到所有执行框架，包括 Pi 和 OpenCode，可在本地、Vercel 或自托管环境中使用。
-
-He noted an interesting detail: *"even Claude Code and Codex can be made durable (and observable!) this way."* However, since they aren't designed for embedding, they are less efficient and require an extra sandbox.
-他还指出一个有趣细节：*"即使是 Claude Code 和 Codex 也可以通过这种方式实现持久化（并可观测！）。"* 不过，由于它们并非为嵌入式设计，效率较低且需要额外的沙箱环境。
-
-Rauch also shared a vision for AI-powered personalized education: AI will be able to compute the perfect delta of what you understand and don't, helping you progressively learn any idea — offering the ultimate education, for free.
-Rauch 还分享了对 AI 驱动个性化教育的愿景：AI 将能够精准计算你已知与未知之间的差距，帮助你循序渐进地学习任何知识——这将是终极教育，且免费。
-
-Source: https://x.com/rauchg/status/2112658577110520122
-Source: https://x.com/rauchg/status/2112638107749355867
+https://x.com/claudeai/status/2112984666437546104
+https://x.com/claudeai/status/2112984667758510197
+https://x.com/claudeai/status/2112984669943968099
 
 ---
 
-Aaron Levie (levie on X) — CEO, Box
+### Dan Shipper (Every CEO, danshipper on X)
 
-Box CEO Aaron Levie shared a detailed analysis of why we are now entering a true era of autonomous AI agents, identifying three key enablers.
-Box CEO Aaron Levie 就我们为何正在进入真正的自主 AI 智能体时代进行了深入分析，并指出了三大关键驱动因素。
+Dan Shipper, CEO of Every, published a detailed first look at Claude Duet, calling it the first personal agent he would describe as a pro tool.
+Every 联合创始人兼 CEO Dan Shipper 发布了对 Claude Duet 的深度评测，称其为他目前见过的首款可称之为"专业工具"的个人 AI 助手。
 
-First, improved tool and computer use capabilities allow agents to access external data systems and operate software much like a human would — and where software doesn't exist, the agent simply builds it.
-首先，工具使用和计算机操控能力的提升使智能体能够访问外部数据系统并像人类一样操作软件——当软件不存在时，智能体甚至可以自己构建。
+*"BREAKING: @AnthropicAI just launched Duet, its always-on personal agent. It's the first personal agent I'd call a pro tool. We've been testing it for two weeks. I've gone from mostly using ChatGPT to roughly 50/50 between ChatGPT and Claude—the most time I've spent with Anthropic in close to a year."*
+*"突发：Anthropic 刚刚推出 Duet，这是他们的全天候个人智能体，也是我第一个愿意称之为"专业工具"的个人助手。我们已测试两周，从主要用 ChatGPT 变成了 ChatGPT 与 Claude 各占五成——这是近一年来我在 Anthropic 产品上花时间最多的一次。"*
 
-Second, model capabilities are improving across vertical domains — legal, biomedical research, security, supply chain — making agent judgment calls more reliable.
-其次，模型在各垂直领域（法律、生物医学研究、安全、供应链）的能力持续提升，使智能体的判断更加可靠。
+Key highlights from his review: Claude Duet lives in its own app (iOS, Android, web), features channels for specific areas of work, has a built-in todo list, and supports document and slide editing.
+评测重点：Claude Duet 拥有独立应用（支持 iOS、Android 及网页端），设有针对不同工作场景的专属频道，内置待办清单，并支持文档与幻灯片编辑。
 
-Third, the surrounding infrastructure — sandboxes, file systems, data pipelines — now supports longer-running agents capable of handling arbitrarily complex tasks at enormous scale.
-第三，周边基础设施（沙箱、文件系统、数据管道）现已支持长时间运行的智能体，能够处理任意复杂的任务和大规模数据。
+He also noted limitations — email drafting is weaker than Dot, and voice is transcription-only with no spoken conversation support yet.
+他也指出了不足：邮件起草能力弱于 Dot，语音功能目前仅支持语音转文字，尚不能进行口头对话。
 
-*"You can almost imagine one or more of these systems for every role in the economy."*
-*"几乎可以想象，经济中的每一个岗位都将对应一个或多个这样的系统。"*
+Dan also published a video on why every company needs a dedicated "frontier team" to keep up with AI — separating the work of tracking the AI frontier from the rest of the business.
+Dan 还发布了一段视频，阐述为什么每家公司都需要一支专职的"前沿团队"来跟进 AI 动态，将追踪 AI 前沿的工作与日常业务运营明确分开。
 
-Source: https://x.com/levie/status/2112769686798832013
-
----
-
-Garry Tan (garrytan on X) — President & CEO, Y Combinator
-
-YC 总裁 Garry Tan 宣布 GStack 现已支持 Capy，并与其"软件工厂"功能 Captains 完美兼容。
-YC President Garry Tan announced that GStack is now Capy-aware and works great with their software factory feature, Captains.
-
-他还分享了对于初创创始人来说，找到合适联系人是最大的解锁之一。
-He also highlighted that finding the right people to connect with is one of the greatest unlocks for any startup founder.
-
-Source: https://x.com/garrytan/status/2112698243553579485
-Source: https://x.com/garrytan/status/2112611824432742493
+https://x.com/danshipper/status/2112997559463506059
+https://x.com/danshipper/status/2113010761786175970
+https://x.com/danshipper/status/2113007329990127942
 
 ---
 
-Matt Turck (mattturck on X) — VC, FirstMark Capital
+### Guillermo Rauch (Vercel CEO, rauchg on X)
 
-FirstMark Capital 的 Matt Turck 分享了投资组合的喜讯：Daytona 完成 B 轮融资，Baba 完成 A 轮融资，GradiumAI 发布最新开源设备端语音 AI 模型，Synthesia 和 Rillet 同日宣布进驻纽约地铁广告。
-FirstMark Capital's Matt Turck shared a busy day for his portfolio: Daytona announced their Series B, Baba their Series A, GradiumAI launched a new SOTA open-source on-device voice AI model, and Synthesia and Rillet both took over the NYC subway with launch ads.
+Vercel CEO Guillermo Rauch shared that Vercel has proactively rolled out firewall-level mitigations for a critical Node.js RCE vulnerability, ahead of the official patch release.
+Vercel CEO Guillermo Rauch 表示，Vercel 已在官方补丁发布之前主动推出防火墙级别的缓解措施，以应对一个严重的 Node.js RCE 漏洞。
 
-他还特别为开源语音 AI 领域的突破感到振奋：GradiumAI 推出了一套小型设备端文本转语音 SOTA 模型。
-He was particularly excited about a breakthrough in open-source voice AI: GradiumAI released a suite of tiny on-device SOTA text-to-speech models.
+*"Vercel has proactively rolled out Firewall-level mitigations for today's Node.js RCE vulnerability, in advance of the official patch release. All traffic for all deployments is automatically protected."*
+*"Vercel 已在官方补丁发布前主动推出防火墙级别的缓解措施，以应对今日的 Node.js RCE 漏洞。所有部署的全部流量均已自动获得保护。"*
 
-FirstMark Capital 领投了 Daytona 的 B 轮融资（此前也领投了其 A 轮），Matt Turck 称其为"AI 时代标志性公司之一"。
-FirstMark Capital led Daytona's Series B (having also led the Series A), with Turck calling it *"one of the iconic companies of the AI era."*
+He also noted that the broader industry collaborated in a private Slack channel weeks in advance to protect infrastructure from the php2shell vulnerability.
+他还提到，整个行业提前数周在一个私密 Slack 频道中协作，共同保护基础设施免受 php2shell 漏洞攻击。
 
-Source: https://x.com/mattturck/status/2112696155519775041
-Source: https://x.com/mattturck/status/2112623582098428015
-Source: https://x.com/mattturck/status/2112570721499042246
+On the AI side, DeepSeek v4.1 Flash is now included in Vercel's Token Pass, offering fast and extremely cost-efficient inference with zero data retention — Rauch called it a phenomenal model for running subagents.
+AI 方面，DeepSeek v4.1 Flash 现已纳入 Vercel Token Pass，提供快速、超低成本的推理服务，且零数据留存——Rauch 称其是运行子智能体的绝佳模型。
 
----
-
-Zara Zhang (zarazhangrui on X) — Builder / Product
-
-产品构建者 Zara Zhang 分享了一个关于创业者自建受众的深刻洞察：拥有受众最大的优势并不是流量分发，而是能够测试不同想法和角度，找到最先引起共鸣的方向，并发现最初的 100 个早期用户。
-Builder Zara Zhang shared a key insight for early-stage product builders: the biggest advantage of having your own audience isn't distribution — it's being able to test different ideas and angles to find what resonates, and to find your first 100 early adopters.
-
-*"Signals > distribution"*
-*"信号反馈 > 流量分发"*
-
-Source: https://x.com/zarazhangrui/status/2112530473994072225
+https://x.com/rauchg/status/2113050053724221732
+https://x.com/rauchg/status/2112989629536440400
+https://x.com/rauchg/status/2113010010766913815
 
 ---
 
-Peter Steinberger (steipete on X) — Co-creator, OpenClaw / OpenAI
+### Aaron Levie (Box CEO, levie on X)
 
-OpenClaw 联合创始人 Peter Steinberger 分享了一个多智能体工作流的实战经验：使用 Astra 规划、Sol 6.1 编码，并让第二个智能体全程监督，效果远优于单一智能体的子任务模式。
-OpenClaw co-creator Peter Steinberger shared a hands-on multi-agent workflow insight: using Astra for planning, Sol 6.1 for coding, and a second oversight agent to keep Astra on track — which works far better than relying on subagents alone.
+Box CEO Aaron Levie published two sharp takes on AI and cybersecurity, calling it one of the most profound intersections of AI today.
+Box CEO Aaron Levie 就 AI 与网络安全的交汇发表了两篇深度观点，称这是当今 AI 最深刻的应用领域之一。
 
-*"I found that the workflow of prompting Astra to run codex cli in worktrees works FAR better than relying on subagents."*
-*"我发现让 Astra 在 worktree 中运行 codex cli 的工作流，效果远优于依赖子智能体的方式。"*
+*"Cyber is going to be one of the most profound aspects of AI. We now have a tireless workforce that can hunt down, discover, patch, or attack any system and software ever created."*
+*"网络安全将是 AI 最深远的应用领域之一。我们现在拥有一支永不疲倦的'劳动力'，能够追踪、发现、修补或攻击有史以来创建的任何系统和软件。"*
 
-他还为此开发了一个 OpenClaw 插件，实现了"智能目标"（smart goal）功能——由第二个智能体实时挑战和审查第一个智能体的进展。
-He also wrote an OpenClaw plugin for this "smart goal" feature, where a second agent actively challenges and reviews the progress of the first.
+He argues that AI agents will be used both offensively and defensively — scanning logs, reviewing code, processing traffic data at previously unimaginable scale.
+他认为，AI 智能体将被同时用于攻防两端——以前所未有的规模扫描日志、审查代码、处理流量数据。
 
-He will be speaking at Cloudflare Connect, chatting about agents.
-他将出席 Cloudflare Connect 活动，就智能体主题进行对话。
+Levie also pointed out that cybersecurity will create massive new job opportunities, as enterprises will need talent to direct agents, review findings, patch systems, and respond to incidents.
+Levie 同时指出，网络安全将带来大量新的就业机会，企业将需要专业人才来指挥智能体、审查结果、修补系统并响应安全事件。
 
-Source: https://x.com/steipete/status/2112605703219347503
-Source: https://x.com/steipete/status/2112735411688857770
-
----
-
-Dan Shipper (danshipper on X) — CEO, Every
-
-Every CEO Dan Shipper shared a thoughtful book review of Meghan O'Gieblyn's *Will and Attention* (God, Human, Animal Machine), exploring themes of pragmatism, alcoholism, and how the stories we tell ourselves can both save and ruin us.
-Every CEO Dan Shipper 分享了对 Meghan O'Gieblyn 所著《Will and Attention》（上帝、人类、动物与机器）的深度书评，探讨了实用主义、酗酒以及我们自我叙事如何既能拯救又能毁掉自己这些主题。
-
-He found the book's central tension particularly striking: a pragmatic approach to sobriety — treating beliefs as useful rather than true — creates a gap between inner desires and behavior; and once you ask whether sobriety is "useful," you open yourself to concluding it might not be.
-他认为书中核心张力尤为引人深思：将清醒戒酒视为"有用"而非"真理"的实用主义方式，会在内心欲望与行为之间制造裂缝；而一旦你开始追问清醒是否"有用"，你就为自己打开了一扇通往相反结论的门。
-
-*"Even if you're not an alcoholic these are the kinds of mental gymnastics all of us do to justify and rationalize any number of behaviors or beliefs."*
-*"即便你不是酗酒者，我们所有人都会进行这种思维体操，来为各种行为或信念寻找合理化依据。"*
-
-Source: https://x.com/danshipper/status/2112561443249786901
+https://x.com/levie/status/2112964214818283917
+https://x.com/levie/status/2113137032633757773
 
 ---
 
-Aditya Agarwal (adityaag on X) — General Partner, SPC / Ex-CTO, Dropbox
+### Peter Steinberger (OpenClaw + OpenAI, steipete on X)
 
-前 Dropbox CTO、SPC 合伙人 Aditya Agarwal 提出了一个深刻的技术历史类比：推理时扩展 → 子智能体 → 智能体群，与 CPU 线程 → 多核 CPU → 多节点分布式系统的演进路径惊人相似。
-Former Dropbox CTO and SPC Partner Aditya Agarwal drew a striking historical parallel: inference time scaling → subagents → agent swarms looks an awful lot like CPU threads → multi-core CPUs → multi-node distributed systems.
+Peter Steinberger noted that the critical PHP vulnerability causing widespread concern this week was discovered using GPT-5.6 Sol — a striking example of AI being used in vulnerability research.
+Peter Steinberger 指出，本周引发广泛关注的严重 PHP 漏洞正是借助 GPT-5.6 Sol 发现的——这是 AI 应用于漏洞研究的一个典型案例。
 
-*"History rhymes well."*
-*"历史总是惊人地相似。"*
+*"That PHP vulnerability that's gonna cause havoc this week was found with… GPT‑5.6 Sol."*
+*"这个本周将引发大混乱的 PHP 漏洞，是用 GPT-5.6 Sol 发现的……"*
 
-Source: https://x.com/adityaag/status/2112579526379401408
+https://x.com/steipete/status/2112913060709228764
 
 ---
 
-Sam Altman (sama on X) — CEO, OpenAI
+### Aditya Agarwal (SPC General Partner, adityaag on X)
 
-OpenAI CEO Sam Altman announced that Aleksander has accepted a request to take on a new leadership role focused on safety and security, as the challenges ahead in confronting superintelligence are immense.
-OpenAI CEO Sam Altman 宣布，Aleksander 已接受邀请，将担任专注于安全与保障的新领导职务，因为面对超级智能所带来的挑战是巨大的。
+SPC General Partner Aditya Agarwal shared a heartfelt reflection on AI and creativity, inspired by watching his son spend 20 hours building Star Wars games after watching the movie.
+SPC 合伙人 Aditya Agarwal 分享了一段温暖的感悟——他的儿子看完《星球大战》后只看了约 3 小时，却花了 20 小时用 AI 制作相关游戏，而且更享受"做"的过程而非"玩"的过程。
 
-*"the safety and security challenges in front of us as we confront superintelligence are immense, and he has an excellent set of skills to work on this."*
-*"我们在面对超级智能时所面临的安全与保障挑战是巨大的，而他拥有出色的技能来应对这一任务。"*
+*"I'm still grokking this...but it does feel like it just as fun to make stuff with AI as it is to 'use' it...maybe everyone will now get to experience that [joy of programming]?"*
+*"我还在慢慢消化这件事……但感觉用 AI 制作东西，和'使用'它一样有趣……也许现在每个人都能体验到那种编程的乐趣了？"*
 
-Source: https://x.com/sama/status/2112652656602923366
+He also noted that the PHP vulnerability situation reminded him it's always PHP, and observed with amusement that five SPC portfolio companies appear in a notable list this week.
+他还对 PHP 漏洞事件调侃道"永远都是 PHP 的锅"，同时也欣喜地发现本周某知名榜单中出现了五家 SPC 投资组合公司。
+
+https://x.com/adityaag/status/2112923959176106056
+https://x.com/adityaag/status/2112977865432240524
+https://x.com/adityaag/status/2112958120528114015
+
+---
+
+### Amjad Masad (Replit CEO, amasad on X)
+
+Replit CEO Amjad Masad shared a thought-provoking prompt: the idea of going from a single prompt to a full corporation.
+Replit CEO Amjad Masad 分享了一个发人深省的概念：从一句提示词直接生成一家完整的公司。
+
+*"prompt -> corporation"*
+*"提示词 → 公司"*
+
+https://x.com/amasad/status/2112975002027147545
+
+---
+
+### Matt Turck (FirstMark Capital VC, mattturck on X)
+
+Matt Turck, VC at FirstMark Capital, announced an exciting week with two major funding rounds in his portfolio — a $250M Series E at Pigment and a $550M Series E at Legora.
+FirstMark Capital 的 VC Matt Turck 宣布本周连迎两喜：投资组合中的 Pigment 完成 2.5 亿美元 E 轮融资，Legora 完成 5.5 亿美元 E 轮融资。
+
+He described Pigment as the platform for continuous financial planning in an era of tokens, APIs, and agents.
+他将 Pigment 定位为 token、API 与智能体时代下持续财务规划的核心平台。
+
+https://x.com/mattturck/status/2113026098669777365
+https://x.com/mattturck/status/2112927524321726921
+
+---
+
+### Zara Zhang (Builder, zarazhangrui on X)
+
+Zara Zhang shared two fun AI creativity demos — turning a photo into a 3D popup card, and building a project with just one prompt.
+Zara Zhang 分享了两个有趣的 AI 创意演示——将照片转换为 3D 立体弹出卡片，以及仅用一句提示词完成一个项目。
+
+She also made a bold declaration: your personal website is the new resume.
+她还发表了一个观点：个人网站是新时代的简历。
+
+https://x.com/zarazhangrui/status/2113055591954526444
+https://x.com/zarazhangrui/status/2113062991696744513
+https://x.com/zarazhangrui/status/2113148949842534482
+
+---
+
+### Garry Tan (Y Combinator President & CEO, garrytan on X)
+
+YC President and CEO Garry Tan weighed in on California politics, criticizing economist Gabriel Zucman over his role in supporting California's Prop 40, arguing his economic policy ideas would destroy California's tax base and harm public institutions like UC Berkeley.
+YC 总裁兼 CEO Garry Tan 就加州政治发声，批评经济学家 Gabriel Zucman 支持加州第 40 号提案，认为其经济政策主张将摧毁加州税基，并损害加州大学伯克利分校等公共机构的利益。
+
+https://x.com/garrytan/status/2113143993026617832
+https://x.com/garrytan/status/2113144583429521578
+
+---
+
+### Nikunj Kothari (FPV Ventures Partner, nikunj on X)
+
+FPV Ventures Partner Nikunj Kothari reflected on the broader chaos in internet trust and security, noting how the pursuit of artificial superintelligence seems to be slowly unraveling the fabric of the internet.
+FPV Ventures 合伙人 Nikunj Kothari 对互联网信任与安全领域的混乱现状发表感慨，指出对超级人工智能的追求似乎正在逐渐瓦解互联网的基础信任体系。
+
+*"Who knew acquiring super intelligence could lead to the entire fabric and trust of the internet being slowly broken..."*
+*"谁能想到，对超级智能的追求，竟然会让整个互联网的基础结构和信任体系慢慢崩裂……"*
+
+https://x.com/nikunj/status/2113057195948707874
+
+---
+
+### Thibault Sottiaux (OpenAI Codex & ChatGPT, thsottiaux on X)
+
+OpenAI's Thibault Sottiaux, who works on Codex and ChatGPT, teased what appears to be a new capability tier or product — hinting that it is "Dot, Dotter, Dottest" and fully included in the Pro plan without drawing on weekly usage.
+OpenAI 负责 Codex 和 ChatGPT 的 Thibault Sottiaux 预告了一项疑似新能力或新产品，暗示其名为"Dot、Dotter、Dottest"，已完全包含在 Pro 计划中，且不消耗每周用量。
+
+https://x.com/thsottiaux/status/2113029655095836957
+https://x.com/thsottiaux/status/2113029854417600834
+
+---
+
+### Google Labs (GoogleLabs on X)
+
+Google Labs continued its Dreambeans interactive story series with "Dreambeans Roulette: Part 2," featuring hosts Sahana, Brian, and Nala exploring how Dreambeans stories are "brewed," how to make them dream better, and the idea of apps designed to get you off your phone.
+Google Labs 发布了 Dreambeans 互动故事系列的"Dreambeans Roulette: Part 2"，主持人 Sahana、Brian 和 Nala 探讨了 Dreambeans 故事的"酿造"方式、如何让 Dreambeans 做出更好的梦，以及专门设计来让你放下手机的应用这一有趣设想。
+
+https://x.com/GoogleLabs/status/2112968628861878648
+
+---
+
+## PODCASTS
+
+---
+
+### Every: "How a Frontier Team Can Help Your Company Keep Up With AI"
+
+Every published a new video episode making the case for why every company needs a dedicated "frontier team" — a small group whose job is to track the AI frontier so the rest of the company doesn't have to.
+Every 发布了一期新视频，阐述了为什么每家公司都需要一支专职"前沿团队"——一个小组专门负责追踪 AI 前沿动态，让公司其他人可以专注于执行工作。
+
+The episode features Dan Shipper and co-host Natalia, who serves as head of enterprise AI adoption at Every, walking through how Every's own frontier team works.
+本期视频由 Dan Shipper 与联合主持人、Every 企业 AI 应用主管 Natalia 共同呈现，详细介绍了 Every 自身前沿团队的运作模式。
+
+Key insight: every company is caught in a dilemma between keeping up with AI and actually getting work done — and a frontier team resolves this through separation of concerns.
+核心洞察：每家公司都面临"跟进 AI 动态"与"完成实际工作"之间的两难困境，而前沿团队通过明确的职责分工来化解这一矛盾。
+
+The episode covers how members of Every's frontier team build personal AI benchmarks, use Claude Opus to edit video from Slack messages, and build personal AI orchestrators.
+本期视频涵盖了 Every 前沿团队成员如何构建个人 AI 基准测试、如何用 Claude Opus 从 Slack 消息生成视频剪辑，以及如何搭建个人 AI 协调器等内容。
+
+https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 ---
 
