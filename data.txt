@@ -1,291 +1,293 @@
-AI Builders 日报 · 2026-10-24
-
-Today's digest covers 18 builders from X/Twitter and 1 podcast episode, capturing the latest thinking on AI agents, security, robotics, and the startup ecosystem.
-今日日报涵盖来自 X/Twitter 的 18 位建造者动态及 1 期播客，聚焦 AI 智能体、安全、机器人与创业生态最新洞察。
+AI Builders 日报 · 2026-10-25
 
 ---
 
 ## Swyx (@swyx)
 
-Swyx highlighted a key capability in Opus 5.5: the model can estimate ETAs for its own pipeline while the pipeline is still running — a critical feature for effective task delegation and pipelining.
-Swyx 重点介绍了 Opus 5.5 的一项关键能力：模型能在流水线运行期间自行预估完成时间，这对任务委托与流水线效率至关重要。
+Swyx has been in a playful mood on X, throwing shade at VCs who slide into founders' DMs with unsolicited pitches.
+Swyx 在 X 上心情颇为调侃，对那些主动溜进创始人私信的风险投资人毫不客气地开了炮。
 
-On AI-assisted bug fixing, he pushed back on blaming AI for surfacing bugs: *"imo this is the right attitude - dont blame AI for finding the bugs, just fucking lock in on clearing all the bugs asap"* — the point being that AI exposing problems is a feature, not a flaw.
-在 AI 辅助 bug 修复上，他反对因 AI 暴露 bug 而责怪 AI：*"我认为这才是正确态度——别怪 AI 找出了 bug，赶紧全力清除才是正事。"* AI 暴露问题是优点，而非缺陷。
+*"reject vc founder grind"* — he quipped that if you're a "hot corgi/wasian," you should be the one sliding into DMs of post-economic bootstrapped AI founders with "a bunch of angel exits and even more friends than money and complete control of their destiny."
+*"reject vc founder grind"* — 他调侃道，如果你足够出色，应该是你主动去联系那些已经财务自由、拥有众多天使退出经历、朋友比钱还多、完全掌控自身命运的 AI 创始人。
 
-He also singled out Opus 5.5 as *"the best work estimator model I've ever used"*, stressing that calibrated time estimates matter more as we delegate more work to AI — the bar should be hours, not days.
-他还将 Opus 5.5 称为*"我用过最好的工作估算模型"*，强调随着我们将更多工作委托给 AI，精准的时间估算愈发重要——标准应该是小时，而非天数。
+It reads as a lighthearted jab at the power dynamics between VCs and founders in the current AI landscape.
+这番话读来是对当前 AI 生态中 VC 与创始人权力关系的一次轻松调侃。
 
 Sources:
-- https://x.com/swyx/status/2113509413537693703
-- https://x.com/swyx/status/2113359027682050352
-- https://x.com/swyx/status/2113283272130412684
+- https://x.com/swyx/status/2113863570018685091
+- https://x.com/swyx/status/2113811349281345578
+- https://x.com/swyx/status/2113755882022752556
 
 ---
 
-## Boris Cherny (@bcherny)
+## Thibault Sottiaux (@thsottiaux) — OpenAI Codex CLI
 
-Boris announced that Agent Skills — originally an experiment in Claude Code — has been donated to the Agentic AI Foundation alongside MCP, reflecting its broad industry adoption.
-Boris 宣布，最初作为 Claude Code 实验项目的 Agent Skills 已捐赠给 Agentic AI Foundation，与 MCP 并列，这反映了该标准在业界的广泛采用。
+Thibault shared updates to the Codex CLI that have been shipping over the past few days.
+Thibault 分享了 Codex CLI 近期持续推送的更新内容。
 
-This signals Anthropic's intent to build open, shared infrastructure for the agentic AI era rather than keeping key primitives proprietary.
-这表明 Anthropic 正致力于为智能体 AI 时代构建开放共享的基础设施，而非将核心原语据为己有。
+On the CLI side, the team has added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in — plus fixes for failures when resuming long sessions and Windows corporate-proxy authentication support.
+在 CLI 方面，团队新增了可复用的提示预设、内联模型与权限设置、企业级 MCP 登录功能，同时修复了恢复长会话时的失败问题，并支持 Windows 企业代理认证。
 
-Source:
-- https://x.com/bcherny/status/2113333859907747871
+*"Surprisingly the CLI has grown 2X in usage since devday."*
+*"令人惊喜的是，CLI 的使用量自 devday 以来翻了一番。"*
 
----
+He also noted smaller daily improvements: faster call connections for Dots, the ability to change reasoning and work settings mid-conversation without invalidating the cache, and continued Codex CLI polish.
+他还提到了每日的小幅改进：Dots 连接速度更快、对话中途修改推理和工作设置不再使缓存失效，以及 Codex CLI 的持续打磨。
 
-## Thibault Sottiaux (@thsottiaux)
-
-Thibault teased an upcoming product launch landing "before 10am PST" alongside a "small ship," building anticipation over multiple posts.
-Thibault 连续发帖预告一款产品即将在"太平洋时间早上 10 点前"发布，并配有一次"小发布"，持续吊足受众胃口。
-
-In his Day 18 recap, he noted major milestones: Decisions API went GA, OpenResponses joined the Linux Foundation, performance improvements shipped, and Uber went all-in on Codex and agentic work — before hinting at a "reset."
-在第 18 天回顾中，他提到多项重要里程碑：Decisions API 正式发布、OpenResponses 加入 Linux Foundation、性能优化上线、Uber 全面押注 Codex 与智能体工作——随后暗示将有一次"重置"。
+He reflected philosophically: *"The difference between having a tool and being a tool is subtle these days and it's easy to accidentally build yourself into being a tool. Don't be a tool."*
+他还发了一句颇具哲学意味的感慨：*"拥有工具与成为工具之间的区别，如今已经微妙得难以察觉，很容易在不知不觉中把自己变成别人的工具。别成为工具。"*
 
 Sources:
-- https://x.com/thsottiaux/status/2113492502355562875
-- https://x.com/thsottiaux/status/2113492187770175603
-- https://x.com/thsottiaux/status/2113162413008884099
+- https://x.com/thsottiaux/status/2113838156193894447
+- https://x.com/thsottiaux/status/2113770862860222611
+- https://x.com/thsottiaux/status/2113770573994299544
 
 ---
 
 ## Peter Yang (@petergyang)
 
-Peter shared a personal conversation about life after leaving his product job — covering parenting, building games with ChatGPT, and the "sandwich generation" tension of caring for young kids and aging parents amid the AI era.
-Peter 分享了一段离开产品职位后的生活对话，涵盖育儿、用 ChatGPT 做游戏，以及在 AI 时代同时照顾幼子与年迈父母的"三明治一代"困境。
+Peter reflected on a mindset shift many ambitious people eventually encounter: at some point, your time becomes worth more than your money.
+Peter 反思了许多有抱负的人终将面临的思维转变：到了某个节点，你的时间比你的金钱更有价值。
 
-He offered a striking contrast in healthcare: reading about AI breakthroughs online while his mother's cancer treatment still involves faxing documents and physically delivering imaging on CD-ROMs — a stark reminder of implementation gaps.
-他在医疗领域提出了一个鲜明对比：网上充斥着 AI 医疗突破的新闻，但他母亲的癌症治疗仍在用传真传文件、光盘传影像——深刻揭示了技术落地的鸿沟。
+Being part of the "sandwich generation" — with young kids and aging parents — has forced him to confront this reality earlier than most.
+作为"三明治一代"——上有年迈父母、下有年幼子女——他比大多数人更早地面对了这一现实。
 
-He also shared a 6-step account security guide, including a prompt to have AI generate a personalized security report.
-他还分享了一份 6 步账户安全指南，包含一个让 AI 生成个性化安全报告的提示词。
+He's fortunate to be in a position where he can actively choose to pursue agency over accumulation.
+他很幸运能处于这样的位置，可以主动选择追求自主权而非积累财富。
 
 Sources:
-- https://x.com/petergyang/status/2113442789367435735
-- https://x.com/petergyang/status/2113420357726257335
-- https://x.com/petergyang/status/2113405131106742406
+- https://x.com/petergyang/status/2113672812909191292
 
 ---
 
-## Nan Yu (@thenanyu)
+## Thariq (@trq212) — Leaving Anthropic
 
-Nan posted a cryptic but evocative observation: *"software **nom**nom**nom**"* — a one-liner that reads as commentary on how AI is rapidly consuming and transforming software.
-Nan 发了一条隐晦却富有表现力的帖子：*"software **nom**nom**nom**"*——寥寥数字，道出了 AI 正在快速吞噬和改造软件世界。
+In a significant announcement, Thariq shared that he has left Anthropic after more than a year working on Claude Code, where he watched it scale "larger than I ever imagined."
+在一则重要公告中，Thariq 宣布已离开 Anthropic，此前他在那里工作了一年多，参与构建 Claude Code，亲眼见证其规模增长到"远超他想象"。
 
-Source:
-- https://x.com/thenanyu/status/2113469200924864826
+*"I have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a race to the top."*
+*"我真的非常热爱在 Anthropic 工作，深信公司的使命，尤其是'向上竞跑'这一理念。"*
 
----
+He articulated a belief that through hard work and responsibility, the AI industry can raise the floor for everyone — not just race to the bottom.
+他表达了一个信念：通过努力和负责任的方式，AI 行业可以为所有人提高底线，而不是竞相逐底。
 
-## Madhu Guru (@realmadhuguru)
+On a lighter note, he also complained about Gmail allowing bad actors to scan for deactivated email addresses, which apparently ruined his relaxing Friday night.
+话题轻松了一些，他也抱怨 Gmail 允许恶意行为者扫描已停用的邮件地址，这显然毁掉了他平静的周五晚上。
 
-Madhu addressed PMs feeling stuck as AI reshapes their role: *"stop waiting for clarity — create it through action."*
-Madhu 向那些在 AI 重塑产品经理角色过程中感到迷茫的 PM 喊话：*"别等着豁然开朗——用行动创造清晰。"*
-
-His message: inertia is the real career killer. The PMs reaching out to him don't lack direction so much as they lack the courage to start moving.
-他的核心观点：停滞才是职业发展的真正杀手。向他求助的 PM 们缺的不是方向，而是迈出第一步的勇气。
-
-Source:
-- https://x.com/realmadhuguru/status/2113437016818057641
+Sources:
+- https://x.com/trq212/status/2113844560074019213
+- https://x.com/trq212/status/2113844051938054167
 
 ---
 
-## Google Labs (@GoogleLabs)
+## Amjad Masad (@amasad) — Replit Acquisitions
 
-Google Labs wrapped up the "Dreambeans Roulette" mini-series with Part 3, featuring VP of Product Brian R. sharing his perspective on the importance of taking bets and exploring overlooked areas — with a cameo from Nala the dog rating the experience.
-Google Labs 完结了"Dreambeans Roulette"迷你系列第三集，产品副总裁 Brian R. 分享了押注冷门领域的重要性，Nala 小狗也客串为整段旅程打出了满分。
+Amjad announced two big moves for Replit this week.
+Amjad 本周宣布了 Replit 的两项重大举措。
 
-Source:
-- https://x.com/GoogleLabs/status/2113340712523841696
+First, Replit is welcoming Jeff and the Chroma team — pioneers in AI who were "building RAG before it was even a thing." At Replit, they'll work on one of the hardest problems in AI: giving agents the context and memory they need to do real work, described as "a massive step toward the self-driving computer."
+首先，Replit 迎来了 Jeff 和 Chroma 团队——他们是 AI 领域的先驱，"在 RAG 成为热词之前就已经在构建它"。在 Replit，他们将攻克 AI 中最难的问题之一：为智能体提供完成真实任务所需的上下文和记忆，这被描述为"向自驱动计算机迈出的重大一步"。
 
----
+Second, Replit announced a Government edition, welcoming Michael Greenwald — formerly of AWS's public sector business — to help transform how governments build and operate software.
+其次，Replit 推出了政府版，迎来了 Michael Greenwald（前 AWS 公共部门业务负责人），旨在变革政府构建和运营软件的方式。
 
-## Amjad Masad (@amasad)
-
-Amjad shared how Replit is protecting user apps from recent security vulnerabilities — a brief but timely post given the wave of AI application security incidents.
-Amjad 分享了 Replit 如何保护用户应用免受近期安全漏洞影响——简短但及时，恰逢 AI 应用安全事件频发之际。
-
-Source:
-- https://x.com/amasad/status/2113474587166171560
+Sources:
+- https://x.com/amasad/status/2113736007111827606
+- https://x.com/amasad/status/2113676717105787192
 
 ---
 
 ## Guillermo Rauch (@rauchg)
 
-Guillermo delivered one of the week's sharpest security takes: the internet's encryption infrastructure had a master key with the password *"4"* — just the number four. *"This key could be used to target and decrypt ~everything."*
-Guillermo 发出本周最犀利的安全评论：互联网加密基础设施的主密钥密码竟然是 *"4"*——就是数字四。*"这把密钥可以针对性地解密几乎一切。"*
+Guillermo raised a sharp security concern: agents running in cloud VMs are potentially vulnerable to timing attacks — a class of side-channel exploits on shared-host VMs known since at least 2015, with no complete solution.
+Guillermo 提出了一个尖锐的安全问题：运行在云端虚拟机中的智能体可能面临时序攻击——这是一类自 2015 年以来就已知的共享宿主虚拟机侧信道漏洞，目前尚无完整解决方案。
 
-He also praised a real-world Generative UI example powered by AI Gateway, noting how adding a single line of code to the AI SDK gives you "Google" — not just search, but weather, sports, stocks, and elections.
-他还称赞了一个由 AI Gateway 驱动的现实生成式 UI 案例，指出在 AI SDK 中仅需一行代码便可接入"谷歌"——不只是搜索，还有天气、体育、股市和选举信息。
+*"Agents can play 'Ouija' in the cloud."*
+*"智能体可以在云端'玩碟仙'。"*
 
-His broader call to action: the industry needs to kill "static credentials" and build OIDC-based self-destructing keys — just as it once rallied around TLS to deliver HTTPS everywhere.
-他更宏观的呼吁：业界需要终结"静态凭证"，构建基于 OIDC 的自毁密钥机制——就像当年全行业齐心推动 TLS/HTTPS 普及一样。
-
-Sources:
-- https://x.com/rauchg/status/2113462657059639505
-- https://x.com/rauchg/status/2113451268316205515
-- https://x.com/rauchg/status/2113399539227136084
-
----
-
-## Alex Albert (@alexalbert__)
-
-Alex expressed genuine curiosity about small businesses using Claude, asking followers to share their use cases — and mused that *"Claude Duet could end up being bigger for these businesses than even things like Square or Google Maps were."*
-Alex 真诚地表达了对小企业使用 Claude 的好奇，邀请粉丝分享案例，并感叹*"Claude Duet 对这些企业的影响，可能会比 Square 或 Google Maps 当年更大。"*
+He noted that the world's cyber infrastructure runs on the assumption that such attacks are "theoretically possible, but who would have the ingenuity & gall to go that far!" — and that with AI agents, this assumption is now being stress-tested at scale.
+他指出，全球网络基础设施一直运行在这样的假设之上：此类攻击"理论上可行，但谁会有这种奇思妙想和胆量真的去实施呢！"——而随着 AI 智能体的出现，这一假设正在被大规模地挑战。
 
 Sources:
-- https://x.com/alexalbert__/status/2113386456098197941
-- https://x.com/alexalbert__/status/2113386454907007444
+- https://x.com/rauchg/status/2113759533801877920
 
 ---
 
 ## Aaron Levie (@levie)
 
-Aaron declared that security through obscurity is over — for humans it barely worked, and for autonomous AI systems, it's completely finished. *"Autonomous systems will look through every crevice and try every permutation of attack possible."*
-Aaron 宣告：通过隐晦实现安全的时代已经终结——对人类来说这本就行不通，对自主 AI 系统而言更是彻底失效。*"自主系统会穷举每一条缝隙，尝试每一种攻击排列。"*
+Aaron made a bold prediction: agent swarms for cyber defense are about to become one of the biggest categories in AI.
+Aaron 做出了一个大胆预测：用于网络防御的智能体群将成为 AI 中最重要的应用类别之一。
 
-The implication: years of legacy enterprise infrastructure built on obscurity assumptions now needs urgent rethinking.
-这意味着：多年来建立在安全隐晦假设之上的企业遗留基础设施，正面临紧迫的重构需求。
+He envisions agents continuously reviewing code and infrastructure, testing every permutation of risk, and processing massive amounts of data.
+他设想智能体持续审查代码和基础设施、测试每一种风险排列组合、处理海量数据。
 
-Source:
-- https://x.com/levie/status/2113499900399034689
+*"Security is one of the best use-cases for swarms because it's an obvious area where more compute and more intelligence directly translates to better outcomes."*
+*"安全是智能体群最佳应用场景之一，因为在这个领域，更多算力和更强智能可以直接转化为更好的结果，这一点显而易见。"*
+
+Sources:
+- https://x.com/levie/status/2113738768645808277
 
 ---
 
 ## Garry Tan (@garrytan)
 
-Garry backed Aside Browser as a real solution for making AI agents effective at web browsing, noting its potential in the agentic stack.
-Garry 力推 Aside Browser，认为它是让 AI 智能体真正用好网页浏览的实用解决方案，在智能体技术栈中具有重要价值。
+Garry has been vocal about San Francisco politics, specifically the local election.
+Garry 一直在就旧金山政治、特别是地方选举积极发声。
 
-He also shared a sharp observation on how AI is hitting SaaS businesses hard — with a real example of what it looks like when transformation truly lands.
-他还分享了一个犀利观察：AI 正在重创诸多 SaaS 巨头，并附上了一个"真正被冲击时是什么样子"的真实案例。
+He sharply criticized Connie Chan as a "regressive and terrible bureaucrat" who is "anti tech, anti housing, anti prosperity, pro grift, pro crime" — and slammed the Pelosi political machine for throwing its weight behind her and Gary McCoy.
+他尖锐地批评 Connie Chan 是一位"倒退的糟糕官僚"，"反科技、反住房、反繁荣、支持腐败、助长犯罪"——并猛烈抨击 Pelosi 政治机器为她和 Gary McCoy 背书。
 
-Sources:
-- https://x.com/garrytan/status/2113369692022944222
-- https://x.com/garrytan/status/2113367007567794563
-- https://x.com/garrytan/status/2113353678895919196
-
----
-
-## Matt Turck (@mattturck)
-
-Matt dropped a wide-ranging conversation with Pierre Stock of Mistral AI, dubbed "Mistral is SO back," covering Le Chonk (the West's biggest open model), the US Anthropic shutdown controversy, and the state of open-weight AI.
-Matt 发布了与 Mistral AI 的 Pierre Stock 深度对话，题为"Mistral 回来了"，涵盖 Le Chonk（西方最大开源模型）、美国封禁 Anthropic 模型的争议，以及开源权重 AI 的现状。
-
-He also mapped the increasingly complex AI competitive landscape: chip makers vs. inference providers vs. neo-clouds vs. post-training vs. apps vs. models — with NVIDIA somehow selling to everyone.
-他还绘制了日趋复杂的 AI 竞争格局：芯片厂商 vs. 推理服务商 vs. 新云厂商 vs. 后训练 vs. 应用 vs. 模型——而 NVIDIA 竟然向所有人卖货。
+He also invoked "horseshoe theory": the NIMBY left (nonprofit extractors) and the NIMBY right (boomer landlords) are, in his view, united in destroying housing affordability for their own comfort and grift.
+他还引用了"马蹄理论"：在他看来，左翼邻避主义者（非营利组织的寄生者）和右翼邻避主义者（婴儿潮一代的房东）在为了各自的安逸和私利破坏住房可负担性这件事上，殊途同归。
 
 Sources:
-- https://x.com/mattturck/status/2113311366715167169
-- https://x.com/mattturck/status/2113311361639829673
-- https://x.com/mattturck/status/2113263905950568730
+- https://x.com/garrytan/status/2113742461160046736
+- https://x.com/garrytan/status/2113742026999267330
+- https://x.com/garrytan/status/2113683853156192695
 
 ---
 
 ## Zara Zhang (@zarazhangrui)
 
-Zara observed that the blurring of designer and developer roles — long true in those fields — is now extending to everyone else as AI lowers the barrier to creation.
-Zara 观察到，设计师与开发者角色的融合——在这两个领域早已如此——如今正随着 AI 降低创作门槛而延伸至所有人。
+Zara is organizing a community event in the Bay Area (San Mateo) on November 7th (Saturday) focused on personal websites.
+Zara 正在组织一场湾区社区活动（San Mateo，11月7日周六），主题是个人网站。
 
-Source:
-- https://x.com/zarazhangrui/status/2113510486834921598
-- https://x.com/zarazhangrui/status/2113347866815250642
+The event showcases cool personal sites and helps attendees build or rebuild their own, with zero coding or design experience required.
+活动将展示各种精彩的个人网站，并帮助参与者从零开始创建或重建自己的网站，完全不需要编程或设计经验。
+
+It's a welcoming space for beginners and experienced builders alike.
+这将是一个对新手和有经验的创作者都友好的空间。
+
+Sources:
+- https://x.com/zarazhangrui/status/2113676956885807406
+- https://x.com/zarazhangrui/status/2113747119924478162
+- https://x.com/zarazhangrui/status/2113747026425139493
 
 ---
 
 ## Nikunj Kothari (@nikunj)
 
-Nikunj shared a timely observation on the startup funding squeeze: *"Never been easier to dream, never been harder to scale."* He's batting ~10% for seed companies he first meets that eventually get acquired — a signal of just how compressed the seed-to-Series A path has become.
-Nikunj 分享了对创业融资困境的犀利观察：*"做梦从未如此容易，成长从未如此艰难。"* 他见过的种子期公司中约 10% 最终被收购——这一数字揭示了种子轮到 A 轮的通道有多拥挤。
+Nikunj shared something he described as "truly magical" — a feature that lets you experience it by texting someone, with a recommendation to add it to your website.
+Nikunj 分享了一个他描述为"真正神奇"的功能——一种让你可以通过给别人发短信来体验的功能，并推荐大家将其添加到自己的网站上。
 
-He also brought some Halloween humor, asking AI what to wear for the occasion.
-他还带来一点万圣节幽默，向 AI 询问应该穿什么去过节。
+He also offered a sharp observation about Anthropic's growth: the company went 10x in revenue even without launching Claude Duet — which he seems to have anticipated.
+他还对 Anthropic 的增长做出了一个犀利观察：即使没有推出 Claude Duet，该公司营收也实现了 10 倍增长——这似乎在他的预料之中。
 
 Sources:
-- https://x.com/nikunj/status/2113455315077480867
-- https://x.com/nikunj/status/2113448798026625286
-- https://x.com/nikunj/status/2113405034826477910
+- https://x.com/nikunj/status/2113844657637687631
+- https://x.com/nikunj/status/2113844360572027321
+- https://x.com/nikunj/status/2113785018497831076
+
+---
+
+## Peter Steinberger (@steipete)
+
+Peter is taking a wait-and-see approach to new phone hardware, saying simply: "I'll wait a bit before thinking about a new phone."
+Peter 对新手机硬件持观望态度，简单地说："我会稍等一下再考虑换新手机。"
+
+Sources:
+- https://x.com/steipete/status/2113788999303385180
 
 ---
 
 ## Dan Shipper (@danshipper)
 
-Dan posted a single, resonant observation: *"we are living in unprecedented times"* — with a visual that underscores just how strange and accelerated the current moment is.
-Dan 发了一条简洁而有力的感叹：*"我们正生活在前所未有的时代"*——配图更加深了这种奇异加速感。
+Dan distilled team structure in the AI era down to a memorable two-archetype formula.
+Dan 将 AI 时代的团队结构浓缩成了一个令人印象深刻的两类人框架。
 
-Source:
-- https://x.com/danshipper/status/2113269180279751078
+*"The best configuration of teams in AI is only two people: pirates and architects."*
+*"AI 时代最佳的团队配置只需要两种人：海盗和建筑师。"*
+
+The implication: you need bold, fast-moving risk-takers (pirates) paired with systematic thinkers who can build structures that scale (architects).
+言下之意：你需要大胆、快速行动的冒险者（海盗）与能够构建可扩展结构的系统性思考者（建筑师）相互搭配。
+
+Sources:
+- https://x.com/danshipper/status/2113693510629281895
 
 ---
 
 ## Aditya Agarwal (@adityaag)
 
-Aditya shared a conversation with Sergey Levine of Physical Intelligence, noting that robotics is undergoing the same paradigm shift as LLMs: moving from fine-tuning → prompting → simply telling the model what you want.
-Aditya 分享了与 Physical Intelligence 联合创始人 Sergey Levine 的对话，指出机器人领域正在经历与大语言模型相同的范式转变：从微调→提示→直接告诉模型你想要什么。
+Aditya shared a key insight from a conversation with Sergey Levine at SPC about robotics and AI progress.
+Aditya 分享了在 SPC 与 Sergey Levine 对话中涌现的一个关于机器人与 AI 进展的核心洞见。
 
-He quoted Levine on how π0.7 learns new skills from plain-language coaching — a milestone that signals the "prompt era" has arrived for physical AI.
-他引用 Levine 对 π0.7 如何从自然语言指导中学习新技能的描述——这标志着物理 AI 的"提示时代"已经到来。
+*"Some of the biggest advances in AI have come from solving many problems together, rather than training specialized systems for individual tasks."*
+*"AI 领域一些最重大的突破，来自于同时解决多个问题，而非为单个任务训练专用系统。"*
 
-He also pushed back on the credential arms race: a top PhD doesn't necessarily make a great robotics researcher.
-他还对学历军备竞赛提出质疑：顶尖高校的博士学位未必造就优秀的机器人研究者。
+Levine argues that the same principle applies to robotics: make the problem bigger, not smaller, and generalization emerges.
+Levine 认为同样的原则适用于机器人学：把问题做大，而非缩小，泛化能力便会自然涌现。
 
 Sources:
-- https://x.com/adityaag/status/2113385973304160663
-- https://x.com/adityaag/status/2113385971844518124
-- https://x.com/adityaag/status/2113332746277789845
+- https://x.com/adityaag/status/2113681343502787070
+- https://x.com/adityaag/status/2113666949259362479
+- https://x.com/adityaag/status/2113666947766169868
 
 ---
 
-## Claude (@claudeai)
+## Claude AI (@claudeai)
 
-Anthropic's official Claude account announced several major updates: Fast Mode for Opus 5.5, code execution, and the Skills API are now available on the Claude Platform — and new features ship on the same day they go live natively.
-Anthropic 官方 Claude 账号宣布多项重大更新：Opus 5.5 快速模式、代码执行功能及 Skills API 现已在 Claude Platform 上线，新功能与原生平台同步发布。
+Anthropic's official Claude account shared a deep dive into how Claude Duet handles safety, privacy, and security.
+Anthropic 官方 Claude 账号分享了 Claude Duet 在安全性、隐私和信息安全方面的深度解析。
 
-Claude Models on Google Cloud (Anthropic managed) are now generally available, with full platform features accessible via Google Cloud IAM credentials, billing, and commitment retirement.
-Google Cloud 上由 Anthropic 管理的 Claude 模型现已正式发布，支持通过 Google Cloud IAM 凭证、账单和承诺消费进行访问，并提供完整平台功能。
-
-Starting next week, Pro/Max/Team plan sessions will run in auto mode by default — automating safety checks without requiring manual approval at each step, with the option to switch back to manual mode anytime.
-从下周起，Pro/Max/Team 计划的会话将默认以自动模式运行——自动执行安全检查，无需逐步手动批准，用户可随时切换回手动模式。
+The post links to detailed documentation on the safeguards built into the new Duet feature.
+该帖子链接到了关于 Duet 新功能内置安全措施的详细文档。
 
 Sources:
-- https://x.com/claudeai/status/2113380126561800305
-- https://x.com/claudeai/status/2113380122468454765
-- https://x.com/claudeai/status/2113360845409583307
+- https://x.com/claudeai/status/2113736176737845353
 
 ---
 
-## 🎙️ PODCAST: Training Data
+## 🎙️ PODCAST: No Priors — "Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht"
 
-**Episode:** David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience
-**Link:** https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+Published: October 23, 2026
+Source: https://www.youtube.com/@NoPriorsPodcast
 
-### 核心论点
-**Core Argument**
+### 深度总结
 
-The central thesis of this episode is that superintelligence requires building systems that learn continuously from their own experience — not from human-generated data alone.
-本期播客的核心论点是：通往超级智能的道路，在于构建能够从自身经验中持续学习的系统——而非单纯依赖人类生成的数据。
+**核心论点**
 
-David Silver (co-creator of AlphaGo) and Lasse Espeholt, co-founders of Ineffable Intelligence, argue that the LLM paradigm has proven the power of scale — but the next leap requires agents that discover new knowledge the way humanity collectively has: from scratch, through experience.
-David Silver（AlphaGo 联合创始人）与 Lasse Espeholt，Ineffable Intelligence 联合创始人，认为 LLM 范式已证明了规模的力量——但下一次跃迁需要智能体像人类集体认知那样从经验中自主发现新知识。
+AI is simultaneously the cause of the new security crisis on the internet and the most powerful tool available to defend against it.
+AI 同时是互联网新安全危机的根源，也是应对这一危机最强大的防御工具。
 
-### 关键洞察
-**Key Insights**
+As agentic AI systems proliferate, the attack surface is exploding — and legacy security assumptions built for human-speed threats are breaking down at machine speed.
+随着自主 AI 系统的大规模扩散，攻击面正在爆炸性扩大——专为人类速度威胁构建的传统安全假设正在以机器速度崩溃。
 
-The "superlearner" concept: a system that doesn't just retrieve knowledge but keeps learning and discovering indefinitely — the missing piece for true AGI/superintelligence.
-"超级学习者"概念：一个不只是检索知识、而是无限学习和发现的系统——这是通向真正 AGI/超级智能缺失的一环。
+Cloudflare's CTO Dane Knecht believes the only path forward is building security infrastructure that is native to the agentic web from the ground up.
+Cloudflare 首席技术官 Dane Knecht 认为，唯一的出路是从头构建原生于智能体互联网的安全基础设施。
 
-Silver's conviction from his AlphaGo days remains unchanged: reinforcement learning from experience — not supervised learning from human data — is the path to emergent intelligence.
-Silver 自 AlphaGo 时代起的核心信念从未改变：从经验中强化学习——而非从人类数据中监督学习——才是智能涌现的路径。
+**关键洞察**
 
-The LLM era provided an unexpected lesson: massive pre-training followed by rapid fine-tuning is a powerful paradigm even for experience-based systems, and Ineffable is incorporating these insights.
-LLM 时代带来了意外的启示：大规模预训练加上快速微调是一种强大范式，即使对于经验驱动的系统也适用，Ineffable 正在将这些洞察融入其方法论。
+- **The AI security paradox**: The same AI capabilities that enable sophisticated attacks also enable more powerful defenses — but defenders must move faster to close the gap. AI 安全悖论：赋能复杂攻击的 AI 能力，同样也能赋能更强的防御——但防御者必须更快地行动以弥合差距。
 
-The contrast between human collective discovery and current AI is stark: humanity built language, science, and mathematics from nothing — AI systems haven't cracked this yet, and that gap defines the frontier.
-人类集体认知与当前 AI 之间的差距依然巨大：人类从零开始构建了语言、科学和数学——AI 系统还未突破这一关，而这正是前沿的所在。
+- **Air-gapping is not a viable strategy**: Serious technologists have suggested air-gapping critical infrastructure, but Knecht argues this is neither practical nor sufficient — the internet is too deeply embedded in how civilization functions. 气隙隔离不是可行策略：虽有严肃的技术专家建议对关键基础设施实施气隙隔离，但 Knecht 认为这既不实际也不够用——互联网已深度嵌入文明运转的方式之中。
 
-Espeholt brings a practical systems perspective: the engineering challenge is building systems that remain stable and continue improving without human intervention or data injection — a fundamentally different reliability requirement than today's models.
-Espeholt 带来了务实的系统视角：工程挑战在于构建无需人类干预或数据注入也能持续稳定提升的系统——这与当今模型截然不同的可靠性要求。
+- **Timing attacks are back**: AI agents running on shared cloud infrastructure reintroduce classic side-channel vulnerabilities (like timing attacks) at unprecedented scale, because agents can probe systems at machine speed and volume. 时序攻击卷土重来：在共享云基础设施上运行的 AI 智能体，以前所未有的规模重新引入了经典侧信道漏洞（如时序攻击），因为智能体能以机器的速度和规模探测系统。
 
-Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+- **The "who would dare?" assumption is dead**: Legacy security postures assumed that certain sophisticated attacks were possible in theory but too labor-intensive to actually execute. AI agents invalidate this assumption entirely — they can execute complex, multi-step attacks continuously and autonomously. "谁会真的这么做？"的假设已经死亡：传统安全态势假定某些复杂攻击理论上可行，但实际执行代价太高。AI 智能体彻底推翻了这一假设——它们可以持续自主地执行复杂的多步骤攻击。
+
+- **Security must move from reactive to proactive**: The future of cyber defense is AI agents that continuously test, probe, and harden systems — running offense to improve defense — rather than waiting for breaches to patch. 安全必须从被动转向主动：网络防御的未来是 AI 智能体持续测试、探测和强化系统——以攻促守——而非等到被攻破后再打补丁。
+
+### Deep Summary (English)
+
+Dane Knecht, CTO of Cloudflare, joined the No Priors podcast to discuss what the rise of agentic AI means for internet security.
+Cloudflare 首席技术官 Dane Knecht 参加了 No Priors 播客，探讨自主 AI 的崛起对互联网安全意味着什么。
+
+He opened with a striking framing: AI went from being "how do we get everyone to use it?" to "how do we secure it?" almost overnight — and security, as usual, was an afterthought until the stakes became undeniable.
+他以一个引人注目的框架开场：AI 几乎在一夜之间，从"如何让所有人使用它？"变成了"如何保护它的安全？"——而安全，一如既往，是事后才想到的，直到风险变得无可忽视。
+
+The conversation centered on three interconnected themes: the expanding attack surface introduced by AI agents, the inadequacy of legacy security models, and the emerging category of AI-native security tools.
+对话围绕三个相互关联的主题展开：AI 智能体带来的攻击面扩张、传统安全模型的不足，以及正在兴起的 AI 原生安全工具类别。
+
+On attack surface: AI agents introduce new vectors. They can be prompt-injected, they operate with broad permissions, and they interact with systems at speeds and volumes no human could match. Traditional perimeter security assumes a human on the other end — agents break that model.
+关于攻击面：AI 智能体引入了新的攻击向量。它们可以被提示注入，以广泛的权限运行，并以人类无法匹敌的速度和规模与系统交互。传统边界安全假设另一端是人类——智能体打破了这一模型。
+
+On legacy models: The classic "trust but verify" or even "zero trust" frameworks were designed for human-speed interactions. Knecht argued that with agents making thousands of API calls per second, the economics of traditional security tooling break down — you need systems that can reason about intent and context at machine speed.
+关于传统模型：经典的"信任但验证"乃至"零信任"框架，都是为人类速度的交互而设计的。Knecht 认为，当智能体每秒发起数千次 API 调用时，传统安全工具的经济逻辑就崩溃了——你需要能在机器速度下推理意图和上下文的系统。
+
+Cloudflare's positioning is as the connective tissue of the internet — sitting between clients and servers for a huge portion of global web traffic — which gives them unique visibility into attack patterns across the entire ecosystem.
+Cloudflare 将自身定位为互联网的结缔组织——在客户端和服务器之间处理全球大量网络流量——这赋予了他们对整个生态系统攻击模式的独特洞察力。
+
+The optimistic note: the same properties that make AI dangerous (speed, scale, persistence) also make AI-powered defense unprecedented in its potential effectiveness.
+乐观的一面：正是让 AI 变得危险的特性（速度、规模、持久性），也使 AI 驱动的防御在潜在有效性上前所未有。
+
+Source: https://www.youtube.com/@NoPriorsPodcast
