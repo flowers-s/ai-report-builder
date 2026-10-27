@@ -1,202 +1,133 @@
-AI Builders 日报 · 2026-10-26
+AI Builders 日报 · 2026-10-27
+
+AI Builders Digest — 2026-10-27
 
 ---
 
-OFFICIAL BLOGS
-
-No new blog posts today.
+## X / TWITTER
 
 ---
 
-X / TWITTER
+### Aaron Levie (Box CEO, levie on X)
 
-**Swyx (swyx on X) — smol.ai founder, Latent Space podcast host**
+Box CEO Aaron Levie shared a detailed take on enterprise cybersecurity, arguing that fragmented data and infrastructure make it nearly impossible for most companies to understand their true risk posture.
+Box CEO Aaron Levie 分享了对企业网络安全的深度观察，指出数据和基础设施的高度碎片化让大多数公司几乎无法清楚掌握自身的真实风险状况。
 
-Swyx announced that the Latent Space podcast is actively hiring writers, reviewers, and reporters for its new editorial team.
-swyx 宣布 Latent Space 播客正在积极招募编辑团队成员，包括撰稿人、审稿人和记者。
+He noted that agent swarms can now fan out, leverage any security tool, test attack permutations, and process enterprise data for risk — capabilities that only emerged in the past few months with long-running agents and computer use.
+他指出，Agent swarm 现在可以展开行动、调用任何安全工具、测试各种攻击排列组合并处理企业数据来评估风险——这些能力在过去几个月随着长时任务 agent 和计算机控制能力的成熟才刚刚出现。
 
-Part-time and one-off guest contributions are also welcome.
-兼职和一次性客座投稿也欢迎参与。
+*"The fragmented landscape of the risk surface is only going to get more gnarly, making it even more complex for enterprises to solve."*
+*"风险面的碎片化格局只会愈发复杂，让企业的安全治理难度持续升高。"*
 
-Source: https://x.com/swyx/status/2114145315196711194
-Source: https://x.com/swyx/status/2114149330135519730
+He sees this as a huge opportunity across identity, firewall, network, code scanning, and data protection — and a reason to be optimistic about the balance of offensive and defensive capability.
+他认为这是横跨身份认证、防火墙、网络、代码扫描和数据保护各层的巨大机遇，也是对攻防能力平衡保持乐观的理由之一。
 
----
-
-**Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT at OpenAI**
-
-Thibault teased an exciting week ahead, confirming that a new Codex update has fully propagated and will be ready for users to try.
-Thibault 暗示接下来将有精彩的一周，确认新版 Codex 更新已全面推送，用户可以尽情体验。
-
-*"It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too."*
-"一切都已推送完毕。明天好好享受 Codex 带来的乐趣吧，本周还有更多精彩。"
-
-He also noted the update went live by midnight PST, marking day 20 of what appears to be a development sprint or challenge.
-他还表示更新已在太平洋时间午夜前上线，这标志着一场开发冲刺或挑战的第 20 天。
-
-Source: https://x.com/thsottiaux/status/2114237083652882932
-Source: https://x.com/thsottiaux/status/2114200291319124163
+Source: https://x.com/levie/status/2114391265655816315
 
 ---
 
-**Peter Yang (petergyang on X) — AI educator and product thinker**
+### Thibault Sottiaux (thsottiaux on X)
 
-Peter shared a thoughtful recommendation for a kids' learning app called Once Reading, which he and his 4-year-old have been using consistently for months.
-Peter 分享了他对一款名为 Once Reading 的儿童学习应用的诚心推荐，他和4岁的孩子已坚持使用数月。
+Thibault Sottiaux reminded users that ChatGPT's web appearance can be customized for a more soothing experience.
+Thibault Sottiaux 提醒用户，ChatGPT 的网页外观可以自定义，让界面更加舒适宜人。
 
-What made it work, he explained, is the combination of daily habit-building and lightweight gamification like taking silly photos together.
-他认为该应用之所以有效，在于将每日习惯养成与轻量级游戏化元素（如一起拍搞笑照片）结合起来。
+Source: https://x.com/thsottiaux/status/2114595002210783279
 
-He also reacted to news that two key Claude team members — Anthony and Thariq — appear to be leaving, calling it a *"huge bummer for Claude users"* given how attentive they were to user feedback.
-他还对 Claude 团队两位核心成员 Anthony 和 Thariq 疑似离职的消息作出回应，称这对 Claude 用户而言是"令人沮丧的消息"，因为这两人一直非常重视用户反馈。
+He also noted he is on day 21 of an ongoing challenge, with a reset moment today.
+他还提到自己正在进行某个挑战的第 21 天，今天是一个重置的节点。
 
-Source: https://x.com/petergyang/status/2114042708105060501
-Source: https://x.com/petergyang/status/2114001125636768121
+Source: https://x.com/thsottiaux/status/2114588174249071102
 
 ---
 
-**Guillermo Rauch (rauchg on X) — Vercel CEO**
+### Peter Yang (petergyang on X)
 
-Guillermo reflected on the distinctive engineering vocabulary that AI models have developed — words like "gate," "evidence," "culprit," "durable," and "provenance."
-Guillermo 思考了 AI 模型所形成的独特工程词汇，例如"gate（关卡）""evidence（证据）""culprit（罪魁祸首）""durable（持久）""provenance（来源）"。
+Peter Yang shared a practical workflow for using Claude to copy any video shorts style in minutes, quoting creator Jake Moran on how HyperFrames Studio implemented this as a native capability.
+Peter Yang 分享了一个用 Claude 在数分钟内复刻任意短视频风格的实用工作流，并引用了创作者 Jake Moran 介绍 HyperFrames Studio 如何将其作为原生功能实现的说明。
 
-*"A lot of these stem from most engineering being debugging and understanding existing systems, where you take on the detective / auditor roles."*
-"这些词汇大多源于工程工作的核心——调试和理解已有系统，此时你扮演的是侦探或审计员的角色。"
+*"We added this as a native capability in HyperFrames_ studio. You just upload or pick a reference clip and then describe in the prompt what you want to change."*
+*"我们在 HyperFrames Studio 中将其作为原生能力集成。你只需上传或选择一段参考视频片段，然后在提示词中描述你想要改变的内容。"*
 
-He also posted a sharp observation about working with AI: the top skill is knowing when to guide it closely and when to step back.
-他还分享了一个关于 AI 协作的犀利洞察：最关键的能力在于判断何时需要紧密引导 AI，何时应放手让它自主发挥。
-
-*"There'll be times where you over-guide the AI. It knows better than you and is more intelligent than you."*
-"有时候你会过度引导 AI——它其实比你更懂，也比你更聪明。"
-
-*"There'll be times where you under-guide the AI. It can go off-track, have the wrong biases, or miss context."*
-"有时候你又会引导不足——它可能偏离方向、带入错误偏见，或忽略关键背景。"
-
-Source: https://x.com/rauchg/status/2114164830403989880
-Source: https://x.com/rauchg/status/2114085432749347086
+Source: https://x.com/petergyang/status/2114507378532229214
 
 ---
 
-**Alex Albert (alexalbert__ on X) — Research at Anthropic**
+### Nan Yu (thenanyu on X)
 
-Alex Albert had no substantive independent tweets this period — his recent posts were all replies acknowledging contributors to Claude Managed Agents and Duet projects.
-近期无重要动态 — Alex Albert 的近期推文均为回复，感谢参与 Claude Managed Agents 和 Duet 项目的贡献者，无独立实质性内容。
+Nan Yu raised a product management insight: by the time a UX problem shows up in data or user research interviews, the reputation damage is already done.
+Nan Yu 提出了一个产品管理洞察：当用户体验问题出现在数据或用研访谈中时，品牌声誉的损害往往已经发生。
 
-Source: https://x.com/alexalbert__/status/2114145722320969943
+This is a call for earlier, more proactive detection of product quality signals.
+这是对更早、更主动地捕捉产品质量信号的呼吁。
 
----
+Source: https://x.com/thenanyu/status/2114427877240488442
 
-**Aaron Levie (levie on X) — Box CEO**
+He also flagged a UX fragmentation issue with unoptimized apps on the iPhone Duo, noting the poor default split-mode behavior.
+他还指出了 iPhone Duo 上未经优化的应用在分屏模式下的默认表现存在 UX 碎片化问题。
 
-Aaron sounded an urgent warning about the cybersecurity implications of the coming agentic AI wave.
-Aaron 就即将到来的智能体 AI 浪潮对网络安全的深远影响发出了紧迫警示。
-
-*"We'll likely have 1,000X more tokens flowing through cyber agents soon than we do today."*
-"不久的将来，流经网络智能体的 token 数量很可能是今天的 1000 倍。"
-
-He argued that as the surface area of cyber risk expands exponentially, even large enterprises barely have the resources to keep up today — and the situation is about to get dramatically worse.
-他指出，随着网络风险暴露面呈指数级扩大，即便是大型企业如今也几乎难以应对——而这种局面即将急剧恶化。
-
-Source: https://x.com/levie/status/2114187326406766604
+Source: https://x.com/thenanyu/status/2114433404557279435
 
 ---
 
-**Ryo Lu (ryolu_ on X) — Designer of Cursor, Notion, Stripe; founder building AI tools**
+### Zara Zhang (zarazhangrui on X)
 
-Ryo shared a reflective post about learning through struggle — how he taught himself programming and design by repeatedly trying, failing, and trying again, and how he carried that same spirit into his entire career.
-Ryo 分享了一篇关于"在挣扎中成长"的感悟——他通过反复尝试、失败、再尝试，自学了编程和设计，并将这种精神贯穿了整个职业生涯。
+Zara Zhang shared a content creation insight: most people overestimate the importance of a single big launch and underestimate the compounding power of consistent daily presence.
+Zara Zhang 分享了一个内容创作洞见：大多数人高估了一次大型发布的重要性，而低估了每天持续出现在时间线上的复利效应。
 
-*"I learned programming and design by trying, failing, and trying again. When I hit a wall, I figured out how to climb it."*
-"我靠着不断尝试、失败、再尝试来学习编程和设计。每当遇到障碍，我都会想办法翻越它。"
+*"Develop a system where you make a video every day > spending tens of thousands of dollars on a single launch video."*
+*"建立一套每天制作一个视频的体系，胜过在一个单一的发布视频上花费数万美元。"*
 
-He also linked to a curated playlist and more detailed resources from his talk or essay on this theme.
-他还附上了一份精选播放列表及更多相关资源，来自他关于这一主题的分享。
-
-Source: https://x.com/ryolu_/status/2114187405251219954
-Source: https://x.com/ryolu_/status/2114153611005702542
+Source: https://x.com/zarazhangrui/status/2114255477907570865
 
 ---
 
-**Garry Tan (garrytan on X) — President & CEO of Y Combinator**
+### Matt Turck (mattturck on X)
 
-Garry teased updates to Gstack, his personal AI stack project, without revealing specifics.
-Garry 暗示了他个人 AI 工具栈项目 Gstack 的最新进展，但未透露具体细节。
+Matt Turck made a wry observation about venture capital pivots, joking about how 2021 bets in metaverse, gaming, and crypto mining have been rebranded as "mission-critical AI infrastructure."
+Matt Turck 对风险投资的叙事转换发表了一条讽刺性评论，调侃 2021 年在元宇宙、游戏和加密矿机上的押注如何被重新包装成"关键任务 AI 基础设施"。
 
-近期无重要动态 beyond the brief tease — nothing substantive to summarize.
-除了这条简短预告外，近期无重要动态。
-
-Source: https://x.com/garrytan/status/2114090740217499854
+Source: https://x.com/mattturck/status/2114507945585328606
 
 ---
 
-**Zara Zhang (zarazhangrui on X) — Builder, Harvard '17**
-
-Zara posted a pithy observation about the gap between giving advice and taking it yourself.
-Zara 发了一条简洁的感悟，关于给别人建议与将同样建议用于自身之间的落差。
-
-*"It is so much easier to give advice to other people than to apply the same advice to yourself."*
-"给别人提建议，远比把同样的建议用在自己身上容易得多。"
-
-Source: https://x.com/zarazhangrui/status/2114225607022412049
+## PODCASTS
 
 ---
 
-**Nikunj Kothari (nikunj on X) — Partner at FPV Ventures**
+### No Priors — "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman"
 
-Nikunj is actively looking for angel investors for an infrastructure Series A in the AI space — specifically people he hasn't yet connected with.
-Nikunj 正积极寻找愿意投资 AI 基础设施 A 轮的天使投资人，尤其是尚未与他建立联系的投资者。
+This episode features OpenAI co-founder and president Greg Brockman in conversation with hosts Regina and Elad, covering OpenAI's latest math breakthroughs, AI-driven drug discovery, and a bold thesis that security spending should vastly outstrip software spending.
+本期节目由 OpenAI 联合创始人兼总裁 Greg Brockman 与主持人 Regina 和 Elad 对话，涵盖 OpenAI 最新数学突破、AI 驱动的药物研发，以及一个大胆论断：安全支出应远超软件支出。
 
-He also shared a meme capturing the essence of the venture capital industry.
-他还分享了一张精准描绘风险投资行业本质的表情包。
+**核心论点 / Core Thesis**
 
-On a more substantive note, he referenced an article that articulates the evolution from "context → harnesses → judgment" in AI product development, and invited builders working in this space to connect.
-在更具实质意义的内容上，他引用了一篇文章，清晰阐述了 AI 产品开发从"上下文→约束机制→判断力"的演进路径，并邀请在该领域构建产品的创业者与他交流。
+Greg argues we are at an inflection point where AI can now generate genuinely new knowledge — evidenced by solving 100-year-old math problems — and that this same capability will transform drug discovery, cybersecurity, and nearly every domain of human endeavor.
+Greg 认为，AI 现已能产生真正的新知识（以解决百年数学难题为证），我们正处于一个拐点，这一能力将重塑药物研发、网络安全以及几乎所有人类知识领域。
 
-Source: https://x.com/nikunj/status/2114095315271942176
-Source: https://x.com/nikunj/status/2114091467652444625
-Source: https://x.com/nikunj/status/2113994081345126486
+**Key Insights / 关键洞察**
 
----
+• AI can now definitively resolve previously unsolvable math problems — not just retrieve answers, but generate new knowledge. This is a milestone.
+  AI 现在可以明确解决此前无解的数学问题——不是检索答案，而是产生新知识。这是一个里程碑。
 
-**Aditya Agarwal (adityaag on X) — General Partner at SPC, ex-CTO of Dropbox**
+• The "physics of cybersecurity" are changing fundamentally: as software becomes nearly free to build, security and reliability become the scarce, valuable layer. Security spend should outstrip software spend.
+  网络安全的"物理规律"正在根本性地改变：随着软件构建成本趋近于零，安全性和可靠性成为稀缺且有价值的层次。安全支出应超过软件支出。
 
-Aditya shared a counterintuitive personal observation: being "max AI pilled" has actually made him treasure in-person human time even more.
-Aditya 分享了一个反直觉的个人感悟：成为 AI 的坚定信徒，反而让他更加珍视与家人和朋友的现实相处时光。
+• Agent swarms can now autonomously fan out across enterprise environments to test attack surfaces, read logs, and process risk data — capabilities that emerged only in the last few months.
+  Agent swarm 现在可以自主在企业环境中展开，测试攻击面、读取日志、处理风险数据——这些能力在过去几个月才刚刚出现。
 
-*"Put on some techno, dance with friends, take your kids to the park. Let the agents cook (or not). But dear god, celebrate humans."*
-"放点电子音乐，和朋友跳舞，带孩子去公园。让智能体去干活（管它干不干）。但说真的，好好珍惜身边的人。"
+• Drug discovery is poised for transformation: AI can now help model molecular interactions with a level of reasoning that was previously impossible, potentially compressing decades of research.
+  药物研发正面临变革：AI 现在可以以前所未有的推理能力对分子相互作用进行建模，有望将数十年的研究时间大幅压缩。
 
-Source: https://x.com/adityaag/status/2114135237806760097
+• Greg's framing: *"It never gets easier, you just go faster"* — the pace of AI progress means every new capability threshold opens up another level of possibility rather than a plateau.
+  Greg 的框架：*"它不会变得更容易，你只是变得更快"*——AI 进步的速度意味着每一个新能力阈值都开启了另一个可能性层次，而不是趋于平缓。
 
----
+**最值得关注的信号 / Most Forward-Looking Signal**
 
-PODCASTS
+The claim that security spending should "vastly outstrip" software spending is a contrarian and highly specific prediction worth watching — if true, it implies a massive reallocation of enterprise budgets away from build-and-ship toward protect-and-verify.
+"安全支出应大幅超过软件支出"这一论断是一个反直觉且高度具体的预测，值得持续关注——如果成立，意味着企业预算将从"构建与交付"大规模转向"保护与验证"。
 
-**The MAD Podcast with Matt Turck**
-*Jev: The AI That Makes Decisions, Not Text - and Why It Changes Everything (Diogo Almeida)*
-
-This episode features Diogo Almeida, CEO of TypeSafe and creator of Jev — the new AI model that makes decisions rather than generating text.
-本期节目专访 TypeSafe CEO、Jev 创始人 Diogo Almeida，Jev 是一种做出决策而非生成文本的新型 AI 模型。
-
-Diogo explains that Jev is not a language model — it is a "machine-native" intelligence designed to plug directly into software systems as a programmable, composable decision layer.
-Diogo 解释说，Jev 并非语言模型，而是一种"机器原生"智能，旨在作为可编程、可组合的决策层直接嵌入软件系统。
-
-The key insight: LLMs are trained via RLHF to be pleasing to humans, which makes them sycophantic, unreliable for automation, and impossible to compose safely — what Diogo calls *"95% Einstein, 5% Mr. Bean."*
-核心洞见：LLM 通过 RLHF 训练以讨好人类，导致其谄媚、难以可靠地自动化执行、也无法安全组合——Diogo 称之为"95% 爱因斯坦，5% 憨豆先生"。
-
-Jev outputs calibrated probabilities instead of prose, allowing developers to set their own thresholds — so a Disney deployment can have very different refusal thresholds than a roleplay app.
-Jev 输出经过校准的概率而非文本，让开发者可以自行设定阈值——迪士尼部署场景和角色扮演应用可以有截然不同的拒绝阈值。
-
-Diogo argues classification is not "old ML" — it is the fundamental interface by which intelligence enters software: *"How does Facebook work? Classifiers. How does TikTok work? Classifiers. How does Google work? Classifiers."*
-Diogo 指出分类并非"老旧机器学习"——它是智能进入软件的基本接口："Facebook 如何运作？分类器。TikTok 如何运作？分类器。Google 如何运作？分类器。"
-
-On the wave of copycats since launch: Diogo is confident competitors are years behind in reliability, because getting the interface right is easy — getting reliable, composable intelligence is hard.
-谈到上线以来涌现的大量跟风产品，Diogo 有信心认为竞争对手在可靠性上落后数年——因为做对接口很容易，但实现可靠、可组合的智能非常困难。
-
-He also shared that he wrote an internal document at OpenAI arguing *"we could have had AGI last year"* — and still believes it — because the models are already incredibly capable, but the distribution/deployment problem remains unsolved.
-他还透露，他曾在 OpenAI 内部撰写文件，主张"我们去年本可以实现 AGI"——并且他至今仍这么认为——因为模型已极具能力，但分发与部署问题依然悬而未决。
-
-Episode link: https://www.youtube.com/@DataDrivenNYC/videos
+Source: https://www.youtube.com/@NoPriorsPodcast
+Episode: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
 
 ---
 
