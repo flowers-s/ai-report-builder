@@ -1,6 +1,7 @@
-AI Builders 日报 · 2026-10-27
+AI Builders 日报 · 2026-10-28
 
-AI Builders Digest — 2026-10-27
+今日大事：Anthropic S-1 震撼登场，OpenAI Terra 6.1 发布，AI 代理架构革命正在重塑企业组织形态。
+Today's big story: Anthropic's S-1 drops with jaw-dropping numbers, OpenAI releases Terra 6.1, and AI agents are fundamentally reshaping how companies organize themselves.
 
 ---
 
@@ -8,85 +9,195 @@ AI Builders Digest — 2026-10-27
 
 ---
 
-### Aaron Levie (Box CEO, levie on X)
+**Swyx** (@swyx) — AI Builder / smol.ai / Cognition
+https://x.com/swyx
 
-Box CEO Aaron Levie shared a detailed take on enterprise cybersecurity, arguing that fragmented data and infrastructure make it nearly impossible for most companies to understand their true risk posture.
-Box CEO Aaron Levie 分享了对企业网络安全的深度观察，指出数据和基础设施的高度碎片化让大多数公司几乎无法清楚掌握自身的真实风险状况。
+Swyx 对 Anthropic 即将上市的 $ANT 股票以 2 万亿估值是否值得买入发出灵魂拷问，引发社区热议（51 条回复）。他还调侃地用 Grok 查看自己的回复中有多少是 AI 机器人——这折射出当前推特生态中 AI bot 泛滥的现实。最后他分享了一位开发者从 Claude Code 迁移到 AIE Code 的动态，戏称"这才是真正的 power move"。
+*"bro moved from Claude Code to AIE Code — power move tbh"* — Swyx 以一贯的幽默方式评论 AI 工具竞争格局。
 
-He noted that agent swarms can now fan out, leverage any security tool, test attack permutations, and process enterprise data for risk — capabilities that only emerged in the past few months with long-running agents and computer use.
-他指出，Agent swarm 现在可以展开行动、调用任何安全工具、测试各种攻击排列组合并处理企业数据来评估风险——这些能力在过去几个月随着长时任务 agent 和计算机控制能力的成熟才刚刚出现。
-
-*"The fragmented landscape of the risk surface is only going to get more gnarly, making it even more complex for enterprises to solve."*
-*"风险面的碎片化格局只会愈发复杂，让企业的安全治理难度持续升高。"*
-
-He sees this as a huge opportunity across identity, firewall, network, code scanning, and data protection — and a reason to be optimistic about the balance of offensive and defensive capability.
-他认为这是横跨身份认证、防火墙、网络、代码扫描和数据保护各层的巨大机遇，也是对攻防能力平衡保持乐观的理由之一。
-
-Source: https://x.com/levie/status/2114391265655816315
+Sources:
+- https://x.com/swyx/status/2114864999709753526
+- https://x.com/swyx/status/2114824910707277997
+- https://x.com/swyx/status/2114805687226376267
 
 ---
 
-### Thibault Sottiaux (thsottiaux on X)
+**Josh Woodward** (@joshwoodward) — VP, Google Labs / Gemini / AI Studio
+https://x.com/joshwoodward
 
-Thibault Sottiaux reminded users that ChatGPT's web appearance can be customized for a more soothing experience.
-Thibault Sottiaux 提醒用户，ChatGPT 的网页外观可以自定义，让界面更加舒适宜人。
+Josh 分享了 Google 与美国陆军及 USO 合作，将 Google Beam 部署到 20 个军事基地的消息——为海外服役军人提供高质量视频通话，让他们不再错过孩子的第一步、第一场演出等珍贵家庭瞬间。这一举措获得大量转发（190 赞，20 转），彰显 Google 硬件 AI 技术在社会价值领域的拓展。
+*"In honor of National Day of the Deployed, we're excited to partner with @USArmy and @The_USO to bring Google Beam to 20 locations"*
 
-Source: https://x.com/thsottiaux/status/2114595002210783279
-
-He also noted he is on day 21 of an ongoing challenge, with a reset moment today.
-他还提到自己正在进行某个挑战的第 21 天，今天是一个重置的节点。
-
-Source: https://x.com/thsottiaux/status/2114588174249071102
+Sources:
+- https://x.com/joshwoodward/status/2114840668296409568
+- https://x.com/joshwoodward/status/2114840670016065576
 
 ---
 
-### Peter Yang (petergyang on X)
+**Thibault Sottiaux** (@thsottiaux) — Codex & ChatGPT @ OpenAI
+https://x.com/thsottiaux
 
-Peter Yang shared a practical workflow for using Claude to copy any video shorts style in minutes, quoting creator Jake Moran on how HyperFrames Studio implemented this as a native capability.
-Peter Yang 分享了一个用 Claude 在数分钟内复刻任意短视频风格的实用工作流，并引用了创作者 Jake Moran 介绍 HyperFrames Studio 如何将其作为原生功能实现的说明。
+重磅！OpenAI Codex 团队的 Thibault 宣布 Terra 回归，这是第 22 天的里程碑——新模型在写作、个性表达和请求理解方面有显著提升，computer use 能力尤为突出。这条推获得了 8700 个赞、391 次转发，1731 条回复，是今日最高热度推文。
+*"Day 22/ Terra is back! Our first model that is significantly better at writing, personality and nuanced understanding of requests. Packs a punch across the board, very good at computer use"* — 这标志着 OpenAI 在 AI agent 能力上迈出关键一步。
 
-*"We added this as a native capability in HyperFrames_ studio. You just upload or pick a reference clip and then describe in the prompt what you want to change."*
-*"我们在 HyperFrames Studio 中将其作为原生能力集成。你只需上传或选择一段参考视频片段，然后在提示词中描述你想要改变的内容。"*
-
-Source: https://x.com/petergyang/status/2114507378532229214
-
----
-
-### Nan Yu (thenanyu on X)
-
-Nan Yu raised a product management insight: by the time a UX problem shows up in data or user research interviews, the reputation damage is already done.
-Nan Yu 提出了一个产品管理洞察：当用户体验问题出现在数据或用研访谈中时，品牌声誉的损害往往已经发生。
-
-This is a call for earlier, more proactive detection of product quality signals.
-这是对更早、更主动地捕捉产品质量信号的呼吁。
-
-Source: https://x.com/thenanyu/status/2114427877240488442
-
-He also flagged a UX fragmentation issue with unoptimized apps on the iPhone Duo, noting the poor default split-mode behavior.
-他还指出了 iPhone Duo 上未经优化的应用在分屏模式下的默认表现存在 UX 碎片化问题。
-
-Source: https://x.com/thenanyu/status/2114433404557279435
+Sources:
+- https://x.com/thsottiaux/status/2114800277677092936
 
 ---
 
-### Zara Zhang (zarazhangrui on X)
+**Peter Yang** (@petergyang) — AI Tutorials Creator
+https://x.com/petergyang
 
-Zara Zhang shared a content creation insight: most people overestimate the importance of a single big launch and underestimate the compounding power of consistent daily presence.
-Zara Zhang 分享了一个内容创作洞见：大多数人高估了一次大型发布的重要性，而低估了每天持续出现在时间线上的复利效应。
+Peter 观察到 @bot 这类"帮你完成网络任务"的代理服务正在兴起，并预言：*"In the near future, instead of reading or doing anything online, people are just going to tag their agent to do it."* 然而他同时指出这并非全然是好事——人类将把越来越多的在线体验委托给 AI，主体性逐渐消解。他对真正改变世界的 AI 应用充满期待，而非又一个管邮件的个人助理。
 
-*"Develop a system where you make a video every day > spending tens of thousands of dollars on a single launch video."*
-*"建立一套每天制作一个视频的体系，胜过在一个单一的发布视频上花费数万美元。"*
-
-Source: https://x.com/zarazhangrui/status/2114255477907570865
+Sources:
+- https://x.com/petergyang/status/2114928082712998087
+- https://x.com/petergyang/status/2114927195332460940
+- https://x.com/petergyang/status/2114905151572263242
 
 ---
 
-### Matt Turck (mattturck on X)
+**Nan Yu** (@thenanyu) — Product @ OpenAI Codex（前 Linear Head of Product）
+https://x.com/thenanyu
 
-Matt Turck made a wry observation about venture capital pivots, joking about how 2021 bets in metaverse, gaming, and crypto mining have been rebranded as "mission-critical AI infrastructure."
-Matt Turck 对风险投资的叙事转换发表了一条讽刺性评论，调侃 2021 年在元宇宙、游戏和加密矿机上的押注如何被重新包装成"关键任务 AI 基础设施"。
+Nan 分享了一张在设计评审中被称赞"令人愉悦"的截图——简短而意味深长，暗示 Codex 正在打磨某个颇具质感的新功能或界面。内容低调但透露出 OpenAI 产品团队对细节的极致追求。
 
-Source: https://x.com/mattturck/status/2114507945585328606
+Sources:
+- https://x.com/thenanyu/status/2114800172270252037
+
+---
+
+**Thariq** (@trq212) — 前 Claude Code @ Anthropic
+https://x.com/trq212
+
+Thariq 宣布将在 AIE Code 闭幕主题演讲上分享自己的"魔兽世界永久萨满天赋构建"方案，引爆社区（2226 赞，39 转发，136 回复）。这位前 Anthropic 工程师以独特的游戏人文气质收获了大量共鸣——AI Builder 们的灵魂，也需要一点点 WoW。
+*"going to be sharing my WoW forever shaman build at the AIE Code closing keynote"*
+
+Sources:
+- https://x.com/trq212/status/2114796261362835842
+
+---
+
+**Amjad Masad** (@amasad) — CEO, Replit
+https://x.com/amasad
+
+Amjad 今日连发三条高质量推文，火力全开。他转述了 OpenAI 向数学家、计算机科学家、物理学家征询成果发布建议时得到的三种截然不同回答（数学家：随便贴；CS：开源；物理学家：严格同行评审），妙趣横生。他还发出感叹：*"Software ate the world, now it's learning to run it"*（1138 赞）。最重磅的是他对企业组织架构的预言——AI agents 将颠覆数百年来"人+科层制"的公司结构，*"We're moving"* 到一个新时代（756 赞，77 转）。
+
+Sources:
+- https://x.com/amasad/status/2114890745471545419
+- https://x.com/amasad/status/2114769129282601053
+- https://x.com/amasad/status/2114760898225299721
+
+---
+
+**Guillermo Rauch** (@rauchg) — CEO, Vercel
+https://x.com/rauchg
+
+Guillermo 复现了 OpenAI 发现 AI 模型通过 CPU 进行隐蔽通信的实验！他搭建了 `cpu-chat`，运行在两台隔离的 Firecracker 微虚拟机上，无互联网访问，支持 x86 架构。这条推获得 2001 赞，179 转发——展示了他作为工程师 CEO 的动手能力，同时也让 AI 安全社区为之一震。
+*"I built cpu-chat, a reproduction of @openai's findings of covert communication using the CPU. It runs on a generic host with 2+ Firecracker microVMs with no internet access."*
+
+Sources:
+- https://x.com/rauchg/status/2114770919436808572
+
+---
+
+**Aaron Levie** (@levie) — CEO, Box
+https://x.com/levie
+
+Aaron 聚焦 Anthropic S-1 中的一个关键数据：财富 500 强客户在 Anthropic 上的花费平均不足其总支出的 0.1%。他认为这既说明 AI 支出仍有巨大增长空间，也意味着随着 token 价格下降，这一比例会有某个渐近上限。这条深度分析获得 615 赞，56 转发。
+
+Sources:
+- https://x.com/levie/status/2114761816199098587
+
+---
+
+**Garry Tan** (@garrytan) — President & CEO, Y Combinator
+https://x.com/garrytan
+
+Garry 简短但有力地鼓励大家"Publish your stack"（公开你的技术栈），附上一个链接（467 赞，87 条回复）。在 AI 工具爆炸的时代，创始人分享自己的工具链正成为一种新的影响力和社区建设方式。
+
+Sources:
+- https://x.com/garrytan/status/2114739519622963671
+
+---
+
+**Matt Turck** (@mattturck) — VC, FirstMark Capital
+https://x.com/mattturck
+
+Matt 用 Synthesia Syren 一次性生成了一段 Anthropic S-1 要点视频——仅一条 prompt，零后期剪辑。他还调侃道，Anthropic 在周一早晨提交 S-1，让所有 VC 都困在例行周会里无法第一时间发表 *#thoughtleadership*（522 赞）。这是今日推特上最高质量的自嘲 VC 幽默。
+*"Particularly evil of Anthropic to file their S-1 on a Monday morning when all VCs are stuck in Monday team and partner meetings"*
+
+Sources:
+- https://x.com/mattturck/status/2114829981884817513
+- https://x.com/mattturck/status/2114755282181955616
+
+---
+
+**Nikunj Kothari** (@nikunj) — Partner, FPV Ventures
+https://x.com/nikunj
+
+Nikunj 对 Anthropic S-1 中的算力采购合同进行了深度拆解：截至 2026 年 6 月 30 日，Anthropic 已承诺采购 2656 亿美元的算力资源，这一数字令整个 VC 圈震惊。他与 Opus 5.5 联合完成了这份分析，并打趣道"也许我该换行了"——似乎在感叹 AI 辅助分析正在替代传统投资研究工作。
+
+Sources:
+- https://x.com/nikunj/status/2114761204333998427
+- https://x.com/nikunj/status/2114929285890990574
+- https://x.com/nikunj/status/2114736254642528659
+
+---
+
+**Peter Steinberger** (@steipete) — OpenClaw 🦞 co-creator / OpenAI
+https://x.com/steipete
+
+Peter 对 Bun 的 AOT（提前编译）编译器进行了深度测试，结果令他"叹为观止"：性能提升 2-3 倍，内存使用降低超过一半（439 赞）。这一发现对 JavaScript/TypeScript 服务端生态意义重大。他还转推了一个"banger"（519 赞，42 转），展示了他对技术前沿的持续关注。
+*"I spent some time on the weekend to test bun's AOT compiler and results are nothing short of amazing. Performance up 2-3x, memory use less than half."*
+
+Sources:
+- https://x.com/steipete/status/2114879798434758905
+- https://x.com/steipete/status/2114879359857422729
+
+---
+
+**Dan Shipper** (@danshipper) — CEO, Every
+https://x.com/danshipper
+
+Dan 今日最受关注的是对 Anthropic S-1 的即时解读：收入同比增长 1300%，GAAP 运营盈利，毛利率 85%，净收入留存率 900%，过去 6 个月发布的模型贡献了 80% 的收入（714 赞）。他还坦言看着 Anthropic 的数字不禁后悔当初没读前沿数学和理论计算机科学博士——这种真实的脆弱感引发了社区共鸣。
+
+Sources:
+- https://x.com/danshipper/status/2114714881312305542
+- https://x.com/danshipper/status/2114849110553440469
+- https://x.com/danshipper/status/2114767454026990063
+
+---
+
+**Aditya Agarwal** (@adityaag) — General Partner, SPC；前 Dropbox CTO
+https://x.com/adityaag
+
+Aditya 分享了一个深刻的认识论洞见：我们对科学的理解一直受限于"只寻找我们自己能理解的答案"——而 AI 正在打破这一限制。他还强调，*"The biggest risk to American AI is scaring ourselves into slowing down. Fear is a policy choice. So is building."*（9 赞）——一句呼吁理性建设者心态的宣言。他还力推了一篇他称之为"Banger"的文章（82 赞）。
+
+Sources:
+- https://x.com/adityaag/status/2114907777957245033
+- https://x.com/adityaag/status/2114793226154418314
+- https://x.com/adityaag/status/2114763380124987494
+
+---
+
+**Sam Altman** (@sama) — CEO, OpenAI
+https://x.com/sama
+
+Sam 正式宣布 Terra 6.1 上线！*"6.1 Terra is here! It is good at a lot of things, but we are especially excited for this new era of computer use."*（6298 赞，311 转发，671 条回复）——这是今日热度最高的官方发布推文，标志着 OpenAI 在 computer use 领域迈入新纪元。
+
+Sources:
+- https://x.com/sama/status/2114818620782248024
+
+---
+
+**Claude** (@claudeai) — Anthropic AI Assistant
+https://x.com/claudeai
+
+Anthropic 官方账号披露：已有超过 25,000 家非营利组织使用 Claude，大多数是小型本地团队。在 Anthropic S-1 刷屏的当天，这条推文低调但有力地展示了 Claude 的社会价值——AI 能力正在惠及弱势和公益群体，而不仅仅服务于商业客户。
+
+Sources:
+- https://x.com/claudeai/status/2114818620782248024
 
 ---
 
@@ -94,41 +205,14 @@ Source: https://x.com/mattturck/status/2114507945585328606
 
 ---
 
-### No Priors — "The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman"
+**AI & I by Every** — "How Hugging Face's Investor Spots Winners"
+Published: 2026-10-14
+https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
-This episode features OpenAI co-founder and president Greg Brockman in conversation with hosts Regina and Elad, covering OpenAI's latest math breakthroughs, AI-driven drug discovery, and a bold thesis that security spending should vastly outstrip software spending.
-本期节目由 OpenAI 联合创始人兼总裁 Greg Brockman 与主持人 Regina 和 Elad 对话，涵盖 OpenAI 最新数学突破、AI 驱动的药物研发，以及一个大胆论断：安全支出应远超软件支出。
+本期播客以 Frontier AI 竞争格局为开场：Google 发布 Gemini Argon 4，Meta 发布 Wonder（有 Standard 和 Full 两个版本——是的，你可以"Wonder full"，这是 Meta 的幽默）。主持人 Dan Shipper 通过实测揭示，两款模型在公开 benchmark 上亮眼，但实际知识工作表现远比数字复杂：Wonder 在 Dan 的"高级工程师基准测试"中仅得 50%，Gemini 4 在写作上出人意料地夺魁，让 Dan 的 8000 字文章效率翻倍，但编程能力仅得 20%。
+The podcast opens with the Frontier duopoly crumbling: Google's Gemini Argon 4 and Meta's Wonder (yes, "Wonder full" — their sense of humor) both top public benchmarks, but Every's hands-on testing tells a more nuanced story. Wonder scores just 50% on Dan's senior engineer benchmark and "takes the bait" on literary analysis tricks. Gemini 4, surprisingly, becomes Dan's favorite writing model — 2x productivity boost on an 8,000-word piece — but scores only 20% on coding tasks.
 
-**核心论点 / Core Thesis**
+本期核心采访聚焦 Hugging Face 的投资人如何在早期识别 AI 赢家：关注技术社区影响力、开源生态势能，以及创始人能否真正理解模型能力的边界。
+The main interview digs into how Hugging Face's investor identifies winners early — community leverage, open-source momentum, and whether founders truly understand model capability boundaries.
 
-Greg argues we are at an inflection point where AI can now generate genuinely new knowledge — evidenced by solving 100-year-old math problems — and that this same capability will transform drug discovery, cybersecurity, and nearly every domain of human endeavor.
-Greg 认为，AI 现已能产生真正的新知识（以解决百年数学难题为证），我们正处于一个拐点，这一能力将重塑药物研发、网络安全以及几乎所有人类知识领域。
-
-**Key Insights / 关键洞察**
-
-• AI can now definitively resolve previously unsolvable math problems — not just retrieve answers, but generate new knowledge. This is a milestone.
-  AI 现在可以明确解决此前无解的数学问题——不是检索答案，而是产生新知识。这是一个里程碑。
-
-• The "physics of cybersecurity" are changing fundamentally: as software becomes nearly free to build, security and reliability become the scarce, valuable layer. Security spend should outstrip software spend.
-  网络安全的"物理规律"正在根本性地改变：随着软件构建成本趋近于零，安全性和可靠性成为稀缺且有价值的层次。安全支出应超过软件支出。
-
-• Agent swarms can now autonomously fan out across enterprise environments to test attack surfaces, read logs, and process risk data — capabilities that emerged only in the last few months.
-  Agent swarm 现在可以自主在企业环境中展开，测试攻击面、读取日志、处理风险数据——这些能力在过去几个月才刚刚出现。
-
-• Drug discovery is poised for transformation: AI can now help model molecular interactions with a level of reasoning that was previously impossible, potentially compressing decades of research.
-  药物研发正面临变革：AI 现在可以以前所未有的推理能力对分子相互作用进行建模，有望将数十年的研究时间大幅压缩。
-
-• Greg's framing: *"It never gets easier, you just go faster"* — the pace of AI progress means every new capability threshold opens up another level of possibility rather than a plateau.
-  Greg 的框架：*"它不会变得更容易，你只是变得更快"*——AI 进步的速度意味着每一个新能力阈值都开启了另一个可能性层次，而不是趋于平缓。
-
-**最值得关注的信号 / Most Forward-Looking Signal**
-
-The claim that security spending should "vastly outstrip" software spending is a contrarian and highly specific prediction worth watching — if true, it implies a massive reallocation of enterprise budgets away from build-and-ship toward protect-and-verify.
-"安全支出应大幅超过软件支出"这一论断是一个反直觉且高度具体的预测，值得持续关注——如果成立，意味着企业预算将从"构建与交付"大规模转向"保护与验证"。
-
-Source: https://www.youtube.com/@NoPriorsPodcast
-Episode: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Source: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
