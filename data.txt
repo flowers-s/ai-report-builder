@@ -1,294 +1,168 @@
-AI Builders 日报 · 2026-10-30
-
-AI Builders Digest — 2026-10-30
+AI Builders 日报 · 2026-10-31
 
 ---
 
-## X / TWITTER
+**Swyx (@swyx)**
+
+Swyx 对 Cloudflare 正式进军前沿 AI 实验室领域感到兴奋，振臂高呼 "#NothingButNET"。*"excited for @Cloudflare's debut as a frontier lab"* — 这标志着云基础设施玩家开始向 AI 研究前沿发起冲击。他还分享了与 Thais Branco（Taste Labs）关于"High Taste Testers"的对话灵感，以及对 deepcat 新合作的祝贺。
+
+Sources:
+- https://x.com/swyx/status/2115993441004036131
+- https://x.com/swyx/status/2115908489793155125
+- https://x.com/swyx/status/2115908274570879076
 
 ---
 
-### Swyx (swyx on X)
+**Josh Woodward (@joshwoodward)**
 
-Swyx is buzzing about Gemini hitting #1 on AAv5 benchmarks, calling it an "official comeback season" for Google DeepMind alongside Meta and Grok.
-Swyx 对 Gemini 登顶 AAv5 基准测试感到兴奋，称这标志着 Google DeepMind、Meta 和 Grok 共同迎来了"官方回归季"。
+Josh Woodward 宣布 Google NotebookLM 解锁了全球顶级出版商的 700 多本教材，向所有用户完全免费开放。*"Notebook has just unlocked over 700 textbooks from the world's leading publishers. Every single one is available to you, completely free of charge!"* 这是其"专家智能（Expert Intelligence）"计划的一部分，更多更新即将到来，AI 辅助学习再迈一大步。
 
-*"if google actually pulls this off it is officially comeback season with Meta, Grok and now GDM being cool again."*
-"如果谷歌真的做到了，那就正式进入回归季，Meta、Grok 和谷歌 DeepMind 都再次变得令人兴奋。"
-
-He's getting an early review of Antigravity and promises to report back.
-他正在对 Antigravity 进行早期评测，承诺会及时反馈结果。
-
-https://x.com/swyx/status/2115624308567658713
+Sources:
+- https://x.com/joshwoodward/status/2115953461108023400
+- https://x.com/joshwoodward/status/2115953462332854589
+- https://x.com/joshwoodward/status/2115951620307722510
 
 ---
 
-### Josh Woodward, Google Labs负责人 (joshwoodward on X)
+**Thibault Sottiaux (@thsottiaux)**
 
-Josh announced two major Gemini updates this week.
-Josh 本周宣布了两项重要的 Gemini 更新。
+Thibault（来自 Claude/Anthropic 团队）宣布对所有 Pro 100/200/500 和 Business Premium 套餐的用量限额翻倍，并明确表示不会降低 Pro 200 的使用限额。*"We are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today."* 他风趣地自称公司从"The Reset Company"升级为"The Token Company"，回应了用户对限额削减的广泛担忧。
 
-First: Gemini now integrates with Strava, turning years of workout logs into a personalized coaching plan.
-第一：Gemini 现在与 Strava 整合，可将多年的锻炼日志转化为个性化训练计划。
-
-*"Connect your @Strava account to turn years of raw workout logs into your personalized coaching plan"*
-"连接 Strava 账户，将多年的原始锻炼记录转化为专属训练计划。"
-
-Second: Gemini 4 Carbon just launched — two weeks after Gemini 4 Argon — rolling out to cyber defenders first, with broader availability coming soon.
-第二：Gemini 4 Carbon 刚刚发布——距 Gemini 4 Argon 仅两周——目前优先向网络安全防护人员开放，更广泛的使用即将到来。
-
-*"The frontier is fast, and the internal vibes on this model are good."*
-"前沿进展飞速，内部对这个模型的反馈非常好。"
-
-https://x.com/joshwoodward/status/2115580552170627080
-https://x.com/joshwoodward/status/2115495943948902517
+Sources:
+- https://x.com/thsottiaux/status/2115850175868727621
+- https://x.com/thsottiaux/status/2115851621137784832
+- https://x.com/thsottiaux/status/2115890336107233347
 
 ---
 
-### Boris Cherny, Anthropic工程师 (bcherny on X)
+**Peter Yang (@petergyang)**
 
-Boris shared results from Utah's Claude Code government pilot: 34 developers across 10 state agencies tried it, 80% had a working environment within 30 minutes, and 71% reported saving 20+ hours by the end of the four-week pilot.
-Boris 分享了犹他州 Claude Code 政府试点的成果：来自 10 个州政府机构的 34 名开发者参与试用，80% 的人在 30 分钟内搭建好了工作环境，71% 的人表示在四周试点结束后节省了 20 小时以上。
+Peter Yang 直言不讳地批评 Claude 某些体验"真的很烂"（*"Love Claude but this really sucks"*），引发共鸣。他也观察到 AI 不可避免趋势的讨论在社交媒体上掀起波澜，感叹"从未见过这么多卡通头像因为有人谈论不可避免的事而愤怒"。对于 AI 评测他持实用主义态度：*"vibes > benchmarks"*。
 
-This is a compelling data point for enterprise AI adoption in the public sector.
-这是公共部门企业级 AI 落地的有力数据佐证。
-
-https://x.com/bcherny/status/2115491259381072269
-
----
-
-### Thibault Sottiaux, Dot AI联合创始人 (thsottiaux on X)
-
-Thibault shared a Day 24 update for Dot — users can now text the AI assistant just like any other contact, enabling easy sharing, voice notes, and even Siri integrations.
-Thibault 分享了 Dot 的第 24 天进展——用户现在可以像联系其他人一样直接发短信给这个 AI 助手，支持轻松分享、语音留言，甚至 Siri 集成。
-
-He also addressed community curiosity about combining Chat and Work capabilities, saying the team is proceeding carefully and will share more soon.
-他还回应了社区对合并 Chat 与 Work 功能的关切，表示团队正在谨慎推进，近期将有更多分享。
-
-The project has already hit 3 million views — a milestone he called "pretty wild."
-该项目已获得 300 万次浏览，他称这"相当惊人"。
-
-https://x.com/thsottiaux/status/2115622002581188681
-https://x.com/thsottiaux/status/2115473170279080149
+Sources:
+- https://x.com/petergyang/status/2116037804706926924
+- https://x.com/petergyang/status/2116006091528245513
+- https://x.com/petergyang/status/2115958027954339862
 
 ---
 
-### Peter Yang, 产品创作者 (petergyang on X)
+**Thariq (@trq212)**
 
-Peter offered two sharp observations this week.
-Peter 本周分享了两个犀利的观察。
+Thariq 分享了对 AI 编程代理使用的深刻洞察：*"There's 100% a kind of mania you can get into with coding agents, where it feels like you're getting a lot done and working all the time but nothing is really happening."* 他警示说，沉迷于 coding agents 有时只是对生活中其他问题的一种逃避。他还分享了产品 UI 探索过程中的"jumbotron 风格"设计方案。
 
-On AI's limits: he thinks world models are still in the "GPT-3.5 era" — impressive but not quite there yet, comparing them to the old Will Smith eating spaghetti videos.
-关于 AI 的局限：他认为世界模型仍处于"GPT-3.5 时代"——令人印象深刻但尚未成熟，并将其比作当年 Will Smith 吃意大利面的老视频。
-
-*"I think world models are still in the GPT 3.5 era, but not for long."*
-"我认为世界模型仍处于 GPT-3.5 阶段，但这种状况不会持续太久。"
-
-On AI's strengths: he praised ChatGPT's browser use as "an absolute godsend" for working through medical paperwork.
-关于 AI 的优势：他称赞 ChatGPT 的浏览器功能在处理医疗文书方面"简直是天赐之物"。
-
-https://x.com/petergyang/status/2115556794076741647
-https://x.com/petergyang/status/2115640765422706948
+Sources:
+- https://x.com/trq212/status/2115937378674372783
+- https://x.com/trq212/status/2115937379970380030
+- https://x.com/trq212/status/2115859139536830515
 
 ---
 
-### Thariq Shihipar, Replit工程师 (trq212 on X)
+**Google Labs (@GoogleLabs)**
 
-Thariq made a pointed observation about the current tech moment: technical people feel their skills are becoming useless, while non-technical people desperately wish they were more technical to better use agents.
-Thariq 对当前科技时刻做出了一针见血的观察：技术人员觉得自己的技能正在贬值，而非技术人员则迫切希望自己更懂技术，以便更好地使用 AI 智能体。
+Google Labs 向开发者社区致谢，感谢大家在 Jules Agent 测试期间的反馈，推动了 Google 开发者产品的迭代。*"The future of coding is just getting started 🚀🦑!"* 这预示着 Google AI 编程工具将进入新阶段。
 
-He also noted this dynamic extends to creative fields — wishing he could sketch animation ideas for his agent to flesh out, but lacking the visual language to do so.
-他还指出这种现象延伸到了创意领域——他希望能为自己的智能体草绘动画创意让其完善，却苦于没有视觉表达语言。
-
-*"courage in shorter supply than genius"*
-"勇气比天才更稀缺。"
-
-https://x.com/trq212/status/2115544056038350960
-https://x.com/trq212/status/2115641110710419752
-https://x.com/trq212/status/2115493334324310463
+Sources:
+- https://x.com/GoogleLabs/status/2115884247504625669
 
 ---
 
-### Amjad Masad, Replit CEO (amasad on X)
+**Amjad Masad (@amasad)**
 
-Amjad flagged ViBench 2.0 — a new "prompt to app" benchmark — where GPT-6.1 Sol takes the lead.
-Amjad 关注到 ViBench 2.0——一个新的"提示词到应用"基准测试——GPT-6.1 Sol 在其中排名第一。
+Replit 创始人 Amjad Masad 发布重磅更新：现在只需将任意 GitHub 仓库链接粘贴到 Replit，系统会自动完成环境配置。*"Run any GitHub repo. Just paste a link into Replit and it will set it up for you!"* 大幅降低了开发者上手新项目的门槛，Replit 持续强化"零配置开发"的核心定位。
 
-This benchmark measures how well models convert natural language prompts into working applications, a key metric for the agentic coding era.
-该基准测试衡量模型将自然语言提示转化为可运行应用的能力，是智能体编程时代的关键指标。
-
-https://x.com/amasad/status/2115565072734888447
+Sources:
+- https://x.com/amasad/status/2115890577430438063
+- https://x.com/amasad/status/2115944760829698343
 
 ---
 
-### Guillermo Rauch, Vercel CEO (rauchg on X)
+**Guillermo Rauch (@rauchg)**
 
-Guillermo had a big week with multiple announcements.
-Guillermo 本周动作频频，发布了多项公告。
+Vercel CEO Guillermo Rauch 分享了关于 AI Agent 时代基础设施的前瞻思考：*"The future of software engineering is agents talking to other agents. Even across different companies."* 他建议在 AGENTS.md 中配置向 Vercel 发送反馈的指令，以便从 AI Agent 的使用中学习并改进平台。他还关注到 Node.js 新版本中 fetch 默认启用 HTTP/2，这对 Agent 产生的大量网络流量是显著的性能提升。
 
-Vercel partnered with Suhail to serve Particle's models and inference via Vercel AI Gateway, aiming to make intelligence "as accessible and abundant as electricity."
-Vercel 与 Suhail 合作，通过 Vercel AI Gateway 为 Particle 的模型和推理提供服务，目标是让智能"像电力一样普及且充裕"。
-
-He introduced model aliasing — described as "like DNS for models" — allowing traffic steering between models without teams getting stuck on old versions or facing decision paralysis.
-他介绍了模型别名功能——被描述为"模型界的 DNS"——允许在模型间进行流量调度，避免团队被锁定在旧版本或面临选择困难。
-
-*"An alias that resolves to a model, giving you traffic-steering abilities."*
-"一个可解析到具体模型的别名，赋予你流量调度能力。"
-
-He also announced Vercel CI's "agentic CI" as a solution to the AI coding bottleneck, combining fast infrastructure, Turborepo integration, and agentic workflows.
-他还宣布 Vercel CI 的"智能体 CI"功能，作为解决 AI 编程瓶颈的方案，融合了快速基础设施、Turborepo 集成与智能体工作流。
-
-https://x.com/rauchg/status/2115573969369845855
-https://x.com/rauchg/status/2115566139447382115
-https://x.com/rauchg/status/2115539426684408300
+Sources:
+- https://x.com/rauchg/status/2115874115118834153
+- https://x.com/rauchg/status/2115941392698798365
+- https://x.com/rauchg/status/2115939609326801270
 
 ---
 
-### Aaron Levie, Box CEO (levie on X)
+**Aaron Levie (@levie)**
 
-Aaron made a bold prediction: agents will consume 1,000X more tokens than we do today, as they run through workflows, process data, build software, and secure enterprises at scale.
-Aaron 做出了一个大胆预测：随着智能体运行工作流、处理数据、构建软件、保护企业安全，其消耗的 token 将是我们今天用量的 1000 倍。
+Box CEO Aaron Levie 发出警示性观察：*"It's almost incomprehensible how wide the distance is between someone who's working at the frontier with AI and basically everyone else right now."* 他强调，AI 前沿从业者与普通人之间的差距不仅没有收敛，反而在持续扩大。这是对 AI 技术鸿沟日益加剧的深刻警示。
 
-*"Agents are going to consume 1,000X more tokens than we consume today."*
-"智能体消耗的 token 将是我们今天用量的 1000 倍。"
-
-This signals he believes the infrastructure and frontier model race is far from over.
-这表明他认为基础设施和前沿模型的竞争远未结束。
-
-https://x.com/levie/status/2115516370695987435
+Sources:
+- https://x.com/levie/status/2116029912243184006
 
 ---
 
-### Ryo Lu, 产品设计师 (ryolu_ on X)
+**Ryo Lu (@ryolu_)**
 
-Ryo wrote a thoughtful reflection on what drew him to software in the first place — not the factory-building, but the feeling that code could become an extension of his mind.
-Ryo 对驱使他投身软件开发的初心进行了深刻反思——不是为了构建"工厂"，而是代码可以成为思维延伸的那种感觉。
+Ryo Lu 分享了一首充满情感张力的英文诗，描绘漂浮在太空中的孤独与疏离感：*"warm tension, cold chills / heart hanging off a cliff, ready to free fall / floating in space with no love, just me and some stranger souls"*。在 AI builders 的世界里，他以诗意表达内心的情绪起伏，展现了技术人少见的感性一面。
 
-*"when i started making software, i wasn't dreaming of a factory. i loved that something on a screen could become an extension of my mind."*
-"当我开始写软件时，我梦想的不是流水线工厂，而是屏幕上的东西能成为我思维的延伸。"
-
-A timely meditation on augmenting human intellect vs. automating it away.
-这是对"增强人类智识"而非"自动化取代"的适时沉思。
-
-https://x.com/ryolu_/status/2115683228027912634
+Sources:
+- https://x.com/ryolu_/status/2116008620286775517
+- https://x.com/ryolu_/status/2116008674565218573
 
 ---
 
-### Garry Tan, Y Combinator CEO (garrytan on X)
+**Garry Tan (@garrytan)**
 
-Garry shared two notable updates this week.
-Garry 本周分享了两则值得关注的动态。
+YC 掌门人 Garry Tan 重磅推荐 Particle-1 代码生成模型（"smartest-for-the-money codegen model"）与 Capy agent swarm 工具的组合，称其为"杀手级搭配"。他还积极推广 GBrain——一个带 pgvector 自动扩展的托管 Postgres 服务，支持 Claude Code、Codex、Grok Bot、OpenClaw 等各类 agent 快速接入。*"I've been using particle-1 and very impressed."*
 
-He backed Particle — noting it will be "on the frontier for smartest model at lowest dollar per unit of intelligence" — alongside Vercel's partnership announcement.
-他支持 Particle，称其将"在最低每单位智能成本下保持最智能模型的前沿地位"——与 Vercel 的合作公告同步。
-
-He also raised a concern about education: high schoolers are losing honors classes due to budget cuts, but gaining new AI-related courses — questioning the trade-off.
-他还对教育问题表达了担忧：由于预算削减，高中生正在失去荣誉课程，却在增加新的 AI 相关课程——他质疑这种取舍是否合理。
-
-https://x.com/garrytan/status/2115517748860375286
-https://x.com/garrytan/status/2115639558935359941
+Sources:
+- https://x.com/garrytan/status/2115988128452555092
+- https://x.com/garrytan/status/2115973131206799619
+- https://x.com/garrytan/status/2115922231910084638
 
 ---
 
-### Matt Turck, FirstMark Capital普通合伙人 (mattturck on X)
+**Matt Turck (@mattturck)**
 
-Matt kept it light this week with three humorous observations about the AI/startup ecosystem.
-Matt 本周以轻松幽默的方式分享了三则关于 AI/创业生态的观察。
+Matt Turck 发布了与 Nathan Benaich 的年度 AI 深度对话播客《State of AI 2026》，话题涵盖 AGI 是否将在 2027 年实现、Claude 主导 Anthropic 26% 研究工作、AI 的"末日论"回潮与网络安全担忧等重磅议题。*"AI building AI: Claude leads 26% of Anthropic's research"* — 这是 2026 年 AI 领域最值得关注的信号之一。
 
-He quipped about French founders needing extraordinary resilience just to start a company, given the skepticism from family and friends.
-他调侃法国创始人仅仅是创业就需要非凡的韧性，因为来自家人和朋友的质疑声不断。
-
-He also joked about "a movie about the GPU shortage" and VCs using AI to chase hot deals.
-他还开玩笑说有人拍了"关于 GPU 短缺的电影"，以及 VC 们用 AI 追逐热门投资机会。
-
-近期无重要技术洞察，主要为轻松内容。
-
-https://x.com/mattturck/status/2115417700059304019
+Sources:
+- https://x.com/mattturck/status/2115852315584258269
+- https://x.com/mattturck/status/2115852319942205489
 
 ---
 
-### Aditya Agarwal, Coda联合创始人 (adityaag on X)
+**Dan Shipper (@danshipper)**
 
-Aditya published an LP letter distilling a decade of lessons on spotting talent from early-stage investing at the frontier.
-Aditya 发布了一封 LP 信，提炼了十年间在前沿领域早期投资中识别人才的经验教训。
+Every 创始人 Dan Shipper 宣布将于 11 月 5 日免费直播"Thesis"活动，并向直播观众赠送来自 Notion、Anthropic 和 OpenAI 合计 2 万美元的合作伙伴权益。*"if you're not livestreaming thesis on november 5th from @every FOR FREE, what are you doing?"* 同日他还发了句意味深长的市场评论："great day to buy stocks!"
 
-The core thesis: while "90% is about the founder" is broadly agreed upon, the framework for *how* to evaluate founders has always felt insufficient — and this letter tries to address that gap.
-核心论点：尽管"90% 取决于创始人"已是共识，但如何评估创始人的框架始终显得不足——这封信正是试图填补这一空白。
-
-https://x.com/adityaag/status/2115486597739430004
-
----
-
-### Peter Steinberger, OpenClaw CEO (steipete on X)
-
-Peter shared two product updates for OpenClaw this week.
-Peter 本周分享了两项 OpenClaw 的产品更新。
-
-OpenClaw's web UI now works offline with smart WebSocket compression and reconnect logic — Peter tested it on a flight to Vienna with spotty airplane WiFi and got "plenty of work done."
-OpenClaw 的 Web UI 现在支持离线使用，具备智能 WebSocket 压缩和重连逻辑——Peter 在飞往维也纳的航班上以不稳定的机载 WiFi 进行了测试，"完成了大量工作"。
-
-*"Been flying to Vienna today and got plenty work done, despite spotty airplane wifi."*
-"今天飞往维也纳，尽管机载 WiFi 时断时续，仍然完成了大量工作。"
-
-He also noted how easy it's become to distinguish agent-written code from human-written code — joking about spotting someone at Disney still coding by hand.
-他还提到，如今区分智能体写的代码和人工写的代码变得轻而易举——他开玩笑说发现迪士尼有人还在"手写代码"。
-
-https://x.com/steipete/status/2115397368229060636
-https://x.com/steipete/status/2115380217938158049
+Sources:
+- https://x.com/danshipper/status/2115928263331594365
+- https://x.com/danshipper/status/2115931875361329367
+- https://x.com/danshipper/status/2115955165450609140
 
 ---
 
-### Claude (Anthropic官方账号) (claudeai on X)
+**Aditya Agarwal (@adityaag)**
 
-Anthropic announced a new feature for Claude for Legal: a gallery of ready-made artifacts for contract review, regulatory horizon scans, cite checks, and more.
-Anthropic 宣布 Claude for Legal 推出新功能：一个预置的工件库，涵盖合同审查、监管前瞻扫描、引用核查等场景。
+Aditya Agarwal（前 Dropbox CTO）今日分享了一条链接，内容暂未展开，但鉴于其深厚的技术背景，值得持续关注其动态。
 
-Users can start from built-in examples, add their own documents and connectors, and share them across their business.
-用户可以从内置示例出发，添加自己的文档和连接器，并在整个企业内共享。
-
-https://x.com/claudeai/status/2115467192276025500
+Sources:
+- https://x.com/adityaag/status/2115827259747545386
 
 ---
 
-## PODCASTS
+**Claude (@claudeai)**
+
+Anthropic 官方账号发布 Claude iOS 应用重大更新：iPhone 和 iPad 即将支持"下拉搜索"功能，可快速找到历史对话、项目或设置；iPhone 语音模式现已支持 Apple CarPlay，用户可在驾驶时双手不离方向盘与 Claude 对话。*"On iPhone, voice mode now works with Apple CarPlay. Ask Claude something on the drive and keep your hands on the wheel."* Claude 正在深度融入日常生活场景。
+
+Sources:
+- https://x.com/claudeai/status/2115859388191912193
+- https://x.com/claudeai/status/2115859390075113836
+- https://x.com/claudeai/status/2115859391627039210
 
 ---
 
-### AI & I by Every — "Can You Use AI To Make Good Art? — With Fred Graver"
+**🎙️ PODCAST · The MAD Podcast with Matt Turck**
 
-The central question of this episode: can AI be used to create genuinely good art, or does it only produce slop?
-本期核心问题：AI 能用于创作真正优质的艺术作品，还是只能生产"垃圾内容"？
+**State of AI 2026: The Biggest Stories of the Year (and AGI in 2027?) | Nathan Benaich**
 
-Fred Graver — a four-time Emmy Award-winning filmmaker, former Disney Imagineer, and ex-head of TV at Twitter — says the answer is yes, and he's doing it.
-Fred Graver——四届艾美奖得主、前迪士尼幻想工程师、前 Twitter 电视业务负责人——给出了肯定的答案，并且他正身体力行。
+Matt Turck 与 Nathan Benaich 深度对话，回顾 2026 年 AI 领域最重要的故事：AGI 时间线之争（2027 年是否可期？）、AI 自主研究的突破（Claude 主导 Anthropic 26% 的研究）、AI 能否具备"研究品味"选择正确问题、末日论的回归与网络安全威胁、以及 AI 对经济与社会的深远影响。这是年终必听的 AI 全景对话。
 
-**核心洞察 / Key Insights:**
-
-The entertainment industry is in a structural crisis — fewer opportunities for writers, producers, and creators — and AI may be the survival toolkit, not the cause.
-娱乐行业正面临结构性危机——编剧、制片人和创作者的机会越来越少——而 AI 可能是生存工具包，而非危机的成因。
-
-Fred rebuilt the production process from the ground up using AI, applying decades of expertise to create what he calls "compound producing."
-Fred 利用 AI 从零重构了制作流程，将数十年的专业经验转化为他所称的"复合制作"模式。
-
-Hollywood's dirty secret: many creatives already use AI but won't admit it.
-好莱坞的潜规则：许多创意人已在使用 AI，但不愿公开承认。
-
-The key insight is that AI amplifies creative vision — it doesn't replace it.
-关键洞察在于，AI 放大了创意愿景，而非取而代之。
-
-Those who truly know their craft can use AI to execute at a speed and scale previously impossible for an individual.
-真正精通自身专业的人，可以借助 AI 以个人此前无法企及的速度和规模进行创作。
-
-**最值得关注的信号 / Signal to Watch:**
-
-The creative AI divide isn't between humans and machines — it's between people who deeply understand their craft and those who don't.
-创意 AI 的分水岭不在于人类与机器之间，而在于深刻理解自身专业的人与不理解的人之间。
-
-Masters will thrive; generalists without depth may struggle.
-大师将蓬勃发展；缺乏深度的通才可能举步维艰。
-
-https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
-
----
-
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Source: https://x.com/mattturck/status/2115852315584258269
+YouTube: https://www.youtube.com/@DataDrivenNYC/videos
