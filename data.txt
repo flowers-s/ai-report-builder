@@ -1,310 +1,172 @@
-AI Builders 日报 · 2026-11-01
+AI Builders 日报 · 2026-11-02
 
 ---
 
 ## X / TWITTER
 
----
+### Swyx (swyx on X) — AI Engineer / smol.ai / Latent Space
 
-### Swyx (swyx on X) — Latent Space Podcast Co-Host
+Swyx weighed in on the ongoing debate about AI model "effort levels," noting that Karpathy uses Claude Opus 5.5 on medium effort for his latest project, Hackertube.
+Swyx 就 AI 模型"努力程度"的持续争论发表了看法，指出 Karpathy 在他的最新项目 Hackertube 中使用 Claude Opus 5.5 的中等努力级别。
 
-Swyx posted a string of witty and self-referential tweets, signaling continued growth of the Latent Space community.
-Swyx 发布了一系列幽默而自我指涉的推文，彰显了 Latent Space 社区的持续增长。
+He argued that strong opinions on effort settings are "like the tabs vs spaces of our time" — ultimately personal preference.
+他认为，对努力设置的强烈执念"就像我们这个时代的 Tab 对 Space 之争"——归根结底是个人偏好。
 
-He shared a meme captioned *"everything is fine why are you asking"* — classic tech humor during a fast-moving AI news cycle.
-他分享了一张配文"everything is fine why are you asking"的表情包——在 AI 新闻快速迭代的当下，这是典型的技术圈幽默。
+In a separate post, he advocated for a "low effort + critique loop" over maxed-out compute, pointing to his own babysit-runs workflow as the smarter throughput choice.
+在另一条推文中，他主张用"低努力 + 批评循环"代替拉满算力，并指出他自己的 babysit-runs 工作流是更聪明的吞吐量选择。
 
-He also clapped back at community-note attempts on his own show notes: *"bitch dont cite the ancient magic, i was there when it was written"* — a reminder that he's been in this space longer than most.
-他还对有人引用其节目注释发起社区备注的行为进行了反击："bitch dont cite the ancient magic, i was there when it was written"——提醒大家他在这个领域的资历远超大多数人。
+> *"join me all the way on the light side guys"*
 
-He dropped a stats flex: 6M views and 1.8M MAU for the Latent Space platform.
-他还晒出了数据：Latent Space 平台已达 600 万次浏览量和 180 万月活用户。
-
-Sources:
-- https://x.com/swyx/status/2116379186831257954
-- https://x.com/swyx/status/2116372094527443439
-- https://x.com/swyx/status/2116323655294828814
+Source: https://x.com/swyx/status/2116773135668404286
+Source: https://x.com/swyx/status/2116642586387730593
 
 ---
 
-### Josh Woodward (joshwoodward on X) — Google Labs Lead
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-Josh announced that Gemini was ready on day one for the newly launched iPhone Duo.
-Josh 宣布 Gemini 在 iPhone Duo 发布首日即已完成适配上线。
+Thibault posted a cryptic but highly engaged tweet with just "Banked 1/2," which drew over 6,500 likes and 181 retweets — suggesting a significant announcement or teaser, possibly related to an upcoming OpenAI release.
+来自 OpenAI Codex 和 ChatGPT 团队的 Thibault 发了一条言简意赅但极具互动性的推文，仅写"Banked 1/2"，获得了超过 6500 个点赞和 181 次转发——暗示可能有重要公告或预告，或许与即将发布的 OpenAI 新产品有关。
 
-*"Last Friday, the iPhone Duo came out. @GeminiApp was there on day 1, optimized for it."* — a strong signal of Google's commitment to being present on Apple's newest hardware immediately.
-"Last Friday, the iPhone Duo came out. @GeminiApp was there on day 1, optimized for it." ——这是 Google 致力于在苹果最新硬件上第一时间部署的有力信号。
+> *"Banked 1/2"*
 
-Source:
-- https://x.com/joshwoodward/status/2116220878593900775
+Source: https://x.com/thsottiaux/status/2116692529970311254
 
 ---
 
-### Boris Cherny (bcherny on X) — Claude.ai Engineer
+### Peter Yang (petergyang on X) — AI Educator / Product Creator
 
-Boris announced the removal of the 5-hour usage limit for verified Claude Ultra accounts.
-Boris 宣布对经过验证的 Claude Ultra 账户取消 5 小时使用限制。
+Peter's recent posts were lighter in AI content, covering Halloween spirit and music listening habits.
+Peter 最近的推文 AI 相关内容较少，主要围绕万圣节氛围和音乐收听习惯。
 
-*"We're removing the 5-hour limit for verified Ultra accounts."* — a quality-of-life win for power users who were hitting the ceiling during long work sessions.
-"We're removing the 5-hour limit for verified Ultra accounts." ——对于在长时间工作中频繁触及上限的重度用户而言，这是一项体验上的重大改善。
+He expressed enthusiasm for Halloween as a holiday that "should be held every quarter," and noted he's been listening to something he prefers over Spotify.
+他表达了对万圣节的热情，认为这个节日"应该每季度举办一次"，并提到他正在收听一些比 Spotify 更让他喜欢的内容。
 
-Source:
-- https://x.com/bcherny/status/2116222842413142111
+近期无重要 AI 动态。
 
----
-
-### Thibault Sottiaux (thsottiaux on X) — AI Product Builder
-
-On Day 26 of what appears to be a build-in-public streak, Thibault shipped multi-account switching on mobile.
-在疑似公开打卡挑战的第 26 天，Thibault 上线了移动端多账号切换功能。
-
-*"You can now easily switch between multiple accounts on mobile, and coming soon to desktop too."* — desktop support is also incoming, suggesting rapid shipping velocity.
-"You can now easily switch between multiple accounts on mobile, and coming soon to desktop too." ——桌面端支持也即将到来，显示出极快的迭代节奏。
-
-He teased the next two days with *"banked… do with this what you may 👀"* — likely hinting at upcoming feature drops.
-他还神秘预告了接下来两天："banked… do with this what you may 👀"——暗示即将有新功能发布。
-
-Source:
-- https://x.com/thsottiaux/status/2116405414921384099
+Source: https://x.com/petergyang/status/2116732887265656978
 
 ---
 
-### Peter Yang (petergyang on X) — Creator / Product Builder
+### Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-Peter shared a personal recommendation for Star Trek: Picard Season 3 — a rare non-AI moment from a usually tech-focused feed.
-Peter 分享了对《星际迷航：皮卡德》第三季的个人推荐——在通常以科技为主的推文流中，这是难得的非 AI 内容。
+Guillermo shared a post with the comment "This would go so hard in SF," reacting to something that resonated with the Bay Area tech scene — short but indicative of his pulse on SF startup culture.
+Vercel CEO Guillermo Rauch 转发了一条配文"这在旧金山会超级火"的内容，简短但体现了他对旧金山创业文化的敏锐感知。
 
-He is also building an open-source bot detector for X using Grok, asking followers for signal suggestions.
-他还在用 Grok 构建一个面向 X 平台的开源机器人检测工具，并向关注者征集有效信号建议。
+近期无重要技术动态。
 
-*"Grok @bot is going to solve my reply bot problem once and for all."* — he plans to open-source the project once it's polished.
-"Grok @bot is going to solve my reply bot problem once and for all." ——他计划在完善后将该项目开源。
-
-Sources:
-- https://x.com/petergyang/status/2116353054614442364
-- https://x.com/petergyang/status/2116333763466858713
-- https://x.com/petergyang/status/2116330754699596010
+Source: https://x.com/rauchg/status/2116710688550994042
 
 ---
 
-### Thariq (trq212 on X) — AI Researcher / Builder
+### Aaron Levie (levie on X) — CEO, Box
 
-Thariq pushed back against economic doomerism around AI, arguing that predictions of mass unemployment are not actually "AGI-pilled."
-Thariq 对 AI 经济末日论提出反驳，认为预测大规模失业并不是真正"AGI-觉醒"的表现。
+Aaron made one of the sharpest observations of the day: six months ago, AI could help you produce things faster; now we're entering territory where AI can produce outputs you simply couldn't have created before.
+Box CEO Aaron Levie 发表了当天最犀利的观点之一：六个月前，AI 只能帮你更快地产出内容；而现在，我们正进入 AI 能产出你根本无法独立完成的成果的新阶段。
 
-*"basically everyone is bad at predicting how more intelligence will actually show up in the economy"* — he cautions against hyperstitioning negative outcomes into reality.
-"basically everyone is bad at predicting how more intelligence will actually show up in the economy" ——他警告不要把负面结果通过集体叙事变成现实。
+He framed this as a litmus test: if your AI use isn't unlocking genuinely new capabilities, you're not pushing hard enough.
+他将其定义为一个试金石：如果你使用 AI 还没有解锁真正全新的能力，说明你用得还不够深。
 
-He offered an optimistic counter: *"the solution to economic doomerism is to be even more AGI-pilled"* — envisioning a well-aligned ASI that makes each individual maximally effective.
-他给出了一个乐观的反驳："the solution to economic doomerism is to be even more AGI-pilled" ——他构想的是一个能让每个人都发挥最大潜能的、对齐良好的超级智能。
+> *"Up until maybe six months ago probably the best you could do with AI was pull off something you already would produce, but just doing it a little faster. But now we're entering a point where the output..."*
 
-Sources:
-- https://x.com/trq212/status/2116212324696777073
-- https://x.com/trq212/status/2116212322838655014
+Source: https://x.com/levie/status/2116652002830963114
 
 ---
 
-### Amjad Masad (amasad on X) — Replit CEO
+### Garry Tan (garrytan on X) — President & CEO, Y Combinator
 
-Amjad had a big day with three significant announcements from Replit.
-Amjad 带来了充实的一天，发布了三项重要的 Replit 公告。
+Garry shared a pointed excerpt on political systems and institutional rot: why broken systems promote people with "no scruples" over the most capable.
+YC 总裁 Garry Tan 分享了一段关于政治体系与制度腐化的深刻摘录：为何失序的体系会提拔"毫无顾忌"的人，而非最有能力的人。
 
-He announced "Self-Maintaining Software" — apps hosted on Replit with "autofix" enabled can now repair themselves automatically.
-他宣布推出"自维护软件"——在 Replit 上托管并启用"autofix"功能的应用，现在可以自动修复自身问题。
+> *"When the plan fails—and it always fails—coercion is needed. You need people willing to do what honest people refuse to do. The system doesn't promote the best; it selects those with no scruples."*
 
-He also launched Replit for Government, signaling a push into the public sector.
-他还推出了面向政府的 Replit 版本，标志着向公共部门的进军。
+While not directly AI-related, his posts often signal how he thinks about institution-building and the traits that matter in founders.
+虽然不直接与 AI 相关，但他的帖子往往传递出他对机构建设以及创始人关键特质的深层思考。
 
-Finally, he published a whitepaper on how to properly sandbox agents to maximize productivity while reducing risk.
-最后，他发布了一份关于如何正确沙箱化 Agent 以提升生产力同时降低风险的白皮书。
-
-Sources:
-- https://x.com/amasad/status/2116343923925041462
-- https://x.com/amasad/status/2116341851825287476
-- https://x.com/amasad/status/2116183233784394039
+Source: https://x.com/garrytan/status/2116640529232609515
 
 ---
 
-### Guillermo Rauch (rauchg on X) — Vercel CEO
+### Matt Turck (mattturck on X) — VC, FirstMark Capital
 
-Guillermo was in a bullish, philosophical mood today, reflecting on the pace of progress.
-Guillermo 今天处于一种乐观而富有哲思的状态，反思着技术进步的节奏。
+Matt shared a classic Halloween-themed post with a 🎃👻 vibe.
+FirstMark Capital 投资人 Matt Turck 分享了一条经典万圣节主题帖子。
 
-He opened simply: *"We're in humanity's golden age"* — three words that sum up the current moment for many in tech.
-他以简洁的三个词开篇："We're in humanity's golden age" ——这句话浓缩了许多科技人对当下时代的感受。
+近期无重要 AI 或投资动态。
 
-He teased "An agent on every desktop" — likely referencing Vercel's direction toward agentic development tooling.
-他预告了"An agent on every desktop" ——这很可能指向 Vercel 在 Agent 开发工具方向的布局。
-
-He also highlighted dramatic improvements on the v0.dev platform, noting it's now *"smaller, faster and more token-efficient"* and continuously self-improving across open and proprietary models.
-他还强调了 v0.dev 平台的显著进步，指出其现在"更小、更快、更节省 token"，并持续在开放和专有模型上自我优化。
-
-Sources:
-- https://x.com/rauchg/status/2116369601508593911
-- https://x.com/rauchg/status/2116345666108854781
-- https://x.com/rauchg/status/2116253050742694182
+Source: https://x.com/mattturck/status/2116653171741470990
 
 ---
 
-### Alex Albert (alexalbert__ on X) — Anthropic Head of Developer Relations
+### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
 
-Alex shed light on the backstory behind Claude's plan revamp and the new "Ultra" branding.
-Alex 揭示了 Claude 套餐改版及"Ultra"品牌命名背后的故事。
+Nikunj shared a first-snow photo and a witty Halloween joke about someone dressing up as "cybersecurity awareness month" — poking fun at SF tech culture.
+FPV Ventures 合伙人 Nikunj Kothari 分享了一张初雪照片，还打趣了一个万圣节玩笑——有人装扮成"网络安全意识月"，调侃了旧金山科技文化。
 
-He noted that *"Ultra has a better ring to it than Max 20x"* — acknowledging the confusing old naming scheme.
-他提到"Ultra has a better ring to it than Max 20x" ——坦承旧命名方案确实令人困惑。
+> *"what do you mean you dressed up as cybersecurity awareness month for halloween / i hate sf"*
 
-He also confirmed the removal of the 5-hour rate limit for Ultra subscribers, alongside the renaming.
-他还确认，配合此次更名，Ultra 订阅用户的 5 小时使用限制已同步取消。
+近期无重要投资动态。
 
-Sources:
-- https://x.com/alexalbert__/status/2116227346869194935
-- https://x.com/alexalbert__/status/2116227345501880781
-
----
-
-### Ryo Lu (ryolu_ on X) — ryOS Builder
-
-Ryo shared that ryOS — his personal AI operating system project — runs better on the new iPhone Duo than on iOS itself.
-Ryo 分享了他的个人 AI 操作系统项目 ryOS 在新款 iPhone Duo 上的体验比 iOS 原生系统更好。
-
-*"ryOS on iPhone Duo better than iOS ☺️"* — a bold claim that signals impressive optimization for Apple's latest hardware.
-"ryOS on iPhone Duo better than iOS ☺️" ——这是一个大胆的说法，显示出对苹果最新硬件的出色适配。
-
-He's inviting people to play and offering TestFlight access via DM.
-他邀请大家体验，并通过私信提供 TestFlight 访问权限。
-
-Sources:
-- https://x.com/ryolu_/status/2116126802045509710
-- https://x.com/ryolu_/status/2116126528060973480
-
----
-
-### Garry Tan (garrytan on X) — Y Combinator CEO
-
-Garry highlighted GBrain Cloud as the fastest way to run GBrain context across multiple AI agents and harnesses.
-Garry 重点介绍了 GBrain Cloud，称其为跨多个 AI Agent 和执行框架运行 GBrain 上下文的最快方式。
-
-*"GBrain lets you run your context on all of them"* — covering Grok/Muse/Dots for personal use, OpenClaw/Hermes for raw power, and Claude Code/Codex/Capy for code generation.
-"GBrain lets you run your context on all of them" ——涵盖个人用途的 Grok/Muse/Dots、原始算力的 OpenClaw/Hermes，以及代码生成的 Claude Code/Codex/Capy。
-
-He also teased an upcoming Lightcone episode with PStack and GStack creators.
-他还预告了即将发布的一期 Lightcone 播客，将邀请 PStack 和 GStack 的创始人。
-
-Sources:
-- https://x.com/garrytan/status/2116303457774899251
-- https://x.com/garrytan/status/2116262167892852812
-
----
-
-### Matt Turck (mattturck on X) — FirstMark Capital Managing Director
-
-Matt fact-checked a viral story about French lawmakers allegedly banning something AI-related.
-Matt 对一条关于法国议员疑似立法禁止某项 AI 相关内容的热门推文进行了事实核查。
-
-He clarified: *"This is NOT law"* and *"has zero chance of becoming law"* — the vote involved only 35 out of 577 MPs in an almost-empty chamber.
-他澄清道："This is NOT law"，而且"has zero chance of becoming law" ——此次投票仅有 577 名议员中的 35 人参与，会议厅几乎空无一人。
-
-He called it *"a vote by 11 populist morons in the lower chamber"* — embarrassing, but not a real regulatory threat.
-他将其称为"下议院 11 名民粹主义蠢货的投票" ——令人尴尬，但并不构成真正的监管威胁。
-
-Source:
-- https://x.com/mattturck/status/2116335155535052951
-
----
-
-### Zara Zhang (zarazhangrui on X) — AI Builder / Content Creator
-
-Zara published a video essay on how to create tasteful AI-generated content without being a designer.
-Zara 发布了一期视频专题，探讨如何在没有设计背景的情况下用 AI 创作出有品味的内容。
-
-She revealed the behind-the-scenes: *"Video editing was done with just 1 prompt (a very long one) by a coding agent"* — a striking demonstration of what's now possible with AI-assisted production.
-她揭示了幕后细节："Video editing was done with just 1 prompt (a very long one) by a coding agent" ——这是对 AI 辅助内容生产现阶段能力的有力展示。
-
-Sources:
-- https://x.com/zarazhangrui/status/2116283023415287932
-- https://x.com/zarazhangrui/status/2116281211962454056
-
----
-
-### Peter Steinberger (steipete on X) — iOS/AI Developer & Blogger
-
-Peter weighed in on several industry conversations around AI tooling and developer autonomy.
-Peter 就 AI 工具和开发者自主性的多个行业话题发表了见解。
-
-He praised a new inference quality improvement, noting: *"This is smart. Wild that this wasn't the default. Unpredictable inference quality was usually why I recommended skipping the middleman."*
-他对一项推理质量改进表示赞赏："This is smart. Wild that this wasn't the default. Unpredictable inference quality was usually why I recommended skipping the middleman."
-
-He also warned against using AI harnesses where companies can unilaterally change what you can or can't do: *"Another reason why you wanna use your own harness."*
-他还警告不要使用那些公司可以单方面改变功能限制的 AI 框架："Another reason why you wanna use your own harness."
-
-He expressed support for Proton CEO Andy Yen's stance on AI and developer identity, showing empathy for engineers navigating the cultural shift while urging the community to adapt.
-他对 Proton CEO Andy Yen 在 AI 与开发者身份认同问题上的立场表示支持，在对工程师文化冲击表示理解的同时，也呼吁社区积极适应变化。
-
-Sources:
-- https://x.com/steipete/status/2116183103530217488
-- https://x.com/steipete/status/2116153238563242385
-- https://x.com/steipete/status/2116121832919122164
-
----
-
-### Aditya Agarwal (adityaag on X) — Coda CEO
-
-Aditya pushed back on the media's obsession with valuation benchmarks for pre-IPO companies.
-Aditya 对媒体痴迷于 IPO 前公司估值基准的现象提出了质疑。
-
-*"It is always so odd how fixated investors/press are on the last private round price"* — whether ANT IPOs at $1.2T or $2T, the value creation story over six years is remarkable either way.
-"It is always so odd how fixated investors/press are on the last private round price" ——无论蚂蚁集团以 1.2 万亿还是 2 万亿美元 IPO，六年间创造的价值都令人瞩目。
-
-He reminded followers that most of a company's value gets created *after* it goes public, not before.
-他提醒关注者，一家公司的大部分价值是在上市*之后*而非之前创造的。
-
-Source:
-- https://x.com/adityaag/status/2116249251651215822
-
----
-
-### Claude (claudeai on X) — Anthropic's Official Claude Account
-
-Anthropic officially announced a rename and upgrade for Claude's subscription plans.
-Anthropic 正式宣布对 Claude 订阅计划进行重命名和升级。
-
-Max 5x is now simply "Max" ($100/month), and Max 20x is now "Ultra" ($200/month) — prices unchanged.
-原 Max 5x 更名为"Max"（每月 100 美元），原 Max 20x 更名为"Ultra"（每月 200 美元）——价格保持不变。
-
-*"We're also removing the 5-hour limit for verified Ultra accounts, starting today with most existing subscribers."* Newer accounts retain a temporary limit until verified to prevent fraud.
-"We're also removing the 5-hour limit for verified Ultra accounts, starting today with most existing subscribers." 新注册账户在完成验证前保留临时限制，以防止欺诈。
-
-Source:
-- https://x.com/claudeai/status/2116220869479428500
+Source: https://x.com/nikunj/status/2116554844207198501
 
 ---
 
 ## PODCASTS
 
----
+### Latent Space: "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca"
 
-### No Priors — "Taking on ServiceNow: Coding Agents the Rest of Us with Serval Co-Founder and CEO Jake Stauch"
+Arca is not a SaaS company — it is the wealth management firm itself, built AI-native from day one.
+Arca 不是一家 SaaS 公司——它本身就是一家从第一天起就以 AI 原生方式构建的财富管理公司。
 
-This episode features Jake Stauch, co-founder and CEO of Serval, a two-and-a-half-year-old enterprise automation startup targeting ServiceNow's dominant position.
-本期节目邀请了 Serval 联合创始人兼 CEO Jake Stauch，Serval 是一家成立两年半、矛头直指 ServiceNow 主导地位的企业自动化初创公司。
+This distinction matters enormously: it means Arca can standardize how work happens internally, so agents can participate in predictable, high-trust workflows.
+这一区别至关重要：它意味着 Arca 可以将内部工作方式标准化，使 agent 能够参与可预测、高可信度的工作流程。
 
-Jake explains that Serval brings coding agents to IT departments — not just engineering teams — enabling non-coders to build powerful enterprise automations with proper approval, audit, and SDLC guardrails.
-Jake 解释道，Serval 将编码 Agent 带给 IT 部门——而不仅仅是工程团队——让非程序员也能在完善的审批、审计和软件开发生命周期保障下构建强大的企业自动化流程。
+**The key insight from Aman Singh:** "Agents prompt people more than people prompt agents."
+**Aman Singh 的核心洞见**："Agent 触发人的次数，多于人触发 Agent 的次数。"
 
-*"Serval is the boundary. Serval is the guardrails. We are the way that a large enterprise, with a lot of rules and approvals and process and politics, can adopt these tools safely and comfortably at scale."*
-"Serval is the boundary. Serval is the guardrails. We are the way that a large enterprise, with a lot of rules and approvals and process and politics, can adopt these tools safely and comfortably at scale."
+The agents run 24/7, proactively monitoring every client's financial picture — markets, deadlines, tax exposure, missed RMDs — and pull in the right human advisor at the right moment.
+这些 Agent 全天候运行，主动监控每位客户的财务状况——市场动态、截止日期、税务风险、漏掉的 RMD——并在恰当时机将合适的人类顾问拉入流程。
 
-On background agents, Jake is bullish on the concept but candid about the unsolved problem: *"No one's really figured out how to do this well"* — autonomy is exciting for consumers but requires strict permission escalation and audit trails in regulated enterprises.
-关于后台 Agent，Jake 对这一概念持乐观态度，但也坦率地承认这个问题尚未解决："No one's really figured out how to do this well" ——自主性对消费者很有吸引力，但在受监管的企业中需要严格的权限升级机制和审计追踪。
+**On model selection:** Arca uses Claude as the primary model with tier-based routing — heavier models for complex tasks like tax analysis, lighter models for background activity.
+**关于模型选择**：Arca 以 Claude 为主力模型，并采用基于层级的路由策略——复杂任务（如税务分析）使用更强的模型，后台活动则使用更轻量的模型。
 
-On the "SaaSpocalypse," Jake argues that vibe-coding internal tools sounds appealing but enterprise software is genuinely hard to build and maintain, meaning core systems of record will survive — while point solutions face consolidation.
-关于"SaaS 末日论"，Jake 认为随意构建内部工具听起来很诱人，但企业软件的构建和维护确实非常复杂，核心系统级产品将会存活——而点解决方案则面临整合压力。
+They deliberately avoid depending on any single provider's managed agent infrastructure, choosing to own their own memory and orchestration layer.
+他们刻意避免依赖任何单一服务商的托管 Agent 基础设施，选择自主掌控内存与编排层。
 
-Serval grew from 20 to 200 employees in one year, with Jake expecting hiring to accelerate further as he sees "unlimited demand for work."
-Serval 在一年内从 20 人增长到 200 人，Jake 预计随着他所看到的"无限工作需求"，招聘速度将进一步加快。
+**On long-horizon tasks (10-day processes):** Arca built a persistent memory system per client — tracking current state, ownership, next actions, and long-term goals.
+**关于长周期任务（10 天流程）**：Arca 为每位客户构建了持久化记忆系统，追踪当前状态、负责人、下一步行动和长期目标。
 
-Source: https://www.youtube.com/@NoPriorsPodcast
+A nightly "dreaming process" reflects on the world state for each client and updates memory, so any new agent that wakes up can quickly ramp up on the full picture.
+每晚运行的"梦境进程"会对每位客户的世界状态进行反思并更新记忆，使任何新唤醒的 Agent 都能迅速掌握全局。
+
+**On safety:** All safety restrictions are fully deterministic.
+**关于安全**：所有安全限制均为完全确定性的。
+
+Agents cannot autonomously execute trades or move money — a human is always in the loop for consequential actions.
+Agent 无法自主执行交易或转移资金——所有后果性操作都要求人类在回路中。
+
+Every database write triggers an LLM-based verification call; external inputs (emails, documents, phone calls) are scanned for prompt injection at the edges.
+每次数据库写入都会触发基于 LLM 的验证调用；外部输入（邮件、文档、电话）在边缘进行提示注入扫描。
+
+**On compliance/auditability:** Every agent action produces a changelog — what changed, who changed it, from which system component, and when.
+**关于合规与可审计性**：每个 Agent 操作都会生成变更日志——记录什么被更改、谁更改的、从哪个系统组件更改、以及何时更改。
+
+This applies to human actions too, creating unified auditability for both agents and advisors.
+这同样适用于人类操作，为 Agent 和顾问创建了统一的可审计性。
+
+**On feedback loops:** Every staff edit or cancellation is captured as an eval.
+**关于反馈循环**：员工的每次编辑或取消操作都被记录为评估数据。
+
+Each night, a meta-agent reviews real-world traces + feedback and proposes improvements to the harness — but a human engineer still approves prompt changes before shipping.
+每晚，一个元 Agent 会审查真实世界的 trace 和反馈，并提出对 harness 的改进建议——但在发布前，人类工程师仍需审批提示词变更。
+
+**Most forward-looking signal:** Arca is demonstrating that the real competitive moat in AI-native services is *owning the intelligence layer* — the memory systems, operational knowledge, and orchestration — rather than outsourcing it to foundation model providers.
+**最值得关注的前瞻信号**：Arca 正在证明，AI 原生服务真正的竞争护城河在于*掌控智能层*——内存系统、运营知识与编排能力——而非将其外包给基础模型提供商。
+
+As foundation labs (including Anthropic) move into financial services, the firms that own their agent harness will have a structural advantage over those using off-the-shelf managed agents.
+随着基础模型实验室（包括 Anthropic）进军金融服务领域，掌控自身 Agent harness 的公司将比使用现成托管 Agent 的公司拥有结构性优势。
+
+Source: https://www.youtube.com/@LatentSpacePod
+Episode: Using Agents for Long-Horizon Financial Work — Aman Singh, Arca (published 2026-10-31)
 
 ---
 
