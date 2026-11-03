@@ -1,172 +1,204 @@
-AI Builders 日报 · 2026-11-02
+AI Builders 日报 · 2026-11-03
+
+AI Builders Daily Digest — 2026-11-03
+
+X / TWITTER
 
 ---
 
-## X / TWITTER
+**Andrej Karpathy** (karpathy on X) — AI researcher and educator, formerly OpenAI and Tesla
 
-### Swyx (swyx on X) — AI Engineer / smol.ai / Latent Space
+Over the weekend, Karpathy built a side project he calls "HackerTube" — a curated YouTube feed filtered through 20 years of Hacker News comments.
+周末，Karpathy 打造了一个他称之为「HackerTube」的小项目——通过 20 年 Hacker News 评论过滤出高质量 YouTube 视频推荐。
 
-Swyx weighed in on the ongoing debate about AI model "effort levels," noting that Karpathy uses Claude Opus 5.5 on medium effort for his latest project, Hackertube.
-Swyx 就 AI 模型"努力程度"的持续争论发表了看法，指出 Karpathy 在他的最新项目 Hackertube 中使用 Claude Opus 5.5 的中等努力级别。
+He was frustrated by YouTube's algorithmic recommendations, so he had Claude sift through 43 million comments to surface 6,454 videos that the HN community keeps recommending.
+他对 YouTube 的算法推荐感到厌倦，于是用 Claude 筛选了 4300 万条评论，提炼出 6454 个 HN 社区反复推荐的视频。
 
-He argued that strong opinions on effort settings are "like the tabs vs spaces of our time" — ultimately personal preference.
-他认为，对努力设置的强烈执念"就像我们这个时代的 Tab 对 Space 之争"——归根结底是个人偏好。
+*"Significantly better"* than the default experience was his verdict.
+他的评价是效果「明显更好」。
 
-In a separate post, he advocated for a "low effort + critique loop" over maxed-out compute, pointing to his own babysit-runs workflow as the smarter throughput choice.
-在另一条推文中，他主张用"低努力 + 批评循环"代替拉满算力，并指出他自己的 babysit-runs 工作流是更聪明的吞吐量选择。
-
-> *"join me all the way on the light side guys"*
-
-Source: https://x.com/swyx/status/2116773135668404286
-Source: https://x.com/swyx/status/2116642586387730593
+https://x.com/karpathy/status/2116957135661945283
 
 ---
 
-### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
+**Peter Yang** (petergyang on X) — Product leader and creator of Behind the Craft podcast
 
-Thibault posted a cryptic but highly engaged tweet with just "Banked 1/2," which drew over 6,500 likes and 181 retweets — suggesting a significant announcement or teaser, possibly related to an upcoming OpenAI release.
-来自 OpenAI Codex 和 ChatGPT 团队的 Thibault 发了一条言简意赅但极具互动性的推文，仅写"Banked 1/2"，获得了超过 6500 个点赞和 181 次转发——暗示可能有重要公告或预告，或许与即将发布的 OpenAI 新产品有关。
+Peter shared a candid quote from a Google Labs product director about AI product design: *"It really makes you question, why do you want a person in your product? Is your product something that needs a UI?"*
+Peter 分享了一段 Google Labs 产品总监关于 AI 产品设计的坦率观点："这真的让你不得不思考，为什么你的产品需要一个人？你的产品真的需要 UI 吗？"
 
-> *"Banked 1/2"*
+He also shared his current AI tool stack, noting clear category winners: ChatGPT + Codex for browser/computer use, Claude for design and "taste," and various specialized tools for agents and scheduling.
+他还分享了自己当前的 AI 工具矩阵，指出各类别的明显赢家：浏览器/电脑操作用 ChatGPT + Codex，设计和「品味」类任务用 Claude，其他专项任务各有最优工具。
 
-Source: https://x.com/thsottiaux/status/2116692529970311254
+Upcoming on his podcast: an interview with Ashley Alexander, VP of Product at OpenAI, covering her personal experience caring for parents through cancer and reflections on her work.
+他的播客即将推出新一期：对话 OpenAI 产品副总裁 Ashley Alexander，内容涉及她照顾癌症父母的亲身经历以及对工作的深刻思考。
 
----
-
-### Peter Yang (petergyang on X) — AI Educator / Product Creator
-
-Peter's recent posts were lighter in AI content, covering Halloween spirit and music listening habits.
-Peter 最近的推文 AI 相关内容较少，主要围绕万圣节氛围和音乐收听习惯。
-
-He expressed enthusiasm for Halloween as a holiday that "should be held every quarter," and noted he's been listening to something he prefers over Spotify.
-他表达了对万圣节的热情，认为这个节日"应该每季度举办一次"，并提到他正在收听一些比 Spotify 更让他喜欢的内容。
-
-近期无重要 AI 动态。
-
-Source: https://x.com/petergyang/status/2116732887265656978
+https://x.com/petergyang/status/2117059131349868790
+https://x.com/petergyang/status/2116987415319740756
+https://x.com/petergyang/status/2116946320674152810
 
 ---
 
-### Guillermo Rauch (rauchg on X) — CEO, Vercel
+**Thariq** (trq212 on X) — indie game developer
 
-Guillermo shared a post with the comment "This would go so hard in SF," reacting to something that resonated with the Bay Area tech scene — short but indicative of his pulse on SF startup culture.
-Vercel CEO Guillermo Rauch 转发了一条配文"这在旧金山会超级火"的内容，简短但体现了他对旧金山创业文化的敏锐感知。
+Thariq is making solid progress on his game, adding a new character: a taekwondo master who fights with fire.
+Thariq 的游戏开发进展顺利，新增了一个角色：一位使用火焰攻击的跆拳道大师。
 
-近期无重要技术动态。
+He also updated the art style from 3D models to generated sprites, giving the game a fresh visual identity.
+他还将美术风格从 3D 模型改为生成式像素精灵图，为游戏带来了全新的视觉风格。
 
-Source: https://x.com/rauchg/status/2116710688550994042
+He shared a highlight intro video and says he's hoping to have a vertical slice ready sometime next week.
+他分享了一段高光介绍视频，表示希望下周内能完成一个可演示的核心玩法切片。
 
----
-
-### Aaron Levie (levie on X) — CEO, Box
-
-Aaron made one of the sharpest observations of the day: six months ago, AI could help you produce things faster; now we're entering territory where AI can produce outputs you simply couldn't have created before.
-Box CEO Aaron Levie 发表了当天最犀利的观点之一：六个月前，AI 只能帮你更快地产出内容；而现在，我们正进入 AI 能产出你根本无法独立完成的成果的新阶段。
-
-He framed this as a litmus test: if your AI use isn't unlocking genuinely new capabilities, you're not pushing hard enough.
-他将其定义为一个试金石：如果你使用 AI 还没有解锁真正全新的能力，说明你用得还不够深。
-
-> *"Up until maybe six months ago probably the best you could do with AI was pull off something you already would produce, but just doing it a little faster. But now we're entering a point where the output..."*
-
-Source: https://x.com/levie/status/2116652002830963114
+https://x.com/trq212/status/2116977363728867664
+https://x.com/trq212/status/2116976789046350040
 
 ---
 
-### Garry Tan (garrytan on X) — President & CEO, Y Combinator
+**Amjad Masad** (amasad on X) — CEO of Replit
 
-Garry shared a pointed excerpt on political systems and institutional rot: why broken systems promote people with "no scruples" over the most capable.
-YC 总裁 Garry Tan 分享了一段关于政治体系与制度腐化的深刻摘录：为何失序的体系会提拔"毫无顾忌"的人，而非最有能力的人。
+Masad issued a pointed warning to users enjoying subsidized AI subscriptions: *"If you're enjoying a subsidized AI subscription get ready to get rug pulled."*
+Masad 向享受补贴 AI 订阅的用户发出了直接警告："如果你正在享受补贴价的 AI 订阅，要做好被突然涨价的心理准备。"
 
-> *"When the plan fails—and it always fails—coercion is needed. You need people willing to do what honest people refuse to do. The system doesn't promote the best; it selects those with no scruples."*
+He also highlighted Replit's new feedback widget feature: by enabling it on your site, user feedback is automatically converted into prompts for AI agents to act on and build improvements.
+他还介绍了 Replit 的新功能——反馈组件：只需在你的网站上开启，用户的反馈会自动转化为 AI agent 的构建指令，直接驱动产品改进。
 
-While not directly AI-related, his posts often signal how he thinks about institution-building and the traits that matter in founders.
-虽然不直接与 AI 相关，但他的帖子往往传递出他对机构建设以及创始人关键特质的深层思考。
-
-Source: https://x.com/garrytan/status/2116640529232609515
-
----
-
-### Matt Turck (mattturck on X) — VC, FirstMark Capital
-
-Matt shared a classic Halloween-themed post with a 🎃👻 vibe.
-FirstMark Capital 投资人 Matt Turck 分享了一条经典万圣节主题帖子。
-
-近期无重要 AI 或投资动态。
-
-Source: https://x.com/mattturck/status/2116653171741470990
+https://x.com/amasad/status/2117010858845089805
+https://x.com/amasad/status/2116998155925360965
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+**Guillermo Rauch** (rauchg on X) — CEO of Vercel
 
-Nikunj shared a first-snow photo and a witty Halloween joke about someone dressing up as "cybersecurity awareness month" — poking fun at SF tech culture.
-FPV Ventures 合伙人 Nikunj Kothari 分享了一张初雪照片，还打趣了一个万圣节玩笑——有人装扮成"网络安全意识月"，调侃了旧金山科技文化。
+Rauch made a strong statement on AI sovereignty: *"Own your intelligence. Anyone that opposes this has something to sell you (perhaps your own intelligence back to you.)"*
+Rauch 就 AI 主权发表了强硬声明："拥有你自己的智能。任何反对这一点的人都有东西要卖给你（也许就是把你的智能再卖回给你）。"
 
-> *"what do you mean you dressed up as cybersecurity awareness month for halloween / i hate sf"*
+He argued that local models need to keep proliferating, pushing back against total dependence on centralized "absolute unit" massive models.
+他主张本地模型应持续扩散普及，反对完全依赖中心化的超大规模模型。
 
-近期无重要投资动态。
+He also shared that he's been testing Gemini on two high-complexity Vercel projects, calling the experience "hilarious" but noting the results have been promising.
+他还透露自己正在两个高复杂度的 Vercel 项目上测试 Gemini，称这个过程"太搞笑了"，但整体结果令人满意。
 
-Source: https://x.com/nikunj/status/2116554844207198501
+https://x.com/rauchg/status/2117039740096847920
+https://x.com/rauchg/status/2117000819623243925
+https://x.com/rauchg/status/2116988333096370443
 
 ---
 
-## PODCASTS
+**Aaron Levie** (levie on X) — CEO of Box
 
-### Latent Space: "Using Agents for Long-Horizon Financial Work — Aman Singh, Arca"
+Levie made a sweeping observation about AI's impact on job descriptions across industries: the shift is no longer about agents helping people work incrementally better — it's about humans helping agents deliver outcomes.
+Levie 对 AI 重塑职场做出了深刻判断：变化不再是 agent 帮人工作更高效，而是人类开始反过来协助 agent 交付成果。
 
-Arca is not a SaaS company — it is the wealth management firm itself, built AI-native from day one.
-Arca 不是一家 SaaS 公司——它本身就是一家从第一天起就以 AI 原生方式构建的财富管理公司。
+He argues this role reversal will apply well beyond coding to a broad range of functions.
+他认为这种角色翻转将远超编程领域，蔓延至众多职能岗位。
 
-This distinction matters enormously: it means Arca can standardize how work happens internally, so agents can participate in predictable, high-trust workflows.
-这一区别至关重要：它意味着 Arca 可以将内部工作方式标准化，使 agent 能够参与可预测、高可信度的工作流程。
+https://x.com/levie/status/2117134917847093491
 
-**The key insight from Aman Singh:** "Agents prompt people more than people prompt agents."
-**Aman Singh 的核心洞见**："Agent 触发人的次数，多于人触发 Agent 的次数。"
+---
 
-The agents run 24/7, proactively monitoring every client's financial picture — markets, deadlines, tax exposure, missed RMDs — and pull in the right human advisor at the right moment.
-这些 Agent 全天候运行，主动监控每位客户的财务状况——市场动态、截止日期、税务风险、漏掉的 RMD——并在恰当时机将合适的人类顾问拉入流程。
+**Garry Tan** (garrytan on X) — CEO of Y Combinator
 
-**On model selection:** Arca uses Claude as the primary model with tier-based routing — heavier models for complex tasks like tax analysis, lighter models for background activity.
-**关于模型选择**：Arca 以 Claude 为主力模型，并采用基于层级的路由策略——复杂任务（如税务分析）使用更强的模型，后台活动则使用更轻量的模型。
+Tan highlighted Particle-1, a new model that performs as well as much larger models for agentic retrieval tasks — at 1/23rd the price.
+Tan 重点推介了 Particle-1：一个在 agent 检索任务上媲美更大模型、但价格仅为后者 1/23 的新模型。
 
-They deliberately avoid depending on any single provider's managed agent infrastructure, choosing to own their own memory and orchestration layer.
-他们刻意避免依赖任何单一服务商的托管 Agent 基础设施，选择自主掌控内存与编排层。
+He also shared signals of practical robotics arriving: *"Practical robotics is nigh."*
+他还分享了实用机器人即将落地的信号，直言："实用机器人的时代近了。"
 
-**On long-horizon tasks (10-day processes):** Arca built a persistent memory system per client — tracking current state, ownership, next actions, and long-term goals.
-**关于长周期任务（10 天流程）**：Arca 为每位客户构建了持久化记忆系统，追踪当前状态、负责人、下一步行动和长期目标。
+And he doubled down on YC's identity in the hard tech space: *"YC is the YC for hard tech."*
+同时他再次强调 YC 在硬科技领域的定位："YC 就是硬科技的 YC。"
 
-A nightly "dreaming process" reflects on the world state for each client and updates memory, so any new agent that wakes up can quickly ramp up on the full picture.
-每晚运行的"梦境进程"会对每位客户的世界状态进行反思并更新记忆，使任何新唤醒的 Agent 都能迅速掌握全局。
+https://x.com/garrytan/status/2117137390016073977
+https://x.com/garrytan/status/2116941191526895975
+https://x.com/garrytan/status/2116909591607099793
 
-**On safety:** All safety restrictions are fully deterministic.
-**关于安全**：所有安全限制均为完全确定性的。
+---
 
-Agents cannot autonomously execute trades or move money — a human is always in the loop for consequential actions.
-Agent 无法自主执行交易或转移资金——所有后果性操作都要求人类在回路中。
+**Zara Zhang** (zarazhangrui on X) — investor and builder
 
-Every database write triggers an LLM-based verification call; external inputs (emails, documents, phone calls) are scanned for prompt injection at the edges.
-每次数据库写入都会触发基于 LLM 的验证调用；外部输入（邮件、文档、电话）在边缘进行提示注入扫描。
+Zhang shared a delightful creative concept: a Linktree that is an actual tree — a visual, generative take on the personal link page.
+Zhang 分享了一个有趣的创意概念：把个人链接页做成一棵真实的「树」——充满生成式视觉美感的个人主页形态。
 
-**On compliance/auditability:** Every agent action produces a changelog — what changed, who changed it, from which system component, and when.
-**关于合规与可审计性**：每个 Agent 操作都会生成变更日志——记录什么被更改、谁更改的、从哪个系统组件更改、以及何时更改。
+https://x.com/zarazhangrui/status/2117086544586780867
 
-This applies to human actions too, creating unified auditability for both agents and advisors.
-这同样适用于人类操作，为 Agent 和顾问创建了统一的可审计性。
+---
 
-**On feedback loops:** Every staff edit or cancellation is captured as an eval.
-**关于反馈循环**：员工的每次编辑或取消操作都被记录为评估数据。
+**Dan Shipper** (danshipper on X) — CEO of Every, AI writer and builder
 
-Each night, a meta-agent reviews real-world traces + feedback and proposes improvements to the harness — but a human engineer still approves prompt changes before shipping.
-每晚，一个元 Agent 会审查真实世界的 trace 和反馈，并提出对 harness 的改进建议——但在发布前，人类工程师仍需审批提示词变更。
+Shipper pointed to "argon" as something cooking well, sharing a link without much context — but the endorsement was clear.
+Shipper 简短地为「argon」点了赞，配上链接但几乎没有额外说明——但其背书态度十分明确。
 
-**Most forward-looking signal:** Arca is demonstrating that the real competitive moat in AI-native services is *owning the intelligence layer* — the memory systems, operational knowledge, and orchestration — rather than outsourcing it to foundation model providers.
-**最值得关注的前瞻信号**：Arca 正在证明，AI 原生服务真正的竞争护城河在于*掌控智能层*——内存系统、运营知识与编排能力——而非将其外包给基础模型提供商。
+He also called out what appears to be anti-competitive behavior in the AI space: *"this is anti competitive and not cool."*
+他还公开批评了 AI 领域疑似反竞争的行为，直言："这是反竞争行为，不酷。"
 
-As foundation labs (including Anthropic) move into financial services, the firms that own their agent harness will have a structural advantage over those using off-the-shelf managed agents.
-随着基础模型实验室（包括 Anthropic）进军金融服务领域，掌控自身 Agent harness 的公司将比使用现成托管 Agent 的公司拥有结构性优势。
+https://x.com/danshipper/status/2117014507083948453
+https://x.com/danshipper/status/2116978123044688304
 
-Source: https://www.youtube.com/@LatentSpacePod
-Episode: Using Agents for Long-Horizon Financial Work — Aman Singh, Arca (published 2026-10-31)
+---
+
+PODCASTS
+
+---
+
+**Unsupervised Learning — Ep 95: Modal CEO Eric Glyman on the Future of Inference, the Chaos of the GPU Market & Origins of the Sandbox Bet**
+
+This episode is a rare behind-the-scenes look at how Modal — now a $1B+ ARR company — actually works at the infrastructure layer, and where its CEO thinks the inference market is heading.
+本期播客难得地呈现了 Modal——一家年经常性收入已超 10 亿美元的公司——在基础设施层面的真实运作逻辑，以及其 CEO 对 AI 推理市场走向的深度判断。
+
+**核心论点 / Core Thesis**
+
+The GPU market is still the Wild West — deals get done via late-night WhatsApp groups and chance encounters at NVIDIA conferences.
+GPU 市场依然是"狂野西部"——交易通过深夜 WhatsApp 群和 NVIDIA 大会上的偶遇促成。
+
+Modal's edge isn't just inference speed; it's the full platform — sandboxes, training, fine-tuning, batch processing — because customers don't want single-trick ponies.
+Modal 的核心优势不只是推理速度，而是完整的平台能力——沙箱、训练、微调、批处理——因为客户不想要只会一招的工具。
+
+**关键洞察 / Key Insights**
+
+The Sandbox bet in 2023 was asymmetric: low cost to build, massive upside if coding agents took off.
+2023 年的沙箱赌注是非对称的：构建成本低，如果编程 agent 爆发则回报巨大。
+
+Inference is becoming a race to the bottom on price; the durable differentiation is being a multi-product platform.
+推理服务正在经历价格战；持久的差异化在于成为多产品平台。
+
+Deprecation is harder in the agent era — agents are trained on old code and will keep using deprecated APIs.
+在 agent 时代，废弃旧功能变得更难——agent 是在旧代码上训练的，会持续调用已废弃的 API。
+
+Senior engineers are adopting coding agents faster than juniors — because agents give them "10 interns" to finally execute on all their ideas.
+资深工程师比初级工程师更快采用编程 agent——因为 agent 给了他们"10 个实习生"来落地脑海中积压多年的想法。
+
+"Agent SEO" is the new SEO: Modal now tracks whether AI coding assistants recommend Modal unprompted, and actively optimizes for it.
+「Agent SEO」是新的 SEO：Modal 现在追踪 AI 编程助手是否会主动推荐 Modal，并积极优化这一指标。
+
+**最值得关注的信号 / Most Forward-Looking Signal**
+
+Modal is building a "CDN for inference" — dynamically routing workloads across chip types and global regions to minimize latency for voice-to-voice and real-time video use cases.
+Modal 正在构建"推理领域的 CDN"——在不同芯片类型和全球区域之间动态路由工作负载，以最小化语音对话和实时视频场景的延迟。
+
+---
+
+完整中文逐字稿 / Full Chinese Transcript (Selected Highlights):
+
+Speaker 1（主持人）：GPU 市场中，有多少是有组织的计算市场，有多少还是野蛮生长的状态？
+
+Speaker 2（Eric，Modal CEO）：我去年参加了 GTC 大会。那感觉就像是一个露天的毒品交易市场，只不过卖的是 GPU。到处走动，跟人聊天，试图搞到 GPU，在酒店大堂跟人交换联系方式。这离高效市场差得远。
+
+Speaker 2：计算资源有各种各样的形态。我也觉得从结构上来说，这个市场会在很长时间内保持这种混乱状态。它不是那种可以在交易所买卖的标准化合约，因为它根本不是同质化的。
+
+Speaker 2：我们目前与 25 家不同的云服务商合作，而且还在持续增加。我们每周大概会签两到三笔计算资源协议。
+
+Speaker 2：我们在 2023 年推出了沙箱产品（Sandbox）。当时我们看到有人在用 LLM 生成代码，我们意识到我们的基础设施非常适合安全地运行这些代码。它没有一夜成名，但到 2025 年，随着模型代码能力的大幅提升，它爆发了。沙箱现在是我们大约三分之一的收入，作为独立产品已经跑到了 3 亿美元的年化收入规模。
+
+Speaker 2：我们不用 Kubernetes 和 Docker。我们构建了自己的文件系统、容器运行时和调度器。我们使用的外部现成软件非常少。这让我们的冷启动速度极快，并让我们建立了 CPU 和 GPU 快照技术——可以在几秒内启动大型模型。
+
+Speaker 2：我们热爱开源，因为我们的核心 alpha 在于专有的基础设施层。我们与 vLLM 团队和 SGLang 团队都有深度合作，并且非常积极地向这两个开源项目贡献代码。
+
+Speaker 2：关于 agent 时代最让我意外的一点：在 deprecation（废弃旧功能）这件事上我们踩了坑。我们不能再指望「从文档里删掉就行了」——因为 agent 是在历史代码上训练的，会持续使用已废弃的 API。我们不得不大幅延长废弃窗口期。
+
+Speaker 2：我认为推理市场会相当残酷。仅仅在 token 服务上竞争会导致严重的价格内卷，Open Router 基本上已经在做这件事了。真正持久的差异化在于提供整个平台生态——沙箱、强化学习、批处理、训练——而不仅仅是推理本身。
+
+Speaker 2：Modal 已经运行了大约五年，我们把它当作一个二十年的项目在做。十到十五年后，我们会看起来更像一个多元化的企业集团，有很多不同的产品。
+
+https://www.youtube.com/@RedpointAI
 
 ---
 
