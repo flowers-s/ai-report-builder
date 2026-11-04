@@ -1,204 +1,242 @@
-AI Builders 日报 · 2026-11-03
-
-AI Builders Daily Digest — 2026-11-03
-
-X / TWITTER
+AI Builders 日报 · 2026-11-04
 
 ---
 
-**Andrej Karpathy** (karpathy on X) — AI researcher and educator, formerly OpenAI and Tesla
-
-Over the weekend, Karpathy built a side project he calls "HackerTube" — a curated YouTube feed filtered through 20 years of Hacker News comments.
-周末，Karpathy 打造了一个他称之为「HackerTube」的小项目——通过 20 年 Hacker News 评论过滤出高质量 YouTube 视频推荐。
-
-He was frustrated by YouTube's algorithmic recommendations, so he had Claude sift through 43 million comments to surface 6,454 videos that the HN community keeps recommending.
-他对 YouTube 的算法推荐感到厌倦，于是用 Claude 筛选了 4300 万条评论，提炼出 6454 个 HN 社区反复推荐的视频。
-
-*"Significantly better"* than the default experience was his verdict.
-他的评价是效果「明显更好」。
-
-https://x.com/karpathy/status/2116957135661945283
+AI Builders Digest — 2026-11-04
 
 ---
 
-**Peter Yang** (petergyang on X) — Product leader and creator of Behind the Craft podcast
+## OFFICIAL BLOGS
 
-Peter shared a candid quote from a Google Labs product director about AI product design: *"It really makes you question, why do you want a person in your product? Is your product something that needs a UI?"*
-Peter 分享了一段 Google Labs 产品总监关于 AI 产品设计的坦率观点："这真的让你不得不思考，为什么你的产品需要一个人？你的产品真的需要 UI 吗？"
-
-He also shared his current AI tool stack, noting clear category winners: ChatGPT + Codex for browser/computer use, Claude for design and "taste," and various specialized tools for agents and scheduling.
-他还分享了自己当前的 AI 工具矩阵，指出各类别的明显赢家：浏览器/电脑操作用 ChatGPT + Codex，设计和「品味」类任务用 Claude，其他专项任务各有最优工具。
-
-Upcoming on his podcast: an interview with Ashley Alexander, VP of Product at OpenAI, covering her personal experience caring for parents through cancer and reflections on her work.
-他的播客即将推出新一期：对话 OpenAI 产品副总裁 Ashley Alexander，内容涉及她照顾癌症父母的亲身经历以及对工作的深刻思考。
-
-https://x.com/petergyang/status/2117059131349868790
-https://x.com/petergyang/status/2116987415319740756
-https://x.com/petergyang/status/2116946320674152810
+（今日无官方博客更新。）
 
 ---
 
-**Thariq** (trq212 on X) — indie game developer
-
-Thariq is making solid progress on his game, adding a new character: a taekwondo master who fights with fire.
-Thariq 的游戏开发进展顺利，新增了一个角色：一位使用火焰攻击的跆拳道大师。
-
-He also updated the art style from 3D models to generated sprites, giving the game a fresh visual identity.
-他还将美术风格从 3D 模型改为生成式像素精灵图，为游戏带来了全新的视觉风格。
-
-He shared a highlight intro video and says he's hoping to have a vertical slice ready sometime next week.
-他分享了一段高光介绍视频，表示希望下周内能完成一个可演示的核心玩法切片。
-
-https://x.com/trq212/status/2116977363728867664
-https://x.com/trq212/status/2116976789046350040
+## X / TWITTER
 
 ---
 
-**Amjad Masad** (amasad on X) — CEO of Replit
+### Swyx (swyx on X) — AI Engineer, smol.ai / Cognition / Latent Space
 
-Masad issued a pointed warning to users enjoying subsidized AI subscriptions: *"If you're enjoying a subsidized AI subscription get ready to get rug pulled."*
-Masad 向享受补贴 AI 订阅的用户发出了直接警告："如果你正在享受补贴价的 AI 订阅，要做好被突然涨价的心理准备。"
+Weight-space programming is now a reality, and Swyx sees it as a pivotal turning point — comparing the moment to the opening lines of Ted Chiang's sci-fi story *Exhalation*.
+权重空间编程如今已成现实，Swyx 将其比作 Ted Chiang 科幻故事《呼吸》的开篇——我们正站在一个根本性转折点上。
 
-He also highlighted Replit's new feedback widget feature: by enabling it on your site, user feedback is automatically converted into prompts for AI agents to act on and build improvements.
-他还介绍了 Replit 的新功能——反馈组件：只需在你的网站上开启，用户的反馈会自动转化为 AI agent 的构建指令，直接驱动产品改进。
+He's also looking forward to an upcoming event with CompleteSkeptic and typesafeai, hinting the follow-up discussion "is going to melt on twitter."
+他还期待着与 CompleteSkeptic 和 typesafeai 的即将到来的活动，暗示后续讨论"将在推特上引发轰动"。
 
-https://x.com/amasad/status/2117010858845089805
-https://x.com/amasad/status/2116998155925360965
-
----
-
-**Guillermo Rauch** (rauchg on X) — CEO of Vercel
-
-Rauch made a strong statement on AI sovereignty: *"Own your intelligence. Anyone that opposes this has something to sell you (perhaps your own intelligence back to you.)"*
-Rauch 就 AI 主权发表了强硬声明："拥有你自己的智能。任何反对这一点的人都有东西要卖给你（也许就是把你的智能再卖回给你）。"
-
-He argued that local models need to keep proliferating, pushing back against total dependence on centralized "absolute unit" massive models.
-他主张本地模型应持续扩散普及，反对完全依赖中心化的超大规模模型。
-
-He also shared that he's been testing Gemini on two high-complexity Vercel projects, calling the experience "hilarious" but noting the results have been promising.
-他还透露自己正在两个高复杂度的 Vercel 项目上测试 Gemini，称这个过程"太搞笑了"，但整体结果令人满意。
-
-https://x.com/rauchg/status/2117039740096847920
-https://x.com/rauchg/status/2117000819623243925
-https://x.com/rauchg/status/2116988333096370443
+Source tweets:
+- https://x.com/swyx/status/2117492548780589510
+- https://x.com/swyx/status/2117331535007531009
 
 ---
 
-**Aaron Levie** (levie on X) — CEO of Box
+### Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini
 
-Levie made a sweeping observation about AI's impact on job descriptions across industries: the shift is no longer about agents helping people work incrementally better — it's about humans helping agents deliver outcomes.
-Levie 对 AI 重塑职场做出了深刻判断：变化不再是 agent 帮人工作更高效，而是人类开始反过来协助 agent 交付成果。
-
-He argues this role reversal will apply well beyond coding to a broad range of functions.
-他认为这种角色翻转将远超编程领域，蔓延至众多职能岗位。
-
-https://x.com/levie/status/2117134917847093491
+Josh had one post today wishing Shah Rukh Khan a happy birthday — no substantive AI or product content.
+今日无重要动态。
 
 ---
 
-**Garry Tan** (garrytan on X) — CEO of Y Combinator
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-Tan highlighted Particle-1, a new model that performs as well as much larger models for agentic retrieval tasks — at 1/23rd the price.
-Tan 重点推介了 Particle-1：一个在 agent 检索任务上媲美更大模型、但价格仅为后者 1/23 的新模型。
+OpenAI's Codex team is shipping Git-level intelligence, and Sottiaux teased that the team can "finally talk about it a bit," with big props to the engineering leads.
+OpenAI Codex 团队正在推出 Git 层面的智能能力，Sottiaux 表示团队"终于可以稍微透露一些"，并向工程负责人致以高度赞扬。
 
-He also shared signals of practical robotics arriving: *"Practical robotics is nigh."*
-他还分享了实用机器人即将落地的信号，直言："实用机器人的时代近了。"
+He also shared a notable product direction for the AI "dot": *"Your dot will choose the best model for the task, drawing on different models for different parts of the work."*
+他还分享了 AI "dot" 的重要产品方向：AI 助手将为每项任务自动选择最优模型，针对不同工作环节调用不同模型。
 
-And he doubled down on YC's identity in the hard tech space: *"YC is the YC for hard tech."*
-同时他再次强调 YC 在硬科技领域的定位："YC 就是硬科技的 YC。"
-
-https://x.com/garrytan/status/2117137390016073977
-https://x.com/garrytan/status/2116941191526895975
-https://x.com/garrytan/status/2116909591607099793
+Source tweets:
+- https://x.com/thsottiaux/status/2117412956950638872
+- https://x.com/thsottiaux/status/2117283355427495983
 
 ---
 
-**Zara Zhang** (zarazhangrui on X) — investor and builder
+### Peter Yang (petergyang on X) — AI Tutorials & Guides Creator
 
-Zhang shared a delightful creative concept: a Linktree that is an actual tree — a visual, generative take on the personal link page.
-Zhang 分享了一个有趣的创意概念：把个人链接页做成一棵真实的「树」——充满生成式视觉美感的个人主页形态。
+Yang posted a sharp take on AI writing tools: the best model for writing and editing is being held back by its interface constraints.
+Yang 对 AI 写作工具提出了犀利观点：最优秀的写作和编辑模型正受到其界面限制的拖累。
 
-https://x.com/zarazhangrui/status/2117086544586780867
+He compared ChatGPT and Gemini on copy editing — finding ChatGPT's suggestions largely surface-level.
+他对比了 ChatGPT 和 Gemini 在文案编辑上的表现，发现 ChatGPT 的建议大多流于表面。
 
----
+He also flagged Cursor's growth as a signal: *"Insane growth — this is what an AI native product looks like!"*
+他还将 Cursor 的增长数据作为信号：*"疯狂的增长——这就是 AI 原生产品的样子！"*
 
-**Dan Shipper** (danshipper on X) — CEO of Every, AI writer and builder
-
-Shipper pointed to "argon" as something cooking well, sharing a link without much context — but the endorsement was clear.
-Shipper 简短地为「argon」点了赞，配上链接但几乎没有额外说明——但其背书态度十分明确。
-
-He also called out what appears to be anti-competitive behavior in the AI space: *"this is anti competitive and not cool."*
-他还公开批评了 AI 领域疑似反竞争的行为，直言："这是反竞争行为，不酷。"
-
-https://x.com/danshipper/status/2117014507083948453
-https://x.com/danshipper/status/2116978123044688304
+Source tweets:
+- https://x.com/petergyang/status/2117473529797214279
+- https://x.com/petergyang/status/2117333424403042330
 
 ---
 
-PODCASTS
+### Nan Yu (thenanyu on X) — Product, Codex at OpenAI (prev. Head of Product at Linear)
+
+Yu made a sharp call on multiplayer AI: *"Except for rare circumstances, group chat is a terrible multiplayer AI experience. Literally guaranteed slop."*
+Yu 对多人 AI 协作模式提出了鲜明判断：*"除了极少数例外，群聊是一种糟糕透顶的多人 AI 体验，几乎必然产出低质内容。"*
+
+This is a contrarian take worth watching — as most AI products are doubling down on shared chat interfaces.
+这是一个值得关注的反主流观点，因为大多数 AI 产品目前都在加码共享聊天界面。
+
+Source tweet: https://x.com/thenanyu/status/2117432599559716940
 
 ---
 
-**Unsupervised Learning — Ep 95: Modal CEO Eric Glyman on the Future of Inference, the Chaos of the GPU Market & Origins of the Sandbox Bet**
+### Thariq (trq212 on X) — formerly Claude Code at Anthropic
 
-This episode is a rare behind-the-scenes look at how Modal — now a $1B+ ARR company — actually works at the infrastructure layer, and where its CEO thinks the inference market is heading.
-本期播客难得地呈现了 Modal——一家年经常性收入已超 10 亿美元的公司——在基础设施层面的真实运作逻辑，以及其 CEO 对 AI 推理市场走向的深度判断。
+After one week of heavy usage, Thariq's verdict is that you don't need unlimited tokens to do great work — the $200 plans are more than enough.
+在高强度使用一周后，Thariq 得出结论：做出色的工作根本不需要无限 token，200 美元档位的套餐完全够用。
 
-**核心论点 / Core Thesis**
+His broader point lands harder: *"this is the most expensive intelligence will ever be."*
+他更大的判断更有分量：*"现在是智能最贵的时候，以后只会更便宜。"*
 
-The GPU market is still the Wild West — deals get done via late-night WhatsApp groups and chance encounters at NVIDIA conferences.
-GPU 市场依然是"狂野西部"——交易通过深夜 WhatsApp 群和 NVIDIA 大会上的偶遇促成。
-
-Modal's edge isn't just inference speed; it's the full platform — sandboxes, training, fine-tuning, batch processing — because customers don't want single-trick ponies.
-Modal 的核心优势不只是推理速度，而是完整的平台能力——沙箱、训练、微调、批处理——因为客户不想要只会一招的工具。
-
-**关键洞察 / Key Insights**
-
-The Sandbox bet in 2023 was asymmetric: low cost to build, massive upside if coding agents took off.
-2023 年的沙箱赌注是非对称的：构建成本低，如果编程 agent 爆发则回报巨大。
-
-Inference is becoming a race to the bottom on price; the durable differentiation is being a multi-product platform.
-推理服务正在经历价格战；持久的差异化在于成为多产品平台。
-
-Deprecation is harder in the agent era — agents are trained on old code and will keep using deprecated APIs.
-在 agent 时代，废弃旧功能变得更难——agent 是在旧代码上训练的，会持续调用已废弃的 API。
-
-Senior engineers are adopting coding agents faster than juniors — because agents give them "10 interns" to finally execute on all their ideas.
-资深工程师比初级工程师更快采用编程 agent——因为 agent 给了他们"10 个实习生"来落地脑海中积压多年的想法。
-
-"Agent SEO" is the new SEO: Modal now tracks whether AI coding assistants recommend Modal unprompted, and actively optimizes for it.
-「Agent SEO」是新的 SEO：Modal 现在追踪 AI 编程助手是否会主动推荐 Modal，并积极优化这一指标。
-
-**最值得关注的信号 / Most Forward-Looking Signal**
-
-Modal is building a "CDN for inference" — dynamically routing workloads across chip types and global regions to minimize latency for voice-to-voice and real-time video use cases.
-Modal 正在构建"推理领域的 CDN"——在不同芯片类型和全球区域之间动态路由工作负载，以最小化语音对话和实时视频场景的延迟。
+Source tweet: https://x.com/trq212/status/2117305792923889731
 
 ---
 
-完整中文逐字稿 / Full Chinese Transcript (Selected Highlights):
+### Amjad Masad (amasad on X) — CEO, Replit
 
-Speaker 1（主持人）：GPU 市场中，有多少是有组织的计算市场，有多少还是野蛮生长的状态？
+Masad is sounding the alarm on AI agent security: *"AI agents should operate in dedicated, organization-controlled environments with limited access to the resources each task requires."*
+Masad 就 AI agent 安全发出警告：*"AI agent 应在组织可控的专属环境中运行，且每项任务所能访问的资源须严格受限。"*
 
-Speaker 2（Eric，Modal CEO）：我去年参加了 GTC 大会。那感觉就像是一个露天的毒品交易市场，只不过卖的是 GPU。到处走动，跟人聊天，试图搞到 GPU，在酒店大堂跟人交换联系方式。这离高效市场差得远。
+He also flagged that AI-generated financial content is now drawing serious regulatory scrutiny — "the ban hammer is coming down."
+他还指出，AI 生成的金融内容正引发严肃的监管审查——"封禁之锤即将落下"。
 
-Speaker 2：计算资源有各种各样的形态。我也觉得从结构上来说，这个市场会在很长时间内保持这种混乱状态。它不是那种可以在交易所买卖的标准化合约，因为它根本不是同质化的。
+Source tweets:
+- https://x.com/amasad/status/2117499074496872882
+- https://x.com/amasad/status/2117481616943820843
 
-Speaker 2：我们目前与 25 家不同的云服务商合作，而且还在持续增加。我们每周大概会签两到三笔计算资源协议。
+---
 
-Speaker 2：我们在 2023 年推出了沙箱产品（Sandbox）。当时我们看到有人在用 LLM 生成代码，我们意识到我们的基础设施非常适合安全地运行这些代码。它没有一夜成名，但到 2025 年，随着模型代码能力的大幅提升，它爆发了。沙箱现在是我们大约三分之一的收入，作为独立产品已经跑到了 3 亿美元的年化收入规模。
+### Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-Speaker 2：我们不用 Kubernetes 和 Docker。我们构建了自己的文件系统、容器运行时和调度器。我们使用的外部现成软件非常少。这让我们的冷启动速度极快，并让我们建立了 CPU 和 GPU 快照技术——可以在几秒内启动大型模型。
+Rauch is bullish on WebMCP and shared progress from the Vercel Sandbox team.
+Rauch 对 WebMCP 持强烈看好态度，并分享了 Vercel Sandbox 团队的进展。
 
-Speaker 2：我们热爱开源，因为我们的核心 alpha 在于专有的基础设施层。我们与 vLLM 团队和 SGLang 团队都有深度合作，并且非常积极地向这两个开源项目贡献代码。
+His key insight: *"Stateless sandboxes are the wrong benchmark. Agents are only useful if they have their workspace with them (identity, skills, repos, memories…)"*
+他的核心洞察：*"无状态沙箱是错误的评判标准。Agent 只有携带自己的工作空间（身份、技能、代码库、记忆……）才真正有用。"*
 
-Speaker 2：关于 agent 时代最让我意外的一点：在 deprecation（废弃旧功能）这件事上我们踩了坑。我们不能再指望「从文档里删掉就行了」——因为 agent 是在历史代码上训练的，会持续使用已废弃的 API。我们不得不大幅延长废弃窗口期。
+Source tweets:
+- https://x.com/rauchg/status/2117419661654720671
+- https://x.com/rauchg/status/2117338179535810957
 
-Speaker 2：我认为推理市场会相当残酷。仅仅在 token 服务上竞争会导致严重的价格内卷，Open Router 基本上已经在做这件事了。真正持久的差异化在于提供整个平台生态——沙箱、强化学习、批处理、训练——而不仅仅是推理本身。
+---
 
-Speaker 2：Modal 已经运行了大约五年，我们把它当作一个二十年的项目在做。十到十五年后，我们会看起来更像一个多元化的企业集团，有很多不同的产品。
+### Garry Tan (garrytan on X) — President & CEO, Y Combinator
 
-https://www.youtube.com/@RedpointAI
+Tan reports that Capy Captains (an AI coding coordination tool) increased his issue-fixing throughput by 5x overnight — a remarkable real-world productivity signal.
+Tan 报告称，Capy Captains（一款 AI 编码协作工具）一夜之间将他的问题修复效率提升了 5 倍——这是一个引人注目的真实生产力信号。
+
+He also flagged weight manipulation as an interesting new use for smaller models.
+他还指出，直接操控模型权重是小型模型的一个有趣新用途。
+
+Source tweets:
+- https://x.com/garrytan/status/2117410016730964358
+- https://x.com/garrytan/status/2117384926052135106
+
+---
+
+### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+
+Kothari is launching a new event series called "Slice for Thought," with the first guest being Peter Walker, head of insights at OpenRouter — focused on AI infrastructure and routing.
+Kothari 正在启动名为"Slice for Thought"的新活动系列，首位嘉宾为 OpenRouter 洞察负责人 Peter Walker，聚焦 AI 基础设施与路由。
+
+He also hinted that startup fundraising pipelines are much shorter than founders let on — typically about 11 days from "vague-posting revenue" to kicking off a raise.
+他还暗示，创业公司的融资流程比创始人公开表示的要短得多——从"含糊透露营收"到正式启动融资，通常只需约 11 天。
+
+Source tweets:
+- https://x.com/nikunj/status/2117413490256433207
+- https://x.com/nikunj/status/2117362283223687621
+
+---
+
+### Dan Shipper (danshipper on X) — CEO, Every
+
+Shipper is excited about Argon (likely a new AI writing/coding tool), calling it notably better than competitors — partly because "antigravity is stuck in 2025 so it doesn't have all of the crazy features and complexity."
+Shipper 对 Argon（一款新型 AI 写作/编码工具）表现出高度热情，称其明显优于竞品——部分原因是"antigravity 还停留在 2025 年，没有那些疯狂的特性和复杂度"。
+
+He linked to an Every vibe-check review of Argon for more context.
+他附上了 Every 对 Argon 的体验评测链接以供参考。
+
+Source tweets:
+- https://x.com/danshipper/status/2117428596688171450
+- https://x.com/danshipper/status/2117363007340609556
+
+---
+
+### Aditya Agarwal (adityaag on X) — General Partner, SPC; ex-CTO, Dropbox
+
+Agarwal spotlighted WisprFlow's $280M Series B — highlighting that the founder is a four-time builder and IOI medalist returning to the SPC alumni network.
+Agarwal 重点介绍了 WisprFlow 的 2.8 亿美元 B 轮融资——创始人是四次创业的 IOI 金牌得主，也是 SPC 校友网络的回归成员。
+
+Source tweet: https://x.com/adityaag/status/2117313674981355761
+
+---
+
+## PODCASTS
+
+---
+
+### Latent Space: "Building Legal Agents When You Can't See the Data — Jacob Lauritzen, CTO of Legora"
+
+🎧 Episode: https://youtube.com/watch?v=bJBEFzlKPoQ
+
+---
+
+#### 深度总结
+
+**核心论点**
+Legal AI isn't just about raw intelligence — it's about trust, data privacy, and operating under constraints that consumer AI ignores.
+法律 AI 的核心不在于原始智能，而在于信任、数据隐私，以及在消费级 AI 完全无视的诸多约束下运行。
+
+Legora CTO Jacob Lauritzen argues that the hardest problems in legal tech aren't model quality — they're organizational: you can't always see the data, clients won't share it, and the workflows are entrenched.
+Legora CTO Jacob Lauritzen 认为，法律科技最难的问题并非模型质量，而是组织层面的挑战：你无法总是看到数据，客户不愿分享，工作流程根深蒂固。
+
+**关键洞察**
+- Model improvements are often "free" wins: a citation accuracy problem that plagued them went from 70% to 99% between model releases — with zero engineering effort from Legora's side.
+  模型升级有时带来"免费的胜利"：一个引用准确率问题在两次模型发布之间从 70% 跃升至 99%，Legora 方面零工程投入。
+- Team size is a strategic choice: they planned to stay at 20 engineers forever — and are now at 100, still feeling understaffed. The constraint is intentional: small teams move faster.
+  团队规模是战略选择：他们最初计划永远保持 20 名工程师，如今已达 100 人，仍感人手不足。规模限制是刻意为之——小团队跑得更快。
+- The "paralegal/junior lawyer is gone" narrative is overstated in practice: Lauritzen pushes back on the hype, noting that actual workflows are more nuanced and that high-stakes transactions (like $400M M&As) still need Legora's full suite.
+  "初级律师/助理律师将消失"的说法在实践中被夸大了：Lauritzen 对此持保留态度，指出实际工作流程更为复杂，高风险交易（如 4 亿美元并购）仍需要 Legora 的完整产品支撑。
+- The product vs. agent tension is real: he's actively exploring how much of their product can "just be the agent" versus the full surrounding infrastructure.
+  产品与 agent 之间的张力是真实存在的：他正积极探索产品有多大比例可以"直接就是 agent"，而非依赖完整的周边基础设施。
+
+**最值得关注的信号**
+The legal vertical is proving that domain-specific AI — built with deep workflow integration and trust constraints — can out-compete general-purpose AI tools even as foundation models improve.
+法律垂直领域正在证明：深度整合工作流与信任约束的领域专属 AI，即便在基础模型不断进步的背景下，依然能够击败通用 AI 工具。
+
+---
+
+#### 完整中文逐字稿
+
+（以下为完整播客逐字稿中文译文）
+
+主持人：今天我们在录音室迎来了特别嘉宾——Legora 的 CTO Jacob Lauridsen。我说得对吗，Lauridsen？
+
+Jacob：Lauridsen，对，没问题。
+
+主持人：好，这是丹麦名字？
+
+Jacob：是的，sen 就是 son 的意思，"Laurits 之子"。就像英语里的 son 一样。
+
+主持人：所以你叫"Laurits 之子"，很好。我们之前有过几次交集，你在 AI 大会上发过言，Legora 也是历史上增长最快的法律科技公司之一。你在节目前说了一句我觉得很有意思的话，你说你们的起点非常欧洲化……
+
+（以下为播客核心内容摘要译文，完整逐字稿请参见原视频）
+
+关于模型升级的"免费胜利"：
+Jacob：有一个问题是引用不准确，我们当时的想法是"等下一个模型版本修复吧"。结果引用准确率从大概 70% 直接跳到了 99%。我们什么都没做，就这样好了。
+
+关于初级律师的未来：
+主持人：有人在问 Mythos 和各种东西，感觉好像初级律师要消失了？
+Jacob：这其实并不是我们观察到的现实。（笑）我的意思是，如果你做的是 4 亿美元的并购交易，你还是会需要 Legora 的。
+
+关于团队规模的策略：
+Jacob：我们最初的想法是永远保持 20 名工程师，靠这 20 人打败所有规模更大的竞争对手。现在我们有 100 人了，感觉还是太少。
+
+关于产品与 agent 的边界：
+Jacob：我一直在思考的一个问题是——我们的产品有多少部分可以直接就是 agent，而不是 agent 加上其他所有东西？
+
+关于数据隐私与信任：
+法律行业的核心挑战在于，客户的数据往往无法共享，这不是技术问题，而是信任和合规问题。Legora 的差异化，正是建立在这种对数据边界的深刻理解之上。
 
 ---
 
