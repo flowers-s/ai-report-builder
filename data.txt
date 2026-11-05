@@ -1,243 +1,268 @@
-AI Builders 日报 · 2026-11-04
+AI Builders 日报 · 2026-11-05
 
 ---
 
-AI Builders Digest — 2026-11-04
+Swyx (@swyx)
+
+Swyx is hyping the final stretch of AIE 2026 with a stacked lineup under the theme "Raising Your Ambition," featuring builders like @jxnlco, @jarredsumner, @sqs, and a keynote from @echelon in his first major public appearance.
+Swyx 正在为 AIE 2026 的压轴阵容造势，主题定为「提升你的野心」，汇集了 @jxnlco、@jarredsumner、@sqs 等顶尖 Builder，并有 @echelon 的首次大型公开演讲压轴。
+
+He also highlighted a top talk at AIE NYC by @addyosmani on how Anthropic ships 30,000 code changes per day using a "dark factory" approach — with every AI-generated loop requiring independent verification.
+他还特别推荐了 AIE NYC 上 @addyosmani 的高分演讲，介绍 Anthropic 如何用「暗工厂」模式每天合并三万次代码变更——每个 AI 循环都需要独立验证。
+
+*"already one of the top talks of AIE NYC!"*
+
+Source: https://x.com/swyx/status/2117679157035602065
+Source: https://x.com/swyx/status/2117558305891746212
 
 ---
 
-## OFFICIAL BLOGS
+Boris Cherny (@bcherny)
 
-（今日无官方博客更新。）
+Boris announced a quality-of-life upgrade for Claude Enterprise: team admins can now pre-configure plugins, and teammates are auto-connected the first time they use them — no more signing in to each plugin one by one.
+Boris 宣布了 Claude 企业版的体验优化：团队管理员可以预先配置插件，团队成员首次使用时即自动连接，告别逐一登录的繁琐流程。
 
----
+*"Signing in to your company's plugins one by one is annoying, so we let Claude auto-connect to them now."*
 
-## X / TWITTER
-
----
-
-### Swyx (swyx on X) — AI Engineer, smol.ai / Cognition / Latent Space
-
-Weight-space programming is now a reality, and Swyx sees it as a pivotal turning point — comparing the moment to the opening lines of Ted Chiang's sci-fi story *Exhalation*.
-权重空间编程如今已成现实，Swyx 将其比作 Ted Chiang 科幻故事《呼吸》的开篇——我们正站在一个根本性转折点上。
-
-He's also looking forward to an upcoming event with CompleteSkeptic and typesafeai, hinting the follow-up discussion "is going to melt on twitter."
-他还期待着与 CompleteSkeptic 和 typesafeai 的即将到来的活动，暗示后续讨论"将在推特上引发轰动"。
-
-Source tweets:
-- https://x.com/swyx/status/2117492548780589510
-- https://x.com/swyx/status/2117331535007531009
+Source: https://x.com/bcherny/status/2117693181651542387
 
 ---
 
-### Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini
+Thibault Sottiaux (@thsottiaux)
 
-Josh had one post today wishing Shah Rukh Khan a happy birthday — no substantive AI or product content.
-今日无重要动态。
+Thibault shared a candid reflection on the current state of AI agents: incredible progress, but still full of friction.
+Thibault 坦诚地分享了对当前 AI Agent 现状的感受：进步惊人，但依然充满挫败感。
 
----
+He acknowledges the journey is long, but is eager to recapture the "flow state" of building.
+他承认前路漫漫，但渴望重新找回那种酣畅淋漓的开发状态。
 
-### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
+*"Things will change again and again and again. We're still very early and agents today are incredible, and yet so frustrating still."*
 
-OpenAI's Codex team is shipping Git-level intelligence, and Sottiaux teased that the team can "finally talk about it a bit," with big props to the engineering leads.
-OpenAI Codex 团队正在推出 Git 层面的智能能力，Sottiaux 表示团队"终于可以稍微透露一些"，并向工程负责人致以高度赞扬。
-
-He also shared a notable product direction for the AI "dot": *"Your dot will choose the best model for the task, drawing on different models for different parts of the work."*
-他还分享了 AI "dot" 的重要产品方向：AI 助手将为每项任务自动选择最优模型，针对不同工作环节调用不同模型。
-
-Source tweets:
-- https://x.com/thsottiaux/status/2117412956950638872
-- https://x.com/thsottiaux/status/2117283355427495983
+Source: https://x.com/thsottiaux/status/2117746467058405665
 
 ---
 
-### Peter Yang (petergyang on X) — AI Tutorials & Guides Creator
+Peter Yang (@petergyang)
 
-Yang posted a sharp take on AI writing tools: the best model for writing and editing is being held back by its interface constraints.
-Yang 对 AI 写作工具提出了犀利观点：最优秀的写作和编辑模型正受到其界面限制的拖累。
+Peter noticed a shift in talent mobility at AI-native companies: top people are leaving after just 1–2 years, raising questions about job sustainability — especially for parents and caregivers.
+Peter 观察到 AI 原生公司的人才流动出现新趋势：顶尖人才在入职 1-2 年内便纷纷离职，让人不禁质疑这些岗位的可持续性，对有家庭责任的人尤为如此。
 
-He compared ChatGPT and Gemini on copy editing — finding ChatGPT's suggestions largely surface-level.
-他对比了 ChatGPT 和 Gemini 在文案编辑上的表现，发现 ChatGPT 的建议大多流于表面。
+He also promoted Grok Bot's new phone-call feature for automating tedious tasks like bill negotiations and restaurant reservations.
+他还推介了 Grok Bot 的新电话功能，可以自动完成协商账单、订餐等烦琐事务。
 
-He also flagged Cursor's growth as a signal: *"Insane growth — this is what an AI native product looks like!"*
-他还将 Cursor 的增长数据作为信号：*"疯狂的增长——这就是 AI 原生产品的样子！"*
+In a lighter moment, he playfully teased Cat Wu's departure from Anthropic by referencing "World of Warcraft Forever."
+他还以轻松的语气拿「魔兽世界永恒版」调侃了 Cat Wu 离开 Anthropic 一事。
 
-Source tweets:
-- https://x.com/petergyang/status/2117473529797214279
-- https://x.com/petergyang/status/2117333424403042330
-
----
-
-### Nan Yu (thenanyu on X) — Product, Codex at OpenAI (prev. Head of Product at Linear)
-
-Yu made a sharp call on multiplayer AI: *"Except for rare circumstances, group chat is a terrible multiplayer AI experience. Literally guaranteed slop."*
-Yu 对多人 AI 协作模式提出了鲜明判断：*"除了极少数例外，群聊是一种糟糕透顶的多人 AI 体验，几乎必然产出低质内容。"*
-
-This is a contrarian take worth watching — as most AI products are doubling down on shared chat interfaces.
-这是一个值得关注的反主流观点，因为大多数 AI 产品目前都在加码共享聊天界面。
-
-Source tweet: https://x.com/thenanyu/status/2117432599559716940
+Source: https://x.com/petergyang/status/2117825980115067035
+Source: https://x.com/petergyang/status/2117783921748558185
+Source: https://x.com/petergyang/status/2117738099627450657
 
 ---
 
-### Thariq (trq212 on X) — formerly Claude Code at Anthropic
+Nan Yu (@thenanyu)
 
-After one week of heavy usage, Thariq's verdict is that you don't need unlimited tokens to do great work — the $200 plans are more than enough.
-在高强度使用一周后，Thariq 得出结论：做出色的工作根本不需要无限 token，200 美元档位的套餐完全够用。
+Nan shared two retweets signaling strong agreement with others in the AI space — context amplification rather than original takes this cycle.
+Nan 本次转发了两条推文，表达了强烈认同，以共鸣放大他人观点为主，暂无独立输出。
 
-His broader point lands harder: *"this is the most expensive intelligence will ever be."*
-他更大的判断更有分量：*"现在是智能最贵的时候，以后只会更便宜。"*
-
-Source tweet: https://x.com/trq212/status/2117305792923889731
+Source: https://x.com/thenanyu/status/2117772729248354593
+Source: https://x.com/thenanyu/status/2117772378402922650
 
 ---
 
-### Amjad Masad (amasad on X) — CEO, Replit
+Cat Wu (@_catwu)
 
-Masad is sounding the alarm on AI agent security: *"AI agents should operate in dedicated, organization-controlled environments with limited access to the resources each task requires."*
-Masad 就 AI agent 安全发出警告：*"AI agent 应在组织可控的专属环境中运行，且每项任务所能访问的资源须严格受限。"*
+Cat Wu announced her departure from Anthropic after two years on the Claude Code team — a role she fell into after spending dozens of hours steering Claude to build an RL environment without writing a single line of code herself.
+Cat Wu 宣布在 Anthropic 工作两年后正式离职，她曾是 Claude Code 团队的核心成员，最初正是因为让 Claude 独自构建了一个 RL 环境（全程未手写一行代码）而深深着迷并加入团队。
 
-He also flagged that AI-generated financial content is now drawing serious regulatory scrutiny — "the ban hammer is coming down."
-他还指出，AI 生成的金融内容正引发严肃的监管审查——"封禁之锤即将落下"。
+Her farewell post was a reflection on Claude Code's evolution from a small internal tool to a product that shipped autonomously approved pull requests — a milestone the team reached together.
+她的告别帖回顾了 Claude Code 从内部小工具成长为能够自主审批 PR 的产品历程，充满情感与骄傲。
 
-Source tweets:
-- https://x.com/amasad/status/2117499074496872882
-- https://x.com/amasad/status/2117481616943820843
+*"Friday was my last day at Anthropic."*
 
----
-
-### Guillermo Rauch (rauchg on X) — CEO, Vercel
-
-Rauch is bullish on WebMCP and shared progress from the Vercel Sandbox team.
-Rauch 对 WebMCP 持强烈看好态度，并分享了 Vercel Sandbox 团队的进展。
-
-His key insight: *"Stateless sandboxes are the wrong benchmark. Agents are only useful if they have their workspace with them (identity, skills, repos, memories…)"*
-他的核心洞察：*"无状态沙箱是错误的评判标准。Agent 只有携带自己的工作空间（身份、技能、代码库、记忆……）才真正有用。"*
-
-Source tweets:
-- https://x.com/rauchg/status/2117419661654720671
-- https://x.com/rauchg/status/2117338179535810957
+Source: https://x.com/_catwu/status/2117731934340337676
 
 ---
 
-### Garry Tan (garrytan on X) — President & CEO, Y Combinator
+Thariq (@trq212)
 
-Tan reports that Capy Captains (an AI coding coordination tool) increased his issue-fixing throughput by 5x overnight — a remarkable real-world productivity signal.
-Tan 报告称，Capy Captains（一款 AI 编码协作工具）一夜之间将他的问题修复效率提升了 5 倍——这是一个引人注目的真实生产力信号。
+Thariq made a bold prediction grounded in the Bitter Lesson: smarter models will require fewer tokens, and eventually won't need to verify or debug their own work — they'll simply be right the first time.
+Thariq 基于「苦涩的教训」做出大胆预测：更聪明的模型将需要更少的 token，最终无需自我验证或调试——它们第一次就会给出正确答案。
 
-He also flagged weight manipulation as an interesting new use for smaller models.
-他还指出，直接操控模型权重是小型模型的一个有趣新用途。
+*"the smartest models will need fewer and fewer tokens, they won't need to verify their work or check it for bugs, they will just be right"*
 
-Source tweets:
-- https://x.com/garrytan/status/2117410016730964358
-- https://x.com/garrytan/status/2117384926052135106
+Source: https://x.com/trq212/status/2117670540148347273
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+Google Labs (@GoogleLabs)
 
-Kothari is launching a new event series called "Slice for Thought," with the first guest being Peter Walker, head of insights at OpenRouter — focused on AI infrastructure and routing.
-Kothari 正在启动名为"Slice for Thought"的新活动系列，首位嘉宾为 OpenRouter 洞察负责人 Peter Walker，聚焦 AI 基础设施与路由。
+Google Labs teased the expansion of Dreambeans to Indian users, a product they've been excited to bring to new markets.
+Google Labs 预告了 Dreambeans 向印度用户的扩展，透露出对该产品进军新市场的期待。
 
-He also hinted that startup fundraising pipelines are much shorter than founders let on — typically about 11 days from "vague-posting revenue" to kicking off a raise.
-他还暗示，创业公司的融资流程比创始人公开表示的要短得多——从"含糊透露营收"到正式启动融资，通常只需约 11 天。
-
-Source tweets:
-- https://x.com/nikunj/status/2117413490256433207
-- https://x.com/nikunj/status/2117362283223687621
+Source: https://x.com/GoogleLabs/status/2117689420744991161
 
 ---
 
-### Dan Shipper (danshipper on X) — CEO, Every
+Amjad Masad (@amasad)
 
-Shipper is excited about Argon (likely a new AI writing/coding tool), calling it notably better than competitors — partly because "antigravity is stuck in 2025 so it doesn't have all of the crazy features and complexity."
-Shipper 对 Argon（一款新型 AI 写作/编码工具）表现出高度热情，称其明显优于竞品——部分原因是"antigravity 还停留在 2025 年，没有那些疯狂的特性和复杂度"。
+Amjad (Replit CEO) noted that enterprise adoption of agents and "vibe coding" is still in a chaotic, messy phase — implying the industry is far from a clean playbook.
+Amjad（Replit CEO）指出，企业对 Agent 和「氛围编程」的采纳仍处于混乱阶段，行业距离形成清晰打法还差得远。
 
-He linked to an Every vibe-check review of Argon for more context.
-他附上了 Every 对 Argon 的体验评测链接以供参考。
+*"We're deep in the chaotic phase of enterprise adoption of agents and vibe coding."*
 
-Source tweets:
-- https://x.com/danshipper/status/2117428596688171450
-- https://x.com/danshipper/status/2117363007340609556
+Source: https://x.com/amasad/status/2117761721750475146
 
 ---
 
-### Aditya Agarwal (adityaag on X) — General Partner, SPC; ex-CTO, Dropbox
+Guillermo Rauch (@rauchg)
 
-Agarwal spotlighted WisprFlow's $280M Series B — highlighting that the founder is a four-time builder and IOI medalist returning to the SPC alumni network.
-Agarwal 重点介绍了 WisprFlow 的 2.8 亿美元 B 轮融资——创始人是四次创业的 IOI 金牌得主，也是 SPC 校友网络的回归成员。
+Guillermo had a big product day at Vercel. He launched `vercel doctor` — a CLI subcommand for diagnosing project issues — and encouraged other teams to ship similar diagnostic commands.
+Guillermo 在 Vercel 迎来了产品大日。他发布了 `vercel doctor` 诊断子命令，并鼓励其他团队为自己的 CLI 提供类似功能。
 
-Source tweet: https://x.com/adityaag/status/2117313674981355761
+He also announced Vercel CI and Vercel Security Review, an AI-powered security agent that automatically audits every line of code — now available to all users.
+他还宣布推出 Vercel CI 和 Vercel Security Review：一个能自动审计每一行代码的 AI 安全 Agent，现已向所有用户开放。
 
----
+*"Every single line of code gets audited, automatically."*
 
-## PODCASTS
-
----
-
-### Latent Space: "Building Legal Agents When You Can't See the Data — Jacob Lauritzen, CTO of Legora"
-
-🎧 Episode: https://youtube.com/watch?v=bJBEFzlKPoQ
+Source: https://x.com/rauchg/status/2117802827519250568
+Source: https://x.com/rauchg/status/2117765475010822497
+Source: https://x.com/rauchg/status/2117734833824948373
 
 ---
 
-#### 深度总结
+Aaron Levie (@levie)
 
-**核心论点**
-Legal AI isn't just about raw intelligence — it's about trust, data privacy, and operating under constraints that consumer AI ignores.
-法律 AI 的核心不在于原始智能，而在于信任、数据隐私，以及在消费级 AI 完全无视的诸多约束下运行。
+Aaron (Box CEO) observed a paradox: AI output quality divergence is at an all-time high even as adoption hits a new breadth. The gap between those who use AI well and those who don't is widening dramatically — productivity gains of 30–50% are now the floor, not the ceiling.
+Aaron（Box CEO）观察到一个悖论：尽管 AI 普及程度空前，使用质量的分化却达到历史新高。善用 AI 和不善用 AI 的人之间差距正在急剧拉大——30-50% 的生产力提升已成下限而非上限。
 
-Legora CTO Jacob Lauritzen argues that the hardest problems in legal tech aren't model quality — they're organizational: you can't always see the data, clients won't share it, and the workflows are entrenched.
-Legora CTO Jacob Lauritzen 认为，法律科技最难的问题并非模型质量，而是组织层面的挑战：你无法总是看到数据，客户不愿分享，工作流程根深蒂固。
-
-**关键洞察**
-- Model improvements are often "free" wins: a citation accuracy problem that plagued them went from 70% to 99% between model releases — with zero engineering effort from Legora's side.
-  模型升级有时带来"免费的胜利"：一个引用准确率问题在两次模型发布之间从 70% 跃升至 99%，Legora 方面零工程投入。
-- Team size is a strategic choice: they planned to stay at 20 engineers forever — and are now at 100, still feeling understaffed. The constraint is intentional: small teams move faster.
-  团队规模是战略选择：他们最初计划永远保持 20 名工程师，如今已达 100 人，仍感人手不足。规模限制是刻意为之——小团队跑得更快。
-- The "paralegal/junior lawyer is gone" narrative is overstated in practice: Lauritzen pushes back on the hype, noting that actual workflows are more nuanced and that high-stakes transactions (like $400M M&As) still need Legora's full suite.
-  "初级律师/助理律师将消失"的说法在实践中被夸大了：Lauritzen 对此持保留态度，指出实际工作流程更为复杂，高风险交易（如 4 亿美元并购）仍需要 Legora 的完整产品支撑。
-- The product vs. agent tension is real: he's actively exploring how much of their product can "just be the agent" versus the full surrounding infrastructure.
-  产品与 agent 之间的张力是真实存在的：他正积极探索产品有多大比例可以"直接就是 agent"，而非依赖完整的周边基础设施。
-
-**最值得关注的信号**
-The legal vertical is proving that domain-specific AI — built with deep workflow integration and trust constraints — can out-compete general-purpose AI tools even as foundation models improve.
-法律垂直领域正在证明：深度整合工作流与信任约束的领域专属 AI，即便在基础模型不断进步的背景下，依然能够击败通用 AI 工具。
+Source: https://x.com/levie/status/2117505799937577263
 
 ---
 
-#### 完整中文逐字稿
+Garry Tan (@garrytan)
 
-（以下为完整播客逐字稿中文译文）
+Garry shared thoughts on California politics, urging focus on local policy over national left-vs-left battles.
+Garry 就加州政治发表了看法，呼吁关注地方政策，而非陷入全国性的左派内耗。
 
-主持人：今天我们在录音室迎来了特别嘉宾——Legora 的 CTO Jacob Lauridsen。我说得对吗，Lauridsen？
+He also mourned the shuttering of Popular Mechanics, a beloved publication.
+他还为《大众机械》杂志的停刊表达了惋惜之情。
 
-Jacob：Lauridsen，对，没问题。
-
-主持人：好，这是丹麦名字？
-
-Jacob：是的，sen 就是 son 的意思，"Laurits 之子"。就像英语里的 son 一样。
-
-主持人：所以你叫"Laurits 之子"，很好。我们之前有过几次交集，你在 AI 大会上发过言，Legora 也是历史上增长最快的法律科技公司之一。你在节目前说了一句我觉得很有意思的话，你说你们的起点非常欧洲化……
-
-（以下为播客核心内容摘要译文，完整逐字稿请参见原视频）
-
-关于模型升级的"免费胜利"：
-Jacob：有一个问题是引用不准确，我们当时的想法是"等下一个模型版本修复吧"。结果引用准确率从大概 70% 直接跳到了 99%。我们什么都没做，就这样好了。
-
-关于初级律师的未来：
-主持人：有人在问 Mythos 和各种东西，感觉好像初级律师要消失了？
-Jacob：这其实并不是我们观察到的现实。（笑）我的意思是，如果你做的是 4 亿美元的并购交易，你还是会需要 Legora 的。
-
-关于团队规模的策略：
-Jacob：我们最初的想法是永远保持 20 名工程师，靠这 20 人打败所有规模更大的竞争对手。现在我们有 100 人了，感觉还是太少。
-
-关于产品与 agent 的边界：
-Jacob：我一直在思考的一个问题是——我们的产品有多少部分可以直接就是 agent，而不是 agent 加上其他所有东西？
-
-关于数据隐私与信任：
-法律行业的核心挑战在于，客户的数据往往无法共享，这不是技术问题，而是信任和合规问题。Legora 的差异化，正是建立在这种对数据边界的深刻理解之上。
+Source: https://x.com/garrytan/status/2117728932183351646
+Source: https://x.com/garrytan/status/2117721182049046735
+Source: https://x.com/garrytan/status/2117683642025795709
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+Matt Turck (@mattturck)
+
+Matt celebrated a major milestone for SurrealDB, calling version 4 a "truly world class product" — a multi-model database (vector, graph, document) that is ACID compliant with a rebuilt query engine, after years of unglamorous grinding.
+Matt 为 SurrealDB 的重大里程碑喝彩，称其第 4 版是「真正世界级的产品」——一个多模型（向量、图、文档）、ACID 兼容、查询引擎全新重构的数据库，背后是多年默默无闻的苦功。
+
+Source: https://x.com/mattturck/status/2117741948609949932
+Source: https://x.com/mattturck/status/2117675063637905497
+
+---
+
+Zara Zhang (@zarazhangrui)
+
+Zara shared a creative observation — comparing a presentation to embroidery, hinting at the artistry involved in crafting compelling narratives.
+Zara 分享了一个富有创意的比喻——将演示文稿比作刺绣，暗示打造引人入胜叙事所需的匠心。
+
+Source: https://x.com/zarazhangrui/status/2117776720606716157
+
+---
+
+Nikunj Kothari (@nikunj)
+
+Nikunj expressed concern about bots flooding X, making the "dead internet theory" feel uncomfortably real.
+Nikunj 对 X 上的机器人泛滥表示忧虑，「死亡互联网理论」愈发让人感同身受。
+
+He shared two underused Claude Code features he loves: `/insights` (runs a cron job every two weeks for setup improvement tips) and `/playground` (for quick experimentation).
+他分享了两个他认为被严重低估的 Claude Code 功能：`/insights`（每两周自动运行一次，提供优化建议）和 `/playground`（快速实验场）。
+
+He also reflected on using multiple AI apps daily — ChatGPT Codex, Claude desktop, Bot, and Muse — each excelling in different ways, and how delightful it is to have so many well-designed options.
+他还感慨每天同时使用多款 AI 应用（ChatGPT Codex、Claude 桌面版、Bot、Muse），每款各有所长，能同时拥有如此多精心设计的选择实属难得。
+
+Source: https://x.com/nikunj/status/2117786890070024506
+Source: https://x.com/nikunj/status/2117773647868018897
+Source: https://x.com/nikunj/status/2117650163066183769
+
+---
+
+Peter Steinberger (@steipete)
+
+Peter retweeted something he found "very neat" — a simple signal of curiosity and approval without additional commentary.
+Peter 转发了一条他觉得「非常棒」的内容，简单表达了认可，未作额外评论。
+
+Source: https://x.com/steipete/status/2117755295552221683
+
+---
+
+Dan Shipper (@danshipper)
+
+Dan shared a link with a simple call to action — "go get it" — pointing to something worth checking out in the AI space.
+Dan 分享了一个链接，简短的「去拿吧」三字即是全部评论，指向 AI 领域的某个值得关注的资源。
+
+Source: https://x.com/danshipper/status/2117656806444945911
+
+---
+
+Sam Altman (@sama)
+
+Sam made a strong philosophical statement: people should always remain in control of the future. OpenAI explicitly rejects the idea that humans should be relegated to doing only what AI systems decide is worth rewarding.
+Sam 发表了一段重要的哲学宣言：人类应始终掌控自己的未来。OpenAI 明确反对「人类只能做 AI 认为值得奖励之事」这一论断。
+
+*"People should not cede control of the future to superintelligence."*
+
+Source: https://x.com/sama/status/2117794005165748448
+
+---
+
+🎙️ PODCAST · Unsupervised Learning
+
+Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up
+Ep 96：Nebius CTO 谈如何在 AWS 觉醒前与超大规模云厂商赛跑
+
+Published: 2026-11-02 | Source: https://www.youtube.com/@RedpointAI
+
+---
+
+In this episode, Jacob Efron (Redpoint) sits down with Danila, the CTO of Nebius, to dig into the AI cloud infrastructure market, Nebius's origin story from Yandex, and the real bottlenecks in the AI buildout.
+本期节目中，Jacob Efron（Redpoint）与 Nebius CTO Danila 深入对话，探讨 AI 云基础设施市场、Nebius 脱胎自 Yandex 的创业历程，以及 AI 算力扩张中真正的瓶颈所在。
+
+**核心论点 | Core Thesis**
+
+Nebius is betting it can become a genuine, software-first AI cloud — not just a GPU rental shop — and reach competitive parity with AWS and GCP before the chip shortage ends and the hyperscalers fully wake up to the market.
+Nebius 的核心赌注是：在芯片短缺结束、超大规模云厂商全面发力之前，将自身打造成一家真正的软件优先 AI 云，而不仅仅是 GPU 出租商，从而与 AWS 和 GCP 形成平等竞争。
+
+**关键洞察 | Key Insights**
+
+Software is the moat, not the hardware.
+软件才是护城河，而非硬件。
+Nebius's founding principle: the ability to serve a customer running 10,000 GPUs in one interconnected cluster on the same platform as a self-service user running one GPU for 30 minutes is their core differentiator.
+Nebius 的立身之本：在同一平台上，既能服务万卡互联集群客户，又能服务按需使用 30 分钟的个人用户——这才是真正的差异化竞争力。
+
+The real bottleneck to the AI buildout is execution ability, not any single resource.
+AI 基础设施扩张的真正瓶颈是执行力，而非某种单一资源短缺。
+GPU shortage, CPU shortage, NVMe shortage, transformer lead times of years — all are problems simultaneously. The winner is whoever can navigate all of them at once. The most in-demand person in AI infrastructure right now? A great project manager.
+GPU、CPU、NVMe 短缺，变压器交货期长达数年——这些问题同时存在。胜出者是能同时应对所有难题的那一方。当前 AI 基础设施领域最稀缺的人才？优秀的项目经理。
+
+Hyperscalers lost early market share partly due to chip allocation constraints, not lack of interest.
+超大规模云厂商早期市场份额受限，部分原因在于芯片分配约束，而非缺乏意愿。
+AWS and Google face a constant juggle: use scarce GPU allocations for internal AI workloads or rent to the market. For them, the AI cloud business is still relatively small vs. their core revenue, making it hard to justify full infrastructure redesigns. This window won't last forever.
+AWS 和 Google 面临持续的资源博弈：将稀缺 GPU 用于内部 AI 工作负载，还是对外出租？对它们而言，AI 云业务相对于核心营收仍属小盘，难以支撑完整的基础设施改造。但这一窗口期不会永远持续。
+
+Inference is far from a solved problem — and the optimization opportunity is huge.
+推理远未是一个「已解决」的问题，优化空间依然巨大。
+Running open-weight models out of the box is "not that fast, not that cheap." Nebius invests in kernel optimization, model compression, selective pruning, and speculative decoding — and acquired a company specifically for that talent. 95% of their customers run modified, fine-tuned models, not vanilla open source.
+开箱即用地运行开源权重模型「既不快，也不便宜」。Nebius 在内核优化、模型压缩、选择性剪枝和推测解码上重金投入，还专门收购了一家公司来获取这方面的人才。他们 95% 的客户运行的是经过微调的定制模型，而非原始开源模型。
+
+The shift from "requests" to "outcomes" is the next frontier Danila is watching most closely.
+从「请求」到「结果」的范式转变，是 Danila 目前最关注的下一个前沿。
+As agents become long-running and multi-turn, companies will bid per outcome rather than per token. Nebius has a small research group focused on how to increase the probability of reaching the right outcome — not by scaling models, but by optimizing the harnesses, tools, and scaffolding around them.
+随着 Agent 进入长周期、多轮对话模式，企业将按「结果」而非「token」定价。Nebius 组建了小型研究团队，专注于研究如何提高 Agent 达成目标的概率——不是靠扩大模型规模，而是优化模型周围的工具链和脚手架。
+
+AI coding went from "total bullshit" to an essential daily tool in just one year — but Danila applies it conservatively.
+AI 编程在短短一年内从「一无是处」变为每日必备工具——但 Danila 的团队采用极为审慎。
+His policy: engineers are fully responsible for any AI-generated code — it's their PR, their on-call duty. Fully autonomous agents are banned from touching core services. He sees "slop" proliferating in merge requests and is vigilant about it.
+他的政策：工程师对所有 AI 生成代码负完全责任——这是他们的 PR，他们的 on-call 职责。完全自主的 Agent 被禁止触碰核心服务。他观察到「低质量内容」正在 MR 中蔓延，对此保持高度警惕。
