@@ -1,268 +1,244 @@
-AI Builders 日报 · 2026-11-05
+AI Builders 日报 · 2026-11-06
+
+X / TWITTER
 
 ---
 
-Swyx (@swyx)
+Swyx (swyx on X) — AI Engineer & Latent Space Podcast Host
 
-Swyx is hyping the final stretch of AIE 2026 with a stacked lineup under the theme "Raising Your Ambition," featuring builders like @jxnlco, @jarredsumner, @sqs, and a keynote from @echelon in his first major public appearance.
-Swyx 正在为 AIE 2026 的压轴阵容造势，主题定为「提升你的野心」，汇集了 @jxnlco、@jarredsumner、@sqs 等顶尖 Builder，并有 @echelon 的首次大型公开演讲压轴。
+Swyx is buzzing about a new model from Inkling (Thinky Machines) that achieves 3x speed and 5x cost reduction while matching frontier performance on FrontierCode 2 — with no eval trade-offs.
+Swyx 对 Inkling（Thinky Machines）的新模型感到震撼：速度提升 3 倍、成本降低 5 倍，在 FrontierCode 2 上评测结果与前沿模型持平，且毫无妥协。
 
-He also highlighted a top talk at AIE NYC by @addyosmani on how Anthropic ships 30,000 code changes per day using a "dark factory" approach — with every AI-generated loop requiring independent verification.
-他还特别推荐了 AIE NYC 上 @addyosmani 的高分演讲，介绍 Anthropic 如何用「暗工厂」模式每天合并三万次代码变更——每个 AI 循环都需要独立验证。
+*"uhhh what, 3x faster 5x cheaper but evals SAME ON FRONTIERCODE 2 — this is distillation without tradeoffs."*
+*"uhhh what，速度快 3 倍成本低 5 倍，但 FRONTIERCODE 2 评测结果一样——这是没有代价的蒸馏。"*
 
-*"already one of the top talks of AIE NYC!"*
+He calls Inkling one of the most underrated base models in the world, and predicts a wave of similar distillation work, especially on US-pretrained models.
+他称 Inkling 是全球最被低估的基础模型之一，并预测基于美国预训练模型的类似蒸馏工作将大量涌现。
 
-Source: https://x.com/swyx/status/2117679157035602065
-Source: https://x.com/swyx/status/2117558305891746212
+He's also reacting to OpenAI hitting $100B ARR in just 2.5 years from $0 — calling it an "insane run" that he's still processing.
+他还在感叹 OpenAI 从零到年化收入 1000 亿美元仅用了 2.5 年——称之为他仍在消化的"疯狂奔跑"。
 
----
-
-Boris Cherny (@bcherny)
-
-Boris announced a quality-of-life upgrade for Claude Enterprise: team admins can now pre-configure plugins, and teammates are auto-connected the first time they use them — no more signing in to each plugin one by one.
-Boris 宣布了 Claude 企业版的体验优化：团队管理员可以预先配置插件，团队成员首次使用时即自动连接，告别逐一登录的繁琐流程。
-
-*"Signing in to your company's plugins one by one is annoying, so we let Claude auto-connect to them now."*
-
-Source: https://x.com/bcherny/status/2117693181651542387
+Source: https://x.com/swyx/status/2118208851506036989
+Source: https://x.com/swyx/status/2118152585911869634
 
 ---
 
-Thibault Sottiaux (@thsottiaux)
+Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-Thibault shared a candid reflection on the current state of AI agents: incredible progress, but still full of friction.
-Thibault 坦诚地分享了对当前 AI Agent 现状的感受：进步惊人，但依然充满挫败感。
+OpenAI's Thibault Sottiaux is assembling a world-class cybersecurity team and teasing more announcements in the weeks ahead.
+OpenAI 的 Thibault Sottiaux 正在组建一支世界级网络安全团队，并预告未来数周将有更多公告。
 
-He acknowledges the journey is long, but is eager to recapture the "flow state" of building.
-他承认前路漫漫，但渴望重新找回那种酣畅淋漓的开发状态。
+He's recruiting for the security org, pointing builders toward colleague Clint Gibler for anyone interested in "securing the world."
+他正在为安全部门招募人才，向有意"守护世界安全"的人指路，可联系同事 Clint Gibler。
 
-*"Things will change again and again and again. We're still very early and agents today are incredible, and yet so frustrating still."*
+He also reposted a lighthearted "CatGPT" meme circulating in the OpenAI team — a rare casual note among product news.
+他也转发了 OpenAI 团队内部流传的轻松"CatGPT"梗——一次难得的产品新闻间隙的轻松互动。
 
-Source: https://x.com/thsottiaux/status/2117746467058405665
-
----
-
-Peter Yang (@petergyang)
-
-Peter noticed a shift in talent mobility at AI-native companies: top people are leaving after just 1–2 years, raising questions about job sustainability — especially for parents and caregivers.
-Peter 观察到 AI 原生公司的人才流动出现新趋势：顶尖人才在入职 1-2 年内便纷纷离职，让人不禁质疑这些岗位的可持续性，对有家庭责任的人尤为如此。
-
-He also promoted Grok Bot's new phone-call feature for automating tedious tasks like bill negotiations and restaurant reservations.
-他还推介了 Grok Bot 的新电话功能，可以自动完成协商账单、订餐等烦琐事务。
-
-In a lighter moment, he playfully teased Cat Wu's departure from Anthropic by referencing "World of Warcraft Forever."
-他还以轻松的语气拿「魔兽世界永恒版」调侃了 Cat Wu 离开 Anthropic 一事。
-
-Source: https://x.com/petergyang/status/2117825980115067035
-Source: https://x.com/petergyang/status/2117783921748558185
-Source: https://x.com/petergyang/status/2117738099627450657
+Source: https://x.com/thsottiaux/status/2118146794362405231
+Source: https://x.com/thsottiaux/status/2118146834325733453
 
 ---
 
-Nan Yu (@thenanyu)
+Cat Wu (_catwu on X) — Head of Product, Core Products @ OpenAI
 
-Nan shared two retweets signaling strong agreement with others in the AI space — context amplification rather than original takes this cycle.
-Nan 本次转发了两条推文，表达了强烈认同，以共鸣放大他人观点为主，暂无独立输出。
+Big career news: Cat Wu is joining OpenAI to lead product management for Core Products.
+重磅职业动态：Cat Wu 将加入 OpenAI，领导核心产品的产品管理工作。
 
-Source: https://x.com/thenanyu/status/2117772729248354593
-Source: https://x.com/thenanyu/status/2117772378402922650
+She previously led product at Claude Code (Anthropic), Dagster, and Scale AI, and brings deep respect for OpenAI's mission of bringing AI to over a billion people.
+她此前在 Anthropic 主导 Claude Code 产品、并历任 Dagster 和 Scale AI，对 OpenAI 将 AI 普及到十亿用户的使命深怀敬意。
 
----
+*"I'm excited to work with an incredible PM team… Together, we'll build agents that have your back and your team's, and keep you in control, so you get more time for the people and work you love."*
+*"我很期待与出色的产品团队协作……我们将共同打造能支撑你和团队的 agent，让你始终掌握主导权，腾出更多时间给你爱的人和事。"*
 
-Cat Wu (@_catwu)
-
-Cat Wu announced her departure from Anthropic after two years on the Claude Code team — a role she fell into after spending dozens of hours steering Claude to build an RL environment without writing a single line of code herself.
-Cat Wu 宣布在 Anthropic 工作两年后正式离职，她曾是 Claude Code 团队的核心成员，最初正是因为让 Claude 独自构建了一个 RL 环境（全程未手写一行代码）而深深着迷并加入团队。
-
-Her farewell post was a reflection on Claude Code's evolution from a small internal tool to a product that shipped autonomously approved pull requests — a milestone the team reached together.
-她的告别帖回顾了 Claude Code 从内部小工具成长为能够自主审批 PR 的产品历程，充满情感与骄傲。
-
-*"Friday was my last day at Anthropic."*
-
-Source: https://x.com/_catwu/status/2117731934340337676
+Source: https://x.com/_catwu/status/2118137612577968402
 
 ---
 
-Thariq (@trq212)
+Guillermo Rauch (rauchg on X) — CEO @ Vercel
 
-Thariq made a bold prediction grounded in the Bitter Lesson: smarter models will require fewer tokens, and eventually won't need to verify or debug their own work — they'll simply be right the first time.
-Thariq 基于「苦涩的教训」做出大胆预测：更聪明的模型将需要更少的 token，最终无需自我验证或调试——它们第一次就会给出正确答案。
+Vercel's CEO is making a sweeping claim: AI will rewrite virtually all human-made software — not once, but many times.
+Vercel CEO 发出宏论：AI 将重写几乎所有人类编写的软件——不止一次，而是反复多次。
 
-*"the smartest models will need fewer and fewer tokens, they won't need to verify their work or check it for bugs, they will just be right"*
+*"We will all be learning in coming weeks & months, that most human-made software: was really slow, had many security vulnerabilities, was under-specified and incorrect."*
+*"在未来数周乃至数月，我们都会发现：绝大多数人类编写的软件其实速度很慢、漏洞百出、规格不足且存在错误。"*
 
-Source: https://x.com/trq212/status/2117670540148347273
+He sees AI as the "true birth of software engineering" — formally verifying, load testing, and hardening code in ways humans never could at scale.
+他认为 AI 是"软件工程真正诞生"的标志——以人类无法规模化实现的方式正式验证、负载测试并加固代码。
 
----
+Vercel Security Reviews, launched recently, identified 6,817 vulnerabilities in just 24 hours (580 critical/high), with an AI agent already patching 1,411 of them — free until Nov 10.
+Vercel 最近推出的 Security Reviews 在 24 小时内识别出 6,817 个漏洞（其中 580 个严重/高危），AI agent 已自动修补 1,411 个——11 月 10 日前免费。
 
-Google Labs (@GoogleLabs)
-
-Google Labs teased the expansion of Dreambeans to Indian users, a product they've been excited to bring to new markets.
-Google Labs 预告了 Dreambeans 向印度用户的扩展，透露出对该产品进军新市场的期待。
-
-Source: https://x.com/GoogleLabs/status/2117689420744991161
-
----
-
-Amjad Masad (@amasad)
-
-Amjad (Replit CEO) noted that enterprise adoption of agents and "vibe coding" is still in a chaotic, messy phase — implying the industry is far from a clean playbook.
-Amjad（Replit CEO）指出，企业对 Agent 和「氛围编程」的采纳仍处于混乱阶段，行业距离形成清晰打法还差得远。
-
-*"We're deep in the chaotic phase of enterprise adoption of agents and vibe coding."*
-
-Source: https://x.com/amasad/status/2117761721750475146
+Source: https://x.com/rauchg/status/2118166970273292299
+Source: https://x.com/rauchg/status/2118152230260092940
 
 ---
 
-Guillermo Rauch (@rauchg)
+Ryo Lu (ryolu_ on X) — Design Lead @ Cursor
 
-Guillermo had a big product day at Vercel. He launched `vercel doctor` — a CLI subcommand for diagnosing project issues — and encouraged other teams to ship similar diagnostic commands.
-Guillermo 在 Vercel 迎来了产品大日。他发布了 `vercel doctor` 诊断子命令，并鼓励其他团队为自己的 CLI 提供类似功能。
+Cursor's designer gave a talk at AI Engineer Shanghai on a question he keeps returning to: when we can make anything, do we still know what we want?
+Cursor 的设计师在上海 AI Engineer 大会上发表演讲，探讨一个他反复思考的问题：当我们能创造一切时，我们还知道自己想要什么吗？
 
-He also announced Vercel CI and Vercel Security Review, an AI-powered security agent that automatically audits every line of code — now available to all users.
-他还宣布推出 Vercel CI 和 Vercel Security Review：一个能自动审计每一行代码的 AI 安全 Agent，现已向所有用户开放。
+*"I want tools that help us find our own answers, not skip the process of forming them. Not just more output, but more room to think, care, and make together."*
+*"我想要的工具是帮助我们找到自己的答案，而非跳过形成答案的过程。不只是更多产出，而是更多共同思考、关怀和创造的空间。"*
 
-*"Every single line of code gets audited, automatically."*
-
-Source: https://x.com/rauchg/status/2117802827519250568
-Source: https://x.com/rauchg/status/2117765475010822497
-Source: https://x.com/rauchg/status/2117734833824948373
+Source: https://x.com/ryolu_/status/2118207967728451760
 
 ---
 
-Aaron Levie (@levie)
+Amjad Masad (amasad on X) — CEO @ Replit
 
-Aaron (Box CEO) observed a paradox: AI output quality divergence is at an all-time high even as adoption hits a new breadth. The gap between those who use AI well and those who don't is widening dramatically — productivity gains of 30–50% are now the floor, not the ceiling.
-Aaron（Box CEO）观察到一个悖论：尽管 AI 普及程度空前，使用质量的分化却达到历史新高。善用 AI 和不善用 AI 的人之间差距正在急剧拉大——30-50% 的生产力提升已成下限而非上限。
+Replit is expanding into Japan: CEO Amjad Masad announced a partnership with Sumitomo Mitsui Finance & Leasing (SMFL), one of Japan's largest financial institutions.
+Replit 进军日本：CEO Amjad Masad 宣布与住友三井金融集团（SMFL）达成合作——日本最大的金融机构之一。
 
-Source: https://x.com/levie/status/2117505799937577263
+In one concrete example, a single developer using Replit completed in one week a project that previously required six people working for six months.
+一个具体案例：一名开发者借助 Replit，在一周内完成了原本需要 6 人花费 6 个月才能完成的项目。
 
----
+The partnership aims to bring AI-powered software creation to Japanese enterprises to address labor shortages and accelerate innovation.
+此次合作旨在将 AI 驱动的软件开发能力带入日本企业，应对劳动力短缺并加速创新。
 
-Garry Tan (@garrytan)
-
-Garry shared thoughts on California politics, urging focus on local policy over national left-vs-left battles.
-Garry 就加州政治发表了看法，呼吁关注地方政策，而非陷入全国性的左派内耗。
-
-He also mourned the shuttering of Popular Mechanics, a beloved publication.
-他还为《大众机械》杂志的停刊表达了惋惜之情。
-
-Source: https://x.com/garrytan/status/2117728932183351646
-Source: https://x.com/garrytan/status/2117721182049046735
-Source: https://x.com/garrytan/status/2117683642025795709
+Source: https://x.com/amasad/status/2118180254300688857
 
 ---
 
-Matt Turck (@mattturck)
+Garry Tan (garrytan on X) — President & CEO @ Y Combinator
 
-Matt celebrated a major milestone for SurrealDB, calling version 4 a "truly world class product" — a multi-model database (vector, graph, document) that is ACID compliant with a rebuilt query engine, after years of unglamorous grinding.
-Matt 为 SurrealDB 的重大里程碑喝彩，称其第 4 版是「真正世界级的产品」——一个多模型（向量、图、文档）、ACID 兼容、查询引擎全新重构的数据库，背后是多年默默无闻的苦功。
+YC's Garry Tan is championing the builder ecosystem on multiple fronts.
+YC 的 Garry Tan 在多个方向为创业者摇旗呐喊。
 
-Source: https://x.com/mattturck/status/2117741948609949932
-Source: https://x.com/mattturck/status/2117675063637905497
+He's using GStack's /review skill for code review and says it genuinely helps catch bugs — a rare personal endorsement of a specific AI dev tool from a top VC.
+他在使用 GStack 的 /review 技能进行代码审查，并表示确实能有效发现 Bug——来自顶级 VC 对特定 AI 开发工具的罕见亲测背书。
 
----
+On the political side, he's celebrating California's rejection of an asset seizure tax proposal, calling it a win for tech builders in the state — and crediting Sergey Brin specifically.
+政治层面，他庆祝加州否决了资产没收税提案，称这是州内科技创业者的胜利，并特别感谢 Sergey Brin 的贡献。
 
-Zara Zhang (@zarazhangrui)
-
-Zara shared a creative observation — comparing a presentation to embroidery, hinting at the artistry involved in crafting compelling narratives.
-Zara 分享了一个富有创意的比喻——将演示文稿比作刺绣，暗示打造引人入胜叙事所需的匠心。
-
-Source: https://x.com/zarazhangrui/status/2117776720606716157
+Source: https://x.com/garrytan/status/2118221083233206736
+Source: https://x.com/garrytan/status/2118058438714650985
 
 ---
 
-Nikunj Kothari (@nikunj)
+Matt Turck (mattturck on X) — VC @ FirstMark Capital
 
-Nikunj expressed concern about bots flooding X, making the "dead internet theory" feel uncomfortably real.
-Nikunj 对 X 上的机器人泛滥表示忧虑，「死亡互联网理论」愈发让人感同身受。
+FirstMark VC Matt Turck articulates a customer-centric AI vision: one unified AI brain accessible through any surface — text, voice, purchase, support — available 24/7 and capable of actually taking action.
+FirstMark VC Matt Turck 描绘了以用户为中心的 AI 愿景：一个统一的 AI 大脑，可通过任何界面——文字、语音、购物、客服——全天候访问，并真正能够采取行动。
 
-He shared two underused Claude Code features he loves: `/insights` (runs a cron job every two weeks for setup improvement tips) and `/playground` (for quick experimentation).
-他分享了两个他认为被严重低估的 Claude Code 功能：`/insights`（每两周自动运行一次，提供优化建议）和 `/playground`（快速实验场）。
+He's backing the Dialpad + Ada CX merger as a major new entrant pursuing this "big vision" in AI-powered customer engagement.
+他支持 Dialpad 与 Ada CX 的合并，认为这是追逐 AI 驱动客户互动"宏大愿景"的重要新玩家。
 
-He also reflected on using multiple AI apps daily — ChatGPT Codex, Claude desktop, Bot, and Muse — each excelling in different ways, and how delightful it is to have so many well-designed options.
-他还感慨每天同时使用多款 AI 应用（ChatGPT Codex、Claude 桌面版、Bot、Muse），每款各有所长，能同时拥有如此多精心设计的选择实属难得。
-
-Source: https://x.com/nikunj/status/2117786890070024506
-Source: https://x.com/nikunj/status/2117773647868018897
-Source: https://x.com/nikunj/status/2117650163066183769
+Source: https://x.com/mattturck/status/2118010883754299884
 
 ---
 
-Peter Steinberger (@steipete)
+Zara Zhang (zarazhangrui on X) — Builder & Investor
 
-Peter retweeted something he found "very neat" — a simple signal of curiosity and approval without additional commentary.
-Peter 转发了一条他觉得「非常棒」的内容，简单表达了认可，未作额外评论。
+Zara Zhang is asking a practical community-building question: what's the best group chat tool for engaging a user community?
+Zara Zhang 提出了一个实际的社区运营问题：吸引用户社区的最佳群聊工具是什么？
 
-Source: https://x.com/steipete/status/2117755295552221683
+She's frustrated by the tradeoffs: Discord feels overwhelming, WhatsApp isn't widely used in the US, iMessage is too personal, Slack too corporate.
+她对各个选项的权衡感到头疼：Discord 太复杂，WhatsApp 在美国普及率低，iMessage 太私人，Slack 太正式。
 
----
+She also observed that virtually all people who share personal websites are developers or designers — and wonders whether that's about need or about technical know-how.
+她还观察到，几乎所有分享个人网站的人都是开发者或设计师——并思考这到底是需求使然，还是技术门槛所致。
 
-Dan Shipper (@danshipper)
-
-Dan shared a link with a simple call to action — "go get it" — pointing to something worth checking out in the AI space.
-Dan 分享了一个链接，简短的「去拿吧」三字即是全部评论，指向 AI 领域的某个值得关注的资源。
-
-Source: https://x.com/danshipper/status/2117656806444945911
+Source: https://x.com/zarazhangrui/status/2118120795780370768
+Source: https://x.com/zarazhangrui/status/2117869262505427072
 
 ---
 
-Sam Altman (@sama)
+Peter Steinberger (steipete on X) — ClawFather, OpenClaw + OpenAI
 
-Sam made a strong philosophical statement: people should always remain in control of the future. OpenAI explicitly rejects the idea that humans should be relegated to doing only what AI systems decide is worth rewarding.
-Sam 发表了一段重要的哲学宣言：人类应始终掌控自己的未来。OpenAI 明确反对「人类只能做 AI 认为值得奖励之事」这一论断。
+Peter Steinberger raises a provocative question: do individual usage limits still make sense as AI capabilities grow?
+Peter Steinberger 提出了一个发人深省的问题：随着 AI 能力不断增强，个人使用限制还有意义吗？
 
-*"People should not cede control of the future to superintelligence."*
+*"As capabilities increase you want to work with and support an agent that represents your project, that runs loops and evolves your codebase. The humans merely curate the automations."*
+*"随着能力提升，你希望与一个代表你项目的 agent 协作，它能自主循环运行、持续演化你的代码库。人类只是在筛选和策划这些自动化流程。"*
 
-Source: https://x.com/sama/status/2117794005165748448
+He envisions a future where the unit of collaboration is the agent, not the individual developer — shifting humans into a curatorial role.
+他设想的未来，协作单位是 agent 而非个人开发者——人类转变为筛选者和策划者。
 
----
-
-🎙️ PODCAST · Unsupervised Learning
-
-Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up
-Ep 96：Nebius CTO 谈如何在 AWS 觉醒前与超大规模云厂商赛跑
-
-Published: 2026-11-02 | Source: https://www.youtube.com/@RedpointAI
+Source: https://x.com/steipete/status/2118116514700386439
 
 ---
 
-In this episode, Jacob Efron (Redpoint) sits down with Danila, the CTO of Nebius, to dig into the AI cloud infrastructure market, Nebius's origin story from Yandex, and the real bottlenecks in the AI buildout.
-本期节目中，Jacob Efron（Redpoint）与 Nebius CTO Danila 深入对话，探讨 AI 云基础设施市场、Nebius 脱胎自 Yandex 的创业历程，以及 AI 算力扩张中真正的瓶颈所在。
+Dan Shipper (danshipper on X) — CEO @ Every
 
-**核心论点 | Core Thesis**
+Every's Dan Shipper is watching OpenAI's hiring surge — tongue in cheek, he claims it's because everyone read his Codex piece.
+Every 的 Dan Shipper 关注着 OpenAI 的招聘热潮——他半开玩笑地说，这是因为所有人都读了他写的 Codex 文章。
 
-Nebius is betting it can become a genuine, software-first AI cloud — not just a GPU rental shop — and reach competitive parity with AWS and GCP before the chip shortage ends and the hyperscalers fully wake up to the market.
-Nebius 的核心赌注是：在芯片短缺结束、超大规模云厂商全面发力之前，将自身打造成一家真正的软件优先 AI 云，而不仅仅是 GPU 出租商，从而与 AWS 和 GCP 形成平等竞争。
+Content is light this cycle — mostly reactions rather than substantive insights.
+本周内容较少，主要是转发互动，缺乏实质性洞察。
 
-**关键洞察 | Key Insights**
+Source: https://x.com/danshipper/status/2118170810841965023
 
-Software is the moat, not the hardware.
-软件才是护城河，而非硬件。
-Nebius's founding principle: the ability to serve a customer running 10,000 GPUs in one interconnected cluster on the same platform as a self-service user running one GPU for 30 minutes is their core differentiator.
-Nebius 的立身之本：在同一平台上，既能服务万卡互联集群客户，又能服务按需使用 30 分钟的个人用户——这才是真正的差异化竞争力。
+---
 
-The real bottleneck to the AI buildout is execution ability, not any single resource.
-AI 基础设施扩张的真正瓶颈是执行力，而非某种单一资源短缺。
-GPU shortage, CPU shortage, NVMe shortage, transformer lead times of years — all are problems simultaneously. The winner is whoever can navigate all of them at once. The most in-demand person in AI infrastructure right now? A great project manager.
-GPU、CPU、NVMe 短缺，变压器交货期长达数年——这些问题同时存在。胜出者是能同时应对所有难题的那一方。当前 AI 基础设施领域最稀缺的人才？优秀的项目经理。
+Peter Yang (petergyang on X) — AI Educator & Interviewer
 
-Hyperscalers lost early market share partly due to chip allocation constraints, not lack of interest.
-超大规模云厂商早期市场份额受限，部分原因在于芯片分配约束，而非缺乏意愿。
-AWS and Google face a constant juggle: use scarce GPU allocations for internal AI workloads or rent to the market. For them, the AI cloud business is still relatively small vs. their core revenue, making it hard to justify full infrastructure redesigns. This window won't last forever.
-AWS 和 Google 面临持续的资源博弈：将稀缺 GPU 用于内部 AI 工作负载，还是对外出租？对它们而言，AI 云业务相对于核心营收仍属小盘，难以支撑完整的基础设施改造。但这一窗口期不会永远持续。
+Peter Yang co-hosted an event with friends from OpenAI and Amplitude, describing it as "super fun."
+Peter Yang 与 OpenAI 和 Amplitude 的朋友联合举办了一场活动，称其"非常有趣"。
 
-Inference is far from a solved problem — and the optimization opportunity is huge.
-推理远未是一个「已解决」的问题，优化空间依然巨大。
-Running open-weight models out of the box is "not that fast, not that cheap." Nebius invests in kernel optimization, model compression, selective pruning, and speculative decoding — and acquired a company specifically for that talent. 95% of their customers run modified, fine-tuned models, not vanilla open source.
-开箱即用地运行开源权重模型「既不快，也不便宜」。Nebius 在内核优化、模型压缩、选择性剪枝和推测解码上重金投入，还专门收购了一家公司来获取这方面的人才。他们 95% 的客户运行的是经过微调的定制模型，而非原始开源模型。
+He shared a pointed take: he has zero sympathy for Xfinity's complaint about AI being used to navigate their customer support — because their phone system deliberately prevents you from talking to a human during outages.
+他发表了一个犀利观点：对于 Xfinity 抱怨 AI 被用于穿越其客服系统，他毫无同情——因为该公司的电话系统在网络故障期间故意阻止用户与真人沟通。
 
-The shift from "requests" to "outcomes" is the next frontier Danila is watching most closely.
-从「请求」到「结果」的范式转变，是 Danila 目前最关注的下一个前沿。
-As agents become long-running and multi-turn, companies will bid per outcome rather than per token. Nebius has a small research group focused on how to increase the probability of reaching the right outcome — not by scaling models, but by optimizing the harnesses, tools, and scaffolding around them.
-随着 Agent 进入长周期、多轮对话模式，企业将按「结果」而非「token」定价。Nebius 组建了小型研究团队，专注于研究如何提高 Agent 达成目标的概率——不是靠扩大模型规模，而是优化模型周围的工具链和脚手架。
+Source: https://x.com/petergyang/status/2118033608007139638
 
-AI coding went from "total bullshit" to an essential daily tool in just one year — but Danila applies it conservatively.
-AI 编程在短短一年内从「一无是处」变为每日必备工具——但 Danila 的团队采用极为审慎。
-His policy: engineers are fully responsible for any AI-generated code — it's their PR, their on-call duty. Fully autonomous agents are banned from touching core services. He sees "slop" proliferating in merge requests and is vigilant about it.
-他的政策：工程师对所有 AI 生成代码负完全责任——这是他们的 PR，他们的 on-call 职责。完全自主的 Agent 被禁止触碰核心服务。他观察到「低质量内容」正在 MR 中蔓延，对此保持高度警惕。
+---
+
+Nikunj Kothari (nikunj on X) — Partner @ FPV Ventures
+
+FPV's Nikunj Kothari is running weekly casual interview sessions, looking for speakers who can talk deeply about their area for 45 minutes — and who aren't household names yet, but likely will be in 12 months.
+FPV 的 Nikunj Kothari 正在每周举办轻松的访谈活动，寻找能就自己领域深入畅谈 45 分钟的嘉宾——那些现在还不是家喻户晓的名字，但 12 个月后很可能会是。
+
+Source: https://x.com/nikunj/status/2118143456799494541
+
+---
+
+PODCASTS
+
+---
+
+The Latent Space Podcast — The Inside Story of the 50 Who Built Modern AI With Kevin Roose
+
+Kevin Roose — former New York Times tech writer and now host of Machine Gods — joins Latent Space to discuss his new book: the inside story of the 50 people who built modern AI.
+Kevin Roose——前《纽约时报》科技记者，现为 Machine Gods 主持人——做客 Latent Space，讲述他的新书：打造现代 AI 的 50 位关键人物的内幕故事。
+
+The book is already a New York Times bestseller, and Roose calls the timing fortuitous: "everyone starting to care about AI this fall when things started going haywire."
+该书已登上《纽约时报》畅销榜，Roose 称时机恰到好处："今年秋天当一切开始失控时，所有人都开始关注 AI 了。"
+
+**核心论点**
+
+Roose argues we are not doomed, but have significant needles to thread.
+Roose 认为我们并非走向末日，但有重大难关需要跨越。
+
+He believes the choices being made right now — about safety, regulation, and who controls AI development — will determine how the next few decades unfold.
+他认为，当前在安全、监管以及谁掌控 AI 发展方面所做的选择，将决定未来数十年的走向。
+
+**关键洞察**
+
+Roose "felt the AGI" moment in 2023, during his viral encounter with Bing Sydney — realizing it wasn't just an inert tool, but something with powerful social implications.
+Roose 的"感受到 AGI"时刻发生在 2023 年，与 Bing Sydney 那次病毒式传播的对话让他意识到，这不只是一个惰性工具，而是具有强大社会影响的存在。
+
+On regulation: without federal action likely under the current administration, he believes a crisis would be needed to trigger meaningful regulation — and hopes we can avoid that route.
+关于监管：在当前政府不太可能出台联邦行动的情况下，他认为需要一场危机才能触发有意义的监管——并希望我们能避免走那条路。
+
+On writing his book: he used a "Council of Claudes" — multiple Claude agents each assigned a different reviewer persona (AI skeptic, AI historian, Walter Isaacson-style craft editor) — to review chapters and catch factual errors his human editors had missed.
+关于写书过程：他使用了"Claude 委员会"——多个 Claude agent 各自扮演不同的审稿者角色（AI 怀疑者、AI 历史学家、Walter Isaacson 风格的文笔编辑）——审查章节并捕获人类编辑漏掉的事实错误。
+
+*"A couple years ago, we had to fact check the AIs, and now the AIs fact check me."*
+*"几年前，我们不得不替 AI 进行事实核查；现在，AI 在替我做事实核查。"*
+
+He emphasizes that all the actual words in the 450-page book are his own — he used AI for everything around the writing, not for the writing itself.
+他强调，这本 450 页书中所有的文字都是他自己写的——他用 AI 处理写作周边的一切，但不用于写作本身。
+
+**最值得关注的信号**
+
+The signal worth watching: leading AI journalists are now actively using Claude swarms to improve their own work.
+最值得关注的信号：顶尖 AI 记者们现在正在主动使用 Claude 集群来改进自己的工作。
+
+This marks a shift from "journalists covering AI" to "journalists whose entire workflow is restructured by AI" — and Roose's transparency about this in a book about AI's builders is itself a telling sign of the moment.
+这标志着从"记者报道 AI"到"记者的整个工作流程被 AI 重构"的转变——而 Roose 在一本关于 AI 构建者的书中对此坦诚披露，本身就是这个时代的一个鲜明信号。
+
+Episode link: https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
