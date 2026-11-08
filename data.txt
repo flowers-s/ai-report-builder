@@ -1,207 +1,224 @@
-AI Builders 日报 · 2026-11-07
-
-X / TWITTER
+AI Builders 日报 · 2026-11-08
 
 ---
 
-Swyx (swyx on X)
-
-Swyx clarified that a Sequoia-related situation he got caught up in was not a company-wide restructuring issue, just a communication gap he personally fell into.
-Swyx 澄清，他卷入的 Sequoia 相关风波并非公司整体重组问题，只是他个人陷入的一个沟通盲区。
-
-He emphasized that the quoted tweet he referenced contained important inaccuracies he cannot fully share publicly.
-他强调，他引用的那条推文包含他无法完全公开的重要不实信息。
-
-He also gave a warm shoutout to scout Britt Walker, calling her sharper than himself and someone he always learns from.
-他还热情称赞了 scout Britt Walker，称她比自己更敏锐，与她交流总能收获很多。
-
-Source: https://x.com/swyx/status/2118538896434999759
-Source: https://x.com/swyx/status/2118542845556691411
+## X / TWITTER
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — Researcher / AI Safety
+### Swyx (swyx on X) — smol.ai / Latent Space
 
-Humans have historically been poor at writing secure infrastructure, and we are entering a turbulent transition period before reaching a state of hypersecure software for all.
-人类历史上在编写安全基础设施方面的表现一直不尽如人意，我们正在进入一段动荡的过渡期，最终才能实现面向所有人的超安全软件。
+Swyx is committing to weekly coverage of the Anthropic IPO, tracking whether it happens or not.
+Swyx 宣布将持续追踪 Anthropic IPO 进展，不论最终上市与否，都会每周更新报道。
 
-*"Formal proofs of tens of millions of lines of code are not a ridiculous thing anymore and within the realm of what should be considered when designing new systems."*
-"数千万行代码的形式化证明已不再是天方夜谭，在设计新系统时完全应该将其纳入考量范围。"
+He is partnering with investor Jamin Ball, combining his equity hedge fund analyst background with his AI engineering expertise.
+他与投资人 Jamin Ball 合作，将股票对冲基金分析师背景与 AI 工程师视角结合，打造深度报道。
 
-This is a striking signal that AI-assisted formal verification is becoming practically viable at scale.
-这是一个引人注目的信号，表明 AI 辅助的形式化验证正在大规模走向实用。
+*"Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more."*
+*"从 $BABA 到 $TEAM，我经历过多次超大规模 IPO，这次终于可以再次戴上我的对冲基金分析师帽子。"*
 
-Source: https://x.com/thsottiaux/status/2118569441860723112
-Source: https://x.com/thsottiaux/status/2118569235953893573
-
----
-
-Peter Yang (petergyang on X) — Product Builder
-
-近期无重要动态。 Peter's recent tweets were casual (reacting to cardboard packaging, suggesting Suno integrate with Tesla cars, and a joke about routers) — no substantive product or AI insights.
-近期无重要动态。Peter 近期的推文较为随意（对纸板包装的吐槽、建议 Suno 与特斯拉车载系统整合、关于路由器的玩笑），没有实质性的产品或 AI 见解。
+Source: https://x.com/swyx/status/2118905788915982341
 
 ---
 
-Thariq (trq212 on X) — Builder of Instinct AI
+### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @ OpenAI
 
-Thariq shared a compelling use case for his agent Instinct: location-based reminders that can track habits like laundry and nag users persistently until confirmed.
-Thariq 分享了他的 AI 智能体 Instinct 的一个有趣用例：基于位置的提醒功能，可以追踪洗衣等日常习惯，并持续提醒用户直到确认完成。
+Thibault teased impressive single-prompt capabilities, noting how much is now possible with just one prompt.
+Thibault 展示了当今单条 prompt 的强大能力，暗示 AI 工具的表达力已远超预期。
 
-*"Keep track of when I've done my laundry. If it's been more than 5 days, remind me 30 minutes after I get home on a week day and bug me until I confirm or delay"*
-"记录我上次洗衣的时间。如果超过 5 天，在工作日我到家后 30 分钟提醒我，并一直催我直到我确认或推迟。"
+*"Quite cool what you can do with a single prompt these days 👀"*
+*"现在用一个 prompt 能做到的事真的很酷 👀"*
 
-This illustrates how persistent, context-aware agents can handle mundane but important personal tasks.
-这展示了具有持久性和情境感知能力的 AI 智能体如何处理平凡但重要的个人事务。
+The rest of his posts were light/non-substantive.
+其余推文内容较为轻松，无重大技术或产品动态。
 
-Source: https://x.com/trq212/status/2118399561324699655
-
----
-
-Amjad Masad (amasad on X) — CEO of Replit
-
-Amjad highlighted Replit's unique position as the only collaborative AI coding system, while also announcing a new custom kernel sandbox design that blocks 96% of Linux zero-day vulnerabilities.
-Amjad 强调了 Replit 作为唯一协作式 AI 编程系统的独特地位，同时宣布推出全新的自定义内核沙箱设计，可拦截 96% 的 Linux 零日漏洞。
-
-*"There are so many Linux zero-day vulnerabilities these days, but on Replit we're able to avoid 96% of them with our custom Kernel build."*
-"如今 Linux 零日漏洞层出不穷，但 Replit 凭借自定义内核构建，能够规避其中 96% 的漏洞。"
-
-This is a meaningful security differentiator for a platform where millions run arbitrary code in the cloud.
-对于一个数百万用户在云端运行任意代码的平台来说，这是一项重要的安全差异化优势。
-
-Source: https://x.com/amasad/status/2118503241390665776
-Source: https://x.com/amasad/status/2118506378440400951
+Source: https://x.com/thsottiaux/status/2118939076791546000
 
 ---
 
-Guillermo Rauch (rauchg on X) — CEO of Vercel
+### Peter Yang (petergyang on X) — AI Tutorials & Interviews
 
-Guillermo painted a picture of an emerging closed-loop ecosystem: build with AI tools like Cursor, deploy on Vercel, distribute on X, and monetize via X Money — arguing "the loop is nearly complete."
-Guillermo 描绘了一个正在成形的闭环生态系统：用 Cursor 等 AI 工具构建，在 Vercel 部署，在 X 上分发，通过 X Money 变现——他认为"这个循环即将完整"。
+Peter had a standout interview and made a sharp observation about AI lab consolidation.
+Peter 完成了一次令他印象深刻的嘉宾访谈，并对 AI 实验室并购趋势提出了独到见解。
 
-He also announced that Grok and Cursor can now build, deploy, and scale together via a SpaceX SI and Vercel partnership.
-他还宣布，通过 SpaceX SI 与 Vercel 的合作，Grok 和 Cursor 现在可以协同构建、部署和扩展应用。
+He noted that apps supporting multiple AI models (like Cursor, Conductor) are increasingly being acquired by the labs themselves, while remaining independent ones tend to go open source.
+他观察到，支持多模型的应用（如 Cursor、Conductor）正在被 AI 实验室收购，而留下来的独立产品往往走向开源。
 
-*"'Doing stuff for you over time' is the killer app of agents."*
-"'随时间推移为你持续做事'才是 AI 智能体的杀手级应用场景。"
+*"Wonder how this will all play out. Personally I think there's still a lot of user and enterprise demand for apps that can use models from different labs."*
+*"不知道这一趋势最终会走向何方。个人认为，用户和企业对能跨模型使用的应用仍有强烈需求。"*
 
-He pointed to Vercel Schedules — cron-like scheduling that can be defined at runtime and scales infinitely — as core infrastructure enabling this vision.
-他指出 Vercel Schedules——一种可在运行时定义、无限扩展的类 Cron 调度系统——是支撑这一愿景的核心基础设施。
+He also teased an upcoming interview with a guest who "blew his mind" — subscribe for early access.
+他还预告了一期让他大开眼界的访谈，建议提前订阅。
 
-Source: https://x.com/rauchg/status/2118474519925158186
-Source: https://x.com/rauchg/status/2118464177211940997
-Source: https://x.com/rauchg/status/2118440831355068671
-
----
-
-Aaron Levie (levie on X) — CEO of Box
-
-Aaron made a bold prediction: enterprises will have 100X more AI agents working with their data than human employees do today.
-Aaron 做出了一个大胆预测：企业中处理数据的 AI 智能体数量将是现有员工数量的 100 倍。
-
-*"90% of the data in an enterprise is unstructured data, which means this critical context is living inside of our documents, contracts, marketing assets, research materials, financial plans, design files, and more."*
-"企业中 90% 的数据是非结构化数据，这意味着关键上下文存在于文档、合同、营销资产、研究材料、财务计划、设计文件等各种内容之中。"
-
-Box announced a partnership with NVIDIA to deliver advanced context retrieval — combining lexical and semantic search — so that AI agents can access enterprise content while respecting security and governance policies.
-Box 宣布与 NVIDIA 合作，提供结合词法搜索和语义搜索的高级上下文检索能力，使 AI 智能体能够在遵守安全和治理策略的前提下访问企业内容。
-
-Source: https://x.com/levie/status/2118498574497665316
+Source: https://x.com/petergyang/status/2118811231545122998
+Source: https://x.com/petergyang/status/2118852799094206787
 
 ---
 
-Garry Tan (garrytan on X) — CEO of Y Combinator
+### Nan Yu (thenanyu on X) — Product, Codex @ OpenAI; prev Head of Product @ Linear
 
-Garry called the current political moment "an unprecedented bipartisan opportunity to take on Big Tech's abuse of market power" and urged Congress to open markets for startups.
-Garry 将当前的政治时机称为"以两党合作方式挑战大科技企业滥用市场权力的前所未有的机遇"，并呼吁国会为初创企业开放市场。
+近期无重要动态。
 
-*"Inventing powerful AI is only half the job. People must be able to use it to make their lives better and their businesses more productive."*
-"发明强大的 AI 只是工作的一半。人们必须能够用它改善生活、提升业务效率。"
-
-He also highlighted what he called the first long-horizon benchmark for PE/IB (private equity and investment banking) work, arguing that solving high finance is on the path to AGI.
-他还重点介绍了他认为是首个针对私募股权和投资银行工作的长视野基准测试，认为攻克高端金融领域是通向 AGI 的必经之路。
-
-Source: https://x.com/garrytan/status/2118557763156733984
-Source: https://x.com/garrytan/status/2118527182092071179
+Source: https://x.com/thenanyu/status/2118826112562434303
 
 ---
 
-Peter Steinberger (steipete on X) — Founder / iOS Developer
+### Thariq (trq212 on X) — formerly Claude Code @ Anthropic
 
-Peter publicly called out Apple for Safari's persistent underperformance, questioning whether Apple is being deceptive about the browser's capabilities.
-Peter 公开批评苹果公司 Safari 浏览器长期表现不佳，质疑苹果是否在浏览器能力上有所误导。
+Thariq highlighted a pattern he's excited about: creator apps like Instagram Edits and Roblox Studio are shipping with built-in MCPs.
+Thariq 分享了他看好的一个趋势：Instagram Edits 和 Roblox Studio 等创作工具正在内置 MCP 支持。
 
-*"Is my perception off or is Apple just lying here? Anytime I build for or use Safari, it's slower, has fewer features, weird bugs and plenty websites just don't work."*
-"是我的感知有偏差，还是苹果在撒谎？每次我为 Safari 开发或使用 Safari，它都更慢、功能更少、有奇怪的 bug，还有很多网站根本无法正常显示。"
+This enables agents to do work in the background while power users continue in familiar tools — a seamless human-agent collaboration model.
+这让 AI 代理可以在后台协作，同时让高级用户继续使用熟悉的工具——实现人机无缝配合。
 
-This reflects a growing frustration among developers with Apple's browser engine restrictions.
-这反映了开发者对苹果浏览器引擎限制日益增长的不满情绪。
+He also quipped that too many people are building AI agents while not enough are using software to improve fish quality — a playful jab at hype-driven building.
+他也调侃道，建 AI agent 的人太多，用软件改善鱼品质的人太少——对过度追热点的一针见血。
 
-Source: https://x.com/steipete/status/2118492097917628704
-
----
-
-Dan Shipper (danshipper on X) — CEO of Every
-
-Dan announced a live event: "Thesis: 2027 — LIVE from Brooklyn," suggesting a forward-looking discussion about the state of AI and startups.
-Dan 宣布了一场现场活动："Thesis: 2027 — 纽约布鲁克林现场直播"，暗示将就 AI 和初创企业的未来走向展开前瞻性讨论。
-
-Source: https://x.com/danshipper/status/2118421854666838338
+Source: https://x.com/trq212/status/2118822238262853904
+Source: https://x.com/trq212/status/2118859267314958761
 
 ---
 
-Aditya Agarwal (adityaag on X) — Investor / Builder
+### Guillermo Rauch (rauchg on X) — CEO @ Vercel
 
-Aditya shared a pointed insight from a conversation at SPC: just because an investor is willing to fund at a certain valuation doesn't mean that valuation is right for your company.
-Aditya 在 SPC 的一次对话中分享了一个深刻见解：投资者愿意以某个估值投资，并不意味着那个估值对你的公司而言是合适的。
+Guillermo shared a vision for Generative UI in conversational agents, combining AI SDK with Chat SDK and json-render to go straight from LLM output to UI on platforms like Slack and Teams.
+Guillermo 分享了对话式 AI 生成 UI 的愿景，将 AI SDK、Chat SDK 与 json-render 结合，实现从 LLM 输出直接生成 Slack/Teams 界面。
 
-*"Just because someone is willing to invest at a certain valuation doesn't mean it's the right valuation for your company."*
-"有人愿意以某个估值投资你，并不意味着这个估值对你的公司来说是正确的。"
+*"I believe this will become the dominant Human-Agent Interaction (HAI) paradigm."*
+*"我认为这将成为人机交互（HAI）的主流范式。"*
 
-Source: https://x.com/adityaag/status/2118477020325884357
+He also dropped a playful tech culture observation: *"Imagine we get gta6.wasm before gta6"* — a nod to the pace of web platform innovation.
+他还幽默地感叹：*"想象一下，gta6.wasm 说不定比 GTA6 本体先到来"* ——折射出 web 技术发展之快。
 
----
-
-Claude / Anthropic (claudeai on X)
-
-Anthropic launched Personal Finance in Claude (beta, US only), allowing users to connect their bank accounts and ask money questions in plain language.
-Anthropic 推出了 Claude 个人理财功能（美国地区 Beta 版），允许用户连接银行账户，用日常语言询问财务问题。
-
-Access is strictly read-only — Claude cannot move, manage, or invest money — and there are no ads or sponsored recommendations.
-访问权限严格为只读模式——Claude 无法转移、管理或投资资金——且没有广告或赞助推荐。
-
-*"It helps you understand your money, and it isn't designed to give investment advice."*
-"它帮助你了解自己的财务状况，并非设计用于提供投资建议。"
-
-This feature is rolling out gradually to Pro, Max, and Ultra plan subscribers.
-该功能正在向 Pro、Max 和 Ultra 计划用户逐步推出。
-
-Source: https://x.com/claudeai/status/2118403114890137895
-Source: https://x.com/claudeai/status/2118403117779988744
+Source: https://x.com/rauchg/status/2118856239719608353
+Source: https://x.com/rauchg/status/2118928276118986991
 
 ---
 
-PODCASTS
+### Aaron Levie (levie on X) — CEO @ Box
+
+Box CEO Aaron Levie made a punchy prediction about the future of enterprise computing.
+Box CEO Aaron Levie 对企业计算的未来做出了简洁有力的预判。
+
+*"The future is files. And GPUs."*
+*"未来属于文件，以及 GPU。"*
+
+Source: https://x.com/levie/status/2118723097901846580
 
 ---
 
-Unsupervised Learning — Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It
+### Garry Tan (garrytan on X) — President & CEO @ Y Combinator
 
-This episode features Jogo, CEO of TypeSave and creator of JEV, discussing the research direction of RLCD (Reinforcement Learning from Comparative Demonstrations) and why he believed in it even before the early signals were strong.
-本集邀请了 TypeSave CEO、JEV 创始人 Jogo，讨论 RLCD（比较示范强化学习）这一研究方向，以及他在早期信号尚不明朗时为何仍然坚信这条路。
+Garry shared multiple sharp observations about the AI development trajectory.
+Garry 分享了多条关于 AI 发展走势的深刻洞察。
 
-*"AI is clearly smart and also that the future is clearly going to be machine native."*
-"AI 显然是智能的，而且未来显然将是机器原生的。"
+He highlighted research showing that using 3 million tokens of moral advice from ordinary people reduced malicious AI behavior to 0%, with a 28-fold jump in alignment efficiency.
+他引用研究表明，使用 300 万个普通人面对道德困境的建议 token，可将 AI 恶意行为降至 0%，对齐效率提升 28 倍。
 
-A key insight from the episode: the vast majority of LLM API calls are for machine consumption (structured data, decision outputs), not human-readable text — yet most models are still trained to optimize for human-readable string outputs.
-本集的核心洞见：绝大多数 LLM API 调用是为机器消费（结构化数据、决策输出）而非人类可读文本服务的——然而大多数模型仍在针对人类可读的字符串输出进行优化训练。
+On agentic development, he advocates for eval-driven loops: as models improve, older custom skills become unnecessary.
+在 AI agent 开发上，他倡导以评估驱动的迭代循环：随着模型进步，旧有的自定义技能会自然淘汰。
 
-Jogo also shared skepticism about Anthropic's upcoming IPO, suggesting that some investor valuations are based on misunderstandings about the future trajectory of AI.
-Jogo 还对 Anthropic 即将到来的 IPO 表达了怀疑，认为部分投资者的估值建立在对 AI 未来发展轨迹的误解之上。
+*"I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising."*
+*"我刚刚移除了 /investigate 技能，因为 Opus 5.5 不需要它就能做得更好。你能感受到 AGI 的浪潮正在涌来。"*
 
-*"The 'let them cure cancer' is going to be like Marie Antoinette's 'let them eat cake.'"*
-"'让它们去治癌症吧'将会像玛丽·安托瓦内特的'让他们吃蛋糕吧'一样成为笑柄。"
+He also noted that computer use on Aside (a real Chromium browser) is nearly impossible for sites to block — a meaningful advantage for AI browser agents.
+他还提到，Aside 的计算机使用功能基于真实 Chromium 浏览器，几乎无法被网站屏蔽——对 AI 浏览器代理是显著优势。
 
-Source: https://www.youtube.com/@RedpointAI
+Source: https://x.com/garrytan/status/2118920030243139596
+Source: https://x.com/garrytan/status/2118950671886287323
+Source: https://x.com/garrytan/status/2118951284376285508
+
+---
+
+### Matt Turck (mattturck on X) — VC @ FirstMark Capital
+
+近期无重要动态（本期推文为轻松娱乐内容）。
+
+Source: https://x.com/mattturck/status/2118791325394845839
+
+---
+
+### Zara Zhang (zarazhangrui on X) — Builder
+
+Zara made a sharp point about personal branding in the AI age.
+Zara 对 AI 时代的个人品牌建设提出了精辟见解。
+
+Your personal website is the new resume — LinkedIn shows a list of titles, but your website shows your taste, thinking, and actual work.
+个人网站是新时代的简历——LinkedIn 展示的是头衔列表，而个人网站展示的是你的品味、思维和真实作品。
+
+*"You don't need to be confined by the existing social media platforms."*
+*"你不必被现有社交媒体平台所束缚。"*
+
+Source: https://x.com/zarazhangrui/status/2118939184841052386
+
+---
+
+### Nikunj Kothari (nikunj on X) — Partner @ FPV Ventures
+
+Nikunj shipped "Texts Wrapped" — an open-source tool that analyzes iMessage, WhatsApp, and phone calls locally on Mac with a single terminal command.
+Nikunj 发布了 "Texts Wrapped"——一个开源工具，只需一条终端命令即可在 Mac 本地分析 iMessage、WhatsApp 和通话记录，100% 本地运行，无 AI。
+
+He also published a sharply satirical thread on the current state of startup fundraising — every sentence individually true, collectively a damning picture of incentive misalignment.
+他还发布了一篇辛辣讽刺的种子轮融资指南，每句话单独看都是真实的，合在一起是对当前创业激励机制扭曲的深刻批评。
+
+*"(before i get obliterated this is satire, but every sentence in there individually has personally happened to me)"*
+*"（声明：这是讽刺，但里面每一句话都是我亲身经历过的）"*
+
+Source: https://x.com/nikunj/status/2118840414853861627
+Source: https://x.com/nikunj/status/2118758688567792008
+
+---
+
+### Dan Shipper (danshipper on X) — CEO @ Every
+
+Dan shared a team photo celebrating the Every team in November 2026.
+Dan 分享了 Every 团队在 2026 年 11 月的合影，表达了对团队的自豪。
+
+近期无深度技术或产品动态。
+
+Source: https://x.com/danshipper/status/2118757047026028939
+
+---
+
+### Aditya Agarwal (adityaag on X) — General Partner @ SPC; ex-CTO @ Dropbox
+
+Aditya shared a conversation at SPC with Trae Stephens, and reflected on lessons from ambitious technology building.
+Aditya 在 SPC 与 Trae Stephens 进行了一场对话，并分享了对宏大技术愿景的感悟。
+
+*"SpaceX didn't build Starship overnight. Ambitious technology demands both urgency & patience."*
+*"SpaceX 不是一夜之间造出星舰的。宏大的技术既需要紧迫感，也需要耐心。"*
+
+Source: https://x.com/adityaag/status/2118733089887170878
+Source: https://x.com/adityaag/status/2118733093230240144
+
+---
+
+## PODCASTS
+
+---
+
+### Latent Space — "Controlling Biology - Fabian Theis, Helmholtz Munich"
+
+This episode features Fabian Theis, director of the Computational Health Center at Helmholtz Munich, discussing the frontier of AI-driven biology.
+本期节目邀请了 Helmholtz Munich 计算健康中心主任 Fabian Theis，深入探讨 AI 驱动生物学的前沿进展。
+
+The conversation covers virtual cells, perturbation prediction, and why the field is moving from "mapping" cells to "steering" experiments.
+对话涵盖虚拟细胞、扰动预测，以及该领域如何从"绘制"细胞图谱迈向"引导"实验设计。
+
+Fabian introduces "Lab Compass" — an inverse generative model that, given a desired cell state, tells you what experimental interventions are needed to reach it.
+Fabian 介绍了 "Lab Compass"——一种逆向生成模型，给定目标细胞状态，它能告诉你需要进行哪些实验干预才能达到该状态。
+
+The episode also digs into the "bitter lesson" debate in biology — when do you need deep learning vs. linear baselines, and why proper benchmarking matters enormously.
+节目还深入讨论了生物学中的"苦涩教训"——何时需要深度学习而非线性基线，以及为何严格的基准测试至关重要。
+
+On commercialization, Fabian is candid: most "virtual cell platform" companies end up pivoting to drug development because that's the clearest path to monetization.
+在商业化方面，Fabian 坦率地指出：大多数"虚拟细胞平台"公司最终都会转向药物开发，因为那是最清晰的变现路径。
+
+*"We can really now start guiding the experimentation... the ultimate vision being that we want to RL everything."*
+*"我们现在真的可以开始引导实验了……终极愿景是把一切都纳入强化学习循环。"*
+
+Source: https://www.youtube.com/@LatentSpacePod
+(Episode published: 2026-11-06)
 
 ---
 
