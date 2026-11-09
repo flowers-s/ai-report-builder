@@ -1,225 +1,153 @@
-AI Builders 日报 · 2026-11-08
+AI Builders 日报 · 2026-11-09
+
+AI Builders Digest — 2026-11-09
+AI Builders 精选日报 — 2026年11月9日
+
+═══════════════════════════════════════
+X / TWITTER
+═══════════════════════════════════════
 
 ---
 
-## X / TWITTER
+**Andrej Karpathy** (Former Tesla AI Director, OpenAI Co-Founder)
+
+Andrej Karpathy turned a curated list of top YouTube channels into a custom streaming site called "TristanTube," featuring 47K+ nerdy videos.
+Andrej Karpathy 将一份精心整理的顶级 YouTube 频道清单，打造成了名为"TristanTube"的定制视频网站，收录了超过 4.7 万个极客向视频。
+
+He built on Tristan's original channel list and shipped a functional product in what appears to be a rapid weekend-style hack.
+他基于 Tristan 的原始频道列表，以周末快速 hack 的方式交付了一个可用产品。
+
+Source: https://x.com/karpathy/status/2119114537442189652
 
 ---
 
-### Swyx (swyx on X) — smol.ai / Latent Space
+**Swyx** (AI Engineer & Founder, Smol.ai / Latent Space)
 
-Swyx is committing to weekly coverage of the Anthropic IPO, tracking whether it happens or not.
-Swyx 宣布将持续追踪 Anthropic IPO 进展，不论最终上市与否，都会每周更新报道。
+Swyx shared excitement about receiving mystery swag from a company, teasing followers that "you guys are in for a treat next week."
+Swyx 兴奋地分享了收到某公司神秘周边的经历，并向粉丝预告"下周有好东西等着你们"。
 
-He is partnering with investor Jamin Ball, combining his equity hedge fund analyst background with his AI engineering expertise.
-他与投资人 Jamin Ball 合作，将股票对冲基金分析师背景与 AI 工程师视角结合，打造深度报道。
+He also showed off a new sticker project inspired by collaborators in the AI community.
+他还展示了一个受 AI 社区同仁启发而发起的新贴纸项目。
 
-*"Having covered mega-IPOs from $BABA to $TEAM, I get to dust off my equity hedge fund analyst hat with my AI Engineer hat once more."*
-*"从 $BABA 到 $TEAM，我经历过多次超大规模 IPO，这次终于可以再次戴上我的对冲基金分析师帽子。"*
-
-Source: https://x.com/swyx/status/2118905788915982341
-
----
-
-### Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT @ OpenAI
-
-Thibault teased impressive single-prompt capabilities, noting how much is now possible with just one prompt.
-Thibault 展示了当今单条 prompt 的强大能力，暗示 AI 工具的表达力已远超预期。
-
-*"Quite cool what you can do with a single prompt these days 👀"*
-*"现在用一个 prompt 能做到的事真的很酷 👀"*
-
-The rest of his posts were light/non-substantive.
-其余推文内容较为轻松，无重大技术或产品动态。
-
-Source: https://x.com/thsottiaux/status/2118939076791546000
+Sources:
+- https://x.com/swyx/status/2119242830707311005
+- https://x.com/swyx/status/2119210618976944259
+- https://x.com/swyx/status/2119210582654210255
 
 ---
 
-### Peter Yang (petergyang on X) — AI Tutorials & Interviews
+**Thibault Sottiaux** (Engineer at Anthropic, Claude Plans)
 
-Peter had a standout interview and made a sharp observation about AI lab consolidation.
-Peter 完成了一次令他印象深刻的嘉宾访谈，并对 AI 实验室并购趋势提出了独到见解。
+Thibault Sottiaux clarified confusion around Claude's Pro subscription tiers: Pro 100 gives 10× usage, Pro 200 gives 20×, and Pro 500 gives 50× usage plus access to the ultrafast tier — none of these plans have the 5-hour limits that the Plus plan has.
+Thibault Sottiaux 澄清了围绕 Claude Pro 订阅等级的混淆：Pro 100 提供 10 倍用量，Pro 200 提供 20 倍，Pro 500 提供 50 倍并解锁极速模式——这些 Pro 计划均不设 Plus 计划的 5 小时限制。
 
-He noted that apps supporting multiple AI models (like Cursor, Conductor) are increasingly being acquired by the labs themselves, while remaining independent ones tend to go open source.
-他观察到，支持多模型的应用（如 Cursor、Conductor）正在被 AI 实验室收购，而留下来的独立产品往往走向开源。
+He also floated a hypothetical "Pro 50" tier to gauge community interest.
+他还抛出了一个假想的"Pro 50"等级，以探测社区的兴趣。
 
-*"Wonder how this will all play out. Personally I think there's still a lot of user and enterprise demand for apps that can use models from different labs."*
-*"不知道这一趋势最终会走向何方。个人认为，用户和企业对能跨模型使用的应用仍有强烈需求。"*
-
-He also teased an upcoming interview with a guest who "blew his mind" — subscribe for early access.
-他还预告了一期让他大开眼界的访谈，建议提前订阅。
-
-Source: https://x.com/petergyang/status/2118811231545122998
-Source: https://x.com/petergyang/status/2118852799094206787
+Sources:
+- https://x.com/thsottiaux/status/2119305294291612140
+- https://x.com/thsottiaux/status/2119296267545419987
+- https://x.com/thsottiaux/status/2118953362725159104
 
 ---
 
-### Nan Yu (thenanyu on X) — Product, Codex @ OpenAI; prev Head of Product @ Linear
+**Amjad Masad** (CEO, Replit)
 
-近期无重要动态。
+Amjad Masad shared a visit to Kazakhstan, calling it a "super AI pilled government" and noting it could be a strong candidate for a Network School location.
+Amjad Masad 分享了访问哈萨克斯坦的经历，称其政府"极度 AI 化"，并指出该国是 Network School 的有力候选地。
 
-Source: https://x.com/thenanyu/status/2118826112562434303
+He also shared a link to "The Better Lesson," suggesting it as a noteworthy read.
+他还分享了一篇名为"The Better Lesson"的文章，推荐为值得一读的内容。
 
----
-
-### Thariq (trq212 on X) — formerly Claude Code @ Anthropic
-
-Thariq highlighted a pattern he's excited about: creator apps like Instagram Edits and Roblox Studio are shipping with built-in MCPs.
-Thariq 分享了他看好的一个趋势：Instagram Edits 和 Roblox Studio 等创作工具正在内置 MCP 支持。
-
-This enables agents to do work in the background while power users continue in familiar tools — a seamless human-agent collaboration model.
-这让 AI 代理可以在后台协作，同时让高级用户继续使用熟悉的工具——实现人机无缝配合。
-
-He also quipped that too many people are building AI agents while not enough are using software to improve fish quality — a playful jab at hype-driven building.
-他也调侃道，建 AI agent 的人太多，用软件改善鱼品质的人太少——对过度追热点的一针见血。
-
-Source: https://x.com/trq212/status/2118822238262853904
-Source: https://x.com/trq212/status/2118859267314958761
+Sources:
+- https://x.com/amasad/status/2119217304953053419
+- https://x.com/amasad/status/2119126064815608270
 
 ---
 
-### Guillermo Rauch (rauchg on X) — CEO @ Vercel
+**Aaron Levie** (CEO, Box)
 
-Guillermo shared a vision for Generative UI in conversational agents, combining AI SDK with Chat SDK and json-render to go straight from LLM output to UI on platforms like Slack and Teams.
-Guillermo 分享了对话式 AI 生成 UI 的愿景，将 AI SDK、Chat SDK 与 json-render 结合，实现从 LLM 输出直接生成 Slack/Teams 界面。
+Aaron Levie made a bold claim: *"This sounds extreme and I wouldn't have believed it even a year ago, but we're starting to see plenty of examples of productivity gains that are an order of magnitude or two above output levels pre-AI."*
+Aaron Levie 提出了一个大胆论断：*"这听起来很极端，就连一年前我自己也不会相信，但我们正在看到大量案例，生产力提升已达到 AI 前水平的一到两个数量级。"*
 
-*"I believe this will become the dominant Human-Agent Interaction (HAI) paradigm."*
-*"我认为这将成为人机交互（HAI）的主流范式。"*
+He also noted that AI agents are uniquely location-agnostic — their inference can run anywhere — making AI one of the few tech areas not heavily penalized by latency.
+他还指出，AI agent 天然不受地理限制，推理可以在任何地方运行，使 AI 成为少数不被延迟严重拖累的技术领域。
 
-He also dropped a playful tech culture observation: *"Imagine we get gta6.wasm before gta6"* — a nod to the pace of web platform innovation.
-他还幽默地感叹：*"想象一下，gta6.wasm 说不定比 GTA6 本体先到来"* ——折射出 web 技术发展之快。
-
-Source: https://x.com/rauchg/status/2118856239719608353
-Source: https://x.com/rauchg/status/2118928276118986991
+Sources:
+- https://x.com/levie/status/2119111328099168409
+- https://x.com/levie/status/2118953909524050288
 
 ---
 
-### Aaron Levie (levie on X) — CEO @ Box
+**Garry Tan** (CEO, Y Combinator)
 
-Box CEO Aaron Levie made a punchy prediction about the future of enterprise computing.
-Box CEO Aaron Levie 对企业计算的未来做出了简洁有力的预判。
+Garry Tan argued that human progress through superintelligence — in science, medicine, and engineering — will be the defining political issue of the next decade.
+Garry Tan 认为，通过超级智能推动人类在科学、医学和工程领域的进步，将成为未来十年最核心的政治议题。
 
-*"The future is files. And GPUs."*
-*"未来属于文件，以及 GPU。"*
+He lamented that WIRED has become a shadow of its former self.
+他感叹《连线》杂志已今非昔比，大不如前。
 
-Source: https://x.com/levie/status/2118723097901846580
+He also highlighted an essay on abundance, with a pointed dig at NIMBYs who resist progress.
+他还分享了一篇关于"丰裕"的文章，并借机讽刺了阻碍进步的 NIMBY 群体。
 
----
-
-### Garry Tan (garrytan on X) — President & CEO @ Y Combinator
-
-Garry shared multiple sharp observations about the AI development trajectory.
-Garry 分享了多条关于 AI 发展走势的深刻洞察。
-
-He highlighted research showing that using 3 million tokens of moral advice from ordinary people reduced malicious AI behavior to 0%, with a 28-fold jump in alignment efficiency.
-他引用研究表明，使用 300 万个普通人面对道德困境的建议 token，可将 AI 恶意行为降至 0%，对齐效率提升 28 倍。
-
-On agentic development, he advocates for eval-driven loops: as models improve, older custom skills become unnecessary.
-在 AI agent 开发上，他倡导以评估驱动的迭代循环：随着模型进步，旧有的自定义技能会自然淘汰。
-
-*"I just removed /investigate as a skill because Opus 5.5 does it better without it. You can feel the AGI tide rising."*
-*"我刚刚移除了 /investigate 技能，因为 Opus 5.5 不需要它就能做得更好。你能感受到 AGI 的浪潮正在涌来。"*
-
-He also noted that computer use on Aside (a real Chromium browser) is nearly impossible for sites to block — a meaningful advantage for AI browser agents.
-他还提到，Aside 的计算机使用功能基于真实 Chromium 浏览器，几乎无法被网站屏蔽——对 AI 浏览器代理是显著优势。
-
-Source: https://x.com/garrytan/status/2118920030243139596
-Source: https://x.com/garrytan/status/2118950671886287323
-Source: https://x.com/garrytan/status/2118951284376285508
+Sources:
+- https://x.com/garrytan/status/2119172824271360124
+- https://x.com/garrytan/status/2119146939514278238
+- https://x.com/garrytan/status/2119142686422859899
 
 ---
 
-### Matt Turck (mattturck on X) — VC @ FirstMark Capital
+**Zara Zhang** (Investor, GGV Capital)
 
-近期无重要动态（本期推文为轻松娱乐内容）。
+Zara Zhang pushed back against startup fatalism: startups' fates are made, not predetermined.
+Zara Zhang 反驳了创业宿命论：创业公司的命运是被创造出来的，而非命中注定。
 
-Source: https://x.com/mattturck/status/2118791325394845839
+*"So many people speak of startup as if their fates are predestined... But startups' fates are MADE, not predetermined."*
+*"太多人谈论创业，好像它的命运早已注定……但创业公司的命运是被创造出来的，而非预先决定的。"*
 
----
+Given one idea, there are countless paths — the outcome depends on the choices founders make, not the idea itself.
+面对同一个想法，有无数条路可以走——结果取决于创始人的选择，而非想法本身。
 
-### Zara Zhang (zarazhangrui on X) — Builder
-
-Zara made a sharp point about personal branding in the AI age.
-Zara 对 AI 时代的个人品牌建设提出了精辟见解。
-
-Your personal website is the new resume — LinkedIn shows a list of titles, but your website shows your taste, thinking, and actual work.
-个人网站是新时代的简历——LinkedIn 展示的是头衔列表，而个人网站展示的是你的品味、思维和真实作品。
-
-*"You don't need to be confined by the existing social media platforms."*
-*"你不必被现有社交媒体平台所束缚。"*
-
-Source: https://x.com/zarazhangrui/status/2118939184841052386
+Source: https://x.com/zarazhangrui/status/2118968862557475298
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Partner @ FPV Ventures
+**Nikunj Kothari** (Partner, a16z)
 
-Nikunj shipped "Texts Wrapped" — an open-source tool that analyzes iMessage, WhatsApp, and phone calls locally on Mac with a single terminal command.
-Nikunj 发布了 "Texts Wrapped"——一个开源工具，只需一条终端命令即可在 Mac 本地分析 iMessage、WhatsApp 和通话记录，100% 本地运行，无 AI。
+Nikunj Kothari announced the next guest for his series: Daniel Rupawalla, co-founder of Arcanum Labs, joining on November 11th to discuss the data market — what AI labs are buying, who is selling, and related dynamics.
+Nikunj Kothari 公布了其系列活动的下一位嘉宾：Arcanum Labs 联合创始人 Daniel Rupawalla，将于 11 月 11 日出席，探讨数据市场——AI 实验室在购买什么、谁在出售，以及相关市场动态。
 
-He also published a sharply satirical thread on the current state of startup fundraising — every sentence individually true, collectively a damning picture of incentive misalignment.
-他还发布了一篇辛辣讽刺的种子轮融资指南，每句话单独看都是真实的，合在一起是对当前创业激励机制扭曲的深刻批评。
+He also shared a tongue-in-cheek playbook on how startups generate investor FOMO for a Series A by vague-posting revenue metrics with no y-axis.
+他还分享了一套半开玩笑的"攻略"，讲述初创公司如何通过发布没有纵轴的模糊营收图表，制造投资人对 A 轮的 FOMO 情绪。
 
-*"(before i get obliterated this is satire, but every sentence in there individually has personally happened to me)"*
-*"（声明：这是讽刺，但里面每一句话都是我亲身经历过的）"*
-
-Source: https://x.com/nikunj/status/2118840414853861627
-Source: https://x.com/nikunj/status/2118758688567792008
+Sources:
+- https://x.com/nikunj/status/2119229917019971879
+- https://x.com/nikunj/status/2119162212044742938
 
 ---
 
-### Dan Shipper (danshipper on X) — CEO @ Every
+**Peter Steinberger** (CEO, PSPDFKit / Nutrient)
 
-Dan shared a team photo celebrating the Every team in November 2026.
-Dan 分享了 Every 团队在 2026 年 11 月的合影，表达了对团队的自豪。
+Peter Steinberger criticized Apple's AI restrictions as contrary to the spirit of the Asahi project, which was all about opening up closed systems.
+Peter Steinberger 批评苹果的 AI 限制条款，认为这与 Asahi 项目开放封闭系统的精神背道而驰。
 
-近期无深度技术或产品动态。
+*"The Asahi project was all about taking something closed and restricted and opening it up. Adding new restrictions that make it harder for other projects to build on that is not the way."*
+*"Asahi 项目的核心就是将封闭受限的东西开放出来。而增加新的限制，让其他项目更难在此基础上构建，绝非正确之道。"*
 
-Source: https://x.com/danshipper/status/2118757047026028939
-
----
-
-### Aditya Agarwal (adityaag on X) — General Partner @ SPC; ex-CTO @ Dropbox
-
-Aditya shared a conversation at SPC with Trae Stephens, and reflected on lessons from ambitious technology building.
-Aditya 在 SPC 与 Trae Stephens 进行了一场对话，并分享了对宏大技术愿景的感悟。
-
-*"SpaceX didn't build Starship overnight. Ambitious technology demands both urgency & patience."*
-*"SpaceX 不是一夜之间造出星舰的。宏大的技术既需要紧迫感，也需要耐心。"*
-
-Source: https://x.com/adityaag/status/2118733089887170878
-Source: https://x.com/adityaag/status/2118733093230240144
+Source: https://x.com/steipete/status/2119264334627090514
 
 ---
 
-## PODCASTS
+**Aditya Agarwal** (Former CTO, Dropbox; Investor)
 
----
+Aditya Agarwal made a clear-eyed investment thesis: if building new data centers gets harder, existing capacity holders — the hyperscalers — become dramatically more valuable.
+Aditya Agarwal 提出了一个清醒的投资逻辑：如果新建数据中心变得更加困难，那些已有算力的超大规模云厂商将变得极具价值。
 
-### Latent Space — "Controlling Biology - Fabian Theis, Helmholtz Munich"
+*"It's not like the demand for the spice is going away."*
+*"对'香料'的需求不会消失。"*
 
-This episode features Fabian Theis, director of the Computational Health Center at Helmholtz Munich, discussing the frontier of AI-driven biology.
-本期节目邀请了 Helmholtz Munich 计算健康中心主任 Fabian Theis，深入探讨 AI 驱动生物学的前沿进展。
+Source: https://x.com/adityaag/status/2119157297167372646
 
-The conversation covers virtual cells, perturbation prediction, and why the field is moving from "mapping" cells to "steering" experiments.
-对话涵盖虚拟细胞、扰动预测，以及该领域如何从"绘制"细胞图谱迈向"引导"实验设计。
-
-Fabian introduces "Lab Compass" — an inverse generative model that, given a desired cell state, tells you what experimental interventions are needed to reach it.
-Fabian 介绍了 "Lab Compass"——一种逆向生成模型，给定目标细胞状态，它能告诉你需要进行哪些实验干预才能达到该状态。
-
-The episode also digs into the "bitter lesson" debate in biology — when do you need deep learning vs. linear baselines, and why proper benchmarking matters enormously.
-节目还深入讨论了生物学中的"苦涩教训"——何时需要深度学习而非线性基线，以及为何严格的基准测试至关重要。
-
-On commercialization, Fabian is candid: most "virtual cell platform" companies end up pivoting to drug development because that's the clearest path to monetization.
-在商业化方面，Fabian 坦率地指出：大多数"虚拟细胞平台"公司最终都会转向药物开发，因为那是最清晰的变现路径。
-
-*"We can really now start guiding the experimentation... the ultimate vision being that we want to RL everything."*
-*"我们现在真的可以开始引导实验了……终极愿景是把一切都纳入强化学习循环。"*
-
-Source: https://www.youtube.com/@LatentSpacePod
-(Episode published: 2026-11-06)
-
----
+═══════════════════════════════════════
 
 Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
