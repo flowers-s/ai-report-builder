@@ -1,153 +1,207 @@
-AI Builders 日报 · 2026-11-09
-
-AI Builders Digest — 2026-11-09
-AI Builders 精选日报 — 2026年11月9日
-
-═══════════════════════════════════════
-X / TWITTER
-═══════════════════════════════════════
+AI Builders 日报 · 2026-11-10
 
 ---
 
-**Andrej Karpathy** (Former Tesla AI Director, OpenAI Co-Founder)
+## X / TWITTER
 
-Andrej Karpathy turned a curated list of top YouTube channels into a custom streaming site called "TristanTube," featuring 47K+ nerdy videos.
-Andrej Karpathy 将一份精心整理的顶级 YouTube 频道清单，打造成了名为"TristanTube"的定制视频网站，收录了超过 4.7 万个极客向视频。
+### Swyx (swyx on X) — AI Engineer, Latent Space Co-host
 
-He built on Tristan's original channel list and shipped a functional product in what appears to be a rapid weekend-style hack.
-他基于 Tristan 的原始频道列表，以周末快速 hack 的方式交付了一个可用产品。
+Swyx is promoting new content and highlighting how companies implement AI effectively.
+Swyx 正在推广新内容，并重点介绍公司如何有效落地 AI。
 
-Source: https://x.com/karpathy/status/2119114537442189652
+He shared a podcast episode and asked if listeners are paying attention to the latest AI engineering developments.
+他分享了一期播客，并问听众是否关注了最新的 AI 工程进展。
 
----
-
-**Swyx** (AI Engineer & Founder, Smol.ai / Latent Space)
-
-Swyx shared excitement about receiving mystery swag from a company, teasing followers that "you guys are in for a treat next week."
-Swyx 兴奋地分享了收到某公司神秘周边的经历，并向粉丝预告"下周有好东西等着你们"。
-
-He also showed off a new sticker project inspired by collaborators in the AI community.
-他还展示了一个受 AI 社区同仁启发而发起的新贴纸项目。
+He also highlighted Pauline Brunet, VP of FDE, for curating valuable content on how AI builders operate.
+他还特别提到 FDE 副总裁 Pauline Brunet 策划了一批关于 AI 构建者运作方式的优质内容。
 
 Sources:
-- https://x.com/swyx/status/2119242830707311005
-- https://x.com/swyx/status/2119210618976944259
-- https://x.com/swyx/status/2119210582654210255
+- https://x.com/swyx/status/2119611058881192187
+- https://x.com/swyx/status/2119550477629379009
+- https://x.com/swyx/status/2119543788192600450
 
 ---
 
-**Thibault Sottiaux** (Engineer at Anthropic, Claude Plans)
+### Peter Yang (petergyang on X) — Product Leader
 
-Thibault Sottiaux clarified confusion around Claude's Pro subscription tiers: Pro 100 gives 10× usage, Pro 200 gives 20×, and Pro 500 gives 50× usage plus access to the ultrafast tier — none of these plans have the 5-hour limits that the Plus plan has.
-Thibault Sottiaux 澄清了围绕 Claude Pro 订阅等级的混淆：Pro 100 提供 10 倍用量，Pro 200 提供 20 倍，Pro 500 提供 50 倍并解锁极速模式——这些 Pro 计划均不设 Plus 计划的 5 小时限制。
+Peter Yang is sharing observations on business consequences, work-life balance, and relationship dynamics across cultures.
+Peter Yang 分享了对商业后果、工作与生活平衡以及跨文化关系动态的观察。
 
-He also floated a hypothetical "Pro 50" tier to gauge community interest.
-他还抛出了一个假想的"Pro 50"等级，以探测社区的兴趣。
+He commented on a high-profile affair situation, noting *"This affair is going to destroy billions in shareholder value isn't it"* — pointing to the business risks of personal scandals.
+他评论了一起高知名度的出轨事件，指出 *"This affair is going to destroy billions in shareholder value isn't it"* — 揭示了个人丑闻带来的商业风险。
+
+He shared an insight from OpenAI VP of Product Ashley Yuki, who took a month off when both parents were diagnosed with cancer simultaneously — calling it one of the best decisions she ever made.
+他分享了 OpenAI 产品副总裁 Ashley Yuki 的故事，当双亲相继被诊出癌症时，她果断请了一个月假，并称这是她做过的最好决定之一。
 
 Sources:
-- https://x.com/thsottiaux/status/2119305294291612140
-- https://x.com/thsottiaux/status/2119296267545419987
-- https://x.com/thsottiaux/status/2118953362725159104
+- https://x.com/petergyang/status/2119657833516171384
+- https://x.com/petergyang/status/2119595860057288967
+- https://x.com/petergyang/status/2119556651636441416
 
 ---
 
-**Amjad Masad** (CEO, Replit)
+### Nan Yu (thenanyu on X) — Software Engineer / Builder
 
-Amjad Masad shared a visit to Kazakhstan, calling it a "super AI pilled government" and noting it could be a strong candidate for a Network School location.
-Amjad Masad 分享了访问哈萨克斯坦的经历，称其政府"极度 AI 化"，并指出该国是 Network School 的有力候选地。
+Nan Yu is reflecting on software design philosophy and the importance of clarity in building.
+Nan Yu 分享了对软件设计哲学和构建清晰度重要性的思考。
 
-He also shared a link to "The Better Lesson," suggesting it as a noteworthy read.
-他还分享了一篇名为"The Better Lesson"的文章，推荐为值得一读的内容。
+He argues that *"dumb"* is better than *"simple"* as a starting point: *"Simple is something you iterate to. Dumb is the correct starting point. Otherwise, you start to outsmart yourself."*
+他认为"笨"比"简单"更适合作为起点：*"Simple is something you iterate to. Dumb is the correct starting point. Otherwise, you start to outsmart yourself."* — 追求简洁是迭代的结果，而不是出发点。
+
+He also observes that *"Software got a lot easier if you know what you wanna build, and a lot harder if you don't"* — with clarity you can go straight to the solution; without it, you'll ship junk.
+他还指出：*"Software got a lot easier if you know what you wanna build, and a lot harder if you don't"* — 想清楚要做什么，软件开发就变简单了；没想清楚，就只会堆砌垃圾。
 
 Sources:
-- https://x.com/amasad/status/2119217304953053419
-- https://x.com/amasad/status/2119126064815608270
+- https://x.com/thenanyu/status/2119493015190249556
+- https://x.com/thenanyu/status/2119462979179892925
+- https://x.com/thenanyu/status/2119462224721002560
 
 ---
 
-**Aaron Levie** (CEO, Box)
+### Guillermo Rauch (rauchg on X) — CEO, Vercel
 
-Aaron Levie made a bold claim: *"This sounds extreme and I wouldn't have believed it even a year ago, but we're starting to see plenty of examples of productivity gains that are an order of magnitude or two above output levels pre-AI."*
-Aaron Levie 提出了一个大胆论断：*"这听起来很极端，就连一年前我自己也不会相信，但我们正在看到大量案例，生产力提升已达到 AI 前水平的一到两个数量级。"*
+Guillermo Rauch built a physical simulation of a record player using WebGL2 and Web Audio.
+Guillermo Rauch 用 WebGL2 和 Web Audio 构建了一个黑胶唱片机的物理仿真。
 
-He also noted that AI agents are uniquely location-agnostic — their inference can run anywhere — making AI one of the few tech areas not heavily penalized by latency.
-他还指出，AI agent 天然不受地理限制，推理可以在任何地方运行，使 AI 成为少数不被延迟严重拖累的技术领域。
+He described it as *"shockingly accurate"* — the demo works by converting a song into the physical groove patterns that would be pressed onto a vinyl record.
+他形容效果"出奇地精准" — 这个 demo 通过将歌曲转换为黑胶唱片上实际刻槽的物理纹路来模拟播放。
+
+This demonstrates the increasingly creative and technical applications of WebGL and browser APIs.
+这展示了 WebGL 与浏览器 API 日益丰富的创意与技术应用可能性。
+
+Source:
+- https://x.com/rauchg/status/2119536313712230802
+
+---
+
+### Aaron Levie (levie on X) — CEO, Box
+
+Box CEO Aaron Levie is articulating a major shift in how AI is being used in business.
+Box CEO Aaron Levie 正在阐述 AI 在商业中使用方式的重大转变。
+
+He describes moving from conversational AI to *"a period where you can set a problem for a set of agents to solve"* — a fundamental change in the way humans interact with AI.
+他描述了从对话式 AI 过渡到 *"a period where you can set a problem for a set of agents to solve"* 的时代——这是人类与 AI 交互方式的根本性变化。
+
+He also advises that *"you need to check back in on the latest with every 3 to 6 months to try something that wasn't possible before"* — because AI's pace of progress means old limitations may no longer apply.
+他还建议每 3 至 6 个月重新审视 AI 的最新进展，去尝试以前无法实现的事情 — 因为 AI 的进步速度意味着过去的限制可能已经不复存在。
 
 Sources:
-- https://x.com/levie/status/2119111328099168409
-- https://x.com/levie/status/2118953909524050288
+- https://x.com/levie/status/2119592025440092192
+- https://x.com/levie/status/2119502716770902234
 
 ---
 
-**Garry Tan** (CEO, Y Combinator)
+### Ryo Lu (ryolu_ on X) — AI Builder / Designer
 
-Garry Tan argued that human progress through superintelligence — in science, medicine, and engineering — will be the defining political issue of the next decade.
-Garry Tan 认为，通过超级智能推动人类在科学、医学和工程领域的进步，将成为未来十年最核心的政治议题。
+Ryo Lu shared his full talk from the AI Engineer Shanghai conference.
+Ryo Lu 分享了他在 AI Engineer 上海峰会的完整演讲。
 
-He lamented that WIRED has become a shadow of its former self.
-他感叹《连线》杂志已今非昔比，大不如前。
+The talk is titled *"When we can do anything, do we still know what we want?"* — a philosophical exploration of agency, direction, and intention in the age of AI.
+演讲主题是 *"When we can do anything, do we still know what we want?"* — 在 AI 时代，关于能动性、方向感和意图的哲学探索。
 
-He also highlighted an essay on abundance, with a pointed dig at NIMBYs who resist progress.
-他还分享了一篇关于"丰裕"的文章，并借机讽刺了阻碍进步的 NIMBY 群体。
+Every slide was handmade in Keynote, and the talk includes subtitles in both Chinese and English.
+每张幻灯片均手工制作于 Keynote，演讲同时提供中英文字幕。
+
+Source:
+- https://x.com/ryolu_/status/2119586846657454152
+
+---
+
+### Garry Tan (garrytan on X) — CEO, Y Combinator
+
+YC CEO Garry Tan is excited about the coming era of personal software and software factories.
+YC CEO Garry Tan 对即将到来的个人软件时代和软件工厂充满期待。
+
+He tested an AI engineering benchmark article and found that the results replicated, noting *"particle-1 is even better"* — sharing empirical validation of AI coding tools.
+他测试了一篇 AI 工程基准文章，发现结果可复现，并指出 *"particle-1 is even better"* — 分享了对 AI 编码工具的实证验证。
+
+He also declared *"You're really going to want your own software factory"* and noted that once you realize how easily software can be changed with frontier models, existing bugs become *"a little bit unbearable"* — making personal just-in-time software inevitable.
+他还宣称"你真的会想拥有自己的软件工厂"，并指出一旦意识到前沿模型能多么轻松地修改软件，现有的 bug 就变得"有些难以忍受" — 这让个人即时软件成为必然趋势。
 
 Sources:
-- https://x.com/garrytan/status/2119172824271360124
-- https://x.com/garrytan/status/2119146939514278238
-- https://x.com/garrytan/status/2119142686422859899
+- https://x.com/garrytan/status/2119624260675350605
+- https://x.com/garrytan/status/2119615647592395037
+- https://x.com/garrytan/status/2119612084220842483
 
 ---
 
-**Zara Zhang** (Investor, GGV Capital)
+### Matt Turck (mattturck on X) — Partner, FirstMark Capital
 
-Zara Zhang pushed back against startup fatalism: startups' fates are made, not predetermined.
-Zara Zhang 反驳了创业宿命论：创业公司的命运是被创造出来的，而非命中注定。
+FirstMark Capital partner Matt Turck is sharing his appreciation for political and tech satire.
+FirstMark Capital 合伙人 Matt Turck 分享了他对政治和科技讽刺内容的欣赏。
 
-*"So many people speak of startup as if their fates are predestined... But startups' fates are MADE, not predetermined."*
-*"太多人谈论创业，好像它的命运早已注定……但创业公司的命运是被创造出来的，而非预先决定的。"*
+He praised comedian Jeremy Culhane's impression of Elon Musk, calling it *"Absolutely epic run"* after the comedian previously nailed a Tucker Carlson impersonation.
+他称赞了喜剧演员 Jeremy Culhane 对埃隆·马斯克的模仿，称之为"绝对史诗级的表演"——此前该喜剧演员对塔克·卡尔森的模仿也大获好评。
 
-Given one idea, there are countless paths — the outcome depends on the choices founders make, not the idea itself.
-面对同一个想法，有无数条路可以走——结果取决于创始人的选择，而非想法本身。
-
-Source: https://x.com/zarazhangrui/status/2118968862557475298
-
----
-
-**Nikunj Kothari** (Partner, a16z)
-
-Nikunj Kothari announced the next guest for his series: Daniel Rupawalla, co-founder of Arcanum Labs, joining on November 11th to discuss the data market — what AI labs are buying, who is selling, and related dynamics.
-Nikunj Kothari 公布了其系列活动的下一位嘉宾：Arcanum Labs 联合创始人 Daniel Rupawalla，将于 11 月 11 日出席，探讨数据市场——AI 实验室在购买什么、谁在出售，以及相关市场动态。
-
-He also shared a tongue-in-cheek playbook on how startups generate investor FOMO for a Series A by vague-posting revenue metrics with no y-axis.
-他还分享了一套半开玩笑的"攻略"，讲述初创公司如何通过发布没有纵轴的模糊营收图表，制造投资人对 A 轮的 FOMO 情绪。
+When trolls pushed back, he defended the humor: *"it's ok for comedians to attempt to poke some fun, relax!"*
+当网络喷子反击时，他为这种幽默辩护：*"it's ok for comedians to attempt to poke some fun, relax!"*
 
 Sources:
-- https://x.com/nikunj/status/2119229917019971879
-- https://x.com/nikunj/status/2119162212044742938
+- https://x.com/mattturck/status/2119525416780361766
+- https://x.com/mattturck/status/2119457959625498698
 
 ---
 
-**Peter Steinberger** (CEO, PSPDFKit / Nutrient)
+### Zara Zhang (zarazhangrui on X) — AI Builder / Investor
 
-Peter Steinberger criticized Apple's AI restrictions as contrary to the spirit of the Asahi project, which was all about opening up closed systems.
-Peter Steinberger 批评苹果的 AI 限制条款，认为这与 Asahi 项目开放封闭系统的精神背道而驰。
+Zara Zhang is rethinking the term "vibe coding" and sharing a philosophical take on product building.
+Zara Zhang 正在重新审视"氛围编程"这一术语，并分享对产品构建的哲学思考。
 
-*"The Asahi project was all about taking something closed and restricted and opening it up. Adding new restrictions that make it harder for other projects to build on that is not the way."*
-*"Asahi 项目的核心就是将封闭受限的东西开放出来。而增加新的限制，让其他项目更难在此基础上构建，绝非正确之道。"*
+She writes that she has *"almost stopped using the term 'vibe coding' because there's a negative connotation to it"* — it implies low effort and AI slop, but often the output is deeply intentional.
+她写道，她"几乎不再使用'氛围编程'这个词，因为它有负面含义" — 这个词暗示低投入和 AI 垃圾产出，但实际上很多时候产出是经过深思熟虑的。
 
-Source: https://x.com/steipete/status/2119264334627090514
+She also reflects that *"the joy of building a product comes from the collision between the predictability of how technology behaves & the unpredictability of how humans behave."*
+她还思考道：*"the joy of building a product comes from the collision between the predictability of how technology behaves & the unpredictability of how humans behave."* — 构建产品的乐趣来自技术行为的可预测性与人类行为的不可预测性之间的碰撞。
+
+Sources:
+- https://x.com/zarazhangrui/status/2119592080318341128
+- https://x.com/zarazhangrui/status/2119342420412510686
 
 ---
 
-**Aditya Agarwal** (Former CTO, Dropbox; Investor)
+### Nikunj Kothari (nikunj on X) — Builder / Investor
 
-Aditya Agarwal made a clear-eyed investment thesis: if building new data centers gets harder, existing capacity holders — the hyperscalers — become dramatically more valuable.
-Aditya Agarwal 提出了一个清醒的投资逻辑：如果新建数据中心变得更加困难，那些已有算力的超大规模云厂商将变得极具价值。
+Nikunj Kothari is offering practical advice for people visiting San Francisco who want to network authentically.
+Nikunj Kothari 正在为想在旧金山真诚社交的访客提供实用建议。
 
-*"It's not like the demand for the spice is going away."*
-*"对'香料'的需求不会消失。"*
+He shared a list of phrases to remove from your vocabulary when meeting people in SF, including terms like "swap notes," "synergies," "pick your brain," "networking," and "san fran."
+他分享了一份在旧金山见面时应从词汇表中删除的词语清单，包括"swap notes"、"synergies"、"pick your brain"、"networking"以及"san fran"等。
 
-Source: https://x.com/adityaag/status/2119157297167372646
+The implication is that authentic, direct communication is valued in the SF tech community over corporate buzzwords.
+这暗示在旧金山科技社区，真实、直接的沟通比企业流行语更受重视。
 
-═══════════════════════════════════════
+Source:
+- https://x.com/nikunj/status/2119670529254981756
+
+---
+
+## PODCASTS
+
+### Latent Space: [One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco
+
+This episode celebrates one million subscribers on the AI Engineer YouTube channel, featuring Mihail Eric — Adjunct Professor at Stanford and Head of AI at Monaco.
+本集庆祝 AI Engineer YouTube 频道突破一百万订阅，特邀嘉宾为 Stanford 兼职教授、Monaco AI 负责人 Mihail Eric。
+
+Mihail teaches CS 146S, "The Modern Software Developer," a course he's now teaching for the second time after refreshing it to reflect the dramatic rise of autonomous coding agents.
+Mihail 讲授 CS 146S 课程"现代软件开发者"，这是他第二次开设这门课，内容已更新以反映自主编程智能体的迅猛崛起。
+
+The course covers 10 weeks of AI-native engineering: from building a coding agent from scratch in 200 lines, to context engineering, agent skills and procedures, agent-ready codebases, agentic code review, security, background agents, team-level LLM infrastructure, and the software factory.
+该课程涵盖 10 周的 AI 原生工程内容：从用 200 行代码从头构建编程智能体，到上下文工程、智能体技能与流程、适合智能体的代码库、智能体代码审查、安全性、后台智能体、团队级 LLM 基础设施，直至软件工厂。
+
+A key insight: *"A well-trained AI-native engineer can be some of the most useful assets at any company."*
+核心洞见：*"A well-trained AI-native engineer can be some of the most useful assets at any company."* — 训练有素的 AI 原生工程师可以成为任何公司最宝贵的资产。
+
+He also advocates for starting with the "dumbest" architecture, emphasizing that simplicity is iterated toward — not started with.
+他还提倡从"最笨"的架构起步，强调简洁是迭代的结果，而非起点。
+
+On skills: the episode debates whether agent skills (SKILL.md files) are slop or genuine org-level knowledge encoding — a lively discussion about what good skills look like and when they trigger unexpectedly.
+关于技能：本集讨论了智能体技能（SKILL.md 文件）究竟是 AI 垃圾还是真正的组织级知识编码 — 围绕什么是好的技能、以及技能何时意外触发展开了热烈讨论。
+
+A unique aspect of the course: students contribute to real open-source AI-native repos as part of their assignments, connecting them with maintainers and building real-world skills.
+该课程的独特之处：学生将真实开源 AI 原生代码库的贡献作为作业的一部分，与维护者建立联系，培养真实世界的技能。
+
+Episode URL: https://www.youtube.com/watch?v=dpY7YzZo4kE
+
+---
 
 Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
