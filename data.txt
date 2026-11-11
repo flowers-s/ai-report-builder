@@ -1,206 +1,314 @@
-AI Builders 日报 · 2026-11-10
+AI Builders 日报 · 2026-11-11
+
+Today's digest covers 15 AI builders on X/Twitter and 1 podcast from Latent Space, all centered around the launch of Claude Fable 5.2 by Anthropic.
+今日日报涵盖15位AI建造者的X/Twitter动态，以及一期Latent Space播客，内容聚焦于Anthropic发布的Claude Fable 5.2。
 
 ---
 
 ## X / TWITTER
 
-### Swyx (swyx on X) — AI Engineer, Latent Space Co-host
+---
 
-Swyx is promoting new content and highlighting how companies implement AI effectively.
-Swyx 正在推广新内容，并重点介绍公司如何有效落地 AI。
+### Swyx (swyx on X)
 
-He shared a podcast episode and asked if listeners are paying attention to the latest AI engineering developments.
-他分享了一期播客，并问听众是否关注了最新的 AI 工程进展。
+Swyx is reacting to the Claude Fable 5.2 launch with excitement and some insider knowledge.
+Swyx 对 Claude Fable 5.2 的发布表现出浓厚兴趣，并透露了一些内幕信息。
 
-He also highlighted Pauline Brunet, VP of FDE, for curating valuable content on how AI builders operate.
-他还特别提到 FDE 副总裁 Pauline Brunet 策划了一批关于 AI 构建者运作方式的优质内容。
+He noted that someone proved Fermat's Last Theorem as a demo for the Fable 5.2 launch, and teased something even bigger is planned for an upcoming AI Engineering code talk.
+他提到有人将费马大定理的证明作为 Fable 5.2 的发布演示，并暗示在即将到来的 AI Engineering 代码演讲中还有更大的惊喜。
+
+*"bro just proved fermat's last theorem AS A DEMO for the fable 5.2 launch and casually told me he's got something bigger planned for his aie code talk lol anthropic u guys are wildin"*
+*"哥们把费马大定理的证明当成 Fable 5.2 发布的演示 demo，还随口说在 AIE 代码演讲里还有更大的，哈哈 Anthropic 你们真是疯了"*
+
+He also pointed out that the $ANT IPO roadshow on Wall Street started on the same day as the launch, calling it a remarkable coincidence.
+他还指出，$ANT 在华尔街的 IPO 路演恰好在同一天启动，称这是一个惊人的巧合。
 
 Sources:
-- https://x.com/swyx/status/2119611058881192187
-- https://x.com/swyx/status/2119550477629379009
-- https://x.com/swyx/status/2119543788192600450
+- https://x.com/swyx/status/2119935240202539147
+- https://x.com/swyx/status/2119878742063641056
+- https://x.com/swyx/status/2119990961459921395
 
 ---
 
-### Peter Yang (petergyang on X) — Product Leader
+### Boris Cherny (bcherny on X) — Anthropic Engineer
 
-Peter Yang is sharing observations on business consequences, work-life balance, and relationship dynamics across cultures.
-Peter Yang 分享了对商业后果、工作与生活平衡以及跨文化关系动态的观察。
+Boris Cherny announced a new loyalty feature shipped with Claude Fable 5.2: subscribers who have been with Anthropic the longest get more Fable resets.
+Boris Cherny 宣布了随 Claude Fable 5.2 一同推出的新忠诚度特性：订阅时间越长的用户，可以获得更多 Fable 重置次数。
 
-He commented on a high-profile affair situation, noting *"This affair is going to destroy billions in shareholder value isn't it"* — pointing to the business risks of personal scandals.
-他评论了一起高知名度的出轨事件，指出 *"This affair is going to destroy billions in shareholder value isn't it"* — 揭示了个人丑闻带来的商业风险。
+*"We wanted to do more for the people who've been with us the longest. So with Fable 5.2, the longer you've been subscribed, the more Fable resets you get."*
+*"我们希望为陪伴我们最久的用户做更多。因此在 Fable 5.2 中，订阅时间越长，获得的 Fable 重置次数就越多。"*
 
-He shared an insight from OpenAI VP of Product Ashley Yuki, who took a month off when both parents were diagnosed with cancer simultaneously — calling it one of the best decisions she ever made.
-他分享了 OpenAI 产品副总裁 Ashley Yuki 的故事，当双亲相继被诊出癌症时，她果断请了一个月假，并称这是她做过的最好决定之一。
+Pro users get one reset, while Max, Ultra, and Team Premium users get up to three resets depending on subscription length.
+Pro 用户获得一次重置机会，Max、Ultra 和 Team Premium 用户根据订阅时长最多可获得三次重置。
 
 Sources:
-- https://x.com/petergyang/status/2119657833516171384
-- https://x.com/petergyang/status/2119595860057288967
-- https://x.com/petergyang/status/2119556651636441416
+- https://x.com/bcherny/status/2119873095129550880
+- https://x.com/bcherny/status/2119890820186976763
 
 ---
 
-### Nan Yu (thenanyu on X) — Software Engineer / Builder
+### Thibault Sottiaux (thsottiaux on X)
 
-Nan Yu is reflecting on software design philosophy and the importance of clarity in building.
-Nan Yu 分享了对软件设计哲学和构建清晰度重要性的思考。
+Thibault announced that Dots, an AI agent product, can now control many machines beyond just its own built-in cloud computer.
+Thibault 宣布，AI 代理产品 Dots 现在可以控制许多机器，而不仅限于其自带的云端计算机。
 
-He argues that *"dumb"* is better than *"simple"* as a starting point: *"Simple is something you iterate to. Dumb is the correct starting point. Otherwise, you start to outsmart yourself."*
-他认为"笨"比"简单"更适合作为起点：*"Simple is something you iterate to. Dumb is the correct starting point. Otherwise, you start to outsmart yourself."* — 追求简洁是迭代的结果，而不是出发点。
-
-He also observes that *"Software got a lot easier if you know what you wanna build, and a lot harder if you don't"* — with clarity you can go straight to the solution; without it, you'll ship junk.
-他还指出：*"Software got a lot easier if you know what you wanna build, and a lot harder if you don't"* — 想清楚要做什么，软件开发就变简单了；没想清楚，就只会堆砌垃圾。
+This is a meaningful expansion of what autonomous AI agents can reach and operate.
+这标志着自主 AI 代理的操控范围有了实质性的扩展。
 
 Sources:
-- https://x.com/thenanyu/status/2119493015190249556
-- https://x.com/thenanyu/status/2119462979179892925
-- https://x.com/thenanyu/status/2119462224721002560
+- https://x.com/thsottiaux/status/2120021043876106429
 
 ---
 
-### Guillermo Rauch (rauchg on X) — CEO, Vercel
+### Peter Yang (petergyang on X) — Product/Creator
 
-Guillermo Rauch built a physical simulation of a record player using WebGL2 and Web Audio.
-Guillermo Rauch 用 WebGL2 和 Web Audio 构建了一个黑胶唱片机的物理仿真。
+Peter Yang shared playful creative experiments with AI image and game generation tools.
+Peter Yang 分享了他用 AI 图像和游戏生成工具进行的趣味创意实验。
 
-He described it as *"shockingly accurate"* — the demo works by converting a song into the physical groove patterns that would be pressed onto a vinyl record.
-他形容效果"出奇地精准" — 这个 demo 通过将歌曲转换为黑胶唱片上实际刻槽的物理纹路来模拟播放。
-
-This demonstrates the increasingly creative and technical applications of WebGL and browser APIs.
-这展示了 WebGL 与浏览器 API 日益丰富的创意与技术应用可能性。
-
-Source:
-- https://x.com/rauchg/status/2119536313712230802
-
----
-
-### Aaron Levie (levie on X) — CEO, Box
-
-Box CEO Aaron Levie is articulating a major shift in how AI is being used in business.
-Box CEO Aaron Levie 正在阐述 AI 在商业中使用方式的重大转变。
-
-He describes moving from conversational AI to *"a period where you can set a problem for a set of agents to solve"* — a fundamental change in the way humans interact with AI.
-他描述了从对话式 AI 过渡到 *"a period where you can set a problem for a set of agents to solve"* 的时代——这是人类与 AI 交互方式的根本性变化。
-
-He also advises that *"you need to check back in on the latest with every 3 to 6 months to try something that wasn't possible before"* — because AI's pace of progress means old limitations may no longer apply.
-他还建议每 3 至 6 个月重新审视 AI 的最新进展，去尝试以前无法实现的事情 — 因为 AI 的进步速度意味着过去的限制可能已经不复存在。
+He turned his 8-year-old's drawings into kart racers and upgraded the music, showcasing how AI tools are democratizing creative production for families.
+他把8岁孩子的涂鸦变成了卡丁车赛车游戏角色，还为游戏升级了背景音乐，展示了 AI 工具如何让家庭创意制作变得更触手可及。
 
 Sources:
-- https://x.com/levie/status/2119592025440092192
-- https://x.com/levie/status/2119502716770902234
+- https://x.com/petergyang/status/2120026112722137345
+- https://x.com/petergyang/status/2120020729546862979
+- https://x.com/petergyang/status/2120019538763002179
 
 ---
 
-### Ryo Lu (ryolu_ on X) — AI Builder / Designer
+### Nan Yu (thenanyu on X)
 
-Ryo Lu shared his full talk from the AI Engineer Shanghai conference.
-Ryo Lu 分享了他在 AI Engineer 上海峰会的完整演讲。
+Nan Yu shared a practical tip for ChatGPT subscribers: turn on global dictation in settings.
+Nan Yu 分享了一个对 ChatGPT 订阅用户实用的小技巧：在设置中开启全局听写功能。
 
-The talk is titled *"When we can do anything, do we still know what we want?"* — a philosophical exploration of agency, direction, and intention in the age of AI.
-演讲主题是 *"When we can do anything, do we still know what we want?"* — 在 AI 时代，关于能动性、方向感和意图的哲学探索。
-
-Every slide was handmade in Keynote, and the talk includes subtitles in both Chinese and English.
-每张幻灯片均手工制作于 Keynote，演讲同时提供中英文字幕。
-
-Source:
-- https://x.com/ryolu_/status/2119586846657454152
-
----
-
-### Garry Tan (garrytan on X) — CEO, Y Combinator
-
-YC CEO Garry Tan is excited about the coming era of personal software and software factories.
-YC CEO Garry Tan 对即将到来的个人软件时代和软件工厂充满期待。
-
-He tested an AI engineering benchmark article and found that the results replicated, noting *"particle-1 is even better"* — sharing empirical validation of AI coding tools.
-他测试了一篇 AI 工程基准文章，发现结果可复现，并指出 *"particle-1 is even better"* — 分享了对 AI 编码工具的实证验证。
-
-He also declared *"You're really going to want your own software factory"* and noted that once you realize how easily software can be changed with frontier models, existing bugs become *"a little bit unbearable"* — making personal just-in-time software inevitable.
-他还宣称"你真的会想拥有自己的软件工厂"，并指出一旦意识到前沿模型能多么轻松地修改软件，现有的 bug 就变得"有些难以忍受" — 这让个人即时软件成为必然趋势。
+It uses the same fast and accurate transcription path as the in-app dictation, delivering extra value many subscribers don't know they have.
+该功能使用与应用内听写相同的快速准确转录路径，许多订阅用户并不知道自己已经拥有这项功能。
 
 Sources:
-- https://x.com/garrytan/status/2119624260675350605
-- https://x.com/garrytan/status/2119615647592395037
-- https://x.com/garrytan/status/2119612084220842483
+- https://x.com/thenanyu/status/2120037431261184454
 
 ---
 
-### Matt Turck (mattturck on X) — Partner, FirstMark Capital
+### Madhu Guru (realmadhuguru on X) — Product Leader
 
-FirstMark Capital partner Matt Turck is sharing his appreciation for political and tech satire.
-FirstMark Capital 合伙人 Matt Turck 分享了他对政治和科技讽刺内容的欣赏。
+Madhu Guru offered a sharp challenge to product leaders: map your product lifecycle, then ask where AI can deepen every stage.
+Madhu Guru 向产品领导者提出了一个犀利的挑战：梳理你的产品生命周期，然后思考 AI 能在哪些环节加深每个阶段的价值。
 
-He praised comedian Jeremy Culhane's impression of Elon Musk, calling it *"Absolutely epic run"* after the comedian previously nailed a Tucker Carlson impersonation.
-他称赞了喜剧演员 Jeremy Culhane 对埃隆·马斯克的模仿，称之为"绝对史诗级的表演"——此前该喜剧演员对塔克·卡尔森的模仿也大获好评。
-
-When trolls pushed back, he defended the humor: *"it's ok for comedians to attempt to poke some fun, relax!"*
-当网络喷子反击时，他为这种幽默辩护：*"it's ok for comedians to attempt to poke some fun, relax!"*
+He argues PMs should use AI to build broader market understanding, iterate faster on prototypes, explore code constraints, run their own analytics, and understand GTM funnels more deeply — not to replace other roles, but to genuinely raise the bar on what a PM can accomplish.
+他认为，产品经理应利用 AI 建立更广泛的市场理解、加快原型迭代、探索代码约束、自主进行数据分析、深入理解 GTM 漏斗——不是为了替代其他角色，而是真正提升 PM 能够完成工作的天花板。
 
 Sources:
-- https://x.com/mattturck/status/2119525416780361766
-- https://x.com/mattturck/status/2119457959625498698
+- https://x.com/realmadhuguru/status/2119999748086362466
 
 ---
 
-### Zara Zhang (zarazhangrui on X) — AI Builder / Investor
+### Amjad Masad (amasad on X) — Replit CEO
 
-Zara Zhang is rethinking the term "vibe coding" and sharing a philosophical take on product building.
-Zara Zhang 正在重新审视"氛围编程"这一术语，并分享对产品构建的哲学思考。
+Amjad Masad made two significant moves today: he shared Paul Graham's reaction to seeing vibe coding for the first time back in July 2024, and announced a new Japanese book on enterprise vibe coding.
+Amjad Masad 今天有两个重要动作：分享了 Paul Graham 在2024年7月第一次看到 vibe coding 时的反应，以及宣布了一本关于企业级 vibe coding 的日文新书。
 
-She writes that she has *"almost stopped using the term 'vibe coding' because there's a negative connotation to it"* — it implies low effort and AI slop, but often the output is deeply intentional.
-她写道，她"几乎不再使用'氛围编程'这个词，因为它有负面含义" — 这个词暗示低投入和 AI 垃圾产出，但实际上很多时候产出是经过深思熟虑的。
+He also countered the "who maintains vibe coded apps?" skepticism by hinting at the future: self-healing software.
+他还反驳了"谁来维护 vibe coded 应用？"这一质疑，暗示未来的答案是：自愈软件。
 
-She also reflects that *"the joy of building a product comes from the collision between the predictability of how technology behaves & the unpredictability of how humans behave."*
-她还思考道：*"the joy of building a product comes from the collision between the predictability of how technology behaves & the unpredictability of how humans behave."* — 构建产品的乐趣来自技术行为的可预测性与人类行为的不可预测性之间的碰撞。
+*"But who maintains vibe coded apps? How about self-healing software..."*
+*"但谁来维护 vibe coded 应用呢？答案是：自愈软件……"*
 
 Sources:
-- https://x.com/zarazhangrui/status/2119592080318341128
-- https://x.com/zarazhangrui/status/2119342420412510686
+- https://x.com/amasad/status/2119965240066752682
+- https://x.com/amasad/status/2119909166764667292
+- https://x.com/amasad/status/2119893236747780567
 
 ---
 
-### Nikunj Kothari (nikunj on X) — Builder / Investor
+### Guillermo Rauch (rauchg on X) — Vercel CEO
 
-Nikunj Kothari is offering practical advice for people visiting San Francisco who want to network authentically.
-Nikunj Kothari 正在为想在旧金山真诚社交的访客提供实用建议。
+Guillermo Rauch delivered two high-signal posts today: a bullish take on MCP as a civilization-scale protocol, and an early verdict on Claude Fable 5.2.
+Guillermo Rauch 今天发出两条高质量推文：一是对 MCP 协议的看涨判断，二是对 Claude Fable 5.2 的早期评测。
 
-He shared a list of phrases to remove from your vocabulary when meeting people in SF, including terms like "swap notes," "synergies," "pick your brain," "networking," and "san fran."
-他分享了一份在旧金山见面时应从词汇表中删除的词语清单，包括"swap notes"、"synergies"、"pick your brain"、"networking"以及"san fran"等。
+On MCP, he argues it goes beyond the "Model Context" framing — getting all systems communicating through one universal open protocol would be a civilization-scale accomplishment.
+关于 MCP，他认为其价值已超越"模型上下文"的定位——让所有系统通过一个通用开放协议互通，将是文明级别的成就。
 
-The implication is that authentic, direct communication is valued in the SF tech community over corporate buzzwords.
-这暗示在旧金山科技社区，真实、直接的沟通比企业流行语更受重视。
+He also highlighted MCP Events as a critical missing piece: agents can now subscribe to events like deployment.succeeded instead of polling.
+他还强调了 MCP Events 填补了关键缺失：代理现在可以订阅 deployment.succeeded 等事件，而无需轮询。
 
-Source:
-- https://x.com/nikunj/status/2119670529254981756
+*"So bullish on MCP. Its utility exceeds the 'M' part: even AI aside, it'll be a civilization-scale accomplishment to get all our systems communicating through one universal open protocol."*
+*"对 MCP 极度看涨。它的价值已超越'M'这个字母本身：即使撇开 AI 不谈，让所有系统通过一个通用开放协议互通，将是文明级别的成就。"*
+
+On Fable 5.2, Vercel had early access, and his verdict: *"astonishingly brilliant"* — with a key insight that the new generation of models can take on unprecedented bodies of parallel work, and your bottleneck is now your ambition and parallel computing power.
+关于 Fable 5.2，Vercel 获得了早期访问权限，他的评价是：*"惊人的聪慧"*——并指出关键洞察：新一代模型可以承担前所未有的并行工作量，你的瓶颈现在是你的雄心壮志和并行算力。
+
+Sources:
+- https://x.com/rauchg/status/2119891138450755670
+- https://x.com/rauchg/status/2119878364794372162
+
+---
+
+### Alex Albert (alexalbert__ on X) — Anthropic Head of Developer Relations
+
+Alex Albert shared three perspectives on Claude Fable 5.2 from the inside.
+Alex Albert 从内部视角分享了对 Claude Fable 5.2 的三个观察。
+
+He fed Fable 5.2 a PDF of one of Leonardo da Vinci's 500-year-old notebooks, and it made the inventions interactive — calling it an exciting time for education.
+他将达芬奇500年前手稿的 PDF 交给 Fable 5.2，模型将其中的发明变成了可互动的内容——他称这是教育领域令人振奋的时刻。
+
+He shared his go-to prompt for every new model: *"Read this entire project and find everything that's broken, inconsistent, inefficient, or no longer needed. Fix what you're sure about and list the rest for me to review."*
+他分享了每次新模型发布时都会使用的提示词：*"通读整个项目，找出所有存在问题、不一致、低效或已不再需要的地方。确定的直接修复，其余列出来让我复查。"*
+
+He also made a bold prediction: robotics will follow the bitter lesson too — meaning scale and learned representations will beat handcrafted solutions.
+他还做出了一个大胆预测：机器人领域也将遵循"苦涩的教训"——即规模和学习型表示最终会胜过手工设计的解决方案。
+
+Sources:
+- https://x.com/alexalbert__/status/2119916954337349737
+- https://x.com/alexalbert__/status/2119884951550386671
+- https://x.com/alexalbert__/status/2119869925288558799
+
+---
+
+### Aaron Levie (levie on X) — Box CEO
+
+Aaron Levie made a sweeping claim: advances in coding and computer use, combined with industry-specific understanding, can now bring automation to a large number of knowledge work areas that haven't had their "Claude Code moment" yet.
+Box CEO Aaron Levie 做出了一个宏观判断：编程和计算机使用能力的进步，结合行业专业知识，现在可以将自动化带入许多尚未迎来"Claude Code 时刻"的知识工作领域。
+
+He named animation, film production, gaming, manufacturing, architecture, product design, and robotics as fields about to see the same output explosion that software engineering experienced.
+他列举了动画、影视制作、游戏、制造业、建筑、产品设计和机器人等领域，认为它们即将经历软件工程领域同等规模的产出爆炸。
+
+*"'Software is eating the world' is finally in a much bigger way happening because of AI."*
+*"'软件正在吞噬世界'这一论断，正因为 AI 而以更大规模真正实现。"*
+
+Sources:
+- https://x.com/levie/status/2119987129204047894
+
+---
+
+### Garry Tan (garrytan on X) — Y Combinator CEO
+
+Garry Tan celebrated the Claude Fable 5.2 launch with characteristic enthusiasm, calling it a "red letter day."
+YC CEO Garry Tan 以一贯的热情庆祝 Claude Fable 5.2 的发布，称之为"值得纪念的一天"。
+
+*"Red letter day: New frontier model = every one of your projects gets a step function improvement. I'm not sure if I'll ever get sick of frontier model release days."*
+*"值得纪念的一天：新前沿模型发布 = 你的每个项目都获得阶跃式提升。我不确定自己是否会对前沿模型发布日产生审美疲劳。"*
+
+Sources:
+- https://x.com/garrytan/status/2119882192088391751
+
+---
+
+### Nikunj Kothari (nikunj on X)
+
+Nikunj Kothari raised an important warning about AI-assisted work: people notice when you're just feeding everything to AI and regurgitating it back — because they're probably getting the same output from the same agents.
+Nikunj Kothari 提出了一个关于 AI 辅助工作的重要警告：人们能察觉出你只是把所有东西丢给 AI 再原样复述——因为他们可能也在用同样的代理得到同样的输出。
+
+This is a sharp critique of shallow AI use, emphasizing that genuine human judgment and original synthesis still matter.
+这是对浅层 AI 使用方式的犀利批评，强调真正的人类判断力和原创性综合能力依然至关重要。
+
+Sources:
+- https://x.com/nikunj/status/2119850705901191339
+
+---
+
+### Dan Shipper (danshipper on X) — Every CEO
+
+Dan Shipper delivered the most detailed day-zero vibe check for Claude Fable 5.2, drawing on real experiments from the Every team.
+Every CEO Dan Shipper 发布了对 Claude Fable 5.2 最详尽的零日体验评测，基于 Every 团队的真实实验。
+
+One team member built Everycut — a video editor combining features from Premiere, Descript, and other tools — in just 3 days using Fable 5.2.
+一位团队成员仅用3天就用 Fable 5.2 构建了 Everycut——一款集合了 Premiere、Descript 等工具核心功能的视频编辑器。
+
+Another turned a photo of a toddler's messy playroom into a playable racing game, with the stray shoe as an obstacle and a sippy cup as a power-up.
+另一位成员将一张幼儿凌乱游戏室的照片变成了可玩的赛车游戏，散落的鞋子成了障碍物，吸管杯成了道具加成。
+
+A third turned research into a documentary: the model generated interview questions, the person answered them on camera, and the model cut the footage together.
+第三位成员将研究内容制作成纪录片：模型生成采访问题，本人对着镜头作答，模型再将素材剪辑成片。
+
+His key advice: give it a big job, leave it running overnight, but define what "done" means clearly — including the testing phase.
+他的核心建议：给它一个大任务，让它在夜间运行，但要清晰定义"完成"的标准——包括测试阶段。
+
+His honest caveat: *"It's slow and burns through tokens... for everyday writing, emails, or quick back-and-forth coding, I'd usually reach for something else."*
+他也坦诚地指出局限：*"速度慢，消耗大量 token……对于日常写作、邮件或快速迭代的编程任务，我通常会选用其他模型。"*
+
+The clearest signal of Fable 5.2's power: when early access ended, one team member stopped working on projects until they could get the model back — they didn't want to build them with anything else.
+Fable 5.2 能力最有力的信号：当早期访问结束时，一位团队成员停止了相关项目，直到能重新用上这个模型——他不想用其他任何模型来完成这些项目。
+
+Sources:
+- https://x.com/danshipper/status/2119869228207546638
+- https://x.com/danshipper/status/2119871917104455924
+- https://x.com/danshipper/status/2119868362838663650
+
+---
+
+### Aditya Agarwal (adityaag on X)
+
+Aditya Agarwal flagged a major launch from the Nuance AI team.
+Aditya Agarwal 关注到 Nuance AI 团队的一个重大发布。
+
+No further details were shared, but the endorsement from an experienced engineering leader is worth noting.
+虽未透露更多细节，但来自资深工程领导者的背书值得关注。
+
+Sources:
+- https://x.com/adityaag/status/2119858043869683935
+
+---
+
+### Claude AI (claudeai on X) — Anthropic Official
+
+The official Anthropic account announced that Claude Fable 5.2 is available today on all paid plans.
+Anthropic 官方账号宣布，Claude Fable 5.2 今日起在所有付费方案上正式可用。
+
+Organizations pursuing beneficial applications in cybersecurity or biomedical research can apply for access to the more powerful Claude Mythos 5.2.
+从事网络安全或生物医学研究等有益应用的组织，可以申请访问更强大的 Claude Mythos 5.2。
+
+In a stunning scientific achievement, Fable 5.2 solved two hard physics problems.
+在一项令人震惊的科学成就中，Fable 5.2 解决了两个困难的物理问题。
+
+In the first, it discovered a new result about the abrupt transition in very small universes.
+第一个是关于极小宇宙中突变现象的新发现。
+
+In the second, it found the exact limit of a 15-year-old technique called "modular bootstrapping," used to rule out candidate theories of quantum gravity.
+第二个是找到了一种名为"模块化自举法"这一15年历史技术的精确极限值，该技术用于排除量子引力的候选理论。
+
+Sources:
+- https://x.com/claudeai/status/2119899492778398163
+- https://x.com/claudeai/status/2119899491310432269
+- https://x.com/claudeai/status/2119899488995131439
 
 ---
 
 ## PODCASTS
 
-### Latent Space: [One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco
+---
 
-This episode celebrates one million subscribers on the AI Engineer YouTube channel, featuring Mihail Eric — Adjunct Professor at Stanford and Head of AI at Monaco.
-本集庆祝 AI Engineer YouTube 频道突破一百万订阅，特邀嘉宾为 Stanford 兼职教授、Monaco AI 负责人 Mihail Eric。
+### Latent Space: "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team"
 
-Mihail teaches CS 146S, "The Modern Software Developer," a course he's now teaching for the second time after refreshing it to reflect the dramatic rise of autonomous coding agents.
-Mihail 讲授 CS 146S 课程"现代软件开发者"，这是他第二次开设这门课，内容已更新以反映自主编程智能体的迅猛崛起。
+**核心论点 / Core Argument**
 
-The course covers 10 weeks of AI-native engineering: from building a coding agent from scratch in 200 lines, to context engineering, agent skills and procedures, agent-ready codebases, agentic code review, security, background agents, team-level LLM infrastructure, and the software factory.
-该课程涵盖 10 周的 AI 原生工程内容：从用 200 行代码从头构建编程智能体，到上下文工程、智能体技能与流程、适合智能体的代码库、智能体代码审查、安全性、后台智能体、团队级 LLM 基础设施，直至软件工厂。
+The AI training data market is undergoing rapid expansion — from $1 billion three years ago to $10 billion today, and potentially $100 billion within three years.
+AI 训练数据市场正在经历快速扩张——三年前规模10亿美元，如今已达100亿，三年后极有可能突破1000亿。
 
-A key insight: *"A well-trained AI-native engineer can be some of the most useful assets at any company."*
-核心洞见：*"A well-trained AI-native engineer can be some of the most useful assets at any company."* — 训练有素的 AI 原生工程师可以成为任何公司最宝贵的资产。
+Frontier labs are not buying data for traditional fine-tuning; they are buying specialized, human-verified data for RLHF, evaluation, and edge-case coverage that synthetic data cannot reliably produce.
+前沿实验室购买数据并非用于传统微调，而是为了 RLHF、评估和边缘案例覆盖——这些场景是合成数据无法可靠生成的。
 
-He also advocates for starting with the "dumbest" architecture, emphasizing that simplicity is iterated toward — not started with.
-他还提倡从"最笨"的架构起步，强调简洁是迭代的结果，而非起点。
+**关键洞察 / Key Insights**
 
-On skills: the episode debates whether agent skills (SKILL.md files) are slop or genuine org-level knowledge encoding — a lively discussion about what good skills look like and when they trigger unexpectedly.
-关于技能：本集讨论了智能体技能（SKILL.md 文件）究竟是 AI 垃圾还是真正的组织级知识编码 — 围绕什么是好的技能、以及技能何时意外触发展开了热烈讨论。
+- The "AI won't cure cancer" critique often misunderstands the actual failure mode: a 95% accurate output is 100% wrong in medical contexts because fixing a flawed output takes as long as building from scratch.
+  "AI 不会治愈癌症"的批评往往误解了真正的失败模式：在医疗场景中，95% 准确的输出等于100%错误，因为修复一个有缺陷的输出和从头构建同样耗时。
 
-A unique aspect of the course: students contribute to real open-source AI-native repos as part of their assignments, connecting them with maintainers and building real-world skills.
-该课程的独特之处：学生将真实开源 AI 原生代码库的贡献作为作业的一部分，与维护者建立联系，培养真实世界的技能。
+- Human-generated data retains a premium specifically for tasks requiring nuanced judgment, edge-case coverage, and verifiable correctness — areas where synthetic data is structurally weak.
+  人工生成数据在需要细微判断、边缘案例覆盖和可验证正确性的任务中仍然具有溢价——这些正是合成数据结构性薄弱的领域。
 
-Episode URL: https://www.youtube.com/watch?v=dpY7YzZo4kE
+- The bottleneck is not data volume but data quality and labeler expertise; frontier labs are increasingly paying for domain experts, not generic crowdworkers.
+  瓶颈不在于数据量，而在于数据质量和标注者的专业水平；前沿实验室越来越多地付费购买领域专家的标注，而非通用众包工人。
+
+- Handshake AI is positioning itself as a marketplace that matches high-skill domain experts with the specific annotation and evaluation tasks frontier labs need most.
+  Handshake AI 正将自身定位为一个市场，将高技能领域专家与前沿实验室最需要的特定标注和评估任务进行匹配。
+
+**最值得关注的信号 / Key Signal**
+
+The transition from "$1B to $100B in 6 years" is not a prediction — it is the thesis underpinning how frontier labs are staffing and budgeting today.
+"6年内从10亿到1000亿"不是预测——这是前沿实验室当前人员配置和预算决策背后的核心逻辑。
+
+Watch for increasing differentiation between commodity annotation providers and high-expertise data partners; the latter will capture disproportionate value.
+关注商品化标注服务商与高专业水平数据合作伙伴之间日益扩大的分化；后者将获取不成比例的市场价值。
+
+Source: https://www.youtube.com/@LatentSpacePod
 
 ---
 
