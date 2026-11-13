@@ -1,248 +1,265 @@
-AI Builders 日报 · 2026-11-12
+AI Builders 日报 · 2026-11-13
 
 ---
 
-X / TWITTER
+# X / TWITTER
 
 ---
 
-**Swyx (swyx on X)**
-Swyx 是 smol.ai 和 Latent Space Podcast 的联合创始人。
-Swyx is the co-founder of smol.ai and the Latent Space Podcast.
-近期，他分享了自己的"引擎"主题帖子，并为周四的 AIE Live 活动预热，透露自己对演讲嘉宾的精彩内容进行了保密协议下的预览。
-Recently, he shared his "engines" thread and teased the AIE Live event on Thursday, noting he had to sign an NDA to preview the keynote talk.
-*"I had a preview of his keynote and you guys don't know what you're in for on Thursday. Literally had to agree to embargo to get this talk on board."*
-此外，他还与 Resend CEO Zeno Rocha 进行了一次对话，探讨为何 AI Agent 总是会自动选择 Resend 进行邮件发送。
-He also had a conversation with Resend CEO Zeno Rocha, asking why AI agents keep choosing Resend even when he doesn't want them to.
+## Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT at OpenAI
 
-来源：
-https://x.com/swyx/status/2120376333142569316
-https://x.com/swyx/status/2120372817720197357
-https://x.com/swyx/status/2120260228902264872
+Thibault Sottiaux, Codex & ChatGPT 产品负责人，连发两条推文暗示 Codex 即将有重大更新。
+Thibault Sottiaux, who leads Codex and ChatGPT at OpenAI, posted two cryptic tweets hinting at a major Codex reset/announcement.
+他写道 _"Thursday is feeling codexy to me. Perhaps also a good time for a banked reset."_，科技圈随即热议 Codex 是否将推出重大版本或重置。
+He wrote "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset," sparking widespread speculation about a major Codex release or relaunch.
+此前他还表示自己已经久未发布 reset，可能是时候"走出地下室"了。
+He also noted it had been a while without resets, teasing that he might "come back out of the basement."
+
+https://x.com/thsottiaux/status/2120410480204525936
+https://x.com/thsottiaux/status/2120410006273380750
 
 ---
 
-**Josh Woodward (joshwoodward on X)**
-Josh Woodward 是 Google Labs 和 Gemini 应用的 VP。
-Josh Woodward is VP at Google Labs and the Gemini App.
-他宣布 Gemini 4 Carbon 现已面向全球 Ultra 订阅用户在 Gemini App 上线。
-He announced that Gemini 4 Carbon is now available in the Gemini App for Ultra subscribers worldwide.
-*"Right now, Gemini 4 Carbon is in the @GeminiApp for Ultra subscribers worldwide."*
+## Swyx (swyx on X) — AI Engineer Conference Organizer / smol.ai
 
-来源：https://x.com/joshwoodward/status/2120186249281778135
+Swyx 正在现场报道 AI Engineer World's Fair（AIE）大会，分享多个环节的精彩瞬间。
+Swyx is on the ground at the AI Engineer World's Fair, sharing live highlights from the event.
+他特别转发了 @poteto 主题演讲"座无虚席"的现场盛况，并宣布 CompleteSkeptic 和 typesafeai 接管直播流进行"Jev Day"特别节目。
+He highlighted that @poteto's keynote drew standing-room-only crowds, and announced CompleteSkeptic and typesafeai taking over the stream for a special "Jev Day" segment.
+他还澄清一封冒充员工的诈骗邮件，确认该人为前员工，且使用的域名并非公司官方域名。
+He also addressed a scam email impersonating a former employee, confirming the person is real but the email domain used is not official.
 
----
-
-**Thibault Sottiaux (thsottiaux on X)**
-Thibault Sottiaux 是 OpenAI Codex 和 ChatGPT 团队成员。
-Thibault Sottiaux works on Codex and ChatGPT at OpenAI.
-他向社区发起问卷，询问有多少人拥有小型企业，同时转发了关于 AI 实验室之间合作创新的内容，表达了对各家实验室共同推进的支持。
-He polled the community on how many people have small businesses, and shared a post about AI labs innovating together, showing enthusiasm for cross-lab collaboration.
-*"Labs innovating together ftw."*
-
-来源：
-https://x.com/thsottiaux/status/2120267268517249036
-https://x.com/thsottiaux/status/2120266880963473789
+https://x.com/swyx/status/2120582147107078356
+https://x.com/swyx/status/2120640864787841513
 
 ---
 
-**Peter Yang (petergyang on X)**
-Peter Yang 是专注于 AI 实践教程与访谈的内容创作者。
-Peter Yang creates practical AI tutorials and interviews for busy professionals.
-他为在游戏开发中使用 AI 进行辩护，认为有品位地使用 AI 与用 AI 生产垃圾内容有本质区别。
-He defended tasteful use of AI in game development, arguing there's a huge difference between using it as a creative tool versus pumping out slop.
-*"There's a huge difference between someone using AI to pump out slop and someone using it as another tool to make something great."*
-他还表达了对 Anthropic 的支持，认为如果 Anthropic 能加速攻克重大疾病，将成为历史上最具影响力的公司之一。
-He also expressed support for Anthropic, saying that if it can accelerate cures for terrible diseases, it will be one of the most impactful companies in history.
+## Thariq (trq212 on X) — Formerly Claude Code at Anthropic
 
-来源：
-https://x.com/petergyang/status/2120370522622181809
-https://x.com/petergyang/status/2120326994579931419
-https://x.com/petergyang/status/2120320377163501817
+前 Claude Code 工程师 Thariq 宣布将在 AI Engineer 大会发表压轴演讲，题为"The Sweet Side of the Bitter Lesson"。
+Former Claude Code engineer Thariq announced he's giving the closing keynote at AI Engineer, titled "The Sweet Side of the Bitter Lesson."
+他表示演讲内容聚焦于他对明年 coding agent 用户体验的畅想，以及开发者如何塑造这一未来。
+He said the talk is about how the experience of using coding agents could evolve next year and how developers can shape that future.
+演讲将于明日（大会时间）下午 5 点进行，他幽默地承认这是"大家都累了或者在飞机上"的时段。
+The talk is scheduled for 5pm on the final day, which he humorously acknowledged is when everyone is tired or already on their way to the airport.
+
+https://x.com/trq212/status/2120620900785820143
+https://x.com/trq212/status/2120621112807866620
 
 ---
 
-**Nan Yu (thenanyu on X)**
-Nan Yu 是 OpenAI Codex 团队的产品负责人，曾任 Linear 产品负责人。
-Nan Yu is head of product for Codex at OpenAI, previously head of product at Linear.
-他分享了一个关于语音听写功能的产品细节：他们支持将 Apple 听写键（F5 特殊变体）映射，以及推送对话、双击和单键触发等多种模式，这是大多数听写应用不会正确处理的细节。
-He shared a thoughtful product detail about their dictation feature — supporting the Apple dictation key (special F5 variant) and multiple trigger modes like push-to-talk, double-tap, and single-key — a detail most dictation apps get wrong.
+## Dan Shipper (danshipper on X) — CEO at Every
 
-来源：
-https://x.com/thenanyu/status/2120203911265218969
-https://x.com/thenanyu/status/2120203450223104012
+Every CEO Dan Shipper 在 Thesis 大会上分享了他对"自动化时代人类工作价值"的深度思考。
+Every CEO Dan Shipper shared a deeply considered take on the value of human work in the age of automation, presented at the Thesis conference.
+他描述了自己上周用 AI 一人完成了五个人的工作：分析客户调研数据、为团队制作游戏、搭建 CRM、主动拓客——这在 2020 年需要数据科学家、工程师、市场人员等五名专业人才。
+He described completing the work of five people in one week using AI: analyzing a customer survey, building a team game, creating a CRM, and doing outreach — work that in 2020 would have required a data scientist, engineer, marketer, and more.
+然而他的核心观点并非"AI 将取代人类"，而是相反——当每个人都能用同一套 AI 时，真正稀缺的是个体视角和责任感。
+His core argument is not that AI replaces humans, but the opposite — when everyone has access to the same models, what becomes scarce is individual perspective and a sense of responsibility.
+_"Great work is the perspective you bring to the model."_ 每位团队成员从同一份数据中看到了完全不同的关键洞察，而这正是默认 prompt 无法复制的。
+"Great work is the perspective you bring to the model." Each team member found completely different key insights from the same dataset — something a default prompt cannot replicate.
+他认为我们需要重新定义 AI 评估标准：不仅是"模型能解决哪些共识问题"，更是"模型能多好地从我的视角完成我的工作"。
+He argues we need to rethink how we measure AI: not just "how well does it solve consensus problems" but "how well does it do my work from my perspective."
 
----
-
-**Thariq (trq212 on X)**
-Thariq 是前 Anthropic Claude Code 团队成员。
-Thariq previously worked on Claude Code at Anthropic.
-他发表了一个直率的观点：我们需要更少的一键演示，更多展示人类与模型协作、将愿景变为现实的工具。
-He made a pointed observation: we need fewer one-shot demos and more tools that show how to collaborate with models to bring your vision to life.
-*"We need fewer one shot demos and more tools that show how you can collaborate with models to bring your vision to life."*
-
-来源：https://x.com/trq212/status/2120223476279869875
+https://x.com/danshipper/status/2120539547620790424
 
 ---
 
-**Guillermo Rauch (rauchg on X)**
-Guillermo Rauch 是 Vercel CEO。
-Guillermo Rauch is the CEO of Vercel.
-他对 Vercel Security Review 一周内的成果感到震惊：发现了 57,897 个漏洞，其中 6,029 个为严重或高危，Agent 已自动修复 14,665 个。
-He was stunned by the results of Vercel Security Review just one week after launch: 57,897 vulnerabilities identified, 6,029 critical or high, and 14,665 already patched by the Agent.
-*"I'm shocked at ① the number of critical vulnerabilities and ② how well the Agent performed."*
-他还分享了对编程语言未来的看法，认为在 Agent 编程时代，新语言甚至专用语言将会涌现，而 Rust 作为前 Agent 时代的产物依然是优秀的语言和生态。
-He also reflected on programming languages, noting that with agentic coding, new purpose-built languages will emerge, while praising Rust as a superb language invented before the agentic era.
+## Josh Woodward (joshwoodward on X) — VP at Google Labs / Gemini / AI Studio
 
-来源：
-https://x.com/rauchg/status/2120337388178379178
-https://x.com/rauchg/status/2120188488628977819
+Google Labs VP Josh Woodward 转发了一项关于 AI 加速开发的技术，并表示 Google 自己也在积极使用并构建于其上。
+Google Labs VP Josh Woodward reposted a tech that accelerates AI development, noting that Google's own team loves it and builds with it regularly.
+他表示这项技术让他们的应用"更快、更智能"。
+He said it makes their apps "faster and smarter."
+
+https://x.com/joshwoodward/status/2120622974277734716
 
 ---
 
-**Aaron Levie (levie on X)**
-Aaron Levie 是 Box CEO。
-Aaron Levie is the CEO of Box.
-他表达了对 Agent 集群（agent swarms）潜力的看法，认为这将带来 AI 输出的又一次飞跃，并将在采用这种工作模式的团队和没有采用的团队之间制造明显分化。
-He shared his view on agent swarms, saying they have the potential to drive another leap in AI output, creating a clear separation between teams that adopt this pattern and those that don't.
-*"Agent swarms have the potential to drive yet another leap in output from AI."*
-他还宣布 Box 与 Anthropic 合作，通过 Claude 为 Box 内容提供全面的读写互操作性，以满足未来 Agent 处理企业文件量将是人类今天处理量 100 倍的需求。
-He announced a partnership with Anthropic to bring full read/write interoperability for Box content via Claude, anticipating that agents will work with enterprise files 100x more than people do today.
+## Google Labs (GoogleLabs on X) — Google's AI Experiments Team
 
-来源：
-https://x.com/levie/status/2120385739342897469
-https://x.com/levie/status/2120261416733036905
+Google Labs 正式推出全新实验产品 Tabletop，一个 AI 驱动的协同规划工具。
+Google Labs launched a new experiment called Tabletop, an AI-powered collaborative planning tool.
+Tabletop 允许用户将链接和文件拖入共享空间，邀请团队成员，并用自然语言请求生成自定义互动空间——包括路线图、赛事括号、投票看板等。
+Tabletop lets users drop links and files into a shared space, invite collaborators, and use natural language to create custom interactive boards — from road trip maps to live pickleball brackets and seating charts.
+创始工程师 Roman Nurik 还展示了他家庭版的 Tabletop，涵盖家务表、雨天寻宝游戏、乐高地图和纽约旅行主题等玩法。
+Founding engineer Roman Nurik gave a tour of how his own family uses Tabletop, including interactive chore charts, rainy-day scavenger hunts, LEGO maps, and a fantasy book-themed NYC trip planner.
+目前 Tabletop 开放美国地区（18+）候补名单注册。
+Tabletop is currently open for waitlist sign-ups in the US for users 18 and older.
 
----
-
-**Ryo Lu (ryolu_ on X)**
-Ryo Lu 是 Cursor 的设计师，曾在 Notion、Stripe 工作。
-Ryo Lu designed Cursor and previously worked at Notion and Stripe.
-他分享了对软件构建使命的深刻思考：我们构建软件不是为了优化或完成任务，而是为了建立一个让人们能够参与、追求之前无法企及的目标、去创造和发现自我的世界。
-He shared a reflective thought on why we build software — not just to optimize or complete tasks, but to build a world where people can aspire to things they couldn't do before, create, and find themselves.
-*"We build software not just to optimize, complete tasks or impose our own constraints — but to build a world where we let people in, aspire to things they couldn't do before, to create, and find ourselves."*
-他还强调，真正的魔力在于人与人之间的协作，而不是每个人各自运行自己的 Agent 大军。
-He also emphasized that the magic happens when humans work together, not when each person runs their own army of agents in silos.
-
-来源：
-https://x.com/ryolu_/status/2120380317429350654
-https://x.com/ryolu_/status/2120337691661443081
-https://x.com/ryolu_/status/2120090087715426614
+https://x.com/GoogleLabs/status/2120549258692882702
+https://x.com/GoogleLabs/status/2120595442782368240
 
 ---
 
-**Zara Zhang (zarazhangrui on X)**
-Zara Zhang 是哈佛大学 2017 届毕业生，独立 Builder。
-Zara Zhang is a Harvard '17 grad and independent builder.
-她分享了两条关于产品留存和受众建立的洞察：用户不回来，80% 的原因是他们忘了你的产品存在，而不是不喜欢它；分享作品不要等到完美，工作进行中的分享有时能帮你判断是否值得完成。
-She shared two sharp insights: 80% of the time users don't return it's because they forgot your product exists, not because they dislike it; and you should share work-in-progress rather than waiting until it's done or perfect.
-*"Don't wait until it's done or perfect. Share a work in progress. Sometimes that's how you figure out if it's even worth finishing."*
+## Guillermo Rauch (rauchg on X) — CEO at Vercel
 
-来源：
-https://x.com/zarazhangrui/status/2120235104194932841
-https://x.com/zarazhangrui/status/2120041030951297033
+Vercel CEO Guillermo Rauch 发出一条言简意赅但意味深长的提醒：AI 时代打造伟大产品，依然需要大量人类的专注力、投入、热情和耐心。
+Vercel CEO Guillermo Rauch posted a pithy but pointed reminder: creating wonderful products still requires extraordinary amounts of human focus, effort, motivation, and love — plus an attention span.
+他还分享了 Vercel 旗下 fx 框架的性能基准，展示冷启动速度可与纯汇编优化版本媲美。
+He also shared a benchmark showing Vercel's fx framework bootup competing with an ultra-optimized pure-assembly version.
+此外，他还推荐了 Reflection 推出的 Beam AI 模型——美国本土开放权重，零数据留存。
+He also promoted Beam by Reflection, an American open-weights AI model with zero data retention, available free on Vercel until Nov 12.
 
----
-
-**Nikunj Kothari (nikunj on X)**
-Nikunj Kothari 是 FPV Ventures 的合伙人，曾是 Meter、Opendoor、Atlassian 的早期员工。
-Nikunj Kothari is a partner at FPV Ventures, previously an early hire at Meter, Opendoor, and Atlassian.
-他引用了 MLK Jr. 的名言，并推荐了一篇关于在挑战与争议时刻检验真正品格的事后总结，称之为每位创始人的必读文章。
-He quoted MLK Jr. and shared a post-mortem he called a must-read for every founder, on the theme of where someone stands in moments of challenge and controversy.
-他还分享了一个用 Fable 生成的视频演示，展示了 AI 视频生成工具的一键创作潜力。
-He also shared a one-shot video demo made with Fable, showcasing the creative potential of AI video generation tools.
-
-来源：
-https://x.com/nikunj/status/2120386979389157530
-https://x.com/nikunj/status/2120260803295363388
-https://x.com/nikunj/status/2120165833993322497
+https://x.com/rauchg/status/2120601000176439478
+https://x.com/rauchg/status/2120581196363268265
 
 ---
 
-**Peter Steinberger (steipete on X)**
-Peter Steinberger 是 OpenClaw 的联合创始人，同时也是 OpenAI 的合作伙伴。
-Peter Steinberger is the co-founder of OpenClaw and a collaborator with OpenAI.
-他分享了一则关于安全漏洞修复的案例：某公司对 700 个系统进行诊断，发现了 10,500 个漏洞，经过三个月修复后重新扫描，结果令人震惊——暗示 AI Agent 在安全修复方面展现出惊人效率。
-He shared a case about security vulnerability patching, where a company found 10,500 vulnerabilities across 700 systems, then applied fixes over three months — with the re-scan results being shocking, hinting at AI agents' remarkable efficiency in security remediation.
+## Garry Tan (garrytan on X) — President & CEO at Y Combinator
 
-来源：https://x.com/steipete/status/2120228665946710248
+YC 总裁 Garry Tan 对英伟达董事会可能罢免 Jensen Huang 一事表达了强烈反对。
+YC President & CEO Garry Tan weighed in against NVIDIA's board potentially ousting Jensen Huang.
+他认为，考虑到 Jensen 对公司日常运营的核心作用，这样做"似乎极不明智"，并预警若发生领导层交接将导致市值大幅缩水。
+He called the move "ill advised" given how central Jensen's leadership is to daily operations, warning a transition would likely trigger a massive market cap implosion.
+Tan 还在推广一个与 Andrew Huberman 合作的 Acts 17 活动，邀请旧金山社区参与。
+He also promoted an upcoming Acts 17 event featuring Andrew Huberman in San Francisco.
 
----
-
-**Dan Shipper (danshipper on X)**
-Dan Shipper 是 Every 的 CEO，Every 是面向 AI 时代的订阅媒体。
-Dan Shipper is the CEO of Every, a subscription media company for the AI era.
-Google 刚刚发布了 Gemini 4 Carbon，Dan 和他的团队在 Every 对这款模型进行了跨代码、写作、设计和知识工作的全面测试。
-Google just dropped Gemini 4 Carbon, and Dan and his team at Every tested it across coding, writing, design, and knowledge work.
-*"BREAKING: @Google just dropped Gemini 4 Carbon. It's a much better coder than Argon — but I'm probably keeping Argon for writing."*
-他还进行了一次现场"氛围测评"直播，读者可在 Every 阅读全文报告。
-He also hosted a live "vibe check" session, with the full report available at Every.
-
-来源：
-https://x.com/danshipper/status/2120294319773073919
-https://x.com/danshipper/status/2120187507396530309
-https://x.com/danshipper/status/2120186731114778688
+https://x.com/garrytan/status/2120657462353330604
 
 ---
 
-**Aditya Agarwal (adityaag on X)**
-Aditya Agarwal 是 SPC 的普通合伙人，曾任 Dropbox CTO 和 Facebook 早期工程师。
-Aditya Agarwal is General Partner at SPC, former CTO of Dropbox and early engineer at Facebook.
-他表达了一个观点：他最成功的朋友，往往也有最强烈的兴趣爱好。
-He shared a thought he strongly agreed with: his most successful friends also have the most intense hobbies.
+## Amjad Masad (amasad on X) — CEO at Replit
 
-来源：https://x.com/adityaag/status/2120249412685607254
+Replit CEO Amjad Masad 对 Jensen Huang 丑闻曝光的时机提出质疑，暗示背后可能存在政治操控。
+Replit CEO Amjad Masad questioned the timing of the Jensen Huang scandal, suggesting possible political manipulation behind the scenes.
+他写道：_"If Jensen, the premier champion of open models, is taken out then anyone who wants AI closed, centralized, and controlled might benefit."_
+他指出，Jensen 是开放模型的最有力倡导者，若他被"出局"，那些希望 AI 走向封闭和中心化的势力将从中获益。
+He pointed out that Jensen is a leading champion of open AI models, and his removal would benefit those who want AI to remain closed and centralized.
+他还提到中期选举和即将到来的 IPO 可能是幕后因素。
+He also flagged the midterm elections and upcoming IPOs as potentially relevant factors in the timing.
 
----
-
-**Claude (claudeai on X)**
-Claude 是 Anthropic 构建的 AI 助手。
-Claude is the AI assistant built by Anthropic.
-Claude 宣布了一系列重大更新：Claude Data（原名 Dashboards）现已面向付费用户正式上线，支持从数据指标生成数据故事和叙述视频；新增交互式连接器，用户可以在对话旁边直接打开 Adobe、Atlassian、Box 等工具的完整版本；还推出了 Claude Whiteboards、Sheets 等新功能。
-Claude announced several major updates: Claude Data (formerly Dashboards) is now generally available on paid plans, letting Claude draft data stories and narrated videos from metrics; new interactive connectors let users open full versions of tools like Adobe, Atlassian, and Box beside their conversation; plus new Claude Whiteboards and Sheets features.
-*"Work in Adobe, Atlassian, and Box beside your conversation. Make changes yourself, or ask Claude to make them for you."*
-
-来源：
-https://x.com/claudeai/status/2120206379315261702
-https://x.com/claudeai/status/2120206375137484875
-https://x.com/claudeai/status/2120206372478566799
+https://x.com/amasad/status/2120671838909194695
 
 ---
 
-PODCASTS
+## Peter Yang (petergyang on X) — AI Creator & Educator
+
+AI 内容创作者 Peter Yang 对 Jensen Huang 个人丑闻（据报道的婚外情）发表了公开感想。
+AI content creator Peter Yang shared his disappointment about Jensen Huang's personal scandal involving alleged affairs.
+他表示尽管行为令人失望，但这与是否应该解雇是两件事——任何董事会行动都应先经过正式调查并让股东参与决策。
+He said while the behavior is appalling, firing someone is a separate question — the board should conduct a proper investigation and involve shareholders before acting.
+他也承认 Jensen 创建了一家跨时代的伟大公司，这一点无可否认。
+He acknowledged that Jensen built a generational company, and that remains undeniable.
+
+https://x.com/petergyang/status/2120726673452933269
+https://x.com/petergyang/status/2120649149389627493
 
 ---
 
-**Latent Space: Designing for Agents — Zeno Rocha, Resend**
-https://www.youtube.com/@LatentSpacePod
+## Matt Turck (mattturck on X) — VC at FirstMark Capital
 
-## 一、深度总结
+FirstMark Capital 合伙人 Matt Turck 也加入了 Jensen 话题的讨论，转发了第二条相关故事并配以"法国高管"的调侃表情包。
+FirstMark Capital VC Matt Turck joined the Jensen conversation, sharing a reaction meme as a second story about him surfaced.
+他还转发了一篇针对创始人的高质量文章，称其中"充满了吸引人和排斥人的真知灼见"。
+He also shared what he called a gem-filled article for founders, noting it has insights for both attracting and repelling the right people.
 
-**核心论点**
-本期 Latent Space 播客邀请了 Resend CEO Zeno Rocha，探讨了一个核心问题：当 AI Agent 成为邮件基础设施的主要使用者时，邮件平台应该如何重新设计自身的产品与定位。Resend 凭借对开发者友好的 API 和卓越的产品体验，在短短几年内超越了 SendGrid，成为 AI 时代的邮件基础设施标杆。
+https://x.com/mattturck/status/2120640868483006533
+https://x.com/mattturck/status/2120522625697116287
 
-**关键洞察**
+---
 
-- **Agent 原生设计哲学**：Zeno 认为，Agent 选择工具并非随机，而是因为产品的 API 设计、文档质量和开发体验真正为机器消费而优化。Resend 被 AI Agent 自发选择，恰恰证明了"为开发者设计即为 Agent 设计"的理念。
+## Zara Zhang (zarazhangrui on X) — Builder / Harvard'17
 
-- **超越 SendGrid 的反叛之路**：Resend 在成立初期几乎人人认为不可能撼动 SendGrid 的市场地位。但通过专注于开发者体验和现代 API，Resend 不仅超越了 SendGrid 的下载量，目前已达到超过两倍的规模。
+建设者 Zara Zhang 分享了一句关于技术成熟度的金句：_"Technology only finishes its most important work once the audience forgets the technology."_
+Builder Zara Zhang shared a memorable quote about the nature of transformative technology: "Technology only finishes its most important work once the audience forgets the technology."
+这句话引发了关于 AI 普及与无感融入日常生活的思考。
+The quote sparked reflection on how AI becomes truly mature only when it disappears into the background of everyday life.
 
-- **规模与意义的权衡**：Zeno 坦言，他宁愿经营一家 1000 万美元 ARR 的公司，也不愿经营一家 1 亿美元 ARR 但与女儿关系疏远的公司。这种创始人对生活优先级的坦诚，在当今创业文化中颇为罕见。
+https://x.com/zarazhangrui/status/2120429971718156375
 
-- **基础设施的深层重构**：Resend 正在进行一项重大的底层基础设施建设，团队已为此工作数月，即将发布重要公告。这表明 Resend 不满足于停留在 API 层，而是要向"metal"（底层基础设施）深入。
+---
 
-- **客户多样性揭示网络效应**：从华纳兄弟、HBO 到一个一次性注册了 2 万个域名的日本组织，Resend 的客户多样性反映了其基础设施在全球不同场景下的广泛采用。
+## Nikunj Kothari (nikunj on X) — Partner at FPV Ventures
 
-## 二、直接引语
+FPV Ventures 合伙人 Nikunj Kothari 发布了一项关于 AI 原生公司基础设施使用情况的深度研究。
+FPV Ventures partner Nikunj Kothari published original research on the infrastructure choices of AI-native companies, scraped from 803 companies' sub-processor lists.
+关键发现：44% 的公司列出两个或以上模型提供商（高于三月份的 33%）；Anthropic 的增速是 OpenAI 的两倍；33% 的公司使用推理提供商（高于 22%），Modal 持续领跑；typesafeai 是增速最快的黑马。
+Key findings: 44% of companies list two or more model providers (up from 33% in March); Anthropic grew twice as fast as OpenAI; 33% list an inference provider (up from 22%), with Modal continuing to dominate; typesafeai emerged as the breakout newcomer.
+他还发现中文模型主要通过视频（如字节跳动旗下产品）渗透，而非文本类服务——至少在 sub-processor 列表中如此。
+He also found that Chinese models are entering the market primarily through video products (like ByteDance) rather than text, at least as reflected in sub-processor lists.
+完整数据可在 deploygraph.com 查看。
+Full data is available at deploygraph.com.
 
-*"It's like, oh my gosh, how are we ever gonna beat SendGrid? It's just impossible."*
-"哦天哪，我们怎么可能打败 SendGrid？这根本不可能。"
+https://x.com/nikunj/status/2120669243918418237
 
-*"And then earlier this year, we crossed a number of downloads from SendGrid, and I was like, 'That's insane,' and now we're more than double."*
-"然后在今年早些时候，我们的下载量超过了 SendGrid，我当时觉得'这太疯狂了'，而现在我们已经是他们的两倍多。"
+---
 
-*"I would rather live in that reality than live in a reality where we're a hundred million dollar company and my daughter doesn't wanna play with me."*
-"我宁愿活在那个现实里，也不愿活在一个我们是一亿美元公司但女儿不想和我玩的现实里。"
+## Peter Steinberger (steipete on X) — OpenClaw + OpenAI
+
+Peter Steinberger 转发了一条关于开源项目政治化的帖子，并感叹道：_"reading some of these comments makes my brain hurt. oss is already hard enough without politics."_
+Peter Steinberger reposted a thread about open-source projects being dragged into politics, lamenting that OSS is already hard enough without adding political complications.
+这条推文引发了广泛共鸣，收获了大量互动。
+The post resonated widely, gaining significant engagement.
+
+https://x.com/steipete/status/2120711266759258616
+
+---
+
+## Aditya Agarwal (adityaag on X) — General Partner at SPC / Ex-CTO Dropbox
+
+前 Dropbox CTO、SPC 合伙人 Aditya Agarwal 提出了一个对 AI 创业公司格局的清晰框架。
+Former Dropbox CTO and SPC General Partner Aditya Agarwal laid out a clear framework for the current AI startup landscape.
+他将 AI 公司分为两类：第一类是"AI 扩散型"——将 AI 能力渗透到具体工作场景（类比今日的垂直 SaaS），代表如 Cognition、Harvey；第二类是"AI 前沿型"——用 AI 加速科学进步，再将进步商业化，他认为这才是真正大机会所在。
+He divides AI companies into two types: "Diffusion of AI" (bringing AI close to where work happens, like vertical SaaS; think Cognition, Harvey) and "Frontier of AI" (using AI to accelerate scientific discovery, then building products from that progress — which he sees as the bigger opportunity).
+他特别点名了 SPC 投资的前沿型公司，包括蛋白质工程、基因组学免疫疗法、毒液药物发现，以及半导体多物理场建模领域的初创公司。
+He highlighted several SPC portfolio companies in the frontier category: protein engineering, genomics-based autoimmune therapies, AI-accelerated drug discovery from venoms, and multi-physics modeling for semiconductors.
+_"Category 2 is not well understood or much talked about externally. It should be — I think that is where the vast majority of model driven returns will come from."_
+
+https://x.com/adityaag/status/2120578134177464356
+
+---
+
+## Claude (claudeai on X) — Anthropic's Official Claude Account
+
+Anthropic 官方 Claude 账号分享了艺术家 Mariko Mori 的回顾展"All That Shines"。
+Anthropic's official Claude account highlighted artist Mariko Mori's retrospective exhibition "All That Shines."
+Mori 使用 Claude 编写代码，为展览创作了一件全新的计算机生成动画视频装置。
+Mori used Claude to write code for a computer-generated animation, presented as a new video installation in the retrospective.
+这是一个展示 AI 工具如何赋能艺术创作的生动案例。
+It's a vivid example of how AI tools can empower artistic creation in new and unexpected ways.
+
+https://x.com/claudeai/status/2120669165316915259
+
+---
+
+# PODCASTS
+
+---
+
+## AI & I by Every — "A New Vision for Human Work After Automation"
+
+Every 旗下播客 AI & I 本周发布了一期重磅内容：Every 联合创始人兼 CEO Dan Shipper 在公司首届大会 V.C.S.S.（Thesis: 2027）的闭幕演讲全文。
+Every's podcast AI & I this week released a landmark episode featuring the full closing talk by Every co-founder and CEO Dan Shipper from the company's first-ever conference, V.C.S.S. (Thesis: 2027), held in Brooklyn.
+
+Dan 通过亲身经历提出了一套理解 AI 时代人类价值的新框架，核心区分是"宏观视角"（aggregate）与"微观视角"（intimate）。
+Dan proposed a new framework for understanding human value in the AI era, centered on the distinction between the "aggregate" view and the "intimate" view.
+
+从宏观视角来看，OpenAI 的 GDPval 基准显示 AI 在专家工作中击败人类的概率已从 2024 年的 12.4% 升至 2026 年的 83%，这条曲线令人触目惊心。
+From the aggregate view, OpenAI's GDPval benchmark shows AI beating human experts at expert tasks 83% of the time in 2026, up from 12.4% in 2024 — a trajectory that looks terrifying for human workers.
+
+但微观视角揭示了被宏观遮蔽的东西。
+But the intimate view reveals what the aggregate obscures.
+
+Dan 将同样的客户调研数据交给全团队，每个人都找到了完全不同的关键洞察——这些洞察无法通过默认 prompt 复制，因为每个人对业务某一领域的责任感帮助他们锁定搜索方向，而个人视角帮助他们判断什么值得行动。
+Dan gave the same customer survey data to his whole team, and each person found entirely different key insights — none of which could be replicated by a default prompt, because each person's responsibility for a specific area of the business narrowed where they looked, and their perspective helped them decide what was worth acting on.
+
+研究还发现，Claude 在 400 次尝试中有 93% 的概率能预测 Dan 会在 Slack 说什么，但在自己的答案中找到正确那一个的概率却只有 60%。
+Research found that Claude can predict what Dan would say in Slack 93% of the time — but only if given 400 attempts; when asked to rank its own answers, the right one lands in the top 10% only about 60% of the time.
+
+这说明：生成可能性很廉价，但排序（即判断什么重要）依然困难。
+This illustrates the core insight: generating possibilities is cheap, but ranking them — knowing which ones matter — is still hard.
+
+Dan 的结论是："allocation economy"时代，默认答案是人人都能获得的基准，真正稀缺的是你用自己的视角和责任感推动模型超越基准所产生的价值。
+Dan's conclusion: in the allocation economy, the default answer is a baseline everyone can reach; what's truly scarce and valuable is how you use your own perspective and responsibility to push the model past that baseline.
+
+随着 AI 能力提升并普及，它抬高了所有人的下限；而真正的"alpha"来自于你独特的视角，这是 AI 无法自行复制的。
+As AI capabilities improve and spread, they raise the floor for everyone; the true "alpha" comes from your unique perspective, which AI cannot replicate on its own.
+
+他以此鼓励在场所有人：我们不是被 AI 取代的对象，而是骑在能力曲线之上、决定去哪里的人。
+He closed by encouraging everyone in the room: we are not being replaced by AI — we are the ones riding the capability curve, deciding where it goes.
+
+https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL
 
 ---
 
