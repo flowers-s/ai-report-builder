@@ -1,176 +1,114 @@
-AI Builders 日报 · 2026-11-14
+AI Builders 日报 · 2026-11-15
 
-今日速览：Gemini 4 Hydrogen 重磅发布，Claude Meetings 上线 Google Meet，Jensen Huang 风波持续震荡 AI 圈，Replit Agent 新增商业购买能力，Isomorphic Labs 探索 AI 驱动药物发现。共 16 位建造者动态 + 1 档播客精华。
+Today's digest covers 9 AI builders on X/Twitter and 1 podcast episode. Key themes: the #StandWithJensen movement defending Nvidia's Jensen Huang amid media scrutiny, Replit's partnership with Visa on agentic commerce, Vercel's new Workflow SDK 5 and sandbox tools, AI model benchmarking debates, and the rare FAA nationwide ground stop.
+
+今日日报收录了9位 AI 领域建设者在 X/Twitter 上的动态和1期播客。核心主题包括：为英伟达黄仁勋发声的 #StandWithJensen 运动、Replit 与 Visa 在智能体商务上的合作、Vercel Workflow SDK 5 及沙盒工具发布、AI 模型基准评测争议，以及罕见的美国 FAA 全国停飞事件。
 
 ---
 
 Swyx (@swyx)
-https://x.com/swyx/status/2121088973372334443
-https://x.com/swyx/status/2121060183988486493
-https://x.com/swyx/status/2120981552561844593
 
-Swyx is in full event mode — the AI Engineering World's Fair is happening now, and the energy is electric. The production team surprised the crew with a celebration cake for the #aie1m milestone. Keynote speaker Lance kicked things off strong, riffing on Fermat's proof to rebrand "AIE Code" as "AIE Math."
-Swyx 目前全身心投入活动现场——AI 工程世界博览会正在如火如荼地进行。制作团队用一块庆功蛋糕庆祝 #aie1m 里程碑。主题演讲嘉宾 Lance 以费马证明作引，把"AIE Code"重新定名为"AIE Math"，开场就给足了哲学感。活动结束后，Swyx 直奔百老汇彩排，精力爆棚。
+Swyx invited followers to attend an upcoming event, sharing a link without much elaboration—keeping it brief and action-oriented.
+Swyx 简短地邀请粉丝参加一个即将到来的活动，附上链接，言简意赅、以行动为导向。
 
----
-
-Josh Woodward (@joshwoodward)
-https://x.com/joshwoodward/status/2120990821902397885
-https://x.com/joshwoodward/status/2120990820631450061
-https://x.com/joshwoodward/status/2120942262054232392
-
-Google's Josh Woodward announced the launch of Gemini 4 Hydrogen — a major new model leap now available in the Gemini app, described as "fast, smart, and a big jump." Perhaps most excitingly, Gemini is now coming from your point of view: AI-powered smart glasses are launching in partnership with Warby Parker and Gentle Monster, available for pre-order and demoed in select stores, shipping December 10th.
-谷歌的 Josh Woodward 宣布推出 Gemini 4 Hydrogen——一次重大模型跃升，现已在 Gemini 应用中上线，被描述为"快、聪明、跨越感极强"。更令人兴奋的是，Gemini 正以第一视角登场：AI 智能眼镜与 Warby Parker、Gentle Monster 联合发布，即日起可预购，12 月 10 日发货，部分门店设有体验展台。
-
----
-
-Thibault Sottiaux (@thsottiaux)
-https://x.com/thsottiaux/status/2121062974161092792
-https://x.com/thsottiaux/status/2121036562058400200
-https://x.com/thsottiaux/status/2120999993079451919
-
-OpenAI's Thibault Sottiaux had a busy day on the product and security fronts. The team shipped cybersecurity tools including automated patching and automated red-teaming capabilities. Meanwhile, Codex improvements are in flight — and the candid guidance: "Try not to say 'model'" when suggesting fixes. The dots product also got solid updates today, with a banked reset rolling out to all accounts.
-OpenAI 的 Thibault Sottiaux 在产品与安全方向同时出击。团队发布了网络安全新工具，包括自动补丁和自动红队测试能力。与此同时，Codex 也在持续迭代——他坦率地建议用户在提改进意见时"尽量不要只说'模型'"。dots 产品今天同样有扎实更新，积累重置功能即将陆续推送到所有账户。
+Source: https://x.com/swyx/status/2121473082372292885
 
 ---
 
 Peter Yang (@petergyang)
-https://x.com/petergyang/status/2121100531502620784
-https://x.com/petergyang/status/2121098361201918301
-https://x.com/petergyang/status/2121035933541941297
 
-Peter Yang is tracking the Jensen Huang saga closely and with genuine feeling. He found the NVIDIA employee sentiment — and what it says about Jensen's impact on company culture — both striking and sad. He spotted a potential employee action worth watching and shared a visually stunning piece amid the news cycle.
-Peter Yang 密切关注并带着真实情感追踪着 Jensen Huang 事件。他认为英伟达员工的情绪反应——以及其背后对 Jensen 企业文化影响力的诠释——既令人震撼，又令人唏嘘。他注意到一项值得关注的潜在员工行动，并在新闻浪潮中分享了一件视觉震撼的内容。
+Peter Yang shared multiple perspectives on the controversy surrounding Alice Huang, an NVIDIA employee accused of espionage by the WSJ. He highlighted that Singapore's government statement suggested the accusations were premature, calling out the questionable reporting. Separately, he offered a practical AI health tip: upload a patient's medical records to Google Drive and use ChatGPT or Claude to help navigate complex medical situations—a genuinely useful application of AI for families dealing with serious illness.
+Peter Yang 就《华尔街日报》涉嫌指控英伟达员工 Alice Huang 从事间谍活动的报道，分享了多方观点。他引用新加坡政府声明指出，相关指控缺乏充分依据，批评媒体报道存在明显失实。另外，他分享了一个实用的 AI 健康建议：将患者病历上传至 Google Drive，借助 ChatGPT 或 Claude 帮助家庭应对复杂病情，展示了 AI 在医疗场景中的切实价值。
 
----
-
-Thariq (@trq212)
-https://x.com/trq212/status/2121069823069421706
-https://x.com/trq212/status/2121067561915916575
-
-Thariq is leaning into the moment with a classic "retvrn" vibe — cryptic, confident, and culturally fluent. With two posts hinting at context and a callback to something bigger, he's playing the long game on whatever he's building.
-Thariq 以一贯的"retvrn"式风格入场——神秘、笃定、充满文化质感。两条推文隐约指向更大的背景与计划，像是在为某件正在酝酿中的事预埋伏笔。
+Sources:
+- https://x.com/petergyang/status/2121431117526134923
+- https://x.com/petergyang/status/2121430819667579031
+- https://x.com/petergyang/status/2121430386685395022
 
 ---
 
 Amjad Masad (@amasad)
-https://x.com/amasad/status/2121081862659739870
-https://x.com/amasad/status/2121018020520931712
-https://x.com/amasad/status/2120793075836768333
 
-Replit's Amjad Masad dropped a genuinely exciting product update: Replit Agent can now buy things for your business — including purchasing ads to acquire new customers. This is a meaningful step toward truly autonomous business agents. On the political side, Masad had sharp commentary on the congressman leading the Jensen inquiry, calling out what he sees as hypocrisy.
-Replit 的 Amjad Masad 带来了一个真正令人兴奋的产品更新：Replit Agent 现在可以为你的企业进行商业采购——包括购买广告来获取新客户。这是迈向真正自主商业 Agent 的重要一步。政治层面，Masad 对主导 Jensen 调查的国会议员发表了犀利评论，指出其言行不一的双重标准。
+Amjad Masad announced Replit's deepening partnership with Visa on agentic commerce, with more features and use cases on the way. He also addressed a scaling issue with the #StandWithJensen website—itself built and hosted on Replit—by working with the page owner to raise the rate limit after it went viral. He also personally signed and promoted the open letter defending Jensen Huang.
+Amjad Masad 宣布 Replit 与 Visa 在智能体商务领域的合作持续深化，更多功能和使用场景即将推出。他还处理了 #StandWithJensen 网站（该网站即由 Replit 构建和托管）因流量激增导致的限速问题，与页面所有者合作提升了速率上限。他本人也签署并积极推广了这封为黄仁勋发声的公开信。
+
+Sources:
+- https://x.com/amasad/status/2121428406764204199
+- https://x.com/amasad/status/2121389001546567837
+- https://x.com/amasad/status/2121377395244749097
 
 ---
 
 Guillermo Rauch (@rauchg)
-https://x.com/rauchg/status/2120966768483262648
 
-Vercel's Guillermo Rauch posed a sharp strategic question: what happens to frameworks and component libraries in the age of agents? His answer is to drill deeper — delete the unnecessary part, optimize, accelerate, and automate. The UI SDK, he argues, should become like the x86 instruction set: a foundational layer that agents build on top of, not a surface humans compose by hand.
-Vercel 的 Guillermo Rauch 提出了一个尖锐的战略问题：在 Agent 时代，框架和组件库的命运会如何？他的答案是：向下钻，删掉多余的部分，优化、加速、自动化。他认为 UI SDK 应该像 x86 指令集一样成为底层基础——是 Agent 在上面构建的基座，而非人类手动拼接的界面积木。
+Guillermo Rauch announced Workflow SDK 5 and Vercel Workflows as a major leap forward for AI agents, highlighting dramatically improved "time to first step" and "time between steps," along with enhanced encryption and security. He also teased "Vercel Sandbox" as inevitable—hinting at containerized execution environments on the horizon. He co-signed the #StandWithJensen letter as well.
+Guillermo Rauch 宣布 Workflow SDK 5 与 Vercel Workflows 正式推出，称其为 AI 智能体领域的重要里程碑——"首步响应时间"和"步骤间延迟"大幅改善，加密与安全能力也得到强化。他还预告 "Vercel Sandbox" 即将到来，暗示容器化执行环境已在路上。他同样签署了 #StandWithJensen 公开信。
 
----
-
-Alex Albert (@alexalbert__)
-https://x.com/alexalbert__/status/2120983722182988206
-
-Anthropic's Alex Albert shared a key insight into getting better work from Claude: it's largely about identifying what context Claude is missing and finding ways to close that gap. Claude Meetings is one of the most promising new ways to bring in those remaining context slices — and in his testing, it's already proved valuable.
-Anthropic 的 Alex Albert 分享了一个让 Claude 更好工作的核心心得：关键在于识别 Claude 缺失了哪些上下文，并找到方法弥补这一差距。Claude Meetings 是目前最有潜力的新途径之一，可以引入那些"残缺的信息切片"——在他的测试中，这一功能已经显示出相当的价值。
+Sources:
+- https://x.com/rauchg/status/2121351007615811799
+- https://x.com/rauchg/status/2121347136965210286
+- https://x.com/rauchg/status/2121277727940776114
 
 ---
 
-Aaron Levie (@levie)
-https://x.com/levie/status/2120947988143198302
-https://x.com/levie/status/2120880718868045973
+Garry Tan (@garrytan)
 
-Box CEO Aaron Levie tested Gemini 4 Hydrogen with Box AI's Complex Work Eval and called the results "a serious jump." Hydrogen outperforms by 5 percentage points in accuracy on fast model benchmarks — a meaningful leap for enterprise AI workflows. Beyond that, Levie also reacted with a simple "What a mess" to the broader Jensen situation, capturing the collective sentiment.
-Box CEO Aaron Levie 用 Box AI 的复杂工作评测体系测试了 Gemini 4 Hydrogen，称结果"是一次真正的飞跃"。Hydrogen 在快速模型精度评测上高出 5 个百分点——对企业级 AI 工作流来说是一次有实质意义的提升。对于更大范围的 Jensen 事件，Levie 仅以一句"What a mess"作结，精准道出了集体情绪。
+Garry Tan shared results from his open-source harness eval repo, recommending developers keep Claude Opus 5.5 as their default coding model in Claude Code. His benchmark across 52 coding tasks showed that while the newer Fable 5.2 solved a comparable number of tasks (82.7% vs. 84.6% for Opus 5.5), it cost 2.80x more per solved task—making Opus 5.5 the better value. He also signed the #StandWithJensen letter, calling for due process rather than trial-by-media.
+Garry Tan 分享了其开源测试框架的评测结果，建议开发者在 Claude Code 中继续以 Claude Opus 5.5 作为默认编程模型。他在 52 个编程任务上的基准测试显示，新款 Fable 5.2 完成率（82.7%）与 Opus 5.5（84.6%）相近，但每个已完成任务的费用高出 2.80 倍——综合性价比 Opus 5.5 更优。他也签署了 #StandWithJensen 公开信，呼吁给予当事人正当程序，而非媒体审判。
+
+Sources:
+- https://x.com/garrytan/status/2121464508225053153
+- https://x.com/garrytan/status/2121463161069228382
+- https://x.com/garrytan/status/2121462697787342932
 
 ---
 
 Matt Turck (@mattturck)
-https://x.com/mattturck/status/2120951444526264388
-https://x.com/mattturck/status/2120933338928108016
-https://x.com/mattturck/status/2120883923005907139
 
-FirstMark's Matt Turck laid out exactly what the AI ecosystem stands to lose with Jensen Huang's situation: its "central banker" who backstops the ecosystem, its most active investor, and a bold acquirer. He also had an eyebrow-raising observation about the geopolitical dimension of the story. And in lighter news, he's heading to Slush next week — where, apparently, every single agenda item involves a drink.
-FirstMark 的 Matt Turck 清晰梳理了 Jensen Huang 事件给 AI 生态带来的潜在损失：失去这个生态的"央行行长"、最活跃的投资人，以及一位敢于出手的并购者。他还对事件的地缘政治维度发表了引人深思的观察。轻松一面：他下周将前往 Slush 峰会——看日程，每一项活动似乎都少不了一杯酒。
+Matt Turck cracked a wry joke about the FAA nationwide ground stop, quipping that VCs would soon be opining on the aviation crisis—a lighthearted jab at the tech industry's tendency to weigh in on everything.
+Matt Turck 以一句俏皮话回应了美国 FAA 全国停飞事件，调侃称 VC 们很快就会就航空危机发表意见——对科技圈热衷于对一切事务发声的现象作了一番轻松的讽刺。
 
----
-
-Zara Zhang (@zarazhangrui)
-https://x.com/zarazhangrui/status/2121044386276594175
-https://x.com/zarazhangrui/status/2121044098270543980
-
-Zara Zhang showcased a creative new way to absorb complex stories: an interactive text-based explainer about the Jensen Huang scandal, built with just 2 prompts. You can read at your own pace and interrupt anytime by asking questions. It's a compelling glimpse into how AI-native storytelling can replace passive reading.
-Zara Zhang 展示了一种创意十足的新型信息吸收方式：一个关于 Jensen Huang 事件的交互式文字解说，仅用 2 条提示词搭建而成。读者可按自己的节奏阅读，随时发送问题打断进程。这是 AI 原生叙事如何取代被动阅读的一次生动预演。
+Source: https://x.com/mattturck/status/2121358328169132503
 
 ---
 
 Nikunj Kothari (@nikunj)
-https://x.com/nikunj/status/2121096888023932949
-https://x.com/nikunj/status/2120911254999154710
 
-Nikunj Kothari is watching the Jensen saga with wide eyes — 9+ hours without resolution is "wild," he notes, and predicts it's going to get much worse before it gets better. He's also being a good sport about an earlier late-night tweet, promising to respond to everyone who reached out.
-Nikunj Kothari 目瞪口呆地追踪着 Jensen 事件——9 个多小时悬而未决，他直言"太疯狂了"，并预判在好转之前事情还会继续恶化。他也展示了一份难得的从容：坦承了一条深夜发出的推文，并承诺会逐一回复所有私信和评论。
+Nikunj Kothari put the FAA nationwide ground stop in historical context: it's only the third time in modern history, after 9/11 and the 2023 NOTAM system outage. He also pushed back against benchmark-maxxing in AI, arguing that since Llama 4, there seemed to be a truce on inflated benchmarks—but it appears the "benchmark cartel" is back. His take: real-world usage of models in your actual workflows is the only honest evaluation.
+Nikunj Kothari 将 FAA 全国停飞事件置于历史背景下解读：这是现代史上仅有的第三次，此前两次分别是 9/11 和 2023 年 NOTAM 系统故障。他还对 AI 行业的"刷榜"现象提出批评：Llama 4 发布后本以为业界已暂停这种风气，但"基准测试卡特尔"似乎卷土重来。他认为，唯有在真实工作流中亲身使用模型，才是最诚实的评测方式。
 
----
-
-Peter Steinberger (@steipete)
-https://x.com/steipete/status/2121058770767982997
-https://x.com/steipete/status/2121042215619510584
-https://x.com/steipete/status/2121009372470067544
-
-Dots founder Peter Steinberger's team published a deep-dive on running persistent agents inside OpenAI — a must-read for anyone building long-running agent workflows. He's also exploring "yolo mode" for dots, asking whether users would trust their dot to act even if it might do something unexpected. And a valuable consumer warning: marketers are offering money to influencers to hype a yet-unreleased agent — watch for bias in reviews this week.
-Dots 创始人 Peter Steinberger 的团队发布了一篇关于在 OpenAI 内部运行持久化 Agent 的深度文章——任何构建长运行 Agent 工作流的人都值得一读。他还在探索 dots 的"yolo 模式"，询问用户是否愿意信任自己的 dot 自主行动，哪怕它偶尔会做出意外之举。同时他发出了一个重要提示：有营销人员正在花钱买 KOL 为某即将发布的 Agent 造势，本周的评测要注意甄别真伪。
+Sources:
+- https://x.com/nikunj/status/2121366466905981435
+- https://x.com/nikunj/status/2121320899161010360
 
 ---
 
 Dan Shipper (@danshipper)
-https://x.com/danshipper/status/2121036252350972222
-https://x.com/danshipper/status/2121029280432075157
-https://x.com/danshipper/status/2121026025668727279
 
-Every.to's Dan Shipper is in full philosopher mode today. He dove into the "honeypot" discourse with characteristic meta-commentary — warning that surface-level debate misses the deeper structure of what's happening. He also shared a very relatable reaction to Claude joining a meeting for the first time, and gave a respectful nod to Anthropic's Claude Meetings launch.
-Every.to 的 Dan Shipper 今天进入了全情哲学家模式。他以一贯的元评论视角切入"蜜罐"话题，提醒大家表面争论往往遮蔽了更深层的结构性问题。他还分享了 Claude 第一次参加会议时令人会心一笑的反应，并为 Anthropic 的 Claude Meetings 上线送上了一个友好的致意。
+Dan Shipper flagged a growing and important trend—AI-related safety issues are becoming more common and need to be fixed, with everyone in the AI industry having a responsibility to help. He also explored why teams still pay for established software even when Fable 5.2 can "vibe code" almost anything. And he mused about what he called "the most important formula in AI," teasing a thought on the fundamental math driving progress.
+Dan Shipper 指出了一个重要且日益普遍的趋势——AI 安全相关问题正在增多，亟需解决，AI 行业的每个人都有责任共同应对。他还探讨了为何即便 Fable 5.2 几乎能"氛围编程"出任何东西，团队仍然愿意为成熟软件付费。此外，他分享了关于"AI 中最重要公式"的思考，暗示某个驱动进步的核心数学规律。
+
+Sources:
+- https://x.com/danshipper/status/2121367890095960507
+- https://x.com/danshipper/status/2121248233510818003
+- https://x.com/danshipper/status/2121243400293007866
 
 ---
 
 Aditya Agarwal (@adityaag)
-https://x.com/adityaag/status/2120924059709956201
 
-Dropbox's Aditya Agarwal offered one of the most heartfelt takes on the Jensen news: "We would not be where we are today without Jensen. It is viscerally painful to see what is happening." A reminder that behind the headlines is a person who built something extraordinary.
-Dropbox 的 Aditya Agarwal 对 Jensen 事件发出了最动情的感慨之一："没有 Jensen，我们不可能走到今天。看到正在发生的一切，真的感到撕心裂肺。"这句话提醒我们，新闻头条背后，是一个亲手缔造了非凡事业的真实的人。
+Aditya Agarwal expressed that we are in an "extremely weird timeline"—a sentiment widely shared given the week's news cycle. He also proudly highlighted YC portfolio companies featured in the AI 100 list, including Baseten, Render, Profound, Replit, Gamma, Cog, and Density.
+Aditya Agarwal 感叹我们正处于一个"极其诡异的时间线"——这一心情在本周新闻环境下引发广泛共鸣。他还自豪地为入选 AI 100 榜单的 YC 投资公司点赞，包括 Baseten、Render、Profound、Replit、Gamma、Cog 和 Density。
 
----
-
-Claude (@claudeai)
-https://x.com/claudeai/status/2120974000746582357
-https://x.com/claudeai/status/2120973999295643679
-https://x.com/claudeai/status/2120973996304830859
-
-Anthropic officially launched Claude Meetings, starting with Google Meet integration (more platforms coming soon). Claude joins as a visible participant — your team can ask it questions out loud or in chat, watch it build documents in real time, and correct it as it works. After the call, Claude delivers notes, action items, the full transcript, and anything it built, all organized on the meeting's page.
-Anthropic 正式推出了 Claude Meetings，首先接入 Google Meet（更多平台即将支持）。Claude 以可见参与者身份加入会议——团队成员可以口头或通过聊天向它提问，实时看着它创建文档，并随时纠正。通话结束后，Claude 会整理好笔记、行动项、完整记录以及它构建的所有内容，统一呈现在会议页面上。
+Sources:
+- https://x.com/adityaag/status/2121372222292201767
+- https://x.com/adityaag/status/2121281677238604148
 
 ---
 
-🎙️ 播客精华 · No Priors
+🎙️ PODCAST: Training Data — "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning"
 
-**Powering AI-Driven Drug Discovery with President of Isomorphic Labs Max Jaderberg**
-来源：https://www.youtube.com/@NoPriorsPodcast
-发布：2026-11-12
+This episode of Training Data features Ronak from Trajectory, a startup focused on making continual learning accessible to every company. Ronak uses a compelling Apple analogy: just as Apple combined the internet and the phone into something no one had imagined, Trajectory is combining training, evaluation, and deployment into a single, seamlessly looping platform. He describes the current state of AI as "pseudo continual learning"—like the old AAA road maps era—where model updates happen in large offline batches. Trajectory's goal is to move toward something like Google Maps: a system where every interaction continuously updates the model in production, creating a true learning loop accessible to all companies, not just AI giants.
+本期 Training Data 播客专访了 Trajectory 创始人 Ronak。Trajectory 致力于让持续学习能力惠及每一家企业。Ronak 以苹果类比阐述愿景：正如苹果当年将互联网与手机融合，创造出无人预见的革命性产品，Trajectory 正将模型训练、评估与部署整合为一个无缝闭环平台。他将当前 AI 现状描述为"伪持续学习"——类似早年依赖 AAA 纸质地图的时代——模型更新仍以大批量离线方式进行。Trajectory 的目标是迈向"Google Maps 时代"：每一次交互都持续更新生产环境中的模型，真正实现所有企业（而非仅限于 AI 巨头）都能使用的持续学习闭环。
 
-**核心论点**
-Isomorphic Labs 总裁 Max Jaderberg 认为，AI 有潜力从根本上颠覆数十年来药物发现中"高成本、高失败率、依赖试错"的困境。核心思路是：通过高精度计算机模拟（以 AlphaFold 为先驱）将尽可能多的药物研发工作从"真实世界实验"迁移到"计算机内完成"，从而大幅压缩时间与成本，提升进入临床时的成功概率。
-
-**关键洞察**
-- 药物研发为何越来越贵、越来越慢？本质是"经验主义驱动"的研发模式已逼近天花板。低悬果实已被摘完，剩余问题的复杂度超出了现有试错方法的处理能力。
-- 失败最多发生在临床阶段——不是因为科学家不努力，而是因为我们对药物在人体内的毒性、副作用、脱靶效应缺乏足够的预判能力。
-- 老鼠毒性实验对人类毒性的预测准确率仅约 30%。Isomorphic 正在探索以体外指标 + 类器官 + AI 模型取代动物实验，直接预测人类临床毒性。
-- 数据策略至关重要：现有行业数据集往往带有系统性偏差，Isomorphic 选择自己生成高质量训练数据，并已观察到显著的"数据规模定律"效应。
-- 团队构成：核心 AI 研究人员与领域专家的配比约为 5:1，双方交叉学习，逐渐培养出跨学科复合型科学家。
-- 商业模式：内部自研药物管线（聚焦肿瘤学、免疫学、炎症领域）+ 与大型药企联合开发，不出售模型或 API，而是用模型直接制造药物。
-- 对未来 5 年的期望：疾病生物学的预测理解能力和分子设计精准度必须有"阶跃式"提升；否则 Max 表示"会非常失望"。
-
-**一句话总结**
-AI 正在把药物研发从"在现实世界里反复试错"变成"在计算机上精准设计，只在必要时下场验证"——这可能是人类医学史上最重要的范式转变之一。
+Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
