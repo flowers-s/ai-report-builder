@@ -1,114 +1,232 @@
-AI Builders 日报 · 2026-11-15
-
-Today's digest covers 9 AI builders on X/Twitter and 1 podcast episode. Key themes: the #StandWithJensen movement defending Nvidia's Jensen Huang amid media scrutiny, Replit's partnership with Visa on agentic commerce, Vercel's new Workflow SDK 5 and sandbox tools, AI model benchmarking debates, and the rare FAA nationwide ground stop.
-
-今日日报收录了9位 AI 领域建设者在 X/Twitter 上的动态和1期播客。核心主题包括：为英伟达黄仁勋发声的 #StandWithJensen 运动、Replit 与 Visa 在智能体商务上的合作、Vercel Workflow SDK 5 及沙盒工具发布、AI 模型基准评测争议，以及罕见的美国 FAA 全国停飞事件。
+AI Builders 日报 · 2026-11-16
 
 ---
 
-Swyx (@swyx)
+## OFFICIAL BLOGS
 
-Swyx invited followers to attend an upcoming event, sharing a link without much elaboration—keeping it brief and action-oriented.
-Swyx 简短地邀请粉丝参加一个即将到来的活动，附上链接，言简意赅、以行动为导向。
-
-Source: https://x.com/swyx/status/2121473082372292885
+No new blog posts today.
 
 ---
 
-Peter Yang (@petergyang)
+## X / TWITTER
 
-Peter Yang shared multiple perspectives on the controversy surrounding Alice Huang, an NVIDIA employee accused of espionage by the WSJ. He highlighted that Singapore's government statement suggested the accusations were premature, calling out the questionable reporting. Separately, he offered a practical AI health tip: upload a patient's medical records to Google Drive and use ChatGPT or Claude to help navigate complex medical situations—a genuinely useful application of AI for families dealing with serious illness.
-Peter Yang 就《华尔街日报》涉嫌指控英伟达员工 Alice Huang 从事间谍活动的报道，分享了多方观点。他引用新加坡政府声明指出，相关指控缺乏充分依据，批评媒体报道存在明显失实。另外，他分享了一个实用的 AI 健康建议：将患者病历上传至 Google Drive，借助 ChatGPT 或 Claude 帮助家庭应对复杂病情，展示了 AI 在医疗场景中的切实价值。
+### Swyx (swyx on X)
 
-Sources:
-- https://x.com/petergyang/status/2121431117526134923
-- https://x.com/petergyang/status/2121430819667579031
-- https://x.com/petergyang/status/2121430386685395022
+Swyx flagged a sharp observation about the state of AI UX: current interfaces are wildly suboptimal given how capable and cheap today's models are.
+Swyx 指出当前 AI 用户体验严重滞后：考虑到现有模型的能力之强、成本之低，现有界面实在过于粗糙。
 
----
+*"obviously correct, we are so suboptimal in AI UX rn it is crazy esp given existence of models too cheap to meter"*
+原文犀利点评：在模型便宜到近乎免费的今天，AI 交互体验还如此落后，简直不可思议。
 
-Amjad Masad (@amasad)
+He also teased an upcoming event with audience participation.
+他还预告了一场有观众互动环节的活动。
 
-Amjad Masad announced Replit's deepening partnership with Visa on agentic commerce, with more features and use cases on the way. He also addressed a scaling issue with the #StandWithJensen website—itself built and hosted on Replit—by working with the page owner to raise the rate limit after it went viral. He also personally signed and promoted the open letter defending Jensen Huang.
-Amjad Masad 宣布 Replit 与 Visa 在智能体商务领域的合作持续深化，更多功能和使用场景即将推出。他还处理了 #StandWithJensen 网站（该网站即由 Replit 构建和托管）因流量激增导致的限速问题，与页面所有者合作提升了速率上限。他本人也签署并积极推广了这封为黄仁勋发声的公开信。
-
-Sources:
-- https://x.com/amasad/status/2121428406764204199
-- https://x.com/amasad/status/2121389001546567837
-- https://x.com/amasad/status/2121377395244749097
+Source: https://x.com/swyx/status/2121757606801023085
+Source: https://x.com/swyx/status/2121738675705029005
 
 ---
 
-Guillermo Rauch (@rauchg)
+### Google Labs VP Josh Woodward (joshwoodward on X)
 
-Guillermo Rauch announced Workflow SDK 5 and Vercel Workflows as a major leap forward for AI agents, highlighting dramatically improved "time to first step" and "time between steps," along with enhanced encryption and security. He also teased "Vercel Sandbox" as inevitable—hinting at containerized execution environments on the horizon. He co-signed the #StandWithJensen letter as well.
-Guillermo Rauch 宣布 Workflow SDK 5 与 Vercel Workflows 正式推出，称其为 AI 智能体领域的重要里程碑——"首步响应时间"和"步骤间延迟"大幅改善，加密与安全能力也得到强化。他还预告 "Vercel Sandbox" 即将到来，暗示容器化执行环境已在路上。他同样签署了 #StandWithJensen 公开信。
+Josh Woodward announced a new Gemini feature: Google Wallet integration for personal finance insights, now rolling out to all US Gemini app users.
+Google Labs 副总裁 Josh Woodward 宣布 Gemini 新功能：接入 Google 钱包，提供个人财务洞察，当前向全美用户开放。
 
-Sources:
-- https://x.com/rauchg/status/2121351007615811799
-- https://x.com/rauchg/status/2121347136965210286
-- https://x.com/rauchg/status/2121277727940776114
+The feature enables instant spend visualization, subscription price-hike detection, and holiday budgeting based on actual past spending.
+该功能支持消费可视化图表、发现悄悄涨价的订阅服务，以及根据历史实际支出制定节假日预算。
 
----
-
-Garry Tan (@garrytan)
-
-Garry Tan shared results from his open-source harness eval repo, recommending developers keep Claude Opus 5.5 as their default coding model in Claude Code. His benchmark across 52 coding tasks showed that while the newer Fable 5.2 solved a comparable number of tasks (82.7% vs. 84.6% for Opus 5.5), it cost 2.80x more per solved task—making Opus 5.5 the better value. He also signed the #StandWithJensen letter, calling for due process rather than trial-by-media.
-Garry Tan 分享了其开源测试框架的评测结果，建议开发者在 Claude Code 中继续以 Claude Opus 5.5 作为默认编程模型。他在 52 个编程任务上的基准测试显示，新款 Fable 5.2 完成率（82.7%）与 Opus 5.5（84.6%）相近，但每个已完成任务的费用高出 2.80 倍——综合性价比 Opus 5.5 更优。他也签署了 #StandWithJensen 公开信，呼吁给予当事人正当程序，而非媒体审判。
-
-Sources:
-- https://x.com/garrytan/status/2121464508225053153
-- https://x.com/garrytan/status/2121463161069228382
-- https://x.com/garrytan/status/2121462697787342932
+Source: https://x.com/joshwoodward/status/2121755282326102417
+Source: https://x.com/joshwoodward/status/2121755283785699376
 
 ---
 
-Matt Turck (@mattturck)
+### OpenAI Cyber Team Lead Thibault Sottiaux (thsottiaux on X)
 
-Matt Turck cracked a wry joke about the FAA nationwide ground stop, quipping that VCs would soon be opining on the aviation crisis—a lighthearted jab at the tech industry's tendency to weigh in on everything.
-Matt Turck 以一句俏皮话回应了美国 FAA 全国停飞事件，调侃称 VC 们很快就会就航空危机发表意见——对科技圈热衷于对一切事务发声的现象作了一番轻松的讽刺。
+Thibault Sottiaux is soliciting community feedback on Daybreak — OpenAI's cybersecurity platform covering models, Codex plugins, blue/red team access, documentation, and the defense factory.
+OpenAI 网络安全团队负责人 Thibault Sottiaux 公开征集对 Daybreak 平台的反馈，涵盖模型、Codex 插件、蓝/红队访问权限、文档及防御工厂等方面。
 
-Source: https://x.com/mattturck/status/2121358328169132503
-
----
-
-Nikunj Kothari (@nikunj)
-
-Nikunj Kothari put the FAA nationwide ground stop in historical context: it's only the third time in modern history, after 9/11 and the 2023 NOTAM system outage. He also pushed back against benchmark-maxxing in AI, arguing that since Llama 4, there seemed to be a truce on inflated benchmarks—but it appears the "benchmark cartel" is back. His take: real-world usage of models in your actual workflows is the only honest evaluation.
-Nikunj Kothari 将 FAA 全国停飞事件置于历史背景下解读：这是现代史上仅有的第三次，此前两次分别是 9/11 和 2023 年 NOTAM 系统故障。他还对 AI 行业的"刷榜"现象提出批评：Llama 4 发布后本以为业界已暂停这种风气，但"基准测试卡特尔"似乎卷土重来。他认为，唯有在真实工作流中亲身使用模型，才是最诚实的评测方式。
-
-Sources:
-- https://x.com/nikunj/status/2121366466905981435
-- https://x.com/nikunj/status/2121320899161010360
+Source: https://x.com/thsottiaux/status/2121845965997101118
 
 ---
 
-Dan Shipper (@danshipper)
+### Every CEO Peter Yang (petergyang on X)
 
-Dan Shipper flagged a growing and important trend—AI-related safety issues are becoming more common and need to be fixed, with everyone in the AI industry having a responsibility to help. He also explored why teams still pay for established software even when Fable 5.2 can "vibe code" almost anything. And he mused about what he called "the most important formula in AI," teasing a thought on the fundamental math driving progress.
-Dan Shipper 指出了一个重要且日益普遍的趋势——AI 安全相关问题正在增多，亟需解决，AI 行业的每个人都有责任共同应对。他还探讨了为何即便 Fable 5.2 几乎能"氛围编程"出任何东西，团队仍然愿意为成熟软件付费。此外，他分享了关于"AI 中最重要公式"的思考，暗示某个驱动进步的核心数学规律。
+Peter Yang shared two useful prompt-audit commands for Fable 5.2 (a Claude Code workflow tool):
+Every CEO Peter Yang 分享了 Fable 5.2（一款 Claude Code 工作流工具）的两个实用提示审计命令：
 
-Sources:
-- https://x.com/danshipper/status/2121367890095960507
-- https://x.com/danshipper/status/2121248233510818003
-- https://x.com/danshipper/status/2121243400293007866
+`/doctor prompt-audit` audits your entire Claude Code setup and suggests fixes; `/claude-api prompt-audit [skill name]` performs a deep audit of a single skill.
+`/doctor prompt-audit` 对整个 Claude Code 配置进行审计并提出修复建议；`/claude-api prompt-audit [skill name]` 则对单个技能进行深度审计。
 
----
+He wishes Claude Code would auto-suggest running these audits every time Anthropic releases a new model.
+他希望每次 Anthropic 发布新模型时，Claude Code 能自动提示运行这些审计命令。
 
-Aditya Agarwal (@adityaag)
-
-Aditya Agarwal expressed that we are in an "extremely weird timeline"—a sentiment widely shared given the week's news cycle. He also proudly highlighted YC portfolio companies featured in the AI 100 list, including Baseten, Render, Profound, Replit, Gamma, Cog, and Density.
-Aditya Agarwal 感叹我们正处于一个"极其诡异的时间线"——这一心情在本周新闻环境下引发广泛共鸣。他还自豪地为入选 AI 100 榜单的 YC 投资公司点赞，包括 Baseten、Render、Profound、Replit、Gamma、Cog 和 Density。
-
-Sources:
-- https://x.com/adityaag/status/2121372222292201767
-- https://x.com/adityaag/status/2121281677238604148
+Source: https://x.com/petergyang/status/2121649295950762363
+Source: https://x.com/petergyang/status/2121637240132735289
 
 ---
 
-🎙️ PODCAST: Training Data — "A Model For Everyone: How Ronak From Trajectory Is Building Products For Continual Learning"
+### Replit CEO Amjad Masad (amasad on X)
 
-This episode of Training Data features Ronak from Trajectory, a startup focused on making continual learning accessible to every company. Ronak uses a compelling Apple analogy: just as Apple combined the internet and the phone into something no one had imagined, Trajectory is combining training, evaluation, and deployment into a single, seamlessly looping platform. He describes the current state of AI as "pseudo continual learning"—like the old AAA road maps era—where model updates happen in large offline batches. Trajectory's goal is to move toward something like Google Maps: a system where every interaction continuously updates the model in production, creating a true learning loop accessible to all companies, not just AI giants.
-本期 Training Data 播客专访了 Trajectory 创始人 Ronak。Trajectory 致力于让持续学习能力惠及每一家企业。Ronak 以苹果类比阐述愿景：正如苹果当年将互联网与手机融合，创造出无人预见的革命性产品，Trajectory 正将模型训练、评估与部署整合为一个无缝闭环平台。他将当前 AI 现状描述为"伪持续学习"——类似早年依赖 AAA 纸质地图的时代——模型更新仍以大批量离线方式进行。Trajectory 的目标是迈向"Google Maps 时代"：每一次交互都持续更新生产环境中的模型，真正实现所有企业（而非仅限于 AI 巨头）都能使用的持续学习闭环。
+Amjad Masad made a bold declaration: "Autonomous Businesses are here," pointing to Replit's latest developments.
+Replit CEO Amjad Masad 大胆宣告："自主运营的企业已经到来。"
 
-Source: https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8
+He went further with a philosophical observation on technology's self-improving nature — AI is an accelerant, not the origin, of autonomous systems.
+他进一步从哲学角度阐述技术的自我演进本质：AI 只是自主系统发展的加速剂，而非起点。
+
+*"Technology is inherently recursively self-improving and the degree of autonomy has been going up overtime. AI is an accelerant but it didn't not start this cycle. Douglas Engelbart understood this."*
+"技术天然具有递归自我改进的属性，自主化程度一直在随时间提升。AI 只是个加速剂，这个周期并非由它开启。道格拉斯·恩格尔巴特早就洞察了这一点。"
+
+He also warned of an emerging "Murphy's World" — with billions of interdependent AI-driven events happening simultaneously, rare failures become daily occurrences.
+他还警告说，我们已进入"墨菲定律的世界"——数十亿相互依赖的 AI 驱动事件同时发生，低概率故障变成了家常便饭。
+
+Source: https://x.com/amasad/status/2121765647168483589
+Source: https://x.com/amasad/status/2121549054173757554
+Source: https://x.com/amasad/status/2121519931741127144
+
+---
+
+### Vercel CEO Guillermo Rauch (rauchg on X)
+
+Guillermo Rauch called it "an awesome day for humanity" — likely referring to a significant AI or product announcement.
+Vercel CEO Guillermo Rauch 感叹"这是人类历史上了不起的一天"——或许是在庆祝某项重大 AI 或产品发布。
+
+He also showcased a demo with the UI SDK: two prompts with Gemini Argon generated a full app using pure Web Components (no framework), with 14 UI behaviors reused out of the box — including window resizing, drag, typeahead, 10-band EQ sliders, and WebMCP agent control.
+他还展示了一个 UI SDK 演示：用两个提示词配合 Gemini Argon，纯 Web Components（无框架）生成完整应用，自动复用了 14 种 UI 行为，涵盖窗口缩放、拖拽、类型提示、10 频段均衡器滑块和 WebMCP 智能体控制等功能。
+
+On sub-agents: Rauch described using the planning model for architecture and delegating to fast model sub-agents with a single line in `AGENTS.md` — calling it "extremely delightful."
+关于子智能体：Rauch 描述了用规划模型做架构设计、将执行任务委托给快速子模型的工作流，只需在 `AGENTS.md` 中一行配置——他称之为"极致愉悦的体验"。
+
+Source: https://x.com/rauchg/status/2121825273373229134
+Source: https://x.com/rauchg/status/2121804295381377342
+Source: https://x.com/rauchg/status/2121739228698886454
+
+---
+
+### Box CEO Aaron Levie (levie on X)
+
+Aaron Levie wrote a thoughtful thread arguing that AI's greatest acceleration will be in coding-shaped work — not because all work becomes software engineering, but because agents that use or generate software will improve faster than any other domain.
+Box CEO Aaron Levie 发表深度观点：AI 最大的加速将发生在"编程形态"的工作上——不是所有工作都会变成软件工程，而是会重塑成智能体擅长的编程形式。
+
+*"AI models are inevitably going to keep getting better and better at all coding, tool and computer use, math, and other coding-related tasks."*
+"AI 模型在编码、工具使用、计算机操作和数学等相关任务上的能力将持续不可避免地提升。"
+
+He argues that the key unlock is not omniscient models, but models that can effectively use or generate software combined with deep domain expertise — enabling agents to work in cyber, life sciences, finance, and beyond.
+他认为，真正的突破不在于无所不知的模型，而在于能有效使用或生成软件、并结合深度领域专业知识的模型——由此让智能体在网络安全、生命科学、金融等领域发挥作用。
+
+Source: https://x.com/levie/status/2121686564078297461
+
+---
+
+### Y Combinator President Garry Tan (garrytan on X)
+
+Garry Tan flagged Aside Browser as "a huge unlock for every AI agent" — pointing to new browser-native infrastructure for agentic workflows.
+YC 总裁 Garry Tan 指出 Aside Browser 是"每个 AI 智能体的巨大解锁"，为智能体工作流带来全新的浏览器原生基础设施。
+
+He also weighed in on a broader societal issue: the US air traffic control system running on paper charts and copper wire — calling for FAA modernization.
+他还就更宏观的社会问题发声：美国空管系统仍依赖纸质图表和铜线，呼吁推进联邦航空局现代化改革。
+
+Source: https://x.com/garrytan/status/2121824006819258485
+Source: https://x.com/garrytan/status/2121727702025765094
+
+---
+
+### FirstMark Capital Managing Director Matt Turck (mattturck on X)
+
+Matt Turck amplified a take on NVIDIA's strategic position in open-weight AI: NVIDIA is the one deeply-pocketed player with a clear business interest in open-weight models, and was willing to make founder-sized bets on them.
+FirstMark Capital 董事总经理 Matt Turck 转发并认可了关于英伟达在开源权重 AI 领域战略地位的分析：英伟达是唯一一个财力雄厚、在开源权重模型上有清晰商业利益、并愿意押注的巨头。
+
+Source: https://x.com/mattturck/status/2121608999053492408
+
+---
+
+### Redpoint Ventures Partner Zara Zhang (zarazhangrui on X)
+
+Zara Zhang reposted content she endorsed with "True" — no original commentary to summarize.
+红点创投合伙人 Zara Zhang 转发了一条她认同的内容，仅回复"True"——无实质性原创观点可提炼。
+
+近期无重要动态（原创内容不足）。
+
+Source: https://x.com/zarazhangrui/status/2121654053453357342
+
+---
+
+### Pika Labs Founding Investor Nikunj Kothari (nikunj on X)
+
+Nikunj Kothari is eagerly awaiting incident reports from "this week" — hinting at notable AI system failures in the news cycle.
+Pika Labs 创始投资人 Nikunj Kothari 期待阅读"本周"的事故报告——暗示近期有值得关注的 AI 系统故障事件。
+
+He also shared his 2026 Startup Bookshelf — a curated reading list for founders this year.
+他还分享了 2026 创业者书单——为今年的创始人精心整理的推荐阅读清单。
+
+Source: https://x.com/nikunj/status/2121832102182453518
+Source: https://x.com/nikunj/status/2121640157443215824
+
+---
+
+### PSPDFKit CEO Peter Steinberger (steipete on X)
+
+Peter Steinberger posted a 🍿 emoji with a link — likely reacting to a noteworthy event unfolding in the AI space, with no original commentary.
+PSPDFKit CEO Peter Steinberger 发布了一个 🍿 表情加链接——似乎在围观 AI 圈某件大事，无原创观点。
+
+近期无重要原创动态。
+
+Source: https://x.com/steipete/status/2121706904917520875
+
+---
+
+### Every CEO Dan Shipper (danshipper on X)
+
+Dan Shipper shared that Fable (Every's AI tool) wrote an email for him — showcasing AI's growing role in everyday writing tasks.
+Every CEO Dan Shipper 分享了 Fable（Every 旗下 AI 工具）为他撰写邮件的案例，展示 AI 在日常写作中的渗透程度。
+
+He also promoted Every's "frontier feed" — where the team publishes raw experiments, code, and writeups for anyone who wants the unfiltered alpha on AI.
+他还推介了 Every 的"前沿动态订阅"，团队在此发布 AI 实验的原始代码和写作记录，供希望获取第一手信息的读者订阅。
+
+*"if you want all of the raw alpha from @every you should have your agent read our frontier feed"*
+"如果你想获取 Every 最前沿的第一手信息，让你的智能体订阅我们的前沿动态吧。"
+
+Source: https://x.com/danshipper/status/2121652571211510094
+Source: https://x.com/danshipper/status/2121620539655819305
+
+---
+
+## PODCASTS
+
+### Unsupervised Learning — Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It
+
+**核心论点**
+Large language models have succeeded at impressive benchmarks while systematically failing at the reliability that real software demands.
+大型语言模型在基准测试上成绩亮眼，却在真实软件所需的可靠性上屡屡失手。
+
+TypeSave CEO Jago argues that the AI field has been building around the wrong abstraction — string-output LLMs — when the future of software is machine-native, structured, and reliability-first.
+TypeSave CEO Jago 认为，AI 领域一直在围错了抽象层构建——以字符串输出为核心的 LLM——而软件的未来应该是机器原生、结构化、可靠性优先的。
+
+The JEV model (based on RLCD) is his attempt to build that cognitive primitive: a "System 1" intelligence designed to be composable, semantically reliable, and suited for machine-native consumption rather than human-pleasing output.
+JEV 模型（基于 RLCD 方法）正是他为此构建认知原语的尝试：一种"系统一"式的智能，设计目标是可组合、语义可靠，服务于机器原生消费而非取悦人类。
+
+**关键洞察**
+
+- **基准疲劳已提前到来。** Jago 预期基准信任崩塌需要更长时间，但市场对无效 benchmark 刷分的免疫速度远超预期，尤其是在他们这类决策模型赛道。
+  Benchmark fatigue arrived faster than expected. Jago thought it would take longer for the market to become immune to benchmark-gaming, but it happened quickly — especially in the decision-model category.
+
+- **KV cache 是编程智能体的"暴政"。** 现有编程智能体的几乎所有设计决策——压缩、路由、子智能体上下文传递——都受限于 KV cache 的 append-only 特性，这让众多更优雅的架构模式无从实现。
+  The KV cache is the "tyranny" holding back coding agents. Almost every UX decision in coding agents — compaction, routing, sub-agent context handoff — is constrained by the KV cache's append-only nature, blocking more elegant architectural patterns.
+
+- **模型多样性被高估，可靠性被低估。** 越来越多的团队在追逐新颖的模型形态，却忽视了真正重要的东西：在实际工作负载中切实可用。
+  Model shape diversity is overrated; reliability is underrated. Too many teams are chasing novel model shapes without caring enough about whether they're actually useful in real workloads.
+
+- **GPT-3.5 时代就应该实现 AGI 意义上的自动化了。** Jago 认为，从 GPT-3.5 起，模型能力就已足以自动化大量低难度的经济性工作，只是整个行业没能将其可靠地落地。
+  We could have automated much more with GPT-3.5-era models. The capability was there; the field just failed to reliably deploy it.
+
+- **LLM 应用开发者陷入了"斯德哥尔摩综合症"。** 开发者已习惯于接受模型提供商的单方面路线图，而没有意识到自己有能力、也有责任推动模型能力与真实需求共同演进。
+  Developers are in a "Stockholm syndrome" with model providers — accepting their roadmap rather than collaborating to push intelligence where it's actually needed.
+
+**最值得关注的信号**
+Jago's framing of "semantic dependent typing" — using JEV-like models to verify software properties expressed in natural language rather than strict types — points toward a future where AI is woven into the type system itself, not just the code generation layer.
+Jago 提出"语义依赖类型"的构想——用 JEV 类模型验证用自然语言表达的软件属性，而非依赖严格类型系统——预示着 AI 未来将嵌入类型系统本身，而不仅仅是代码生成层。
+
+Watch here: https://www.youtube.com/@RedpointAI
+Episode title: Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
