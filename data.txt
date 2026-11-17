@@ -1,231 +1,208 @@
-AI Builders 日报 · 2026-11-16
+AI Builders 日报 · 2026-11-17
 
 ---
 
-## OFFICIAL BLOGS
-
-No new blog posts today.
+X / TWITTER
 
 ---
 
-## X / TWITTER
+**Swyx (latent.space 创始人)**
 
-### Swyx (swyx on X)
+Swyx shared a writeup from "clanker" summarizing a recent talk.
+Swyx 分享了一篇来自 "clanker" 的文章，对其近期演讲进行了总结回顾。
 
-Swyx flagged a sharp observation about the state of AI UX: current interfaces are wildly suboptimal given how capable and cheap today's models are.
-Swyx 指出当前 AI 用户体验严重滞后：考虑到现有模型的能力之强、成本之低，现有界面实在过于粗糙。
+He noted the content is "pretty normal" — a characteristic understated signal when a builder points to something worth reading.
+他评论说内容"pretty normal"（相当正常）——这种低调表达往往是他值得一看的信号。
 
-*"obviously correct, we are so suboptimal in AI UX rn it is crazy esp given existence of models too cheap to meter"*
-原文犀利点评：在模型便宜到近乎免费的今天，AI 交互体验还如此落后，简直不可思议。
-
-He also teased an upcoming event with audience participation.
-他还预告了一场有观众互动环节的活动。
-
-Source: https://x.com/swyx/status/2121757606801023085
-Source: https://x.com/swyx/status/2121738675705029005
+Source: https://x.com/swyx/status/2122031563961684032
+Source: https://x.com/swyx/status/2122066060769952161
 
 ---
 
-### Google Labs VP Josh Woodward (joshwoodward on X)
+**Thibault Sottiaux (Codex/OpenAI builder)**
 
-Josh Woodward announced a new Gemini feature: Google Wallet integration for personal finance insights, now rolling out to all US Gemini app users.
-Google Labs 副总裁 Josh Woodward 宣布 Gemini 新功能：接入 Google 钱包，提供个人财务洞察，当前向全美用户开放。
+The Codex team appears to have finally addressed the persistent "model at capacity" errors.
+Codex 团队看起来终于解决了长期困扰用户的"model at capacity"（模型容量不足）错误。
 
-The feature enables instant spend visualization, subscription price-hike detection, and holiday budgeting based on actual past spending.
-该功能支持消费可视化图表、发现悄悄涨价的订阅服务，以及根据历史实际支出制定节假日预算。
+This tweet went viral with 2,500 likes, suggesting the fix is both real and widely needed.
+这条推文获得 2500 个点赞，说明这个修复既真实有效，又是众多用户迫切需要的。
 
-Source: https://x.com/joshwoodward/status/2121755282326102417
-Source: https://x.com/joshwoodward/status/2121755283785699376
-
----
-
-### OpenAI Cyber Team Lead Thibault Sottiaux (thsottiaux on X)
-
-Thibault Sottiaux is soliciting community feedback on Daybreak — OpenAI's cybersecurity platform covering models, Codex plugins, blue/red team access, documentation, and the defense factory.
-OpenAI 网络安全团队负责人 Thibault Sottiaux 公开征集对 Daybreak 平台的反馈，涵盖模型、Codex 插件、蓝/红队访问权限、文档及防御工厂等方面。
-
-Source: https://x.com/thsottiaux/status/2121845965997101118
+Source: https://x.com/thsottiaux/status/2122206990101536852
 
 ---
 
-### Every CEO Peter Yang (petergyang on X)
+**Peter Yang (独立创作者、产品思维博主)**
 
-Peter Yang shared two useful prompt-audit commands for Fable 5.2 (a Claude Code workflow tool):
-Every CEO Peter Yang 分享了 Fable 5.2（一款 Claude Code 工作流工具）的两个实用提示审计命令：
+Peter shared a fascinating behind-the-scenes insight from Nate Parrott at Anthropic about why Claude always defaults to the same visual style.
+Peter 分享了来自 Anthropic 的 Nate Parrott 的一个有趣幕后见解：为何 Claude 总是默认同一种视觉风格。
 
-`/doctor prompt-audit` audits your entire Claude Code setup and suggests fixes; `/claude-api prompt-audit [skill name]` performs a deep audit of a single skill.
-`/doctor prompt-audit` 对整个 Claude Code 配置进行审计并提出修复建议；`/claude-api prompt-audit [skill name]` 则对单个技能进行深度审计。
+*"When you ask Claude to create something, it's operating in a fresh context where it thinks: Oh my God, the user asked me to make an app. I'm going to invent the most brilliant visual style."*
+*"当你让 Claude 创作东西时，它处于一个全新的上下文中，它会想：天啊，用户让我做一个应用程序，我要发明最精彩的视觉风格。"*
 
-He wishes Claude Code would auto-suggest running these audits every time Anthropic releases a new model.
-他希望每次 Anthropic 发布新模型时，Claude Code 能自动提示运行这些审计命令。
+The fix Anthropic uses: tell Claude in the system prompt that it tends to overuse certain fonts and colors, and to avoid them unless asked.
+Anthropic 的解决方案是：在系统提示中告诉 Claude 它倾向于过度使用某些字体和颜色，除非被要求否则避免使用。
 
-Source: https://x.com/petergyang/status/2121649295950762363
-Source: https://x.com/petergyang/status/2121637240132735289
+He also highlighted a key insight from the same episode: *"You've really compressed the cycle of building. What you haven't compressed is the cycle of putting it in people's hands and understanding if they're going to use it."*
+他还强调了同一期节目中的一个关键洞察：*"你真的压缩了构建周期，但你没有压缩的是把它交到用户手中并了解他们是否会使用的周期。"*
 
----
+Peter also commented on a NYTimes story about alleged spy Alice Huang, noting there is still no actual evidence despite the narrative.
+Peter 还评论了《纽约时报》关于疑似间谍 Alice Huang 的报道，指出尽管报道充斥叙事，但至今仍无实质证据。
 
-### Replit CEO Amjad Masad (amasad on X)
-
-Amjad Masad made a bold declaration: "Autonomous Businesses are here," pointing to Replit's latest developments.
-Replit CEO Amjad Masad 大胆宣告："自主运营的企业已经到来。"
-
-He went further with a philosophical observation on technology's self-improving nature — AI is an accelerant, not the origin, of autonomous systems.
-他进一步从哲学角度阐述技术的自我演进本质：AI 只是自主系统发展的加速剂，而非起点。
-
-*"Technology is inherently recursively self-improving and the degree of autonomy has been going up overtime. AI is an accelerant but it didn't not start this cycle. Douglas Engelbart understood this."*
-"技术天然具有递归自我改进的属性，自主化程度一直在随时间提升。AI 只是个加速剂，这个周期并非由它开启。道格拉斯·恩格尔巴特早就洞察了这一点。"
-
-He also warned of an emerging "Murphy's World" — with billions of interdependent AI-driven events happening simultaneously, rare failures become daily occurrences.
-他还警告说，我们已进入"墨菲定律的世界"——数十亿相互依赖的 AI 驱动事件同时发生，低概率故障变成了家常便饭。
-
-Source: https://x.com/amasad/status/2121765647168483589
-Source: https://x.com/amasad/status/2121549054173757554
-Source: https://x.com/amasad/status/2121519931741127144
+Source: https://x.com/petergyang/status/2122132596352327816
+Source: https://x.com/petergyang/status/2122060856498524510
+Source: https://x.com/petergyang/status/2122039657001300125
 
 ---
 
-### Vercel CEO Guillermo Rauch (rauchg on X)
+**Nan Yu (AI builder / 创业者)**
 
-Guillermo Rauch called it "an awesome day for humanity" — likely referring to a significant AI or product announcement.
-Vercel CEO Guillermo Rauch 感叹"这是人类历史上了不起的一天"——或许是在庆祝某项重大 AI 或产品发布。
+Nan Yu is exploring using Codex as a home automation controller, asking for the best hub that Codex can treat "as just another computer."
+Nan Yu 正在探索将 Codex 用作家庭自动化控制器，寻找一个 Codex 可以像控制普通电脑一样操控的最佳智能家居中枢。
 
-He also showcased a demo with the UI SDK: two prompts with Gemini Argon generated a full app using pure Web Components (no framework), with 14 UI behaviors reused out of the box — including window resizing, drag, typeahead, 10-band EQ sliders, and WebMCP agent control.
-他还展示了一个 UI SDK 演示：用两个提示词配合 Gemini Argon，纯 Web Components（无框架）生成完整应用，自动复用了 14 种 UI 行为，涵盖窗口缩放、拖拽、类型提示、10 频段均衡器滑块和 WebMCP 智能体控制等功能。
+He also made a charming observation about his Waymo autonomously activating windshield wipers in the rain — a small but telling sign of machine intelligence becoming mundane.
+他还分享了一个温馨的观察：他的 Waymo 在雨中自动启动雨刷——机器智能正在逐渐融入日常，变得习以为常。
 
-On sub-agents: Rauch described using the planning model for architecture and delegating to fast model sub-agents with a single line in `AGENTS.md` — calling it "extremely delightful."
-关于子智能体：Rauch 描述了用规划模型做架构设计、将执行任务委托给快速子模型的工作流，只需在 `AGENTS.md` 中一行配置——他称之为"极致愉悦的体验"。
-
-Source: https://x.com/rauchg/status/2121825273373229134
-Source: https://x.com/rauchg/status/2121804295381377342
-Source: https://x.com/rauchg/status/2121739228698886454
+Source: https://x.com/thenanyu/status/2122096965865664924
+Source: https://x.com/thenanyu/status/2122096121946468451
 
 ---
 
-### Box CEO Aaron Levie (levie on X)
+**Thariq (Loom 联合创始人 / AI 游戏构建者)**
 
-Aaron Levie wrote a thoughtful thread arguing that AI's greatest acceleration will be in coding-shaped work — not because all work becomes software engineering, but because agents that use or generate software will improve faster than any other domain.
-Box CEO Aaron Levie 发表深度观点：AI 最大的加速将发生在"编程形态"的工作上——不是所有工作都会变成软件工程，而是会重塑成智能体擅长的编程形式。
+Thariq dropped a product update: a new arena and two new characters.
+Thariq 发布了产品更新：一个新竞技场和两个新角色。
 
-*"AI models are inevitably going to keep getting better and better at all coding, tool and computer use, math, and other coding-related tasks."*
-"AI 模型在编码、工具使用、计算机操作和数学等相关任务上的能力将持续不可避免地提升。"
+This tweet hit 956 likes — indicating strong community excitement around whatever he is building.
+这条推文获得 956 个点赞，说明他所构建的产品在社区中引发了强烈关注。
 
-He argues that the key unlock is not omniscient models, but models that can effectively use or generate software combined with deep domain expertise — enabling agents to work in cyber, life sciences, finance, and beyond.
-他认为，真正的突破不在于无所不知的模型，而在于能有效使用或生成软件、并结合深度领域专业知识的模型——由此让智能体在网络安全、生命科学、金融等领域发挥作用。
-
-Source: https://x.com/levie/status/2121686564078297461
+Source: https://x.com/trq212/status/2122154124024381828
 
 ---
 
-### Y Combinator President Garry Tan (garrytan on X)
+**Amjad Masad (Replit CEO)**
 
-Garry Tan flagged Aside Browser as "a huge unlock for every AI agent" — pointing to new browser-native infrastructure for agentic workflows.
-YC 总裁 Garry Tan 指出 Aside Browser 是"每个 AI 智能体的巨大解锁"，为智能体工作流带来全新的浏览器原生基础设施。
+Amjad cryptically noted: *"It's been an interesting 48 hours."*
+Amjad 神秘地写道：*"这是有趣的 48 小时。"*
 
-He also weighed in on a broader societal issue: the US air traffic control system running on paper charts and copper wire — calling for FAA modernization.
-他还就更宏观的社会问题发声：美国空管系统仍依赖纸质图表和铜线，呼吁推进联邦航空局现代化改革。
+This tweet gathered 491 likes and 21 retweets — the community is clearly reading between the lines of a founder signaling something significant.
+这条推文获得 491 个点赞和 21 次转发——社区显然在解读这位创始人的弦外之音，感知到某件重要的事情正在发生。
 
-Source: https://x.com/garrytan/status/2121824006819258485
-Source: https://x.com/garrytan/status/2121727702025765094
+He also retweeted a summary with the comment "Good summary," which racked up 336 likes — suggesting he is endorsing a key narrative about Replit or AI.
+他还转发了一条摘要并评论"Good summary"，获得 336 个点赞，暗示他在为 Replit 或 AI 的某个关键叙事背书。
 
----
-
-### FirstMark Capital Managing Director Matt Turck (mattturck on X)
-
-Matt Turck amplified a take on NVIDIA's strategic position in open-weight AI: NVIDIA is the one deeply-pocketed player with a clear business interest in open-weight models, and was willing to make founder-sized bets on them.
-FirstMark Capital 董事总经理 Matt Turck 转发并认可了关于英伟达在开源权重 AI 领域战略地位的分析：英伟达是唯一一个财力雄厚、在开源权重模型上有清晰商业利益、并愿意押注的巨头。
-
-Source: https://x.com/mattturck/status/2121608999053492408
+Source: https://x.com/amasad/status/2122185760799609017
+Source: https://x.com/amasad/status/2122062419010961439
 
 ---
 
-### Redpoint Ventures Partner Zara Zhang (zarazhangrui on X)
+**Guillermo Rauch (Vercel CEO)**
 
-Zara Zhang reposted content she endorsed with "True" — no original commentary to summarize.
-红点创投合伙人 Zara Zhang 转发了一条她认同的内容，仅回复"True"——无实质性原创观点可提炼。
+Guillermo announced *xeet* — a hermetic, pixel-perfect X post renderer written in safe Rust/WASM.
+Guillermo 发布了 *xeet*——一款用安全 Rust/WASM 编写的密封、像素级精确的 X 帖子渲染器。
 
-近期无重要动态（原创内容不足）。
+It renders a tweet to PNG in ~1ms, 100x–1000x faster than a headless browser, while faithfully reproducing Blink & HarfBuzz text shaping, RTL bidi, 28 Chirp font subsets, CJK/Math/Emoji fallbacks, and "Show more" logic.
+它能在约 1 毫秒内将推文渲染为 PNG，比无头浏览器快 100 至 1000 倍，同时忠实还原 Blink 和 HarfBuzz 文本排版、RTL 双向文本、28 种 Chirp 字体子集、CJK/数学/表情符号回退以及"查看更多"逻辑。
 
-Source: https://x.com/zarazhangrui/status/2121654053453357342
+*"It's the kind of thing that would be wildly impractical, if not impossible, for a human engineer to pull off."*
+*"这种事对于人类工程师来说几乎不可能，或者至少极不现实。"*
 
----
+The project is built as an "autorepo" — an oracle boots up Chrome to verify tens of thousands of text layout rules, and a CI canary watches for changes and files signed PRs for agents to act on.
+这个项目以"autorepo"模式构建——一个 oracle 启动 Chrome 来验证数万条文本布局规则，CI 金丝雀监控变化并提交签名 PR 供 agent 处理。
 
-### Pika Labs Founding Investor Nikunj Kothari (nikunj on X)
+He also shared a lighter moment: he built a CLI to diagnose system slowdowns and an AI named it *hog* 🐖.
+他还分享了一个轻松时刻：他构建了一个诊断系统瓶颈的 CLI 工具，AI 给它取名 *hog* 🐖。
 
-Nikunj Kothari is eagerly awaiting incident reports from "this week" — hinting at notable AI system failures in the news cycle.
-Pika Labs 创始投资人 Nikunj Kothari 期待阅读"本周"的事故报告——暗示近期有值得关注的 AI 系统故障事件。
+*"AI models are getting really good at naming things... maybe computer science's hardest problems are solved after all."*
+*"AI 模型在命名方面越来越厉害……也许计算机科学最难的问题终于被解决了。"*
 
-He also shared his 2026 Startup Bookshelf — a curated reading list for founders this year.
-他还分享了 2026 创业者书单——为今年的创始人精心整理的推荐阅读清单。
-
-Source: https://x.com/nikunj/status/2121832102182453518
-Source: https://x.com/nikunj/status/2121640157443215824
-
----
-
-### PSPDFKit CEO Peter Steinberger (steipete on X)
-
-Peter Steinberger posted a 🍿 emoji with a link — likely reacting to a noteworthy event unfolding in the AI space, with no original commentary.
-PSPDFKit CEO Peter Steinberger 发布了一个 🍿 表情加链接——似乎在围观 AI 圈某件大事，无原创观点。
-
-近期无重要原创动态。
-
-Source: https://x.com/steipete/status/2121706904917520875
+Source: https://x.com/rauchg/status/2122184794209714368
+Source: https://x.com/rauchg/status/2122127120055034258
 
 ---
 
-### Every CEO Dan Shipper (danshipper on X)
+**Zara Zhang (GGV Capital 投资人)**
 
-Dan Shipper shared that Fable (Every's AI tool) wrote an email for him — showcasing AI's growing role in everyday writing tasks.
-Every CEO Dan Shipper 分享了 Fable（Every 旗下 AI 工具）为他撰写邮件的案例，展示 AI 在日常写作中的渗透程度。
+Zara made a sharp observation: being good at LinkedIn probably makes you bad at X.
+Zara 做出了一个犀利的观察：擅长 LinkedIn 的人可能在 X 上反而表现不佳。
 
-He also promoted Every's "frontier feed" — where the team publishes raw experiments, code, and writeups for anyone who wants the unfiltered alpha on AI.
-他还推介了 Every 的"前沿动态订阅"，团队在此发布 AI 实验的原始代码和写作记录，供希望获取第一手信息的读者订阅。
+The two platforms reward fundamentally different communication styles — polish vs. rawness, credentialing vs. conviction.
+这两个平台奖励截然不同的沟通风格——LinkedIn 奖励精雕细琢与资历展示，X 奖励真实直白与立场鲜明。
 
-*"if you want all of the raw alpha from @every you should have your agent read our frontier feed"*
-"如果你想获取 Every 最前沿的第一手信息，让你的智能体订阅我们的前沿动态吧。"
-
-Source: https://x.com/danshipper/status/2121652571211510094
-Source: https://x.com/danshipper/status/2121620539655819305
+Source: https://x.com/zarazhangrui/status/2122021380745290202
 
 ---
 
-## PODCASTS
+**Nikunj Kothari (Unusual Ventures 投资人)**
 
-### Unsupervised Learning — Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It
+Nikunj is hosting a weekly in-person session in SF, and the next guest is Kanav Gupta (kanavg1), co-founder of CoreAuto.
+Nikunj 正在旧金山举办每周线下交流活动，下一位嘉宾是 Kanav Gupta（kanavg1），CoreAuto 联合创始人。
 
-**核心论点**
-Large language models have succeeded at impressive benchmarks while systematically failing at the reliability that real software demands.
-大型语言模型在基准测试上成绩亮眼，却在真实软件所需的可靠性上屡屡失手。
+The session on Friday Nov 20th will cover all things RL: methods, synthetic data, loops, and automation — an intimate 60-minute format, Chatham House rules, with 15 attendees.
+活动定于 11 月 20 日（周五）举行，聚焦强化学习各议题：方法、合成数据、训练循环与自动化——60 分钟亲密小圈子格式，遵守 Chatham House 规则，限 15 位参与者。
 
-TypeSave CEO Jago argues that the AI field has been building around the wrong abstraction — string-output LLMs — when the future of software is machine-native, structured, and reliability-first.
-TypeSave CEO Jago 认为，AI 领域一直在围错了抽象层构建——以字符串输出为核心的 LLM——而软件的未来应该是机器原生、结构化、可靠性优先的。
+Source: https://x.com/nikunj/status/2122042319419609105
 
-The JEV model (based on RLCD) is his attempt to build that cognitive primitive: a "System 1" intelligence designed to be composable, semantically reliable, and suited for machine-native consumption rather than human-pleasing output.
-JEV 模型（基于 RLCD 方法）正是他为此构建认知原语的尝试：一种"系统一"式的智能，设计目标是可组合、语义可靠，服务于机器原生消费而非取悦人类。
+---
 
-**关键洞察**
+**Dan Shipper (Every 创始人)**
 
-- **基准疲劳已提前到来。** Jago 预期基准信任崩塌需要更长时间，但市场对无效 benchmark 刷分的免疫速度远超预期，尤其是在他们这类决策模型赛道。
-  Benchmark fatigue arrived faster than expected. Jago thought it would take longer for the market to become immune to benchmark-gaming, but it happened quickly — especially in the decision-model category.
+Dan shared a breakthrough in "compounding skills" — AI skills that get better every time you use them.
+Dan 分享了"复利技能"的突破：每次使用后会不断进化改进的 AI 技能。
 
-- **KV cache 是编程智能体的"暴政"。** 现有编程智能体的几乎所有设计决策——压缩、路由、子智能体上下文传递——都受限于 KV cache 的 append-only 特性，这让众多更优雅的架构模式无从实现。
-  The KV cache is the "tyranny" holding back coding agents. Almost every UX decision in coding agents — compaction, routing, sub-agent context handoff — is constrained by the KV cache's append-only nature, blocking more elegant architectural patterns.
+His team built a skill to write context window summaries, then used autoresearch to iterate until it hit 80% of his taste benchmark versus a no-skill baseline.
+他的团队构建了一个用于撰写上下文窗口摘要的技能，并通过 autoresearch 持续迭代，直到达到他审美基准的 80%（相比无技能基线）。
 
-- **模型多样性被高估，可靠性被低估。** 越来越多的团队在追逐新颖的模型形态，却忽视了真正重要的东西：在实际工作负载中切实可用。
-  Model shape diversity is overrated; reliability is underrated. Too many teams are chasing novel model shapes without caring enough about whether they're actually useful in real workloads.
+Source: https://x.com/danshipper/status/2122091033001337134
 
-- **GPT-3.5 时代就应该实现 AGI 意义上的自动化了。** Jago 认为，从 GPT-3.5 起，模型能力就已足以自动化大量低难度的经济性工作，只是整个行业没能将其可靠地落地。
-  We could have automated much more with GPT-3.5-era models. The capability was there; the field just failed to reliably deploy it.
+---
 
-- **LLM 应用开发者陷入了"斯德哥尔摩综合症"。** 开发者已习惯于接受模型提供商的单方面路线图，而没有意识到自己有能力、也有责任推动模型能力与真实需求共同演进。
-  Developers are in a "Stockholm syndrome" with model providers — accepting their roadmap rather than collaborating to push intelligence where it's actually needed.
+**Aditya Agarwal (Coda 联合创始人)**
 
-**最值得关注的信号**
-Jago's framing of "semantic dependent typing" — using JEV-like models to verify software properties expressed in natural language rather than strict types — points toward a future where AI is woven into the type system itself, not just the code generation layer.
-Jago 提出"语义依赖类型"的构想——用 JEV 类模型验证用自然语言表达的软件属性，而非依赖严格类型系统——预示着 AI 未来将嵌入类型系统本身，而不仅仅是代码生成层。
+Aditya shared an inspiring post about an Indian aerospace startup, Arctus Aerospace, taking their first flight on a remote runway on a Sunday morning.
+Aditya 分享了一篇振奋人心的帖子，记录印度航空航天初创公司 Arctus Aerospace 在某个周日清晨于偏远跑道完成首飞。
 
-Watch here: https://www.youtube.com/@RedpointAI
-Episode title: Ep 97: Jev Creator on Decision Models, Benchmark Fatigue & Why the Labs Missed It
+*"The journey to the stars starts with a single plane on a remote runway on an early Sunday morning."*
+*"通往星辰的征程，始于一个偏远跑道上早晨的第一架飞机。"*
+
+Source: https://x.com/adityaag/status/2122003237335343457
+
+---
+
+PODCASTS
+
+---
+
+**No Priors — "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev"**
+
+This episode features Vlad Tenev, founder and CEO of Robinhood, in a wide-ranging conversation about where finance is heading.
+本期节目邀请了 Robinhood 创始人兼 CEO Vlad Tenev，就金融的未来走向展开深度对话。
+
+**核心论点 / Core Thesis**
+
+Robinhood's mission is "ownership" — making it possible for anyone, anywhere, to own assets.
+Robinhood 的使命是"所有权"——让任何人在任何地方都能持有资产。
+
+Vlad argues that broad ownership is not just individually beneficial but societally stabilizing: a society without ownership is fragile.
+Vlad 认为，广泛的所有权不仅对个人有益，更能稳定社会：没有所有权的社会是脆弱的。
+
+**关键洞察 / Key Insights**
+
+Agentic trading is real and hitting product-market fit: over 150,000 customers have already opened agentic trading accounts with Robinhood.
+智能体交易已经实现产品市场契合：超过 15 万名客户已在 Robinhood 开设智能体交易账户。
+
+Prediction markets are "an evolution of news" — they let you see not just what is happening, but what is likely to happen.
+预测市场是"新闻的进化形式"——它让你不仅看到正在发生的事，还能看到可能发生的事。
+
+The current AI infrastructure is too centralized: *"It's AI companies with their big data centers and their employees using secret models."*
+当前 AI 基础设施过于中心化：*"是 AI 公司用他们的大型数据中心和员工使用秘密模型来完成所有工作。"*
+
+Harmonic — Vlad's parallel bet on math superintelligence — represents a push toward decentralized, distributed scientific discovery.
+Harmonic——Vlad 对数学超级智能的平行押注——代表着向去中心化、分布式科学发现的努力。
+
+What institutions have had (expensive, sophisticated trading tools) will be democratized to retail — agents will trade for everyone.
+机构投资者拥有的昂贵复杂交易工具将被民主化，向普通零售用户开放——智能体将为所有人交易。
+
+Source: https://www.youtube.com/@NoPriorsPodcast
 
 ---
 
