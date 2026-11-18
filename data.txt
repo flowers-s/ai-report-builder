@@ -1,209 +1,168 @@
-AI Builders 日报 · 2026-11-17
+AI Builders 日报 · 2026-11-18
 
 ---
 
-X / TWITTER
+**Swyx** (@swyx)
+
+Swyx 今日发了几条简短但有趣的帖子。他提到 Together AI 删除了 MegaKernels（一个高性能内核优化项目）的相关内容，引发关注。另一条推文调侃 Gmail 至今没有日历事件搜索功能，尽管日历邀请就是通过 Gmail 发送的——这是一个存在已久的产品缺陷。
+*"gmail has no gcal search despite cal is sent via gmail"*
+
+Sources:
+- https://x.com/swyx/status/2122566522094915765
+- https://x.com/swyx/status/2122512082835067151
+- https://x.com/swyx/status/2122427240441131203
 
 ---
 
-**Swyx (latent.space 创始人)**
+**Josh Woodward** (@joshwoodward)
 
-Swyx shared a writeup from "clanker" summarizing a recent talk.
-Swyx 分享了一篇来自 "clanker" 的文章，对其近期演讲进行了总结回顾。
+Josh Woodward（Google Labs 负责人）宣布了一项新功能：用户现在可以通过 Notebook LM 将信息源转换为可交互的网站。他展示了一个用元素周期表信息生成的互动网站示例，强调这类页面"容易制作、便于分享"，体现了 Google 在 AI 信息组织和展示方面的新尝试。
+*"Turn your sources into interactive sites with @Gemini_Notebook"*
 
-He noted the content is "pretty normal" — a characteristic understated signal when a builder points to something worth reading.
-他评论说内容"pretty normal"（相当正常）——这种低调表达往往是他值得一看的信号。
-
-Source: https://x.com/swyx/status/2122031563961684032
-Source: https://x.com/swyx/status/2122066060769952161
+Sources:
+- https://x.com/joshwoodward/status/2122514247045496978
+- https://x.com/joshwoodward/status/2122453269842886788
 
 ---
 
-**Thibault Sottiaux (Codex/OpenAI builder)**
+**Peter Yang** (@petergyang)
 
-The Codex team appears to have finally addressed the persistent "model at capacity" errors.
-Codex 团队看起来终于解决了长期困扰用户的"model at capacity"（模型容量不足）错误。
+Peter Yang 分享了他从设计师 @nateparrott 那里学到的用 Claude 做产品设计的五大技巧，包括：提前给 Claude 提供充分上下文（截图、喜欢的页面、历史作品）、让 Claude 研究熟悉的 UX 模式、让它意识到自身的设计偏见等。他同时批评了一篇关于 Megaspeed 的 AI 生成报道，称其"完全没说任何实质内容"，是典型的 AI 垃圾内容（AI slop）。
+*"My top 5 takeaways from @nateparrott on how to get Claude to design without AI slop"*
 
-This tweet went viral with 2,500 likes, suggesting the fix is both real and widely needed.
-这条推文获得 2500 个点赞，说明这个修复既真实有效，又是众多用户迫切需要的。
-
-Source: https://x.com/thsottiaux/status/2122206990101536852
-
----
-
-**Peter Yang (独立创作者、产品思维博主)**
-
-Peter shared a fascinating behind-the-scenes insight from Nate Parrott at Anthropic about why Claude always defaults to the same visual style.
-Peter 分享了来自 Anthropic 的 Nate Parrott 的一个有趣幕后见解：为何 Claude 总是默认同一种视觉风格。
-
-*"When you ask Claude to create something, it's operating in a fresh context where it thinks: Oh my God, the user asked me to make an app. I'm going to invent the most brilliant visual style."*
-*"当你让 Claude 创作东西时，它处于一个全新的上下文中，它会想：天啊，用户让我做一个应用程序，我要发明最精彩的视觉风格。"*
-
-The fix Anthropic uses: tell Claude in the system prompt that it tends to overuse certain fonts and colors, and to avoid them unless asked.
-Anthropic 的解决方案是：在系统提示中告诉 Claude 它倾向于过度使用某些字体和颜色，除非被要求否则避免使用。
-
-He also highlighted a key insight from the same episode: *"You've really compressed the cycle of building. What you haven't compressed is the cycle of putting it in people's hands and understanding if they're going to use it."*
-他还强调了同一期节目中的一个关键洞察：*"你真的压缩了构建周期，但你没有压缩的是把它交到用户手中并了解他们是否会使用的周期。"*
-
-Peter also commented on a NYTimes story about alleged spy Alice Huang, noting there is still no actual evidence despite the narrative.
-Peter 还评论了《纽约时报》关于疑似间谍 Alice Huang 的报道，指出尽管报道充斥叙事，但至今仍无实质证据。
-
-Source: https://x.com/petergyang/status/2122132596352327816
-Source: https://x.com/petergyang/status/2122060856498524510
-Source: https://x.com/petergyang/status/2122039657001300125
+Sources:
+- https://x.com/petergyang/status/2122558387162652701
+- https://x.com/petergyang/status/2122347721298510021
 
 ---
 
-**Nan Yu (AI builder / 创业者)**
+**Nan Yu** (@thenanyu)
 
-Nan Yu is exploring using Codex as a home automation controller, asking for the best hub that Codex can treat "as just another computer."
-Nan Yu 正在探索将 Codex 用作家庭自动化控制器，寻找一个 Codex 可以像控制普通电脑一样操控的最佳智能家居中枢。
+Nan Yu 今日的推文较为简短，转发并点评了一些他认为"理性"的观点。内容未展开详细论述，但体现出他对 AI 社区中某些讨论的态度与立场。
 
-He also made a charming observation about his Waymo autonomously activating windshield wipers in the rain — a small but telling sign of machine intelligence becoming mundane.
-他还分享了一个温馨的观察：他的 Waymo 在雨中自动启动雨刷——机器智能正在逐渐融入日常，变得习以为常。
-
-Source: https://x.com/thenanyu/status/2122096965865664924
-Source: https://x.com/thenanyu/status/2122096121946468451
+Sources:
+- https://x.com/thenanyu/status/2122438864791110126
+- https://x.com/thenanyu/status/2122371754731708883
 
 ---
 
-**Thariq (Loom 联合创始人 / AI 游戏构建者)**
+**Thariq** (@trq212)
 
-Thariq dropped a product update: a new arena and two new characters.
-Thariq 发布了产品更新：一个新竞技场和两个新角色。
+Thariq 分享了他对 AI 软件工厂（software factories）的深度思考。他认为"软件工厂"是个暂时性问题，模型最终会自己学会构建它们。更重要的问题是：**如何构建一个让 AI 智能体与人类协作的工作空间**。他还展示了自己与 AI agent 合作为游戏开发新角色的实际工作视频。
+*"software factories feel like a temporary problem. the models will learn to build them for you"*
+*"the more interesting question to me is how to build a workspace where agents can collaborate with you"*
 
-This tweet hit 956 likes — indicating strong community excitement around whatever he is building.
-这条推文获得 956 个点赞，说明他所构建的产品在社区中引发了强烈关注。
-
-Source: https://x.com/trq212/status/2122154124024381828
-
----
-
-**Amjad Masad (Replit CEO)**
-
-Amjad cryptically noted: *"It's been an interesting 48 hours."*
-Amjad 神秘地写道：*"这是有趣的 48 小时。"*
-
-This tweet gathered 491 likes and 21 retweets — the community is clearly reading between the lines of a founder signaling something significant.
-这条推文获得 491 个点赞和 21 次转发——社区显然在解读这位创始人的弦外之音，感知到某件重要的事情正在发生。
-
-He also retweeted a summary with the comment "Good summary," which racked up 336 likes — suggesting he is endorsing a key narrative about Replit or AI.
-他还转发了一条摘要并评论"Good summary"，获得 336 个点赞，暗示他在为 Replit 或 AI 的某个关键叙事背书。
-
-Source: https://x.com/amasad/status/2122185760799609017
-Source: https://x.com/amasad/status/2122062419010961439
+Sources:
+- https://x.com/trq212/status/2122438328079524159
+- https://x.com/trq212/status/2122438326431154210
 
 ---
 
-**Guillermo Rauch (Vercel CEO)**
+**Google Labs** (@GoogleLabs)
 
-Guillermo announced *xeet* — a hermetic, pixel-perfect X post renderer written in safe Rust/WASM.
-Guillermo 发布了 *xeet*——一款用安全 Rust/WASM 编写的密封、像素级精确的 X 帖子渲染器。
+Google Labs 宣布收购 Howie AI——一个专注于日程安排和日历管理的 AI 团队。Google Labs 表示将借助 Howie 团队多年在智能调度领域的经验，为小型企业打造下一代直觉式 AI 工具。这是 Google 在 AI 生产力工具领域的又一次战略并购。
+*"The @Howie_ai team has spent years figuring out scheduling and calendar management."*
 
-It renders a tweet to PNG in ~1ms, 100x–1000x faster than a headless browser, while faithfully reproducing Blink & HarfBuzz text shaping, RTL bidi, 28 Chirp font subsets, CJK/Math/Emoji fallbacks, and "Show more" logic.
-它能在约 1 毫秒内将推文渲染为 PNG，比无头浏览器快 100 至 1000 倍，同时忠实还原 Blink 和 HarfBuzz 文本排版、RTL 双向文本、28 种 Chirp 字体子集、CJK/数学/表情符号回退以及"查看更多"逻辑。
-
-*"It's the kind of thing that would be wildly impractical, if not impossible, for a human engineer to pull off."*
-*"这种事对于人类工程师来说几乎不可能，或者至少极不现实。"*
-
-The project is built as an "autorepo" — an oracle boots up Chrome to verify tens of thousands of text layout rules, and a CI canary watches for changes and files signed PRs for agents to act on.
-这个项目以"autorepo"模式构建——一个 oracle 启动 Chrome 来验证数万条文本布局规则，CI 金丝雀监控变化并提交签名 PR 供 agent 处理。
-
-He also shared a lighter moment: he built a CLI to diagnose system slowdowns and an AI named it *hog* 🐖.
-他还分享了一个轻松时刻：他构建了一个诊断系统瓶颈的 CLI 工具，AI 给它取名 *hog* 🐖。
-
-*"AI models are getting really good at naming things... maybe computer science's hardest problems are solved after all."*
-*"AI 模型在命名方面越来越厉害……也许计算机科学最难的问题终于被解决了。"*
-
-Source: https://x.com/rauchg/status/2122184794209714368
-Source: https://x.com/rauchg/status/2122127120055034258
+Sources:
+- https://x.com/GoogleLabs/status/2122461899178820069
 
 ---
 
-**Zara Zhang (GGV Capital 投资人)**
+**Amjad Masad** (@amasad)
 
-Zara made a sharp observation: being good at LinkedIn probably makes you bad at X.
-Zara 做出了一个犀利的观察：擅长 LinkedIn 的人可能在 X 上反而表现不佳。
+Amjad Masad（Replit CEO）今日发了两条较为简短的帖子，内容相对轻松，包含一条展示力量的 emoji 推文和一条调侃某"疯狂邪教"的评论，具体指向不明但引发了社区讨论。
 
-The two platforms reward fundamentally different communication styles — polish vs. rawness, credentialing vs. conviction.
-这两个平台奖励截然不同的沟通风格——LinkedIn 奖励精雕细琢与资历展示，X 奖励真实直白与立场鲜明。
-
-Source: https://x.com/zarazhangrui/status/2122021380745290202
+Sources:
+- https://x.com/amasad/status/2122463916114813249
+- https://x.com/amasad/status/2122422367557464548
 
 ---
 
-**Nikunj Kothari (Unusual Ventures 投资人)**
+**Guillermo Rauch** (@rauchg)
 
-Nikunj is hosting a weekly in-person session in SF, and the next guest is Kanav Gupta (kanavg1), co-founder of CoreAuto.
-Nikunj 正在旧金山举办每周线下交流活动，下一位嘉宾是 Kanav Gupta（kanavg1），CoreAuto 联合创始人。
+Guillermo Rauch（Vercel CEO）今日连发三条关于 AI 基础设施主权的重要推文。他提出"拥有自己的智能路线图"的四个核心原则：使用开放 SDK 与 harness、通过 Gateway 自主选择模型、拥有完整 trace 数据并强制零数据保留（ZDR）、以及通过私有推理拥有自己的模型。他还谈到 AI 时代用户已从"人类"变为"智能体"，评估方式也从用户访谈变为 evals（评估集），并分享了 Vercel 内部的 eval 实践。
+*"Own your intelligence roadmap: ① Use open SDKs & harnesses ② Own model choice with Gateways ③ Own your traces and data, enforce ZDR ④ Own your models with private inference"*
+*"The old way: users are human... The new way: users are agents, you run evals."*
 
-The session on Friday Nov 20th will cover all things RL: methods, synthetic data, loops, and automation — an intimate 60-minute format, Chatham House rules, with 15 attendees.
-活动定于 11 月 20 日（周五）举行，聚焦强化学习各议题：方法、合成数据、训练循环与自动化——60 分钟亲密小圈子格式，遵守 Chatham House 规则，限 15 位参与者。
-
-Source: https://x.com/nikunj/status/2122042319419609105
-
----
-
-**Dan Shipper (Every 创始人)**
-
-Dan shared a breakthrough in "compounding skills" — AI skills that get better every time you use them.
-Dan 分享了"复利技能"的突破：每次使用后会不断进化改进的 AI 技能。
-
-His team built a skill to write context window summaries, then used autoresearch to iterate until it hit 80% of his taste benchmark versus a no-skill baseline.
-他的团队构建了一个用于撰写上下文窗口摘要的技能，并通过 autoresearch 持续迭代，直到达到他审美基准的 80%（相比无技能基线）。
-
-Source: https://x.com/danshipper/status/2122091033001337134
+Sources:
+- https://x.com/rauchg/status/2122458782294847807
+- https://x.com/rauchg/status/2122415506451841215
+- https://x.com/rauchg/status/2122396034186014919
 
 ---
 
-**Aditya Agarwal (Coda 联合创始人)**
+**Aaron Levie** (@levie)
 
-Aditya shared an inspiring post about an Indian aerospace startup, Arctus Aerospace, taking their first flight on a remote runway on a Sunday morning.
-Aditya 分享了一篇振奋人心的帖子，记录印度航空航天初创公司 Arctus Aerospace 在某个周日清晨于偏远跑道完成首飞。
+Aaron Levie（Box CEO）发布了一段深度观察：每名员工的 token 消耗量图表仍在持续攀升，没有见顶迹象。他指出，越接近 AI 一线，越能深刻感受到我们依然处于 token 使用和 AI 采纳曲线的早期阶段。今夏及秋季的模型发布持续推动技术前沿，大多数生产性用例"现在才开始真正能用"，而加速感只会越来越强。
+*"The chart of token spend per employee still has no ceiling in sight."*
+*"for most productive use-cases the models are only now starting to actually work"*
 
-*"The journey to the stars starts with a single plane on a remote runway on an early Sunday morning."*
-*"通往星辰的征程，始于一个偏远跑道上早晨的第一架飞机。"*
-
-Source: https://x.com/adityaag/status/2122003237335343457
-
----
-
-PODCASTS
+Sources:
+- https://x.com/levie/status/2122508098351038532
 
 ---
 
-**No Priors — "Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev"**
+**Garry Tan** (@garrytan)
 
-This episode features Vlad Tenev, founder and CEO of Robinhood, in a wide-ranging conversation about where finance is heading.
-本期节目邀请了 Robinhood 创始人兼 CEO Vlad Tenev，就金融的未来走向展开深度对话。
+Garry Tan 今日大力推广其 GBrain 项目。他分享了一个有趣的技术决策：用 Rust 重写 GBrain 的后端引擎，替代原有的 postgres+pgvector 方案，以支持向量搜索、图搜索、嵌入、RAG 和 HNSW 等能力，底层使用 Vorflux 作为软件工厂。他还介绍了 GBrain 的托管版本支持将个人知识"大脑"逐层汇聚为团队脑和公司脑的能力，并顺带提到 Degla 实现了真正的无人机自主飞行，已与政府机构合作进行搜救任务。
 
-**核心论点 / Core Thesis**
-
-Robinhood's mission is "ownership" — making it possible for anyone, anywhere, to own assets.
-Robinhood 的使命是"所有权"——让任何人在任何地方都能持有资产。
-
-Vlad argues that broad ownership is not just individually beneficial but societally stabilizing: a society without ownership is fragile.
-Vlad 认为，广泛的所有权不仅对个人有益，更能稳定社会：没有所有权的社会是脆弱的。
-
-**关键洞察 / Key Insights**
-
-Agentic trading is real and hitting product-market fit: over 150,000 customers have already opened agentic trading accounts with Robinhood.
-智能体交易已经实现产品市场契合：超过 15 万名客户已在 Robinhood 开设智能体交易账户。
-
-Prediction markets are "an evolution of news" — they let you see not just what is happening, but what is likely to happen.
-预测市场是"新闻的进化形式"——它让你不仅看到正在发生的事，还能看到可能发生的事。
-
-The current AI infrastructure is too centralized: *"It's AI companies with their big data centers and their employees using secret models."*
-当前 AI 基础设施过于中心化：*"是 AI 公司用他们的大型数据中心和员工使用秘密模型来完成所有工作。"*
-
-Harmonic — Vlad's parallel bet on math superintelligence — represents a push toward decentralized, distributed scientific discovery.
-Harmonic——Vlad 对数学超级智能的平行押注——代表着向去中心化、分布式科学发现的努力。
-
-What institutions have had (expensive, sophisticated trading tools) will be democratized to retail — agents will trade for everyone.
-机构投资者拥有的昂贵复杂交易工具将被民主化，向普通零售用户开放——智能体将为所有人交易。
-
-Source: https://www.youtube.com/@NoPriorsPodcast
+Sources:
+- https://x.com/garrytan/status/2122576951080792543
+- https://x.com/garrytan/status/2122517681740124271
+- https://x.com/garrytan/status/2122487869780742304
 
 ---
 
-Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
+**Nikunj Kothari** (@nikunj)
+
+Nikunj Kothari 以一条精炼的时间轴总结了 2026 年 AI 基础设施大战：Q1 是 Vibe Coding，Q2 是 Harnesses，Q3 是 Sandboxes，Q4 是 Agentic CI——而提供商数量已多到难以追踪。他还用一个凤凰涅槃的隐喻描述整个互联网基础设施的重构过程，向每一家基础设施公司致以敬意。
+*"2026 infra wars in a nutshell.. Vibe coding in Q1 / Harnesses in Q2 / Sandboxes in Q3 / Agentic CI in Q4"*
+*"Like a phoenix, we're going to see the entire internet burn down to emerge stronger on the other side."*
+
+Sources:
+- https://x.com/nikunj/status/2122543500814336281
+- https://x.com/nikunj/status/2122490852497125485
+- https://x.com/nikunj/status/2122412013251162592
+
+---
+
+**Peter Steinberger** (@steipete)
+
+Peter Steinberger 吐槽苹果在 macOS 上的权限弹窗问题：开发者社区一直呼吁减少权限提示，让 AI agent 能在 macOS 上更顺畅地工作，而苹果的回应却是推出更多、更吓人的新权限警告——完全背道而驰，令人哭笑不得。
+*"People: Please reduce the number of permission alerts so agents can work on macOS without constant babysitting. Apple: I hear you, here's some new scary alerts"*
+
+Sources:
+- https://x.com/steipete/status/2122463466304971068
+
+---
+
+**Dan Shipper** (@danshipper)
+
+Dan Shipper 提出了一个关于 AI 时代信息流排序的新想法：用"工作量证明"（proof of work）来为内容排序——允许 AI agent 上报为某篇内容消耗的 token 数量，并以此作为信号对人类与 agent 共同阅读的信息流进行排名。这是一个将 LLM 计算量转化为内容质量信号的有趣构想。
+*"what if the best way to rank a feed in the AI age is proof of work"*
+
+Sources:
+- https://x.com/danshipper/status/2122541401804054826
+
+---
+
+**Aditya Agarwal** (@adityaag)
+
+Aditya Agarwal 今日分享了两个重要动态。首先，他宣布领投印度半导体公司 BharatSemi 的 2400 万美元种子轮融资，坚信 AI 需要尽可能贴近硅片部署，并为印度能够制造芯片感到自豪。其次，他提到解释性研究（interpretability）已达到可应用于前沿模型的程度，这是 AI 安全领域的重要里程碑。
+*"Embedding AI as close to the silicon as possible will be critical for a lot of hardtech."*
+*"Our goal when starting an interpretability work was to develop confidence in our methods to the point where we could apply it to leading frontier models."*
+
+Sources:
+- https://x.com/adityaag/status/2122386960862056629
+- https://x.com/adityaag/status/2122386958101959118
+- https://x.com/adityaag/status/2122367547312119843
+
+---
+
+**🎙 PODCAST: Latent Space**
+
+**[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco**
+
+Latent Space 播客发布了"百万 AI 工程师"特别系列的最新一集，对话斯坦福大学的 Mihail Eric 和 Monaco，探讨斯坦福如何培养"AI 原生工程师"。这一期聚焦于 AI 教育的前沿实践：如何在高校课程中融入 AI 工具、工作流与系统思维，为下一代工程师做好准备。对于关注 AI 教育与工程人才培养的读者，这是值得收听的一集。
+
+Source: https://www.youtube.com/@LatentSpacePod
