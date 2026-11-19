@@ -1,168 +1,216 @@
-AI Builders 日报 · 2026-11-18
+AI Builders 日报 · 2026-11-19
+
+Today's digest covers OpenAI's GPT-6.2 Sol & Astra launch week, Google Gemini's free task-runner expansion, Replit's agent swarm launch, and industry reactions across builders.
+今日日报聚焦 OpenAI GPT-6.2 Sol 与 Astra 发布周、谷歌 Gemini 免费任务执行功能扩展、Replit 智能体集群上线，以及各位创始人的行业观察。
 
 ---
 
-**Swyx** (@swyx)
-
-Swyx 今日发了几条简短但有趣的帖子。他提到 Together AI 删除了 MegaKernels（一个高性能内核优化项目）的相关内容，引发关注。另一条推文调侃 Gmail 至今没有日历事件搜索功能，尽管日历邀请就是通过 Gmail 发送的——这是一个存在已久的产品缺陷。
-*"gmail has no gcal search despite cal is sent via gmail"*
-
-Sources:
-- https://x.com/swyx/status/2122566522094915765
-- https://x.com/swyx/status/2122512082835067151
-- https://x.com/swyx/status/2122427240441131203
+## X / TWITTER
 
 ---
 
-**Josh Woodward** (@joshwoodward)
+### OpenAI CEO Sam Altman (sama on X)
 
-Josh Woodward（Google Labs 负责人）宣布了一项新功能：用户现在可以通过 Notebook LM 将信息源转换为可交互的网站。他展示了一个用元素周期表信息生成的互动网站示例，强调这类页面"容易制作、便于分享"，体现了 Google 在 AI 信息组织和展示方面的新尝试。
-*"Turn your sources into interactive sites with @Gemini_Notebook"*
+OpenAI has released GPT-6.2 Sol and Astra, describing them as highly capable and extremely token-efficient.
+OpenAI 发布了 GPT-6.2 Sol 和 Astra，定位为能力出众且极具 token 效率的新一代模型。
 
-Sources:
-- https://x.com/joshwoodward/status/2122514247045496978
-- https://x.com/joshwoodward/status/2122453269842886788
+Sam Altman highlighted Sol ultrafast as something he personally finds enjoyable to use.
+Sam Altman 特别点名 Sol ultrafast 是他个人非常喜欢使用的版本。
 
----
+He also acknowledged that more work lies ahead on making the models nicer to interact with, calling it a priority for upcoming releases.
+他同时坦承，在提升模型使用体验方面仍有工作要做，并将其列为下一步迭代的重点。
 
-**Peter Yang** (@petergyang)
+*"Although the new models are very smart, we have more work ahead of us on making the models nice to work with, and will prioritize that for upcoming releases."*
 
-Peter Yang 分享了他从设计师 @nateparrott 那里学到的用 Claude 做产品设计的五大技巧，包括：提前给 Claude 提供充分上下文（截图、喜欢的页面、历史作品）、让 Claude 研究熟悉的 UX 模式、让它意识到自身的设计偏见等。他同时批评了一篇关于 Megaspeed 的 AI 生成报道，称其"完全没说任何实质内容"，是典型的 AI 垃圾内容（AI slop）。
-*"My top 5 takeaways from @nateparrott on how to get Claude to design without AI slop"*
-
-Sources:
-- https://x.com/petergyang/status/2122558387162652701
-- https://x.com/petergyang/status/2122347721298510021
+Source: https://x.com/sama/status/2122798039899263456
+Source: https://x.com/sama/status/2122798042734633452
 
 ---
 
-**Nan Yu** (@thenanyu)
+### Swyx — Founder, smol.ai / Latent Space (swyx on X)
 
-Nan Yu 今日的推文较为简短，转发并点评了一些他认为"理性"的观点。内容未展开详细论述，但体现出他对 AI 社区中某些讨论的态度与立场。
+Swyx has been daily-driving GPT-6.2 Astra and calls it the best workflow automation model he has used.
+Swyx 已将 GPT-6.2 Astra 作为日常主力模型，并称其为他用过的最佳工作流自动化模型。
 
-Sources:
-- https://x.com/thenanyu/status/2122438864791110126
-- https://x.com/thenanyu/status/2122371754731708883
+He notes it no longer gets stuck in loops and efficiently handles content publishing pipelines for Latent Space and AI Engineer, contributing to their >$1M/employee revenue efficiency as a bootstrapped team.
+他指出该模型不再陷入循环，能高效运行 Latent Space 和 AI Engineer 的内容发布流水线，支撑了他们作为自举公司超过百万美元每员工的营收效率。
 
----
+*"it's running a lot of our content publishing pipeline for @latentspacepod and @aiDotEngineer and we wouldnt have nearly the revenue efficiency (>1m/employee) that we have as a bootstrapped business without it"*
 
-**Thariq** (@trq212)
+His primary critique of the launch: nobody with decision-making power vetoed the marketing of the Astra ad before it went live.
+他对此次发布的主要批评：没有任何有决策权的人在上线前否决了 Astra 的广告创意。
 
-Thariq 分享了他对 AI 软件工厂（software factories）的深度思考。他认为"软件工厂"是个暂时性问题，模型最终会自己学会构建它们。更重要的问题是：**如何构建一个让 AI 智能体与人类协作的工作空间**。他还展示了自己与 AI agent 合作为游戏开发新角色的实际工作视频。
-*"software factories feel like a temporary problem. the models will learn to build them for you"*
-*"the more interesting question to me is how to build a workspace where agents can collaborate with you"*
+He also shared excitement about Devin Bots — Cognition's shift from ephemeral agent swarms to persistent bots with individual memory and identities — which he has been trialing for a week.
+他还对 Devin Bots 表示兴奋——Cognition 将 Devin 从临时性智能体集群转向具有独立记忆和身份的持久机器人，他已试用一周。
 
-Sources:
-- https://x.com/trq212/status/2122438328079524159
-- https://x.com/trq212/status/2122438326431154210
+*"what you want is 'just' the next level of abstraction above single tasks... agent managers that own outcomes."*
 
----
-
-**Google Labs** (@GoogleLabs)
-
-Google Labs 宣布收购 Howie AI——一个专注于日程安排和日历管理的 AI 团队。Google Labs 表示将借助 Howie 团队多年在智能调度领域的经验，为小型企业打造下一代直觉式 AI 工具。这是 Google 在 AI 生产力工具领域的又一次战略并购。
-*"The @Howie_ai team has spent years figuring out scheduling and calendar management."*
-
-Sources:
-- https://x.com/GoogleLabs/status/2122461899178820069
+Source: https://x.com/swyx/status/2122862646265520150
+Source: https://x.com/swyx/status/2122746401482592549
+Source: https://x.com/swyx/status/2122818291144229075
 
 ---
 
-**Amjad Masad** (@amasad)
+### Thibault Sottiaux — Codex & ChatGPT at OpenAI (thsottiaux on X)
 
-Amjad Masad（Replit CEO）今日发了两条较为简短的帖子，内容相对轻松，包含一条展示力量的 emoji 推文和一条调侃某"疯狂邪教"的评论，具体指向不明但引发了社区讨论。
+Sottiaux explained that some early influencer reviews of 6.2 Sol/Astra were filmed before major changes made in the final 3–4 days before launch.
+Sottiaux 解释说，部分早期影响者对 6.2 Sol/Astra 的评测视频，实际录制于发布前最后 3-4 天大幅改动之前。
 
-Sources:
-- https://x.com/amasad/status/2122463916114813249
-- https://x.com/amasad/status/2122422367557464548
+He recommends Pro 200/500 users try Sol ultrafast, describing it as "quite the blast" and a completely different feel.
+他建议 Pro 200/500 用户体验 Sol ultrafast，称其感受"相当惊艳"，体验与以往截然不同。
 
----
+He acknowledged the models are not perfect and that the team is focused on improving taste and user experience in future iterations.
+他承认模型尚不完美，团队将在后续迭代中重点提升产品质感与使用体验。
 
-**Guillermo Rauch** (@rauchg)
+*"These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes."*
 
-Guillermo Rauch（Vercel CEO）今日连发三条关于 AI 基础设施主权的重要推文。他提出"拥有自己的智能路线图"的四个核心原则：使用开放 SDK 与 harness、通过 Gateway 自主选择模型、拥有完整 trace 数据并强制零数据保留（ZDR）、以及通过私有推理拥有自己的模型。他还谈到 AI 时代用户已从"人类"变为"智能体"，评估方式也从用户访谈变为 evals（评估集），并分享了 Vercel 内部的 eval 实践。
-*"Own your intelligence roadmap: ① Use open SDKs & harnesses ② Own model choice with Gateways ③ Own your traces and data, enforce ZDR ④ Own your models with private inference"*
-*"The old way: users are human... The new way: users are agents, you run evals."*
-
-Sources:
-- https://x.com/rauchg/status/2122458782294847807
-- https://x.com/rauchg/status/2122415506451841215
-- https://x.com/rauchg/status/2122396034186014919
+Source: https://x.com/thsottiaux/status/2122929829863735594
+Source: https://x.com/thsottiaux/status/2122929634916679820
+Source: https://x.com/thsottiaux/status/2122754551187132438
 
 ---
 
-**Aaron Levie** (@levie)
+### Dan Shipper — CEO, Every (danshipper on X)
 
-Aaron Levie（Box CEO）发布了一段深度观察：每名员工的 token 消耗量图表仍在持续攀升，没有见顶迹象。他指出，越接近 AI 一线，越能深刻感受到我们依然处于 token 使用和 AI 采纳曲线的早期阶段。今夏及秋季的模型发布持续推动技术前沿，大多数生产性用例"现在才开始真正能用"，而加速感只会越来越强。
-*"The chart of token spend per employee still has no ceiling in sight."*
-*"for most productive use-cases the models are only now starting to actually work"*
+Dan Shipper published the Every team's full ratings of GPT-6.2 Astra and Sol, saying it is hard to remember a frontier model release quite like this one — with Opus 5 being the closest comparison.
+Dan Shipper 发布了 Every 团队对 GPT-6.2 Astra 和 Sol 的完整评分，表示很难回想起有哪次前沿模型发布可以与之相比——最近的参照物是 Opus 5。
 
-Sources:
-- https://x.com/levie/status/2122508098351038532
+He also introduced the "Inverse Roon Bench" — a new eval framework from Every.
+他还介绍了 Every 推出的「反 Roon 基准」——一个新的模型评估框架。
 
----
+He advocated for teams to use AI-generated videos instead of decks to communicate product direction internally.
+他倡导团队用 AI 生成的视频代替 PPT 来传达内部产品方向。
 
-**Garry Tan** (@garrytan)
-
-Garry Tan 今日大力推广其 GBrain 项目。他分享了一个有趣的技术决策：用 Rust 重写 GBrain 的后端引擎，替代原有的 postgres+pgvector 方案，以支持向量搜索、图搜索、嵌入、RAG 和 HNSW 等能力，底层使用 Vorflux 作为软件工厂。他还介绍了 GBrain 的托管版本支持将个人知识"大脑"逐层汇聚为团队脑和公司脑的能力，并顺带提到 Degla 实现了真正的无人机自主飞行，已与政府机构合作进行搜救任务。
-
-Sources:
-- https://x.com/garrytan/status/2122576951080792543
-- https://x.com/garrytan/status/2122517681740124271
-- https://x.com/garrytan/status/2122487869780742304
+Source: https://x.com/danshipper/status/2122858139989012510
+Source: https://x.com/danshipper/status/2122852558007894417
+Source: https://x.com/danshipper/status/2122827759932051751
 
 ---
 
-**Nikunj Kothari** (@nikunj)
+### Peter Yang — AI educator & content creator (petergyang on X)
 
-Nikunj Kothari 以一条精炼的时间轴总结了 2026 年 AI 基础设施大战：Q1 是 Vibe Coding，Q2 是 Harnesses，Q3 是 Sandboxes，Q4 是 Agentic CI——而提供商数量已多到难以追踪。他还用一个凤凰涅槃的隐喻描述整个互联网基础设施的重构过程，向每一家基础设施公司致以敬意。
-*"2026 infra wars in a nutshell.. Vibe coding in Q1 / Harnesses in Q2 / Sandboxes in Q3 / Agentic CI in Q4"*
-*"Like a phoenix, we're going to see the entire internet burn down to emerge stronger on the other side."*
+Peter Yang has been testing GPT-6.2 Astra and says it may be better than Claude Fable at website design — he promises a full unbiased review.
+Peter Yang 一直在测试 GPT-6.2 Astra，表示它在网站设计方面可能优于 Claude Fable，并承诺发布完整的无偏评测。
 
-Sources:
-- https://x.com/nikunj/status/2122543500814336281
-- https://x.com/nikunj/status/2122490852497125485
-- https://x.com/nikunj/status/2122412013251162592
+He made a sharp observation: most models (outside of Opus 5.5 and a few special exceptions) have the shortest shelf life of any software.
+他一针见血地指出：大多数模型（除 Opus 5.5 等少数例外）的生命周期是所有软件类型中最短的。
 
----
+*"More important to make your skills work well across any new model."*
 
-**Peter Steinberger** (@steipete)
-
-Peter Steinberger 吐槽苹果在 macOS 上的权限弹窗问题：开发者社区一直呼吁减少权限提示，让 AI agent 能在 macOS 上更顺畅地工作，而苹果的回应却是推出更多、更吓人的新权限警告——完全背道而驰，令人哭笑不得。
-*"People: Please reduce the number of permission alerts so agents can work on macOS without constant babysitting. Apple: I hear you, here's some new scary alerts"*
-
-Sources:
-- https://x.com/steipete/status/2122463466304971068
+Source: https://x.com/petergyang/status/2122869524773179771
+Source: https://x.com/petergyang/status/2122839368444661870
 
 ---
 
-**Dan Shipper** (@danshipper)
+### Amjad Masad — CEO, Replit (amasad on X)
 
-Dan Shipper 提出了一个关于 AI 时代信息流排序的新想法：用"工作量证明"（proof of work）来为内容排序——允许 AI agent 上报为某篇内容消耗的 token 数量，并以此作为信号对人类与 agent 共同阅读的信息流进行排名。这是一个将 LLM 计算量转化为内容质量信号的有趣构想。
-*"what if the best way to rank a feed in the AI age is proof of work"*
+Replit launched one-prompt agent swarms today — allowing anyone to spin up parallel agents exploring different approaches and collaborating on solutions.
+Replit 今日上线单提示词智能体集群功能——任何人只需一句提示，即可启动多个并行探索、协同攻关的智能体。
 
-Sources:
-- https://x.com/danshipper/status/2122541401804054826
+Masad argued that agent swarms are the next scaling frontier for AI, beyond training larger models or giving them more thinking time.
+Masad 认为，智能体集群是 AI 下一个规模化前沿，超越了训练更大模型或给予更多思考时间的路径。
 
----
+He also shared that iOS-quality web gestures are now achievable in the browser.
+他还展示了浏览器中实现 iOS 级手势效果的演示。
 
-**Aditya Agarwal** (@adityaag)
-
-Aditya Agarwal 今日分享了两个重要动态。首先，他宣布领投印度半导体公司 BharatSemi 的 2400 万美元种子轮融资，坚信 AI 需要尽可能贴近硅片部署，并为印度能够制造芯片感到自豪。其次，他提到解释性研究（interpretability）已达到可应用于前沿模型的程度，这是 AI 安全领域的重要里程碑。
-*"Embedding AI as close to the silicon as possible will be critical for a lot of hardtech."*
-*"Our goal when starting an interpretability work was to develop confidence in our methods to the point where we could apply it to leading frontier models."*
-
-Sources:
-- https://x.com/adityaag/status/2122386960862056629
-- https://x.com/adityaag/status/2122386958101959118
-- https://x.com/adityaag/status/2122367547312119843
+Source: https://x.com/amasad/status/2122809964649459861
+Source: https://x.com/amasad/status/2122805977187549558
+Source: https://x.com/amasad/status/2122817367679901830
 
 ---
 
-**🎙 PODCAST: Latent Space**
+### Josh Woodward — VP, Google Labs & Gemini (joshwoodward on X)
 
-**[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco**
+Google announced that Gemini can now execute tasks for free across six countries: the US, Japan, Korea, Canada, Australia, and India.
+谷歌宣布 Gemini 现可在六国免费执行任务：美国、日本、韩国、加拿大、澳大利亚和印度。
 
-Latent Space 播客发布了"百万 AI 工程师"特别系列的最新一集，对话斯坦福大学的 Mihail Eric 和 Monaco，探讨斯坦福如何培养"AI 原生工程师"。这一期聚焦于 AI 教育的前沿实践：如何在高校课程中融入 AI 工具、工作流与系统思维，为下一代工程师做好准备。对于关注 AI 教育与工程人才培养的读者，这是值得收听的一集。
+The update runs on the new Gemini 4 Hydrogen model and includes major new capabilities: calling local businesses via Google Duplex, paying via Google Pay, texting via RCS, forwarding emails to Gemini, and signing into sites via Google Password Manager.
+此次更新基于新的 Gemini 4 Hydrogen 模型，新增功能包括：通过 Google Duplex 拨打本地商家电话、通过 Google Pay 付款、通过 RCS 给 Gemini 发短信、将邮件转发给 Gemini 处理，以及通过 Google 密码管理器登录网站。
 
-Source: https://www.youtube.com/@LatentSpacePod
+The Gemini-Workspace integration also received its biggest update yet, with more reliable tool triggering and richer in-Gemini capabilities.
+Gemini 与 Google Workspace 的集成也迎来了迄今最大升级，工具调用更稳定，可在 Gemini 内完成更多操作。
+
+Source: https://x.com/joshwoodward/status/2122737427970425171
+
+---
+
+### Guillermo Rauch — CEO, Vercel (rauchg on X)
+
+Rauch called OpenAI's new models the most cybersecurity-capable in the world and noted that Vercel's DeepsecBench — a stealth cyber benchmark that no lab trained on — was used to evaluate them.
+Rauch 称 OpenAI 新模型为目前网络安全能力最强的模型，并指出 Vercel 的 DeepsecBench（一个无任何实验室接触过训练数据的隐秘安全基准）参与了评测。
+
+He also highlighted "agent-browser vitals" — a self-optimizing software concept he called "actually a huge deal for web performance."
+他还点评了「agent-browser vitals」这一自我优化软件概念，称其对 web 性能而言是"真正意义上的重大突破"。
+
+Source: https://x.com/rauchg/status/2122812237169426606
+Source: https://x.com/rauchg/status/2122830064152899991
+
+---
+
+### Garry Tan — President & CEO, Y Combinator (garrytan on X)
+
+Garry Tan is rallying OpenAI shareholders, employees, and former employees around a 15% shareholder vote, calling for removal of only three board members.
+Garry Tan 正在集结 OpenAI 股东、员工和前员工，推动 15% 股东投票，目标是撤换三位董事会成员。
+
+Source: https://x.com/garrytan/status/2122910329537728747
+Source: https://x.com/garrytan/status/2122913046603649325
+
+---
+
+### Matt Turck — VC at FirstMark Capital (mattturck on X)
+
+Matt Turck announced a $30M seed co-investment (with EQT) in Remanence Labs, focused on continual learning — "building intelligence that compounds."
+Matt Turck 宣布与 EQT 联合领投 Remanence Labs 3000 万美元种子轮，该公司专注持续学习，致力于"构建复利式智能"。
+
+He also highlighted Daytona's new macOS sandboxes — the first agentic infra provider to offer Mac sandboxes for computer-use agents and Apple app development/testing.
+他还关注了 Daytona 推出的 macOS 沙盒——首家为 computer-use 智能体和苹果应用开发测试提供 Mac 沙盒的 AI 基础设施提供商。
+
+Source: https://x.com/mattturck/status/2122717441461739571
+Source: https://x.com/mattturck/status/2122726760185741673
+
+---
+
+### Nikunj Kothari — Partner, FPV Ventures (nikunj on X)
+
+Nikunj observed that the AI model "vibes" pendulum on X is swinging fast — after months of OpenAI dominance, Anthropic's Opus 5.5 and Google's Gemini Carbon are now getting all the accolades.
+Nikunj 观察到 X 上 AI 模型「氛围感」摇摆剧烈——在 OpenAI 主导数月后，Anthropic 的 Opus 5.5 和谷歌的 Gemini Carbon 如今正赢得所有喝彩。
+
+Source: https://x.com/nikunj/status/2122833396787495317
+
+---
+
+### Ryo Lu — Designer, Cursor AI (ryolu_ on X)
+
+Ryo Lu noted that while crazy ideas are now possible with AI, they still require just as much care and effort to execute well.
+Ryo Lu 指出，尽管如今 AI 让各种疯狂想法成为可能，但要真正做好，仍需同等程度的用心与努力。
+
+Source: https://x.com/ryolu_/status/2122929249967554583
+
+---
+
+### Zara Zhang — Builder, Harvard '17 (zarazhangrui on X)
+
+近期无重要动态
+
+---
+
+## PODCASTS
+
+---
+
+### Latent Space: Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs
+
+This episode features the co-inventor of latent diffusion and the core team behind Black Forest Labs — the company formed after key members split from Stability AI.
+本期节目邀请了潜在扩散技术的联合发明人以及 Black Forest Labs 核心团队——该公司由 Stability AI 核心成员出走后创立。
+
+Andreas Blattmann (Andi) pioneered the latent diffusion technique that underpinned Stable Diffusion; Dustin Podell was a key engineer who worked his way up through the organization.
+Andreas Blattmann（Andi）是推动 Stable Diffusion 底层技术潜在扩散的先驱；Dustin Podell 则是从工程师岗位一路成长的核心人物。
+
+The episode explores how the team is now building visual intelligence at Black Forest Labs, working on the frontier of image and video generation models.
+本期节目深入探讨了团队如何在 Black Forest Labs 推进视觉智能研究，聚焦图像与视频生成模型的前沿工作。
+
+Source: https://www.youtube.com/watch?v=8cGfJOU3AlQ
+
+---
+
+Generated through the Follow Builders skill: https://github.com/zarazhangrui/follow-builders
