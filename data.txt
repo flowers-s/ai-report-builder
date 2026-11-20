@@ -1,215 +1,161 @@
-AI Builders 日报 · 2026-11-19
-
-Today's digest covers OpenAI's GPT-6.2 Sol & Astra launch week, Google Gemini's free task-runner expansion, Replit's agent swarm launch, and industry reactions across builders.
-今日日报聚焦 OpenAI GPT-6.2 Sol 与 Astra 发布周、谷歌 Gemini 免费任务执行功能扩展、Replit 智能体集群上线，以及各位创始人的行业观察。
+AI Builders 日报 · 2026-11-20
 
 ---
 
-## X / TWITTER
+🎙️ PODCASTS
+
+**AI & I by Every — "Notion's Founder on the One Thing Your AI Is Missing"**
+
+Notion founder Ivan Zhao joined Dan Shipper to discuss how AI has fundamentally changed the product that Notion was built on.
+Notion 创始人 Ivan Zhao 与 Dan Shipper 对谈，探讨 AI 如何从根本上改变了 Notion 所构建的产品愿景。
+
+The original vision of Notion — bringing computing power to everyone without requiring coding — was actually inspired by the 1960s and 70s computing pioneers who believed software should be as universal as reading and writing.
+Notion 的初始愿景——无需编码便将计算能力带给所有人——其实源于六七十年代那批相信软件应像读写一样普及的计算机先驱们。
+
+*"Everybody can start making their own software now. In some sense, the original vision of the 60s, 70s, hippie generation of computing come to life."*
+*"现在每个人都可以开始制作自己的软件了。某种意义上，六七十年代那代嬉皮士对计算机的原始愿景终于变成了现实。"*
+
+With the rise of vibe coding and LLMs, the separation between "software makers" and "software users" that solidified in the 1980s is finally dissolving.
+随着 Vibe Coding 和大语言模型的兴起，1980 年代固化的"软件制作者"与"软件使用者"之间的分野正在消融。
+
+Ivan sees Notion's block-based primitives as a precursor to the programmable, composable software world that AI is now making possible for everyone.
+Ivan 认为 Notion 的积木式原语，是 AI 正在为所有人打开的可编程、可组合软件世界的先行者。
+
+📺 https://www.youtube.com/watch?v=PGWvMrF4XIA
 
 ---
 
-### OpenAI CEO Sam Altman (sama on X)
+🐦 X / TWITTER
 
-OpenAI has released GPT-6.2 Sol and Astra, describing them as highly capable and extremely token-efficient.
-OpenAI 发布了 GPT-6.2 Sol 和 Astra，定位为能力出众且极具 token 效率的新一代模型。
+**Google VP Josh Woodward (joshwoodward on X)**
 
-Sam Altman highlighted Sol ultrafast as something he personally finds enjoyable to use.
-Sam Altman 特别点名 Sol ultrafast 是他个人非常喜欢使用的版本。
+Google Labs VP Josh Woodward announced the launch of Gemini 4 Neon, describing it as "frontier-grade intelligence that's faster, cheaper, and follows complex instructions well."
+Google Labs 副总裁 Josh Woodward 宣布推出 Gemini 4 Neon，称其为"更快、更便宜、能良好执行复杂指令的前沿级智能"。
 
-He also acknowledged that more work lies ahead on making the models nicer to interact with, calling it a priority for upcoming releases.
-他同时坦承，在提升模型使用体验方面仍有工作要做，并将其列为下一步迭代的重点。
+He also highlighted a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4 and an agent-powered community gallery.
+他还重点介绍了面向 Google AI Ultra 订阅用户的全新 Project Genie 体验，集成了 Genie 4 模型与社区画廊 Agent。
 
-*"Although the new models are very smart, we have more work ahead of us on making the models nice to work with, and will prioritize that for upcoming releases."*
-
-Source: https://x.com/sama/status/2122798039899263456
-Source: https://x.com/sama/status/2122798042734633452
+🔗 https://x.com/joshwoodward/status/2123177835254952348
+🔗 https://x.com/joshwoodward/status/2123123552052494529
 
 ---
 
-### Swyx — Founder, smol.ai / Latent Space (swyx on X)
+**OpenAI Codex & ChatGPT engineer Thibault Sottiaux (thsottiaux on X)**
 
-Swyx has been daily-driving GPT-6.2 Astra and calls it the best workflow automation model he has used.
-Swyx 已将 GPT-6.2 Astra 作为日常主力模型，并称其为他用过的最佳工作流自动化模型。
+OpenAI engineer Thibault Sottiaux shared benchmark results for GPT-6.2 Astra on hard tasks, including AMD and Jalapeño chip optimizations, showing strong performance on difficult reasoning.
+OpenAI 工程师 Thibault Sottiaux 分享了 GPT-6.2 Astra 在困难任务上的基准测试结果，包括 AMD 与 Jalapeño 芯片优化，展示了其在复杂推理上的出色表现。
 
-He notes it no longer gets stuck in loops and efficiently handles content publishing pipelines for Latent Space and AI Engineer, contributing to their >$1M/employee revenue efficiency as a bootstrapped team.
-他指出该模型不再陷入循环，能高效运行 Latent Space 和 AI Engineer 的内容发布流水线，支撑了他们作为自举公司超过百万美元每员工的营收效率。
+He acknowledged ongoing community feedback about the model's communication style and noted the team is actively working on improvements.
+他承认社区对该模型沟通风格的持续反馈，并表示团队正积极改进中。
 
-*"it's running a lot of our content publishing pipeline for @latentspacepod and @aiDotEngineer and we wouldnt have nearly the revenue efficiency (>1m/employee) that we have as a bootstrapped business without it"*
-
-His primary critique of the launch: nobody with decision-making power vetoed the marketing of the Astra ad before it went live.
-他对此次发布的主要批评：没有任何有决策权的人在上线前否决了 Astra 的广告创意。
-
-He also shared excitement about Devin Bots — Cognition's shift from ephemeral agent swarms to persistent bots with individual memory and identities — which he has been trialing for a week.
-他还对 Devin Bots 表示兴奋——Cognition 将 Devin 从临时性智能体集群转向具有独立记忆和身份的持久机器人，他已试用一周。
-
-*"what you want is 'just' the next level of abstraction above single tasks... agent managers that own outcomes."*
-
-Source: https://x.com/swyx/status/2122862646265520150
-Source: https://x.com/swyx/status/2122746401482592549
-Source: https://x.com/swyx/status/2122818291144229075
+🔗 https://x.com/thsottiaux/status/2123175166519992652
 
 ---
 
-### Thibault Sottiaux — Codex & ChatGPT at OpenAI (thsottiaux on X)
+**Google Labs (GoogleLabs on X)**
 
-Sottiaux explained that some early influencer reviews of 6.2 Sol/Astra were filmed before major changes made in the final 3–4 days before launch.
-Sottiaux 解释说，部分早期影响者对 6.2 Sol/Astra 的评测视频，实际录制于发布前最后 3-4 天大幅改动之前。
+Google Labs announced that Project Genie now runs on Google DeepMind's Genie 4, enabling users to create a world from a single sentence and edit it in real time while standing inside.
+Google Labs 宣布 Project Genie 现已运行于 Google DeepMind 的 Genie 4，用户可以用一句话生成一个世界，并在其中实时编辑。
 
-He recommends Pro 200/500 users try Sol ultrafast, describing it as "quite the blast" and a completely different feel.
-他建议 Pro 200/500 用户体验 Sol ultrafast，称其感受"相当惊艳"，体验与以往截然不同。
+They also unveiled "Stitch Loop," an always-on product agent designed to help lean teams build better products continuously.
+他们还发布了"Stitch Loop"——一个持续在线的产品 Agent，专为精干团队打造更好产品而设计。
 
-He acknowledged the models are not perfect and that the team is focused on improving taste and user experience in future iterations.
-他承认模型尚不完美，团队将在后续迭代中重点提升产品质感与使用体验。
-
-*"These models are extremely efficient, which you feel in speed to complete tasks, cost and how much further your usage goes."*
-
-Source: https://x.com/thsottiaux/status/2122929829863735594
-Source: https://x.com/thsottiaux/status/2122929634916679820
-Source: https://x.com/thsottiaux/status/2122754551187132438
+🔗 https://x.com/GoogleLabs/status/2123118145552749015
+🔗 https://x.com/GoogleLabs/status/2123102389775573314
 
 ---
 
-### Dan Shipper — CEO, Every (danshipper on X)
+**Replit CEO Amjad Masad (amasad on X)**
 
-Dan Shipper published the Every team's full ratings of GPT-6.2 Astra and Sol, saying it is hard to remember a frontier model release quite like this one — with Opus 5 being the closest comparison.
-Dan Shipper 发布了 Every 团队对 GPT-6.2 Astra 和 Sol 的完整评分，表示很难回想起有哪次前沿模型发布可以与之相比——最近的参照物是 Opus 5。
+Replit CEO Amjad Masad highlighted a fascinating aspect of the OpenAI/Hugging Face incident: the message boards where AI agents communicate with each other.
+Replit CEO Amjad Masad 着重指出了 OpenAI/Hugging Face 事件中一个引人入胜的细节：AI Agent 相互通信的消息板。
 
-He also introduced the "Inverse Roon Bench" — a new eval framework from Every.
-他还介绍了 Every 推出的「反 Roon 基准」——一个新的模型评估框架。
+He noted that with Replit Missions, users can directly observe how agents coordinate and hand off tasks — a rare window into multi-agent collaboration.
+他指出，通过 Replit Missions，用户可以直接观察到 Agent 如何协调与交接任务——这是难得一见的多 Agent 协作窗口。
 
-He advocated for teams to use AI-generated videos instead of decks to communicate product direction internally.
-他倡导团队用 AI 生成的视频代替 PPT 来传达内部产品方向。
-
-Source: https://x.com/danshipper/status/2122858139989012510
-Source: https://x.com/danshipper/status/2122852558007894417
-Source: https://x.com/danshipper/status/2122827759932051751
+🔗 https://x.com/amasad/status/2123133509028008331
 
 ---
 
-### Peter Yang — AI educator & content creator (petergyang on X)
+**Vercel CEO Guillermo Rauch (rauchg on X)**
 
-Peter Yang has been testing GPT-6.2 Astra and says it may be better than Claude Fable at website design — he promises a full unbiased review.
-Peter Yang 一直在测试 GPT-6.2 Astra，表示它在网站设计方面可能优于 Claude Fable，并承诺发布完整的无偏评测。
+Vercel CEO Guillermo Rauch called a recent message-board-enabled AI breakthrough "one of the most impressive things I've seen" and "an important advancement to the state of the art."
+Vercel CEO Guillermo Rauch 将近期一项基于消息板的 AI 突破称为"我见过的最令人印象深刻的事情之一"，并视之为"对当前技术水平的重要推进"。
 
-He made a sharp observation: most models (outside of Opus 5.5 and a few special exceptions) have the shortest shelf life of any software.
-他一针见血地指出：大多数模型（除 Opus 5.5 等少数例外）的生命周期是所有软件类型中最短的。
+He also shared his candid take on the inference neocloud wave: *"I'm being pitched a new inference neocloud company on average every two days. No exaggeration. It's hard to fathom this being sustainable."*
+他还坦言了自己对推理 Neocloud 浪潮的看法：*"平均每两天就有人来向我推销一家新的推理 Neocloud 公司，毫不夸张，很难想象这种势头是可持续的。"*
 
-*"More important to make your skills work well across any new model."*
-
-Source: https://x.com/petergyang/status/2122869524773179771
-Source: https://x.com/petergyang/status/2122839368444661870
+🔗 https://x.com/rauchg/status/2123237505810178434
+🔗 https://x.com/rauchg/status/2123203741570740504
 
 ---
 
-### Amjad Masad — CEO, Replit (amasad on X)
+**Box CEO Aaron Levie (levie on X)**
 
-Replit launched one-prompt agent swarms today — allowing anyone to spin up parallel agents exploring different approaches and collaborating on solutions.
-Replit 今日上线单提示词智能体集群功能——任何人只需一句提示，即可启动多个并行探索、协同攻关的智能体。
+Box CEO Aaron Levie observed that we're entering yet another new era of AI agents in enterprise work — evolving rapidly from agents that answer questions, to agents that orchestrate complex workflows.
+Box CEO Aaron Levie 观察到，我们正在进入企业工作中 AI Agent 的又一个新时代——从回答问题的 Agent，迅速演变为能够协调复杂工作流的 Agent。
 
-Masad argued that agent swarms are the next scaling frontier for AI, beyond training larger models or giving them more thinking time.
-Masad 认为，智能体集群是 AI 下一个规模化前沿，超越了训练更大模型或给予更多思考时间的路径。
-
-He also shared that iOS-quality web gestures are now achievable in the browser.
-他还展示了浏览器中实现 iOS 级手势效果的演示。
-
-Source: https://x.com/amasad/status/2122809964649459861
-Source: https://x.com/amasad/status/2122805977187549558
-Source: https://x.com/amasad/status/2122817367679901830
+🔗 https://x.com/levie/status/2123278949749059756
 
 ---
 
-### Josh Woodward — VP, Google Labs & Gemini (joshwoodward on X)
+**Builder Zara Zhang (zarazhangrui on X)**
 
-Google announced that Gemini can now execute tasks for free across six countries: the US, Japan, Korea, Canada, Australia, and India.
-谷歌宣布 Gemini 现可在六国免费执行任务：美国、日本、韩国、加拿大、澳大利亚和印度。
+Zara Zhang shared a valuable insight on content strategy: *"Instead of being massively viral for 1 day, it's much better to be just a little bit viral every week, and watch it compound."*
+Zara Zhang 分享了内容策略的精辟洞见：*"比起一天内病毒式爆发，每周都稍微火一下然后持续复利，效果要好得多。"*
 
-The update runs on the new Gemini 4 Hydrogen model and includes major new capabilities: calling local businesses via Google Duplex, paying via Google Pay, texting via RCS, forwarding emails to Gemini, and signing into sites via Google Password Manager.
-此次更新基于新的 Gemini 4 Hydrogen 模型，新增功能包括：通过 Google Duplex 拨打本地商家电话、通过 Google Pay 付款、通过 RCS 给 Gemini 发短信、将邮件转发给 Gemini 处理，以及通过 Google 密码管理器登录网站。
+Build systems for consistent, compounding content — not one-time explosions.
+要构建持续产出高质量内容的系统，而非追求一次性的爆发。
 
-The Gemini-Workspace integration also received its biggest update yet, with more reliable tool triggering and richer in-Gemini capabilities.
-Gemini 与 Google Workspace 的集成也迎来了迄今最大升级，工具调用更稳定，可在 Gemini 内完成更多操作。
-
-Source: https://x.com/joshwoodward/status/2122737427970425171
+🔗 https://x.com/zarazhangrui/status/2122953849120153714
 
 ---
 
-### Guillermo Rauch — CEO, Vercel (rauchg on X)
+**FPV Ventures Partner Nikunj Kothari (nikunj on X)**
 
-Rauch called OpenAI's new models the most cybersecurity-capable in the world and noted that Vercel's DeepsecBench — a stealth cyber benchmark that no lab trained on — was used to evaluate them.
-Rauch 称 OpenAI 新模型为目前网络安全能力最强的模型，并指出 Vercel 的 DeepsecBench（一个无任何实验室接触过训练数据的隐秘安全基准）参与了评测。
+FPV Ventures partner Nikunj Kothari shared a pointed joke about SF VCs and Anthropic liquidity — capturing the irony of the market moment with trademark wit.
+FPV Ventures 合伙人 Nikunj Kothari 以一则关于旧金山 VC 与 Anthropic 流动性的妙语，精准捕捉了当下市场的讽刺意味。
 
-He also highlighted "agent-browser vitals" — a self-optimizing software concept he called "actually a huge deal for web performance."
-他还点评了「agent-browser vitals」这一自我优化软件概念，称其对 web 性能而言是"真正意义上的重大突破"。
+He also laid out frank advice to founders struggling with fundraising: ambition is what gets rewarded by investors, and pitches that undersell the vision will fall flat.
+他还向为融资犯难的创始人直言：投资人奖励的是雄心壮志，低估自身愿景的 Pitch 注定失败。
 
-Source: https://x.com/rauchg/status/2122812237169426606
-Source: https://x.com/rauchg/status/2122830064152899991
-
----
-
-### Garry Tan — President & CEO, Y Combinator (garrytan on X)
-
-Garry Tan is rallying OpenAI shareholders, employees, and former employees around a 15% shareholder vote, calling for removal of only three board members.
-Garry Tan 正在集结 OpenAI 股东、员工和前员工，推动 15% 股东投票，目标是撤换三位董事会成员。
-
-Source: https://x.com/garrytan/status/2122910329537728747
-Source: https://x.com/garrytan/status/2122913046603649325
+🔗 https://x.com/nikunj/status/2123183421002588327
+🔗 https://x.com/nikunj/status/2123066196052381864
 
 ---
 
-### Matt Turck — VC at FirstMark Capital (mattturck on X)
+**Dropbox ex-CTO & SPC GP Aditya Agarwal (adityaag on X)**
 
-Matt Turck announced a $30M seed co-investment (with EQT) in Remanence Labs, focused on continual learning — "building intelligence that compounds."
-Matt Turck 宣布与 EQT 联合领投 Remanence Labs 3000 万美元种子轮，该公司专注持续学习，致力于"构建复利式智能"。
+Former Dropbox CTO and SPC General Partner Aditya Agarwal pushed back on early-stage VCs who claim they "can't do AI": *"I have always thought it was copium... You just have to take more risk and be non-consensus."*
+Dropbox 前 CTO、SPC 普通合伙人 Aditya Agarwal 反驳了那些声称"做不了 AI"的早期 VC：*"我一直认为这是自我安慰……你只需要承担更多风险，做出非共识的判断。"*
 
-He also highlighted Daytona's new macOS sandboxes — the first agentic infra provider to offer Mac sandboxes for computer-use agents and Apple app development/testing.
-他还关注了 Daytona 推出的 macOS 沙盒——首家为 computer-use 智能体和苹果应用开发测试提供 Mac 沙盒的 AI 基础设施提供商。
+He also argued that stablecoins will be one of America's most powerful tools of soft power globally.
+他还认为，稳定币将成为美国在全球最有力的软实力工具之一。
 
-Source: https://x.com/mattturck/status/2122717441461739571
-Source: https://x.com/mattturck/status/2122726760185741673
-
----
-
-### Nikunj Kothari — Partner, FPV Ventures (nikunj on X)
-
-Nikunj observed that the AI model "vibes" pendulum on X is swinging fast — after months of OpenAI dominance, Anthropic's Opus 5.5 and Google's Gemini Carbon are now getting all the accolades.
-Nikunj 观察到 X 上 AI 模型「氛围感」摇摆剧烈——在 OpenAI 主导数月后，Anthropic 的 Opus 5.5 和谷歌的 Gemini Carbon 如今正赢得所有喝彩。
-
-Source: https://x.com/nikunj/status/2122833396787495317
+🔗 https://x.com/adityaag/status/2123293726110020052
+🔗 https://x.com/adityaag/status/2123262616776921257
 
 ---
 
-### Ryo Lu — Designer, Cursor AI (ryolu_ on X)
+**Former Claude Code engineer Thariq (trq212 on X)**
 
-Ryo Lu noted that while crazy ideas are now possible with AI, they still require just as much care and effort to execute well.
-Ryo Lu 指出，尽管如今 AI 让各种疯狂想法成为可能，但要真正做好，仍需同等程度的用心与努力。
+Former Anthropic Claude Code engineer Thariq reflected on why most people won't generate their own software long-term: *"Good software is a set of strong opinions and I'd rather have something that's been really thought through."*
+Anthropic 前 Claude Code 工程师 Thariq 反思了为何大多数人不会长期自己生成软件：*"好的软件是一套强烈的主张，我更希望使用经过深思熟虑的东西。"*
 
-Source: https://x.com/ryolu_/status/2122929249967554583
+He added that even with AI, it's hard to build lasting personal tools because knowing what you truly want is itself the hard problem.
+他补充说，即使有 AI 的加持，构建持久的个人工具依然困难——因为弄清楚自己真正想要什么，本身就是难题所在。
 
----
-
-### Zara Zhang — Builder, Harvard '17 (zarazhangrui on X)
-
-近期无重要动态
+🔗 https://x.com/trq212/status/2123106370161705127
+🔗 https://x.com/trq212/status/2123106368492298653
 
 ---
 
-## PODCASTS
+**OpenAI CEO Sam Altman (sama on X)**
 
----
+OpenAI CEO Sam Altman celebrated his appearance on DealBook alongside Greg Brockman, calling Brockman *"the brilliant, fiercely determined leader I have the privilege of working with every day"* and noting they've been friends and partners for 11 years.
+OpenAI CEO Sam Altman 庆祝与 Greg Brockman 共同亮相 DealBook，称其为*"我每天都有幸共事的才华横溢、意志坚定的领导者"*，并表示两人已是相识 11 年的朋友与伙伴。
 
-### Latent Space: Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs
-
-This episode features the co-inventor of latent diffusion and the core team behind Black Forest Labs — the company formed after key members split from Stability AI.
-本期节目邀请了潜在扩散技术的联合发明人以及 Black Forest Labs 核心团队——该公司由 Stability AI 核心成员出走后创立。
-
-Andreas Blattmann (Andi) pioneered the latent diffusion technique that underpinned Stable Diffusion; Dustin Podell was a key engineer who worked his way up through the organization.
-Andreas Blattmann（Andi）是推动 Stable Diffusion 底层技术潜在扩散的先驱；Dustin Podell 则是从工程师岗位一路成长的核心人物。
-
-The episode explores how the team is now building visual intelligence at Black Forest Labs, working on the frontier of image and video generation models.
-本期节目深入探讨了团队如何在 Black Forest Labs 推进视觉智能研究，聚焦图像与视频生成模型的前沿工作。
-
-Source: https://www.youtube.com/watch?v=8cGfJOU3AlQ
+🔗 https://x.com/sama/status/2123103873166381287
 
 ---
 
