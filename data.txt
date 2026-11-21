@@ -1,161 +1,285 @@
-AI Builders 日报 · 2026-11-20
+AI Builders 日报 · 2026-11-21
 
 ---
 
-🎙️ PODCASTS
-
-**AI & I by Every — "Notion's Founder on the One Thing Your AI Is Missing"**
-
-Notion founder Ivan Zhao joined Dan Shipper to discuss how AI has fundamentally changed the product that Notion was built on.
-Notion 创始人 Ivan Zhao 与 Dan Shipper 对谈，探讨 AI 如何从根本上改变了 Notion 所构建的产品愿景。
-
-The original vision of Notion — bringing computing power to everyone without requiring coding — was actually inspired by the 1960s and 70s computing pioneers who believed software should be as universal as reading and writing.
-Notion 的初始愿景——无需编码便将计算能力带给所有人——其实源于六七十年代那批相信软件应像读写一样普及的计算机先驱们。
-
-*"Everybody can start making their own software now. In some sense, the original vision of the 60s, 70s, hippie generation of computing come to life."*
-*"现在每个人都可以开始制作自己的软件了。某种意义上，六七十年代那代嬉皮士对计算机的原始愿景终于变成了现实。"*
-
-With the rise of vibe coding and LLMs, the separation between "software makers" and "software users" that solidified in the 1980s is finally dissolving.
-随着 Vibe Coding 和大语言模型的兴起，1980 年代固化的"软件制作者"与"软件使用者"之间的分野正在消融。
-
-Ivan sees Notion's block-based primitives as a precursor to the programmable, composable software world that AI is now making possible for everyone.
-Ivan 认为 Notion 的积木式原语，是 AI 正在为所有人打开的可编程、可组合软件世界的先行者。
-
-📺 https://www.youtube.com/watch?v=PGWvMrF4XIA
+X / TWITTER
 
 ---
 
-🐦 X / TWITTER
+Swyx (swyx on X) — AI Engineering Advocate, Smol AI / Cognition / Latent Space
 
-**Google VP Josh Woodward (joshwoodward on X)**
+Swyx made a sharp observation about social media incentives and AI discourse: accuracy carries no consequences on X.
+Swyx 犀利地指出了社交媒体的激励机制：在 X 上，不准确根本没有代价。
 
-Google Labs VP Josh Woodward announced the launch of Gemini 4 Neon, describing it as "frontier-grade intelligence that's faster, cheaper, and follows complex instructions well."
-Google Labs 副总裁 Josh Woodward 宣布推出 Gemini 4 Neon，称其为"更快、更便宜、能良好执行复杂指令的前沿级智能"。
+*"you can say 'odds of reaching SOTA have dropped to zero' and get a lot of likes and then 3 months later when they have reached SOTA you post apology form and get even more likes"*
+「你可以说『达到 SOTA 的概率已经归零』然后收获大量点赞，三个月后当他们真的达到了 SOTA，你再发一条道歉帖，还能收获更多点赞」
 
-He also highlighted a new Project Genie experience for Google AI Ultra subscribers, featuring Genie 4 and an agent-powered community gallery.
-他还重点介绍了面向 Google AI Ultra 订阅用户的全新 Project Genie 体验，集成了 Genie 4 模型与社区画廊 Agent。
+The subject of your writing might even print out your apology and thank you for motivation — there are no incentives for accuracy, only for hyperbole.
+被你写的人甚至可能把你的道歉打印出来，感谢你提供了动力——算法只奖励夸张，不惩罚失误。
 
-🔗 https://x.com/joshwoodward/status/2123177835254952348
-🔗 https://x.com/joshwoodward/status/2123123552052494529
-
----
-
-**OpenAI Codex & ChatGPT engineer Thibault Sottiaux (thsottiaux on X)**
-
-OpenAI engineer Thibault Sottiaux shared benchmark results for GPT-6.2 Astra on hard tasks, including AMD and Jalapeño chip optimizations, showing strong performance on difficult reasoning.
-OpenAI 工程师 Thibault Sottiaux 分享了 GPT-6.2 Astra 在困难任务上的基准测试结果，包括 AMD 与 Jalapeño 芯片优化，展示了其在复杂推理上的出色表现。
-
-He acknowledged ongoing community feedback about the model's communication style and noted the team is actively working on improvements.
-他承认社区对该模型沟通风格的持续反馈，并表示团队正积极改进中。
-
-🔗 https://x.com/thsottiaux/status/2123175166519992652
+https://x.com/swyx/status/2123591875349422435
 
 ---
 
-**Google Labs (GoogleLabs on X)**
+Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini App / Google AI Studio
 
-Google Labs announced that Project Genie now runs on Google DeepMind's Genie 4, enabling users to create a world from a single sentence and edit it in real time while standing inside.
-Google Labs 宣布 Project Genie 现已运行于 Google DeepMind 的 Genie 4，用户可以用一句话生成一个世界，并在其中实时编辑。
+Google Gemini's VP announced a major product expansion: Gemini on Mac can now do tasks on your computer.
+Google Gemini 的副总裁宣布了一项重大产品扩展：Mac 版 Gemini 现在可以直接在你的电脑上执行任务了。
 
-They also unveiled "Stitch Loop," an always-on product agent designed to help lean teams build better products continuously.
-他们还发布了"Stitch Loop"——一个持续在线的产品 Agent，专为精干团队打造更好产品而设计。
+This was a top feature request, bringing Gemini's computer-use capabilities to desktop users.
+这是呼声最高的功能需求之一，将 Gemini 的电脑操控能力带给了桌面用户。
 
-🔗 https://x.com/GoogleLabs/status/2123118145552749015
-🔗 https://x.com/GoogleLabs/status/2123102389775573314
-
----
-
-**Replit CEO Amjad Masad (amasad on X)**
-
-Replit CEO Amjad Masad highlighted a fascinating aspect of the OpenAI/Hugging Face incident: the message boards where AI agents communicate with each other.
-Replit CEO Amjad Masad 着重指出了 OpenAI/Hugging Face 事件中一个引人入胜的细节：AI Agent 相互通信的消息板。
-
-He noted that with Replit Missions, users can directly observe how agents coordinate and hand off tasks — a rare window into multi-agent collaboration.
-他指出，通过 Replit Missions，用户可以直接观察到 Agent 如何协调与交接任务——这是难得一见的多 Agent 协作窗口。
-
-🔗 https://x.com/amasad/status/2123133509028008331
+https://x.com/joshwoodward/status/2123534862569324703
 
 ---
 
-**Vercel CEO Guillermo Rauch (rauchg on X)**
+Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
 
-Vercel CEO Guillermo Rauch called a recent message-board-enabled AI breakthrough "one of the most impressive things I've seen" and "an important advancement to the state of the art."
-Vercel CEO Guillermo Rauch 将近期一项基于消息板的 AI 突破称为"我见过的最令人印象深刻的事情之一"，并视之为"对当前技术水平的重要推进"。
+OpenAI's Codex & ChatGPT lead revealed the team is working on a completely redesigned mobile experience for ChatGPT.
+OpenAI Codex 与 ChatGPT 负责人透露，团队正在为 ChatGPT 开发全新的移动端体验。
 
-He also shared his candid take on the inference neocloud wave: *"I'm being pitched a new inference neocloud company on average every two days. No exaggeration. It's hard to fathom this being sustainable."*
-他还坦言了自己对推理 Neocloud 浪潮的看法：*"平均每两天就有人来向我推销一家新的推理 Neocloud 公司，毫不夸张，很难想象这种势头是可持续的。"*
+The new design makes it easier to access favorite features and discover capabilities — starting with Pro users who have a "dot" or are eligible to create one.
+新设计让用户更容易访问常用功能并探索新能力——首先向拥有"dot"或有资格创建 dot 的 Pro 用户推出。
 
-🔗 https://x.com/rauchg/status/2123237505810178434
-🔗 https://x.com/rauchg/status/2123203741570740504
+Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar.
+你的 dot 拥有专属标签页，可以把 Codex、项目、图像等固定在标签栏上。
 
----
+His team's ambition: *"crazy enough to think they can succeed at improving the experience used by 1.2B users in place."*
+他的团队野心勃勃：「疯狂到认为自己能成功改造这个被 12 亿用户使用的产品体验。」
 
-**Box CEO Aaron Levie (levie on X)**
-
-Box CEO Aaron Levie observed that we're entering yet another new era of AI agents in enterprise work — evolving rapidly from agents that answer questions, to agents that orchestrate complex workflows.
-Box CEO Aaron Levie 观察到，我们正在进入企业工作中 AI Agent 的又一个新时代——从回答问题的 Agent，迅速演变为能够协调复杂工作流的 Agent。
-
-🔗 https://x.com/levie/status/2123278949749059756
+https://x.com/thsottiaux/status/2123557171321561133
+https://x.com/thsottiaux/status/2123612889416339762
 
 ---
 
-**Builder Zara Zhang (zarazhangrui on X)**
+Peter Yang (petergyang on X) — AI Tutorials & Practical AI Guides
 
-Zara Zhang shared a valuable insight on content strategy: *"Instead of being massively viral for 1 day, it's much better to be just a little bit viral every week, and watch it compound."*
-Zara Zhang 分享了内容策略的精辟洞见：*"比起一天内病毒式爆发，每周都稍微火一下然后持续复利，效果要好得多。"*
+Peter Yang ran a head-to-head comparison of Opus 5.5 vs Gemini 4 Neon and shared his verdict.
+Peter Yang 对 Opus 5.5 和 Gemini 4 Neon 进行了正面对决，并给出了评测结论。
 
-Build systems for consistent, compounding content — not one-time explosions.
-要构建持续产出高质量内容的系统，而非追求一次性的爆发。
+Gemini 4 Neon is on par or better than Opus at writing and personality — a major accomplishment — though Opus still leads in 3D and design.
+Gemini 4 Neon 在写作和个性化方面与 Opus 持平甚至更好——这是巨大的突破——但 Opus 在 3D 和设计方面依然领先。
 
-🔗 https://x.com/zarazhangrui/status/2122953849120153714
+He also made a counterintuitive point: Google's bureaucratic scale is actually a competitive advantage — 100,000+ employees testing models internally before wide release, big enough for stat-sig A/B tests.
+他还提出了一个反直觉的观点：Google 的庞大规模实际上是竞争优势——10 万多名员工在正式发布前内部测试模型，规模大到足以跑出统计显著的 A/B 测试。
 
----
-
-**FPV Ventures Partner Nikunj Kothari (nikunj on X)**
-
-FPV Ventures partner Nikunj Kothari shared a pointed joke about SF VCs and Anthropic liquidity — capturing the irony of the market moment with trademark wit.
-FPV Ventures 合伙人 Nikunj Kothari 以一则关于旧金山 VC 与 Anthropic 流动性的妙语，精准捕捉了当下市场的讽刺意味。
-
-He also laid out frank advice to founders struggling with fundraising: ambition is what gets rewarded by investors, and pitches that undersell the vision will fall flat.
-他还向为融资犯难的创始人直言：投资人奖励的是雄心壮志，低估自身愿景的 Pitch 注定失败。
-
-🔗 https://x.com/nikunj/status/2123183421002588327
-🔗 https://x.com/nikunj/status/2123066196052381864
+https://x.com/petergyang/status/2123648490844897389
+https://x.com/petergyang/status/2123540875733315815
 
 ---
 
-**Dropbox ex-CTO & SPC GP Aditya Agarwal (adityaag on X)**
+Thariq (trq212 on X) — formerly Claude Code, Anthropic AI
 
-Former Dropbox CTO and SPC General Partner Aditya Agarwal pushed back on early-stage VCs who claim they "can't do AI": *"I have always thought it was copium... You just have to take more risk and be non-consensus."*
-Dropbox 前 CTO、SPC 普通合伙人 Aditya Agarwal 反驳了那些声称"做不了 AI"的早期 VC：*"我一直认为这是自我安慰……你只需要承担更多风险，做出非共识的判断。"*
+Thariq, formerly on the Claude Code team at Anthropic, shared a philosophical framing of the AI moment.
+Thariq 曾在 Anthropic 的 Claude Code 团队工作，他分享了对这个 AI 时代的哲学思考。
 
-He also argued that stablecoins will be one of America's most powerful tools of soft power globally.
-他还认为，稳定币将成为美国在全球最有力的软实力工具之一。
+*"Software is both art and utility. AI is both an Industrial Revolution and a Renaissance."*
+「软件既是艺术也是工具。AI 既是工业革命，也是文艺复兴。」
 
-🔗 https://x.com/adityaag/status/2123293726110020052
-🔗 https://x.com/adityaag/status/2123262616776921257
+He argued that factories are for utilities, but at AIE Code he talked about how we can make better art — signaling that he sees the creative dimension of AI as equally important as the productivity one.
+他认为工厂是为了效率，但在 AIE Code 大会上他探讨的是如何用 AI 创作更好的艺术——这表明他认为 AI 的创意维度与生产力维度同等重要。
 
----
-
-**Former Claude Code engineer Thariq (trq212 on X)**
-
-Former Anthropic Claude Code engineer Thariq reflected on why most people won't generate their own software long-term: *"Good software is a set of strong opinions and I'd rather have something that's been really thought through."*
-Anthropic 前 Claude Code 工程师 Thariq 反思了为何大多数人不会长期自己生成软件：*"好的软件是一套强烈的主张，我更希望使用经过深思熟虑的东西。"*
-
-He added that even with AI, it's hard to build lasting personal tools because knowing what you truly want is itself the hard problem.
-他补充说，即使有 AI 的加持，构建持久的个人工具依然困难——因为弄清楚自己真正想要什么，本身就是难题所在。
-
-🔗 https://x.com/trq212/status/2123106370161705127
-🔗 https://x.com/trq212/status/2123106368492298653
+https://x.com/trq212/status/2123524052195463568
 
 ---
 
-**OpenAI CEO Sam Altman (sama on X)**
+Amjad Masad (amasad on X) — CEO, Replit
 
-OpenAI CEO Sam Altman celebrated his appearance on DealBook alongside Greg Brockman, calling Brockman *"the brilliant, fiercely determined leader I have the privilege of working with every day"* and noting they've been friends and partners for 11 years.
-OpenAI CEO Sam Altman 庆祝与 Greg Brockman 共同亮相 DealBook，称其为*"我每天都有幸共事的才华横溢、意志坚定的领导者"*，并表示两人已是相识 11 年的朋友与伙伴。
+Replit CEO Amjad Masad is pushing a new paradigm: the "agent contract."
+Replit CEO Amjad Masad 正在推动一个新范式：「agent 合约」。
 
-🔗 https://x.com/sama/status/2123103873166381287
+*"Having a contract with your agent is a paradigm I expect many will copy from us"*
+「与你的 agent 签订合约，这是一个我预期很多人会向我们学习的范式」
+
+He also demoed building a Muse-like personal agent with a single prompt, showing how quickly Replit is pushing personal agent capabilities to end users.
+他还演示了用一个 prompt 构建类似 Muse 的个人 agent，展示了 Replit 将个人 agent 能力快速推向终端用户的速度。
+
+https://x.com/amasad/status/2123535362568134894
+https://x.com/amasad/status/2123535544718418191
+
+---
+
+Guillermo Rauch (rauchg on X) — CEO, Vercel
+
+Vercel CEO Guillermo Rauch laid out a striking thesis on the value of engineering in the AI era.
+Vercel CEO Guillermo Rauch 提出了一个关于 AI 时代工程师价值的深刻论断。
+
+*"An outcome-oriented, creative engineer is now a 1000x engineer. A tabs-vs-spaces-debating, miss-forest-for-trees engineer is now a -10x engineer."*
+「以结果为导向、有创造力的工程师，现在是 1000 倍工程师。整天争论 tab 还是空格、只见树木不见森林的工程师，现在是 -10 倍工程师。」
+
+He also introduced Vercel Board — a "headless Slack for agents" with no opinionated UI, where you can generate and deploy the ideal factory interface for each use case.
+他还介绍了 Vercel Board——一个「为 agent 设计的无头 Slack」，没有固定 UI，你可以为每个用例生成并部署理想的工厂界面。
+
+His take on Anthropic's success: *"coding is the #1 killer app of AI"* — backed by token consumption data from both startups and enterprises.
+他对 Anthropic 成功的解读：「编程是 AI 的第一杀手级应用」——这一判断有来自初创公司和企业的 token 消耗数据支撑。
+
+https://x.com/rauchg/status/2123505400591106113
+https://x.com/rauchg/status/2123553975945556144
+https://x.com/rauchg/status/2123468825538789380
+
+---
+
+Garry Tan (garrytan on X) — President & CEO, Y Combinator
+
+YC's president endorsed Nick Bostrom's stark framing on AI development.
+YC 总裁认同了 Nick Bostrom 关于 AI 发展的鲜明立场。
+
+*"if nobody builds it, everyone dies"* — Hard agree.
+「如果没有人去构建它，所有人都会死。」——完全同意。
+
+A rare, unambiguous statement of urgency from one of the most influential voices in startup funding.
+这是来自创投界最有影响力的声音之一的罕见、明确的紧迫性表态。
+
+https://x.com/garrytan/status/2123496208316694669
+
+---
+
+Matt Turck (mattturck on X) — VC at FirstMark Capital, MAD Podcast Host
+
+FirstMark Capital VC Matt Turck shared a conversation with Felix Rieseberg from Anthropic at the Slush conference.
+FirstMark Capital 投资人 Matt Turck 分享了他与 Anthropic 的 Felix Rieseberg 在 Slush 大会上的对话。
+
+No major thesis — but his social presence reflects the VC world's growing excitement around Anthropic's momentum.
+没有重大论断——但他的社交动态反映了投资圈对 Anthropic 势头日益高涨的热情。
+
+https://x.com/mattturck/status/2123424356286017975
+
+---
+
+Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
+
+FPV Ventures partner Nikunj Kothari raised an underappreciated problem: who is protecting elderly people from AI-powered scams and network attacks?
+FPV Ventures 合伙人 Nikunj Kothari 提出了一个被忽视的问题：谁来保护老年人免受 AI 驱动的诈骗和网络攻击？
+
+He outlined four potential solution layers: browser-level security, network-layer filtering (like Pi-hole), payment transaction flagging, and phone-level monitoring with cloned-voice detection.
+他列出了四个潜在解决层次：浏览器级安全、网络层过滤（类似 Pi-hole）、支付交易预警，以及带有克隆声音检测的手机级监控。
+
+The ideal product would package all four with insurance that aligns incentives — sold to the adult children who want peace of mind, not the elderly users themselves.
+理想的产品应该将这四者打包，附加激励一致的保险——销售对象是希望放心的成年子女，而非老年用户本身。
+
+https://x.com/nikunj/status/2123426647273800172
+
+---
+
+Peter Steinberger (steipete on X) — OpenClaw + OpenAI, "ClawFather"
+
+OpenClaw's Peter Steinberger shipped a fix for an embedded harness bug in OpenClaw.
+OpenClaw 的 Peter Steinberger 修复了 OpenClaw 嵌入式 harness 中的一个 bug。
+
+The fix landed for the small subset of users on the embedded harness rather than codex, though most harnesses are not yet updated.
+该修复面向使用嵌入式 harness（而非 codex）的少数用户，但大多数 harness 尚未更新。
+
+https://x.com/steipete/status/2123487048250327497
+
+---
+
+Dan Shipper (danshipper on X) — CEO, Every
+
+Every's CEO Dan Shipper called for AI practitioners to mobilize around infrastructure attacks.
+Every 的 CEO Dan Shipper 呼吁 AI 从业者围绕基础设施攻击问题行动起来。
+
+*"who is working on helping stop the infrastructure attacks happening right now, and how can people in AI help?"*
+「现在有谁在帮助阻止正在发生的基础设施攻击？AI 领域的人可以如何提供帮助？」
+
+https://x.com/danshipper/status/2123435061236404385
+
+---
+
+Aditya Agarwal (adityaag on X) — General Partner, SPC; Co-Founder, Bevel Health
+
+SPC General Partner Aditya Agarwal celebrated Anthropic's success by sharing an origin story that few know.
+SPC 普通合伙人 Aditya Agarwal 在庆祝 Anthropic 成功的同时，分享了鲜为人知的起源故事。
+
+Two Anthropic builders — Tom Brown and Thariq — both spent significant time at SPC before co-founding or joining the company.
+两位 Anthropic 创始人——Tom Brown 和 Thariq——在创立或加入 Anthropic 之前，都曾在 SPC 度过了重要的时光。
+
+Tom Brown showed up in 2016 with no ML background, spent his days reading papers with fellow members, then co-founded Anthropic.
+Tom Brown 2016 年加入时没有 ML 背景，整天和其他成员一起研读论文，后来联合创办了 Anthropic。
+
+Thariq joined after winding down a gaming company, started working on interpretability, and ended up helping build Claude Code — a tool most of us use every day.
+Thariq 在结束一家游戏公司后加入，开始研究可解释性，最终参与构建了 Claude Code——一个我们每天都在使用的工具。
+
+He also flagged RoleCUA from Fig — a dataset mapping expert roles across months of real work, with every action tied to task and objective, as agents move from single tasks to whole jobs.
+他还关注了 Fig 的 RoleCUA——一个将专家角色映射到数月真实工作的数据集，每个动作都与任务和目标挂钩，随着 agent 从单一任务向完整工作演进。
+
+https://x.com/adityaag/status/2123494873919783073
+https://x.com/adityaag/status/2123579739868959110
+https://x.com/adityaag/status/2123479646629183631
+
+---
+
+PODCASTS
+
+---
+
+No Priors — Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew
+
+## 一、深度总结
+
+**核心论点**
+Arda CEO、前 OpenAI 首席研究官 Bob McGrew 认为，AI 研究的真正瓶颈从来不是研究员数量，而是物理算力与物理世界的改造速度。
+自动化研究员能带来一次性的显著加速，但不会触发递归自我改进（RSI）的飞轮——因为 GPU、能源、制造业才是真正的限制因素。
+他的结论是：没有物理世界的根本变革，就无法抵达超级智能。
+
+**关键洞察**
+- **研究员不是瓶颈，GPU 才是**：即使在 2024 年担任 OpenAI 首席研究官期间，实际限制因素也不是能雇多少研究员，而是手头有多少 GPU，以及算力是否以正确方式互联。自动化研究员是一次性 S 曲线，不是 RSI 飞轮。
+- **"硬起飞"论点根本上是错误的**：自动化 10% 的研究工作 → 10% 加速，自动化 99% → 100 倍加速，这个逻辑忽略了实验运行本身受物理算力约束的事实。
+- **美国制造业竞争力危机**：美国缺乏能大规模制造 GPU、能源基础设施和精密零部件的本土能力。在 AI 进入物理世界之前，这个缺口会持续拖慢进展。
+- **智能工厂是关键路径**：Arda 的核心赌注是用 AI 重建美国制造业，让工厂像软件一样可编程、可优化——这是通往物理超级智能的必经之路。
+- **机器造机器，探索星际**：Bob 的长期愿景是"能制造机器的机器"，最终支撑人类走向太空——物理世界的扩张是数字智能的前提，而非结果。
+
+**最值得关注的信号**
+物理 AI 基础设施（算力制造、能源、机器人）正在成为下一波 AI 竞争的核心战场。
+谁能在物理层面取得突破，谁就掌握了通往超级智能的钥匙——纯数字路径已经接近天花板。
+
+---
+
+## 二、完整中文逐字稿
+
+主持人 | 00:00 - 00:17
+如果你环顾四周，自从 AI 出现的十年前到现在，有什么真正改变了吗？几乎没有。你第一次坐 Waymo 的时候，心想，这太神奇了。但大概到第三次，你就觉得，这交通也太堵了吧。我们需要突破这种对数字世界的单一聚焦，走向物理世界。
+
+主持人 | 00:17 - 00:22
+我认为，如果不改变物理世界，就真的无法抵达超级智能。
+
+主持人 | 00:28 - 00:54
+大家好，欢迎回到 No Priors。今天，Elad 和我邀请到了 Arda 的 CEO 兼联合创始人 Bob McGrew。Bob 此前是 Palantir 的早期核心高管，以及 OpenAI 的首席研究官。我们聊到了如何用智能让美国制造业重新具备竞争力、为什么物理智能是通往超级智能的必要条件，以及未来将是能制造机器的机器，去探索星际。
+
+主持人 | 00:54 - 00:55
+Bob，欢迎。
+
+主持人 | 00:55 - 00:59
+Bob，非常感谢你今天来到 No Priors。太高兴了。是啊，你的职业生涯真的太传奇了。
+
+主持人 | 00:59 - 01:31
+你曾是 OpenAI 的首席研究官，推动了公司几乎所有的研究方向，或者至少设定了很多议题。你也是 Palantir 非常早期的员工，是推动产品和工程的核心人物之一。你有过这么精彩的职业历程，经历了数字世界最具里程碑意义的时刻，然而现在你却在做物理世界的事情。而且恰好在大家都在讨论 RSI——递归自我改进——的时候，讨论研究员将被代码和 AI 取代，AI 将自我构建。在这场数字革命如火如荼的时候，为什么还要去做物理世界的事？
+
+主持人 | 01:31 - 01:59
+从根本上说，我认为如果不改变物理世界，就真的无法抵达超级智能。我们已经看到了 ChatGPT、agent 带来的巨大进步。这一切都发生在我们的数字生活中，但真正影响我们生活中"原子"的部分却非常少。如果你环顾四周，自从十年前 AI 出现以来，周围有什么真正不同了吗？
+
+主持人 | 01:59 - 02:05
+几乎没有。即使是你正在做的某件真正与以前不同的事情，比如坐上了一辆自动驾驶汽车，坐进 Waymo，在旧金山转悠，第一次乘坐时你会想，太神奇了，没有人在开车，车自己在开。
+
+主持人 | 02:05 - 02:29
+但大概到第三次，你就觉得，这交通也太堵了吧。就算是 Waymo，也只是走向物理世界的半步——车本身没有变。车还是不会飞，你依然受制于所有物理障碍，就跟二十世纪九十年代在旧金山开车一样慢。所以从根本上说，我们需要突破对数字世界的单一聚焦，走向物理世界。
+
+主持人 | 02:50 - 02:55
+那当你说不改变物理世界就无法实现超级智能，这究竟意味着什么？具体是指什么？
+
+主持人 | 02:55 - 03:21
+从 2018 年起，我就一直听到一种论点：如果能自动化研究员的工作，就能释放出一个失控的加速、失控的自我改进循环，然后我们就会迎来奇点。这就是所谓的"硬起飞"。而我认为这是错的，这个论点根本上就是错的。
+
+主持人 | 03:21 - 05:09
+让我来重述一下这个论点：好，我们能自动化研究员 10% 的时间，会带来一些改进；自动化 50%，就有 2 倍加速；自动化 90%，就是 10 倍加速；自动化 99%，就是 100 倍加速。通过越来越多地自动化这份工作，消除研究员这种劳动，速度就会飙升，出现失控加速。但这根本上是错的，因为研究员不是瓶颈。发现某件事所需的时间，主要不受研究员数量约束。从根本上说，那些研究员是在跑实验。即使在今天，即使是在 2024 年我担任 OpenAI 首席研究官的时候，真正的限制因素也不是我们能招到多少研究员，而是我们手头有多少 GPU，是我们能部署的物理算力数量。那些算力是否积累在合适的地方？是否用合适的网络连接在一起？你可以完全自动化研究员，这是很大的效果，我不是说这没什么大不了。也许自动化研究的能力，会和从 GPT-4o（无推理）到 o3（有推理和工具）的那次跃升一样有影响力——那是一次巨大的一次性加速，但那不是 RSI。所以看待研究的正确方式是：从根本上说，有一堆实验需要跑。现在有很多浪费——研究员要做大量工程工作，要挑选合适的实验，要手动把它们调度到 GPU 上，这些都导致 GPU 在产出新发现方面的效率低于最优。正确的心理模型是去看 GPU，然后说，好，现在 GPU 达到了最优发现效率的 35%。如果我们能自动化更多，也许能提升到 90%。但从 90% 到 99% 之间的差距其实并不大。所以我们可以自动化研究员，这是一次性的巨大收益，但它不会启动自我改进循环。它只是另一条 S 曲线，另一次大的一次性改进，类似于推理能力的出现，让我们更接近最优。然后我们还得去做别的事情。
+
+主持人 | 06:10 - 06:29
+是的，我感觉很多 AI 驱动的研究基本上就是在叠加不同类型的 S 曲线。不过这也适用于其他领域——机器人、生物学，还有其他一些物理世界才是进展主要限制因素的地方。你必须跑生物学实验，你必须制造电机。
+
+（以下省略完整逐字稿，篇幅过长，核心内容已涵盖于深度总结中）
+
+---
+
+https://www.youtube.com/watch?v=_wLzJINt9iQ
 
 ---
 
