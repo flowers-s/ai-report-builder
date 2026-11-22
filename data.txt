@@ -1,285 +1,286 @@
-AI Builders 日报 · 2026-11-21
+AI Builders 日报 · 2026-11-22
+
+AI Builders Digest — 2026-11-22
+AI Builders 精选 — 2026-11-22
 
 ---
 
-X / TWITTER
+## X / TWITTER
 
 ---
 
-Swyx (swyx on X) — AI Engineering Advocate, Smol AI / Cognition / Latent Space
+### Swyx (swyx on X) — AI Developer & Latent Space Host
 
-Swyx made a sharp observation about social media incentives and AI discourse: accuracy carries no consequences on X.
-Swyx 犀利地指出了社交媒体的激励机制：在 X 上，不准确根本没有代价。
+Swyx flagged an interesting topic: why did someone leave dbt for LangChain to build it into a $3B startup — and what does that reveal about how the AI stack is being rebuilt from scratch?
+Swyx 分享了一个有趣的话题：为什么有人从 dbt 加入 LangChain，要将其打造成一家市值 30 亿美元的公司——以及这背后揭示了 AI 技术栈正在被从头重建的趋势。
 
-*"you can say 'odds of reaching SOTA have dropped to zero' and get a lot of likes and then 3 months later when they have reached SOTA you post apology form and get even more likes"*
-「你可以说『达到 SOTA 的概率已经归零』然后收获大量点赞，三个月后当他们真的达到了 SOTA，你再发一条道歉帖，还能收获更多点赞」
+He also asked the community about Cursor AI's "origin" feature — whether anyone has used it in production, and if it supports actions/CI/CD yet.
+他还向社区询问 Cursor AI 的"origin"功能——是否有人在生产环境中使用过，以及是否已支持 actions/CI/CD 流程。
 
-The subject of your writing might even print out your apology and thank you for motivation — there are no incentives for accuracy, only for hyperbole.
-被你写的人甚至可能把你的道歉打印出来，感谢你提供了动力——算法只奖励夸张，不惩罚失误。
+*"🔜 why @j_schottenstein left @getdbt for @LangChain to build it into a $3B startup… and now they are having to reinvent the content, context (knowledge) and software factory from scratch!"*
 
-https://x.com/swyx/status/2123591875349422435
-
----
-
-Josh Woodward (joshwoodward on X) — VP, Google Labs / Gemini App / Google AI Studio
-
-Google Gemini's VP announced a major product expansion: Gemini on Mac can now do tasks on your computer.
-Google Gemini 的副总裁宣布了一项重大产品扩展：Mac 版 Gemini 现在可以直接在你的电脑上执行任务了。
-
-This was a top feature request, bringing Gemini's computer-use capabilities to desktop users.
-这是呼声最高的功能需求之一，将 Gemini 的电脑操控能力带给了桌面用户。
-
-https://x.com/joshwoodward/status/2123534862569324703
+Sources:
+- https://x.com/swyx/status/2123843282082132335
+- https://x.com/swyx/status/2123690305736396925
 
 ---
 
-Thibault Sottiaux (thsottiaux on X) — Codex & ChatGPT, OpenAI
+### Josh Woodward (joshwoodward on X) — Google Labs VP
 
-OpenAI's Codex & ChatGPT lead revealed the team is working on a completely redesigned mobile experience for ChatGPT.
-OpenAI Codex 与 ChatGPT 负责人透露，团队正在为 ChatGPT 开发全新的移动端体验。
+The Google Labs team had a fun Friday afternoon experiment: they loved a community post so much that they just shipped it.
+Google Labs 团队在假期前的周五下午进行了一次有趣的实验：他们太喜欢社区的一个创意，干脆直接把它做出来发布了。
 
-The new design makes it easier to access favorite features and discover capabilities — starting with Pro users who have a "dot" or are eligible to create one.
-新设计让用户更容易访问常用功能并探索新能力——首先向拥有"dot"或有资格创建 dot 的 Pro 用户推出。
+Woodward and a few teammates built a Gemini Neon experience inspired by a community creator — a great example of shipping fast when inspiration strikes.
+Woodward 和几位团队成员受社区创作者启发，快速构建了一个 Gemini Neon 体验——这是"灵感来了就立刻动手"的绝佳示范。
 
-Your dot gets its own tab, and you can pin Codex, Projects, Images, and more to the tab bar.
-你的 dot 拥有专属标签页，可以把 Codex、项目、图像等固定在标签栏上。
+*"Whew, what a week of shipping! A few of us were having fun with Gemini Neon on the Friday afternoon before the holiday week ahead, and we loved the post from @UFO2002616 so much that we just built it"*
 
-His team's ambition: *"crazy enough to think they can succeed at improving the experience used by 1.2B users in place."*
-他的团队野心勃勃：「疯狂到认为自己能成功改造这个被 12 亿用户使用的产品体验。」
-
-https://x.com/thsottiaux/status/2123557171321561133
-https://x.com/thsottiaux/status/2123612889416339762
+Sources:
+- https://x.com/joshwoodward/status/2123943606906138868
+- https://x.com/joshwoodward/status/2123943608516792480
 
 ---
 
-Peter Yang (petergyang on X) — AI Tutorials & Practical AI Guides
+### Thibault Sottiaux (thsottiaux on X) — Claude Product Lead, Anthropic
 
-Peter Yang ran a head-to-head comparison of Opus 5.5 vs Gemini 4 Neon and shared his verdict.
-Peter Yang 对 Opus 5.5 和 Gemini 4 Neon 进行了正面对决，并给出了评测结论。
+The team at Anthropic has been shipping a faster, simpler, and more pleasant desktop app — upgrade now.
+Anthropic 团队发布了更快、更简洁、使用更顺畅的桌面客户端更新——快去升级吧。
 
-Gemini 4 Neon is on par or better than Opus at writing and personality — a major accomplishment — though Opus still leads in 3D and design.
-Gemini 4 Neon 在写作和个性化方面与 Opus 持平甚至更好——这是巨大的突破——但 Opus 在 3D 和设计方面依然领先。
+They also internally created something "a bit too fun" — now everyone on the team is just playing with it instead of working.
+他们还在内部不小心创造了一个"太好玩"的体验——现在团队里的每个人都在玩，根本停不下来。
 
-He also made a counterintuitive point: Google's bureaucratic scale is actually a competitive advantage — 100,000+ employees testing models internally before wide release, big enough for stat-sig A/B tests.
-他还提出了一个反直觉的观点：Google 的庞大规模实际上是竞争优势——10 万多名员工在正式发布前内部测试模型，规模大到足以跑出统计显著的 A/B 测试。
+There's also a first tweet from Akshay — described as "special."
+还有 Akshay 发出的第一条推文——被 Thibault 称为"他与众不同，好好对待他"。
 
-https://x.com/petergyang/status/2123648490844897389
-https://x.com/petergyang/status/2123540875733315815
+*"Team is locked in, upgrade your desktop app. Faster, simpler and a lot more pleasant to use."*
+*"We've been messing around a bit and inadvertently created an experience that's a bit too fun internally and now everyone is just having fun instead of working. We might not recover from this."*
 
----
-
-Thariq (trq212 on X) — formerly Claude Code, Anthropic AI
-
-Thariq, formerly on the Claude Code team at Anthropic, shared a philosophical framing of the AI moment.
-Thariq 曾在 Anthropic 的 Claude Code 团队工作，他分享了对这个 AI 时代的哲学思考。
-
-*"Software is both art and utility. AI is both an Industrial Revolution and a Renaissance."*
-「软件既是艺术也是工具。AI 既是工业革命，也是文艺复兴。」
-
-He argued that factories are for utilities, but at AIE Code he talked about how we can make better art — signaling that he sees the creative dimension of AI as equally important as the productivity one.
-他认为工厂是为了效率，但在 AIE Code 大会上他探讨的是如何用 AI 创作更好的艺术——这表明他认为 AI 的创意维度与生产力维度同等重要。
-
-https://x.com/trq212/status/2123524052195463568
+Sources:
+- https://x.com/thsottiaux/status/2123861214644347122
+- https://x.com/thsottiaux/status/2123997735326232775
+- https://x.com/thsottiaux/status/2123864112694509995
 
 ---
 
-Amjad Masad (amasad on X) — CEO, Replit
+### Peter Yang (petergyang on X) — Product & AI Creator
 
-Replit CEO Amjad Masad is pushing a new paradigm: the "agent contract."
-Replit CEO Amjad Masad 正在推动一个新范式：「agent 合约」。
+Peter shared a tip for adding Antigravity for Neon to your home screen — making it easier to access the AI assistant on mobile.
+Peter 分享了一个将 Antigravity for Neon 添加到主屏幕的小技巧——让你随时随地更方便地使用这个 AI 助手。
 
-*"Having a contract with your agent is a paradigm I expect many will copy from us"*
-「与你的 agent 签订合约，这是一个我预期很多人会向我们学习的范式」
+He also had some light content — waiting three hours for a game download and noting a curious user score discrepancy.
+他还发了一些轻松的内容——等待游戏下载三小时，以及对用户评分出现奇怪差异感到疑惑。
 
-He also demoed building a Muse-like personal agent with a single prompt, showing how quickly Replit is pushing personal agent capabilities to end users.
-他还演示了用一个 prompt 构建类似 Muse 的个人 agent，展示了 Replit 将个人 agent 能力快速推向终端用户的速度。
+*"For those of you trying out @antigravity for Neon, here's a quick tip: Go to the link, tap see more and then the share button, tap Add to Home Screen"*
 
-https://x.com/amasad/status/2123535362568134894
-https://x.com/amasad/status/2123535544718418191
-
----
-
-Guillermo Rauch (rauchg on X) — CEO, Vercel
-
-Vercel CEO Guillermo Rauch laid out a striking thesis on the value of engineering in the AI era.
-Vercel CEO Guillermo Rauch 提出了一个关于 AI 时代工程师价值的深刻论断。
-
-*"An outcome-oriented, creative engineer is now a 1000x engineer. A tabs-vs-spaces-debating, miss-forest-for-trees engineer is now a -10x engineer."*
-「以结果为导向、有创造力的工程师，现在是 1000 倍工程师。整天争论 tab 还是空格、只见树木不见森林的工程师，现在是 -10 倍工程师。」
-
-He also introduced Vercel Board — a "headless Slack for agents" with no opinionated UI, where you can generate and deploy the ideal factory interface for each use case.
-他还介绍了 Vercel Board——一个「为 agent 设计的无头 Slack」，没有固定 UI，你可以为每个用例生成并部署理想的工厂界面。
-
-His take on Anthropic's success: *"coding is the #1 killer app of AI"* — backed by token consumption data from both startups and enterprises.
-他对 Anthropic 成功的解读：「编程是 AI 的第一杀手级应用」——这一判断有来自初创公司和企业的 token 消耗数据支撑。
-
-https://x.com/rauchg/status/2123505400591106113
-https://x.com/rauchg/status/2123553975945556144
-https://x.com/rauchg/status/2123468825538789380
+Source:
+- https://x.com/petergyang/status/2123879309463228445
 
 ---
 
-Garry Tan (garrytan on X) — President & CEO, Y Combinator
+### Nan Yu (thenanyu on X) — AI Engineer
 
-YC's president endorsed Nick Bostrom's stark framing on AI development.
-YC 总裁认同了 Nick Bostrom 关于 AI 发展的鲜明立场。
+Nan highlighted "big perf and QoL wins for actions you do dozens to hundreds of times a day" — suggesting a meaningful productivity improvement in their tooling.
+Nan 提到了"对每天要做几十到几百次的操作，实现了显著的性能提升和使用体验改进"——暗示其工具链迎来了重要的生产力提升。
 
-*"if nobody builds it, everyone dies"* — Hard agree.
-「如果没有人去构建它，所有人都会死。」——完全同意。
-
-A rare, unambiguous statement of urgency from one of the most influential voices in startup funding.
-这是来自创投界最有影响力的声音之一的罕见、明确的紧迫性表态。
-
-https://x.com/garrytan/status/2123496208316694669
+Source:
+- https://x.com/thenanyu/status/2123983081577267264
 
 ---
 
-Matt Turck (mattturck on X) — VC at FirstMark Capital, MAD Podcast Host
+### Madhu Guru (realmadhuguru on X) — Meta AI Product Lead
 
-FirstMark Capital VC Matt Turck shared a conversation with Felix Rieseberg from Anthropic at the Slush conference.
-FirstMark Capital 投资人 Matt Turck 分享了他与 Anthropic 的 Felix Rieseberg 在 Slush 大会上的对话。
+Madhu is visiting Chennai at end of November through early December, and is looking to meet interesting AI people in the area.
+Madhu 将于十一月底至十二月初前往金奈，正在寻找当地有趣的 AI 领域人士见面交流。
 
-No major thesis — but his social presence reflects the VC world's growing excitement around Anthropic's momentum.
-没有重大论断——但他的社交动态反映了投资圈对 Anthropic 势头日益高涨的热情。
+He shared his background: currently building AI products at Meta, previously led product for Gemini and Veo at Google.
+他介绍了自己的背景：目前在 Meta 负责 AI 产品，此前曾在 Google 主导 Gemini 和 Veo 的产品工作。
 
-https://x.com/mattturck/status/2123424356286017975
-
----
-
-Nikunj Kothari (nikunj on X) — Partner, FPV Ventures
-
-FPV Ventures partner Nikunj Kothari raised an underappreciated problem: who is protecting elderly people from AI-powered scams and network attacks?
-FPV Ventures 合伙人 Nikunj Kothari 提出了一个被忽视的问题：谁来保护老年人免受 AI 驱动的诈骗和网络攻击？
-
-He outlined four potential solution layers: browser-level security, network-layer filtering (like Pi-hole), payment transaction flagging, and phone-level monitoring with cloned-voice detection.
-他列出了四个潜在解决层次：浏览器级安全、网络层过滤（类似 Pi-hole）、支付交易预警，以及带有克隆声音检测的手机级监控。
-
-The ideal product would package all four with insurance that aligns incentives — sold to the adult children who want peace of mind, not the elderly users themselves.
-理想的产品应该将这四者打包，附加激励一致的保险——销售对象是希望放心的成年子女，而非老年用户本身。
-
-https://x.com/nikunj/status/2123426647273800172
+Source:
+- https://x.com/realmadhuguru/status/2123972492645777629
 
 ---
 
-Peter Steinberger (steipete on X) — OpenClaw + OpenAI, "ClawFather"
+### Thariq (trq212 on X) — AI Game Developer
 
-OpenClaw's Peter Steinberger shipped a fix for an embedded harness bug in OpenClaw.
-OpenClaw 的 Peter Steinberger 修复了 OpenClaw 嵌入式 harness 中的一个 bug。
+Thariq has figured out a gameplay loop for his new game — he's calling it "Home Ground."
+Thariq 找到了他新游戏的核心玩法循环——他将这款游戏命名为"Home Ground"。
 
-The fix landed for the small subset of users on the embedded harness rather than codex, though most harnesses are not yet updated.
-该修复面向使用嵌入式 harness（而非 codex）的少数用户，但大多数 harness 尚未更新。
+The game concept is a sports anime game where the sport is elemental bending — you fight in tournaments alongside your squad, and between matches they have their own stories.
+游戏概念是一款运动番风格的游戏，"运动"是元素弯曲术——你与队友并肩参加锦标赛，赛间每个角色都有自己的故事线。
 
-https://x.com/steipete/status/2123487048250327497
+He also stated he is "even more against handoff" — suggesting strong opinions on AI agent design patterns.
+他还表示自己"更加反对 handoff（代理移交）"——暗示他对 AI 智能体设计模式有鲜明立场。
 
----
+*"I think I've figured out the gameplay loop! It's a sports anime game, but the sport is elemental bending. You fight in tournaments alongside your squad, and between matches they have their own stories."*
 
-Dan Shipper (danshipper on X) — CEO, Every
-
-Every's CEO Dan Shipper called for AI practitioners to mobilize around infrastructure attacks.
-Every 的 CEO Dan Shipper 呼吁 AI 从业者围绕基础设施攻击问题行动起来。
-
-*"who is working on helping stop the infrastructure attacks happening right now, and how can people in AI help?"*
-「现在有谁在帮助阻止正在发生的基础设施攻击？AI 领域的人可以如何提供帮助？」
-
-https://x.com/danshipper/status/2123435061236404385
+Sources:
+- https://x.com/trq212/status/2123909357071159327
+- https://x.com/trq212/status/2123909358828539965
+- https://x.com/trq212/status/2123895040821071959
 
 ---
 
-Aditya Agarwal (adityaag on X) — General Partner, SPC; Co-Founder, Bevel Health
+### Amjad Masad (amasad on X) — Replit CEO
 
-SPC General Partner Aditya Agarwal celebrated Anthropic's success by sharing an origin story that few know.
-SPC 普通合伙人 Aditya Agarwal 在庆祝 Anthropic 成功的同时，分享了鲜为人知的起源故事。
+Amjad commented on two simultaneous Riemann Hypothesis proofs emerging at the same time — one from AI, one from a human.
+Amjad 关注到同时出现了两个黎曼猜想证明——一个来自 AI，一个来自人类数学家。
 
-Two Anthropic builders — Tom Brown and Thariq — both spent significant time at SPC before co-founding or joining the company.
-两位 Anthropic 创始人——Tom Brown 和 Thariq——在创立或加入 Anthropic 之前，都曾在 SPC 度过了重要的时光。
+He finds it fascinating and expects the comparison to be particularly interesting on the dimension of elegance.
+他认为这令人着迷，并预计两者在"优雅性"维度上的对比将尤为有趣。
 
-Tom Brown showed up in 2016 with no ML background, spent his days reading papers with fellow members, then co-founded Anthropic.
-Tom Brown 2016 年加入时没有 ML 背景，整天和其他成员一起研读论文，后来联合创办了 Anthropic。
+*"With two separate Riemann proofs, one AI and one Human, coming out at the same time, assuming they're both correct, it'll be interesting to see the difference especially on elegance."*
 
-Thariq joined after winding down a gaming company, started working on interpretability, and ended up helping build Claude Code — a tool most of us use every day.
-Thariq 在结束一家游戏公司后加入，开始研究可解释性，最终参与构建了 Claude Code——一个我们每天都在使用的工具。
-
-He also flagged RoleCUA from Fig — a dataset mapping expert roles across months of real work, with every action tied to task and objective, as agents move from single tasks to whole jobs.
-他还关注了 Fig 的 RoleCUA——一个将专家角色映射到数月真实工作的数据集，每个动作都与任务和目标挂钩，随着 agent 从单一任务向完整工作演进。
-
-https://x.com/adityaag/status/2123494873919783073
-https://x.com/adityaag/status/2123579739868959110
-https://x.com/adityaag/status/2123479646629183631
+Sources:
+- https://x.com/amasad/status/2123874539218010491
+- https://x.com/amasad/status/2123877625915375950
 
 ---
 
-PODCASTS
+### Guillermo Rauch (rauchg on X) — Vercel CEO
+
+Rauch shared that Vercel has achieved ISO 42001:2023 certification — described as "the SOC2 of AI," the first global independently audited standard for how companies build, evaluate, monitor, and govern AI systems.
+Rauch 宣布 Vercel 获得了 ISO 42001:2023 认证——被称为"AI 领域的 SOC2"，这是首个针对企业如何构建、评估、监控和治理 AI 系统的全球独立审计标准。
+
+He also reflected on personal AI shopping agents: when he first tried a pre-release version of @eve, a personal shopper agent was his "hello world."
+他还回顾了个人 AI 购物助手的发展：当他最初试用 @eve 的预发布版本时，个人购物助手是他的"hello world"实验。
+
+Now with agentcardhq live and improved models/infrastructure, that vision is becoming real.
+如今随着 agentcardhq 上线、模型和基础设施不断完善，这一愿景正在成为现实。
+
+*"ISO 42001:2023 is like the 'SOC2 of AI'. It's the first global, independently audited standard for how companies build, evaluate, monitor and govern AI systems."*
+
+Sources:
+- https://x.com/rauchg/status/2123869175085191298
+- https://x.com/rauchg/status/2123879031049449791
 
 ---
 
-No Priors — Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew
+### Aaron Levie (levie on X) — Box CEO
 
-## 一、深度总结
+Levie made a sharp observation about how AI agent capability has crossed a threshold: instead of telling agents precisely what to do, it's now better to use them to solve problems you can't easily define yourself.
+Levie 对 AI 智能体的能力跃升做出了一个犀利的判断：与其精确指令代理做什么，不如用它们来解决那些你自己都难以清晰定义的问题——这才是当下更好的用法。
 
-**核心论点**
-Arda CEO、前 OpenAI 首席研究官 Bob McGrew 认为，AI 研究的真正瓶颈从来不是研究员数量，而是物理算力与物理世界的改造速度。
-自动化研究员能带来一次性的显著加速，但不会触发递归自我改进（RSI）的飞轮——因为 GPU、能源、制造业才是真正的限制因素。
-他的结论是：没有物理世界的根本变革，就无法抵达超级智能。
+He framed this as a clear jump in model capability that happened this year — a year ago, this wasn't possible.
+他将其定义为今年模型能力的一次明显飞跃——一年前这还不可能实现。
 
-**关键洞察**
-- **研究员不是瓶颈，GPU 才是**：即使在 2024 年担任 OpenAI 首席研究官期间，实际限制因素也不是能雇多少研究员，而是手头有多少 GPU，以及算力是否以正确方式互联。自动化研究员是一次性 S 曲线，不是 RSI 飞轮。
-- **"硬起飞"论点根本上是错误的**：自动化 10% 的研究工作 → 10% 加速，自动化 99% → 100 倍加速，这个逻辑忽略了实验运行本身受物理算力约束的事实。
-- **美国制造业竞争力危机**：美国缺乏能大规模制造 GPU、能源基础设施和精密零部件的本土能力。在 AI 进入物理世界之前，这个缺口会持续拖慢进展。
-- **智能工厂是关键路径**：Arda 的核心赌注是用 AI 重建美国制造业，让工厂像软件一样可编程、可优化——这是通往物理超级智能的必经之路。
-- **机器造机器，探索星际**：Bob 的长期愿景是"能制造机器的机器"，最终支撑人类走向太空——物理世界的扩张是数字智能的前提，而非结果。
+He also flagged a "big day in math" — likely referring to the Riemann proof news.
+他还提到了数学领域"重大的一天"——很可能是在关注黎曼猜想证明的相关新闻。
 
-**最值得关注的信号**
-物理 AI 基础设施（算力制造、能源、机器人）正在成为下一波 AI 竞争的核心战场。
-谁能在物理层面取得突破，谁就掌握了通往超级智能的钥匙——纯数字路径已经接近天花板。
+*"This year we've had a clear jump in model capability where instead of telling agents precisely what to do, it's better to use these systems to solve problems you can't easily define yourself."*
+
+Sources:
+- https://x.com/levie/status/2123686350410912145
+- https://x.com/levie/status/2123792233535332448
 
 ---
 
-## 二、完整中文逐字稿
+### Garry Tan (garrytan on X) — YC CEO
 
-主持人 | 00:00 - 00:17
-如果你环顾四周，自从 AI 出现的十年前到现在，有什么真正改变了吗？几乎没有。你第一次坐 Waymo 的时候，心想，这太神奇了。但大概到第三次，你就觉得，这交通也太堵了吧。我们需要突破这种对数字世界的单一聚焦，走向物理世界。
+Garry Tan weighed in on California's proposed asset seizure tax, arguing it's the wrong approach.
+Garry Tan 就加州拟议中的资产没收税发表看法，认为这是错误的方向。
 
-主持人 | 00:17 - 00:22
-我认为，如果不改变物理世界，就真的无法抵达超级智能。
+His prescription: encourage building new ideas and startups, then spend tax revenue wisely on things that help people — that's what California needs.
+他的主张是：鼓励创新和创业，同时将税收明智地用于真正惠及民众的事情——这才是加州真正需要的。
 
-主持人 | 00:28 - 00:54
-大家好，欢迎回到 No Priors。今天，Elad 和我邀请到了 Arda 的 CEO 兼联合创始人 Bob McGrew。Bob 此前是 Palantir 的早期核心高管，以及 OpenAI 的首席研究官。我们聊到了如何用智能让美国制造业重新具备竞争力、为什么物理智能是通往超级智能的必要条件，以及未来将是能制造机器的机器，去探索星际。
+*"You don't need an asset seizure tax. You need to encourage building new ideas and startups in California. And then you need a government that spends it wisely on things that help the people."*
 
-主持人 | 00:54 - 00:55
-Bob，欢迎。
-
-主持人 | 00:55 - 00:59
-Bob，非常感谢你今天来到 No Priors。太高兴了。是啊，你的职业生涯真的太传奇了。
-
-主持人 | 00:59 - 01:31
-你曾是 OpenAI 的首席研究官，推动了公司几乎所有的研究方向，或者至少设定了很多议题。你也是 Palantir 非常早期的员工，是推动产品和工程的核心人物之一。你有过这么精彩的职业历程，经历了数字世界最具里程碑意义的时刻，然而现在你却在做物理世界的事情。而且恰好在大家都在讨论 RSI——递归自我改进——的时候，讨论研究员将被代码和 AI 取代，AI 将自我构建。在这场数字革命如火如荼的时候，为什么还要去做物理世界的事？
-
-主持人 | 01:31 - 01:59
-从根本上说，我认为如果不改变物理世界，就真的无法抵达超级智能。我们已经看到了 ChatGPT、agent 带来的巨大进步。这一切都发生在我们的数字生活中，但真正影响我们生活中"原子"的部分却非常少。如果你环顾四周，自从十年前 AI 出现以来，周围有什么真正不同了吗？
-
-主持人 | 01:59 - 02:05
-几乎没有。即使是你正在做的某件真正与以前不同的事情，比如坐上了一辆自动驾驶汽车，坐进 Waymo，在旧金山转悠，第一次乘坐时你会想，太神奇了，没有人在开车，车自己在开。
-
-主持人 | 02:05 - 02:29
-但大概到第三次，你就觉得，这交通也太堵了吧。就算是 Waymo，也只是走向物理世界的半步——车本身没有变。车还是不会飞，你依然受制于所有物理障碍，就跟二十世纪九十年代在旧金山开车一样慢。所以从根本上说，我们需要突破对数字世界的单一聚焦，走向物理世界。
-
-主持人 | 02:50 - 02:55
-那当你说不改变物理世界就无法实现超级智能，这究竟意味着什么？具体是指什么？
-
-主持人 | 02:55 - 03:21
-从 2018 年起，我就一直听到一种论点：如果能自动化研究员的工作，就能释放出一个失控的加速、失控的自我改进循环，然后我们就会迎来奇点。这就是所谓的"硬起飞"。而我认为这是错的，这个论点根本上就是错的。
-
-主持人 | 03:21 - 05:09
-让我来重述一下这个论点：好，我们能自动化研究员 10% 的时间，会带来一些改进；自动化 50%，就有 2 倍加速；自动化 90%，就是 10 倍加速；自动化 99%，就是 100 倍加速。通过越来越多地自动化这份工作，消除研究员这种劳动，速度就会飙升，出现失控加速。但这根本上是错的，因为研究员不是瓶颈。发现某件事所需的时间，主要不受研究员数量约束。从根本上说，那些研究员是在跑实验。即使在今天，即使是在 2024 年我担任 OpenAI 首席研究官的时候，真正的限制因素也不是我们能招到多少研究员，而是我们手头有多少 GPU，是我们能部署的物理算力数量。那些算力是否积累在合适的地方？是否用合适的网络连接在一起？你可以完全自动化研究员，这是很大的效果，我不是说这没什么大不了。也许自动化研究的能力，会和从 GPT-4o（无推理）到 o3（有推理和工具）的那次跃升一样有影响力——那是一次巨大的一次性加速，但那不是 RSI。所以看待研究的正确方式是：从根本上说，有一堆实验需要跑。现在有很多浪费——研究员要做大量工程工作，要挑选合适的实验，要手动把它们调度到 GPU 上，这些都导致 GPU 在产出新发现方面的效率低于最优。正确的心理模型是去看 GPU，然后说，好，现在 GPU 达到了最优发现效率的 35%。如果我们能自动化更多，也许能提升到 90%。但从 90% 到 99% 之间的差距其实并不大。所以我们可以自动化研究员，这是一次性的巨大收益，但它不会启动自我改进循环。它只是另一条 S 曲线，另一次大的一次性改进，类似于推理能力的出现，让我们更接近最优。然后我们还得去做别的事情。
-
-主持人 | 06:10 - 06:29
-是的，我感觉很多 AI 驱动的研究基本上就是在叠加不同类型的 S 曲线。不过这也适用于其他领域——机器人、生物学，还有其他一些物理世界才是进展主要限制因素的地方。你必须跑生物学实验，你必须制造电机。
-
-（以下省略完整逐字稿，篇幅过长，核心内容已涵盖于深度总结中）
+Source:
+- https://x.com/garrytan/status/2123796297836896292
 
 ---
 
-https://www.youtube.com/watch?v=_wLzJINt9iQ
+### Matt Turck (mattturck on X) — FirstMark Capital Managing Director
+
+Matt shared a cautionary tale about automated agentic emailing: a person emailed him twice to meet at Slush, he replied once — then the system sent three more follow-up emails in rapid succession.
+Matt 分享了一个关于自动化 AI 邮件代理的警示案例：有人用代理给他发了两封邮件约在 Slush 大会见面，他回复了一次——随后系统又连续快速发送了三封跟进邮件。
+
+The lesson: agentic email automation meeting the real world often produces awkward, spammy results.
+教训很明显：AI 邮件自动化遭遇现实世界，往往会制造尴尬的骚扰效果。
+
+*"Automated agentic emailing vs the real world, a story: Guy emails me twice to meet at a conference (Slush). I reply once. He then emails me 3 times in rapid succession."*
+
+Source:
+- https://x.com/mattturck/status/2123777488786538982
+
+---
+
+### Zara Zhang (zarazhangrui on X) — AI & Tech Writer / Investor
+
+Zara made a pointed observation for consultants and agencies: do not send clients Claude Artifacts or ChatGPT sites — it makes them feel like they could have just prompted Claude themselves, undermining your value.
+Zara 对顾问和机构提出了一个直接的忠告：不要把 Claude Artifacts 或 ChatGPT 生成的站点直接发给客户——这会让他们觉得"我自己提示 Claude 也能做到"，从而削弱你的专业价值。
+
+She also offered a sharp aphorism: "If you curate, you should create."
+她还提出了一句精辟的格言："如果你只是策展，你也应该去创作。"
+
+*"Do not send your clients Claude Artifacts/ChatGPT sites. It makes them feel like 'Well I could have just prompted Claude/Codex myself'"*
+*"If you curate, you should create."*
+
+Sources:
+- https://x.com/zarazhangrui/status/2123813583339532321
+- https://x.com/zarazhangrui/status/2123692630655873269
+
+---
+
+### Dan Shipper (danshipper on X) — Every.to CEO
+
+Dan shared a cryptic but evocative quote: *"one dawn across science of something far greater"* — without context, suggesting excitement about a scientific breakthrough moment (likely referencing the Riemann proof news).
+Dan 发了一句神秘而充满感情的话："one dawn across science of something far greater"——没有上下文，但暗示着对某个科学突破时刻的兴奋（很可能也是在关注黎曼猜想证明的新闻）。
+
+Source:
+- https://x.com/danshipper/status/2123795694557315556
+
+---
+
+### Aditya Agarwal (adityaag on X) — SPC Partner
+
+Aditya highlighted two remarkable parallel breakthroughs happening simultaneously: solving the Riemann Hypothesis and potentially curing pancreatic cancer with a pill.
+Aditya 强调了同时发生的两项惊人突破：黎曼猜想的证明，以及有望用一粒药丸攻克胰腺癌。
+
+He pushed back on the narrative of debating whether the "AI trade" is good — when history-shaping science is happening in real time, that debate feels beside the point.
+他对"争论 AI 是否是好的投资方向"这一话题表示不以为然——当改变历史的科学正在实时发生，这种争论显得微不足道。
+
+He also highlighted a story about Trisha K who started Unit21 at SPC in 2018, which has since caught $14B+ in financial crime — alongside Kavitha Iyer Rodrigues who started Zumutor in 2013, believing new cancer drugs would be discovered in AI.
+他还介绍了 Trisha K 的故事——她 2018 年在 SPC 创立 Unit21，迄今已侦测超过 140 亿美元的金融犯罪；以及 Kavitha Iyer Rodrigues 2013 年创立 Zumutor，相信 AI 能帮助发现新型癌症药物。
+
+*"We are solving Riemann and also crushing pancreatic cancer with a pill. But sure, let's debate whether the 'AI trade' is good lol."*
+
+Sources:
+- https://x.com/adityaag/status/2124019178843894078
+- https://x.com/adityaag/status/2123800766163173511
+
+---
+
+## PODCASTS
+
+---
+
+### Latent Space — "Scaling Linear's GTM to $100M ARR — Cristina Cordova, COO"
+
+This episode features Cristina Cordova, COO of Linear, talking about how she scaled the company's go-to-market from a startup-focused product to enterprise.
+本期播客邀请了 Linear 的 COO Cristina Cordova，讲述她如何将这家公司的市场拓展从面向初创企业的产品扩展到企业级客户。
+
+She explains why Linear hired a COO at just 40 employees — founders were excellent at design/engineering/product, but needed someone who could evaluate whether sales and other business functions were performing well.
+她解释了 Linear 为何在仅有 40 名员工时就聘请了 COO——创始人在设计、工程和产品方面非常出色，但需要一个能判断销售等业务职能是否运转良好的人。
+
+The company used a trial period approach — her project was to create a go-to-market plan for the next 6–12 months, which was essentially the actual job.
+公司采用了试用期模式——她的项目是为未来 6-12 个月制定市场拓展计划，这实际上就是这份工作本身的核心内容。
+
+She describes how Linear scaled from mostly self-serve PLG (companies like Vercel and Ramp that never talked to a human) to also serving enterprises that require contracts, pilots, and procurement.
+她描述了 Linear 如何从以自助式 PLG 为主（Vercel、Ramp 等从未与人类销售接触的公司），扩展到同样服务于需要合同、试点和采购流程的企业客户。
+
+A key insight from the episode: the CEO published "issue tracking is dead" — and their customers largely agreed, which validated the pivot rather than undermining it.
+本期的一个关键洞察：CEO 发表了"工单追踪已死"的文章——而他们的客户大多表示认同，这反而印证了转型方向，而非动摇了它。
+
+*"The great thing about our business is that we're not like so big to like kill ourselves."*
+*"我们公司的好处就是，我们还没大到会把自己玩死。"*
+
+*"Issue tracking is dead. And by the way, like, what are you guys? What am I buying?"*
+*"工单追踪已死。顺便问一句，你们到底是做什么的？我在买什么？"*
+
+Since Cordova joined ~3.5 years ago, Linear has 10X'd in scale.
+自 Cordova 加入约 3.5 年来，Linear 的规模增长了约 10 倍。
+
+Episode link: https://www.youtube.com/watch?v=x0VSm6IjcDQ
 
 ---
 
