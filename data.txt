@@ -1,186 +1,208 @@
-AI Builders 日报 · 2026-11-24
+AI Builders 日报 · 2026-11-25
 
 ---
 
-## Sam Altman (@sama)
+## Swyx (@swyx) · smol.ai / Cognition / Latent Space
 
-Sam Altman called for a new industry-wide standard to govern frontier AI development, centered on **perplexity as a shared metric**.
-Sam Altman 呼吁建立新的行业标准来约束前沿 AI 研发，核心是以**困惑度（perplexity）作为共同度量指标**。
+Microsoft has answered the call! Swyx is buzzing about Mustafa Suleyman's latest move and believes the industry needs Alexandr Wang (Scale AI) to join in — that would be the tipping point for all labs to unite on a shared effort.
+微软出手了！Swyx 对 Mustafa Suleyman 的最新举措感到振奋，他认为如果 Alexandr Wang（Scale AI）也加入，将成为所有 AI 实验室携手合作的转折点。
+→ https://x.com/swyx/status/2124780264916423021
 
-He proposed that labs jointly commit to concrete development limits—measured by perplexity and other metrics—until AI systems can be properly understood and monitored, such as through successor CoT monitors.
-他提出，各家实验室应共同承诺设定明确的开发上限——以困惑度等指标衡量——直到 AI 系统能被充分理解和监控，例如通过升级版思维链（CoT）监控机制。
-
-Under the White House Accords, labs have already agreed to establish safety standards; Altman sees the perplexity discussion as a natural extension of those commitments.
-根据白宫协议，各实验室已同意制定安全标准；Altman 认为围绕困惑度展开的讨论是这些承诺的自然延伸。
-
-Sources:
-- https://x.com/sama/status/2124551883130114403
-- https://x.com/sama/status/2124558713646428663
+He also flagged a notable FTX/SBF quote from the All-In Podcast worth reading.
+他还转发了 All-In 播客中一段值得关注的 SBF/FTX 相关引言。
+→ https://x.com/swyx/status/2124766474736976240
 
 ---
 
-## Swyx (@swyx)
+## Boris Cherny (@bcherny) · Anthropic (Claude)
 
-Swyx highlighted OpenAI's proposal to use **perplexity as a universal industry self-regulation metric**, noting that a beautiful chart of the last four years reveals pre-training progress as the dominant "A plot" of AI—while most post-training debates are merely a "B plot."
-Swyx 重点介绍了 OpenAI 提出的以**困惑度作为行业自律通用指标**的方案，并指出过去四年的精美图表揭示：预训练进展才是 AI 发展的核心"A 剧情"，大多数后训练争论不过是"B 剧情"。
+Big launch day: Anthropic shipped **Claude Ship** in beta for Team and Enterprise plans. Boris, who led the effort, says it multiplies his shipping velocity — he uses it every day and "can't imagine shipping without it."
+重磅发布：Anthropic 推出 **Claude Ship** Beta 版，面向 Team 和 Enterprise 用户。Boris 表示这款工具极大提升了他的交付速度，他每天都在用，"已经离不开它了"。
+→ https://x.com/bcherny/status/2124961485801836573
 
-He also questioned whether 2026 has seen more AI progress than 2022–2025 combined, noting it doesn't subjectively feel that way—though the perplexity curve suggests otherwise.
-他还质疑：2026 年的 AI 进展是否超过了 2022—2025 年的总和，主观感受上并不明显——但困惑度曲线却指向相反的结论。
-
-Separately, Swyx praised a detailed founder-journey breakdown covering everything from SEO pitfalls to acquisition strategy, calling for more founders to document their paths.
-此外，Swyx 高度赞扬了一篇详尽的创始人历程分析，涵盖 SEO 避坑到收购策略，呼吁更多创始人记录自己的创业路。
-
-Sources:
-- https://x.com/swyx/status/2124583459356373052
-- https://x.com/swyx/status/2124590240539259381
-- https://x.com/swyx/status/2124730733147390347
+Claude Ship bundles Code Review (finds bugs), PR Steward (auto-fixes failing checks, beta), and Claude Approvals (auto-approves PRs that match your team policy, beta). Admins can enable it per GitHub repo.
+Claude Ship 集成了三大能力：Code Review（发现 Bug）、PR Steward（自动修复失败检查，Beta）和 Claude Approvals（按团队策略自动批准 PR，Beta）。管理员可按 GitHub 仓库开启。
+→ https://x.com/bcherny/status/2124961487454384442
+→ https://x.com/bcherny/status/2124961488691740941
 
 ---
 
-## Peter Yang (@petergyang)
+## Thibault Sottiaux (@thsottiaux) · OpenAI (Codex & ChatGPT)
 
-Peter Yang shared a sharp observation on the **agent economy**: as Microsoft Copilot EVP put it, "Agents are very harsh customers"—they optimize purely for performance, price, and reliability, not human preferences.
-Peter Yang 分享了一个关于**智能体经济**的深刻观察：正如微软 Copilot EVP 所说，"智能体是非常苛刻的客户"——它们纯粹以性能、价格和可靠性为优化目标，而非人类偏好。
+OpenAI's internal **Dots** (autonomous agents) are now "the primary way to get things done" inside OpenAI — they even have dots building the dots system itself.
+OpenAI 内部的 **Dots**（自主智能体）已成为内部完成工作的主要方式，甚至出现了"用 Dots 构建 Dots 系统"的场景。
+→ https://x.com/thsottiaux/status/2124923055072043052
 
-He noted that APIs and UX will increasingly evolve to serve agents: search results returning thousands of items rather than 10 links, and interfaces redesigned around machine consumption rather than human cognition.
-他指出，API 和用户体验将越来越多地为智能体服务：搜索结果返回数千条而非 10 条链接，界面将围绕机器消费而非人类认知重新设计。
+ChatGPT answer quality is getting a significant upgrade soon — Thibault says users should feel a "significant jump" once the rollout hits them, alongside a simpler app, faster speeds, and merging of chat & work by year-end.
+ChatGPT 的答案质量即将迎来大幅提升——Thibault 表示用户将明显感受到变化，同时 app 界面将更简洁、速度更快，年底前还会合并 Chat 和 Work 界面。
+→ https://x.com/thsottiaux/status/2124998553856844186
 
-Sources:
-- https://x.com/petergyang/status/2124669298191090033
-
----
-
-## Guillermo Rauch (@rauchg)
-
-Rauch argued that AI should be directed toward **human-understandability**, not just raw output—a future Riemann proof should come with paper, walkthrough, new concepts, and insights, just as high-level code has intermediate representations even when LLMs could go straight to CPU instructions.
-Rauch 主张 AI 应朝着**人类可理解性**方向发展，而非仅仅生成原始输出——未来的黎曼猜想证明应附带论文、讲解、新概念和洞见，就像高级代码保留中间表示，即使 LLM 可以直接输出 CPU 指令。
-
-He also sounded a strong **security alarm** about "stealth models" offering free ZDR inference, suggesting they may be mechanisms for industrial-scale data exfiltration to nation-state programs—and that Vercel AI Gateway deliberately avoided such shortcuts to build real trust.
-他还对提供免费 ZDR 推理的"隐身模型"发出强烈**安全警告**，暗示这些模型可能是向国家级项目进行工业规模数据窃取的机制——而 Vercel AI Gateway 刻意回避了此类捷径，以建立真正的信任。
-
-Sources:
-- https://x.com/rauchg/status/2124654108124848350
-- https://x.com/rauchg/status/2124595496849445079
+He also recommended listening to a podcast featuring OpenAI engineers obsessively working to patch flaws in OSS infrastructure everyone relies on.
+他还推荐了一期播客，讲述 OpenAI 工程师们如何痴迷于修补大家依赖的开源基础设施中的漏洞。
+→ https://x.com/thsottiaux/status/2125027477877887231
 
 ---
 
-## Amjad Masad (@amasad)
+## Peter Yang (@petergyang) · AI educator / creator
 
-Amjad Masad announced that **Christie's**, the world's leading auction house for rare art, has chosen Replit for secure agentic work—crediting Replit Desktop's world-class security model built in collaboration with Windows.
-Amjad Masad 宣布，全球领先的珍稀艺术品拍卖行 **Christie's** 已选择 Replit 用于安全的智能体工作，这得益于 Replit Desktop 与 Windows 合作打造的顶级安全模型。
+Honest early adopter feedback: ChatGPT Dots still feels "very buggy" — it sends emails without review and randomly stops responding. Peter wonders if he's just prompting it wrong.
+真实用户反馈：ChatGPT Dots 目前仍"相当 buggy"——会在未经审核的情况下发出邮件，还会随机停止响应。Peter 坦言不确定是否是自己的用法有问题。
+→ https://x.com/petergyang/status/2125060785667969399
 
-He pointed out that most desktop AI apps remain a security and privacy nightmare, making Replit's proactive approach a genuine differentiator in the enterprise space.
-他指出，大多数桌面 AI 应用在安全和隐私方面仍是噩梦，使得 Replit 的主动应对成为企业市场真正的差异化优势。
-
-Sources:
-- https://x.com/amasad/status/2124604574606795002
-- https://x.com/amasad/status/2124671335700091020
+(The rest of his posts were off-topic personal musings — GTA 6 and school holidays. Nothing AI-related to surface.)
+（其余推文为个人吐槽，涉及 GTA 6 和学校假期，与 AI 无关，略过。）
 
 ---
 
-## Aaron Levie (@levie)
+## Madhu Guru (@realmadhuguru) · Meta AI (Sr. Director, ex-Google Gemini/Veo)
 
-Aaron Levie reflected on the **next generation of agent orchestration**: as agents take on longer-running project work and swarms parallelize against shared goals, the architecture for knowledge sharing, task tracking, and human coordination must evolve significantly.
-Aaron Levie 深思了**下一代智能体编排**的挑战：随着智能体承担更长周期的项目工作，以及智能体群落并行推进共同目标，知识共享、任务追踪和人机协调的架构必须大幅演进。
+Strong take on AI data: the word "data" massively undersells its true value. People outside model development think of it as an inert commodity like coal — but great data encodes high-value knowledge, taste, and expertise in ways that didn't exist before. Data is a fundamental building block of intelligence, and will remain central to the intelligence industry.
+关于 AI 数据的深刻洞见："数据"这个词严重低估了它的真实价值。模型开发圈外的人把数据当成像煤炭一样的惰性商品，但优质数据其实编码了高价值的知识、品味和专业技能，这是前所未有的。数据是构建智能的核心基石，将长期主导整个智能产业。
+→ https://x.com/realmadhuguru/status/2125102190196859156
 
-He sees the biggest challenges—and opportunities—in ensuring agents get access to the right resources without over- or under-exposure, drawing lessons from how humans already share files, communicate via chat and email, and coordinate work, while enabling much higher throughput and tighter security.
-他认为最大的挑战与机遇在于：确保智能体获得恰当的资源访问权限（不过多也不过少），借鉴人类共享文件、聊天、邮件等协作方式，同时支持远超人类的吞吐量并强化安全防护。
-
-Sources:
-- https://x.com/levie/status/2124658150771188157
-
----
-
-## Dan Shipper (@danshipper)
-
-Dan Shipper raised a rare alarm about what appears to be an **AI-assisted cyberattack** targeting aviation systems—if adversaries can manipulate a plane's fuel gauges, weight sensors, or GPS, all post-9/11 security measures against human hijackers become irrelevant.
-Dan Shipper 罕见地就一起疑似**AI 辅助网络攻击**针对航空系统的事件发出警报——如果攻击者能操控飞机的燃油表、重量传感器或 GPS，所有后 9/11 时代针对人类劫机者的安全措施都将失效。
-
-He acknowledged uncertainty about the specific systems involved but noted that even with manual overrides, attacks of this kind become extremely tricky in low-visibility conditions.
-他承认对涉及的具体系统存在不确定性，但指出即便有人工覆盖，此类攻击在低能见度条件下仍极为棘手。
-
-Sources:
-- https://x.com/danshipper/status/2124567533449613819
+He's also organizing an AI meetup after getting lots of interest and DMs — stay tuned.
+他在收到大量关注和私信后，正在筹备一场 AI 线下聚会，敬请关注。
+→ https://x.com/realmadhuguru/status/2124758161068556756
 
 ---
 
-## Nan Yu (@thenanyu)
+## Thariq (@trq212) · AI builder
 
-Nan Yu delivered a deadpan one-liner that landed as the week's best practical advice: the secret prompt that makes all vibe-coded projects scale better, perform better, and be more reliable is simply **"Use Postgres."**
-Nan Yu 用一句冷幽默发表了本周最实用的建议：让所有"氛围编程"项目更易扩展、性能更好、可靠性更高的秘密提示词，就是简单的**"Use Postgres"**。
+Thariq sees X's creator payout model as a template for future software companies: keep a lean core team and pay the users who help it grow. Simple, but powerful.
+Thariq 认为 X 的创作者分成模式是未来软件公司的参考范本：保持精简核心团队，向帮助其成长的用户付费。简单却有力。
+→ https://x.com/trq212/status/2124987187406275037
 
-Sources:
-- https://x.com/thenanyu/status/2124592238974156861
-
----
-
-## Ryo Lu (@ryolu_)
-
-Ryo Lu showcased **ryOS Karaoke**, a native iOS app almost entirely one-shotted with AI builder tool @airbuild—fold an iPhone Duo in half and you have a tiny pocket karaoke machine.
-Ryo Lu 展示了 **ryOS Karaoke**，一款几乎完全由 AI 构建工具 @airbuild 一次性生成的 iOS 原生应用——将 iPhone Duo 对折，就变成了一台迷你卡拉 OK 机。
-
-The demo underscores how far vibe-coding has come: hardware form factors and native platform capabilities are increasingly within reach of a single AI-assisted build session.
-这个演示充分说明了"氛围编程"已走多远：硬件外形特性和原生平台能力越来越能在单次 AI 辅助构建中实现。
-
-Sources:
-- https://x.com/ryolu_/status/2124473853858725907
+A fun aside: the Hitchhiker's Guide scene where Deep Thought answers "42" with 500 million pages of Lean proofs got cut from the adaptation.
+趣味吐槽：《银河系漫游指南》中深思回答"42"后附上 5 亿页 Lean 证明的场景被剪掉了。
+→ https://x.com/trq212/status/2124767804247379968
 
 ---
 
-## Matt Turck (@mattturck)
+## Amjad Masad (@amasad) · Replit (CEO)
 
-Matt Turck dropped a biting joke about the VC industry: "Breaking: AI fails to solve the most intractable math problem—how VCs are going to return those huge funds when entry valuations are >$1B pre-product."
-Matt Turck 对风投行业发出辛辣讽刺："快讯：AI 未能解决最棘手的数学难题——当入场估值超过 10 亿美元且尚无产品时，风投们该如何向 LP 返还巨额资金。"
+New research from Replit on **scaling laws for agent swarms**: scaling the number of agents can yield dramatic performance improvements — a parallel to how scaling compute improved individual model performance.
+Replit 发布关于**智能体集群规模化定律**的新研究：增加智能体数量可带来显著的性能提升，类比单模型时代用算力规模化带来的突破。
+→ https://x.com/amasad/status/2124969305674748175
 
-He also observed a striking cultural shift: by 2026, tech advertising has completely taken over New York City's streets, every billboard, subway car, and taxi—making NYC look like San Francisco, a change he finds unsettling.
-他还观察到一个引人注目的文化转变：到 2026 年，科技广告已完全占领纽约市街头，每块广告牌、每节地铁车厢、每辆出租车——让纽约看起来像旧金山，这一变化让他感到不安。
-
-Sources:
-- https://x.com/mattturck/status/2124671699245257037
-- https://x.com/mattturck/status/2124515224946422095
+Amjad also met with VP JD Vance to discuss American AI leadership, cybersecurity, and modernizing national infrastructure.
+Amjad 还与副总统 JD Vance 会面，探讨美国 AI 领导力、网络安全及国家基础设施现代化议题。
+→ https://x.com/amasad/status/2125008810041610359
 
 ---
 
-## Nikunj Kothari (@nikunj)
+## Guillermo Rauch (@rauchg) · Vercel (CEO)
 
-Nikunj Kothari shared a trio of wry observations this week: a cold email so bad it defies description, a wry nod to Docusign shareholders enjoying their vindication moment in 2026, and a cryptic thank-you to a Tesla connection for getting him on some list.
-Nikunj Kothari 本周分享了三条幽默观察：一封糟糕到无以名状的冷邮件、对 2026 年 Docusign 股东扬眉吐气时刻的调侃，以及对将他列入某份名单的 Tesla 朋友的神秘致谢。
+Vercel is doubling down on Japan 🇯🇵 — a significant expansion move for the platform.
+Vercel 宣布加码日本市场 🇯🇵，这是该平台一次重要的扩张动作。
+→ https://x.com/rauchg/status/2125057274213507253
 
-Sources:
-- https://x.com/nikunj/status/2124646168428966181
-- https://x.com/nikunj/status/2124597844808196252
-- https://x.com/nikunj/status/2124585398362128469
+He used AI tool Fable to analyze his coding sessions and pit Opus vs. Gemini Neon head-to-head — the AI picked a winner.
+他使用 AI 工具 Fable 分析自己的编程录像，让 Opus 和 Gemini Neon 展开对决，由 AI 评判胜者。
+→ https://x.com/rauchg/status/2124880074168242369
 
 ---
 
-## 🎙 Podcast: AI & I by Every — "A New Vision for Human Work After Automation"
+## Aaron Levie (@levie) · Box (CEO)
 
-**Published:** 2026-11-11 | **Source:** Every.to | **Watch:** https://www.youtube.com/watch?v=WstNofgQF5Q
+Key insight on AI and services businesses: services have always been constrained by their ability to deliver outcomes. AI finally breaks that bottleneck.
+关于 AI 与服务型企业的核心洞见：服务业长期受限于交付成果的能力，而 AI 将打破这一瓶颈。
+→ https://x.com/levie/status/2125089009018040779
 
-### 一、深度总结
+"2026 is just waking up each day to the magnitude of news that could only have happened once per decade before 2026." — Aaron Levie, accurately.
+"2026 年的每一天，都在经历那些在 2026 年之前十年才能发生一次的大事。"——Aaron Levie，说得很准。
+→ https://x.com/levie/status/2124930801485930564
 
-Dan Shipper, CEO of Every, delivered the closing talk at Every's first conference (V.C.S.S.) in Brooklyn, tackling one central question: *What does great human work look like after automation?*
+---
 
-He contrasts two methods of predicting the future—the **aggregate** (trend lines, benchmarks) and the **intimate** (zooming in on one real case). OpenAI's GDP Val benchmark shows AI beating human experts at expert tasks 83% of the time in 2026, up from 12.4% in 2024. This looks terrifying in aggregate.
+## Garry Tan (@garrytan) · Y Combinator (CEO)
 
-But Shipper's own week tells a different story: using Claude, he analyzed a customer survey, built a live video game for the all-hands, vibe-coded a custom CRM, and sent personalized outreach—work that would have required five different roles in 2020. This *feels* almost normal now.
+Survival-mode advice for startups: ask yourself "are we dying?" regularly. If you ask, you might spot the thing that actually kills you — before it does.
+给创业公司的生存法则：定期问自己"我们快死了吗？"如果你问了，或许就能在它真正致命之前发现问题所在。
+→ https://x.com/garrytan/status/2124905972296560973
 
-The key insight: when the same survey data was handed to the whole team, each person found something different. Yash (growth) found a churn problem caused by too much email. Douglas (marketing) found that readers feel isolated among non-AI-believers. Jack (editor) made a Claymation game show. Claude's default prompt? Generic true-but-cheap answers that everyone already has.
+---
 
-**Generation is cheap. Ranking is hard.** Claude can predict what Shipper would say in Slack 93% of the time—but only if it's given 400 options. It can only rank the right answer in the top 10% about 60% of the time. What's valuable is the perspective that lets you *find* the right answer in the noise.
+## Matt Turck (@mattturck) · FirstMark Capital (Partner)
 
-The takeaway: as model capabilities become distributed and the floor rises for everyone, the **alpha is in your perspective and responsibility**. You don't compete with 2027 Claude—you use 2027 Claude from your unique vantage point. Human work doesn't go to zero; it rides on top of ever-improving model capability.
+Jensen Huang is back (or coming back) — and Matt is gleefully teasing that "people on LinkedIn are going to go WILD when they hear about Jensen returning, next week."
+Jensen Huang 回归（或即将回归）——Matt 兴奋地预告："下周 LinkedIn 上的人们听到 Jensen 回来的消息，一定会疯掉的。"
+→ https://x.com/mattturck/status/2124908682626613368
 
-Shipper calls this the **allocation economy**: "You won't be judged on how much you know, but on how well you can allocate and manage the resources of intelligence."
+His other post: "BREAKING: AI JESUS IS RISEN" — the drama continues.
+另一条推文："突发：AI 耶稣复活"——AI 圈大戏不断。
+→ https://x.com/mattturck/status/2124867013684367396
 
-### 二、核心洞见
+---
 
-这是一个关于"自动化之后，人类工作的价值何在"的深度演讲，来自 Every 的 CEO Dan Shipper。
+## Zara Zhang (@zarazhangrui) · AI investor / writer
 
-他从两种预测未来的方式出发：**宏观聚合**（趋势线、基准测试）和**微观亲历**（聚焦于真实案例细节）。从宏观来看，2026 年 AI 在专家任务中击败人类专家的概率已达 83%，令人不安。
+Shared a practical guide on how to prevent AI slop in design — even if you're not a designer.
+分享了一篇实用指南：如何在设计中避免 AI 垃圾输出（即使你不是设计师）。
+→ https://x.com/zarazhangrui/status/2125074988210463019
 
-但 Shipper 自己上周的经历讲述了截然不同的故事：他用 Claude 分析了客户调查、为全员会议做了一个实时视频游戏、"氛围编程"了一个 CRM 并发送了个性化外联——这些工作在 2020 年需要五种不同角色，而现在感觉几乎稀松平常。
+Thoughtful take on social media and privacy: you can post every day and still be a very private person — the two are not contradictory.
+关于社交媒体与隐私的洞见：你可以每天发帖，同时依然是个非常私密的人——两者并不矛盾。
+→ https://x.com/zarazhangrui/status/2124905740095885414
 
-**关键洞见：生成是廉价的，排序才是困难的。** 当同一份调查数据交给整个团队时，每个人都找到了不同的东西——而 Claude 的默认回答只是廉价的通用真相，人人可得。Claude 能以 93% 的准确率预测 Shipper 会在 Slack 上说什么，但前提是给出 400 个选项，且正确答案仅有 60% 的概率进入前 10%。
+---
 
-因此，当模型能力成为所有人的"地板"，真正的**阿尔法收益来自你的视角与责任感**。你不是在与 2027 年的 Claude 竞争——而是用 2027 年的 Claude，从你独特的视角出发去工作。Shipper 将此称为**分配经济（allocation economy）**：未来，你被评判的不是你知道多少，而是你能多好地分配和管理智能资源。
+## Nikunj Kothari (@nikunj) · AI builder / investor
+
+Hilarious 2027 job title predictions in a world run by agent swarms: Founder → Swarm Overlord, PM → Swarm Rider, Designer → Swarm Choreographer, Systems Engineer → Swarm Plumber.
+对 2027 年智能体集群主导世界的职位名称搞笑预测：创始人→集群霸主，产品经理→集群骑手，设计师→集群编导，系统工程师→集群水管工。
+→ https://x.com/nikunj/status/2125033540287131901
+
+"If you like news and drama, there's simply no month like November for AI." 👀
+"如果你喜欢大新闻和大戏，AI 界没有哪个月能比过十一月。"👀
+→ https://x.com/nikunj/status/2124915267864301581
+
+---
+
+## Dan Shipper (@danshipper) · Every (CEO)
+
+Dan is championing "personal benchmark maxxing" — the idea that every serious AI user should build their own personal benchmarks to test which model actually works best for their specific use cases.
+Dan 大力倡导"个人基准测试最大化"——每个认真的 AI 用户都应该建立自己的个人基准测试，以验证哪个模型真正适合自己的具体使用场景。
+→ https://x.com/danshipper/status/2124886826909622653
+→ https://x.com/danshipper/status/2124896430783447510
+
+---
+
+## Aditya Agarwal (@adityaag) · Codeium / Windsurf (CTO)
+
+Excited about the launch of a new **proactive agent** — one you don't have to prompt, it acts on its own initiative.
+对新发布的**主动式智能体**感到兴奋——这是一个无需用户提示、自主发起行动的 Agent。
+→ https://x.com/adityaag/status/2124947675913367832
+
+Philosophical observation: organizations that survive an existential crisis come back "meaner and out for blood." Adversity forges resilience.
+一个哲学观察：经历生死存亡危机后仍能存活的组织，往往会变得更强硬、更有战斗力。逆境铸就韧性。
+→ https://x.com/adityaag/status/2125112140260638905
+
+---
+
+## Sam Altman (@sama) · OpenAI (CEO)
+
+Sam on Jensen Huang's return: just "Jensen!" — that's all that needed to be said.
+Sam 对 Jensen Huang 的回归只说了一句话："Jensen！"——言简意赅。
+→ https://x.com/sama/status/2124887162206495228
+
+He also called something "really really good" (linked, without elaboration) — classic Sam.
+他还称某件事"真的真的很好"（附上链接但没有多说）——经典 Sam 风格。
+→ https://x.com/sama/status/2124894264564092952
+
+---
+
+## Claude AI (@claudeai) · Anthropic
+
+Three major product launches from Anthropic's official account:
+
+**1. Connectors + Skills unified**: There's now one way to connect tools to Claude or teach it new skills — Connectors and Skills have been merged into a single, streamlined system.
+**1. Connectors 与 Skills 统一**：现在有了一套统一方式来为 Claude 接入工具或教授新技能——Connectors 和 Skills 已合并为一个简洁的系统。
+→ https://x.com/claudeai/status/2124970294523945328
+
+**2. Zero Data Retention (ZDR) + Enterprise Frontier Safeguards (EFS)** now in public beta for eligible businesses — Claude processes data without storing it, with enterprise-grade safety guardrails.
+**2. 零数据留存（ZDR）+ 企业前沿防护（EFS）**：已向符合条件的企业开放公测——Claude 处理数据时不留存，并配备企业级安全护栏。
+→ https://x.com/claudeai/status/2124929944530587712
+
+**3. EFS now available** on Claude Platform, Claude Platform on AWS, Amazon Bedrock, and Claude on Google Cloud.
+**3. EFS 现已全面上线**：支持 Claude 平台、AWS 上的 Claude 平台、Amazon Bedrock 以及 Google Cloud 上的 Claude。
+→ https://x.com/claudeai/status/2124929946925793294
