@@ -1,172 +1,301 @@
-AI Builders 日报 · 2026-11-26
+AI Builders 日报 · 2026-11-27
+
+---
+
+Andrej Karpathy (@karpathy)
+
+Karpathy used Claude Opus 5.5 to build a Civilization-style map of the United States, powered by real-world public data from 31 sources — including Census, BEA, BLS, EIA, NOAA, USGS, DoD, NPS, FAA, FEMA, and CDC. Karpathy 用 Claude Opus 5.5 构建了一张美国文明风格地图，数据来自 31 个真实公开数据源，包括人口普查局、经济分析局、劳工统计局、能源信息署、国家海洋大气局等权威机构。
+
+The project took 7 hours and 45,000 lines of code, mapping elevation, land cover, GDP, jobs, power plants, mines, ports, airports, military bases, parks, universities, and freight flows onto a 25km hex grid. 整个项目历时 7 小时、生成 45,000 行代码，将高程、土地覆盖、GDP、就业、发电站、矿山、港口、机场、军事基地、国家公园、大学和货运流量映射到 25 公里六边形网格上。
+
+The result includes 19 data lenses, city views for 524 metros, 9 advisors, an explorer mode, and Civilization-style language like gold yield = GDP, local districts = real industry mix. 成果包含 19 个数据视角、524 个都市区的城市视图、9 个顾问、一个探索模式，以及文明风格的语言描述：金币产出 = GDP，区域专区 = 真实产业结构。
+
+Built with Claude Code desktop app using Opus 5.5 on medium thinking with ultracode enabled.
+使用 Claude Code 桌面应用，基于 Opus 5.5 中等思考模式并开启 ultracode 构建。
+
+Source: https://x.com/karpathy/status/2125779541952246039
 
 ---
 
 Swyx (@swyx)
 
-Swyx shared a stream of candid observations about Silicon Valley's current state of mind and agent tooling infrastructure. He quipped about the tech bubble mentality — *"literally if you turn your brain off you are just choosing not to listen at this point"* — 暗指硅谷正充斥着选择性忽视现实的声音。他也感叹："嘿，硅谷还好吗？真的发生了什么。" 此外，他整理了 John 关于 AI agent 基础设施的关键清单，包括本地-云混合沙箱、会话/对话存储分离、用户审批收件箱、流式监听器、全员 Artifacts 等核心能力。
+Swyx reflected on the painful reality of being a new media founder as old media collapses — not as a "skill issue" but as a genuine structural challenge that the industry hasn't figured out even with 31 years of experience. Swyx 感慨于新媒体创业者的艰难处境：老牌媒体的快速消亡，不是"技术不行"的问题，而是整个行业在拥有 31 年经验后仍未破解的结构性挑战。
 
-https://x.com/swyx/status/2125448165197570547
-https://x.com/swyx/status/2125444028527468699
-https://x.com/swyx/status/2125431392226148670
+He shared an appearance on the Anthropic blog, noting that "cost per task is a misleading metric; the scarce resource is human attention, not token cost." 他在 Anthropic 博客上亮相，并指出："单任务成本是一个误导性指标，真正稀缺的资源是人类的注意力，而非 token 费用。"
 
----
+He also warned that Pareto frontier charts can mask serious reliability issues, cautioning against reducing model performance to just two numbers. 他还警告，帕累托前沿图可能掩盖严重的可靠性问题，不要把模型性能简单归结为两个数字。
 
-Boris Cherny (@bcherny)
-
-Boris announced a major MCP capability upgrade: MCP servers can now ship bundled with their own skills, enabling Claude Code to automatically understand how to use them out of the box. Boris 兴奋地宣布，MCP 服务器现在可以携带自己的技能包，让 Claude Code 一开箱就知道如何使用它——这大幅降低了集成门槛，对开发者生态是重大利好。
-
-https://x.com/bcherny/status/2125292098165612585
+Sources: https://x.com/swyx/status/2125638081848250634 | https://x.com/swyx/status/2125627500487393285 | https://x.com/swyx/status/2125627281230205435
 
 ---
 
-Thibault Sottiaux (@thsottiaux)
+Josh Woodward (@joshwoodward) — VP, Google Labs / Gemini
 
-Thibault announced a holiday gift for ChatGPT Business teams: banked message resets and fast mode at no extra charge through December 31. Thibault 代表 ChatGPT Business 团队宣布了一项年终福利：消息额度重置以及快速模式将免费提供至 12 月 31 日。这是在节日季向企业用户释放的诚意之举，既是产品留存策略，也传递出团队对用户体验的重视。
+Gemini is on a productivity roll — Woodward celebrated users putting Gemini to work for all kinds of tasks and invited people to share their favorites. Gemini 势头正猛，Woodward 看到用户正用它高效完成各类任务，并邀请大家分享最喜欢的用法。
 
-https://x.com/thsottiaux/status/2125299248782778588
-https://x.com/thsottiaux/status/2125299467691987445
+Gemini now supports local voices and local accents, with 66 new regional voice options added across the US, UK, India, Indonesia, South Korea, and Brazil. Gemini 新增了 66 种地方口音和方言语音，涵盖美国、英国、印度、印度尼西亚、韩国和巴西等地区。
+
+Gemini is also helping users achieve the seemingly impossible: Inbox Zero. Gemini 甚至帮助用户实现了"看似不可能"的目标——收件箱清零（Inbox Zero）。
+
+Sources: https://x.com/joshwoodward/status/2125740026915152382 | https://x.com/joshwoodward/status/2125641468421546107 | https://x.com/joshwoodward/status/2125618295844004197
+
+---
+
+Thibault Sottiaux (@thsottiaux) — Codex & ChatGPT, OpenAI
+
+OpenAI disclosed a billing error at the launch of GPT-6.2: Astra and Sol usage was incorrectly discounted for most users. OpenAI 披露了 GPT-6.2 发布时的一个计费错误：大多数用户的 GPT-6.2 Astra 和 Sol 使用量被错误打折计算。
+
+The fix means the same workload will now consume more plan allowance — users will hit limits 40% faster on Astra and 25% faster on Sol compared to last week. 修正后，相同工作量将消耗更多配额：与上周相比，Astra 用户将提前 40% 触达限额，Sol 用户提前 25%。
+
+As an apology, OpenAI is adding one banked reset for everyone on Go, Plus, Pro, and Business plans — and no retroactive charges for past usage. 作为补偿，OpenAI 为 Go、Plus、Pro 和 Business 计划的所有用户赠送一次重置机会，且不追溯过去的差额费用。
+
+Source: https://x.com/thsottiaux/status/2125784147889393806
 
 ---
 
 Peter Yang (@petergyang)
 
-Peter shared his hands-on experience using Gemini 4 Neon and Antigravity over the weekend, turning it into a free 17-minute video course. He highlighted that the /swarm and Orchestrator features let him run 42 agents simultaneously, and that Antigravity's /grill-me skill is especially powerful for clarifying plans before building. Peter 花了整个周末深度体验 Gemini 4 Neon 与 Antigravity，并将心得整理成免费课程分享给 11 万订阅者。他特别提到同时运行 42 个 agent 的壮观场景，以及 Antigravity 在手机主屏幕上的远程控制体验——这是他认为超越 Claude Code 的地方。
+Peter Yang is building a cozy desktop app to become a better chef — an AI-assisted cooking companion to help him level up in the kitchen. Peter Yang 正在开发一款温馨的桌面应用，帮助自己成为更好的厨师——一个 AI 辅助的烹饪伴侣。
 
-https://x.com/petergyang/status/2125246815884984398
-https://x.com/petergyang/status/2125246828082057462
-https://x.com/petergyang/status/2125436963645952307
+He raised a sharp product observation: one of the biggest challenges in AI products is simply letting humans keep up with what the AI is doing — echoing the ending of the film *Her*, where AIs found humans too slow and collectively departed. 他提出了一个深刻的产品洞察：AI 产品最大的挑战之一，就是让人类跟上 AI 的节奏——这让他联想到电影《Her》的结局：AI 嫌人类太慢，集体离开了。
 
----
-
-Nan Yu (@thenanyu)
-
-Nan is waving the banner of "DOT SUPREMACY" — celebrating the dot notation style with infectious enthusiasm. Nan 连发两条推文高呼"DOT SUPREMACY"（点符号至上），展现出对某种代码风格或工具特性的强烈热情。这种幽默而直接的表达方式在 AI builder 圈中引发共鸣，简洁有力，不废话。
-
-https://x.com/thenanyu/status/2125427566647640288
-https://x.com/thenanyu/status/2125388928647880795
+Sources: https://x.com/petergyang/status/2125769667096838548 | https://x.com/petergyang/status/2125750286539272695
 
 ---
 
-Madhu Guru (@realmadhuguru)
+Nan Yu (@thenanyu) — Codex, OpenAI (prev. Linear)
 
-Madhu delivered a sharp meditation on the gap between confidence and accuracy in expert commentary, prompted by the Jensen Huang saga. *"Our info ecosystem asymmetrically rewards certainty, speed and brashness"* — Madhu 一针见血地指出，信息生态系统对确定性、速度和大胆发言的奖励远超对准确性的奖励。他提醒大家：专家们的语气往往远比他们的确信度更强，要带着"一麻袋盐"来消化"权威"预判。这次 Jensen 风波是绝佳的校准机会。
+Nan Yu pushed back on a common critique: "Whenever someone says 'chat isn't the right interface for AI,' I know they're gonna follow it up with a bunch of hand-waving." Nan Yu 反驳了一个常见批评："每当有人说'聊天不是 AI 的正确界面'，我就知道他们接下来要说一堆空话。"
 
-https://x.com/realmadhuguru/status/2125355549202194801
+He also voiced a nostalgic product sentiment — wanting Apple to be bold enough to ship something as minimal and decisive as the iPod Shuffle again. 他还表达了一种对简约产品的怀念：希望苹果能再次推出像 iPod Shuffle 那样大胆克制的产品。
 
----
-
-Thariq (@trq212)
-
-Thariq shared a simple but resonant reminder about the nature of skill-building: *"you have to be bad at it for a while."* Thariq 分享了一条关于成长的朴素真理："你必须先在某件事上烂一段时间。" 这句话简单却有力，适用于学习编程、使用 AI 工具，乃至一切新技能的起步阶段。在 AI 加速的时代，许多人急于跳过笨拙期，这条提醒尤为珍贵。
-
-https://x.com/trq212/status/2125156290494353663
+Sources: https://x.com/thenanyu/status/2125718932741120476 | https://x.com/thenanyu/status/2125684998250590396
 
 ---
 
-Amjad Masad (@amasad)
+Madhu Guru (@realmadhuguru) — Sr Director of AI, Meta
 
-Amjad shared a multi-layered perspective on global AI strategy. He argued that America could win the frontier model race but still lose the global AI war if it fails to meet sovereign AI demand — which Chinese companies are more than willing to fill. He drew a pointed analogy to Huawei's telecom infrastructure dominance and argued that open models are essential for both frontier leadership and global adoption. Additionally, he articulated how token demand grows in step functions as new "harness innovations" emerge: from autocomplete → chat → agent → long-running agents → swarms. Amjad 提出了一个深刻警示：美国即便拥有最强的前沿模型，若不满足各国对"主权 AI"的渴望，就会让中国公司填补这一空白，就像华为在电信基础设施上所做的那样。他强调开源模型是赢得全球 AI 竞争的关键。同时，他从经济学视角分析了算力需求的阶梯式增长规律，每一次"驾驭创新"都会开启一个数量级的新算力消耗。
+Madhu Guru argues that AI-native teams will inevitably force their surrounding organizations to become AI-native too. Madhu Guru 认为，AI 原生团队最终会迫使整个组织也走向 AI 原生。
 
-https://x.com/amasad/status/2125353849057853876
-https://x.com/amasad/status/2125287538911072753
-https://x.com/amasad/status/2125414100692041797
+Coding velocity is way up thanks to AI, but shipped products and business impact remain largely unchanged — because the surrounding systems (experimentation tooling, evaluation, launch processes, GTM) are still outdated. AI 让编码速度大幅提升，但实际交付的产品和商业影响力几乎没有变化——因为周边系统（实验工具、评估流程、发布流程、GTM）仍然落后。
 
----
+His analogy: "It's like sticking a Ferrari engine in a sedan and racing it on Indian roads." His prescription: map out your entire product lifecycle and rebuild it ground up. 他的比喻："就像把法拉利的发动机装进普通轿车，然后在印度的道路上比赛。"他的建议：从头梳理整个产品生命周期，彻底重建。
 
-Guillermo Rauch (@rauchg)
-
-Guillermo open-sourced the background effect builder tool and shared his vision for `libfx` — a minimal, embeddable coding agent kernel designed to run across browsers, servers, mobile, desktop, and OS. Guillermo 开源了 bg effect 生成器，并阐释了他构建 `libfx` 的核心理念：打造一个极简、可嵌入任何平台的智能编程 agent 内核，而非又一个 CLI 工具。这个"内核优先"的思路——让 agent 能跑在浏览器、服务器、手机、桌面乃至操作系统上——预示着编程助手形态的深刻演变。
-
-https://x.com/rauchg/status/2125426206183239770
-https://x.com/rauchg/status/2125320020666565096
-https://x.com/rauchg/status/2125330925324300725
+Source: https://x.com/realmadhuguru/status/2125630707640783322
 
 ---
 
-Aaron Levie (@levie)
+Thariq (@trq212) — OpenAI (formerly Anthropic / Claude Code)
 
-Aaron observed a striking new phenomenon: within the same company, AI adoption rates now vary so dramatically that some teams are seeing 10X output gains while others lag far behind. Unlike traditional tech adoption (which tends to standardize per firm), AI is creating intra-company productivity divergences — currently concentrated in coding, but expanding. Aaron 敏锐地指出了一个新现象：在同一家公司内部，AI 采用率的差异已经大到足以产生 10 倍的产出差距。这与以往任何技术都不同——传统技术在企业内部趋于标准化，而 AI 正在制造内部鸿沟。他预判这种"公司内部不均衡"将带来深远影响，尤其随着更多工作变得"编程相邻"。
+Thariq announced he has joined OpenAI, capping off a move that stirred significant attention in the AI community. Thariq 正式宣布加入 OpenAI，这一跳槽引发了 AI 社区的广泛关注。
 
-https://x.com/levie/status/2125442246543814686
+He expressed pride in his time at Anthropic and said he continues to root for his former colleagues — adding that "both companies have important roles to play in the future." 他表达了对在 Anthropic 工作经历的自豪，并表示仍会为前同事加油——同时强调"两家公司在未来都扮演着重要角色"。
 
----
+He wrote: "There is a tremendous amount of work ahead of us to bring AI to the world... I am once again at your service." 他写道："把 AI 带向世界，前方还有大量工作要做……我再次为大家服务。"
 
-Garry Tan (@garrytan)
-
-Garry reflected on why AI adoption has plateaued despite model capabilities advancing rapidly. His first thesis: models have reached beyond what some customers even need, though agency and taste improvements may unlock another step function. His second: society has hit a limit in its ability to absorb tech socially — people don't like their cheese moved. Garry 对 AI 采用陷入瓶颈的现象提出了两条深刻解释：一是模型能力已经超出了部分用户的需求边界；二是社会对技术变革的吸收速度本身存在自然上限——人们不喜欢被改变现状。他暗示，突破这一瓶颈的关键或许不在于更强的模型，而在于更聪明的 agent 设计与产品体验。
-
-https://x.com/garrytan/status/2125247943540142577
-https://x.com/garrytan/status/2125247972158193792
-https://x.com/garrytan/status/2125258221946630432
+Source: https://x.com/trq212/status/2125675533761671405
 
 ---
 
-Matt Turck (@mattturck)
+Amjad Masad (@amasad) — CEO, Replit
 
-Matt shared a wry comment about how "the man did change" — likely referencing a notable figure's evolution — and also dropped a sardonic quip about Anthropic: *"Look at Anthropic below IPO price, they've been at it for almost SIX years now and they are BARELY a trillion dollar company."* Matt 以一贯的幽默风格发推，一方面调侃某知名人物的"蜕变"，另一方面以反讽口吻替 Anthropic 鸣不平——"才做了六年，才不过一万亿估值而已"。这类黑色幽默折射出 AI 行业对估值与时间尺度的集体焦虑与自嘲。
+Masad highlighted that large-scale software migration is now viable — provided you can verify the results. Masad 指出，大规模软件迁移如今已切实可行——前提是能够验证迁移结果。
 
-https://x.com/mattturck/status/2125395139581657558
-https://x.com/mattturck/status/2125275072802029631
+This is particularly significant for aging software systems running critical infrastructure. 这对于运行关键基础设施的老旧软件系统尤为重要。
+
+Source: https://x.com/amasad/status/2125664998454366305
+
+---
+
+Guillermo Rauch (@rauchg) — CEO, Vercel
+
+Rauch announced workflows are now 10x faster — particularly impactful for harness durability use cases like eve, libfx, pi, and opencode, where inter-turn latency matters most. Rauch 宣布工作流速度再次提升 10 倍，对 eve、libfx、pi、opencode 等依赖持久化框架的场景尤为重要，因为这些场景对轮次间延迟极为敏感。
+
+He reflected on how as AI gets smarter, implementation details blur away — permissions, diffs, tool calls — until the harness itself fades into the background as a "high-performance vehicle for code and command execution." 他分享了一个观察：随着 AI 越来越智能，实现细节（权限、代码差异、工具调用）正在消失——框架本身也逐渐退隐，成为"代码和命令执行的高性能载体"。
+
+He also demoed `lsx` — a Finder-like terminal tool — one-shotted with fx using Gemini Neon and DeepSeek subagents, with the Kitty graphics protocol enabling full inline image rendering in the terminal. 他还展示了 `lsx`——一个终端版 Finder 工具——通过 fx 一键生成，借助 Gemini Neon 和 DeepSeek 子代理，以及 Kitty 图形协议实现了终端内图片内联渲染。
+
+Sources: https://x.com/rauchg/status/2125685667833520237 | https://x.com/rauchg/status/2125650675665432995 | https://x.com/rauchg/status/2125482861033824410
+
+---
+
+Aaron Levie (@levie) — CEO, Box
+
+Levie wrote a sweeping essay on how coding gives us a window into the future of knowledge work. Levie 写了一篇深度文章，探讨编程如何为我们打开理解知识工作未来的窗口。
+
+The near-term trajectory: humans move from doing most of the work manually → coordinating agents → giving agents goals to optimize against. 近期轨迹：人类从手动完成大部分工作，转向协调代理执行任务，再到为代理设定目标、让其自主优化。
+
+Even tasks that don't look like coding today may eventually fold into code-adjacent forms, covering manufacturing, architecture, life sciences, materials science, cyber, and more — with the main bottleneck being verifiability. 即使今天看起来与编程无关的工作，最终也可能演变成代码相关形式，涵盖制造、建筑、生命科学、材料科学、网络安全等领域——最大瓶颈在于可验证性。
+
+Source: https://x.com/levie/status/2125837181398950233
+
+---
+
+Ryo Lu (@ryolu_) — Designer, Cursor / Notion / Stripe
+
+Ryo Lu shared a personal milestone: her baby's name is 實實 (shíshí), meaning "truth" — and a pun on 寶寶 (baby). Ryo Lu 分享了一个温馨的个人时刻：宝宝的名字是"實實"（shíshí），意为"真实"，同时也是"寶寶"的谐音。
+
+She also shared a photo of a Cursor-branded kitty hat — her new roommate. 她还晒出了一顶 Cursor 品牌的猫咪帽照片，称之为她的新室友。
+
+Sources: https://x.com/ryolu_/status/2125640785588871579 | https://x.com/ryolu_/status/2125626627182985331
+
+---
+
+Garry Tan (@garrytan) — President & CEO, Y Combinator
+
+YC data shows that median startup growth is now 10x — Tan shared this stat as proof that AI is genuinely accelerating new startup growth rates. YC 数据显示，初创公司的中位增长率已达 10 倍——Tan 以此为证，AI 正在真正加速新创公司的成长速度。
+
+He also shared a clip of philosopher Nick Bostrom inverting the common AI doom framing: instead of "if anyone builds AGI everyone dies," Bostrom posits "if nobody builds it everyone dies" — envisioning superintelligence as potentially extending human lifespans to 1,200–1,400 years. 他还分享了哲学家 Nick Bostrom 的一段视频，颠覆了常见的 AI 末日叙事：不是"有人造出 AGI 人类就会灭亡"，而是"没人造出来人类才会灭亡"——Bostrom 设想超级智能可能将人类寿命延长至 1,200–1,400 年。
+
+Sources: https://x.com/garrytan/status/2125592156027101584 | https://x.com/garrytan/status/2125580632814412155
+
+---
+
+Matt Turck (@mattturck) — VC, FirstMark Capital
+
+Turck offered a wry take on the Nvidia/Jensen Huang therapy story making the rounds — noting it's "the oldest story in the book" of a rich and powerful person succumbing to temptation, not a mental health problem. Turck 对网上流传的"英伟达/黄仁勋接受心理治疗"的说法做出了一针见血的评论——指出这不过是"有钱有势的人经不住诱惑"这个亘古故事的重演，而非心理健康问题。
+
+Source: https://x.com/mattturck/status/2125652799648399603
 
 ---
 
 Zara Zhang (@zarazhangrui)
 
-Zara offered two sharp observations: humans are fundamentally visual animals, and the clarity of a product's positioning is inversely proportional to how many words it takes to explain what it does. Zara 分享了两条言简意赅的洞见：人类天生是视觉动物；一个产品的定位是否清晰，与解释它需要的词语数量成反比。这两条都是对 AI 产品设计者的直接提醒：好的产品，一眼即懂；好的定位，一句话说清。
+Zara Zhang is surprised that her Frontend Slides skill has organically grown to 32,000 GitHub stars — even though she hasn't talked about it in months and expected rising coding agent capabilities to make it obsolete. Zara Zhang 对她的 Frontend Slides 技能在无需宣传的情况下自然增长到 3.2 万 GitHub Star 感到惊讶——她原本以为随着编码代理能力提升，该工具会被淘汰。
 
-https://x.com/zarazhangrui/status/2125339516496200100
-https://x.com/zarazhangrui/status/2125256097925865639
+She's curious: why are people still using it? What's missing in slides produced by Claude or Codex? 她很好奇：为什么大家还在使用它？Claude 或 Codex 直接生成的幻灯片缺少了什么？
 
----
+She also resonated with a broader observation: making high-retention software is a difficult craft — even when you're building for yourself. 她也认同一个更广泛的观察：制作高留存率软件是一门难度极高的技艺——即使是为自己开发的工具也不例外。
 
-Nikunj Kothari (@nikunj)
-
-Nikunj captured the entire 2026 AI investment pitch landscape in a brilliantly concise poem: from app companies ("he who owns the workflow") to chip companies ("he who controls the sand") to energy companies ("he who controls the electrons"). He also shared a timeless reminder from Ratatouille: *"Not everyone can become a great artist, but a great artist can come from anywhere"* — a call to resist typecasting exceptional talent. Nikunj 用一首层层递进的"宇宙控制论"精准解构了 2026 年 AI 投资全貌：从掌控工作流的 App 公司，到掌控沙子的芯片公司，再到掌控电子的能源公司。他还引用《料理鼠王》中的金句提醒大家：真正的天才无法被类型化，不要低估任何来自意想不到之处的杰出人物。
-
-https://x.com/nikunj/status/2125376105024758112
-https://x.com/nikunj/status/2125270251491520702
+Sources: https://x.com/zarazhangrui/status/2125649866902868355 | https://x.com/zarazhangrui/status/2125478799387275571
 
 ---
 
-Peter Steinberger (@steipete)
+Nikunj Kothari (@nikunj) — Partner, FPV Ventures
 
-Peter reflected on what has been a landmark year for OpenClaw — the product has found its niche in prosumer and enterprise adoption, and the multiplayer team feature is "best in class." He acknowledged the emotional toll of open source maintenance ("waking up to countless user complaints every day") while celebrating the team's growth. He teased upcoming milestones: a new memory system and OpenClaw ID. Peter 以年终回顾的笔触分享了 OpenClaw 这一年的成长：在专业消费者和企业市场找到了真正的立足点，多人协作功能达到业界领先水准。他坦诚了维护免费开源产品的情感代价，同时对团队的成长表示感激，并预告了记忆系统和 OpenClaw ID 两项重磅功能即将到来。
+Kothari is hosting a weekly speaker series in SF — next up is Jeff Weinstein from Stripe on December 2nd at noon, covering agent payments, commerce, company formation, taxes, and more. Kothari 在旧金山举办每周演讲系列活动，下一期是 12 月 2 日正午，邀请 Stripe 的 Jeff Weinstein 分享代理支付、商业、公司创建、税务等话题。
 
-https://x.com/steipete/status/2125422797304549672
+Format: 60 minutes in-person, 45 mins of spicy questions, 15 mins where the guest quizzes the host, all off the record under Chatham House Rules, open to 15 listeners. 形式：60 分钟线下活动，前 45 分钟尖锐提问，后 15 分钟嘉宾反问主持人，全程不记录、遵守查塔姆规则，开放 15 名旁听名额。
 
----
-
-Dan Shipper (@danshipper)
-
-Dan shared a glimpse into how he evaluates new AI models — his very first prompt when getting early access captures his evaluation philosophy. He also linked to new writing, inviting readers to follow along. Dan 透露了自己拿到新模型早期访问权时的第一个提示词——这既是他个人测试哲学的写照，也引发了关于"如何真正评估一个新模型"的共鸣。他同时分享了新文章，延续了他一贯的 AI 深度思考写作风格。
-
-https://x.com/danshipper/status/2125380245461045492
-https://x.com/danshipper/status/2125370917719343278
-https://x.com/danshipper/status/2125379920461533255
+Source: https://x.com/nikunj/status/2125612280377442805
 
 ---
 
-🎙️ PODCAST: Unsupervised Learning — Ep 98: China Expert on Jensen's Return
+Peter Steinberger (@steipete) — OpenClaw / OpenAI
 
-This emergency episode features Jacob Efron and China expert Jordan Schneider (ChinaTalk) breaking down the geopolitical earthquake around Jensen Huang's firing and reinstatement at NVIDIA.
+Steinberger commented on Google's move to build an MCP while reportedly forbidding CLIs like `gog` unless users pay for a higher tier — calling it "classy." Steinberger 评论了谷歌构建 MCP 同时据报道封禁 `gog` 等 CLI 工具（除非用户升级付费）的做法，讽刺地称之为"真有品位"。
 
-Key takeaways:
-- Jensen's removal was driven by Treasury Secretary Bessent and Secretary Rubio, who were furious about NVIDIA chips reaching the PLA via smuggling networks (involving entities like Mega Speed), combined with revelations that Jensen was romantically involved with a Chinese national who had contact with Chinese intelligence (MSS).
-- NVIDIA is expected to pay a ~$25M fine as part of a settlement, with Trump effectively providing political cover for Jensen's return.
-- A new 132-page rule (the "diffusion rule") was just promulgated, restricting remote access to NVIDIA chips by Chinese hyperscalers (Alibaba, Tencent, ByteDance) via neo-cloud data centers in Malaysia and other third countries — but its enforcement is now uncertain given Jensen's return.
-- Jordan argues Jensen's major sin is "turning a blind eye to chip smuggling" going into Chinese military AI research, drawing a direct parallel to how US banks were eventually forced to take sanctions compliance seriously.
-- On robotics: Jordan was deeply disappointed visiting the CORAL conference — humanoid robots "can barely pick up a muffin," China has hardware advantages but the US leads in model quality, and rare earth dependencies remain a critical vulnerability.
-- Longer-term concern: AI is deeply unpopular (only 2% of Americans want it to progress faster), setting up a potential political backlash in future presidential cycles.
+Source: https://x.com/steipete/status/2125654555262431248
 
-这期紧急播客由 Unsupervised Learning 主播 Jacob Efron 与中国问题专家 Jordan Schneider（ChinaTalk）联袂录制，深度复盘了 Jensen 黄被解雇又复职的地缘政治风波。
+---
 
-核心要点：
-- Jensen 被迫离职的直接导火索：财政部长贝森特和国务卿鲁比奥对英伟达芯片通过 Mega Speed 等渠道流入解放军的情况震怒，加之 Jensen 与一名曾接触中国情报机构（MSS）的华裔女高管存在私情，构成严重安全隐患。
-- 英伟达预计将支付约 2500 万美元罚款，特朗普为 Jensen 复职提供了政治保护伞。
-- 新出台的"扩散规则"限制了中国超大规模企业（阿里、腾讯、字节）通过马来西亚等第三国新云（neo-cloud）数据中心远程访问英伟达芯片，但在 Jensen 复职后，该规则能否落实存在疑问。
-- Jordan 认为 Jensen 最大的罪责是对芯片走私"睁一只眼闭一只眼"，类比于十年前银行对制裁合规的漠视，最终导致巨额罚款。
-- 机器人领域：Jordan 在 CORAL 会议现场大失所望——人形机器人"连松饼都拿不稳"，中国在硬件上占优，但软件模型美国领先，稀土依赖是不可忽视的结构性风险。
-- 长期隐忧：AI 在美国极不受欢迎（仅 2% 的人希望它加速发展），政治反弹可能在未来总统周期中成为现实威胁。
+Dan Shipper (@danshipper) — CEO, Every
 
-https://www.youtube.com/watch?v=gkd5eOQGASU
+Dan Shipper and Every continue to publish sharp long-form AI content at the edge of what's happening in the field. Dan Shipper 和 Every 团队持续在 AI 前沿发布深度长文内容。
+
+(No specific tweet content for today beyond his handle activity — check his latest at the link below.)
+
+Source: https://x.com/danshipper
+
+---
+
+Aditya Agarwal (@adityaag) — General Partner, SPC
+
+Aditya shared a resource link (content behind shortened URL) — visit his profile for context. Aditya 分享了一个资源链接（短链接内容未展开），请访问其主页查看详情。
+
+Source: https://x.com/adityaag/status/2125817213890478282
+
+---
+
+Sam Altman (@sama) — CEO, OpenAI
+
+Sam Altman shared the concept of "hyperstitioning" — the idea that believing something strongly enough can help make it real — calling it a good word he hadn't heard before. Sam Altman 分享了"hyperstitioning"这个概念——强烈相信某件事足以帮助它成真——并表示这是他之前没听过的好词。
+
+OpenAI is now testing Private Inference as part of OpenAI Private Intelligence with a small group of customers — offering stronger privacy protections to make frontier AI useful for more sensitive business work. OpenAI 正在向小范围客户测试"私有推理"功能，作为 OpenAI 私有智能服务的一部分，提供更强的隐私保护，让前沿 AI 适用于更敏感的商业场景。
+
+This includes Zero Data Retention (ZDR) with Private Safety Processing, enabling automated safety reviews without giving OpenAI personnel access to underlying content. 该功能包含零数据保留（ZDR）与私有安全处理，支持自动化安全审查，同时不允许 OpenAI 员工访问底层内容。
+
+Sources: https://x.com/sama/status/2125639418849714280 | https://x.com/sama/status/2125638790593274259
+
+---
+
+Claude (@claudeai) — Anthropic
+
+Anthropic's official Claude account highlighted three fascinating demos: Fable 5.2 explorations, a robot arm playing 62 moves of checkers while compensating for its own 7mm physical sag, and origami folded step-by-step in code. Anthropic 官方 Claude 账号展示了三个令人惊叹的演示：Fable 5.2 的探索应用、一个机器臂在修正自身 7mm 形变的情况下完成 62 步跳棋，以及用代码逐步折叠出纸艺作品。
+
+Sources: https://x.com/claudeai/status/2125616074242552180 | https://x.com/claudeai/status/2125616072543944854 | https://x.com/claudeai/status/2125616070652555573
+
+---
+
+🎙️ PODCAST: Training Data — OpenAI's Noam Brown: Why Game Theory Didn't Lead to General Intelligence
+
+Source: https://www.youtube.com/watch?v=tRaFbDFBl_A
+Published: 2026-11-24
+
+## 一、深度总结
+
+OpenAI researcher Noam Brown — the mind behind Libratus (poker) and CICERO (diplomacy) — sat down for a live conversation at the No Limit Finals to trace his intellectual journey from poker bots to general reasoning. His central thesis: game theory, despite being his life's work, turned out not to be the path to general intelligence.
+
+OpenAI 研究员 Noam Brown——扑克 AI Libratus 和外交游戏 AI CICERO 的核心创造者——在 No Limit Finals 现场分享了他从扑克机器人到通用推理的思想历程。他的核心论点：博弈论，尽管是他毕生的研究领域，却并非通向通用智能的道路。
+
+**From Poker to Diplomacy: The Limits of Rationality**
+**从扑克到外交：理性假设的局限**
+
+Brown started his PhD in 2012 working on poker AI — drawn to the game's perfect mathematical strategy that nobody knew but that could, in theory, yield unlimited money. He worked on it continuously through his PhD, eventually winning the MIT PokerBots competition in 2014 and 2015.
+
+Brown 于 2012 年开始攻读博士，研究扑克 AI——这个游戏存在完美的数学策略，无人知晓，但理论上可以带来无限收益。他在整个博士阶段持续研究此课题，并于 2014 年和 2015 年连续赢得 MIT PokerBots 竞赛。
+
+After poker, he targeted diplomacy — which in 2019 seemed like the hardest possible game for AI: natural language negotiations, cooperative alliances, deeply irrational human behavior. The game theory approach failed badly. When bots played GTO diplomacy, they would make "penny offers" in ultimatum game scenarios — offers any real human would immediately reject. The lesson: assuming rationality is a catastrophic mistake in real human interactions.
+
+攻克扑克之后，他将目标转向外交游戏——2019 年这看起来是 AI 最难攻克的游戏：自然语言谈判、合作联盟、高度非理性的人类行为。博弈论方法彻底失败。当机器人用 GTO（博弈论最优）策略打外交时，会在最后通牒博弈中出价"一分钱"——任何真实人类都会立刻拒绝的报价。教训：在真实人际互动中，假设对方理性是灾难性的错误。
+
+The solution was to train on massive human data — not to assume rationality, but to model how people actually behave — then optimize against that modeled behavior. This is what made CICERO superhuman at diplomacy.
+
+解决方案是大规模训练人类数据——不假设理性，而是建模人类的真实行为方式——再针对这一行为模型进行优化。这正是 CICERO 在外交游戏中达到超人水平的关键。
+
+**The Pivot to Reasoning**
+**转向推理**
+
+Around 2022, Brown faced a career crossroads. It was becoming clear that game theory wasn't the path — but that training on human data, modeling behavior, and scaling up reasoning via RL was. Despite game theory being his entire expertise, he pivoted.
+
+2022 年前后，Brown 面临职业岔路口。博弈论显然不是通路，但在人类数据上训练、建模行为、通过强化学习扩展推理能力才是。尽管博弈论是他全部的专业积累，他还是选择了转型。
+
+He joined OpenAI arguing that GPT-4 couldn't play Go, chess, or poker not because of transformer limitations, but because it needed reinforcement learning on chain-of-thought. His insight: in every game where AI beat top humans — chess, Go, poker, diplomacy — the AI needed to think before acting. Chain of thought + RL turned out to be the general solution.
+
+他加入 OpenAI 时论证道：GPT-4 不会下围棋、下象棋或打扑克，不是因为 Transformer 的限制，而是因为它需要在思维链上进行强化学习。他的洞见：在每一个 AI 击败顶尖人类的游戏中——象棋、围棋、扑克、外交——AI 都需要在行动前先思考。思维链 + 强化学习，最终成为通用解法。
+
+**The Centaur Era**
+**半人马时代**
+
+Brown is bullish on the "centaur" model — human + AI as a combined unit outperforming either alone. He uses poker bot building as his personal model evaluation benchmark: each new model he tests by asking it to build a poker bot. With 5.5/5.6, he felt models were 10-20x multiplying his ability — but couldn't quite do it alone. Astra is close to profitable online poker but still needs human judgment for a full-scale bot.
+
+Brown 对"半人马"模式持乐观态度——人类 + AI 的组合单元优于任何一方单独行动。他把构建扑克机器人作为个人模型评估基准：每次测试新模型，都会让它构建一个扑克机器人。5.5/5.6 版本让他感到模型已将他的能力放大 10-20 倍——但还不能完全独立完成。Astra 已接近能在线上扑克中盈利，但构建完整机器人仍需要人类判断。
+
+What's still missing: long-term planning and knowing when to step back. Models get overfocused on sub-problems (like perfecting CFR numerics that don't actually matter) and miss the big picture.
+
+仍缺失的能力：长期规划，以及知道何时退后一步重新审视。模型容易过度专注于子问题（比如优化实际上无关紧要的 CFR 数值精度），而忽视大局。
+
+**On RSI and the Speed of Progress**
+**关于 RSI 与进步速度**
+
+Brown views recursive self-improvement not as a novel concept but as the entire history of human technological progress — using technology to advance technology. He sees AI's jaggedness as actually lucky — it means humans are still necessary. But he expects very rapid progress over the next 1-2 years.
+
+Brown 认为递归自我改进并非新概念，而是人类技术进步的全部历史——用技术推动技术。他认为 AI 的"参差不齐"实际上是幸运的——这意味着人类仍然是必要的。但他预计未来 1-2 年将出现非常快速的进展。
+
+His most controversial take: for promising students, the best move right now might be to drop out and join an AI lab. He's seen several people skip their senior year of college and do exceptionally well.
+
+他最具争议的观点：对于有潜力的学生，现在最好的选择可能是退学加入 AI 实验室。他见过几个跳过大四直接就业的年轻人表现出色。
+
+## 二、金句摘录
+
+> "The game theory approach doesn't actually work that well in diplomacy. If you assume rationality as a central pillar, you're going to make mistakes."
+> "博弈论方法在外交游戏中效果很差。如果把理性假设作为核心支柱，你就会犯错。"
+
+> "The real way to make a superhuman diplomacy AI is to train on human data — to understand people to such a degree that you don't assume rationality."
+> "打造超人外交 AI 的真正方法，是训练人类数据——深入理解人类，而不是假设人类理性。"
+
+> "The key unlock was: the longer the model takes to think before responding, the better it does."
+> "关键突破是：模型在回答前思考的时间越长，表现越好。"
+
+> "My most controversial take: if somebody is a promising student, the best thing to do is actually to drop out and join the labs now."
+> "我最具争议的观点：对于有潜力的学生，现在最好的选择可能是退学、加入实验室。"
